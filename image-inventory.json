@@ -1,0 +1,4537 @@
+{
+  "totalImages": 564,
+  "totalSize": 147089107,
+  "totalSizeFormatted": "140.28 MB",
+  "byExtension": {
+    ".gif": {
+      "count": 3,
+      "size": 11664054
+    },
+    ".jpg": {
+      "count": 387,
+      "size": 87112443
+    },
+    ".png": {
+      "count": 69,
+      "size": 25903946
+    },
+    ".jpeg": {
+      "count": 105,
+      "size": 22408664
+    }
+  },
+  "images": [
+    {
+      "path": "/images/shutterstock_25374401_AdobeExpress_AdobeExpress.gif",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_25374401_AdobeExpress_AdobeExpress.gif",
+      "name": "shutterstock_25374401_AdobeExpress_AdobeExpress.gif",
+      "size": 11586844,
+      "sizeFormatted": "11.05 MB",
+      "extension": ".gif"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1.jpg",
+      "size": 2687428,
+      "sizeFormatted": "2.56 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy.jpg",
+      "size": 2687428,
+      "sizeFormatted": "2.56 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat.png",
+      "name": "SiliconeRoofCoat.png",
+      "size": 2424670,
+      "sizeFormatted": "2.31 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/shutterstock_2128491935.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935.jpg",
+      "name": "shutterstock_2128491935.jpg",
+      "size": 2146267,
+      "sizeFormatted": "2.05 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-after3.jpg",
+      "name": "sleepy-hollow-after3.jpg",
+      "size": 1920363,
+      "sizeFormatted": "1.83 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-after2.jpg",
+      "name": "sleepy-hollow-after2.jpg",
+      "size": 1869603,
+      "sizeFormatted": "1.78 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/Professional_roofing_crew_on_Texas_residential_home.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\Professional_roofing_crew_on_Texas_residential_home.png",
+      "name": "Professional_roofing_crew_on_Texas_residential_home.png",
+      "size": 1694114,
+      "sizeFormatted": "1.62 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/Large_commercial_flat_roof_installation2.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\Large_commercial_flat_roof_installation2.png",
+      "name": "Large_commercial_flat_roof_installation2.png",
+      "size": 1673546,
+      "sizeFormatted": "1.6 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/Roof-ventilation-2048x875-1.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-ventilation-2048x875-1.png",
+      "name": "Roof-ventilation-2048x875-1.png",
+      "size": 1668546,
+      "sizeFormatted": "1.59 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/Large_commercial_flat_roof_installation0.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\Large_commercial_flat_roof_installation0.png",
+      "name": "Large_commercial_flat_roof_installation0.png",
+      "size": 1616645,
+      "sizeFormatted": "1.54 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/image-asset-1.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1.jpeg",
+      "name": "image-asset-1.jpeg",
+      "size": 1584497,
+      "sizeFormatted": "1.51 MB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/Large_commercial_flat_roof_installation1.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\Large_commercial_flat_roof_installation1.png",
+      "name": "Large_commercial_flat_roof_installation1.png",
+      "size": 1571411,
+      "sizeFormatted": "1.5 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/TPO2.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2.png",
+      "name": "TPO2.png",
+      "size": 1551706,
+      "sizeFormatted": "1.48 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/asphaltshingles.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles.jpg",
+      "name": "asphaltshingles.jpg",
+      "size": 1495723,
+      "sizeFormatted": "1.43 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/3tabroofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing.jpg",
+      "name": "3tabroofing.jpg",
+      "size": 1433702,
+      "sizeFormatted": "1.37 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-1536x1152.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-1536x1152.png",
+      "name": "TPO2-1536x1152.png",
+      "size": 1427095,
+      "sizeFormatted": "1.36 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/Large_commercial_flat_roof_installation3.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\Large_commercial_flat_roof_installation3.png",
+      "name": "Large_commercial_flat_roof_installation3.png",
+      "size": 1414605,
+      "sizeFormatted": "1.35 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat-1364x2048.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat-1364x2048.png",
+      "name": "SiliconeRoofCoat-1364x2048.png",
+      "size": 1380580,
+      "sizeFormatted": "1.32 MB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/image-asset-3.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3.jpeg",
+      "name": "image-asset-3.jpeg",
+      "size": 1352069,
+      "sizeFormatted": "1.29 MB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_2128491935-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935-2048x1536.jpg",
+      "name": "shutterstock_2128491935-2048x1536.jpg",
+      "size": 1327250,
+      "sizeFormatted": "1.27 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-2.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2.jpeg",
+      "name": "image-asset-2.jpeg",
+      "size": 1253313,
+      "sizeFormatted": "1.2 MB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-4.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4.jpeg",
+      "name": "image-asset-4.jpeg",
+      "size": 1247727,
+      "sizeFormatted": "1.19 MB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-before2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-before2.jpg",
+      "name": "sleepy-hollow-before2.jpg",
+      "size": 1242521,
+      "sizeFormatted": "1.18 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-after4.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-after4.jpg",
+      "name": "sleepy-hollow-after4.jpg",
+      "size": 1231421,
+      "sizeFormatted": "1.17 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-after1.jpg",
+      "name": "sleepy-hollow-after1.jpg",
+      "size": 1143733,
+      "sizeFormatted": "1.09 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Aerialview.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview.jpeg",
+      "name": "Aerialview.jpeg",
+      "size": 1119697,
+      "sizeFormatted": "1.07 MB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/scallopedshingles.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles.jpg",
+      "name": "scallopedshingles.jpg",
+      "size": 1073220,
+      "sizeFormatted": "1.02 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown4-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown4-after2.jpg",
+      "name": "unknown4-after2.jpg",
+      "size": 1053383,
+      "sizeFormatted": "1 MB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2.jpg",
+      "name": "EPDM2.jpg",
+      "size": 1011867,
+      "sizeFormatted": "988.15 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-3.jpg",
+      "name": "hail-damage-3.jpg",
+      "size": 1004536,
+      "sizeFormatted": "980.99 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-ventilation-2048x875-1-1536x656.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-ventilation-2048x875-1-1536x656.png",
+      "name": "Roof-ventilation-2048x875-1-1536x656.png",
+      "size": 989645,
+      "sizeFormatted": "966.45 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/unknown3-after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown3-after3.jpg",
+      "name": "unknown3-after3.jpg",
+      "size": 988102,
+      "sizeFormatted": "964.94 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/borger/borger-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\borger\\borger-after2.jpg",
+      "name": "borger-after2.jpg",
+      "size": 980549,
+      "sizeFormatted": "957.57 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707.jpg",
+      "name": "shutterstock_2140326707.jpg",
+      "size": 922332,
+      "sizeFormatted": "900.71 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown5-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown5-after2.jpg",
+      "name": "unknown5-after2.jpg",
+      "size": 919477,
+      "sizeFormatted": "897.93 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/asphaltshingles-2048x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles-2048x1024.jpg",
+      "name": "asphaltshingles-2048x1024.jpg",
+      "size": 917678,
+      "sizeFormatted": "896.17 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/in-progress/working1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\in-progress\\working1.jpg",
+      "name": "working1.jpg",
+      "size": 917509,
+      "sizeFormatted": "896 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat-1023x1536.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat-1023x1536.png",
+      "name": "SiliconeRoofCoat-1023x1536.png",
+      "size": 910779,
+      "sizeFormatted": "889.43 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/logo-black-gold.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold.png",
+      "name": "logo-black-gold.png",
+      "size": 909737,
+      "sizeFormatted": "888.42 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/shutterstock_473737921.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921.jpg",
+      "name": "shutterstock_473737921.jpg",
+      "size": 899604,
+      "sizeFormatted": "878.52 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown4-after4.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown4-after4.jpg",
+      "name": "unknown4-after4.jpg",
+      "size": 899069,
+      "sizeFormatted": "878 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-before3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-before3.jpg",
+      "name": "sleepy-hollow-before3.jpg",
+      "size": 888718,
+      "sizeFormatted": "867.89 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Shippingyardroof.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof.jpg",
+      "name": "Shippingyardroof.jpg",
+      "size": 869757,
+      "sizeFormatted": "849.37 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/metal-roofing-tiles.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles.jpg",
+      "name": "metal-roofing-tiles.jpg",
+      "size": 862879,
+      "sizeFormatted": "842.66 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-1-2048x1366.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1-2048x1366.jpeg",
+      "name": "image-asset-1-2048x1366.jpeg",
+      "size": 862283,
+      "sizeFormatted": "842.07 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/3tabroofing-2048x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing-2048x1024.jpg",
+      "name": "3tabroofing-2048x1024.jpg",
+      "size": 854524,
+      "sizeFormatted": "834.5 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/borger/borger-after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\borger\\borger-after3.jpg",
+      "name": "borger-after3.jpg",
+      "size": 853367,
+      "sizeFormatted": "833.37 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown5-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown5-after1.jpg",
+      "name": "unknown5-after1.jpg",
+      "size": 852269,
+      "sizeFormatted": "832.29 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_162724754.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754.jpg",
+      "name": "shutterstock_162724754.jpg",
+      "size": 831764,
+      "sizeFormatted": "812.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/darkgreybackground.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground.jpeg",
+      "name": "darkgreybackground.jpeg",
+      "size": 830608,
+      "sizeFormatted": "811.14 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/tpo-sunset9.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset9.jpg",
+      "name": "tpo-sunset9.jpg",
+      "size": 823089,
+      "sizeFormatted": "803.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/sleepy-hollow/sleepy-hollow-before1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\sleepy-hollow\\sleepy-hollow-before1.jpg",
+      "name": "sleepy-hollow-before1.jpg",
+      "size": 807168,
+      "sizeFormatted": "788.25 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown3-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown3-after2.jpg",
+      "name": "unknown3-after2.jpg",
+      "size": 796555,
+      "sizeFormatted": "777.89 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2128491935-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935-1536x1152.jpg",
+      "name": "shutterstock_2128491935-1536x1152.jpg",
+      "size": 776968,
+      "sizeFormatted": "758.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1-2048x2048.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1-2048x2048.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1-2048x2048.jpg",
+      "size": 776945,
+      "sizeFormatted": "758.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-2048x2048.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-2048x2048.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-2048x2048.jpg",
+      "size": 776945,
+      "sizeFormatted": "758.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/hero-commercial-roofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\hero-commercial-roofing.jpg",
+      "name": "hero-commercial-roofing.jpg",
+      "size": 767846,
+      "sizeFormatted": "749.85 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/in-progress/working2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\in-progress\\working2.jpg",
+      "name": "working2.jpg",
+      "size": 760803,
+      "sizeFormatted": "742.97 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-1024x768.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-1024x768.png",
+      "name": "TPO2-1024x768.png",
+      "size": 749334,
+      "sizeFormatted": "731.77 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/borger/borger-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\borger\\borger-after1.jpg",
+      "name": "borger-after1.jpg",
+      "size": 739272,
+      "sizeFormatted": "721.95 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-3-2048x1536.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3-2048x1536.jpeg",
+      "name": "image-asset-3-2048x1536.jpeg",
+      "size": 737684,
+      "sizeFormatted": "720.39 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/borger/borger-before2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\borger\\borger-before2.jpg",
+      "name": "borger-before2.jpg",
+      "size": 725649,
+      "sizeFormatted": "708.64 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scallopedshingles-2048x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles-2048x1024.jpg",
+      "name": "scallopedshingles-2048x1024.jpg",
+      "size": 721798,
+      "sizeFormatted": "704.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-4-2048x1153.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4-2048x1153.jpeg",
+      "name": "image-asset-4-2048x1153.jpeg",
+      "size": 719051,
+      "sizeFormatted": "702.2 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-2-2048x1153.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2-2048x1153.jpeg",
+      "name": "image-asset-2-2048x1153.jpeg",
+      "size": 686271,
+      "sizeFormatted": "670.19 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Aerialview-2048x1365.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview-2048x1365.jpeg",
+      "name": "Aerialview-2048x1365.jpeg",
+      "size": 680333,
+      "sizeFormatted": "664.39 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/unknown3-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown3-after1.jpg",
+      "name": "unknown3-after1.jpg",
+      "size": 679828,
+      "sizeFormatted": "663.89 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/borger/borger-after4.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\borger\\borger-after4.jpg",
+      "name": "borger-after4.jpg",
+      "size": 654355,
+      "sizeFormatted": "639.02 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/hero-homepage-storm-to-sun.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\hero-homepage-storm-to-sun.png",
+      "name": "hero-homepage-storm-to-sun.png",
+      "size": 645276,
+      "sizeFormatted": "630.15 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset.jpg",
+      "name": "cover-background-roofing-sunset.jpg",
+      "size": 626084,
+      "sizeFormatted": "611.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/logo-black-gold-2048x2048.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-2048x2048.png",
+      "name": "logo-black-gold-2048x2048.png",
+      "size": 624835,
+      "sizeFormatted": "610.19 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/SteelRoofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing.jpg",
+      "name": "SteelRoofing.jpg",
+      "size": 606325,
+      "sizeFormatted": "592.11 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SyntheticTiles.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles.jpeg",
+      "name": "SyntheticTiles.jpeg",
+      "size": 602704,
+      "sizeFormatted": "588.58 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/EPDM2-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2-2048x1536.jpg",
+      "name": "EPDM2-2048x1536.jpg",
+      "size": 598278,
+      "sizeFormatted": "584.26 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_473737921-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921-2048x1366.jpg",
+      "name": "shutterstock_473737921-2048x1366.jpg",
+      "size": 593337,
+      "sizeFormatted": "579.43 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat-768x1153.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat-768x1153.png",
+      "name": "SiliconeRoofCoat-768x1153.png",
+      "size": 591539,
+      "sizeFormatted": "577.67 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PVC1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1.jpg",
+      "name": "PVC1.jpg",
+      "size": 572783,
+      "sizeFormatted": "559.36 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1.jpg",
+      "size": 566154,
+      "sizeFormatted": "552.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX.jpg",
+      "size": 566154,
+      "sizeFormatted": "552.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-3-1536x957.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-3-1536x957.jpg",
+      "name": "hail-damage-3-1536x957.jpg",
+      "size": 553559,
+      "sizeFormatted": "540.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707-2048x1366.jpg",
+      "name": "shutterstock_2140326707-2048x1366.jpg",
+      "size": 545566,
+      "sizeFormatted": "532.78 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/industrialroofimage.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\industrialroofimage.jpeg",
+      "name": "industrialroofimage.jpeg",
+      "size": 543062,
+      "sizeFormatted": "530.33 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Shippingyardroof-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof-2048x1536.jpg",
+      "name": "Shippingyardroof-2048x1536.jpg",
+      "size": 537105,
+      "sizeFormatted": "524.52 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/metal-roofing-tiles-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles-2048x1536.jpg",
+      "name": "metal-roofing-tiles-2048x1536.jpg",
+      "size": 529433,
+      "sizeFormatted": "517.02 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2.jpg",
+      "name": "PVC2.jpg",
+      "size": 525852,
+      "sizeFormatted": "513.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/asphaltshingles-1536x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles-1536x768.jpg",
+      "name": "asphaltshingles-1536x768.jpg",
+      "size": 524884,
+      "sizeFormatted": "512.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_162724754-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754-2048x1366.jpg",
+      "name": "shutterstock_162724754-2048x1366.jpg",
+      "size": 522000,
+      "sizeFormatted": "509.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-1-1536x1025.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1-1536x1025.jpeg",
+      "name": "image-asset-1-1536x1025.jpeg",
+      "size": 513752,
+      "sizeFormatted": "501.71 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat-682x1024.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat-682x1024.png",
+      "name": "SiliconeRoofCoat-682x1024.png",
+      "size": 494128,
+      "sizeFormatted": "482.55 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/darkgreybackground-2048x1280.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground-2048x1280.jpeg",
+      "name": "darkgreybackground-2048x1280.jpeg",
+      "size": 486646,
+      "sizeFormatted": "475.24 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Roof-ventilation-2048x875-1-1024x438.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-ventilation-2048x875-1-1024x438.png",
+      "name": "Roof-ventilation-2048x875-1-1024x438.png",
+      "size": 485849,
+      "sizeFormatted": "474.46 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/3tabroofing-1536x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing-1536x768.jpg",
+      "name": "3tabroofing-1536x768.jpg",
+      "size": 483377,
+      "sizeFormatted": "472.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat.jpg",
+      "name": "AsphaltRoofCoat.jpg",
+      "size": 480138,
+      "sizeFormatted": "468.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1.jpg",
+      "name": "TPO1.jpg",
+      "size": 478404,
+      "sizeFormatted": "467.19 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-768x576.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-768x576.png",
+      "name": "TPO2-768x576.png",
+      "size": 459403,
+      "sizeFormatted": "448.64 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/scallopedshingles-1536x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles-1536x768.jpg",
+      "name": "scallopedshingles-1536x768.jpg",
+      "size": 447714,
+      "sizeFormatted": "437.22 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/borger/borger-before1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\borger\\borger-before1.jpg",
+      "name": "borger-before1.jpg",
+      "size": 445248,
+      "sizeFormatted": "434.81 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat.jpg",
+      "name": "PolyurethaneRoofCoat.jpg",
+      "size": 443122,
+      "sizeFormatted": "432.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-3-1536x1152.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3-1536x1152.jpeg",
+      "name": "image-asset-3-1536x1152.jpeg",
+      "size": 423766,
+      "sizeFormatted": "413.83 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-4-1536x864.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4-1536x864.jpeg",
+      "name": "image-asset-4-1536x864.jpeg",
+      "size": 422467,
+      "sizeFormatted": "412.57 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\after2.jpg",
+      "name": "after2.jpg",
+      "size": 421290,
+      "sizeFormatted": "411.42 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset1.jpg",
+      "name": "tpo-sunset1.jpg",
+      "size": 420899,
+      "sizeFormatted": "411.03 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset5.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset5.jpg",
+      "name": "tpo-sunset5.jpg",
+      "size": 420899,
+      "sizeFormatted": "411.03 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Aerialview-1536x1024.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview-1536x1024.jpeg",
+      "name": "Aerialview-1536x1024.jpeg",
+      "size": 415273,
+      "sizeFormatted": "405.54 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1-1536x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1-1536x1536.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1-1536x1536.jpg",
+      "size": 414797,
+      "sizeFormatted": "405.08 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1536x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1536x1536.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1536x1536.jpg",
+      "size": 414797,
+      "sizeFormatted": "405.08 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset7.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset7.jpg",
+      "name": "tpo-sunset7.jpg",
+      "size": 413206,
+      "sizeFormatted": "403.52 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset8.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset8.jpg",
+      "name": "tpo-sunset8.jpg",
+      "size": 411480,
+      "sizeFormatted": "401.84 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-2-1536x864.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2-1536x864.jpeg",
+      "name": "image-asset-2-1536x864.jpeg",
+      "size": 404826,
+      "sizeFormatted": "395.34 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/EPDM3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM3.jpg",
+      "name": "EPDM3.jpg",
+      "size": 403757,
+      "sizeFormatted": "394.29 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\after1.jpg",
+      "name": "after1.jpg",
+      "size": 402779,
+      "sizeFormatted": "393.34 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SyntheticTiles-2048x1365.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles-2048x1365.jpeg",
+      "name": "SyntheticTiles-2048x1365.jpeg",
+      "size": 400955,
+      "sizeFormatted": "391.56 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/tpo-sunset6.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset6.jpg",
+      "name": "tpo-sunset6.jpg",
+      "size": 398307,
+      "sizeFormatted": "388.97 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/logo-black-gold-1536x1536.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-1536x1536.png",
+      "name": "logo-black-gold-1536x1536.png",
+      "size": 387678,
+      "sizeFormatted": "378.59 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/tpo/tpo-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo\\tpo-after1.jpg",
+      "name": "tpo-after1.jpg",
+      "size": 387033,
+      "sizeFormatted": "377.96 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo/tpo-after4.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo\\tpo-after4.jpg",
+      "name": "tpo-after4.jpg",
+      "size": 387033,
+      "sizeFormatted": "377.96 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SteelRoofing-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing-2048x1366.jpg",
+      "name": "SteelRoofing-2048x1366.jpg",
+      "size": 383253,
+      "sizeFormatted": "374.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_473737921-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921-1536x1024.jpg",
+      "name": "shutterstock_473737921-1536x1024.jpg",
+      "size": 376883,
+      "sizeFormatted": "368.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-2048x1366.jpg",
+      "name": "cover-background-roofing-sunset-2048x1366.jpg",
+      "size": 375219,
+      "sizeFormatted": "366.42 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3.jpg",
+      "name": "PVC3.jpg",
+      "size": 365867,
+      "sizeFormatted": "357.29 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM2-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2-1536x1152.jpg",
+      "name": "EPDM2-1536x1152.jpg",
+      "size": 358132,
+      "sizeFormatted": "349.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Concretetile.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Concretetile.jpg",
+      "name": "Concretetile.jpg",
+      "size": 352088,
+      "sizeFormatted": "343.84 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC1-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1-2048x1366.jpg",
+      "name": "PVC1-2048x1366.jpg",
+      "size": 343543,
+      "sizeFormatted": "335.49 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1-2048x1361.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1-2048x1361.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1-2048x1361.jpg",
+      "size": 341323,
+      "sizeFormatted": "333.32 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-2048x1361.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-2048x1361.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-2048x1361.jpg",
+      "size": 341323,
+      "sizeFormatted": "333.32 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2128491935-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935-1024x768.jpg",
+      "name": "shutterstock_2128491935-1024x768.jpg",
+      "size": 340785,
+      "sizeFormatted": "332.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo/tpo-after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo\\tpo-after3.jpg",
+      "name": "tpo-after3.jpg",
+      "size": 337190,
+      "sizeFormatted": "329.29 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo/tpo-after6.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo\\tpo-after6.jpg",
+      "name": "tpo-after6.jpg",
+      "size": 337190,
+      "sizeFormatted": "329.29 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Shippingyardroof-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof-1536x1152.jpg",
+      "name": "Shippingyardroof-1536x1152.jpg",
+      "size": 334030,
+      "sizeFormatted": "326.2 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_162724754-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754-1536x1024.jpg",
+      "name": "shutterstock_162724754-1536x1024.jpg",
+      "size": 326406,
+      "sizeFormatted": "318.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707-1536x1024.jpg",
+      "name": "shutterstock_2140326707-1536x1024.jpg",
+      "size": 323302,
+      "sizeFormatted": "315.72 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/metal-roofing-tiles-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles-1536x1152.jpg",
+      "name": "metal-roofing-tiles-1536x1152.jpg",
+      "size": 321186,
+      "sizeFormatted": "313.66 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset4.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset4.jpg",
+      "name": "tpo-sunset4.jpg",
+      "size": 319684,
+      "sizeFormatted": "312.19 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Constructionhome.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Constructionhome.jpeg",
+      "name": "Constructionhome.jpeg",
+      "size": 318291,
+      "sizeFormatted": "310.83 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/PVC2-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2-2048x1536.jpg",
+      "name": "PVC2-2048x1536.jpg",
+      "size": 316765,
+      "sizeFormatted": "309.34 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo/tpo-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo\\tpo-after2.jpg",
+      "name": "tpo-after2.jpg",
+      "size": 313185,
+      "sizeFormatted": "305.84 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo/tpo-after5.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo\\tpo-after5.jpg",
+      "name": "tpo-after5.jpg",
+      "size": 313185,
+      "sizeFormatted": "305.84 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/InsulationRoof.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof.jpg",
+      "name": "InsulationRoof.jpg",
+      "size": 311006,
+      "sizeFormatted": "303.72 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO1-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1-2048x1536.jpg",
+      "name": "TPO1-2048x1536.jpg",
+      "size": 286941,
+      "sizeFormatted": "280.22 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-ventilation-2048x875-1-768x328.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-ventilation-2048x875-1-768x328.png",
+      "name": "Roof-ventilation-2048x875-1-768x328.png",
+      "size": 286109,
+      "sizeFormatted": "279.4 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat-2048x1366.jpg",
+      "name": "AsphaltRoofCoat-2048x1366.jpg",
+      "size": 282633,
+      "sizeFormatted": "276.01 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown2-after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown2-after3.jpg",
+      "name": "unknown2-after3.jpg",
+      "size": 278888,
+      "sizeFormatted": "272.35 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/unknown2-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown2-after2.jpg",
+      "name": "unknown2-after2.jpg",
+      "size": 276293,
+      "sizeFormatted": "269.82 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset3.jpg",
+      "name": "tpo-sunset3.jpg",
+      "size": 275838,
+      "sizeFormatted": "269.37 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-3-1024x638.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-3-1024x638.jpg",
+      "name": "hail-damage-3-1024x638.jpg",
+      "size": 275567,
+      "sizeFormatted": "269.11 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/tpo-sunset2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\tpo-sunset2.jpg",
+      "name": "tpo-sunset2.jpg",
+      "size": 272805,
+      "sizeFormatted": "266.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/churchtpo-1536x864.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\churchtpo-1536x864.jpeg",
+      "name": "churchtpo-1536x864.jpeg",
+      "size": 270594,
+      "sizeFormatted": "264.25 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-vertical.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-vertical.jpg",
+      "name": "cover-background-roofing-sunset-vertical.jpg",
+      "size": 261429,
+      "sizeFormatted": "255.3 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/industrialroofimage-1536x747.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\industrialroofimage-1536x747.jpeg",
+      "name": "industrialroofimage-1536x747.jpeg",
+      "size": 261030,
+      "sizeFormatted": "254.91 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat-2048x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat-2048x1536.jpg",
+      "name": "PolyurethaneRoofCoat-2048x1536.jpg",
+      "size": 260285,
+      "sizeFormatted": "254.18 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SyntheticTiles-1536x1024.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles-1536x1024.jpeg",
+      "name": "SyntheticTiles-1536x1024.jpeg",
+      "size": 254329,
+      "sizeFormatted": "248.37 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/darkgreybackground-1536x960.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground-1536x960.jpeg",
+      "name": "darkgreybackground-1536x960.jpeg",
+      "size": 250556,
+      "sizeFormatted": "244.68 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/churchtpo.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\churchtpo.jpeg",
+      "name": "churchtpo.jpeg",
+      "size": 250227,
+      "sizeFormatted": "244.36 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/EPDM1.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM1.jpeg",
+      "name": "EPDM1.jpeg",
+      "size": 250200,
+      "sizeFormatted": "244.34 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/PVC3-2048x1366.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3-2048x1366.jpg",
+      "name": "PVC3-2048x1366.jpg",
+      "size": 244752,
+      "sizeFormatted": "239.02 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SteelRoofing-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing-1536x1024.jpg",
+      "name": "SteelRoofing-1536x1024.jpg",
+      "size": 244494,
+      "sizeFormatted": "238.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-1-1024x683.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1-1024x683.jpeg",
+      "name": "image-asset-1-1024x683.jpeg",
+      "size": 237611,
+      "sizeFormatted": "232.04 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_1180083679.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_1180083679.jpg",
+      "name": "shutterstock_1180083679.jpg",
+      "size": 234993,
+      "sizeFormatted": "229.49 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-1536x1024.jpg",
+      "name": "cover-background-roofing-sunset-1536x1024.jpg",
+      "size": 231384,
+      "sizeFormatted": "225.96 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HomeadvisorLogo.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HomeadvisorLogo.png",
+      "name": "HomeadvisorLogo.png",
+      "size": 230172,
+      "sizeFormatted": "224.78 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/scallopedshingles-1024x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles-1024x512.jpg",
+      "name": "scallopedshingles-1024x512.jpg",
+      "size": 216436,
+      "sizeFormatted": "211.36 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/asphaltshingles-1024x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles-1024x512.jpg",
+      "name": "asphaltshingles-1024x512.jpg",
+      "size": 216249,
+      "sizeFormatted": "211.18 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HomeadvisorLogo-1024x1024.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HomeadvisorLogo-1024x1024.png",
+      "name": "HomeadvisorLogo-1024x1024.png",
+      "size": 213955,
+      "sizeFormatted": "208.94 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\after3.jpg",
+      "name": "after3.jpg",
+      "size": 211736,
+      "sizeFormatted": "206.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1-1536x1021.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1-1536x1021.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1-1536x1021.jpg",
+      "size": 211613,
+      "sizeFormatted": "206.65 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1536x1021.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1536x1021.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1536x1021.jpg",
+      "size": 211613,
+      "sizeFormatted": "206.65 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ResidentialServices.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ResidentialServices.jpeg",
+      "name": "ResidentialServices.jpeg",
+      "size": 206573,
+      "sizeFormatted": "201.73 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/logo-black-gold-1024x1024.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-1024x1024.png",
+      "name": "logo-black-gold-1024x1024.png",
+      "size": 200743,
+      "sizeFormatted": "196.04 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/Aerialview-1024x682.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview-1024x682.jpeg",
+      "name": "Aerialview-1024x682.jpeg",
+      "size": 199512,
+      "sizeFormatted": "194.84 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/PVC1-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1-1536x1024.jpg",
+      "name": "PVC1-1536x1024.jpg",
+      "size": 199448,
+      "sizeFormatted": "194.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/photos/hereford/hereford-after3.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\hereford\\hereford-after3.jpg",
+      "name": "hereford-after3.jpg",
+      "size": 197757,
+      "sizeFormatted": "193.12 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/3tabroofing-1024x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing-1024x512.jpg",
+      "name": "3tabroofing-1024x512.jpg",
+      "size": 194905,
+      "sizeFormatted": "190.34 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM3-1024x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM3-1024x1024.jpg",
+      "name": "EPDM3-1024x1024.jpg",
+      "size": 194729,
+      "sizeFormatted": "190.17 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset.jpeg",
+      "name": "image-asset.jpeg",
+      "size": 194572,
+      "sizeFormatted": "190.01 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_473737921-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921-1024x683.jpg",
+      "name": "shutterstock_473737921-1024x683.jpg",
+      "size": 193202,
+      "sizeFormatted": "188.67 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-1.jpg",
+      "name": "shingles-1.jpg",
+      "size": 192650,
+      "sizeFormatted": "188.13 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles.jpg",
+      "name": "shingles.jpg",
+      "size": 192650,
+      "sizeFormatted": "188.13 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/InsulationRoof-2048x1122.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof-2048x1122.jpg",
+      "name": "InsulationRoof-2048x1122.jpg",
+      "size": 191990,
+      "sizeFormatted": "187.49 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC2-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2-1536x1152.jpg",
+      "name": "PVC2-1536x1152.jpg",
+      "size": 191262,
+      "sizeFormatted": "186.78 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-3-1024x768.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3-1024x768.jpeg",
+      "name": "image-asset-3-1024x768.jpeg",
+      "size": 191236,
+      "sizeFormatted": "186.75 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Concretetile-1536x1022.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Concretetile-1536x1022.jpg",
+      "name": "Concretetile-1536x1022.jpg",
+      "size": 190058,
+      "sizeFormatted": "185.6 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-4-1024x576.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4-1024x576.jpeg",
+      "name": "image-asset-4-1024x576.jpeg",
+      "size": 188791,
+      "sizeFormatted": "184.37 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/TPO2.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2.jpeg",
+      "name": "TPO2.jpeg",
+      "size": 186334,
+      "sizeFormatted": "181.97 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_2128491935-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935-768x576.jpg",
+      "name": "shutterstock_2128491935-768x576.jpg",
+      "size": 185368,
+      "sizeFormatted": "181.02 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-2-1024x576.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2-1024x576.jpeg",
+      "name": "image-asset-2-1024x576.jpeg",
+      "size": 184657,
+      "sizeFormatted": "180.33 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/hereford/hereford-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\hereford\\hereford-after1.jpg",
+      "name": "hereford-after1.jpg",
+      "size": 180714,
+      "sizeFormatted": "176.48 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1-1024x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1-1024x1024.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1-1024x1024.jpg",
+      "size": 176985,
+      "sizeFormatted": "172.84 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1024x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1024x1024.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1024x1024.jpg",
+      "size": 176985,
+      "sizeFormatted": "172.84 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Industrial-Roofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Industrial-Roofing.jpg",
+      "name": "Industrial-Roofing.jpg",
+      "size": 176611,
+      "sizeFormatted": "172.47 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat-1536x1024.jpg",
+      "name": "AsphaltRoofCoat-1536x1024.jpg",
+      "size": 174482,
+      "sizeFormatted": "170.39 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/DesignEyeQ.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\DesignEyeQ.jpeg",
+      "name": "DesignEyeQ.jpeg",
+      "size": 174351,
+      "sizeFormatted": "170.26 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/EPDM1-1536x1024.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM1-1536x1024.jpeg",
+      "name": "EPDM1-1536x1024.jpeg",
+      "size": 170417,
+      "sizeFormatted": "166.42 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/TPO1-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1-1536x1152.jpg",
+      "name": "TPO1-1536x1152.jpg",
+      "size": 169639,
+      "sizeFormatted": "165.66 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM2-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2-1024x768.jpg",
+      "name": "EPDM2-1024x768.jpg",
+      "size": 169033,
+      "sizeFormatted": "165.07 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/findlayroofingcom_616704329-1.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\findlayroofingcom_616704329-1.jpeg",
+      "name": "findlayroofingcom_616704329-1.jpeg",
+      "size": 168954,
+      "sizeFormatted": "164.99 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shingles-1-1024x688.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-1-1024x688.jpg",
+      "name": "shingles-1-1024x688.jpg",
+      "size": 167951,
+      "sizeFormatted": "164.01 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-1024x688.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-1024x688.jpg",
+      "name": "shingles-1024x688.jpg",
+      "size": 167951,
+      "sizeFormatted": "164.01 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Shippingyardroof-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof-1024x768.jpg",
+      "name": "Shippingyardroof-1024x768.jpg",
+      "size": 166164,
+      "sizeFormatted": "162.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_162724754-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754-1024x683.jpg",
+      "name": "shutterstock_162724754-1024x683.jpg",
+      "size": 163468,
+      "sizeFormatted": "159.64 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-1536x1152.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-1536x1152.jpeg",
+      "name": "TPO2-1536x1152.jpeg",
+      "size": 162514,
+      "sizeFormatted": "158.71 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/metal-roofing-tiles-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles-1024x768.jpg",
+      "name": "metal-roofing-tiles-1024x768.jpg",
+      "size": 162077,
+      "sizeFormatted": "158.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-3-768x478.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-3-768x478.jpg",
+      "name": "hail-damage-3-768x478.jpg",
+      "size": 161851,
+      "sizeFormatted": "158.06 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC3-1536x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3-1536x1024.jpg",
+      "name": "PVC3-1536x1024.jpg",
+      "size": 158248,
+      "sizeFormatted": "154.54 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707-1024x683.jpg",
+      "name": "shutterstock_2140326707-1024x683.jpg",
+      "size": 150285,
+      "sizeFormatted": "146.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CopperRoofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CopperRoofing.jpg",
+      "name": "CopperRoofing.jpg",
+      "size": 149923,
+      "sizeFormatted": "146.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HomeadvisorLogo-768x768.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HomeadvisorLogo-768x768.png",
+      "name": "HomeadvisorLogo-768x768.png",
+      "size": 145020,
+      "sizeFormatted": "141.62 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-vertical-694x1536.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-vertical-694x1536.jpg",
+      "name": "cover-background-roofing-sunset-vertical-694x1536.jpg",
+      "size": 144150,
+      "sizeFormatted": "140.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat-1536x1152.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat-1536x1152.jpg",
+      "name": "PolyurethaneRoofCoat-1536x1152.jpg",
+      "size": 140336,
+      "sizeFormatted": "137.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/churchtpo-1024x576.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\churchtpo-1024x576.jpeg",
+      "name": "churchtpo-1024x576.jpeg",
+      "size": 139483,
+      "sizeFormatted": "136.21 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/ResidentialServices-1024x640.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ResidentialServices-1024x640.jpeg",
+      "name": "ResidentialServices-1024x640.jpeg",
+      "size": 139412,
+      "sizeFormatted": "136.14 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-1-768x512.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1-768x512.jpeg",
+      "name": "image-asset-1-768x512.jpeg",
+      "size": 134274,
+      "sizeFormatted": "131.13 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Constructionhome-1024x686.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Constructionhome-1024x686.jpeg",
+      "name": "Constructionhome-1024x686.jpeg",
+      "size": 132791,
+      "sizeFormatted": "129.68 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/20160804-TA-79527-Edit-1-1024x768-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\20160804-TA-79527-Edit-1-1024x768-1.jpg",
+      "name": "20160804-TA-79527-Edit-1-1024x768-1.jpg",
+      "size": 132267,
+      "sizeFormatted": "129.17 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SyntheticTiles-1024x682.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles-1024x682.jpeg",
+      "name": "SyntheticTiles-1024x682.jpeg",
+      "size": 129600,
+      "sizeFormatted": "126.56 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/logo-black-gold-768x768.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-768x768.png",
+      "name": "logo-black-gold-768x768.png",
+      "size": 127001,
+      "sizeFormatted": "124.02 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/SteelRoofing-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing-1024x683.jpg",
+      "name": "SteelRoofing-1024x683.jpg",
+      "size": 125746,
+      "sizeFormatted": "122.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CopperRoofing-1024x685.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CopperRoofing-1024x685.jpg",
+      "name": "CopperRoofing-1024x685.jpg",
+      "size": 125561,
+      "sizeFormatted": "122.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scallopedshingles-768x384.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles-768x384.jpg",
+      "name": "scallopedshingles-768x384.jpg",
+      "size": 125211,
+      "sizeFormatted": "122.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/industrialroofimage-1024x498.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\industrialroofimage-1024x498.jpeg",
+      "name": "industrialroofimage-1024x498.jpeg",
+      "size": 123811,
+      "sizeFormatted": "120.91 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_1180083679-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_1180083679-768x512.jpg",
+      "name": "shutterstock_1180083679-768x512.jpg",
+      "size": 122860,
+      "sizeFormatted": "119.98 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/findlayroofingcom_616704329-1-768x507.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\findlayroofingcom_616704329-1-768x507.jpeg",
+      "name": "findlayroofingcom_616704329-1-768x507.jpeg",
+      "size": 119440,
+      "sizeFormatted": "116.64 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/photos/hereford/hereford-after2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\hereford\\hereford-after2.jpg",
+      "name": "hereford-after2.jpg",
+      "size": 119059,
+      "sizeFormatted": "116.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-1024x683.jpg",
+      "name": "cover-background-roofing-sunset-1024x683.jpg",
+      "size": 117126,
+      "sizeFormatted": "114.38 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_473737921-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921-768x512.jpg",
+      "name": "shutterstock_473737921-768x512.jpg",
+      "size": 116420,
+      "sizeFormatted": "113.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roofing-Methods.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roofing-Methods.jpg",
+      "name": "Roofing-Methods.jpg",
+      "size": 116002,
+      "sizeFormatted": "113.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/InsulationRoof-1536x842.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof-1536x842.jpg",
+      "name": "InsulationRoof-1536x842.jpg",
+      "size": 115766,
+      "sizeFormatted": "113.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Aerialview-768x512.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview-768x512.jpeg",
+      "name": "Aerialview-768x512.jpeg",
+      "size": 115668,
+      "sizeFormatted": "112.96 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/asphaltshingles-768x384.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles-768x384.jpg",
+      "name": "asphaltshingles-768x384.jpg",
+      "size": 111912,
+      "sizeFormatted": "109.29 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM3-768x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM3-768x768.jpg",
+      "name": "EPDM3-768x768.jpg",
+      "size": 111403,
+      "sizeFormatted": "108.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-3-768x576.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3-768x576.jpeg",
+      "name": "image-asset-3-768x576.jpeg",
+      "size": 109247,
+      "sizeFormatted": "106.69 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1-1024x680.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1-1024x680.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1-1024x680.jpg",
+      "size": 109160,
+      "sizeFormatted": "106.6 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1024x680.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1024x680.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1024x680.jpg",
+      "size": 109160,
+      "sizeFormatted": "106.6 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/repair-roof-.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\repair-roof-.jpg",
+      "name": "repair-roof-.jpg",
+      "size": 108566,
+      "sizeFormatted": "106.02 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Tpo-Workers.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Tpo-Workers.jpg",
+      "name": "Tpo-Workers.jpg",
+      "size": 108016,
+      "sizeFormatted": "105.48 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-1-768x516.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-1-768x516.jpg",
+      "name": "shingles-1-768x516.jpg",
+      "size": 107747,
+      "sizeFormatted": "105.22 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-768x516.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-768x516.jpg",
+      "name": "shingles-768x516.jpg",
+      "size": 107747,
+      "sizeFormatted": "105.22 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-4-768x432.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4-768x432.jpeg",
+      "name": "image-asset-4-768x432.jpeg",
+      "size": 104744,
+      "sizeFormatted": "102.29 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-2-768x432.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2-768x432.jpeg",
+      "name": "image-asset-2-768x432.jpeg",
+      "size": 103849,
+      "sizeFormatted": "101.42 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1-768x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1-768x768.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1-768x768.jpg",
+      "size": 102816,
+      "sizeFormatted": "100.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-768x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-768x768.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-768x768.jpg",
+      "size": 102816,
+      "sizeFormatted": "100.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/metal-roofing-tiles-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles-768x576.jpg",
+      "name": "metal-roofing-tiles-768x576.jpg",
+      "size": 101993,
+      "sizeFormatted": "99.6 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Shippingyardroof-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof-768x576.jpg",
+      "name": "Shippingyardroof-768x576.jpg",
+      "size": 99853,
+      "sizeFormatted": "97.51 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Concretetile-1024x682.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Concretetile-1024x682.jpg",
+      "name": "Concretetile-1024x682.jpg",
+      "size": 98870,
+      "sizeFormatted": "96.55 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM2-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2-768x576.jpg",
+      "name": "EPDM2-768x576.jpg",
+      "size": 98658,
+      "sizeFormatted": "96.35 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/3tabroofing-768x384.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing-768x384.jpg",
+      "name": "3tabroofing-768x384.jpg",
+      "size": 98363,
+      "sizeFormatted": "96.06 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_162724754-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754-768x512.jpg",
+      "name": "shutterstock_162724754-768x512.jpg",
+      "size": 97546,
+      "sizeFormatted": "95.26 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-768x432.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-768x432.jpeg",
+      "name": "image-asset-768x432.jpeg",
+      "size": 96817,
+      "sizeFormatted": "94.55 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/PVC2-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2-1024x768.jpg",
+      "name": "PVC2-1024x768.jpg",
+      "size": 96013,
+      "sizeFormatted": "93.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/repair-roof--1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\repair-roof--1024x683.jpg",
+      "name": "repair-roof--1024x683.jpg",
+      "size": 95325,
+      "sizeFormatted": "93.09 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/DesignEyeQ-768x478.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\DesignEyeQ-768x478.jpeg",
+      "name": "DesignEyeQ-768x478.jpeg",
+      "size": 93180,
+      "sizeFormatted": "91 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/darkgreybackground-1024x640.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground-1024x640.jpeg",
+      "name": "darkgreybackground-1024x640.jpeg",
+      "size": 92476,
+      "sizeFormatted": "90.31 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Industrial-Roofing-768x432.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Industrial-Roofing-768x432.jpg",
+      "name": "Industrial-Roofing-768x432.jpg",
+      "size": 92352,
+      "sizeFormatted": "90.19 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat-1024x683.jpg",
+      "name": "AsphaltRoofCoat-1024x683.jpg",
+      "size": 91414,
+      "sizeFormatted": "89.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM1-1024x682.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM1-1024x682.jpeg",
+      "name": "EPDM1-1024x682.jpeg",
+      "size": 90175,
+      "sizeFormatted": "88.06 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/fasciasoffitblog3_aug21-1024x446.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\fasciasoffitblog3_aug21-1024x446.jpg",
+      "name": "fasciasoffitblog3_aug21-1024x446.jpg",
+      "size": 88497,
+      "sizeFormatted": "86.42 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-300x225.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-300x225.png",
+      "name": "TPO2-300x225.png",
+      "size": 87461,
+      "sizeFormatted": "85.41 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PVC1-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1-1024x683.jpg",
+      "name": "PVC1-1024x683.jpg",
+      "size": 87374,
+      "sizeFormatted": "85.33 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC3-1024x683.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3-1024x683.jpg",
+      "name": "PVC3-1024x683.jpg",
+      "size": 86847,
+      "sizeFormatted": "84.81 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/fasciasoffitblog3_aug21.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\fasciasoffitblog3_aug21.jpg",
+      "name": "fasciasoffitblog3_aug21.jpg",
+      "size": 86534,
+      "sizeFormatted": "84.51 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ZincRoofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ZincRoofing.jpg",
+      "name": "ZincRoofing.jpg",
+      "size": 86083,
+      "sizeFormatted": "84.07 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ResidentialServices-768x480.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ResidentialServices-768x480.jpeg",
+      "name": "ResidentialServices-768x480.jpeg",
+      "size": 85921,
+      "sizeFormatted": "83.91 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707-768x512.jpg",
+      "name": "shutterstock_2140326707-768x512.jpg",
+      "size": 85600,
+      "sizeFormatted": "83.59 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scaffold-1207389_640-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scaffold-1207389_640-1.jpg",
+      "name": "scaffold-1207389_640-1.jpg",
+      "size": 84734,
+      "sizeFormatted": "82.75 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/churchtpo-768x432.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\churchtpo-768x432.jpeg",
+      "name": "churchtpo-768x432.jpeg",
+      "size": 84584,
+      "sizeFormatted": "82.6 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/TPO2-1024x768.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-1024x768.jpeg",
+      "name": "TPO2-1024x768.jpeg",
+      "size": 82906,
+      "sizeFormatted": "80.96 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/TPO1-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1-1024x768.jpg",
+      "name": "TPO1-1024x768.jpg",
+      "size": 82491,
+      "sizeFormatted": "80.56 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Alluminumroofing.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Alluminumroofing.jpg",
+      "name": "Alluminumroofing.jpg",
+      "size": 82106,
+      "sizeFormatted": "80.18 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CopperRoofing-768x514.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CopperRoofing-768x514.jpg",
+      "name": "CopperRoofing-768x514.jpg",
+      "size": 81367,
+      "sizeFormatted": "79.46 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/commercial-roof-1024x575-panorama.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\commercial-roof-1024x575-panorama.jpeg",
+      "name": "commercial-roof-1024x575-panorama.jpeg",
+      "size": 81327,
+      "sizeFormatted": "79.42 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Constructionhome-768x515.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Constructionhome-768x515.jpeg",
+      "name": "Constructionhome-768x515.jpeg",
+      "size": 78065,
+      "sizeFormatted": "76.24 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/SyntheticTiles-768x512.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles-768x512.jpeg",
+      "name": "SyntheticTiles-768x512.jpeg",
+      "size": 77919,
+      "sizeFormatted": "76.09 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/SteelRoofing-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing-768x512.jpg",
+      "name": "SteelRoofing-768x512.jpg",
+      "size": 77036,
+      "sizeFormatted": "75.23 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/20160804-TA-79527-Edit-1-1024x768-1-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\20160804-TA-79527-Edit-1-1024x768-1-768x576.jpg",
+      "name": "20160804-TA-79527-Edit-1-1024x768-1-768x576.jpg",
+      "size": 76586,
+      "sizeFormatted": "74.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-vertical-463x1024.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-vertical-463x1024.jpg",
+      "name": "cover-background-roofing-sunset-vertical-463x1024.jpg",
+      "size": 71962,
+      "sizeFormatted": "70.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/industrialroofimage-768x373.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\industrialroofimage-768x373.jpeg",
+      "name": "industrialroofimage-768x373.jpeg",
+      "size": 71596,
+      "sizeFormatted": "69.92 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-768x512.jpg",
+      "name": "cover-background-roofing-sunset-768x512.jpg",
+      "size": 71530,
+      "sizeFormatted": "69.85 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-roof-repair-rewrite.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-roof-repair-rewrite.jpg",
+      "name": "hail-damage-roof-repair-rewrite.jpg",
+      "size": 69674,
+      "sizeFormatted": "68.04 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1-768x510.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1-768x510.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1-768x510.jpg",
+      "size": 68883,
+      "sizeFormatted": "67.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-768x510.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-768x510.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-768x510.jpg",
+      "size": 68883,
+      "sizeFormatted": "67.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CommercialRoofing.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CommercialRoofing.jpeg",
+      "name": "CommercialRoofing.jpeg",
+      "size": 68266,
+      "sizeFormatted": "66.67 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat-200x300.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat-200x300.png",
+      "name": "SiliconeRoofCoat-200x300.png",
+      "size": 66112,
+      "sizeFormatted": "64.56 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-530984606-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-530984606-612x612-1.jpg",
+      "name": "istockphoto-530984606-612x612-1.jpg",
+      "size": 65448,
+      "sizeFormatted": "63.91 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roofing-Methods-768x513.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roofing-Methods-768x513.jpg",
+      "name": "Roofing-Methods-768x513.jpg",
+      "size": 65083,
+      "sizeFormatted": "63.56 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Alluminumroofing-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Alluminumroofing-768x512.jpg",
+      "name": "Alluminumroofing-768x512.jpg",
+      "size": 64549,
+      "sizeFormatted": "63.04 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-962902962-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-962902962-612x612-1.jpg",
+      "name": "istockphoto-962902962-612x612-1.jpg",
+      "size": 63138,
+      "sizeFormatted": "61.66 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Tpo-Workers-768x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Tpo-Workers-768x768.jpg",
+      "name": "Tpo-Workers-768x768.jpg",
+      "size": 62886,
+      "sizeFormatted": "61.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/repair-roof--768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\repair-roof--768x512.jpg",
+      "name": "repair-roof--768x512.jpg",
+      "size": 62557,
+      "sizeFormatted": "61.09 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/59c82c6012f40077d1cda1f69cd3a4a5-768x882.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\59c82c6012f40077d1cda1f69cd3a4a5-768x882.png",
+      "name": "59c82c6012f40077d1cda1f69cd3a4a5-768x882.png",
+      "size": 62269,
+      "sizeFormatted": "60.81 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-626486888-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-626486888-612x612-1.jpg",
+      "name": "istockphoto-626486888-612x612-1.jpg",
+      "size": 61530,
+      "sizeFormatted": "60.09 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Concretetile-768x511.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Concretetile-768x511.jpg",
+      "name": "Concretetile-768x511.jpg",
+      "size": 60316,
+      "sizeFormatted": "58.9 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1166557175-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1166557175-612x612-1.jpg",
+      "name": "istockphoto-1166557175-612x612-1.jpg",
+      "size": 60229,
+      "sizeFormatted": "58.82 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC2-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2-768x576.jpg",
+      "name": "PVC2-768x576.jpg",
+      "size": 59294,
+      "sizeFormatted": "57.9 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AcrylicRoofCoat.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AcrylicRoofCoat.jpg",
+      "name": "AcrylicRoofCoat.jpg",
+      "size": 58552,
+      "sizeFormatted": "57.18 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat-768x512.jpg",
+      "name": "AsphaltRoofCoat-768x512.jpg",
+      "size": 57142,
+      "sizeFormatted": "55.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat-1024x768.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat-1024x768.jpg",
+      "name": "PolyurethaneRoofCoat-1024x768.jpg",
+      "size": 57129,
+      "sizeFormatted": "55.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM1-768x512.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM1-768x512.jpeg",
+      "name": "EPDM1-768x512.jpeg",
+      "size": 56394,
+      "sizeFormatted": "55.07 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/fasciasoffitblog3_aug21-768x335.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\fasciasoffitblog3_aug21-768x335.jpg",
+      "name": "fasciasoffitblog3_aug21-768x335.jpg",
+      "size": 56299,
+      "sizeFormatted": "54.98 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/InsulationRoof-1024x561.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof-1024x561.jpg",
+      "name": "InsulationRoof-1024x561.jpg",
+      "size": 56089,
+      "sizeFormatted": "54.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-ventilation-2048x875-1-300x128.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-ventilation-2048x875-1-300x128.png",
+      "name": "Roof-ventilation-2048x875-1-300x128.png",
+      "size": 55788,
+      "sizeFormatted": "54.48 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PVC3-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3-768x512.jpg",
+      "name": "PVC3-768x512.jpg",
+      "size": 55371,
+      "sizeFormatted": "54.07 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/danage.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\danage.jpg",
+      "name": "danage.jpg",
+      "size": 54994,
+      "sizeFormatted": "53.71 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-967221262-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-967221262-612x612-1.jpg",
+      "name": "istockphoto-967221262-612x612-1.jpg",
+      "size": 54904,
+      "sizeFormatted": "53.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-967221262-612x612-2.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-967221262-612x612-2.jpg",
+      "name": "istockphoto-967221262-612x612-2.jpg",
+      "size": 54904,
+      "sizeFormatted": "53.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/5-star-with-letters-1.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-1.png",
+      "name": "5-star-with-letters-1.png",
+      "size": 54297,
+      "sizeFormatted": "53.02 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/5-star-with-letters.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters.png",
+      "name": "5-star-with-letters.png",
+      "size": 54297,
+      "sizeFormatted": "53.02 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-1478623282-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1478623282-612x612-1.jpg",
+      "name": "istockphoto-1478623282-612x612-1.jpg",
+      "size": 53662,
+      "sizeFormatted": "52.4 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_25374401_AdobeExpress_AdobeExpress-300x169.gif",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_25374401_AdobeExpress_AdobeExpress-300x169.gif",
+      "name": "shutterstock_25374401_AdobeExpress_AdobeExpress-300x169.gif",
+      "size": 52830,
+      "sizeFormatted": "51.59 KB",
+      "extension": ".gif"
+    },
+    {
+      "path": "/images/TPO2-768x576.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-768x576.jpeg",
+      "name": "TPO2-768x576.jpeg",
+      "size": 51089,
+      "sizeFormatted": "49.89 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/TPO1-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1-768x576.jpg",
+      "name": "TPO1-768x576.jpg",
+      "size": 50384,
+      "sizeFormatted": "49.2 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HailSymbol.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HailSymbol.png",
+      "name": "HailSymbol.png",
+      "size": 49776,
+      "sizeFormatted": "48.61 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/CeramicTiles.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CeramicTiles.jpg",
+      "name": "CeramicTiles.jpg",
+      "size": 48907,
+      "sizeFormatted": "47.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/commercial-roof-1024x575-panorama-768x384.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\commercial-roof-1024x575-panorama-768x384.jpeg",
+      "name": "commercial-roof-1024x575-panorama-768x384.jpeg",
+      "size": 48138,
+      "sizeFormatted": "47.01 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-1269179807-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1269179807-612x612-1.jpg",
+      "name": "istockphoto-1269179807-612x612-1.jpg",
+      "size": 46866,
+      "sizeFormatted": "45.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-144961924-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-144961924-612x612-1.jpg",
+      "name": "istockphoto-144961924-612x612-1.jpg",
+      "size": 46707,
+      "sizeFormatted": "45.61 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC1-768x512.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1-768x512.jpg",
+      "name": "PVC1-768x512.jpg",
+      "size": 46497,
+      "sizeFormatted": "45.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-183302430-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-183302430-612x612-1.jpg",
+      "name": "istockphoto-183302430-612x612-1.jpg",
+      "size": 45950,
+      "sizeFormatted": "44.87 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/5-star-with-letters-1-768x333.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-1-768x333.png",
+      "name": "5-star-with-letters-1-768x333.png",
+      "size": 45664,
+      "sizeFormatted": "44.59 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/5-star-with-letters-768x333.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-768x333.png",
+      "name": "5-star-with-letters-768x333.png",
+      "size": 45664,
+      "sizeFormatted": "44.59 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-958931198-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-958931198-612x612-1.jpg",
+      "name": "istockphoto-958931198-612x612-1.jpg",
+      "size": 44597,
+      "sizeFormatted": "43.55 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CeramicTiles-768x384.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CeramicTiles-768x384.jpg",
+      "name": "CeramicTiles-768x384.jpg",
+      "size": 43685,
+      "sizeFormatted": "42.66 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ImpactShingles.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ImpactShingles.jpeg",
+      "name": "ImpactShingles.jpeg",
+      "size": 42828,
+      "sizeFormatted": "41.82 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/HailSymbol-1024x1024.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HailSymbol-1024x1024.png",
+      "name": "HailSymbol-1024x1024.png",
+      "size": 42451,
+      "sizeFormatted": "41.46 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-1002051422-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1002051422-612x612-1.jpg",
+      "name": "istockphoto-1002051422-612x612-1.jpg",
+      "size": 42038,
+      "sizeFormatted": "41.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HomeadvisorLogo-300x300.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HomeadvisorLogo-300x300.png",
+      "name": "HomeadvisorLogo-300x300.png",
+      "size": 39977,
+      "sizeFormatted": "39.04 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/AcrylicRoofCoat-768x432.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AcrylicRoofCoat-768x432.jpg",
+      "name": "AcrylicRoofCoat-768x432.jpg",
+      "size": 36162,
+      "sizeFormatted": "35.31 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-ventilation-2048x875-1-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-ventilation-2048x875-1-150x150.png",
+      "name": "Roof-ventilation-2048x875-1-150x150.png",
+      "size": 35604,
+      "sizeFormatted": "34.77 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/photos/unknown2-after1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\photos\\unknown2-after1.jpg",
+      "name": "unknown2-after1.jpg",
+      "size": 35452,
+      "sizeFormatted": "34.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-173569733-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-173569733-612x612-1.jpg",
+      "name": "istockphoto-173569733-612x612-1.jpg",
+      "size": 35095,
+      "sizeFormatted": "34.27 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1165322270-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1165322270-612x612-1.jpg",
+      "name": "istockphoto-1165322270-612x612-1.jpg",
+      "size": 34627,
+      "sizeFormatted": "33.82 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1475962574-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1475962574-612x612-1.jpg",
+      "name": "istockphoto-1475962574-612x612-1.jpg",
+      "size": 34259,
+      "sizeFormatted": "33.46 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/InsulationRoof-768x421.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof-768x421.jpg",
+      "name": "InsulationRoof-768x421.jpg",
+      "size": 33205,
+      "sizeFormatted": "32.43 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/darkgreybackground-768x480.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground-768x480.jpeg",
+      "name": "darkgreybackground-768x480.jpeg",
+      "size": 32772,
+      "sizeFormatted": "32 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-1502742771-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1502742771-612x612-1.jpg",
+      "name": "istockphoto-1502742771-612x612-1.jpg",
+      "size": 31310,
+      "sizeFormatted": "30.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/logo-black-gold-300x300-1.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-300x300-1.png",
+      "name": "logo-black-gold-300x300-1.png",
+      "size": 31241,
+      "sizeFormatted": "30.51 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat-768x576.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat-768x576.jpg",
+      "name": "PolyurethaneRoofCoat-768x576.jpg",
+      "size": 30873,
+      "sizeFormatted": "30.15 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-150x150.png",
+      "name": "TPO2-150x150.png",
+      "size": 30024,
+      "sizeFormatted": "29.32 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/logo-black-gold-300x300.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-300x300.png",
+      "name": "logo-black-gold-300x300.png",
+      "size": 29893,
+      "sizeFormatted": "29.19 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-1164178019-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1164178019-612x612-1.jpg",
+      "name": "istockphoto-1164178019-612x612-1.jpg",
+      "size": 29772,
+      "sizeFormatted": "29.07 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HailSymbol-768x768.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HailSymbol-768x768.png",
+      "name": "HailSymbol-768x768.png",
+      "size": 28000,
+      "sizeFormatted": "27.34 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/59c82c6012f40077d1cda1f69cd3a4a5.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\59c82c6012f40077d1cda1f69cd3a4a5.png",
+      "name": "59c82c6012f40077d1cda1f69cd3a4a5.png",
+      "size": 26948,
+      "sizeFormatted": "26.32 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/SiliconeRoofCoat-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SiliconeRoofCoat-150x150.png",
+      "name": "SiliconeRoofCoat-150x150.png",
+      "size": 26430,
+      "sizeFormatted": "25.81 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/hail-damage-3-300x187.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-3-300x187.jpg",
+      "name": "hail-damage-3-300x187.jpg",
+      "size": 25353,
+      "sizeFormatted": "24.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2128491935-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935-300x225.jpg",
+      "name": "shutterstock_2128491935-300x225.jpg",
+      "size": 25099,
+      "sizeFormatted": "24.51 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_25374401_AdobeExpress_AdobeExpress-150x150.gif",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_25374401_AdobeExpress_AdobeExpress-150x150.gif",
+      "name": "shutterstock_25374401_AdobeExpress_AdobeExpress-150x150.gif",
+      "size": 24380,
+      "sizeFormatted": "23.81 KB",
+      "extension": ".gif"
+    },
+    {
+      "path": "/images/metal-roofing-tiles-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles-300x225.jpg",
+      "name": "metal-roofing-tiles-300x225.jpg",
+      "size": 24348,
+      "sizeFormatted": "23.78 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1433389985-612x612-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1433389985-612x612-1.jpg",
+      "name": "istockphoto-1433389985-612x612-1.jpg",
+      "size": 23486,
+      "sizeFormatted": "22.94 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_1180083679-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_1180083679-300x200.jpg",
+      "name": "shutterstock_1180083679-300x200.jpg",
+      "size": 21818,
+      "sizeFormatted": "21.31 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-1-300x200.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1-300x200.jpeg",
+      "name": "image-asset-1-300x200.jpeg",
+      "size": 21455,
+      "sizeFormatted": "20.95 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1-300x300.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1-300x300.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1-300x300.jpg",
+      "size": 21451,
+      "sizeFormatted": "20.95 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-300x300.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-300x300.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-300x300.jpg",
+      "size": 21451,
+      "sizeFormatted": "20.95 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_473737921-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921-300x200.jpg",
+      "name": "shutterstock_473737921-300x200.jpg",
+      "size": 21022,
+      "sizeFormatted": "20.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-1-300x202.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-1-300x202.jpg",
+      "name": "shingles-1-300x202.jpg",
+      "size": 21019,
+      "sizeFormatted": "20.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-300x202.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-300x202.jpg",
+      "name": "shingles-300x202.jpg",
+      "size": 21019,
+      "sizeFormatted": "20.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Aerialview-300x200.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview-300x200.jpeg",
+      "name": "Aerialview-300x200.jpeg",
+      "size": 20384,
+      "sizeFormatted": "19.91 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images281429.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281429.jpg",
+      "name": "images281429.jpg",
+      "size": 20269,
+      "sizeFormatted": "19.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-roof-repair-rewrite-300x243.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-roof-repair-rewrite-300x243.jpg",
+      "name": "hail-damage-roof-repair-rewrite-300x243.jpg",
+      "size": 20125,
+      "sizeFormatted": "19.65 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-530984606-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-530984606-612x612-1-300x200.jpg",
+      "name": "istockphoto-530984606-612x612-1-300x200.jpg",
+      "size": 19923,
+      "sizeFormatted": "19.46 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Shippingyardroof-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof-300x225.jpg",
+      "name": "Shippingyardroof-300x225.jpg",
+      "size": 19610,
+      "sizeFormatted": "19.15 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/download28229.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\download28229.jpg",
+      "name": "download28229.jpg",
+      "size": 19379,
+      "sizeFormatted": "18.92 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-3-300x225.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3-300x225.jpeg",
+      "name": "image-asset-3-300x225.jpeg",
+      "size": 19301,
+      "sizeFormatted": "18.85 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/CopperRoofing-300x201.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CopperRoofing-300x201.jpg",
+      "name": "CopperRoofing-300x201.jpg",
+      "size": 19251,
+      "sizeFormatted": "18.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scallopedshingles-300x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles-300x150.jpg",
+      "name": "scallopedshingles-300x150.jpg",
+      "size": 18976,
+      "sizeFormatted": "18.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ZincRoofing-300x224.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ZincRoofing-300x224.jpg",
+      "name": "ZincRoofing-300x224.jpg",
+      "size": 18557,
+      "sizeFormatted": "18.12 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM2-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2-300x225.jpg",
+      "name": "EPDM2-300x225.jpg",
+      "size": 18487,
+      "sizeFormatted": "18.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/findlayroofingcom_616704329-1-300x198.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\findlayroofingcom_616704329-1-300x198.jpeg",
+      "name": "findlayroofingcom_616704329-1-300x198.jpeg",
+      "size": 18467,
+      "sizeFormatted": "18.03 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/placeholder-1-1-1024x683.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-1-1024x683.png",
+      "name": "placeholder-1-1-1024x683.png",
+      "size": 18458,
+      "sizeFormatted": "18.03 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/placeholder-1-1024x683.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-1024x683.png",
+      "name": "placeholder-1-1024x683.png",
+      "size": 18458,
+      "sizeFormatted": "18.03 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/shutterstock_162724754-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754-300x200.jpg",
+      "name": "shutterstock_162724754-300x200.jpg",
+      "size": 18320,
+      "sizeFormatted": "17.89 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scaffold-1207389_640-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scaffold-1207389_640-1-300x200.jpg",
+      "name": "scaffold-1207389_640-1-300x200.jpg",
+      "size": 18129,
+      "sizeFormatted": "17.7 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Industrial-Roofing-300x169.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Industrial-Roofing-300x169.jpg",
+      "name": "Industrial-Roofing-300x169.jpg",
+      "size": 17995,
+      "sizeFormatted": "17.57 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM3-300x300.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM3-300x300.jpg",
+      "name": "EPDM3-300x300.jpg",
+      "size": 17825,
+      "sizeFormatted": "17.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1478623282-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1478623282-612x612-1-300x200.jpg",
+      "name": "istockphoto-1478623282-612x612-1-300x200.jpg",
+      "size": 17747,
+      "sizeFormatted": "17.33 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/DesignEyeQ-300x187.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\DesignEyeQ-300x187.jpeg",
+      "name": "DesignEyeQ-300x187.jpeg",
+      "size": 17643,
+      "sizeFormatted": "17.23 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images281629.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281629.jpg",
+      "name": "images281629.jpg",
+      "size": 17177,
+      "sizeFormatted": "16.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-967221262-612x612-1-300x201.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-967221262-612x612-1-300x201.jpg",
+      "name": "istockphoto-967221262-612x612-1-300x201.jpg",
+      "size": 17021,
+      "sizeFormatted": "16.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-967221262-612x612-2-300x201.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-967221262-612x612-2-300x201.jpg",
+      "name": "istockphoto-967221262-612x612-2-300x201.jpg",
+      "size": 17021,
+      "sizeFormatted": "16.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HomeadvisorLogo-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HomeadvisorLogo-150x150.png",
+      "name": "HomeadvisorLogo-150x150.png",
+      "size": 17019,
+      "sizeFormatted": "16.62 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/image-asset-2-300x169.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2-300x169.jpeg",
+      "name": "image-asset-2-300x169.jpeg",
+      "size": 16800,
+      "sizeFormatted": "16.41 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-4-300x169.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4-300x169.jpeg",
+      "name": "image-asset-4-300x169.jpeg",
+      "size": 16738,
+      "sizeFormatted": "16.35 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/ResidentialServices-300x188.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ResidentialServices-300x188.jpeg",
+      "name": "ResidentialServices-300x188.jpeg",
+      "size": 16667,
+      "sizeFormatted": "16.28 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-1166557175-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1166557175-612x612-1-300x200.jpg",
+      "name": "istockphoto-1166557175-612x612-1-300x200.jpg",
+      "size": 16601,
+      "sizeFormatted": "16.21 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-300x169.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-300x169.jpeg",
+      "name": "image-asset-300x169.jpeg",
+      "size": 16557,
+      "sizeFormatted": "16.17 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/20160804-TA-79527-Edit-1-1024x768-1-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\20160804-TA-79527-Edit-1-1024x768-1-300x225.jpg",
+      "name": "20160804-TA-79527-Edit-1-1024x768-1-300x225.jpg",
+      "size": 16343,
+      "sizeFormatted": "15.96 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-626486888-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-626486888-612x612-1-300x200.jpg",
+      "name": "istockphoto-626486888-612x612-1-300x200.jpg",
+      "size": 16329,
+      "sizeFormatted": "15.95 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/churchtpo-300x169.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\churchtpo-300x169.jpeg",
+      "name": "churchtpo-300x169.jpeg",
+      "size": 16258,
+      "sizeFormatted": "15.88 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/danage-300x199.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\danage-300x199.jpg",
+      "name": "danage-300x199.jpg",
+      "size": 16200,
+      "sizeFormatted": "15.82 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-962902962-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-962902962-612x612-1-300x200.jpg",
+      "name": "istockphoto-962902962-612x612-1-300x200.jpg",
+      "size": 16176,
+      "sizeFormatted": "15.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1002051422-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1002051422-612x612-1-300x200.jpg",
+      "name": "istockphoto-1002051422-612x612-1-300x200.jpg",
+      "size": 15560,
+      "sizeFormatted": "15.2 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SteelRoofing-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing-300x200.jpg",
+      "name": "SteelRoofing-300x200.jpg",
+      "size": 15527,
+      "sizeFormatted": "15.16 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-300x200.jpg",
+      "name": "cover-background-roofing-sunset-300x200.jpg",
+      "size": 15239,
+      "sizeFormatted": "14.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/repair-roof--300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\repair-roof--300x200.jpg",
+      "name": "repair-roof--300x200.jpg",
+      "size": 15176,
+      "sizeFormatted": "14.82 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/59c82c6012f40077d1cda1f69cd3a4a5-261x300.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\59c82c6012f40077d1cda1f69cd3a4a5-261x300.png",
+      "name": "59c82c6012f40077d1cda1f69cd3a4a5-261x300.png",
+      "size": 15174,
+      "sizeFormatted": "14.82 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/images281829-300x159.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281829-300x159.jpg",
+      "name": "images281829-300x159.jpg",
+      "size": 15084,
+      "sizeFormatted": "14.73 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281829.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281829.jpg",
+      "name": "images281829.jpg",
+      "size": 14979,
+      "sizeFormatted": "14.63 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281629-300x156.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281629-300x156.jpg",
+      "name": "images281629-300x156.jpg",
+      "size": 14947,
+      "sizeFormatted": "14.6 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1-300x199.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1-300x199.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1-300x199.jpg",
+      "size": 14934,
+      "sizeFormatted": "14.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-300x199.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-300x199.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-300x199.jpg",
+      "size": 14934,
+      "sizeFormatted": "14.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Tpo-Workers-300x300.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Tpo-Workers-300x300.jpg",
+      "name": "Tpo-Workers-300x300.jpg",
+      "size": 14876,
+      "sizeFormatted": "14.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707-300x200.jpg",
+      "name": "shutterstock_2140326707-300x200.jpg",
+      "size": 14622,
+      "sizeFormatted": "14.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CommercialRoofing-300x225.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CommercialRoofing-300x225.jpeg",
+      "name": "CommercialRoofing-300x225.jpeg",
+      "size": 14402,
+      "sizeFormatted": "14.06 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images281129-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281129-1.jpg",
+      "name": "images281129-1.jpg",
+      "size": 14385,
+      "sizeFormatted": "14.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/SyntheticTiles-300x200.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles-300x200.jpeg",
+      "name": "SyntheticTiles-300x200.jpeg",
+      "size": 14370,
+      "sizeFormatted": "14.03 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-1269179807-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1269179807-612x612-1-300x200.jpg",
+      "name": "istockphoto-1269179807-612x612-1-300x200.jpg",
+      "size": 14231,
+      "sizeFormatted": "13.9 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Alluminumroofing-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Alluminumroofing-300x200.jpg",
+      "name": "Alluminumroofing-300x200.jpg",
+      "size": 14187,
+      "sizeFormatted": "13.85 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Constructionhome-300x201.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Constructionhome-300x201.jpeg",
+      "name": "Constructionhome-300x201.jpeg",
+      "size": 14041,
+      "sizeFormatted": "13.71 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images28929.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28929.jpg",
+      "name": "images28929.jpg",
+      "size": 14033,
+      "sizeFormatted": "13.7 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roofing-Methods-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roofing-Methods-300x200.jpg",
+      "name": "Roofing-Methods-300x200.jpg",
+      "size": 13903,
+      "sizeFormatted": "13.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Concretetile-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Concretetile-300x200.jpg",
+      "name": "Concretetile-300x200.jpg",
+      "size": 13754,
+      "sizeFormatted": "13.43 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-958931198-612x612-1-300x187.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-958931198-612x612-1-300x187.jpg",
+      "name": "istockphoto-958931198-612x612-1-300x187.jpg",
+      "size": 13749,
+      "sizeFormatted": "13.43 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28729-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28729-1.jpg",
+      "name": "images28729-1.jpg",
+      "size": 13603,
+      "sizeFormatted": "13.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC2-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2-300x225.jpg",
+      "name": "PVC2-300x225.jpg",
+      "size": 13595,
+      "sizeFormatted": "13.28 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC3-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3-300x200.jpg",
+      "name": "PVC3-300x200.jpg",
+      "size": 13455,
+      "sizeFormatted": "13.14 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/asphaltshingles-300x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles-300x150.jpg",
+      "name": "asphaltshingles-300x150.jpg",
+      "size": 13348,
+      "sizeFormatted": "13.04 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-173569733-612x612-1-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-173569733-612x612-1-300x225.jpg",
+      "name": "istockphoto-173569733-612x612-1-300x225.jpg",
+      "size": 13076,
+      "sizeFormatted": "12.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-144961924-612x612-1-300x201.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-144961924-612x612-1-300x201.jpg",
+      "name": "istockphoto-144961924-612x612-1-300x201.jpg",
+      "size": 12770,
+      "sizeFormatted": "12.47 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat-300x200.jpg",
+      "name": "AsphaltRoofCoat-300x200.jpg",
+      "size": 12710,
+      "sizeFormatted": "12.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/placeholder-1-1-768x512.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-1-768x512.png",
+      "name": "placeholder-1-1-768x512.png",
+      "size": 12559,
+      "sizeFormatted": "12.26 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/placeholder-1-768x512.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-768x512.png",
+      "name": "placeholder-1-768x512.png",
+      "size": 12559,
+      "sizeFormatted": "12.26 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/industrialroofimage-300x146.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\industrialroofimage-300x146.jpeg",
+      "name": "industrialroofimage-300x146.jpeg",
+      "size": 12550,
+      "sizeFormatted": "12.26 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/5-star-with-letters-1-300x130.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-1-300x130.png",
+      "name": "5-star-with-letters-1-300x130.png",
+      "size": 12485,
+      "sizeFormatted": "12.19 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/5-star-with-letters-300x130.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-300x130.png",
+      "name": "5-star-with-letters-300x130.png",
+      "size": 12485,
+      "sizeFormatted": "12.19 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/CeramicTiles-300x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CeramicTiles-300x150.jpg",
+      "name": "CeramicTiles-300x150.jpg",
+      "size": 12396,
+      "sizeFormatted": "12.11 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-183302430-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-183302430-612x612-1-300x200.jpg",
+      "name": "istockphoto-183302430-612x612-1-300x200.jpg",
+      "size": 12111,
+      "sizeFormatted": "11.83 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28629.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28629.jpg",
+      "name": "images28629.jpg",
+      "size": 12078,
+      "sizeFormatted": "11.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1165322270-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1165322270-612x612-1-300x200.jpg",
+      "name": "istockphoto-1165322270-612x612-1-300x200.jpg",
+      "size": 11966,
+      "sizeFormatted": "11.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM1-300x200.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM1-300x200.jpeg",
+      "name": "EPDM1-300x200.jpeg",
+      "size": 11766,
+      "sizeFormatted": "11.49 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images281229.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281229.jpg",
+      "name": "images281229.jpg",
+      "size": 11722,
+      "sizeFormatted": "11.45 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ImpactShingles-300x114.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ImpactShingles-300x114.jpeg",
+      "name": "ImpactShingles-300x114.jpeg",
+      "size": 11667,
+      "sizeFormatted": "11.39 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/TPO1-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1-300x225.jpg",
+      "name": "TPO1-300x225.jpg",
+      "size": 11594,
+      "sizeFormatted": "11.32 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281029.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281029.jpg",
+      "name": "images281029.jpg",
+      "size": 11418,
+      "sizeFormatted": "11.15 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/fasciasoffitblog3_aug21-300x131.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\fasciasoffitblog3_aug21-300x131.jpg",
+      "name": "fasciasoffitblog3_aug21-300x131.jpg",
+      "size": 11414,
+      "sizeFormatted": "11.15 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-300x225.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-300x225.jpeg",
+      "name": "TPO2-300x225.jpeg",
+      "size": 11332,
+      "sizeFormatted": "11.07 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/commercial-roof-1024x575-panorama-300x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\commercial-roof-1024x575-panorama-300x150.jpeg",
+      "name": "commercial-roof-1024x575-panorama-300x150.jpeg",
+      "size": 11321,
+      "sizeFormatted": "11.06 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/download-26.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\download-26.jpg",
+      "name": "download-26.jpg",
+      "size": 11218,
+      "sizeFormatted": "10.96 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1164178019-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1164178019-612x612-1-300x200.jpg",
+      "name": "istockphoto-1164178019-612x612-1-300x200.jpg",
+      "size": 11209,
+      "sizeFormatted": "10.95 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/3tabroofing-300x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing-300x150.jpg",
+      "name": "3tabroofing-300x150.jpg",
+      "size": 11156,
+      "sizeFormatted": "10.89 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/logo-black-gold-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-150x150.png",
+      "name": "logo-black-gold-150x150.png",
+      "size": 10924,
+      "sizeFormatted": "10.67 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PVC1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1-300x200.jpg",
+      "name": "PVC1-300x200.jpg",
+      "size": 10782,
+      "sizeFormatted": "10.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/logo-black-gold-300x300-1-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\logo-black-gold-300x300-1-150x150.png",
+      "name": "logo-black-gold-300x300-1-150x150.png",
+      "size": 10603,
+      "sizeFormatted": "10.35 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/hail-damage-3-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-3-150x150.jpg",
+      "name": "hail-damage-3-150x150.jpg",
+      "size": 10429,
+      "sizeFormatted": "10.18 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1502742771-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1502742771-612x612-1-300x200.jpg",
+      "name": "istockphoto-1502742771-612x612-1-300x200.jpg",
+      "size": 10267,
+      "sizeFormatted": "10.03 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281529.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281529.jpg",
+      "name": "images281529.jpg",
+      "size": 10165,
+      "sizeFormatted": "9.93 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/metal-roofing-tiles-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\metal-roofing-tiles-150x150.jpg",
+      "name": "metal-roofing-tiles-150x150.jpg",
+      "size": 10115,
+      "sizeFormatted": "9.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1475962574-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1475962574-612x612-1-300x200.jpg",
+      "name": "istockphoto-1475962574-612x612-1-300x200.jpg",
+      "size": 9994,
+      "sizeFormatted": "9.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/download28229-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\download28229-150x150.jpg",
+      "name": "download28229-150x150.jpg",
+      "size": 9855,
+      "sizeFormatted": "9.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scallopedshingles-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scallopedshingles-150x150.jpg",
+      "name": "scallopedshingles-150x150.jpg",
+      "size": 9764,
+      "sizeFormatted": "9.54 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/5-star-with-letters-1-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-1-150x150.png",
+      "name": "5-star-with-letters-1-150x150.png",
+      "size": 9331,
+      "sizeFormatted": "9.11 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/5-star-with-letters-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\5-star-with-letters-150x150.png",
+      "name": "5-star-with-letters-150x150.png",
+      "size": 9331,
+      "sizeFormatted": "9.11 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-vertical-136x300.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-vertical-136x300.jpg",
+      "name": "cover-background-roofing-sunset-vertical-136x300.jpg",
+      "size": 9256,
+      "sizeFormatted": "9.04 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1433389985-612x612-1-300x200.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1433389985-612x612-1-300x200.jpg",
+      "name": "istockphoto-1433389985-612x612-1-300x200.jpg",
+      "size": 9152,
+      "sizeFormatted": "8.94 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_1180083679-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_1180083679-150x150.jpg",
+      "name": "shutterstock_1180083679-150x150.jpg",
+      "size": 9079,
+      "sizeFormatted": "8.87 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AcrylicRoofCoat-300x169.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AcrylicRoofCoat-300x169.jpg",
+      "name": "AcrylicRoofCoat-300x169.jpg",
+      "size": 9006,
+      "sizeFormatted": "8.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-530984606-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-530984606-612x612-1-150x150.jpg",
+      "name": "istockphoto-530984606-612x612-1-150x150.jpg",
+      "size": 8981,
+      "sizeFormatted": "8.77 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281429-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281429-150x150.jpg",
+      "name": "images281429-150x150.jpg",
+      "size": 8905,
+      "sizeFormatted": "8.7 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28229-1.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28229-1.jpg",
+      "name": "images28229-1.jpg",
+      "size": 8899,
+      "sizeFormatted": "8.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28229.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28229.jpg",
+      "name": "images28229.jpg",
+      "size": 8899,
+      "sizeFormatted": "8.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-1-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-1-150x150.jpeg",
+      "name": "image-asset-1-150x150.jpeg",
+      "size": 8802,
+      "sizeFormatted": "8.6 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shutterstock_2128491935-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2128491935-150x150.jpg",
+      "name": "shutterstock_2128491935-150x150.jpg",
+      "size": 8444,
+      "sizeFormatted": "8.25 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281829-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281829-150x150.jpg",
+      "name": "images281829-150x150.jpg",
+      "size": 8422,
+      "sizeFormatted": "8.22 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Industrial-Roofing-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Industrial-Roofing-150x150.jpg",
+      "name": "Industrial-Roofing-150x150.jpg",
+      "size": 8381,
+      "sizeFormatted": "8.18 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_473737921-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_473737921-150x150.jpg",
+      "name": "shutterstock_473737921-150x150.jpg",
+      "size": 8366,
+      "sizeFormatted": "8.17 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281729.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281729.jpg",
+      "name": "images281729.jpg",
+      "size": 8321,
+      "sizeFormatted": "8.13 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CopperRoofing-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CopperRoofing-150x150.jpg",
+      "name": "CopperRoofing-150x150.jpg",
+      "size": 8292,
+      "sizeFormatted": "8.1 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/scaffold-1207389_640-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\scaffold-1207389_640-1-150x150.jpg",
+      "name": "scaffold-1207389_640-1-150x150.jpg",
+      "size": 8288,
+      "sizeFormatted": "8.09 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_162724754-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_162724754-150x150.jpg",
+      "name": "shutterstock_162724754-150x150.jpg",
+      "size": 8227,
+      "sizeFormatted": "8.03 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/HailSymbol-300x300.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HailSymbol-300x300.png",
+      "name": "HailSymbol-300x300.png",
+      "size": 8211,
+      "sizeFormatted": "8.02 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/image-asset-2-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-2-150x150.jpeg",
+      "name": "image-asset-2-150x150.jpeg",
+      "size": 8086,
+      "sizeFormatted": "7.9 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/shingles-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-1-150x150.jpg",
+      "name": "shingles-1-150x150.jpg",
+      "size": 8067,
+      "sizeFormatted": "7.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shingles-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shingles-150x150.jpg",
+      "name": "shingles-150x150.jpg",
+      "size": 8067,
+      "sizeFormatted": "7.88 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/timesymbol.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\timesymbol.png",
+      "name": "timesymbol.png",
+      "size": 8065,
+      "sizeFormatted": "7.88 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/image-asset-4-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-4-150x150.jpeg",
+      "name": "image-asset-4-150x150.jpeg",
+      "size": 8050,
+      "sizeFormatted": "7.86 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/churchtpo-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\churchtpo-150x150.jpeg",
+      "name": "churchtpo-150x150.jpeg",
+      "size": 7998,
+      "sizeFormatted": "7.81 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/image-asset-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-150x150.jpeg",
+      "name": "image-asset-150x150.jpeg",
+      "size": 7948,
+      "sizeFormatted": "7.76 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images281629-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281629-150x150.jpg",
+      "name": "images281629-150x150.jpg",
+      "size": 7925,
+      "sizeFormatted": "7.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ZincRoofing-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ZincRoofing-150x150.jpg",
+      "name": "ZincRoofing-150x150.jpg",
+      "size": 7924,
+      "sizeFormatted": "7.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/DesignEyeQ-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\DesignEyeQ-150x150.jpeg",
+      "name": "DesignEyeQ-150x150.jpeg",
+      "size": 7894,
+      "sizeFormatted": "7.71 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-626486888-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-626486888-612x612-1-150x150.jpg",
+      "name": "istockphoto-626486888-612x612-1-150x150.jpg",
+      "size": 7769,
+      "sizeFormatted": "7.59 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/download28429.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\download28429.jpg",
+      "name": "download28429.jpg",
+      "size": 7743,
+      "sizeFormatted": "7.56 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Aerialview-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Aerialview-150x150.jpeg",
+      "name": "Aerialview-150x150.jpeg",
+      "size": 7733,
+      "sizeFormatted": "7.55 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/download-26-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\download-26-150x150.jpg",
+      "name": "download-26-150x150.jpg",
+      "size": 7662,
+      "sizeFormatted": "7.48 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ImpactShingles-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ImpactShingles-150x150.jpeg",
+      "name": "ImpactShingles-150x150.jpeg",
+      "size": 7639,
+      "sizeFormatted": "7.46 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-1478623282-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1478623282-612x612-1-150x150.jpg",
+      "name": "istockphoto-1478623282-612x612-1-150x150.jpg",
+      "size": 7615,
+      "sizeFormatted": "7.44 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/ResidentialServices-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\ResidentialServices-150x150.jpeg",
+      "name": "ResidentialServices-150x150.jpeg",
+      "size": 7530,
+      "sizeFormatted": "7.35 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images28729-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28729-1-150x150.jpg",
+      "name": "images28729-1-150x150.jpg",
+      "size": 7483,
+      "sizeFormatted": "7.31 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-967221262-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-967221262-612x612-1-150x150.jpg",
+      "name": "istockphoto-967221262-612x612-1-150x150.jpg",
+      "size": 7475,
+      "sizeFormatted": "7.3 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-967221262-612x612-2-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-967221262-612x612-2-150x150.jpg",
+      "name": "istockphoto-967221262-612x612-2-150x150.jpg",
+      "size": 7475,
+      "sizeFormatted": "7.3 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/image-asset-3-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\image-asset-3-150x150.jpeg",
+      "name": "image-asset-3-150x150.jpeg",
+      "size": 7399,
+      "sizeFormatted": "7.23 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/Shippingyardroof-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Shippingyardroof-150x150.jpg",
+      "name": "Shippingyardroof-150x150.jpg",
+      "size": 7295,
+      "sizeFormatted": "7.12 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-962902962-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-962902962-612x612-1-150x150.jpg",
+      "name": "istockphoto-962902962-612x612-1-150x150.jpg",
+      "size": 7229,
+      "sizeFormatted": "7.06 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/findlayroofingcom_616704329-1-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\findlayroofingcom_616704329-1-150x150.jpeg",
+      "name": "findlayroofingcom_616704329-1-150x150.jpeg",
+      "size": 7108,
+      "sizeFormatted": "6.94 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-1-150x150.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-1-150x150.jpg",
+      "size": 7030,
+      "sizeFormatted": "6.87 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/MHeiderich_ReflexionenZwei-05-copy-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\MHeiderich_ReflexionenZwei-05-copy-150x150.jpg",
+      "name": "MHeiderich_ReflexionenZwei-05-copy-150x150.jpg",
+      "size": 7030,
+      "sizeFormatted": "6.87 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/asphaltshingles-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\asphaltshingles-150x150.jpg",
+      "name": "asphaltshingles-150x150.jpg",
+      "size": 6975,
+      "sizeFormatted": "6.81 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/hail-damage-roof-repair-rewrite-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\hail-damage-roof-repair-rewrite-150x150.jpg",
+      "name": "hail-damage-roof-repair-rewrite-150x150.jpg",
+      "size": 6967,
+      "sizeFormatted": "6.8 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM2-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM2-150x150.jpg",
+      "name": "EPDM2-150x150.jpg",
+      "size": 6897,
+      "sizeFormatted": "6.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1002051422-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1002051422-612x612-1-150x150.jpg",
+      "name": "istockphoto-1002051422-612x612-1-150x150.jpg",
+      "size": 6880,
+      "sizeFormatted": "6.72 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/repair-roof--150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\repair-roof--150x150.jpg",
+      "name": "repair-roof--150x150.jpg",
+      "size": 6868,
+      "sizeFormatted": "6.71 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/industrialroofimage-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\industrialroofimage-150x150.jpeg",
+      "name": "industrialroofimage-150x150.jpeg",
+      "size": 6866,
+      "sizeFormatted": "6.71 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/danage-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\danage-150x150.jpg",
+      "name": "danage-150x150.jpg",
+      "size": 6854,
+      "sizeFormatted": "6.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281129-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281129-1-150x150.jpg",
+      "name": "images281129-1-150x150.jpg",
+      "size": 6849,
+      "sizeFormatted": "6.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/fasciasoffitblog3_aug21-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\fasciasoffitblog3_aug21-150x150.jpg",
+      "name": "fasciasoffitblog3_aug21-150x150.jpg",
+      "size": 6790,
+      "sizeFormatted": "6.63 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/59c82c6012f40077d1cda1f69cd3a4a5-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\59c82c6012f40077d1cda1f69cd3a4a5-150x150.png",
+      "name": "59c82c6012f40077d1cda1f69cd3a4a5-150x150.png",
+      "size": 6778,
+      "sizeFormatted": "6.62 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/Roofing-Methods-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roofing-Methods-150x150.jpg",
+      "name": "Roofing-Methods-150x150.jpg",
+      "size": 6770,
+      "sizeFormatted": "6.61 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1166557175-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1166557175-612x612-1-150x150.jpg",
+      "name": "istockphoto-1166557175-612x612-1-150x150.jpg",
+      "size": 6737,
+      "sizeFormatted": "6.58 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/InsulationRoof-300x164.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof-300x164.jpg",
+      "name": "InsulationRoof-300x164.jpg",
+      "size": 6696,
+      "sizeFormatted": "6.54 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/20160804-TA-79527-Edit-1-1024x768-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\20160804-TA-79527-Edit-1-1024x768-1-150x150.jpg",
+      "name": "20160804-TA-79527-Edit-1-1024x768-1-150x150.jpg",
+      "size": 6679,
+      "sizeFormatted": "6.52 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-150x150.jpg",
+      "name": "cover-background-roofing-sunset-150x150.jpg",
+      "size": 6650,
+      "sizeFormatted": "6.49 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28929-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28929-150x150.jpg",
+      "name": "images28929-150x150.jpg",
+      "size": 6644,
+      "sizeFormatted": "6.49 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281229-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281229-150x150.jpg",
+      "name": "images281229-150x150.jpg",
+      "size": 6633,
+      "sizeFormatted": "6.48 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CeramicTiles-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CeramicTiles-150x150.jpg",
+      "name": "CeramicTiles-150x150.jpg",
+      "size": 6562,
+      "sizeFormatted": "6.41 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/commercial-roof-1024x575-panorama-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\commercial-roof-1024x575-panorama-150x150.jpeg",
+      "name": "commercial-roof-1024x575-panorama-150x150.jpeg",
+      "size": 6509,
+      "sizeFormatted": "6.36 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/SteelRoofing-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SteelRoofing-150x150.jpg",
+      "name": "SteelRoofing-150x150.jpg",
+      "size": 6469,
+      "sizeFormatted": "6.32 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-1-150x150.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-1-150x150.jpg",
+      "size": 6381,
+      "sizeFormatted": "6.23 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Roof-Replacement-in-AmarilloTX-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Roof-Replacement-in-AmarilloTX-150x150.jpg",
+      "name": "Roof-Replacement-in-AmarilloTX-150x150.jpg",
+      "size": 6381,
+      "sizeFormatted": "6.23 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/shutterstock_2140326707-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\shutterstock_2140326707-150x150.jpg",
+      "name": "shutterstock_2140326707-150x150.jpg",
+      "size": 6362,
+      "sizeFormatted": "6.21 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Constructionhome-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Constructionhome-150x150.jpeg",
+      "name": "Constructionhome-150x150.jpeg",
+      "size": 6273,
+      "sizeFormatted": "6.13 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/SyntheticTiles-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\SyntheticTiles-150x150.jpeg",
+      "name": "SyntheticTiles-150x150.jpeg",
+      "size": 6251,
+      "sizeFormatted": "6.1 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/images281529-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281529-150x150.jpg",
+      "name": "images281529-150x150.jpg",
+      "size": 6212,
+      "sizeFormatted": "6.07 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28629-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28629-150x150.jpg",
+      "name": "images28629-150x150.jpg",
+      "size": 6185,
+      "sizeFormatted": "6.04 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC3-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC3-150x150.jpg",
+      "name": "PVC3-150x150.jpg",
+      "size": 6127,
+      "sizeFormatted": "5.98 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281029-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281029-150x150.jpg",
+      "name": "images281029-150x150.jpg",
+      "size": 6114,
+      "sizeFormatted": "5.97 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Concretetile-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Concretetile-150x150.jpg",
+      "name": "Concretetile-150x150.jpg",
+      "size": 6058,
+      "sizeFormatted": "5.92 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-958931198-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-958931198-612x612-1-150x150.jpg",
+      "name": "istockphoto-958931198-612x612-1-150x150.jpg",
+      "size": 5994,
+      "sizeFormatted": "5.85 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Alluminumroofing-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Alluminumroofing-150x150.jpg",
+      "name": "Alluminumroofing-150x150.jpg",
+      "size": 5931,
+      "sizeFormatted": "5.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AsphaltRoofCoat-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AsphaltRoofCoat-150x150.jpg",
+      "name": "AsphaltRoofCoat-150x150.jpg",
+      "size": 5929,
+      "sizeFormatted": "5.79 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/3tabroofing-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\3tabroofing-150x150.jpg",
+      "name": "3tabroofing-150x150.jpg",
+      "size": 5896,
+      "sizeFormatted": "5.76 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1165322270-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1165322270-612x612-1-150x150.jpg",
+      "name": "istockphoto-1165322270-612x612-1-150x150.jpg",
+      "size": 5876,
+      "sizeFormatted": "5.74 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/CommercialRoofing-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\CommercialRoofing-150x150.jpeg",
+      "name": "CommercialRoofing-150x150.jpeg",
+      "size": 5862,
+      "sizeFormatted": "5.72 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat-300x225.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat-300x225.jpg",
+      "name": "PolyurethaneRoofCoat-300x225.jpg",
+      "size": 5855,
+      "sizeFormatted": "5.72 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-144961924-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-144961924-612x612-1-150x150.jpg",
+      "name": "istockphoto-144961924-612x612-1-150x150.jpg",
+      "size": 5832,
+      "sizeFormatted": "5.7 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1269179807-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1269179807-612x612-1-150x150.jpg",
+      "name": "istockphoto-1269179807-612x612-1-150x150.jpg",
+      "size": 5829,
+      "sizeFormatted": "5.69 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/timesymbol-300x249.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\timesymbol-300x249.png",
+      "name": "timesymbol-300x249.png",
+      "size": 5734,
+      "sizeFormatted": "5.6 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/istockphoto-1502742771-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1502742771-612x612-1-150x150.jpg",
+      "name": "istockphoto-1502742771-612x612-1-150x150.jpg",
+      "size": 5671,
+      "sizeFormatted": "5.54 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/PVC1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC1-150x150.jpg",
+      "name": "PVC1-150x150.jpg",
+      "size": 5590,
+      "sizeFormatted": "5.46 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28229-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28229-1-150x150.jpg",
+      "name": "images28229-1-150x150.jpg",
+      "size": 5582,
+      "sizeFormatted": "5.45 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images28229-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images28229-150x150.jpg",
+      "name": "images28229-150x150.jpg",
+      "size": 5582,
+      "sizeFormatted": "5.45 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/placeholder-1-1.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-1.png",
+      "name": "placeholder-1-1.png",
+      "size": 5443,
+      "sizeFormatted": "5.32 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/placeholder-1.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1.png",
+      "name": "placeholder-1.png",
+      "size": 5443,
+      "sizeFormatted": "5.32 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PVC2-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PVC2-150x150.jpg",
+      "name": "PVC2-150x150.jpg",
+      "size": 5377,
+      "sizeFormatted": "5.25 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/Tpo-Workers-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\Tpo-Workers-150x150.jpg",
+      "name": "Tpo-Workers-150x150.jpg",
+      "size": 5366,
+      "sizeFormatted": "5.24 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM3-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM3-150x150.jpg",
+      "name": "EPDM3-150x150.jpg",
+      "size": 5333,
+      "sizeFormatted": "5.21 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1475962574-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1475962574-612x612-1-150x150.jpg",
+      "name": "istockphoto-1475962574-612x612-1-150x150.jpg",
+      "size": 5293,
+      "sizeFormatted": "5.17 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO1-150x150.jpg",
+      "name": "TPO1-150x150.jpg",
+      "size": 5219,
+      "sizeFormatted": "5.1 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/EPDM1-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\EPDM1-150x150.jpeg",
+      "name": "EPDM1-150x150.jpeg",
+      "size": 5217,
+      "sizeFormatted": "5.09 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-173569733-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-173569733-612x612-1-150x150.jpg",
+      "name": "istockphoto-173569733-612x612-1-150x150.jpg",
+      "size": 5175,
+      "sizeFormatted": "5.05 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-183302430-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-183302430-612x612-1-150x150.jpg",
+      "name": "istockphoto-183302430-612x612-1-150x150.jpg",
+      "size": 5094,
+      "sizeFormatted": "4.97 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/images281729-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\images281729-150x150.jpg",
+      "name": "images281729-150x150.jpg",
+      "size": 5072,
+      "sizeFormatted": "4.95 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/istockphoto-1164178019-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1164178019-612x612-1-150x150.jpg",
+      "name": "istockphoto-1164178019-612x612-1-150x150.jpg",
+      "size": 5062,
+      "sizeFormatted": "4.94 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/TPO2-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\TPO2-150x150.jpeg",
+      "name": "TPO2-150x150.jpeg",
+      "size": 4764,
+      "sizeFormatted": "4.65 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/istockphoto-1433389985-612x612-1-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\istockphoto-1433389985-612x612-1-150x150.jpg",
+      "name": "istockphoto-1433389985-612x612-1-150x150.jpg",
+      "size": 4746,
+      "sizeFormatted": "4.63 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/download28429-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\download28429-150x150.jpg",
+      "name": "download28429-150x150.jpg",
+      "size": 4636,
+      "sizeFormatted": "4.53 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/AcrylicRoofCoat-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\AcrylicRoofCoat-150x150.jpg",
+      "name": "AcrylicRoofCoat-150x150.jpg",
+      "size": 4604,
+      "sizeFormatted": "4.5 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/cover-background-roofing-sunset-vertical-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\cover-background-roofing-sunset-vertical-150x150.jpg",
+      "name": "cover-background-roofing-sunset-vertical-150x150.jpg",
+      "size": 4556,
+      "sizeFormatted": "4.45 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/placeholder-1-1-300x200.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-1-300x200.png",
+      "name": "placeholder-1-1-300x200.png",
+      "size": 3887,
+      "sizeFormatted": "3.8 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/placeholder-1-300x200.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-300x200.png",
+      "name": "placeholder-1-300x200.png",
+      "size": 3887,
+      "sizeFormatted": "3.8 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/HailSymbol-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\HailSymbol-150x150.png",
+      "name": "HailSymbol-150x150.png",
+      "size": 3822,
+      "sizeFormatted": "3.73 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/InsulationRoof-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\InsulationRoof-150x150.jpg",
+      "name": "InsulationRoof-150x150.jpg",
+      "size": 3708,
+      "sizeFormatted": "3.62 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/darkgreybackground-300x188.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground-300x188.jpeg",
+      "name": "darkgreybackground-300x188.jpeg",
+      "size": 2839,
+      "sizeFormatted": "2.77 KB",
+      "extension": ".jpeg"
+    },
+    {
+      "path": "/images/timesymbol-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\timesymbol-150x150.png",
+      "name": "timesymbol-150x150.png",
+      "size": 2823,
+      "sizeFormatted": "2.76 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/PolyurethaneRoofCoat-150x150.jpg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\PolyurethaneRoofCoat-150x150.jpg",
+      "name": "PolyurethaneRoofCoat-150x150.jpg",
+      "size": 2510,
+      "sizeFormatted": "2.45 KB",
+      "extension": ".jpg"
+    },
+    {
+      "path": "/images/placeholder-1-1-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-1-150x150.png",
+      "name": "placeholder-1-1-150x150.png",
+      "size": 2225,
+      "sizeFormatted": "2.17 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/placeholder-1-150x150.png",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\placeholder-1-150x150.png",
+      "name": "placeholder-1-150x150.png",
+      "size": 2225,
+      "sizeFormatted": "2.17 KB",
+      "extension": ".png"
+    },
+    {
+      "path": "/images/darkgreybackground-150x150.jpeg",
+      "fullPath": "D:\\Projects\\service-site-builder\\sites\\5-star-roofing\\public\\images\\darkgreybackground-150x150.jpeg",
+      "name": "darkgreybackground-150x150.jpeg",
+      "size": 1672,
+      "sizeFormatted": "1.63 KB",
+      "extension": ".jpeg"
+    }
+  ]
+}

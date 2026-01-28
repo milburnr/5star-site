@@ -1,0 +1,170 @@
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "5 Star Commercial Roofing",
+  "image": "https://5starroofingpros.com/logo.png",
+  "@id": "https://5starroofingpros.com/#organization",
+  "url": "https://5starroofingpros.com",
+  "telephone": "(806) 622-6041",
+  "email": "admin@5starroofingpros.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2909 S Western St",
+    "addressLocality": "Amarillo",
+    "addressRegion": "TX",
+    "postalCode": "79109",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 35.1768,
+    "longitude": -101.859
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "84",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "09:00",
+    "closes": "17:00"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Amarillo",
+      "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Midland",
+      "@id": "https://en.wikipedia.org/wiki/Midland,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Odessa",
+      "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Lubbock",
+      "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Canyon",
+      "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Borger",
+      "@id": "https://en.wikipedia.org/wiki/Borger,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Pampa",
+      "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Dumas",
+      "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Perryton",
+      "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas",
+      "containedIn": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roofing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hail Damage Roof Repair",
+          "description": "Expert hail damage repair with free inspections and insurance claim assistance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Residential Roofing",
+          "description": "Complete residential roofing services including asphalt shingles and metal roofing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Commercial Roofing",
+          "description": "TPO, PVC, EPDM, and built-up roofing systems for commercial buildings"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Storm Damage Repair",
+          "description": "24/7 emergency storm damage repair and roof restoration services"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.facebook.com/5starroofingpros",
+    "https://www.google.com/maps?cid=11430502439073045291"
+  ]
+}

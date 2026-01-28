@@ -1,0 +1,303 @@
+[build]
+  base = "sites/5-star-roofing"
+  publish = "out"
+  command = "npm run build"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+# ============================================================================
+# PERFORMANCE - Cache Headers
+# ============================================================================
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/photos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.avif"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ============================================================================
+# 301 REDIRECTS - Duplicate Page Consolidation
+# These must come BEFORE the catch-all /* redirect
+# ============================================================================
+
+# Amarillo Hail Damage - Consolidate to /hail-damage-repair-amarillo-tx/
+[[redirects]]
+  from = "/hail-damage-roof-repair-in-amarillo"
+  to = "/hail-damage-repair-amarillo-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair-in-amarillo/"
+  to = "/hail-damage-repair-amarillo-tx/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair-amarillo-texas"
+  to = "/hail-damage-repair-amarillo-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair-amarillo-texas/"
+  to = "/hail-damage-repair-amarillo-tx/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roofs-in-amarillo"
+  to = "/hail-damage-repair-amarillo-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roofs-in-amarillo/"
+  to = "/hail-damage-repair-amarillo-tx/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-hail-damage-repair-services-in-amarillo-tx"
+  to = "/hail-damage-repair-amarillo-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-hail-damage-repair-services-in-amarillo-tx/"
+  to = "/hail-damage-repair-amarillo-tx/"
+  status = 301
+  force = true
+
+# Midland Hail Damage - Consolidate to /hail-damage-repair-midland-tx/
+[[redirects]]
+  from = "/hail-damage-roof-repair-midland-texas"
+  to = "/hail-damage-repair-midland-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair-midland-texas/"
+  to = "/hail-damage-repair-midland-tx/"
+  status = 301
+  force = true
+
+# Odessa Hail Damage - Consolidate to /hail-damage-repair-odessa-tx/
+[[redirects]]
+  from = "/hail-damage-roof-repair-odessa-texas"
+  to = "/hail-damage-repair-odessa-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair-odessa-texas/"
+  to = "/hail-damage-repair-odessa-tx/"
+  status = 301
+  force = true
+
+# Lubbock Hail Damage - Consolidate to /hail-damage-repair-lubbock-tx/
+[[redirects]]
+  from = "/hail-damage-roof-repair-lubbock-texas"
+  to = "/hail-damage-repair-lubbock-tx"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hail-damage-roof-repair-lubbock-texas/"
+  to = "/hail-damage-repair-lubbock-tx/"
+  status = 301
+  force = true
+
+# Residential Roofing Amarillo - Consolidate to /residential-roofing-amarillo/
+[[redirects]]
+  from = "/residential-roofing-amarillo-texas"
+  to = "/residential-roofing-amarillo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing-amarillo-texas/"
+  to = "/residential-roofing-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing-amarillo-tx"
+  to = "/residential-roofing-amarillo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing-amarillo-tx/"
+  to = "/residential-roofing-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing-in-amarillo"
+  to = "/residential-roofing-amarillo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/residential-roofing-in-amarillo/"
+  to = "/residential-roofing-amarillo/"
+  status = 301
+  force = true
+
+# Commercial Roofing Amarillo - Consolidate to /commercial-roofing-amarillo/
+[[redirects]]
+  from = "/commercial-roofing-amarillo-tx"
+  to = "/commercial-roofing-amarillo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-roofing-amarillo-tx/"
+  to = "/commercial-roofing-amarillo/"
+  status = 301
+  force = true
+
+# Commercial Roofing Lubbock - Consolidate to /commercial-roofing-lubbock/
+[[redirects]]
+  from = "/commercial-roofing-lubbock-texas"
+  to = "/commercial-roofing-lubbock"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-roofing-lubbock-texas/"
+  to = "/commercial-roofing-lubbock/"
+  status = 301
+  force = true
+
+# Commercial Roofing Midland - Consolidate to /commercial-roofing-midland/
+[[redirects]]
+  from = "/commercial-roofing-midland-texas"
+  to = "/commercial-roofing-midland"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-roofing-midland-texas/"
+  to = "/commercial-roofing-midland/"
+  status = 301
+  force = true
+
+# Commercial Roofing Odessa - Consolidate to /commercial-roofing-odessa/
+[[redirects]]
+  from = "/commercial-roofing-odessa-texas"
+  to = "/commercial-roofing-odessa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/commercial-roofing-odessa-texas/"
+  to = "/commercial-roofing-odessa/"
+  status = 301
+  force = true
+
+# Emergency Repair Odessa - Consolidate to /emergency-roof-repair-odessa/
+[[redirects]]
+  from = "/emergency-roof-repair-odessa-texas"
+  to = "/emergency-roof-repair-odessa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/emergency-roof-repair-odessa-texas/"
+  to = "/emergency-roof-repair-odessa/"
+  status = 301
+  force = true
+
+# Storm/Wind Damage Amarillo consolidation
+[[redirects]]
+  from = "/roof-storm-damage-in-amarillo"
+  to = "/storm-damage-roof-repair-in-amarillo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-storm-damage-in-amarillo/"
+  to = "/storm-damage-roof-repair-in-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-wind-damage-in-amarillo"
+  to = "/wind-damage-roof-repair-in-amarillo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-wind-damage-in-amarillo/"
+  to = "/wind-damage-roof-repair-in-amarillo/"
+  status = 301
+  force = true
+
+# Canyon TX duplicates
+[[redirects]]
+  from = "/canyon-tx-roofing"
+  to = "/canyon-texas-roofing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/canyon-tx-roofing/"
+  to = "/canyon-texas-roofing/"
+  status = 301
+  force = true
+
+# ============================================================================
+# SPA Catch-All (must be last)
+# ============================================================================
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

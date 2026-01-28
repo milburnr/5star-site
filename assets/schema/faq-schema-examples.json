@@ -1,0 +1,232 @@
+{
+  "asphalt-shingle-roofing-example": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are the best asphalt shingles for our climate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Class 4 impact-resistant architectural shingles are essential for Texas's severe hail regions. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do asphalt shingles last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quality architectural shingles typically last 20-30 years when properly installed and maintained. Texas's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do Class 4 shingles qualify for insurance discounts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles. Given the area's severe hail risk, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does asphalt shingle roofing cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Asphalt shingle roofing typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and current material availability."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are asphalt shingles suitable for commercial buildings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, asphalt shingles work well for smaller commercial buildings, warehouses, and structures with residential-style roofing. For large-scale commercial properties, TPO, PVC, or EPDM systems offer better long-term value and durability. We assess each building to recommend the best roofing solution for your needs and budget."
+        }
+      }
+    ]
+  },
+  "roof-repair-example": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I know if my roof needs repair?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Look for missing or damaged shingles, visible leaks in the attic, sagging areas, granule loss, curled shingles, and water stains on ceilings. After storms, inspect for impact damage, hail dents, or blown-off sections. Schedule a professional inspection if your roof is over 15 years old or shows any of these signs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does hail damage repair include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hail damage repair includes removing impact-damaged shingles, replacing with matching materials, inspecting and repairing underlying decking if needed, checking and repairing flashing, and ensuring proper sealing. We document all damage for insurance claims and provide detailed before/after photos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will insurance cover roof repairs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most homeowner policies cover hail and storm damage after a deductible. Tree damage, wind damage, and weather-related failures are typically covered. We provide free damage assessments and insurance claim documentation to help maximize your coverage and minimize out-of-pocket costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can you repair storm damage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We offer 24/7 emergency response for severe storm damage. Most repairs are completed within 1-3 days depending on damage extent and weather conditions. We provide temporary tarping immediately to prevent water damage while scheduling permanent repairs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you repair just part of my roof?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we offer targeted repairs for specific damaged areas. However, if the damage is extensive or your roof is older, we may recommend full replacement for better warranty coverage and long-term protection. We'll assess your specific situation and provide honest recommendations."
+        }
+      }
+    ]
+  },
+  "roof-inspection-example": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How often should I have my roof inspected?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We recommend annual inspections, especially after severe weather. Roofs over 15 years old should be inspected twice yearly (spring and fall). New roofs benefit from inspections at 5-year intervals. After storms with hail, heavy winds, or falling branches, schedule an inspection within 48 hours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does a roof inspection include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our inspections include detailed examination of shingles and flashing, roof structure and framing, underlayment and decking, gutters and drainage, attic ventilation, chimney and vent seals, and interior evidence of leaks. We provide a comprehensive written report with photos and recommendations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a roof inspection cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Typical roof inspections cost $150-$300 depending on roof size and complexity. Many homeowners recoup this investment through insurance claim approvals on damage we identify. We often waive inspection fees if you proceed with repairs or replacement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get a roofing estimate during the inspection?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we provide free estimates for any needed repairs or replacement during the inspection. This gives you a clear understanding of your roof's condition and the cost to address any issues. There's no obligation for repair work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide documentation for insurance claims?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. We provide detailed inspection reports with photographs that clearly document damage and conditions. We can also communicate directly with your insurance adjuster to ensure proper claim documentation and help you receive maximum coverage for valid claims."
+        }
+      }
+    ]
+  },
+  "metal-roofing-example": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What are the advantages of metal roofing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Metal roofs offer exceptional durability (50+ years), energy efficiency reflecting summer heat, lightweight construction, fire resistance, superior wind resistance (up to 160 mph), Class 4 hail rating, minimal maintenance, and environmentally friendly recyclability. Initial costs are higher but long-term savings justify the investment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does metal roofing rust?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Modern metal roofing uses rust-resistant coatings and zinc-aluminum alloys specifically engineered to prevent corrosion. Galvanized, galvalume, and painted finishes provide decades of protection in Texas's harsh climate. We use only premium-grade metals with comprehensive warranties against rust."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is metal roofing noisy in heavy rain?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Properly installed metal roofing with adequate attic insulation is no noisier than traditional roofing. The underlayment, decking, and insulation effectively absorb sound. Modern installation techniques ensure minimal noise. We use premium underlayment materials for superior sound dampening."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can metal roofing be installed over asphalt shingles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, metal roofing can be installed directly over existing asphalt shingles to save on removal costs. However, we typically recommend removing old roofing to inspect decking and ensure proper installation. Your roof's condition and local building codes determine the best approach."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What colors and styles of metal roofing are available?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Metal roofing comes in numerous colors, finishes, and profile styles including standing seam, metal shingles, and metal tiles. We offer premium brands like Headwaters, Union Corrugating, and others with colors ranging from traditional grays and earth tones to modern colors. Our showroom displays samples to help you choose."
+        }
+      }
+    ]
+  },
+  "commercial-roofing-example": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What's the difference between TPO, PVC, and EPDM?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "TPO (Thermoplastic Polyolefin) offers good UV resistance and energy efficiency at moderate cost. PVC (Polyvinyl Chloride) provides superior chemical resistance and durability for 20-30 years. EPDM (Ethylene Propylene Diene Terpolymer) is cost-effective with 20+ year lifespan but requires maintenance. Each suits different commercial applications and budgets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do commercial flat roofs last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Single-ply membranes (TPO, PVC, EPDM) last 15-30 years depending on material and maintenance. Built-up roofing systems last 15-25 years. Regular inspections, prompt repairs, and proper drainage maintenance extend life significantly. We recommend biannual inspections for commercial properties."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer emergency roof repair services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we provide 24/7 emergency response for commercial roof damage. Our team can deploy within hours to tarp damaged areas, prevent water intrusion, and mitigate property damage. We work with your insurance and maintain detailed documentation throughout the process."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you install green or sustainable roofing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We specialize in sustainable roofing options including cool roofing membranes with high solar reflectance, green roof systems with vegetation, and recyclable materials. These reduce energy costs, extend roof life, and improve building aesthetics while supporting environmental goals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What maintenance does a commercial roof need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Regular maintenance includes clearing debris, inspecting seams and flashing, cleaning gutters and drains, removing standing water, and addressing minor damage promptly. We offer maintenance contracts with scheduled inspections to catch issues early, preventing costly emergency repairs."
+        }
+      }
+    ]
+  }
+}

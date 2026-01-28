@@ -1,0 +1,2949 @@
+{
+  "summary": {
+    "totalPages": 259,
+    "missingTitles": 0,
+    "missingMetas": 0,
+    "duplicateTitles": 11,
+    "duplicateMetas": 9,
+    "shortTitles": 1,
+    "longTitles": 0,
+    "shortMetas": 17,
+    "longMetas": 0,
+    "cannibalizationGroups": 16
+  },
+  "issues": {
+    "missingTitles": [],
+    "missingMetas": [],
+    "duplicateTitles": [
+      {
+        "title": "Amarillo TX Roofing | Trusted Local Roofers",
+        "urls": [
+          "https://5starroofingpros.comapp/commercial-roofing-amarillo-tx/",
+          "https://5starroofingpros.comapp/residential-roofing-amarillo-tx/",
+          "https://5starroofingpros.comapp/roofing-amarillo-tx/"
+        ]
+      },
+      {
+        "title": "Commercial Roofing Odessa TX | 5 Star Roofing",
+        "urls": [
+          "https://5starroofingpros.comapp/commercial-roofing-odessa/",
+          "https://5starroofingpros.comapp/commercial-roofing-odessa-texas/"
+        ]
+      },
+      {
+        "title": "Amarillo TX Roofing Services | 5 Star Roofing",
+        "urls": [
+          "https://5starroofingpros.comapp/expert-roofing-services-in-amarillo/",
+          "https://5starroofingpros.comapp/roofing-services-in-amarillo-tx/"
+        ]
+      },
+      {
+        "title": "Hail Damage Roof Repair in Amarillo | 5 Star",
+        "urls": [
+          "https://5starroofingpros.comapp/hail-damage-repair-amarillo-tx/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-amarillo-texas/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/hail-damage-roofs-in-amarillo/",
+          "https://5starroofingpros.comapp/roof-hail-damage-repair-services-in-amarillo-tx/"
+        ]
+      },
+      {
+        "title": "Hail Damage Roof Repair in Lubbock | 5 Star",
+        "urls": [
+          "https://5starroofingpros.comapp/hail-damage-repair-lubbock-tx/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-lubbock-texas/"
+        ]
+      },
+      {
+        "title": "Hail Damage Roof Repair in Midland | 5 Star",
+        "urls": [
+          "https://5starroofingpros.comapp/hail-damage-repair-midland-tx/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-midland-texas/"
+        ]
+      },
+      {
+        "title": "Hail Damage Roof Repair in Odessa | 5 Star",
+        "urls": [
+          "https://5starroofingpros.comapp/hail-damage-repair-odessa-tx/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-odessa-texas/"
+        ]
+      },
+      {
+        "title": "Residential Roofing Amarillo TX | 5 Star Roofing",
+        "urls": [
+          "https://5starroofingpros.comapp/residential-roofing-amarillo/",
+          "https://5starroofingpros.comapp/residential-roofing-amarillo-texas/"
+        ]
+      },
+      {
+        "title": "Roof Inspections Amarillo TX | 5 Star Roofing",
+        "urls": [
+          "https://5starroofingpros.comapp/roof-inspections-amarillo/",
+          "https://5starroofingpros.comapp/roof-inspections-in-amarillo/"
+        ]
+      },
+      {
+        "title": "Emergency Storm Damage Roof Repair in Amarillo | 5 Star",
+        "urls": [
+          "https://5starroofingpros.comapp/roof-storm-damage-in-amarillo/",
+          "https://5starroofingpros.comapp/storm-damage-roof-repair-in-amarillo/"
+        ]
+      },
+      {
+        "title": "Emergency Wind Damage Roof Repair in Amarillo | 5 Star",
+        "urls": [
+          "https://5starroofingpros.comapp/roof-wind-damage-in-amarillo/",
+          "https://5starroofingpros.comapp/wind-damage-roof-repair-in-amarillo/"
+        ]
+      }
+    ],
+    "duplicateMetas": [
+      {
+        "meta": "Roof Repair in Amarillo, TX. Free inspections, ins...",
+        "urls": [
+          "https://5starroofingpros.comapp/asphalt-flat-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/commercial-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/heavy-rain-damage-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/pvc-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/residential-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/roof-repair-services-in-amarillo/"
+        ]
+      },
+      {
+        "meta": "Commercial Roofing in Amarillo, TX. Free inspectio...",
+        "urls": [
+          "https://5starroofingpros.comapp/commercial-roofing-amarillo/",
+          "https://5starroofingpros.comapp/commercial-roofing-amarillo-tx/"
+        ]
+      },
+      {
+        "meta": "Hail Damage Repair in Amarillo, TX. Free inspectio...",
+        "urls": [
+          "https://5starroofingpros.comapp/hail-damage-repair-amarillo/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-amarillo-texas/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-in-amarillo/",
+          "https://5starroofingpros.comapp/hail-damage-roof-replacement-in-amarillo/",
+          "https://5starroofingpros.comapp/hail-damage-roofs-in-amarillo/",
+          "https://5starroofingpros.comapp/roof-hail-damage-repair-services-in-amarillo-tx/"
+        ]
+      },
+      {
+        "meta": "Amarillo...",
+        "urls": [
+          "https://5starroofingpros.comapp/hail-damage-repair-amarillo-tx/",
+          "https://5starroofingpros.comapp/residential-roofing-amarillo-tx/"
+        ]
+      },
+      {
+        "meta": "Roof Replacement in Amarillo, TX. Free inspections...",
+        "urls": [
+          "https://5starroofingpros.comapp/pvc-roof-replacement-in-amarillo/",
+          "https://5starroofingpros.comapp/residential-roof-replacement-in-amarillo/",
+          "https://5starroofingpros.comapp/roof-replacement-amarillo/",
+          "https://5starroofingpros.comapp/roof-replacement-in-amarillo/"
+        ]
+      },
+      {
+        "meta": "Residential Roofing in Amarillo, TX. Free inspecti...",
+        "urls": [
+          "https://5starroofingpros.comapp/residential-roofing-amarillo/",
+          "https://5starroofingpros.comapp/residential-roofing-in-amarillo/"
+        ]
+      },
+      {
+        "meta": "Roof Inspections in Amarillo, TX. Free inspections...",
+        "urls": [
+          "https://5starroofingpros.comapp/roof-inspection-amarillo-texas/",
+          "https://5starroofingpros.comapp/roof-inspections-in-amarillo/"
+        ]
+      },
+      {
+        "meta": "Storm Damage Repair in Amarillo, TX. Free inspecti...",
+        "urls": [
+          "https://5starroofingpros.comapp/roof-storm-damage-in-amarillo/",
+          "https://5starroofingpros.comapp/storm-damage-repair-amarillo/",
+          "https://5starroofingpros.comapp/storm-damage-roof-repair-in-amarillo/"
+        ]
+      },
+      {
+        "meta": "Wind Damage Repair in Amarillo, TX. Free inspectio...",
+        "urls": [
+          "https://5starroofingpros.comapp/roof-wind-damage-in-amarillo/",
+          "https://5starroofingpros.comapp/wind-damage-repair-amarillo/",
+          "https://5starroofingpros.comapp/wind-damage-roof-repair-in-amarillo/"
+        ]
+      }
+    ],
+    "shortTitles": [
+      {
+        "url": "https://5starroofingpros.comapp/amarillos-best-roofer/",
+        "title": "Amarillo",
+        "length": 8
+      }
+    ],
+    "longTitles": [],
+    "cannibalization": [
+      {
+        "keyword": "residential-roofing-amarillo",
+        "pages": [
+          "https://5starroofingpros.comapp/residential-roofing-amarillo/",
+          "https://5starroofingpros.comapp/residential-roofing-amarillo-texas/",
+          "https://5starroofingpros.comapp/residential-roofing-amarillo-tx/",
+          "https://5starroofingpros.comapp/residential-roofing-in-amarillo/"
+        ],
+        "count": 4
+      },
+      {
+        "keyword": "commercial-roofing-amarillo",
+        "pages": [
+          "https://5starroofingpros.comapp/commercial-roofing-amarillo/",
+          "https://5starroofingpros.comapp/commercial-roofing-amarillo-tx/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "commercial-roofing-lubbock",
+        "pages": [
+          "https://5starroofingpros.comapp/commercial-roofing-lubbock/",
+          "https://5starroofingpros.comapp/commercial-roofing-lubbock-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "commercial-roofing-midland",
+        "pages": [
+          "https://5starroofingpros.comapp/commercial-roofing-midland/",
+          "https://5starroofingpros.comapp/commercial-roofing-midland-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "commercial-roofing-odessa",
+        "pages": [
+          "https://5starroofingpros.comapp/commercial-roofing-odessa/",
+          "https://5starroofingpros.comapp/commercial-roofing-odessa-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "emergency-roof-repair-odessa",
+        "pages": [
+          "https://5starroofingpros.comapp/emergency-roof-repair-odessa/",
+          "https://5starroofingpros.comapp/emergency-roof-repair-odessa-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "hail-damage-repair-amarillo",
+        "pages": [
+          "https://5starroofingpros.comapp/hail-damage-repair-amarillo/",
+          "https://5starroofingpros.comapp/hail-damage-repair-amarillo-tx/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "hail-damage-repair-lubbock",
+        "pages": [
+          "https://5starroofingpros.comapp/hail-damage-repair-lubbock/",
+          "https://5starroofingpros.comapp/hail-damage-repair-lubbock-tx/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "hail-damage-repair-midland",
+        "pages": [
+          "https://5starroofingpros.comapp/hail-damage-repair-midland/",
+          "https://5starroofingpros.comapp/hail-damage-repair-midland-tx/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "hail-damage-repair-odessa",
+        "pages": [
+          "https://5starroofingpros.comapp/hail-damage-repair-odessa/",
+          "https://5starroofingpros.comapp/hail-damage-repair-odessa-tx/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "hail-damage-roof-repair-amarillo",
+        "pages": [
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-amarillo-texas/",
+          "https://5starroofingpros.comapp/hail-damage-roof-repair-in-amarillo/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "residential-roofing-lubbock",
+        "pages": [
+          "https://5starroofingpros.comapp/residential-roofing-lubbock/",
+          "https://5starroofingpros.comapp/residential-roofing-lubbock-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "residential-roofing-midland",
+        "pages": [
+          "https://5starroofingpros.comapp/residential-roofing-midland/",
+          "https://5starroofingpros.comapp/residential-roofing-midland-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "residential-roofing-odessa",
+        "pages": [
+          "https://5starroofingpros.comapp/residential-roofing-odessa/",
+          "https://5starroofingpros.comapp/residential-roofing-odessa-texas/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "roof-inspections-amarillo",
+        "pages": [
+          "https://5starroofingpros.comapp/roof-inspections-amarillo/",
+          "https://5starroofingpros.comapp/roof-inspections-in-amarillo/"
+        ],
+        "count": 2
+      },
+      {
+        "keyword": "roof-replacement-amarillo",
+        "pages": [
+          "https://5starroofingpros.comapp/roof-replacement-amarillo/",
+          "https://5starroofingpros.comapp/roof-replacement-in-amarillo/"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  "allPages": [
+    {
+      "path": "app/about/page.tsx",
+      "url": "https://5starroofingpros.comapp/about/",
+      "title": "About 5 Star Commercial Roofing | Amarillo, Midland, Odes...",
+      "metaDescription": "Over 10 years serving Amarillo, Midland, Odessa and West Texas. Call for a free quote!",
+      "h1": "About 5 Star Commercial Roofing",
+      "wordCount": 601,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/amarillo-homes-roofing-services/page.tsx",
+      "url": "https://5starroofingpros.comapp/amarillo-homes-roofing-services/",
+      "title": "Amarillo Homes Roofing| Expert Residential Services",
+      "metaDescription": "Amarillo Homes Roofing Services is here to cater to all your roofing needs. We guarantee exceptional results. Free inspections available.",
+      "h1": "Amarillo Homes Roofing Services",
+      "wordCount": 1033,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/amarillo-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/amarillo-texas-roofing/",
+      "title": "Amarillo Texas Roofing | Local Hail Experts",
+      "metaDescription": "Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.",
+      "h1": "Amarillo&apos;s Trusted Roofing Contractor",
+      "wordCount": 1025,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/amarillo-weather-impact-on-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/amarillo-weather-impact-on-roofing/",
+      "title": "Understanding Climate and Roof Longevity in Amarillo",
+      "metaDescription": "Explore the impact of Amarillo",
+      "h1": "Understanding Climate and Roof Longevity in Amarillo: A 5-Star Roofing Guide",
+      "wordCount": 951,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/amarillos-best-roofer/page.tsx",
+      "url": "https://5starroofingpros.comapp/amarillos-best-roofer/",
+      "title": "Amarillo",
+      "metaDescription": "Need a reliable roofing company in Amarillo? Amarillo",
+      "h1": "Amarillo's Best Roofer",
+      "wordCount": 850,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_TITLE",
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/articles/page.tsx",
+      "url": "https://5starroofingpros.comapp/articles/",
+      "title": "Roofing Articles & Local Amarillo Guide | 5 Star Commerci...",
+      "metaDescription": "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage, and roofing maintenance for West Texas homes.",
+      "h1": "Articles & Local Amarillo Guide",
+      "wordCount": 515,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-flat-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-flat-roof-repair-in-amarillo/",
+      "title": "Flat Roof Repair Amarillo TX | BUR & Asphalt",
+      "metaDescription": "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Asphalt Flat Roof Repair in Amarillo & West Texas",
+      "wordCount": 737,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-roofing-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-roofing-in-amarillo/",
+      "title": "Asphalt Roofing Amarillo TX | 5 Star Roofing",
+      "metaDescription": "asphalt shingle installation in Amarillo, Midland, Odessa. Class 4 impact-resistant shingles for hail protection. Free inspections available.",
+      "h1": "Asphalt Shingle Roofing in Amarillo & West Texas",
+      "wordCount": 928,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-amarillo/",
+      "title": "Asphalt Shingles Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Professional asphalt shingle roofing in Amarillo TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 287,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-andrews/",
+      "title": "Asphalt Shingles Andrews TX | 5 Star Roofing",
+      "metaDescription": "Quality asphalt shingle roofing in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 234,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-big-spring/",
+      "title": "Asphalt Shingles Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Quality asphalt shingle roofing in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 246,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-borger/",
+      "title": "Asphalt Shingles Borger TX | 5 Star Roofing",
+      "metaDescription": "asphalt shingle roofing in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 530,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-canyon/",
+      "title": "Asphalt Shingles Canyon TX | 5 Star Roofing",
+      "metaDescription": "asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 541,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-dumas/",
+      "title": "Asphalt Shingle Roofing Dumas TX | Class 4 | Free Inspection",
+      "metaDescription": "asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 534,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-levelland/",
+      "title": "Asphalt Shingles Levelland TX | 5 Star Roofing",
+      "metaDescription": "Quality asphalt shingle roofing in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 234,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-lubbock/",
+      "title": "Asphalt Shingles Lubbock TX | 5 Star Roofing",
+      "metaDescription": "Professional asphalt shingle roofing in Lubbock TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 287,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-midland/",
+      "title": "Asphalt Shingles Midland TX | 5 Star Roofing",
+      "metaDescription": "Professional asphalt shingle roofing in Midland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 287,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-monahans/",
+      "title": "Asphalt Shingles Monahans TX | 5 Star Roofing",
+      "metaDescription": "Quality asphalt shingle roofing in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 235,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-odessa/",
+      "title": "Asphalt Shingles Odessa TX | 5 Star Roofing",
+      "metaDescription": "Professional asphalt shingle roofing in Odessa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 287,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-pampa/",
+      "title": "Asphalt Shingle Roofing Pampa TX | Class 4 | Free Inspection",
+      "metaDescription": "asphalt shingle roofing in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 534,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-perryton/",
+      "title": "Asphalt Shingles Perryton TX | 5 Star Roofing",
+      "metaDescription": "asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 530,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/asphalt-shingle-roofing-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/asphalt-shingle-roofing-snyder/",
+      "title": "Asphalt Shingles Snyder TX | 5 Star Roofing",
+      "metaDescription": "Quality asphalt shingle roofing in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 234,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/blog/best-roofing-materials-texas-2025/page.tsx",
+      "url": "https://5starroofingpros.comapp/blog/best-roofing-materials-texas-2025/",
+      "title": "Best Roofing Materials for Texas Climate 2025 | Expert Guide",
+      "metaDescription": "Complete guide to the best roofing materials for Texas. Compare asphalt shingles, metal roofing, tile, and more for heat, hail, and wind resistance.",
+      "h1": "Best Roofing Materials for Texas Climate 2025",
+      "wordCount": 979,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/blog/how-to-file-hail-damage-insurance-claim/page.tsx",
+      "url": "https://5starroofingpros.comapp/blog/how-to-file-hail-damage-insurance-claim/",
+      "title": "How to File a Hail Damage Insurance Claim | Step-by-Step ...",
+      "metaDescription": "Complete guide to filing hail damage insurance claims in Texas. Step-by-step process, what insurance covers, common mistakes to avoid.",
+      "h1": "How to File a Hail Damage Insurance Claim in Texas",
+      "wordCount": 1927,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/blog/page.tsx",
+      "url": "https://5starroofingpros.comapp/blog/",
+      "title": "Roofing Blog & Resources | 5 Star Commercial Roofing",
+      "metaDescription": "roofing advice for Texas homeowners. Guides on hail damage, roof costs, materials, maintenance, and insurance claims from West Texas roofing professionals.",
+      "h1": "Roofing Blog & Resources",
+      "wordCount": 327,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/blog/roof-maintenance-checklist-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/blog/roof-maintenance-checklist-texas/",
+      "title": "Roof Maintenance Checklist for Texas Homeowners 2025",
+      "metaDescription": "Complete roof maintenance checklist for Texas homes. Seasonal inspections, preventive care, and expert tips to extend roof life. Free printable checklist.",
+      "h1": "Roof Maintenance Checklist for Texas 2025",
+      "wordCount": 960,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/blog/roof-replacement-cost-texas-2025/page.tsx",
+      "url": "https://5starroofingpros.comapp/blog/roof-replacement-cost-texas-2025/",
+      "title": "Roof Replacement Cost in Texas 2025 | Complete Pricing Guide",
+      "metaDescription": "How much does roof replacement cost in Texas? Complete 2025 pricing guide with average costs by size, material, and location.",
+      "h1": "How Much Does Roof Replacement Cost in Texas in 2025?",
+      "wordCount": 1377,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/borger-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/borger-texas-roofing/",
+      "title": "Roofing in Borger, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Borger, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Hutchinson County. Free inspections available.",
+      "h1": "Borger's Professional Roofing Contractor",
+      "wordCount": 784,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/budgeting-for-roof-replacement-expenses/page.tsx",
+      "url": "https://5starroofingpros.comapp/budgeting-for-roof-replacement-expenses/",
+      "title": "Budgeting for Roof Replacement Expenses| Amarillo Roofing",
+      "metaDescription": "Affordable and reliable roof replacement services in Amarillo, TX. FREE inspections and estimates so you can budget exactly what it will cost you.",
+      "h1": "Budgeting for Roof Replacement Expenses",
+      "wordCount": 682,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/bushland-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/bushland-tx-roofing/",
+      "title": "Roofing in Bushland, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Bushland, Texas Panhandle. Just 10 miles west of Amarillo. Hail damage repair, residential & commercial roofing, metal roofs.",
+      "h1": "Professional Roofing Services in Bushland, Texas",
+      "wordCount": 884,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/canyon-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/canyon-texas-roofing/",
+      "title": "Roofing in Canyon, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Canyon, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Randall County. Free inspections available.",
+      "h1": "Canyon's Professional Roofing Contractor",
+      "wordCount": 634,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/canyon-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/canyon-tx-roofing/",
+      "title": "Canyon TX Roofing | Professional Roofer Serving Canyon,",
+      "metaDescription": "Trusted roofing contractor serving Canyon, TX from our Amarillo location. hail damage repair, residential & commercial roofing.",
+      "h1": "Professional Roofing Services in Canyon, Texas",
+      "wordCount": 1446,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/claude-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/claude-tx-roofing/",
+      "title": "Roofing in Claude, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Claude, Texas Panhandle. Just 25 miles east of Amarillo on US-287. Hail damage repair, residential & commercial roofing.",
+      "h1": "Professional Roofing Services in Claude, Texas",
+      "wordCount": 1009,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roof-repair-in-amarillo/",
+      "title": "Commercial Roof Repair in AmarilloService | 5 Star",
+      "metaDescription": "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Commercial Roof Repair in Amarillo",
+      "wordCount": 558,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing/",
+      "title": "Commercial Roofing in Amarillo TX| TPO, PVC, EPDM | 5 Star",
+      "metaDescription": "commercial roofing in Amarillo. TPO, PVC, EPDM, and built-up roofing systems. Call for a free quote!",
+      "h1": "Commercial Roofing Services in Amarillo",
+      "wordCount": 1153,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/commercial-roofing-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-amarillo/",
+      "title": "Commercial Roofing Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "24/7",
+      "wordCount": 1239,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-amarillo-tx/",
+      "title": "Amarillo TX Roofing | Trusted Local Roofers",
+      "metaDescription": "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "",
+      "wordCount": 3437,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-andrews/",
+      "title": "Commercial Roofing Andrews TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-big-spring/",
+      "title": "Commercial Roofing Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Big Spring TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 293,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-borger/",
+      "title": "Commercial Roofing Borger TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Borger TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-canyon/",
+      "title": "Commercial Roofing Canyon TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Canyon TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-dumas/",
+      "title": "Commercial Roofing Dumas TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Dumas TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-levelland/",
+      "title": "Commercial Roofing Levelland TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-lubbock/",
+      "title": "Commercial Roofing Lubbock TX | 5 Star Roofing",
+      "metaDescription": "commercial roofing in Lubbock TX. TPO, EPDM, and metal roofing systems for businesses. 24/7 emergency service. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 347,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-lubbock-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-lubbock-texas/",
+      "title": "Commercial Roofing in Lubbock TX| TPO, EPDM, Flat Roofs",
+      "metaDescription": "Commercial Roofing in Lubbock, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Commercial Roofing in Lubbock, TX",
+      "wordCount": 565,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-midland/",
+      "title": "Commercial Roofing Midland TX | 5 Star Roofing",
+      "metaDescription": "commercial roofing in Midland TX. TPO, EPDM, and metal roofing systems for businesses. 24/7 emergency service. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 347,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-midland-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-midland-texas/",
+      "title": "Commercial Roofing in Midland TX| Oil & Gas Specialists",
+      "metaDescription": "Commercial Roofing in Midland, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Commercial Roofing in Midland, TX",
+      "wordCount": 518,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-monahans/",
+      "title": "Commercial Roofing Monahans TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Monahans TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-odessa/",
+      "title": "Commercial Roofing Odessa TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. 24/7 emergency service. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 348,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-odessa-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-odessa-texas/",
+      "title": "Commercial Roofing Odessa TX | 5 Star Roofing",
+      "metaDescription": "Expert commercial roofing in Odessa, TX. TPO, EPDM, flat roof systems for Permian Basin businesses. Free estimates. Call (806) 622-6041.",
+      "h1": "Commercial Roofing in Odessa, TX",
+      "wordCount": 775,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-pampa/",
+      "title": "Commercial Roofing Pampa TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-perryton/",
+      "title": "Commercial Roofing Perryton TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Perryton TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/commercial-roofing-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/commercial-roofing-snyder/",
+      "title": "Commercial Roofing Snyder TX | 5 Star Roofing",
+      "metaDescription": "Professional commercial roofing in Snyder TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 280,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "url": "https://5starroofingpros.comapp/contact/",
+      "title": "Contact Us | 5 Star Commercial Roofing | Amarillo, TX",
+      "metaDescription": "Contact 5 Star Commercial Roofing for roofing services in Amarillo, Midland, Odessa, and West Texas.",
+      "h1": "🚨",
+      "wordCount": 615,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/damaged-roof-replacement-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/damaged-roof-replacement-in-amarillo/",
+      "title": "Damaged Roof Replacement Amarillo TX | 5 Star",
+      "metaDescription": "Professional roof repair or replacement in Amarillo. Storm damage, hail damage specialists. Don",
+      "h1": "Damaged Roof Replacement in Amarillo",
+      "wordCount": 1042,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/dumas-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/dumas-texas-roofing/",
+      "title": "Roofing in Dumas, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Dumas, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Moore County. Free inspections available.",
+      "h1": "Dumas&apos;s Professional Roofing Contractor",
+      "wordCount": 605,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-amarillo/",
+      "title": "Emergency Roof Repair Amarillo TXService | Storm Damage",
+      "metaDescription": "Emergency Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "24/7",
+      "wordCount": 649,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-andrews/",
+      "title": "Emergency Roof Repair Andrews TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-big-spring/",
+      "title": "Emergency Roof Repair Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Big Spring TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 296,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-borger/",
+      "title": "Emergency Roof Repair Borger TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Borger TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-canyon/",
+      "title": "Emergency Roof Repair Canyon TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Canyon TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-dumas/",
+      "title": "Emergency Roof Repair Dumas TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Dumas TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-levelland/",
+      "title": "Emergency Roof Repair Levelland TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-lubbock/",
+      "title": "Emergency Roof Repair Lubbock TXService | Storm Damage",
+      "metaDescription": "24/7 emergency roof repair in Lubbock TX. Rapid response for storm damage, active leaks, wind damage. Emergency tarping available. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 295,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-midland/",
+      "title": "Emergency Roof Repair Midland TXService | Storm Damage",
+      "metaDescription": "24/7 emergency roof repair in Midland TX. Rapid response for storm damage, active leaks, wind damage. Emergency tarping available. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 295,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-monahans/",
+      "title": "Emergency Roof Repair Monahans TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Monahans TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-odessa/",
+      "title": "Emergency Roof Repair Odessa TXService | Storm Damage",
+      "metaDescription": "24/7 emergency roof repair in Odessa TX. Rapid response for storm damage, active leaks, wind damage. Emergency tarping available. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 295,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-odessa-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-odessa-texas/",
+      "title": "Emergency Roof Repair in Odessa | 5 Star",
+      "metaDescription": "Emergency Roof Repair in Odessa, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Emergency Roof Repair in Odessa, TX",
+      "wordCount": 580,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-pampa/",
+      "title": "Emergency Roof Repair Pampa TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-perryton/",
+      "title": "Emergency Roof Repair Perryton TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Perryton TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/emergency-roof-repair-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/emergency-roof-repair-snyder/",
+      "title": "Emergency Roof Repair Snyder TX | 5 Star Roofing",
+      "metaDescription": "Professional emergency roof repair in Snyder TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/expert-roofing-services-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/expert-roofing-services-in-amarillo/",
+      "title": "Amarillo TX Roofing Services | 5 Star Roofing",
+      "metaDescription": "Choose 5 Star Roofing for top-notch residential and commercial roofing services in Amarillo. Quality materials, expert service, and unbeatable reliability.",
+      "h1": "Amarillo Roofer – 5 Star Roofing",
+      "wordCount": 590,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/flat-roof-repair-midland-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/flat-roof-repair-midland-texas/",
+      "title": "Flat Roof Repair in Midland, TX| Commercial Specialists",
+      "metaDescription": "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. Emergency service available. Free inspections. Call today (806) 622-6041",
+      "h1": "Flat Roof Repair in Midland, TX",
+      "wordCount": 663,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/gallery/page.tsx",
+      "url": "https://5starroofingpros.comapp/gallery/",
+      "title": "Project Gallery | 5 Star Commercial Roofing Portfolio",
+      "metaDescription": "View our completed roofing projects in Amarillo, Midland, Odessa, and Lubbock. Call for a free quote!",
+      "h1": "",
+      "wordCount": 418,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/hail-damage-repair-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-amarillo/",
+      "title": "Hail Damage Repair Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "131+",
+      "wordCount": 634,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-amarillo-tx/",
+      "title": "Hail Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Amarillo",
+      "h1": "",
+      "wordCount": 4159,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/hail-damage-repair-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-andrews/",
+      "title": "Hail Damage Repair Andrews TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-big-spring/",
+      "title": "Hail Damage Repair Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Big Spring TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 303,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-borger/",
+      "title": "Hail Damage Repair Borger TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Borger TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-canyon/",
+      "title": "Hail Damage Repair Canyon TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Canyon TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-dumas/",
+      "title": "Hail Damage Repair Dumas TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Dumas TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-levelland/",
+      "title": "Hail Damage Repair Levelland TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-lubbock/",
+      "title": "Hail Damage Repair Lubbock TX | 5 Star Roofing",
+      "metaDescription": "Expert hail damage repair in Lubbock with 24/7 emergency service. Complete insurance claim assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-lubbock-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-lubbock-tx/",
+      "title": "Hail Damage Roof Repair in Lubbock | 5 Star",
+      "metaDescription": "Lubbock",
+      "h1": "Free Hail Damage Inspection - We Handle Your Insurance Claim",
+      "wordCount": 4691,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/hail-damage-repair-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-midland/",
+      "title": "Hail Damage Repair Midland TX | 5 Star Roofing",
+      "metaDescription": "Expert hail damage repair in Midland with 24/7 emergency service. Complete insurance claim assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-midland-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-midland-tx/",
+      "title": "Hail Damage Roof Repair in Midland | 5 Star",
+      "metaDescription": "Midland",
+      "h1": "Hail Damage Repair in Midland, TX",
+      "wordCount": 3039,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/hail-damage-repair-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-monahans/",
+      "title": "Hail Damage Repair Monahans TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Monahans TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-odessa/",
+      "title": "Hail Damage Roof Repair Odessa TXEmergency | Free Inspection",
+      "metaDescription": "Expert hail damage repair in Odessa with 24/7 emergency service. Complete insurance claim assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 294,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-odessa-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-odessa-tx/",
+      "title": "Hail Damage Roof Repair in Odessa | 5 Star",
+      "metaDescription": "Odessa",
+      "h1": "Hail Damage Repair in Odessa, TX",
+      "wordCount": 3156,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/hail-damage-repair-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-pampa/",
+      "title": "Hail Damage Repair Pampa TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-perryton/",
+      "title": "Hail Damage Repair Perryton TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Perryton TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-repair-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-repair-snyder/",
+      "title": "Hail Damage Repair Snyder TX | 5 Star Roofing",
+      "metaDescription": "Professional hail damage repair in Snyder TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roof-repair-amarillo-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roof-repair-amarillo-texas/",
+      "title": "Hail Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roof Repair in Amarillo, TX",
+      "wordCount": 1310,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roof-repair-in-amarillo/",
+      "title": "Hail Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roof Repair in Amarillo, TX",
+      "wordCount": 719,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roof-repair-lubbock-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roof-repair-lubbock-texas/",
+      "title": "Hail Damage Roof Repair in Lubbock | 5 Star",
+      "metaDescription": "Hail Damage Repair in Lubbock, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roof Repair in Lubbock, TX",
+      "wordCount": 397,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roof-repair-midland-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roof-repair-midland-texas/",
+      "title": "Hail Damage Roof Repair in Midland | 5 Star",
+      "metaDescription": "Hail Damage Repair in Midland, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roof Repair in Midland, TX",
+      "wordCount": 556,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roof-repair-odessa-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roof-repair-odessa-texas/",
+      "title": "Hail Damage Roof Repair in Odessa | 5 Star",
+      "metaDescription": "Hail Damage Repair in Odessa, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roof Repair in Odessa, TX",
+      "wordCount": 401,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roof-replacement-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roof-replacement-in-amarillo/",
+      "title": "Hail Damage Roof Replacement in Amarillo | 5 Star",
+      "metaDescription": "Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roof Replacement in Amarillo",
+      "wordCount": 566,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hail-damage-roofs-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/hail-damage-roofs-in-amarillo/",
+      "title": "Hail Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Hail Damage Roofs in Amarillo",
+      "wordCount": 707,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/heavy-rain-damage-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/heavy-rain-damage-roof-repair-in-amarillo/",
+      "title": "Emergency Rain Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Heavy Rain Damage Roof Repair in Amarillo & West Texas",
+      "wordCount": 1421,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/hereford-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/hereford-texas-roofing/",
+      "title": "Roofing in Hereford, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.",
+      "h1": "Hereford&apos;s Professional Roofing Contractor",
+      "wordCount": 1189,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/industrial-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/industrial-roofing/",
+      "title": "Industrial Roofing in Amarillo TX| Warehouses & Manufactu...",
+      "metaDescription": "industrial roofing in Amarillo. TPO, EPDM, and metal roofing for warehouses and manufacturing facilities.",
+      "h1": "Industrial Roofing Services in Amarillo & West Texas",
+      "wordCount": 1239,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/lubbock-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/lubbock-tx-roofing/",
+      "title": "Roofing in Lubbock TX | South Plains Weather Experts",
+      "metaDescription": "roofing in Lubbock. South Plains weather experts. Residential and commercial services. Lubbock experiences 6-8 hailstorms annually.",
+      "h1": "Free Same-Day Lubbock Roof Inspections After Severe Hail",
+      "wordCount": 2253,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roof-installation-odessa-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roof-installation-odessa-texas/",
+      "title": "Metal Roof Installation in Odessa, TX| 50+ Year Lifespan",
+      "metaDescription": "metal roof installation in Odessa, Texas. Standing seam, R-panel, commercial & residential. 50+ year lifespan. Free inspections available.",
+      "h1": "Metal Roof Installation in Odessa, TX",
+      "wordCount": 575,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-amarillo/",
+      "title": "Metal Roofing Amarillo TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional metal roofing in Amarillo TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 285,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-andrews/",
+      "title": "Metal Roofing Andrews TX | 5 Star Commercial Roofing",
+      "metaDescription": "Durable metal roofing systems in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-big-spring/",
+      "title": "Metal Roofing Big Spring TX | 5 Star Commercial Roofing",
+      "metaDescription": "Durable metal roofing systems in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 243,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-borger/",
+      "title": "Metal Roofing Borger TX | Standing Seam | 50+ Year Lifespan",
+      "metaDescription": "Expert metal roofing in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 524,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-canyon/",
+      "title": "Metal Roofing Canyon TX | Standing Seam | 50+ Year Lifespan",
+      "metaDescription": "Expert metal roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 533,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-dumas/",
+      "title": "Metal Roofing Dumas TX | Standing Seam | 50+ Year Lifespan",
+      "metaDescription": "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 526,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-levelland/",
+      "title": "Metal Roofing Levelland TX | 5 Star Commercial Roofing",
+      "metaDescription": "Durable metal roofing systems in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-lubbock/",
+      "title": "Metal Roofing Lubbock TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional metal roofing in Lubbock TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 285,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-midland/",
+      "title": "Metal Roofing Midland TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional metal roofing in Midland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 285,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-monahans/",
+      "title": "Metal Roofing Monahans TX | 5 Star Commercial Roofing",
+      "metaDescription": "Durable metal roofing systems in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 232,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-odessa/",
+      "title": "Metal Roofing Odessa TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional metal roofing in Odessa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 285,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-pampa/",
+      "title": "Metal Roofing Pampa TX | Standing Seam | 50+ Year Lifespan",
+      "metaDescription": "Expert metal roofing in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 526,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-perryton/",
+      "title": "Metal Roofing Perryton TX | 5 Star Roofing",
+      "metaDescription": "Expert metal roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 521,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/metal-roofing-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/metal-roofing-snyder/",
+      "title": "Metal Roofing Snyder TX | 5 Star Commercial Roofing",
+      "metaDescription": "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/midland-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/midland-tx-roofing/",
+      "title": "Roofing in Midland TX | Oil & Gas Industry Specialists",
+      "metaDescription": "roofing in Midland including commercial and industrial. Permian Basin specialists. Chemical-resistant PVC systems for oil & gas facilities.",
+      "h1": "Midland&apos;s Premier Roofing Contractor",
+      "wordCount": 2790,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/odessa-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/odessa-tx-roofing/",
+      "title": "Roofing Contractor Odessa TX | 5 Star",
+      "metaDescription": "Commercial and industrial roofing in Odessa. Permian Basin experts. Specialized systems for manufacturing and oil & gas facilities.",
+      "h1": "Odessa&apos;s Premier Roofing Contractor",
+      "wordCount": 2083,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/page.tsx",
+      "url": "https://5starroofingpros.comapp/",
+      "title": "5 Star Commercial Roofing | Amarillo, Midland, Odessa Hai...",
+      "metaDescription": "West Texas",
+      "h1": "West Texas Hail Damage",
+      "wordCount": 1865,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/pampa-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/pampa-texas-roofing/",
+      "title": "Roofing in Pampa, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Pampa, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Gray County. Free inspections available.",
+      "h1": "Pampa's Professional Roofing Contractor",
+      "wordCount": 634,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/perryton-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/perryton-texas-roofing/",
+      "title": "Roofing in Perryton, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Perryton, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Ochiltree County. Free inspections available.",
+      "h1": "Perryton's Professional Roofing Contractor",
+      "wordCount": 634,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/plainview-texas-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/plainview-texas-roofing/",
+      "title": "Roofing in Plainview, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Plainview, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Hale County. Free inspections available.",
+      "h1": "Plainview's Professional Roofing Contractor",
+      "wordCount": 632,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/pvc-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/pvc-roof-repair-in-amarillo/",
+      "title": "PVC Roof Repair Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "PVC Roof Repair in Amarillo, Midland & West Texas",
+      "wordCount": 760,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/pvc-roof-replacement-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/pvc-roof-replacement-in-amarillo/",
+      "title": "PVC Roof Replacement Amarillo TX | 5 Star",
+      "metaDescription": "Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "PVC Roof Replacement in Amarillo, Midland & Odessa",
+      "wordCount": 778,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/pvc-roofing-contractors-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/pvc-roofing-contractors-in-amarillo/",
+      "title": "PVC Roofing in Amarillo, TX| Commercial Experts | 5 Star",
+      "metaDescription": "PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Commercial roofing specialists.",
+      "h1": "PVC Roofing Contractors in Amarillo, Midland & Odessa",
+      "wordCount": 778,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roof-repair-in-amarillo/",
+      "title": "Residential Roof Repair Amarillo TX | 5 Star",
+      "metaDescription": "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Residential Roof Repair in Amarillo & West Texas",
+      "wordCount": 1243,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roof-replacement-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roof-replacement-in-amarillo/",
+      "title": "Residential Roof Replacement Amarillo TX",
+      "metaDescription": "Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Residential Roof Replacement in Amarillo",
+      "wordCount": 807,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing/",
+      "title": "Residential Roofing in Amarillo | 5 Star",
+      "metaDescription": "residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote!",
+      "h1": "Residential Roofing Services in Amarillo",
+      "wordCount": 1067,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/residential-roofing-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-amarillo/",
+      "title": "Residential Roofing Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "",
+      "wordCount": 1284,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-amarillo-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-amarillo-texas/",
+      "title": "Residential Roofing Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Expert residential roofing services in Amarillo, Texas. Roof replacement, repair, and upgrades for Amarillo homes. Free estimates. Call (806) 622-6041.",
+      "h1": "Residential Roofing in Amarillo, TX",
+      "wordCount": 508,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-amarillo-tx/",
+      "title": "Amarillo TX Roofing | Trusted Local Roofers",
+      "metaDescription": "Amarillo",
+      "h1": "",
+      "wordCount": 3169,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/residential-roofing-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-andrews/",
+      "title": "Residential Roofing Andrews TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-big-spring/",
+      "title": "Residential Roofing Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Big Spring TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 292,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-borger/",
+      "title": "Residential Roofing Borger TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Borger TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-canyon/",
+      "title": "Residential Roofing Canyon TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Canyon TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-dumas/",
+      "title": "Residential Roofing Dumas TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Dumas TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-in-amarillo/",
+      "title": "Residential Roofing Amarillo TX| 25+ Years Experience",
+      "metaDescription": "Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Residential Roofing in Amarillo, TX",
+      "wordCount": 1196,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-levelland/",
+      "title": "Residential Roofing Levelland TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-lubbock/",
+      "title": "Residential Roofing Lubbock TX | 5 Star Roofing",
+      "metaDescription": "Expert residential roofing in Lubbock TX. Specializing in hail damage claims and Class 4 impact-resistant shingles. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 296,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-lubbock-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-lubbock-texas/",
+      "title": "Residential Roofing in Lubbock TX| Hail Damage Specialists",
+      "metaDescription": "Residential Roofing in Lubbock, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Residential Roofing in Lubbock, TX",
+      "wordCount": 648,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-midland/",
+      "title": "Residential Roofing Midland TX | 5 Star Roofing",
+      "metaDescription": "Expert residential roofing in Midland TX. Specializing in hail damage claims and Class 4 impact-resistant shingles. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 296,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-midland-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-midland-texas/",
+      "title": "Residential Roofing in Midland TX| Hail Damage Specialists",
+      "metaDescription": "Residential Roofing in Midland, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Residential Roofing in Midland, TX",
+      "wordCount": 639,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-monahans/",
+      "title": "Residential Roofing Monahans TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Monahans TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-odessa/",
+      "title": "Residential Roofing Odessa TX | 5 Star Roofing",
+      "metaDescription": "Expert residential roofing in Odessa TX. Specializing in hail damage claims and Class 4 impact-resistant shingles. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 296,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-odessa-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-odessa-texas/",
+      "title": "Residential Roofing in Odessa TX| Hail Damage Specialists",
+      "metaDescription": "Residential Roofing in Odessa, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Residential Roofing in Odessa, TX",
+      "wordCount": 616,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-pampa/",
+      "title": "Residential Roofing Pampa TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-perryton/",
+      "title": "Residential Roofing Perryton TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Perryton TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/residential-roofing-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/residential-roofing-snyder/",
+      "title": "Residential Roofing Snyder TX | 5 Star Roofing",
+      "metaDescription": "Professional residential roofing in Snyder TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/reviews/page.tsx",
+      "url": "https://5starroofingpros.comapp/reviews/",
+      "title": "Customer Reviews | 5 Star Commercial Roofing Amarillo, Mi...",
+      "metaDescription": "Read reviews from satisfied customers across West Texas. Call for a free quote!",
+      "h1": "Customer Reviews",
+      "wordCount": 881,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/roof-hail-damage-repair-services-in-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-hail-damage-repair-services-in-amarillo-tx/",
+      "title": "Hail Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Roof Hail Damage Repair Services in Amarillo TX",
+      "wordCount": 835,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-heavy-rain-damage-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-heavy-rain-damage-in-amarillo/",
+      "title": "Rain Damage Roof Repair Amarillo TX | 5 Star",
+      "metaDescription": "Expert heavy rain roof damage repair in Amarillo. Flash flood damage, water intrusion, leak detection. Emergency service. Insurance claims. (806) 622-6041",
+      "h1": "Heavy Rain Roof Damage Repair in Amarillo, TX",
+      "wordCount": 771,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspection-amarillo-texas/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspection-amarillo-texas/",
+      "title": "Roof Inspection in Amarillo, TX| Hail Damage Assessment",
+      "metaDescription": "Roof Inspections in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Roof Inspection in Amarillo, TX",
+      "wordCount": 643,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-amarillo/",
+      "title": "Roof Inspections Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Professional roof inspections in Amarillo TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 274,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-andrews/",
+      "title": "Roof Inspections Andrews TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof inspections in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 229,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-big-spring/",
+      "title": "Roof Inspections Big Spring TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof inspections in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 241,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-borger/",
+      "title": "Roof Inspections Borger TX | 5 Star Roofing",
+      "metaDescription": "Expert roof inspections in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 484,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-canyon/",
+      "title": "Roof Inspections Canyon TX | 5 Star Roofing",
+      "metaDescription": "Expert roof inspections in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 497,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-dumas/",
+      "title": "Roof Inspections Dumas TX | 5 Star Roofing",
+      "metaDescription": "Expert roof inspections in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 486,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-in-amarillo/",
+      "title": "Roof Inspections Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Roof Inspections in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Professional Roof Inspections in Amarillo",
+      "wordCount": 553,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-levelland/",
+      "title": "Roof Inspections Levelland TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof inspections in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 229,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-lubbock/",
+      "title": "Roof Inspections Lubbock TX | 5 Star Roofing",
+      "metaDescription": "Professional roof inspections in Lubbock TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 274,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-midland/",
+      "title": "Roof Inspections Midland TX | 5 Star Roofing",
+      "metaDescription": "Professional roof inspections in Midland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 274,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-monahans/",
+      "title": "Roof Inspections Monahans TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 230,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-odessa/",
+      "title": "Roof Inspections Odessa TX | 5 Star Roofing",
+      "metaDescription": "Professional roof inspections in Odessa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 274,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-pampa/",
+      "title": "Roof Inspections Pampa TX | 5 Star Roofing",
+      "metaDescription": "Expert roof inspections in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 486,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-perryton/",
+      "title": "Roof Inspections Perryton TX | 5 Star Roofing",
+      "metaDescription": "Expert roof inspections in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 484,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-inspections-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-inspections-snyder/",
+      "title": "Roof Inspections Snyder TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 229,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-amarillo/",
+      "title": "Roof Repair Amarillo TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional roof repair in Amarillo TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-andrews/",
+      "title": "Roof Repair Andrews TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof repair services in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-big-spring/",
+      "title": "Roof Repair Big Spring TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 243,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-borger/",
+      "title": "Roof Repair Borger TX | Same-Day Service | Free Inspection",
+      "metaDescription": "Expert roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 483,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-canyon/",
+      "title": "Roof Repair Canyon TX | Same-Day Service | Free Inspection",
+      "metaDescription": "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 497,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-dumas/",
+      "title": "Roof Repair Dumas TX | Same-Day Service | Free Inspection",
+      "metaDescription": "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 491,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-levelland/",
+      "title": "Roof Repair Levelland TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof repair services in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-lubbock/",
+      "title": "Roof Repair Lubbock TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional roof repair in Lubbock TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 283,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-midland/",
+      "title": "Roof Repair Midland TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional roof repair in Midland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-monahans/",
+      "title": "Roof Repair Monahans TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof repair services in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 232,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-odessa/",
+      "title": "Roof Repair Odessa TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional roof repair in Odessa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-pampa/",
+      "title": "Roof Repair Pampa TX | Same-Day Service | Free Inspection",
+      "metaDescription": "Expert roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 490,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-perryton/",
+      "title": "Roof Repair Perryton TX | Same-Day Service | Free Inspection",
+      "metaDescription": "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 487,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-services-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-services-in-amarillo/",
+      "title": "Roof Repair Services in Amarillo TXService | 5 Star",
+      "metaDescription": "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Roof Repair Services in Amarillo, TX",
+      "wordCount": 788,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-repair-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-repair-snyder/",
+      "title": "Roof Repair Snyder TX | 5 Star Commercial Roofing",
+      "metaDescription": "Professional roof repair services in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-amarillo/",
+      "title": "Roof Replacement Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "1100+",
+      "wordCount": 604,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-andrews/",
+      "title": "Roof Replacement Andrews TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-big-spring/",
+      "title": "Roof Replacement Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Big Spring TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 289,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-borger/",
+      "title": "Roof Replacement Borger TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Borger TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-canyon/",
+      "title": "Roof Replacement Canyon TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Canyon TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-dumas/",
+      "title": "Roof Replacement Dumas TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional roof replacement in Dumas TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-in-amarillo/",
+      "title": "Roof Replacement Amarillo TXAssistance | 5 Star",
+      "metaDescription": "Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Roof Replacement in Amarillo, TX",
+      "wordCount": 923,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-levelland/",
+      "title": "Roof Replacement Levelland TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-lubbock/",
+      "title": "Roof Replacement Lubbock TX | 5 Star Roofing",
+      "metaDescription": "Expert roof replacement in Lubbock TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 273,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-midland/",
+      "title": "Roof Replacement Midland TX | 5 Star Roofing",
+      "metaDescription": "Expert roof replacement in Midland TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 273,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-monahans/",
+      "title": "Roof Replacement Monahans TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Monahans TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-odessa/",
+      "title": "Roof Replacement Odessa TX | 5 Star Roofing",
+      "metaDescription": "Expert roof replacement in Odessa TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 273,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-pampa/",
+      "title": "Roof Replacement Pampa TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional roof replacement in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 281,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-perryton/",
+      "title": "Roof Replacement Perryton TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Perryton TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-replacement-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-replacement-snyder/",
+      "title": "Roof Replacement Snyder TX | 5 Star Roofing",
+      "metaDescription": "Professional roof replacement in Snyder TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 279,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-rot-damage-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-rot-damage-in-amarillo/",
+      "title": "Roof Rot Damage Repair in Amarillo TX| Wood Rot Specialists",
+      "metaDescription": "roof rot damage repair in Amarillo. Wood rot removal, deck replacement, and moisture solutions. Free inspections and insurance claims help.",
+      "h1": "Roof Rot Damage Repair in Amarillo & West Texas",
+      "wordCount": 1034,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-snow-and-ice-damage-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-snow-and-ice-damage-in-amarillo/",
+      "title": "Emergency Snow & Ice Damage Roof Repair in Amarillo",
+      "metaDescription": "Snow and ice damage roof emergency in Amarillo? We respond 24/7. Ice dam removal, freeze-thaw damage repair, and emergency tarping. Same-day inspections.",
+      "h1": "Roof Snow and Ice Damage Repair in Amarillo & the Texas Panhandle",
+      "wordCount": 895,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-storm-damage-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-storm-damage-in-amarillo/",
+      "title": "Emergency Storm Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Roof Storm Damage Repair in Amarillo, TX",
+      "wordCount": 651,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roof-wind-damage-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roof-wind-damage-in-amarillo/",
+      "title": "Emergency Wind Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Wind Damage Roof Repair in Amarillo, TX",
+      "wordCount": 820,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofers-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofers-in-amarillo/",
+      "title": "Best Roofers in Amarillo TX | 5 Star Roofing",
+      "metaDescription": "roofers in Amarillo, TX. Our roofing services meet all your needs. We provide top-quality solutions to ensure the best property protection.",
+      "h1": "Trusted Roofers in Amarillo | Quality Roofing Services",
+      "wordCount": 1220,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-amarillo-tx/",
+      "title": "Amarillo TX Roofing | Trusted Local Roofers",
+      "metaDescription": "roofing in Amarillo specializing in hail damage repair and storm restoration. Amarillo experiences 8-12 hailstorms annually.",
+      "h1": "",
+      "wordCount": 3196,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-companies-in-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-companies-in-amarillo-tx/",
+      "title": "Top Roofing Companies in Amarillo TX | Free Inspection Today",
+      "metaDescription": "Looking for roofing companies in Amarillo TX? Our roofing contractors offer affordable roof repair and top-notch residential roofing services.",
+      "h1": "Top Roofing Companies in Amarillo TX",
+      "wordCount": 1347,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-methods/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-methods/",
+      "title": "Roofing Methods & Installation in Amarillo| Hail-Resistan...",
+      "metaDescription": "Modern roofing methods for Texas Panhandle homes and businesses. Impact-resistant shingles, standing seam metal, TPO systems. hail damage prevention.",
+      "h1": "Advanced Roofing Methods for the Texas Panhandle",
+      "wordCount": 748,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-methods-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-methods-in-amarillo/",
+      "title": "Roofing Methods & Materials Amarillo TX | 5 Star",
+      "metaDescription": "Discover proven roofing methods and installation techniques for Amarillo homes. Impact-resistant systems, proper ventilation, and hail protection.",
+      "h1": "Mastering the Best Roofing Methods in Amarillo",
+      "wordCount": 892,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-repair-services-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-repair-services-in-amarillo/",
+      "title": "Roof Repair Services Amarillo TX | 5 Star",
+      "metaDescription": "roofing repair services in Amarillo. Fast emergency repairs, leak detection, shingle replacement, storm damage. Licensed & insured. Free inspections.",
+      "h1": "Expert Roofing Repair Services in Amarillo, TX",
+      "wordCount": 815,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-services-in-amarillo-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-services-in-amarillo-tx/",
+      "title": "Amarillo TX Roofing Services | 5 Star Roofing",
+      "metaDescription": "Complete roofing services in Amarillo, TX. Residential & commercial, repair & replacement, hail damage, emergency service. Free inspections. Call (806) 622-6041",
+      "h1": "Professional Roofing Services in Amarillo, TX",
+      "wordCount": 997,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/roofing-services-lubbock-tx/page.tsx",
+      "url": "https://5starroofingpros.comapp/roofing-services-lubbock-tx/",
+      "title": "Roofing Contractor Lubbock TX | 5 Star",
+      "metaDescription": "roofing services in Lubbock, TX. Hail damage repair, storm restoration, Class 4 shingles, TPO, metal roofing. Free inspections. Insurance claims help.",
+      "h1": "Professional Roofing Services in Lubbock, TX",
+      "wordCount": 1093,
+      "hasSchema": false,
+      "issues": [
+        "NO_SCHEMA"
+      ]
+    },
+    {
+      "path": "app/service-areas/page.tsx",
+      "url": "https://5starroofingpros.comapp/service-areas/",
+      "title": "Service Areas | Amarillo, Midland, Odessa Roofing | & West",
+      "metaDescription": "roofing services across West Texas. Serving Amarillo, Midland, Odessa, Lubbock, and 20+ Texas Panhandle cities. Hail damage specialists. Call (806) 622-6041",
+      "h1": "Serving All of West Texas",
+      "wordCount": 964,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/services/page.tsx",
+      "url": "https://5starroofingpros.comapp/services/",
+      "title": "Roofing Services in Amarillo, Midland, Odessa| Hail Damag...",
+      "metaDescription": "Complete roofing services for West Texas including residential, commercial, and industrial. Call for a free quote!",
+      "h1": "Complete Roofing Services for West Texas",
+      "wordCount": 1209,
+      "hasSchema": true,
+      "issues": [
+        "SHORT_META"
+      ]
+    },
+    {
+      "path": "app/storm-damage-repair-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-amarillo/",
+      "title": "Storm Damage Roof Repair Amarillo TXEmergency | 5 Star",
+      "metaDescription": "Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "24/7",
+      "wordCount": 801,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-andrews/",
+      "title": "Storm Damage Repair Andrews TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage roof repair in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 238,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-big-spring/",
+      "title": "Storm Damage Repair Big Spring TX | 5 Star Roofing",
+      "metaDescription": "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 249,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-borger/",
+      "title": "Storm Damage Repair Borger TXService | Free Inspection",
+      "metaDescription": "storm damage roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 542,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-canyon/",
+      "title": "Storm Damage Repair Canyon TXService | Free Inspection",
+      "metaDescription": "storm damage roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 551,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-dumas/",
+      "title": "Storm Damage Repair Dumas TXService | Free Inspection",
+      "metaDescription": "storm damage roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 544,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-levelland/",
+      "title": "Storm Damage Repair Levelland TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 238,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-lubbock/",
+      "title": "Storm Damage Repair Lubbock | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage repair in Lubbock. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+      "h1": "Expert Storm Damage Repair for Lubbock, South Plains",
+      "wordCount": 675,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-midland/",
+      "title": "Storm Damage Repair Midland | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage repair in Midland. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+      "h1": "Expert Storm Damage Repair for Midland, Permian Basin",
+      "wordCount": 480,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-monahans/",
+      "title": "Storm Damage Repair Monahans TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage roof repair in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 239,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-odessa/",
+      "title": "Storm Damage Repair Odessa | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage repair in Odessa. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+      "h1": "Expert Storm Damage Repair for Odessa, Permian Basin",
+      "wordCount": 492,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-pampa/",
+      "title": "Storm Damage Repair Pampa TXService | Free Inspection",
+      "metaDescription": "storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 602,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-perryton/",
+      "title": "Storm Damage Roof Repair Perryton TXEmergency | 5 Star",
+      "metaDescription": "Storm Damage Repair in Perryton, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "24/7",
+      "wordCount": 679,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-repair-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-repair-snyder/",
+      "title": "Storm Damage Repair Snyder TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert storm damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 238,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/storm-damage-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/storm-damage-roof-repair-in-amarillo/",
+      "title": "Emergency Storm Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Storm Damage Roof Repair in Amarillo",
+      "wordCount": 469,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-amarillo/",
+      "title": "TPO Roofing Amarillo TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional tpo roofing in Amarillo TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 282,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-andrews/",
+      "title": "TPO Roofing Andrews TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert TPO roofing installation in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-big-spring/",
+      "title": "TPO Roofing Big Spring TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 243,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-borger/",
+      "title": "TPO Roofing Borger TX | 5 Star Roofing",
+      "metaDescription": "Expert tpo roofing in Borger TX. Texas Panhandle experiences 7-9 hailstorms annually. Refinery town. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 507,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-canyon/",
+      "title": "TPO Roofing Canyon TX | 5 Star Roofing",
+      "metaDescription": "Expert tpo roofing in Canyon TX. Texas Panhandle experiences 8-10 hailstorms annually. Palo Duro Canyon, WTAMU. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 527,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-dumas/",
+      "title": "TPO Roofing Dumas TX | Commercial Systems | Energy Efficient",
+      "metaDescription": "Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 511,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-levelland/",
+      "title": "TPO Roofing Levelland TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert TPO roofing installation in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-lubbock/",
+      "title": "TPO Roofing Lubbock TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional tpo roofing in Lubbock TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 282,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-midland/",
+      "title": "TPO Roofing Midland TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional tpo roofing in Midland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 282,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-monahans/",
+      "title": "TPO Roofing Monahans TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 232,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-odessa/",
+      "title": "TPO Roofing Odessa TX | Expert Service | Free Inspection",
+      "metaDescription": "Professional tpo roofing in Odessa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 282,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-pampa/",
+      "title": "TPO Roofing Pampa TX | Commercial Systems | Energy Efficient",
+      "metaDescription": "Expert tpo roofing in Pampa TX. Texas Panhandle experiences 7-9 hailstorms annually. Ranching and oil industry. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 515,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-perryton/",
+      "title": "TPO Roofing Perryton TX | 5 Star Roofing",
+      "metaDescription": "Expert tpo roofing in Perryton TX. Texas Panhandle experiences 7-9 hailstorms annually. Wheat country. Free inspections. Call (806) 622-6041",
+      "h1": "",
+      "wordCount": 511,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/tpo-roofing-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/tpo-roofing-snyder/",
+      "title": "TPO Roofing Snyder TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert TPO roofing installation in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 231,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/vega-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/vega-tx-roofing/",
+      "title": "Roofing in Vega, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs.",
+      "h1": "Professional Roofing Services in Vega, Texas",
+      "wordCount": 1060,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wildorado-tx-roofing/page.tsx",
+      "url": "https://5starroofingpros.comapp/wildorado-tx-roofing/",
+      "title": "Roofing in Wildorado, TX| Hail Damage Specialists | 5 Star",
+      "metaDescription": "roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs.",
+      "h1": "Professional Roofing Services in Wildorado, Texas",
+      "wordCount": 1068,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-amarillo/",
+      "title": "Wind Damage Repair Amarillo TX | 5 Star Roofing",
+      "metaDescription": "Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "24/7",
+      "wordCount": 908,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-andrews/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-andrews/",
+      "title": "Wind Damage Repair Andrews TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert wind damage roof repair in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 238,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-big-spring/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-big-spring/",
+      "title": "Wind Damage Repair Big Spring TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert wind damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 250,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-borger/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-borger/",
+      "title": "Wind Damage Repair Borger TXService | High Plains Winds",
+      "metaDescription": "wind damage roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 511,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-canyon/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-canyon/",
+      "title": "Wind Damage Repair Canyon TXService | High Plains Winds",
+      "metaDescription": "wind damage roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 520,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-dumas/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-dumas/",
+      "title": "Wind Damage Repair Dumas TXService | High Plains Winds",
+      "metaDescription": "wind damage roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 513,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-levelland/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-levelland/",
+      "title": "Wind Damage Repair Levelland TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 238,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-lubbock/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-lubbock/",
+      "title": "Wind Damage Repair Lubbock | 5 Star Commercial Roofing",
+      "metaDescription": "Wind damage repair in Lubbock. South Plains sustained winds with gusts over 70+ mph. 24/7 emergency service and insurance claim assistance. Call (806) 622-6041",
+      "h1": "Expert Wind Damage Repair for Lubbock, South Plains",
+      "wordCount": 244,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-midland/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-midland/",
+      "title": "Wind Damage Repair Midland | 5 Star Commercial Roofing",
+      "metaDescription": "Wind damage repair in Midland. Permian Basin sustained winds with gusts over 65+ mph. 24/7 emergency service and insurance claim assistance. Call (806) 622-6041",
+      "h1": "Expert Wind Damage Repair for Midland, Permian Basin",
+      "wordCount": 504,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-monahans/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-monahans/",
+      "title": "Wind Damage Repair Monahans TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert wind damage roof repair in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 239,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-odessa/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-odessa/",
+      "title": "Wind Damage Repair Odessa | 5 Star Commercial Roofing",
+      "metaDescription": "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph. 24/7 emergency service and insurance claim assistance. Call (806) 622-6041",
+      "h1": "Expert Wind Damage Repair for Odessa, Permian Basin",
+      "wordCount": 506,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-pampa/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-pampa/",
+      "title": "Wind Damage Repair Pampa TXService | High Plains Winds",
+      "metaDescription": "wind damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 621,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-perryton/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-perryton/",
+      "title": "Wind Damage Repair Perryton TXService | High Plains Winds",
+      "metaDescription": "wind damage roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+      "h1": "24/7",
+      "wordCount": 511,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-repair-snyder/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-repair-snyder/",
+      "title": "Wind Damage Repair Snyder TX | 5 Star Commercial Roofing",
+      "metaDescription": "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+      "h1": "10+",
+      "wordCount": 238,
+      "hasSchema": true,
+      "issues": []
+    },
+    {
+      "path": "app/wind-damage-roof-repair-in-amarillo/page.tsx",
+      "url": "https://5starroofingpros.comapp/wind-damage-roof-repair-in-amarillo/",
+      "title": "Emergency Wind Damage Roof Repair in Amarillo | 5 Star",
+      "metaDescription": "Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+      "h1": "Wind Damage Roof Repair in Amarillo",
+      "wordCount": 429,
+      "hasSchema": false,
+      "issues": [
+        "NO_SCHEMA"
+      ]
+    }
+  ]
+}

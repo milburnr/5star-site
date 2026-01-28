@@ -1,0 +1,559 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-text bg-gradient-to-b from-amber-50 to-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-primary font-semibold;
+  }
+
+  a {
+    @apply text-brand-brown transition-colors hover:text-brand-gold;
+  }
+  :root {
+    /* Brand colors - Gold/Brown theme */
+    --background: 43 100% 97%; /* Cream/off-white */
+    --foreground: 40 98% 19%; /* Brand brown */
+    --card: 0 0% 100%; /* Pure white for cards */
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 43 74% 66%; /* Brand gold #E4C66E */
+    --primary-foreground: 0 0% 100%; /* White text on gold */
+    --secondary: 43 100% 90%; /* Light cream */
+    --secondary-foreground: 40 98% 19%;
+    --muted: 43 30% 94%; /* Very light neutral */
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 43 89% 49%; /* Vibrant gold for emphasis */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 43 30% 88%;
+    --input: 43 30% 88%;
+    --ring: 43 74% 66%; /* Brand gold */
+    --chart-1: 43 74% 66%;
+    --chart-2: 40 92% 34%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 89% 49%;
+    --chart-5: 40 98% 19%;
+    --radius: 0.5rem;
+
+    /* Depth & Elevation System (3-4 shades for layering) */
+    --depth-1: 43 100% 99%; /* Furthest back - lightest cream */
+    --depth-2: 43 100% 97%; /* Middle layer */
+    --depth-3: 0 0% 100%; /* Front layer - pure white */
+    --depth-4: 43 100% 95%; /* Subtle variation */
+
+    /* Dual Shadow System (light + dark shadows) */
+    --shadow-light: 43 40% 85%;
+    --shadow-dark: 43 60% 40%;
+    --shadow-sm: 0 1px 2px 0 hsl(var(--shadow-dark) / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(var(--shadow-dark) / 0.1), 0 2px 4px -2px hsl(var(--shadow-light) / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(var(--shadow-dark) / 0.15), 0 4px 6px -4px hsl(var(--shadow-light) / 0.15);
+    --shadow-xl: 0 20px 25px -5px hsl(var(--shadow-dark) / 0.2), 0 8px 10px -6px hsl(var(--shadow-light) / 0.2);
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply bg-brand-gold text-white px-6 py-3 rounded-md font-semibold hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] hover:-translate-y-1 hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-700 transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.6)] hover:-translate-y-1 hover:scale-105 active:scale-95;
+  }
+
+  /* Container */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Optimized Hero Background - Homepage */
+  .hero-home {
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 767px) {
+    .hero-home {
+      background-image: url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.avif);
+      background-image: image-set(
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.avif) type("image/avif"),
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.webp) type("image/webp"),
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.jpg) type("image/jpeg")
+      );
+      /* Focus on the main subject for portrait view */
+      background-position: 60% center;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .hero-home {
+      background-image: url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.avif);
+      background-image: image-set(
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.avif) type("image/avif"),
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.webp) type("image/webp"),
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.jpg) type("image/jpeg")
+      );
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .hero-home {
+      background-image: url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.avif);
+      background-image: image-set(
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.avif) type("image/avif"),
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.webp) type("image/webp"),
+        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.jpg) type("image/jpeg")
+      );
+    }
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-lg shadow-md transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .card-image {
+    @apply w-full h-48 object-cover rounded-t-lg;
+  }
+
+  .card-body {
+    @apply p-6;
+  }
+
+  /* Service Cards */
+  .service-card {
+    @apply card-hover overflow-hidden;
+  }
+
+  .service-card-title {
+    @apply text-xl font-bold text-brand-brown mb-3;
+  }
+
+  .service-card-text {
+    @apply text-gray-600 mb-4;
+  }
+
+  .service-card-link {
+    @apply text-brand-gold font-semibold hover:text-brand-gold-vibrant transition-colors;
+  }
+
+  /* Sections */
+  .section {
+    @apply py-8 md:py-12;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center;
+  }
+
+  .section-subtitle {
+    @apply text-lg md:text-xl text-gray-600 mb-4 md:mb-6 text-center;
+  }
+
+  /* CTA Sections */
+  .cta-section {
+    @apply bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 md:p-8 lg:p-12 rounded-lg text-center;
+  }
+
+  .cta-title {
+    @apply text-2xl md:text-3xl font-bold mb-3 md:mb-4;
+  }
+
+  .cta-text {
+    @apply text-lg md:text-xl mb-6 md:mb-8 max-w-2xl mx-auto;
+  }
+
+  /* Hero */
+  .hero {
+    @apply relative bg-cover bg-center text-white py-16 md:py-24 lg:py-32;
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-r from-black/70 to-black/50;
+  }
+
+  .hero-content {
+    @apply container-custom relative z-10;
+  }
+
+  .hero-title {
+    @apply text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6 text-white;
+  }
+
+  .hero-subtitle {
+    @apply text-lg sm:text-xl md:text-2xl mb-6 md:mb-8;
+  }
+
+  /* Content blocks */
+  .content-block {
+    @apply bg-brand-gold-light p-4 md:p-6 lg:p-8 rounded-lg mb-6 md:mb-8;
+  }
+
+  .content-block-title {
+    @apply text-xl md:text-2xl font-bold text-brand-brown mb-3 md:mb-4;
+  }
+
+  /* Feature boxes */
+  .feature-box {
+    @apply text-center p-4 bg-gray-50 rounded-lg transition-all duration-300 hover:bg-white hover:shadow-md;
+  }
+
+  .feature-icon {
+    @apply text-3xl mb-2;
+  }
+
+  .feature-title {
+    @apply font-bold mb-2;
+  }
+
+  .feature-text {
+    @apply text-sm text-gray-600;
+  }
+
+  /* Lists */
+  .check-list {
+    @apply space-y-2 mb-6;
+  }
+
+  .check-item {
+    @apply flex gap-3;
+  }
+
+  .check-icon {
+    @apply text-brand-gold text-xl;
+  }
+
+  /* Process steps */
+  .process-step {
+    @apply flex gap-4 mb-6;
+  }
+
+  .step-number {
+    @apply flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-white font-bold;
+  }
+
+  .step-content {
+    @apply flex-1;
+  }
+
+  .step-title {
+    @apply font-bold mb-1;
+  }
+
+  .step-text {
+    @apply text-gray-600;
+  }
+
+  /* Animations - add these to elements for scroll effects */
+  .fade-in {
+    @apply opacity-0 transition-opacity duration-700;
+  }
+
+  .fade-in.visible {
+    @apply opacity-100;
+  }
+
+  .slide-up {
+    @apply opacity-0 translate-y-8 transition-all duration-700;
+  }
+
+  .slide-up.visible {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Lead Form Styles */
+  .lead-form-container {
+    @apply bg-white p-4 md:p-6 lg:p-8 rounded-lg shadow-xl border-2 border-brand-gold;
+  }
+
+  .lead-form-header {
+    @apply mb-4 md:mb-6 text-center;
+  }
+
+  .lead-form-title {
+    @apply text-xl md:text-2xl font-bold text-brand-brown mb-2;
+  }
+
+  .lead-form-subtitle {
+    @apply text-gray-600 text-sm;
+  }
+
+  .lead-form {
+    @apply space-y-4;
+  }
+
+  .lead-form-fields {
+    @apply space-y-3;
+  }
+
+  .lead-form-input {
+    @apply w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition-all text-gray-800 placeholder:text-gray-400;
+  }
+
+  .lead-form-input:disabled {
+    @apply bg-gray-100 cursor-not-allowed;
+  }
+
+  .lead-form-submit {
+    @apply w-full bg-brand-gold text-white px-6 py-4 rounded-md font-bold text-lg hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none;
+  }
+
+  .lead-form-success {
+    @apply text-green-600 font-semibold text-center p-3 bg-green-50 rounded-md border border-green-200;
+  }
+
+  .lead-form-error {
+    @apply text-red-600 font-semibold text-center p-3 bg-red-50 rounded-md border border-red-200;
+  }
+
+  /* Sticky Contact Bar */
+  .sticky-contact-bar {
+    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-brand-brown to-brand-gold text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
+  }
+
+  .sticky-contact-bar.hidden {
+    @apply translate-y-full;
+  }
+
+  .sticky-contact-bar.visible {
+    @apply translate-y-0;
+  }
+
+  .sticky-contact-content {
+    @apply container-custom flex flex-col sm:flex-row items-center justify-center gap-4;
+  }
+
+  .sticky-contact-text {
+    @apply text-lg font-semibold;
+  }
+
+  .sticky-contact-button {
+    @apply bg-white text-brand-brown px-6 py-3 rounded-md font-bold hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex items-center gap-2;
+  }
+
+  .sticky-contact-icon {
+    @apply text-xl;
+  }
+
+  /* CTA Hierarchy - Primary CTAs stand out more */
+  .btn-primary-hero {
+    @apply bg-brand-gold text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_40px_rgba(212,175,55,0.8)] hover:-translate-y-2 hover:scale-110 active:scale-95 animate-pulse-subtle;
+  }
+
+  .btn-secondary-hero {
+    @apply bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-white hover:text-brand-brown transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:-translate-y-2 hover:scale-105 active:scale-95;
+  }
+
+  /* Trust Badge Styles */
+  .trust-badge {
+    @apply bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+  }
+
+  .trust-badge-icon {
+    @apply text-5xl mb-3;
+  }
+
+  .trust-badge-title {
+    @apply font-bold text-brand-brown text-lg mb-2;
+  }
+
+  .trust-badge-text {
+    @apply text-gray-600 text-sm;
+  }
+
+  /* Testimonial Card with Photo */
+  .testimonial-card-visual {
+    @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+  }
+
+  .testimonial-rating {
+    @apply text-3xl mb-3 text-center;
+  }
+
+  .testimonial-text {
+    @apply text-gray-700 italic mb-4 leading-relaxed;
+  }
+
+  .testimonial-author {
+    @apply flex items-center gap-3 border-t pt-4 mt-4;
+  }
+
+  .testimonial-author-photo {
+    @apply w-12 h-12 rounded-full object-cover border-2 border-brand-gold;
+  }
+
+  .testimonial-author-info {
+    @apply flex-1;
+  }
+
+  .testimonial-author-name {
+    @apply font-semibold text-brand-brown;
+  }
+
+  .testimonial-author-location {
+    @apply text-sm text-gray-500;
+  }
+}
+
+@layer utilities {
+  /* Depth/Elevation backgrounds */
+  .bg-depth-1 {
+    background-color: hsl(var(--depth-1));
+  }
+  .bg-depth-2 {
+    background-color: hsl(var(--depth-2));
+  }
+  .bg-depth-3 {
+    background-color: hsl(var(--depth-3));
+  }
+  .bg-depth-4 {
+    background-color: hsl(var(--depth-4));
+  }
+
+  /* Dual Shadow System */
+  .shadow-dual-sm {
+    box-shadow: var(--shadow-sm);
+  }
+  .shadow-dual-md {
+    box-shadow: var(--shadow-md);
+  }
+  .shadow-dual-lg {
+    box-shadow: var(--shadow-lg);
+  }
+  .shadow-dual-xl {
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* Hover elevation effects */
+  .hover-elevate {
+    transition: all 0.3s ease;
+  }
+  .hover-elevate:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* Subtle pulse animation for CTAs */
+  @keyframes pulse-subtle {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.02);
+    }
+  }
+
+  .animate-pulse-subtle {
+    animation: pulse-subtle 3s ease-in-out infinite;
+  }
+
+  /* Bounce animation for hover states */
+  @keyframes bounce-subtle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
+  }
+
+  .hover\:animate-bounce-subtle:hover {
+    animation: bounce-subtle 0.5s ease-in-out;
+  }
+
+  /* Smooth gradient overlays */
+  .gradient-overlay {
+    position: relative;
+  }
+  .gradient-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, transparent 0%, hsl(var(--primary) / 0.05) 100%);
+    pointer-events: none;
+  }
+
+  /* Blur/Bounce card effect (Lusion-style) - reduced distance */
+  @keyframes blur-bounce {
+    0% {
+      filter: blur(0px);
+      transform: scale(1) translateY(0);
+    }
+    15% {
+      filter: blur(1.5px);
+      transform: scale(1.01) translateY(-1px);
+    }
+    40% {
+      filter: blur(0.5px);
+      transform: scale(1.02) translateY(-2px);
+    }
+    100% {
+      filter: blur(0px);
+      transform: scale(1.03) translateY(-4px);
+    }
+  }
+
+  .card-blur-bounce {
+    transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .card-blur-bounce:hover {
+    animation: blur-bounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Magnetic button effect - subtle movement toward cursor */
+  .magnetic-button {
+    transition: transform 0.2s ease-out;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
