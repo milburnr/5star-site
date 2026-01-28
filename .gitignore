@@ -25,3 +25,4 @@ Thumbs.db
 
 # Testing
 .lighthouseci/
+google-service-account-key.json
