@@ -83,8 +83,119 @@ export default function EmergencyRoofRepairDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Dumas's Emergency Roof Repair Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Dumas and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Dumas with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Dumas and Moore County. As the county seat and agricultural hub of the Texas Panhandle, Dumas requires specialized roofing services that understand both rural and urban property needs in extreme weather conditions.</p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Dumas's diverse property types - from historic courthouse area buildings to modern agricultural facilities and residential developments. Our rapid response from Amarillo ensures Dumas properties receive immediate emergency protection.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mt-12">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Optimal Amarillo Connection</h3>
+                <p className="text-gray-700 mb-4">Our Amarillo headquarters provides direct access to Dumas via Highway 287, enabling our emergency crews to reach Moore County properties within 60 minutes. This strategic positioning ensures the fastest professional roofing response in the region.</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Emergency response: (806) 622-6041</li>
+                  <li>• Average response time: 45-60 minutes</li>
+                  <li>• Complete Moore County service area</li>
+                  <li>• Agricultural facility expertise</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Panhandle Weather Challenges</h3>
+                <p className="text-gray-700 mb-4">Dumas experiences the full force of Texas Panhandle weather systems, requiring comprehensive emergency preparedness:</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Severe hailstorms and supercells</li>
+                  <li>• High winds up to 75+ mph</li>
+                  <li>• Tornado activity during peak season</li>
+                  <li>• Extreme temperature variations</li>
+                  <li>• Agricultural dust and debris damage</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Comprehensive Emergency Services for Dumas</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🌾</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Facility Emergency Response</h3>
+                <p className="text-gray-700">Specialized emergency services for Dumas's agricultural operations, including grain elevators, processing facilities, and farm buildings requiring immediate weather protection.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏛️</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Historic Building Preservation</h3>
+                <p className="text-gray-700">Expert emergency care for Dumas's historic structures, including the courthouse area and older commercial buildings, maintaining architectural integrity during repairs.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">⚡</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response Coordination</h3>
+                <p className="text-gray-700">Coordinated emergency response with local authorities during severe weather events, ensuring rapid deployment to the most critical damage areas first.</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Dumas Emergency Response Timeline</h3>
+              
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">1</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Call</h4>
+                  <p className="text-sm text-gray-700">Immediate connection to emergency dispatch</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">2</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Rapid Response</h4>
+                  <p className="text-sm text-gray-700">Crew en route from Amarillo within 15 minutes</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">3</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Stabilization</h4>
+                  <p className="text-sm text-gray-700">Immediate protection and damage assessment</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">4</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Complete Restoration</h4>
+                  <p className="text-sm text-gray-700">Full repair with comprehensive warranty</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Dumas Trusts 5 Star Roofing for Emergency Repairs</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Community Understanding</h3>
+                <p className="text-gray-700 mb-6">Serving Moore County's agricultural hub requires understanding the unique needs of farming operations, grain storage facilities, and rural properties. Our emergency services protect both agricultural assets and residential properties throughout the Dumas area.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">County Seat Expertise</h3>
+                <p className="text-gray-700 mb-6">As Moore County's seat, Dumas has a rich architectural heritage requiring specialized emergency care. We balance modern emergency techniques with respect for historic structures and established neighborhoods throughout the community.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Regional Weather Monitoring</h3>
+                <p className="text-gray-700 mb-6">We actively monitor Texas Panhandle weather patterns and maintain pre-positioned emergency supplies during severe weather seasons. This proactive approach ensures rapid response when storms impact the Dumas area.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Complete Insurance Partnership</h3>
+                <p className="text-gray-700 mb-6">Our experienced team works directly with insurance companies serving rural and agricultural properties, ensuring comprehensive coverage for both residential and commercial emergency repairs throughout Moore County.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -94,15 +205,27 @@ export default function EmergencyRoofRepairDumasPage() {
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How fast can you respond to emergencies in Dumas?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 2 hours for active leaks and storm damage throughout Dumas. 24/7 emergency crews available year-round.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 60 minutes for active leaks and storm damage throughout Dumas and Moore County. Our Amarillo headquarters provides direct Highway 287 access, ensuring the fastest professional roofing response to county seat and rural properties. Emergency crews are available 24/7 year-round.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What qualifies as a roofing emergency?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Active leaks causing interior damage, missing shingles after storms, holes from hail/debris, collapsed sections, or severe storm damage requiring immediate protection.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What emergency situations do you handle in Dumas?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">In Dumas's agricultural environment, we handle active leaks, severe weather damage, hail punctures, wind damage to agricultural facilities, debris impact from farming operations, and any situation compromising structural integrity of residential, commercial, or agricultural properties throughout Moore County.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency tarping?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, 24/7 emergency tarping in Dumas. We install waterproof tarps within hours to prevent further damage while processing insurance claims.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency services for agricultural buildings?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we specialize in emergency repairs for agricultural facilities including grain elevators, processing buildings, storage facilities, and farm structures. Our team understands the critical nature of protecting agricultural assets and can provide immediate emergency protection for both crops and equipment.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle historic building emergencies in Dumas?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Dumas's historic courthouse area and older commercial buildings receive specialized emergency care. We use appropriate materials and techniques that respect architectural heritage while providing effective weather protection. Our emergency repairs maintain the character and value of historic properties while ensuring immediate safety and security.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What are emergency repair costs in Dumas?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Emergency repair costs vary based on property type and damage extent. Most agricultural, commercial, and homeowner's insurance policies cover emergency repairs, especially weather-related damage. We provide free emergency assessments and work directly with insurance companies to ensure maximum coverage for both rural and urban properties.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you coordinate with agricultural operations during emergencies?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We understand agricultural timing is critical and coordinate emergency repairs to minimize disruption to farming operations. During harvest season or critical agricultural periods, we prioritize emergency protection to prevent crop loss and equipment damage while scheduling permanent repairs at optimal times.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

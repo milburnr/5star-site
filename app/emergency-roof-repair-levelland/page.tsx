@@ -83,8 +83,119 @@ export default function EmergencyRoofRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Levelland's Emergency Roof Repair Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Levelland and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Levelland with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Levelland and Hockley County. As home to South Plains College and a thriving agricultural community, Levelland requires emergency roofing services that understand both educational facilities and rural property needs in West Texas conditions.</p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Levelland's diverse community - from the college campus and historic downtown to cotton farming operations and residential neighborhoods. Our strategic response from Amarillo ensures rapid emergency protection for all property types.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mt-12">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Strategic Regional Response</h3>
+                <p className="text-gray-700 mb-4">From our Amarillo headquarters, we provide the most efficient emergency response to Levelland and Hockley County via Highway 114. This direct route enables our crews to reach Levelland properties within 90 minutes for immediate emergency protection.</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Emergency hotline: (806) 622-6041</li>
+                  <li>• Response time: Under 90 minutes</li>
+                  <li>• Hockley County service area</li>
+                  <li>• College and agricultural facility expertise</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">South Plains Weather Patterns</h3>
+                <p className="text-gray-700 mb-4">Levelland's position on the South Plains exposes properties to intense weather systems requiring comprehensive emergency preparation:</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Severe hailstorms (especially spring months)</li>
+                  <li>• High winds up to 70+ mph</li>
+                  <li>• Tornado activity during peak season</li>
+                  <li>• Flash flooding potential</li>
+                  <li>• Cotton harvest weather challenges</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Comprehensive Emergency Services for Levelland</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🎓</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Educational Facility Emergency Response</h3>
+                <p className="text-gray-700">Specialized emergency services for South Plains College and Levelland's schools, ensuring minimal disruption to educational operations during roof emergencies.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏘️</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Residential Community Protection</h3>
+                <p className="text-gray-700">Complete residential emergency services for Levelland's neighborhoods, from historic homes near downtown to modern developments throughout the city.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🌾</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Emergency Services</h3>
+                <p className="text-gray-700">Emergency protection for cotton farms, grain storage, and agricultural processing facilities critical to Levelland's agricultural economy.</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Levelland Emergency Response Protocol</h3>
+              
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">1</div>
+                  <h4 className="font-bold text-brand-brown mb-2">24/7 Emergency Contact</h4>
+                  <p className="text-sm text-gray-700">Immediate response to emergency calls</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">2</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Rapid Mobilization</h4>
+                  <p className="text-sm text-gray-700">Emergency crew dispatched within 20 minutes</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">3</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Mitigation</h4>
+                  <p className="text-sm text-gray-700">Immediate damage control and assessment</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">4</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Complete Restoration</h4>
+                  <p className="text-sm text-gray-700">Permanent repair with warranty protection</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Levelland Chooses 5 Star Roofing for Emergency Repairs</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Educational Institution Expertise</h3>
+                <p className="text-gray-700 mb-6">Levelland's status as a college town requires specialized understanding of educational facility needs. We provide emergency services that minimize disruption to classes and campus operations while ensuring student and staff safety.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Community Support</h3>
+                <p className="text-gray-700 mb-6">Serving Hockley County's cotton farming community requires understanding agricultural timing and priorities. Our emergency services protect both residential properties and critical agricultural infrastructure during severe weather events.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">South Plains Weather Expertise</h3>
+                <p className="text-gray-700 mb-6">The South Plains region experiences unique weather patterns requiring specialized emergency preparedness. We monitor regional forecasts and maintain emergency supplies specifically for rapid deployment to the Levelland area.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Community-Centered Service</h3>
+                <p className="text-gray-700 mb-6">Levelland's close-knit community deserves personalized emergency service. Our team understands local priorities and works efficiently to restore normalcy to homes, businesses, and educational facilities throughout Hockley County.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -94,15 +205,27 @@ export default function EmergencyRoofRepairLevellandPage() {
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How fast can you respond to emergencies in Levelland?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 2 hours for active leaks and storm damage throughout Levelland. 24/7 emergency crews available year-round.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 90 minutes for active leaks and storm damage throughout Levelland and Hockley County. Our Amarillo headquarters provides direct access via Highway 114, ensuring rapid emergency response to residential, educational, and agricultural properties. Emergency crews are available 24/7 year-round.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What qualifies as a roofing emergency?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Active leaks causing interior damage, missing shingles after storms, holes from hail/debris, collapsed sections, or severe storm damage requiring immediate protection.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What emergency situations do you handle in Levelland?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">In Levelland's diverse environment, we handle active leaks, severe weather damage, hail punctures, wind damage to educational and agricultural facilities, cotton farming equipment protection, and any emergency compromising structural integrity of residential, commercial, or institutional properties throughout Hockley County.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency tarping?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, 24/7 emergency tarping in Levelland. We install waterproof tarps within hours to prevent further damage while processing insurance claims.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency services for South Plains College?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we specialize in emergency repairs for educational facilities including dormitories, classrooms, administrative buildings, and athletic facilities. Our team coordinates with college maintenance staff to minimize disruption to campus operations while ensuring student and faculty safety during emergency repairs.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle agricultural facility emergencies?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">We understand cotton farming operations and agricultural timing are critical in Levelland. Our emergency services provide immediate protection for grain storage, processing facilities, and farm buildings while coordinating repairs to minimize impact on agricultural operations and protect valuable equipment and crops.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What are emergency repair costs in Levelland?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Emergency repair costs vary based on property type and damage extent. Most residential, commercial, and institutional insurance policies cover emergency repairs, especially weather-related damage. We provide free emergency assessments and work directly with insurance companies to ensure maximum coverage for all property types in Hockley County.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you coordinate with local authorities during severe weather?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. During severe weather events affecting Levelland, we coordinate with city emergency services, the college administration, and Hockley County authorities to prioritize emergency responses based on public safety needs. This coordination ensures critical facilities receive immediate attention while maintaining overall community safety.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

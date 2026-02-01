@@ -83,8 +83,119 @@ export default function EmergencyRoofRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Borger's Emergency Roof Repair Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Borger and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Borger with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Borger and Hutchinson County. Serving the Texas Panhandle's industrial and residential properties with roofing solutions engineered for extreme weather conditions including severe hailstorms, high winds, and temperature variations.</p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Borger's unique community - from historic downtown properties to modern residential areas near Phillips University. Our team understands the roofing challenges faced by this important refinery town and industrial center.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mt-12">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Close Proximity Response</h3>
+                <p className="text-gray-700 mb-4">Located just 45 minutes from Borger, our Amarillo headquarters provides the closest professional emergency roofing response in the Texas Panhandle. We understand Borger's industrial environment and residential community needs.</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• 24/7 emergency line: (806) 622-6041</li>
+                  <li>• Response time: Under 1.5 hours</li>
+                  <li>• Complete Hutchinson County coverage</li>
+                  <li>• Industrial and residential expertise</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Borger Weather Challenges</h3>
+                <p className="text-gray-700 mb-4">Borger's Texas Panhandle location exposes properties to severe weather patterns requiring specialized emergency response:</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Severe hailstorms (peak April-June)</li>
+                  <li>• High winds exceeding 65 mph</li>
+                  <li>• Tornado activity in spring/early summer</li>
+                  <li>• Extreme temperature swings (0°F to 105°F)</li>
+                  <li>• Industrial pollution and corrosion factors</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Emergency Services for Borger Properties</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏭</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Industrial Facility Emergency Response</h3>
+                <p className="text-gray-700">Specialized emergency services for Borger's industrial facilities, including chemical-resistant materials and safety protocols for industrial environments.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏠</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Residential Emergency Repair</h3>
+                <p className="text-gray-700">Complete residential emergency services for Borger's neighborhoods, from older homes near downtown to newer developments throughout the city.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">📞</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Rapid Response Protocol</h3>
+                <p className="text-gray-700">Immediate dispatch system ensures emergency crews reach Borger properties within 90 minutes of your call, day or night.</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Borger Emergency Response Process</h3>
+              
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">1</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Call Received</h4>
+                  <p className="text-sm text-gray-700">24/7 hotline connects you directly to our dispatch</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">2</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Immediate Dispatch</h4>
+                  <p className="text-sm text-gray-700">Crew dispatched from Amarillo within 20 minutes</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">3</div>
+                  <h4 className="font-bold text-brand-brown mb-2">On-Site Assessment</h4>
+                  <p className="text-sm text-gray-700">Complete evaluation and emergency protection</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">4</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Complete Resolution</h4>
+                  <p className="text-sm text-gray-700">Permanent repair with full warranty coverage</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Borger Residents and Businesses Trust 5 Star Roofing</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Industrial Environment Expertise</h3>
+                <p className="text-gray-700 mb-6">Borger's industrial heritage requires specialized roofing knowledge. Our team understands the unique challenges posed by industrial emissions, chemical exposure, and the corrosive environment that can affect roofing materials in the refinery area.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Panhandle Weather Specialists</h3>
+                <p className="text-gray-700 mb-6">The Texas Panhandle's extreme weather requires emergency preparedness year-round. We monitor regional weather patterns and maintain emergency supplies specifically for rapid deployment to Borger and Hutchinson County properties.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Community-Focused Service</h3>
+                <p className="text-gray-700 mb-6">As a close-knit community, Borger deserves personalized service. Our team takes pride in serving both long-time residents and newcomers, ensuring every property receives the same level of professional care and attention.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Complete Insurance Support</h3>
+                <p className="text-gray-700 mb-6">We streamline the insurance claims process for Borger property owners, providing detailed documentation and working directly with adjusters to ensure you receive full coverage for emergency repairs and replacements.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -94,15 +205,27 @@ export default function EmergencyRoofRepairBorgerPage() {
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How fast can you respond to emergencies in Borger?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 2 hours for active leaks and storm damage throughout Borger. 24/7 emergency crews available year-round.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 90 minutes for active leaks and storm damage throughout Borger and Hutchinson County. Our Amarillo headquarters is perfectly positioned to serve Borger quickly via Highway 136. Emergency crews are available 24/7 year-round with pre-positioned supplies for immediate deployment.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What qualifies as a roofing emergency?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Active leaks causing interior damage, missing shingles after storms, holes from hail/debris, collapsed sections, or severe storm damage requiring immediate protection.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What emergency situations do you handle in Borger?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">In Borger's industrial environment, we handle active leaks, storm damage, hail punctures, wind-torn sections, industrial chemical damage to roofing materials, and any situation compromising structural integrity. We're experienced with both residential and industrial facility emergencies throughout the refinery area and surrounding neighborhoods.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency tarping?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, 24/7 emergency tarping in Borger. We install waterproof tarps within hours to prevent further damage while processing insurance claims.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency tarping in Borger's high-wind conditions?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we specialize in emergency tarping for Texas Panhandle wind conditions. Our tarps are heavy-duty, wind-resistant, and installed using reinforced anchoring systems designed for Borger's frequent high winds. We understand local wind patterns and use installation techniques that ensure tarps remain secure during the repair process.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle industrial facility emergency repairs?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Our team is trained in industrial safety protocols and uses materials resistant to chemical exposure common in Borger's industrial environment. We coordinate with facility safety personnel and follow all industrial site requirements while providing rapid, effective emergency repairs that maintain facility operations and safety standards.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What's the cost of emergency repairs in Borger?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Emergency repair costs vary based on damage extent and property type. Most homeowner's and commercial insurance policies cover emergency repairs, especially weather-related damage. We provide free emergency assessments and work directly with insurance companies to maximize coverage. Our transparent pricing ensures no surprises during emergency situations.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you assist with insurance claims for Borger properties?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We have extensive experience with insurance companies serving the Borger market, including those specializing in industrial properties. Our team provides comprehensive documentation, meets with adjusters, and ensures you receive full coverage for necessary repairs. We understand both residential and commercial claim processes.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

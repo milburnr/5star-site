@@ -83,8 +83,119 @@ export default function EmergencyRoofRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Pampa's Emergency Roof Repair Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Pampa and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Pampa with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Pampa and Gray County. As the county seat and a vital center for oil, gas, and agriculture, Pampa requires emergency roofing services that understand both industrial complexes and residential communities throughout the Texas Panhandle.</p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Pampa's diverse property landscape - from historic downtown buildings to modern industrial facilities and established residential neighborhoods. Our close proximity from Amarillo ensures rapid emergency response for all property types.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mt-12">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Optimal Regional Coverage</h3>
+                <p className="text-gray-700 mb-4">Our Amarillo headquarters provides excellent access to Pampa via Highway 60, enabling our emergency crews to reach Gray County properties within 60 minutes. This proximity ensures the fastest professional roofing response in the northeastern Panhandle.</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Emergency response: (806) 622-6041</li>
+                  <li>• Average response time: Under 60 minutes</li>
+                  <li>• Complete Gray County coverage</li>
+                  <li>• Industrial and residential expertise</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Panhandle Weather Systems</h3>
+                <p className="text-gray-700 mb-4">Pampa's position in the Texas Panhandle exposes properties to severe weather systems requiring comprehensive emergency response:</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Severe hailstorms (particularly spring/summer)</li>
+                  <li>• High winds exceeding 70 mph</li>
+                  <li>• Tornado activity during peak season</li>
+                  <li>• Extreme temperature fluctuations</li>
+                  <li>• Industrial environment considerations</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Comprehensive Emergency Services for Pampa</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏛️</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">County Seat Services</h3>
+                <p className="text-gray-700">Specialized emergency services for Pampa's government buildings, courthouse facilities, and public buildings requiring immediate protection and minimal operational disruption.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏭</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Industrial Facility Emergency Response</h3>
+                <p className="text-gray-700">Expert emergency services for Pampa's oil, gas, and agricultural processing facilities, including safety protocols and chemical-resistant materials.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🏘️</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Residential Community Protection</h3>
+                <p className="text-gray-700">Complete emergency services for Pampa's established neighborhoods, from historic areas near downtown to newer residential developments throughout the city.</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Pampa Emergency Response Timeline</h3>
+              
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">1</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Contact</h4>
+                  <p className="text-sm text-gray-700">24/7 emergency hotline availability</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">2</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Immediate Dispatch</h4>
+                  <p className="text-sm text-gray-700">Crew en route from Amarillo within 15 minutes</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">3</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Stabilization</h4>
+                  <p className="text-sm text-gray-700">Immediate protection and damage control</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">4</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Complete Restoration</h4>
+                  <p className="text-sm text-gray-700">Full repair with warranty protection</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Pampa Chooses 5 Star Roofing for Emergency Repairs</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">County Seat Expertise</h3>
+                <p className="text-gray-700 mb-6">As Gray County's seat, Pampa houses important government and public buildings requiring specialized emergency care. Our team understands the unique requirements of public facilities and maintains the discretion and professionalism appropriate for government properties.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Industrial Environment Understanding</h3>
+                <p className="text-gray-700 mb-6">Pampa's role in oil, gas, and agricultural processing requires understanding industrial safety protocols and specialized materials. Our emergency services protect both workers and facilities while maintaining operational continuity where possible.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Regional Weather Monitoring</h3>
+                <p className="text-gray-700 mb-6">We actively monitor Texas Panhandle weather patterns affecting the Pampa area and maintain emergency supplies specifically for rapid deployment to Gray County. Our proximity enables immediate response during severe weather events.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Community Partnership</h3>
+                <p className="text-gray-700 mb-6">Pampa's importance as a regional center deserves exceptional emergency service. We partner with local authorities, businesses, and residents to provide coordinated emergency response that supports the entire community during severe weather events.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -92,6 +203,30 @@ export default function EmergencyRoofRepairPampaPage() {
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How fast can you respond to emergencies in Pampa?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 60 minutes for active leaks and storm damage throughout Pampa and Gray County. Our Amarillo headquarters provides direct Highway 60 access, ensuring rapid emergency response to government, industrial, and residential properties. Emergency crews are available 24/7 year-round.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What emergency situations do you handle in Pampa?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">In Pampa's diverse environment, we handle active leaks, severe weather damage, hail punctures, industrial facility damage, government building emergencies, wind damage from Panhandle storms, and any emergency compromising structural integrity of residential, commercial, or public properties throughout Gray County.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency services for government buildings?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we specialize in emergency repairs for Gray County government facilities, courthouse buildings, public safety facilities, and municipal buildings. Our team understands the importance of maintaining government operations and works efficiently to minimize disruption to public services.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle industrial facility emergencies?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Our team follows strict industrial safety protocols for oil, gas, and agricultural processing facilities in Pampa. We use specialized materials resistant to industrial environments and coordinate with facility safety officers to ensure emergency repairs don't compromise operational safety or environmental compliance.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What are emergency repair costs in Pampa?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Emergency repair costs vary based on property type and damage extent. Most residential, commercial, industrial, and public building insurance policies cover emergency repairs, especially weather-related damage. We provide free emergency assessments and work directly with insurance companies to ensure maximum coverage for all property types in Gray County.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you coordinate with local authorities during severe weather?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. During severe weather events affecting Pampa, we coordinate with city emergency services, Gray County authorities, and facility managers to prioritize emergency responses based on public safety and critical infrastructure needs. This coordination ensures the most critical facilities receive immediate attention while maintaining overall community safety.</AccordionContent>
+              </AccordionItem>
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How fast can you respond to emergencies in Pampa?</AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">We respond within 2 hours for active leaks and storm damage throughout Pampa. 24/7 emergency crews available year-round.</AccordionContent>

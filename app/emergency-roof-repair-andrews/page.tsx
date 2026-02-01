@@ -84,7 +84,118 @@ export default function EmergencyRoofRepairAndrewsPage() {
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Andrews's Emergency Roof Repair Specialists</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional emergency roof repair throughout Andrews and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Andrews with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Andrews with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mt-12">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Rapid Response from Amarillo HQ</h3>
+                <p className="text-gray-700 mb-4">Our Andrews emergency roof repair team responds within 2 hours from our Amarillo headquarters. Located just 90 minutes from Andrews, our certified technicians understand the unique roofing challenges faced by West Texas properties.</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• 24/7 emergency hotline: (806) 622-6041</li>
+                  <li>• Average response time: Under 2 hours</li>
+                  <li>• Weekend and holiday availability</li>
+                  <li>• Storm damage priority response</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Andrews Weather Challenges</h3>
+                <p className="text-gray-700 mb-4">Andrews experiences severe weather patterns that can damage roofing systems. Our emergency repair services address damage from:</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Hailstorms (common March-June)</li>
+                  <li>• High winds up to 70+ mph</li>
+                  <li>• Flash flooding and heavy rains</li>
+                  <li>• Temperature extremes (-10°F to 105°F)</li>
+                  <li>• Tornado activity in spring months</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Comprehensive Emergency Services in Andrews</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🚨</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Leak Repair</h3>
+                <p className="text-gray-700">Immediate response to active leaks causing interior damage. We locate the source, provide temporary protection, and implement permanent solutions.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">🛡️</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Tarping</h3>
+                <p className="text-gray-700">Professional tarping services to protect your property while permanent repairs are scheduled. Heavy-duty materials resistant to West Texas winds.</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl text-white">⛈️</span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Assessment</h3>
+                <p className="text-gray-700">Comprehensive evaluation of hail, wind, and tornado damage. Detailed documentation for insurance claims and repair prioritization.</p>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Our Andrews Emergency Response Process</h3>
+              
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">1</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Emergency Call</h4>
+                  <p className="text-sm text-gray-700">Contact our 24/7 hotline for immediate assistance</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">2</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Rapid Dispatch</h4>
+                  <p className="text-sm text-gray-700">Team dispatched from Amarillo within 30 minutes</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">3</div>
+                  <h4 className="font-bold text-brand-brown mb-2">On-Site Assessment</h4>
+                  <p className="text-sm text-gray-700">Thorough evaluation and immediate protection</p>
+                </div>
+                
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-brand-gold text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-xl">4</div>
+                  <h4 className="font-bold text-brand-brown mb-2">Permanent Solution</h4>
+                  <p className="text-sm text-gray-700">Complete repair with warranty and documentation</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Andrews Property Owners Choose 5 Star Roofing</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Local Expertise, Regional Coverage</h3>
+                <p className="text-gray-700 mb-6">Serving Andrews County and surrounding areas from our Amarillo headquarters, we understand the unique challenges facing West Texas properties. Our team has extensive experience with the oil industry buildings, residential developments, and commercial properties that define Andrews' landscape.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Insurance Claim Specialists</h3>
+                <p className="text-gray-700 mb-6">We work directly with insurance companies to ensure your emergency repairs are covered. Our team provides detailed documentation, photos, and estimates to streamline your claim process and maximize your coverage benefits.</p>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Advanced Materials & Techniques</h3>
+                <p className="text-gray-700 mb-6">Using only premium materials designed for Texas weather conditions, our emergency repairs are built to last. We stock emergency supplies at our Amarillo location for immediate deployment to Andrews properties.</p>
+                
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Warranty Protection</h3>
+                <p className="text-gray-700 mb-6">All emergency repairs come with comprehensive warranties covering both materials and workmanship. Our commitment to quality ensures your Andrews property remains protected long after the emergency is resolved.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -94,15 +205,35 @@ export default function EmergencyRoofRepairAndrewsPage() {
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How fast can you respond to emergencies in Andrews?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 2 hours for active leaks and storm damage throughout Andrews. 24/7 emergency crews available year-round.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We respond within 2 hours for active leaks and storm damage throughout Andrews. Our emergency crews are dispatched from our Amarillo headquarters, approximately 90 minutes away. We maintain a 24/7 hotline and have emergency supplies pre-positioned for rapid deployment across Andrews County and surrounding areas.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What qualifies as a roofing emergency?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Active leaks causing interior damage, missing shingles after storms, holes from hail/debris, collapsed sections, or severe storm damage requiring immediate protection.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Roofing emergencies include active leaks causing interior damage, missing or damaged shingles after storms, holes from hail or debris impact, partially collapsed roof sections, exposed decking, and any damage that compromises the weather barrier. In Andrews, we frequently respond to hail damage, high wind damage, and flash flood-related issues that require immediate attention to prevent further property damage.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency tarping?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, 24/7 emergency tarping in Andrews. We install waterproof tarps within hours to prevent further damage while processing insurance claims.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide 24/7 emergency tarping services in Andrews. Our crews use heavy-duty, wind-resistant tarps designed for West Texas conditions. We secure tarps with proper fastening techniques to withstand Andrews' frequent high winds while protecting your property during the insurance claim process and permanent repair scheduling.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What's the cost of emergency roof repair in Andrews?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Emergency repair costs in Andrews vary based on damage extent, materials needed, and accessibility. Most insurance policies cover emergency repairs, and we work directly with insurers to minimize your out-of-pocket expenses. We provide free emergency assessments and detailed estimates before beginning any work. Our transparent pricing ensures no surprise charges during emergency situations.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you help with insurance claims for Andrews properties?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We have extensive experience working with insurance companies serving Andrews County. Our team documents all damage with detailed photos, measurements, and written assessments. We can meet with insurance adjusters, provide supplemental estimates if needed, and help ensure your claim covers all necessary repairs. Our goal is to make the claims process as smooth as possible while you focus on getting your property back to normal.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What types of roofing materials do you repair in Andrews?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">We repair all roofing systems common in Andrews, including asphalt shingles, metal roofing (popular for commercial and oil industry buildings), TPO and EPDM for flat roofs, tile roofing, and built-up roofing systems. Our emergency repair vehicles carry materials suitable for temporary and permanent repairs for each roofing type, ensuring we can address any emergency regardless of your roof material.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle emergency repairs during Andrews' severe weather seasons?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">During severe weather seasons (March-June for hail, spring for tornadoes), we maintain increased staffing and expanded emergency supply inventory. We monitor weather patterns and pre-position crews when severe weather is forecast for the Andrews area. Our emergency response protocol includes safe working procedures and temporary protection measures that can be implemented even during active weather events when safety permits.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What warranty do you provide on emergency roof repairs?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">All emergency repairs in Andrews come with our comprehensive warranty covering both materials and workmanship. Emergency patches and temporary repairs are warranted until permanent solutions are installed. Permanent emergency repairs receive the same warranty as our standard roofing work - up to 25 years on materials and 10 years on workmanship, depending on the materials used and scope of repair.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>
