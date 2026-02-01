@@ -146,27 +146,162 @@ export default function MetalRoofOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Metal Roofing Benefits for Odessa</h2>
-            <div className="max-w-4xl mx-auto space-y-4">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">💨 Superior Wind Resistance</h3>
-                <p className="text-gray-700">Metal roofs resist wind uplift better than any other material. Properly installed standing seam systems withstand hurricane-force winds without damage.</p>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Permian Basin Climate Advantages</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🛢️ Oil Industry Environmental Challenges</h3>
+                <p className="text-gray-700 mb-4">Odessa's oil-rich environment creates unique challenges for conventional roofing materials. Chemical exposure from industrial operations, hydrogen sulfide emissions, and airborne particulates accelerate degradation of organic materials like asphalt shingles, making metal roofing the superior long-term choice.</p>
+                <p className="text-gray-700 mb-4">Metal roofing systems provide exceptional resistance to chemical exposure, industrial pollutants, and corrosive atmospheric conditions common in the Permian Basin. Specialized protective coatings available for extreme industrial environments ensure longevity even in harsh chemical exposure scenarios.</p>
+                <p className="text-gray-700">Seismic considerations from hydraulic fracturing activity require roofing systems with enhanced flexibility and attachment integrity. Metal roofing's engineered connection systems accommodate minor ground movement while maintaining structural integrity and weather protection.</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🔥 Fire Resistant</h3>
-                <p className="text-gray-700">Class A fire rating—the highest available. Metal roofs won't ignite from flying embers or lightning strikes, critical for Odessa's dry climate.</p>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">💨 Extreme Wind Performance</h3>
+                <p className="text-gray-700 mb-4">Odessa's position in the High Plains creates extreme wind conditions with sustained speeds regularly exceeding 40 mph and gusts over 70 mph. Metal roofing systems engineered for high-wind applications provide unmatched resistance to wind uplift and storm damage compared to traditional materials.</p>
+                <p className="text-gray-700 mb-4">Standing seam metal roofing with structural attachments can withstand wind speeds exceeding 180 mph when properly installed. The continuous seam design and concealed fastener system eliminate weak points that cause catastrophic failure in other roofing materials during severe weather events.</p>
+                <p className="text-gray-700">Aerodynamic panel profiles reduce wind loading and turbulence, while engineered attachment systems distribute forces across the entire roof structure. This comprehensive approach to wind resistance makes metal roofing essential for Odessa's challenging weather environment.</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🌡️ Heat Reflection</h3>
-                <p className="text-gray-700">Light-colored metal roofs reflect solar radiation, keeping attics cooler and reducing AC loads. "Cool roof" coatings enhance this further.</p>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🔥 Fire Protection in Arid Climate</h3>
+                <p className="text-gray-700 mb-4">Odessa's arid climate with annual precipitation under 15 inches creates severe fire risk, especially during drought periods and high-wind events. Metal roofing provides Class A fire resistance—the highest rating available—protecting properties from wildfire, lightning strikes, and industrial fire hazards.</p>
+                <p className="text-gray-700 mb-4">Non-combustible metal construction prevents fire spread and protects against flying embers that can ignite traditional roofing materials. This fire resistance is particularly critical in Odessa where industrial flare operations and electrical systems create elevated fire risks.</p>
+                <p className="text-gray-700">Insurance companies recognize metal roofing's superior fire protection with significant premium discounts for properties in high-risk areas. These savings, combined with reduced fire damage risk, provide substantial financial benefits for Odessa property owners.</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">💰 Insurance Discounts</h3>
-                <p className="text-gray-700">Many insurance companies offer discounts for metal roofing (10-35%) due to superior hail, wind, and fire resistance.</p>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">❄️ Advanced Thermal Performance</h3>
+                <p className="text-gray-700 mb-4">Odessa's extreme temperature environment with summer highs exceeding 110°F and winter lows below 20°F requires roofing systems engineered for thermal cycling. Metal roofing's thermal movement accommodation prevents stress failures common in rigid materials.</p>
+                <p className="text-gray-700 mb-4">Cool roof technology with reflective coatings reduces surface temperatures by 50-70°F compared to dark asphalt roofs, dramatically reducing cooling costs and extending HVAC equipment life. Energy savings of 25-40% are common in Odessa's extreme heat.</p>
+                <p className="text-gray-700">Thermal breaks and insulation systems optimize energy performance while accommodating Odessa's extreme temperature swings. Proper design prevents condensation issues and maintains consistent interior comfort despite external temperature extremes.</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">♻️ Environmentally Friendly</h3>
-                <p className="text-gray-700">Metal roofing is 100% recyclable and often contains recycled content. Asphalt shingles end up in landfills—metal roofs don't.</p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Advanced Metal Roofing Technologies</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🏗️ Structural Standing Seam Systems</h3>
+                <p className="text-gray-700 mb-4">Structural standing seam metal roofing provides the ultimate in durability and performance for Odessa's challenging environment. These systems attach directly to structural members, eliminating roof deck requirements and providing superior load-bearing capacity for equipment mounting and snow loads.</p>
+                
+                <div className="grid md:grid-cols-2 gap-6 mt-6">
+                  <div className="bg-brand-gold-light p-6 rounded-lg">
+                    <h4 className="font-bold text-brand-brown mb-3">System Specifications</h4>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• <strong>Panel Widths:</strong> 12", 16", 18", 24" standard</li>
+                      <li>• <strong>Seam Heights:</strong> 1.5" to 3" profiles available</li>
+                      <li>• <strong>Gauges:</strong> 24-gauge, 22-gauge steel options</li>
+                      <li>• <strong>Materials:</strong> Steel, aluminum, copper, zinc</li>
+                      <li>• <strong>Finishes:</strong> Kynar 500, SMP, PVDF systems</li>
+                      <li>• <strong>Warranties:</strong> 40-50 year material, 20+ fade</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-brand-gold-light p-6 rounded-lg">
+                    <h4 className="font-bold text-brand-brown mb-3">Performance Features</h4>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• <strong>Wind Resistance:</strong> 180+ mph ratings available</li>
+                      <li>• <strong>Thermal Movement:</strong> Engineered expansion joints</li>
+                      <li>• <strong>Fastener Concealment:</strong> No exposed penetrations</li>
+                      <li>• <strong>Seam Security:</strong> Mechanical and snap-lock options</li>
+                      <li>• <strong>Accessory Integration:</strong> Snow retention, walkways</li>
+                      <li>• <strong>Equipment Mounting:</strong> Structural attachment capability</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🌟 Premium Coating Technologies</h3>
+                <p className="text-gray-700 mb-4">Advanced coating systems provide exceptional protection against Odessa's harsh environmental conditions. PVDF and Kynar 500 fluoropolymer coatings offer superior UV resistance, chemical resistance, and color retention essential for long-term performance in the Permian Basin's challenging climate.</p>
+                
+                <div className="grid md:grid-cols-3 gap-4 mt-6">
+                  <div className="bg-brand-gold-light p-6 rounded-lg">
+                    <h4 className="font-bold text-brand-brown mb-3">Kynar 500® PVDF</h4>
+                    <ul className="space-y-1 text-sm text-gray-700">
+                      <li>• 70% PVDF fluoropolymer</li>
+                      <li>• 35+ year fade warranties</li>
+                      <li>• Superior chalking resistance</li>
+                      <li>• Chemical exposure protection</li>
+                      <li>• Premium color retention</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-brand-gold-light p-6 rounded-lg">
+                    <h4 className="font-bold text-brand-brown mb-3">Cool Roof Coatings</h4>
+                    <ul className="space-y-1 text-sm text-gray-700">
+                      <li>• Solar reflectance up to 95%</li>
+                      <li>• Thermal emittance 85%+</li>
+                      <li>• Energy Star compliance</li>
+                      <li>• Tax credit eligibility</li>
+                      <li>• Utility rebate programs</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-brand-gold-light p-6 rounded-lg">
+                    <h4 className="font-bold text-brand-brown mb-3">Specialty Applications</h4>
+                    <ul className="space-y-1 text-sm text-gray-700">
+                      <li>• Anti-microbial treatments</li>
+                      <li>• Self-cleaning surfaces</li>
+                      <li>• Graffiti-resistant coatings</li>
+                      <li>• Industrial chemical resistance</li>
+                      <li>• Custom color matching</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">⚡ Integrated Solar Solutions</h3>
+                <p className="text-gray-700 mb-4">Metal roofing provides the ideal platform for solar energy integration in Odessa's high-solar environment. Structural capability, longevity matching solar panel life, and superior heat dissipation make metal roofs the preferred choice for solar installations.</p>
+                
+                <div className="grid md:grid-cols-2 gap-6 mt-6">
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-3">Solar Integration Benefits</h4>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• <strong>Structural Capacity:</strong> Direct attachment to metal roof structure</li>
+                      <li>• <strong>Longevity Match:</strong> 50+ year roof life matches solar panels</li>
+                      <li>• <strong>Heat Dissipation:</strong> Improved solar panel efficiency</li>
+                      <li>• <strong>No Penetrations:</strong> Clamp systems preserve roof integrity</li>
+                      <li>• <strong>Installation Speed:</strong> Faster mounting compared to other materials</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-3">Economic Advantages</h4>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li>• <strong>Tax Credits:</strong> 30% federal tax credit for solar</li>
+                      <li>• <strong>Net Metering:</strong> Sell excess power back to grid</li>
+                      <li>• <strong>Utility Incentives:</strong> Local rebate programs</li>
+                      <li>• <strong>Property Value:</strong> Increased home value</li>
+                      <li>• <strong>Energy Independence:</strong> Reduced utility dependence</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Professional Installation Excellence</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🛠️ Precision Installation Techniques</h3>
+                <p className="text-gray-700 mb-4">Metal roof installation in Odessa's extreme environment requires specialized techniques and equipment. Our certified crews use manufacturer-approved methods, precision tools, and quality control procedures to ensure long-term performance and warranty compliance.</p>
+                <p className="text-gray-700 mb-4">Temperature-controlled installation procedures account for Odessa's extreme thermal conditions. Special considerations for expansion and contraction, material handling in extreme heat, and thermal break installation ensure optimal performance throughout the roof's service life.</p>
+                <p className="text-gray-700">Advanced fastening systems designed for high-wind environments provide superior attachment strength. Structural screws, expansion anchors, and engineered connection details ensure roof system integrity under extreme loading conditions common to the Permian Basin.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🔧 Quality Control & Testing</h3>
+                <p className="text-gray-700 mb-4">Comprehensive quality control procedures include seam integrity testing, fastener pattern verification, and waterproofing validation. Each installation undergoes systematic inspection to ensure compliance with manufacturer specifications and building code requirements.</p>
+                <p className="text-gray-700 mb-4">Wind uplift testing capabilities verify system performance under design loads. Pull-testing of fasteners and seam strength evaluation ensure installation meets or exceeds specified wind resistance ratings essential for Odessa's challenging wind environment.</p>
+                <p className="text-gray-700">Final inspection protocols include thermal imaging to verify proper installation, moisture testing to confirm waterproof integrity, and documentation photography to support warranty registration and future service needs.</p>
               </div>
             </div>
           </section>

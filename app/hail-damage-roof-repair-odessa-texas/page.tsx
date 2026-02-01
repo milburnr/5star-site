@@ -123,19 +123,104 @@ export default function HailDamageOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Common Hail Damage in Odessa</h2>
-            <div className="max-w-4xl mx-auto space-y-4">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🔹 Granule Loss & Bruising</h3>
-                <p className="text-gray-700">Hail knocks protective granules off shingles and creates soft spots. In Odessa's intense heat, this leads to rapid aging and leaks.</p>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa's Severe Hail Environment</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🌪️ West Texas Supercell Territory</h3>
+                <p className="text-gray-700 mb-4">Odessa sits in the heart of West Texas supercell country, where the collision of dry desert air and Gulf moisture creates perfect conditions for explosive thunderstorm development. The city's position at 2,890 feet elevation on the High Plains provides minimal topographic protection from approaching storms.</p>
+                <p className="text-gray-700 mb-4">The region's geographic features, including the flat Permian Basin terrain and lack of natural windbreaks, allow supercell thunderstorms to maintain intensity while producing large hail for extended periods. Odessa experiences significant hail events (1+ inch diameter) 4-6 times annually, with peak activity during April through June.</p>
+                <p className="text-gray-700">Meteorological data shows Odessa County receives softball-sized hail (4+ inches) every 2-3 years on average, creating widespread catastrophic damage that affects thousands of properties simultaneously and overwhelms local repair capacity.</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🔹 Flashing & Vent Damage</h3>
-                <p className="text-gray-700">Roof vents and flashing can be dented by hail - these are critical waterproofing components that must be replaced.</p>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🛢️ Industrial Climate Factors</h3>
+                <p className="text-gray-700 mb-4">Odessa's massive oil and gas infrastructure creates unique microclimatic conditions that can intensify hailstorm development. Heat islands from industrial facilities and flare stacks can enhance atmospheric instability, while airborne particulates can serve as condensation nuclei that promote hail formation.</p>
+                <p className="text-gray-700 mb-4">The Permian Basin's extensive well sites and processing facilities create surface roughness that can modify local wind patterns and storm structure. This industrial landscape can cause storms to slow down or intensify locally, extending hail duration and increasing damage potential.</p>
+                <p className="text-gray-700">Chemical exposure from oil operations can accelerate degradation of hail-damaged roofing materials, making prompt professional assessment and repair critical for maintaining structural integrity and insurance coverage compliance.</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🔹 Compromised Wind Resistance</h3>
-                <p className="text-gray-700">Hail loosens shingle adhesive. Odessa's high winds can then blow off weakened shingles during the next storm.</p>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">⚡ Seasonal Storm Intensity Patterns</h3>
+                <p className="text-gray-700 mb-4">Odessa's hail season peaks during late spring when jet stream positioning creates maximum wind shear and atmospheric instability. April and May storms often produce the largest hail due to strong upper-level divergence and surface heating, with stones regularly exceeding 2 inches in diameter.</p>
+                <p className="text-gray-700 mb-4">Summer storms (June-August) bring frequent smaller hail but higher winds and torrential rainfall that can cause flash flooding. The combination of hail damage and subsequent water infiltration often creates emergency conditions requiring immediate professional intervention.</p>
+                <p className="text-gray-700">Fall transition storms (September-October) can surprise property owners with unexpected large hail events. These storms often occur when atmospheric patterns shift rapidly, catching communities unprepared and causing significant damage to recently repaired or replaced roofing systems.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🌡️ Extreme Climate Impact on Damaged Materials</h3>
+                <p className="text-gray-700 mb-4">Odessa's desert climate creates harsh conditions for hail-damaged roofing materials. With over 290 sunny days annually and summer temperatures exceeding 110°F, hail-compromised shingles deteriorate rapidly once protective granules are lost to impact damage.</p>
+                <p className="text-gray-700 mb-4">Extreme daily temperature swings (often 40-50°F) create thermal cycling that accelerates failure in hail-damaged materials. Morning frost followed by afternoon temperatures over 100°F causes expansion and contraction that opens cracks and separates damaged material layers.</p>
+                <p className="text-gray-700">Low annual precipitation (14 inches) combined with persistent winds means hail-damaged materials desiccate rapidly, becoming brittle and prone to sudden failure that can expose property owners to surprise interior damage during subsequent weather events.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🌪️ Multi-Hazard Storm Events</h3>
+                <p className="text-gray-700 mb-4">Odessa's location in both Hail Alley and Tornado Alley means severe thunderstorms often produce multiple hazards simultaneously. Supercells can generate large hail, tornadoes, and straight-line winds exceeding 90 mph within the same system, creating complex damage patterns requiring expert assessment.</p>
+                <p className="text-gray-700 mb-4">Derecho events (long-lived windstorms) can affect Odessa several times per decade, combining large hail with sustained winds over 75 mph for hours. These events create catastrophic damage over large areas and often overwhelm regional emergency response and repair capacity.</p>
+                <p className="text-gray-700">Flash flooding following severe hailstorms is common in Odessa due to poor drainage on the flat terrain and urban runoff. Hail-damaged roofs are particularly vulnerable to water intrusion during these flooding events, often requiring emergency tarping and immediate professional assessment.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Comprehensive Insurance Strategy for Odessa Properties</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">💰 High-Risk Area Insurance Considerations</h3>
+                <p className="text-gray-700 mb-4">Property insurance in Odessa reflects the city's position in multiple high-risk zones for severe weather, oil industry exposure, and seismic activity from hydraulic fracturing. Many carriers impose specialized deductibles and coverage limitations that affect hail damage claim settlements.</p>
+                <p className="text-gray-700 mb-4">Percentage deductibles (1-5% of dwelling coverage) are common in Odessa rather than flat amounts, potentially resulting in higher out-of-pocket costs for expensive properties. Understanding how these deductibles apply specifically to hail damage versus other perils is crucial for accurate claim budgeting.</p>
+                <p className="text-gray-700">Windstorm and hail coverage may be written separately from basic property policies, requiring coordination between multiple carriers and claims representatives when storms produce both wind and hail damage simultaneously.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">📋 Industrial Exposure Documentation</h3>
+                <p className="text-gray-700 mb-4">Properties in Odessa's oil-rich environment require specialized documentation to distinguish hail damage from industrial-related wear, settlement, and chemical exposure. Professional assessors must understand how to identify and separate these different damage causes for accurate insurance claims.</p>
+                <p className="text-gray-700 mb-4">Pre-loss condition documentation becomes critical in areas with ongoing industrial activity. Regular professional inspections and photographic records help establish baseline conditions and support hail damage claims when they occur.</p>
+                <p className="text-gray-700">Environmental impact assessments may be required for properties showing unusual deterioration patterns. Professional engineering consultation can strengthen claims and ensure appropriate scope of work for properties in complex industrial environments.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">⚖️ Catastrophic Event Procedures</h3>
+                <p className="text-gray-700 mb-4">When major hail events affect thousands of Odessa properties simultaneously, insurance companies activate catastrophic claims procedures that modify standard processing timelines and approval authorities. Understanding these special procedures can significantly impact claim outcomes.</p>
+                <p className="text-gray-700 mb-4">Catastrophic adjusters often have different expertise and approval limits compared to standard claims staff. Working with experienced local contractors who understand these procedures helps navigate complex claims and avoid common pitfalls that can delay or reduce settlements.</p>
+                <p className="text-gray-700">Supplemental claims for concealed damage discovered during repairs are particularly common in Odessa's extreme climate where hidden damage becomes apparent only after materials are removed. Proper initial assessment helps minimize supplemental claim complications.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🔍 Advanced Damage Assessment Techniques</h3>
+                <p className="text-gray-700 mb-4">Professional hail damage assessment in Odessa requires specialized techniques to identify and document impact patterns, granule displacement, and concealed structural damage. Standardized measurement and photographic protocols ensure insurance compliance and maximize claim approval potential.</p>
+                <p className="text-gray-700 mb-4">Thermal imaging technology reveals hidden damage where hail impacts have compromised material integrity without visible surface damage. This technology is particularly valuable in Odessa's extreme climate where concealed damage accelerates rapidly under thermal stress.</p>
+                <p className="text-gray-700">Statistical sampling methods help establish damage percentages across large roof surfaces, providing the quantitative data insurance companies require for replacement approval. Proper sampling techniques are essential for accurate scope determination and claim documentation.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Advanced Protection Solutions for West Texas Climate</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🛡️ Military-Grade Impact Protection</h3>
+                <p className="text-gray-700 mb-4">Class 4 impact-resistant materials engineered for severe hail environments use advanced polymer chemistry and reinforced substrates to withstand extreme impacts. In Odessa's frequent large hail climate, these materials provide essential protection against catastrophic damage.</p>
+                <p className="text-gray-700 mb-4">Ultra-premium options include multi-layered composite shingles with SBS-modified bitumen cores and proprietary impact-absorption technologies. These systems can withstand baseball-sized hail impacts while maintaining structural integrity and weatherproofing performance.</p>
+                <p className="text-gray-700">Metal roofing systems with specialized impact-resistant coatings provide ultimate hail protection for Odessa properties. Standing seam and exposed fastener systems both offer superior performance when properly specified and installed for local climate conditions.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🌡️ Desert Climate Adaptations</h3>
+                <p className="text-gray-700 mb-4">Odessa's extreme temperature environment requires materials engineered for thermal cycling and UV resistance. Cool roof technologies with reflective granules and specialized coatings reduce surface temperatures by 25-35°F, extending material life and reducing energy costs.</p>
+                <p className="text-gray-700 mb-4">Enhanced UV stabilizers protect against degradation in Odessa's intense solar environment where UV levels can exceed sea level intensity by 20-25%. Premium materials include advanced UV blockers that maintain impact resistance throughout extended service life.</p>
+                <p className="text-gray-700">Moisture management systems designed for arid climates help control condensation and thermal differentials that can compromise material performance. Proper ventilation design is critical in Odessa's extreme temperature environment.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="font-bold text-xl text-brand-brown mb-4">🔩 Enhanced Installation Systems</h3>
+                <p className="text-gray-700 mb-4">Odessa's severe weather environment requires installation techniques exceeding manufacturer minimums. High-wind rated fasteners, upgraded underlayments, and reinforced edge systems provide comprehensive protection against extreme weather combinations.</p>
+                <p className="text-gray-700 mb-4">Synthetic underlayments engineered for high-temperature environments maintain performance characteristics in Odessa's extreme heat while providing superior protection against wind-driven rain following hailstorms.</p>
+                <p className="text-gray-700">Seismic-rated attachment systems help maintain roof integrity in areas affected by induced seismicity from oil operations. These systems provide additional security for properties in geologically active areas of the Permian Basin.</p>
               </div>
             </div>
           </section>
