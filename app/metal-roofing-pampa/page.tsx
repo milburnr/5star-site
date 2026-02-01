@@ -222,6 +222,82 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Oil & Gas Industry Metal Roofing for Pampa
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⚡ Energy Sector Solutions</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Oil & gas processing facilities</li>
+                  <li>✓ Equipment storage buildings</li>
+                  <li>✓ Administrative and office complexes</li>
+                  <li>✓ Maintenance and repair shops</li>
+                  <li>✓ Emergency services facilities</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🔥 Safety & Performance</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Class A fire resistance</li>
+                  <li>✓ Lightning protection systems</li>
+                  <li>✓ Chemical exposure resistance</li>
+                  <li>✓ High temperature tolerance</li>
+                  <li>✓ Explosion-resistant construction</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Oil & Gas Industry Requirements</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Pampa's oil and gas operations demand roofing systems that meet strict safety codes, resist chemical exposure, provide fire protection, and withstand extreme industrial conditions while protecting valuable equipment and personnel.
+              </p>
+              <p className="text-lg text-gray-700">
+                Metal roofing provides unmatched safety performance with Class A fire ratings, lightning protection capabilities, and chemical resistance specifically engineered for oil & gas facilities.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Industrial Safety & Code Compliance
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">🔥 Fire Safety</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Class A fire rating</li>
+                  <li>• UL listed assemblies</li>
+                  <li>• Spark arrestor compatibility</li>
+                  <li>• Non-combustible materials</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">⚡ Lightning Protection</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Integrated lightning systems</li>
+                  <li>• Proper grounding design</li>
+                  <li>• Strike termination devices</li>
+                  <li>• Surge protection integration</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">🛡️ Chemical Resistance</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Hydrocarbon exposure protection</li>
+                  <li>• Acid rain resistance</li>
+                  <li>• UV stability coatings</li>
+                  <li>• Industrial grade finishes</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Metal Roofing FAQs - Pampa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

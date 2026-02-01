@@ -282,6 +282,312 @@ export default function RoofRepairPerrytonPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Perryton Roof Repair Services We Provide
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Wheat Country Agricultural Specialist</h3>
+                <p className="text-gray-700 mb-4">
+                  Perryton sits in the heart of Texas wheat country, with vast grain operations and storage facilities throughout Ochiltree County. We specialize in agricultural building roofing designed for grain storage and farm operations.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Grain elevator roofing systems</li>
+                  <li>• Wheat storage facility repairs</li>
+                  <li>• Farm building maintenance</li>
+                  <li>• Agricultural equipment storage</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Ochiltree County Seat Services</h3>
+                <p className="text-gray-700 mb-4">
+                  As Ochiltree County's county seat, Perryton hosts government buildings, courthouse facilities, and municipal structures requiring specialized expertise for public buildings and institutional requirements.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• County courthouse maintenance</li>
+                  <li>• Municipal building repairs</li>
+                  <li>• Government facility roofing</li>
+                  <li>• Public building code compliance</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Extreme Hail Zone Protection</h3>
+                <p className="text-gray-700 mb-4">
+                  Perryton experiences some of the most severe hailstorms in the Texas Panhandle, with 8-10 significant events annually. We specialize in hail-resistant roofing systems and rapid storm damage response.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Impact-resistant roofing systems</li>
+                  <li>• Hail damage assessment and repair</li>
+                  <li>• Storm damage emergency response</li>
+                  <li>• Insurance claim specialization</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Rural Community Support</h3>
+                <p className="text-gray-700 mb-4">
+                  Perryton serves the broader rural community of Ochiltree County, including ranch properties, farm residences, and rural commercial buildings that require specialized roofing approaches.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Rural residential services</li>
+                  <li>• Ranch building repairs</li>
+                  <li>• Remote property access</li>
+                  <li>• Agricultural community support</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Perryton's Wheat Country Challenges
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🌾</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Wheat Production</h3>
+                <p className="text-gray-700">
+                  Perryton serves as a major wheat production center with massive grain elevators and storage facilities requiring specialized roofing systems capable of handling structural loads and moisture control.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🌨️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Extreme Hail Events</h3>
+                <p className="text-gray-700">
+                  Perryton sits directly in "Hail Alley," experiencing 8-10 severe hailstorms annually with hail sizes frequently exceeding baseball diameter, creating unique roofing challenges.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🏛️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">County Services</h3>
+                <p className="text-gray-700">
+                  As Ochiltree County's seat, Perryton maintains essential government services and facilities requiring specialized roofing knowledge for public buildings and institutional structures.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Environment Impact</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Grain Dust Exposure</h4>
+                  <p className="text-gray-700 mb-4">
+                    Wheat processing and storage operations create significant airborne grain dust that can accumulate on roof surfaces and clog drainage systems, requiring specialized maintenance approaches.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Agricultural Chemical Exposure</h4>
+                  <p className="text-gray-700 mb-4">
+                    Farming operations use herbicides, pesticides, and fertilizers that can create airborne chemicals affecting roofing material longevity and requiring resistant material selection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Our Perryton Roof Repair Process
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Schedule Coordination</h3>
+                    <p className="text-gray-700 mb-3">
+                      Understanding that Perryton's wheat operations follow strict seasonal schedules tied to planting, harvest, and storage, we coordinate our emergency response around critical agricultural timing.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Harvest season priority scheduling</li>
+                      <li>• Grain storage facility emergency protocols</li>
+                      <li>• Farm operation coordination</li>
+                      <li>• Seasonal agricultural considerations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Severe Weather Damage Assessment</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our inspectors specialize in evaluating hail damage patterns specific to Perryton's severe weather zone, understanding how extreme hailstorms affect different roofing materials and building types.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Extreme hail damage evaluation</li>
+                      <li>• Agricultural building assessment</li>
+                      <li>• Storm pattern analysis</li>
+                      <li>• Insurance documentation expertise</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Impact-Resistant Material Selection</h3>
+                    <p className="text-gray-700 mb-3">
+                      Given Perryton's location in extreme hail territory, we specify the highest impact-resistance rated materials available, designed specifically for severe weather zones like Ochiltree County.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Class 4 impact-resistant shingles</li>
+                      <li>• Hail-resistant metal systems</li>
+                      <li>• Agricultural-grade materials</li>
+                      <li>• Weather zone specifications</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Weather-Resistant Installation</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our installation teams use enhanced attachment methods and sealing techniques designed for extreme weather zones, ensuring repairs can withstand future hailstorms and High Plains winds.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Enhanced attachment systems</li>
+                      <li>• Weather-resistant sealing</li>
+                      <li>• Extreme weather preparation</li>
+                      <li>• Agricultural building considerations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Severe Weather Zone Monitoring</h3>
+                    <p className="text-gray-700 mb-3">
+                      Given Perryton's extreme weather exposure, we provide enhanced post-repair monitoring and proactive storm damage assessment to ensure continued protection through severe weather seasons.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Storm season monitoring</li>
+                      <li>• Post-hail damage assessment</li>
+                      <li>• Proactive maintenance scheduling</li>
+                      <li>• Enhanced warranty support</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Why Choose 5 Star for Your Perryton Roof Repairs?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Wheat Country Expertise</h3>
+                <p className="text-gray-700 mb-4">
+                  We understand the unique demands of agricultural buildings in wheat country, from massive grain storage facilities to farm equipment shelters that require specialized roofing approaches.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 200+ Perryton area projects completed</li>
+                  <li>• Grain facility roofing expertise</li>
+                  <li>• Agricultural building specialization</li>
+                  <li>• Farm operation coordination</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Extreme Weather Specialists</h3>
+                <p className="text-gray-700 mb-4">
+                  Perryton's location in the most severe hail zone of the Texas Panhandle demands specialized expertise in impact-resistant materials and extreme weather damage assessment.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Extreme hail damage expertise</li>
+                  <li>• Impact-resistant material specialization</li>
+                  <li>• Severe weather zone experience</li>
+                  <li>• Insurance claim advocacy</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Schedule Accommodation</h3>
+                <p className="text-gray-700 mb-4">
+                  We understand that agricultural operations in wheat country follow critical seasonal schedules. Our emergency response and scheduling accommodate the demands of farming cycles.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Harvest season scheduling</li>
+                  <li>• Agricultural priority response</li>
+                  <li>• Seasonal operation consideration</li>
+                  <li>• Farm equipment protection</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Ochiltree County Compliance</h3>
+                <p className="text-gray-700 mb-4">
+                  As the county seat, Perryton requires specialized knowledge of local building codes, government building requirements, and rural property considerations throughout Ochiltree County.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• County building code expertise</li>
+                  <li>• Government facility compliance</li>
+                  <li>• Rural property specialization</li>
+                  <li>• Municipal building experience</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Serving Perryton and Ochiltree County
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-6">
+                From our Amarillo headquarters, we serve Perryton and the broader Ochiltree County wheat production region, including agricultural, residential, and government properties:
+              </p>
+              <div className="grid md:grid-cols-4 gap-4 text-center">
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Perryton</h4>
+                  <p className="text-sm text-gray-600">County Seat & Center</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Booker</h4>
+                  <p className="text-sm text-gray-600">12 miles east</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Waka</h4>
+                  <p className="text-sm text-gray-600">15 miles south</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Farnsworth</h4>
+                  <p className="text-sm text-gray-600">18 miles northwest</p>
+                </div>
+              </div>
+              <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Ochiltree County Wheat District</h4>
+                <p className="text-gray-700">
+                  We serve the extensive wheat production operations throughout Ochiltree County, including grain elevators, storage facilities, and farm buildings that support the region's agricultural economy.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Perryton Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

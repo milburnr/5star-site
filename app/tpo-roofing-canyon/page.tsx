@@ -221,6 +221,227 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Canyon Businesses Choose TPO Roofing
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏫 Educational & Institutional</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ WTAMU campus facilities</li>
+                  <li>✓ School district buildings</li>
+                  <li>✓ Administrative complexes</li>
+                  <li>✓ Athletic and recreational facilities</li>
+                  <li>✓ Student housing developments</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">💰 Cost-Effective Solutions</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Lower installation costs than competitors</li>
+                  <li>✓ Excellent long-term ROI</li>
+                  <li>✓ Reduced maintenance expenses</li>
+                  <li>✓ Energy savings up to 30%</li>
+                  <li>✓ Insurance premium reductions</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Unique Weather Challenges</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Canyon's proximity to Palo Duro Canyon creates unique microclimatic conditions. The area experiences intense wind patterns, rapid temperature changes, and increased hail activity due to its position on the High Plains. These conditions require specialized roofing systems.
+              </p>
+              <p className="text-lg text-gray-700">
+                TPO roofing excels in these challenging conditions with proven flexibility, superior wind uplift resistance, and excellent thermal shock resistance. Our systems are specifically engineered for Canyon's demanding climate.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Commercial TPO Systems for Canyon Properties
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Fully Adhered Systems</h3>
+                <p className="text-gray-700 mb-3">
+                  Complete bonding to substrate provides maximum wind uplift resistance - ideal for Canyon's High Plains wind exposure.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Wind uplift ratings up to 300 psf</li>
+                  <li>• No mechanical penetrations</li>
+                  <li>• Superior thermal performance</li>
+                  <li>• Excellent for complex roof shapes</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Mechanically Attached</h3>
+                <p className="text-gray-700 mb-3">
+                  Cost-effective installation with proven performance for Canyon's challenging weather conditions.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Faster installation process</li>
+                  <li>• Lower initial investment</li>
+                  <li>• Excellent wind performance</li>
+                  <li>• Suitable for most building types</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Ballasted Systems</h3>
+                <p className="text-gray-700 mb-3">
+                  Loose-laid membrane with stone ballast - perfect for buildings with adequate structural capacity.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Minimal roof penetrations</li>
+                  <li>• Easy access for maintenance</li>
+                  <li>• Additional thermal mass</li>
+                  <li>• Cost-effective for large buildings</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Efficiency for Canyon Commercial Buildings
+            </h2>
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Cool Roof Technology</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Reflective Performance</h4>
+                  <p className="text-gray-700 mb-4">
+                    White TPO membranes reflect 80%+ of solar radiation, significantly reducing cooling loads for Canyon's educational and commercial facilities.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• ENERGY STAR certified membranes</li>
+                    <li>• Cool Roof Rating Council verified</li>
+                    <li>• Thermal emittance ratings 0.83+</li>
+                    <li>• Solar reflectance index (SRI) 100+</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Insulation Systems</h4>
+                  <p className="text-gray-700 mb-4">
+                    High-performance insulation packages maximize energy efficiency while providing code-compliant thermal resistance values.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Polyiso foam board (R-6+ per inch)</li>
+                    <li>• XPS rigid insulation options</li>
+                    <li>• Tapered systems for drainage</li>
+                    <li>• Vapor retarder integration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon Energy Savings Examples</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">25%</div>
+                  <div className="font-semibold mb-1">WTAMU Facility</div>
+                  <div className="text-gray-600 text-sm">Annual cooling cost reduction</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">$18K</div>
+                  <div className="font-semibold mb-1">Office Complex</div>
+                  <div className="text-gray-600 text-sm">First-year energy savings</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">30%</div>
+                  <div className="font-semibold mb-1">Retail Center</div>
+                  <div className="text-gray-600 text-sm">Peak demand reduction</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              TPO Installation Process for Canyon Commercial Properties
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <div className="flex items-start gap-4">
+                  <div className="bg-brand-gold text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-brand-brown">Site Assessment & Planning</h3>
+                    <p className="text-gray-700 mb-3">
+                      Comprehensive evaluation of your Canyon property including structural analysis, existing roof condition, and energy efficiency opportunities. We coordinate with local authorities for all required permits.
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
+                      <ul className="space-y-1">
+                        <li>• Structural load calculations</li>
+                        <li>• Wind uplift design requirements</li>
+                        <li>• Drainage analysis and planning</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Energy modeling and projections</li>
+                        <li>• Code compliance verification</li>
+                        <li>• Timeline and logistics coordination</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <div className="flex items-start gap-4">
+                  <div className="bg-brand-gold text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-brand-brown">Substrate Preparation</h3>
+                    <p className="text-gray-700 mb-3">
+                      Professional preparation ensures optimal TPO performance and longevity. Our team creates the ideal foundation for your new roofing system.
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
+                      <ul className="space-y-1">
+                        <li>• Existing membrane removal if needed</li>
+                        <li>• Deck cleaning and repair</li>
+                        <li>• Primer application where required</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Insulation installation/upgrade</li>
+                        <li>• Vapor barrier placement</li>
+                        <li>• Cover board installation</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <div className="flex items-start gap-4">
+                  <div className="bg-brand-gold text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2 text-brand-brown">TPO Membrane Installation</h3>
+                    <p className="text-gray-700 mb-3">
+                      Precision installation using state-of-the-art equipment and certified techniques. Every detail is executed to manufacturer specifications.
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
+                      <ul className="space-y-1">
+                        <li>• Membrane layout and cutting</li>
+                        <li>• Heat welding of all seams</li>
+                        <li>• Mechanical fastening per specs</li>
+                      </ul>
+                      <ul className="space-y-1">
+                        <li>• Flashing and detail work</li>
+                        <li>• Penetration sealing</li>
+                        <li>• Edge termination systems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               TPO Roofing FAQs - Canyon, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

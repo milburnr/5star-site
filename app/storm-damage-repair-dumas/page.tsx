@@ -212,11 +212,137 @@ export default function StormDamageRepairDumasPage() {
               Dumas's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
+              Dumas, the Moore County seat, faces extreme Panhandle weather as a major agricultural and industrial center. This northern Panhandle location experiences some of Texas's most severe storm conditions, with supercells tracking directly across the flat terrain from New Mexico. Properties from Moore County Airport to downtown Dumas and agricultural facilities throughout the county face 6-8 annual hailstorms with golf ball-sized hail and sustained winds exceeding 70 mph.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Dumas property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 240+ Dumas properties with premium materials engineered for Panhandle weather extremes. From residential areas near Window on the Plains Museum to industrial facilities and agricultural operations, we understand Moore County's diverse building needs. We work seamlessly with farmers, business owners, and residents, handling complete insurance claims while meeting strict agricultural and industrial timelines. Most property owners pay only their deductible when insurance covers storm damage.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Dumas's Agricultural Storm Challenges
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Farm & Ranch Operations Impact</h3>
+                <p className="text-gray-700 mb-4">
+                  Dumas sits at the heart of Moore County's agricultural operations, where storm damage affects not just homes and businesses but critical farming infrastructure. Livestock facilities, grain storage, and equipment buildings face unique challenges from High Plains supercells that develop tremendous intensity crossing the unobstructed terrain from Colorado and New Mexico.
+                </p>
+                <p className="text-gray-700">
+                  Agricultural buildings require rapid storm response to protect livestock, stored grain, and expensive equipment. We prioritize emergency repairs on agricultural structures and understand the critical timing around planting and harvest seasons when delays cost thousands daily.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Northern Panhandle Storm Intensity</h3>
+                <p className="text-gray-700 mb-4">
+                  Dumas's position in the far northern Panhandle means storms arrive with maximum intensity after building strength across hundreds of miles of open plains. The higher elevation (3,600+ feet) provides no protection from supercell development, while the completely flat terrain allows storms to maintain peak intensity longer than anywhere else in Texas.
+                </p>
+                <p className="text-gray-700">
+                  These factors create hailstones regularly exceeding golf ball size and wind speeds that can reach 80+ mph. Properties throughout Moore County face some of the state's most challenging weather conditions, requiring the highest-grade materials and installation methods.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Agricultural Building Storm Response
+            </h2>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
+                <h3 className="text-lg font-bold mb-3 text-red-700">Livestock Facilities</h3>
+                <ul className="text-red-600 space-y-2 text-sm">
+                  <li>• Emergency animal protection</li>
+                  <li>• Rapid ventilation restoration</li>
+                  <li>• Feed storage security</li>
+                  <li>• Milking barn priority</li>
+                </ul>
+              </div>
+              <div className="bg-orange-50 p-6 rounded-2xl border-l-4 border-orange-500">
+                <h3 className="text-lg font-bold mb-3 text-orange-700">Grain Storage</h3>
+                <ul className="text-orange-600 space-y-2 text-sm">
+                  <li>• Bin roof replacement</li>
+                  <li>• Moisture protection</li>
+                  <li>• Loading system repairs</li>
+                  <li>• Quality preservation</li>
+                </ul>
+              </div>
+              <div className="bg-yellow-50 p-6 rounded-2xl border-l-4 border-yellow-500">
+                <h3 className="text-lg font-bold mb-3 text-yellow-700">Equipment Buildings</h3>
+                <ul className="text-yellow-600 space-y-2 text-sm">
+                  <li>• Machinery protection</li>
+                  <li>• Large door repairs</li>
+                  <li>• Workshop restoration</li>
+                  <li>• Tool security</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500">
+                <h3 className="text-lg font-bold mb-3 text-green-700">Processing Facilities</h3>
+                <ul className="text-green-600 space-y-2 text-sm">
+                  <li>• Production continuity</li>
+                  <li>• Sanitary requirements</li>
+                  <li>• Climate control</li>
+                  <li>• Regulatory compliance</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Moore County Weather Patterns & Storm Preparedness
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Extreme Weather Calendar</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-purple-400 pl-4">
+                    <h4 className="font-semibold text-purple-700">March-May: Prime Supercell Season</h4>
+                    <p className="text-gray-600 text-sm">Peak tornado and large hail season with 70% of annual severe weather. Supercells track northeast from New Mexico with devastating intensity.</p>
+                  </div>
+                  <div className="border-l-4 border-red-400 pl-4">
+                    <h4 className="font-semibold text-red-700">June-August: Heat & Wind Stress</h4>
+                    <p className="text-gray-600 text-sm">Extreme heat (110°F+) combines with constant 25+ mph winds to stress roofing materials. Afternoon thunderstorms produce damaging microbursts.</p>
+                  </div>
+                  <div className="border-l-4 border-orange-400 pl-4">
+                    <h4 className="font-semibold text-orange-700">September-November: Secondary Severe Season</h4>
+                    <p className="text-gray-600 text-sm">Powerful cold fronts create violent wind shear and large temperature swings that damage heat-stressed materials.</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h4 className="font-semibold text-blue-700">December-February: Ice & Blizzard Season</h4>
+                    <p className="text-gray-600 text-sm">Severe ice storms and blizzards with 50+ mph winds test repairs made during previous storm seasons.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Agricultural Storm Preparedness</h3>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Seasonal Inspection Schedule</h4>
+                    <p className="text-gray-600 text-sm">Pre-storm season inspections in February and August identify vulnerabilities before peak weather periods, preventing catastrophic failures during critical farming periods.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Emergency Response Planning</h4>
+                    <p className="text-gray-600 text-sm">Agricultural operations need rapid response protocols for livestock protection, grain preservation, and equipment security during and after severe weather events.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Multi-Building Efficiency</h4>
+                    <p className="text-gray-600 text-sm">Farms with multiple structures benefit from coordinated repair projects that reduce costs and minimize operational disruptions during critical seasons.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Insurance Coordination</h4>
+                    <p className="text-gray-600 text-sm">Agricultural insurance requires specific documentation and timing. We understand farm policy requirements and work within agricultural insurance timelines.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

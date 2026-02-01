@@ -212,11 +212,132 @@ export default function WindDamageRepairCanyonPage() {
               Canyon's Wind Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo Duro Canyon with High Plains wind exposure—demand superior roofing materials and expert installation.
+              Canyon faces extraordinary wind challenges due to Palo Duro Canyon's unique geography. The 800-foot deep canyon creates wind channeling effects that can amplify normal wind speeds by 30-50%, generating unpredictable turbulence patterns. Properties on the canyon rim experience maximum exposure to these channeled winds, while the WTAMU campus and residential areas face complex wind patterns created by the interaction between canyon airflow and High Plains weather systems.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 350+ Canyon properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Canyon property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've repaired 280+ wind damage incidents throughout Randall County, from canyon rim properties to university buildings. We understand how Palo Duro Canyon's geography creates unique wind damage patterns that require specialized repair approaches. Our installations use aerodynamic design principles, enhanced fastening systems rated for extreme wind exposure, and materials specifically chosen for the channeling effects near America's second-largest canyon. Most wind damage repairs qualify for full insurance coverage when properly documented and upgraded to current wind resistance standards.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Palo Duro Canyon Wind Effects
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Wind Channeling Phenomenon</h3>
+                <p className="text-gray-700 mb-4">
+                  Palo Duro Canyon acts as a massive wind tunnel that accelerates and focuses High Plains winds. As air masses flow across the flat terrain and encounter the canyon, they're compressed and accelerated through the geological formation, creating wind speeds 30-50% higher than regional forecasts predict.
+                </p>
+                <p className="text-gray-700">
+                  This channeling effect is strongest during north winds in winter and south winds during severe weather. Properties on the canyon rim experience the most extreme exposure, while areas near the West Texas A&M campus face turbulent, unpredictable wind patterns.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Elevation and Exposure Impact</h3>
+                <p className="text-gray-700 mb-4">
+                  Canyon sits at 3,600+ feet elevation with no natural windbreaks except the canyon itself, which can either provide protection or amplify winds depending on location and wind direction. The university campus and canyon rim developments face maximum wind exposure with minimal protection.
+                </p>
+                <p className="text-gray-700">
+                  Downtown Canyon and areas south of the canyon experience different wind patterns than canyon rim properties, requiring location-specific solutions for wind damage prevention and repair.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Wind Damage by Location
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                <h3 className="text-xl font-bold mb-3 text-red-700">Canyon Rim Properties</h3>
+                <ul className="text-gray-700 space-y-2 mb-4">
+                  <li>• Extreme wind uplift damage</li>
+                  <li>• Debris impact from canyon</li>
+                  <li>• Sustained high wind stress</li>
+                  <li>• Rapid material degradation</li>
+                  <li>• Directional wind patterns</li>
+                </ul>
+                <p className="text-gray-600 text-sm">
+                  Properties with scenic canyon views face the most severe wind exposure and require the highest-grade wind-resistant materials and installation methods.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
+                <h3 className="text-xl font-bold mb-3 text-orange-700">WTAMU Campus</h3>
+                <ul className="text-gray-700 space-y-2 mb-4">
+                  <li>• Building height turbulence</li>
+                  <li>• Multi-directional wind stress</li>
+                  <li>• Large roof area challenges</li>
+                  <li>• Academic building complexity</li>
+                  <li>• Dormitory wind exposure</li>
+                </ul>
+                <p className="text-gray-600 text-sm">
+                  University buildings require coordinated wind damage repairs that minimize disruption to academic schedules while providing superior protection.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-yellow-500">
+                <h3 className="text-xl font-bold mb-3 text-yellow-700">Downtown Canyon</h3>
+                <ul className="text-gray-700 space-y-2 mb-4">
+                  <li>• Historic building challenges</li>
+                  <li>• Mixed architectural styles</li>
+                  <li>• Building-to-building turbulence</li>
+                  <li>• Commercial signage damage</li>
+                  <li>• Street-level wind patterns</li>
+                </ul>
+                <p className="text-gray-600 text-sm">
+                  Downtown buildings benefit from some wind protection but require specialized approaches for historic preservation and architectural compatibility.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Canyon-Specific Wind Solutions
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Aerodynamic Design Principles</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h4 className="font-semibold text-blue-700">Wind Flow Optimization</h4>
+                    <p className="text-gray-600 text-sm">We design repairs to work with canyon wind patterns rather than against them, using aerodynamic edge details and smooth transitions that reduce turbulence.</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h4 className="font-semibold text-blue-700">Directional Reinforcement</h4>
+                    <p className="text-gray-600 text-sm">Enhanced fastening in areas that face prevailing canyon winds, with additional reinforcement for properties in wind channels.</p>
+                  </div>
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h4 className="font-semibold text-blue-700">Scenic Compatibility</h4>
+                    <p className="text-gray-600 text-sm">Wind-resistant features that don't compromise the scenic views that make canyon rim properties valuable.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Extreme Wind Materials</h3>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Maximum Wind Rating Materials</h4>
+                    <p className="text-gray-600 text-sm">Shingles and membranes rated for 150+ mph winds, necessary for the channeled winds near Palo Duro Canyon.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Canyon Debris Resistance</h4>
+                    <p className="text-gray-600 text-sm">Impact-resistant materials that protect against debris carried up from the canyon during high wind events.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Enhanced Attachment Systems</h4>
+                    <p className="text-gray-600 text-sm">Fastening patterns that exceed standard requirements, with additional fasteners in high-stress canyon wind zones.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

@@ -200,6 +200,48 @@ export default function EmergencyRoofRepairAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Andrews Permian Basin Emergency Operations
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Andrews serves as a major hub for Permian Basin oil and gas operations, requiring emergency roofing services that understand the unique demands of energy industry facilities, chemical processing plants, and support operations that operate continuously. Andrews County's energy infrastructure includes drilling operations, processing facilities, and transportation hubs critical to national energy production.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Andrews Emergency Response Protocol</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-30 minutes:</strong> Emergency dispatch, oil facility safety assessment</li>
+                <li><strong>30-120 minutes:</strong> Extended travel from Amarillo, industrial equipment loaded</li>
+                <li><strong>120-150 minutes:</strong> On-site arrival, energy facility coordination</li>
+                <li><strong>150-300 minutes:</strong> Petroleum-resistant emergency protection installed</li>
+                <li><strong>4-8 hours:</strong> Environmental compliance documentation, repair planning</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response for Andrews energy facilities requires specialized equipment resistant to petroleum products, chemical exposure, and high-temperature conditions. Safety protocols include gas monitoring, fire suppression coordination, and compliance with industry safety standards for hazardous environments.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">West Texas Climate and Material Challenges</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Andrews experiences extreme West Texas climate including intense UV exposure, severe temperature fluctuations, and high winds that create challenging emergency repair conditions. Desert climate conditions require specialized materials and application techniques for sustained performance in harsh environmental conditions.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Andrews Climate Emergency Factors</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Extreme Heat:</strong> Summer temperatures exceeding 110°F affecting operations</li>
+                <li><strong>UV Degradation:</strong> High-altitude UV requiring resistant materials</li>
+                <li><strong>Dust Storms:</strong> Petroleum and sand creating abrasive conditions</li>
+                <li><strong>Flash Flooding:</strong> Desert arroyos creating sudden water hazards</li>
+                <li><strong>High Winds:</strong> Sustained winds requiring enhanced anchoring</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency material selection accounts for petroleum vapor exposure, chemical contamination, and temperature extremes that rapidly degrade standard materials. Specialized supplies include chemical-resistant tarps, petroleum-safe adhesives, and explosion-proof equipment for volatile environments.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

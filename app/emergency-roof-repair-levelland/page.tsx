@@ -200,6 +200,120 @@ export default function EmergencyRoofRepairLevellandPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Levelland Cotton Country Emergency Response
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Levelland serves as the hub of one of Texas's most productive cotton-growing regions, requiring emergency roofing services that understand the unique demands of cotton farming operations, ginning facilities, and agricultural storage buildings that support the South Plains cotton industry. Hockley County produces over 200,000 bales annually, making agricultural facility protection critical to regional economics.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Levelland Emergency Response Timeline</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-20 minutes:</strong> Emergency dispatch from Amarillo, route planning via Highway 114</li>
+                <li><strong>20-75 minutes:</strong> Travel time to Levelland, equipment and materials prepared</li>
+                <li><strong>75-90 minutes:</strong> On-site arrival, immediate assessment and safety evaluation</li>
+                <li><strong>90-180 minutes:</strong> Emergency protection installed, cotton facility coordination if needed</li>
+                <li><strong>3-6 hours:</strong> Comprehensive damage documentation, insurance coordination, permanent repair planning</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Cotton ginning facilities in Levelland operate under strict timelines during harvest season, typically September through November, when emergency repairs must account for continuous operations and cotton quality protection. Moisture intrusion during ginning operations can contaminate thousands of bales, making immediate emergency response critical for facility protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Agricultural chemical storage and application facilities throughout Hockley County require specialized emergency protocols due to herbicide, pesticide, and fertilizer storage that creates unique safety considerations. Emergency crews maintain chemical-resistant equipment and safety protocols for agricultural facility operations throughout the cotton-growing region.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">South Plains Weather Challenges and Emergency Preparedness</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Levelland's position on the South Plains creates exposure to severe weather patterns that approach from multiple directions, with storm systems developing over New Mexico's mountains and intensifying as they move across the flat terrain of Hockley County. The area experiences frequent supercell thunderstorms with large hail, high winds, and tornadoes during spring and early summer months.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Levelland Severe Weather Patterns</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Hail Season:</strong> March-June with peak activity in April-May, baseball-sized hail common</li>
+                <li><strong>Tornado Activity:</strong> Enhanced risk during La Niña years, F2-F3 tornadoes documented</li>
+                <li><strong>High Winds:</strong> Frequent straight-line winds exceeding 70 mph, especially during cotton harvest</li>
+                <li><strong>Flash Flooding:</strong> Draws and low-lying areas prone to rapid flooding during heavy rainfall events</li>
+                <li><strong>Dust Storms:</strong> Agricultural dust and debris creating hazardous conditions and material challenges</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Dust storm activity in Levelland can precede severe thunderstorms, creating hazardous conditions that affect emergency response timing and techniques. High winds carrying agricultural dust and debris require specialized tarping and emergency protection methods designed for sustained high-wind conditions and abrasive particulate environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Winter weather emergency challenges include ice storms and blizzard conditions that can isolate Levelland from regional resources, requiring pre-positioned emergency materials and equipment. South Plains winter storms often develop rapidly and can deposit significant ice accumulation that exceeds structural design limits for agricultural buildings.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Cotton Industry Emergency Protection Protocols
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response in Levelland's cotton-producing region requires understanding of ginning operations, cotton storage requirements, and seasonal demands that create critical timing for facility protection. Cotton gins typically operate 24 hours during harvest season, making emergency repairs complex when continuous operations are essential for regional agricultural productivity.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Coordination with cotton marketing cooperatives and ginning facilities requires understanding of delivery schedules, quality requirements, and financial implications of emergency downtime. Cotton facilities may need emergency protection completed within hours to prevent contract defaults and commodity quality degradation that affects farmer income and regional economic stability.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency material selection for cotton facilities accounts for lint and dust accumulation that can create fire hazards and equipment interference. Materials must be compatible with cotton processing environments and resistant to static buildup that could create ignition sources in cotton storage and processing areas.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Educational Facility Emergency Response at South Plains College</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              South Plains College in Levelland requires specialized emergency response protocols that account for student safety, educational continuity, and protection of specialized equipment including laboratories, technology centers, and athletic facilities. Dormitory emergencies require immediate response to protect student housing and prevent displacement during academic sessions.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">SPC Emergency Response Priorities</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Student Housing:</strong> Immediate protection for dormitories to prevent student displacement</li>
+                <li><strong>Academic Buildings:</strong> Classroom and laboratory protection to maintain educational operations</li>
+                <li><strong>Technology Centers:</strong> Specialized protection for expensive equipment and computer systems</li>
+                <li><strong>Athletic Facilities:</strong> Gymnasium and sports complex protection for community and student use</li>
+                <li><strong>Administrative Buildings:</strong> Protection of student records and administrative operations</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency coordination with South Plains College facilities management includes communication with academic departments, student services, and residential life staff to ensure emergency repairs minimize disruption to educational activities. Summer break provides opportunities for extensive repairs, while academic sessions require careful timing and temporary measures.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Student safety protocols during emergency operations include coordination with campus security, notification systems for building evacuations, and temporary relocation procedures for residential students. Emergency repairs in dormitories must account for continuous occupancy and student safety requirements throughout the repair process.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Levelland Community and Economic Considerations
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Levelland's economy depends heavily on both agricultural production and educational services provided by South Plains College, creating interconnected emergency response needs that affect multiple sectors simultaneously. Major storm events can impact cotton operations, college facilities, and residential areas, requiring coordinated response that prioritizes community resilience and economic recovery.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Healthcare facilities in Levelland, including Covenant Hospital Levelland and medical clinics, require priority emergency response to maintain continuous healthcare services for both local residents and the broader Hockley County area. Medical facility downtime during emergencies can force residents to seek care in distant communities, creating additional hardship during crisis situations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Municipal services and government facilities, including city hall, police and fire departments, and public works facilities, need rapid emergency protection to maintain community services during and after severe weather events. Emergency response coordination includes these critical facilities to ensure continued public safety and municipal operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insurance and Regional Economic Recovery</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Insurance considerations for Levelland properties include specialized agricultural coverage for cotton operations, educational institution policies for South Plains College, and business interruption coverage for facilities that serve the broader regional economy. Emergency response documentation must meet varied insurance requirements while ensuring rapid property protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Regional economic impact assessments consider the interconnected nature of Levelland's agricultural and educational economy, where cotton production supports local businesses that also serve college students and staff. Emergency response prioritization accounts for facilities with broader economic importance to Hockley County's stability and growth.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Long-term community preparedness includes partnerships with agricultural extension services, college emergency management, and regional planning organizations to strengthen overall resilience and reduce the frequency and severity of emergency situations. These collaborations enhance both individual property protection and community-wide emergency response capabilities.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

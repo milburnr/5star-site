@@ -222,6 +222,99 @@ export default function MetalRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Premium Metal Roofing for Canyon Educational & Commercial Properties
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏫 Educational Excellence</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ WTAMU campus buildings</li>
+                  <li>✓ Canyon ISD facilities</li>
+                  <li>✓ Student housing complexes</li>
+                  <li>✓ Athletic and recreational buildings</li>
+                  <li>✓ Administrative offices</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏢 Commercial Solutions</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Downtown business district</li>
+                  <li>✓ Tourism and hospitality</li>
+                  <li>✓ Healthcare facilities</li>
+                  <li>✓ Retail and service centers</li>
+                  <li>✓ Government buildings</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Educational & Tourism Focus</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Canyon's unique position as home to West Texas A&M University and gateway to Palo Duro Canyon creates specific roofing needs. Educational facilities require long-term durability and budget-conscious solutions, while tourism-related buildings need aesthetic appeal and weather resistance.
+              </p>
+              <p className="text-lg text-gray-700">
+                Metal roofing delivers the perfect combination of durability, energy efficiency, and architectural versatility to meet Canyon's diverse commercial and institutional requirements.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">60+</div>
+                <div className="font-semibold mb-1">Year Lifespan</div>
+                <div className="text-gray-600 text-sm">Educational buildings</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">40%</div>
+                <div className="font-semibold mb-1">Energy Savings</div>
+                <div className="text-gray-600 text-sm">Cooling cost reduction</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">25</div>
+                <div className="font-semibold mb-1">Color Options</div>
+                <div className="text-gray-600 text-sm">Architectural choices</div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Educational Facility Metal Roofing Advantages
+            </h2>
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Budget-Conscious Long-Term Value</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Lifecycle Cost Benefits</h4>
+                  <p className="text-gray-700 mb-4">
+                    Metal roofing provides exceptional value for educational institutions through minimal maintenance requirements and decades of reliable performance.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• 50-70 year service life</li>
+                    <li>• Minimal maintenance costs</li>
+                    <li>• Energy savings up to 40%</li>
+                    <li>• Insurance premium reductions</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Grant & Funding Opportunities</h4>
+                  <p className="text-gray-700 mb-4">
+                    Energy-efficient metal roofing often qualifies for educational grants and sustainability funding programs.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• USDA rural development grants</li>
+                    <li>• Energy efficiency rebates</li>
+                    <li>• State education facility funding</li>
+                    <li>• Federal tax incentive eligibility</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Metal Roofing FAQs - Canyon, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

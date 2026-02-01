@@ -200,6 +200,48 @@ export default function EmergencyRoofRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Pampa Industrial and Energy Emergency Response
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa's position as Gray County's seat and industrial center requires emergency roofing services that understand the unique demands of energy processing, manufacturing operations, and the healthcare facilities that serve the broader Texas Panhandle region. Industrial operations include natural gas processing, manufacturing, and energy support services that operate continuously.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Pampa Emergency Response Timeline</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-20 minutes:</strong> Emergency dispatch, industrial safety protocols</li>
+                <li><strong>20-60 minutes:</strong> Rapid response to Pampa via Highway 60</li>
+                <li><strong>60-90 minutes:</strong> On-site arrival, facility-specific coordination</li>
+                <li><strong>90-180 minutes:</strong> Industrial-grade emergency protection installed</li>
+                <li><strong>3-5 hours:</strong> Complete assessment, regulatory compliance documentation</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response for Pampa's industrial facilities requires specialized safety equipment, chemical-resistant materials, and coordination with facility emergency response teams. Natural gas processing and manufacturing operations cannot tolerate extended weather exposure without significant production and safety impacts.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Regional Healthcare and Manufacturing Hub Protection</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa Regional Medical Center serves a multi-county region and requires priority emergency response to maintain healthcare services for both routine and emergency medical needs. Manufacturing facilities and processing plants require immediate weather protection to prevent equipment damage and maintain continuous operations essential to regional economic stability.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Pampa Industrial Emergency Priorities</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Natural Gas Processing:</strong> Continuous operation requirements</li>
+                <li><strong>Healthcare Facilities:</strong> Regional medical service continuity</li>
+                <li><strong>Manufacturing Plants:</strong> Equipment and production protection</li>
+                <li><strong>County Government:</strong> Essential public service maintenance</li>
+                <li><strong>Educational Facilities:</strong> Community and regional education</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Coordination with industrial facility operations includes understanding of production schedules, safety shutdown procedures, and environmental protection requirements that ensure worker safety and environmental compliance during emergency repair operations. Emergency timing accounts for industrial shift schedules and operational requirements.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

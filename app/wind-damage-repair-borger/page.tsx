@@ -212,11 +212,132 @@ export default function WindDamageRepairBorgerPage() {
               Borger's Wind Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Borger's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
+              Borger faces some of Texas's most extreme wind conditions as an industrial city in the High Plains. Sustained winds of 25-35 mph are normal, while severe weather brings gusts exceeding 80 mph. The Phillips 66 refinery and industrial infrastructure create additional wind turbulence that can amplify damage. Properties throughout Hutchinson County experience constant wind stress that gradually weakens roofing systems, making them vulnerable to catastrophic failure during severe weather events.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Borger properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Borger property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've repaired 220+ wind damage incidents across Borger's industrial and residential areas. From homes near Huber Park to facilities throughout the petrochemical district, we understand how Borger's unique environment creates specific wind damage patterns. Our installations use enhanced fastening systems, wind-resistant materials, and aerodynamic edge details designed for sustained high winds. We work efficiently around industrial schedules and handle complete insurance claims. Most wind damage is covered when properly documented and repaired to current building codes.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Industrial Wind Effects in Borger
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Petrochemical Turbulence</h3>
+                <p className="text-gray-700 mb-4">
+                  Borger's massive industrial facilities create complex wind patterns that can accelerate localized wind speeds by 15-25% above regional conditions. The Phillips 66 refinery and chemical plants generate heat islands that create updrafts and turbulence, making wind damage unpredictable and more severe than weather forecasts indicate.
+                </p>
+                <p className="text-gray-700">
+                  Buildings downwind from industrial facilities face additional challenges from chemical exposure that weakens materials over time, making them more susceptible to wind uplift failure. Our repairs account for both mechanical wind damage and chemical degradation effects.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">High Plains Wind Patterns</h3>
+                <p className="text-gray-700 mb-4">
+                  The unobstructed High Plains terrain allows winds to maintain full velocity across Hutchinson County. Prevailing southwest winds create constant stress on northwest-facing roof sections, while north winds during winter fronts can exceed 70 mph with devastating straight-line force.
+                </p>
+                <p className="text-gray-700">
+                  Without natural windbreaks, even moderate winds cause cumulative damage over time. Fasteners loosen, shingles lift, and flashing systems gradually fail, creating vulnerability for catastrophic damage during severe weather events.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Wind Damage Patterns in Borger Properties
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-500">
+                <h3 className="text-xl font-bold mb-3 text-blue-700">Residential Areas</h3>
+                <ul className="text-gray-700 space-y-2 mb-4">
+                  <li>• Shingle edge lifting and tearing</li>
+                  <li>• Fascia board wind damage</li>
+                  <li>• Gutter system failures</li>
+                  <li>• Soffit and trim loosening</li>
+                  <li>• Chimney cap displacement</li>
+                </ul>
+                <p className="text-gray-600 text-sm">
+                  Homes throughout Borger face constant wind pressure that gradually weakens attachment points. Regular inspections help identify early damage before catastrophic failure.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
+                <h3 className="text-xl font-bold mb-3 text-orange-700">Commercial Buildings</h3>
+                <ul className="text-gray-700 space-y-2 mb-4">
+                  <li>• Large roof membrane uplift</li>
+                  <li>• HVAC equipment displacement</li>
+                  <li>• Parapet wall damage</li>
+                  <li>• Signage and equipment failure</li>
+                  <li>• Window and door seal failure</li>
+                </ul>
+                <p className="text-gray-600 text-sm">
+                  Commercial buildings near Frank Phillips College and downtown Borger require enhanced fastening systems for their larger roof areas.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                <h3 className="text-xl font-bold mb-3 text-red-700">Industrial Facilities</h3>
+                <ul className="text-gray-700 space-y-2 mb-4">
+                  <li>• Metal panel wind uplift</li>
+                  <li>• Equipment housing damage</li>
+                  <li>• Stack and tower stress</li>
+                  <li>• Pipe support failures</li>
+                  <li>• Chemical exposure acceleration</li>
+                </ul>
+                <p className="text-gray-600 text-sm">
+                  Industrial facilities require specialized repairs that account for both wind damage and chemical environment compatibility.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Enhanced Wind Resistance Solutions
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Advanced Fastening Systems</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-green-400 pl-4">
+                    <h4 className="font-semibold text-green-700">High-Wind Attachment Methods</h4>
+                    <p className="text-gray-600 text-sm">We use fastening patterns that exceed standard requirements, with additional fasteners in high-stress areas and upgraded attachment hardware rated for sustained high winds.</p>
+                  </div>
+                  <div className="border-l-4 border-green-400 pl-4">
+                    <h4 className="font-semibold text-green-700">Edge Reinforcement Systems</h4>
+                    <p className="text-gray-600 text-sm">Special attention to roof edges where wind uplift is strongest, using aerodynamic edge details and enhanced perimeter fastening.</p>
+                  </div>
+                  <div className="border-l-4 border-green-400 pl-4">
+                    <h4 className="font-semibold text-green-700">Chemical-Resistant Hardware</h4>
+                    <p className="text-gray-600 text-sm">Fasteners and flashing materials that resist chemical degradation from industrial emissions, maintaining integrity over time.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Wind-Resistant Materials</h3>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Impact-Resistant Shingles</h4>
+                    <p className="text-gray-600 text-sm">Class 4 impact-resistant materials with enhanced wind ratings (130+ mph) designed for extreme exposure conditions.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">High-Performance Underlayment</h4>
+                    <p className="text-gray-600 text-sm">Synthetic underlayment that resists wind-driven rain and provides secondary protection when primary materials fail.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Aerodynamic Design Features</h4>
+                    <p className="text-gray-600 text-sm">Installation techniques that reduce wind resistance and turbulence around roof penetrations and transitions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

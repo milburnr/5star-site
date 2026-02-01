@@ -68,6 +68,131 @@ export default function HailDamageMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Midland's Position in the Texas Hail Belt</h2>
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+              <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+                Midland sits in the heart of West Texas's "Hail Belt," where Midland County's position at 2,779 feet elevation creates ideal conditions for severe hailstorm development. As the largest city between Fort Worth and El Paso, Midland's 146,000+ residents face some of Texas's most destructive hail events, with the Permian Basin's oil infrastructure creating unique weather enhancement effects.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Geographic Storm Factors</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>High Plains Elevation:</strong> 2,779-foot elevation enhances storm development</li>
+                    <li><strong>Permian Basin Location:</strong> Bowl-shaped geography channels storms</li>
+                    <li><strong>Flat Terrain:</strong> No barriers to slow storm progression</li>
+                    <li><strong>Dryline Position:</strong> Desert-Gulf air mass collisions</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Oil Industry Weather Impact</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Heat Islands:</strong> Processing facilities enhance atmospheric instability</li>
+                    <li><strong>Particulate Nucleation:</strong> Industrial emissions aid hail formation</li>
+                    <li><strong>Chemical Acceleration:</strong> Airborne compounds speed roof degradation</li>
+                    <li><strong>Seismic Activity:</strong> Fracking creates additional structural stress</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-red-700 mb-2">Historic Hail Events</h4>
+                <p className="text-gray-700 mb-2">Major Midland County storms:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• April 2018: Softball size, $125M damage</li>
+                  <li>• May 2021: Baseball size across basin</li>
+                  <li>• March 2023: Tennis ball, multiple rounds</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-blue-700 mb-2">Economic Impact</h4>
+                <p className="text-gray-700 mb-2">Annual Permian Basin damage:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• $75-150 million property damage</li>
+                  <li>• 40-55% of structures need repair</li>
+                  <li>• $50+ million industrial losses</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-green-700 mb-2">Protection Standards</h4>
+                <p className="text-gray-700 mb-2">Essential for Midland properties:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Class 4 impact-resistant roofing</li>
+                  <li>• Chemical-resistant materials</li>
+                  <li>• Enhanced attachment systems</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Midland Insurance Claims: Oil Capital Expertise</h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Permian Basin Risk Assessment</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Industrial Zone Challenges</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Enhanced deductibles near oil facilities</li>
+                    <li>• Environmental impact assessments required</li>
+                    <li>• Chemical vs. hail damage differentiation</li>
+                    <li>• Seismic activity considerations</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Corporate Insurance Networks</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Major oil company property programs</li>
+                    <li>• Executive housing specialized coverage</li>
+                    <li>• High-value property considerations</li>
+                    <li>• Multi-location coordination</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">West Texas Logistics</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Remote Location Factors</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• 300+ miles from major centers</li>
+                    <li>• Extended adjuster travel times</li>
+                    <li>• Limited local contractor capacity</li>
+                    <li>• Materials delivery coordination</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Climate Documentation</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Extreme temperature evidence</li>
+                    <li>• UV degradation vs. storm damage</li>
+                    <li>• Wind-hail combinations</li>
+                    <li>• Industrial exposure assessments</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+              <h4 className="text-xl font-bold mb-3">Our Permian Basin Advantage</h4>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <p className="text-lg mb-2">Serving Midland's oil community for 10+ years with specialized industrial insurance knowledge and high-value property expertise.</p>
+                </div>
+                <div>
+                  <p className="text-brand-gold-light font-semibold">95%+ approval rate • $100M+ claims processed • Oil capital specialists</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Our Hail Damage Repair Process</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">

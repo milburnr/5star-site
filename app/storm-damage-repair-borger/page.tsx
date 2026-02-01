@@ -212,11 +212,131 @@ export default function StormDamageRepairBorgerPage() {
               Borger's Storm Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Borger's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
+              Borger's location in the Texas Panhandle creates unique roofing challenges. This industrial petrochemical center faces both severe weather and environmental factors. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations demand superior roofing materials and expert installation. Properties near the Phillips 66 refinery, downtown Borger, and residential areas around Frank Phillips College experience extreme weather exposure.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Borger properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Borger property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 180+ Borger properties with premium materials engineered for Panhandle weather. From homes near Huber Park to industrial buildings throughout Hutchinson County, we understand local building codes, work seamlessly with Borger property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Borger's Unique Storm Challenges
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Industrial Environment Impact</h3>
+                <p className="text-gray-700 mb-4">
+                  Borger's petrochemical industry creates unique roofing challenges. Chemical exposure from refineries accelerates material degradation, while industrial heat islands intensify storm formation. Properties downwind from Phillips 66 and other facilities face increased environmental stress that compounds storm damage.
+                </p>
+                <p className="text-gray-700">
+                  We specify chemical-resistant materials and enhanced protective coatings designed for industrial environments. Our experience with Hutchinson County's petrochemical facilities ensures proper material selection for both storm resistance and chemical compatibility.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Panhandle Plains Wind Amplification</h3>
+                <p className="text-gray-700 mb-4">
+                  Borger's position on the High Plains creates wind amplification effects. With no natural barriers for 100+ miles in any direction, storms maintain full intensity while crossing Hutchinson County. The industrial infrastructure creates additional turbulence that increases localized wind speeds around buildings.
+                </p>
+                <p className="text-gray-700">
+                  Our installations account for these wind dynamics with enhanced fastening systems, aerodynamic edge details, and materials rated for sustained high winds. We analyze each property's exposure to industrial wind effects.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Storm Damage Timeline for Borger Properties
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                <h3 className="text-xl font-bold mb-3 text-red-700">Emergency Phase (0-24 hours)</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Safety assessment and area securing</li>
+                  <li>• Emergency tarping for active leaks</li>
+                  <li>• Damage documentation begins</li>
+                  <li>• Insurance notification</li>
+                  <li>• Temporary weather protection</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
+                <h3 className="text-xl font-bold mb-3 text-orange-700">Assessment Phase (1-7 days)</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Comprehensive damage inspection</li>
+                  <li>• Insurance adjuster coordination</li>
+                  <li>• Material specifications and ordering</li>
+                  <li>• Permit applications if required</li>
+                  <li>• Project timeline development</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-500">
+                <h3 className="text-xl font-bold mb-3 text-green-700">Restoration Phase (1-4 weeks)</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Complete damage remediation</li>
+                  <li>• New roof system installation</li>
+                  <li>• Quality inspections and testing</li>
+                  <li>• Final insurance documentation</li>
+                  <li>• Warranty registration</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Borger Storm Patterns & Preparedness
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Annual Weather Cycle</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-blue-400 pl-4">
+                    <h4 className="font-semibold text-blue-700">Spring Storm Season (March-May)</h4>
+                    <p className="text-gray-600 text-sm">Peak supercell activity with tennis ball-sized hail, 80+ mph winds, and tornado potential. Borger's industrial heat island can intensify afternoon storm development.</p>
+                  </div>
+                  <div className="border-l-4 border-yellow-400 pl-4">
+                    <h4 className="font-semibold text-yellow-700">Summer Heat Stress (June-August)</h4>
+                    <p className="text-gray-600 text-sm">Extreme heat (105°F+) combined with chemical exposure accelerates roof aging. Thermal expansion stress creates vulnerability for fall storms.</p>
+                  </div>
+                  <div className="border-l-4 border-orange-400 pl-4">
+                    <h4 className="font-semibold text-orange-700">Fall Storm Return (September-November)</h4>
+                    <p className="text-gray-600 text-sm">Second severe season with powerful cold fronts. Wind shear events and large temperature swings stress already heat-damaged materials.</p>
+                  </div>
+                  <div className="border-l-4 border-gray-400 pl-4">
+                    <h4 className="font-semibold text-gray-700">Winter Exposure (December-February)</h4>
+                    <p className="text-gray-600 text-sm">Ice storms and blizzards with 40+ mph winds. Freeze-thaw cycles exploit any storm damage from previous seasons.</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Industrial Zone Considerations</h3>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Chemical Resistance Requirements</h4>
+                    <p className="text-gray-600 text-sm">Roofing materials near petrochemical facilities must resist acid rain, chemical vapors, and industrial emissions that accelerate degradation.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Emergency Access Protocols</h4>
+                    <p className="text-gray-600 text-sm">Industrial area response requires coordination with facility security and safety protocols. We maintain certifications for working near active operations.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Enhanced Fastening Systems</h4>
+                    <p className="text-gray-600 text-sm">Higher wind loads from industrial turbulence require upgraded attachment methods and wind-rated materials exceeding standard residential requirements.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Environmental Documentation</h4>
+                    <p className="text-gray-600 text-sm">Insurance claims may require additional environmental impact documentation when chemical exposure contributes to accelerated storm damage.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -270,7 +390,94 @@ export default function StormDamageRepairBorgerPage() {
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration.
                 </AccordionContent>
               </AccordionItem>
+
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Borger's industrial environment affect storm damage repairs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Borger's petrochemical industry creates unique challenges requiring specialized materials and techniques. Chemical exposure from refineries accelerates normal wear, making roofs more vulnerable to storm damage. We use chemical-resistant materials, enhanced protective coatings, and installation methods that account for industrial wind turbulence. Properties near Phillips 66 and other facilities receive extra protection against both storm damage and industrial environmental factors.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What makes Borger's hailstorms especially damaging?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Borger sits in the heart of "Hail Alley" where supercell storms develop tremendous updraft strength across the flat Panhandle. The industrial heat island from petrochemical facilities can intensify afternoon storm development, creating larger hail stones. With no terrain barriers, these storms maintain full intensity while crossing Hutchinson County. Hail sizes regularly reach golf ball to tennis ball diameter, causing severe granule loss and mat exposure that requires complete roof replacement.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you work on commercial and industrial buildings in Borger?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we specialize in commercial and industrial storm damage repair throughout Borger's business district. Our team holds certifications for working near active petrochemical operations and understands the unique requirements for industrial facilities. We coordinate with facility managers on safety protocols, work around production schedules, and use materials approved for chemical exposure environments. From small businesses near Frank Phillips College to major industrial facilities, we handle all commercial storm damage repairs.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-9" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How long do storm damage repairs last in Borger's harsh environment?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Our storm damage repairs are designed specifically for Borger's challenging environment. We use enhanced materials that resist both severe weather and chemical exposure, with manufacturer warranties of 25-50 years depending on the system. Our installations exceed standard requirements with upgraded fastening, chemical-resistant coatings, and enhanced underlayment. With proper maintenance, our repairs perform excellently despite Borger's extreme conditions.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-10" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What's included in your emergency storm response for Borger properties?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Our 24/7 emergency service includes immediate safety assessment, professional damage documentation with photos and measurements, emergency tarping to prevent further damage, temporary repairs for active leaks, coordination with insurance adjusters, and detailed estimates for permanent repairs. We arrive within 2-4 hours for critical situations and work around Borger's industrial schedules. All emergency work is properly documented for insurance claims and credited toward final repair costs.
+                </AccordionContent>
+              </AccordionItem>
             </Accordion>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Material Selection for Borger's Environment
+            </h2>
+            <div className="bg-white p-8 rounded-3xl shadow-lg border">
+              <div className="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h3 className="text-xl font-bold mb-4 text-brand-gold">Chemical-Resistant Systems</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• EPDM membrane roofing</li>
+                    <li>• Chemical-resistant coatings</li>
+                    <li>• Enhanced polymer shingles</li>
+                    <li>• Industrial-grade fasteners</li>
+                    <li>• Acid-resistant flashing</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-4 text-brand-gold">Wind-Resistant Features</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• 140+ mph wind ratings</li>
+                    <li>• Enhanced fastening patterns</li>
+                    <li>• Aerodynamic edge systems</li>
+                    <li>• Reinforced attachment points</li>
+                    <li>• Impact-resistant materials</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-4 text-brand-gold">Heat/UV Protection</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Cool roof technology</li>
+                    <li>• UV-resistant surfaces</li>
+                    <li>• Thermal barrier systems</li>
+                    <li>• Heat-reflective coatings</li>
+                    <li>• Expansion joint systems</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

@@ -200,6 +200,155 @@ export default function EmergencyRoofRepairBorgerPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Borger Industrial Emergency Response Protocols
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's position as a major industrial center in the Texas Panhandle creates unique emergency roofing challenges that require specialized knowledge and equipment. The Phillips 66 Borger Refinery and associated petrochemical operations create an environment where roofing materials face accelerated degradation from chemical exposure, temperature extremes, and industrial particulates that don't affect other communities.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our emergency response protocols for Borger account for industrial safety requirements, hazardous material considerations, and the critical nature of maintaining weather protection for facilities that operate 24/7. Refinery operations cannot tolerate extended weather exposure without risking equipment damage, environmental impacts, and operational shutdowns that affect the entire regional economy.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency repairs in Borger's industrial district require coordination with facility safety personnel, compliance with OSHA industrial construction standards, and use of materials compatible with chemical environments. Our crews maintain current OSHA 30-hour certification and specialized training for industrial emergency operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Chemical-Resistant Emergency Materials for Borger</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's industrial atmosphere contains sulfur compounds, petrochemical vapors, and other airborne chemicals that can rapidly degrade standard emergency roofing materials. Our emergency supply inventory includes chemical-resistant tarping materials, corrosion-resistant fasteners, and sealants specifically formulated for petrochemical environments.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Specialized Emergency Materials for Industrial Borger</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Chemical-Resistant Tarps:</strong> EPDM and Hypalon materials resistant to sulfur compounds and petrochemicals</li>
+                <li><strong>Corrosion-Resistant Fasteners:</strong> 316 stainless steel and exotic alloy fasteners for industrial environments</li>
+                <li><strong>Industrial Sealants:</strong> Chemical-resistant urethanes and silicones designed for refinery applications</li>
+                <li><strong>Safety Equipment:</strong> Gas monitors, emergency escape respirators, anti-static materials for volatile environments</li>
+                <li><strong>Communication Systems:</strong> Explosion-proof radios and emergency communication equipment</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency material selection for Borger properties accounts for both immediate weather protection and long-term compatibility with local atmospheric conditions. Standard emergency tarps may degrade within weeks in Borger's industrial environment, requiring premium materials for extended temporary protection during insurance processing and permanent repair planning.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industrial Safety and Emergency Coordination Protocols</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency roofing operations in Borger's industrial areas require pre-clearance with facility security, coordination with plant emergency response teams, and compliance with hot work permits and confined space protocols. Our crews maintain current industrial safety certifications and undergo annual updates on refinery emergency procedures.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Coordinating emergency repairs during refinery operations requires understanding of plant schedules, maintenance windows, and emergency shutdown procedures. Some emergency repairs may need to be delayed or modified based on active industrial operations, requiring flexibility in response timing and approach while maintaining property protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Wind direction monitoring is critical for emergency operations near industrial facilities, as prevailing winds can carry chemical vapors and particulates that affect worker safety and material application. Our emergency crews monitor real-time atmospheric conditions and maintain gas detection equipment for volatile environments.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Borger Weather Patterns and Emergency Preparedness
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's location in the heart of the Texas Panhandle creates a convergence of weather patterns that produce some of the most challenging emergency roofing conditions in North Texas. The city's elevation of 3,000 feet and open prairie location expose properties to unobstructed wind patterns that can exceed 80 mph during severe thunderstorms and winter blizzards.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Borger Seasonal Weather Emergency Patterns</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Spring (March-May):</strong> Peak severe weather season with supercell thunderstorms, baseball-sized hail, and tornado activity</li>
+                <li><strong>Summer (June-August):</strong> Extreme heat (105°F+), sudden severe downbursts, and UV degradation of roofing materials</li>
+                <li><strong>Fall (September-November):</strong> Rapid temperature swings, early ice storms, and high winds from pressure system changes</li>
+                <li><strong>Winter (December-February):</strong> Ice storms, blizzard conditions, extreme cold (-10°F), and snow load accumulation</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The Texas Panhandle's notorious hail corridor passes directly through Hutchinson County, with Borger experiencing an average of 3-4 significant hail events annually. Hailstones larger than golf balls occur regularly, creating widespread roof damage that overwhelms local repair capacity and requires coordinated regional emergency response.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Winter ice storms in Borger create unique emergency challenges as ice accumulation can exceed one inch on horizontal surfaces, creating dangerous roof loads and extensive damage when ice melts and refreezes. Emergency repairs during ice events require specialized equipment and cold-weather techniques not needed in warmer climates.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Enhanced Weather Monitoring for Industrial Operations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Industrial facilities in Borger require advance warning of severe weather to safely shut down operations and protect equipment from weather damage. Our emergency response system includes direct feeds from National Weather Service Doppler radar and automated notification systems that alert facility managers and emergency responders of approaching severe weather.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Microclimate monitoring around industrial facilities detects temperature inversions, chemical plume movement, and local wind patterns that can affect emergency repair operations. Industrial heat islands and thermal updrafts can intensify local weather conditions, creating wind shear and downdraft effects that require modified emergency procedures.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response timing in Borger accounts for industrial shift schedules, with enhanced readiness during evening and night shifts when fewer personnel are available for facility coordination. Weekend emergency response requires coordination with skeleton crews and on-call plant personnel for industrial facility access and safety oversight.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Borger Residential and Commercial Emergency Response
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's residential communities include everything from historic homes in the original townsite to modern developments near Lake Meredith, each presenting unique emergency response challenges. Older homes in downtown Borger often feature architectural details and roofing systems that require specialized emergency repair techniques to preserve historical character while providing weather protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The city's proximity to Lake Meredith creates seasonal humidity variations that affect emergency repair material performance and drying times. High humidity during summer months can extend emergency tarping requirements, while winter dry periods may cause emergency materials to become brittle and require enhanced anchoring systems.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Commercial properties in Borger include retail businesses, medical facilities, and service companies that serve both local residents and industrial facility workers. Business continuity during emergency repairs is critical for maintaining essential services during weather events that may isolate Borger from regional support services.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Response Logistics and Resource Management</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's distance from major supply centers requires strategic pre-positioning of emergency materials and equipment to ensure rapid response capability. Our Amarillo warehouse maintains dedicated Borger emergency supplies including industrial-grade materials, standard residential repair items, and specialized equipment for the unique challenges of Hutchinson County emergency operations.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Borger Emergency Response Timeline</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-20 minutes:</strong> Emergency call received, damage assessment conducted, crew dispatched from Amarillo</li>
+                <li><strong>20-50 minutes:</strong> Travel time to Borger via Highway 136, equipment and materials loaded</li>
+                <li><strong>50-75 minutes:</strong> On-site arrival, safety assessment, industrial coordination if applicable</li>
+                <li><strong>75-180 minutes:</strong> Emergency protection installed, initial damage documentation completed</li>
+                <li><strong>3-6 hours:</strong> Complete assessment, insurance documentation, permanent repair planning initiated</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency equipment for Borger operations includes mobile generators for power outage conditions, heated storage for cold-weather materials, and specialized lifting equipment for industrial facility emergency access. Communications equipment includes satellite backup systems for situations when cellular networks are compromised during severe weather events.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Resource coordination for major emergency events includes mutual aid agreements with regional roofing contractors and material suppliers throughout the Texas Panhandle. Large-scale damage events may exceed local capacity, requiring coordinated response from Amarillo, Lubbock, and other regional centers to ensure all Borger properties receive timely emergency protection.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Insurance and Documentation for Borger Properties
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Insurance considerations for Borger properties often involve specialized industrial coverage, environmental liability policies, and business interruption insurance that requires detailed documentation of emergency response timing and effectiveness. Our emergency response documentation meets requirements for both standard homeowner's policies and complex industrial insurance programs.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Industrial facility insurance claims may require environmental impact assessments, regulatory compliance documentation, and coordination with multiple insurance carriers covering different aspects of facility operations. Emergency repairs must be documented to demonstrate immediate response to prevent environmental releases or equipment damage that could trigger additional liability.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Residential insurance in Borger benefits from our comprehensive documentation of regional weather patterns, hail frequency data, and wind damage statistics that support claim approval for weather-related damage. Historical weather data specific to Hutchinson County strengthens insurance claims and demonstrates the necessity of premium roofing materials for the region's extreme conditions.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Long-Term Maintenance and Community Preparedness</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's industrial environment and extreme weather require proactive maintenance programs that go beyond standard residential roof care. Industrial particulates and chemical exposure accelerate normal wear patterns, requiring more frequent inspections and preventive maintenance to avoid emergency situations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Community preparedness programs for Borger include partnerships with local emergency management, industrial facility emergency coordinators, and regional weather services to provide early warning systems and coordinated emergency response. Public education programs focus on recognizing emergency damage signs and proper emergency contact procedures.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Seasonal preparedness campaigns target the unique challenges of each weather season in Borger, from spring severe weather preparation to winter ice storm readiness. Material pre-positioning and crew preparation ensure Borger receives priority response during regional emergency events that may affect multiple communities simultaneously.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

@@ -200,6 +200,48 @@ export default function EmergencyRoofRepairBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Big Spring Regional Emergency Response Hub
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Big Spring serves as a regional hub for West Texas, requiring emergency roofing services that support diverse property types including state facilities, healthcare operations, transportation infrastructure, and energy industry support. As Howard County's seat and home to major state institutions, Big Spring emergency response affects regional services and capabilities.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Big Spring Emergency Response Timeline</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-25 minutes:</strong> Emergency dispatch, regional coordination initiated</li>
+                <li><strong>25-90 minutes:</strong> Travel via Interstate 20, multi-facility equipment loaded</li>
+                <li><strong>90-120 minutes:</strong> On-site arrival, state facility protocols activated</li>
+                <li><strong>120-240 minutes:</strong> Emergency protection for institutional facilities</li>
+                <li><strong>3-6 hours:</strong> State compliance documentation, regional coordination</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              State facility emergency response requires compliance with government procurement procedures, security protocols, and continuity of operations planning that ensures essential state services remain available during emergency repair operations. Coordination with facility management addresses operational requirements and security considerations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Healthcare and Transportation Infrastructure Protection</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Big Spring's healthcare facilities including Scenic Mountain Medical Center provide critical services for a multi-county region, requiring priority emergency response to maintain healthcare availability. Transportation infrastructure including rail facilities and highway operations support regional commerce and emergency response capabilities.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Big Spring Critical Facility Priorities</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Healthcare Facilities:</strong> Hospital and medical clinic continuity</li>
+                <li><strong>State Institutions:</strong> Government facility operational requirements</li>
+                <li><strong>Transportation Hubs:</strong> Rail and highway infrastructure support</li>
+                <li><strong>Educational Facilities:</strong> Howard College and public school protection</li>
+                <li><strong>Municipal Services:</strong> City operations and emergency services</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Regional coordination during major emergency events includes cooperation with multi-county emergency management, state agencies, and transportation authorities that maintain critical infrastructure throughout West Texas. Emergency response prioritization considers facilities with broader regional importance and economic impact.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

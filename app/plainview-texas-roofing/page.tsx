@@ -187,6 +187,179 @@ export default function PlainviewRoofingPage() {
 
         <FadeIn>
           <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Plainview's Agricultural Economy and Commercial Roofing Needs</h2>
+            <p className="text-lg mb-4">
+              As the economic heart of Hale County, Plainview's thriving agricultural sector creates unique commercial roofing demands. The city's role as a major cotton processing center and agricultural hub requires specialized roofing solutions for grain storage facilities, processing plants, and agricultural equipment warehouses that operate year-round under extreme weather conditions.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Agricultural Commercial Roofing Challenges</h3>
+              <p className="text-gray-700 mb-4">Plainview's cotton processing facilities and grain storage operations require roofing systems that withstand dust accumulation, moisture control challenges, and the corrosive effects of agricultural chemicals. Our specialized installations protect valuable crops and equipment while maintaining optimal storage conditions.</p>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Cotton gin and processing facility roofing</li>
+                <li>• Grain elevator and storage complex protection</li>
+                <li>• Agricultural equipment warehouse systems</li>
+                <li>• Fertilizer and chemical storage buildings</li>
+                <li>• Livestock facility roofing solutions</li>
+              </ul>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Specialized Roofing for Plainview's Diverse Business Community</h2>
+            <p className="text-lg mb-4">
+              Beyond agriculture, Plainview supports a diverse business community including healthcare facilities, educational institutions, retail centers, and manufacturing operations. Each sector requires specialized roofing approaches that address unique operational requirements while providing long-term protection against High Plains weather extremes.
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                <h3 className="text-lg font-bold text-brand-brown mb-3">Healthcare and Medical Facilities</h3>
+                <p className="text-gray-700 mb-3">Covenant Health Plainview and medical facilities throughout Hale County require roofing systems that support life-safety equipment while maintaining sterile environments and uninterrupted patient care operations.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Hospital and clinic roofing installations</li>
+                  <li>• Medical equipment building protection</li>
+                  <li>• Emergency generator housing covers</li>
+                  <li>• Patient care facility weatherproofing</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                <h3 className="text-lg font-bold text-brand-brown mb-3">Educational Institution Roofing</h3>
+                <p className="text-gray-700 mb-3">Wayland Baptist University, Plainview ISD schools, and other educational facilities need durable, energy-efficient roofing systems that accommodate large assembly spaces while controlling operational costs.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• University dormitory and academic buildings</li>
+                  <li>• School gymnasium and auditorium roofing</li>
+                  <li>• Athletic facility weather protection</li>
+                  <li>• Educational support building systems</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                <h3 className="text-lg font-bold text-brand-brown mb-3">Retail and Commercial Centers</h3>
+                <p className="text-gray-700 mb-3">Shopping centers, restaurants, and service businesses along Quincy Street and other commercial corridors require energy-efficient roofing that maintains comfortable environments while controlling utility costs.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Shopping center and strip mall roofing</li>
+                  <li>• Restaurant and hospitality facility covers</li>
+                  <li>• Automotive service building protection</li>
+                  <li>• Retail warehouse and distribution centers</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                <h3 className="text-lg font-bold text-brand-brown mb-3">Manufacturing and Industrial</h3>
+                <p className="text-gray-700 mb-3">Manufacturing operations and industrial facilities require roofing systems that accommodate production equipment, provide environmental control, and withstand the demanding conditions of continuous operations.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Manufacturing plant roofing systems</li>
+                  <li>• Industrial warehouse protection</li>
+                  <li>• Processing facility weather barriers</li>
+                  <li>• Equipment storage building covers</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Residential Roofing Solutions for Plainview's Diverse Neighborhoods</h2>
+            <p className="text-lg mb-4">
+              Plainview's residential communities range from historic downtown neighborhoods to modern developments around Wayland Baptist University and newer subdivisions serving the area's agricultural workforce. Each residential area presents unique roofing challenges requiring tailored solutions that protect homes while enhancing property values.
+            </p>
+            
+            <div className="bg-blue-50 p-6 rounded-lg mb-6">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Plainview Housing Market Analysis</h3>
+              <p className="text-gray-700 mb-4">Hale County's housing market reflects the community's agricultural foundation and educational presence. The median home value is approximately $95,000, with a housing stock that includes well-maintained historic properties, university-area residences, and modern developments serving agricultural professionals and their families.</p>
+              
+              <div className="grid md:grid-cols-3 gap-4">
+                <div>
+                  <h4 className="font-semibold text-brand-brown">Historic Downtown</h4>
+                  <p className="text-sm text-gray-600">Pre-1950s homes requiring specialized restoration roofing that maintains historical character while providing modern weather protection.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-brand-brown">University Area</h4>
+                  <p className="text-sm text-gray-600">Faculty housing and student residences near Wayland Baptist University requiring durable, cost-effective solutions.</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-brand-brown">Agricultural Professional Housing</h4>
+                  <p className="text-sm text-gray-600">Modern homes serving cotton producers, agricultural technicians, and agribusiness professionals requiring premium protection.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">High Plains Climate Challenges and Roofing Solutions</h2>
+            <p className="text-lg mb-4">
+              Plainview's location at 3,400 feet elevation in the Texas High Plains creates extreme weather conditions that demand specialized roofing approaches. The semi-arid climate, combined with seasonal temperature extremes and severe weather events, requires materials and installation techniques specifically engineered for this challenging environment.
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Severe Weather Protection</h3>
+                <p className="text-gray-700 mb-4">Plainview experiences frequent severe thunderstorms with large hail, high winds, and intense rainfall that can overwhelm inadequate roofing systems. Our installations utilize impact-resistant materials and enhanced fastening methods that provide superior protection.</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Class 4 impact-resistant shingles for hail protection</li>
+                  <li>• Wind-rated systems for 90+ mph sustained winds</li>
+                  <li>• Enhanced drainage for intense rainfall events</li>
+                  <li>• Lightning protection system integration</li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Temperature and UV Resistance</h3>
+                <p className="text-gray-700 mb-4">Extreme temperature variations from winter lows near 0°F to summer highs exceeding 100°F, combined with intense High Plains UV radiation, create material stress that standard roofing systems cannot withstand.</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• UV-resistant materials for extended exposure</li>
+                  <li>• Thermal expansion accommodation systems</li>
+                  <li>• Cool roofing technology for energy efficiency</li>
+                  <li>• Ventilation systems for temperature control</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Emergency Response and Storm Damage Restoration</h2>
+            <p className="text-lg mb-4">
+              Severe weather events in the Texas Panhandle can cause immediate roofing emergencies requiring rapid response to protect property and prevent secondary damage. Our emergency response capabilities ensure Plainview property owners receive immediate assistance when storms strike.
+            </p>
+            
+            <div className="bg-red-50 p-6 rounded-lg mb-6">
+              <h3 className="text-xl font-bold text-red-700 mb-3">24/7 Emergency Response Protocol</h3>
+              <p className="text-gray-700 mb-4">When severe weather threatens or damages Plainview properties, our emergency teams deploy immediately with specialized equipment and materials for temporary protection while permanent repairs are planned and executed.</p>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-red-700 mb-2">Immediate Response Services</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Emergency tarping and temporary weather protection</li>
+                    <li>• Water intrusion mitigation and drainage</li>
+                    <li>• Structural damage assessment and documentation</li>
+                    <li>• Insurance claim preparation and filing assistance</li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-red-700 mb-2">Permanent Restoration</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Complete damage assessment and repair planning</li>
+                    <li>• Insurance adjuster coordination and negotiations</li>
+                    <li>• High-priority restoration for critical facilities</li>
+                    <li>• Quality assurance and warranty protection</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
             <h2 className="text-2xl font-bold mb-6">Service Coverage Throughout the Texas Panhandle</h2>
             <p className="text-lg mb-4">
               While we're proud to serve Plainview and Hale County, our roofing expertise extends across the entire region:
@@ -197,6 +370,11 @@ export default function PlainviewRoofingPage() {
               <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roofing</a>
               <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>
               <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
+            </div>
+            
+            <div className="bg-brand-gold-light p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-brand-brown mb-3">Local Community Commitment</h3>
+              <p className="text-gray-700">As neighbors in the Texas Panhandle, we understand the challenges facing Plainview and Hale County communities. Our commitment extends beyond roofing to supporting local economic development, agricultural initiatives, and community resilience against severe weather events that affect our shared region.</p>
             </div>
           </section>
         </FadeIn>

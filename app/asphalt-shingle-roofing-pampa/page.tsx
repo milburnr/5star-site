@@ -222,6 +222,135 @@ export default function AsphaltShingleRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Industry Family Homes in Pampa
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⚡ Energy Worker Families</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Oil & gas industry professionals</li>
+                  <li>✓ Energy sector family homes</li>
+                  <li>✓ Professional service workers</li>
+                  <li>✓ Growing residential communities</li>
+                  <li>✓ Executive housing developments</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🛡️ Industrial Environment Protection</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Enhanced chemical resistance</li>
+                  <li>✓ Air quality protection features</li>
+                  <li>✓ Superior fire resistance</li>
+                  <li>✓ High-performance ventilation systems</li>
+                  <li>✓ Maintenance-friendly designs</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Industrial Community Needs</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Pampa's energy industry creates a unique residential environment where homes may be exposed to industrial elements while families demand quality, comfort, and protection. These homeowners often have higher income potential but also face unique environmental challenges.
+              </p>
+              <p className="text-lg text-gray-700">
+                Our premium asphalt shingle systems are specially selected to withstand industrial environments while providing the aesthetic appeal and performance that energy industry families expect from their home investments.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Premium Protection for Energy Sector Families
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Enhanced Air Quality Features</h3>
+                <p className="text-gray-700 mb-4">
+                  Specialized shingle systems and ventilation solutions help maintain indoor air quality in areas with industrial operations.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Advanced ventilation systems</li>
+                  <li>• Sealed deck installation</li>
+                  <li>• Air barrier integration</li>
+                  <li>• Filtration system compatibility</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Executive Home Standards</h3>
+                <p className="text-gray-700 mb-4">
+                  Premium materials and installation techniques that meet the high standards expected by energy industry professionals.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Designer color selections</li>
+                  <li>• Architectural enhancement options</li>
+                  <li>• Extended warranty packages</li>
+                  <li>• Professional project management</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Investment Protection</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">30-50</div>
+                  <div className="font-semibold mb-1">Year Warranties</div>
+                  <div className="text-gray-600 text-sm">Manufacturer protection</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">Class 4</div>
+                  <div className="font-semibold mb-1">Impact Rating</div>
+                  <div className="text-gray-600 text-sm">Insurance discounts</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">15%+</div>
+                  <div className="font-semibold mb-1">Home Value</div>
+                  <div className="text-gray-600 text-sm">ROI increase</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Professional Installation for Professional Families
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Executive Service Standards</h3>
+                  <p className="text-gray-700 mb-4">
+                    Energy industry professionals expect and deserve the highest levels of service, communication, and workmanship quality.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Dedicated project managers</li>
+                    <li>• Daily progress updates</li>
+                    <li>• Flexible scheduling around work demands</li>
+                    <li>• Premium material selections</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industry Professional Discounts</h3>
+                  <p className="text-gray-700 mb-4">
+                    We offer special pricing for Pampa's energy industry workers as appreciation for their contribution to the local economy.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Energy industry employee discounts</li>
+                    <li>• Referral rewards programs</li>
+                    <li>• Multiple home project pricing</li>
+                    <li>• Flexible payment terms</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Asphalt Shingle Roofing FAQs - Pampa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

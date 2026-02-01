@@ -221,6 +221,127 @@ export default function TpoRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Pampa Oil & Gas Industry Choose TPO Roofing
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⚡ Energy Industry Applications</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Oil & gas processing facilities</li>
+                  <li>✓ Industrial equipment buildings</li>
+                  <li>✓ Administrative offices</li>
+                  <li>✓ Storage and warehouse facilities</li>
+                  <li>✓ Emergency services buildings</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🛡️ Industrial Performance</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Chemical resistance for harsh environments</li>
+                  <li>✓ Fire resistance ratings</li>
+                  <li>✓ High wind uplift performance</li>
+                  <li>✓ Temperature extremes tolerance</li>
+                  <li>✓ Low maintenance requirements</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Industrial Roofing Demands</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Pampa's oil and gas industry creates demanding conditions for commercial roofing. Chemical exposure, extreme temperatures, high winds, and industrial operations require specialized roofing solutions that can withstand harsh environments while maintaining energy efficiency.
+              </p>
+              <p className="text-lg text-gray-700">
+                TPO roofing excels in these industrial applications with superior chemical resistance, excellent fire ratings, and proven performance in oil & gas facilities throughout the Texas Panhandle.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Industrial TPO Systems for Pampa Facilities
+            </h2>
+            <div className="grid md:grid-cols-1 gap-6 mb-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Chemical-Resistant TPO Formulations</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="p-4 bg-gray-50 rounded-xl">
+                    <h4 className="font-bold mb-2">Standard TPO</h4>
+                    <p className="text-gray-700 text-sm mb-2">Basic chemical resistance for light industrial applications.</p>
+                    <ul className="text-xs text-gray-600 space-y-1">
+                      <li>• Office buildings</li>
+                      <li>• Light manufacturing</li>
+                      <li>• Retail facilities</li>
+                    </ul>
+                  </div>
+                  <div className="p-4 bg-blue-50 rounded-xl">
+                    <h4 className="font-bold mb-2">Enhanced TPO</h4>
+                    <p className="text-gray-700 text-sm mb-2">Superior chemical resistance for moderate industrial exposure.</p>
+                    <ul className="text-xs text-gray-600 space-y-1">
+                      <li>• Processing facilities</li>
+                      <li>• Equipment buildings</li>
+                      <li>• Storage warehouses</li>
+                    </ul>
+                  </div>
+                  <div className="p-4 bg-green-50 rounded-xl">
+                    <h4 className="font-bold mb-2">Industrial-Grade TPO</h4>
+                    <p className="text-gray-700 text-sm mb-2">Maximum chemical resistance for harsh industrial environments.</p>
+                    <ul className="text-xs text-gray-600 space-y-1">
+                      <li>• Oil & gas facilities</li>
+                      <li>• Chemical processing</li>
+                      <li>• Heavy industrial</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Efficiency for Pampa Industrial Operations
+            </h2>
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4">Cooling Cost Reduction</h3>
+                  <p className="text-gray-700 mb-4">
+                    White TPO membranes reflect 85%+ of solar energy, significantly reducing cooling loads for industrial facilities and improving working conditions.
+                  </p>
+                  <div className="grid grid-cols-2 gap-4 text-center">
+                    <div>
+                      <div className="text-2xl font-bold text-brand-gold">40%</div>
+                      <div className="text-sm">Cooling Reduction</div>
+                    </div>
+                    <div>
+                      <div className="text-2xl font-bold text-brand-gold">$25K</div>
+                      <div className="text-sm">Annual Savings</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4">Equipment Protection</h3>
+                  <p className="text-gray-700 mb-4">
+                    Cooler building temperatures extend the life of sensitive industrial equipment and improve worker comfort in extreme Texas heat.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Extended equipment lifespan</li>
+                    <li>• Reduced maintenance costs</li>
+                    <li>• Improved worker safety</li>
+                    <li>• Lower insurance premiums</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               TPO Roofing FAQs - Pampa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

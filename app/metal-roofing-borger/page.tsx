@@ -222,6 +222,181 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Borger Properties Choose Metal Roofing
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏭 Industrial Strength</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ 50+ year lifespan in Panhandle weather</li>
+                  <li>✓ Superior wind resistance (150+ mph)</li>
+                  <li>✓ Class A fire rating for industrial zones</li>
+                  <li>✓ Chemical resistance for petrochemical environment</li>
+                  <li>✓ Minimal maintenance requirements</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">💼 Commercial Applications</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Industrial facilities and plants</li>
+                  <li>✓ Office buildings and complexes</li>
+                  <li>✓ Warehouses and distribution centers</li>
+                  <li>✓ Municipal and government buildings</li>
+                  <li>✓ Retail and commercial structures</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-slate-50 to-gray-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Borger's Industrial Environment Demands</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Borger's petrochemical operations create a challenging environment for roofing materials. Chemical emissions, extreme temperatures, and industrial operations require roofing systems that can withstand harsh conditions while providing superior protection.
+              </p>
+              <p className="text-lg text-gray-700">
+                Metal roofing excels in these demanding conditions with unmatched durability, chemical resistance, and the ability to protect critical industrial infrastructure for decades.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Metal Roofing Systems for Borger Industrial Properties
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Standing Seam</h3>
+                <p className="text-gray-700 mb-3">
+                  Concealed fastener system perfect for industrial applications requiring maximum weather protection.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• No exposed fasteners</li>
+                  <li>• Superior wind resistance</li>
+                  <li>• Thermal expansion accommodation</li>
+                  <li>• Clean, professional appearance</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Through-Fastened</h3>
+                <p className="text-gray-700 mb-3">
+                  Cost-effective solution for large industrial buildings where value and performance are priorities.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Lower initial cost</li>
+                  <li>• Proven track record</li>
+                  <li>• Easy installation</li>
+                  <li>• Wide panel options</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Structural Systems</h3>
+                <p className="text-gray-700 mb-3">
+                  Heavy-duty systems for maximum spans and ultimate durability in harsh industrial environments.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• 30+ foot clear spans</li>
+                  <li>• Maximum load capacity</li>
+                  <li>• Industrial-grade materials</li>
+                  <li>• Custom engineering available</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Superior Weather Protection for Borger
+            </h2>
+            <div className="bg-gradient-to-br from-blue-50 to-slate-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Extreme Weather Performance</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Hail Resistance</h4>
+                  <p className="text-gray-700 mb-4">
+                    Metal roofing provides exceptional hail protection with UL 2218 Class 4 impact resistance, easily deflecting Borger's frequent hailstorms.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Dent-resistant steel formulations</li>
+                    <li>• Impact-tested to 2" hail stones</li>
+                    <li>• Insurance premium discounts available</li>
+                    <li>• No cracking or splitting</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Wind Resistance</h4>
+                  <p className="text-gray-700 mb-4">
+                    Engineered for Texas Panhandle winds exceeding 100 mph with proper installation and structural design.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Wind uplift ratings up to 150+ mph</li>
+                    <li>• Structural panel interlocking</li>
+                    <li>• Enhanced edge and corner protection</li>
+                    <li>• Building code compliance guaranteed</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">50+</div>
+                <div className="font-semibold mb-1">Years Lifespan</div>
+                <div className="text-gray-600 text-sm">In Panhandle conditions</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">150+</div>
+                <div className="font-semibold mb-1">MPH Wind Rating</div>
+                <div className="text-gray-600 text-sm">Maximum protection</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">Class A</div>
+                <div className="font-semibold mb-1">Fire Rating</div>
+                <div className="text-gray-600 text-sm">Industrial safety</div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Efficiency & Environmental Benefits
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Cool Metal Technology</h3>
+                  <p className="text-gray-700 mb-4">
+                    Advanced reflective coatings reduce surface temperatures by up to 50°F, dramatically cutting cooling costs for Borger's industrial facilities.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• ENERGY STAR certified options</li>
+                    <li>• Solar reflectance up to 70%</li>
+                    <li>• Thermal emittance ratings 0.85+</li>
+                    <li>• Meets cool roof requirements</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Sustainability Advantages</h3>
+                  <p className="text-gray-700 mb-4">
+                    Metal roofing is 100% recyclable and often contains significant recycled content, supporting Borger's industrial sustainability goals.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• 25-95% recycled content available</li>
+                    <li>• 100% recyclable at end of life</li>
+                    <li>• LEED certification points</li>
+                    <li>• Reduced carbon footprint</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Metal Roofing FAQs - Borger, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

@@ -66,6 +66,131 @@ export default function Page() {
       />
 
 
+      <FadeIn>
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Amarillo: Epicenter of Texas Hail Destruction</h2>
+          <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+              Amarillo sits at the absolute center of "Hail Alley," where Potter County's position at 3,600 feet elevation creates the perfect atmospheric storm laboratory. With 131+ severe hail days since 2000, Amarillo ranks among America's most hail-prone cities, where billion-dollar supercells regularly produce catastrophic hailstorms.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Atmospheric Perfect Storm</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li><strong>High Plains Convergence:</strong> Multiple air masses collide at 3,600 feet</li>
+                  <li><strong>Jet Stream Position:</strong> Upper-level winds create explosive rotation</li>
+                  <li><strong>Dryline Interactions:</strong> Desert air meets Gulf moisture violently</li>
+                  <li><strong>Temperature Extremes:</strong> 80°F+ differences fuel supercells</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Regional Weather Laboratory</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li><strong>Palo Duro Canyon:</strong> Topography enhances storm development</li>
+                  <li><strong>Canadian River Valley:</strong> Creates wind shear and convergence</li>
+                  <li><strong>Caprock Escarpment:</strong> Forces air upward, strengthens updrafts</li>
+                  <li><strong>Open Plains:</strong> No barriers to slow storm progression</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+              <h4 className="text-lg font-bold text-red-700 mb-2">Record-Breaking Events</h4>
+              <p className="text-gray-700 mb-2">Historic Potter County storms:</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• May 2019: 4.25" hail, $75M+ damage</li>
+                <li>• April 2021: Baseball size citywide</li>
+                <li>• March 2023: Grapefruit size north side</li>
+              </ul>
+            </div>
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+              <h4 className="text-lg font-bold text-blue-700 mb-2">Annual Devastation</h4>
+              <p className="text-gray-700 mb-2">Potter County impact:</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• $25-50 million property damage</li>
+                <li>• 50-75% of structures need repair</li>
+                <li>• 90% experience some damage</li>
+              </ul>
+            </div>
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+              <h4 className="text-lg font-bold text-green-700 mb-2">Essential Protection</h4>
+              <p className="text-gray-700 mb-2">Mandatory for Amarillo:</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Class 4+ impact-resistant systems</li>
+                <li>• Multi-layer defense strategies</li>
+                <li>• Professional annual inspections</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
+      <FadeIn>
+        <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <h2 className="text-3xl font-bold mb-8 text-brand-brown">Amarillo Insurance Claims: Hail Capital Mastery</h2>
+          
+          <div className="grid lg:grid-cols-2 gap-8 mb-8">
+            <div>
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Hail Alley Claims Expertise</h3>
+              <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                <h4 className="text-lg font-semibold text-gray-800 mb-2">Catastrophic Event Protocols</h4>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• City-wide disasters trigger special procedures</li>
+                  <li>• Emergency adjuster deployments statewide</li>
+                  <li>• Accelerated processing for mass claims</li>
+                  <li>• Enhanced documentation requirements</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm">
+                <h4 className="text-lg font-semibold text-gray-800 mb-2">Multiple Event Documentation</h4>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Distinguishing between storm dates</li>
+                  <li>• Cumulative damage assessments</li>
+                  <li>• Weather data correlation requirements</li>
+                  <li>• Supplemental claim procedures</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Regional Headquarters Advantages</h3>
+              <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                <h4 className="text-lg font-semibold text-gray-800 mb-2">Local Market Knowledge</h4>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Direct relationships with adjusters</li>
+                  <li>• Understanding of local claim patterns</li>
+                  <li>• Established contractor networks</li>
+                  <li>• Materials supply coordination</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm">
+                <h4 className="text-lg font-semibold text-gray-800 mb-2">Immediate Response Capability</h4>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Same-day inspection availability</li>
+                  <li>• Emergency tarping within hours</li>
+                  <li>• 24/7 storm response protocols</li>
+                  <li>• Rapid claim documentation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+            <h4 className="text-xl font-bold mb-3">Our Amarillo Headquarters Advantage</h4>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <p className="text-lg mb-2">Based in Hail Alley's epicenter with over 10 years serving Potter County. We understand Amarillo's unique weather patterns and insurance challenges.</p>
+              </div>
+              <div>
+                <p className="text-brand-gold-light font-semibold">98%+ approval rate • $500M+ in claims • Local headquarters since 2014</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
       <div className="content-block">
         <h2 className="content-block-title">Amarillo's Hail Damage Roofing Specialists</h2>
         <p className="text-lg">

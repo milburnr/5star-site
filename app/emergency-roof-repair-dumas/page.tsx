@@ -200,6 +200,157 @@ export default function EmergencyRoofRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Agricultural Emergency Response in Moore County
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Dumas serves as the agricultural epicenter of Moore County, with vast farming operations, grain storage facilities, and livestock operations that require specialized emergency roofing response. The city's economy depends heavily on agricultural productivity, making emergency protection of farming infrastructure critical to both individual operations and the broader regional economy.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Grain elevators and storage facilities in Dumas represent millions of dollars in agricultural commodities that can be destroyed within hours by roof failure and weather exposure. Emergency response for these facilities requires understanding of grain storage requirements, moisture control systems, and specialized materials that prevent contamination while providing immediate weather protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Livestock operations throughout Moore County depend on immediate emergency response to protect cattle, feed supplies, and milking operations from weather exposure. Dairy facilities cannot tolerate extended downtime without significant economic losses and animal welfare concerns. Our emergency protocols prioritize agricultural operations based on livestock welfare and economic impact.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Seasonal Agricultural Emergency Considerations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response timing in Dumas must account for agricultural seasons, with harvest periods requiring enhanced emergency readiness and rapid response capabilities. During wheat harvest in late spring and corn harvest in fall, equipment and crop storage facilities need immediate protection from weather damage that could destroy an entire year's production.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Emergency Priority Schedule for Dumas</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Spring (March-May):</strong> Planting season preparation, seed storage protection, severe weather preparedness</li>
+                <li><strong>Early Summer (June-July):</strong> Wheat harvest protection, grain elevator emergency readiness, hail damage response</li>
+                <li><strong>Late Summer (August-September):</strong> Crop protection, irrigation equipment shelters, livestock facility maintenance</li>
+                <li><strong>Fall (October-December):</strong> Corn harvest operations, cattle feeding preparation, winter facility preparations</li>
+                <li><strong>Winter (January-February):</strong> Livestock shelter protection, feed storage security, cold weather facility maintenance</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Coordination with agricultural cooperatives and grain handling facilities requires understanding of commodity trading schedules, delivery requirements, and financial implications of emergency downtime. Grain elevators may need emergency repairs completed within hours to prevent contract defaults and commodity losses worth hundreds of thousands of dollars.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Specialized Equipment for Agricultural Emergency Response</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Agricultural facilities in Dumas often feature large-span roofing systems, tall grain storage structures, and specialized ventilation requirements that demand unique emergency response equipment. Our emergency response fleet includes extended reach equipment, heavy-duty tarping systems, and materials specifically designed for agricultural building protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Grain dust and agricultural particulates create specialized fire and explosion hazards that require non-sparking tools and static-safe materials for emergency operations. All emergency equipment used in grain handling facilities meets agricultural safety standards and includes grounding systems to prevent static electricity buildup during emergency operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency communication systems for rural Moore County include satellite backup capabilities for areas where cellular coverage may be limited during severe weather events. Coordination with agricultural operations requires direct communication with farm managers, cooperative personnel, and livestock operation supervisors during emergency response.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Dumas Weather Patterns and Emergency Preparedness
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Dumas experiences some of the most severe weather in the Texas Panhandle, with its location in Moore County placing it directly in the path of major storm systems moving across the Great Plains. The city's elevation of 3,671 feet and open prairie exposure create conditions where storm systems can intensify rapidly, producing devastating hail, tornadoes, and straight-line winds exceeding 80 mph.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Dumas Severe Weather Emergency Statistics</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Annual Hail Events:</strong> 4-6 significant storms with hail larger than golf ball size</li>
+                <li><strong>Tornado Risk:</strong> High probability zone with F2-F3 tornadoes documented historically</li>
+                <li><strong>High Wind Events:</strong> 8-12 annual events with sustained winds exceeding 60 mph</li>
+                <li><strong>Temperature Extremes:</strong> Annual range from -15°F to 108°F creating material stress challenges</li>
+                <li><strong>Ice Storm Frequency:</strong> 2-3 significant ice accumulation events per decade</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The Canadian River valley south of Dumas creates unique microclimate effects that can channel and intensify storm systems as they approach the city. Emergency weather monitoring includes real-time river valley wind monitoring and coordination with National Weather Service spotters positioned along the storm approach corridors from the west and southwest.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Spring severe weather season in Dumas typically begins in March and extends through June, with peak activity in April and May when atmospheric conditions combine warm, moist air from the Gulf of Mexico with cold, dry air from the Rocky Mountains. These conditions create supercell thunderstorms that produce large hail and tornadoes with little advance warning.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Response Weather Monitoring Systems</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our Dumas emergency response includes access to specialized agricultural weather monitoring networks that track moisture levels, wind patterns, and storm development specifically for farming operations. This enhanced monitoring allows emergency crews to anticipate severe weather impacts on agricultural facilities and pre-position resources for rapid response.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Real-time hail detection systems throughout Moore County provide immediate notification of hail size and storm intensity, enabling emergency crews to assess damage potential and prioritize response areas. Doppler radar integration tracks storm movement and intensity changes as systems approach Dumas from the primary storm development areas to the southwest.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Winter weather monitoring focuses on ice storm development, blizzard conditions, and extreme cold events that can affect emergency response capabilities. Ice storms in Dumas can accumulate over one inch of ice on horizontal surfaces, creating structural loads that exceed design capacity for many buildings and requiring immediate emergency assessment and protection.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              County Seat Emergency Coordination and Historic Preservation
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              As Moore County's seat, Dumas maintains significant government facilities, courthouse operations, and historic buildings that require specialized emergency response coordination. The Moore County Courthouse and surrounding historic district include structures dating from the early 1900s with unique architectural features that complicate emergency repairs while requiring preservation of historic character.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response in the courthouse district requires coordination with county officials, court schedule considerations, and protection of government records and operations that cannot be interrupted during emergency events. Emergency repairs to government buildings may require compliance with state procurement procedures even during crisis situations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Historic preservation requirements for downtown Dumas emergency repairs include consultation with preservation specialists and use of period-appropriate materials that maintain the integrity of historic districts. Emergency repairs must balance immediate weather protection with long-term preservation of architectural heritage that defines Dumas's character as a county seat community.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Response Resource Coordination</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Dumas emergency response benefits from coordination with Moore County emergency management, fire departments from surrounding rural areas, and regional mutual aid agreements that can bring additional resources during major storm events. County-wide emergency communication systems ensure coordinated response across both urban and rural areas of Moore County.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Dumas Emergency Response Coordination Timeline</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-15 minutes:</strong> Emergency dispatch, damage assessment, resource allocation planning</li>
+                <li><strong>15-45 minutes:</strong> Crew deployment from Amarillo, coordination with county emergency services</li>
+                <li><strong>45-75 minutes:</strong> On-site arrival, safety assessment, emergency protection initiation</li>
+                <li><strong>75-120 minutes:</strong> Initial emergency stabilization, priority facility protection completed</li>
+                <li><strong>2-4 hours:</strong> Comprehensive assessment, documentation, permanent repair planning</li>
+                <li><strong>4-24 hours:</strong> Extended emergency protection, resource coordination for major events</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Regional resource sharing with surrounding counties enables enhanced response capacity during widespread emergency events that may affect multiple communities simultaneously. Moore County's agricultural economy requires rapid restoration of farming infrastructure to prevent economic impacts that extend beyond individual property damage.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency shelter coordination for displaced residents includes cooperation with county social services, American Red Cross regional operations, and community organizations that provide temporary housing during extended repair periods. Agricultural workers and their families may require specialized assistance during major emergency events.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Insurance and Economic Impact Considerations for Dumas
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Insurance considerations for Dumas properties include specialized agricultural coverage, historic building preservation requirements, and business interruption policies that recognize the interconnected nature of Moore County's agricultural economy. Emergency response documentation must meet requirements for both standard homeowner's policies and complex agricultural business coverage.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Agricultural facility insurance often includes commodity protection, equipment coverage, and business interruption provisions that require immediate emergency response to minimize claim amounts. Grain storage facilities may carry specialized coverage for commodity contamination that requires pristine emergency protection to prevent policy exclusions.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Economic impact assessments for major emergency events in Dumas consider ripple effects throughout the agricultural supply chain, including impacts on trucking, processing facilities, and export operations that depend on Moore County agricultural production. Emergency response prioritization accounts for facilities with broader economic importance to the regional economy.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Long-Term Preparedness and Community Resilience</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Community preparedness programs in Dumas include partnerships with agricultural extension services, farmer cooperatives, and rural fire departments to provide comprehensive emergency preparedness education. Agricultural operators receive specialized training on emergency procedures for livestock protection, grain storage security, and equipment preservation during severe weather events.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Preventive maintenance programs for Dumas properties account for the accelerated wear patterns caused by agricultural dust, high winds, and extreme temperature variations. Regular inspections and maintenance can prevent many emergency situations and reduce the severity of storm damage when severe weather occurs.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Regional coordination with agricultural research institutions and extension services provides ongoing education about weather-resistant building design, emergency preparedness planning, and recovery strategies that minimize agricultural economic losses. These partnerships strengthen community resilience and reduce the frequency and severity of emergency situations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

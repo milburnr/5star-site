@@ -123,6 +123,63 @@ export default function HailDamageOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Permian Basin: Heart of Texas Hail Belt</h2>
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+              <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+                Odessa sits in the southwestern corridor of Texas's notorious "Hail Belt," where the Permian Basin's unique geography creates ideal conditions for explosive hailstorm development. At 2,890 feet elevation with minimal topographic relief, Ector County experiences some of West Texas's most destructive hail events.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Geographic Storm Intensification</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Permian Basin Position:</strong> Low-lying area channels and intensifies storms</li>
+                    <li><strong>Desert-Gulf Convergence:</strong> Dry line interactions create explosive updrafts</li>
+                    <li><strong>Industrial Heat Islands:</strong> Oil facilities enhance atmospheric instability</li>
+                    <li><strong>Flat Terrain Advantage:</strong> No barriers to slow storm progression</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Oil Industry Weather Impacts</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Processing Facility Heat:</strong> Thousands of flares create updrafts</li>
+                    <li><strong>Particulate Nucleation:</strong> Industrial particles enhance hail formation</li>
+                    <li><strong>Chemical Acceleration:</strong> Airborne compounds speed roof degradation</li>
+                    <li><strong>Seismic Activity:</strong> Fracking creates additional structural stress</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-red-700 mb-2">Historic Hail Events</h4>
+                <p className="text-gray-700 mb-2">Major Ector County hailstorms:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• April 2019: Softball size, $75M damage</li>
+                  <li>• May 2021: Baseball size across basin</li>
+                  <li>• June 2023: Tennis ball, multiple rounds</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-blue-700 mb-2">Economic Impact</h4>
+                <p className="text-gray-700 mb-2">Annual hail damage in Permian Basin:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• $50-100 million property damage</li>
+                  <li>• 35-50% of structures need repair</li>
+                  <li>• $25 million industrial losses</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-green-700 mb-2">Protection Systems</h4>
+                <p className="text-gray-700 mb-2">Essential for Odessa properties:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Class 4 impact-resistant roofing</li>
+                  <li>• Enhanced chemical resistance</li>
+                  <li>• Seismic-rated attachment systems</li>
+                </ul>
+              </div>
+            </div>
+
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa's Severe Hail Environment</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-8 rounded-lg shadow-md">
@@ -158,6 +215,70 @@ export default function HailDamageOdessaPage() {
                 <p className="text-gray-700 mb-4">Odessa's location in both Hail Alley and Tornado Alley means severe thunderstorms often produce multiple hazards simultaneously. Supercells can generate large hail, tornadoes, and straight-line winds exceeding 90 mph within the same system, creating complex damage patterns requiring expert assessment.</p>
                 <p className="text-gray-700 mb-4">Derecho events (long-lived windstorms) can affect Odessa several times per decade, combining large hail with sustained winds over 75 mph for hours. These events create catastrophic damage over large areas and often overwhelm regional emergency response and repair capacity.</p>
                 <p className="text-gray-700">Flash flooding following severe hailstorms is common in Odessa due to poor drainage on the flat terrain and urban runoff. Hail-damaged roofs are particularly vulnerable to water intrusion during these flooding events, often requiring emergency tarping and immediate professional assessment.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Insurance Claims Expertise</h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Oil Field Insurance Complexities</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Industrial Risk Zones</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Higher deductibles in oil-producing areas</li>
+                    <li>• Specialized environmental assessments required</li>
+                    <li>• Chemical exposure vs. hail damage differentiation</li>
+                    <li>• Seismic activity impact documentation</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Catastrophic Event Protocols</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Basin-wide storm claims procedures</li>
+                    <li>• Emergency adjuster deployments</li>
+                    <li>• Accelerated processing timelines</li>
+                    <li>• Multi-property coordination</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Odessa-Specific Challenges</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Distance & Logistics</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• 350+ miles from major urban centers</li>
+                    <li>• Limited local adjuster availability</li>
+                    <li>• Extended material delivery times</li>
+                    <li>• Contractor capacity constraints</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Climate Documentation</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Extreme temperature impact evidence</li>
+                    <li>• UV degradation vs. hail damage</li>
+                    <li>• Wind-hail combination events</li>
+                    <li>• Flash flood secondary damage</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+              <h4 className="text-xl font-bold mb-3">Our Permian Basin Advantage</h4>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <p className="text-lg mb-2">Serving Odessa for over 10 years with specialized knowledge of oil field insurance and industrial property challenges.</p>
+                </div>
+                <div>
+                  <p className="text-brand-gold-light font-semibold">94%+ approval rate • $50M+ in claims processed • 48-hour response guarantee</p>
+                </div>
               </div>
             </div>
           </section>

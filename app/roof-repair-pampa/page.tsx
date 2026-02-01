@@ -282,6 +282,312 @@ export default function RoofRepairPampaPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Pampa Roof Repair Services We Provide
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Oil & Gas Industry Specialist</h3>
+                <p className="text-gray-700 mb-4">
+                  Pampa's economy centers on oil and gas production, with numerous drilling operations and support facilities throughout Gray County. We specialize in industrial roofing for energy sector buildings and worker housing.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Oil field facility roofing</li>
+                  <li>• Gas processing plant repairs</li>
+                  <li>• Energy sector housing maintenance</li>
+                  <li>• Industrial equipment shelter roofing</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Gray County Seat Services</h3>
+                <p className="text-gray-700 mb-4">
+                  As Gray County's county seat, Pampa hosts government buildings, courthouse facilities, and municipal structures requiring specialized knowledge of public building codes and institutional roofing requirements.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• County courthouse maintenance</li>
+                  <li>• Municipal building repairs</li>
+                  <li>• Government facility roofing</li>
+                  <li>• Public building compliance</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Historic Downtown Preservation</h3>
+                <p className="text-gray-700 mb-4">
+                  Pampa's historic downtown district reflects its oil boom heritage, requiring specialized roofing approaches that preserve architectural character while meeting modern performance standards.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Historic building restoration</li>
+                  <li>• Period-appropriate materials</li>
+                  <li>• Architectural preservation compliance</li>
+                  <li>• Heritage district requirements</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Energy Worker Community</h3>
+                <p className="text-gray-700 mb-4">
+                  Pampa houses energy sector workers and their families in residential neighborhoods designed around the oil and gas industry's unique scheduling and housing needs.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Energy worker housing repairs</li>
+                  <li>• Family residential services</li>
+                  <li>• Shift schedule accommodation</li>
+                  <li>• Emergency response for worker housing</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Pampa's Energy Industry Environment
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">⚡</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil & Gas Operations</h3>
+                <p className="text-gray-700">
+                  Pampa's location in Gray County places it at the center of significant oil and gas production, creating industrial environments that demand specialized roofing solutions for energy sector facilities.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🏛️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">County Government</h3>
+                <p className="text-gray-700">
+                  As Gray County's seat, Pampa maintains essential government services and facilities that require specialized roofing expertise for public buildings and institutional structures.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🏘️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Energy Community</h3>
+                <p className="text-gray-700">
+                  Pampa's residential community primarily serves energy sector workers and their families, creating unique housing patterns and roofing needs tied to the oil and gas industry's demands.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industrial Environmental Factors</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Hydrocarbon Exposure</h4>
+                  <p className="text-gray-700 mb-4">
+                    Oil and gas operations in Pampa create airborne hydrocarbons and industrial chemicals that can affect roofing material selection and longevity. Our material choices account for this industrial environment.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Energy Sector Schedules</h4>
+                  <p className="text-gray-700 mb-4">
+                    The oil and gas industry operates on demanding schedules with 24/7 operations. Our service delivery accommodates energy sector timing requirements and emergency response needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Our Pampa Roof Repair Process
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Energy Sector Response Coordination</h3>
+                    <p className="text-gray-700 mb-3">
+                      Understanding that Pampa's energy sector operates around the clock, we coordinate our emergency response with oil and gas facility operations and worker shift schedules to minimize disruption.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• 24/7 energy facility emergency response</li>
+                      <li>• Shift schedule accommodation</li>
+                      <li>• Industrial safety protocol compliance</li>
+                      <li>• Oil field facility prioritization</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Industrial Environment Assessment</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our inspectors evaluate both weather damage and industrial environmental factors unique to Pampa's oil and gas operations, including exposure to hydrocarbons and industrial processes.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Hydrocarbon exposure evaluation</li>
+                      <li>• Industrial contamination assessment</li>
+                      <li>• Energy facility building codes</li>
+                      <li>• County government compliance</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Energy-Grade Material Selection</h3>
+                    <p className="text-gray-700 mb-3">
+                      We specify materials designed for industrial environments, including chemical-resistant coatings and components rated for exposure to hydrocarbons and other energy sector byproducts.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Chemical-resistant roofing systems</li>
+                      <li>• Industrial-grade components</li>
+                      <li>• Energy sector specifications</li>
+                      <li>• Enhanced durability materials</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Industry-Coordinated Installation</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our installation teams work around energy sector operations, understanding the critical nature of maintaining facility integrity and worker safety during the repair process.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Energy facility safety compliance</li>
+                      <li>• Worker safety prioritization</li>
+                      <li>• Industrial operation coordination</li>
+                      <li>• Emergency protocol adherence</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Industrial Performance Monitoring</h3>
+                    <p className="text-gray-700 mb-3">
+                      Given Pampa's industrial environment, we provide enhanced monitoring to ensure repairs perform as expected under energy sector conditions and chemical exposure common in the area.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Industrial environment monitoring</li>
+                      <li>• Chemical exposure tracking</li>
+                      <li>• Energy sector performance verification</li>
+                      <li>• Enhanced warranty programs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Why Choose 5 Star for Your Pampa Roof Repairs?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Energy Industry Experience</h3>
+                <p className="text-gray-700 mb-4">
+                  We understand the unique demands of oil and gas operations in Gray County, providing specialized roofing services for energy sector facilities and worker housing throughout Pampa.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 220+ Pampa area projects completed</li>
+                  <li>• Oil and gas facility expertise</li>
+                  <li>• Energy worker housing specialization</li>
+                  <li>• Industrial safety compliance</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Industrial Environment Solutions</h3>
+                <p className="text-gray-700 mb-4">
+                  Our material selection and installation processes account for Pampa's industrial environment, including exposure to hydrocarbons and chemicals common in oil and gas operations.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Chemical-resistant material systems</li>
+                  <li>• Industrial contamination resistance</li>
+                  <li>• Energy sector compliance</li>
+                  <li>• Environmental durability testing</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">24/7 Energy Sector Support</h3>
+                <p className="text-gray-700 mb-4">
+                  Energy operations don't follow traditional schedules, and neither do we. Our emergency response accommodates the round-the-clock nature of oil and gas facilities in Pampa.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 24/7 emergency response</li>
+                  <li>• Shift schedule accommodation</li>
+                  <li>• Energy facility prioritization</li>
+                  <li>• Industrial safety protocols</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Gray County Expertise</h3>
+                <p className="text-gray-700 mb-4">
+                  As the county seat, Pampa requires specialized knowledge of local building codes, government building requirements, and the unique characteristics of Gray County's energy economy.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• County building code compliance</li>
+                  <li>• Government facility expertise</li>
+                  <li>• Municipal building experience</li>
+                  <li>• Local regulation knowledge</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Serving Pampa and Gray County
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-6">
+                From our Amarillo headquarters, we serve Pampa and the broader Gray County energy community, including residential, commercial, and industrial properties throughout the area:
+              </p>
+              <div className="grid md:grid-cols-4 gap-4 text-center">
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Pampa</h4>
+                  <p className="text-sm text-gray-600">County Seat & Center</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Lefors</h4>
+                  <p className="text-sm text-gray-600">12 miles south</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">McLean</h4>
+                  <p className="text-sm text-gray-600">20 miles east</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Laketon</h4>
+                  <p className="text-sm text-gray-600">18 miles northwest</p>
+                </div>
+              </div>
+              <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Gray County Energy District</h4>
+                <p className="text-gray-700">
+                  We serve the extensive oil and gas operations throughout Gray County, including drilling sites, processing facilities, and worker housing that support the region's energy economy.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Pampa Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

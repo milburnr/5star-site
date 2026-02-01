@@ -177,6 +177,125 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Northern Panhandle Hail Patterns: Dumas at Risk</h2>
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+              <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+                Dumas sits in the northern corridor of Texas's infamous "Hail Belt," where atmospheric conditions create some of the nation's most intense hailstorms. Moore County's position at 3,688 feet elevation, combined with its proximity to the Colorado and Oklahoma borders, places it at the intersection of multiple storm tracks that regularly produce significant hail.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Geographic Storm Enhancement</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>High Plains Convergence:</strong> Multiple air mass boundaries meet near Dumas</li>
+                    <li><strong>Canadian River Valley Effect:</strong> Topography channels and intensifies storms</li>
+                    <li><strong>Elevation Advantage:</strong> Higher altitude creates stronger temperature gradients</li>
+                    <li><strong>Open Prairie Fetch:</strong> Storms gain strength across unobstructed terrain</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Agricultural Infrastructure Concerns</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Cattle Operations:</strong> 180,000+ head need protected facilities</li>
+                    <li><strong>Grain Storage:</strong> Elevators and processing facilities vulnerable</li>
+                    <li><strong>Equipment Barns:</strong> Multi-million dollar machinery protection</li>
+                    <li><strong>Feed Mills:</strong> Critical infrastructure for beef production</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-red-700 mb-2">Notable Hail Events</h4>
+                <p className="text-gray-700 mb-2">Major Moore County hailstorms:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• May 2020: Tennis ball size, $8M damage</li>
+                  <li>• April 2021: Baseball size across county</li>
+                  <li>• June 2023: Golf ball size, multiple rounds</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-blue-700 mb-2">Economic Impact Analysis</h4>
+                <p className="text-gray-700 mb-2">Annual storm damage in Moore County:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• $5-8 million property damage</li>
+                  <li>• 25-35% of buildings need repair</li>
+                  <li>• $2-3 million agricultural losses</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-green-700 mb-2">Protection Strategies</h4>
+                <p className="text-gray-700 mb-2">Recommended for Dumas properties:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Class 4 impact-resistant roofing</li>
+                  <li>• Steel building reinforcement</li>
+                  <li>• Regular pre-season inspections</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims in Rural Texas: Dumas Expertise</h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Agricultural vs. Residential Claims</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Residential Properties</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Standard homeowner's coverage applies</li>
+                    <li>• Typical deductibles: $1,000-$2,500</li>
+                    <li>• Replacement cost coverage most common</li>
+                    <li>• Class 4 upgrades often covered</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Commercial/Agricultural</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Business property policies required</li>
+                    <li>• Higher deductibles: $5,000-$25,000</li>
+                    <li>• Coverage for business interruption</li>
+                    <li>• Specialized agricultural riders available</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Rural Area Challenges</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Distance Factors</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Adjuster travel time affects scheduling</li>
+                    <li>• Weather data verification crucial</li>
+                    <li>• Local contractor availability important</li>
+                    <li>• Supply chain logistics for materials</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Documentation Needs</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Precise storm timing verification</li>
+                    <li>• Comprehensive photo documentation</li>
+                    <li>• Professional damage assessment</li>
+                    <li>• Code compliance considerations</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+              <h4 className="text-xl font-bold mb-3">Our Moore County Advantage</h4>
+              <p className="text-lg mb-2">Serving Dumas since 2014, we understand both residential and agricultural roofing needs. We work with local adjusters and know the unique challenges of Moore County claims.</p>
+              <p className="text-brand-gold-light font-semibold">95%+ success rate on claims • Average settlement: 97% of replacement cost</p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Dumas Hail Damage Repair Process</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">

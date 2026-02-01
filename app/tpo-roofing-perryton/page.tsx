@@ -222,6 +222,132 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Perryton Agricultural & Grain Facilities Choose TPO
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🌾 Grain Industry Solutions</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Grain elevators and storage</li>
+                  <li>✓ Feed mills and processing</li>
+                  <li>✓ Agricultural equipment buildings</li>
+                  <li>✓ Loading and shipping facilities</li>
+                  <li>✓ Administrative offices</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">💪 Agricultural Performance</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Dust and debris resistance</li>
+                  <li>✓ Chemical exposure protection</li>
+                  <li>✓ Large span capabilities</li>
+                  <li>✓ Easy maintenance and cleaning</li>
+                  <li>✓ Superior weathering resistance</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Perryton's Agricultural Climate Considerations</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                As a major grain and agricultural center, Perryton's commercial buildings face unique challenges from dust accumulation, chemical exposure from fertilizers and pesticides, and the need for large-span roofing over grain storage and processing facilities.
+              </p>
+              <p className="text-lg text-gray-700">
+                TPO roofing provides the perfect solution with its smooth, cleanable surface, chemical resistance, and ability to span large areas without structural supports - ideal for Perryton's agricultural operations.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Grain Facility TPO Installation Considerations
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Management</h3>
+                <p className="text-gray-700 mb-3">
+                  TPO's smooth surface prevents dust accumulation and allows for easy cleaning - critical for grain facility operations.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Smooth, non-porous surface</li>
+                  <li>• Easy pressure washing</li>
+                  <li>• No dust-trapping textures</li>
+                  <li>• Maintains reflectivity</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Large Span Capability</h3>
+                <p className="text-gray-700 mb-3">
+                  TPO systems can span large grain storage areas without interior supports, maximizing usable space.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Single membrane installation</li>
+                  <li>• Minimal seam requirements</li>
+                  <li>• Structural efficiency</li>
+                  <li>• Cost-effective coverage</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Chemical Resistance</h3>
+                <p className="text-gray-700 mb-3">
+                  Protection against agricultural chemicals including fertilizers, pesticides, and cleaning agents.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Fertilizer runoff protection</li>
+                  <li>• Pesticide resistance</li>
+                  <li>• Cleaning agent tolerance</li>
+                  <li>• Long-term stability</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Efficiency for Perryton Agricultural Buildings
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Temperature Control Benefits</h3>
+                  <p className="text-gray-700 mb-4">
+                    Proper temperature control is critical for grain storage quality and equipment performance in Perryton's agricultural facilities.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Grain quality preservation</li>
+                    <li>• Moisture control improvement</li>
+                    <li>• Equipment protection</li>
+                    <li>• Reduced spoilage losses</li>
+                    <li>• Worker comfort enhancement</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Cost Savings Examples</h3>
+                  <div className="grid grid-cols-2 gap-4 text-center mb-4">
+                    <div className="p-3 bg-green-50 rounded">
+                      <div className="text-2xl font-bold text-brand-gold">30%</div>
+                      <div className="text-sm">Cooling Cost Reduction</div>
+                    </div>
+                    <div className="p-3 bg-blue-50 rounded">
+                      <div className="text-2xl font-bold text-brand-gold">$15K</div>
+                      <div className="text-sm">Annual Energy Savings</div>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm">
+                    Based on 50,000 sq ft grain facility with TPO cool roof installation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               TPO Roofing FAQs - Perryton, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

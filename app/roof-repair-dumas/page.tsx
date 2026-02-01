@@ -282,6 +282,312 @@ export default function RoofRepairDumasPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Dumas Roof Repair Services We Provide
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Industry Specialist</h3>
+                <p className="text-gray-700 mb-4">
+                  Dumas is Moore County's agricultural hub, home to massive cattle feedlots and grain storage facilities. We specialize in agricultural building roofing, understanding the unique demands of livestock operations and commodity storage.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Feedlot building repairs</li>
+                  <li>• Grain storage facility roofing</li>
+                  <li>• Livestock barn maintenance</li>
+                  <li>• Agricultural equipment storage</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">County Seat Services</h3>
+                <p className="text-gray-700 mb-4">
+                  As Moore County's county seat, Dumas hosts government buildings, courthouse facilities, and municipal structures requiring specialized roofing expertise for public buildings and institutional requirements.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Government building maintenance</li>
+                  <li>• Courthouse roof systems</li>
+                  <li>• Municipal facility repairs</li>
+                  <li>• Public building compliance</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industrial Ammonia Environment</h3>
+                <p className="text-gray-700 mb-4">
+                  Dumas's agricultural operations include significant ammonia production and storage facilities. We provide specialized roofing services for buildings exposed to industrial chemicals and agricultural processing environments.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Chemical-resistant roofing systems</li>
+                  <li>• Industrial facility maintenance</li>
+                  <li>• Processing plant roof repairs</li>
+                  <li>• Environmental compliance support</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Residential Community Support</h3>
+                <p className="text-gray-700 mb-4">
+                  Dumas's residential neighborhoods house agricultural workers, county employees, and industrial personnel. We provide comprehensive residential roofing services tailored to this working community's needs and schedules.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Residential roof repairs</li>
+                  <li>• Worker housing maintenance</li>
+                  <li>• Family home protection</li>
+                  <li>• Flexible scheduling options</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Dumas's Agricultural and Industrial Challenges
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🐄</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Feedlot Operations</h3>
+                <p className="text-gray-700">
+                  Dumas hosts some of Texas's largest cattle feedlots, creating unique environmental challenges including ammonia exposure, dust, and moisture that accelerate roofing material degradation.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🌾</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Grain Storage</h3>
+                <p className="text-gray-700">
+                  Massive grain storage and processing facilities require specialized roofing systems capable of handling structural loads, moisture control, and agricultural chemical exposure common in this industry.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🏛️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">County Government</h3>
+                <p className="text-gray-700">
+                  As Moore County's seat, Dumas maintains government buildings, courthouse facilities, and municipal structures requiring compliance with public building codes and accessibility standards.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Environmental Impact on Roofing</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Ammonia Exposure</h4>
+                  <p className="text-gray-700 mb-4">
+                    Agricultural operations in Dumas create airborne ammonia that can accelerate corrosion of metal roofing components and degrade certain membrane materials. Our material selection accounts for this chemical exposure.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Dust and Particulates</h4>
+                  <p className="text-gray-700 mb-4">
+                    Feedlot operations and grain processing create high levels of airborne dust and organic particulates that can clog drainage systems and create additional moisture retention on roof surfaces.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Our Dumas Roof Repair Process
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Schedule Coordination</h3>
+                    <p className="text-gray-700 mb-3">
+                      We understand that agricultural operations in Dumas run on demanding schedules tied to livestock care and commodity processing. Our emergency response considers the critical nature of agricultural building integrity.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Agricultural operation priority scheduling</li>
+                      <li>• Livestock facility emergency protocols</li>
+                      <li>• Grain storage protection measures</li>
+                      <li>• Minimal operational disruption</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Environmental Impact Assessment</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our inspectors evaluate not just weather damage but also environmental factors unique to Dumas's agricultural and industrial environment, including chemical exposure and organic material accumulation.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Chemical exposure evaluation</li>
+                      <li>• Agricultural environment impact</li>
+                      <li>• Dust and debris assessment</li>
+                      <li>• Industrial facility considerations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural-Grade Materials</h3>
+                    <p className="text-gray-700 mb-3">
+                      We specify materials designed for agricultural environments, including chemical-resistant coatings, enhanced drainage systems, and structural components rated for the unique loads of agricultural buildings.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Chemical-resistant materials</li>
+                      <li>• Agricultural building specifications</li>
+                      <li>• Enhanced drainage systems</li>
+                      <li>• Heavy-load structural support</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Industry-Sensitive Installation</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our installation teams work around agricultural operations, understanding the importance of maintaining livestock comfort and protecting stored commodities during the repair process.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Livestock operation consideration</li>
+                      <li>• Commodity protection protocols</li>
+                      <li>• Minimal agricultural disruption</li>
+                      <li>• Safety compliance for all environments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Environment Monitoring</h3>
+                    <p className="text-gray-700 mb-3">
+                      Given the harsh environmental conditions in Dumas's agricultural sector, we provide enhanced monitoring of repairs to ensure they perform as expected under chemical exposure and operational stress.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Chemical exposure monitoring</li>
+                      <li>• Agricultural operation impact tracking</li>
+                      <li>• Enhanced warranty support</li>
+                      <li>• Preventive maintenance programs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Why Choose 5 Star for Your Dumas Roof Repairs?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Industry Experience</h3>
+                <p className="text-gray-700 mb-4">
+                  We understand the unique challenges of agricultural roofing in Moore County, from feedlot environments to grain storage facilities. Our team has specialized experience with agricultural building requirements.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 190+ Dumas area projects completed</li>
+                  <li>• Feedlot and agricultural expertise</li>
+                  <li>• Industrial facility experience</li>
+                  <li>• Government building specialization</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Chemical-Resistant Solutions</h3>
+                <p className="text-gray-700 mb-4">
+                  Our material selection accounts for Dumas's agricultural environment, including exposure to ammonia, organic acids, and other chemicals common in livestock and grain processing operations.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Chemical-resistant material specifications</li>
+                  <li>• Agricultural environment testing</li>
+                  <li>• Enhanced durability systems</li>
+                  <li>• Environmental compliance support</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Operational Coordination</h3>
+                <p className="text-gray-700 mb-4">
+                  We schedule our work around agricultural operations, understanding that livestock care and commodity processing cannot be interrupted for roofing work without careful planning and coordination.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Agricultural schedule accommodation</li>
+                  <li>• Livestock operation consideration</li>
+                  <li>• Commodity protection protocols</li>
+                  <li>• Emergency response prioritization</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Moore County Compliance</h3>
+                <p className="text-gray-700 mb-4">
+                  As the county seat, Dumas requires compliance with various municipal and county building codes. We ensure all work meets local requirements for both private and public buildings.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• County building code expertise</li>
+                  <li>• Municipal compliance verification</li>
+                  <li>• Public building standards</li>
+                  <li>• Government facility experience</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Serving Dumas and Moore County
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-6">
+                From our Amarillo headquarters, we serve Dumas and the broader Moore County agricultural community, including residential, commercial, and agricultural properties throughout the area:
+              </p>
+              <div className="grid md:grid-cols-4 gap-4 text-center">
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Dumas</h4>
+                  <p className="text-sm text-gray-600">County Seat & Center</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Sunray</h4>
+                  <p className="text-sm text-gray-600">12 miles north</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Cactus</h4>
+                  <p className="text-sm text-gray-600">15 miles northwest</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Four Way</h4>
+                  <p className="text-sm text-gray-600">20 miles south</p>
+                </div>
+              </div>
+              <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Moore County Agricultural District</h4>
+                <p className="text-gray-700">
+                  We serve the extensive agricultural operations throughout Moore County, including major feedlots, grain storage facilities, and processing plants that form the backbone of the region's economy.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Dumas Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

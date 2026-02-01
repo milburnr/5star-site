@@ -166,6 +166,121 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Texas Hail Belt: Canyon's Storm Profile</h2>
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+              <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+                Canyon sits squarely within the notorious "Texas Hail Belt"—a 300-mile-wide corridor stretching from the Red River Valley to Central Texas where atmospheric conditions create perfect hail-forming environments. This region experiences the highest frequency of large hail (1+ inches) anywhere in North America.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Peak Hail Season in Randall County</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>March-June:</strong> Primary hail season with peak activity in April-May</li>
+                    <li><strong>Peak Times:</strong> 4 PM - 8 PM when atmospheric instability maximizes</li>
+                    <li><strong>Storm Tracks:</strong> Southwest to northeast following upper-level jet stream</li>
+                    <li><strong>Supercell Development:</strong> High Plains elevation creates ideal wind shear conditions</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Local Meteorological Factors</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Palo Duro Canyon Effect:</strong> Cold air pooling enhances storm intensity</li>
+                    <li><strong>Dryline Interactions:</strong> Moisture boundary creates explosive thunderstorm development</li>
+                    <li><strong>Caprock Escarpment:</strong> Terrain features force air upward, strengthening updrafts</li>
+                    <li><strong>High Plains Climate:</strong> Extreme temperature contrasts fuel severe weather</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-red-700 mb-2">Historical Hail Events</h4>
+                <p className="text-gray-700 mb-2">Notable Canyon area hailstorms:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• May 2019: Golf ball size hail</li>
+                  <li>• April 2021: Baseball size impacts</li>
+                  <li>• March 2023: Softball size recorded</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-blue-700 mb-2">Damage Statistics</h4>
+                <p className="text-gray-700 mb-2">Annual hail damage in Randall County:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• $2-4 million property damage</li>
+                  <li>• 15-25% of roofs need repair</li>
+                  <li>• 40% experience minor damage</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-green-700 mb-2">Protection Measures</h4>
+                <p className="text-gray-700 mb-2">Recommended defenses:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Class 4 impact-resistant shingles</li>
+                  <li>• Impact-resistant gutters</li>
+                  <li>• Professional annual inspections</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims: What Canyon Homeowners Need to Know</h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Texas Hail Claim Laws & Deadlines</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Prompt Payment Act</h4>
+                  <p className="text-gray-600">Texas requires insurers to acknowledge claims within 15 days and pay or deny within 30 days after receiving all documentation.</p>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Claim Filing Deadlines</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Report damage promptly (within days if possible)</li>
+                    <li>• Most policies: 1-2 year deadline from date of loss</li>
+                    <li>• Document damage immediately with photos</li>
+                    <li>• Get professional inspection within 30 days</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Maximizing Your Settlement</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Documentation Is Key</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Professional damage assessment with photos</li>
+                    <li>• Detailed repair estimates using Xactimate</li>
+                    <li>• Weather data from National Weather Service</li>
+                    <li>• Before/after comparison photos</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Common Coverage Items</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Roof replacement/repair materials</li>
+                    <li>• Labor costs for certified contractors</li>
+                    <li>• Gutters, downspouts, and flashing</li>
+                    <li>• Temporary protection (tarping)</li>
+                    <li>• Permit fees and disposal costs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+              <h4 className="text-xl font-bold mb-3">Our Insurance Assistance Guarantee</h4>
+              <p className="text-lg mb-2">We meet with adjusters, provide detailed documentation, and advocate for full coverage. Over 95% of our insurance claims are approved for full replacement value.</p>
+              <p className="text-brand-gold-light font-semibold">Most Canyon homeowners pay only their deductible—typically $1,000-$2,500.</p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Canyon Hail Damage Repair Process</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">

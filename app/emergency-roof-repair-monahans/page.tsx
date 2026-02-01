@@ -200,6 +200,121 @@ export default function EmergencyRoofRepairMonahansPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Permian Basin Oil Industry Emergency Response
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Monahans sits in the heart of the Permian Basin, America's most productive oil and gas region, requiring emergency roofing services that understand the unique demands of energy industry operations. Oil field support facilities, chemical processing plants, and industrial operations throughout Ward County operate 24/7, making emergency roof protection critical for continuous energy production and environmental safety.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Monahans Emergency Response Protocol for Oil Industry</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-30 minutes:</strong> Emergency dispatch, oil facility safety protocols activated, specialized crew assigned</li>
+                <li><strong>30-120 minutes:</strong> Extended travel time from Amarillo, industrial safety equipment loaded</li>
+                <li><strong>120-150 minutes:</strong> On-site arrival, coordination with facility safety personnel, site-specific safety briefing</li>
+                <li><strong>150-300 minutes:</strong> Emergency protection installed using petroleum-resistant materials and safety protocols</li>
+                <li><strong>4-8 hours:</strong> Comprehensive assessment, environmental compliance documentation, permanent repair planning</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response for oil industry facilities requires specialized equipment and materials resistant to petroleum products, chemical exposure, and high-temperature conditions common in energy operations. Safety protocols include gas monitoring equipment, fire suppression coordination, and compliance with industry safety standards for hot work permits and confined space operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Coordination with oil field operations requires understanding of production schedules, safety shutdown procedures, and environmental protection requirements that cannot be interrupted during emergency repairs. Some emergency operations may require temporary production shutdowns, making rapid, effective repairs essential for minimizing economic impact on energy operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">West Texas Climate Challenges and Material Considerations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Monahans experiences extreme West Texas climate conditions including intense UV exposure, severe temperature fluctuations, and high winds that create challenging emergency repair environments. Daily temperature variations can exceed 40 degrees, creating thermal stress on emergency materials that require specialized application techniques and enhanced anchoring systems.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Monahans Climate Emergency Challenges</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Extreme Heat:</strong> Summer temperatures exceeding 110°F affecting material application and worker safety</li>
+                <li><strong>UV Intensity:</strong> High altitude and clear skies creating accelerated material degradation</li>
+                <li><strong>Dust Storms:</strong> Petroleum and mineral dust creating abrasive conditions and application challenges</li>
+                <li><strong>Flash Flooding:</strong> Desert arroyos and low-lying areas prone to sudden severe flooding</li>
+                <li><strong>High Winds:</strong> Sustained winds exceeding 50 mph requiring enhanced anchor systems</li>
+                <li><strong>Temperature Extremes:</strong> Winter lows near 0°F requiring cold-weather materials and techniques</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Desert dust storms in the Monahans area can carry petroleum residues, sand, and industrial particulates that affect emergency material adhesion and worker visibility. High-wind emergency repairs require specialized techniques and materials designed for sustained wind exposure and abrasive environmental conditions common to the West Texas oil fields.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Flash flooding during rare but intense thunderstorms can create dangerous working conditions and access challenges for emergency crews. Low-lying industrial areas near oil operations may become inaccessible during flooding events, requiring alternative emergency response routes and enhanced safety protocols for water rescue situations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Specialized Materials and Safety Protocols for Oil Country
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency roofing materials for Monahans oil industry applications must resist petroleum vapor exposure, chemical contamination, and extreme temperature conditions that would rapidly degrade standard materials. Specialized emergency supplies include chemical-resistant tarps, petroleum-safe adhesives, and non-sparking tools for volatile environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Safety protocols for oil field emergency operations include continuous gas monitoring, fire watch procedures, and coordination with facility emergency response teams trained in petroleum industry safety standards. All emergency equipment must meet explosion-proof requirements for classified electrical areas common around oil production and processing facilities.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Environmental protection during emergency operations requires containment procedures for any materials that could contaminate soil or groundwater in sensitive oil production areas. Emergency repairs near active wells or processing equipment require specialized techniques that prevent environmental releases while providing immediate weather protection.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Extended Response Logistics and Resource Management</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Monahans's distance from major supply centers requires strategic logistics planning to ensure adequate emergency response capability for this remote but economically critical region. Pre-positioned emergency supplies in the Midland-Odessa area provide backup resources when extended operations exceed locally available materials and equipment.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Monahans Extended Response Support Systems</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Regional Partnerships:</strong> Coordination with Midland and Odessa contractors for extended operations</li>
+                <li><strong>Material Staging:</strong> Emergency supplies pre-positioned for oil industry facility emergencies</li>
+                <li><strong>Communication Systems:</strong> Satellite backup for areas with limited cellular coverage</li>
+                <li><strong>Safety Equipment:</strong> Oil field-specific safety gear and gas monitoring equipment</li>
+                <li><strong>Transportation:</strong> Heavy-duty vehicles capable of oil field road conditions</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Communication challenges in remote oil field areas require satellite backup systems and coordination protocols that account for limited cellular coverage in some Ward County locations. Emergency response includes redundant communication methods to ensure continuous coordination with both facility personnel and emergency management authorities.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Extended operations capability allows emergency crews to remain on-site for multi-day repairs when facilities cannot tolerate repeated weather exposure. Self-sufficient operations include temporary shelter, food service, and equipment maintenance capabilities for emergency responses that extend beyond normal duration limits.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Community Infrastructure and Economic Impact Considerations
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Monahans community infrastructure includes critical facilities that support both local residents and the broader oil industry workforce, requiring emergency response that maintains essential services during severe weather events. Healthcare facilities, schools, and municipal services serve a population that fluctuates with oil industry activity and economic cycles.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Ward County Memorial Hospital and medical facilities in Monahans provide critical healthcare services for both permanent residents and oil field workers who may require emergency medical care during industrial accidents or weather events. Medical facility emergency protection ensures continuous healthcare availability in a region where alternative facilities may be hours away.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Educational facilities including Monahans High School and elementary schools require specialized emergency response that accounts for student safety and educational continuity. School buildings often serve as community shelters during severe weather, making structural integrity and emergency protection essential for broader community safety.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insurance and Regulatory Compliance for Oil Industry Operations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Insurance considerations for Monahans oil industry facilities include specialized environmental liability coverage, business interruption policies, and regulatory compliance requirements that demand comprehensive emergency response documentation. Emergency repairs must meet both insurance requirements and environmental protection standards enforced by state and federal agencies.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Regulatory compliance documentation includes environmental impact assessments, safety protocol adherence records, and coordination with agencies including Texas Railroad Commission and EPA for facilities with environmental permits. Emergency response procedures must demonstrate immediate action to prevent environmental releases while providing property protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Economic impact assessments for major emergency events in Monahans consider effects on oil production, regional employment, and energy supply chains that extend far beyond local property damage. Emergency response prioritization accounts for facilities with critical importance to regional and national energy production capabilities.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

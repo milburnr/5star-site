@@ -225,6 +225,250 @@ export default function Page() {
         </p>
       </div>
 
+      <FadeIn>
+        <section className="content-block mb-12">
+          <h2 className="text-2xl font-bold mb-6">Advanced PVC Roofing Technologies for West Texas Commercial Buildings</h2>
+          <p className="text-lg mb-4">
+            Modern PVC roofing systems incorporate advanced technologies specifically designed for the challenging West Texas environment. These innovations address the unique combination of intense UV radiation, extreme temperature cycling, severe hail events, and persistent high winds that characterize the High Plains climate around Amarillo, Midland, and Odessa.
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Reinforced Membrane Technology</h3>
+              <p className="text-gray-700 mb-4">Latest-generation PVC membranes feature dual-layer construction with polyester reinforcement between PVC layers. This creates superior puncture resistance and dimensional stability crucial for withstanding West Texas hailstorms and thermal cycling.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Dual-layer PVC construction for maximum durability</li>
+                <li>• Polyester scrim reinforcement prevents tearing</li>
+                <li>• Enhanced thickness options up to 80 mil</li>
+                <li>• Chemical resistance for industrial applications</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Heat-Welded Seam Systems</h3>
+              <p className="text-gray-700 mb-4">Automated hot-air welding equipment creates chemically-bonded seams stronger than the membrane material itself. This technology eliminates the adhesive-based seams that fail in extreme temperature conditions common throughout West Texas.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Automated welding for consistent quality</li>
+                <li>• Seams stronger than base membrane material</li>
+                <li>• No adhesive failure in temperature extremes</li>
+                <li>• Electronic testing verifies seam integrity</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Cool Roofing Performance</h3>
+              <p className="text-gray-700 mb-4">White and light-colored PVC membranes achieve Solar Reflectance Index (SRI) values exceeding 100, making them among the most energy-efficient roofing materials available. This translates to significant cooling cost reductions in West Texas's intense summer heat.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• SRI values over 100 for maximum reflection</li>
+                <li>• Maintains reflectivity over membrane lifetime</li>
+                <li>• Reduces urban heat island effect</li>
+                <li>• Qualifies for energy efficiency incentives</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Wind Uplift Resistance</h3>
+              <p className="text-gray-700 mb-4">Mechanically-attached and fully-adhered PVC systems are tested and rated for wind speeds exceeding 150 mph. This provides essential protection against the severe wind events that regularly affect commercial properties throughout the Texas Panhandle region.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Factory Mutual (FM) 1-90 wind ratings</li>
+                <li>• UL 580 Class 90 uplift resistance</li>
+                <li>• Enhanced fastening schedules for high winds</li>
+                <li>• Edge securement designed for extreme conditions</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
+      <FadeIn>
+        <section className="content-block mb-12">
+          <h2 className="text-2xl font-bold mb-6">PVC Roof Replacement for Specific Commercial Sectors</h2>
+          <p className="text-lg mb-4">
+            Different commercial sectors throughout Amarillo, Midland, and Odessa present unique roofing challenges requiring specialized PVC installation approaches. Our experience across diverse industries ensures optimal performance for each application.
+          </p>
+          
+          <div className="space-y-8">
+            <div className="bg-amber-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Healthcare and Medical Facilities</h3>
+              <p className="text-gray-700 mb-4">Medical facilities throughout West Texas require PVC roofing systems that support life-safety equipment while maintaining infection control standards. Hospital and clinic roof replacements coordinate with facility operations to ensure uninterrupted patient care during construction.</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-brand-brown mb-2">Installation Considerations</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Phased construction to maintain operations</li>
+                    <li>• Infection control protocol compliance</li>
+                    <li>• HVAC system integration coordination</li>
+                    <li>• Emergency equipment access maintenance</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-brand-brown mb-2">Performance Requirements</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Fire resistance for life-safety compliance</li>
+                    <li>• Chemical resistance for medical gases</li>
+                    <li>• Low-odor installation materials</li>
+                    <li>• Enhanced warranty for critical facilities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Educational Institution Roofing</h3>
+              <p className="text-gray-700 mb-4">Schools, universities, and educational facilities require cost-effective PVC roofing solutions that accommodate large spans while providing long-term durability. Projects often coordinate with academic schedules and budget constraints unique to educational institutions.</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-brand-brown mb-2">Project Scheduling</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Summer break construction windows</li>
+                    <li>• Minimal disruption during school year</li>
+                    <li>• Coordination with athletic events</li>
+                    <li>• Phased replacement for large campuses</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-brand-brown mb-2">Educational Benefits</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Energy cost reduction for tight budgets</li>
+                    <li>• Low maintenance for stretched staff</li>
+                    <li>• Daylighting integration for classrooms</li>
+                    <li>• Sustainability education opportunities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Manufacturing and Industrial Facilities</h3>
+              <p className="text-gray-700 mb-4">Manufacturing operations throughout the Permian Basin and Texas Panhandle require PVC roofing systems that withstand chemical exposure, accommodate industrial equipment, and provide reliable protection for continuous operations critical to regional economic activity.</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-brand-brown mb-2">Industrial Requirements</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Chemical resistance for process vapors</li>
+                    <li>• Equipment load accommodation</li>
+                    <li>• Crane and hoist integration</li>
+                    <li>• Specialized safety protocols</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-brand-brown mb-2">Operational Continuity</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Production schedule coordination</li>
+                    <li>• Phased replacement to maintain operations</li>
+                    <li>• Emergency backup protection systems</li>
+                    <li>• Minimal downtime installation methods</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
+      <FadeIn>
+        <section className="content-block mb-12">
+          <h2 className="text-2xl font-bold mb-6">Quality Control and Testing Procedures for PVC Roof Replacement</h2>
+          <p className="text-lg mb-4">
+            Professional PVC roof replacement requires rigorous quality control procedures to ensure long-term performance in West Texas's demanding climate. Our testing protocols verify system integrity before, during, and after installation to guarantee warranty compliance and optimal performance.
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div>
+              <h3 className="text-xl font-bold text-brand-brown mb-4">Pre-Installation Testing</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li>
+                  <strong className="text-brand-brown">Substrate Condition Assessment:</strong> Comprehensive evaluation of existing deck conditions, moisture content, and structural integrity before new installation begins.
+                </li>
+                <li>
+                  <strong className="text-brand-brown">Material Quality Verification:</strong> All PVC membrane and insulation materials undergo quality checks to ensure they meet manufacturer specifications and project requirements.
+                </li>
+                <li>
+                  <strong className="text-brand-brown">Environmental Monitoring:</strong> Temperature, humidity, and wind conditions are monitored to ensure optimal installation conditions for seam welding and adhesive curing.
+                </li>
+                <li>
+                  <strong className="text-brand-brown">Equipment Calibration:</strong> Hot-air welding equipment undergoes daily calibration to ensure consistent seam quality throughout the installation process.
+                </li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-bold text-brand-brown mb-4">Installation Quality Control</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li>
+                  <strong className="text-brand-brown">Seam Testing:</strong> Every welded seam undergoes probe testing to verify proper bonding before proceeding to adjacent areas of the roof installation.
+                </li>
+                <li>
+                  <strong className="text-brand-brown">Membrane Tension Control:</strong> Proper membrane tension prevents wrinkles and stress concentrations that could lead to premature failure in high-wind conditions.
+                </li>
+                <li>
+                  <strong className="text-brand-brown">Fastener Pattern Verification:</strong> Mechanical attachment patterns are verified against engineering specifications for wind uplift resistance requirements.
+                </li>
+                <li>
+                  <strong className="text-brand-brown">Detail Fabrication Inspection:</strong> All flashing and detail work receives individual inspection to ensure watertight performance at critical transition points.
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-bold text-brand-brown mb-3">Post-Installation Performance Verification</h3>
+            <p className="text-gray-700 mb-4">Comprehensive testing following installation completion ensures the PVC roofing system meets all performance specifications and warranty requirements before project acceptance.</p>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div>
+                <h4 className="font-semibold text-brand-brown mb-2">Electronic Leak Detection</h4>
+                <p className="text-sm text-gray-600">Low-voltage electrical testing identifies any membrane breaches or seam defects with precision impossible through visual inspection alone.</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-brand-brown mb-2">Thermal Imaging Assessment</h4>
+                <p className="text-sm text-gray-600">Infrared thermography verifies proper insulation installation and identifies thermal bridges that could compromise energy efficiency.</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-brand-brown mb-2">Water Testing Protocol</h4>
+                <p className="text-sm text-gray-600">Controlled water testing of critical areas verifies watertight performance under simulated rainfall conditions before final acceptance.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
+      <FadeIn>
+        <section className="content-block mb-12">
+          <h2 className="text-2xl font-bold mb-6">Long-Term Maintenance and Performance Optimization</h2>
+          <p className="text-lg mb-4">
+            Maximizing the lifespan and performance of PVC roofing systems requires proactive maintenance programs tailored to West Texas environmental conditions. Our maintenance services protect your roofing investment while ensuring optimal energy performance throughout the system's 25-30 year lifespan.
+          </p>
+          
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Preventive Maintenance Programs</h3>
+              <p className="text-gray-700 mb-4">Scheduled maintenance programs address the specific challenges PVC roofing faces in the High Plains environment, including UV exposure, thermal cycling, and severe weather events that can affect system performance.</p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Bi-annual inspections timed around severe weather seasons</li>
+                <li>• Membrane cleaning to maintain reflective properties</li>
+                <li>• Seam inspection and minor repair services</li>
+                <li>• Drainage system cleaning and optimization</li>
+                <li>• Equipment walkway inspection and maintenance</li>
+                <li>• Flashing condition assessment and renewal</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold text-brand-brown mb-3">Performance Monitoring Services</h3>
+              <p className="text-gray-700 mb-4">Advanced monitoring techniques help identify potential issues before they become costly problems while verifying continued energy performance and warranty compliance throughout the roof's service life.</p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Thermal imaging for early problem detection</li>
+                <li>• Moisture scanning to prevent hidden damage</li>
+                <li>• Energy performance tracking and optimization</li>
+                <li>• Warranty compliance documentation</li>
+                <li>• Storm damage assessment and repair</li>
+                <li>• System upgrade recommendations</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Related PVC Roofing Services</h2>
         <div className="grid md:grid-cols-3 gap-4">

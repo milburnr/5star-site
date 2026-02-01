@@ -282,6 +282,306 @@ export default function RoofRepairBorgerPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Borger Roof Repair Services We Provide
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Storm Damage Repair</h3>
+                <p className="text-gray-700 mb-4">
+                  Borger's location in Hutchinson County puts it in the path of severe Texas Panhandle storms. Our storm damage specialists handle hail damage, wind-lifted shingles, and structural repairs from severe weather events.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Hail damage assessment and repair</li>
+                  <li>• Wind damage restoration</li>
+                  <li>• Emergency leak repair</li>
+                  <li>• Insurance claim assistance</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industrial Roof Maintenance</h3>
+                <p className="text-gray-700 mb-4">
+                  Borger's petrochemical industry and Phillips 66 refinery operations create unique environmental challenges. We provide specialized maintenance for industrial roofing systems exposed to chemical emissions and harsh conditions.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Chemical-resistant coating applications</li>
+                  <li>• Industrial membrane repairs</li>
+                  <li>• Metal roof maintenance</li>
+                  <li>• Environmental compliance support</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Residential Repairs</h3>
+                <p className="text-gray-700 mb-4">
+                  From historic downtown Borger homes to newer subdivisions, we repair all residential roofing types. Our team understands local architectural styles and building requirements specific to Hutchinson County.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Asphalt shingle repair and replacement</li>
+                  <li>• Metal roof maintenance</li>
+                  <li>• Flat roof membrane repair</li>
+                  <li>• Gutter and downspout repair</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Services</h3>
+                <p className="text-gray-700 mb-4">
+                  Texas Panhandle weather doesn't follow business hours. Our 24/7 emergency service ensures your Borger property is protected when storms strike or unexpected damage occurs.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 24/7 emergency response</li>
+                  <li>• Temporary weatherproofing</li>
+                  <li>• Leak location and repair</li>
+                  <li>• Same-day service available</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Understanding Borger's Unique Weather Challenges
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🌪️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Severe Storms</h3>
+                <p className="text-gray-700">
+                  The Texas Panhandle experiences 6-8 significant hailstorms annually, with hail sizes frequently exceeding golf ball diameter. Borger's flat terrain offers no protection from these severe weather events.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">💨</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">High Plains Winds</h3>
+                <p className="text-gray-700">
+                  Constant winds averaging 15-20 mph with gusts exceeding 60 mph stress roofing materials. These persistent winds can lift shingles and create pressure differentials that lead to structural damage.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🏭</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Industrial Environment</h3>
+                <p className="text-gray-700">
+                  Borger's petrochemical operations, including the Phillips 66 refinery, create airborne chemicals that can accelerate roofing material degradation, requiring specialized maintenance approaches.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Local Climate Data</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Temperature Extremes</h4>
+                  <p className="text-gray-700 mb-4">
+                    Summer highs regularly exceed 95°F, causing thermal expansion and contraction stress. Winter lows drop below 20°F, creating freeze-thaw cycles that damage roofing materials and flashings.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Precipitation Patterns</h4>
+                  <p className="text-gray-700 mb-4">
+                    Annual precipitation averages 19 inches, with most occurring during intense spring and summer storms. Quick temperature changes and severe weather events stress roofing systems beyond normal wear.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Our Borger Roof Repair Process
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Response Assessment</h3>
+                    <p className="text-gray-700 mb-3">
+                      When you call our Borger emergency line, we dispatch certified technicians within 2 hours during business hours, or first thing the next morning for after-hours calls. Our initial assessment identifies immediate safety concerns and temporary weatherproofing needs.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Safety evaluation of damaged areas</li>
+                      <li>• Leak source identification and temporary sealing</li>
+                      <li>• Documentation for insurance purposes</li>
+                      <li>• Interior damage prevention measures</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Comprehensive Inspection</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our certified inspectors examine all roofing components, from structural decking to flashing systems. In Borger's industrial environment, we pay special attention to chemical corrosion and environmental damage patterns unique to the area.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Complete structural integrity assessment</li>
+                      <li>• Industrial contamination evaluation</li>
+                      <li>• Weather damage documentation</li>
+                      <li>• Code compliance verification</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Detailed Estimate & Insurance Coordination</h3>
+                    <p className="text-gray-700 mb-3">
+                      We provide detailed written estimates that itemize all necessary repairs with material specifications and labor costs. Our team works directly with insurance adjusters familiar with Borger's unique weather challenges to ensure proper coverage.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Line-item repair breakdown</li>
+                      <li>• Insurance claim documentation</li>
+                      <li>• Timeline and scheduling coordination</li>
+                      <li>• Material upgrade options</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Professional Repair Execution</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our certified crews use premium materials engineered for Texas Panhandle conditions. All work follows manufacturer specifications and local building codes, with special attention to wind resistance and chemical compatibility for Borger's environment.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• High-wind rated materials installation</li>
+                      <li>• Chemical-resistant components</li>
+                      <li>• Quality control inspections</li>
+                      <li>• Clean-up and site restoration</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Quality Assurance & Warranty Protection</h3>
+                    <p className="text-gray-700 mb-3">
+                      Before project completion, our supervisors conduct final inspections to ensure all repairs meet our quality standards. We provide comprehensive warranties on both materials and workmanship, giving you long-term peace of mind.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Final quality inspection</li>
+                      <li>• Warranty documentation</li>
+                      <li>• Maintenance recommendations</li>
+                      <li>• 24/7 warranty support</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Why Choose 5 Star for Your Borger Roof Repairs?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Local Expertise Since 2014</h3>
+                <p className="text-gray-700 mb-4">
+                  We've been serving Borger and Hutchinson County for over a decade, completing 180+ projects. Our team understands the unique challenges posed by the area's industrial environment and severe weather patterns.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 180+ successful Borger projects</li>
+                  <li>• Local building code expertise</li>
+                  <li>• Established relationships with suppliers</li>
+                  <li>• Quick response times</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Insurance Specialists</h3>
+                <p className="text-gray-700 mb-4">
+                  Our certified insurance specialists work directly with adjusters to ensure you receive proper coverage for storm damage. We handle the paperwork and advocacy, so you focus on getting your property restored.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Complete insurance claim assistance</li>
+                  <li>• Direct adjuster communication</li>
+                  <li>• Damage documentation</li>
+                  <li>• Supplement negotiation</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Premium Materials</h3>
+                <p className="text-gray-700 mb-4">
+                  We exclusively use materials rated for Texas Panhandle conditions. Our partnerships with leading manufacturers ensure access to the latest technology in weather-resistant and chemical-resistant roofing systems.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• High-wind rated shingles</li>
+                  <li>• Chemical-resistant membranes</li>
+                  <li>• Impact-resistant materials</li>
+                  <li>• Manufacturer warranties</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Comprehensive Warranties</h3>
+                <p className="text-gray-700 mb-4">
+                  All our repairs include workmanship warranties ranging from 1-5 years depending on scope. Combined with manufacturer material warranties, you receive comprehensive protection for your investment.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 1-5 year workmanship warranties</li>
+                  <li>• Manufacturer material coverage</li>
+                  <li>• 24/7 warranty support</li>
+                  <li>• No-cost defect corrections</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Serving Borger and Surrounding Communities
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-6">
+                From our Amarillo headquarters, we serve Borger and the broader Hutchinson County area with the same commitment to quality and customer service. Our service area includes:
+              </p>
+              <div className="grid md:grid-cols-4 gap-4 text-center">
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Borger</h4>
+                  <p className="text-sm text-gray-600">City Center</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Stinnett</h4>
+                  <p className="text-sm text-gray-600">15 miles north</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Fritch</h4>
+                  <p className="text-sm text-gray-600">10 miles east</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Sanford</h4>
+                  <p className="text-sm text-gray-600">20 miles south</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Borger Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

@@ -180,6 +180,114 @@ export default function Page() {
           Cool roofing technologies integrated during repair projects include reflective coatings, light-colored membranes, and specialized granule systems that reduce heat absorption while extending roof life. These technologies prove especially beneficial for retail facilities, warehouses, and manufacturing operations that experience high internal heat loads during Amarillo's summer months when temperatures regularly exceed 90°F for extended periods.
         </p>
 
+        <h2 className="text-2xl font-bold mt-8 mb-4">Advanced Commercial Roofing Repair Technologies and Materials</h2>
+
+        <p>
+          Single-ply membrane repair systems represent the most advanced technology for commercial roof repairs in Amarillo's demanding climate. TPO (Thermoplastic Polyolefin) membrane repairs utilize automated welding equipment that creates seamless, chemically-bonded joints stronger than the original material. These repairs withstand thermal cycling, UV exposure, and chemical attack while providing 20+ year performance in High Plains conditions.
+        </p>
+
+        <p>
+          Modified bitumen repair systems using APP (Atactic Polypropylene) and SBS (Styrene-Butadiene-Styrene) polymers offer enhanced flexibility for buildings experiencing significant thermal movement. Cold-applied systems eliminate fire hazards during repairs while providing superior adhesion and weather resistance. These systems prove especially valuable for occupied buildings where hot-work restrictions limit repair options.
+        </p>
+
+        <p>
+          Fluid-applied roofing systems provide seamless repair solutions for complex roof geometries including penetrations, equipment curbs, and expansion joints. Silicone, polyurethane, and acrylic systems offer different performance characteristics suited to specific repair requirements. Advanced formulations resist ponding water, UV degradation, and thermal shock while providing renewable surface protection.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Specialized Repair Solutions for Amarillo's Industrial and Healthcare Sectors</h2>
+
+        <p>
+          Amarillo's major healthcare facilities including Northwest Texas Healthcare System, BSA Health System, and Texas Tech University Health Sciences Center require specialized commercial roof repair approaches that accommodate life-safety equipment and maintain sterile environments. Hospital roof repairs coordinate with infection control protocols, emergency power systems, and medical gas installations while ensuring uninterrupted patient care operations.
+        </p>
+
+        <p>
+          Manufacturing and processing facilities throughout Amarillo require roof repairs that accommodate production equipment, chemical exposure, and environmental controls. Food processing facilities demand repairs using FDA-approved materials and installation procedures that prevent contamination risks. Chemical and petroleum facilities require specialized safety protocols and fire-resistant repair materials.
+        </p>
+
+        <p>
+          Agricultural processing and storage facilities unique to the Texas Panhandle require roof repairs resistant to ammonia exposure, grain dust, and extreme loading conditions. These facilities often operate 24/7 during harvest seasons, demanding repair schedules that minimize operational disruption while providing immediate weather protection for valuable stored crops and processing equipment.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Climate-Adaptive Repair Strategies for High Plains Conditions</h2>
+
+        <p>
+          Amarillo's continental climate with extreme temperature variations requires specialized repair techniques that accommodate thermal stress and material expansion. Daily temperature swings of 40-50 degrees create unique challenges for membrane repairs, requiring flexible materials and expansion-accommodating installation methods that prevent premature failure.
+        </p>
+
+        <p>
+          Wind-resistant repair systems address Amarillo's persistent high winds and severe weather events. Mechanically-attached membrane repairs utilize enhanced fastening schedules and wind-uplift testing to ensure repairs withstand sustained winds over 70 mph. Edge securement details receive special attention as these areas experience the highest stress during wind events common throughout the Texas Panhandle.
+        </p>
+
+        <p>
+          UV-resistant repair materials and installation techniques address the intense solar radiation exposure at Amarillo's 3,600-foot elevation. Specialized membrane compounds, reflective coatings, and UV-blocking additives extend repair life while maintaining performance characteristics throughout the extended sunny seasons typical of High Plains climates.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Quality Control and Testing Procedures for Commercial Roof Repairs</h2>
+
+        <p>
+          Electronic leak detection systems using low-voltage electrical testing provide precise identification of membrane breaches and installation defects. These systems detect pinhole leaks and installation flaws that traditional flood testing cannot identify, ensuring complete weather-tightness before project completion. Vector mapping pinpoints exact leak locations for targeted repairs without unnecessary membrane damage.
+        </p>
+
+        <p>
+          Infrared thermography performed after repair completion verifies proper insulation installation and identifies thermal bridging that could compromise energy efficiency. Thermal imaging also detects moisture retention in existing insulation systems that might not be visible during conventional inspections but could lead to future problems if not addressed.
+        </p>
+
+        <p>
+          Core sampling and laboratory testing verify material compatibility and installation quality for critical repair applications. Adhesion testing, tensile strength measurement, and accelerated aging tests ensure repair materials meet or exceed manufacturer specifications while providing long-term performance in Amarillo's challenging environmental conditions.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Response Protocols and Business Continuity Planning</h2>
+
+        <p>
+          Commercial roof emergencies in Amarillo require immediate response capabilities that protect business operations and valuable interior assets. Our emergency response teams maintain pre-positioned materials, specialized equipment, and trained personnel available 24/7 for rapid deployment during severe weather events, system failures, or unexpected damage situations that threaten commercial operations.
+        </p>
+
+        <p>
+          Temporary weather protection systems designed for commercial applications utilize heavy-duty materials and professional installation techniques that provide reliable protection during emergency situations. Emergency tarping, temporary membrane patches, and interim drainage solutions protect commercial properties while permanent repairs are planned and implemented under optimal conditions.
+        </p>
+
+        <p>
+          Business continuity planning incorporates roof emergency procedures that minimize operational disruption during repair activities. Coordination with facility managers, IT departments, and operations teams ensures critical business functions continue during repair work while protecting personnel safety and maintaining environmental controls essential for sensitive operations.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Cost-Effective Repair Strategies and Budget Planning</h2>
+
+        <p>
+          Comprehensive roof assessments help commercial property owners prioritize repair needs and develop realistic budget plans that address immediate concerns while planning for long-term system replacement. Our assessment procedures identify repairs that provide maximum value while extending roof life and preventing costly emergency situations.
+        </p>
+
+        <p>
+          Phased repair programs allow commercial properties to spread repair costs over multiple budget cycles while addressing the most critical issues first. These programs coordinate with business operations, seasonal requirements, and capital improvement planning to provide optimal value while maintaining building protection and operational efficiency.
+        </p>
+
+        <p>
+          Value engineering techniques help identify cost-effective repair alternatives that provide equivalent performance at reduced costs. Material substitutions, installation method modifications, and scope adjustments can significantly reduce project costs while maintaining quality and longevity standards essential for commercial property protection.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Warranty and Performance Guarantees for Commercial Roof Repairs</h2>
+
+        <p>
+          Comprehensive warranty programs provide commercial property owners with long-term protection and peace of mind regarding repair quality and performance. Our repair warranties include materials coverage, workmanship guarantees, and performance standards that ensure repairs provide expected service life while maintaining building protection.
+        </p>
+
+        <p>
+          Extended warranty options available through manufacturer partnerships provide additional protection for qualifying repairs using specified materials and installation procedures. These programs often include periodic inspections, preventive maintenance services, and priority emergency response that maximize repair value while ensuring long-term performance.
+        </p>
+
+        <p>
+          Performance guarantees backed by independent testing and verification procedures ensure repair work meets specified standards for water-tightness, energy efficiency, and durability. These guarantees provide commercial property owners with objective measures of repair quality while establishing clear expectations for long-term performance in Amarillo's challenging climate conditions.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Sustainable Commercial Roofing Solutions and Environmental Impact</h2>
+
+        <p>
+          Environmental responsibility in commercial roof repair includes sustainable material selection, waste minimization, and energy efficiency improvements that reduce operational carbon footprints while providing long-term cost savings. Green repair practices support Amarillo's commitment to environmental stewardship while delivering superior performance in challenging High Plains conditions.
+        </p>
+
+        <p>
+          Recycled content roofing materials and renewable energy integration opportunities during repair projects provide pathways for commercial properties to achieve sustainability goals while maintaining operational efficiency. Solar-ready installations and cool roofing technologies reduce environmental impact while improving building performance throughout the Texas Panhandle region.
+        </p>
+
         <h2 className="text-2xl font-bold mt-8 mb-4">Our Commercial Roofing Services</h2>
 
         <ul className="list-disc pl-6 space-y-2">

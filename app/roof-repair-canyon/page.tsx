@@ -282,6 +282,312 @@ export default function RoofRepairCanyonPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Canyon Roof Repair Services We Provide
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">University District Specialist</h3>
+                <p className="text-gray-700 mb-4">
+                  Canyon is home to West Texas A&M University, creating unique roofing needs for student housing, faculty residences, and university facilities. We specialize in both residential and institutional roofing projects throughout the university district.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Student housing roof repairs</li>
+                  <li>• Faculty residential services</li>
+                  <li>• Commercial property maintenance</li>
+                  <li>• Emergency response for campus area</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Palo Duro Canyon Wind Patterns</h3>
+                <p className="text-gray-700 mb-4">
+                  Canyon's proximity to Palo Duro Canyon creates unique wind patterns and microclimates that affect roofing systems. Our team understands how canyon geography influences weather damage and material selection.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Wind-channel damage assessment</li>
+                  <li>• Canyon-specific weather resistance</li>
+                  <li>• Microclimate-adapted materials</li>
+                  <li>• Geographic hazard evaluation</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Historic Downtown Preservation</h3>
+                <p className="text-gray-700 mb-4">
+                  Canyon's historic downtown district requires specialized attention to preserve architectural integrity while upgrading roofing systems. We balance historical preservation with modern performance standards.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Historical building compliance</li>
+                  <li>• Period-appropriate materials</li>
+                  <li>• Preservation society coordination</li>
+                  <li>• Code-compliant upgrades</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Community Support</h3>
+                <p className="text-gray-700 mb-4">
+                  Canyon serves the surrounding agricultural community with ranching and farming operations. We provide specialized roofing services for agricultural buildings, barns, and rural residential properties.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Agricultural building repairs</li>
+                  <li>• Ranch and farm structures</li>
+                  <li>• Rural residential services</li>
+                  <li>• Large-span roof systems</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Canyon's Unique Geographic Challenges
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🏔️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Canyon Geography</h3>
+                <p className="text-gray-700">
+                  Located near Palo Duro Canyon, America's second-largest canyon, creating unique wind funneling effects and microclimate variations that impact roofing system performance and longevity.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🎓</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">University Environment</h3>
+                <p className="text-gray-700">
+                  West Texas A&M University brings diverse architectural styles and high-density housing that requires specialized roofing approaches for both historic and modern campus buildings.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl text-brand-gold mb-4">🌾</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Hub</h3>
+                <p className="text-gray-700">
+                  Canyon serves as a regional agricultural center, requiring roofing solutions for diverse building types from residential homes to large agricultural facilities and grain storage structures.
+                </p>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Local Weather Patterns</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Canyon Wind Effects</h4>
+                  <p className="text-gray-700 mb-4">
+                    Palo Duro Canyon creates wind-tunneling effects that can amplify High Plains winds from 60+ mph to even higher velocities. These concentrated wind patterns create unique stress on roofing systems not found in other Panhandle communities.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Hail Concentration</h4>
+                  <p className="text-gray-700 mb-4">
+                    Canyon's location in "Hail Alley" means 8-10 significant hailstorms annually, with the canyon geography sometimes creating hail size variations across the city. Our damage assessment accounts for these local patterns.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Our Canyon Roof Repair Process
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Rapid Response Assessment</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our Canyon service team provides rapid response to emergency calls, understanding that university district timing is critical for students and faculty. We prioritize same-day emergency response and work around academic schedules when possible.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• University district priority response</li>
+                      <li>• Academic calendar consideration</li>
+                      <li>• Student housing emergency protocols</li>
+                      <li>• Faculty and staff accommodation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Geographic-Specific Inspection</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our inspectors understand how Canyon's proximity to Palo Duro Canyon affects wind patterns and weather damage. We evaluate not just current damage but also geographic risk factors unique to this location.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Canyon wind pattern analysis</li>
+                      <li>• Microclimate damage assessment</li>
+                      <li>• Historic building evaluation</li>
+                      <li>• University code compliance check</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Customized Material Selection</h3>
+                    <p className="text-gray-700 mb-3">
+                      Based on Canyon's unique geographic challenges, we recommend materials specifically rated for canyon wind effects and high-velocity impact zones. Historical district projects may require special architectural considerations.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• High-wind zone materials</li>
+                      <li>• Historical preservation compliance</li>
+                      <li>• University aesthetic standards</li>
+                      <li>• Agricultural building solutions</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Community-Focused Installation</h3>
+                    <p className="text-gray-700 mb-3">
+                      Our installation teams work with Canyon's community character in mind, minimizing disruption to university activities and respecting the needs of both residential and agricultural properties throughout the area.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Academic schedule coordination</li>
+                      <li>• Residential neighborhood consideration</li>
+                      <li>• Agricultural operation accommodation</li>
+                      <li>• Historic district protocols</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Long-Term Performance Monitoring</h3>
+                    <p className="text-gray-700 mb-3">
+                      Given Canyon's unique weather patterns, we provide extended monitoring services to ensure repairs perform as expected under local conditions. Our warranty service includes regular check-ins during severe weather seasons.
+                    </p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Seasonal performance monitoring</li>
+                      <li>• Storm damage follow-up</li>
+                      <li>• Warranty compliance tracking</li>
+                      <li>• Preventive maintenance scheduling</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Why Choose 5 Star for Your Canyon Roof Repairs?
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">University District Experience</h3>
+                <p className="text-gray-700 mb-4">
+                  We've served West Texas A&M University area properties for over a decade, understanding the unique needs of university housing, faculty residences, and campus-adjacent commercial properties.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• 350+ Canyon area projects completed</li>
+                  <li>• University district specialization</li>
+                  <li>• Student housing expertise</li>
+                  <li>• Academic calendar accommodation</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Canyon Geographic Expertise</h3>
+                <p className="text-gray-700 mb-4">
+                  Our team understands how Palo Duro Canyon geography affects local weather patterns and building performance. We factor these unique conditions into every repair recommendation and material selection.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Canyon wind pattern expertise</li>
+                  <li>• Microclimate damage assessment</li>
+                  <li>• Geographic risk evaluation</li>
+                  <li>• Location-specific solutions</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Historical Preservation</h3>
+                <p className="text-gray-700 mb-4">
+                  Canyon's historic downtown district requires specialized knowledge of preservation standards and period-appropriate materials. We balance historical integrity with modern performance requirements.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Historic building compliance</li>
+                  <li>• Preservation society coordination</li>
+                  <li>• Period-appropriate materials</li>
+                  <li>• Architectural integrity maintenance</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Community Support</h3>
+                <p className="text-gray-700 mb-4">
+                  We serve Canyon's broader agricultural community with specialized services for farming and ranching operations, understanding the unique requirements of agricultural buildings and rural properties.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Agricultural building expertise</li>
+                  <li>• Ranch and farm services</li>
+                  <li>• Large-span roof systems</li>
+                  <li>• Rural property specialization</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Serving Canyon and Randall County
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-6">
+                From our Amarillo headquarters, we serve Canyon and the broader Randall County area, including West Texas A&M University district, historic downtown, and surrounding agricultural communities:
+              </p>
+              <div className="grid md:grid-cols-4 gap-4 text-center">
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Canyon</h4>
+                  <p className="text-sm text-gray-600">City Center & WTAMU</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Buffalo Lake</h4>
+                  <p className="text-sm text-gray-600">10 miles south</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Umbarger</h4>
+                  <p className="text-sm text-gray-600">15 miles southwest</p>
+                </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="font-bold text-brand-brown">Happy</h4>
+                  <p className="text-sm text-gray-600">20 miles east</p>
+                </div>
+              </div>
+              <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Palo Duro Canyon State Park Area</h4>
+                <p className="text-gray-700">
+                  We also serve properties near Palo Duro Canyon State Park, understanding the unique environmental challenges and building requirements for this scenic but challenging geographic area.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Canyon Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

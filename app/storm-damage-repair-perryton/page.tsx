@@ -225,6 +225,138 @@ export default function StormDamageRepairPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Northernmost Panhandle Storm Exposure
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Maximum Plains Exposure</h3>
+                <p className="text-gray-700 mb-4">
+                  Perryton's position as the northernmost Texas Panhandle city means storms arrive with full intensity after building strength across 300+ miles of open plains from Colorado and Kansas. With no terrain barriers and elevation around 2,900 feet, supercells maintain peak power longer than anywhere else in the region.
+                </p>
+                <p className="text-gray-700">
+                  The agricultural landscape provides no wind protection, allowing storms to approach with devastating force. Properties throughout Ochiltree County face some of the most extreme weather conditions in the entire state, requiring specialized storm-resistant construction methods.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Wheat Country Storm Patterns</h3>
+                <p className="text-gray-700 mb-4">
+                  Perryton sits in prime wheat country where vast agricultural fields create unique microclimate effects. During growing season, the moisture from irrigated fields can enhance storm development, while harvest season creates massive dust storms that can compound severe weather damage.
+                </p>
+                <p className="text-gray-700">
+                  Agricultural debris—wheat chaff, irrigation equipment, and farm machinery—becomes dangerous projectiles during high winds. Our installations account for these agricultural hazards with enhanced impact resistance and secure attachment systems.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Perryton Emergency Response Protocol
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
+                <h3 className="text-xl font-bold mb-3 text-red-700">Immediate Response (0-4 hours)</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Safety assessment and area securing</li>
+                  <li>• Emergency tarping for active leaks</li>
+                  <li>• Structural stability evaluation</li>
+                  <li>• Initial damage documentation</li>
+                  <li>• Insurance company notification</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
+                <h3 className="text-xl font-bold mb-3 text-orange-700">Documentation Phase (1-3 days)</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Comprehensive damage inspection</li>
+                  <li>• Weather correlation analysis</li>
+                  <li>• Insurance adjuster coordination</li>
+                  <li>• Material specification development</li>
+                  <li>• Project timeline establishment</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-500">
+                <h3 className="text-xl font-bold mb-3 text-green-700">Restoration Phase (1-3 weeks)</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Complete damage remediation</li>
+                  <li>• Upgraded material installation</li>
+                  <li>• Quality control inspections</li>
+                  <li>• Final insurance documentation</li>
+                  <li>• Warranty processing</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Agricultural Storm Damage Specialization
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Farm Building Expertise</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div>
+                      <h4 className="font-semibold">Grain Storage Facilities</h4>
+                      <p className="text-gray-600 text-sm">Specialized repairs for grain bins, elevators, and storage facilities with moisture protection and structural integrity focus.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div>
+                      <h4 className="font-semibold">Livestock Buildings</h4>
+                      <p className="text-gray-600 text-sm">Rapid repair for cattle barns, milking facilities, and animal housing with ventilation system restoration.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div>
+                      <h4 className="font-semibold">Equipment Storage</h4>
+                      <p className="text-gray-600 text-sm">Protection restoration for expensive agricultural machinery and implement buildings.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div>
+                      <h4 className="font-semibold">Processing Facilities</h4>
+                      <p className="text-gray-600 text-sm">Specialized repairs for grain processing and agricultural production facilities with sanitation requirements.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-6 text-brand-gold">Agricultural Insurance Expertise</h3>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Farm Policy Requirements</h4>
+                    <p className="text-gray-600 text-sm">We understand the unique requirements of agricultural insurance policies and document damage appropriately for maximum coverage.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Operational Continuity</h4>
+                    <p className="text-gray-600 text-sm">Our repairs prioritize getting agricultural operations back online quickly to minimize crop and livestock losses.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Multi-Structure Efficiency</h4>
+                    <p className="text-gray-600 text-sm">Farms benefit from coordinated repairs across multiple buildings, reducing costs and timeline through efficient project management.</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Seasonal Scheduling</h4>
+                    <p className="text-gray-600 text-sm">We understand farming schedules and prioritize repairs around planting, growing, and harvest seasons.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions

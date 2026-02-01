@@ -123,6 +123,63 @@ export default function HailDamageLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">South Plains: Epicenter of Texas Hail Belt</h2>
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+              <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+                Lubbock sits at the geographic heart of Texas's infamous "Hail Belt," where Lubbock County's position on the High Plains creates ideal atmospheric conditions for severe hailstorm development. At 3,256 feet elevation with unlimited visibility across the flat Llano Estacado, the region experiences some of the most intense and frequent hailstorms in North America.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Atmospheric Perfect Storm</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Caprock Escarpment Effect:</strong> Creates lifting and atmospheric convergence</li>
+                    <li><strong>Jet Stream Position:</strong> Upper-level winds enhance storm rotation</li>
+                    <li><strong>Dryline Interactions:</strong> Desert air meets Gulf moisture explosively</li>
+                    <li><strong>Temperature Contrasts:</strong> Extreme gradients fuel supercell development</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">University Town Challenges</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Texas Tech Campus:</strong> 40,000+ students in vulnerable housing</li>
+                    <li><strong>Agricultural Research:</strong> Critical facilities need protection</li>
+                    <li><strong>Student Housing:</strong> High-density residential areas</li>
+                    <li><strong>Economic Impact:</strong> Education and agriculture depend on infrastructure</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-red-700 mb-2">Legendary Hail Events</h4>
+                <p className="text-gray-700 mb-2">Historic Lubbock County storms:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• May 1995: 5.7" diameter, largest recorded</li>
+                  <li>• April 2019: Softball size citywide</li>
+                  <li>• March 2023: Multiple supercells, $200M+</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-blue-700 mb-2">Annual Impact</h4>
+                <p className="text-gray-700 mb-2">Hail damage in South Plains:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• $100-200 million property damage</li>
+                  <li>• 40-60% of structures need repair</li>
+                  <li>• 80% experience some damage level</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-green-700 mb-2">Protection Standards</h4>
+                <p className="text-gray-700 mb-2">Essential for Lubbock properties:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Class 4 impact-resistant mandatory</li>
+                  <li>• High-wind rated systems</li>
+                  <li>• Professional annual inspections</li>
+                </ul>
+              </div>
+            </div>
+
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Understanding Lubbock's Hail Climate</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-8 rounded-lg shadow-md">
@@ -158,6 +215,70 @@ export default function HailDamageLubbockPage() {
                 <p className="text-gray-700 mb-4">Lubbock's extreme UV exposure (over 260 sunny days annually at 3,256-foot elevation) accelerates damage from hail-related granule loss. When hail removes protective granules from asphalt shingles, the exposed asphalt mat deteriorates rapidly under Lubbock's intense high-altitude sunlight.</p>
                 <p className="text-gray-700 mb-4">Temperature extremes in Lubbock range from below 10°F in winter to over 105°F in summer, creating thermal cycling that exacerbates hail damage. Cracked or bruised shingles from hail impacts fail more quickly under these thermal stresses than in milder climates.</p>
                 <p className="text-gray-700">Low humidity levels (average 45% annually) combined with constant wind create desiccation conditions that make hail-damaged roofing materials brittle and prone to sudden failure, often months after the initial storm damage occurred.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">South Plains Insurance Claims Mastery</h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Lubbock's High-Risk Zone Status</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Catastrophic Claim Procedures</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• City-wide events trigger special protocols</li>
+                    <li>• Emergency adjuster deployments from statewide</li>
+                    <li>• Expedited processing for mass claims</li>
+                    <li>• Enhanced documentation requirements</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">University Area Considerations</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Student housing multiple unit coordination</li>
+                    <li>• Academic calendar impact timing</li>
+                    <li>• Landlord-tenant insurance interactions</li>
+                    <li>• Temporary housing coverage needs</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Tech Hub Insurance Complexities</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Research Facility Coverage</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Texas Tech property specialized policies</li>
+                    <li>• Agricultural research equipment coverage</li>
+                    <li>• Business interruption for contractors</li>
+                    <li>• High-value equipment protection</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Medical District Concerns</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• UMC and hospital facility protection</li>
+                    <li>• Critical infrastructure requirements</li>
+                    <li>• Medical equipment weather exposure</li>
+                    <li>• Emergency service continuity needs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+              <h4 className="text-xl font-bold mb-3">Our Lubbock County Expertise</h4>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <p className="text-lg mb-2">Serving the South Plains for over 10 years with deep knowledge of university town and agricultural community insurance challenges.</p>
+                </div>
+                <div>
+                  <p className="text-brand-gold-light font-semibold">97%+ approval rate • $250M+ in processed claims • Hub City specialists since 2014</p>
+                </div>
               </div>
             </div>
           </section>

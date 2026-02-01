@@ -222,6 +222,168 @@ export default function AsphaltShingleRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Residential Value & Protection for Borger Homeowners
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏠 Homeowner Benefits</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Affordable upfront investment</li>
+                  <li>✓ Wide variety of colors and styles</li>
+                  <li>✓ Proven performance in Texas weather</li>
+                  <li>✓ Insurance claim expertise</li>
+                  <li>✓ Comprehensive warranty coverage</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⭐ Premium Performance</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Impact-resistant Class 4 options</li>
+                  <li>✓ Wind resistance up to 130 mph</li>
+                  <li>✓ Algae-resistant formulations</li>
+                  <li>✓ Energy-efficient cool roof options</li>
+                  <li>✓ 30-50 year manufacturer warranties</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Borger Residential Roofing Challenges</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Borger homeowners face unique challenges from the Texas Panhandle's severe weather patterns. With 7-9 hailstorms annually, high winds exceeding 60 mph, and extreme temperature fluctuations, residential properties need roofing systems that provide both affordability and exceptional protection.
+              </p>
+              <p className="text-lg text-gray-700">
+                Our premium asphalt shingle systems are specifically selected for Borger's climate, offering homeowners the perfect balance of value, performance, and curb appeal while providing superior protection against Panhandle weather extremes.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Premium Shingle Options for Borger Homes
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Architectural Shingles</h3>
+                <p className="text-gray-700 mb-3">
+                  Premium dimensional shingles that provide superior weather protection and enhanced curb appeal for Borger homes.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• 30-50 year warranties</li>
+                  <li>• Class A fire rating</li>
+                  <li>• Multiple color options</li>
+                  <li>• Enhanced wind resistance</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Impact-Resistant</h3>
+                <p className="text-gray-700 mb-3">
+                  UL 2218 Class 4 shingles designed specifically for hail-prone areas like Borger, often qualifying for insurance discounts.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• SBS modified asphalt</li>
+                  <li>• Enhanced granule adhesion</li>
+                  <li>• Insurance premium savings</li>
+                  <li>• Superior impact protection</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Designer Series</h3>
+                <p className="text-gray-700 mb-3">
+                  Premium luxury shingles that replicate the appearance of wood, slate, or tile while providing superior performance.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Authentic material appearance</li>
+                  <li>• Enhanced dimensional profile</li>
+                  <li>• Premium color blends</li>
+                  <li>• Lifetime limited warranties</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Insurance Claims & Storm Damage Assistance
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Complete Claims Support</h3>
+                  <p className="text-gray-700 mb-4">
+                    With Borger's frequent hailstorms, we provide comprehensive insurance claim assistance to ensure homeowners receive proper compensation for storm damage.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Free storm damage inspections</li>
+                    <li>• Insurance adjuster meetings</li>
+                    <li>• Detailed damage documentation</li>
+                    <li>• Supplement negotiation assistance</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Homeowner Savings</h3>
+                  <p className="text-gray-700 mb-4">
+                    Many Borger homeowners pay only their deductible when insurance covers approved storm damage claims for eligible repairs.
+                  </p>
+                  <div className="grid grid-cols-2 gap-4 text-center">
+                    <div className="p-3 bg-green-50 rounded">
+                      <div className="text-2xl font-bold text-brand-gold">95%</div>
+                      <div className="text-sm">Claim Success Rate</div>
+                    </div>
+                    <div className="p-3 bg-blue-50 rounded">
+                      <div className="text-2xl font-bold text-brand-gold">$500-1K</div>
+                      <div className="text-sm">Typical Deductible</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Efficiency for Borger Homes
+            </h2>
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Cool Roof Shingle Technology</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Reflective Granules</h4>
+                  <p className="text-gray-700 mb-4">
+                    Advanced granule technology reflects more sunlight and absorbs less heat, reducing attic temperatures and cooling costs.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• ENERGY STAR qualified options</li>
+                    <li>• Solar reflectance up to 40%</li>
+                    <li>• Thermal emittance ratings 0.83+</li>
+                    <li>• Attic temperature reduction up to 15°F</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Homeowner Savings</h4>
+                  <p className="text-gray-700 mb-4">
+                    Energy-efficient shingles can reduce cooling costs by 10-15% during Borger's hot summers while improving home comfort.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Reduced utility bills</li>
+                    <li>• Improved HVAC efficiency</li>
+                    <li>• Extended equipment lifespan</li>
+                    <li>• Potential utility rebates</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Asphalt Shingle Roofing FAQs - Borger, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

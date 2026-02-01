@@ -222,6 +222,115 @@ export default function AsphaltShingleRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Quality Roofing Solutions for Canyon Families
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏡 Family Home Protection</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ WTAMU faculty and staff homes</li>
+                  <li>✓ Growing family neighborhoods</li>
+                  <li>✓ Historic district preservation</li>
+                  <li>✓ New construction communities</li>
+                  <li>✓ Ranch and rural properties</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">💰 Value & Affordability</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Budget-friendly installation costs</li>
+                  <li>✓ Excellent return on investment</li>
+                  <li>✓ Flexible financing options</li>
+                  <li>✓ Insurance claim assistance</li>
+                  <li>✓ Comprehensive warranties</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Family-Friendly Roofing Needs</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Canyon's close-knit community includes many university families, longtime residents, and newcomers attracted to the area's quality of life. These homeowners need roofing solutions that provide reliable protection, attractive curb appeal, and excellent value for their investment.
+              </p>
+              <p className="text-lg text-gray-700">
+                Our asphalt shingle systems deliver the perfect combination of affordability, durability, and aesthetic appeal that Canyon families deserve, with proven performance in the challenging Panhandle climate.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Architectural Styles for Canyon Homes
+            </h2>
+            <div className="grid md:grid-cols-4 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Traditional</h3>
+                <p className="text-gray-700 text-sm mb-3">Classic three-tab and architectural shingles for timeless appeal</p>
+                <div className="text-2xl font-bold text-brand-gold">$3-6</div>
+                <div className="text-gray-600 text-sm">per sq ft</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Designer</h3>
+                <p className="text-gray-700 text-sm mb-3">Premium dimensional shingles with enhanced curb appeal</p>
+                <div className="text-2xl font-bold text-brand-gold">$5-9</div>
+                <div className="text-gray-600 text-sm">per sq ft</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Luxury</h3>
+                <p className="text-gray-700 text-sm mb-3">High-end shingles mimicking slate or wood shake</p>
+                <div className="text-2xl font-bold text-brand-gold">$7-12</div>
+                <div className="text-gray-600 text-sm">per sq ft</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Impact</h3>
+                <p className="text-gray-700 text-sm mb-3">Class 4 hail-resistant options with insurance benefits</p>
+                <div className="text-2xl font-bold text-brand-gold">$6-10</div>
+                <div className="text-gray-600 text-sm">per sq ft</div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Homeowner Financing & Payment Options
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Flexible Payment Solutions</h3>
+                  <p className="text-gray-700 mb-4">
+                    We understand that a new roof is a significant investment for Canyon families. Our flexible financing options make quality roofing accessible and affordable.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• 0% interest financing available</li>
+                    <li>• Extended payment terms</li>
+                    <li>• No prepayment penalties</li>
+                    <li>• Quick approval process</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insurance Claim Support</h3>
+                  <p className="text-gray-700 mb-4">
+                    Many Canyon homeowners are surprised to learn their insurance covers storm damage. We help navigate the claims process from start to finish.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Free damage assessments</li>
+                    <li>• Insurance company negotiations</li>
+                    <li>• Detailed documentation</li>
+                    <li>• Deductible-only payment options</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Asphalt Shingle Roofing FAQs - Canyon, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

@@ -222,6 +222,160 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Grain Community Residential Roofing for Perryton Families
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🌾 Agricultural Community</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Farm and grain industry families</li>
+                  <li>✓ Small-town residential charm</li>
+                  <li>✓ Multi-generational homesteads</li>
+                  <li>✓ Rural-suburban developments</li>
+                  <li>✓ Agricultural professional housing</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">💪 Agricultural Durability</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Dust and debris resistance</li>
+                  <li>✓ Grain dust protection</li>
+                  <li>✓ Chemical exposure resistance</li>
+                  <li>✓ High wind performance</li>
+                  <li>✓ Long-term value focus</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Perryton's Agricultural Community Values</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Perryton's grain industry creates a close-knit community where families value quality, durability, and value for their investments. These homeowners understand the importance of protection against harsh weather while maintaining budgets that work for agricultural families.
+              </p>
+              <p className="text-lg text-gray-700">
+                Our asphalt shingle solutions provide the perfect balance of agricultural-grade durability, family-friendly pricing, and the aesthetic appeal that reflects Perryton's community pride and agricultural heritage.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Agricultural Environment Roofing Solutions
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Resistance</h3>
+                <p className="text-gray-700 mb-3">
+                  Specially formulated granules and smooth surfaces resist grain dust accumulation common near elevators and processing facilities.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Self-cleaning granule surfaces</li>
+                  <li>• Reduced maintenance needs</li>
+                  <li>• Wind-assisted debris removal</li>
+                  <li>• Maintained aesthetic appearance</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Chemical Protection</h3>
+                <p className="text-gray-700 mb-3">
+                  Enhanced resistance to agricultural chemicals including fertilizers, herbicides, and grain treatment products.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Chemical-resistant granules</li>
+                  <li>• Asphalt modifier protection</li>
+                  <li>• Coating integrity preservation</li>
+                  <li>• Extended color retention</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Value Engineering</h3>
+                <p className="text-gray-700 mb-3">
+                  Cost-effective solutions that provide maximum protection and longevity for agricultural family budgets.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Competitive agricultural pricing</li>
+                  <li>• Extended warranty options</li>
+                  <li>• Seasonal installation flexibility</li>
+                  <li>• Family budget considerations</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Community-Focused Service for Perryton Families
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Small Town Values</h3>
+                  <p className="text-gray-700 mb-4">
+                    We understand Perryton's small-town community values and provide personalized service that reflects the trust and relationships important to agricultural families.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Local community involvement</li>
+                    <li>• Neighbor referral programs</li>
+                    <li>• Agricultural community discounts</li>
+                    <li>• Family business approach</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Scheduling</h3>
+                  <p className="text-gray-700 mb-4">
+                    Flexible scheduling that works around harvest times, planting seasons, and the unique demands of agricultural operations.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Off-season project scheduling</li>
+                    <li>• Weather-dependent flexibility</li>
+                    <li>• Quick response for storm damage</li>
+                    <li>• Multi-property coordination</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Long-Term Investment Protection
+            </h2>
+            <div className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Generational Roofing Solutions</h3>
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">25-50</div>
+                  <div className="font-semibold mb-1">Year Service</div>
+                  <div className="text-gray-600 text-sm">Family protection</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">3</div>
+                  <div className="font-semibold mb-1">Generation</div>
+                  <div className="text-gray-600 text-sm">Family businesses</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">$2-4K</div>
+                  <div className="font-semibold mb-1">Insurance</div>
+                  <div className="text-gray-600 text-sm">Premium savings</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">100%</div>
+                  <div className="font-semibold mb-1">Satisfaction</div>
+                  <div className="text-gray-600 text-sm">Guarantee</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Asphalt Shingle Roofing FAQs - Perryton, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

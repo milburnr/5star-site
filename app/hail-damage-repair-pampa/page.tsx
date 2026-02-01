@@ -169,6 +169,131 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Pampa's Location in the Texas Hail Belt</h2>
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+              <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+                Pampa sits in a particularly active zone of Texas's "Hail Belt," where Gray County's position at 3,238 feet elevation creates ideal conditions for severe thunderstorm development. The northern Panhandle location places Pampa at the convergence of multiple storm tracks, including the notorious "Dryline" where dry desert air from the west meets moist Gulf air from the southeast.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Atmospheric Dynamics</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Canadian River Valley:</strong> Enhances low-level wind shear and convergence</li>
+                    <li><strong>Caprock Proximity:</strong> Terrain features strengthen storm updrafts</li>
+                    <li><strong>High Plains Position:</strong> Extreme temperature contrasts fuel supercells</li>
+                    <li><strong>Jet Stream Interaction:</strong> Upper-level winds enhance storm rotation</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Industrial Weather Risks</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li><strong>Cabot Corporation:</strong> Critical carbon black production facilities</li>
+                    <li><strong>PISD Properties:</strong> 3,312 students across multiple buildings</li>
+                    <li><strong>Oil & Gas Infrastructure:</strong> Wells, processing, and storage facilities</li>
+                    <li><strong>Historic Celanese Site:</strong> Environmental monitoring continues</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-red-700 mb-2">Major Hail Events</h4>
+                <p className="text-gray-700 mb-2">Significant Gray County storms:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• May 2018: Baseball size, widespread damage</li>
+                  <li>• April 2020: Golf ball to tennis ball size</li>
+                  <li>• March 2023: Multiple rounds, $6M losses</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-blue-700 mb-2">Annual Impact</h4>
+                <p className="text-gray-700 mb-2">Storm damage in Gray County:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• $4-7 million property damage</li>
+                  <li>• 20-30% of structures need repair</li>
+                  <li>• 50% experience minor damage</li>
+                </ul>
+              </div>
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-green-700 mb-2">Best Practices</h4>
+                <p className="text-gray-700 mb-2">Essential for Pampa properties:</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Impact-resistant roofing systems</li>
+                  <li>• Regular post-storm inspections</li>
+                  <li>• Prompt insurance claim filing</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Gray County Insurance Claims: Local Expertise</h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Industrial vs. Residential Coverage</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Residential Properties</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Standard homeowner's policies</li>
+                    <li>• Typical deductibles: $1,000-$2,500</li>
+                    <li>• Replacement cost most common</li>
+                    <li>• Impact-resistant upgrade coverage</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Commercial/Industrial</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Commercial property policies required</li>
+                    <li>• Higher deductibles: $10,000-$50,000</li>
+                    <li>• Business interruption coverage</li>
+                    <li>• Specialized equipment coverage</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Pampa-Specific Challenges</h3>
+                <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Distance Considerations</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Adjuster travel affects timing</li>
+                    <li>• Weather verification crucial</li>
+                    <li>• Contractor scheduling coordination</li>
+                    <li>• Materials delivery logistics</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Industrial Complexities</h4>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Environmental compliance requirements</li>
+                    <li>• Production downtime considerations</li>
+                    <li>• Specialized roofing systems</li>
+                    <li>• Safety protocol adherence</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-6 rounded-xl">
+              <h4 className="text-xl font-bold mb-3">Our Gray County Track Record</h4>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <p className="text-lg mb-2">Serving Pampa since 2014 with both residential and commercial expertise. We understand the unique challenges of Gray County's industrial and residential mix.</p>
+                </div>
+                <div>
+                  <p className="text-brand-gold-light font-semibold">96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour emergency response</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Pampa Hail Damage Repair Process</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">

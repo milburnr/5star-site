@@ -221,6 +221,209 @@ export default function TpoRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Borger Businesses Choose TPO Roofing
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">📊 Commercial Performance</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ 20-30 year lifespan in Panhandle weather</li>
+                  <li>✓ Class A fire resistance for industrial zones</li>
+                  <li>✓ Chemical resistance for petrochemical environment</li>
+                  <li>✓ Energy savings up to 30% annually</li>
+                  <li>✓ OSHA-compliant walkways available</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏭 Industrial Applications</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Manufacturing facilities</li>
+                  <li>✓ Warehouses and distribution centers</li>
+                  <li>✓ Office buildings and retail</li>
+                  <li>✓ Educational institutions</li>
+                  <li>✓ Healthcare facilities</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Borger's Commercial Roofing Challenges</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Borger's unique industrial environment creates specific roofing demands. The city's petrochemical operations, combined with Texas Panhandle weather extremes, require roofing systems that can withstand chemical exposure, extreme temperature fluctuations, and severe weather events including frequent hailstorms and high winds.
+              </p>
+              <p className="text-lg text-gray-700">
+                TPO roofing excels in these conditions due to its chemical resistance, UV stability, and proven performance in industrial environments. Our commercial-grade TPO systems are specifically designed for Borger's challenging climate and industrial atmosphere.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              TPO Installation Process for Borger Commercial Properties
+            </h2>
+            <div className="grid md:grid-cols-1 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 1: Pre-Installation Assessment</h3>
+                <p className="text-gray-700 mb-3">
+                  Complete building analysis including structural capacity evaluation, existing roof condition assessment, and energy efficiency analysis. We coordinate with Borger building officials to ensure all permits are secured before work begins.
+                </p>
+                <ul className="text-gray-600 space-y-1 ml-4">
+                  <li>• Structural engineering review for industrial loads</li>
+                  <li>• Existing membrane removal planning</li>
+                  <li>• Insulation requirements based on building use</li>
+                  <li>• Access planning for industrial facilities</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 2: Deck Preparation & Insulation</h3>
+                <p className="text-gray-700 mb-3">
+                  Professional deck preparation ensures optimal TPO performance. Our team installs high-R-value insulation systems designed for Borger's extreme temperature variations, maximizing energy efficiency for commercial operations.
+                </p>
+                <ul className="text-gray-600 space-y-1 ml-4">
+                  <li>• Deck cleaning and repair</li>
+                  <li>• Vapor barrier installation</li>
+                  <li>• Polyiso or XPS insulation placement</li>
+                  <li>• Cover board installation for membrane protection</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 3: TPO Membrane Installation</h3>
+                <p className="text-gray-700 mb-3">
+                  Heat-welded TPO installation using commercial-grade equipment. Our certified installers ensure every seam meets manufacturer specifications for maximum durability in Borger's challenging industrial environment.
+                </p>
+                <ul className="text-gray-600 space-y-1 ml-4">
+                  <li>• Precision membrane cutting and fitting</li>
+                  <li>• Heat-welded seam joining (400°F minimum)</li>
+                  <li>• Mechanical fastening per wind uplift requirements</li>
+                  <li>• Penetration sealing and flashing details</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 4: Quality Control & Final Inspection</h3>
+                <p className="text-gray-700 mb-3">
+                  Comprehensive testing ensures system integrity. Every seam is tested, all penetrations are verified watertight, and the complete system undergoes final inspection before project completion and warranty activation.
+                </p>
+                <ul className="text-gray-600 space-y-1 ml-4">
+                  <li>• Electronic leak detection testing</li>
+                  <li>• Seam strength verification</li>
+                  <li>• Final walkthrough with building owner</li>
+                  <li>• Warranty documentation and maintenance schedule</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Commercial TPO Benefits for Borger Businesses
+            </h2>
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Energy Efficiency & Cost Savings</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-white p-6 rounded-xl shadow">
+                  <h4 className="font-bold mb-2">Summer Cooling</h4>
+                  <p className="text-gray-700">White TPO membrane reflects 80%+ of UV rays, reducing cooling costs by 20-30% during Borger's hot summers.</p>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow">
+                  <h4 className="font-bold mb-2">Winter Insulation</h4>
+                  <p className="text-gray-700">Continuous insulation layer eliminates thermal bridging, maintaining consistent interior temperatures.</p>
+                </div>
+                <div className="bg-white p-6 rounded-xl shadow">
+                  <h4 className="font-bold mb-2">Utility Rebates</h4>
+                  <p className="text-gray-700">Energy-efficient TPO systems qualify for local utility rebates and federal tax credits.</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Weather Protection & Durability</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Hail Resistance</h4>
+                  <p className="text-gray-700 mb-4">
+                    Borger experiences 7-9 hailstorms annually. Our reinforced TPO systems with impact-resistant membranes (60-80 mil thickness) provide superior protection against hail damage.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• UL 2218 Class 4 impact rating available</li>
+                    <li>• Flexible membrane absorbs impact energy</li>
+                    <li>• Insurance premium discounts often available</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Wind Uplift Resistance</h4>
+                  <p className="text-gray-700 mb-4">
+                    Texas Panhandle winds regularly exceed 60 mph. Our TPO systems are engineered for UL-580 Class 90 wind uplift resistance, ensuring membrane security during severe weather.
+                  </p>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Fully adhered or mechanically attached systems</li>
+                    <li>• Enhanced edge and corner fastening</li>
+                    <li>• Proven performance in 100+ mph winds</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              TPO Maintenance for Borger Commercial Properties
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Preventive Maintenance Schedule</h3>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-brand-gold pl-4">
+                      <h4 className="font-bold">Semi-Annual Inspections</h4>
+                      <p className="text-gray-700">Spring and fall inspections identify potential issues before they become costly problems.</p>
+                    </div>
+                    <div className="border-l-4 border-brand-gold pl-4">
+                      <h4 className="font-bold">Post-Storm Assessments</h4>
+                      <p className="text-gray-700">Immediate inspection after hailstorms or severe wind events to document any damage for insurance claims.</p>
+                    </div>
+                    <div className="border-l-4 border-brand-gold pl-4">
+                      <h4 className="font-bold">Membrane Cleaning</h4>
+                      <p className="text-gray-700">Annual cleaning maintains reflectivity and extends membrane life in Borger's dusty environment.</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Common Maintenance Items</h3>
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start">
+                      <span className="text-brand-gold mr-2">•</span>
+                      <span><strong>Drain clearing:</strong> Prevent ponding water that can stress the membrane</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-brand-gold mr-2">•</span>
+                      <span><strong>Seam inspection:</strong> Check heat-welded seams for integrity</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-brand-gold mr-2">•</span>
+                      <span><strong>Penetration sealing:</strong> Maintain watertight seals around HVAC and other penetrations</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-brand-gold mr-2">•</span>
+                      <span><strong>Edge detail review:</strong> Ensure proper termination at walls and parapets</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-brand-gold mr-2">•</span>
+                      <span><strong>Fastener inspection:</strong> Verify mechanical attachment security</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               TPO Roofing FAQs - Borger, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

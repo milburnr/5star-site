@@ -222,6 +222,131 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Agricultural Community Roofing Solutions for Dumas
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🌾 Rural & Agricultural Homes</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Farm and ranch properties</li>
+                  <li>✓ Rural residential communities</li>
+                  <li>✓ Agricultural worker housing</li>
+                  <li>✓ Large acreage homes</li>
+                  <li>✓ Multi-building properties</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">💪 Durability Features</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Chemical-resistant formulations</li>
+                  <li>✓ Enhanced wind uplift resistance</li>
+                  <li>✓ Algae and moss resistance</li>
+                  <li>✓ Extended warranty coverage</li>
+                  <li>✓ Easy maintenance requirements</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Dumas Agricultural Environment Considerations</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Dumas-area homes face unique challenges from agricultural operations including dust exposure, chemical drift from farming activities, and the need for roofing systems that can withstand rural environmental conditions while remaining cost-effective for farm families.
+              </p>
+              <p className="text-lg text-gray-700">
+                Our specially selected asphalt shingle systems are designed to resist agricultural contaminants, provide superior weather protection, and offer the value that farming families need for their residential roofing investments.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Chemical-Resistant Shingle Technology for Agricultural Areas
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Enhanced Granules</h3>
+                <p className="text-gray-700 mb-3">
+                  Ceramic-coated granules resist chemical degradation from agricultural operations near Dumas homes.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Fertilizer exposure resistance</li>
+                  <li>• Pesticide contact protection</li>
+                  <li>• Acid rain resistance</li>
+                  <li>• Color fade prevention</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Modified Asphalt</h3>
+                <p className="text-gray-700 mb-3">
+                  SBS modified asphalt base provides enhanced flexibility and chemical resistance for rural applications.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Superior flexibility</li>
+                  <li>• Temperature cycling resistance</li>
+                  <li>• Crack prevention</li>
+                  <li>• Extended service life</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Algae Resistance</h3>
+                <p className="text-gray-700 mb-3">
+                  Copper-containing granules prevent algae growth common in agricultural environments with high humidity.
+                </p>
+                <ul className="text-gray-600 space-y-1">
+                  <li>• Algae growth prevention</li>
+                  <li>• Moss resistance</li>
+                  <li>• Maintained appearance</li>
+                  <li>• Reduced cleaning needs</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Cost-Effective Solutions for Agricultural Families
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Farm Family Value</h3>
+                  <p className="text-gray-700 mb-4">
+                    We understand agricultural families need maximum value from their roofing investment. Our solutions provide excellent protection at prices that fit farm budgets.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Competitive agricultural pricing</li>
+                    <li>• Multiple property discounts</li>
+                    <li>• Seasonal scheduling flexibility</li>
+                    <li>• Extended payment terms available</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Multi-Building Projects</h3>
+                  <p className="text-gray-700 mb-4">
+                    Many Dumas properties include multiple buildings. We offer package pricing for homes, barns, and outbuildings on the same property.
+                  </p>
+                  <div className="grid grid-cols-2 gap-4 text-center">
+                    <div className="p-3 bg-green-50 rounded">
+                      <div className="text-2xl font-bold text-brand-gold">15%</div>
+                      <div className="text-sm">Multi-Building Discount</div>
+                    </div>
+                    <div className="p-3 bg-blue-50 rounded">
+                      <div className="text-2xl font-bold text-brand-gold">3+</div>
+                      <div className="text-sm">Buildings Minimum</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Asphalt Shingle Roofing FAQs - Dumas, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

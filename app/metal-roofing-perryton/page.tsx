@@ -222,6 +222,93 @@ export default function MetalRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Grain Industry Metal Roofing for Perryton Agricultural Facilities
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🌾 Grain Facility Advantages</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Large clear-span capabilities (150+ feet)</li>
+                  <li>✓ Heavy load capacity for grain storage</li>
+                  <li>✓ Dust-resistant smooth surfaces</li>
+                  <li>✓ Easy cleaning and maintenance</li>
+                  <li>✓ Cost-effective per square foot</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏭 Agricultural Applications</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Grain elevators and storage</li>
+                  <li>✓ Feed processing facilities</li>
+                  <li>✓ Equipment storage buildings</li>
+                  <li>✓ Loading dock structures</li>
+                  <li>✓ Administrative offices</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Perryton's Grain Industry Roofing Needs</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Perryton's position as a major grain handling center requires roofing systems that can span vast storage areas, support heavy loads, resist dust accumulation, and withstand the demanding conditions of grain processing operations.
+              </p>
+              <p className="text-lg text-gray-700">
+                Metal roofing provides the optimal solution with unmatched clear-span capabilities, superior load-bearing capacity, and the durability needed for heavy-duty agricultural operations.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Large-Span Agricultural Building Solutions
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Clear Spans</h3>
+                <div className="text-3xl font-bold text-brand-gold mb-2">150+</div>
+                <div className="text-gray-600">Feet without supports</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Load Capacity</h3>
+                <div className="text-3xl font-bold text-brand-gold mb-2">90</div>
+                <div className="text-gray-600">PSF live load rating</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Service Life</h3>
+                <div className="text-3xl font-bold text-brand-gold mb-2">60+</div>
+                <div className="text-gray-600">Years in agricultural use</div>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Building Benefits</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Structural Efficiency</h4>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Maximum usable space</li>
+                    <li>• Minimal interior columns</li>
+                    <li>• Optimal storage capacity</li>
+                    <li>• Equipment access optimization</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-3">Operational Advantages</h4>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Easy maintenance access</li>
+                    <li>• Dust accumulation resistance</li>
+                    <li>• Chemical cleaning compatibility</li>
+                    <li>• Lightning protection integration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Metal Roofing FAQs - Perryton, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">

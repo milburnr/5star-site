@@ -205,6 +205,30 @@ export default function EmergencyRoofRepairPerrytonPage() {
 </FadeIn>
 
 <FadeIn>
+  <section className="mb-16 max-w-5xl mx-auto">
+    <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+      Perryton Panhandle Emergency Response Protocols
+    </h2>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      Perryton's location in the far northern Texas Panhandle creates unique emergency roofing challenges as the region experiences some of the most extreme weather in Texas, including severe blizzards, ice storms, and intense summer thunderstorms. As Ochiltree County's seat, Perryton serves agricultural, oil, and gas operations that require specialized emergency response capabilities.
+    </p>
+    <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+      <h4 className="text-xl font-bold mb-3 text-brand-brown">Perryton Emergency Response Timeline</h4>
+      <ul className="space-y-2 text-gray-700">
+        <li><strong>0-25 minutes:</strong> Emergency dispatch from Amarillo, weather conditions assessed</li>
+        <li><strong>25-90 minutes:</strong> Travel time via Highway 83 north, cold-weather equipment loaded</li>
+        <li><strong>90-120 minutes:</strong> On-site arrival, extreme weather damage assessment</li>
+        <li><strong>120-240 minutes:</strong> Emergency protection using cold-weather rated materials</li>
+        <li><strong>3-6 hours:</strong> Documentation, agricultural and energy facility coordination</li>
+      </ul>
+    </div>
+    <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+      Natural gas processing and agricultural facilities throughout Ochiltree County require immediate emergency response to prevent production shutdowns and environmental hazards. Emergency operations account for extreme northern Panhandle weather including blizzard conditions, ice storms, and severe temperature fluctuations.
+    </p>
+  </section>
+</FadeIn>
+
+<FadeIn>
   <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
     <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
     <Accordion type="single" collapsible className="max-w-4xl mx-auto">

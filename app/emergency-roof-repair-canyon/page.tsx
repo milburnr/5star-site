@@ -201,6 +201,111 @@ export default function EmergencyRoofRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Canyon Emergency Response Protocols and Timeline
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our Canyon emergency response follows a meticulously planned protocol designed to minimize damage and protect property within the critical first hours following storm damage. Initial response begins with our 24/7 emergency hotline, staffed by experienced dispatchers who can assess damage severity and deploy appropriate emergency crews based on weather conditions and damage reports.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Emergency Response Timeline for Canyon</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-15 minutes:</strong> Emergency call received and logged, initial damage assessment via phone, crew dispatched from Amarillo headquarters</li>
+                <li><strong>15-45 minutes:</strong> Emergency crew en route to Canyon location, equipment loaded including tarping materials, safety gear, and emergency lighting</li>
+                <li><strong>45-90 minutes:</strong> On-site arrival and initial damage assessment, safety perimeter established, immediate threat mitigation begun</li>
+                <li><strong>90 minutes-3 hours:</strong> Emergency tarping or temporary repairs completed, property secured against further weather damage</li>
+                <li><strong>3-24 hours:</strong> Comprehensive damage assessment, insurance documentation, permanent repair scheduling and material ordering</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Weather conditions significantly impact our response protocols in Canyon. During active storm systems, crews may need to wait for wind speeds to drop below 25 mph before beginning emergency work on elevated surfaces. Lightning activity requires crews to seek shelter and resume emergency operations only after lightning has cleared the immediate area for at least 30 minutes.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Ice storms and freezing conditions common in Canyon's winter weather require modified emergency protocols using cold-weather adhesives and heated application equipment. Emergency tarping during sub-freezing conditions uses specialized materials that remain flexible at low temperatures and attachment methods that account for thermal expansion and contraction cycles.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon Weather Monitoring and Predictive Response</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our Canyon emergency response capabilities include advanced weather monitoring systems that track approaching storm systems across the Texas Panhandle. Doppler radar integration allows us to predict storm intensity and timing, enabling pre-positioning of emergency crews and materials in Canyon when severe weather approaches from the west or southwest.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Spring severe weather season typically runs from March through June in Canyon, with peak activity in April and May. During these months, we maintain enhanced readiness with additional crew capacity and pre-positioned emergency materials throughout the region. Hail season coincides with severe weather season, requiring rapid response capabilities for widespread roof damage events.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Canyon's elevation and position relative to the Caprock Escarpment creates unique weather challenges including sudden temperature drops, flash flooding potential, and enhanced wind speeds during storm events. Our emergency crews monitor National Weather Service alerts specific to Randall County and maintain communication with WTAMU emergency management for campus-related weather impacts.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Emergency Equipment and Material Specifications for Canyon
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response in Canyon requires specialized equipment capable of operating in extreme weather conditions common to the Texas Panhandle. Our emergency vehicles carry high-wind tarping systems, emergency lighting for nighttime operations, and communication equipment for coordination with local emergency services during major storm events.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Emergency Equipment Inventory for Canyon Operations</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Tarping Systems:</strong> Wind-rated to 60+ mph, UV-resistant polyethylene, cold-weather flexible materials</li>
+                <li><strong>Fastening Equipment:</strong> Pneumatic nail guns, concrete anchors, specialized screws for metal roofing common in Canyon</li>
+                <li><strong>Safety Equipment:</strong> Fall protection systems, emergency lighting, high-visibility gear for roadside operations</li>
+                <li><strong>Assessment Tools:</strong> Moisture meters, infrared thermometers, digital cameras for insurance documentation</li>
+                <li><strong>Weather Monitoring:</strong> Portable weather stations, wind meters, lightning detection equipment</li>
+                <li><strong>Communication:</strong> Two-way radios, satellite communication backup, emergency contact databases</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Material selection for Canyon emergency repairs accounts for extreme temperature variations and high UV exposure common to the region. Emergency tarping materials use reinforced polyethylene with UV stabilizers to prevent degradation during extended temporary applications. Attachment hardware uses corrosion-resistant materials suitable for alkaline soils common in Canyon's geology.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response vehicles maintain heated storage compartments for adhesives and sealants that must remain workable in sub-freezing conditions. Backup power systems enable emergency operations during power outages that commonly follow severe storm events. Generator systems include both portable units for work site power and vehicle-mounted systems for equipment operation.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Quality Assurance and Documentation Protocols</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency repairs in Canyon follow strict quality assurance protocols that ensure temporary measures provide effective weather protection while avoiding interference with permanent repair operations. Photo documentation begins immediately upon arrival and continues through completion of emergency measures, providing comprehensive records for insurance processing and quality verification.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Digital measurement tools create precise documentation of damage extent and repair areas, enabling accurate material estimates and permanent repair planning. GPS coordinates and timestamped photography provide verification of response times and work completion for insurance claims processing. Weather conditions at time of repair are documented to validate material selection and application procedures.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Customer communication during emergency operations includes regular updates on repair progress, timeline estimates, and next steps in the permanent repair process. Emergency contact information for insurance claims assistance and permanent repair scheduling is provided before crews depart the property. Follow-up inspections verify temporary repair effectiveness and identify any needed adjustments.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Post-Emergency Services and Permanent Repair Coordination
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Following emergency stabilization, our Canyon service includes comprehensive permanent repair planning and insurance claim support. We maintain detailed documentation from emergency response through permanent repair completion, ensuring seamless transitions and maximum insurance coverage for property damage restoration.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency repairs in Canyon typically require follow-up within 48-72 hours to assess temporary measure effectiveness and begin permanent repair planning. Insurance adjuster coordination often requires on-site meetings and additional documentation to support claim processing. Our project managers handle all insurance communication and documentation requirements.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Permanent repair scheduling accounts for seasonal weather windows, material availability, and property access requirements. University properties may require coordination with academic schedules, while agricultural properties need scheduling around planting and harvest seasons. We provide timeline estimates and regular progress updates throughout the permanent repair process.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Ongoing Maintenance and Prevention Programs</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Canyon property owners benefit from our preventive maintenance programs designed to minimize emergency repair needs through regular inspections and proactive maintenance. Pre-storm season inspections identify potential failure points and enable preventive repairs before severe weather events. These programs are particularly valuable for university facilities and agricultural operations with critical weather protection needs.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Annual maintenance agreements include priority emergency response for participating properties, ensuring fastest possible response times during peak demand periods. Maintenance history documentation helps identify recurring issues and enables targeted improvements to reduce future emergency incidents. Seasonal maintenance schedules account for Canyon's specific weather patterns and building use cycles.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Educational programs for Canyon property owners include weather preparedness seminars, emergency contact procedures, and basic damage assessment training. University residence hall staff receive specialized training on recognizing roof damage signs and emergency contact procedures. Property management companies serving Canyon's rental market receive resources for tenant education and emergency response coordination.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

@@ -222,6 +222,103 @@ export default function MetalRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Agricultural & Industrial Metal Roofing for Dumas
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🌾 Agricultural Excellence</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Large-span agricultural buildings</li>
+                  <li>✓ Chemical resistance for farm operations</li>
+                  <li>✓ Weather protection for equipment storage</li>
+                  <li>✓ Cost-effective solutions for grain facilities</li>
+                  <li>✓ Easy cleaning and maintenance</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⚡ Industrial Performance</h3>
+                <ul className="text-lg text-gray-700 space-y-3">
+                  <li>✓ Manufacturing facility protection</li>
+                  <li>✓ Fire resistance for safety compliance</li>
+                  <li>✓ Lightning strike protection</li>
+                  <li>✓ Extreme temperature tolerance</li>
+                  <li>✓ High wind uplift resistance</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Dumas Agricultural & Industrial Demands</h3>
+              <p className="text-lg text-gray-700 mb-4">
+                Dumas's agricultural and industrial operations require roofing systems that can withstand chemical exposure, support heavy equipment loads, span large areas without internal supports, and resist the harsh Texas Panhandle climate.
+              </p>
+              <p className="text-lg text-gray-700">
+                Metal roofing excels in these demanding applications with superior strength-to-weight ratios, chemical resistance, and the ability to span large agricultural and industrial spaces cost-effectively.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">100'</div>
+                <div className="font-semibold mb-1">Clear Spans</div>
+                <div className="text-gray-600 text-sm">Maximum coverage</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">29ga</div>
+                <div className="font-semibold mb-1">Steel Thickness</div>
+                <div className="text-gray-600 text-sm">Industrial grade</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">70+</div>
+                <div className="font-semibold mb-1">PSF Load</div>
+                <div className="text-gray-600 text-sm">Snow/equipment</div>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow border text-center">
+                <div className="text-3xl font-bold text-brand-gold mb-2">50+</div>
+                <div className="font-semibold mb-1">Year Warranty</div>
+                <div className="text-gray-600 text-sm">Long-term protection</div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Chemical & Weather Resistance for Agricultural Operations
+            </h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Chemical Protection</h3>
+                  <p className="text-gray-700 mb-4">
+                    Specialized coatings and galvanized steel substrates resist fertilizers, pesticides, and other agricultural chemicals common in Dumas farming operations.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• Kynar 500® PVDF coating systems</li>
+                    <li>• Galvalume substrate protection</li>
+                    <li>• Acid rain resistance</li>
+                    <li>• Ammonia exposure tolerance</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Extreme Weather Durability</h3>
+                  <p className="text-gray-700 mb-4">
+                    Engineered to withstand Dumas's severe weather including hailstorms, high winds, temperature extremes, and rapid weather changes.
+                  </p>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• UL 2218 Class 4 hail rating</li>
+                    <li>• 140+ mph wind resistance</li>
+                    <li>• -40°F to 150°F temperature range</li>
+                    <li>• Thermal expansion accommodation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Metal Roofing FAQs - Dumas, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
