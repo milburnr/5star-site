@@ -82,9 +82,195 @@ export default function RoofInspectionsAmarilloPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Amarillo's Roof Inspections Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof inspections throughout Amarillo and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Amarillo with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Amarillo's Comprehensive Roof Inspection Experts</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof inspections throughout Amarillo and surrounding areas. We understand the unique challenges posed by Texas Panhandle weather, from devastating hailstorms to 80+ mph wind events, extreme temperature fluctuations, and relentless UV exposure that can destroy roofs in just a few years.</p>
+            <p className="text-lg text-gray-600 leading-relaxed mb-6">Since 2014, we've conducted thousands of roof inspections across Amarillo, from historic downtown properties to new subdivisions in Southwest Amarillo. Our certified inspectors use advanced technology including thermal imaging, moisture meters, and high-resolution drone photography to identify problems that ground-level visual inspections might miss.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">We provide detailed inspection reports that satisfy insurance requirements, real estate transactions, and warranty claims. Every inspection includes digital documentation, safety assessments, and prioritized repair recommendations with cost estimates.</p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-slate-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Our Amarillo Roof Inspectors Examine</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🔍 Structural Components</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li><strong>Roof Decking:</strong> We check for sagging, warping, or water damage in plywood or OSB sheathing</li>
+                  <li><strong>Rafters & Trusses:</strong> Inspection for cracking, splitting, or deflection under load</li>
+                  <li><strong>Support Beams:</strong> Assessment of load-bearing capacity and structural integrity</li>
+                  <li><strong>Ridge Boards:</strong> Examination for proper installation and weather damage</li>
+                  <li><strong>Fascia & Soffit:</strong> Detection of rot, pest damage, or improper ventilation</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏠 Roofing Materials</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li><strong>Shingle Condition:</strong> Granule loss, cracking, curling, or hail impact damage</li>
+                  <li><strong>Metal Roofing:</strong> Corrosion, loose fasteners, or panel separation</li>
+                  <li><strong>Tile Systems:</strong> Cracked or shifted tiles, underlayment exposure</li>
+                  <li><strong>Membrane Roofing:</strong> Punctures, seam failures, or UV degradation</li>
+                  <li><strong>Coating Systems:</strong> Adhesion failure, cracking, or wear patterns</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💧 Water Management</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li><strong>Gutter Systems:</strong> Proper slope, secure attachment, and debris clearance</li>
+                  <li><strong>Downspouts:</strong> Adequate sizing and proper water discharge away from foundation</li>
+                  <li><strong>Drainage Patterns:</strong> Standing water identification and slope corrections needed</li>
+                  <li><strong>Flashing Details:</strong> Chimney, vent, and skylight waterproofing integrity</li>
+                  <li><strong>Ice Dams:</strong> Potential formation areas and prevention measures</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Weather Damage Assessment</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li><strong>Hail Impact:</strong> Bruising, exposed mat, or granule displacement</li>
+                  <li><strong>Wind Damage:</strong> Lifted shingles, exposed fasteners, or blown-off materials</li>
+                  <li><strong>Storm Damage:</strong> Tree impact, debris damage, or structural shifts</li>
+                  <li><strong>UV Deterioration:</strong> Accelerated aging from Amarillo's intense sun exposure</li>
+                  <li><strong>Thermal Cycling:</strong> Expansion/contraction damage from temperature swings</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Requirements for Amarillo Roof Inspections</h2>
+            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Insurance Company Standards We Meet</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-3 text-gray-800">Documentation Requirements</h4>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• High-resolution photos of all damage areas</li>
+                    <li>• Detailed measurements and sketches</li>
+                    <li>• GPS coordinates for damage locations</li>
+                    <li>• Before/after comparison documentation</li>
+                    <li>• Professional assessment reports</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-3 text-gray-800">Insurance Claim Support</h4>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Direct communication with adjusters</li>
+                    <li>• Supplemental damage documentation</li>
+                    <li>• Code compliance requirement advocacy</li>
+                    <li>• Scope of work clarification</li>
+                    <li>• Materials and labor cost justification</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="bg-amber-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Common Insurance Challenges in Amarillo</h3>
+              <div className="space-y-4">
+                <p className="text-gray-700"><strong>Wind vs. Hail Damage Distinction:</strong> Many insurance policies treat wind and hail damage differently. Our inspectors are trained to identify and properly document the specific type of weather damage, ensuring you receive appropriate coverage under your policy terms.</p>
+                <p className="text-gray-700"><strong>Pre-Existing Condition Claims:</strong> Insurance companies often claim damage was pre-existing. We maintain detailed photographic records and can provide expert testimony about the timeline of damage, especially important in Amarillo where multiple storm events occur each season.</p>
+                <p className="text-gray-700"><strong>Cosmetic vs. Functional Damage:</strong> Some insurers attempt to classify storm damage as cosmetic. We document how seemingly minor damage affects the roof's waterproofing integrity and long-term performance, particularly crucial given Amarillo's extreme weather cycles.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Optimal Timing for Roof Inspections in Amarillo</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌸 Spring Inspections (March-May)</h3>
+                <p className="text-gray-700 mb-4"><strong>Peak Storm Season Preparation:</strong> Amarillo's severe weather season typically begins in March and peaks in April-May. Spring inspections identify winter damage and prepare your roof for the coming storm season.</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Assessment of winter freeze-thaw damage</li>
+                  <li>• Pre-storm structural integrity verification</li>
+                  <li>• Gutter and drainage system optimization</li>
+                  <li>• Identification of loose or vulnerable materials</li>
+                  <li>• Insurance deductible planning before claims season</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">☀️ Summer Inspections (June-August)</h3>
+                <p className="text-gray-700 mb-4"><strong>Heat Damage Assessment:</strong> Amarillo's intense summer sun and temperatures exceeding 100°F can cause rapid deterioration. Summer inspections focus on heat-related damage and UV degradation.</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• UV damage and accelerated aging assessment</li>
+                  <li>• Thermal expansion stress evaluation</li>
+                  <li>• Attic ventilation efficiency testing</li>
+                  <li>• Mid-season storm damage documentation</li>
+                  <li>• Energy efficiency optimization recommendations</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🍂 Fall Inspections (September-November)</h3>
+                <p className="text-gray-700 mb-4"><strong>Storm Season Wrap-up:</strong> Fall inspections assess cumulative damage from the storm season and prepare roofs for winter weather, including potential ice events in the Texas Panhandle.</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Comprehensive storm season damage assessment</li>
+                  <li>• Final insurance claim opportunities</li>
+                  <li>• Winter weather preparation</li>
+                  <li>• Debris removal and gutter cleaning</li>
+                  <li>• Year-end maintenance planning</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">❄️ Winter Inspections (December-February)</h3>
+                <p className="text-gray-700 mb-4"><strong>Structural Assessment:</strong> While less common, winter inspections are crucial after ice events or when preparing for real estate transactions during the slower season.</p>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Ice damage and freeze-thaw cycle assessment</li>
+                  <li>• Real estate transaction requirements</li>
+                  <li>• Annual maintenance planning</li>
+                  <li>• Off-season repair scheduling advantages</li>
+                  <li>• Preparation for next year's storm season</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Amarillo's Unique Weather Challenges</h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Severe Hailstorms</h3>
+                <p className="text-gray-700 mb-3">Amarillo sits in the heart of "Hail Alley," experiencing an average of 9-12 significant hail events annually. The Texas Panhandle's geography creates perfect conditions for supercells that produce golf ball to softball-sized hail.</p>
+                <p className="text-gray-700"><strong>Inspection Focus:</strong> We use specialized techniques to identify subtle hail damage that may not be visible to untrained eyes, including granule loss patterns, mat exposure, and impact fractals that insurance adjusters recognize as legitimate damage.</p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💨 Extreme Wind Events</h3>
+                <p className="text-gray-700 mb-3">Amarillo is consistently ranked among America's windiest cities, with average speeds of 14+ mph and gusts regularly exceeding 80 mph. The flat terrain provides no wind breaks, creating sustained high-velocity conditions.</p>
+                <p className="text-gray-700"><strong>Inspection Focus:</strong> We examine uplift patterns, fastener integrity, and progressive wind damage that can compromise entire roofing systems over time, even when individual events don't cause obvious damage.</p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌡️ Extreme Temperature Variations</h3>
+                <p className="text-gray-700 mb-3">Amarillo experiences temperature swings of 60+ degrees within 24 hours, with summer highs above 105°F and winter lows below 0°F. This thermal cycling creates expansion and contraction stress that's unique to the region.</p>
+                <p className="text-gray-700"><strong>Inspection Focus:</strong> We assess thermal movement damage, including fastener backing-out, seam separation, and material fatigue that results from constant expansion and contraction cycles.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Inspection Technology We Use</h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <div className="text-5xl mb-4 text-center">📡</div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Thermal Imaging</h3>
+                <p className="text-gray-700">FLIR cameras detect moisture intrusion, insulation gaps, and energy loss that aren't visible to the naked eye. Especially valuable for identifying leaks in Amarillo's extreme weather conditions.</p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <div className="text-5xl mb-4 text-center">🚁</div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Drone Photography</h3>
+                <p className="text-gray-700">High-resolution aerial photography safely documents damage on steep or high roofs. GPS-tagged images provide precise damage location data for insurance and repair purposes.</p>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
+                <div className="text-5xl mb-4 text-center">💧</div>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Moisture Detection</h3>
+                <p className="text-gray-700">Professional moisture meters and hygrometers identify water damage and humidity issues that could lead to mold, rot, or structural problems in Amarillo's variable climate.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

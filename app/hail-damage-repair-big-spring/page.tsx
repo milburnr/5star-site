@@ -89,6 +89,274 @@ export default function HailDamageRepairBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-red-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Big Spring's High-Risk Hail Environment</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Howard County Storm Activity</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Big Spring sits in one of Texas's most active severe weather corridors, with Howard County experiencing extreme hail events that regularly produce significant property damage. The city's location at the intersection of multiple air masses creates ideal conditions for supercell thunderstorm development.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">Recent data shows the Big Spring area has experienced 75 confirmed ground-truth hail reports and been under severe weather warnings 51 times in just 12 months, with Doppler radar detecting hail at or near the city on over 100 occasions during the same period.</p>
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-red-500">
+                  <h4 className="font-semibold text-brand-brown mb-2">Big Spring Hail Statistics</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• <strong>75 confirmed hail reports</strong> in past 12 months</li>
+                    <li>• <strong>51 severe weather warnings</strong> issued for Howard County</li>
+                    <li>• <strong>100+ radar detections</strong> of hail-producing storms</li>
+                    <li>• <strong>Peak activity:</strong> Late May through mid-June</li>
+                    <li>• <strong>Largest recorded:</strong> Tea cup size (3+ inches diameter)</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Recent Devastating Storm Events</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-yellow-400">
+                    <h4 className="font-semibold text-brand-brown">June 2025 Microburst Event</h4>
+                    <p className="text-gray-700 text-sm">Destructive winds up to 119 mph combined with baseball-sized hail devastated portions of Big Spring. The storm shattered windows, downed power lines, and caused extensive roof and vehicle damage throughout the city.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-400">
+                    <h4 className="font-semibold text-brand-brown">May 2025 Tea Cup Hail</h4>
+                    <p className="text-gray-700 text-sm">A supercell thunderstorm produced hail stones reaching 3+ inches in diameter (tea cup size), causing catastrophic damage to roofs, vehicles, and outdoor equipment across southeastern Howard County.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-400">
+                    <h4 className="font-semibold text-brand-brown">Mayor's Disaster Declaration</h4>
+                    <p className="text-gray-700 text-sm">Recent severe storms prompted Mayor Shannon Thomason to declare a local disaster, with city buildings including the historic auditorium and airpark suffering significant hail and wind damage.</p>
+                  </div>
+                </div>
+                <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
+                  <p className="text-sm text-amber-800"><strong>Emergency Response:</strong> The City of Big Spring established special debris collection sites for vegetation, fencing, roofing, and building materials damaged by severe hailstorms.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Specialized Hail Damage Detection</h2>
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-400">
+                <div className="text-4xl mb-4">🔍</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Advanced Assessment Technology</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Thermal Imaging:</strong> FLIR technology to detect hidden moisture intrusion</li>
+                  <li>• <strong>Drone Inspections:</strong> High-resolution aerial damage assessment</li>
+                  <li>• <strong>Impact Measurement:</strong> Precise documentation of hail strike patterns</li>
+                  <li>• <strong>Moisture Meters:</strong> Detection of water penetration in critical areas</li>
+                  <li>• <strong>Digital Documentation:</strong> GPS-tagged photos for insurance claims</li>
+                  <li>• <strong>Granule Collection:</strong> Physical evidence sampling for adjusters</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-400">
+                <div className="text-4xl mb-4">⚡</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Response Protocol</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Immediate Deployment:</strong> Emergency teams activated within 2 hours</li>
+                  <li>• <strong>Priority Triage:</strong> Active leaks and structural concerns first</li>
+                  <li>• <strong>Temporary Protection:</strong> Professional tarping and board-up services</li>
+                  <li>• <strong>Contents Safeguarding:</strong> Interior protection from additional damage</li>
+                  <li>• <strong>Utility Safety:</strong> Electrical and gas line inspection protocols</li>
+                  <li>• <strong>Communication Hub:</strong> Regular updates to property owners</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-purple-400">
+                <div className="text-4xl mb-4">🛡️</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Big Spring Climate Solutions</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Wind Resistance:</strong> Enhanced fastening for 119+ mph winds</li>
+                  <li>• <strong>Hail Guards:</strong> Protective screening for HVAC and equipment</li>
+                  <li>• <strong>Impact-Resistant Materials:</strong> UL 2218 Class 4 rated systems</li>
+                  <li>• <strong>Reinforced Flashing:</strong> Heavy-gauge metals for critical junctions</li>
+                  <li>• <strong>Synthetic Underlayment:</strong> Superior tear and puncture resistance</li>
+                  <li>• <strong>Ventilation Optimization:</strong> Storm-resistant ridge and soffit vents</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Post-Storm Recovery Process</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Immediate Response (0-24 Hours)</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Emergency Contact Response</h4>
+                      <p className="text-gray-600 text-sm">24/7 hotline activation with storm tracking and rapid deployment protocols</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">2</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Safety Assessment</h4>
+                      <p className="text-gray-600 text-sm">Structural integrity evaluation and immediate hazard identification</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Emergency Mitigation</h4>
+                      <p className="text-gray-600 text-sm">Professional tarping, board-up, and water extraction services</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-brand-brown mb-2">Insurance Claim Initiation</h4>
+                  <p className="text-gray-700 text-sm">We help property owners contact their insurance carriers immediately and begin the documentation process while storm details are fresh and adjuster availability is optimal.</p>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Recovery Phase (1-30 Days)</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Comprehensive Damage Assessment</h4>
+                      <p className="text-gray-600 text-sm">Detailed inspection using advanced technology and insurance industry standards</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Insurance Collaboration</h4>
+                      <p className="text-gray-600 text-sm">Professional representation during adjuster meetings and claim negotiations</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Material Procurement</h4>
+                      <p className="text-gray-600 text-sm">Sourcing matching materials and scheduling installation around weather windows</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-green-50 p-4 rounded-lg border border-green-200">
+                  <h4 className="font-semibold text-green-800 mb-2">Big Spring Recovery Support</h4>
+                  <p className="text-green-700 text-sm">We coordinate with local debris removal services and maintain relationships with Howard County building officials for expedited permit processing.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Impact-Resistant Roofing Solutions</h2>
+            <div className="grid lg:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Materials Engineered for Big Spring</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Given Big Spring's history of extreme hail events including tea cup-sized stones and 119+ mph winds, we exclusively recommend and install Class 4 impact-resistant roofing systems designed to withstand the area's severe weather patterns.</p>
+                <div className="space-y-4">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Asphalt Shingle Systems</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>GAF Timberline ArmorShield II:</strong> Advanced polymer backing with enhanced impact resistance</li>
+                      <li>• <strong>Owens Corning Duration Storm:</strong> SureNail technology with reinforced nail zone</li>
+                      <li>• <strong>CertainTeed Northgate Class 4:</strong> Modified asphalt with impact-absorbing layer</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Metal Roofing Options</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>Standing Seam Steel:</strong> 24-gauge with Kynar 500 coating for maximum durability</li>
+                      <li>• <strong>Stone-Coated Steel:</strong> DECRA systems with Class A fire rating and hail resistance</li>
+                      <li>• <strong>Aluminum Standing Seam:</strong> Corrosion-resistant with 50+ year warranties</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Performance Specifications</h3>
+                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+                  <h4 className="text-lg font-semibold mb-4 text-gray-800">UL 2218 Class 4 Testing</h4>
+                  <p className="text-gray-700 text-sm mb-4">All recommended materials pass rigorous impact testing involving 2-inch steel balls dropped from 20 feet, simulating the impact of golf ball to tennis ball-sized hail at terminal velocity.</p>
+                  <div className="grid grid-cols-2 gap-4 text-center">
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-brand-gold">2"</div>
+                      <div className="text-xs text-gray-600">Steel Ball Diameter</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-brand-gold">20'</div>
+                      <div className="text-xs text-gray-600">Drop Height</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-brand-gold">60+</div>
+                      <div className="text-xs text-gray-600">MPH Impact Speed</div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <div className="text-2xl font-bold text-brand-gold">30%</div>
+                      <div className="text-xs text-gray-600">Insurance Discount</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                  <h4 className="font-semibold text-yellow-800 mb-2">Big Spring Insurance Benefits</h4>
+                  <p className="text-yellow-700 text-sm">Class 4 materials typically qualify for 20-30% insurance premium discounts and often pay for themselves through reduced premiums and avoided future damage costs.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Local Insurance Expertise</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Howard County Claims Experience</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">With Big Spring's high frequency of severe hail events, our team has extensive experience working with all major insurance carriers serving Howard County, including State Farm, Allstate, USAA, and regional Texas providers.</p>
+                <div className="bg-gray-50 p-6 rounded-xl">
+                  <h4 className="font-semibold text-brand-brown mb-3">Our Big Spring Claims Success</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• <strong>150+ successful claims</strong> processed after recent major storms</li>
+                    <li>• <strong>96% approval rate</strong> for documented hail damage in Howard County</li>
+                    <li>• <strong>Average 22% increase</strong> in settlement amounts with professional representation</li>
+                    <li>• <strong>12-18 day average</strong> claim processing timeline</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Claim Optimization Strategies</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Storm-Specific Documentation</h4>
+                      <p className="text-gray-600 text-sm">Correlating damage with specific weather events using NOAA storm reports and local weather station data</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Code Upgrade Advocacy</h4>
+                      <p className="text-gray-600 text-sm">Ensuring coverage for current building code requirements and enhanced wind resistance standards</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Adjuster Education</h4>
+                      <p className="text-gray-600 text-sm">Professional presentation of damage scope using industry-standard terminology and measurement techniques</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Supplement Management</h4>
+                      <p className="text-gray-600 text-sm">Systematic identification and documentation of additional damage discovered during installation</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

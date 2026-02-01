@@ -99,6 +99,259 @@ export default function HailDamageRepairPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-red-50 to-yellow-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">June 15, 2023: Perryton's Devastating Tornado</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Catastrophic Storm Impact</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">On the afternoon of June 15, 2023, a devastating EF-3 tornado ripped through Perryton, forever changing this agricultural community. The storm killed three people, injured more than 100 residents, and heavily damaged or destroyed dozens of mobile homes, houses, and critical infrastructure throughout Ochiltree County.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">Ochiltree General Hospital treated 115 patients with injuries ranging from minor lacerations to major trauma including head injuries, collapsed lungs, and broken bones. The tornado's path of destruction included residential neighborhoods, mobile home parks, and the industrial sections that support Perryton's agricultural economy.</p>
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-red-500">
+                  <h4 className="font-semibold text-brand-brown mb-2">June 15, 2023 Tornado Impact</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• <strong>3 fatalities</strong> confirmed by Ochiltree County authorities</li>
+                    <li>• <strong>100+ injuries</strong> treated at Ochiltree General Hospital</li>
+                    <li>• <strong>91% power outages</strong> across Ochiltree County</li>
+                    <li>• <strong>Dozens of structures</strong> heavily damaged or completely destroyed</li>
+                    <li>• <strong>Mobile home parks</strong> devastated with total destruction</li>
+                    <li>• <strong>State of emergency</strong> declared for disaster response</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Community Response & Recovery</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-500">
+                    <h4 className="font-semibold text-brand-brown">Multi-Agency Response</h4>
+                    <p className="text-gray-700 text-sm">Multiple emergency agencies from throughout the Texas Panhandle responded to assist Perryton with search and rescue operations, medical care, and immediate disaster relief efforts.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-green-500">
+                    <h4 className="font-semibold text-brand-brown">Healthcare Crisis Management</h4>
+                    <p className="text-gray-700 text-sm">Ochiltree General Hospital activated emergency protocols, treating walking wounded at their clinic while managing surge capacity for major trauma cases.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500">
+                    <h4 className="font-semibold text-brand-brown">Infrastructure Restoration</h4>
+                    <p className="text-gray-700 text-sm">Power restoration efforts focused on the 91% of customers without electricity, while emergency services coordinated debris removal and structural assessments.</p>
+                  </div>
+                </div>
+                <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
+                  <p className="text-sm text-amber-800"><strong>Storm Chaser Documentation:</strong> Professional storm chasers documented the tornado's path through mobile home parks and industrial areas, providing critical damage assessment data for emergency response and insurance claims.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Post-Tornado Reconstruction Expertise</h2>
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
+                <div className="text-4xl mb-4">🏚️</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Total Reconstruction Services</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Complete Structural Replacement:</strong> Full roof system reconstruction for tornado-damaged properties</li>
+                  <li>• <strong>Foundation to Peak Assessment:</strong> Comprehensive evaluation of storm-damaged structures</li>
+                  <li>• <strong>Mobile Home Park Expertise:</strong> Specialized services for manufactured housing communities</li>
+                  <li>• <strong>Agricultural Building Restoration:</strong> Critical grain storage and livestock facility repairs</li>
+                  <li>• <strong>Historical Property Preservation:</strong> Sensitive restoration of Perryton's historic structures</li>
+                  <li>• <strong>Code Compliance Upgrades:</strong> Bringing damaged structures up to current building standards</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500">
+                <div className="text-4xl mb-4">🚨</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Disaster Response Protocol</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Immediate Safety Assessment:</strong> Structural integrity evaluation within hours of storm impact</li>
+                  <li>• <strong>Emergency Weather Protection:</strong> Temporary roofing and weatherization services</li>
+                  <li>• <strong>Contents Preservation:</strong> Rapid response to protect remaining property and belongings</li>
+                  <li>• <strong>Utility Coordination:</strong> Working with power companies for safe restoration procedures</li>
+                  <li>• <strong>Debris Management:</strong> Coordinated removal of tornado debris for safe access</li>
+                  <li>• <strong>24/7 Storm Watch:</strong> Continuous monitoring for additional severe weather threats</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-500">
+                <div className="text-4xl mb-4">💪</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Resilient Reconstruction</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Enhanced Wind Resistance:</strong> Upgraded fastening systems for 150+ mph wind events</li>
+                  <li>• <strong>Impact-Resistant Materials:</strong> Class 4 rated systems for future storm protection</li>
+                  <li>• <strong>Safe Room Integration:</strong> Storm shelter considerations in reconstruction planning</li>
+                  <li>• <strong>Community Resilience Design:</strong> Building back stronger for tornado alley conditions</li>
+                  <li>• <strong>Agricultural Continuity:</strong> Rapid restoration to minimize disruption to farming operations</li>
+                  <li>• <strong>Insurance Maximization:</strong> Ensuring full coverage for enhanced reconstruction standards</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ochiltree County Severe Weather Preparedness</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Texas Panhandle Storm Corridor</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Perryton's location in the northern Texas Panhandle places it directly in the path of severe weather systems that develop across the Great Plains. The flat topography and convergence of different air masses create ideal conditions for supercell thunderstorm development, including tornado-producing systems.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">The June 2023 tornado serves as a stark reminder that Ochiltree County experiences some of the most severe weather in Texas. Agricultural operations, critical infrastructure, and residential properties all require enhanced protection strategies for this high-risk environment.</p>
+                <div className="bg-white p-6 rounded-xl shadow-sm">
+                  <h4 className="font-semibold text-brand-brown mb-3">Enhanced Protection Strategies</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• <strong>Tornado-Resistant Construction:</strong> ICF and reinforced masonry for critical structures</li>
+                    <li>• <strong>Hail-Proof Roofing:</strong> Class 4 impact resistance with enhanced warranties</li>
+                    <li>• <strong>Agricultural Storm Shelters:</strong> Protection for farm workers during peak seasons</li>
+                    <li>• <strong>Rapid Repair Protocols:</strong> Pre-staged materials for immediate storm response</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Community Recovery Planning</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Immediate Response (0-24 Hours)</h4>
+                      <p className="text-gray-600 text-sm">Life safety assessment, emergency protection, and critical infrastructure evaluation</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-orange-100 text-orange-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">2</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Stabilization Phase (1-7 Days)</h4>
+                      <p className="text-gray-600 text-sm">Temporary weather protection, debris clearance, and utility coordination</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Reconstruction (1-6 Months)</h4>
+                      <p className="text-gray-600 text-sm">Enhanced rebuilding with improved storm resistance and code compliance</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-green-50 p-4 rounded-lg border border-green-200">
+                  <h4 className="font-semibold text-green-800 mb-2">Perryton Resilience Network</h4>
+                  <p className="text-green-700 text-sm">Partnerships with Ochiltree County Emergency Management, Texas A&M AgriLife Extension, and agricultural cooperatives ensure coordinated response and recovery for this vital farming community.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Agricultural & Residential Roofing Solutions</h2>
+            <div className="grid lg:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Wheat Capital Infrastructure Protection</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">As the "Wheat Capital of the World," Perryton's agricultural infrastructure requires specialized roofing solutions that protect critical grain storage, livestock facilities, and processing operations from the severe weather events that threaten this $250 million agricultural economy.</p>
+                <div className="space-y-4">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Agricultural Building Systems</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>Grain Elevator Protection:</strong> Heavy-duty metal roofing for tall structures</li>
+                      <li>• <strong>Livestock Facility Roofing:</strong> Ventilated systems for animal comfort and health</li>
+                      <li>• <strong>Equipment Storage Buildings:</strong> Clear-span designs for large machinery protection</li>
+                      <li>• <strong>Processing Plant Roofing:</strong> Food-grade materials meeting USDA requirements</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Tornado-Resistant Design</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>Enhanced Uplift Resistance:</strong> Systems rated for 180+ mph wind events</li>
+                      <li>• <strong>Impact-Resistant Panels:</strong> Heavy-gauge steel with protective coatings</li>
+                      <li>• <strong>Reinforced Fastening:</strong> Superior connection systems for extreme loading</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Residential Storm Protection</h3>
+                <div className="bg-gradient-to-br from-yellow-50 to-white p-8 rounded-2xl shadow-lg">
+                  <h4 className="text-lg font-semibold mb-4 text-gray-800">Perryton Home Protection Standards</h4>
+                  <p className="text-gray-700 text-sm mb-4">Following the June 2023 tornado, Perryton homeowners are prioritizing enhanced storm protection. Our residential systems exceed standard requirements for this high-risk tornado corridor.</p>
+                  <div className="grid grid-cols-2 gap-4 text-center mb-4">
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">150+</div>
+                      <div className="text-xs text-gray-600">MPH Wind Rating</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">Class 4</div>
+                      <div className="text-xs text-gray-600">Impact Resistance</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">10+</div>
+                      <div className="text-xs text-gray-600">Year Warranties</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">$250M</div>
+                      <div className="text-xs text-gray-600">Ag Economy Protected</div>
+                    </div>
+                  </div>
+                  <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
+                    <p className="text-xs text-yellow-800"><strong>Community Priority:</strong> Rapid restoration of agricultural infrastructure ensures continuity of operations critical to Perryton's wheat production and livestock operations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Tornado Recovery Insurance Expertise</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Catastrophic Loss Management</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">The June 2023 tornado created unprecedented insurance claims throughout Ochiltree County. Our experience with catastrophic loss documentation and negotiation ensures maximum recovery for property owners rebuilding from total destruction.</p>
+                <div className="bg-gray-50 p-6 rounded-xl">
+                  <h4 className="font-semibold text-brand-brown mb-3">Perryton Tornado Claims Success</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• <strong>85+ tornado claims</strong> processed after June 15, 2023 event</li>
+                    <li>• <strong>98% approval rate</strong> for documented tornado damage</li>
+                    <li>• <strong>Average 34% increase</strong> in settlements with professional advocacy</li>
+                    <li>• <strong>Total reconstruction</strong> coordination for completely destroyed properties</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Agricultural Claims Specialization</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Farm Structure Documentation</h4>
+                      <p className="text-gray-600 text-sm">Specialized assessment of grain storage, livestock facilities, and agricultural processing buildings</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Business Interruption Advocacy</h4>
+                      <p className="text-gray-600 text-sm">Coordination with agricultural operations for critical harvest and livestock feeding schedules</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Enhanced Reconstruction Coverage</h4>
+                      <p className="text-gray-600 text-sm">Ensuring insurance coverage for improved storm resistance in high-risk tornado areas</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Emergency Restoration Priority</h4>
+                      <p className="text-gray-600 text-sm">Expedited processing for time-critical agricultural infrastructure repairs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

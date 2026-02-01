@@ -89,6 +89,273 @@ export default function HailDamageRepairLevellandPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-purple-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Levelland's Severe Storm Corridor</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">South Plains Weather Intensity</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Levelland sits at the heart of the South Plains severe weather corridor, where Hockley County experiences some of Texas's most destructive hailstorms. The city's position in the Llano Estacado creates unique atmospheric dynamics that regularly spawn supercell thunderstorms with devastating hail production.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">Recent data shows Levelland has experienced 49 confirmed hail reports from trained spotters and been under severe weather warnings 46 times in just 12 months. Doppler radar has detected hail-producing storms at or near Levelland on 108 occasions during the same period, highlighting the area's exceptional storm frequency.</p>
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+                  <h4 className="font-semibold text-brand-brown mb-2">Levelland Storm Statistics</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• <strong>49 confirmed hail reports</strong> from trained weather spotters</li>
+                    <li>• <strong>46 severe weather warnings</strong> issued for Hockley County</li>
+                    <li>• <strong>108 radar detections</strong> of hail-producing thunderstorms</li>
+                    <li>• <strong>Peak season:</strong> Late May through early July</li>
+                    <li>• <strong>Most destructive time:</strong> 1:30-3:00 AM (bow echo events)</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">May 2024 Catastrophic Storm Event</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-500">
+                    <h4 className="font-semibold text-brand-brown">Bow Echo Destruction</h4>
+                    <p className="text-gray-700 text-sm">The most destructive straight-line winds occurred in Levelland from 1:30-1:40 AM CDT, with a severe "bow echo" storm producing devastating wind-driven hail and causing widespread structural damage throughout the city.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500">
+                    <h4 className="font-semibold text-brand-brown">Mass Power Outages</h4>
+                    <p className="text-gray-700 text-sm">Multiple power outages impacted 6,660 customers across Hockley County, with the electrical grid severely damaged by wind-driven hail and 80+ mph straight-line winds.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-yellow-500">
+                    <h4 className="font-semibold text-brand-brown">Agricultural Devastation</h4>
+                    <p className="text-gray-700 text-sm">Center pivot irrigation systems were flipped and destroyed, trees stripped bare by wind-driven hail, and emerging crops severely damaged across thousands of acres in Hockley County.</p>
+                  </div>
+                </div>
+                <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
+                  <p className="text-sm text-amber-800"><strong>National Weather Service Response:</strong> NWS teams conducted ground surveys to assess the extensive damage from this historic bow echo event that reshaped Levelland's storm preparedness protocols.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Advanced Storm Damage Analysis</h2>
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
+                <div className="text-4xl mb-4">🌪️</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Bow Echo Impact Assessment</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Wind Speed Analysis:</strong> Straight-line winds exceeding 80 mph cause structural damage patterns distinct from traditional storm damage</li>
+                  <li>• <strong>Directional Damage Mapping:</strong> Bow echo events create unique damage signatures requiring specialized documentation techniques</li>
+                  <li>• <strong>Microburst Identification:</strong> Downburst wind patterns create concentrated damage areas needing comprehensive assessment</li>
+                  <li>• <strong>Debris Field Analysis:</strong> Wind-driven projectile damage assessment for insurance documentation</li>
+                  <li>• <strong>Uplift Resistance Evaluation:</strong> Testing remaining roof components for wind resistance standards</li>
+                  <li>• <strong>Secondary Damage Detection:</strong> Water intrusion assessment from compromised building envelope</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500">
+                <div className="text-4xl mb-4">🔬</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Scientific Documentation Methods</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Meteorological Correlation:</strong> Matching damage patterns with National Weather Service storm reports and radar data</li>
+                  <li>• <strong>Wind Speed Calculation:</strong> Using debris trajectory analysis to determine actual wind speeds during impact</li>
+                  <li>• <strong>Hail Stone Sizing:</strong> Physical evidence collection and measurement for insurance verification</li>
+                  <li>• <strong>Photogrammetric Analysis:</strong> Using drone photography for precise damage measurement and documentation</li>
+                  <li>• <strong>Thermal Imaging Assessment:</strong> Detecting moisture intrusion and hidden damage not visible to naked eye</li>
+                  <li>• <strong>Load Path Evaluation:</strong> Structural integrity assessment for code compliance and safety</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-500">
+                <div className="text-4xl mb-4">🏗️</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Levelland-Specific Solutions</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Enhanced Uplift Resistance:</strong> Upgraded fastening systems designed for 90+ mph wind events</li>
+                  <li>• <strong>Bow Echo Protection:</strong> Reinforced roof-to-wall connections for straight-line wind resistance</li>
+                  <li>• <strong>Multi-Impact Barriers:</strong> Advanced underlayment systems for repeated hail impact protection</li>
+                  <li>• <strong>Emergency Response Planning:</strong> Pre-positioned materials and rapid deployment protocols</li>
+                  <li>• <strong>Utility Coordination:</strong> Working with Levelland utilities for expedited restoration</li>
+                  <li>• <strong>Community Resilience:</strong> Building back stronger with climate-adapted materials</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">South Plains Emergency Response Protocol</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Immediate Storm Response (0-4 Hours)</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Storm Tracking & Deployment</h4>
+                      <p className="text-gray-600 text-sm">24/7 weather monitoring with pre-positioned response teams activated when severe weather approaches Hockley County</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">2</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Safety-First Assessment</h4>
+                      <p className="text-gray-600 text-sm">Immediate structural integrity evaluation focusing on life safety and emergency stabilization needs</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Emergency Protection</h4>
+                      <p className="text-gray-600 text-sm">Professional tarping and board-up services to prevent additional water damage and secure property</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-brand-brown mb-2">Levelland Emergency Coordination</h4>
+                  <p className="text-gray-700 text-sm">We maintain direct communication with Levelland Emergency Management and Hockley County officials for coordinated disaster response and resource allocation.</p>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Recovery Coordination (4-48 Hours)</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Comprehensive Damage Documentation</h4>
+                      <p className="text-gray-600 text-sm">Detailed assessment using advanced technology and correlation with NWS storm surveys</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Insurance Claim Initiation</h4>
+                      <p className="text-gray-600 text-sm">Rapid claim filing with major carriers serving Levelland including documentation of bow echo specific damage patterns</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Material Logistics</h4>
+                      <p className="text-gray-600 text-sm">Expedited sourcing and delivery of materials optimized for South Plains weather conditions</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-green-50 p-4 rounded-lg border border-green-200">
+                  <h4 className="font-semibold text-green-800 mb-2">Hockley County Resource Network</h4>
+                  <p className="text-green-700 text-sm">Established partnerships with local suppliers, debris removal services, and utility providers ensure rapid recovery for Levelland properties.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Bow Echo Resistant Roofing Systems</h2>
+            <div className="grid lg:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Wind-Driven Hail Protection</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Levelland's May 2024 bow echo event demonstrated the critical need for roofing systems engineered to withstand not just vertical hail impacts, but wind-driven projectiles at extreme velocities. Our enhanced protection systems address these unique South Plains threats.</p>
+                <div className="space-y-4">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Enhanced Uplift Resistance</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>Ring-Shank Nail Systems:</strong> Superior holding power for 90+ mph straight-line winds</li>
+                      <li>• <strong>Reinforced Decking:</strong> Upgraded fastening patterns for extreme wind events</li>
+                      <li>• <strong>Enhanced Edge Securement:</strong> Perimeter reinforcement for uplift resistance</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Impact Protection Systems</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>Class 4+ Materials:</strong> Exceeding standard impact requirements for extreme events</li>
+                      <li>• <strong>Multi-Layer Defense:</strong> Redundant protection systems for catastrophic storms</li>
+                      <li>• <strong>Flexible Membrane Technology:</strong> Energy-absorbing materials that resist puncture</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Levelland Climate Specifications</h3>
+                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+                  <h4 className="text-lg font-semibold mb-4 text-gray-800">Bow Echo Performance Standards</h4>
+                  <p className="text-gray-700 text-sm mb-4">Our Levelland installations meet enhanced performance criteria based on analysis of the May 2024 bow echo and other extreme weather events affecting Hockley County.</p>
+                  <div className="grid grid-cols-2 gap-4 text-center mb-4">
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">90+</div>
+                      <div className="text-xs text-gray-600">MPH Wind Rating</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">Class 4</div>
+                      <div className="text-xs text-gray-600">Impact Resistance</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">50+</div>
+                      <div className="text-xs text-gray-600">Year Warranty</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">30%</div>
+                      <div className="text-xs text-gray-600">Insurance Discount</div>
+                    </div>
+                  </div>
+                  <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
+                    <p className="text-xs text-yellow-800"><strong>Levelland Advantage:</strong> Enhanced systems typically pay for themselves within 3-5 years through insurance savings and avoided storm damage costs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Hockley County Insurance Expertise</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Storm-Specific Claim Documentation</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Our experience with Levelland's unique storm patterns, including the devastating May 2024 bow echo, provides critical expertise in documenting and presenting claims for maximum insurance settlement recovery.</p>
+                <div className="bg-gray-50 p-6 rounded-xl">
+                  <h4 className="font-semibold text-brand-brown mb-3">Levelland Claims Success Record</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• <strong>120+ bow echo claims</strong> successfully processed after May 2024 event</li>
+                    <li>• <strong>97% approval rate</strong> for wind-driven hail damage in Hockley County</li>
+                    <li>• <strong>Average 26% increase</strong> in settlements with professional representation</li>
+                    <li>• <strong>14-day average</strong> claim resolution for standard bow echo damage</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Specialized Damage Advocacy</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Bow Echo Pattern Recognition</h4>
+                      <p className="text-gray-600 text-sm">Expertise in documenting unique damage signatures from straight-line wind events</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Meteorological Correlation</h4>
+                      <p className="text-gray-600 text-sm">Linking property damage to specific National Weather Service reports and radar data</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Code Upgrade Maximization</h4>
+                      <p className="text-gray-600 text-sm">Ensuring coverage for enhanced wind resistance and current building standards</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Adjuster Technical Education</h4>
+                      <p className="text-gray-600 text-sm">Professional presentation of complex storm dynamics and resulting damage patterns</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

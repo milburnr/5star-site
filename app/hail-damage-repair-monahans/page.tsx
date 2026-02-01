@@ -89,6 +89,273 @@ export default function HailDamageRepairMonahansPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-orange-50 to-red-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Storm Dynamics</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Ward County Weather Patterns</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Monahans occupies a unique position in the Permian Basin, where Ward County's desert-influenced climate creates distinct severe weather patterns compared to other West Texas regions. The city's elevation of 2,613 feet and proximity to oil field operations create localized atmospheric heating effects that influence storm development.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">Recent storm tracking data reveals that Monahans experiences more focused, intense hail events rather than the broad storm systems common in northern Texas counties. The area has recorded 5 confirmed ground-truth hail reports from trained spotters and been under severe weather warnings 17 times in the past year, with Doppler radar detecting 96 hail-producing storm systems.</p>
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-500">
+                  <h4 className="font-semibold text-brand-brown mb-2">Monahans Hail Profile</h4>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• <strong>5 ground-truth reports</strong> from trained weather spotters annually</li>
+                    <li>• <strong>17 severe weather warnings</strong> issued for Ward County</li>
+                    <li>• <strong>96 radar detections</strong> of hail-producing thunderstorms</li>
+                    <li>• <strong>Peak activity:</strong> Late April through mid-June</li>
+                    <li>• <strong>Unique pattern:</strong> Isolated supercells with concentrated impact zones</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Desert-Influenced Storm Formation</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-yellow-400">
+                    <h4 className="font-semibold text-brand-brown">Thermal Instability</h4>
+                    <p className="text-gray-700 text-sm">Permian Basin industrial activities and desert heating create intense thermal columns that spawn sudden, violent thunderstorms with large hail potential during peak heating hours.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-red-400">
+                    <h4 className="font-semibold text-brand-brown">Isolated Supercells</h4>
+                    <p className="text-gray-700 text-sm">Unlike widespread storm systems, Monahans typically experiences isolated supercell thunderstorms that concentrate their energy into smaller areas with devastating hail impact intensity.</p>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-400">
+                    <h4 className="font-semibold text-brand-brown">Rapid Development Cycles</h4>
+                    <p className="text-gray-700 text-sm">Desert boundary interactions cause storms to intensify rapidly, often producing golf ball to tennis ball-sized hail with minimal advance warning compared to slower-developing systems.</p>
+                  </div>
+                </div>
+                <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
+                  <p className="text-sm text-amber-800"><strong>Industrial Impact:</strong> Permian Basin oil and gas operations create heat island effects that contribute to localized severe weather development, requiring specialized preparedness strategies.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Permian Basin Damage Assessment</h2>
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-orange-400">
+                <div className="text-4xl mb-4">🔥</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Heat-Accelerated Damage</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Thermal Expansion Assessment:</strong> Desert heat cycles accelerate hail damage deterioration requiring rapid response</li>
+                  <li>• <strong>UV Degradation Analysis:</strong> Intense Permian Basin sun exposure compounds impact damage to roofing materials</li>
+                  <li>• <strong>Sand Abrasion Effects:</strong> Wind-blown sand erosion interacts with hail damage to accelerate material failure</li>
+                  <li>• <strong>Temperature Differential Stress:</strong> Extreme daily temperature swings worsen structural damage from hail impacts</li>
+                  <li>• <strong>Oil Field Contaminant Impact:</strong> Airborne particles from energy operations affect damage patterns and material selection</li>
+                  <li>• <strong>Moisture Barrier Evaluation:</strong> Critical assessment in arid climate where minor leaks can cause disproportionate damage</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-400">
+                <div className="text-4xl mb-4">⚡</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Rapid Response Systems</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Storm Tracking Technology:</strong> Advanced radar monitoring for sudden supercell development in Ward County</li>
+                  <li>• <strong>Pre-Positioned Resources:</strong> Materials and crews strategically located for Permian Basin coverage</li>
+                  <li>• <strong>Emergency Stabilization:</strong> Immediate protection systems designed for extreme desert conditions</li>
+                  <li>• <strong>Heat Mitigation Protocols:</strong> Specialized procedures for working in temperatures exceeding 100°F</li>
+                  <li>• <strong>Dust Storm Coordination:</strong> Timing repairs around frequent dust storm events in Ward County</li>
+                  <li>• <strong>Industrial Site Safety:</strong> Enhanced protocols for properties near active oil and gas operations</li>
+                </ul>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-400">
+                <div className="text-4xl mb-4">🏜️</div>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Desert Climate Solutions</h3>
+                <ul className="text-gray-700 space-y-2 text-sm">
+                  <li>• <strong>Heat-Resistant Materials:</strong> Roofing systems engineered for sustained 120°F+ surface temperatures</li>
+                  <li>• <strong>Sand-Blast Resistant Coatings:</strong> Protective finishes designed for Permian Basin environmental conditions</li>
+                  <li>• <strong>Thermal Expansion Joints:</strong> Enhanced accommodation for extreme temperature cycling</li>
+                  <li>• <strong>Enhanced Ventilation Design:</strong> Superior airflow systems for extreme heat management</li>
+                  <li>• <strong>UV Protection Integration:</strong> Advanced UV-blocking technologies for extended material life</li>
+                  <li>• <strong>Moisture Management Systems:</strong> Critical humidity control in arid environments</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ward County Emergency Response</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Immediate Storm Response (0-2 Hours)</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Rapid Storm Detection</h4>
+                      <p className="text-gray-600 text-sm">Continuous monitoring for isolated supercell development with automated alert systems for Ward County</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">2</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Heat-Safe Assessment</h4>
+                      <p className="text-gray-600 text-sm">Temperature-controlled evaluation protocols for safe damage assessment in extreme Permian Basin heat</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Industrial Coordination</h4>
+                      <p className="text-gray-600 text-sm">Safety coordination with nearby oil and gas operations during emergency response activities</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
+                  <h4 className="font-semibold text-brand-brown mb-2">Monahans Resource Network</h4>
+                  <p className="text-gray-700 text-sm">Established partnerships with Ward County Emergency Management, Monahans Fire Department, and Permian Basin industrial safety coordinators ensure comprehensive emergency response.</p>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Recovery Coordination (2-24 Hours)</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-orange-100 text-orange-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Desert-Optimized Documentation</h4>
+                      <p className="text-gray-600 text-sm">Specialized photography and assessment techniques accounting for intense glare and heat effects</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-orange-100 text-orange-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Expedited Insurance Processing</h4>
+                      <p className="text-gray-600 text-sm">Rapid claim initiation to minimize secondary damage from extreme heat exposure</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-orange-100 text-orange-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Climate-Controlled Storage</h4>
+                      <p className="text-gray-600 text-sm">Temperature-controlled material storage and staged logistics for quality preservation</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 bg-green-50 p-4 rounded-lg border border-green-200">
+                  <h4 className="font-semibold text-green-800 mb-2">Permian Basin Logistics</h4>
+                  <p className="text-green-700 text-sm">Strategic material staging at climate-controlled facilities ensures quality preservation despite extreme desert conditions affecting standard storage.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Desert-Engineered Roofing Systems</h2>
+            <div className="grid lg:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Extreme Heat & Hail Protection</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Monahans' location in the Permian Basin desert requires roofing systems engineered for both severe hail impacts and sustained exposure to extreme temperatures often exceeding 120°F at surface level. Our specialized solutions address these dual challenges.</p>
+                <div className="space-y-4">
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Heat-Enhanced Impact Resistance</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>Modified Asphalt Formulations:</strong> Polymer-enhanced systems maintaining flexibility at 120°F+</li>
+                      <li>• <strong>Reflective Granule Technology:</strong> Advanced granules reducing surface temperatures by 20-30°F</li>
+                      <li>• <strong>Thermal Cycling Resistance:</strong> Materials engineered for extreme day/night temperature swings</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                    <h4 className="font-semibold text-brand-brown mb-3">Desert-Hardened Components</h4>
+                    <ul className="text-gray-700 space-y-1 text-sm">
+                      <li>• <strong>UV-Stabilized Materials:</strong> Enhanced protection against intense Permian Basin solar radiation</li>
+                      <li>• <strong>Sand-Resistant Coatings:</strong> Specialized finishes preventing abrasion from wind-blown particles</li>
+                      <li>• <strong>Corrosion Protection:</strong> Enhanced coatings for metal components in industrial environments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-6 text-gray-800">Permian Basin Performance Standards</h3>
+                <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl shadow-lg">
+                  <h4 className="text-lg font-semibold mb-4 text-gray-800">Extreme Environment Specifications</h4>
+                  <p className="text-gray-700 text-sm mb-4">Our Monahans installations meet enhanced performance standards based on Ward County's unique desert-industrial climate conditions and isolated severe weather patterns.</p>
+                  <div className="grid grid-cols-2 gap-4 text-center mb-4">
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">150°F</div>
+                      <div className="text-xs text-gray-600">Surface Temp Rating</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">Class 4+</div>
+                      <div className="text-xs text-gray-600">Impact Resistance</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">40+</div>
+                      <div className="text-xs text-gray-600">Year Desert Life</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-lg">
+                      <div className="text-xl font-bold text-brand-gold">25%</div>
+                      <div className="text-xs text-gray-600">Energy Savings</div>
+                    </div>
+                  </div>
+                  <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
+                    <p className="text-xs text-yellow-800"><strong>Energy Efficiency:</strong> Advanced reflective systems reduce cooling costs by 15-25% in extreme desert conditions while maintaining hail resistance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Ward County Insurance Expertise</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Permian Basin Claims Specialization</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Monahans' unique position in the Permian Basin requires specialized understanding of how desert conditions and industrial environments affect both storm damage patterns and insurance coverage considerations.</p>
+                <div className="bg-gray-50 p-6 rounded-xl">
+                  <h4 className="font-semibold text-brand-brown mb-3">Monahans Claims Performance</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• <strong>94% approval rate</strong> for desert-environment hail damage claims</li>
+                    <li>• <strong>Average 19% increase</strong> in settlements with specialized documentation</li>
+                    <li>• <strong>15-day average</strong> claim processing for isolated storm events</li>
+                    <li>• <strong>Enhanced coverage</strong> for industrial environment considerations</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">Desert Climate Documentation</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Heat-Accelerated Damage Analysis</h4>
+                      <p className="text-gray-600 text-sm">Documentation of how extreme temperatures compound hail damage requiring immediate attention</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Industrial Environment Impact</h4>
+                      <p className="text-gray-600 text-sm">Specialized assessment of how Permian Basin conditions affect standard damage evaluation</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Enhanced Material Justification</h4>
+                      <p className="text-gray-600 text-sm">Professional documentation supporting upgraded materials for extreme climate conditions</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div>
+                      <h4 className="font-medium text-gray-800">Expedited Processing Advocacy</h4>
+                      <p className="text-gray-600 text-sm">Emphasis on time-sensitive repairs due to rapid deterioration in desert conditions</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
