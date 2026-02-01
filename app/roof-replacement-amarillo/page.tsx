@@ -161,7 +161,7 @@ export default function RoofReplacementAmarilloPage() {
               Why Amarillo's Climate Demands Expert Roof Replacement
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Amarillo's location in the Texas Panhandle creates one of America's most challenging roofing environments. Potter County faces extreme conditions year-round:
+              Amarillo's location in the Texas Panhandle creates one of America's most challenging roofing environments. Potter County faces extreme conditions year-round that accelerate roof deterioration and demand premium materials designed for extreme weather resilience.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
@@ -193,6 +193,272 @@ export default function RoofReplacementAmarilloPage() {
                 <p className="text-gray-600 text-sm">
                   Constant expansion/contraction accelerates material degradation and shortens roof lifespan.
                 </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Amarillo's Unique Housing Market & Roofing Challenges
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Housing Stock Age Profile</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Amarillo's housing market presents unique roofing challenges due to its construction history. With a <strong>median construction year of 1972</strong>, many homes are approaching or exceeding the typical roof replacement cycle.
+                </p>
+                <div className="bg-gray-50 p-6 rounded-xl">
+                  <h4 className="font-bold text-lg mb-3">Construction Eras</h4>
+                  <ul className="space-y-2">
+                    <li className="flex justify-between">
+                      <span>1940s-1960s (Post-War Boom):</span>
+                      <strong className="text-brand-gold">40.29%</strong>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>1970s-1990s:</span>
+                      <strong className="text-brand-gold">32.27%</strong>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>2000s-Present:</span>
+                      <strong className="text-brand-gold">27.44%</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Roof Replacement Timing</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Over 70% of Amarillo homes were built before 1990, meaning their original roofs have likely been replaced at least once. In Potter County's extreme climate, roof replacement cycles are shorter than the national average.
+                </p>
+                <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500">
+                  <h4 className="font-bold text-lg mb-3 text-red-800">Critical Insight</h4>
+                  <p className="text-red-700">
+                    Homes built in the 1940s-1960s era often have unique architectural features requiring specialized replacement approaches. Ranch-style homes, split-levels, and mid-century designs demand materials that complement their aesthetic while providing modern protection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Complete Roof Replacement Process in Amarillo
+            </h2>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-blue-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
+                <h3 className="text-xl font-bold mb-4">Comprehensive Inspection</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Our certified inspectors assess your current roof condition, identifying hail damage, wind damage, and age-related deterioration. We document all findings with high-resolution photos and detailed reports for insurance claims.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Granule loss assessment</li>
+                  <li>• Structural integrity check</li>
+                  <li>• Ventilation system evaluation</li>
+                  <li>• Insurance documentation</li>
+                </ul>
+              </div>
+
+              <div className="bg-green-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">2</div>
+                <h3 className="text-xl font-bold mb-4">Material Selection & Permits</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  We help you choose the optimal materials for Amarillo's climate, prioritizing Class 4 impact-resistant shingles that qualify for insurance discounts. Our team handles all City of Amarillo permit requirements.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Class 4 impact-resistant options</li>
+                  <li>• Color matching for HOA compliance</li>
+                  <li>• City permit application</li>
+                  <li>• Material delivery scheduling</li>
+                </ul>
+              </div>
+
+              <div className="bg-amber-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
+                <h3 className="text-xl font-bold mb-4">Professional Installation</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Complete tear-off and replacement using advanced installation techniques designed for West Texas conditions. We include enhanced ventilation, premium underlayment, and wind-resistant features exceeding code requirements.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Complete tear-off to decking</li>
+                  <li>• Enhanced wind resistance (125+ mph)</li>
+                  <li>• Improved ventilation systems</li>
+                  <li>• Final quality inspection</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Premium Material Options for Amarillo Climate
+            </h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-xl shadow-md">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Residential Solutions</h3>
+                
+                <div className="space-y-6">
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-lg font-bold text-blue-800 mb-2">Class 4 Architectural Shingles</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Premium choice:</strong> GAF Timberline HDZ, Owens Corning Duration Storm
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Impact-resistant technology reduces hail damage by 90%. Qualifies for 10-30% insurance discounts in Potter County. 50-year warranty with wind resistance up to 130 mph.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$12,000 - $18,000 (average home)</p>
+                  </div>
+
+                  <div className="border-l-4 border-green-500 pl-6">
+                    <h4 className="text-lg font-bold text-green-800 mb-2">Metal Roofing Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Premium choice:</strong> Standing seam steel, aluminum panels
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Superior hail resistance and wind performance. Energy-efficient cool roof technology reduces cooling costs by 15-25%. Lifetime durability with minimal maintenance.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$18,000 - $35,000 (average home)</p>
+                  </div>
+
+                  <div className="border-l-4 border-purple-500 pl-6">
+                    <h4 className="text-lg font-bold text-purple-800 mb-2">Synthetic Composite</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Premium choice:</strong> DaVinci Roofscapes, CertainTeed Northgate
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Slate and cedar appearance without weight concerns. Class 4 impact rating with freeze-thaw resistance. Ideal for historic Amarillo neighborhoods.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$20,000 - $40,000 (average home)</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-xl shadow-md">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Commercial Solutions</h3>
+                
+                <div className="space-y-6">
+                  <div className="border-l-4 border-red-500 pl-6">
+                    <h4 className="text-lg font-bold text-red-800 mb-2">TPO Membrane Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Most popular:</strong> Single-ply thermoplastic membrane
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Excellent hail resistance with heat-reflective surface. Superior wind uplift performance. Energy-efficient white membrane reduces HVAC loads significantly.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$7.50 - $12.50 per sq ft</p>
+                  </div>
+
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-lg font-bold text-blue-800 mb-2">Modified Bitumen</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Traditional choice:</strong> Multi-layer built-up systems
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Proven durability in extreme weather. Self-healing properties for minor punctures. Enhanced with granulated cap sheets for UV protection and hail resistance.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$6.00 - $10.00 per sq ft</p>
+                  </div>
+
+                  <div className="border-l-4 border-gray-500 pl-6">
+                    <h4 className="text-lg font-bold text-gray-800 mb-2">Metal Retrofit Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Upgrade option:</strong> Over existing flat roofs
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Superior wind and hail protection. Eliminates ponding water issues. Significant energy savings with cool roof technology. 50+ year lifespan.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$12.00 - $18.00 per sq ft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Insurance Claims & Financing in Amarillo
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-600">
+                <h3 className="text-2xl font-bold mb-4 text-blue-800">Insurance Claim Process</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">
+                  85% of Amarillo roof replacements are covered by insurance due to hail damage. We work directly with all major insurance companies to streamline your claim process and ensure maximum coverage.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
+                    <div>
+                      <h4 className="font-bold">Free Storm Damage Assessment</h4>
+                      <p className="text-sm text-gray-600">Complete documentation with high-resolution photos</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
+                    <div>
+                      <h4 className="font-bold">Insurance Company Meeting</h4>
+                      <p className="text-sm text-gray-600">We meet with adjusters to ensure complete coverage</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
+                    <div>
+                      <h4 className="font-bold">Claim Approval & Scheduling</h4>
+                      <p className="text-sm text-gray-600">Fast-track approval with immediate project scheduling</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                  <p className="text-sm text-blue-800 font-semibold">
+                    Average deductible: $1,000 - $2,500. We offer deductible assistance programs for qualifying homeowners.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-600">
+                <h3 className="text-2xl font-bold mb-4 text-green-800">Financing Options</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">
+                  Multiple financing solutions available for property owners in Potter County. We work with local and national lenders to provide competitive rates and flexible terms.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-bold text-green-800 mb-2">0% Interest Programs</h4>
+                    <p className="text-sm text-gray-700">12-18 months same-as-cash options available for qualified applicants</p>
+                  </div>
+                  
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-bold text-green-800 mb-2">Extended Terms</h4>
+                    <p className="text-sm text-gray-700">60-180 month financing with competitive rates starting at 4.99% APR</p>
+                  </div>
+                  
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-bold text-green-800 mb-2">Quick Approval</h4>
+                    <p className="text-sm text-gray-700">Same-day approval process with minimal documentation required</p>
+                  </div>
+                </div>
+
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
+                  <p className="text-sm text-amber-800 font-semibold">
+                    Special financing available for energy-efficient upgrades and Class 4 impact-resistant materials.
+                  </p>
+                </div>
               </div>
             </div>
           </section>

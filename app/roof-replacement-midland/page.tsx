@@ -89,7 +89,7 @@ export default function RoofReplacementMidlandPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [{"@type":"Question","name":"When should I replace my Midland roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread hail damage (10+ impacts per 100 sq ft), roof age over 20 years, multiple leaks, extensive granule loss, or failed previous repairs."}},{"@type":"Question","name":"How much does roof replacement cost in Midland?","acceptedAnswer":{"@type":"Answer","text":"Residential: $8,000-$25,000 depending on size and materials. Commercial: $15,000-$100,000+ depending on building size. 85% of replacements are insurance-covered hail damage where property owners pay only their deductible."}},{"@type":"Question","name":"What are the best roofing materials for Midland's climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant asphalt shingles (residential), TPO or metal roofing (commercial). These materials are engineered for extreme Texas weather conditions including hail, high winds, and temperature swings."}}]
+            "mainEntity": [{"@type":"Question","name":"When should I replace my Midland roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread Permian Basin hail damage, roof age over 15-20 years in dust storm environment, multiple leaks, extensive granule loss from dust erosion, or failed previous repairs. Oil boom construction from 1980s-2010s now requires replacement due to age and environmental wear."}},{"@type":"Question","name":"How much does roof replacement cost in Midland?","acceptedAnswer":{"@type":"Answer","text":"Residential: $12,000-$42,000 depending on size and materials. Commercial/Industrial: $20,000-$200,000+ for oil company facilities. Most Midland replacements are insurance-covered hail damage where property owners pay only deductible ($1,000-$3,500)."}},{"@type":"Question","name":"What roofing materials work best in Midland's Permian Basin climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles with dust-resistant granules (residential), TPO membrane or metal systems (commercial). Permian Basin requires materials engineered for dust storms, extreme hail, temperature cycling (20°F to 110°F+), and industrial environments."}},{"@type":"Question","name":"Do commercial buildings in Midland need special roofing considerations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Oil and gas facilities require chemical-resistant materials, 24/7 operational scheduling, enhanced wind resistance, and compliance with industrial safety standards. Many require specialized access for equipment and minimal business interruption during replacement."}},{"@type":"Question","name":"How do dust storms affect roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Frequent northwest wind dust storms cause granule loss, surface erosion, and accelerated aging. Dust accumulation blocks drainage systems and creates abrasive wear patterns. Proper material selection and maintenance schedules are critical for Permian Basin conditions."}},{"@type":"Question","name":"Are there energy efficiency benefits for new roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cool roof technologies can reduce cooling costs by 25-40% in Midland's intense summer heat (110°F+). Reflective membranes, metal roofing, and energy-efficient shingles qualify for utility rebates and reduce operational costs for both residential and commercial properties."}}]
           })
         }}
       />
@@ -158,14 +158,254 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Midland's Roof Replacement Specialists
+              Why Midland's Permian Basin Climate Demands Expert Roof Replacement
             </h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Complete roof replacement for Midland homes and businesses. We install Class 4 impact-resistant roofing with 50-year warranties.
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              As the heart of America's energy industry, Midland faces unique roofing challenges in the harsh Permian Basin climate. Midland County's extreme weather patterns, combined with oil boom construction cycles, create specific roof replacement needs for both residential and commercial properties.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Midland with expert roof replacement. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.
-            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-red-50 p-6 rounded-xl shadow-md border-t-4 border-red-600">
+                <h3 className="text-xl font-bold text-red-800 mb-3">Permian Basin Hail Events</h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  <strong>Golf ball to baseball sized hail</strong> - Midland's flat terrain provides no barriers to severe thunderstorms moving across the basin.
+                </p>
+                <p className="text-gray-600 text-sm">
+                  Recent May 2024 storms caused extensive damage throughout the region. Peak season April-June with secondary October peak.
+                </p>
+              </div>
+
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-amber-600">
+                <h3 className="text-xl font-bold text-amber-800 mb-3">Dust Storm Damage</h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  <strong>Northwest wind dust storms</strong> - Frequent blowing dust events carry abrasive particles that accelerate roof material degradation.
+                </p>
+                <p className="text-gray-600 text-sm">
+                  Spring dust storms with winds exceeding 40 mph cause granule loss and surface erosion, particularly during drought periods.
+                </p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
+                <h3 className="text-xl font-bold text-blue-800 mb-3">Extreme Temperature Cycling</h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  <strong>90°F temperature swings</strong> - from winter lows near 20°F to summer highs over 110°F create severe thermal stress.
+                </p>
+                <p className="text-gray-600 text-sm">
+                  High UV exposure at 2,800' elevation combined with low humidity intensifies material aging processes.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Midland's Oil Boom Housing Market & Roof Considerations
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Energy Boom Construction Cycles</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Midland's housing market reflects the cyclical nature of oil and gas development. Construction surged during the 1980s boom, declined in the 1990s, and resumed with the Permian Basin shale revolution starting in 2010.
+                </p>
+                <div className="bg-gray-50 p-6 rounded-xl mb-4">
+                  <h4 className="font-bold text-lg mb-3">Construction Eras</h4>
+                  <ul className="space-y-2">
+                    <li className="flex justify-between">
+                      <span>2010-2020 (Shale Boom):</span>
+                      <strong className="text-brand-gold">38%</strong>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>1980s-1990s (Oil Prosperity):</span>
+                      <strong className="text-brand-gold">35%</strong>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>1960s-1970s (Development Era):</span>
+                      <strong className="text-brand-gold">27%</strong>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <p className="text-blue-800 font-semibold text-sm">
+                    Rapid construction during boom periods sometimes compromised quality, making proper roof replacement critical for long-term protection.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Commercial & Industrial Focus</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-red-500 pl-4">
+                    <h4 className="font-bold text-red-800 mb-2">Energy Sector Buildings</h4>
+                    <p className="text-sm text-gray-700">
+                      Oil company offices, equipment facilities, and industrial complexes require specialized commercial roofing systems designed for 24/7 operations.
+                    </p>
+                  </div>
+                  
+                  <div className="border-l-4 border-green-500 pl-4">
+                    <h4 className="font-bold text-green-800 mb-2">Executive Housing</h4>
+                    <p className="text-sm text-gray-700">
+                      High-end residential developments built during boom periods often feature complex rooflines requiring premium materials and expert installation.
+                    </p>
+                  </div>
+                  
+                  <div className="border-l-4 border-blue-500 pl-4">
+                    <h4 className="font-bold text-blue-800 mb-2">Workforce Housing</h4>
+                    <p className="text-sm text-gray-700">
+                      Rapid development housing from 2012-2018 period now approaching first major maintenance cycle, including roof replacements.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-6 bg-amber-50 p-4 rounded-lg">
+                  <p className="text-amber-800 font-semibold text-sm">
+                    Insurance claims are common due to frequent hail damage in the Permian Basin oil fields and residential areas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Comprehensive Roof Replacement Solutions for Midland
+            </h2>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-blue-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
+                <h3 className="text-xl font-bold mb-4">Storm & Environmental Damage Assessment</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Specialized inspection for Permian Basin conditions including hail damage, wind uplift, dust erosion, and thermal cycling stress. We document all findings with detailed reports for insurance and maintenance planning.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Hail impact evaluation</li>
+                  <li>• Dust erosion assessment</li>
+                  <li>• Thermal stress analysis</li>
+                  <li>• Commercial operations impact review</li>
+                </ul>
+              </div>
+
+              <div className="bg-green-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">2</div>
+                <h3 className="text-xl font-bold mb-4">Material Selection & Code Compliance</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Expert material selection optimized for Permian Basin conditions. We handle all City of Midland permits and ensure compliance with energy sector facility requirements and industrial standards.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Dust-resistant systems</li>
+                  <li>• High-temperature performance materials</li>
+                  <li>• City of Midland permits</li>
+                  <li>• Industrial facility compliance</li>
+                </ul>
+              </div>
+
+              <div className="bg-amber-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
+                <h3 className="text-xl font-bold mb-4">Professional Installation & Scheduling</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Complete replacement with scheduling flexibility for commercial operations. Enhanced installation techniques designed for extreme weather resistance and minimal business disruption.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• 24/7 commercial scheduling</li>
+                  <li>• Enhanced wind resistance (120+ mph)</li>
+                  <li>• Dust mitigation during installation</li>
+                  <li>• Operations continuity planning</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Roofing Systems Engineered for Permian Basin Conditions
+            </h2>
+            
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-xl shadow-md">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Residential Solutions</h3>
+                
+                <div className="space-y-6">
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-lg font-bold text-blue-800 mb-2">Class 4 Heavy-Duty Shingles</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Top choice:</strong> GAF Timberline HDZ, CertainTeed Landmark Impact Resistant
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Engineered specifically for oil country conditions. Maximum hail protection with dust-resistant granules. Superior thermal cycling performance for Permian Basin temperature extremes.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$12,000 - $19,000 (typical home)</p>
+                  </div>
+
+                  <div className="border-l-4 border-gray-500 pl-6">
+                    <h4 className="text-lg font-bold text-gray-800 mb-2">Metal Roofing Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Premium choice:</strong> Standing seam steel with protective coatings
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Superior durability for dust storm environments. Reflective surfaces reduce energy costs significantly. Perfect for executive homes and energy company housing.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$17,000 - $34,000 (typical home)</p>
+                  </div>
+
+                  <div className="border-l-4 border-green-500 pl-6">
+                    <h4 className="text-lg font-bold text-green-800 mb-2">Tile & Composite Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Aesthetic option:</strong> Concrete tile, synthetic slate
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Excellent thermal performance with architectural appeal. Dust-shedding surfaces and high impact resistance. Ideal for upscale Midland developments.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$19,000 - $42,000 (typical home)</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-xl shadow-md">
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">Commercial & Industrial Solutions</h3>
+                
+                <div className="space-y-6">
+                  <div className="border-l-4 border-red-500 pl-6">
+                    <h4 className="text-lg font-bold text-red-800 mb-2">TPO High-Performance Membrane</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Industry standard:</strong> White thermoplastic systems
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Chemical resistance for industrial environments. Superior heat reflection reduces cooling loads for large facilities. Proven performance in oil field conditions.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$8.00 - $13.00 per sq ft</p>
+                  </div>
+
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-lg font-bold text-blue-800 mb-2">Modified Bitumen Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Heavy-duty choice:</strong> Reinforced membrane systems
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Excellent puncture resistance for industrial applications. Self-healing properties for minor damage. Enhanced with reflective granules for energy efficiency.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$6.50 - $11.00 per sq ft</p>
+                  </div>
+
+                  <div className="border-l-4 border-gray-600 pl-6">
+                    <h4 className="text-lg font-bold text-gray-800 mb-2">Metal Retrofit Systems</h4>
+                    <p className="text-gray-700 mb-2">
+                      <strong>Upgrade solution:</strong> Over existing commercial roofs
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Maximum durability for 24/7 operations. Eliminates future maintenance concerns. Superior energy performance for large facilities. Perfect for oil company buildings.
+                    </p>
+                    <p className="text-lg font-bold text-green-600 mt-2">$12.00 - $18.00 per sq ft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
