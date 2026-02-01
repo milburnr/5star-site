@@ -12,13 +12,16 @@ export const metadata: Metadata = {
 export default function CanyonRoofingPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "RoofingContractor",
-              "@id": "https://5starroofingpros.com/#organization",
+    "@type": ["RoofingContractor", "LocalBusiness"],
+    "@id": "https://5starroofingpros.com/canyon-texas-roofing/#localBusiness",
     "name": "5 Star Commercial Roofing - Canyon",
+    "alternateName": "5 Star Roofing Canyon TX",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-    "description": "Professional roofing contractor serving Canyon, Texas and Randall County with commercial, residential, and emergency roofing services.",
+    "description": "Professional roofing contractor serving Canyon, Texas and Randall County with commercial, residential, emergency roofing, and specialized educational facility and museum roofing solutions.",
+    "url": "https://5starroofingpros.com/canyon-texas-roofing/",
     "telephone": "+18066226041",
     "email": "admin@5starroofingpros.com",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "2909 S Western St",
@@ -27,20 +30,85 @@ export default function CanyonRoofingPage() {
       "postalCode": "79109",
       "addressCountry": "US"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "34.9799",
+      "longitude": "-101.9191"
+    },
     "areaServed": [
-      { "@type": "City", "name": "Canyon", "containedInPlace": { "@type": "AdministrativeArea", "name": "Randall County" } },
-      { "@type": "City", "name": "Amarillo" }
+      {
+        "@type": "City",
+        "name": "Canyon",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Randall County"
+        }
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Randall County"
+      }
     ],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.9799",
+        "longitude": "-101.9191"
+      },
+      "geoRadius": "50"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Roofing Services",
+      "name": "Canyon Roofing Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "description": "Commercial roofing for Canyon businesses" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing", "description": "Residential roofing for Canyon homes" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair", "description": "Storm and hail damage repair in Canyon, TX" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roofing", "description": "24/7 emergency roofing in Randall County" } }
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Commercial Roofing Canyon TX",
+            "description": "Commercial roofing services for Canyon businesses, West Texas A&M University buildings, and Randall County facilities"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Educational Facility Roofing",
+            "description": "Specialized roofing for West Texas A&M University campus buildings and educational facilities"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Museum Roofing Canyon",
+            "description": "Specialized climate-controlled roofing for Panhandle-Plains Historical Museum and cultural facilities"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Residential Roofing Canyon TX",
+            "description": "Residential roof repair and replacement for Canyon homes with impact-resistant materials"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Agricultural Roofing Randall County",
+            "description": "Metal building and barn roofing for agricultural operations throughout Randall County"
+          }
+        }
       ]
-    }
+    },
+    "openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-16:00"],
+    "sameAs": [
+      "https://www.facebook.com/5StarRoofingPros",
+      "https://www.google.com/maps/place/5+Star+Commercial+Roofing"
+    ]
   };
 
   return (
@@ -102,6 +170,90 @@ export default function CanyonRoofingPage() {
             <p className="text-lg mb-4">
               Canyon's climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Randall County properties year after year.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">About Canyon: Education Capital of the Texas Panhandle</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">City Profile</h3>
+                <ul className="space-y-2">
+                  <li><strong>Population:</strong> 15,398 (2023 census)</li>
+                  <li><strong>County:</strong> Randall County (County Seat)</li>
+                  <li><strong>Distance from Amarillo:</strong> 16 miles south</li>
+                  <li><strong>Founded:</strong> 1889</li>
+                  <li><strong>Median Age:</strong> 28.2 years</li>
+                  <li><strong>Median Household Income:</strong> $68,233</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Economic Foundation</h3>
+                <p className="text-gray-600 mb-4">
+                  Canyon's economy is built on education, agriculture, and tourism. West Texas A&M University is the largest employer and economic driver, bringing over 10,000 students and 1,500 employees to the city.
+                </p>
+                <p className="text-gray-600">
+                  The city serves as both the county seat of Randall County and the gateway to Palo Duro Canyon State Park, making it a unique blend of educational, governmental, and tourism activities.
+                </p>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-bold mb-4">Major Employers & Industries</h3>
+            <div className="grid md:grid-cols-3 gap-6 mb-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">West Texas A&M University</h4>
+                <p className="text-sm text-gray-600">Largest employer with over 1,500 faculty and staff, serving 10,000+ students with extensive campus facilities requiring specialized roofing</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Panhandle-Plains Historical Museum</h4>
+                <p className="text-sm text-gray-600">Largest history museum in Texas, requiring climate-controlled roofing systems to protect invaluable historical artifacts</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Randall County Government</h4>
+                <p className="text-sm text-gray-600">County courthouse, offices, and governmental facilities needing durable, long-lasting commercial roofing systems</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Agriculture & Ranching</h4>
+                <p className="text-sm text-gray-600">Wheat, sorghum, corn, and cattle operations requiring large agricultural building roofing and metal systems</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Tourism & Hospitality</h4>
+                <p className="text-sm text-gray-600">Hotels, restaurants, and visitor services for Palo Duro Canyon tourists, requiring commercial roofing solutions</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Texas Musical Drama</h4>
+                <p className="text-sm text-gray-600">Outdoor amphitheater and support facilities requiring weather-resistant roofing for year-round operations</p>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-bold mb-4">Neighborhoods & Areas We Serve</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-bold mb-2">University District</h4>
+                <p className="text-gray-600 mb-3">
+                  The West Texas A&M campus and surrounding academic buildings, dormitories, and student housing. These facilities require specialized commercial roofing designed for educational environments with high occupancy and safety requirements.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Historic Downtown Canyon</h4>
+                <p className="text-gray-600 mb-3">
+                  The original town square and courthouse area, featuring historic buildings from the early 1900s that often require restoration-compatible roofing solutions that maintain historical authenticity while providing modern protection.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Residential Neighborhoods</h4>
+                <p className="text-gray-600 mb-3">
+                  Family neighborhoods housing university faculty, county employees, and local professionals. These communities need reliable residential roofing systems that can handle Texas Panhandle weather while maintaining property values.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Rural Randall County</h4>
+                <p className="text-gray-600 mb-3">
+                  Agricultural properties and ranch lands extending throughout Randall County, where large metal buildings, barns, and equipment storage facilities require durable roofing systems designed for agricultural use.
+                </p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -232,6 +384,119 @@ export default function CanyonRoofingPage() {
                 <h3 className="font-bold mb-1">Quality Inspection & Warranty</h3>
                 <p className="text-gray-700">We inspect all work, clean up your property, and provide comprehensive warranty information.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="content-block mb-12">
+          <h2 className="text-2xl font-bold mb-6">Specialized Roofing Solutions for Canyon's Unique Needs</h2>
+          
+          <h3 className="text-xl font-bold mb-4 text-brand-brown">Educational Institution Roofing</h3>
+          <p className="text-lg mb-4">
+            West Texas A&M University's extensive campus requires specialized commercial roofing systems that meet educational facility standards and provide long-term durability:
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Climate-Controlled Systems:</strong> Advanced roofing for laboratories, libraries, and research facilities</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>High-Occupancy Safety:</strong> Fire-rated and safety-compliant roofing for dormitories and academic buildings</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Energy Efficiency:</strong> Cool roofing systems to reduce operating costs for large campus buildings</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Historic Preservation:</strong> Compatible roofing for older campus buildings maintaining architectural integrity</div>
+            </li>
+          </ul>
+
+          <h3 className="text-xl font-bold mb-4 text-brand-brown">Museum & Cultural Facility Roofing</h3>
+          <p className="text-lg mb-4">
+            The Panhandle-Plains Historical Museum and other cultural facilities require specialized roofing to protect priceless artifacts and exhibits:
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Moisture Protection:</strong> Advanced waterproofing systems to prevent humidity damage to artifacts</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Temperature Stability:</strong> Insulated roofing systems for consistent climate control</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>UV Protection:</strong> Specialized membranes preventing UV damage to roofing and interior exhibits</div>
+            </li>
+          </ul>
+
+          <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural & Ranch Roofing</h3>
+          <p className="text-lg mb-4">
+            Randall County's agricultural operations require durable, cost-effective roofing solutions for various farm and ranch buildings:
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Metal Building Systems:</strong> Large-span roofing for equipment storage and livestock facilities</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Ventilation Solutions:</strong> Proper airflow systems for grain storage and livestock comfort</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Wind-Resistant Design:</strong> Systems engineered for the high winds common in open agricultural areas</div>
+            </li>
+          </ul>
+        </section>
+
+        <section className="bg-gray-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions - Canyon Roofing</h2>
+          
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-lg font-bold mb-2">Do you work on West Texas A&M University campus buildings?</h3>
+              <p className="text-gray-700">
+                Yes, we have extensive experience with educational facility roofing and work with university procurement departments on campus roofing projects. We understand the unique requirements for dormitories, academic buildings, and research facilities, including safety codes, occupancy requirements, and environmental controls needed to protect sensitive equipment and research materials.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">What roofing systems work best for Canyon's agriculture buildings?</h3>
+              <p className="text-gray-700">
+                For Randall County agricultural operations, we typically recommend metal roofing systems for their durability, large-span capability, and cost-effectiveness. Standing seam metal roofs are ideal for barns and equipment storage, while properly ventilated systems work best for livestock facilities. We also install specialized roofing for grain storage that prevents condensation and protects valuable crops.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">How do you handle roofing for historic buildings in downtown Canyon?</h3>
+              <p className="text-gray-700">
+                Canyon's historic downtown includes buildings from the early 1900s that require specialized restoration approaches. We work with local preservation guidelines and use materials that maintain historical authenticity while providing modern protection. This often includes using period-appropriate materials like slate or cedar shake alternatives, or installing modern systems designed to look historically accurate.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">Can you handle the large roofing projects common in Canyon's institutional buildings?</h3>
+              <p className="text-gray-700">
+                Absolutely. We specialize in large commercial and institutional roofing projects, including university buildings, the museum complex, county government facilities, and other major structures in Canyon. Our crews are experienced with project management, coordination with multiple stakeholders, and working around active operations that can't be disrupted during roofing installation.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">What's the typical timeline for residential roofing in Canyon?</h3>
+              <p className="text-gray-700">
+                Most residential roof replacements in Canyon are completed in 1-2 days, depending on the size and complexity of the home. University faculty and staff often prefer summer installations when classes aren't in session, so we recommend scheduling early for summer projects. We work efficiently to minimize disruption to families and can coordinate timing around academic schedules when needed.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">How does proximity to Palo Duro Canyon affect roofing in the area?</h3>
+              <p className="text-gray-700">
+                The canyon creates unique wind patterns and weather conditions that can affect roofing performance. We use wind-rated materials and installation techniques designed for these conditions. Additionally, the tourism industry brings many commercial properties (hotels, restaurants, visitor centers) that need attractive, durable roofing systems that can handle both heavy use and extreme weather exposure.
+              </p>
             </div>
           </div>
         </section>

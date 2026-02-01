@@ -89,6 +89,121 @@ export default function CommercialRoofingBorgerPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing for Borger's Industrial Economy
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's identity centers around the Phillips 66 Borger Refinery, one of Texas's largest petroleum processing facilities. This industrial foundation creates unique commercial roofing challenges requiring specialized expertise in chemical-resistant materials, thermal cycling resistance, and compliance with stringent safety regulations. Our commercial roofing solutions protect critical infrastructure supporting the refinery and associated petrochemical operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The refinery complex and surrounding industrial facilities experience constant exposure to chemical vapors, temperature extremes, and corrosive atmospheres that accelerate normal roof deterioration. Commercial buildings within a five-mile radius of the refinery require enhanced material specifications and more frequent maintenance cycles. We've developed specialized installation protocols that extend roof life by 40-60% compared to standard commercial applications.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Beyond the refinery, Borger's commercial sector includes agricultural services, railroad operations, and retail businesses along Highway 207 and Highway 136. Each sector presents distinct roofing requirements. Agricultural facilities need systems resistant to ammonia and other agricultural chemicals, while retail buildings require energy-efficient solutions that withstand High Plains wind and hail exposure.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Chemical-Resistant Roofing Systems for Industrial Applications</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Phillips 66 Borger Refinery operations release various airborne chemicals that attack conventional roofing materials. Standard asphalt-based systems deteriorate rapidly in this environment, requiring specialized membrane systems designed for chemical exposure. We install TPO and PVC membrane systems with enhanced chemical resistance, using welded seam construction that eliminates adhesive-vulnerable joints.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Metal roofing systems for industrial applications require upgraded coatings specifically formulated for petrochemical environments. Standard painted metal roofing fails within 5-7 years due to chemical exposure, while our recommended systems use fluoropolymer coatings designed for 25+ year performance in aggressive atmospheres. These specialized coatings resist acid rain, sulfur compounds, and hydrocarbon vapors common in refinery environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Insulation systems under chemical-resistant membranes require careful material selection to prevent chemical infiltration and thermal bridging. We use closed-cell foam insulation with vapor barriers that prevent chemical penetration while maintaining thermal efficiency. This approach proves especially important for temperature-controlled storage facilities and process buildings where thermal consistency affects operations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Safety Protocols for Refinery-Adjacent Commercial Projects
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Commercial roofing projects near the Phillips 66 facility require extensive safety protocols and specialized equipment to prevent ignition sources and chemical exposure. Our crews complete refinery-specific safety training including confined space awareness, chemical hazard recognition, and emergency evacuation procedures. All equipment undergoes inspection for spark-prevention compliance before entering refinery-adjacent areas.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Hot work permits and fire watch procedures are mandatory for any heat-based installation techniques within refinery influence zones. We coordinate extensively with refinery safety personnel and maintain constant communication during installation activities. Emergency response equipment and chemical exposure protocols are standard requirements for all crew members working in these environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Air quality monitoring during roofing installations ensures worker safety and project compliance. Continuous monitoring for hydrogen sulfide, benzene, and other petrochemical compounds determines safe working conditions. When air quality exceeds safety thresholds, work stops until conditions improve, ensuring both worker safety and project integrity.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Thermal Cycling and Temperature-Resistant Solutions</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's continental climate creates extreme temperature cycles, with summer highs exceeding 105°F and winter lows dropping below 10°F. Refinery operations add significant thermal loading, with roof surface temperatures often reaching 140-160°F on industrial buildings. These conditions demand roofing systems specifically engineered for thermal expansion and contraction stresses.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Membrane roofing systems require enhanced flexibility to accommodate thermal movement without cracking or tearing. We install TPO membranes with increased thickness (80-mil versus standard 60-mil) and use mechanically-attached systems that allow controlled thermal movement. Expansion joints at critical locations prevent stress concentrations that cause premature failures.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Metal roofing installations use floating clip systems that accommodate thermal expansion while maintaining weather-tight performance. Standing seam systems with structural thermal breaks prevent heat transfer into building interiors while allowing metal panels to expand and contract safely. These systems prove especially important for process buildings where internal temperature control affects operations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Energy Efficiency and Environmental Compliance for Borger Commercial Buildings
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's commercial buildings face unique energy challenges due to extreme weather conditions and proximity to industrial heat sources. Cool roofing technologies become essential for reducing HVAC loads and maintaining comfortable interior conditions. We install high-reflectance membrane systems that reduce cooling costs by 20-30% while improving interior comfort.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Solar reflectance indices (SRI) of 82 or higher are standard for our commercial membrane installations in Borger. These systems reflect infrared radiation while maintaining durability in the area's chemical exposure environment. White TPO and PVC membranes provide optimal energy efficiency while resisting chemical degradation from refinery emissions.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Environmental compliance requires careful attention to material selection and waste management. Roofing materials containing volatile organic compounds (VOCs) may violate air quality regulations in industrial areas. We use low-VOC adhesives and solvents while implementing waste containment procedures that prevent chemical contamination of surrounding areas.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Maintenance Programs for Industrial Commercial Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Commercial buildings in Borger's industrial environment require intensive maintenance programs to combat accelerated deterioration from chemical exposure and thermal cycling. Our maintenance contracts include quarterly inspections with chemical resistance testing, thermal imaging for heat loss detection, and preventive sealant renewal to maintain system integrity.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Predictive maintenance using infrared thermography identifies potential failure points before they compromise building operations. Thermal imaging reveals insulation defects, membrane delamination, and moisture intrusion that could lead to costly operational disruptions. Early detection prevents minor issues from becoming major system failures that could impact business operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response capabilities are essential for commercial properties in Borger's industrial area. Chemical spills, thermal events, and severe weather can compromise roofing systems within hours. Our emergency response teams maintain equipment specifically designed for chemical-contaminated environments and coordinate with industrial emergency response protocols.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing Solutions for Borger's Diverse Business Sectors
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              While the Phillips 66 refinery dominates Borger's economy, the community supports diverse commercial sectors requiring specialized roofing approaches. Agricultural businesses along Highway 207 need chemical-resistant systems that withstand fertilizer exposure and grain dust accumulation. Retail centers and restaurants require energy-efficient solutions that maintain comfortable environments while controlling operating costs.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Healthcare facilities including Hutchinson Regional Medical Center require specialized roofing systems that support critical life-safety equipment while maintaining sterile environments. Hospital and medical office roofing installations coordinate with infection control protocols and backup power systems. Emergency access routes and helicopter landing zones add complexity to healthcare facility roofing projects.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Educational facilities including Frank Phillips College and Borger High School need durable, cost-effective roofing solutions that accommodate large spans and provide energy efficiency. School roofing projects often coordinate with summer break schedules and require phased installations to maintain continuous operations during construction periods.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Transportation and logistics facilities serving the refinery and agricultural sectors require high-durability roofing systems that withstand heavy truck traffic vibrations and frequent loading operations. Warehouse and distribution center roofing must accommodate overhead crane operations while providing weather-tight protection for stored goods and equipment.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Regulatory Compliance and Code Requirements</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Commercial roofing in Borger must comply with enhanced building codes and safety regulations due to the community's industrial classification. Fire-resistant materials and enhanced structural requirements apply to buildings within defined proximity zones to the refinery. We maintain current certification with all relevant regulatory bodies and ensure full compliance with industrial safety standards.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Environmental protection regulations affect material selection and installation procedures for commercial projects. Storm water management, chemical containment, and air quality protection require specialized construction practices. Our installation procedures incorporate environmental protection measures that exceed standard requirements while ensuring project completion efficiency.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Insurance requirements for commercial properties in Borger often specify enhanced wind resistance and fire protection beyond standard Texas requirements. We work closely with commercial insurance providers to ensure roofing installations meet or exceed policy requirements while providing optimal protection for business operations and property values.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

@@ -12,13 +12,16 @@ export const metadata: Metadata = {
 export default function BorgerRoofingPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "RoofingContractor",
-              "@id": "https://5starroofingpros.com/#organization",
+    "@type": ["RoofingContractor", "LocalBusiness"],
+    "@id": "https://5starroofingpros.com/borger-texas-roofing/#localBusiness",
     "name": "5 Star Commercial Roofing - Borger",
+    "alternateName": "5 Star Roofing Borger TX",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-    "description": "Professional roofing contractor serving Borger, Texas and Hutchinson County with commercial, residential, and emergency roofing services.",
+    "description": "Professional roofing contractor serving Borger, Texas and Hutchinson County with commercial, residential, emergency roofing services, and specialized petrochemical industry roofing solutions.",
+    "url": "https://5starroofingpros.com/borger-texas-roofing/",
     "telephone": "+18066226041",
     "email": "admin@5starroofingpros.com",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "2909 S Western St",
@@ -26,6 +29,11 @@ export default function BorgerRoofingPage() {
       "addressRegion": "TX",
       "postalCode": "79109",
       "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "35.7596",
+      "longitude": "-101.4669"
     },
     "areaServed": [
       {
@@ -37,48 +45,70 @@ export default function BorgerRoofingPage() {
         }
       },
       {
-        "@type": "City",
-        "name": "Amarillo"
+        "@type": "AdministrativeArea",
+        "name": "Hutchinson County"
       }
     ],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "35.7596",
+        "longitude": "-101.4669"
+      },
+      "geoRadius": "50"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Roofing Services",
+      "name": "Borger Roofing Services",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Commercial Roofing",
-            "description": "Commercial roofing services for Borger industrial and business properties"
+            "name": "Commercial Roofing Borger TX",
+            "description": "Commercial roofing services for Borger petrochemical facilities, industrial buildings, and business properties including Phillips 66 and Chevron Phillips Chemical"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Residential Roofing",
-            "description": "Residential roof repair and replacement for Borger homes"
+            "name": "Residential Roofing Borger TX",
+            "description": "Residential roof repair and replacement for Borger homes with impact-resistant materials"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Hail Damage Repair",
-            "description": "Storm and hail damage roof repair in Borger, TX"
+            "name": "Hail Damage Repair Borger",
+            "description": "Storm and hail damage roof repair in Borger, TX with insurance claim assistance"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Emergency Roofing",
-            "description": "24/7 emergency roof repair services in Hutchinson County"
+            "name": "Emergency Roofing Hutchinson County",
+            "description": "24/7 emergency roof repair services in Hutchinson County and Borger area"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Industrial Roofing Borger",
+            "description": "Specialized roofing for petrochemical and industrial facilities with chemical-resistant materials"
           }
         }
       ]
-    }
+    },
+    "openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-16:00"],
+    "sameAs": [
+      "https://www.facebook.com/5StarRoofingPros",
+      "https://www.google.com/maps/place/5+Star+Commercial+Roofing"
+    ]
   };
 
   return (
@@ -140,6 +170,78 @@ export default function BorgerRoofingPage() {
             <p className="text-lg mb-4">
               Borger's unique climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Hutchinson County properties year after year.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">About Borger: Oil Boom Heritage & Modern Industry</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">City Profile</h3>
+                <ul className="space-y-2">
+                  <li><strong>Population:</strong> 12,551 (2020 census)</li>
+                  <li><strong>County:</strong> Hutchinson County</li>
+                  <li><strong>Distance from Amarillo:</strong> 50 miles north</li>
+                  <li><strong>Founded:</strong> March 1926</li>
+                  <li><strong>Median Age:</strong> 36.3 years</li>
+                  <li><strong>Median Household Income:</strong> $59,031</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Economic Base</h3>
+                <p className="text-gray-600 mb-4">
+                  Borger's economy is anchored by one of the world's largest inland petrochemical complexes, featuring Phillips 66, Chevron Phillips Chemical, and other major industrial operations that employ nearly 3,000 people combined.
+                </p>
+                <p className="text-gray-600">
+                  The city's industrial heritage dates to the 1926 oil boom when Ace Borger established the town after oil discovery. Within 90 days, sensational advertising brought the population to 45,000 during the height of the Texas oil rush.
+                </p>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-bold mb-4">Major Employers & Industries</h3>
+            <div className="grid md:grid-cols-3 gap-6 mb-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Phillips 66 Borger Refinery</h4>
+                <p className="text-sm text-gray-600">Major petroleum refining complex with crude distilling, catalytic cracking, and hydrodesulfurization units</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Chevron Phillips Chemical</h4>
+                <p className="text-sm text-gray-600">Petrochemical manufacturing and specialty chemical production facility</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Solvay USA</h4>
+                <p className="text-sm text-gray-600">Chemical manufacturing specializing in sodium carbonate and other industrial chemicals</p>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-bold mb-4">Neighborhoods & Areas We Serve</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-bold mb-2">Historic Downtown Borger</h4>
+                <p className="text-gray-600 mb-3">
+                  The original townsite established by Ace Borger in 1926, featuring historic architecture and the central business district. Many homes here date to the oil boom era and require specialized roofing solutions for historical preservation.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Industrial District</h4>
+                <p className="text-gray-600 mb-3">
+                  The massive petrochemical complex along the Canadian River, requiring specialized commercial and industrial roofing systems designed to withstand chemical exposure and extreme industrial environments.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Residential Areas</h4>
+                <p className="text-gray-600 mb-3">
+                  Modern suburban neighborhoods throughout Hutchinson County where families of petrochemical workers live, requiring durable residential roofing that can handle Texas Panhandle weather extremes.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Rural Hutchinson County</h4>
+                <p className="text-gray-600 mb-3">
+                  Agricultural and ranch properties surrounding Borger, where metal roofing and large-span commercial systems are essential for protecting livestock operations and equipment storage.
+                </p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -298,6 +400,104 @@ export default function BorgerRoofingPage() {
                 <h3 className="font-bold mb-1">Quality Inspection & Warranty</h3>
                 <p className="text-gray-700">Before we leave, we inspect all work, clean up your property, and provide you with comprehensive warranty information for your new roof.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="content-block mb-12">
+          <h2 className="text-2xl font-bold mb-6">Specialized Roofing Solutions for Borger's Industries</h2>
+          
+          <h3 className="text-xl font-bold mb-4 text-brand-brown">Petrochemical Industry Roofing</h3>
+          <p className="text-lg mb-4">
+            Borger's petrochemical facilities require specialized roofing systems that can withstand chemical exposure, high temperatures, and industrial processes. Our commercial roofing solutions include:
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Chemical-Resistant Membranes:</strong> TPO and EPDM systems designed for petrochemical environments</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>High-Temperature Coatings:</strong> Specialized coatings for refinery and chemical plant roofing</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Vapor Barrier Systems:</strong> Preventing chemical vapors from compromising roof integrity</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Safety Compliance:</strong> All installations meet OSHA requirements for industrial environments</div>
+            </li>
+          </ul>
+
+          <h3 className="text-xl font-bold mb-4 text-brand-brown">Residential Roofing for Borger Families</h3>
+          <p className="text-lg mb-4">
+            With over 2,700 families calling Borger home, we provide residential roofing solutions that protect against the Texas Panhandle's extreme weather while enhancing property values:
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Impact-Resistant Shingles:</strong> Class 4 rated shingles for maximum hail protection</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Energy-Efficient Systems:</strong> Cool roofing to reduce energy costs in 100°F+ summers</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Wind-Rated Installation:</strong> Systems rated for 90+ mph winds common in Hutchinson County</div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-brand-gold mr-2">▸</span>
+              <div><strong>Historical Preservation:</strong> Specialized solutions for 1920s-era oil boom architecture</div>
+            </li>
+          </ul>
+        </section>
+
+        <section className="bg-gray-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions - Borger Roofing</h2>
+          
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-lg font-bold mb-2">How does working near Borger's petrochemical complex affect roofing installations?</h3>
+              <p className="text-gray-700">
+                Our crews are trained in industrial safety protocols and use chemical-resistant materials when working near Phillips 66, Chevron Phillips Chemical, and other facilities. We coordinate with plant safety personnel and follow all environmental regulations during installations. Our roofing systems are specifically chosen to resist chemical exposure that can occur from industrial emissions.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">What type of roof is best for Borger's extreme hail storms?</h3>
+              <p className="text-gray-700">
+                For Borger properties, we recommend Class 4 impact-resistant shingles or metal roofing systems. The Texas Panhandle experiences some of the most severe hailstorms in the country, often with baseball-sized hail. Our impact-resistant materials have been tested to withstand 2-inch hail impacts at high velocities, providing superior protection compared to standard shingles.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">How quickly can you respond to storm damage in Hutchinson County?</h3>
+              <p className="text-gray-700">
+                We maintain 24/7 emergency response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide emergency tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">Do you work with insurance companies on hail damage claims in Borger?</h3>
+              <p className="text-gray-700">
+                Absolutely. We have extensive experience working with insurance adjusters on storm damage claims throughout the Texas Panhandle. We document all damage with detailed photos, provide written assessments, and meet with adjusters on-site to ensure you receive full coverage. Many Borger residents have saved thousands on their roofing projects through proper insurance claim management.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">What makes 5 Star the best choice for Borger commercial roofing projects?</h3>
+              <p className="text-gray-700">
+                Our expertise with industrial and petrochemical facilities sets us apart. We understand the unique requirements of Borger's major employers—from chemical resistance for Phillips 66 facilities to specialized vapor barriers for chemical plants. We're licensed, bonded, and carry the high liability insurance required for industrial work, plus we have established relationships with facility managers throughout Hutchinson County.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold mb-2">How long does a typical residential roof replacement take in Borger?</h3>
+              <p className="text-gray-700">
+                Most residential roof replacements in Borger are completed in 1-2 days, weather permitting. We work efficiently to minimize disruption to your daily routine and protect your home from exposure. For larger or more complex roofs, or during busy storm seasons, projects may take 2-3 days. We always provide realistic timelines upfront and keep you informed throughout the process.
+              </p>
             </div>
           </div>
         </section>

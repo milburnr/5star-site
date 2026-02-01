@@ -89,6 +89,146 @@ export default function CommercialRoofingDumasPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing Solutions for Dumas' Agricultural Economy
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Dumas serves as the agricultural hub of Moore County, supporting extensive grain production, cattle feeding operations, and agricultural processing facilities across the Texas High Plains. This agricultural foundation creates unique commercial roofing demands requiring specialized expertise in large-span agricultural buildings, grain storage facilities, and processing plants that operate around the clock during harvest and shipping seasons.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The city's commercial roofing needs center around agricultural support services including grain elevators, fertilizer storage facilities, equipment dealerships, and livestock feeding operations. These facilities demand roofing systems capable of withstanding agricultural chemical exposure, grain dust accumulation, and extreme weather events that can disrupt critical agricultural operations during peak seasons.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Beyond agricultural businesses, Dumas supports healthcare, education, and retail sectors that require energy-efficient commercial roofing solutions suitable for the High Plains climate. Moore County Hospital, local schools, and retail establishments along Highway 287 need durable roofing systems that maintain comfort while controlling operational costs in the area's extreme temperature environment.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Grain Processing and Storage Facility Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Dumas area grain elevators and storage facilities require specialized commercial roofing systems designed for the unique challenges of grain handling operations. Grain dust accumulation, moisture control, and fire prevention create specific requirements for roofing materials and ventilation systems that standard commercial applications don't address.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Metal roofing systems for grain storage facilities must incorporate specialized ventilation panels and moisture barriers to prevent condensation that can damage stored crops. Proper airflow management through roof-mounted ventilation systems protects grain quality while maintaining structural integrity of storage buildings during thermal cycling from extreme daily temperature variations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Fire-resistant roofing materials become essential for facilities storing flammable agricultural products and operating dust-generating equipment. Class A fire-rated metal roofing systems with specialized coatings resist ignition from spark sources while providing superior weather protection for valuable crop storage throughout the extended harvest and marketing seasons.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Chemical-Resistant Systems for Agricultural Support Industries
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Agricultural support businesses in Dumas handle various chemicals including fertilizers, pesticides, and livestock pharmaceuticals that create corrosive environments requiring specialized roofing materials. Standard commercial roofing systems deteriorate rapidly when exposed to ammonia-based fertilizers, sulfur compounds, and other agricultural chemicals common in farming operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Fertilizer storage and blending facilities require membrane roofing systems specifically formulated for chemical resistance. TPO and PVC membrane systems with enhanced chemical resistance provide superior protection compared to standard commercial membranes, while welded seam construction eliminates vulnerable adhesive joints that chemical vapors can attack over time.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Livestock pharmaceutical and feed additive facilities need roofing systems that meet FDA and USDA requirements for facilities producing animal health products. These specialized applications require documentation of material composition and installation procedures to ensure compliance with agricultural product safety regulations affecting commercial livestock operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Large-Span Roofing for Agricultural Equipment and Livestock Facilities</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Modern agricultural operations around Dumas utilize enormous equipment requiring large-span building coverage for protection and maintenance. Commercial buildings housing combine harvesters, irrigation equipment, and livestock handling facilities need roofing systems designed for spans exceeding 100 feet without intermediate support columns that interfere with equipment movement.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pre-engineered metal building roofing systems provide optimal solutions for agricultural equipment storage with clear spans up to 150 feet. Structural insulated panel systems and standing seam metal roofing create weather-tight protection while accommodating thermal expansion and wind uplift forces common in the High Plains agricultural environment.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Livestock confinement facilities including cattle feeding operations and dairy barns require roofing systems that provide environmental control while withstanding corrosive ammonia vapors from animal waste. Specialized ventilation integration and corrosion-resistant materials extend roof life while maintaining optimal conditions for livestock health and productivity.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Energy Efficiency Solutions for Agricultural Processing Operations
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Agricultural processing facilities in Moore County consume enormous amounts of energy for crop drying, grain cleaning, and refrigeration systems. Commercial roofing systems with superior insulation and reflective properties significantly reduce energy costs while maintaining consistent internal temperatures critical for product quality and equipment performance.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Cool roofing technologies prove especially beneficial for facilities operating temperature-sensitive processes during summer months when High Plains temperatures exceed 100°F for extended periods. High-reflectance membrane systems reduce cooling loads by 25-35% while protecting processing equipment from heat-related failures during peak agricultural seasons.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Solar-ready roofing systems provide agricultural businesses with opportunities for renewable energy installation that can offset high operational energy costs. Structural assessments and electrical integration planning during roof installation preparation create cost-effective pathways for future solar panel installation on agricultural processing facilities.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Weather Protection for Critical Agricultural Operations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Agricultural operations cannot afford weather-related disruptions during critical periods like harvest, planting, or livestock breeding seasons. Commercial roofing systems must provide absolute weather protection for facilities housing valuable crops, equipment, and livestock that represent significant economic investments for agricultural producers.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Hail-resistant roofing systems become essential for protecting agricultural processing equipment and stored crops from costly storm damage. Class 4 impact-resistant materials and reinforced membrane systems provide superior protection against hailstones up to golf-ball size that commonly occur during High Plains severe weather events.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency backup and redundant roofing protection systems help critical agricultural facilities maintain operations during extended severe weather periods. Temporary weather protection capabilities and rapid repair protocols ensure continuous operation of time-sensitive agricultural processes that cannot tolerate weather-related delays.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Healthcare and Community Service Commercial Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Moore County Hospital and medical facilities serving Dumas' agricultural community require specialized commercial roofing systems that support critical healthcare delivery while accommodating medical equipment and emergency services. Hospital roofing must accommodate helicopter access, medical gas systems, and backup power equipment while maintaining sterile environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Educational facilities including Dumas High School and elementary schools need durable, cost-effective roofing systems that accommodate large assembly spaces while providing energy efficiency for year-round climate control. School roofing projects often coordinate with summer break schedules and agricultural community funding cycles.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency services facilities including fire stations and EMS facilities require roofing systems that support emergency communication equipment and vehicle storage while providing rapid deployment capabilities during agricultural emergencies like grain elevator fires or chemical spills at agricultural facilities.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Retail and Service Commercial Roofing for Agricultural Communities</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Retail businesses serving Dumas' agricultural economy need commercial roofing systems that accommodate seasonal demand fluctuations and equipment storage for agricultural products and supplies. Farm supply stores, implement dealerships, and agricultural service businesses require specialized loading dock coverage and equipment storage areas.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Automotive and equipment service facilities supporting agricultural machinery need roofing systems that accommodate overhead cranes, welding operations, and parts storage while providing adequate workspace for maintaining the large equipment essential to modern agricultural operations throughout Moore County.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Restaurant and hospitality businesses serving agricultural workers and traveling salespeople require energy-efficient roofing systems that maintain comfortable environments while controlling operational costs during peak agricultural seasons when visitor traffic increases significantly during planting and harvest periods.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Compliance and Safety Standards for Agricultural Commercial Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Commercial roofing for agricultural facilities must comply with various regulatory requirements including OSHA safety standards, EPA environmental regulations, and USDA facility requirements for food and feed production. These compliance requirements affect material selection, installation procedures, and ongoing maintenance protocols for agricultural commercial buildings.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Food safety regulations affect roofing systems for facilities processing agricultural products for human or animal consumption. Materials must meet FDA requirements for food-contact surfaces while installation procedures prevent contamination risks that could compromise agricultural product safety and quality certifications.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Environmental compliance includes storm water management, chemical containment, and air quality protection requirements that affect commercial roofing design and installation. Agricultural facilities handling pesticides, fertilizers, and other regulated materials require specialized drainage and containment systems integrated with roofing installations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Maintenance Programs for Agricultural Commercial Properties</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Agricultural commercial properties require intensive maintenance programs to combat accelerated deterioration from chemical exposure, grain dust accumulation, and extreme weather conditions. Seasonal maintenance schedules coordinate with agricultural cycles to minimize business disruption during critical operational periods.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Predictive maintenance using infrared thermography and moisture detection helps identify potential failure points before they compromise agricultural operations or stored products. Early detection prevents equipment damage and product losses that could significantly impact agricultural business profitability during competitive market conditions.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response capabilities specifically designed for agricultural environments include specialized safety equipment for working around grain handling equipment and agricultural chemicals. Our emergency response teams maintain training and equipment necessary for safe operations in agricultural facility environments during emergency repair situations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

@@ -13,8 +13,8 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Residential Roofing Odessa TX | 5 Star Roofing',
-  description: "Expert residential roofing in Odessa TX. Specializing in hail damage claims and Class 4 impact-resistant shingles. Free inspections. Call (806) 622-6041",
+  title: 'Residential Roofing Odessa TX | Crestview & Established Neighborhoods | 5 Star Roofing',
+  description: 'Expert residential roofing in Odessa TX. Serving Crestview, Ridgecrest West, and all Ector County working families. Affordable Class 4 shingles for brick ranch homes. Free inspections.',
 };
 
 export default function ResidentialRoofingOdessaPage() {
@@ -36,7 +36,7 @@ export default function ResidentialRoofingOdessaPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/residential-roofing-odessa/#localbusiness",
-            "name": "5 Star Commercial Roofing - Odessa Residential Roofing",
+            "name": "5 Star Commercial Roofing - Odessa Residential Services",
             "image": "https://5starroofingpros.com/images/ResidentialServices.jpeg",
             "telephone": "(806) 622-6041",
             "email": "info@5starroofingpros.com",
@@ -77,7 +77,7 @@ export default function ResidentialRoofingOdessaPage() {
               "opens": "09:00",
               "closes": "17:00"
             },
-            "description": "Expert residential roofing in Odessa TX. Specializing in hail damage claims and Class 4 impact-resistant shingles. Free inspections. Call (806) 622-6041",
+            "description": "Expert residential roofing services in Odessa neighborhoods including Crestview, Ridgecrest West, and Sherwood Park. Specializing in affordable Class 4 impact-resistant shingles for established brick ranch homes and working families.",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
           })
         }}
