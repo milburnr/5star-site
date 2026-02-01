@@ -54,9 +54,9 @@ export default function HailDamageRepairPerrytonPage() {
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Hail Damage Repair in <span className="text-brand-gold-light">Perryton</span></h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Perryton. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">Hail Damage Repair in <span className="text-brand-gold-light">Perryton, TX</span></h1>
+              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">Wheat Capital of the World's Roofing Experts</p>
+              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">Perryton—the county seat of Ochiltree County and Wheat Capital of the World—sits near the Oklahoma border in the heart of Texas's agricultural powerhouse. With $250 million in annual farming revenue and critical grain storage infrastructure, this community of 8,400+ needs specialized roofing protection. 5 Star Roofing has served Perryton's agricultural and residential needs since 2014.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -72,7 +72,7 @@ export default function HailDamageRepairPerrytonPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">$250M</div><div className="text-brand-brown font-semibold text-lg">Annual Ag Revenue</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
@@ -82,9 +82,19 @@ export default function HailDamageRepairPerrytonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Perryton's Hail Damage Repair Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional hail damage repair throughout Perryton and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Perryton with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Perryton Needs Expert Hail Damage Repair</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+              Perryton, with a 2020 population of 8,492 (currently estimated at 8,219), serves as the county seat of Ochiltree County in the northern Texas Panhandle near the Oklahoma border. Known as the "Wheat Capital of the World," this agricultural community sits approximately 89 miles from Amarillo, making it one of our most northern service areas in the Texas Panhandle.
+            </p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Ochiltree County has a diverse economy based on agriculture, oil and gas, and other natural resources. Farming operations brought in $250 million in 2005, primarily from livestock, hogs, and grain production including wheat, sorghum, corn, and alfalfa. This agricultural foundation, combined with oil and natural gas operations throughout the county, creates unique roofing challenges for both residential and agricultural properties.
+            </p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Perryton's location near the Oklahoma border puts it in the direct path of severe weather systems that develop across the Great Plains. The community's agricultural infrastructure—including grain elevators, livestock facilities, and processing operations—requires specialized roofing solutions capable of withstanding the region's intense storms, high winds, and frequent hail events.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Since 2014, 5 Star Roofing has served Perryton and Ochiltree County with expert storm damage repairs and specialized agricultural roofing solutions. Our team understands the unique requirements of wheat storage facilities, livestock operations, and the residential needs of this close-knit agricultural community that feeds the world.
+            </p>
           </section>
         </FadeIn>
 

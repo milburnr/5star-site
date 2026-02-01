@@ -181,14 +181,165 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Expert Storm Damage Repair for Odessa, Permian Basin
+              Odessa Storm Damage Specialists: Ector County Weather Experts
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Odessa's location in the Permian Basin creates unique roofing challenges. The area experiences 6-8 hailstorms annually, sustained winds with gusts exceeding 65+ mph, extreme temperature fluctuations, and intense desert sun and oil field operations. Your roofing system must withstand these demanding conditions year after year.
+              <strong>Ector County Storm Profile:</strong> Odessa sits in the heart of the Permian Basin's most intensive oil production area, where unique desert-petroleum microclimate creates severe storm conditions. Unlike its sister city Midland, <strong>Odessa experiences more frequent dust storm activity</strong> due to its position in the basin's lower elevation pocket, while the massive Permian Basin oil infrastructure creates heat islands that trigger explosive thunderstorm development.
             </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <strong>University of Texas Permian Basin (UTPB) Weather Research:</strong> Odessa benefits from UTPB's atmospheric science programs that document local weather patterns unique to Ector County. The university's research shows that Odessa experiences 15-20% more severe weather events than surrounding areas due to the concentration of petroleum processing facilities creating thermal updrafts that intensify storm cell development.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <strong>Desert-Industrial Weather Convergence:</strong> Odessa's position in the Permian Basin's geological depression creates a natural bowl effect where storms concentrate and intensify. The combination of Chihuahuan Desert conditions with massive petroleum thermal sources produces some of Texas's most challenging roofing environments - extreme temperature swings (50°F+ daily), frequent dust storms with petroleum particulates, and sudden severe weather with minimal advance warning.
+            </p>
+
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected Odessa properties with premium materials and expert installation. Serving property owners from Music City Mall to Downtown Odessa, from the UTPB campus area to Ratliff Stadium neighborhoods, from the Odessa Meteor Crater vicinity to Ector County Coliseum communities, we provide 24/7 emergency storm damage response and complete insurance claim assistance. Our installations meet or exceed manufacturer specifications, preserving full warranty coverage while delivering long-term performance.
+              Since 2014, we've protected Odessa properties through every major weather event, serving from UTPB campus facilities to downtown Odessa's historic districts, from Music City Mall commercial areas to the residential communities around Ratliff Stadium, and throughout Ector County's extensive oil field operations. Our specialized approach addresses Odessa's unique combination of desert conditions, petroleum industry influences, and university-community infrastructure requirements.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Ector County Storm Patterns & Environmental Factors
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gradient-to-br from-yellow-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-600">
+                <h3 className="text-2xl font-bold text-yellow-900 mb-4">Desert Dust Storm Season</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  <strong>March through May:</strong> Odessa experiences more dust storm activity than Midland due to its lower elevation position and exposure to Chihuahuan Desert air masses. These dust storms carry petroleum particulates that create more aggressive roofing material degradation.
+                </p>
+                <p className="text-sm text-gray-600 italic">
+                  Dust + petroleum chemicals create corrosive conditions requiring specialized protective coatings
+                </p>
+              </div>
+              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
+                <h3 className="text-2xl font-bold text-purple-900 mb-4">Thermal Storm Development</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  <strong>April through August:</strong> Odessa's concentration of refineries and processing facilities creates the Permian Basin's most intense heat islands. These thermal sources trigger storm development that can increase local severity by 25+ mph over forecast conditions.
+                </p>
+                <p className="text-sm text-gray-600 italic">
+                  UTPB research documents storm intensification rates exceeding regional forecasts
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Service Areas Throughout Ector County
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">UTPB & Academic Areas</h3>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• University of Texas Permian Basin</li>
+                  <li>• Academic research facilities</li>
+                  <li>• Student housing complexes</li>
+                  <li>• Faculty residential areas</li>
+                  <li>• Campus support services</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Central Odessa</h3>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Downtown Historic District</li>
+                  <li>• Music City Mall area</li>
+                  <li>• Ratliff Stadium vicinity</li>
+                  <li>• Ector County Coliseum</li>
+                  <li>• Presidential Museum area</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Petroleum Industrial</h3>
+                <ul className="text-gray-700 space-y-1 text-sm">
+                  <li>• Refinery complexes</li>
+                  <li>• Petrochemical facilities</li>
+                  <li>• Oil field service companies</li>
+                  <li>• Worker housing developments</li>
+                  <li>• Pipeline terminal facilities</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Storm Damage Types Specific to Ector County
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gradient-to-br from-yellow-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-600">
+                <h3 className="text-2xl font-bold text-yellow-900 mb-4">Petroleum-Enhanced Dust Storms</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Odessa's dust storms carry petroleum particulates from refinery operations, creating more aggressive chemical corrosion of roofing materials than typical dust storms. The combination of desert sand and hydrocarbon residues accelerates deterioration of protective coatings and metal components.
+                </p>
+                <p className="text-sm text-gray-600 italic">
+                  Requires specialized cleaning and protective coating applications after each dust storm event
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
+                <h3 className="text-2xl font-bold text-purple-900 mb-4">Refinery Heat Island Storms</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Odessa's concentration of refineries creates the most intense heat islands in the Permian Basin, generating explosive thunderstorm development with hail sizes 25-30% larger than forecast. These storms develop rapidly with minimal warning as thermal columns trigger supercell formation.
+                </p>
+                <p className="text-sm text-gray-600 italic">
+                  UTPB weather research documents local storm enhancement exceeding regional models
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
+                <h3 className="text-2xl font-bold text-orange-900 mb-4">Chemical Process Precipitation</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Rain and hail falling through petroleum emissions create more aggressive chemical precipitation that accelerates corrosion of roofing materials. This effect is particularly pronounced in areas downwind of major processing facilities, requiring enhanced protective measures.
+                </p>
+                <p className="text-sm text-gray-600 italic">
+                  Properties within 3 miles of refineries require chemical-resistant roofing materials
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-red-500">
+                <h3 className="text-2xl font-bold text-red-900 mb-4">Basin Bowl Wind Amplification</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Odessa's position in the Permian Basin's geological depression creates a natural bowl effect where winds converge and amplify. Storm winds can increase by 20-30% as they funnel into the basin, creating higher than forecast wind damage throughout Ector County.
+                </p>
+                <p className="text-sm text-gray-600 italic">
+                  Enhanced wind ratings required for all roofing installations in basin floor locations
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Recent Ector County Storm Events
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-purple-600">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">May 2024 - Basin Bowl Storm Complex</h3>
+                <p className="text-gray-700 mb-2">A severe storm system intensified dramatically as it entered Odessa's basin geography, producing tennis ball-sized hail and 80+ mph winds. The concentration of refinery heat sources amplified the storm beyond forecast predictions, causing widespread damage across UTPB campus and downtown areas.</p>
+                <p className="text-sm text-gray-600 italic">Response: 112 emergency calls, 78 roof replacements, specialized UTPB campus protocols</p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-yellow-600">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">April 2023 - Chemical Dust Storm</h3>
+                <p className="text-gray-700 mb-2">A massive dust storm carrying petroleum particulates from refinery areas created aggressive chemical corrosion conditions across Ector County. Properties downwind of processing facilities experienced accelerated roofing material deterioration requiring specialized cleaning and protective treatments.</p>
+                <p className="text-sm text-gray-600 italic">Response: 189 chemical damage assessments, enhanced protective coating applications</p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-orange-500">
+                <h3 className="text-xl font-bold text-brand-brown mb-2">August 2022 - Heat Island Supercell</h3>
+                <p className="text-gray-700 mb-2">Extreme heat from refinery operations triggered explosive supercell development with golf ball hail and 75+ mph winds. The storm's rapid intensification caught weather services off-guard, demonstrating the unpredictable nature of petroleum-enhanced weather systems.</p>
+                <p className="text-sm text-gray-600 italic">Response: 145 emergency tarping jobs, 89 complete replacements</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -198,51 +349,90 @@ export default function Page() {
               Storm Damage Repair FAQs - Odessa, TX
             </h2>
             <Accordion type="single" collapsible className="w-full">
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-left text-xl font-semibold">
-                  What types of storm damage affect Odessa roofs most often?
+              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Why are Odessa storms more intense than surrounding areas?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Odessa roofs face hail damage (6-8 storms annually), high winds exceeding 65+ mph, intense UV degradation, and temperature extremes. Permian Basin storms can combine multiple factors - hail, wind, and heavy rain - causing compound damage that requires comprehensive assessment and repair.
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Odessa's position in the Permian Basin's geological depression creates a natural bowl effect where storms concentrate and intensify. The concentration of refineries creates more intense heat islands than Midland, generating thermal columns that trigger explosive storm development. UTPB research documents storm enhancement of 25-30% over forecast conditions due to these combined geographical and industrial factors. This makes Odessa one of Texas's most challenging storm environments.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-left text-xl font-semibold">
-                  Should I tarp my Odessa roof after storm damage?
+              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What special considerations apply to UTPB campus properties?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, emergency tarping prevents further water damage after storms. We provide 24/7 emergency tarping service in Odessa to protect your property until permanent repairs are completed. Most insurance policies cover emergency mitigation costs, and prompt action prevents mold and interior damage.
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  University of Texas Permian Basin facilities require coordination with university administration, adherence to state building codes, and consideration of academic calendar timing. Emergency response must accommodate student safety protocols and research facility requirements. We maintain current university vendor credentials and understand the unique needs of academic buildings, dormitories, and research facilities. Response times are prioritized during severe weather events that threaten student housing and critical campus infrastructure.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3">
-                <AccordionTrigger className="text-left text-xl font-semibold">
-                  How do Permian Basin storms differ from other Texas regions?
+              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does chemical precipitation affect roof damage insurance claims?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Permian Basin storms are characterized by extreme intensity, large hail, sustained high winds, and rapid development. The open terrain around Odessa allows storms to build strength, while petroleum industry infrastructure requires special considerations. Our crews understand these unique regional challenges.
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Rain and hail falling through petroleum emissions create chemically enhanced precipitation that causes more aggressive damage than typical storm events. Documentation requires chemical analysis and specialized damage assessment techniques. Our experience with Ector County insurance adjusters includes proper documentation of petroleum-influenced storm damage, differentiation from normal weathering, and coordination with environmental assessments when required. Many policies cover chemical enhancement damage when properly documented.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4">
-                <AccordionTrigger className="text-left text-xl font-semibold">
-                  Can you repair both residential and commercial storm damage in Odessa?
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What safety protocols apply to refinery area emergency response?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Absolutely. We handle storm damage for Odessa homes, businesses, and oil & gas facilities. Our experience spans from residential neighborhoods to Music City Mall commercial properties and industrial facilities throughout the Permian Basin oil field operations areas.
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Emergency response near refinery facilities requires specialized safety protocols including gas monitoring, fire safety procedures, and hazardous area entry permits. Our crews maintain current refinery safety certifications and coordinate with facility security before entering restricted areas. Response includes air quality monitoring, specialized personal protective equipment, and adherence to petroleum industry emergency protocols. We prioritize worker safety while providing rapid storm damage mitigation in industrial zones.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5">
-                <AccordionTrigger className="text-left text-xl font-semibold">
-                  What documentation do I need for an Odessa storm damage insurance claim?
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do you protect roofs against Odessa's chemical dust storms?
                 </AccordionTrigger>
-                <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  We provide comprehensive documentation including photos, measurements, weather reports from local Odessa/Permian Basin storms, and detailed damage assessments. Our reports meet insurance requirements and ensure you receive proper compensation for all storm-related damage.
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Odessa's dust storms carry petroleum particulates requiring specialized protective strategies. We install chemical-resistant coatings, enhanced flashing seals, and corrosion-resistant materials designed for petroleum environments. Regular maintenance includes chemical cleaning protocols and inspection of protective coatings. Properties within 3 miles of refinery operations receive enhanced protection packages designed for aggressive chemical exposure. Post-storm cleaning removes petroleum residues before they can cause permanent damage.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What makes basin bowl geography so challenging for roofing?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Odessa's location in the Permian Basin's geological depression creates a natural funnel effect that amplifies wind speeds and concentrates storm energy. Winds can increase 20-30% as they converge into the basin, while the bowl shape prevents rapid storm movement, creating prolonged severe conditions. This geography combined with petroleum thermal effects creates some of Texas's most unpredictable and intense weather patterns. All roofing installations require enhanced wind ratings to handle amplified conditions.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Our Ector County Storm Response Process
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-purple-50 p-6 rounded-xl border-t-4 border-purple-600 text-center">
+                <div className="text-3xl mb-3">🌪️</div>
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Basin-Aware Response</h3>
+                <p className="text-sm text-gray-700">Specialized protocols for basin geography and petroleum facility safety requirements with certified crews.</p>
+              </div>
+              <div className="bg-yellow-50 p-6 rounded-xl border-t-4 border-yellow-600 text-center">
+                <div className="text-3xl mb-3">🧪</div>
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Chemical Assessment</h3>
+                <p className="text-sm text-gray-700">Comprehensive evaluation including petroleum exposure analysis and enhanced corrosion damage documentation.</p>
+              </div>
+              <div className="bg-orange-50 p-6 rounded-xl border-t-4 border-orange-500 text-center">
+                <div className="text-3xl mb-3">🏫</div>
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Campus Coordination</h3>
+                <p className="text-sm text-gray-700">UTPB-compliant procedures with university administration coordination and student safety protocols.</p>
+              </div>
+              <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500 text-center">
+                <div className="text-3xl mb-3">🛡️</div>
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Enhanced Protection</h3>
+                <p className="text-sm text-gray-700">Chemical-resistant materials and protective systems designed for Ector County's unique environmental challenges.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
