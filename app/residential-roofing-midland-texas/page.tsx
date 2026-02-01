@@ -11,7 +11,15 @@ export const metadata: Metadata = {
 
 export default function ResidentialMidlandPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen">      <Breadcrumb items={[
+        { name: "Home", url: "/" },
+        { name: "Residential Roofing", url: "/residential-roofing/" },
+        { name: "Midland", url: "/residential-roofing-midland-texas/" }
+      ]} />
+
+      {/* Sticky Contact Bar */}
+      <StickyContactBar />
+
       <section className="hero" style={{backgroundImage: 'url(/images/cover-background-roofing-sunset-1024x683.jpg)', backgroundPosition: 'center'}}>
         <div className="hero-overlay"></div>
         <FadeIn>
@@ -160,23 +168,255 @@ export default function ResidentialMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Residential Roofing Costs in Midland</h2>
-            <p className="text-lg text-gray-700 mb-6">
-              Average residential roof replacement costs in Midland vary based on home size, material choice, and roof complexity. Most projects range from <strong>$7,000 to $25,000+</strong>.
-            </p>
-            <div className="bg-white p-6 rounded-lg mb-6">
-              <h3 className="font-bold text-brand-brown mb-4">Typical Costs by Home Size (2025)</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Small Home (1,200-1,800 sq ft):</strong> $7,000 - $11,000</li>
-                <li><strong>Medium Home (1,800-2,500 sq ft):</strong> $11,000 - $16,000</li>
-                <li><strong>Large Home (2,500-3,500 sq ft):</strong> $16,000 - $25,000</li>
-                <li><strong>Very Large Home (3,500+ sq ft):</strong> $25,000+</li>
-              </ul>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Midland Housing Market & Roofing Landscape</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🏡 Midland Housing Market Analysis</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <p className="text-gray-700 mb-4">As the heart of the Permian Basin, Midland's economy drives strong housing demand fueled by energy sector growth. The city's population of 146,000+ and booming oil industry create consistent needs for both residential roofing maintenance and new construction.</p>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• <strong>Median home value:</strong> $198,500 (well above state average)</li>
+                      <li>• <strong>Average home size:</strong> 1,920 sq ft</li>
+                      <li>• <strong>Median home age:</strong> 32 years</li>
+                      <li>• <strong>New construction permits:</strong> 520+ annually</li>
+                      <li>• <strong>Homeownership rate:</strong> 72.4%</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-gray-700 mb-4">Midland's unique climate creates specific roofing challenges that differ from other Texas markets. The combination of extreme heat, frequent hail, and oil industry particulates requires specialized roofing solutions.</p>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• <strong>Annual hail days:</strong> 6.8 (above state average)</li>
+                      <li>• <strong>Summer high average:</strong> 94°F</li>
+                      <li>• <strong>Roof surface temps:</strong> 150°F+ in summer</li>
+                      <li>• <strong>UV index:</strong> 9-11 (very high year-round)</li>
+                      <li>• <strong>Wind exposure:</strong> High plains location</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🏘️ Key Midland Neighborhoods & Roofing Needs</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Grassland Estates</h4>
+                    <p className="text-gray-700 text-sm mb-2">Luxury neighborhood with large custom homes requiring premium roofing materials. Complex roof lines and high-end finishes demand expert installation.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $285,000 | Typical: Complex architecture, premium materials</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Fairway Estates</h4>
+                    <p className="text-gray-700 text-sm mb-2">Golf course community with upscale homes built 1980s-2010s. Many homes need roof replacements as systems reach 20-25 year lifespans.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $225,000 | Typical: Aging systems, hail damage history</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Stonegate</h4>
+                    <p className="text-gray-700 text-sm mb-2">Newer development with energy-efficient homes requiring modern roofing systems. Focus on cool roof technologies and proper ventilation.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $195,000 | Typical: Energy efficiency, warranty coverage</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Midland Country Club</h4>
+                    <p className="text-gray-700 text-sm mb-2">Established area with homes from 1960s-1980s. Many feature original roofing systems needing complete replacement with modern materials.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $175,000 | Typical: Complete replacement needs</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Windridge</h4>
+                    <p className="text-gray-700 text-sm mb-2">Family-oriented community with ranch-style homes. Common roofing issues include UV damage and occasional hail impacts.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $165,000 | Typical: Standard replacements, UV protection</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Walnut Lane</h4>
+                    <p className="text-gray-700 text-sm mb-2">Older neighborhood with character homes requiring specialized roofing approaches. Many feature unique architectural elements.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $145,000 | Typical: Character preservation, specialized materials</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg">
-              <p className="font-semibold text-brand-brown mb-2">📋 Free Estimates</p>
-              <p className="text-gray-700">We provide detailed, written estimates for all residential roofing projects in Midland. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> or <a href="/contact/" className="text-brand-gold font-bold">request online</a>.</p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Residential Roofing Costs in Midland</h2>
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <p className="text-lg font-semibold mb-4">2025 Midland Roof Replacement Pricing:</p>
+                  <ul className="space-y-3">
+                    <li><strong>Compact homes (1,000-1,500 sq ft):</strong> $7,200 - $10,500
+                      <br /><span className="text-sm text-gray-600">Ranch-style homes, 10-15 squares</span>
+                    </li>
+                    <li><strong>Standard homes (1,500-2,200 sq ft):</strong> $10,500 - $15,500
+                      <br /><span className="text-sm text-gray-600">Traditional layouts, 15-22 squares</span>
+                    </li>
+                    <li><strong>Large homes (2,200-3,000 sq ft):</strong> $15,500 - $22,500
+                      <br /><span className="text-sm text-gray-600">Two-story or complex ranch, 22-30 squares</span>
+                    </li>
+                    <li><strong>Premium homes (3,000-4,000 sq ft):</strong> $22,500 - $32,000
+                      <br /><span className="text-sm text-gray-600">Custom homes, premium materials, 30-40 squares</span>
+                    </li>
+                    <li><strong>Luxury homes (4,000+ sq ft):</strong> $32,000 - $50,000+
+                      <br /><span className="text-sm text-gray-600">Complex architecture, top-tier materials</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold mb-4">Midland-Specific Material Pricing:</p>
+                  <ul className="space-y-3">
+                    <li><strong>Architectural Shingles:</strong> $95-$125/sq
+                      <br /><span className="text-sm text-gray-600">30-year warranty, good for moderate climates</span>
+                    </li>
+                    <li><strong>Class 4 Impact-Resistant:</strong> $115-$150/sq
+                      <br /><span className="text-sm text-gray-600">Recommended for Midland, insurance discounts</span>
+                    </li>
+                    <li><strong>Cool Roof Shingles:</strong> $125-$165/sq
+                      <br /><span className="text-sm text-gray-600">Heat-reflecting, energy savings</span>
+                    </li>
+                    <li><strong>Standing Seam Metal:</strong> $185-$285/sq
+                      <br /><span className="text-sm text-gray-600">Excellent for extreme heat and hail</span>
+                    </li>
+                    <li><strong>Stone-Coated Steel:</strong> $195-$295/sq
+                      <br /><span className="text-sm text-gray-600">Metal durability, traditional appearance</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="font-semibold text-brand-brown mb-4">💰 Midland Cost Factors & Considerations</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-medium mb-2">Energy Efficiency Upgrades</h4>
+                    <p className="text-sm text-gray-600 mb-3">Midland's extreme summer heat makes energy-efficient roofing a priority. Cool roof systems can reduce cooling costs by 15-25% annually.</p>
+                    <ul className="text-xs text-gray-500 space-y-1">
+                      <li>• Reflective shingles: +$8-15/sq</li>
+                      <li>• Enhanced ventilation: $3-6/linear foot</li>
+                      <li>• Radiant barriers: $0.50-1/sq ft</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-2">Oil Industry Considerations</h4>
+                    <p className="text-sm text-gray-600 mb-3">Permian Basin drilling activities can affect roofing through vibrations and particulate exposure requiring specialized materials.</p>
+                    <ul className="text-xs text-gray-500 space-y-1">
+                      <li>• Vibration-resistant fastening: +$2-4/sq</li>
+                      <li>• Enhanced cleaning provisions: +$1-2/sq</li>
+                      <li>• Extended warranties available</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg">
+                <p className="font-semibold text-brand-brown mb-2">📋 Free Comprehensive Estimates</p>
+                <p className="text-gray-700">Detailed estimates include material specifications, energy efficiency options, and warranty details. Most estimates delivered within 24 hours. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> or <a href="/contact/" className="text-brand-gold font-bold">schedule online</a>.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Permian Basin Climate & Roof Performance</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Extreme Heat Impact Analysis</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-semibold mb-3">Temperature Extremes</h4>
+                    <p className="text-gray-700 mb-3">Midland experiences some of Texas's most intense heat, with roof surface temperatures regularly exceeding 150°F during summer months. This thermal stress accelerates material degradation significantly.</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Average summer high: 94°F</li>
+                      <li>• 100°F+ days: 28 annually</li>
+                      <li>• Record high: 116°F</li>
+                      <li>• Roof surface peaks: 150-170°F</li>
+                      <li>• Daily thermal cycles: 40-50°F swings</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3">Material Performance Impact</h4>
+                    <p className="text-gray-700 mb-3">Extreme heat causes accelerated aging, granule loss, and thermal expansion/contraction cycles that reduce typical shingle lifespans by 20-30% compared to moderate climates.</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Standard shingles: 15-20 year life</li>
+                      <li>• Cool roof shingles: 20-25 year life</li>
+                      <li>• Metal systems: 40-50+ year life</li>
+                      <li>• Energy cost impact: 15-25% cooling load</li>
+                      <li>• UV degradation: Accelerated in high altitude/sun</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">⛈️ Hail & Storm Patterns</h3>
+                <div className="space-y-4">
+                  <p className="text-gray-700">While not in the direct path of Hail Alley like Lubbock, Midland still experiences significant hail events that can devastate unprepared roofing systems. The combination of hail damage and extreme heat accelerates roof replacement needs.</p>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Hail Statistics</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Annual hail days: 6.8</li>
+                        <li>• Average stone size: 0.75"</li>
+                        <li>• Largest recorded: 3.5" (2019)</li>
+                        <li>• Peak season: April-June</li>
+                        <li>• Insurance claims: $34M annually</li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Wind Events</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Average wind: 10.2 mph</li>
+                        <li>• Peak gust: 78 mph (2020)</li>
+                        <li>• High wind days: 25+ annually</li>
+                        <li>• Dust storm frequency: 12-15/year</li>
+                        <li>• Prevailing direction: Southwest</li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Environmental Factors</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Elevation: 2,779 feet</li>
+                        <li>• UV index: 9-11 year-round</li>
+                        <li>• Clear days: 280+ annually</li>
+                        <li>• Oil field particulates present</li>
+                        <li>• Alkaline soil conditions</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions - Midland Roofing</h2>
+            <div className="max-w-4xl mx-auto space-y-4">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">What roofing material performs best in Midland's extreme heat?</h3>
+                <p className="text-gray-700">Metal roofing excels in Midland's climate due to heat reflection and durability. For budget-conscious options, cool roof architectural shingles with reflective granules significantly outperform standard materials by reducing heat absorption and extending lifespan.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">How often should I replace my roof in Midland?</h3>
+                <p className="text-gray-700">Due to extreme heat and UV exposure, roofs in Midland typically need replacement every 15-20 years for standard shingles, 20-25 years for impact-resistant systems, and 40+ years for quality metal. Regular inspections help identify premature aging from heat damage.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">Does oil field activity affect my roof?</h3>
+                <p className="text-gray-700">Nearby drilling can create minor vibrations and increase airborne particulates that may affect roofing systems over time. We recommend inspections every 2-3 years for homes near active drilling sites and use enhanced fastening methods in these areas.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">Are permits required for roof replacement in Midland?</h3>
+                <p className="text-gray-700">Yes, the City of Midland requires building permits for roof replacements. Current fees are $60 for residential projects. We handle all permitting, including structural assessments when needed, and coordinate required inspections.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">What energy savings can I expect from a cool roof in Midland?</h3>
+                <p className="text-gray-700">Cool roof systems can reduce summer cooling costs by 15-25% in Midland's extreme heat. With average cooling bills of $200-300 monthly in summer, homeowners typically save $600-1,200 annually, making cool roof upgrades cost-effective long-term investments.</p>
+              </div>
             </div>
           </section>
         </FadeIn>

@@ -55,10 +55,21 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Roofing Technology Built for Amarillo's Extreme Weather</h2>
         <p className="text-lg">
-          Not all roofing methods are created equal—especially in the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a>. The region sits in America's hail belt, experiencing an average of <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">8-12 hailstorms per year</a>, combined with extreme temperature swings, intense UV exposure, and severe weather including hail, high winds, and occasional ice storms, means your roof needs to be engineered for survival, not just aesthetics.
+          Not all roofing methods are created equal—especially in the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a>. The region sits squarely in America's "Hail Alley," experiencing an average of <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">8-12 significant hailstorms per year</a>. Combined with extreme temperature swings (from below zero to over 110°F), intense UV exposure at high altitude, and severe weather including tornadoes, high winds, and occasional ice storms, your roof needs to be engineered for survival in one of the nation's most challenging climates.
         </p>
         <p className="text-lg mt-4">
-          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we specialize in modern roofing methods specifically designed for Amarillo's challenging climate, with a focus on hail resistance and long-term durability for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a>.
+          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we specialize in advanced roofing methods specifically engineered for the Texas Panhandle's unique challenges. Our focus extends beyond basic weather protection to comprehensive solutions that provide maximum hail resistance, energy efficiency, and long-term durability for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a>.
+        </p>
+        <p className="text-lg mt-4">
+          Modern roofing technology has evolved dramatically in response to climate challenges like those found in Amarillo. Today's premium roofing systems incorporate impact-resistant materials, enhanced wind resistance, thermal barriers, and moisture management features that were unavailable just a decade ago. Understanding and properly implementing these advanced methods is the difference between a roof that survives and one that thrives in West Texas conditions.
+        </p>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Climate-Specific Engineering Approach</h3>
+        <p className="text-lg mt-4">
+          Successful roofing in Amarillo requires understanding the specific ways that local weather patterns stress building materials. Rapid temperature changes cause thermal expansion and contraction that can crack inferior materials. High-altitude UV exposure breaks down organic compounds in standard roofing products. Wind-driven debris impacts test material durability beyond normal design parameters.
+        </p>
+        <p className="text-lg mt-4">
+          Our roofing methods account for these local stressors through material selection, installation techniques, and system design that exceeds basic building code requirements. We implement enhanced fastening patterns for high-wind resistance, thermal expansion joints for temperature cycling, and impact-resistant materials tested specifically for hail resistance.
         </p>
       </div>
 
@@ -76,14 +87,24 @@ export default function Page() {
             Class 4 shingles are tested to withstand 2-inch steel balls dropped from 20 feet—simulating golf-ball sized hail. In Amarillo, where hail this size is common, Class 4 shingles often mean the difference between a <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a> and minor cosmetic damage.
           </p>
 
-          <h4 className="font-bold mb-2">Our Installation Method</h4>
+          <h4 className="font-bold mb-2">Advanced Installation Methods for Maximum Performance</h4>
           <ul className="list-disc list-inside space-y-2 mb-4">
-            <li><strong>Synthetic Underlayment:</strong> Superior to felt paper, won't tear in West Texas winds</li>
-            <li><strong>6-Nail Pattern:</strong> Exceeds code for high-wind resistance (120+ mph)</li>
-            <li><strong>Proper Ventilation:</strong> Ridge and soffit vents reduce attic temperatures (critical in Texas heat)</li>
-            <li><strong>Ice & Water Shield:</strong> Along valleys and eaves for maximum leak protection</li>
-            <li><strong>Architectural Shingles:</strong> Thicker, more durable than 3-tab, better hail resistance</li>
+            <li><strong>Premium Synthetic Underlayment:</strong> High-strength synthetic materials that resist tearing in 70+ mph winds common during Texas thunderstorms</li>
+            <li><strong>Enhanced 6-Nail Pattern:</strong> Exceeds building code requirements with strategic placement for 120+ mph wind resistance and optimal load distribution</li>
+            <li><strong>Engineered Ventilation Systems:</strong> Ridge and soffit vents calculated to provide 1:300 ventilation ratio, reducing attic temperatures by 30-50°F in Texas heat</li>
+            <li><strong>Self-Adhering Ice & Water Shield:</strong> Applied to valleys, eaves, and penetration areas for maximum leak protection during ice storms and wind-driven rain</li>
+            <li><strong>Architectural Grade Shingles:</strong> Minimum 30-year dimensional shingles with enhanced thickness and hail resistance ratings</li>
+            <li><strong>Thermal Barrier Technology:</strong> Reflective roofing materials and cool roof coatings to reduce cooling costs by up to 25%</li>
+            <li><strong>Advanced Flashing Systems:</strong> Multi-piece metal flashing at all roof transitions, designed to accommodate thermal expansion and prevent water infiltration</li>
           </ul>
+
+          <h4 className="font-bold mb-2">Quality Control and Installation Standards</h4>
+          <p className="mb-4">
+            Our installation process includes multiple quality checkpoints to ensure every shingle installation meets manufacturer specifications and exceeds local building codes. Material delivery inspection verifies impact ratings and manufacturing dates. Installation progress monitoring ensures proper nail placement, alignment, and sealing. Final inspection includes leak testing and warranty documentation.
+          </p>
+          <p className="mb-4">
+            Weather monitoring during installation is critical in Amarillo's unpredictable climate. We track wind speeds, temperature, and precipitation to ensure optimal installation conditions. Materials are not installed during extreme temperatures, high winds, or precipitation that could compromise adhesion or placement accuracy.
+          </p>
 
           <div className="bg-yellow-50 border-l-4 border-brand-gold p-4 mb-4">
             <p className="font-semibold">Insurance Savings:</p>
@@ -176,22 +197,187 @@ export default function Page() {
         </div>
       </div>
 
-      <h2 className="text-2xl font-bold mt-8 mb-4">Proper Roof Ventilation for Texas Panhandle Climate</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">Modified Bitumen and Built-Up Roofing Systems</h2>
+      <div className="card mb-8">
+        <img src="/images/commercial-roofing-2.jpg" alt="Modified bitumen roofing installation - Commercial flat roof systems - 5 Star Commercial Roofing Amarillo" className="card-image" />
+        <div className="card-body">
+          <h3 className="text-xl font-semibold text-brand-brown mb-3">Heavy-Duty Commercial Solutions</h3>
+          <p className="mb-4">
+            For commercial and industrial buildings requiring maximum durability, modified bitumen and built-up roofing (BUR) systems provide time-tested performance in extreme conditions. These multi-layer systems create redundant waterproofing that can withstand mechanical damage, thermal cycling, and severe weather events.
+          </p>
+
+          <h4 className="font-bold mb-2">Modified Bitumen Installation Methods</h4>
+          <ul className="list-disc list-inside space-y-2 mb-4">
+            <li><strong>Torch-Applied Systems:</strong> Heat-activated adhesion creates permanent bonds between membrane layers</li>
+            <li><strong>Self-Adhering Membranes:</strong> Cold-applied systems ideal for buildings with fire restrictions or sensitive contents</li>
+            <li><strong>Hot Asphalt Application:</strong> Traditional hot mopping provides maximum adhesion and longevity</li>
+            <li><strong>Granulated Cap Sheets:</strong> UV-resistant mineral granules protect against solar degradation</li>
+          </ul>
+
+          <h4 className="font-bold mb-2">Built-Up Roofing (BUR) Advantages</h4>
+          <p className="mb-4">
+            BUR systems consist of multiple plies of roofing felt or fabric laminated with hot asphalt or cold adhesive, creating a monolithic waterproof membrane. The redundant layers provide backup protection if one layer is damaged, making BUR systems particularly suitable for high-traffic commercial applications.
+          </p>
+          <p className="mb-4">
+            Gravel ballast or mineral cap sheets provide additional protection against mechanical damage, UV exposure, and fire. These heavy-duty systems routinely achieve 20-30 year service lives with proper maintenance, making them cost-effective for large commercial buildings.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4">Advanced Insulation Integration Methods</h2>
+      <div className="card mb-8">
+        <div className="card-body">
+          <h3 className="text-xl font-semibold text-brand-brown mb-3">Energy Efficiency Through Proper Insulation Design</h3>
+          <p className="mb-4">
+            Modern roofing methods integrate advanced insulation systems that dramatically improve energy performance while providing additional structural benefits. Proper insulation installation is critical in Amarillo's climate where cooling costs can represent 40-60% of total energy expenses.
+          </p>
+
+          <h4 className="font-bold mb-2">Polyisocyanurate (Polyiso) Insulation</h4>
+          <p className="mb-4">
+            Polyiso insulation boards provide the highest R-value per inch of common roofing insulations, making them ideal for commercial applications where roof thickness is limited. These rigid boards also provide structural benefits, creating a smooth surface for membrane application and additional puncture resistance.
+          </p>
+
+          <h4 className="font-bold mb-2">Tapered Insulation Systems</h4>
+          <p className="mb-4">
+            Custom-designed tapered insulation creates positive drainage on flat roofs, eliminating ponding water that can lead to premature membrane failure. Computer-designed taper plans ensure water flows efficiently to drains while maintaining adequate insulation thickness throughout the roof area.
+          </p>
+
+          <h4 className="font-bold mb-2">Vapor Barrier Integration</h4>
+          <p className="mb-4">
+            Proper vapor barrier installation prevents moisture migration from building interiors into roofing systems. In Amarillo's climate, where interior humidity control is challenging, vapor barriers prevent condensation within roof assemblies that can cause insulation degradation and structural damage.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4">Cool Roof Technology and Energy Management</h2>
+      <div className="card mb-8">
+        <div className="card-body">
+          <h3 className="text-xl font-semibold text-brand-brown mb-3">Reducing Energy Costs Through Reflective Technology</h3>
+          <p className="mb-4">
+            Cool roof technology represents one of the most cost-effective building improvements available in hot climates like Amarillo. Reflective roofing materials can reduce roof surface temperatures by 50-70°F compared to traditional dark roofing, translating to substantial energy savings and extended equipment life.
+          </p>
+
+          <h4 className="font-bold mb-2">Solar Reflectance Index (SRI) Performance</h4>
+          <p className="mb-4">
+            Cool roof materials are rated using Solar Reflectance Index (SRI) values that measure both reflectance and emittance properties. High SRI materials stay cooler under solar loading, reducing heat transfer to building interiors and decreasing cooling demands.
+          </p>
+
+          <h4 className="font-bold mb-2">Cool Roof Coating Systems</h4>
+          <p className="mb-4">
+            Liquid-applied cool roof coatings can transform existing dark roofing into high-performance reflective systems. These coatings provide additional waterproofing while dramatically improving energy performance. Properly applied coatings can extend roof life by 10-15 years while providing immediate energy savings.
+          </p>
+
+          <h4 className="font-bold mb-2">ENERGY STAR Compliance and Incentives</h4>
+          <p className="mb-4">
+            Many cool roof materials qualify for ENERGY STAR certification, making them eligible for utility rebates and tax incentives. These programs can offset upgrade costs while providing ongoing energy savings that continue throughout the roof's service life.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4">Comprehensive Roof Ventilation Systems for Texas Panhandle Climate</h2>
       <p className="mb-4">
-        One of the most overlooked aspects of roofing in Amarillo is ventilation. With summer attic temperatures exceeding 160°F, proper ventilation isn't optional—it's critical for roof longevity and energy efficiency.
+        Proper roof ventilation represents one of the most critical yet overlooked aspects of roofing performance in Amarillo. With summer attic temperatures routinely exceeding 160°F and potential for ice dam formation during winter weather events, ventilation isn't optional—it's essential for roof longevity, energy efficiency, and indoor comfort.
       </p>
+      <p className="mb-6">
+        Inadequate ventilation accelerates shingle aging, increases cooling costs, promotes ice dam formation, and creates moisture problems that can damage structural components. Our ventilation design process calculates exact airflow requirements based on attic square footage, roof configuration, and local climate conditions to ensure optimal performance year-round.
+      </p>
+
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="card">
           <div className="card-body">
             <h3 className="font-bold mb-3">Ridge Vent Systems</h3>
-            <p>Continuous ridge vents along the peak allow hot air to escape naturally. We install high-quality ridge vents on every shingle and metal roof project.</p>
+            <p className="mb-3">Continuous ridge vents along the roof peak provide natural exhaust for heated attic air. We install professional-grade ridge vents with external baffles that prevent weather intrusion while maximizing airflow capacity.</p>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Wind-powered ventilation increases efficiency</li>
+              <li>Weather-resistant construction prevents leaks</li>
+              <li>Insect screening blocks pest intrusion</li>
+              <li>Seamless integration with roofing materials</li>
+            </ul>
           </div>
         </div>
         <div className="card">
           <div className="card-body">
-            <h3 className="font-bold mb-3">Soffit Intake Vents</h3>
-            <p>Proper intake at soffits creates airflow. We ensure 1:300 ventilation ratio (1 sq ft vent per 300 sq ft attic space) as minimum.</p>
+            <h3 className="font-bold mb-3">Soffit Intake Ventilation</h3>
+            <p className="mb-3">Balanced intake ventilation at soffits creates the airflow necessary for ridge vent function. We ensure minimum 1:300 ventilation ratio (1 square foot of vent area per 300 square feet of attic space) with proper intake/exhaust balance.</p>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Continuous soffit vents maximize intake area</li>
+              <li>Proper baffle installation prevents insulation blocking</li>
+              <li>Insect screening protects against pest entry</li>
+              <li>Corrosion-resistant materials ensure longevity</li>
+            </ul>
           </div>
+        </div>
+      </div>
+
+      <h3 className="text-2xl font-bold mt-8 mb-4">Advanced Ventilation Solutions</h3>
+      <div className="grid md:grid-cols-3 gap-6 mb-8">
+        <div className="card">
+          <div className="card-body">
+            <h4 className="font-bold mb-3">Powered Exhaust Fans</h4>
+            <p className="text-sm">Solar or electric-powered exhaust fans provide supplemental ventilation for challenging roof configurations or extreme climate conditions.</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body">
+            <h4 className="font-bold mb-3">Turbine Vents</h4>
+            <p className="text-sm">Wind-powered turbine vents create enhanced exhaust capacity for attics requiring additional airflow beyond standard ridge venting.</p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-body">
+            <h4 className="font-bold mb-3">Hip Roof Ventilation</h4>
+            <p className="text-sm">Specialized ventilation solutions for hip roofs where traditional ridge venting is limited, using combinations of ridge, turbine, and powered vents.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4">Quality Control and Installation Standards</h2>
+      <div className="card mb-8">
+        <div className="card-body">
+          <h3 className="text-xl font-semibold text-brand-brown mb-3">Ensuring Installation Excellence</h3>
+          <p className="mb-4">
+            Our quality control process ensures every roofing method is implemented according to manufacturer specifications and industry best practices. Multiple inspection checkpoints throughout installation verify material quality, installation technique, and adherence to design specifications.
+          </p>
+
+          <h4 className="font-bold mb-2">Material Verification and Testing</h4>
+          <p className="mb-4">
+            All roofing materials undergo inspection upon delivery to verify impact ratings, manufacturing dates, and specification compliance. Materials showing damage, aging, or specification deviations are rejected and replaced before installation begins.
+          </p>
+
+          <h4 className="font-bold mb-2">Installation Progress Monitoring</h4>
+          <p className="mb-4">
+            Experienced supervisors monitor installation progress to ensure proper fastening patterns, material placement, and technique compliance. Regular quality checkpoints catch potential issues before they become problems, ensuring consistent excellence throughout the project.
+          </p>
+
+          <h4 className="font-bold mb-2">Final Inspection and Testing</h4>
+          <p className="mb-4">
+            Completed installations undergo comprehensive final inspection including leak testing where applicable, fastening verification, and warranty documentation preparation. Our final walkthrough with property owners ensures complete satisfaction before project completion.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4">Maintenance and Longevity Planning</h2>
+      <div className="card mb-8">
+        <div className="card-body">
+          <h3 className="text-xl font-semibold text-brand-brown mb-3">Maximizing Roof System Performance and Lifespan</h3>
+          <p className="mb-4">
+            Proper maintenance planning begins during installation with system design that accommodates routine maintenance activities. Our maintenance recommendations are tailored to specific roofing methods, local climate conditions, and building usage patterns.
+          </p>
+
+          <h4 className="font-bold mb-2">Preventive Maintenance Programs</h4>
+          <p className="mb-4">
+            Regular maintenance extends roof life and prevents minor issues from becoming major problems. Our maintenance programs include annual inspections, cleaning, minor repairs, and documentation that preserves warranty coverage while identifying potential issues early.
+          </p>
+
+          <h4 className="font-bold mb-2">Storm Damage Assessment and Response</h4>
+          <p className="mb-4">
+            Post-storm inspections are critical in hail-prone areas like Amarillo. Our rapid response team can assess storm damage, provide temporary protection if needed, and coordinate with insurance adjusters to ensure proper claim documentation and repair authorization.
+          </p>
+
+          <h4 className="font-bold mb-2">Long-Term Performance Monitoring</h4>
+          <p className="mb-4">
+            Understanding how roofing systems perform over time helps optimize future installations and maintenance planning. Our long-term monitoring includes performance tracking, wear pattern analysis, and recommendations for system improvements or replacements.
+          </p>
         </div>
       </div>
 

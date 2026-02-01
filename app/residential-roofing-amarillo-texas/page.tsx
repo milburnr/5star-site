@@ -176,19 +176,231 @@ export default function ResidentialAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Amarillo Housing Market & Roofing Trends</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">📊 Amarillo Housing Market Overview</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <p className="text-gray-700 mb-3">With over 200,000 residents and a median home value of $142,000, Amarillo's housing market offers exceptional value compared to Texas metro averages. The city's stable economy, anchored by agriculture, energy, and manufacturing, has created consistent demand for quality roofing services.</p>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• <strong>Median home age:</strong> 43 years (many need roof replacements)</li>
+                      <li>• <strong>Average home size:</strong> 1,850 square feet</li>
+                      <li>• <strong>New construction:</strong> 450+ permits annually</li>
+                      <li>• <strong>Home ownership rate:</strong> 67.8%</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-gray-700 mb-3">Amarillo's location in the Texas Panhandle presents unique roofing challenges. Our contractors understand local building codes and weather patterns that affect roof performance and longevity.</p>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• <strong>Annual precipitation:</strong> 20.2 inches</li>
+                      <li>• <strong>Hail days per year:</strong> 8-12 (above state average)</li>
+                      <li>• <strong>Wind speeds:</strong> Regular 30+ mph gusts</li>
+                      <li>• <strong>Temperature range:</strong> -10°F to 105°F</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🏘️ Popular Amarillo Neighborhoods We Serve</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Wolflin</h4>
+                    <p className="text-gray-700 text-sm mb-2">Historic neighborhood with homes built 1920s-1950s. Many original slate and tile roofs need modern replacements with period-appropriate materials.</p>
+                    <p className="text-xs text-gray-600">Average home value: $180,000</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Southwest Amarillo</h4>
+                    <p className="text-gray-700 text-sm mb-2">Newer developments with homes from 1990s-2010s. Focus on energy-efficient roofing systems and proper ventilation for large floor plans.</p>
+                    <p className="text-xs text-gray-600">Average home value: $165,000</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">San Jacinto Heights</h4>
+                    <p className="text-gray-700 text-sm mb-2">Established area with mid-century homes. Common issues include inadequate ventilation and outdated shingle systems.</p>
+                    <p className="text-xs text-gray-600">Average home value: $125,000</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Tascosa</h4>
+                    <p className="text-gray-700 text-sm mb-2">High-end neighborhood with larger homes requiring premium roofing materials. Metal and architectural shingle installations common.</p>
+                    <p className="text-xs text-gray-600">Average home value: $220,000</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Eastridge</h4>
+                    <p className="text-gray-700 text-sm mb-2">Growing area with newer construction. Focus on proper installation techniques and warranty protection for young homeowners.</p>
+                    <p className="text-xs text-gray-600">Average home value: $145,000</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Sleepy Hollow</h4>
+                    <p className="text-gray-700 text-sm mb-2">Family-oriented community with ranch-style homes. Straightforward roof lines make replacements efficient and cost-effective.</p>
+                    <p className="text-xs text-gray-600">Average home value: $135,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Residential Roofing Pricing in Amarillo</h2>
-            <div className="space-y-4 text-gray-700">
-              <p className="text-lg"><strong>Average roof replacement costs in Amarillo:</strong></p>
-              <ul className="space-y-2 ml-4">
-                <li>• <strong>1,200-1,800 sq ft home:</strong> $7,000 - $11,000</li>
-                <li>• <strong>1,800-2,500 sq ft home:</strong> $11,000 - $16,000</li>
-                <li>• <strong>2,500-3,500+ sq ft home:</strong> $16,000 - $25,000+</li>
-              </ul>
-              <p className="italic mt-4">Factors affecting price: roof pitch, layers to remove, material choice, ventilation needs, and accessibility.</p>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Detailed Residential Roofing Pricing in Amarillo</h2>
+            <div className="space-y-6 text-gray-700">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <p className="text-lg font-semibold mb-4">Average roof replacement costs in Amarillo:</p>
+                  <ul className="space-y-3">
+                    <li><strong>Small homes (1,200-1,500 sq ft):</strong> $7,500 - $10,500
+                      <br /><span className="text-sm text-gray-600">Typical ranch homes, 12-16 squares</span>
+                    </li>
+                    <li><strong>Medium homes (1,500-2,200 sq ft):</strong> $10,500 - $15,000
+                      <br /><span className="text-sm text-gray-600">Two-story or large ranch, 16-24 squares</span>
+                    </li>
+                    <li><strong>Large homes (2,200-3,000 sq ft):</strong> $15,000 - $22,000
+                      <br /><span className="text-sm text-gray-600">Complex roof lines, 24-32 squares</span>
+                    </li>
+                    <li><strong>Luxury homes (3,000+ sq ft):</strong> $22,000 - $35,000+
+                      <br /><span className="text-sm text-gray-600">Premium materials, complex architecture</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold mb-4">Material Options & Upgrades:</p>
+                  <ul className="space-y-3">
+                    <li><strong>Standard Architectural Shingles:</strong> $95-$125/sq
+                      <br /><span className="text-sm text-gray-600">25-30 year warranty, good value</span>
+                    </li>
+                    <li><strong>Impact-Resistant Shingles:</strong> $115-$145/sq
+                      <br /><span className="text-sm text-gray-600">Class 4 hail rating, insurance discounts</span>
+                    </li>
+                    <li><strong>Premium Architectural:</strong> $135-$165/sq
+                      <br /><span className="text-sm text-gray-600">50-year warranty, enhanced appearance</span>
+                    </li>
+                    <li><strong>Metal Roofing Systems:</strong> $180-$280/sq
+                      <br /><span className="text-sm text-gray-600">Lifetime warranty, energy efficient</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
               <div className="bg-white p-6 rounded-lg mt-6">
-                <p className="font-semibold text-brand-brown mb-2">📋 Free Estimates</p>
-                <p>We provide detailed, no-obligation estimates for all residential roofing projects in Amarillo. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a>.</p>
+                <h3 className="font-semibold text-brand-brown mb-4">💰 Financing Options Available</h3>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <p className="font-medium mb-2">0% Interest Financing</p>
+                    <p className="text-sm text-gray-600">12, 18, and 24-month terms available for qualified buyers. No payments, no interest when paid in full within promotional period.</p>
+                  </div>
+                  <div>
+                    <p className="font-medium mb-2">Extended Payment Plans</p>
+                    <p className="text-sm text-gray-600">Up to 144-month terms with competitive rates. Monthly payments as low as $89 for typical roof replacements.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg">
+                <p className="font-semibold text-brand-brown mb-2">📋 Free Comprehensive Estimates</p>
+                <p>Every estimate includes material specifications, labor breakdown, warranty details, and timeline. We provide detailed proposals within 24 hours of inspection. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> or schedule online.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Amarillo Climate Impact on Residential Roofs</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🌦️ Detailed Weather Analysis</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-semibold mb-3">Hail Damage Risks</h4>
+                    <p className="text-gray-700 mb-3">Amarillo experiences an average of 9.3 hail days annually, well above the Texas average of 5.4 days. The peak season runs April through June, with hailstones frequently exceeding 1 inch in diameter.</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• 2023: 12 significant hail events</li>
+                      <li>• Average stone size: 1.2 inches</li>
+                      <li>• Largest recorded: 4.25 inches (2019)</li>
+                      <li>• Insurance claims: $47M annually</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3">Wind Load Considerations</h4>
+                    <p className="text-gray-700 mb-3">Amarillo's location on the High Plains creates consistent high winds. Building codes require roofing systems rated for 90 mph sustained winds, but many older homes lack proper attachment.</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Average wind speed: 13.5 mph</li>
+                      <li>• Peak gust recorded: 84 mph</li>
+                      <li>• Days over 35 mph: 47 annually</li>
+                      <li>• Most common direction: Southwest</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Temperature Extremes & Thermal Cycling</h3>
+                <div className="space-y-4">
+                  <p className="text-gray-700">Amarillo's continental climate creates severe thermal stress on roofing materials. Daily temperature swings of 40-50°F are common, causing expansion and contraction cycles that can lead to premature shingle failure.</p>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Summer Conditions</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• High: 91°F average</li>
+                        <li>• Roof surface: 140°F+</li>
+                        <li>• 100°F+ days: 12 annually</li>
+                        <li>• UV index: 9-11 (very high)</li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Winter Conditions</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Low: 23°F average</li>
+                        <li>• Below 0°F: 3-5 days</li>
+                        <li>• Ice storms: 2-3 annually</li>
+                        <li>• Snow load: 15-20 psf max</li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Transition Seasons</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Daily swings: 40-60°F</li>
+                        <li>• Freeze-thaw cycles: 85+ annually</li>
+                        <li>• Spring winds: 25+ mph common</li>
+                        <li>• Late season storms: May-June</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
+            <div className="max-w-4xl mx-auto space-y-4">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">How long do roofs last in Amarillo's climate?</h3>
+                <p className="text-gray-700">Standard asphalt shingles typically last 18-22 years in Amarillo, compared to 25-30 years in milder climates. Impact-resistant shingles can extend this to 25-30 years, while quality metal roofs can last 40-50+ years despite the harsh conditions.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">Do I need a permit for roof replacement in Amarillo?</h3>
+                <p className="text-gray-700">Yes, the City of Amarillo requires permits for roof replacements. We handle all permitting as part of our service. Current permit fees are $45 for residential projects under 2,000 sq ft, $65 for larger homes. Inspections are required at completion.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">What's the best time of year for roof replacement in Amarillo?</h3>
+                <p className="text-gray-700">Fall (September-November) and early spring (March-April) offer the best weather windows. Summer installations are possible but require early morning starts. We avoid December-February when possible due to freeze-thaw conditions and potential ice/snow.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">How can I tell if my roof has hail damage?</h3>
+                <p className="text-gray-700">Look for missing granules, exposed mat, cracked or split shingles, and damaged gutters or vents. However, hail damage isn't always visible from the ground. We provide free damage inspections and can meet with your insurance adjuster to ensure all damage is documented.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">What insurance discounts are available for impact-resistant shingles?</h3>
+                <p className="text-gray-700">Most insurance companies offer 15-35% discounts on wind/hail coverage for Class 4 impact-resistant shingles. State Farm, Allstate, and USAA typically offer the highest discounts. We provide documentation needed for your insurance company.</p>
               </div>
             </div>
           </section>

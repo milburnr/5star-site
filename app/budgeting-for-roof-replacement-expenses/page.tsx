@@ -135,26 +135,128 @@ export default function Page() {
           <li><strong>Energy-Efficient Rebates:</strong> Some programs offer incentives for reflective roofing</li>
         </ul>
 
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-brand-brown">Insurance Claims and Coverage Optimization</h2>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Understanding Your Insurance Coverage</h3>
+
+        <p>
+          Most Amarillo homeowners will file multiple hail damage claims during their ownership, making it essential to understand your policy coverage and claim procedures. Proper claim handling can significantly reduce your out-of-pocket expenses for necessary roof replacements.
+        </p>
+
+        <p>
+          <strong>Replacement Cost vs. Actual Cash Value:</strong> Replacement cost policies pay for new materials at current prices, while actual cash value policies subtract depreciation. Understanding your coverage type affects budgeting since actual cash value may require significant additional payment for quality materials.
+        </p>
+
+        <p>
+          <strong>Deductible Considerations:</strong> Many Texas policies use percentage deductibles for wind/hail damage rather than fixed amounts. A 2% deductible on a $200,000 home equals $4,000 out-of-pocket, which should be factored into emergency fund planning.
+        </p>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Working with Insurance Adjusters</h3>
+
+        <p>
+          Professional roofing contractors can assist with insurance claims by providing detailed damage documentation and advocating for complete repairs rather than temporary fixes. Experienced contractors understand adjuster procedures and can identify damage that might be overlooked.
+        </p>
+
+        <p>
+          <strong>Supplemental Claims:</strong> Initial insurance estimates often miss damages or underestimate repair costs. Professional contractors can identify additional damages and work with adjusters to file supplemental claims that ensure complete restoration.
+        </p>
+
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-brand-brown">Regional Pricing Factors in Amarillo</h2>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Local Market Considerations</h3>
+
+        <p>
+          Amarillo's position in the Texas Panhandle creates unique pricing factors that affect roof replacement budgets. Understanding these regional influences helps create more accurate budget projections:
+        </p>
+
+        <ul className="list-disc pl-6 space-y-2 mb-6">
+          <li><strong>Material Transportation Costs:</strong> Distance from manufacturing centers can increase material costs 5-15% compared to major metropolitan areas</li>
+          <li><strong>Labor Availability:</strong> Seasonal demand fluctuations affect labor costs, with peak pricing during storm season</li>
+          <li><strong>Weather Delays:</strong> High wind frequency may extend project timelines and increase labor costs</li>
+          <li><strong>Permit and Inspection Fees:</strong> City of Amarillo requirements add $200-500 to project costs</li>
+          <li><strong>Disposal Costs:</strong> Landfill fees for roofing debris disposal vary by material type and quantity</li>
+        </ul>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Seasonal Pricing Variations</h3>
+
+        <p>
+          Roof replacement costs in Amarillo fluctuate based on seasonal demand patterns. Understanding these cycles can help optimize your budget timing:
+        </p>
+
+        <p>
+          <strong>Peak Season (April-August):</strong> Highest demand following spring storms results in premium pricing and longer wait times. Emergency repairs command highest rates during this period.
+        </p>
+
+        <p>
+          <strong>Shoulder Season (September-November):</strong> Moderate pricing with good contractor availability. Optimal timing for planned replacements not related to storm damage.
+        </p>
+
+        <p>
+          <strong>Off-Season (December-March):</strong> Lowest prices but weather limitations may delay projects. Good for planning and material procurement for spring installation.
+        </p>
+
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-brand-brown">Long-Term Value Analysis</h2>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Cost Per Year Calculations</h3>
+
+        <p>
+          Understanding total cost of ownership helps justify higher initial investments in quality materials. Calculate cost per year by dividing total installation cost by expected lifespan:
+        </p>
+
+        <ul className="list-disc pl-6 space-y-2 mb-6">
+          <li><strong>Basic Asphalt Shingles:</strong> $8,000 installation ÷ 15 years = $533/year</li>
+          <li><strong>Impact-Resistant Shingles:</strong> $12,000 installation ÷ 25 years = $480/year</li>
+          <li><strong>Metal Roofing:</strong> $18,000 installation ÷ 50 years = $360/year</li>
+        </ul>
+
+        <p>
+          These calculations demonstrate how premium materials often provide better long-term value despite higher initial costs. Additional benefits like energy savings and insurance discounts further improve the value proposition.
+        </p>
+
+        <h3 className="text-2xl font-bold mt-8 mb-4">Property Value Impact</h3>
+
+        <p>
+          Quality roof replacement typically returns 60-80% of investment in increased property value. Premium materials and professional installation can enhance curb appeal and provide selling points for energy efficiency and storm resistance.
+        </p>
+
+        <p>
+          <strong>Resale Considerations:</strong> Impact-resistant roofing and energy-efficient systems appeal to buyers concerned about Amarillo's weather challenges and utility costs. These features can differentiate your property in competitive markets.
+        </p>
+
         <h2 className="text-2xl font-bold mt-8 mb-4">Maximizing Your Investment</h2>
 
         <p>
-          To get the most value from your roof replacement budget:
+          Strategic planning ensures your roof replacement budget delivers maximum value and long-term protection:
         </p>
 
         <ul className="list-disc pl-6 space-y-2">
-          <li>Choose quality materials that match <a href="/amarillo-weather-impact-on-roofing/" className="text-brand-gold hover:underline">Amarillo's climate challenges</a></li>
-          <li>Work with licensed, insured, and experienced <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">contractors</a></li>
-          <li>Ensure proper ventilation to extend roof lifespan</li>
-          <li>Review and understand your warranty coverage</li>
-          <li>Schedule regular maintenance to protect your investment</li>
+          <li><strong>Climate-Appropriate Materials:</strong> Choose materials specifically rated for <a href="/amarillo-weather-impact-on-roofing/" className="text-brand-gold hover:underline">Amarillo's weather challenges</a> including hail resistance and thermal cycling tolerance</li>
+          <li><strong>Certified Contractors:</strong> Work with licensed, insured, and manufacturer-certified <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">contractors</a> who understand local conditions and codes</li>
+          <li><strong>Comprehensive Ventilation:</strong> Invest in proper ventilation systems to extend roof lifespan and reduce energy costs</li>
+          <li><strong>Warranty Understanding:</strong> Review and understand both material and workmanship warranty coverage, transfer procedures, and maintenance requirements</li>
+          <li><strong>Maintenance Planning:</strong> Schedule annual inspections and preventive maintenance to protect your investment and preserve warranty coverage</li>
+          <li><strong>Energy Efficiency Upgrades:</strong> Consider cool roof technology and enhanced insulation for long-term utility savings</li>
+          <li><strong>Documentation Management:</strong> Maintain complete records of installation, warranties, and maintenance for insurance and resale purposes</li>
         </ul>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">Get Your Free Estimate from 5 Star Roofing</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Fund Planning</h2>
 
         <p>
-          At 5 Star Commercial Roofing, we provide detailed, transparent estimates so you can budget
-          accurately for your roof replacement. We'll help you understand all costs involved and explore
-          financing options that work for your situation.
+          Amarillo homeowners should maintain emergency funds specifically for storm damage since hail damage can occur multiple times per property ownership period. Consider establishing a dedicated roofing emergency fund separate from general home maintenance savings.
+        </p>
+
+        <p>
+          <strong>Recommended Emergency Fund:</strong> Save enough to cover your insurance deductible plus 10-15% for upgrades to current building codes or unforeseen complications. For most Amarillo homes, this ranges from $5,000-$8,000.
+        </p>
+
+        <h2 className="text-2xl font-bold mt-8 mb-4">Professional Consultation and Estimates</h2>
+
+        <p>
+          At 5 Star Commercial Roofing, we provide detailed, transparent estimates that help you budget accurately for roof replacement. Our comprehensive estimates include material specifications, labor costs, permit fees, disposal charges, and warranty information.
+        </p>
+
+        <p>
+          Our budget consultation process includes education about material options, financing alternatives, insurance coordination, and long-term maintenance planning. We believe informed customers make better decisions and achieve better results from their roofing investments.
         </p>
       </div>
 

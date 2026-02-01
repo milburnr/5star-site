@@ -169,24 +169,274 @@ export default function ResidentialOdessaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Residential Roofing Costs in Odessa</h2>
-            <p className="text-lg text-gray-700 mb-6">
-              Average residential roof replacement in Odessa ranges from <strong>$7,000 to $25,000+</strong> depending on home size, material choice, and roof complexity.
-            </p>
-            <div className="bg-white p-6 rounded-lg mb-6">
-              <h3 className="font-bold text-brand-brown mb-4">2025 Cost Estimates by Home Size</h3>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>1,200-1,800 sq ft:</strong> $7,000 - $11,000</li>
-                <li><strong>1,800-2,500 sq ft:</strong> $11,000 - $16,000</li>
-                <li><strong>2,500-3,500 sq ft:</strong> $16,000 - $25,000</li>
-                <li><strong>3,500+ sq ft:</strong> $25,000+</li>
-              </ul>
-              <p className="text-gray-600 mt-4 text-sm">Costs include tear-off, disposal, new materials, and labor. Metal roofing typically 20-40% higher.</p>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa Housing Market & Roofing Demands</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🏡 Odessa Real Estate & Demographics</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <p className="text-gray-700 mb-4">As the larger of the Permian Basin's twin cities, Odessa's population of 123,000+ creates substantial roofing demand. The city's economy, driven by oil production and petrochemicals, supports a stable housing market with consistent need for weather-resistant roofing systems.</p>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• <strong>Median home value:</strong> $148,000</li>
+                      <li>• <strong>Average home size:</strong> 1,740 sq ft</li>
+                      <li>• <strong>Median home age:</strong> 39 years</li>
+                      <li>• <strong>New construction permits:</strong> 380+ annually</li>
+                      <li>• <strong>Homeownership rate:</strong> 68.5%</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-gray-700 mb-4">Odessa's challenging climate creates unique roofing replacement cycles. The combination of extreme heat, hail events, and oil industry environmental factors requires specialized roofing knowledge and materials.</p>
+                    <ul className="space-y-2 text-gray-700 text-sm">
+                      <li>• <strong>Annual hail days:</strong> 6.1 (significant damage events)</li>
+                      <li>• <strong>Summer high average:</strong> 95°F</li>
+                      <li>• <strong>100°F+ days:</strong> 35+ annually</li>
+                      <li>• <strong>Wind exposure:</strong> High plains, open terrain</li>
+                      <li>• <strong>Roof replacement cycle:</strong> 15-20 years average</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🏘️ Major Odessa Neighborhoods & Roofing Characteristics</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">West Odessa</h4>
+                    <p className="text-gray-700 text-sm mb-2">Established residential area with homes from 1960s-1990s. Many properties need roof replacements as systems approach 25-30 year age limits.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $135,000 | Common: Age-related replacements, upgrading to impact-resistant</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Northeast Odessa</h4>
+                    <p className="text-gray-700 text-sm mb-2">Newer developments with homes built 1990s-2010s. Focus on maintaining manufacturer warranties and implementing preventive maintenance.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $165,000 | Common: Warranty maintenance, hail damage repairs</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Sherwood</h4>
+                    <p className="text-gray-700 text-sm mb-2">Family-oriented community with ranch-style homes. Straightforward roof configurations make replacements efficient and cost-effective.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $145,000 | Common: Standard replacements, energy efficiency upgrades</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Parkway</h4>
+                    <p className="text-gray-700 text-sm mb-2">Diverse neighborhood with varying home ages requiring different roofing approaches. Mix of repair and replacement projects common.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $125,000 | Common: Mixed repair/replacement, budget-conscious solutions</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Sunrise Acres</h4>
+                    <p className="text-gray-700 text-sm mb-2">Growing area with newer construction requiring modern roofing standards. Emphasis on energy-efficient systems and proper installation.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $155,000 | Common: Modern systems, cool roof technology</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-brand-brown mb-2">Downtown Area</h4>
+                    <p className="text-gray-700 text-sm mb-2">Historic district with character homes often requiring specialized roofing materials to maintain period-appropriate appearance.</p>
+                    <p className="text-xs text-gray-600">Avg. home value: $115,000 | Common: Historic preservation, specialized materials</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg">
-              <p className="font-semibold text-brand-brown mb-2">💡 Insurance Coverage</p>
-              <p className="text-gray-700">Most hail damage is covered 100% by insurance (minus deductible). We handle all insurance paperwork. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> for a free inspection.</p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Detailed Residential Roofing Costs in Odessa</h2>
+            <div className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <p className="text-lg font-semibold mb-4">2025 Odessa Roof Replacement Pricing:</p>
+                  <ul className="space-y-3">
+                    <li><strong>Small homes (1,000-1,400 sq ft):</strong> $6,800 - $9,800
+                      <br /><span className="text-sm text-gray-600">Typical ranch homes, 10-14 squares</span>
+                    </li>
+                    <li><strong>Standard homes (1,400-2,000 sq ft):</strong> $9,800 - $14,200
+                      <br /><span className="text-sm text-gray-600">Single story or small two-story, 14-20 squares</span>
+                    </li>
+                    <li><strong>Large homes (2,000-2,800 sq ft):</strong> $14,200 - $20,500
+                      <br /><span className="text-sm text-gray-600">Two-story or complex ranch, 20-28 squares</span>
+                    </li>
+                    <li><strong>Premium homes (2,800-3,500 sq ft):</strong> $20,500 - $28,000
+                      <br /><span className="text-sm text-gray-600">Large homes, multiple roof planes, 28-35 squares</span>
+                    </li>
+                    <li><strong>Custom homes (3,500+ sq ft):</strong> $28,000 - $42,000+
+                      <br /><span className="text-sm text-gray-600">Complex architecture, premium materials</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold mb-4">Material Options & Pricing:</p>
+                  <ul className="space-y-3">
+                    <li><strong>Standard Architectural Shingles:</strong> $88-$118/sq
+                      <br /><span className="text-sm text-gray-600">25-30 year, good value option</span>
+                    </li>
+                    <li><strong>Class 4 Impact-Resistant:</strong> $108-$138/sq
+                      <br /><span className="text-sm text-gray-600">Essential for Odessa, insurance discounts</span>
+                    </li>
+                    <li><strong>Cool Roof Architectural:</strong> $118-$158/sq
+                      <br /><span className="text-sm text-gray-600">Energy-efficient, heat-reflecting</span>
+                    </li>
+                    <li><strong>Standing Seam Metal:</strong> $175-$275/sq
+                      <br /><span className="text-sm text-gray-600">Long-term value, excellent durability</span>
+                    </li>
+                    <li><strong>Stone-Coated Steel:</strong> $185-$285/sq
+                      <br /><span className="text-sm text-gray-600">Traditional appearance, metal protection</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="font-semibold text-brand-brown mb-4">💰 Odessa-Specific Cost Considerations</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-medium mb-2">Heat Mitigation Features</h4>
+                    <p className="text-sm text-gray-600 mb-3">Odessa's extreme summer heat makes cooling cost mitigation crucial. Enhanced ventilation and reflective materials provide significant energy savings.</p>
+                    <ul className="text-xs text-gray-500 space-y-1">
+                      <li>• Reflective shingles upgrade: +$5-12/sq</li>
+                      <li>• Ridge vent enhancement: $3-5/linear foot</li>
+                      <li>• Soffit ventilation: $2-4/linear foot</li>
+                      <li>• Radiant barrier: $0.75-1.25/sq ft</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-2">Local Environmental Factors</h4>
+                    <p className="text-sm text-gray-600 mb-3">Permian Basin conditions including dust, oil field activities, and extreme weather require enhanced protection measures.</p>
+                    <ul className="text-xs text-gray-500 space-y-1">
+                      <li>• Enhanced fastening: +$2-3/sq</li>
+                      <li>• Multiple layer removal: +$1.50-2.50/sq</li>
+                      <li>• Decking repair (common): $4-8/sq ft</li>
+                      <li>• Extended warranty options available</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="font-semibold text-brand-brown mb-4">🏦 Financing & Insurance Information</h3>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <p className="font-medium mb-2">Insurance Coverage</p>
+                    <p className="text-sm text-gray-600">Hail damage typically covered 100% by homeowner's insurance minus deductible. We handle all documentation and adjuster meetings to maximize approved claims.</p>
+                  </div>
+                  <div>
+                    <p className="font-medium mb-2">0% Financing Available</p>
+                    <p className="text-sm text-gray-600">12, 18, and 24-month terms for qualified buyers. Extended payment plans up to 144 months with competitive rates starting at 6.99% APR.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg">
+                <p className="font-semibold text-brand-brown mb-2">📋 Free Detailed Estimates</p>
+                <p className="text-gray-700">Comprehensive estimates include material specifications, labor breakdown, timeline, and warranty details. Most estimates provided within 24 hours of inspection. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> or <a href="/contact/" className="text-brand-gold font-bold">schedule online</a>.</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa Climate Analysis & Roof Impact</h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Extreme Heat & Energy Efficiency</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-semibold mb-3">Temperature Impact on Roofing</h4>
+                    <p className="text-gray-700 mb-3">Odessa's brutal summer heat creates roof surface temperatures exceeding 150°F, causing accelerated aging, thermal cycling stress, and dramatic increases in cooling costs for homes with inadequate roofing systems.</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Average summer high: 95°F</li>
+                      <li>• 100°F+ days: 35+ annually</li>
+                      <li>• Record high: 115°F</li>
+                      <li>• Roof surface temperatures: 150-165°F</li>
+                      <li>• Thermal cycling: 45-55°F daily swings</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3">Energy Cost Impact</h4>
+                    <p className="text-gray-700 mb-3">Poor roofing systems dramatically increase cooling costs during Odessa's extended hot season. Cool roof technology can reduce energy bills by 18-25% during peak summer months.</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>• Typical cooling season: 6+ months</li>
+                      <li>• Average summer electric bill: $180-280</li>
+                      <li>• Cool roof savings: $35-70/month</li>
+                      <li>• Annual energy savings: $300-600</li>
+                      <li>• ROI on cool roof upgrade: 3-5 years</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-4">⛈️ Storm Patterns & Hail Risk Assessment</h3>
+                <div className="space-y-4">
+                  <p className="text-gray-700">While not in the direct center of Hail Alley, Odessa experiences significant storm activity that creates substantial roofing damage. Understanding local storm patterns helps homeowners prepare and choose appropriate materials.</p>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Hail Statistics</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Annual hail events: 6.1 days</li>
+                        <li>• Average stone size: 0.8 inches</li>
+                        <li>• Largest recorded: 3.75" (2021)</li>
+                        <li>• Damage threshold: 1" stones</li>
+                        <li>• Peak season: April-June (75%)</li>
+                        <li>• Annual insurance claims: $28M</li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Wind Events</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Average wind speed: 11.8 mph</li>
+                        <li>• Peak recorded gust: 81 mph</li>
+                        <li>• High wind days (35+ mph): 22/year</li>
+                        <li>• Dust storm events: 10-14/year</li>
+                        <li>• Prevailing direction: Southwest</li>
+                        <li>• Spring wind intensity: Highest</li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-50 p-4 rounded">
+                      <h5 className="font-semibold text-brand-brown mb-2">Environmental Factors</h5>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Elevation: 2,890 feet</li>
+                        <li>• UV index: 9-10 year-round</li>
+                        <li>• Clear sky days: 270+ annually</li>
+                        <li>• Oil industry particulates</li>
+                        <li>• Alkaline soil pH: 7.8-8.2</li>
+                        <li>• Low humidity: 40-45% avg</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions - Odessa Roofing</h2>
+            <div className="max-w-4xl mx-auto space-y-4">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">How long do roofs typically last in Odessa's climate?</h3>
+                <p className="text-gray-700">Standard asphalt shingles last 15-20 years in Odessa due to extreme heat and UV exposure. Class 4 impact-resistant shingles extend this to 22-30 years, while quality metal systems can last 40-50+ years despite harsh conditions.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">Is metal roofing worth the cost in Odessa?</h3>
+                <p className="text-gray-700">Absolutely. Metal roofs excel in Odessa's climate by reflecting heat (reducing cooling costs 15-25%), withstanding extreme weather, and lasting 40+ years. The energy savings and longevity typically offset the higher initial investment within 8-12 years.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">Do I need permits for roof replacement in Odessa?</h3>
+                <p className="text-gray-700">Yes, the City of Odessa requires building permits for roof replacements. Current fees are $55 for residential projects. We handle all permitting, plan submissions, and coordinate required inspections as part of our comprehensive service.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">When is the best time to replace a roof in Odessa?</h3>
+                <p className="text-gray-700">Fall (September-November) and early spring (March-early April) offer optimal conditions. We avoid peak summer when possible due to extreme heat, but emergency replacements can be completed year-round with early morning scheduling.</p>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="font-bold text-lg text-brand-brown mb-3">How does oil field activity affect residential roofs?</h3>
+                <p className="text-gray-700">Nearby drilling creates vibrations and increases airborne particulates that can accelerate roof aging. We recommend inspections every 2-3 years for homes within 2 miles of active drilling operations and use enhanced fastening methods in these areas.</p>
+              </div>
             </div>
           </section>
         </FadeIn>

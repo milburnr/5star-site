@@ -156,14 +156,201 @@ export default function AsphaltShingleRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Monahans's Asphalt Shingle Roofing Specialists
+              Monahans's Premier Residential Asphalt Shingle Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Monahans's location in Ward County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Monahans, Texas, positioned in Ward County's heart, faces unique challenges as a Permian Basin oil and gas hub. Located near the famous Monahans Sandhills, this community experiences 6-8 major hailstorms annually with severe impact damage potential. Summer temperatures consistently exceed 100°F while winter lows can drop to 25°F, creating extreme thermal cycling that stresses roofing systems. The area's low annual precipitation (14 inches) means intense, sporadic storms that dump large amounts of water quickly, testing drainage and waterproofing systems.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Monahans and Ward County with premium materials and expert installation. From properties near Monahans Sandhills State Park to buildings throughout Monahans, we understand Permian Basin weather patterns, local building codes, and the specific needs of Ward County property owners.
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Since 2014, 5 Star Commercial Roofing has specialized in protecting Monahans's residential neighborhoods with premium asphalt shingle systems designed for Permian Basin extremes. From historic homes near downtown Monahans to newer subdivisions around Monahans Sandhills State Park, we understand the unique challenges facing homeowners: oil field environmental impacts, sand infiltration, extreme UV exposure, and the need for durable solutions that protect investments in this vital energy community.
             </p>
+
+            <div className="bg-gradient-to-r from-orange-50 to-red-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Why Monahans Homeowners Rely on Quality Asphalt Shingles</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Outstanding Investment Protection</h4>
+                  <p className="text-gray-600 mb-4">Monahans's median home value of $87,500 benefits dramatically from quality roofing upgrades. Premium asphalt shingles increase property values by 18-25% while providing decades of reliable protection in this oil and gas economy. Our installations offer superior ROI while maintaining the practical appearance that fits this hardworking community's character.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Permian Basin Storm Durability</h4>
+                  <p className="text-gray-600">Advanced impact-resistant shingles with UL 2218 Class 4 ratings handle Monahans's frequent hail damage. Wind resistance up to 150 MPH withstands the powerful microbursts and straight-line winds common during severe weather, while fire resistance protects against wildfire threats from surrounding rangeland.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Energy Efficiency Benefits</h4>
+                  <p className="text-gray-600 mb-4">Cool-roof technology reduces cooling costs by 20-30% during Monahans's brutal summers. Advanced reflective granules and proper ventilation systems help homes stay comfortable while reducing strain on HVAC systems, crucial for managing energy costs in this desert climate.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Low-Maintenance Desert Performance</h4>
+                  <p className="text-gray-600">Unlike metal roofing that shows sand accumulation and requires frequent cleaning, or tile that cracks under thermal stress, architectural asphalt shingles handle Monahans's sand, dust, and extreme conditions with minimal maintenance while delivering 30-50 year lifespans.</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Asphalt Shingle Solutions for Monahans Homes</h3>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Standard Architectural Shingles</h4>
+                <p className="text-gray-600 mb-3">Ideal for Monahans homeowners seeking dependable protection at oil-field economy prices. Starting at $4.50 per square foot installed, these GAF Timberline or CertainTeed Landmark shingles provide 25-30 year warranties with excellent desert climate resistance.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• 110 MPH wind warranties</li>
+                  <li>• Advanced granule technology</li>
+                  <li>• Class A fire safety rating</li>
+                  <li>• 14 desert-appropriate colors</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Impact-Resistant Premium</h4>
+                <p className="text-gray-600 mb-3">Monahans's most popular choice for maximum hail and wind protection. Multi-layer construction with polymer modification provides Class 4 impact resistance at $7.00-9.50 per square foot with 30-lifetime warranties.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• UL 2218 Class 4 impact rated</li>
+                  <li>• 130+ MPH wind resistance</li>
+                  <li>• Desert heat reflection</li>
+                  <li>• Insurance discounts available</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Designer Luxury Series</h4>
+                <p className="text-gray-600 mb-3">Premium options for discerning Monahans homeowners. Authentic slate, cedar shake, and tile appearances with lifetime warranties and maximum performance. Investment range: $10.50-14.50 per square foot for ultimate protection.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Lifetime limited warranties</li>
+                  <li>• Maximum weather protection</li>
+                  <li>• Cool-roof ENERGY STAR rating</li>
+                  <li>• Authentic dimensional textures</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-red-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">Monahans Desert Climate Installation Expertise</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Sand Infiltration Prevention</h4>
+                  <p className="text-gray-600 mb-4">Proximity to Monahans Sandhills requires specialized sealing techniques to prevent sand infiltration. We use enhanced edge sealing, upgraded underlayment, and sand-resistant fastening systems that maintain weather-tight performance despite constant sand exposure from West Texas winds.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Oil Field Environment Adaptation</h4>
+                  <p className="text-gray-600">Installation schedules consider oil field activities, dust patterns, and potential vibrations from nearby operations. We coordinate timing and use specialized materials resistant to hydrocarbon exposure and industrial particulates common in Permian Basin communities.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Extreme Heat Engineering</h4>
+                  <p className="text-gray-600 mb-4">Monahans's desert climate requires specialized thermal management. We install enhanced ventilation systems, reflective underlayment, and use fastening schedules designed for extreme thermal expansion and contraction cycles common in desert environments.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Local Compliance & Safety</h4>
+                  <p className="text-gray-600">All installations meet Ward County building requirements including wildfire protection provisions, high-wind zone specifications, and coordination with local utility providers including AEP Texas, Atmos Energy, and oil field infrastructure.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Monahans Professional Installation Excellence</h2>
+            
+            <div className="space-y-8">
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-orange-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Comprehensive Desert Climate Assessment</h3>
+                  <p className="text-gray-600">Our detailed evaluation considers Monahans's unique environmental challenges including sand exposure, oil field proximity, UV intensity, and thermal cycling patterns. We use advanced detection methods to identify hail damage, wind damage, sand infiltration, and structural issues specific to desert conditions.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-orange-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Customized Material Selection & Planning</h3>
+                  <p className="text-gray-600">Every Monahans home receives tailored recommendations based on desert exposure, neighborhood characteristics, and performance requirements. We provide detailed analysis of energy efficiency benefits, storm protection levels, and long-term value enhancement specific to Permian Basin conditions.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-orange-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Expert Installation & Quality Control</h3>
+                  <p className="text-gray-600">Our certified teams complete most Monahans residential projects in 2-3 days using desert-adapted techniques and premium materials. We maintain clean worksites despite sand conditions, protect oil field considerations, and conduct rigorous quality inspections throughout installation.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-orange-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Complete Warranty & Desert Support</h3>
+                  <p className="text-gray-600">Project completion includes thorough cleanup, comprehensive warranty documentation, and maintenance guidance for Monahans's desert climate. We provide 24/7 emergency service throughout Ward County with maintenance schedules designed for Permian Basin environmental conditions.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Insurance Claims & Oil Field Economy Financing</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Damage Claims Specialization</h3>
+                <p className="text-gray-600 mb-4">Monahans's frequent severe weather makes insurance claims routine for homeowners. We work with all major carriers including State Farm, Allstate, Farmers, and USAA to document damage comprehensively and ensure full coverage including hidden damage from sand infiltration.</p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Free comprehensive damage documentation</li>
+                  <li>• Professional drone photography</li>
+                  <li>• Direct insurance adjuster coordination</li>
+                  <li>• Sand damage assessment and reporting</li>
+                  <li>• Supplemental claim assistance</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Flexible Oil Field Financing</h3>
+                <p className="text-gray-600 mb-4">Understanding Monahans's oil and gas economy cycles, we offer financing solutions that work for energy workers, service companies, and families throughout boom and adjustment periods.</p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• 0% interest financing available</li>
+                  <li>• Extended payment terms up to 60 months</li>
+                  <li>• No prepayment penalties</li>
+                  <li>• Quick approval process</li>
+                  <li>• Energy industry flexible scheduling</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Serving All Monahans Communities</h2>
+            
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gradient-to-b from-orange-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Historic Downtown Monahans</h4>
+                <p className="text-gray-600 text-sm">Original Monahans neighborhoods featuring 1920s-1950s architecture near the railroad district. We maintain historical character while upgrading desert performance and sand resistance.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-red-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">North Monahans Residential</h4>
+                <p className="text-gray-600 text-sm">Newer subdivisions with contemporary homes requiring advanced ventilation and impact-resistant materials for optimal desert climate performance and energy efficiency.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-yellow-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Sandhills Area</h4>
+                <p className="text-gray-600 text-sm">Properties near Monahans Sandhills State Park with extreme sand exposure requiring specialized installation techniques and enhanced sealing for long-term performance.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-green-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">South Monahans</h4>
+                <p className="text-gray-600 text-sm">Established neighborhoods with well-maintained homes requiring reliable, cost-effective roofing solutions that handle oil field environmental conditions.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Rural Ward County</h4>
+                <p className="text-gray-600 text-sm">Ranch properties and oil field housing requiring specialized installation for extreme weather exposure and larger structures typical of rural Permian Basin locations.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Industrial Adjacent Areas</h4>
+                <p className="text-gray-600 text-sm">Residential properties near oil and gas operations requiring enhanced protection against industrial dust, vibrations, and specialized environmental considerations.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

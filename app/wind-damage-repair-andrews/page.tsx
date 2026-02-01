@@ -156,14 +156,201 @@ export default function WindDamageRepairAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Wind Damage Repair Specialists
+              Andrews's Premier Wind Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Andrews's location in Andrews County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Andrews, Texas, positioned in the Permian Basin's open terrain, faces some of West Texas's most severe wind events. Located where multiple weather systems converge, Andrews experiences frequent derechos with sustained winds of 70-90 MPH, supercell thunderstorm complexes producing straight-line winds exceeding 100 MPH, and microbursts that can generate localized winds of 120+ MPH. The flat topography provides no natural windbreaks, allowing these powerful systems to maintain intensity as they sweep across Andrews County, causing significant structural damage to roofing systems year after year.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Andrews and Andrews County with premium materials and expert installation. From properties near Andrews County Courthouse to buildings throughout Andrews, we understand Permian Basin weather patterns, local building codes, and the specific needs of Andrews County property owners.
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Since 2014, 5 Star Commercial Roofing has specialized in wind damage repair throughout Andrews and Andrews County, understanding the unique patterns that affect this Permian Basin community. From historic properties near the Andrews County Courthouse to modern developments along Highway 385, we've documented and repaired damage from dozens of major wind events including the devastating straight-line wind storms that regularly impact this region. Our expertise covers everything from shingle blow-offs to structural damage, ensuring rapid restoration that meets Texas Building Code requirements and insurance standards.
             </p>
+
+            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Andrews Wind Damage Patterns</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Permian Basin Wind Characteristics</h4>
+                  <p className="text-gray-600 mb-4">Andrews's location creates a natural wind corridor where Arctic fronts clash with Gulf moisture, generating severe convective systems. The area experiences an average of 45+ days annually with sustained winds over 25 MPH, with peak wind events typically occurring during spring (March-May) and fall (September-November) transition periods when pressure gradients are strongest.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Common Wind Damage Types</h4>
+                  <p className="text-gray-600">Straight-line winds cause uplift damage to shingles, gutters, and flashing. Rotating storms create directional damage patterns affecting specific roof sections. Microbursts generate downburst damage with debris impact. Sustained high winds cause fastener fatigue and progressive material failure over time.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Seasonal Wind Events</h4>
+                  <p className="text-gray-600 mb-4">Spring: Supercell complexes with rotating mesocyclones producing 80-120 MPH winds. Summer: Isolated microbursts from afternoon thunderstorms. Fall: Derecho events with sustained 70+ MPH winds over large areas. Winter: Chinook wind events causing rapid pressure changes and thermal stress.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Geographic Risk Factors</h4>
+                  <p className="text-gray-600">Open terrain with no windbreaks amplifies wind speeds. Elevation changes create turbulence and unpredictable wind patterns. Oil field infrastructure can channel and accelerate winds. Limited vegetation provides minimal wind reduction.</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Wind Damage Assessment & Repair Services</h3>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-slate-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Emergency Wind Damage Response</h4>
+                <p className="text-gray-600 mb-3">24/7 emergency tarping and stabilization services for Andrews properties after severe wind events. Our rapid response team secures damaged areas within hours, preventing secondary water damage and protecting your property until permanent repairs begin.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Emergency tarping and board-up</li>
+                  <li>• Structural damage assessment</li>
+                  <li>• Immediate leak prevention</li>
+                  <li>• Insurance documentation</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-slate-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Complete Roof Restoration</h4>
+                <p className="text-gray-600 mb-3">Full roofing system replacement for severely wind-damaged properties. We upgrade to impact-resistant materials and enhanced fastening systems designed to withstand future Permian Basin wind events while meeting all insurance and building code requirements.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Impact-resistant material upgrades</li>
+                  <li>• Enhanced wind-rated systems</li>
+                  <li>• Structural reinforcement</li>
+                  <li>• Code compliance upgrades</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-slate-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Partial Wind Damage Repair</h4>
+                <p className="text-gray-600 mb-3">Targeted repairs for localized wind damage including shingle replacement, flashing repair, and gutter restoration. Our Andrews-specific approach addresses common Permian Basin wind damage patterns while ensuring seamless integration with existing roofing systems.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Shingle blow-off replacement</li>
+                  <li>• Flashing and trim repair</li>
+                  <li>• Gutter and downspout restoration</li>
+                  <li>• Ventilation system repair</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">Andrews Wind Damage Expertise</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Permian Basin Storm Pattern Recognition</h4>
+                  <p className="text-gray-600 mb-4">Our team understands the specific wind damage patterns common to Andrews's geographical location. We can identify damage from straight-line winds versus rotating systems, assess progressive wind damage from multiple events, and determine the difference between acute storm damage and chronic wind wear.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Oil Field Environment Considerations</h4>
+                  <p className="text-gray-600">Wind damage repairs account for Andrews's oil field environment including dust infiltration, potential chemical exposure, and vibration impacts. We use materials and techniques that maintain integrity despite ongoing oil field activities and environmental challenges.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Insurance Claim Specialization</h4>
+                  <p className="text-gray-600 mb-4">Andrews's frequent wind events require expert insurance navigation. We document wind damage comprehensively, differentiate between storm events for multiple claims, and ensure full coverage for visible and hidden damage common in Permian Basin wind events.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Enhanced Wind Resistance</h4>
+                  <p className="text-gray-600">All repairs include upgrades designed for Andrews's wind exposure including enhanced fastening patterns, upgraded edge details, and wind-tested materials rated for 130+ MPH sustained winds typical of severe Permian Basin weather systems.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Wind Damage Repair Process</h2>
+            
+            <div className="space-y-8">
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-slate-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-slate-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Emergency Response & Damage Assessment</h3>
+                  <p className="text-gray-600">Our 24/7 emergency response team provides immediate property protection after Andrews wind events. We secure damaged areas, document destruction for insurance purposes, and conduct comprehensive assessments to identify all wind-related damage including hidden structural issues common in Permian Basin storms.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-slate-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-slate-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Insurance Documentation & Claims Support</h3>
+                  <p className="text-gray-600">We provide detailed documentation of wind damage including drone photography, moisture detection, and structural analysis. Our Andrews-specific expertise helps insurance adjusters understand local wind patterns and damage characteristics, ensuring full coverage for necessary repairs.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-slate-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-slate-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Professional Repair & Restoration</h3>
+                  <p className="text-gray-600">Our certified crews execute repairs using premium materials and enhanced techniques designed for Andrews wind exposure. All work meets Texas Building Code requirements while incorporating upgrades to improve future wind resistance based on Permian Basin weather patterns.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-slate-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-slate-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Quality Assurance & Future Protection</h3>
+                  <p className="text-gray-600">Final inspections ensure all wind damage repairs meet our high standards and manufacturer specifications. We provide comprehensive warranties and ongoing maintenance guidance to help your Andrews property withstand future Permian Basin wind events.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Wind Event History & Preparedness</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Recent Major Wind Events</h3>
+                <p className="text-gray-600 mb-4">Andrews has experienced numerous significant wind events in recent years, including straight-line wind storms with sustained speeds over 80 MPH, supercell complexes producing damaging microbursts, and derecho events affecting large portions of Andrews County.</p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Spring 2023: 95 MPH straight-line winds</li>
+                  <li>• Fall 2022: Derecho with 85 MPH sustained winds</li>
+                  <li>• Summer 2022: Multiple microburst events</li>
+                  <li>• Spring 2021: Supercell complex damage</li>
+                  <li>• Winter 2020: Chinook wind event</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Wind Damage Prevention</h3>
+                <p className="text-gray-600 mb-4">Proactive measures help Andrews property owners minimize wind damage. Regular inspections, proper maintenance, and strategic upgrades significantly reduce vulnerability to Permian Basin wind events.</p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Annual roof inspections before storm season</li>
+                  <li>• Enhanced fastening system upgrades</li>
+                  <li>• Impact-resistant material installation</li>
+                  <li>• Tree trimming and debris removal</li>
+                  <li>• Gutter and drainage maintenance</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Serving All Andrews Area Communities</h2>
+            
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gradient-to-b from-slate-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Downtown Andrews Historic District</h4>
+                <p className="text-gray-600 text-sm">Historic properties require specialized wind damage repair techniques that maintain architectural integrity while upgrading wind resistance to modern standards for ongoing protection.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">North Andrews Residential</h4>
+                <p className="text-gray-600 text-sm">Modern subdivisions along Highway 385 benefit from enhanced wind-resistant repairs and upgrades designed for maximum protection against future Permian Basin wind events.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-gray-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Rural Andrews County</h4>
+                <p className="text-gray-600 text-sm">Country properties face maximum wind exposure requiring specialized repair techniques and enhanced materials designed for extreme West Texas weather conditions.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-green-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Industrial Areas</h4>
+                <p className="text-gray-600 text-sm">Properties near oil field operations require specialized consideration for equipment vibrations, dust exposure, and enhanced structural requirements.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-yellow-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">South Andrews</h4>
+                <p className="text-gray-600 text-sm">Established neighborhoods require reliable wind damage repair that maintains property values while providing superior protection against recurring wind events.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Commercial District</h4>
+                <p className="text-gray-600 text-sm">Business properties need rapid wind damage restoration to minimize operational disruption while ensuring long-term protection against Permian Basin weather challenges.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

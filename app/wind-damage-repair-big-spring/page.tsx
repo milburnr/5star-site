@@ -156,14 +156,196 @@ export default function WindDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Big Spring's Wind Damage Repair Specialists
+              Big Spring's Expert Wind Damage Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Big Spring's location in Howard County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Big Spring, Texas, positioned along Interstate 20 at an elevation of 2,398 feet, sits directly in the path of some of West Texas's most destructive wind events. This strategic location where the Caprock meets the rolling plains creates a natural wind acceleration zone, producing frequent derechos with sustained winds of 75-95 MPH, supercell thunderstorms generating microbursts exceeding 110 MPH, and straight-line wind events that have recorded gusts over 120 MPH. The convergence of dry air masses from the High Plains with moist Gulf air creates explosive atmospheric conditions that generate severe convective systems throughout spring and fall seasons.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring and Howard County with premium materials and expert installation. From properties near Big Spring State Park to buildings throughout Big Spring, we understand West Texas weather patterns, local building codes, and the specific needs of Howard County property owners.
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Since 2014, 5 Star Commercial Roofing has specialized in wind damage repair throughout Big Spring and Howard County, building expertise through dozens of major wind events that have impacted this resilient West Texas community. From historic properties near Downtown Big Spring to modern developments around Big Spring State Park, we understand how different wind patterns affect various architectural styles and building orientations. Our comprehensive approach addresses everything from minor shingle damage to complete roof failure, ensuring rapid restoration that exceeds local building codes and withstands future severe weather events.
             </p>
+
+            <div className="bg-gradient-to-r from-cyan-50 to-blue-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Big Spring's Unique Wind Damage Characteristics</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">West Texas Wind Corridor Effects</h4>
+                  <p className="text-gray-600 mb-4">Big Spring's position in the natural wind corridor between the Caprock escarpment and Permian Basin creates unique aerodynamic effects. Wind speeds often increase by 15-25% as air masses are channeled and compressed through this geographical formation, leading to higher damage potential than surrounding areas.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Seasonal Wind Event Patterns</h4>
+                  <p className="text-gray-600">Spring (March-May): Supercell complexes with rotating winds causing directional damage. Summer: Isolated microbursts creating localized destruction. Fall (September-November): Derecho events with widespread straight-line wind damage. Winter: Chinook events causing rapid pressure changes and structural stress.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Topographic Wind Amplification</h4>
+                  <p className="text-gray-600 mb-4">Big Spring's elevated position and surrounding terrain create wind acceleration zones where speeds can increase 20-30% over flat ground measurements. This amplification effect is particularly severe on north-facing slopes and areas near the escarpment edge where many properties are located.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Interstate Corridor Considerations</h4>
+                  <p className="text-gray-600">Properties near Interstate 20 experience additional wind effects from traffic-generated turbulence and reduced windbreak vegetation. These factors combine with natural wind patterns to create complex damage scenarios requiring specialized repair approaches.</p>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Wind Damage Assessment & Repair Services</h3>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-cyan-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Emergency Storm Response</h4>
+                <p className="text-gray-600 mb-3">24/7 emergency services for Big Spring wind damage events. Our rapid response team provides immediate tarping, board-up, and stabilization to prevent secondary damage while coordinating with local emergency services and insurance providers.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Immediate emergency tarping</li>
+                  <li>• Structural damage stabilization</li>
+                  <li>• Water intrusion prevention</li>
+                  <li>• Emergency contact coordination</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-cyan-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Complete Roof Replacement</h4>
+                <p className="text-gray-600 mb-3">Full roofing system replacement for properties with severe wind damage. We upgrade to enhanced wind-resistant materials and fastening systems specifically designed for Big Spring's challenging wind environment and future storm protection.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Wind-resistant material upgrades</li>
+                  <li>• Enhanced fastening systems</li>
+                  <li>• Structural reinforcement</li>
+                  <li>• Code compliance improvements</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-cyan-500">
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Targeted Repair Services</h4>
+                <p className="text-gray-600 mb-3">Precision repairs for localized wind damage including shingle replacement, flashing restoration, and gutter repair. Our Big Spring expertise ensures seamless integration with existing systems while upgrading wind resistance.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Shingle blow-off replacement</li>
+                  <li>• Flashing and trim restoration</li>
+                  <li>• Gutter system repair</li>
+                  <li>• Ventilation component replacement</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">Big Spring Wind Damage Expertise</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">West Texas Storm Pattern Analysis</h4>
+                  <p className="text-gray-600 mb-4">Our team specializes in identifying wind damage patterns specific to Big Spring's geographical position. We distinguish between microburst damage, straight-line wind effects, and rotational storm damage to ensure appropriate repair techniques and materials.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Enhanced Wind Resistance Upgrades</h4>
+                  <p className="text-gray-600">All repairs include upgrades designed for Big Spring's wind exposure including enhanced fastening patterns exceeding code requirements, wind-tested edge details, and materials rated for 130+ MPH sustained winds common in West Texas severe weather events.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Insurance Claims Optimization</h4>
+                  <p className="text-gray-600 mb-4">Big Spring's frequent wind events require expert insurance navigation. We document damage comprehensively, provide detailed repair estimates, and work directly with adjusters to ensure full coverage for both visible and hidden wind damage.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-3">Local Building Code Compliance</h4>
+                  <p className="text-gray-600">All repairs meet Howard County building requirements and Texas Building Code wind provisions. We coordinate with local inspectors and utility providers to ensure compliant installations that protect your property investment.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-50 to-cyan-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Recent Big Spring Wind Events & Impact</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Major Wind Damage Events</h4>
+                  <ul className="text-gray-600 space-y-1 mb-4">
+                    <li>• March 2023: Supercell complex - 105 MPH winds</li>
+                    <li>• October 2022: Derecho event - 90 MPH sustained</li>
+                    <li>• August 2022: Microburst series - localized 115 MPH</li>
+                    <li>• April 2021: Straight-line winds - 95 MPH gusts</li>
+                    <li>• November 2020: High Plains wind event - 85 MPH</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Typical Damage Patterns</h4>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• Asphalt shingle uplift and blow-off</li>
+                    <li>• Metal roofing panel separation</li>
+                    <li>• Gutter and downspout detachment</li>
+                    <li>• Flashing and trim damage</li>
+                    <li>• Structural fastener failure</li>
+                    <li>• Debris impact damage</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Big Spring Wind Damage Repair Process</h2>
+            
+            <div className="space-y-8">
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Rapid Response & Emergency Protection</h3>
+                  <p className="text-gray-600">Our 24/7 emergency response team secures Big Spring properties immediately after wind events. We provide emergency tarping, board-up services, and structural stabilization to prevent secondary damage while beginning comprehensive damage assessment processes.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-cyan-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Comprehensive Damage Documentation</h3>
+                  <p className="text-gray-600">We conduct thorough assessments using drone photography, moisture detection, and structural analysis to document all wind damage. Our Big Spring expertise helps identify damage patterns specific to West Texas wind events for accurate insurance claims.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Professional Repair & Restoration</h3>
+                  <p className="text-gray-600">Our certified crews execute repairs using premium materials and enhanced techniques designed for Big Spring's wind exposure. All work includes upgrades to improve future wind resistance while meeting all insurance and building code requirements.</p>
+                </div>
+              </div>
+
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-cyan-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Quality Assurance & Future Protection</h3>
+                  <p className="text-gray-600">Final inspections ensure all repairs meet our rigorous standards and manufacturer specifications. We provide comprehensive warranties and maintenance guidance to help your Big Spring property withstand future West Texas wind events.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Serving All Big Spring Communities</h2>
+            
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gradient-to-b from-cyan-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Downtown Big Spring</h4>
+                <p className="text-gray-600 text-sm">Historic commercial and residential district requiring specialized wind damage repair that maintains architectural character while upgrading to modern wind resistance standards.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">College Heights & Kentwood</h4>
+                <p className="text-gray-600 text-sm">Established residential neighborhoods where wind damage repairs focus on maintaining property values while providing superior protection against recurring West Texas wind events.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-teal-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Highland South</h4>
+                <p className="text-gray-600 text-sm">Modern subdivisions requiring advanced wind-resistant repairs and upgrades designed for maximum protection against Big Spring's challenging wind environment.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-sky-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">State Park Area</h4>
+                <p className="text-gray-600 text-sm">Properties near Big Spring State Park with enhanced wind exposure requiring specialized repair techniques and materials designed for extreme weather conditions.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-indigo-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Rural Howard County</h4>
+                <p className="text-gray-600 text-sm">Country properties and ranches facing maximum wind exposure requiring specialized repair approaches for large structures and extreme West Texas weather challenges.</p>
+              </div>
+              
+              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+                <h4 className="text-lg font-semibold text-brand-brown mb-3">Industrial Corridor</h4>
+                <p className="text-gray-600 text-sm">Commercial and industrial properties along Interstate 20 requiring rapid wind damage restoration to minimize operational disruption and ensure long-term durability.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

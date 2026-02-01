@@ -158,13 +158,131 @@ export default function RoofReplacementOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Odessa's Roof Replacement Specialists
+              Odessa's Premier Roof Replacement Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Complete roof replacement for Odessa homes and businesses. We install Class 4 impact-resistant roofing with 50-year warranties.
+              Complete roof replacement services for Odessa homes and businesses, featuring Class 4 impact-resistant roofing systems with comprehensive 50-year warranties. Located in the heart of the Permian Basin, Odessa presents unique roofing challenges that require specialized expertise and premium materials designed for extreme West Texas conditions.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Odessa with expert roof replacement. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Since 2014, we've served the Odessa community with expert roof replacement services that combine advanced materials, proven installation techniques, and comprehensive project management. Our experienced teams handle all aspects of roof replacement including permits, insurance claims coordination, material selection, and long-term warranty documentation.
+            </p>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4 text-brand-brown">Understanding Odessa's Unique Roofing Challenges</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's location in West Texas subjects roofing systems to some of the most challenging weather conditions in the United States. The combination of extreme heat, intense UV radiation, sudden severe thunderstorms, and occasional hail creates a hostile environment that demands specialized roofing solutions and expert installation techniques.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The Permian Basin's oil and gas industry activities also create unique considerations for roofing systems. Industrial emissions, dust, and vibrations from nearby operations can affect roofing material performance and longevity. Our roof replacement solutions account for these local environmental factors while providing maximum protection and durability.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Temperature extremes in Odessa can range from over 110°F in summer to below freezing in winter, creating expansion and contraction cycles that stress inferior roofing materials. Our premium materials and installation techniques are specifically chosen to withstand these thermal cycles while maintaining structural integrity and weather protection.
+            </p>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4 text-brand-brown">Why Roof Replacement Becomes Necessary in Odessa</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's harsh climate accelerates normal roof aging and can cause sudden, severe damage that necessitates complete roof replacement. Understanding when repair is no longer viable and full replacement becomes the most cost-effective solution is crucial for protecting your property investment.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              <strong>Hail Damage:</strong> West Texas experiences frequent hailstorms that can destroy roofing systems in minutes. When hail damage affects more than 30% of a roof surface, replacement typically becomes more economical than extensive repairs. Our damage assessment process helps determine the most cost-effective approach while ensuring complete protection.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              <strong>Age-Related Deterioration:</strong> Traditional asphalt shingles in Odessa's climate typically require replacement after 15-20 years due to UV damage, thermal cycling, and granule loss. Our replacement systems using impact-resistant materials can extend service life to 30-50 years with proper maintenance.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <strong>Energy Efficiency Upgrades:</strong> Older roofing systems lack the energy efficiency features available in modern materials. Roof replacement provides an opportunity to significantly reduce cooling costs through cool roof technologies, enhanced insulation, and improved ventilation systems.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Premium Materials for Odessa's Extreme Climate
+            </h2>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4">Class 4 Impact-Resistant Shingles</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our standard residential roof replacement in Odessa features Class 4 impact-resistant asphalt shingles that have been tested to withstand severe hail impacts. These specialized shingles use modified asphalt formulations and reinforced backing materials that absorb impact energy rather than cracking or splitting.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Class 4 shingles are tested using 2-inch steel balls dropped from 20 feet, simulating golf ball-sized hail at terminal velocity. This testing ensures the shingles can withstand multiple impacts without compromising their protective qualities or aesthetic appearance. Many insurance companies offer premium discounts for Class 4 installations in hail-prone areas like Odessa.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Beyond hail resistance, these premium shingles offer enhanced wind resistance with ratings up to 130 mph, superior UV protection to prevent premature aging, and improved fire resistance for additional safety benefits. The combination of these features makes Class 4 shingles the optimal choice for Odessa's challenging climate.
+            </p>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4">Metal Roofing Systems</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Standing seam metal roofing represents the ultimate in durability and performance for Odessa properties. While the initial investment is higher than asphalt shingles, metal roofs can last 50+ years with minimal maintenance while providing superior energy efficiency and storm resistance.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Metal roofing's reflective properties significantly reduce cooling costs in Odessa's intense heat. Cool roof coatings can reflect 70-90% of solar radiation, keeping roof surfaces 50-60°F cooler than traditional materials. This temperature reduction translates to substantial energy savings and extended HVAC equipment life.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Hail resistance is exceptional with metal roofing systems. While large hail may cause cosmetic denting, the roof maintains its waterproof integrity and structural soundness. This durability means metal roofs rarely require replacement due to storm damage, providing long-term cost advantages.
+            </p>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4">Commercial Membrane Systems</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Commercial buildings in Odessa require specialized roofing systems designed for flat or low-slope applications. TPO (Thermoplastic Olefin) and PVC (Polyvinyl Chloride) membrane systems provide excellent performance in extreme heat while offering superior puncture resistance and chemical resistance important in industrial environments.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Heat-welded seams create monolithic roof surfaces that eliminate potential leak points common in mechanically attached systems. This seamless construction is particularly important in Odessa's high-wind environment where uplift forces can stress traditional roofing connections.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              White membrane surfaces reflect solar radiation and reduce cooling loads for commercial buildings. Energy savings of 20-30% are common when upgrading from dark-colored roofing systems to reflective membrane installations. These savings often justify the replacement cost through reduced operating expenses.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Complete Roof Replacement Process for Odessa Properties
+            </h2>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4">Initial Assessment and Planning</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Every roof replacement project begins with a comprehensive assessment of your existing roofing system, structural conditions, and specific performance requirements. Our evaluation process includes visual inspection, moisture detection, structural analysis, and documentation that satisfies insurance requirements.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              We utilize advanced diagnostic tools including drone photography for detailed roof surface documentation, thermal imaging to identify hidden moisture intrusion, and moisture meters to assess deck conditions. This thorough evaluation ensures all underlying issues are addressed during replacement rather than discovered after completion.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Material selection is customized based on your specific needs, local climate conditions, architectural style, and long-term value considerations. We provide detailed explanations of available options, performance characteristics, warranty coverage, and cost implications to ensure informed decision-making.
+            </p>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4">Installation Excellence and Quality Control</h3>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our installation process follows manufacturer specifications and industry best practices while incorporating enhancements specifically designed for Odessa's climate challenges. Enhanced fastening patterns provide superior wind resistance, premium sealants accommodate thermal movement, and advanced flashing details prevent water intrusion.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Quality control checkpoints throughout the installation process ensure consistent excellence. Material delivery inspection, deck preparation verification, installation technique monitoring, and final quality walkthrough guarantee that every aspect meets our stringent standards.
+            </p>
+
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Weather monitoring and installation scheduling account for Odessa's unpredictable weather patterns. Our project management system tracks weather forecasts and adjusts installation schedules to ensure optimal conditions for material application and curing.
             </p>
           </section>
         </FadeIn>
