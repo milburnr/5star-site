@@ -82,9 +82,160 @@ export default function ResidentialRoofingSnyderPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Snyder's Residential Roofing Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Snyder and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Snyder with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Snyder's Premier Residential Roofing Specialists</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Snyder and Scurry County, serving West Central Texas with expertise in rolling plains weather patterns. Located between the Panhandle and Hill Country, Snyder presents unique roofing challenges from diverse terrain, oil field operations, and the transition zone between different Texas climate regions.</p>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Snyder's 10,800 residents with expert installations designed for the Rolling Plains environment. Our team understands the specific needs of this historic oil and agricultural community, from established neighborhoods to modern developments supporting the energy sector.</p>
+            
+            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Snyder Housing Market Analysis</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">Snyder's housing market reflects its dual identity as an oil industry center and agricultural hub. The median home value is approximately $105,000, with a diverse housing stock ranging from historic downtown properties built during early oil booms to modern subdivisions serving today's energy workers and farming families.</p>
+              
+              <p className="text-gray-700 leading-relaxed mb-4">The housing inventory includes significant numbers of homes built during the 1970s-1980s oil boom periods, many now requiring comprehensive roof replacement. The Western Texas College area features student housing and faculty residences, while newer developments along Highway 350 showcase modern construction adapted to rolling plains conditions.</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Snyder Community Profile</h4>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Population: ~10,800 residents</li>
+                  <li>• Median home value: $105,000</li>
+                  <li>• Oil industry workforce: 30%</li>
+                  <li>• Agricultural sector: 20%</li>
+                  <li>• Western Texas College impact: 15%</li>
+                  <li>• Average home age: 39 years</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Rolling Plains Climate</h4>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Elevation: 2,310 feet</li>
+                  <li>• Semi-arid climate conditions</li>
+                  <li>• Temperature extremes: 5°F to 105°F</li>
+                  <li>• Variable precipitation: 18-24 inches</li>
+                  <li>• Spring severe weather season</li>
+                  <li>• High UV exposure year-round</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Rolling Plains Roofing Solutions</h2>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <div className="text-4xl mb-4">🏠</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Traditional Home Roofing</h3>
+                <p className="text-gray-700 mb-4">Complete roofing services for Snyder's established neighborhoods and family homes throughout the rolling plains region.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Asphalt shingle installations</li>
+                  <li>• Metal roofing for longevity</li>
+                  <li>• Energy-efficient systems</li>
+                  <li>• Historic home specialization</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <div className="text-4xl mb-4">🛢️</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Oil Industry Housing</h3>
+                <p className="text-gray-700 mb-4">Specialized services for energy sector workers and properties supporting Scurry County's ongoing oil production operations.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Worker housing developments</li>
+                  <li>• Executive home installations</li>
+                  <li>• Industrial environment protection</li>
+                  <li>• Rapid project completion</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+                <div className="text-4xl mb-4">🎓</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">College Community Roofing</h3>
+                <p className="text-gray-700 mb-4">Comprehensive services for Western Texas College area properties including faculty housing and student residences.</p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Faculty and staff housing</li>
+                  <li>• Student housing properties</li>
+                  <li>• Academic calendar coordination</li>
+                  <li>• Educational facility experience</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-xl mb-12">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">West Central Texas Roofing Challenges</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Rolling Plains Terrain</h4>
+                  <p className="text-gray-700 mb-4">The rolling hills and varied elevation create unique wind patterns and micro-climates that affect roofing performance. Our installations account for these local terrain influences on weather exposure.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Oil Field Environment</h4>
+                  <p className="text-gray-700">Active oil production creates environmental factors including increased dust, potential chemical exposure, and infrastructure vibrations that influence residential roofing material selection and installation methods.</p>
+                </div>
+                
+                <div>
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Climate Transition Zone</h4>
+                  <p className="text-gray-700 mb-4">Snyder sits between High Plains and Hill Country weather patterns, experiencing varied precipitation, temperature extremes, and seasonal weather variability requiring adaptable roofing solutions.</p>
+                  
+                  <h4 className="text-lg font-semibold text-brand-brown mb-2">Economic Fluctuations</h4>
+                  <p className="text-gray-700">Oil market cycles influence local economic conditions and housing maintenance patterns. We offer flexible solutions aligned with community economic realities and seasonal work patterns.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Snyder Residents Choose 5 Star Roofing</h2>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">West Central Texas Expertise</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">1</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-1">Rolling Plains Knowledge</h4>
+                      <p className="text-gray-700">Deep understanding of rolling plains weather patterns, terrain effects, and the unique climate challenges of West Central Texas.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">2</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-1">Oil Industry Experience</h4>
+                      <p className="text-gray-700">Extensive experience with energy sector housing needs and understanding of oil field environmental factors affecting residential properties.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 mt-1">3</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-1">Community Commitment</h4>
+                      <p className="text-gray-700">Long-term commitment to the Snyder community with flexible financing options and understanding of local economic cycles and seasonal patterns.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Scurry County Service Area</h3>
+                <p className="text-gray-700 mb-4">Complete residential roofing services throughout Scurry County and surrounding West Central Texas communities:</p>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Downtown Snyder historic district</li>
+                  <li>• Western Texas College area</li>
+                  <li>• Oil field worker housing developments</li>
+                  <li>• Rural properties throughout Scurry County</li>
+                  <li>• Hermleigh, Ira, and Fluvanna areas</li>
+                </ul>
+                
+                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                  <p className="text-sm text-brand-brown font-semibold">Flexible scheduling for oil field workers and agricultural operations. Academic calendar coordination for college community properties.</p>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

@@ -159,11 +159,347 @@ export default function TPORoofingAndrewsPage() {
               Andrews's TPO Roofing Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Andrews's location in Andrews County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Andrews's commercial and industrial properties require roofing solutions designed for the Permian Basin's extreme conditions. The region experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions that demand superior flat roof performance.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Andrews and Andrews County with premium materials and expert installation. From properties near Andrews County Courthouse to buildings throughout Andrews, we understand Permian Basin weather patterns, local building codes, and the specific needs of Andrews County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected commercial properties throughout Andrews and Andrews County with premium TPO roofing systems and expert installation. From oil field service buildings to retail complexes throughout Andrews, we understand Permian Basin weather patterns, commercial building requirements, and the specific needs of Andrews County businesses.
             </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              TPO Roofing Excellence for Andrews Commercial Properties
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Superior Flat Roof Performance</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  TPO (Thermoplastic Olefin) roofing represents the gold standard for commercial flat roof systems in Andrews. Our TPO installations provide exceptional durability, energy efficiency, and weather resistance specifically engineered for the demanding Permian Basin climate and commercial building requirements.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  With heat-welded seams creating a completely watertight membrane, TPO roofing delivers unmatched protection against Andrews's frequent hailstorms and extreme weather conditions.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Commercial Building Benefits</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  TPO roofing systems are specifically designed for commercial applications, offering superior performance for warehouses, office buildings, retail centers, and industrial facilities throughout Andrews. The single-ply membrane installation is cost-effective and efficient for large commercial rooftops.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Our TPO systems feature exceptional resistance to chemicals, punctures, and UV radiation, making them ideal for Andrews's industrial and commercial environments.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Why TPO Roofing Excels for Andrews Commercial Buildings</h3>
+              <ul className="grid md:grid-cols-2 gap-4">
+                <li className="flex items-start space-x-3">
+                  <span className="text-brand-gold font-bold text-xl">•</span>
+                  <span className="text-gray-700"><strong>Heat-Welded Seams:</strong> Creates completely watertight membrane system that eliminates leak points common in other flat roofing materials.</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-brand-gold font-bold text-xl">•</span>
+                  <span className="text-gray-700"><strong>Energy Efficiency:</strong> White reflective surface reduces cooling costs by up to 30% for Andrews commercial buildings during hot summer months.</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-brand-gold font-bold text-xl">•</span>
+                  <span className="text-gray-700"><strong>Chemical Resistance:</strong> Excellent resistance to oils, greases, and industrial chemicals common in Andrews's oil field service industry.</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-brand-gold font-bold text-xl">•</span>
+                  <span className="text-gray-700"><strong>Hail Resistance:</strong> Superior impact resistance protects against the 6-8 annual hailstorms that impact Permian Basin commercial properties.</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Commercial TPO Roofing Solutions for Andrews
+            </h2>
+            
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Mechanically Attached TPO Systems</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Our mechanically attached TPO systems provide superior wind uplift resistance for Andrews commercial buildings. This installation method is ideal for new construction and re-roofing projects, offering excellent performance in high-wind conditions common to the Permian Basin.
+                </p>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-2">Performance Features:</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li>• Superior wind uplift resistance</li>
+                      <li>• Excellent hail impact protection</li>
+                      <li>• Energy Star certified membranes</li>
+                      <li>• 15-20 year warranty coverage</li>
+                      <li>• Cost-effective installation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-2">Ideal Applications:</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li>• Retail and shopping centers</li>
+                      <li>• Office buildings and complexes</li>
+                      <li>• Warehouses and distribution centers</li>
+                      <li>• Manufacturing facilities</li>
+                      <li>• Government buildings</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Fully Adhered TPO Systems</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Fully adhered TPO systems provide maximum wind resistance and are excellent for Andrews buildings in high-exposure areas. The complete adhesion of the membrane to the substrate creates superior performance in extreme weather conditions.
+                </p>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-2">Key Advantages:</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li>• Maximum wind uplift resistance</li>
+                      <li>• Enhanced thermal performance</li>
+                      <li>• Superior dimensional stability</li>
+                      <li>• Reduced membrane flutter</li>
+                      <li>• Excellent long-term performance</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-2">Commercial Applications:</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li>• High-exposure commercial buildings</li>
+                      <li>• Industrial facilities</li>
+                      <li>• Healthcare institutions</li>
+                      <li>• Educational facilities</li>
+                      <li>• Mixed-use developments</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Ballasted TPO Systems</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Ballasted TPO systems offer cost-effective solutions for Andrews commercial buildings with adequate structural capacity. River rock ballast provides excellent wind uplift resistance while allowing for easy maintenance access.
+                </p>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-2">System Benefits:</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li>• Most cost-effective installation</li>
+                      <li>• Easy maintenance and repairs</li>
+                      <li>• Excellent thermal mass</li>
+                      <li>• Superior fire resistance</li>
+                      <li>• Long service life</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-brand-brown mb-2">Best Suited For:</h4>
+                    <ul className="space-y-2 text-gray-600">
+                      <li>• Large warehouse facilities</li>
+                      <li>• Distribution centers</li>
+                      <li>• Manufacturing plants</li>
+                      <li>• Storage buildings</li>
+                      <li>• Agricultural processing facilities</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Professional TPO Installation Process
+            </h2>
+            
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-gold">Expert Commercial Installation</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Our TPO installation process is specifically designed for commercial applications in Andrews's challenging Permian Basin climate. Every installation follows NRCA guidelines and manufacturer specifications to ensure maximum performance and warranty compliance.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-1 gap-8">
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">1</div>
+                  <div>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">Comprehensive Roof Assessment</h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      Our certified technicians conduct thorough structural assessments to determine the optimal TPO system for your Andrews commercial building. We evaluate substrate conditions, drainage patterns, and wind exposure to design the perfect solution.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">2</div>
+                  <div>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">Substrate Preparation & Insulation</h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      We prepare substrates to manufacturer specifications and install high-performance insulation systems that enhance energy efficiency and provide proper drainage slopes for Andrews's occasional heavy rainfall events.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">3</div>
+                  <div>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">Precision Membrane Installation</h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      TPO membranes are installed with precision attention to detail, ensuring proper alignment and minimizing waste. Our certified installers use advanced welding equipment to create watertight seam integrity throughout the system.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">4</div>
+                  <div>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">Heat-Welded Seam Technology</h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      All TPO seams are heat-welded using state-of-the-art equipment to create molecular bonds stronger than the membrane itself. This eliminates leak potential and ensures long-term waterproof performance in Andrews's severe weather.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">5</div>
+                  <div>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">Quality Assurance & Testing</h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      Every installation undergoes comprehensive quality control testing, including electronic leak detection and seam integrity verification. We provide detailed documentation for warranty registration and building compliance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Energy Efficiency & Cost Savings for Commercial Buildings
+            </h2>
+            
+            <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-gold">Reducing Operating Costs for Andrews Businesses</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                TPO roofing's bright white reflective surface significantly reduces cooling costs for Andrews commercial buildings. During Permian Basin summers with temperatures exceeding 100°F, TPO roofing can reduce energy consumption by 20-30%, providing substantial savings on utility bills.
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4">Energy Performance Benefits</h4>
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start space-x-3">
+                      <span className="text-brand-gold font-bold">•</span>
+                      <span><strong>High Solar Reflectance:</strong> White TPO membrane reflects 85-90% of solar radiation, keeping buildings cooler</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-brand-gold font-bold">•</span>
+                      <span><strong>ENERGY STAR® Certified:</strong> Meets EPA requirements for energy-efficient commercial roofing systems</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-brand-gold font-bold">•</span>
+                      <span><strong>Thermal Efficiency:</strong> Superior insulation properties reduce HVAC system workload year-round</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4">Financial Benefits</h4>
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start space-x-3">
+                      <span className="text-brand-gold font-bold">•</span>
+                      <span><strong>Utility Rebates:</strong> Many Andrews-area utilities offer rebates for energy-efficient roofing installations</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-brand-gold font-bold">•</span>
+                      <span><strong>Tax Incentives:</strong> Potential qualification for federal energy efficiency tax credits</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-brand-gold font-bold">•</span>
+                      <span><strong>ROI Benefits:</strong> Energy savings typically pay for premium features within 3-5 years</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Commercial Building Performance Metrics</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">30%</div>
+                  <div className="text-gray-700 font-semibold">Energy Cost Reduction</div>
+                  <div className="text-sm text-gray-600 mt-1">Average cooling savings</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">15-20</div>
+                  <div className="text-gray-700 font-semibold">Year Lifespan</div>
+                  <div className="text-sm text-gray-600 mt-1">Warranty coverage available</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-brand-gold mb-2">85%</div>
+                  <div className="text-gray-700 font-semibold">Solar Reflectance</div>
+                  <div className="text-sm text-gray-600 mt-1">ENERGY STAR certified</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Commercial Maintenance & Building Protection
+            </h2>
+            
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-gold">Comprehensive Commercial Maintenance Programs</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                TPO roofing systems require minimal maintenance while providing maximum protection for Andrews commercial properties. Our preventive maintenance programs ensure optimal performance and extend system life, protecting your business investment from Permian Basin weather challenges.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4">Maintenance Services Include</h4>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>✓ Bi-annual roof inspections</li>
+                    <li>✓ Drainage system maintenance</li>
+                    <li>✓ Membrane cleaning and care</li>
+                    <li>✓ Seam integrity verification</li>
+                    <li>✓ Emergency leak response</li>
+                    <li>✓ Warranty compliance documentation</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4">Business Continuity Benefits</h4>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Prevents unexpected roof failures</li>
+                    <li>• Minimizes business interruption</li>
+                    <li>• Protects equipment and inventory</li>
+                    <li>• Maintains insurance compliance</li>
+                    <li>• Preserves warranty coverage</li>
+                    <li>• Optimizes energy performance</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mt-8 p-6 bg-amber-50 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-3">5 Star Commercial Maintenance Program</h4>
+                <p className="text-gray-700">
+                  Our comprehensive maintenance program is designed specifically for Andrews commercial properties. We provide scheduled inspections, preventive maintenance, priority emergency response, and detailed reporting to ensure your TPO roofing investment continues to protect your business for years to come.
+                </p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

@@ -57,7 +57,7 @@ export default function HailDamageLubbockPage() {
               <strong>Lubbock sits in the heart of Hail Alley.</strong> The South Plains experiences severe hail storms multiple times annually, with baseball to softball-sized hail common from March through September. Even small hail causes significant damage to Lubbock roofs.
             </p>
             <p className="text-xl text-gray-600">
-              5 Star Commercial Roofing specializes in hail damage detection, insurance documentation, and complete roof restoration for Lubbock properties. Free inspections and full insurance claim assistance.
+              5 Star Commercial Roofing specializes in hail damage detection, insurance documentation, and complete roof restoration for Lubbock properties. Located 2 hours south of our Amarillo headquarters, we respond within 2.5 hours for emergency hail damage. Free inspections and full insurance claim assistance available 24/7.
             </p>
           </div>
         </FadeIn>

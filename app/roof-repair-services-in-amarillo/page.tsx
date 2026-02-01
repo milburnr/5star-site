@@ -68,14 +68,74 @@ export default function Page() {
           <section className="content-block">
             <h2 className="content-block-title">Expert Roof Repair in Amarillo & West Texas</h2>
             <p className="text-lg mb-4">
-              When your <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo roof</a> develops a leak, loses shingles in a windstorm, or suffers <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, fast professional repair is critical to prevent further damage to your home or business. At 5 Star Commercial Roofing, we've been Amarillo's trusted roof repair specialists for over 25 years, handling everything from emergency leak repairs to comprehensive storm damage restoration.
+              When your <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo roof</a> develops a leak, loses shingles in a windstorm, or suffers <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, fast professional repair is critical to prevent further damage to your home or business. At 5 Star Commercial Roofing, we've been Amarillo's trusted roof repair specialists for over a decade, handling everything from emergency leak repairs to comprehensive storm damage restoration across the Texas Panhandle.
             </p>
             <p className="text-lg mb-4">
-              The Texas Panhandle's extreme weather—severe hailstorms, high winds, temperature swings from below zero to over 100°F—takes a toll on even the highest-quality roofing systems. Our team understands the specific challenges Amarillo roofs face and provides repairs that last. Whether you need <a href="/residential-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">residential roof repair</a> or commercial roofing services, we respond quickly and get the job done right.
+              Amarillo sits at 3,605 feet elevation in the heart of the Texas Panhandle, creating unique weather challenges that few roofing companies truly understand. The city experiences an average of 8-12 severe hailstorms annually, with supercell thunderstorms producing hail up to softball-size. Combined with Panhandle winds regularly exceeding 70 mph, temperature extremes from -23°F to 108°F, and intense UV radiation at elevation, Amarillo roofing systems face some of Texas's most demanding conditions.
+            </p>
+            <p className="text-lg mb-4">
+              Our team understands these specific challenges and provides repairs engineered for Texas Panhandle conditions. Whether you need <a href="/residential-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">residential roof repair</a> in Southwest Amarillo neighborhoods or commercial roofing services for Panhandle industrial facilities, we respond quickly with solutions that last. From historic homes in the North Heights to modern developments in Wolflin, we've protected thousands of Amarillo properties.
             </p>
             <p className="text-lg mb-6">
-              We handle all insurance paperwork for <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">hail and storm damage claims</a>, meet with adjusters on-site, and fight for the coverage you deserve. Most Amarillo homeowners pay only their insurance deductible for major repairs.
+              We handle all insurance paperwork for <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">hail and storm damage claims</a>, meet with adjusters on-site, and advocate for the coverage you deserve. Most Amarillo homeowners pay only their insurance deductible for major repairs. Our relationships with all major insurers and understanding of Texas weather patterns help ensure fair settlements.
             </p>
+            
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Amarillo Weather Challenges</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold mb-2 text-brand-gold">Hailstorm Capital of Texas</h4>
+                  <p className="text-sm text-gray-600">Amarillo experiences more large hail events than any other Texas city, with storms producing hail up to 4+ inches in diameter.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold mb-2 text-brand-gold">Panhandle Wind Patterns</h4>
+                  <p className="text-sm text-gray-600">Open geography creates sustained winds averaging 14 mph with gusts regularly exceeding 70 mph during storms.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold mb-2 text-brand-gold">Extreme Temperature Swings</h4>
+                  <p className="text-sm text-gray-600">Daily temperature fluctuations up to 60°F stress roofing materials through rapid expansion and contraction.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold mb-2 text-brand-gold">High Altitude UV Exposure</h4>
+                  <p className="text-sm text-gray-600">Elevation intensifies solar radiation, accelerating material degradation compared to lower altitude regions.</p>
+                </div>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Amarillo Neighborhoods We Serve</h3>
+            <p className="text-lg mb-6 text-gray-600">
+              Our comprehensive roof repair services reach every corner of Amarillo and surrounding Potter and Randall Counties. From the historic North Heights district to growing suburban developments in Southwest Amarillo, we've built lasting relationships through consistent quality and reliable service.
+            </p>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">North Heights Historic District</h4>
+                <p className="text-gray-600 text-sm mb-3">Heritage homes requiring specialized restoration and preservation techniques.</p>
+                <ul className="text-xs text-gray-600">
+                  <li>• Historical accuracy preservation</li>
+                  <li>• Period-appropriate materials</li>
+                  <li>• Modern performance upgrades</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Southwest Amarillo</h4>
+                <p className="text-gray-600 text-sm mb-3">Modern neighborhoods with contemporary roofing systems and materials.</p>
+                <ul className="text-xs text-gray-600">
+                  <li>• Modern material systems</li>
+                  <li>• Energy efficiency focus</li>
+                  <li>• HOA compliance assurance</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Wolflin & Established Areas</h4>
+                <p className="text-gray-600 text-sm mb-3">Mid-century homes and established neighborhoods throughout Amarillo.</p>
+                <ul className="text-xs text-gray-600">
+                  <li>• System upgrade opportunities</li>
+                  <li>• Material modernization</li>
+                  <li>• Insurance claim optimization</li>
+                </ul>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

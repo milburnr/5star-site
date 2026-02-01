@@ -82,9 +82,10 @@ export default function CommercialRoofingDumasPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Dumas's Commercial Roofing Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Dumas and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Dumas with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Dumas's Premier Commercial Roofing Specialists</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Dumas and surrounding areas serving Moore County's agricultural economy. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings common in the High Plains agricultural environment.</p>
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">Since 2014, we've served Dumas with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Dumas's role as Moore County's agricultural hub creates unique commercial roofing challenges for grain storage facilities, agricultural processing plants, livestock operations, and agricultural support businesses. Our specialized expertise addresses chemical-resistant materials, large-span applications, and compliance requirements specific to agricultural commercial properties.</p>
           </section>
         </FadeIn>
 

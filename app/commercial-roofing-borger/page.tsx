@@ -82,9 +82,10 @@ export default function CommercialRoofingBorgerPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Borger's Commercial Roofing Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Borger and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Borger with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Borger's Premier Commercial Roofing Specialists</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Borger and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings. Our expertise extends to industrial-grade applications serving Borger's petrochemical sector.</p>
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">Since 2014, we've served Borger with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Borger's proximity to Phillips 66 Borger Refinery creates unique commercial roofing challenges requiring specialized materials and installation techniques. Our certified technicians understand chemical-resistant roofing requirements, industrial safety protocols, and enhanced durability specifications for petrochemical environments.</p>
           </section>
         </FadeIn>
 
@@ -190,6 +191,31 @@ export default function CommercialRoofingBorgerPage() {
               Transportation and logistics facilities serving the refinery and agricultural sectors require high-durability roofing systems that withstand heavy truck traffic vibrations and frequent loading operations. Warehouse and distribution center roofing must accommodate overhead crane operations while providing weather-tight protection for stored goods and equipment.
             </p>
 
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Professional Installation Teams and Project Management</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Our commercial roofing teams serving Borger include certified professionals with specialized training in industrial environments, chemical safety protocols, and advanced installation techniques. Team leaders hold OSHA 30-hour certifications with additional training in confined space safety, fall protection systems, and emergency response procedures specific to petrochemical environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Project management for Borger commercial installations incorporates extensive pre-planning phases that address weather windows, production schedules, and safety coordination requirements. We maintain detailed communication protocols with facility managers, safety coordinators, and operations personnel to ensure seamless project execution without compromising business operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Quality control procedures for commercial projects include third-party inspections, thermal imaging verification, and comprehensive documentation packages that support warranty claims and insurance requirements. All installations include detailed as-built drawings, material certifications, and maintenance recommendations tailored to Borger's industrial environment.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Advanced Commercial Roofing Technologies</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Single-ply membrane systems represent the most advanced commercial roofing technology for Borger's challenging environment. TPO (Thermoplastic Polyolefin) membranes provide superior chemical resistance, thermal stability, and energy efficiency compared to traditional built-up roofing systems. Heat-welded seams create permanently fused joints that eliminate potential leak points common in adhesive-based systems.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Modified bitumen systems using APP (Atactic Polypropylene) or SBS (Styrene-Butadiene-Styrene) modifiers offer enhanced flexibility and chemical resistance for industrial applications. These systems accommodate thermal movement while providing superior puncture resistance for buildings subject to maintenance traffic and equipment installations. Self-adhering base sheets eliminate torch applications in sensitive environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Metal roofing systems using architectural standing seam panels provide 50+ year service life with minimal maintenance requirements. Concealed fastener systems eliminate penetration points that typically fail in chemical environments. Advanced coating systems including fluoropolymer finishes resist chemical attack while maintaining color stability and reflectivity throughout the system's service life.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Green roofing technologies and solar-ready installations are increasingly important for commercial properties seeking LEED certification and energy independence. Structural assessments determine load capacity for vegetative systems or photovoltaic installations. Specialized drainage systems and root barriers protect membrane integrity while supporting sustainable building objectives.
+            </p>
+
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Regulatory Compliance and Code Requirements</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Commercial roofing in Borger must comply with enhanced building codes and safety regulations due to the community's industrial classification. Fire-resistant materials and enhanced structural requirements apply to buildings within defined proximity zones to the refinery. We maintain current certification with all relevant regulatory bodies and ensure full compliance with industrial safety standards.
@@ -197,8 +223,22 @@ export default function CommercialRoofingBorgerPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Environmental protection regulations affect material selection and installation procedures for commercial projects. Storm water management, chemical containment, and air quality protection require specialized construction practices. Our installation procedures incorporate environmental protection measures that exceed standard requirements while ensuring project completion efficiency.
             </p>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Insurance requirements for commercial properties in Borger often specify enhanced wind resistance and fire protection beyond standard Texas requirements. We work closely with commercial insurance providers to ensure roofing installations meet or exceed policy requirements while providing optimal protection for business operations and property values.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Building permit processes in Hutchinson County require detailed engineering calculations and material specifications for commercial projects. Our design team prepares comprehensive permit packages that expedite approval processes while ensuring full code compliance. Coordination with local building officials ensures smooth inspections and timely project completion.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Roofing Services and Response Capabilities</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Borger's industrial environment requires immediate emergency response capabilities for roofing failures that could impact critical operations. Our emergency response teams maintain specialized equipment for chemical-contaminated environments and coordinate with industrial emergency response protocols established by major facilities including Phillips 66.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Severe weather events including hailstorms, tornadoes, and high winds can cause catastrophic damage to commercial roofing systems. Emergency tarping and temporary weather protection services prevent secondary damage while permanent repairs are planned and executed. Rapid response times minimize business interruption and protect valuable interior assets.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              24/7 emergency hotline services ensure immediate contact with qualified technicians who understand Borger's unique industrial environment. Emergency response protocols include safety assessments, temporary protection installation, and coordination with insurance adjusters and facility managers to minimize disruption to critical operations.
             </p>
           </section>
         </FadeIn>

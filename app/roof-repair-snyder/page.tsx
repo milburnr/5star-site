@@ -156,14 +156,85 @@ export default function RoofRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's Roof Repair Specialists
+              Snyder's Premier Roof Repair Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Snyder's location in Scurry County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Snyder, Texas, positioned at 2,316 feet elevation in Scurry County, faces severe West Texas weather that challenges even the most robust roofing systems. This historic town experiences 7-9 devastating hailstorms annually, with spring supercells producing hail up to golf ball-size. Combined with sustained winds reaching 70+ mph, temperature swings from -8°F to 112°F, and intense solar radiation, Snyder properties demand specialized roofing expertise.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and Scurry County with premium materials and expert installation. From properties near Scurry County Museum to buildings throughout Snyder, we understand West Texas weather patterns, local building codes, and the specific needs of Scurry County property owners.
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Since 2014, 5 Star Commercial Roofing has protected over 275 properties throughout Snyder and Scurry County with premium materials designed for West Texas extremes. From historic buildings near the Scurry County Museum to modern facilities along Highway 84, we understand the unique combination of agricultural heritage and severe weather that defines Snyder's roofing challenges.
             </p>
+            
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">West Texas Weather Challenges in Snyder</h3>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Snyder's position between the Llano Estacado and rolling plains creates convergence zones where air masses collide, producing intense weather events. The open terrain allows storms to develop rapidly and maintain intensity, creating some of West Texas's most challenging conditions for roofing systems.
+            </p>
+            
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">Snyder Weather Extremes:</h4>
+              <ul className="text-lg text-gray-700 space-y-2">
+                <li>• <strong>Hail Season:</strong> March-July with devastating spring supercells</li>
+                <li>• <strong>Wind Exposure:</strong> Open terrain creates sustained 20-30 mph winds</li>
+                <li>• <strong>Temperature Cycling:</strong> Daily swings up to 50°F stress materials</li>
+                <li>• <strong>Agricultural Dust:</strong> Seasonal dust storms affect roof systems</li>
+                <li>• <strong>Drought/Flood Cycles:</strong> Extreme weather variability</li>
+              </ul>
+            </div>
+            
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Comprehensive Roof Repair Services</h3>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Our Snyder team specializes in addressing West Texas weather damage patterns. From hail impact craters to wind uplift damage, thermal expansion issues to agricultural dust infiltration, we provide complete restoration using materials and methods proven effective in Scurry County's demanding environment.
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Restoration</h4>
+                <p className="text-gray-600 mb-3">Expert repair of West Texas severe weather damage patterns.</p>
+                <ul className="text-sm text-gray-600">
+                  <li>• Hail damage assessment</li>
+                  <li>• Wind uplift reinforcement</li>
+                  <li>• Emergency leak repairs</li>
+                  <li>• Insurance documentation</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Building Services</h4>
+                <p className="text-gray-600 mb-3">Specialized solutions for rural and agricultural properties.</p>
+                <ul className="text-sm text-gray-600">
+                  <li>• Barn and outbuilding repairs</li>
+                  <li>• Livestock facility protection</li>
+                  <li>• Large-span roof systems</li>
+                  <li>• Practical durability focus</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Snyder Area Communities</h3>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Our services extend throughout Snyder and surrounding Scurry County agricultural areas. From established residential neighborhoods to working ranches and farms, we've built lasting relationships through reliable service and quality workmanship tailored to each property's specific needs.
+            </p>
+            
+            <div className="bg-white p-8 rounded-xl shadow-lg mb-8">
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">Scurry County-Proven Solutions</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold mb-2 text-brand-gold">Impact-Resistant Materials</h5>
+                  <p className="text-sm text-gray-600">Class 4 systems proven against West Texas hail patterns.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold mb-2 text-brand-gold">Wind-Rated Systems</h5>
+                  <p className="text-sm text-gray-600">Enhanced fastening for sustained wind exposure.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold mb-2 text-brand-gold">Agricultural Applications</h5>
+                  <p className="text-sm text-gray-600">Practical solutions for working buildings and rural properties.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold mb-2 text-brand-gold">Local Expertise</h5>
+                  <p className="text-sm text-gray-600">Deep understanding of Scurry County conditions and needs.</p>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 
@@ -187,10 +258,34 @@ export default function RoofRepairSnyderPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Frequently Asked Questions</h2>
+            <Accordion type="single" collapsible className="space-y-4">
+              <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  How do West Texas winds affect roofing in Snyder?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Snyder's open terrain creates sustained high winds that constantly test roofing systems. Unlike occasional gusts, these persistent winds gradually work fasteners loose and lift shingles over time. We use enhanced fastening patterns and wind-rated materials specifically designed for West Texas exposure to ensure long-term performance in these challenging conditions.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  What makes agricultural buildings different for roofing?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Agricultural buildings face unique challenges including large spans without interior support, exposure to dust and chemicals, livestock considerations, and cost-effectiveness requirements. We specialize in practical solutions that provide durability while meeting the specific functional needs of working agricultural properties.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Snyder Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Snyder property owners. Expert roof repair with comprehensive warranties and insurance claim assistance.
+            Free comprehensive inspections for Snyder property owners. Expert roof repair designed for West Texas conditions with extensive warranties and insurance assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">

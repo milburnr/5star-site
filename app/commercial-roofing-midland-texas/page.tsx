@@ -52,14 +52,158 @@ export default function CommercialMidlandPage() {
 
       <div className="container-custom py-12">
         <FadeIn>
-          <div className="max-w-4xl mx-auto mb-16">
-            <p className="text-2xl text-gray-700 mb-6 leading-relaxed">
-              Midland's commercial sector demands roofing systems that can handle Permian Basin extremes. From industrial facilities near the airport to office buildings downtown, we install and maintain commercial roofing built for the long haul.
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Midland's Premier Commercial Roofing Specialists</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+              Midland's commercial sector demands roofing systems that can handle Permian Basin extremes. From industrial facilities near the airport to office buildings downtown, we install and maintain commercial roofing built for the long haul. As the energy capital of West Texas, Midland's oil and gas industry creates unique commercial roofing demands requiring specialized expertise in chemical-resistant systems and industrial-grade applications.
             </p>
-            <p className="text-xl text-gray-600">
-              5 Star Commercial Roofing specializes in flat roof systems, TPO, EPDM, and PVC installations for Midland businesses. Minimal disruption, maximum durability, and warranties that protect your investment.
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              5 Star Commercial Roofing specializes in flat roof systems, TPO, EPDM, and PVC installations for Midland businesses. Minimal disruption, maximum durability, and warranties that protect your investment. Our expertise serves the petroleum industry, financial sector, healthcare facilities, and growing technology companies throughout the Permian Basin.
             </p>
-          </div>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              With major oil companies, service providers, and financial institutions headquartered in Midland, we understand the complexity of commercial roofing projects for high-rise buildings, industrial facilities, and specialized petroleum operations. Emergency response capabilities and 24/7 availability ensure critical business operations continue without weather-related interruptions.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing for Midland's Oil and Gas Industry
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland serves as headquarters for major oil companies including Diamondback Energy, Pioneer Natural Resources, and Concho Resources, creating extensive commercial roofing demands for corporate headquarters, field offices, and industrial support facilities throughout the Permian Basin. These facilities require roofing systems that accommodate specialized telecommunications equipment, emergency communications, and backup power systems essential for coordinating widespread drilling operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Oilfield service companies including Halliburton, Schlumberger, and Baker Hughes operate large-scale facilities requiring chemical-resistant roofing systems designed for exposure to drilling fluids, completion chemicals, and petroleum byproducts. Industrial roofing installations must accommodate heavy equipment storage, chemical storage areas, and specialized ventilation systems that handle hazardous material processing.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Pipeline and midstream facilities including compression stations, gathering facilities, and gas processing plants demand roofing systems that meet stringent safety requirements for explosive atmosphere applications. These installations require specialized fire-resistant materials, emergency ventilation integration, and compliance with petroleum industry safety standards that exceed standard commercial building requirements.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Chemical-Resistant Roofing for Petroleum Operations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Petroleum industry facilities expose commercial roofing systems to hydrocarbons, hydrogen sulfide, and other corrosive compounds that rapidly deteriorate standard roofing materials. PVC membrane systems with enhanced chemical resistance provide superior protection compared to TPO or EPDM systems, while welded seam construction eliminates vulnerable adhesive joints that chemical vapors attack over time.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Metal roofing systems for industrial applications require specialized coatings formulated for petrochemical environments. Fluoropolymer coatings resist hydrocarbon exposure while maintaining color stability and reflectivity throughout 25+ year service lives. Standing seam systems with concealed fasteners eliminate penetration points that typically fail when exposed to petroleum industry chemicals.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Insulation systems beneath chemical-resistant membranes require careful material selection to prevent chemical infiltration that could compromise thermal performance and structural integrity. Closed-cell foam insulation with integrated vapor barriers prevents chemical penetration while maintaining energy efficiency critical for climate-controlled petroleum industry facilities.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Financial District and Corporate Headquarters Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland's financial district anchored by major banks including First National Bank of Midland and petroleum industry financial services creates high-rise commercial roofing demands requiring specialized expertise in wind-resistant systems, seismic considerations, and aesthetic requirements appropriate for corporate environments. These facilities demand superior weather protection while maintaining professional appearances that reflect corporate image standards.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Corporate headquarters buildings including the Diamondback Energy Tower and other high-rise facilities require roofing systems that accommodate telecommunications equipment, helicopter access, and emergency communication systems while providing energy-efficient solutions that control operational costs for large office complexes with extensive HVAC requirements.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Executive office complexes and professional buildings throughout Midland need roofing systems that support modern building technologies including smart building systems, renewable energy integration, and advanced HVAC controls while maintaining quiet, comfortable environments essential for professional office operations and client interactions.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Healthcare and Medical Facility Commercial Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland Memorial Hospital and associated medical facilities require specialized commercial roofing systems that support critical healthcare operations including emergency services, surgical facilities, and diagnostic equipment that demands consistent environmental conditions. Hospital roofing must accommodate medical gas systems, backup power equipment, and helicopter landing zones while maintaining infection control standards.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Specialized medical facilities including cancer treatment centers, surgical centers, and diagnostic imaging facilities need roofing systems that provide electromagnetic shielding for sensitive medical equipment while maintaining sterile environments essential for patient safety. These installations often require coordination with medical equipment manufacturers and infection control specialists.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Mental health and rehabilitation facilities serving the petroleum industry workforce require roofing systems that provide quiet, comfortable environments while supporting specialized therapeutic equipment and privacy requirements essential for effective treatment programs. Energy efficiency becomes critical for controlling operational costs while maintaining therapeutic environment standards.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Industrial and Manufacturing Commercial Roofing Solutions
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland's industrial sector supporting petroleum operations requires commercial roofing systems for manufacturing facilities, equipment repair shops, and specialized service providers that operate around the clock to support drilling and production activities. These facilities need roofing systems that accommodate overhead cranes, welding operations, and heavy equipment movement while providing weather-tight protection for valuable petroleum industry equipment.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Steel fabrication and machining facilities serving the petroleum industry require roofing systems that withstand metal working operations, chemical cutting processes, and heavy equipment installation while providing adequate natural lighting and ventilation for precision manufacturing operations. Specialized drainage systems prevent contamination from metalworking fluids and cutting oils.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Chemical storage and distribution facilities require roofing systems that meet EPA and DOT regulations for hazardous material storage while providing containment capabilities that prevent environmental contamination. These installations often require specialized fire suppression integration and emergency response access that affects roofing design and material selection.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Logistics and Transportation Commercial Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland International Air and Space Port requires specialized commercial roofing for aircraft maintenance facilities, cargo handling operations, and passenger terminal buildings that support petroleum industry transportation needs. These facilities demand large-span roofing systems that accommodate aircraft movement while providing weather protection for sensitive aviation equipment and operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Trucking and logistics facilities supporting petroleum industry transportation require roofing systems that accommodate loading dock operations, truck maintenance bays, and cargo storage areas while providing protection for petroleum industry equipment and supplies transported throughout the Permian Basin. These facilities often operate 24/7 during peak drilling and completion activities.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Railroad facilities including Union Pacific operations serving petroleum industry transportation need roofing systems for maintenance shops, cargo handling facilities, and administrative buildings that support critical transportation infrastructure for petroleum industry operations throughout West Texas and beyond.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Retail and Hospitality Commercial Roofing for Energy Sector Support
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland Park Mall and retail facilities throughout the city serve petroleum industry workers and their families, requiring commercial roofing systems that accommodate large retail spaces, restaurants, and service businesses while maintaining comfortable shopping environments during extreme West Texas weather conditions. These facilities often experience heavy traffic during shift changes and industry boom periods.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Hotel and hospitality facilities including major hotel chains and extended-stay properties serve petroleum industry professionals, contractors, and business travelers requiring specialized roofing systems that provide quiet, comfortable environments while controlling operational costs through energy efficiency. These properties often include conference facilities and executive meeting areas.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Restaurant and entertainment facilities serving petroleum industry workers require roofing systems that accommodate specialized kitchen equipment, outdoor dining areas, and entertainment systems while providing year-round weather protection for facilities that often operate extended hours to serve industry shift schedules.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Educational and Training Facility Commercial Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland College and petroleum industry training facilities require commercial roofing systems for specialized educational programs including petroleum technology, welding, and industrial safety training that support the region's energy economy. These facilities need roofing systems that accommodate technical equipment, safety systems, and specialized ventilation for industrial training operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Corporate training facilities operated by major oil companies require roofing systems that support advanced simulation equipment, conference facilities, and residential training accommodations while maintaining professional environments appropriate for executive education and technical training programs that attract personnel from worldwide operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Public school facilities serving petroleum industry families require cost-effective roofing solutions that accommodate educational technology, athletic facilities, and performance spaces while providing energy efficiency that controls operational costs for districts that often experience enrollment fluctuations related to petroleum industry cycles.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Emergency Response and Safety Considerations for Petroleum Industry Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Commercial roofing projects in Midland's petroleum industry environment require extensive safety protocols including hot work permits, fire watch procedures, and coordination with facility safety personnel to prevent ignition sources near hydrocarbon operations. Our crews maintain specialized training and certification for working in explosive atmosphere environments common throughout the Permian Basin.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response capabilities specifically designed for petroleum industry environments include specialized equipment for chemical exposure situations and coordination with industrial emergency response teams. 24/7 emergency roofing services ensure critical petroleum operations continue during severe weather events or equipment failures that could compromise facility operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Environmental compliance requirements for petroleum industry facilities affect roofing material selection, installation procedures, and waste management protocols. Storm water management, chemical containment, and air quality protection require specialized construction practices that exceed standard commercial building requirements while ensuring full regulatory compliance.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Energy Efficiency and Sustainability for Permian Basin Operations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland's extreme climate conditions with summer temperatures exceeding 105°F create enormous energy demands for commercial buildings that require sophisticated cooling systems. High-reflectance roofing systems reduce cooling loads by 25-35% while protecting petroleum industry equipment from heat-related failures during extended summer operation periods.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Solar-ready roofing installations provide petroleum companies with opportunities for renewable energy integration that can offset high operational energy costs while supporting corporate sustainability initiatives. Structural assessments and electrical integration planning create pathways for future photovoltaic installations on petroleum industry facilities.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Green building technologies including vegetative roofing systems and rainwater harvesting integration help petroleum industry facilities achieve LEED certification and meet corporate environmental stewardship goals while providing practical benefits including reduced storm water runoff and improved building energy performance throughout the Permian Basin's challenging climate conditions.
+            </p>
+          </section>
         </FadeIn>
 
         <FadeIn>

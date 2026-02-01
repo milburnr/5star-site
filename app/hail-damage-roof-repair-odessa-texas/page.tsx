@@ -57,7 +57,7 @@ export default function HailDamageOdessaPage() {
               <strong>Odessa experiences frequent severe hail storms that can destroy roofs in minutes.</strong> From downtown to West Odessa, the Permian Basin sees large hail multiple times per year. Even golf ball-sized hail causes thousands in damage.
             </p>
             <p className="text-xl text-gray-600">
-              5 Star Commercial Roofing specializes in hail damage detection, insurance claims, and complete roof restoration for Odessa properties. Free inspections and we handle everything with your insurance company.
+              5 Star Commercial Roofing specializes in hail damage detection, insurance claims, and complete roof restoration for Odessa properties. Located 3.5 hours northwest of our Amarillo headquarters, we respond within 4 hours for emergency hail damage in the Permian Basin. Free inspections and we handle everything with your insurance company.
             </p>
           </div>
         </FadeIn>

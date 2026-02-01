@@ -156,14 +156,73 @@ export default function RoofInspectionsAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Roof Inspections Specialists
+              Andrews's Premier Roof Inspection Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Andrews's location in Andrews County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Professional roof inspections in Andrews, Texas are critical for protecting property investments in the Permian Basin's harsh environment. Andrews County experiences 6-8 devastating hailstorms annually, with supercell thunderstorms producing softball-size hail. Combined with sustained winds exceeding 70 mph, extreme temperature fluctuations from -5°F to 115°F, and intense UV radiation at 3,176 feet elevation, Andrews properties require specialized inspection expertise to identify vulnerabilities before they become costly problems.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Andrews and Andrews County with premium materials and expert installation. From properties near Andrews County Courthouse to buildings throughout Andrews, we understand Permian Basin weather patterns, local building codes, and the specific needs of Andrews County property owners.
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Since 2014, 5 Star Commercial Roofing has performed over 1,200 professional roof inspections throughout Andrews and Andrews County. Our certified inspectors understand Permian Basin weather damage signatures, from subtle hail impact patterns to wind uplift indicators that untrained eyes miss. From oil industry facilities to residential properties near the Andrews County Courthouse, we provide comprehensive assessments that protect your investment.
             </p>
+            
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Comprehensive Inspection Services</h3>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Our Andrews inspection process utilizes advanced technology including thermal imaging cameras, moisture meters, and drone photography to identify issues surface inspections miss. We provide detailed reports with photographic documentation, priority recommendations, and insurance-grade damage assessments when needed.
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">Annual Maintenance Inspections</h4>
+                <p className="text-gray-600 mb-3">Comprehensive yearly assessments to identify issues before they become major problems.</p>
+                <ul className="text-sm text-gray-600">
+                  <li>• Complete exterior evaluation</li>
+                  <li>• Interior moisture detection</li>
+                  <li>• Photo documentation</li>
+                  <li>• Repair prioritization</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">Post-Storm Assessments</h4>
+                <p className="text-gray-600 mb-3">Emergency inspections following Permian Basin severe weather events.</p>
+                <ul className="text-sm text-gray-600">
+                  <li>• Hail damage documentation</li>
+                  <li>• Wind damage evaluation</li>
+                  <li>• Insurance claim preparation</li>
+                  <li>• Emergency repair needs</li>
+                </ul>
+              </div>
+            </div>
+            
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Advanced Inspection Technology</h3>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              We utilize cutting-edge inspection technology to provide Andrews property owners with accurate, comprehensive assessments. Our drone inspections safely access steep slopes and dangerous areas, while thermal imaging detects hidden moisture and energy loss issues.
+            </p>
+            
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">Why Andrews Properties Need Regular Inspections:</h4>
+              <ul className="text-lg text-gray-700 space-y-2">
+                <li>• <strong>Frequent Large Hail:</strong> 6-8 annual events causing cumulative damage</li>
+                <li>• <strong>High Wind Exposure:</strong> Sustained Permian Basin winds stress systems</li>
+                <li>• <strong>UV Degradation:</strong> Elevation intensifies material aging</li>
+                <li>• <strong>Temperature Cycling:</strong> Rapid expansion/contraction creates stress</li>
+                <li>• <strong>Insurance Requirements:</strong> Many policies require regular inspections</li>
+              </ul>
+            </div>
+            
+            <div className="space-y-6 mb-8">
+              <div className="border-l-4 border-brand-gold pl-6">
+                <h4 className="text-lg font-bold mb-2 text-brand-brown">Drone Technology</h4>
+                <p className="text-gray-600 mb-2">High-resolution aerial photography safely documents your entire roofing system.</p>
+              </div>
+              <div className="border-l-4 border-brand-gold pl-6">
+                <h4 className="text-lg font-bold mb-2 text-brand-brown">Thermal Imaging</h4>
+                <p className="text-gray-600 mb-2">Infrared technology detects moisture intrusion and energy loss invisible to visual inspection.</p>
+              </div>
+              <div className="border-l-4 border-brand-gold pl-6">
+                <h4 className="text-lg font-bold mb-2 text-brand-brown">Detailed Reporting</h4>
+                <p className="text-gray-600 mb-2">Comprehensive documentation with photos, priorities, and cost estimates.</p>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

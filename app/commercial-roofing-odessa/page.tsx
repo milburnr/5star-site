@@ -158,13 +158,159 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Odessa's Commercial Roofing Specialists
+              Odessa's Premier Commercial Roofing Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Expert commercial roofing for Odessa businesses. TPO, EPDM, and metal roofing systems engineered for harsh weather. Minimize operational disruption with our after-hours installation. 24/7 emergency response available.
+              Expert commercial roofing for Odessa businesses serving the Permian Basin's energy sector. TPO, EPDM, and metal roofing systems engineered for harsh weather and industrial environments. Minimize operational disruption with our after-hours installation. 24/7 emergency response available for critical petroleum industry operations.
+            </p>
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              Since 2014, we've served Odessa with expert commercial roofing installations for oil and gas facilities, manufacturing operations, educational institutions, and healthcare facilities. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Odessa with expert commercial roofing. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.
+              Odessa's role as a major petroleum industry center creates unique commercial roofing challenges requiring specialized expertise in chemical-resistant materials, large-span applications, and industrial safety protocols. Our certified teams understand the complex requirements of Permian Basin commercial operations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing for Odessa's Petroleum Industry
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa serves as a major hub for Permian Basin petroleum operations, housing drilling contractors, oilfield service companies, and industrial manufacturers serving the energy sector. These facilities require commercial roofing systems designed for exposure to petroleum byproducts, industrial chemicals, and the extreme weather conditions common in West Texas energy operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Major contractors including Nabors Industries, Patterson-UTI, and Unit Corporation operate large industrial facilities requiring specialized roofing systems that accommodate heavy equipment storage, chemical processing areas, and maintenance operations. These installations demand chemical-resistant materials and enhanced safety protocols for working near petroleum industry operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Oilfield equipment manufacturing and repair facilities throughout Odessa need roofing systems that withstand welding operations, heavy machinery movement, and chemical exposure while providing adequate ventilation for industrial processes. These applications often require fire-resistant materials and specialized drainage systems that prevent environmental contamination.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industrial Manufacturing Commercial Roofing Solutions</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's manufacturing sector supporting petroleum operations requires commercial roofing systems for steel fabrication, equipment manufacturing, and specialized service providers that operate around the clock during peak drilling seasons. These facilities need roofing systems that accommodate overhead crane systems, welding operations, and heavy equipment assembly while protecting valuable industrial equipment and work-in-progress materials.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Chemical processing and storage facilities require roofing systems that meet EPA and OSHA requirements for hazardous material handling while providing containment capabilities that prevent environmental contamination. These installations often require specialized ventilation integration and emergency response access that affects roofing design and material selection for industrial safety compliance.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Metal fabrication and machining operations serving the petroleum industry require roofing systems that accommodate precision manufacturing equipment while providing adequate natural lighting and climate control for quality manufacturing processes. Specialized insulation and acoustical control become important for facilities operating sensitive manufacturing equipment around the clock.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Educational Institution Commercial Roofing Excellence
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              The University of Texas Permian Basin represents Odessa's largest educational facility, requiring specialized commercial roofing systems for academic buildings, research facilities, and student housing that accommodate modern educational technology while providing energy-efficient environments for year-round academic operations. University buildings often include specialized laboratory facilities requiring superior environmental control and chemical-resistant roofing materials.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Ector County Independent School District facilities including Odessa High School and Permian High School require cost-effective roofing solutions that accommodate large assembly spaces, athletic facilities, and specialized educational programs while providing energy efficiency that controls operational costs for large student populations in the challenging West Texas climate.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Petroleum industry training facilities including specialized welding schools and technical training centers require roofing systems that accommodate industrial training equipment, safety systems, and specialized ventilation for technical education programs that prepare workers for careers in the Permian Basin energy sector.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Healthcare and Medical Facility Commercial Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Medical Center Hospital and associated healthcare facilities require specialized commercial roofing systems that support critical medical operations including emergency services, surgical facilities, and diagnostic equipment that demands consistent environmental conditions. Hospital roofing must accommodate medical gas systems, backup power equipment, and helicopter landing zones while maintaining infection control standards essential for patient safety.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Specialized medical facilities including cancer treatment centers and outpatient surgery centers need roofing systems that provide electromagnetic shielding for sensitive medical equipment while maintaining sterile environments. These installations often require coordination with medical equipment manufacturers and specialized contractors familiar with healthcare facility requirements and infection control protocols.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Behavioral health and rehabilitation facilities serving petroleum industry workers require roofing systems that provide quiet, comfortable therapeutic environments while supporting specialized equipment and privacy requirements essential for effective treatment programs. Energy efficiency becomes critical for controlling operational costs while maintaining therapeutic environment standards required for patient comfort.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Retail and Commercial Center Roofing Solutions
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Music City Mall and major retail corridors throughout Odessa serve petroleum industry workers and their families, requiring commercial roofing systems that accommodate large retail spaces, restaurants, and entertainment facilities while maintaining comfortable shopping environments during extreme West Texas weather conditions. These facilities often experience heavy traffic during shift changes and industry boom periods that create unique operational demands.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Automotive dealerships and service facilities serving petroleum industry fleet operations require roofing systems that accommodate vehicle sales areas, service bays, and parts storage while providing comfortable environments for customers and employees. These facilities often include specialized equipment for servicing industrial vehicles and heavy equipment used throughout the Permian Basin.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Restaurant and hospitality businesses serving petroleum industry workers require roofing systems that accommodate specialized kitchen equipment, dining areas, and entertainment systems while providing year-round weather protection for facilities that often operate extended hours to serve industry shift schedules common in 24/7 petroleum operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Transportation and Logistics Commercial Roofing</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa-Schlemeyer Field and associated aviation facilities require specialized commercial roofing for aircraft maintenance operations, cargo handling, and passenger services that support petroleum industry transportation needs. These facilities demand large-span roofing systems that accommodate aircraft movement while providing weather protection for sensitive aviation equipment and flight operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Trucking and logistics facilities supporting petroleum industry transportation require roofing systems that accommodate loading dock operations, truck maintenance bays, and cargo storage areas while providing protection for petroleum industry equipment and supplies transported throughout the Permian Basin. These facilities often operate around the clock during peak drilling and completion activities.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Railroad facilities serving petroleum industry transportation need roofing systems for maintenance shops, cargo handling facilities, and administrative buildings that support critical transportation infrastructure for petroleum products, drilling equipment, and industrial supplies moved throughout the region and to refineries and markets worldwide.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Government and Public Safety Commercial Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Ector County facilities including the courthouse, sheriff's department, and administrative buildings require commercial roofing systems that meet government specifications for durability, security, and energy efficiency while accommodating public safety equipment and emergency communication systems. These projects often involve complex procurement procedures and specialized security requirements that affect contractor selection and installation protocols.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency services facilities including fire stations and EMS facilities require roofing systems that support emergency communication equipment, vehicle storage, and rapid deployment capabilities while providing reliable weather protection during severe weather events when emergency services become most critical for community safety during petroleum industry emergencies.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Federal facilities including border patrol and homeland security installations require roofing systems that meet federal specifications and security standards while providing long-term durability and minimal maintenance requirements. These projects require specialized contractor certifications and extensive background checks for installation personnel working on secure federal facilities.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Energy Efficiency and Environmental Compliance for Odessa Commercial Buildings</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's extreme climate with summer temperatures regularly exceeding 100°F creates enormous cooling demands for commercial buildings throughout the petroleum industry sector. High-reflectance roofing systems reduce cooling loads by 25-35% while protecting petroleum industry equipment and commercial operations from heat-related failures during extended summer operation periods that coincide with peak petroleum industry activity.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Environmental compliance requirements for petroleum industry facilities affect roofing material selection, installation procedures, and waste management protocols. Storm water management, chemical containment, and air quality protection require specialized construction practices that exceed standard commercial building requirements while ensuring full compliance with EPA and state environmental regulations affecting petroleum industry operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Solar-ready roofing installations provide petroleum industry companies with opportunities for renewable energy integration that can offset high operational energy costs while supporting corporate sustainability initiatives. Structural assessments and electrical integration planning during roof installation create cost-effective pathways for future photovoltaic installations on petroleum industry and commercial facilities throughout Odessa.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Commercial Roofing Systems and Technology for Permian Basin Operations
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              TPO (Thermoplastic Polyolefin) membrane systems provide superior performance for Odessa's challenging environment with chemical resistance essential for petroleum industry applications, energy efficiency that reduces operational costs, and durability that withstands extreme weather conditions common throughout the Permian Basin. Heat-welded seams create permanently fused joints that eliminate potential failure points common in adhesive-based systems.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              EPDM (Ethylene Propylene Diene Monomer) rubber roofing systems offer cost-effective solutions for large commercial buildings with excellent weather resistance, ease of repair and maintenance, and proven long-term performance in petroleum industry environments. These systems accommodate thermal movement and provide superior puncture resistance for buildings subject to maintenance traffic and equipment installations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              PVC membrane systems provide premium chemical resistance essential for facilities exposed to petroleum industry chemicals while offering superior durability and energy efficiency. These systems prove especially important for facilities handling hydrocarbons, completion chemicals, and other petroleum industry materials that can rapidly deteriorate standard roofing systems through chemical attack and vapor exposure.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Metal roofing systems using standing seam construction provide 50+ year service life with minimal maintenance requirements while accommodating the thermal expansion and industrial loading common in petroleum industry facilities. Advanced coating systems resist chemical exposure while maintaining reflectivity and color stability throughout extended service lives in Odessa's challenging petroleum industry environment.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Response and Maintenance Services for Critical Operations</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              24/7 emergency response capabilities specifically designed for petroleum industry environments include specialized safety equipment and coordination with industrial emergency response protocols. Rapid response times minimize business interruption for facilities that cannot tolerate weather-related operational disruptions during critical petroleum industry activities including drilling, completion, and production operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Preventive maintenance programs designed for Odessa's industrial environment include quarterly inspections with chemical resistance testing, thermal imaging for equipment protection, and scheduled maintenance that coordinates with petroleum industry operational cycles to minimize disruption during critical business periods that affect regional energy production and economic activity.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Predictive maintenance using advanced diagnostic techniques helps identify potential failure points before they compromise petroleum industry operations or damage valuable equipment. Early detection systems prevent minor issues from becoming major failures that could impact critical petroleum operations, equipment protection, and business continuity during volatile energy market conditions that affect Permian Basin operations.
             </p>
           </section>
         </FadeIn>

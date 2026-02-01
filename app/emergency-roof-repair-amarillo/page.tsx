@@ -113,7 +113,7 @@ export default function EmergencyRoofRepairAmarilloPage() {
                 24/7 Emergency Response for Storm Damage
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                24/7 emergency roof repair throughout Amarillo and Potter County. When Texas Panhandle storms strike - hail, high winds (50+ mph gusts), or severe weather - we respond within hours. Emergency tarping, leak mitigation, and permanent repairs available around the clock.
+                24/7 emergency roof repair throughout Amarillo and Potter County. When Texas Panhandle storms strike - hail, high winds (50+ mph gusts), or severe weather - we respond within 2 hours from our Amarillo headquarters. Emergency tarping, leak mitigation, and permanent repairs available around the clock for immediate protection.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
@@ -193,6 +193,183 @@ export default function EmergencyRoofRepairAmarilloPage() {
                 <p className="text-gray-600 text-sm">
                   Constant expansion/contraction accelerates material degradation and shortens roof lifespan.
                 </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Our Emergency Response Process in Amarillo</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Immediate Response (0-2 Hours)</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-brand-gold font-bold mr-2">•</span>
+                    Emergency call received at our Amarillo headquarters
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold font-bold mr-2">•</span>
+                    Crew dispatched within 30 minutes with emergency supplies
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold font-bold mr-2">•</span>
+                    On-site assessment and immediate leak mitigation
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold font-bold mr-2">•</span>
+                    Emergency tarping and water damage prevention
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold font-bold mr-2">•</span>
+                    Photo documentation for insurance claims
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-600">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Follow-up (24-48 Hours)</h3>
+                <ul className="space-y-3 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 font-bold mr-2">•</span>
+                    Comprehensive roof inspection and damage assessment
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 font-bold mr-2">•</span>
+                    Insurance adjuster meeting coordination
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 font-bold mr-2">•</span>
+                    Detailed repair estimate and timeline
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 font-bold mr-2">•</span>
+                    Permanent repair scheduling
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 font-bold mr-2">•</span>
+                    Interior damage assessment and mitigation
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-8 bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-2xl border border-amber-200">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">Amarillo-Specific Emergency Protocols</h3>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Our emergency response protocols are specifically designed for Amarillo's unique weather patterns. During Potter County's peak storm season (March-May), we maintain expanded emergency crews and additional equipment stockpiles at our S Western St location.
+              </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-brand-brown mb-2">Spring Storm Response</h4>
+                  <p className="text-gray-600 text-sm">Enhanced crews during peak hail season with rapid deployment capability across all Amarillo neighborhoods</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-brand-brown mb-2">High Wind Protocols</h4>
+                  <p className="text-gray-600 text-sm">Specialized equipment for Amarillo's extreme wind conditions, including high-wind rated materials and enhanced fastening systems</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Emergency Roof Repair Services for Amarillo Neighborhoods</h2>
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                We provide emergency roof repair services throughout all Amarillo areas, with rapid response times based on proximity to our headquarters:
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-green-50 p-6 rounded-xl border-t-4 border-green-500">
+                  <h3 className="text-lg font-bold text-green-800 mb-3">Zone 1: &lt;30 Min Response</h3>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Downtown Amarillo</li>
+                    <li>• Medical District</li>
+                    <li>• Wolflin</li>
+                    <li>• San Jacinto Heights</li>
+                    <li>• Avondale</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-yellow-50 p-6 rounded-xl border-t-4 border-yellow-500">
+                  <h3 className="text-lg font-bold text-yellow-800 mb-3">Zone 2: &lt;60 Min Response</h3>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Puckett</li>
+                    <li>• Southwest Amarillo</li>
+                    <li>• Randall County areas</li>
+                    <li>• Sunset Terrace</li>
+                    <li>• Belmar</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-blue-50 p-6 rounded-xl border-t-4 border-blue-500">
+                  <h3 className="text-lg font-bold text-blue-800 mb-3">Zone 3: &lt;90 Min Response</h3>
+                  <ul className="text-sm text-gray-700 space-y-1">
+                    <li>• Lake Tanglewood</li>
+                    <li>• Amarillo Country Club</li>
+                    <li>• Timbercreek Canyon</li>
+                    <li>• Bishop Hills</li>
+                    <li>• Southeast Amarillo</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Emergency Roof Repairs We Handle in Amarillo</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="bg-red-50 p-6 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold text-red-800 mb-3">Storm Damage Repairs</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Hail damage from severe Potter County storms</li>
+                    <li>• Wind damage from 50+ mph gusts</li>
+                    <li>• Debris impact from Texas Panhandle storms</li>
+                    <li>• Missing or damaged shingles</li>
+                    <li>• Compromised flashing and gutters</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-blue-50 p-6 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold text-blue-800 mb-3">Leak Emergency Repairs</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Active water intrusion mitigation</li>
+                    <li>• Emergency roof membrane repairs</li>
+                    <li>• Damaged underlayment replacement</li>
+                    <li>• Skylight and chimney leak repairs</li>
+                    <li>• Ice dam damage (winter months)</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-amber-50 p-6 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold text-amber-800 mb-3">Structural Emergency Repairs</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Damaged roof decking replacement</li>
+                    <li>• Compromised trusses and rafters</li>
+                    <li>• Collapsed sections from snow/ice load</li>
+                    <li>• Damaged ridge vents and caps</li>
+                    <li>• Emergency shoring and stabilization</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-purple-50 p-6 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold text-purple-800 mb-3">Commercial Emergency Repairs</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Flat roof membrane emergency patches</li>
+                    <li>• HVAC unit anchorage repairs</li>
+                    <li>• Parapet wall damage mitigation</li>
+                    <li>• Emergency drainage system repairs</li>
+                    <li>• Industrial facility storm damage</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>

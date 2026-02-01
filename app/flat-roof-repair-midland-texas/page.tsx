@@ -52,14 +52,130 @@ export default function FlatRoofMidlandPage() {
 
       <div className="container-custom py-12">
         <FadeIn>
-          <div className="max-w-4xl mx-auto mb-16">
-            <p className="text-2xl text-gray-700 mb-6">
-              <strong>Flat roofs in Midland face extreme Permian Basin weather.</strong> Intense heat, severe hail, ponding water, and UV exposure create leaks, membrane damage, and premature failure. Fast, expert repairs prevent minor problems from becoming major disasters.
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Expert Flat Roof Repair for Midland's Commercial Sector</h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+              <strong>Flat roofs in Midland face extreme Permian Basin weather.</strong> Intense heat, severe hail, ponding water, and UV exposure create leaks, membrane damage, and premature failure. Fast, expert repairs prevent minor problems from becoming major disasters that disrupt critical petroleum industry operations and commercial facilities.
             </p>
-            <p className="text-xl text-gray-600">
-              5 Star Commercial Roofing specializes in flat roof repair throughout Midland. From leak detection to complete membrane restoration, we handle all TPO, EPDM, PVC, and modified bitumen systems. Emergency repairs available 24/7.
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              5 Star Commercial Roofing specializes in flat roof repair throughout Midland's diverse commercial sectors. From leak detection to complete membrane restoration, we handle all TPO, EPDM, PVC, and modified bitumen systems. Emergency repairs available 24/7 for petroleum industry facilities, office buildings, retail centers, and healthcare facilities.
             </p>
-          </div>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              Midland's role as the petroleum capital of West Texas creates unique flat roof repair challenges for oil company headquarters, industrial facilities, and commercial buildings serving the energy sector. Our specialized expertise addresses chemical-resistant repairs, emergency response protocols, and compliance requirements specific to petroleum industry environments.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Advanced Flat Roof Repair Techniques for Petroleum Industry Facilities
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Petroleum industry facilities in Midland require specialized flat roof repair techniques that address chemical exposure, fire safety requirements, and operational continuity demands specific to oil and gas operations. These facilities often house critical equipment and processes that cannot tolerate weather-related interruptions, making rapid, effective roof repairs essential for maintaining business operations throughout the Permian Basin.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Chemical-resistant repair materials become essential for facilities exposed to petroleum byproducts, drilling fluids, and industrial chemicals common in oil field service operations. PVC membrane repair systems provide superior chemical resistance compared to TPO or EPDM alternatives, while specialized adhesives and welding techniques ensure permanent bonds that withstand chemical exposure and thermal cycling in industrial environments.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Safety protocols for petroleum industry flat roof repairs include hot work permits, fire watch procedures, and specialized equipment designed for explosive atmosphere environments. Our certified technicians maintain training and certification for working near petroleum operations while utilizing non-sparking tools and emergency response equipment specifically designed for industrial environments.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Commercial Office Building Flat Roof Repair Excellence</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland's financial district and corporate headquarters buildings including high-rise petroleum company offices require sophisticated flat roof repair approaches that minimize disruption to business operations while addressing complex drainage systems, HVAC equipment integration, and aesthetic concerns appropriate for professional environments. These repairs often coordinate with building management systems and tenant operations to ensure continuous business functionality.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Executive office complexes and professional buildings throughout Midland need flat roof repairs that accommodate telecommunications equipment, emergency communication systems, and modern building technologies while maintaining quiet, comfortable environments essential for professional office operations and client interactions. Noise control during repair activities becomes critical for maintaining professional atmospheres.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Energy efficiency considerations during flat roof repairs include insulation upgrades, thermal bridge elimination, and cool roofing technologies that reduce operational costs for large office complexes while improving occupant comfort during Midland's extended summer periods with temperatures regularly exceeding 100°F for months at a time.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Industrial and Manufacturing Flat Roof Repair Solutions
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Manufacturing facilities serving Midland's petroleum industry require flat roof repairs that accommodate heavy industrial equipment, overhead crane systems, and specialized production processes that operate continuously during peak drilling seasons. These repairs must coordinate with production schedules and safety requirements while providing weather protection for valuable industrial equipment and work-in-progress materials.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Chemical processing and storage facilities require flat roof repairs that meet EPA and OSHA requirements for hazardous material handling while providing containment capabilities that prevent environmental contamination. Specialized drainage systems and emergency response access affect repair procedures and material selection for facilities handling petroleum industry chemicals and byproducts.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Warehouse and distribution facilities supporting petroleum industry logistics require flat roof repairs that accommodate loading dock operations, heavy equipment storage, and climate-controlled environments for temperature-sensitive petroleum industry supplies and equipment. These repairs often address large-span roofing systems with unique drainage and structural considerations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Healthcare Facility Flat Roof Repair Expertise</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland Memorial Hospital and associated healthcare facilities require specialized flat roof repair approaches that coordinate with critical medical operations, infection control protocols, and life-safety systems that operate around the clock. Hospital flat roof repairs must accommodate medical gas systems, backup power equipment, and emergency access routes while maintaining sterile environments essential for patient safety.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Medical office buildings and specialized healthcare facilities need flat roof repairs that provide quiet environments for patient care while supporting sensitive medical equipment and diagnostic systems that require consistent environmental conditions. These repairs often coordinate with medical equipment operations and patient scheduling to minimize disruption to healthcare services.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency medical facilities and trauma centers require immediate flat roof repair responses that ensure continuous operation of critical life-saving equipment and services. Rapid repair capabilities and redundant weather protection systems help maintain medical operations during severe weather events that commonly affect the Permian Basin region.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Retail and Commercial Center Flat Roof Repair Services
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Shopping centers and retail facilities throughout Midland require flat roof repairs that minimize customer disruption while maintaining comfortable shopping environments during extreme West Texas weather conditions. These repairs often coordinate with retail operations and customer traffic patterns to ensure continuous business operations during peak petroleum industry activity periods.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Restaurant and hospitality facilities serving petroleum industry workers require flat roof repairs that accommodate specialized kitchen equipment, dining areas, and entertainment systems while providing year-round weather protection for facilities that operate extended hours to serve industry shift schedules common in 24/7 petroleum operations throughout the Permian Basin.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Automotive service facilities and equipment dealerships serving petroleum industry fleet operations require flat roof repairs that accommodate vehicle service areas, parts storage, and customer waiting areas while providing protection for expensive automotive equipment and inventory essential for supporting petroleum industry transportation and logistics operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Educational Institution Flat Roof Repair Excellence</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              University of Texas Permian Basin facilities require cost-effective flat roof repairs that coordinate with academic schedules while accommodating specialized educational equipment, research facilities, and student housing operations. These repairs often utilize phased approaches that address critical areas during summer breaks while implementing maintenance programs that control long-term costs.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Public school facilities serving petroleum industry families require flat roof repairs that balance budget constraints with durability requirements while providing energy-efficient solutions that control operational costs for large student populations in Midland's challenging climate conditions that require extensive air conditioning throughout extended summer periods.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Petroleum industry training facilities and technical education centers require flat roof repairs that accommodate industrial training equipment, safety systems, and specialized ventilation while providing weather protection for educational programs that prepare workers for careers in the Permian Basin energy sector and related industries.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Emergency Response and Weather Protection for Critical Flat Roof Systems
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Midland's location in Hail Alley creates frequent opportunities for catastrophic flat roof damage that requires immediate emergency response to protect valuable petroleum industry equipment and critical business operations. Our 24/7 emergency response teams maintain specialized equipment and materials for rapid deployment throughout the Permian Basin region during severe weather events.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Severe weather events including hailstorms, high winds, and flash flooding can cause immediate threats to flat roofing systems that protect critical petroleum industry operations and commercial facilities. Emergency tarping systems and temporary weather barriers provide interim protection while permanent repairs are planned and executed during optimal weather conditions.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Rapid response capabilities specifically designed for petroleum industry environments include specialized safety equipment, chemical exposure protocols, and coordination with industrial emergency response teams. These capabilities ensure business continuity during weather events while maintaining safety standards required for petroleum industry operations.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Preventive Maintenance and Long-Term Performance for Commercial Flat Roofs</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Comprehensive preventive maintenance programs designed specifically for Midland's climate help commercial property owners avoid costly emergency flat roof repairs while extending system life and maintaining business operations. Regular inspections identify minor problems before they develop into major failures that could disrupt critical petroleum industry activities or commercial operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Predictive maintenance utilizing infrared thermography, moisture detection systems, and advanced diagnostic techniques helps identify potential failure points before they compromise building operations or require expensive emergency repairs during peak business periods. These techniques provide early warning systems that prevent costly business interruptions.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Seasonal maintenance schedules coordinate with Midland's weather patterns and petroleum industry operational cycles to address specific flat roof concerns during optimal conditions. Spring preparations focus on severe weather readiness while fall maintenance ensures drainage systems are prepared for winter precipitation and freeze-thaw cycles that affect membrane performance.
+            </p>
+          </section>
         </FadeIn>
 
         <FadeIn>
