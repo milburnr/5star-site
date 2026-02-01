@@ -238,6 +238,143 @@ export default function EmergencyRoofRepairAndrewsPage() {
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Emergency material selection accounts for petroleum vapor exposure, chemical contamination, and temperature extremes that rapidly degrade standard materials. Specialized supplies include chemical-resistant tarps, petroleum-safe adhesives, and explosion-proof equipment for volatile environments.
             </p>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Andrews County Weather Patterns & Emergency Planning</h3>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Seasonal Weather Hazards</h4>
+                <div className="space-y-4">
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-2">Spring (March-May)</h5>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Severe thunderstorms with baseball-sized hail</li>
+                      <li>• Tornado activity peak (F2-F3 strength)</li>
+                      <li>• Flash flooding in normally dry creek beds</li>
+                      <li>• Wind gusts exceeding 70 mph during storms</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-2">Summer (June-August)</h5>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Extreme heat affecting material performance</li>
+                      <li>• Monsoon-style rainfall events</li>
+                      <li>• Dust devil formation damaging roof equipment</li>
+                      <li>• Thermal expansion stress on roofing systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Emergency Response Logistics</h4>
+                <div className="space-y-4">
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-2">Equipment Staging</h5>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Pre-positioned emergency supplies in Amarillo</li>
+                      <li>• Specialized petroleum-resistant materials</li>
+                      <li>• Mobile command unit for large-scale events</li>
+                      <li>• Safety equipment for hazardous environments</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-2">Coordination Protocols</h5>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Direct liaison with Andrews emergency services</li>
+                      <li>• Oil & gas facility safety coordination</li>
+                      <li>• Environmental compliance documentation</li>
+                      <li>• Multi-site emergency triage system</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Industrial Facility Emergency Procedures</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Andrews County hosts numerous petroleum processing facilities, chemical plants, and support infrastructure requiring specialized emergency procedures. Our emergency response teams are trained in OSHA regulations, EPA compliance, and industry safety standards for working near volatile materials and active operations.
+            </p>
+            <div className="bg-red-50 p-6 rounded-lg mb-6 border-l-4 border-red-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Hazardous Environment Protocols</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Pre-Entry Safety Assessment</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Atmospheric monitoring for volatile compounds</li>
+                    <li>• Fire suppression system coordination</li>
+                    <li>• Hot work permit acquisition when required</li>
+                    <li>• Emergency evacuation route identification</li>
+                    <li>• Communication with facility safety personnel</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Specialized Equipment Requirements</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Explosion-proof lighting and power tools</li>
+                    <li>• Chemical-resistant tarping materials</li>
+                    <li>• Non-sparking fastening hardware</li>
+                    <li>• Personal protective equipment (Level B)</li>
+                    <li>• Confined space entry equipment when needed</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Multi-Site Emergency Management</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              During major weather events affecting Andrews County, multiple facilities may require simultaneous emergency response. Our command structure includes priority triage based on safety hazards, environmental impact potential, and operational criticality to energy infrastructure.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Priority Response Matrix</h4>
+              <div className="space-y-4">
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">1</div>
+                    <h5 className="font-bold text-gray-800 mb-1">Critical Infrastructure</h5>
+                    <p className="text-xs text-gray-700">Active petroleum processing, chemical storage areas</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-yellow-500 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">2</div>
+                    <h5 className="font-bold text-gray-800 mb-1">High-Value Operations</h5>
+                    <p className="text-xs text-gray-700">Control rooms, administrative facilities, maintenance shops</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-500 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">3</div>
+                    <h5 className="font-bold text-gray-800 mb-1">Standard Commercial/Residential</h5>
+                    <p className="text-xs text-gray-700">Office buildings, retail establishments, residential properties</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Environmental Compliance & Documentation</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency repairs in Andrews County often require environmental compliance documentation, particularly for facilities handling petroleum products or chemicals. Our emergency response includes proper documentation for EPA reporting requirements and state environmental regulations.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Required Documentation</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Environmental impact assessment forms</li>
+                  <li>• Waste material handling protocols</li>
+                  <li>• Air quality monitoring during repairs</li>
+                  <li>• Spill prevention and containment measures</li>
+                  <li>• Chain of custody for hazardous materials</li>
+                  <li>• Post-repair environmental verification</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Regulatory Coordination</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Texas Commission on Environmental Quality notification</li>
+                  <li>• Andrews County emergency management coordination</li>
+                  <li>• Railroad Commission of Texas for oil/gas facilities</li>
+                  <li>• EPA Region 6 emergency response team liaison</li>
+                  <li>• Insurance carrier environmental compliance verification</li>
+                  <li>• OSHA workplace safety documentation</li>
+                </ul>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

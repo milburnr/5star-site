@@ -246,6 +246,224 @@ export default function Page() {
         </p>
       </div>
 
+      <FadeIn>
+        <section className="mb-16 max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+            Amarillo's Unique Heavy Rain Challenges and Weather Patterns
+          </h2>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Amarillo's high plains location at 3,605 feet elevation creates unique meteorological conditions that intensify heavy rain damage potential. The city's position along the Caprock Escarpment acts as a natural barrier that forces storm systems upward, creating rapid precipitation formation and intense localized downpours that can overwhelm roofing systems designed for typical semi-arid conditions.
+          </p>
+          <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+            <h4 className="text-xl font-bold mb-3 text-brand-brown">Amarillo Heavy Rain Event Timeline and Response</h4>
+            <ul className="space-y-2 text-gray-700">
+              <li><strong>0-30 minutes during storm:</strong> Active leak emergency response, immediate temporary measures</li>
+              <li><strong>30 minutes-4 hours post-storm:</strong> Comprehensive damage assessment, moisture detection, emergency protection</li>
+              <li><strong>4-24 hours post-storm:</strong> Water extraction, dehumidification, documentation for insurance claims</li>
+              <li><strong>24-72 hours post-storm:</strong> Structural drying, permanent repair planning, material procurement</li>
+              <li><strong>3-14 days post-storm:</strong> Complete repair execution, system upgrades, preventive improvements</li>
+            </ul>
+          </div>
+          <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            The High Plains climate creates extreme temperature fluctuations that stress roofing materials, making them more susceptible to water penetration during heavy rain events. Daily temperature swings exceeding 40°F cause expansion and contraction cycles that can create gaps in flashing, loosen fasteners, and compromise sealed joints just before severe weather arrives.
+          </p>
+
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Monsoon-Style Precipitation Events in Amarillo</h3>
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">Summer Thunderstorm Complexes</h4>
+              <p className="text-gray-700 mb-4">June through August, Amarillo experiences supercell thunderstorms that can produce 3-5 inches of rain in 60-90 minutes. These events often include rotation and severe wind components that compound water damage with structural stress.</p>
+              <ul className="text-gray-700 text-sm space-y-2">
+                <li>• Supercell precipitation cores exceeding 4 inches per hour</li>
+                <li>• Hail and rain combination overwhelming drainage systems</li>
+                <li>• Wind-driven rain penetrating normal weather barriers</li>
+                <li>• Multiple storm cell training over same areas</li>
+                <li>• Flash flooding affecting structural foundations</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">Spring Frontal Precipitation Systems</h4>
+              <p className="text-gray-700 mb-4">March through May frontal systems bring sustained rainfall lasting 12-48 hours with accumulations of 2-6 inches. Extended saturation period allows water to find and exploit every roofing system weakness.</p>
+              <ul className="text-gray-700 text-sm space-y-2">
+                <li>• Sustained rainfall rates of 0.25-0.5 inches per hour</li>
+                <li>• Ground saturation preventing normal runoff</li>
+                <li>• Extended exposure period for material degradation</li>
+                <li>• Temperature drops during events causing material contraction</li>
+                <li>• Multiple weather fronts in rapid succession</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Advanced Water Detection and Damage Assessment</h3>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Heavy rain damage in Amarillo often involves hidden water intrusion that may not manifest as visible leaks for days or weeks after the precipitation event. Our comprehensive assessment protocol uses thermal imaging, moisture meters, and structural analysis to identify damage before secondary problems like mold growth or structural deterioration develop.
+          </p>
+          <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+            <h4 className="text-xl font-bold mb-3 text-brand-brown">Comprehensive Rain Damage Assessment Protocol</h4>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Immediate Assessment (0-4 hours)</h5>
+                <ul className="space-y-1 text-gray-700 text-sm">
+                  <li>• Active leak location and temporary containment</li>
+                  <li>• Structural safety evaluation for water loading</li>
+                  <li>• Electrical system safety inspection</li>
+                  <li>• Initial moisture mapping with infrared technology</li>
+                  <li>• Emergency protection installation</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Comprehensive Evaluation (4-24 hours)</h5>
+                <ul className="space-y-1 text-gray-700 text-sm">
+                  <li>• Thermal imaging for hidden water penetration</li>
+                  <li>• Moisture content measurement in building materials</li>
+                  <li>• Air quality sampling for immediate mold risk</li>
+                  <li>• Structural integrity assessment under water loading</li>
+                  <li>• Insurance documentation with photographic evidence</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Amarillo-Specific Drainage System Analysis and Improvement</h3>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Amarillo's intense but infrequent rainfall creates unique challenges for roof drainage systems that must handle extreme flow rates while spending most of the year in dry conditions. Clay soils common in the area have poor drainage characteristics, making proper roof drainage even more critical to prevent foundation water issues.
+          </p>
+          <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+            <h4 className="text-xl font-bold mb-3 text-brand-brown">Drainage System Optimization for Amarillo Climate</h4>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Gutter System Enhancement</h5>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• 6-inch gutters for increased capacity</li>
+                  <li>• Commercial-grade downspouts every 20 feet</li>
+                  <li>• Leaf guards designed for Panhandle wind conditions</li>
+                  <li>• Reinforced hangers for thermal expansion</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Flat Roof Drainage Improvements</h5>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• Additional drains beyond minimum code requirements</li>
+                  <li>• Emergency overflow drains for catastrophic events</li>
+                  <li>• Tapered insulation systems for positive drainage</li>
+                  <li>• Drain dome protection from debris accumulation</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Ground Drainage Coordination</h5>
+                <ul className="text-gray-700 text-sm space-y-1">
+                  <li>• French drain systems for clay soil conditions</li>
+                  <li>• Foundation drainage to prevent water backup</li>
+                  <li>• Landscape grading for water flow direction</li>
+                  <li>• Municipal storm drainage tie-in compliance</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Material Performance in Amarillo's Climate Extremes</h3>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Heavy rain damage repair in Amarillo must account for materials that can withstand extreme temperature variations, high winds, intense UV exposure, and sudden thermal shock from rapid weather changes. Material selection affects long-term performance and resistance to future heavy rain events.
+          </p>
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+              <h4 className="text-lg font-bold mb-3 text-brand-brown">Climate-Optimized Repair Materials</h4>
+              <div className="space-y-3">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-1">High-Wind Rated Shingles</h5>
+                  <p className="text-sm text-gray-700">Class H wind resistance (150+ mph) with enhanced adhesive strips designed for temperature cycling common in Amarillo.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-1">UV-Resistant Membrane Systems</h5>
+                  <p className="text-sm text-gray-700">TPO and EPDM formulations with enhanced UV stabilizers for high-altitude sun exposure and thermal resistance.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-1">Flexible Flashing Systems</h5>
+                  <p className="text-sm text-gray-700">EPDM and modified bitumen flashings that accommodate thermal expansion without compromising water resistance.</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+              <h4 className="text-lg font-bold mb-3 text-brand-brown">Advanced Sealant and Adhesive Technology</h4>
+              <div className="space-y-3">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-1">Polyurethane Sealant Systems</h5>
+                  <p className="text-sm text-gray-700">High-movement capability sealants that maintain elasticity through temperature extremes from -10°F to 120°F.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-1">Structural Glazing Compounds</h5>
+                  <p className="text-sm text-gray-700">Silicone-based systems for curtain wall and window integration resistant to wind-driven rain infiltration.</p>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-1">Vapor Barrier Enhancement</h5>
+                  <p className="text-sm text-gray-700">Peel-and-stick membranes with aggressive adhesives designed for extreme temperature installation conditions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Insurance Claims and Documentation for Heavy Rain Damage</h3>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Heavy rain damage claims in Amarillo require specialized documentation that proves the connection between specific weather events and resulting property damage. Insurance carriers often challenge rain damage claims, making comprehensive documentation and expert assessment critical for successful claim resolution.
+          </p>
+          <div className="bg-red-50 p-6 rounded-lg mb-6 border-l-4 border-red-500">
+            <h4 className="text-xl font-bold mb-3 text-brand-brown">Rain Damage Insurance Documentation Protocol</h4>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Weather Event Correlation</h5>
+                <ul className="space-y-1 text-gray-700 text-sm">
+                  <li>• National Weather Service precipitation data</li>
+                  <li>• Radar imagery showing storm intensity and timing</li>
+                  <li>• Local weather station readings and wind direction</li>
+                  <li>• Time-stamped damage documentation</li>
+                  <li>• Witness statements from weather event</li>
+                </ul>
+              </div>
+              <div>
+                <h5 className="font-bold text-gray-800 mb-2">Damage Assessment Evidence</h5>
+                <ul className="space-y-1 text-gray-700 text-sm">
+                  <li>• Thermal imaging showing water intrusion patterns</li>
+                  <li>• Moisture content readings in affected materials</li>
+                  <li>• Photographic documentation of damage progression</li>
+                  <li>• Professional assessment of causation factors</li>
+                  <li>• Repair cost estimates with material specifications</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Emergency Response and Water Mitigation Services</h3>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Heavy rain damage in Amarillo requires immediate response to prevent secondary damage including mold growth, structural deterioration, and electrical hazards. Our emergency response protocol activates within 30 minutes of receiving calls during active weather events, with full-service water extraction and building drying capabilities.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 className="text-lg font-bold mb-3 text-brand-brown">Active Storm Emergency Services</h4>
+              <ul className="space-y-2 text-gray-700 text-sm">
+                <li>• Emergency tarping during active rainfall</li>
+                <li>• Water extraction using commercial-grade equipment</li>
+                <li>• Emergency electrical system protection</li>
+                <li>• Structural safety assessment and stabilization</li>
+                <li>• Content protection and emergency pack-out services</li>
+                <li>• Immediate mold prevention treatment</li>
+              </ul>
+            </div>
+            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+              <h4 className="text-lg font-bold mb-3 text-brand-brown">Post-Storm Recovery and Restoration</h4>
+              <ul className="space-y-2 text-gray-700 text-sm">
+                <li>• Structural drying using commercial dehumidification</li>
+                <li>• Antimicrobial treatment for affected areas</li>
+                <li>• Air quality monitoring and improvement</li>
+                <li>• Insulation replacement and upgrade services</li>
+                <li>• Interior restoration and reconstruction</li>
+                <li>• System upgrades to prevent future damage</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </FadeIn>
+
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Texas Panhandle & West Texas</h2>
         <p className="text-lg mb-4">

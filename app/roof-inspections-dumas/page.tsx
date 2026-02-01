@@ -220,6 +220,392 @@ export default function RoofInspectionsDumasPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Agricultural Industry Impact on Roofing Systems</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Feedlot and Agricultural Environmental Factors</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🐄 Livestock Operation Effects</h4>
+                    <p className="text-gray-700 mb-4">Dumas is home to massive cattle feedlots creating unique atmospheric conditions affecting roofing materials.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Ammonia Exposure:</strong> Livestock waste produces ammonia vapors accelerating metal corrosion</li>
+                      <li>• <strong>Hydrogen Sulfide:</strong> Gas production from feedlots creating acidic environments</li>
+                      <li>• <strong>Dust Generation:</strong> Feed processing and animal activity creating abrasive particulates</li>
+                      <li>• <strong>Organic Deposits:</strong> Windborne organic matter accumulation</li>
+                      <li>• <strong>Moisture Elevation:</strong> Animal respiration increasing local humidity</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌾 Agricultural Processing Impact</h4>
+                    <p className="text-gray-700 mb-4">Grain processing and agricultural operations create additional environmental stressors.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Grain Dust:</strong> Fine particles from processing creating abrasive conditions</li>
+                      <li>• <strong>Silo Operations:</strong> Dust clouds and pressure variations</li>
+                      <li>• <strong>Chemical Applications:</strong> Fertilizer and pesticide atmospheric exposure</li>
+                      <li>• <strong>Equipment Vibration:</strong> Heavy machinery affecting nearby structures</li>
+                      <li>• <strong>Irrigation Humidity:</strong> Center pivot systems elevating moisture levels</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Agricultural-Specific Inspection Protocol</h3>
+                <div className="space-y-6">
+                  <div className="border-l-4 border-green-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Environmental Contamination Assessment (20 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Chemical Exposure Evaluation</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Ammonia corrosion pattern identification</li>
+                          <li>• Hydrogen sulfide surface etching assessment</li>
+                          <li>• Agricultural chemical residue analysis</li>
+                          <li>• Metal fastener degradation evaluation</li>
+                          <li>• Organic material accumulation documentation</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Particulate Damage Analysis</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Grain dust abrasion assessment</li>
+                          <li>• Feed particle coating contamination</li>
+                          <li>• Drainage system clogging evaluation</li>
+                          <li>• Ventilation blockage inspection</li>
+                          <li>• Filter system stress analysis</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-brown-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Agricultural Building Type Assessment (25 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Residential Properties</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Rural home exposure to agricultural operations</li>
+                          <li>• Distance from feedlots impact assessment</li>
+                          <li>• Windborne contaminant deposition</li>
+                          <li>• HVAC system contamination protection</li>
+                          <li>• Property value protection considerations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Agricultural Facility Roofs</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Livestock housing structure assessment</li>
+                          <li>• Grain storage facility roof evaluation</li>
+                          <li>• Equipment building inspection</li>
+                          <li>• Feed mill facility roof analysis</li>
+                          <li>• Processing plant structural integrity</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-yellow-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Specialized Agricultural Roof Challenges (15 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Heavy Load Considerations</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Grain storage load capacity assessment</li>
+                          <li>• Snow plus grain load calculations</li>
+                          <li>• Equipment mounting stress analysis</li>
+                          <li>• Structural deflection measurement</li>
+                          <li>• Safety factor verification</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Ventilation & Airflow</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Agricultural ventilation system integration</li>
+                          <li>• Contaminated air exhaust pathways</li>
+                          <li>• Positive pressure system effects</li>
+                          <li>• Air quality protection measures</li>
+                          <li>• HVAC contamination prevention</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Dumas Agricultural Environment Inspectors Examine</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Agricultural-Specific Damage Indicators</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🧪 Chemical Corrosion Patterns</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Ammonia Corrosion:</strong> White crystalline deposits on metal surfaces</li>
+                      <li>• <strong>Sulfide Blackening:</strong> Dark staining from hydrogen sulfide exposure</li>
+                      <li>• <strong>Accelerated Rust:</strong> Rapid oxidation from chemical atmosphere</li>
+                      <li>• <strong>Gasket Degradation:</strong> Rubber seal failure from agricultural chemicals</li>
+                      <li>• <strong>Paint Failure:</strong> Coating breakdown from chemical exposure</li>
+                      <li>• <strong>Fastener Weakening:</strong> Chemical attack on screws and bolts</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🌪️ Enhanced Weather Damage</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Dust-Accelerated Abrasion:</strong> Windborne particles creating wear patterns</li>
+                      <li>• <strong>Moisture Trap Damage:</strong> Organic matter holding moisture against surfaces</li>
+                      <li>• <strong>Chemical-Weakened Materials:</strong> Reduced hail and wind resistance</li>
+                      <li>• <strong>Clogged Drainage:</strong> Agricultural debris blocking water flow</li>
+                      <li>• <strong>Filter Overload:</strong> HVAC systems stressed by contaminated air</li>
+                      <li>• <strong>Biological Growth:</strong> Organic matter fostering mold and bacteria</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🏗️ Structural Agricultural Stress</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Equipment Vibration Damage:</strong> Machinery creating structural fatigue</li>
+                      <li>• <strong>Heavy Load Deflection:</strong> Grain storage causing sagging</li>
+                      <li>• <strong>Thermal Cycling Stress:</strong> Agricultural process heat variations</li>
+                      <li>• <strong>Settling Damage:</strong> Foundation movement from heavy loads</li>
+                      <li>• <strong>Connection Loosening:</strong> Vibration and thermal stress effects</li>
+                      <li>• <strong>Material Fatigue:</strong> Repeated stress cycles from operations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Advanced Detection for Agricultural Environments</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Chemical Analysis Technology</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Air Quality Monitoring</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Ammonia concentration measurement</li>
+                          <li>• Hydrogen sulfide level detection</li>
+                          <li>• Particulate matter assessment</li>
+                          <li>• Volatile organic compound analysis</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Surface Contamination Testing</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• pH testing of roof surfaces</li>
+                          <li>• Chemical residue identification</li>
+                          <li>• Corrosion rate assessment</li>
+                          <li>• Material compatibility analysis</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Agricultural-Specific Inspection Tools</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Enhanced Safety Protocols</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Respiratory protection for chemical exposure</li>
+                          <li>• Gas detection equipment</li>
+                          <li>• Personal protective equipment protocols</li>
+                          <li>• Emergency response procedures</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Specialized Documentation</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Proximity to agricultural operations mapping</li>
+                          <li>• Wind pattern contamination analysis</li>
+                          <li>• Seasonal exposure variation tracking</li>
+                          <li>• Chemical-resistant material recommendations</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Agricultural Season Inspection Timing</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🌱 Spring Agricultural Operations (March-May)</h3>
+                <p className="text-gray-700 mb-4"><strong>Planting Season Impact:</strong> Field preparation and planting operations create dust and chemical exposure.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Agricultural Activity Coordination:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Pre-planting inspection timing</li>
+                      <li>• Chemical application schedule awareness</li>
+                      <li>• Field work dust generation periods</li>
+                      <li>• Irrigation system startup assessment</li>
+                      <li>• Livestock breeding season considerations</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Storm Season Preparation:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Chemical-resistant material assessment</li>
+                      <li>• Contamination cleanup before storms</li>
+                      <li>• Agricultural building vulnerability check</li>
+                      <li>• Drainage system agricultural debris clearing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🌾 Summer Growing Season (June-August)</h3>
+                <p className="text-gray-700 mb-4"><strong>Peak Agricultural Activity:</strong> Irrigation, chemical applications, and peak feedlot operations.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">High Contamination Period:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Maximum feedlot animal populations</li>
+                      <li>• Peak ammonia and hydrogen sulfide levels</li>
+                      <li>• Intensive irrigation creating humidity</li>
+                      <li>• Chemical application frequency increases</li>
+                      <li>• Heat intensifying chemical reactions</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Inspection Timing Challenges:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Early morning inspections to avoid peak chemicals</li>
+                      <li>• Wind direction consideration</li>
+                      <li>• Enhanced safety equipment requirements</li>
+                      <li>• Agricultural operation scheduling coordination</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🌽 Harvest Season Assessment (September-November)</h3>
+                <p className="text-gray-700 mb-4"><strong>Harvest Operations Impact:</strong> Grain dust, equipment vibration, and storage facility loading.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Harvest Activity Considerations:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Massive grain dust generation</li>
+                      <li>• Heavy equipment traffic vibration</li>
+                      <li>• Grain elevator and silo loading stress</li>
+                      <li>• Feedlot preparation for winter feeding</li>
+                      <li>• Agricultural building maximum capacity</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Annual Assessment Priorities:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Cumulative chemical exposure evaluation</li>
+                      <li>• Structural stress from annual operations</li>
+                      <li>• Contamination cleanup before winter</li>
+                      <li>• Equipment-related damage assessment</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Agricultural Dormancy (December-February)</h3>
+                <p className="text-gray-700 mb-4"><strong>Reduced Operations:</strong> Optimal inspection timing with minimal agricultural interference.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Winter Advantages:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Minimal chemical applications</li>
+                      <li>• Reduced feedlot odors and contamination</li>
+                      <li>• Limited equipment operation disturbance</li>
+                      <li>• Clear assessment of cumulative damage</li>
+                      <li>• Planning time for repairs before spring</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Winter Assessment Focus:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Annual chemical exposure damage review</li>
+                      <li>• Structural integrity after harvest stress</li>
+                      <li>• Contamination removal effectiveness</li>
+                      <li>• Material selection for spring replacements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims for Agricultural Properties</h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Agricultural Environment Documentation</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Environmental Factor Evidence</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Chemical Exposure Mapping:</strong> Proximity to feedlots and processing</li>
+                      <li>• <strong>Air Quality Documentation:</strong> Ammonia and hydrogen sulfide levels</li>
+                      <li>• <strong>Accelerated Aging Evidence:</strong> Chemical vs. normal weathering</li>
+                      <li>• <strong>Agricultural Operation Impact:</strong> Dust, vibration, and contamination</li>
+                      <li>• <strong>Seasonal Variation Tracking:</strong> Peak exposure periods</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Specialized Damage Categories</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Chemical Corrosion Claims:</strong> Agricultural vs. storm damage</li>
+                      <li>• <strong>Environmental Liability:</strong> Health and property impacts</li>
+                      <li>• <strong>Agricultural Business Interruption:</strong> Roof failure operational impact</li>
+                      <li>• <strong>Equipment Protection:</strong> Specialized material requirements</li>
+                      <li>• <strong>Multi-Factor Causation:</strong> Weather plus chemical interactions</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Agricultural Insurance Challenges</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Common Claim Complications</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Pollution Exclusions:</strong> Chemical damage coverage disputes</li>
+                      <li>• <strong>Gradual Damage:</strong> Slow chemical deterioration vs. sudden loss</li>
+                      <li>• <strong>Agricultural Business Coverage:</strong> Specialized commercial policies</li>
+                      <li>• <strong>Equipment Integration:</strong> Roof-mounted agricultural equipment</li>
+                      <li>• <strong>Multi-Building Claims:</strong> Farm operation complex coverage</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Expert Documentation Services</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Agricultural environment expertise</li>
+                      <li>• Chemical damage pattern analysis</li>
+                      <li>• Environmental impact assessment</li>
+                      <li>• Agricultural operation integration</li>
+                      <li>• Specialized material requirement justification</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions

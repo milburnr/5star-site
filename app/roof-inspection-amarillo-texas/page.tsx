@@ -272,6 +272,420 @@ export default function RoofInspectionAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Detailed Inspection Process</h2>
+            <div className="max-w-5xl mx-auto space-y-8">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Step 1: Exterior Visual Assessment</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Roofing Materials Inspection</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Asphalt Shingles:</strong> Check for granule loss, cracking, curling edges, missing tabs</li>
+                      <li>• <strong>Hail Impact Marks:</strong> Look for circular bruises, exposed mat, soft spots</li>
+                      <li>• <strong>Wind Damage:</strong> Lifted shingles, torn edges, exposed nails</li>
+                      <li>• <strong>Age Assessment:</strong> Overall condition vs. expected lifespan</li>
+                      <li>• <strong>Color Matching:</strong> Fading, discoloration patterns</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Structural Components</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Ridge Lines:</strong> Sagging, waviness, alignment issues</li>
+                      <li>• <strong>Roof Slope:</strong> Proper drainage, ponding areas</li>
+                      <li>• <strong>Eaves & Soffits:</strong> Damage, ventilation adequacy</li>
+                      <li>• <strong>Fascia Boards:</strong> Rot, warping, paint condition</li>
+                      <li>• <strong>Chimney Structure:</strong> Cracks, mortar condition, cap integrity</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Step 2: Flashing & Penetration Analysis</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Critical Seal Points</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Valley Flashing:</strong> Proper installation, corrosion, loose sections</li>
+                      <li>• <strong>Step Flashing:</strong> Wall intersections, chimney connections</li>
+                      <li>• <strong>Drip Edge:</strong> Condition, proper overlap, ice dam protection</li>
+                      <li>• <strong>Pipe Boots:</strong> Cracking, separation from pipe, rubber deterioration</li>
+                      <li>• <strong>Vent Penetrations:</strong> Seal integrity, flashing condition</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Weather Vulnerability Assessment</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Wind Uplift Resistance:</strong> Fastener patterns, edge securement</li>
+                      <li>• <strong>Water Penetration Points:</strong> Likely failure locations</li>
+                      <li>• <strong>Ice Dam Susceptibility:</strong> Insulation, ventilation, eave protection</li>
+                      <li>• <strong>Hail Impact Zones:</strong> Most vulnerable roof areas</li>
+                      <li>• <strong>UV Exposure:</strong> South-facing deterioration patterns</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Step 3: Interior Assessment</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Attic Space Investigation</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Decking Condition:</strong> Sagging, water stains, soft spots</li>
+                      <li>• <strong>Structural Integrity:</strong> Rafter condition, support adequacy</li>
+                      <li>• <strong>Insulation Assessment:</strong> R-value, moisture damage, pest intrusion</li>
+                      <li>• <strong>Ventilation Evaluation:</strong> Air flow, ridge vents, soffit vents</li>
+                      <li>• <strong>Electrical Safety:</strong> Wiring condition, junction boxes, fire hazards</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Moisture & Air Quality</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Water Intrusion:</strong> Active leaks, staining patterns</li>
+                      <li>• <strong>Mold Assessment:</strong> Growth patterns, air quality concerns</li>
+                      <li>• <strong>Condensation Issues:</strong> Vapor barriers, temperature differentials</li>
+                      <li>• <strong>Air Sealing:</strong> Energy efficiency, thermal bridges</li>
+                      <li>• <strong>Pest Evidence:</strong> Animal intrusion, damage assessment</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Seasonal Roof Inspection Timing in Amarillo</h2>
+            <div className="max-w-5xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-4xl mb-4">🌪️</div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Spring Inspections (March-May)</h3>
+                  <p className="text-gray-700 mb-4"><strong>Peak hail season in Amarillo.</strong> Critical timing for damage assessment and insurance claims.</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800">Why Spring Matters:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Amarillo averages 2-3 hailstorms annually</li>
+                        <li>• Insurance claim deadlines (typically 1 year)</li>
+                        <li>• Contractors less busy than summer peak</li>
+                        <li>• Weather mild for thorough inspections</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800">Spring Focus Areas:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Fresh hail damage documentation</li>
+                        <li>• Winter ice dam damage</li>
+                        <li>• Wind damage from spring storms</li>
+                        <li>• Preparation for summer heat</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-4xl mb-4">☀️</div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Summer Inspections (June-August)</h3>
+                  <p className="text-gray-700 mb-4"><strong>Heat stress assessment period.</strong> Evaluate thermal expansion damage and UV deterioration.</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800">Summer Considerations:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Temperatures exceed 100°F regularly</li>
+                        <li>• UV radiation accelerates aging</li>
+                        <li>• Thermal cycling stresses materials</li>
+                        <li>• Limited inspection time due to heat</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800">Heat Damage Indicators:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Shingle curling and cracking</li>
+                        <li>• Granule accelerated loss</li>
+                        <li>• Flashing expansion issues</li>
+                        <li>• Attic ventilation adequacy</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-4xl mb-4">🍂</div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Fall Inspections (September-November)</h3>
+                  <p className="text-gray-700 mb-4"><strong>Winter preparation period.</strong> Ideal time for comprehensive maintenance and preparation.</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800">Fall Advantages:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Moderate temperatures for inspections</li>
+                        <li>• Post-summer damage assessment</li>
+                        <li>• Pre-winter weatherization</li>
+                        <li>• Lower contractor demand</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800">Fall Priorities:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Gutter cleaning and assessment</li>
+                        <li>• Flashing seal integrity</li>
+                        <li>• Insulation effectiveness</li>
+                        <li>• Ventilation optimization</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-4xl mb-4">❄️</div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Winter Inspections (December-February)</h3>
+                  <p className="text-gray-700 mb-4"><strong>Limited exterior access.</strong> Focus on interior signs and emergency assessments only.</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800">Winter Limitations:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Icy conditions limit roof access</li>
+                        <li>• Snow conceals damage</li>
+                        <li>• Shortened daylight hours</li>
+                        <li>• Emergency-only roof work</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800">Interior Focus:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Attic ice dam indicators</li>
+                        <li>• Interior leak detection</li>
+                        <li>• Ventilation performance</li>
+                        <li>• Energy efficiency assessment</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance Claim Preparation & Support</h2>
+            <div className="max-w-5xl mx-auto space-y-8">
+              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                <h3 className="text-2xl font-bold text-blue-800 mb-4">Documentation Standards for Insurance</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Required Photography</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Overview shots:</strong> Entire roof from multiple angles</li>
+                      <li>• <strong>Close-up damage:</strong> Individual hail impacts, cracked shingles</li>
+                      <li>• <strong>Measurement references:</strong> Coins or rulers for scale</li>
+                      <li>• <strong>Comparative photos:</strong> Damaged vs. undamaged areas</li>
+                      <li>• <strong>Interior evidence:</strong> Water stains, attic damage</li>
+                      <li>• <strong>Serial numbers:</strong> Equipment, materials for matching</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Written Documentation</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Detailed damage list:</strong> Location, size, severity of each impact</li>
+                      <li>• <strong>Material specifications:</strong> Brand, model, age, color</li>
+                      <li>• <strong>Replacement cost estimates:</strong> Current market pricing</li>
+                      <li>• <strong>Code compliance notes:</strong> Required upgrades, permits</li>
+                      <li>• <strong>Weather data:</strong> Storm dates, hail size confirmation</li>
+                      <li>• <strong>Professional credentials:</strong> Inspector qualifications</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Working With Insurance Adjusters</h3>
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-2">Meeting Preparation</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Schedule during optimal weather</li>
+                        <li>• Provide ladder access if needed</li>
+                        <li>• Present organized documentation</li>
+                        <li>• Point out all damage areas</li>
+                        <li>• Explain repair necessity vs. cosmetic</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-2">Common Disputes</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Age vs. storm damage differentiation</li>
+                        <li>• Functional vs. cosmetic damage</li>
+                        <li>• Matching existing materials</li>
+                        <li>• Code upgrade requirements</li>
+                        <li>• Hidden damage discovery</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Claim Timeline Management</h3>
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-2">Critical Deadlines</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• <strong>Initial claim:</strong> Within days of storm</li>
+                        <li>• <strong>Full documentation:</strong> 30-60 days typical</li>
+                        <li>• <strong>Adjuster meeting:</strong> 2-4 weeks from claim</li>
+                        <li>• <strong>Dispute resolution:</strong> 30 days from denial</li>
+                        <li>• <strong>Statute of limitations:</strong> 1-2 years in Texas</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-2">Process Optimization</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• File claims immediately after storms</li>
+                        <li>• Document everything chronologically</li>
+                        <li>• Maintain communication records</li>
+                        <li>• Schedule professional inspections early</li>
+                        <li>• Prepare for potential appeals</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-400">
+                <h3 className="text-xl font-bold text-yellow-800 mb-3">⚠️ Insurance Claim Red Flags</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Avoid These Mistakes</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Never sign insurance checks before repairs complete</li>
+                      <li>• Don't accept initial lowball estimates</li>
+                      <li>• Avoid contractors demanding insurance payments</li>
+                      <li>• Don't start repairs before claim approval</li>
+                      <li>• Never hide pre-existing damage</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-2">Professional Representation</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Licensed contractors understand claims process</li>
+                      <li>• Professional inspectors carry credibility</li>
+                      <li>• Public adjusters available for complex claims</li>
+                      <li>• Legal counsel for disputed claims</li>
+                      <li>• Engineering assessments for structural issues</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Advanced Inspection Technologies</h2>
+            <div className="max-w-5xl mx-auto space-y-8">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-4xl mb-4">🚁</div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Drone Photography & Assessment</h3>
+                  <p className="text-gray-700 mb-4">High-resolution aerial imagery reveals damage invisible from ground level.</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800">Drone Advantages:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Safe inspection of steep or high roofs</li>
+                        <li>• 4K video documentation</li>
+                        <li>• Multiple angle coverage</li>
+                        <li>• Weather-safe operations</li>
+                        <li>• Detailed close-up capability</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800">Detection Capabilities:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Granule loss patterns</li>
+                        <li>• Hail impact distribution</li>
+                        <li>• Flashing separation issues</li>
+                        <li>• Ponding water locations</li>
+                        <li>• Structural alignment problems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="text-4xl mb-4">🌡️</div>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Thermal Imaging Inspections</h3>
+                  <p className="text-gray-700 mb-4">Infrared technology detects moisture intrusion and insulation deficiencies.</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800">Thermal Detection:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Hidden moisture infiltration</li>
+                        <li>• Insulation gaps and voids</li>
+                        <li>• Air leakage patterns</li>
+                        <li>• Heat loss visualization</li>
+                        <li>• Structural temperature variations</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800">Problem Identification:</h4>
+                      <ul className="space-y-1 text-gray-700">
+                        <li>• Water damage before visible stains</li>
+                        <li>• Energy efficiency issues</li>
+                        <li>• Ventilation inadequacies</li>
+                        <li>• Electrical hot spots</li>
+                        <li>• HVAC ductwork problems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Comprehensive Reporting Technology</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Digital Documentation</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• GPS-tagged photograph locations</li>
+                      <li>• Time-stamped evidence</li>
+                      <li>• Weather data correlation</li>
+                      <li>• Measurement overlay tools</li>
+                      <li>• Cloud-based storage backup</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Interactive Reports</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Clickable roof diagrams</li>
+                      <li>• Before/after comparisons</li>
+                      <li>• Zoom-enabled photography</li>
+                      <li>• Linked repair estimates</li>
+                      <li>• Mobile-friendly viewing</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Integration Features</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Direct insurance submission</li>
+                      <li>• Contractor estimate linking</li>
+                      <li>• Material specification databases</li>
+                      <li>• Code compliance checking</li>
+                      <li>• Progress tracking tools</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-lg border-2 border-blue-200">
             <h2 className="text-3xl font-bold mb-6 text-blue-800">Free Hail Damage Inspection</h2>
             <p className="text-lg text-gray-800 mb-6">

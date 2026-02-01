@@ -242,6 +242,214 @@ export default function EmergencyRoofRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Pampa County Seat Emergency Infrastructure Protection
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa serves as Gray County's seat and the governmental, educational, and healthcare hub for the northeastern Texas Panhandle, requiring emergency roofing services that prioritize critical public infrastructure, historical preservation, and multi-county service delivery. As home to county courts, public safety facilities, and regional healthcare operations, emergency response in Pampa affects service delivery across Gray County and neighboring communities.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Pampa Emergency Response Timeline</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-15 minutes:</strong> Emergency dispatch with governmental facility assessment</li>
+                <li><strong>15-60 minutes:</strong> Direct Highway 60 travel from Amarillo headquarters</li>
+                <li><strong>60-90 minutes:</strong> On-site arrival with public facility coordination</li>
+                <li><strong>90-180 minutes:</strong> Emergency protection for governmental operations</li>
+                <li><strong>3-8 hours:</strong> Governmental compliance documentation and continuity planning</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response for Gray County governmental facilities requires coordination with county officials, emergency management personnel, and state agencies to ensure continuity of public services during repair operations. Public safety facilities including law enforcement, fire services, and emergency medical operations receive priority response to maintain regional emergency capabilities.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Critical Infrastructure Emergency Protocols</h3>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Governmental Operations Continuity</h4>
+                <p className="text-gray-700 mb-4">Gray County courthouse and administrative buildings require immediate emergency response to maintain legal proceedings, public records access, and administrative operations that serve county residents and regional jurisdictions.</p>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• County courthouse emergency procedures</li>
+                  <li>• Administrative building priority response</li>
+                  <li>• Public records protection protocols</li>
+                  <li>• Emergency court operations maintenance</li>
+                  <li>• Multi-agency coordination requirements</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Public Safety Facility Protection</h4>
+                <p className="text-gray-700 mb-4">Law enforcement, fire department, and emergency medical facilities must maintain operational capability during emergency repairs to ensure continued public safety services for Gray County and mutual aid support for neighboring counties.</p>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• Police department facility continuity</li>
+                  <li>• Fire station operational maintenance</li>
+                  <li>• Emergency medical services protection</li>
+                  <li>• Communications center emergency protocols</li>
+                  <li>• Equipment and vehicle protection</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Healthcare and Educational Emergency Response</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa Regional Medical Center serves as the primary healthcare facility for Gray County and surrounding areas, requiring immediate emergency response to maintain patient care capability. Educational facilities including Pampa Independent School District and Clarendon College Pampa Center serve regional populations requiring minimal disruption during emergency repairs.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Healthcare Facility Emergency Priorities</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Hospital Emergency Response</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Patient care area immediate protection</li>
+                    <li>• Emergency department operational continuity</li>
+                    <li>• Critical care equipment protection</li>
+                    <li>• Pharmaceutical storage climate maintenance</li>
+                    <li>• Medical records and administrative protection</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Educational Facility Coordination</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• School district emergency coordination</li>
+                    <li>• Student safety during repair operations</li>
+                    <li>• Academic schedule accommodation</li>
+                    <li>• Athletic and extracurricular facility protection</li>
+                    <li>• Technology and equipment safeguarding</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Industrial and Agricultural Emergency Response</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Gray County's diverse economy includes petroleum operations, agricultural processing, and manufacturing facilities requiring specialized emergency response procedures. Celanese Corporation and other major employers operate critical facilities that cannot tolerate extended weather exposure without significant economic and operational consequences.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Industrial Emergency Response Protocols</h4>
+              <div className="grid md:grid-cols-3 gap-4">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Chemical Processing Facilities</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Celanese Corporation emergency coordination</li>
+                    <li>• Chemical safety protocol compliance</li>
+                    <li>• Environmental protection measures</li>
+                    <li>• Process continuation requirements</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Oil & Gas Operations</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Petroleum facility safety protocols</li>
+                    <li>• Compressor station emergency procedures</li>
+                    <li>• Pipeline infrastructure protection</li>
+                    <li>• Drilling operation coordination</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Agricultural Processing</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Grain elevator emergency response</li>
+                    <li>• Livestock facility protection</li>
+                    <li>• Feed processing plant coordination</li>
+                    <li>• Agricultural commodity protection</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Historical Preservation and Cultural Heritage Protection</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa's historical significance in Texas Panhandle development creates emergency response requirements for heritage buildings including the White Deer Land Museum, historic courthouse areas, and preserved pioneer structures that require specialized emergency techniques to maintain historical integrity while providing immediate weather protection.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Heritage Building Emergency Procedures</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Historical accuracy in emergency repairs</li>
+                  <li>• Period-appropriate materials when possible</li>
+                  <li>• Coordination with preservation societies</li>
+                  <li>• Documentation for historical significance</li>
+                  <li>• Minimal impact emergency techniques</li>
+                  <li>• Cultural heritage artifact protection</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Museum and Cultural Facility Protection</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• White Deer Land Museum emergency coordination</li>
+                  <li>• Artifact collection climate protection</li>
+                  <li>• Archival material preservation</li>
+                  <li>• Exhibition area emergency coverage</li>
+                  <li>• Research facility continuity maintenance</li>
+                  <li>• Public access area protection</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Regional Coordination and Multi-County Response</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa's role as a regional service center requires emergency response coordination with Roberts, Carson, Wheeler, and Donley counties during major weather events. Regional hospital services, governmental operations, and educational facilities serve multi-county populations, making rapid emergency response essential for maintaining broader regional service delivery.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Regional Emergency Response Coordination</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Multi-County Service Delivery</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Regional healthcare facility protection</li>
+                    <li>• Educational service continuity</li>
+                    <li>• Governmental operations for outlying areas</li>
+                    <li>• Economic development center protection</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Emergency Resource Coordination</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Panhandle Regional Planning Commission coordination</li>
+                    <li>• Multi-county mutual aid agreements</li>
+                    <li>• Regional emergency management integration</li>
+                    <li>• State agency coordination for public facilities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Weather Patterns and Emergency Preparedness</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Pampa's location in the heart of Tornado Alley and its position relative to the Canadian River valley creates unique weather challenges including enhanced tornado activity, severe hailstorms, and wind patterns that can intensify storm damage across governmental, industrial, and residential areas simultaneously.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-red-50 p-6 rounded-lg border border-red-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Severe Weather Emergency Planning</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Tornado Season Response (March-June)</h5>
+                    <p className="text-sm text-gray-700 mb-2">Enhanced emergency response capabilities during peak tornado season with pre-positioned crews and coordination with county emergency management for mass casualty events.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Hail Damage Emergency Response</h5>
+                    <p className="text-sm text-gray-700 mb-2">Rapid deployment protocols for widespread hail damage affecting governmental, educational, and healthcare facilities requiring simultaneous emergency response.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Climate Challenges and Material Selection</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Panhandle Wind Conditions</h5>
+                    <p className="text-sm text-gray-700 mb-2">Sustained high winds require enhanced fastening systems and specialized emergency materials designed for extreme wind loading conditions common to Gray County.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Temperature Extremes</h5>
+                    <p className="text-sm text-gray-700 mb-2">Emergency materials and application techniques adapted for temperature variations exceeding 100°F between winter lows and summer highs affecting material performance.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

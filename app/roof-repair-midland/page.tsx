@@ -299,6 +299,413 @@ export default function RoofRepairMidlandPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-orange-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Desert Climate Roof Protection Systems</h2>
+            <p className="text-lg text-gray-700 mb-8">Specialized techniques for combating the intense thermal stress and UV exposure unique to the Permian Basin region.</p>
+            
+            <div className="grid lg:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">🌡️ Thermal Management Solutions</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start">
+                    <div className="bg-red-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Cool Roof Technology</h4>
+                      <p className="text-gray-600">High-reflectance materials reducing surface temperatures by 50-80°F</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-blue-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Thermal Expansion Joints</h4>
+                      <p className="text-gray-600">Strategic placement to accommodate movement without failure</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-green-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Enhanced Ventilation Systems</h4>
+                      <p className="text-gray-600">Active and passive cooling to reduce attic temperatures</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-purple-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Radiant Barriers</h4>
+                      <p className="text-gray-600">Reflective insulation reducing heat transfer by up to 97%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">☀️ UV Protection Strategies</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start">
+                    <div className="bg-yellow-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">UV-Stabilized Materials</h4>
+                      <p className="text-gray-600">Advanced polymers and additives preventing degradation</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-orange-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-orange-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Protective Coatings</h4>
+                      <p className="text-gray-600">Ceramic and elastomeric coatings extending material life</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-indigo-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Color Selection Optimization</h4>
+                      <p className="text-gray-600">Light colors and reflective finishes reducing heat absorption</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-pink-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-pink-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Enhanced Granule Systems</h4>
+                      <p className="text-gray-600">Ceramic-coated granules with superior adhesion and UV resistance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Oil Industry Housing Specialization</h2>
+            <p className="text-lg text-gray-700 mb-8">Understanding the unique challenges of Midland's oil boom and bust cycles on residential construction and maintenance standards.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-amber-800">🛢️ Boom Period Construction (1970s-2000s)</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Rapid Development Shortcuts</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Lower-grade materials to meet high demand</li>
+                      <li>• Inadequate quality control during construction rush</li>
+                      <li>• Simplified designs prioritizing speed over longevity</li>
+                      <li>• Insufficient desert climate considerations</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Common Boom-Era Issues</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Substandard flashing installation</li>
+                      <li>• Inadequate attic ventilation systems</li>
+                      <li>• Poor fastener schedules and patterns</li>
+                      <li>• Incorrect underlayment specifications</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Retrofitting Requirements</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Ventilation system upgrades for desert conditions</li>
+                      <li>• Enhanced fastening for wind resistance</li>
+                      <li>• Modern flashing and waterproofing systems</li>
+                      <li>• Energy efficiency improvements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-green-50 to-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-green-800">🏡 Executive Home Challenges</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Complex Architectural Features</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Multiple elevation changes and valleys</li>
+                      <li>• Intricate flashing requirements</li>
+                      <li>• Premium material specifications</li>
+                      <li>• Custom color and style matching</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Specialized Access Requirements</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Landscaping and hardscape protection</li>
+                      <li>• Security system considerations</li>
+                      <li>• Architectural detail preservation</li>
+                      <li>• HOA compliance and approval processes</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">High-End Material Systems</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Designer shingle lines and specialty tiles</li>
+                      <li>• Custom metal roofing systems</li>
+                      <li>• Advanced gutter and downspout designs</li>
+                      <li>• Integrated solar and smart home systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-blue-50 to-gray-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Desert Climate Repair Process</h2>
+            <p className="text-lg text-gray-700 mb-8">Our specialized methodology addresses the unique challenges of extreme desert conditions in the Permian Basin.</p>
+            
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 1: Desert-Specific Damage Assessment</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">Thermal Stress Evaluation</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Expansion/contraction crack mapping</li>
+                      <li>• Fastener fatigue assessment</li>
+                      <li>• Sealant failure documentation</li>
+                      <li>• Structural movement analysis</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">UV Degradation Analysis</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Granule loss quantification</li>
+                      <li>• Material brittleness testing</li>
+                      <li>• Color fade assessment</li>
+                      <li>• Protective coating evaluation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">Energy Efficiency Review</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Attic temperature measurement</li>
+                      <li>• Ventilation adequacy assessment</li>
+                      <li>• Insulation condition evaluation</li>
+                      <li>• Cool roof potential analysis</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 2: Desert-Rated Material Selection</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">Performance Criteria</h4>
+                    <div className="space-y-2">
+                      <div className="bg-gray-50 p-3 rounded">
+                        <span className="font-semibold">Temperature Rating:</span> -20°F to 180°F operational range
+                      </div>
+                      <div className="bg-gray-50 p-3 rounded">
+                        <span className="font-semibold">UV Resistance:</span> 20+ year UV stability certification
+                      </div>
+                      <div className="bg-gray-50 p-3 rounded">
+                        <span className="font-semibold">Solar Reflectance:</span> 0.65+ initial reflectivity rating
+                      </div>
+                      <div className="bg-gray-50 p-3 rounded">
+                        <span className="font-semibold">Wind Rating:</span> 110+ mph sustained wind resistance
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">Recommended Systems</h4>
+                    <div className="space-y-2">
+                      <div className="bg-green-50 p-3 rounded border-l-4 border-green-500">
+                        <span className="font-semibold text-green-800">Cool Roof Shingles:</span> GAF Timberline Cool Series, Owens Corning TruDefinition Cool
+                      </div>
+                      <div className="bg-blue-50 p-3 rounded border-l-4 border-blue-500">
+                        <span className="font-semibold text-blue-800">Metal Systems:</span> Standing seam with PVDF coatings, high-reflectance finishes
+                      </div>
+                      <div className="bg-purple-50 p-3 rounded border-l-4 border-purple-500">
+                        <span className="font-semibold text-purple-800">Tile Options:</span> Concrete tiles with thermal barrier coatings
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 3: Installation with Climate Adaptations</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">Thermal Management Installation</h4>
+                    <ul className="text-gray-700 space-y-2">
+                      <li>• Enhanced ventilation system installation</li>
+                      <li>• Radiant barrier integration</li>
+                      <li>• Thermal expansion accommodation</li>
+                      <li>• Cool roof technology implementation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-3 text-gray-800">Quality Assurance Protocols</h4>
+                    <ul className="text-gray-700 space-y-2">
+                      <li>• Temperature stress testing</li>
+                      <li>• Thermal imaging verification</li>
+                      <li>• Fastener torque specifications</li>
+                      <li>• Sealant adhesion testing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Oil Boom vs Bust Cycle Roofing Strategy</h2>
+            <p className="text-lg text-gray-700 mb-8 text-center">Strategic timing and planning considerations for roofing projects based on Midland's economic cycles.</p>
+            
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-red-800">💰 Boom Period Considerations</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2 text-red-700">Market Conditions</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Labor costs 15-25% above regional averages</li>
+                      <li>• Material shortages and extended lead times</li>
+                      <li>• High demand requiring advance scheduling</li>
+                      <li>• Premium pricing for emergency services</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2 text-red-700">Strategic Advantages</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Higher property values justify premium materials</li>
+                      <li>• Access to latest roofing technologies</li>
+                      <li>• Enhanced warranty options available</li>
+                      <li>• Improved resale value from quality upgrades</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2 text-red-700">Timing Recommendations</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Schedule preventive maintenance to avoid emergencies</li>
+                      <li>• Plan major projects 6-12 months in advance</li>
+                      <li>• Consider off-season scheduling for better pricing</li>
+                      <li>• Bundle multiple properties for volume discounts</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-green-800">📉 Bust Period Opportunities</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2 text-green-700">Market Advantages</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Normalized labor costs and availability</li>
+                      <li>• Competitive pricing from contractors</li>
+                      <li>• Faster project scheduling and completion</li>
+                      <li>• Better attention to detail and quality</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2 text-green-700">Investment Strategy</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Optimal time for major roof replacements</li>
+                      <li>• Energy efficiency upgrades for long-term savings</li>
+                      <li>• Property improvement for next boom cycle</li>
+                      <li>• Preventive maintenance to extend roof life</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-bold mb-2 text-green-700">Quality Focus</h4>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      <li>• Thorough inspections and proper diagnosis</li>
+                      <li>• Premium materials at competitive pricing</li>
+                      <li>• Enhanced workmanship with careful scheduling</li>
+                      <li>• Extended warranties and maintenance programs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Energy Efficiency & Cost Savings</h2>
+            <p className="text-lg text-gray-700 mb-8">Desert climate roofing improvements that deliver immediate and long-term energy savings for Midland homeowners.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Cool Roof Technology Benefits</h3>
+                <div className="space-y-3">
+                  <div className="bg-blue-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Temperature Reduction</h4>
+                    <p className="text-gray-600 text-sm">Surface temperatures reduced by 50-80°F compared to standard dark roofs, significantly lowering cooling costs</p>
+                  </div>
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Energy Cost Savings</h4>
+                    <p className="text-gray-600 text-sm">15-40% reduction in summer cooling costs, with payback periods of 3-7 years in Midland's climate</p>
+                  </div>
+                  <div className="bg-purple-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Extended Equipment Life</h4>
+                    <p className="text-gray-600 text-sm">HVAC systems last longer with reduced thermal stress, lowering replacement and maintenance costs</p>
+                  </div>
+                  <div className="bg-orange-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Property Value Enhancement</h4>
+                    <p className="text-gray-600 text-sm">Energy-efficient roofing increases home value and marketability in Midland's competitive real estate market</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">ROI Analysis for Desert Climate Improvements</h3>
+                <div className="space-y-3">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Initial Investment Recovery</h4>
+                    <div className="text-sm text-gray-700">
+                      <p className="mb-2"><strong>Cool Roof Upgrade:</strong> $2,000-4,500 additional cost</p>
+                      <p className="mb-2"><strong>Annual Savings:</strong> $300-800 in energy costs</p>
+                      <p><strong>Payback Period:</strong> 3-7 years</p>
+                    </div>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Long-Term Value</h4>
+                    <div className="text-sm text-gray-700">
+                      <p className="mb-2"><strong>Extended Roof Life:</strong> 5-10 years additional lifespan</p>
+                      <p className="mb-2"><strong>HVAC Savings:</strong> $1,500-3,000 in deferred replacement costs</p>
+                      <p><strong>Total 20-Year Savings:</strong> $15,000-25,000</p>
+                    </div>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Incentives & Rebates</h4>
+                    <div className="text-sm text-gray-700">
+                      <p className="mb-2"><strong>Utility Rebates:</strong> Available for cool roof installations</p>
+                      <p className="mb-2"><strong>Tax Credits:</strong> Federal energy efficiency incentives</p>
+                      <p><strong>Insurance Discounts:</strong> Potential premium reductions</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services</h2>
             <div className="grid md:grid-cols-3 gap-6">

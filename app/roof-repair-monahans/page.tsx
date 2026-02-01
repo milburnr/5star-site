@@ -283,10 +283,376 @@ export default function RoofRepairMonahansPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Desert Climate Repair Process</h2>
+            <p className="text-lg text-gray-700 mb-8">Our specialized methodology addresses the unique intersection of desert conditions and oil industry requirements in the Monahans area.</p>
+            
+            <div className="grid lg:grid-cols-3 gap-6 mb-8">
+              <div className="text-center p-6 bg-orange-50 rounded-xl">
+                <div className="text-4xl mb-4">🏜️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Desert Assessment</h3>
+                <p className="text-gray-700">Comprehensive evaluation of sand abrasion, thermal stress, and UV degradation specific to Chihuahuan Desert conditions.</p>
+              </div>
+              <div className="text-center p-6 bg-blue-50 rounded-xl">
+                <div className="text-4xl mb-4">🛢️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Field Expertise</h3>
+                <p className="text-gray-700">Specialized knowledge of chemical exposure, industrial vibration, and facility-specific requirements for Permian Basin operations.</p>
+              </div>
+              <div className="text-center p-6 bg-green-50 rounded-xl">
+                <div className="text-4xl mb-4">⚡</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
+                <p className="text-gray-700">Rapid mobilization for hail and wind damage with extensive experience in Ward County storm patterns and insurance requirements.</p>
+              </div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Phase-by-Phase Repair Methodology</h3>
+              
+              <div className="space-y-6">
+                <div className="border-l-4 border-orange-500 pl-6">
+                  <h4 className="text-xl font-bold mb-3 text-orange-700">Phase 1: Environmental Impact Analysis</h4>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <h5 className="font-semibold mb-2">Desert Climate Assessment</h5>
+                      <ul className="text-gray-700 text-sm space-y-1">
+                        <li>• Sand penetration and abrasion damage mapping</li>
+                        <li>• Thermal cycling stress crack identification</li>
+                        <li>• UV degradation intensity measurement</li>
+                        <li>• Heat island effect evaluation</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold mb-2">Industrial Environment Review</h5>
+                      <ul className="text-gray-700 text-sm space-y-1">
+                        <li>• Chemical exposure assessment</li>
+                        <li>• Vibration and structural stress analysis</li>
+                        <li>• Air quality impact evaluation</li>
+                        <li>• Safety compliance requirements</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border-l-4 border-blue-500 pl-6">
+                  <h4 className="text-xl font-bold mb-3 text-blue-700">Phase 2: Storm Damage Documentation</h4>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <h5 className="font-semibold mb-2">Hail Impact Analysis</h5>
+                      <ul className="text-gray-700 text-sm space-y-1">
+                        <li>• Impact crater size and depth measurement</li>
+                        <li>• Granule loss percentage calculation</li>
+                        <li>• Structural penetration assessment</li>
+                        <li>• Secondary damage identification</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold mb-2">Wind Damage Evaluation</h5>
+                      <ul className="text-gray-700 text-sm space-y-1">
+                        <li>• Uplift and edge metal damage</li>
+                        <li>• Fastener failure pattern analysis</li>
+                        <li>• Debris impact assessment</li>
+                        <li>• Membrane scour evaluation</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border-l-4 border-green-500 pl-6">
+                  <h4 className="text-xl font-bold mb-3 text-green-700">Phase 3: Material Selection & Installation</h4>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div>
+                      <h5 className="font-semibold mb-2">Desert-Rated Materials</h5>
+                      <ul className="text-gray-700 text-sm space-y-1">
+                        <li>• High-temperature rated membranes</li>
+                        <li>• UV-stabilized polymer systems</li>
+                        <li>• Sand-resistant surface textures</li>
+                        <li>• Thermal expansion compatible designs</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold mb-2">Installation Protocols</h5>
+                      <ul className="text-gray-700 text-sm space-y-1">
+                        <li>• Temperature-specific installation windows</li>
+                        <li>• Enhanced fastening for high winds</li>
+                        <li>• Sand infiltration prevention measures</li>
+                        <li>• Chemical resistance verification</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Ward County Area Coverage</h2>
+            <p className="text-lg text-gray-700 mb-8">Comprehensive roofing services throughout Ward County's diverse residential, commercial, and industrial zones.</p>
+            
+            <div className="grid lg:grid-cols-4 gap-6">
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Central Monahans</h3>
+                <p className="text-gray-600 mb-3 text-sm">Historic downtown and established residential areas</p>
+                <ul className="text-xs text-gray-700 space-y-1">
+                  <li>• Downtown business district</li>
+                  <li>• Residential neighborhoods near schools</li>
+                  <li>• Municipal and government buildings</li>
+                  <li>• Historic property preservation</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">North Monahans</h3>
+                <p className="text-gray-600 mb-3 text-sm">Modern residential and light commercial development</p>
+                <ul className="text-xs text-gray-700 space-y-1">
+                  <li>• Newer residential developments</li>
+                  <li>• Medical and professional offices</li>
+                  <li>• Educational facilities</li>
+                  <li>• Community service buildings</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Industrial Corridor</h3>
+                <p className="text-gray-600 mb-3 text-sm">Oil field support and heavy industrial facilities</p>
+                <ul className="text-xs text-gray-700 space-y-1">
+                  <li>• Oil field service companies</li>
+                  <li>• Heavy equipment facilities</li>
+                  <li>• Storage and distribution centers</li>
+                  <li>• Transportation terminals</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Rural Ward County</h3>
+                <p className="text-gray-600 mb-3 text-sm">Remote properties and specialized facilities</p>
+                <ul className="text-xs text-gray-700 space-y-1">
+                  <li>• Ranch and agricultural properties</li>
+                  <li>• Remote oil field installations</li>
+                  <li>• Sand mine operations</li>
+                  <li>• Recreation area facilities</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Permian Basin Material Specifications</h2>
+            <p className="text-lg text-gray-700 mb-8">Advanced material systems engineered to withstand the unique combination of desert climate and oil industry environmental challenges.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-4 text-green-700">✅ Recommended Systems for Monahans</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-green-500 pl-4">
+                    <h4 className="font-bold mb-1">Modified Bitumen Systems</h4>
+                    <p className="text-gray-600 text-sm mb-2">Superior performance in extreme heat with sand-resistant surfaces</p>
+                    <ul className="text-xs text-gray-600 space-y-1">
+                      <li>• SBS polymer modification for flexibility</li>
+                      <li>• Granular surface for abrasion resistance</li>
+                      <li>• Heat-welded seams for durability</li>
+                    </ul>
+                  </div>
+                  <div className="border-l-4 border-blue-500 pl-4">
+                    <h4 className="font-bold mb-1">TPO Cool Roof Membranes</h4>
+                    <p className="text-gray-600 text-sm mb-2">Energy-efficient white membranes reflecting desert heat</p>
+                    <ul className="text-xs text-gray-600 space-y-1">
+                      <li>• 0.80+ solar reflectance rating</li>
+                      <li>• Chemical resistance for industrial areas</li>
+                      <li>• Heat-welded seam integrity</li>
+                    </ul>
+                  </div>
+                  <div className="border-l-4 border-purple-500 pl-4">
+                    <h4 className="font-bold mb-1">Metal Roofing Systems</h4>
+                    <p className="text-gray-600 text-sm mb-2">Standing seam systems for maximum durability and efficiency</p>
+                    <ul className="text-xs text-gray-600 space-y-1">
+                      <li>• 26-gauge galvanized steel minimum</li>
+                      <li>• PVDF coating systems</li>
+                      <li>• Concealed fastening systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-4 text-red-700">❌ Materials to Avoid in Desert Conditions</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-red-500 pl-4">
+                    <h4 className="font-bold mb-1">Standard EPDM Membranes</h4>
+                    <p className="text-gray-600 text-sm">Poor UV resistance and thermal cycling performance</p>
+                  </div>
+                  <div className="border-l-4 border-orange-500 pl-4">
+                    <h4 className="font-bold mb-1">Built-Up Roofing (BUR)</h4>
+                    <p className="text-gray-600 text-sm">Thermal stress causes premature cracking and failure</p>
+                  </div>
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <h4 className="font-bold mb-1">Dark-Colored Materials</h4>
+                    <p className="text-gray-600 text-sm">Excessive heat absorption accelerates deterioration</p>
+                  </div>
+                  <div className="border-l-4 border-pink-500 pl-4">
+                    <h4 className="font-bold mb-1">Spray Foam Applications</h4>
+                    <p className="text-gray-600 text-sm">Sand infiltration and UV degradation issues</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Energy Efficiency in Desert Climate</h2>
+            <p className="text-lg text-gray-700 mb-8">Maximizing energy performance while minimizing environmental impact in extreme desert conditions.</p>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-blue-700">Cool Roof Benefits</h3>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• 30-50% cooling cost reduction</li>
+                  <li>• Surface temperature reduction up to 80°F</li>
+                  <li>• Extended equipment life</li>
+                  <li>• Reduced urban heat island effect</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-green-700">Insulation Upgrades</h3>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• High-R value insulation systems</li>
+                  <li>• Thermal bridge elimination</li>
+                  <li>• Moisture vapor control</li>
+                  <li>• Fire-resistant materials</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold mb-3 text-purple-700">Ventilation Solutions</h3>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Powered ventilation systems</li>
+                  <li>• Solar-powered exhaust fans</li>
+                  <li>• Ridge and soffit venting</li>
+                  <li>• Balanced airflow design</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="bg-white p-6 rounded-xl">
+              <h3 className="text-xl font-bold mb-4 text-brand-brown">ROI Analysis for Desert Properties</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold mb-3">Investment Recovery Timeline</h4>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Cool Roof Upgrade:</span>
+                      <span className="font-semibold">3-5 years</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Insulation Enhancement:</span>
+                      <span className="font-semibold">4-7 years</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Complete System:</span>
+                      <span className="font-semibold">6-10 years</span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-bold mb-3">Annual Savings Potential</h4>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Residential (avg):</span>
+                      <span className="font-semibold">$400-800</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Small Commercial:</span>
+                      <span className="font-semibold">$1,200-3,000</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Industrial:</span>
+                      <span className="font-semibold">$3,000-8,000</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Ward County Roofing Investment Guide</h2>
+            <p className="text-lg text-gray-700 mb-8 text-center">Understanding repair costs in the context of Permian Basin market conditions and desert climate requirements.</p>
+            
+            <div className="grid lg:grid-cols-3 gap-8 mb-8">
+              <div className="text-center p-8 bg-green-50 rounded-2xl">
+                <h3 className="text-2xl font-bold text-green-700 mb-4">Standard Repairs</h3>
+                <p className="text-4xl font-bold text-green-800 mb-4">$375-850</p>
+                <ul className="text-gray-700 space-y-2 mb-6">
+                  <li>• Membrane patching</li>
+                  <li>• Flashing repairs</li>
+                  <li>• Minor leak fixes</li>
+                  <li>• Preventive maintenance</li>
+                </ul>
+                <p className="text-sm text-gray-600">Typical turnaround: 1-2 days</p>
+              </div>
+              
+              <div className="text-center p-8 bg-yellow-50 rounded-2xl border-4 border-yellow-300">
+                <div className="text-center mb-4">
+                  <span className="bg-yellow-600 text-white px-4 py-1 rounded-full text-sm font-bold">MOST COMMON</span>
+                </div>
+                <h3 className="text-2xl font-bold text-yellow-700 mb-4">Storm Damage</h3>
+                <p className="text-4xl font-bold text-yellow-800 mb-4">$850-2,400</p>
+                <ul className="text-gray-700 space-y-2 mb-6">
+                  <li>• Hail damage restoration</li>
+                  <li>• Wind uplift repair</li>
+                  <li>• Section replacement</li>
+                  <li>• Insurance claim work</li>
+                </ul>
+                <p className="text-sm text-gray-600">Typical turnaround: 3-7 days</p>
+              </div>
+              
+              <div className="text-center p-8 bg-red-50 rounded-2xl">
+                <h3 className="text-2xl font-bold text-red-700 mb-4">Complete Restoration</h3>
+                <p className="text-4xl font-bold text-red-800 mb-4">$2,400-6,200</p>
+                <ul className="text-gray-700 space-y-2 mb-6">
+                  <li>• Full system replacement</li>
+                  <li>• Structural repairs</li>
+                  <li>• Energy efficiency upgrades</li>
+                  <li>• Industrial specifications</li>
+                </ul>
+                <p className="text-sm text-gray-600">Typical turnaround: 1-2 weeks</p>
+              </div>
+            </div>
+            
+            <div className="bg-orange-50 p-6 rounded-xl">
+              <h3 className="text-xl font-bold mb-3 text-orange-800">Ward County Market Factors</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold mb-2">Cost Influences</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• Oil industry activity affects labor costs</li>
+                    <li>• Desert-rated materials carry 10-15% premium</li>
+                    <li>• Remote locations may include travel charges</li>
+                    <li>• Emergency service availability 24/7</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Value Considerations</h4>
+                  <ul className="text-gray-700 space-y-1 text-sm">
+                    <li>• Extended warranties in desert conditions</li>
+                    <li>• Energy savings offset higher initial costs</li>
+                    <li>• Insurance premium reductions possible</li>
+                    <li>• Property value enhancement in oil markets</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Monahans Roof Repair FAQ</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Comprehensive Roofing FAQ</h2>
             <Accordion type="single" collapsible className="space-y-4">
-              <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
+              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
                   How does desert sand affect roofing systems in Monahans?
                 </AccordionTrigger>
@@ -294,7 +660,7 @@ export default function RoofRepairMonahansPage() {
                   Desert sand creates abrasive conditions that gradually wear down roofing materials, especially during high-wind events. Sand infiltrates into seams, clogs drainage systems, and acts like sandpaper on surfaces. We use specialized sealants and design details to minimize sand infiltration while selecting materials with superior abrasion resistance for long-term performance.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
+              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
                   What makes Permian Basin hailstorms particularly damaging?
                 </AccordionTrigger>
@@ -302,7 +668,75 @@ export default function RoofRepairMonahansPage() {
                   Permian Basin supercells form rapidly in the desert heat and can produce some of Texas's largest hailstones. The combination of strong updrafts, minimal terrain interference, and dry air layers creates perfect conditions for hail growth. These storms often approach with little warning, making impact-resistant roofing systems essential for Ward County properties.
                 </AccordionContent>
               </AccordionItem>
+              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  Why do roofing materials fail faster in Monahans compared to other Texas cities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Monahans combines three accelerated aging factors: extreme UV radiation at 2,600+ feet elevation, thermal cycling with surface temperatures exceeding 150°F, and constant sand abrasion from desert winds. This trinity of environmental stressors can reduce typical roofing material life by 30-40% compared to moderate climates, making material selection critical for long-term performance.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  How do oil field operations affect nearby roofing systems?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Oil field operations introduce chemical exposure from drilling fluids and produced water, vibration from heavy equipment, and particulate contamination from industrial activities. These factors require specialized material selection including chemical-resistant membranes, enhanced fastening systems, and more frequent maintenance schedules for properties within 2-3 miles of active operations.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  What permits are required for roof repairs in Ward County?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Ward County requires permits for structural modifications, complete roof replacements, and any work involving electrical or mechanical systems. Minor repairs under $500 typically don't require permits. For oil field facilities, additional environmental and safety permits may be required. We handle all permit applications and ensure compliance with county building codes and oil industry safety standards.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  When is the best time to schedule roof repairs in Monahans?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Late fall through early spring (October-March) offers the most stable weather and moderate temperatures for optimal installation conditions. Avoid summer heat that can make materials too hot to handle safely, and spring storm season when severe weather can interrupt work. Emergency repairs are available year-round, but planned projects should target the cooler months for best results.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
+                <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
+                  How does proximity to the Monahans Sandhills affect roofing maintenance?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pt-4">
+                  Properties near the Monahans Sandhills State Park experience increased sand exposure and require more frequent maintenance. Sand particles penetrate into drainage systems, accelerate granule loss on shingles, and can clog ventilation systems. We recommend quarterly inspections and annual professional cleaning for properties within 5 miles of active sand dune areas.
+                </AccordionContent>
+              </AccordionItem>
             </Accordion>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Specialized Services</h2>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Desert Storm Repair</h3>
+                <p className="text-gray-600 mb-4 text-sm">24/7 emergency response for sandstorm and severe weather damage throughout Ward County</p>
+                <a href="/emergency-roof-repair-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Industrial Roofing</h3>
+                <p className="text-gray-600 mb-4 text-sm">Specialized systems for oil field facilities and chemical-resistant applications</p>
+                <a href="/commercial-roofing-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Cool Roof Installation</h3>
+                <p className="text-gray-600 mb-4 text-sm">Energy-efficient systems reducing cooling costs in desert conditions</p>
+                <a href="/energy-efficient-roofing-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Metal Roofing Systems</h3>
+                <p className="text-gray-600 mb-4 text-sm">Standing seam and corrugated systems for maximum durability and efficiency</p>
+                <a href="/metal-roofing-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

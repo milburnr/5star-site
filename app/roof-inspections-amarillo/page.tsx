@@ -275,6 +275,248 @@ export default function RoofInspectionsAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Step-by-Step Inspection Process</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Phase 1: Exterior Assessment (30-45 minutes)</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Ground-Level Survey</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Overall Condition:</strong> Roof shape, ridge alignment, gutter attachment</li>
+                      <li>• <strong>Visible Damage:</strong> Missing shingles, obvious impact marks, debris</li>
+                      <li>• <strong>Drainage Assessment:</strong> Water flow patterns, ponding areas</li>
+                      <li>• <strong>Safety Evaluation:</strong> Structural stability before roof access</li>
+                      <li>• <strong>Documentation Setup:</strong> Photo equipment, measurement tools</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Detailed Roof Access Inspection</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Surface Walking:</strong> Careful examination of every roof section</li>
+                      <li>• <strong>Material Testing:</strong> Flexibility, adhesion, granule retention</li>
+                      <li>• <strong>Impact Assessment:</strong> Hail damage measurement and documentation</li>
+                      <li>• <strong>Flashing Examination:</strong> All penetrations and transitions</li>
+                      <li>• <strong>Ventilation Check:</strong> Ridge vents, soffit intake functionality</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Phase 2: Interior Investigation (15-30 minutes)</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Attic Space Analysis</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Structural Components:</strong> Rafters, trusses, decking condition</li>
+                      <li>• <strong>Insulation Assessment:</strong> R-value, settling, pest damage</li>
+                      <li>• <strong>Ventilation Airflow:</strong> Intake and exhaust balance</li>
+                      <li>• <strong>Electrical Inspection:</strong> Wiring safety, junction boxes</li>
+                      <li>• <strong>HVAC Equipment:</strong> Ductwork, units, condensation issues</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Moisture & Air Quality</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Active Leaks:</strong> Current water intrusion identification</li>
+                      <li>• <strong>Historical Damage:</strong> Old stains, repair evidence</li>
+                      <li>• <strong>Mold Detection:</strong> Growth patterns, air quality concerns</li>
+                      <li>• <strong>Vapor Barriers:</strong> Installation integrity, effectiveness</li>
+                      <li>• <strong>Pest Evidence:</strong> Animal intrusion, damage assessment</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Phase 3: Technology Integration (15-20 minutes)</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Advanced Detection Methods</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Thermal Imaging:</strong> Hidden moisture, insulation voids</li>
+                      <li>• <strong>Moisture Meters:</strong> Quantitative water content measurement</li>
+                      <li>• <strong>Drone Survey:</strong> High-resolution aerial documentation</li>
+                      <li>• <strong>Digital Measurement:</strong> Precise damage quantification</li>
+                      <li>• <strong>GPS Mapping:</strong> Damage location coordination</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Data Collection & Analysis</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Photo Organization:</strong> Systematic damage documentation</li>
+                      <li>• <strong>Measurement Recording:</strong> Precise size and scope data</li>
+                      <li>• <strong>Condition Scoring:</strong> Standardized assessment ratings</li>
+                      <li>• <strong>Repair Prioritization:</strong> Urgent vs. routine maintenance</li>
+                      <li>• <strong>Cost Estimation:</strong> Preliminary repair budget development</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Amarillo Roof Inspectors Look For</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Critical Damage Indicators</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🌨️ Hail Impact Signatures</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Exposed Mat:</strong> Asphalt showing through granule loss</li>
+                      <li>• <strong>Circular Bruising:</strong> Rounded impact marks from ice stones</li>
+                      <li>• <strong>Soft Spots:</strong> Areas where underlayment is compromised</li>
+                      <li>• <strong>Granule Scatter:</strong> Impact pattern distribution</li>
+                      <li>• <strong>Edge Damage:</strong> Tab cracking from glancing blows</li>
+                      <li>• <strong>Metal Denting:</strong> Flashing, gutters, vents impacted</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">💨 Wind Damage Patterns</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Uplift Marks:</strong> Shingle lifting and resealing</li>
+                      <li>• <strong>Fastener Exposure:</strong> Nails or screws visible</li>
+                      <li>• <strong>Edge Tearing:</strong> Gutter line and eave damage</li>
+                      <li>• <strong>Progressive Failure:</strong> Sequential shingle loss patterns</li>
+                      <li>• <strong>Blow-off Damage:</strong> Complete material removal</li>
+                      <li>• <strong>Debris Impact:</strong> Projectile damage from wind-borne objects</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">☀️ Heat & UV Deterioration</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Granule Migration:</strong> UV-accelerated granule loss</li>
+                      <li>• <strong>Thermal Cracking:</strong> Expansion/contraction damage</li>
+                      <li>• <strong>Curling & Cupping:</strong> Heat-induced shingle distortion</li>
+                      <li>• <strong>Brittleness:</strong> Loss of flexibility from UV exposure</li>
+                      <li>• <strong>Color Fading:</strong> Uniform deterioration patterns</li>
+                      <li>• <strong>Sealant Failure:</strong> Heat-degraded adhesive compounds</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Structural Integrity Assessment</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Load-Bearing Components</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Roof Decking Evaluation</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Sagging or deflection under load</li>
+                          <li>• Water damage and delamination</li>
+                          <li>• Fastener withdrawal and loose panels</li>
+                          <li>• Age-related deterioration assessment</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Framing System Inspection</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Rafter and truss condition</li>
+                          <li>• Connection integrity at joints</li>
+                          <li>• Span adequacy for snow loads</li>
+                          <li>• Settlement or movement indicators</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Weather Resistance Features</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Wind Uplift Resistance</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Fastener pattern and spacing compliance</li>
+                          <li>• Edge and corner reinforcement</li>
+                          <li>• Perimeter securement adequacy</li>
+                          <li>• Code compliance for Amarillo wind zones</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Water Penetration Protection</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Ice and water shield placement</li>
+                          <li>• Underlayment integrity and overlap</li>
+                          <li>• Flashing installation quality</li>
+                          <li>• Drainage slope adequacy</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Documentation Standards</h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Professional Photography Requirements</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Standard Documentation Shots</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Four-Corner Overview:</strong> Complete roof visibility from all angles</li>
+                      <li>• <strong>Close-up Damage:</strong> Individual impacts with measurement references</li>
+                      <li>• <strong>Comparative Analysis:</strong> Damaged vs. undamaged material samples</li>
+                      <li>• <strong>Context Photography:</strong> Damage in relation to surrounding structures</li>
+                      <li>• <strong>Serial Identification:</strong> Equipment models, material brands</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Technical Specifications</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>High Resolution:</strong> Minimum 12MP for detail clarity</li>
+                      <li>• <strong>GPS Metadata:</strong> Location coordinates embedded</li>
+                      <li>• <strong>Timestamp Accuracy:</strong> Verified date/time documentation</li>
+                      <li>• <strong>Scale References:</strong> Coins, rulers for size context</li>
+                      <li>• <strong>Lighting Standards:</strong> Consistent exposure across shots</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Report Content Standards</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Required Documentation Elements</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Damage Inventory:</strong> Complete catalog with locations</li>
+                      <li>• <strong>Severity Classifications:</strong> Immediate vs. long-term concerns</li>
+                      <li>• <strong>Material Specifications:</strong> Brand, color, age documentation</li>
+                      <li>• <strong>Weather Correlation:</strong> Storm date and intensity data</li>
+                      <li>• <strong>Code Compliance:</strong> Current standard requirements</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Professional Assessment Components</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Scope of Work:</strong> Detailed repair specifications</li>
+                      <li>• <strong>Cost Estimates:</strong> Material and labor pricing</li>
+                      <li>• <strong>Timeline Projections:</strong> Repair duration estimates</li>
+                      <li>• <strong>Warranty Information:</strong> Coverage details and limitations</li>
+                      <li>• <strong>Inspector Credentials:</strong> Certifications and experience</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">

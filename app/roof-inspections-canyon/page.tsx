@@ -220,6 +220,427 @@ export default function RoofInspectionsCanyonPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Canyon's Unique Geographic Challenges</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Palo Duro Canyon Microclimate Effects</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏔️ Canyon Wind Patterns</h4>
+                    <p className="text-gray-700 mb-4">The proximity to Palo Duro Canyon creates unique wind patterns and thermal effects that intensify weather conditions.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Wind Acceleration:</strong> Canyon walls create venturi effects increasing wind speeds</li>
+                      <li>• <strong>Thermal Updrafts:</strong> Canyon heating creates convective instability</li>
+                      <li>• <strong>Turbulence Zones:</strong> Irregular airflow patterns near canyon rim</li>
+                      <li>• <strong>Direction Changes:</strong> Rapid wind direction shifts from canyon effects</li>
+                      <li>• <strong>Pressure Variations:</strong> Elevation changes affecting atmospheric pressure</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">⛈️ Enhanced Storm Formation</h4>
+                    <p className="text-gray-700 mb-4">The canyon's geography contributes to supercell formation and intensification over the region.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Orographic Lifting:</strong> Canyon topography enhancing storm development</li>
+                      <li>• <strong>Convergence Zones:</strong> Air mass interactions creating severe weather</li>
+                      <li>• <strong>Hail Growth:</strong> Extended updraft time from terrain effects</li>
+                      <li>• <strong>Wind Shear:</strong> Varying wind speeds at different elevations</li>
+                      <li>• <strong>Temperature Gradients:</strong> Canyon thermal effects intensifying storms</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">University District Considerations</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏫 West Texas A&M University Impact</h4>
+                    <p className="text-gray-700 mb-4">University presence creates unique building densities and architectural challenges affecting local weather patterns.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Building Heat Islands:</strong> Campus structures affecting local temperatures</li>
+                      <li>• <strong>Wind Patterns:</strong> Large buildings creating turbulence and channeling</li>
+                      <li>• <strong>Drainage Issues:</strong> Impermeable surfaces affecting water flow</li>
+                      <li>• <strong>Historic Buildings:</strong> Older structures with unique requirements</li>
+                      <li>• <strong>Dormitory Density:</strong> Multiple-story buildings with complex rooflines</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏘️ Residential Development Patterns</h4>
+                    <p className="text-gray-700 mb-4">Canyon's growth around the university creates diverse housing stock requiring specialized inspection approaches.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Student Housing:</strong> High-occupancy rental property considerations</li>
+                      <li>• <strong>Faculty Neighborhoods:</strong> Quality construction with specific maintenance needs</li>
+                      <li>• <strong>Historic Districts:</strong> Older homes with original roofing materials</li>
+                      <li>• <strong>New Developments:</strong> Modern materials and construction techniques</li>
+                      <li>• <strong>Mixed Use:</strong> Commercial and residential integration challenges</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Comprehensive Canyon Inspection Process</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Geographic-Specific Assessment Protocol</h3>
+                <div className="space-y-6">
+                  <div className="border-l-4 border-purple-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Terrain-Influenced Weather Damage Analysis (25 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Canyon Wind Effect Assessment</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Wind pressure variation mapping across roof</li>
+                          <li>• Venturi effect damage identification</li>
+                          <li>• Turbulence-induced fatigue patterns</li>
+                          <li>• Directional damage from canyon winds</li>
+                          <li>• Pressure differential stress points</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Orographic Hail Damage Patterns</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Enhanced hail size from canyon updrafts</li>
+                          <li>• Impact angle variations from wind shear</li>
+                          <li>• Concentrated damage zones from terrain focusing</li>
+                          <li>• Extended storm duration effects</li>
+                          <li>• Multiple impact event cumulation</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-green-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">University District Building Assessment (20 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Multi-Story Structure Considerations</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Height-related wind pressure increases</li>
+                          <li>• Building interaction aerodynamics</li>
+                          <li>• Thermal stack effect impacts</li>
+                          <li>• Structural load distribution analysis</li>
+                          <li>• Seismic movement considerations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Historic vs. Modern Construction</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Material compatibility assessments</li>
+                          <li>• Code compliance transition issues</li>
+                          <li>• Architectural preservation requirements</li>
+                          <li>• Structural integration challenges</li>
+                          <li>• Energy efficiency upgrade potential</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Canyon Microclimate Environmental Impact (15 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Temperature Variation Effects</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Canyon thermal gradient impacts</li>
+                          <li>• Elevation-related temperature changes</li>
+                          <li>• Diurnal temperature swing effects</li>
+                          <li>• Thermal expansion stress analysis</li>
+                          <li>• Seasonal variation adaptation</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Moisture and Drainage Considerations</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Canyon fog and moisture intrusion</li>
+                          <li>• Elevation drainage flow patterns</li>
+                          <li>• Terrain-influenced precipitation</li>
+                          <li>• Runoff concentration areas</li>
+                          <li>• Flash flood potential assessment</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Canyon Roof Inspectors Examine</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Canyon-Specific Damage Indicators</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🌪️ Canyon Wind Damage Signatures</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Venturi Acceleration Damage:</strong> Enhanced wind speeds from canyon channeling</li>
+                      <li>• <strong>Turbulence Fatigue:</strong> Irregular stress patterns from wind eddies</li>
+                      <li>• <strong>Pressure Differential Stress:</strong> Varying wind loads across roof surface</li>
+                      <li>• <strong>Direction Change Damage:</strong> Multiple impact angles from shifting winds</li>
+                      <li>• <strong>Uplift Concentration:</strong> Enhanced negative pressure zones</li>
+                      <li>• <strong>Progressive Failure:</strong> Cumulative damage from repeated stress</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">⛈️ Orographic Storm Enhancement</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Enhanced Hail Formation:</strong> Larger hail from extended updraft time</li>
+                      <li>• <strong>Wind-Driven Hail:</strong> Horizontal impact from canyon wind shear</li>
+                      <li>• <strong>Storm Intensification:</strong> Terrain-enhanced severe weather</li>
+                      <li>• <strong>Multiple Storm Tracks:</strong> Canyon-guided storm repetition</li>
+                      <li>• <strong>Extended Duration Damage:</strong> Storms stalling over canyon terrain</li>
+                      <li>• <strong>Pressure Wave Effects:</strong> Rapid pressure changes from topography</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🏔️ Elevation and Terrain Effects</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>UV Intensification:</strong> Increased radiation exposure at elevation</li>
+                      <li>• <strong>Temperature Cycling:</strong> Enhanced thermal stress from terrain</li>
+                      <li>• <strong>Moisture Patterns:</strong> Canyon fog and precipitation variations</li>
+                      <li>• <strong>Debris Accumulation:</strong> Wind-deposited materials from canyon</li>
+                      <li>• <strong>Drainage Complications:</strong> Terrain-influenced water flow</li>
+                      <li>• <strong>Ice Formation:</strong> Cold air pooling in canyon areas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">University District Building Considerations</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Academic Building Assessment</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Multi-Story Wind Exposure</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Height-velocity wind pressure increases</li>
+                          <li>• Building wake turbulence effects</li>
+                          <li>• Corner acceleration zones</li>
+                          <li>• Roof edge uplift concentrations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Complex Roofline Challenges</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Multiple level transitions</li>
+                          <li>• HVAC equipment integration</li>
+                          <li>• Accessibility and safety access</li>
+                          <li>• Drainage coordination complexity</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Residential Property Variations</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Historic Home Considerations</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Original material preservation requirements</li>
+                          <li>• Structural integrity with age</li>
+                          <li>• Code compliance modernization</li>
+                          <li>• Energy efficiency upgrade options</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Student Housing Demands</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• High-traffic wear patterns</li>
+                          <li>• Frequent maintenance requirements</li>
+                          <li>• Cost-effective repair solutions</li>
+                          <li>• Safety and liability considerations</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Seasonal Inspection Timing for Canyon</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Canyon Weather Assessment (March-May)</h3>
+                <p className="text-gray-700 mb-4"><strong>Storm Season Preparation:</strong> Canyon's geography intensifies spring severe weather systems.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Terrain-Enhanced Storm Preparation:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Pre-season vulnerability assessment</li>
+                      <li>• Canyon wind pattern analysis</li>
+                      <li>• Orographic storm enhancement preparation</li>
+                      <li>• University schedule coordination</li>
+                      <li>• Emergency access route planning</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Academic Calendar Considerations:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Student housing inspection scheduling</li>
+                      <li>• Campus facility coordination</li>
+                      <li>• Spring break timing optimization</li>
+                      <li>• Semester transition planning</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">☀️ Summer Heat and UV Assessment (June-August)</h3>
+                <p className="text-gray-700 mb-4"><strong>Elevation UV Exposure:</strong> Canyon's elevation increases UV intensity and thermal stress.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Enhanced UV Damage Assessment:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Elevation-enhanced UV exposure evaluation</li>
+                      <li>• Canyon thermal amplification effects</li>
+                      <li>• Material degradation acceleration</li>
+                      <li>• Reflective surface heat concentration</li>
+                      <li>• Thermal expansion stress analysis</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Summer Schedule Advantages:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Reduced university activity</li>
+                      <li>• Extended daylight hours</li>
+                      <li>• Student housing accessibility</li>
+                      <li>• Clear weather inspection windows</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🍂 Fall Comprehensive Assessment (September-November)</h3>
+                <p className="text-gray-700 mb-4"><strong>Academic Year Preparation:</strong> University activity resumption requires inspection timing coordination.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Storm Season Wrap-up:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Cumulative weather damage assessment</li>
+                      <li>• Canyon wind effect annual evaluation</li>
+                      <li>• University facility maintenance coordination</li>
+                      <li>• Student housing turnover inspection</li>
+                      <li>• Winter weather preparation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Campus Activity Coordination:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Football season scheduling consideration</li>
+                      <li>• Academic calendar integration</li>
+                      <li>• Homecoming event timing</li>
+                      <li>• Semester project planning</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Canyon Microclimate (December-February)</h3>
+                <p className="text-gray-700 mb-4"><strong>Canyon Cold Effects:</strong> Cold air pooling and unique winter weather patterns.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Canyon Winter Challenges:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Cold air pooling in canyon areas</li>
+                      <li>• Enhanced ice formation risk</li>
+                      <li>• Wind chill factor increases</li>
+                      <li>• Limited daylight inspection windows</li>
+                      <li>• University break scheduling advantages</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Alternative Assessment Methods:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Interior moisture monitoring</li>
+                      <li>• Thermal imaging from ground level</li>
+                      <li>• Energy efficiency assessment</li>
+                      <li>• Emergency response planning</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims for Canyon Properties</h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Geographic Factor Documentation</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Terrain-Enhanced Damage Evidence</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Canyon Wind Amplification:</strong> Topographic wind speed enhancement</li>
+                      <li>• <strong>Orographic Storm Intensification:</strong> Terrain-induced severe weather</li>
+                      <li>• <strong>Microclimate Documentation:</strong> Local weather pattern evidence</li>
+                      <li>• <strong>Elevation Effects:</strong> UV and temperature variation impacts</li>
+                      <li>• <strong>Multiple Weather Events:</strong> Cumulative damage from geographic factors</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">University District Considerations</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Building Density Effects:</strong> Wind pattern modifications from structures</li>
+                      <li>• <strong>Historic Preservation Requirements:</strong> Special material and method needs</li>
+                      <li>• <strong>Multi-Story Exposure:</strong> Height-related increased wind loads</li>
+                      <li>• <strong>Academic Facility Standards:</strong> Enhanced performance requirements</li>
+                      <li>• <strong>Student Housing Safety:</strong> Liability and occupancy considerations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Specialized Claim Support for Canyon</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Geographic Expert Testimony</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Canyon microclimate expertise</li>
+                      <li>• Topographic weather enhancement documentation</li>
+                      <li>• University district building knowledge</li>
+                      <li>• Historic preservation compliance</li>
+                      <li>• Local weather station data correlation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Enhanced Documentation Services</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• 3D mapping of canyon wind effects</li>
+                      <li>• Thermal imaging of elevation effects</li>
+                      <li>• Weather station data integration</li>
+                      <li>• University facility standards compliance</li>
+                      <li>• Multi-building damage correlation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions

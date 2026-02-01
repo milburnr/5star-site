@@ -184,6 +184,276 @@ export default function EmergencyRepairOdessaPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Permian Basin Energy Infrastructure Emergency Response
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa serves as the operational headquarters for North America's most productive oil field, requiring specialized emergency roofing services for critical energy infrastructure. The Permian Basin produces over 5 million barrels per day, with thousands of facilities across Odessa requiring emergency response capabilities that understand petroleum industry safety protocols, environmental regulations, and operational continuity requirements.
+            </p>
+            <div className="bg-red-50 p-6 rounded-lg mb-6 border-l-4 border-red-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Odessa Emergency Response Protocol</h4>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>0-20 minutes:</strong> Emergency dispatch with petroleum safety assessment</li>
+                <li><strong>20-120 minutes:</strong> Travel from Amarillo with specialized industrial equipment</li>
+                <li><strong>120-150 minutes:</strong> On-site arrival with energy facility coordination</li>
+                <li><strong>150-300 minutes:</strong> Chemical-resistant emergency protection installed</li>
+                <li><strong>4-12 hours:</strong> Environmental compliance documentation and repair planning</li>
+              </ul>
+            </div>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Emergency response in Odessa's energy corridor requires specialized equipment resistant to hydrogen sulfide, petroleum vapors, and high-pressure conditions common in oil and gas operations. Safety protocols include continuous atmospheric monitoring, specialized personal protective equipment, and coordination with facility emergency response teams trained in petroleum industry hazards.
+            </p>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Oil & Gas Facility Emergency Protocols</h3>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Upstream Operations (Drilling & Production)</h4>
+                <p className="text-gray-700 mb-4">Active drilling operations and production facilities require immediate emergency response to prevent environmental releases and maintain operational safety during roof damage events.</p>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• H2S detection and safety protocols</li>
+                  <li>• Hot work permit coordination</li>
+                  <li>• Wellhead protection zone compliance</li>
+                  <li>• Fire suppression system coordination</li>
+                  <li>• Emergency shutdown procedure awareness</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Midstream Operations (Processing & Transportation)</h4>
+                <p className="text-gray-700 mb-4">Processing plants and pipeline facilities handle high-pressure, high-temperature operations requiring specialized emergency response and environmental protection measures.</p>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• Pressure vessel proximity protocols</li>
+                  <li>• Pipeline corridor safety requirements</li>
+                  <li>• Compressor station noise protection</li>
+                  <li>• Process unit emergency coordination</li>
+                  <li>• Flare system safety awareness</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Permian Basin Weather Patterns & Emergency Implications</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's semi-arid climate combines with energy industry operations to create unique emergency challenges including dust storms containing petroleum particulates, extreme temperature variations affecting equipment operation, and high winds that can impact both residential and industrial facilities simultaneously.
+            </p>
+            <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Odessa-Specific Climate Emergency Factors</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Desert Climate Challenges</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Extreme temperature swings (40°F daily variation)</li>
+                    <li>• Flash flooding in normally dry arroyos</li>
+                    <li>• Dust storms reducing visibility to zero</li>
+                    <li>• Prolonged drought followed by intense rainfall</li>
+                    <li>• UV degradation accelerated by high altitude</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Industrial Weather Interactions</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Petroleum vapor concentration during inversions</li>
+                    <li>• Dust contamination with oil field particles</li>
+                    <li>• Wind patterns affected by industrial heat islands</li>
+                    <li>• Lightning risk in volatile vapor environments</li>
+                    <li>• Corrosive atmosphere from H2S and SO2</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Multi-Site Emergency Coordination</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Major storm systems affecting Odessa often impact dozens of energy facilities simultaneously, requiring coordinated emergency response with prioritization based on environmental risk, safety hazards, and operational criticality to regional energy production.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Priority Response Matrix for Odessa Area</h4>
+              <div className="space-y-4">
+                <div className="grid md:grid-cols-4 gap-3">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">1</div>
+                    <h5 className="font-bold text-gray-800 mb-1">Critical Energy Infrastructure</h5>
+                    <p className="text-xs text-gray-700">Active production, processing, H2S areas</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">2</div>
+                    <h5 className="font-bold text-gray-800 mb-1">High-Value Energy Operations</h5>
+                    <p className="text-xs text-gray-700">Control rooms, pump stations, compressor facilities</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-yellow-500 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">3</div>
+                    <h5 className="font-bold text-gray-800 mb-1">Support Infrastructure</h5>
+                    <p className="text-xs text-gray-700">Maintenance facilities, offices, storage areas</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-500 text-white rounded-full flex items-center justify-center mx-auto mb-2 font-bold">4</div>
+                    <h5 className="font-bold text-gray-800 mb-1">Commercial/Residential</h5>
+                    <p className="text-xs text-gray-700">Retail, office buildings, residential properties</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Environmental Compliance & Regulatory Coordination</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency repairs in Odessa's energy district require compliance with multiple regulatory frameworks including EPA air quality standards, Texas Railroad Commission safety requirements, and OSHA workplace safety regulations for petroleum environments. Documentation requirements often exceed standard commercial or residential emergency repairs.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Required Regulatory Coordination</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Texas Railroad Commission notification for oil/gas facilities</li>
+                  <li>• EPA Region 6 air quality compliance verification</li>
+                  <li>• TCEQ environmental impact documentation</li>
+                  <li>• OSHA petroleum industry workplace safety standards</li>
+                  <li>• Local fire marshal coordination for flammable environments</li>
+                  <li>• Ector County emergency management coordination</li>
+                </ul>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Documentation and Reporting Requirements</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Atmospheric monitoring data during emergency repairs</li>
+                  <li>• Waste material handling for petroleum-contaminated debris</li>
+                  <li>• Emergency response time documentation for regulatory compliance</li>
+                  <li>• Environmental impact mitigation measures implemented</li>
+                  <li>• Post-repair air quality verification testing</li>
+                  <li>• Chain of custody documentation for hazardous materials</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Odessa Residential and Commercial Emergency Response
+            </h2>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Beyond energy infrastructure, Odessa's residential neighborhoods and commercial districts require rapid emergency response services that account for the city's rapid growth, diverse architectural styles, and proximity to industrial operations. New residential developments in western Odessa and established neighborhoods near downtown each present unique emergency response challenges.
+            </p>
+            <div className="bg-amber-50 p-6 rounded-lg mb-6 border-l-4 border-amber-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Residential Emergency Response Zones</h4>
+              <div className="grid md:grid-cols-3 gap-4">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">West Odessa Growth Areas</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• New construction with modern materials</li>
+                    <li>• Large-lot development patterns</li>
+                    <li>• Higher-value properties requiring priority response</li>
+                    <li>• Limited tree cover increasing wind exposure</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Central Odessa Established Neighborhoods</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Mix of architectural styles and ages</li>
+                    <li>• Mature landscaping providing wind protection</li>
+                    <li>• Proximity to downtown commercial areas</li>
+                    <li>• Some older roofing systems requiring specialized repair</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">East Odessa Industrial Interface</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Proximity to energy industry operations</li>
+                    <li>• Potential exposure to industrial atmospheric conditions</li>
+                    <li>• Working-class neighborhoods with cost-sensitive repairs</li>
+                    <li>• Mixed residential and light industrial land use</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Medical District and Educational Facility Emergency Response</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's Medical Center of the Americas and University of Texas Permian Basin create concentrations of critical facilities requiring priority emergency response. Healthcare continuity and educational operations cannot tolerate extended weather exposure, making rapid emergency response essential for these institutional facilities.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Healthcare Facility Emergency Protocols</h4>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• Medical Center of the Americas priority response</li>
+                  <li>• Patient care area immediate protection</li>
+                  <li>• Medical equipment climate control maintenance</li>
+                  <li>• Pharmaceutical storage temperature protection</li>
+                  <li>• Emergency department operational continuity</li>
+                  <li>• Infection control environment maintenance</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Educational Facility Emergency Procedures</h4>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• UT Permian Basin campus emergency coordination</li>
+                  <li>• Odessa College facility protection</li>
+                  <li>• Laboratory and research area protection</li>
+                  <li>• Student housing emergency response</li>
+                  <li>• Athletic and recreational facility protection</li>
+                  <li>• Minimally disruptive emergency procedures</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Logistics and Regional Coordination</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Odessa's position at the intersection of Interstate 20 and major Permian Basin transportation corridors requires emergency response logistics that account for industrial traffic, energy transport operations, and regional coordination with Midland, Big Spring, and other West Texas communities.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Regional Emergency Response Coordination</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Midland-Odessa Metroplex Coordination</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Joint response for major storm events</li>
+                    <li>• Shared resource allocation during peak demand</li>
+                    <li>• Coordinated insurance adjuster scheduling</li>
+                    <li>• Regional material supply chain management</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Transportation and Logistics</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Interstate 20 emergency access procedures</li>
+                    <li>• Coordination with oil field transportation</li>
+                    <li>• Regional equipment staging for large events</li>
+                    <li>• Multi-county mutual aid coordination</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Advanced Emergency Response Technology</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Emergency response in Odessa utilizes advanced technology including drone-based damage assessment, thermal imaging for leak detection, and atmospheric monitoring equipment designed for petroleum environments. These technologies enable safer, more efficient emergency response in challenging industrial environments.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Technology-Enhanced Assessment</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Drone aerial damage assessment for large industrial facilities</li>
+                  <li>• Thermal imaging leak detection and energy loss identification</li>
+                  <li>• Digital documentation systems for complex insurance claims</li>
+                  <li>• GPS-based damage mapping for large commercial properties</li>
+                  <li>• Weather monitoring integration for real-time condition assessment</li>
+                </ul>
+              </div>
+              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Safety and Environmental Monitoring</h4>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li>• Continuous atmospheric monitoring during repairs</li>
+                  <li>• Gas detection equipment for petroleum vapor environments</li>
+                  <li>• Air quality verification following emergency repairs</li>
+                  <li>• Environmental compliance documentation systems</li>
+                  <li>• Real-time safety communication with facility operators</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-500">
             <h2 className="text-4xl font-bold mb-6 text-red-700 text-center">24/7 Emergency Contact</h2>
             <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">

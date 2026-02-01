@@ -227,6 +227,392 @@ export default function RoofInspectionsAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Weather Challenges</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Why Andrews Roofs Require Specialized Inspections</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌪️ Extreme Hail Events</h4>
+                    <p className="text-gray-700 mb-4">Andrews County sits in the heart of "Hail Alley," experiencing 6-8 significant hailstorms annually. The Permian Basin's geography creates perfect supercell conditions.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Softball-size hail:</strong> Baseball to softball common</li>
+                      <li>• <strong>Multiple events:</strong> Cumulative damage throughout season</li>
+                      <li>• <strong>Wind-driven:</strong> Horizontal impact increases damage</li>
+                      <li>• <strong>May peak:</strong> Highest activity during spring storms</li>
+                      <li>• <strong>Insurance implications:</strong> Multiple claims complicate coverage</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌬️ Persistent High Winds</h4>
+                    <p className="text-gray-700 mb-4">The Permian Basin's flat topography provides no wind breaks, creating sustained high-velocity conditions year-round.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Sustained speeds:</strong> 15-25 mph average daily</li>
+                      <li>• <strong>Gust events:</strong> 70+ mph during storms</li>
+                      <li>• <strong>Uplift stress:</strong> Constant pressure on fasteners</li>
+                      <li>• <strong>Debris impact:</strong> Wind-borne projectiles</li>
+                      <li>• <strong>Progressive failure:</strong> Gradual system compromise</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Detailed Inspection Process for Andrews Properties</h3>
+                <div className="space-y-6">
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Pre-Inspection Assessment (10 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Site Evaluation</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Property orientation and exposure</li>
+                          <li>• Surrounding structures and wind patterns</li>
+                          <li>• Previous storm damage history</li>
+                          <li>• Access routes and safety considerations</li>
+                          <li>• Weather conditions for inspection</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Documentation Preparation</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• High-resolution camera setup</li>
+                          <li>• Measurement tools and scales</li>
+                          <li>• Drone equipment flight checks</li>
+                          <li>• Thermal imaging calibration</li>
+                          <li>• Previous inspection report review</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-green-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Exterior Comprehensive Survey (45 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Material Condition Assessment</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Shingle granule retention analysis</li>
+                          <li>• Hail impact measurement and mapping</li>
+                          <li>• Wind uplift damage identification</li>
+                          <li>• UV degradation assessment for elevation</li>
+                          <li>• Thermal expansion stress indicators</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">System Integration Evaluation</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Flashing integrity at all penetrations</li>
+                          <li>• Gutter and downspout functionality</li>
+                          <li>• Ventilation system performance</li>
+                          <li>• Edge securement and perimeter seals</li>
+                          <li>• Chimney and vent pipe conditions</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-orange-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Interior Investigation (20 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Attic Space Analysis</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Structural member condition assessment</li>
+                          <li>• Decking integrity and water damage</li>
+                          <li>• Insulation effectiveness and settling</li>
+                          <li>• Ventilation airflow measurement</li>
+                          <li>• Electrical system safety evaluation</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Moisture Detection Protocol</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Active leak identification</li>
+                          <li>• Historical water damage patterns</li>
+                          <li>• Mold potential and air quality</li>
+                          <li>• Vapor barrier effectiveness</li>
+                          <li>• Condensation formation risk</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Andrews Roof Inspectors Examine</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Critical Damage Indicators Specific to Permian Basin</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">⛈️ Hail Damage Signatures</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Impact Craters:</strong> Circular depressions with visible depth</li>
+                      <li>• <strong>Exposed Substrate:</strong> Granule loss revealing black mat</li>
+                      <li>• <strong>Fracture Patterns:</strong> Radial cracks from impact points</li>
+                      <li>• <strong>Soft Spots:</strong> Compromised underlying structure</li>
+                      <li>• <strong>Edge Chipping:</strong> Tab damage from glancing hits</li>
+                      <li>• <strong>Metal Denting:</strong> Flashing and gutter deformation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">💨 Wind Damage Patterns</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Uplift Indicators:</strong> Shingle lifting and creasing</li>
+                      <li>• <strong>Fastener Exposure:</strong> Nail heads or screw backs visible</li>
+                      <li>• <strong>Progressive Losses:</strong> Sequential shingle removal</li>
+                      <li>• <strong>Membrane Billowing:</strong> Underlayment separation</li>
+                      <li>• <strong>Edge Lifting:</strong> Perimeter vulnerability indicators</li>
+                      <li>• <strong>Granule Scouring:</strong> Wind-driven abrasive patterns</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🌡️ Temperature Stress Damage</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Thermal Cracking:</strong> Expansion-contraction splits</li>
+                      <li>• <strong>Fastener Backing:</strong> Cyclical movement loosening</li>
+                      <li>• <strong>Seam Separation:</strong> Joint failure from movement</li>
+                      <li>• <strong>Membrane Shrinkage:</strong> Stress concentration areas</li>
+                      <li>• <strong>Brittle Fractures:</strong> Cold-weather impact damage</li>
+                      <li>• <strong>UV Degradation:</strong> Polymer breakdown at elevation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Advanced Detection Methods for Permian Basin Conditions</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Infrared Thermal Analysis</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Moisture Intrusion Detection</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Temperature differentials indicate wet insulation</li>
+                          <li>• Thermal bridging reveals structural compromises</li>
+                          <li>• Heat loss patterns show air leakage</li>
+                          <li>• Cold spots indicate missing insulation</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Energy Efficiency Assessment</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• HVAC load impact from roof condition</li>
+                          <li>• Insulation effectiveness quantification</li>
+                          <li>• Ventilation airflow visualization</li>
+                          <li>• Thermal envelope integrity mapping</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Drone Technology Applications</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">High-Resolution Documentation</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• 4K video recording for complete coverage</li>
+                          <li>• GPS-tagged photography for precise location</li>
+                          <li>• Multi-angle documentation for insurance</li>
+                          <li>• Time-lapse for progressive damage tracking</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Safety and Access Benefits</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Steep slope access without safety risks</li>
+                          <li>• High elevation building inspection</li>
+                          <li>• Dangerous weather condition documentation</li>
+                          <li>• Multi-story commercial building coverage</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Seasonal Inspection Timing for Andrews</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Storm Season (March-June)</h3>
+                <p className="text-gray-700 mb-4"><strong>Peak Activity Period:</strong> Andrews experiences maximum hail and wind events during spring supercell season.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Inspection Priorities:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Pre-season vulnerability assessment</li>
+                      <li>• Fresh hail damage documentation</li>
+                      <li>• Wind damage from spring storms</li>
+                      <li>• Insurance claim preparation timing</li>
+                      <li>• Emergency repair prioritization</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Weather Considerations:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Moderate temperatures for thorough inspection</li>
+                      <li>• Lower wind speeds between storm systems</li>
+                      <li>• Optimal visibility and lighting conditions</li>
+                      <li>• Minimal precipitation interference</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">☀️ Summer Heat Assessment (July-September)</h3>
+                <p className="text-gray-700 mb-4"><strong>Heat Stress Evaluation:</strong> Andrews' elevation intensifies UV exposure and thermal cycling stress.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Heat Damage Focus:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• UV degradation assessment at 3,176' elevation</li>
+                      <li>• Thermal expansion stress evaluation</li>
+                      <li>• Accelerated aging documentation</li>
+                      <li>• Membrane and sealant integrity</li>
+                      <li>• Ventilation system performance</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Timing Considerations:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Early morning inspections (before 10 AM)</li>
+                      <li>• Late evening assessments (after 6 PM)</li>
+                      <li>• Safety protocols for extreme heat</li>
+                      <li>• Equipment protection from temperature</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🍂 Fall Preparation (October-November)</h3>
+                <p className="text-gray-700 mb-4"><strong>Season Wrap-up Assessment:</strong> Comprehensive evaluation after storm season and before winter.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Annual Assessment:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Cumulative storm damage evaluation</li>
+                      <li>• Preventive maintenance planning</li>
+                      <li>• Winter weather preparation</li>
+                      <li>• End-of-year insurance considerations</li>
+                      <li>• Repair project scheduling</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Optimal Conditions:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Moderate temperatures for comfort</li>
+                      <li>• Reduced wind speeds</li>
+                      <li>• Clear skies for documentation</li>
+                      <li>• Contractor availability before winter</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Monitoring (December-February)</h3>
+                <p className="text-gray-700 mb-4"><strong>Limited Access Period:</strong> Emergency-only inspections due to weather and safety concerns.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Winter Challenges:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Ice formation safety hazards</li>
+                      <li>• Reduced daylight hours</li>
+                      <li>• Equipment functionality in cold</li>
+                      <li>• Emergency-only roof access</li>
+                      <li>• Interior focus on leak detection</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Alternative Methods:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Interior moisture detection</li>
+                      <li>• Thermal imaging from inside</li>
+                      <li>• Ground-level visual assessment</li>
+                      <li>• Drone inspection when weather permits</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claim Preparation for Andrews Properties</h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Permian Basin Insurance Challenges</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Common Claim Issues</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Multiple Storm Events:</strong> Separating damage from different hailstorms</li>
+                      <li>• <strong>Wind vs. Hail:</strong> Different deductibles and coverage terms</li>
+                      <li>• <strong>Pre-existing Condition:</strong> Age-related vs. storm damage</li>
+                      <li>• <strong>Cosmetic Classifications:</strong> Functional impact documentation</li>
+                      <li>• <strong>Code Upgrade Requirements:</strong> Compliance with current standards</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Documentation Standards</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>High-Resolution Photography:</strong> 12MP minimum for detail</li>
+                      <li>• <strong>GPS Coordinates:</strong> Precise damage location data</li>
+                      <li>• <strong>Weather Correlation:</strong> Storm dates and intensity</li>
+                      <li>• <strong>Professional Assessment:</strong> Certified inspector credentials</li>
+                      <li>• <strong>Comprehensive Reports:</strong> Detailed scope and pricing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Insurance Adjuster Coordination</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Meeting Preparation</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Schedule during optimal weather conditions</li>
+                      <li>• Provide safe roof access equipment</li>
+                      <li>• Organize documentation chronologically</li>
+                      <li>• Prepare damage location maps</li>
+                      <li>• Have repair estimates ready</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Professional Advocacy</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Technical damage explanation</li>
+                      <li>• Industry standard repair methods</li>
+                      <li>• Code compliance requirements</li>
+                      <li>• Material matching challenges</li>
+                      <li>• Long-term performance implications</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               Serving Andrews, Texas

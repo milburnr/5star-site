@@ -225,6 +225,160 @@ export default function EmergencyRoofRepairPerrytonPage() {
     <p className="text-lg text-gray-700 mb-6 leading-relaxed">
       Natural gas processing and agricultural facilities throughout Ochiltree County require immediate emergency response to prevent production shutdowns and environmental hazards. Emergency operations account for extreme northern Panhandle weather including blizzard conditions, ice storms, and severe temperature fluctuations.
     </p>
+
+    <h3 className="text-2xl font-bold mb-6 text-brand-brown">Northern Panhandle Agricultural Emergency Response</h3>
+    <div className="grid md:grid-cols-2 gap-8 mb-8">
+      <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+        <h4 className="text-xl font-bold mb-4 text-brand-brown">Grain Storage and Processing Facilities</h4>
+        <p className="text-gray-700 mb-4">Perryton's role as an agricultural hub includes massive grain storage operations that cannot tolerate weather exposure without significant commodity losses. Emergency response prioritizes protection of stored grain and processing equipment.</p>
+        <ul className="text-gray-700 text-sm space-y-2">
+          <li>• Grain elevator emergency tarping procedures</li>
+          <li>• Storage facility commodity protection</li>
+          <li>• Processing equipment weather shielding</li>
+          <li>• Dust explosion prevention protocols</li>
+          <li>• Agricultural insurance coordination</li>
+        </ul>
+      </div>
+      
+      <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+        <h4 className="text-xl font-bold mb-4 text-brand-brown">Cattle and Livestock Operations</h4>
+        <p className="text-gray-700 mb-4">Large-scale cattle operations throughout Ochiltree County require immediate emergency response to protect livestock, feed storage, and milking operations from weather exposure and facility damage.</p>
+        <ul className="text-gray-700 text-sm space-y-2">
+          <li>• Cattle barn emergency protection</li>
+          <li>• Feed storage facility repairs</li>
+          <li>• Milking parlor immediate coverage</li>
+          <li>• Livestock welfare priority protocols</li>
+          <li>• Animal health protection measures</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 className="text-2xl font-bold mb-6 text-brand-brown">Energy Infrastructure Emergency Coordination</h3>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      Ochiltree County's natural gas processing facilities and pipeline infrastructure require specialized emergency response protocols that account for volatile gas operations, high-pressure systems, and environmental protection requirements specific to energy industry operations in the northern Panhandle.
+    </p>
+    <div className="bg-red-50 p-6 rounded-lg mb-6 border-l-4 border-red-500">
+      <h4 className="text-xl font-bold mb-3 text-brand-brown">Energy Facility Emergency Protocols</h4>
+      <div className="grid md:grid-cols-3 gap-4">
+        <div>
+          <h5 className="font-bold text-gray-800 mb-2">Natural Gas Processing</h5>
+          <ul className="text-gray-700 text-sm space-y-1">
+            <li>• Gas processing plant emergency coordination</li>
+            <li>• Volatile gas atmosphere safety protocols</li>
+            <li>• Equipment protection from weather exposure</li>
+            <li>• Environmental compliance documentation</li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="font-bold text-gray-800 mb-2">Pipeline Infrastructure</h5>
+          <ul className="text-gray-700 text-sm space-y-1">
+            <li>• Compressor station emergency procedures</li>
+            <li>• Pipeline corridor facility protection</li>
+            <li>• High-pressure system safety compliance</li>
+            <li>• Regional transportation network coordination</li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="font-bold text-gray-800 mb-2">Oil Operations</h5>
+          <ul className="text-gray-700 text-sm space-y-1">
+            <li>• Production facility emergency response</li>
+            <li>• Tank farm protection procedures</li>
+            <li>• Drilling operation emergency coordination</li>
+            <li>• Petroleum safety protocol compliance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 className="text-2xl font-bold mb-6 text-brand-brown">Extreme Weather Emergency Preparedness</h3>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      Perryton's location in the extreme northern Texas Panhandle subjects the area to some of the most severe weather in the state, including blizzards with sub-zero temperatures, ice storms, severe thunderstorms, and occasional tornadoes. Emergency response protocols must account for these extreme conditions and their impact on both urban and rural properties.
+    </p>
+    <div className="grid md:grid-cols-2 gap-8 mb-8">
+      <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+        <h4 className="text-lg font-bold mb-3 text-brand-brown">Winter Weather Emergency Response</h4>
+        <div className="space-y-3">
+          <div>
+            <h5 className="font-bold text-gray-800 mb-1">Blizzard Conditions</h5>
+            <p className="text-sm text-gray-700 mb-2">Emergency materials and techniques designed for sub-zero temperatures and high winds, including heated application equipment and cold-weather adhesives.</p>
+          </div>
+          <div>
+            <h5 className="font-bold text-gray-800 mb-1">Ice Storm Damage</h5>
+            <p className="text-sm text-gray-700 mb-2">Specialized procedures for ice-damaged roofing systems, including careful ice removal and emergency protection during freezing conditions.</p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+        <h4 className="text-lg font-bold mb-3 text-brand-brown">Severe Weather Emergency Planning</h4>
+        <div className="space-y-3">
+          <div>
+            <h5 className="font-bold text-gray-800 mb-1">Thunderstorm and Tornado Response</h5>
+            <p className="text-sm text-gray-700 mb-2">Rapid deployment protocols for widespread damage from severe thunderstorms and tornadoes affecting agricultural and urban properties simultaneously.</p>
+          </div>
+          <div>
+            <h5 className="font-bold text-gray-800 mb-1">Hail Damage Assessment</h5>
+            <p className="text-sm text-gray-700 mb-2">Comprehensive damage evaluation procedures for agricultural facilities, residential properties, and commercial buildings affected by large hailstones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 className="text-2xl font-bold mb-6 text-brand-brown">Rural and Remote Property Emergency Response</h3>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      Ochiltree County's vast rural areas include numerous remote agricultural operations, ranch headquarters, and isolated facilities that require extended travel times and specialized emergency response capabilities. Remote location emergency response accounts for limited local resources and extended response times.
+    </p>
+    <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+      <h4 className="text-xl font-bold mb-3 text-brand-brown">Remote Location Emergency Procedures</h4>
+      <div className="grid md:grid-cols-2 gap-6">
+        <div>
+          <h5 className="font-bold text-gray-800 mb-2">Extended Travel Time Protocols</h5>
+          <ul className="space-y-1 text-gray-700 text-sm">
+            <li>• Self-contained emergency response vehicles</li>
+            <li>• Extended equipment inventory for remote repairs</li>
+            <li>• Satellite communication capabilities</li>
+            <li>• Emergency fuel and supply reserves</li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="font-bold text-gray-800 mb-2">Rural Property Considerations</h5>
+          <ul className="space-y-1 text-gray-700 text-sm">
+            <li>• Agricultural operation timing coordination</li>
+            <li>• Remote ranch and farm facility access</li>
+            <li>• Limited local contractor availability</li>
+            <li>• Regional supply chain coordination</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 className="text-2xl font-bold mb-6 text-brand-brown">Regional Healthcare and Public Services Emergency Response</h3>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      Ochiltree General Hospital and other critical infrastructure in Perryton serve a wide geographic area including parts of Oklahoma and Kansas, making emergency response to these facilities critical for regional healthcare delivery. Public safety and government facilities require immediate attention to maintain services for the broader northern Panhandle region.
+    </p>
+    <div className="grid md:grid-cols-2 gap-6">
+      <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+        <h4 className="text-lg font-bold mb-3 text-brand-brown">Healthcare Facility Emergency Priority</h4>
+        <ul className="space-y-2 text-gray-700 text-sm">
+          <li>• Ochiltree General Hospital emergency procedures</li>
+          <li>• Patient care area immediate protection</li>
+          <li>• Medical equipment climate control maintenance</li>
+          <li>• Emergency department operational continuity</li>
+          <li>• Regional healthcare delivery protection</li>
+          <li>• Medical facility emergency coordination</li>
+        </ul>
+      </div>
+      <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+        <h4 className="text-lg font-bold mb-3 text-brand-brown">Public Safety and Government Facilities</h4>
+        <ul className="space-y-2 text-gray-700 text-sm">
+          <li>• Ochiltree County courthouse emergency protection</li>
+          <li>• Law enforcement facility continuity</li>
+          <li>• Fire department emergency procedures</li>
+          <li>• Emergency medical services coordination</li>
+          <li>• Public utility operations protection</li>
+          <li>• Educational facility emergency response</li>
+        </ul>
+      </div>
+    </div>
   </section>
 </FadeIn>
 

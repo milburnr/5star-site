@@ -238,6 +238,142 @@ export default function EmergencyRoofRepairBigSpringPage() {
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Regional coordination during major emergency events includes cooperation with multi-county emergency management, state agencies, and transportation authorities that maintain critical infrastructure throughout West Texas. Emergency response prioritization considers facilities with broader regional importance and economic impact.
             </p>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Tornado Alley Emergency Preparedness</h3>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Severe Weather Monitoring</h4>
+                <p className="text-gray-700 mb-4">Big Spring's location in Tornado Alley requires advanced weather monitoring and emergency preparedness protocols. Our response system integrates with National Weather Service operations and regional emergency management to anticipate severe weather impacts.</p>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• Real-time Doppler radar monitoring</li>
+                  <li>• Tornado warning protocol activation</li>
+                  <li>• Hail storm prediction and crew pre-positioning</li>
+                  <li>• Multi-county weather coordination</li>
+                  <li>• Storm spotter network integration</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <h4 className="text-xl font-bold mb-4 text-brand-brown">Post-Storm Mass Casualty Response</h4>
+                <p className="text-gray-700 mb-4">Major tornado events can damage hundreds of structures simultaneously. Our mass casualty response protocol prioritizes life-safety facilities while systematically addressing residential and commercial damage throughout Big Spring.</p>
+                <ul className="text-gray-700 text-sm space-y-2">
+                  <li>• Emergency triage and prioritization</li>
+                  <li>• Multi-crew deployment coordination</li>
+                  <li>• Critical infrastructure first response</li>
+                  <li>• Public shelter facility protection</li>
+                  <li>• Regional mutual aid coordination</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Interstate 20 Corridor Emergency Logistics</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Big Spring's position on Interstate 20 makes it a critical transportation hub for emergency response throughout West Texas. Our logistics operations leverage this infrastructure advantage to rapidly deploy resources and coordinate multi-county emergency response efforts.
+            </p>
+            <div className="bg-green-50 p-6 rounded-lg mb-6 border-l-4 border-green-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Regional Response Coordination</h4>
+              <div className="grid md:grid-cols-3 gap-4">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">East Corridor</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Colorado City emergency support</li>
+                    <li>• Sweetwater backup operations</li>
+                    <li>• Abilene regional coordination</li>
+                    <li>• Highway 20 access maintenance</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">West Corridor</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Midland emergency coordination</li>
+                    <li>• Odessa industrial support</li>
+                    <li>• Permian Basin facility response</li>
+                    <li>• Oil field emergency protocols</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">North/South Corridors</h5>
+                  <ul className="text-gray-700 text-sm space-y-1">
+                    <li>• Lamesa agricultural area support</li>
+                    <li>• Sterling City ranching operations</li>
+                    <li>• Highway 87 rural emergency access</li>
+                    <li>• Remote facility coordination</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">State Facility Emergency Protocols</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Big Spring hosts multiple state facilities including educational institutions, healthcare operations, and government offices that require specialized emergency response protocols. Our team maintains current certifications and clearances necessary for state facility emergency work.
+            </p>
+            <div className="bg-gray-50 p-6 rounded-lg mb-6 border-l-4 border-gray-500">
+              <h4 className="text-xl font-bold mb-3 text-brand-brown">Compliance and Certification Requirements</h4>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">State Procurement Compliance</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• HUB (Historically Underutilized Business) certification</li>
+                    <li>• State contracting procedures knowledge</li>
+                    <li>• Emergency procurement authority coordination</li>
+                    <li>• Prevailing wage compliance requirements</li>
+                    <li>• State facility security protocols</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-bold text-gray-800 mb-2">Educational Facility Requirements</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Background check clearances for school properties</li>
+                    <li>• Asbestos awareness certification</li>
+                    <li>• Lead-safe work practices (older buildings)</li>
+                    <li>• Student safety protocols during repairs</li>
+                    <li>• Minimal disruption scheduling requirements</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Big Spring Weather Pattern Analysis</h3>
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              Historical weather data for Big Spring reveals specific patterns that inform our emergency response planning. Understanding these patterns allows us to anticipate damage types, pre-position resources, and optimize response times during peak damage seasons.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Historical Severe Weather Events</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Spring Tornado Season (March-May)</h5>
+                    <p className="text-sm text-gray-700 mb-2">Peak tornado activity with F2-F4 strength tornadoes historically impacting Howard County. Our response includes mass casualty protocols and regional coordination.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Hail Season (April-June)</h5>
+                    <p className="text-sm text-gray-700 mb-2">Severe hailstorms with stones exceeding 2 inches in diameter cause widespread roof damage. Our rapid deployment minimizes water intrusion during repair periods.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Flash Flood Events (Summer)</h5>
+                    <p className="text-sm text-gray-700 mb-2">Monsoon-style rainfall overwhelms drainage systems, causing roof ponding and structural stress requiring emergency assessment and drainage restoration.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Material Performance in Big Spring Climate</h4>
+                <div className="space-y-3">
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">UV Exposure Challenges</h5>
+                    <p className="text-sm text-gray-700 mb-2">High-altitude sun exposure accelerates material degradation. Emergency repairs use UV-resistant materials designed for prolonged West Texas exposure.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Temperature Cycling Effects</h5>
+                    <p className="text-sm text-gray-700 mb-2">Extreme temperature variations (winter lows to summer highs exceeding 80°F difference) stress roofing systems through thermal expansion and contraction cycles.</p>
+                  </div>
+                  <div>
+                    <h5 className="font-bold text-gray-800 mb-1">Wind Load Considerations</h5>
+                    <p className="text-sm text-gray-700 mb-2">Consistent winds and severe weather gusts require enhanced fastening systems and wind-resistant installation techniques for all emergency repairs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </FadeIn>
 

@@ -296,6 +296,291 @@ export default function RoofRepairAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Seasonal Roofing Considerations in Amarillo</h2>
+            <p className="text-lg text-gray-700 mb-8">Understanding Amarillo's distinct seasonal patterns is crucial for effective roof maintenance and repair timing.</p>
+            
+            <div className="grid lg:grid-cols-4 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-blue-700">❄️ Winter (Dec-Feb)</h3>
+                <p className="text-gray-600 mb-4">Freeze-thaw cycles and ice dam formation</p>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Ice dam prevention and removal</li>
+                  <li>• Gutter system winterization</li>
+                  <li>• Emergency leak response</li>
+                  <li>• Attic insulation assessment</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-green-700">🌱 Spring (Mar-May)</h3>
+                <p className="text-gray-600 mb-4">Prime storm season with severe hail threats</p>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Post-storm damage assessment</li>
+                  <li>• Preventive maintenance checks</li>
+                  <li>• Hail damage documentation</li>
+                  <li>• Insurance claim preparation</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-red-700">☀️ Summer (Jun-Aug)</h3>
+                <p className="text-gray-600 mb-4">Extreme heat and UV exposure stress</p>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Heat-related material expansion</li>
+                  <li>• Ventilation system optimization</li>
+                  <li>• Energy efficiency improvements</li>
+                  <li>• Cool roof installation options</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-orange-700">🍂 Fall (Sep-Nov)</h3>
+                <p className="text-gray-600 mb-4">Ideal repair season with stable weather</p>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Major repair projects</li>
+                  <li>• Preparation for winter</li>
+                  <li>• Gutter cleaning and repair</li>
+                  <li>• Preventive maintenance work</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Amarillo Roof Material Performance Analysis</h2>
+            <p className="text-lg text-gray-700 mb-8">Different roofing materials perform uniquely in the Texas Panhandle's extreme climate conditions.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Best Performing Materials</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-green-500 pl-4">
+                    <h4 className="font-bold text-green-700">Impact-Resistant Asphalt Shingles</h4>
+                    <p className="text-gray-600">Class 3-4 rating, excellent hail protection, 25-30 year lifespan in Amarillo conditions</p>
+                  </div>
+                  <div className="border-l-4 border-blue-500 pl-4">
+                    <h4 className="font-bold text-blue-700">Standing Seam Metal</h4>
+                    <p className="text-gray-600">Superior wind resistance, excellent thermal performance, 40+ year durability</p>
+                  </div>
+                  <div className="border-l-4 border-purple-500 pl-4">
+                    <h4 className="font-bold text-purple-700">Modified Bitumen (Commercial)</h4>
+                    <p className="text-gray-600">Excellent flat roof option, UV resistant, handles temperature extremes well</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Materials to Avoid</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-red-500 pl-4">
+                    <h4 className="font-bold text-red-700">Standard 3-Tab Shingles</h4>
+                    <p className="text-gray-600">Poor wind resistance, rapid granule loss, frequent replacement needed</p>
+                  </div>
+                  <div className="border-l-4 border-orange-500 pl-4">
+                    <h4 className="font-bold text-orange-700">Wood Shake (without treatment)</h4>
+                    <p className="text-gray-600">High maintenance, fire risk, poor performance in freeze-thaw cycles</p>
+                  </div>
+                  <div className="border-l-4 border-yellow-500 pl-4">
+                    <h4 className="font-bold text-yellow-700">Standard Clay Tiles</h4>
+                    <p className="text-gray-600">Heavy weight issues, crack in freeze cycles without proper installation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Detailed Repair Process for Amarillo Homes</h2>
+            <p className="text-lg text-gray-700 mb-8">Our systematic approach ensures lasting repairs that withstand the Texas Panhandle's demanding climate.</p>
+            
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 1: Comprehensive Assessment (Day 1)</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold mb-2 text-gray-800">Exterior Inspection</h4>
+                    <ul className="text-gray-700 space-y-1">
+                      <li>• Drone-assisted roof surface evaluation</li>
+                      <li>• Wind damage pattern analysis</li>
+                      <li>• Hail impact crater measurement</li>
+                      <li>• Flashing and penetration assessment</li>
+                      <li>• Gutter and downspout inspection</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-2 text-gray-800">Interior Assessment</h4>
+                    <ul className="text-gray-700 space-y-1">
+                      <li>• Attic moisture and ventilation check</li>
+                      <li>• Structural beam and decking evaluation</li>
+                      <li>• Insulation condition assessment</li>
+                      <li>• Active leak detection</li>
+                      <li>• Historical damage documentation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 2: Material Procurement (Days 2-3)</h3>
+                <p className="text-gray-700 mb-4">We source materials specifically rated for Texas Panhandle conditions:</p>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Wind Rating Requirements</h4>
+                    <p className="text-sm text-gray-600">All materials must meet 110+ mph sustained wind ratings for Potter County installation</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Hail Impact Standards</h4>
+                    <p className="text-sm text-gray-600">Class 3 minimum impact resistance, with Class 4 recommended for maximum protection</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-bold mb-2">Temperature Tolerance</h4>
+                    <p className="text-sm text-gray-600">Materials tested for -20°F to 120°F temperature range performance</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 3: Precision Repairs (Days 4-6)</h3>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-bold">Structural Reinforcement</h4>
+                    <p className="text-gray-700">Enhanced fastening patterns for high-wind zones, structural decking replacement where needed</p>
+                  </div>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-bold">Weather Barrier Installation</h4>
+                    <p className="text-gray-700">Premium underlayment with self-sealing properties for ice dam protection</p>
+                  </div>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-bold">Flashing Systems</h4>
+                    <p className="text-gray-700">Custom-fabricated metal flashing designed for Texas Panhandle wind patterns</p>
+                  </div>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-bold">Final Surface Installation</h4>
+                    <p className="text-gray-700">Impact-resistant shingles with upgraded fastening for maximum wind resistance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Extended Warranty & Protection Plans</h2>
+            <p className="text-lg text-gray-700 mb-8 text-center">Comprehensive coverage designed for Amarillo's challenging weather conditions.</p>
+            
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-green-700">Basic Protection</h3>
+                <p className="text-3xl font-bold mb-4 text-green-800">2 Years</p>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Workmanship warranty</li>
+                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Material defect coverage</li>
+                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Emergency leak repair</li>
+                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Annual inspection included</li>
+                </ul>
+                <p className="text-gray-600">Perfect for minor repairs and maintenance work</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border-4 border-blue-300">
+                <div className="text-center mb-4">
+                  <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-blue-700">Storm Shield</h3>
+                <p className="text-3xl font-bold mb-4 text-blue-800">5 Years</p>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>All Basic Protection features</li>
+                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Hail damage coverage</li>
+                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Wind damage protection</li>
+                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Priority emergency response</li>
+                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Insurance claim assistance</li>
+                </ul>
+                <p className="text-gray-600">Ideal for comprehensive roof repairs and replacements</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-purple-700">Ultimate Guard</h3>
+                <p className="text-3xl font-bold mb-4 text-purple-800">10 Years</p>
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>All Storm Shield features</li>
+                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Extended material warranty</li>
+                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Energy efficiency guarantee</li>
+                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Bi-annual professional maintenance</li>
+                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Transferable to new homeowner</li>
+                </ul>
+                <p className="text-gray-600">Maximum protection for new roofing systems</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Insurance Claims Process for Amarillo</h2>
+            <p className="text-lg text-gray-700 mb-8">We've successfully processed over 500 insurance claims in Potter County, understanding local requirements and common issues.</p>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Common Claim Types in Amarillo</h3>
+                <div className="space-y-3">
+                  <div className="flex items-start">
+                    <div className="bg-blue-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Hail Damage Claims (85% of claims)</h4>
+                      <p className="text-gray-600">Granule loss, cracked shingles, impact damage to gutters and flashing</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-green-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Wind Damage Claims (12% of claims)</h4>
+                      <p className="text-gray-600">Missing shingles, lifted edges, damaged ridge caps from sustained high winds</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-yellow-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-yellow-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold">Ice Dam Claims (3% of claims)</h4>
+                      <p className="text-gray-600">Interior water damage from winter ice formation and backup</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">Our Claims Support Process</h3>
+                <div className="space-y-4">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">1. Initial Documentation</h4>
+                    <p className="text-gray-600">Professional photography, detailed damage assessment, and preliminary repair estimate within 24 hours</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">2. Insurance Company Interface</h4>
+                    <p className="text-gray-600">Direct communication with adjusters, supplemental documentation, and scope clarification</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">3. Claim Optimization</h4>
+                    <p className="text-gray-600">Ensure all covered damage is included, fight for appropriate repair methods and materials</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">4. Project Completion</h4>
+                    <p className="text-gray-600">Work directly with insurance payment schedules, provide final documentation and warranties</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services</h2>
             <div className="grid md:grid-cols-3 gap-6">

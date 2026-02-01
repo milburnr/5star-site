@@ -220,6 +220,392 @@ export default function RoofInspectionsBorgerPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Borger's Industrial Environment & Roof Challenges</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Petrochemical Industry Impact on Roofing Systems</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏭 Chemical Exposure Factors</h4>
+                    <p className="text-gray-700 mb-4">Borger's position as a major petrochemical refining center creates unique atmospheric conditions affecting roofing materials.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Sulfur Compounds:</strong> Accelerated metal corrosion and fastener failure</li>
+                      <li>• <strong>Hydrocarbon Vapors:</strong> Degradation of rubber gaskets and seals</li>
+                      <li>• <strong>Acid Rain Formation:</strong> pH-reduced precipitation damage</li>
+                      <li>• <strong>Particulate Deposits:</strong> Abrasive dust accumulation</li>
+                      <li>• <strong>Chemical Fallout:</strong> Coating and membrane deterioration</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌪️ Panhandle Weather Intensification</h4>
+                    <p className="text-gray-700 mb-4">Industrial activities combined with High Plains geography create amplified weather damage potential.</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Heat Island Effect:</strong> Elevated temperatures from industrial operations</li>
+                      <li>• <strong>Thermal Inversions:</strong> Trapped pollutants accelerating damage</li>
+                      <li>• <strong>Convective Enhancement:</strong> Industrial heat fueling severe storms</li>
+                      <li>• <strong>Wind Channeling:</strong> Building clusters creating turbulence</li>
+                      <li>• <strong>Pressure Fluctuations:</strong> Industrial processes affecting atmospheric stability</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Specialized Inspection Protocol for Borger Properties</h3>
+                <div className="space-y-6">
+                  <div className="border-l-4 border-red-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Chemical Resistance Assessment (15 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Material Compatibility</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Membrane chemical resistance verification</li>
+                          <li>• Fastener corrosion assessment</li>
+                          <li>• Sealant degradation from chemical exposure</li>
+                          <li>• Metal flashing oxidation patterns</li>
+                          <li>• Coating integrity against acid rain</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Environmental Damage Indicators</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Discoloration from chemical deposits</li>
+                          <li>• Premature aging patterns</li>
+                          <li>• Unusual wear on specific materials</li>
+                          <li>• Localized deterioration near industrial sources</li>
+                          <li>• Atmospheric corrosion signatures</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-orange-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Enhanced Weather Damage Documentation (30 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Hail Impact Analysis</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Industrial heat dome hail size correlation</li>
+                          <li>• Multiple storm event cumulative damage</li>
+                          <li>• Chemical-weakened surface vulnerability</li>
+                          <li>• Wind-driven impact pattern mapping</li>
+                          <li>• Structural compromise from repeated events</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Wind Stress Evaluation</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Panhandle wind uplift pressure calculation</li>
+                          <li>• Industrial turbulence effect assessment</li>
+                          <li>• Fatigue failure from constant wind stress</li>
+                          <li>• Edge and corner vulnerability analysis</li>
+                          <li>• Progressive system degradation tracking</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="border-l-4 border-blue-500 pl-6">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3">Air Quality & Contamination Check (10 minutes)</h4>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Indoor Air Quality Impact</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Roof breach contamination pathways</li>
+                          <li>• Ventilation system integrity</li>
+                          <li>• Chemical infiltration through damage</li>
+                          <li>• HVAC system protection adequacy</li>
+                          <li>• Indoor air monitoring recommendations</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-bold text-gray-800 mb-2">Safety Considerations</h5>
+                        <ul className="space-y-1 text-gray-700">
+                          <li>• Inspector safety protocols for chemical exposure</li>
+                          <li>• Respiratory protection requirements</li>
+                          <li>• Skin contact prevention measures</li>
+                          <li>• Emergency response procedures</li>
+                          <li>• Decontamination protocols</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Borger Inspectors Look For</h2>
+            <div className="space-y-8">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Industrial Environment Damage Signatures</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">⚗️ Chemical Degradation</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Acid Etching:</strong> Surface pitting from acid rain exposure</li>
+                      <li>• <strong>Polymer Breakdown:</strong> Membrane brittleness from chemical exposure</li>
+                      <li>• <strong>Metal Corrosion:</strong> Accelerated rust and oxidation</li>
+                      <li>• <strong>Gasket Deterioration:</strong> Rubber seal failure from hydrocarbon vapors</li>
+                      <li>• <strong>Coating Failure:</strong> Premature chalking and adhesion loss</li>
+                      <li>• <strong>Sealant Dissolution:</strong> Chemical breakdown of caulk compounds</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">⛈️ Enhanced Storm Damage</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Amplified Hail Impact:</strong> Chemical-weakened surfaces more vulnerable</li>
+                      <li>• <strong>Wind Pressure Stress:</strong> Industrial turbulence creating higher loads</li>
+                      <li>• <strong>Thermal Shock:</strong> Rapid temperature changes from industrial heat</li>
+                      <li>• <strong>Fatigue Cracking:</strong> Repeated stress from constant wind exposure</li>
+                      <li>• <strong>Debris Impact:</strong> Industrial materials becoming projectiles</li>
+                      <li>• <strong>Pressure Cycling:</strong> Atmospheric pressure variations</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">🏭 Particulate Damage</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Abrasive Wear:</strong> Industrial dust creating surface erosion</li>
+                      <li>• <strong>Drainage Clogging:</strong> Particulate accumulation in gutters</li>
+                      <li>• <strong>Ventilation Blockage:</strong> Dust infiltration reducing airflow</li>
+                      <li>• <strong>Coating Contamination:</strong> Embedded particles reducing performance</li>
+                      <li>• <strong>Filter Loading:</strong> HVAC system stress from contamination</li>
+                      <li>• <strong>Adhesion Interference:</strong> Particles preventing proper sealing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Advanced Detection Methods for Industrial Environments</h3>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Chemical Analysis Protocol</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">pH Testing</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Surface acidity measurement from acid rain</li>
+                          <li>• Material degradation correlation</li>
+                          <li>• Chemical exposure history assessment</li>
+                          <li>• Future performance prediction</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Contamination Mapping</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Industrial source proximity analysis</li>
+                          <li>• Wind pattern contamination tracking</li>
+                          <li>• Seasonal exposure variation assessment</li>
+                          <li>• Material selection recommendations</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-4">Enhanced Environmental Monitoring</h4>
+                    <div className="space-y-4">
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Air Quality Correlation</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Local air quality index integration</li>
+                          <li>• Pollution level damage correlation</li>
+                          <li>• Health impact assessment</li>
+                          <li>• Mitigation strategy development</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5 className="font-semibold text-gray-800">Weather Station Data</h5>
+                        <ul className="space-y-1 text-gray-700 text-sm">
+                          <li>• Local weather station correlation</li>
+                          <li>• Industrial heat island documentation</li>
+                          <li>• Wind pattern analysis</li>
+                          <li>• Storm intensity verification</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Seasonal Inspection Strategy for Borger</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Industrial Assessment (March-May)</h3>
+                <p className="text-gray-700 mb-4"><strong>Chemical Exposure Evaluation:</strong> Winter chemical accumulation assessment and storm season preparation.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Chemical Impact Assessment:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Winter chemical buildup documentation</li>
+                      <li>• Freeze-thaw with contamination damage</li>
+                      <li>• Industrial plant startup impact</li>
+                      <li>• Spring cleaning effectiveness</li>
+                      <li>• Storm season vulnerability preparation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Storm Preparation:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Fastener integrity verification</li>
+                      <li>• Emergency ventilation system checks</li>
+                      <li>• Chemical-resistant coating assessment</li>
+                      <li>• Drainage system decontamination</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">☀️ Summer Heat & Chemical Stress (June-August)</h3>
+                <p className="text-gray-700 mb-4"><strong>Thermal-Chemical Synergy:</strong> Combined heat and chemical exposure creating accelerated damage.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Accelerated Aging:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Heat-activated chemical reactions</li>
+                      <li>• Thermal expansion with chemical stress</li>
+                      <li>• Industrial heat island amplification</li>
+                      <li>• Membrane outgassing acceleration</li>
+                      <li>• UV + chemical degradation synergy</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Safety Considerations:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Heat stress protection protocols</li>
+                      <li>• Chemical vapor concentration increases</li>
+                      <li>• Early morning inspection timing</li>
+                      <li>• Enhanced PPE requirements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">🍂 Fall Comprehensive Review (September-November)</h3>
+                <p className="text-gray-700 mb-4"><strong>Annual Damage Assessment:</strong> Complete evaluation of year's chemical and weather exposure.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Annual Cumulative Assessment:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Storm season damage compilation</li>
+                      <li>• Chemical exposure annual impact</li>
+                      <li>• Material performance evaluation</li>
+                      <li>• Replacement timeline planning</li>
+                      <li>• Winter protection strategies</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Maintenance Planning:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Chemical-resistant coating renewal</li>
+                      <li>• Enhanced fastener replacement</li>
+                      <li>• Ventilation system upgrades</li>
+                      <li>• Emergency repair preparation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Industrial Monitoring (December-February)</h3>
+                <p className="text-gray-700 mb-4"><strong>Chemical-Winter Interaction:</strong> Chemical effects combined with freeze-thaw cycles.</p>
+                <div className="space-y-3">
+                  <div>
+                    <h4 className="font-bold text-gray-800">Chemical-Freeze Interaction:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Contaminated ice formation effects</li>
+                      <li>• Chemical concentration from evaporation</li>
+                      <li>• Freeze-thaw cycle acceleration</li>
+                      <li>• Ice dam chemical contamination</li>
+                      <li>• Indoor air quality monitoring</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800">Limited Access Protocols:</h4>
+                    <ul className="space-y-1 text-gray-700">
+                      <li>• Interior moisture monitoring</li>
+                      <li>• Remote sensor installation</li>
+                      <li>• Emergency response planning</li>
+                      <li>• Chemical vapor detection</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims for Industrial-Exposed Properties</h2>
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Specialized Documentation for Industrial Environments</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Enhanced Evidence Requirements</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Chemical Exposure Documentation:</strong> Atmospheric condition records</li>
+                      <li>• <strong>Industrial Source Mapping:</strong> Proximity to emission sources</li>
+                      <li>• <strong>Accelerated Aging Proof:</strong> Comparison to non-industrial areas</li>
+                      <li>• <strong>Multi-Factor Damage:</strong> Weather + chemical interaction evidence</li>
+                      <li>• <strong>Health Impact Assessment:</strong> Indoor air quality correlation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Insurance Company Challenges</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• <strong>Coverage Exclusions:</strong> Industrial pollution clauses</li>
+                      <li>• <strong>Causation Disputes:</strong> Weather vs. chemical damage</li>
+                      <li>• <strong>Accelerated Depreciation:</strong> Reduced material life expectations</li>
+                      <li>• <strong>Specialized Repairs:</strong> Chemical-resistant material requirements</li>
+                      <li>• <strong>Health Concerns:</strong> Indoor air quality liability</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-2xl shadow-md">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Expert Testimony & Technical Support</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Professional Advocacy</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Industrial environment expertise</li>
+                      <li>• Chemical damage pattern recognition</li>
+                      <li>• Accelerated aging calculations</li>
+                      <li>• Multi-factor causation analysis</li>
+                      <li>• Specialized repair necessity justification</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-800 mb-3">Technical Documentation</h4>
+                    <ul className="space-y-2 text-gray-700">
+                      <li>• Chemical analysis reports</li>
+                      <li>• Environmental monitoring data</li>
+                      <li>• Material compatibility assessments</li>
+                      <li>• Engineering failure analysis</li>
+                      <li>• Industry standard compliance verification</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
