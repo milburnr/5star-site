@@ -220,6 +220,205 @@ export default function RoofInspectionsPampaPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Comprehensive Roof Inspection Process in Pampa
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Aerial Drone Inspection</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    High-resolution drone photography captures detailed roof conditions impossible to see from the ground. Our certified drone pilots document every inch of your Pampa property's roof surface, identifying hail damage, wind uplift, granule loss, and structural concerns specific to High Plains weather exposure.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Ground-Level Assessment</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Close-up examination of accessible roof areas, gutters, and flashings reveals damage patterns common in Pampa's agricultural environment. We check for wind-driven debris impact, UV degradation from intense Panhandle sun, and thermal expansion damage from extreme temperature swings.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Interior Attic Inspection</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Interior examination reveals hidden water damage, inadequate ventilation, and structural issues. In Pampa's climate, proper attic ventilation prevents ice dam formation during rare winter storms and reduces cooling costs during brutal summer heat.
+                  </p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Thermal Imaging Analysis</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Advanced thermal cameras detect moisture intrusion, insulation gaps, and air leaks invisible to traditional inspection methods. Critical for Pampa properties where small leaks can quickly escalate during High Plains storm seasons.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Detailed Documentation</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Professional photography, measurements, and written reports meeting insurance company standards. Our documentation has helped hundreds of Pampa property owners successfully navigate insurance claims for storm damage.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Structural Safety Assessment</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Evaluation of roof decking, trusses, and support structures for damage from High Plains wind loads and agricultural equipment vibrations common in Pampa's farming community.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Pampa's Unique Roofing Challenges
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl">
+                <div className="text-4xl mb-4">🌪️</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">High Plains Windstorms</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Pampa experiences sustained winds exceeding 60 mph during storm events. These extreme winds create uplift forces that can damage even properly installed roofing systems. Our inspections specifically look for wind damage patterns unique to High Plains geography.
+                </p>
+              </div>
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
+                <div className="text-4xl mb-4">🧊</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Severe Hailstorms</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  With 6-8 significant hailstorms annually, Pampa properties face constant bombardment. Our inspectors are trained to identify subtle hail damage that may not be immediately visible but can lead to premature roof failure and water infiltration.
+                </p>
+              </div>
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
+                <div className="text-4xl mb-4">🌾</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Agricultural Environment</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Farming operations create unique challenges: airborne debris, chemical exposure, and equipment vibrations. Our Pampa inspections account for agricultural-specific wear patterns and contamination that urban inspectors might miss.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Local Expertise Makes the Difference
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Understanding Pampa's Climate</h3>
+                <ul className="space-y-4 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-brand-gold mr-3 mt-1">▸</span>
+                    <span><strong>Temperature Extremes:</strong> Summer highs exceeding 100°F and winter lows below 0°F create thermal stress patterns unique to the High Plains region.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold mr-3 mt-1">▸</span>
+                    <span><strong>UV Intensity:</strong> High altitude and minimal atmospheric filtering result in accelerated shingle aging requiring specialized material selection.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold mr-3 mt-1">▸</span>
+                    <span><strong>Wind Patterns:</strong> Prevailing winds from multiple directions require comprehensive inspection of all roof faces, not just south-facing slopes.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-brand-gold mr-3 mt-1">▸</span>
+                    <span><strong>Moisture Cycles:</strong> Rapid wet-dry cycles from agricultural irrigation and storm patterns create unique expansion-contraction stresses.</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Insurance Claim Success</h3>
+                <div className="bg-white p-8 rounded-xl shadow-lg">
+                  <div className="text-4xl font-bold text-brand-gold mb-3">94%</div>
+                  <div className="text-xl font-semibold text-brand-brown mb-4">Claim Approval Rate</div>
+                  <p className="text-gray-700 mb-6">
+                    Our detailed documentation and local expertise result in exceptionally high insurance claim approval rates for Pampa property owners.
+                  </p>
+                  <ul className="space-y-2 text-sm text-gray-600">
+                    <li>✓ Professional photography documentation</li>
+                    <li>✓ Detailed damage measurements</li>
+                    <li>✓ Weather correlation reports</li>
+                    <li>✓ Code compliance assessments</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              What Our Pampa Clients Say
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p className="text-gray-700 mb-4 italic">
+                  "After the last hailstorm, 5 Star's inspection found damage our insurance adjuster missed. Their detailed report helped us get full replacement coverage. Exceptional local knowledge."
+                </p>
+                <div className="text-brand-brown font-semibold">- Sarah M., Pampa Homeowner</div>
+              </div>
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Quick response after the spring storm. The drone inspection revealed wind damage we couldn't see from the ground. Professional service from start to finish."
+                </p>
+                <div className="text-brand-brown font-semibold">- Mike R., Agricultural Property</div>
+              </div>
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Free inspection before we bought our ranch. They found issues that saved us thousands in negotiation. Worth every penny of the pre-purchase fee."
+                </p>
+                <div className="text-brand-brown font-semibold">- Tom & Linda K., Pampa</div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Inspection Scheduling & Emergency Response
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Standard Scheduling</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-6 rounded-xl">
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Routine Inspections</h4>
+                    <p className="text-gray-700 mb-2">Scheduled within 3-5 business days</p>
+                    <p className="text-sm text-gray-600">Perfect for annual maintenance, pre-purchase assessments, and insurance documentation</p>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl">
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Post-Storm Inspections</h4>
+                    <p className="text-gray-700 mb-2">Priority scheduling within 24-48 hours</p>
+                    <p className="text-sm text-gray-600">Following significant weather events affecting the Pampa area</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Emergency Response</h3>
+                <div className="space-y-4">
+                  <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-xl">
+                    <h4 className="text-lg font-semibold text-red-800 mb-2">Active Leak Response</h4>
+                    <p className="text-red-700 mb-2">Emergency deployment within 2-4 hours</p>
+                    <p className="text-sm text-red-600">For properties experiencing active water infiltration</p>
+                  </div>
+                  <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-xl">
+                    <h4 className="text-lg font-semibold text-yellow-800 mb-2">Severe Weather Tracking</h4>
+                    <p className="text-yellow-700 mb-2">Proactive storm monitoring</p>
+                    <p className="text-sm text-yellow-600">We monitor High Plains weather patterns and pre-position crews during storm seasons</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions

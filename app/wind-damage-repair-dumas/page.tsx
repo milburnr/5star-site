@@ -221,6 +221,153 @@ export default function WindDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-sky-50 border-l-4 border-sky-600 p-8 rounded-lg">
+            <h3 className="text-2xl font-bold mb-4 text-sky-800">🌬️ Dumas High Plains Wind Environment</h3>
+            <p className="text-lg mb-6">Dumas sits on the High Plains at 3,700 feet elevation, creating one of the most wind-exposed environments in Texas. The combination of elevation, flat terrain, and weather patterns makes wind damage a year-round concern for property owners.</p>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white rounded-lg p-6">
+                <h4 className="text-lg font-bold mb-3 text-sky-700">Geographic Wind Factors</h4>
+                <ul className="space-y-2 text-sm">
+                  <li>• <strong>Elevation:</strong> 3,700+ feet increases wind exposure</li>
+                  <li>• <strong>Topography:</strong> Flat high plains allow unobstructed wind flow</li>
+                  <li>• <strong>Agricultural setting:</strong> Open farmland provides 50+ mile wind fetch</li>
+                  <li>• <strong>Industrial exposure:</strong> Feedlot and agricultural facilities create wind turbulence</li>
+                  <li>• <strong>Caprock proximity:</strong> Escarpment creates wind acceleration zones</li>
+                  <li>• <strong>Urban heat island:</strong> City creates local thermal wind patterns</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-6">
+                <h4 className="text-lg font-bold mb-3 text-sky-700">Seasonal Wind Patterns</h4>
+                <ul className="space-y-2 text-sm">
+                  <li>• <strong>Spring (March-May):</strong> Severe weather season, 70-100+ mph gusts</li>
+                  <li>• <strong>Summer (June-August):</strong> Daily thermal winds, isolated microbursts</li>
+                  <li>• <strong>Fall (September-November):</strong> Frontal passages, 50-70 mph winds</li>
+                  <li>• <strong>Winter (December-February):</strong> Arctic fronts, sustained 40-60 mph</li>
+                  <li>• <strong>Year-round average:</strong> 14-16 mph sustained winds</li>
+                  <li>• <strong>Peak wind months:</strong> March, April, and October</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Understanding Wind Damage in Dumas</h2>
+            <p className="text-lg text-gray-700 mb-8 text-center max-w-4xl mx-auto">
+              Wind damage in Dumas follows predictable patterns based on building orientation, roof design, and material quality. Our comprehensive assessment identifies both visible damage and potential failure points.
+            </p>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+                <div className="text-3xl mb-4">💨</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Shingle Blow-Off Damage</h3>
+                <p className="text-gray-600 mb-4">Most common wind damage in Dumas. High Plains winds get under shingle edges and tear them completely off, especially at roof perimeters.</p>
+                <ul className="text-sm space-y-1">
+                  <li>• Corner and edge shingles most vulnerable</li>
+                  <li>• Progressive failure from small lifts to complete loss</li>
+                  <li>• Ridge caps blown off in sustained winds</li>
+                  <li>• Starter strip failures at roof eaves</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+                <div className="text-3xl mb-4">🌪️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Edge Lifting & Curling</h3>
+                <p className="text-gray-600 mb-4">Constant High Plains winds cause shingle edges to lift and curl, breaking sealant bonds and creating entry points for future wind events.</p>
+                <ul className="text-sm space-y-1">
+                  <li>• Thermal cycling accelerates edge lifting</li>
+                  <li>• Broken adhesive strips from wind flexing</li>
+                  <li>• UV damage weakens shingle flexibility</li>
+                  <li>• Progressive worsening with each wind event</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+                <div className="text-3xl mb-4">🏠</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Flashing & Metal Work</h3>
+                <p className="text-gray-600 mb-4">Metal components are particularly vulnerable to High Plains winds. Flashing around penetrations and edges fails first.</p>
+                <ul className="text-sm space-y-1">
+                  <li>• Chimney flashing pulled loose from substrate</li>
+                  <li>• Vent pipe boots torn or displaced</li>
+                  <li>• Drip edge separation from fascia boards</li>
+                  <li>• Valley metal lifting and bending</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+                <div className="text-3xl mb-4">🌿</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Debris Impact</h3>
+                <p className="text-gray-600 mb-4">Dumas's agricultural setting creates unique debris hazards during windstorms—equipment, materials, and vegetation become projectiles.</p>
+                <ul className="text-sm space-y-1">
+                  <li>• Farm equipment debris (tarps, panels, tools)</li>
+                  <li>• Crop residue and tumbleweeds</li>
+                  <li>• Feedlot materials (fencing, panels)</li>
+                  <li>• Tree limbs from shelter belt plantings</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+                <div className="text-3xl mb-4">🏗️</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Commercial Building Stress</h3>
+                <p className="text-gray-600 mb-4">Large commercial and agricultural buildings in Dumas experience concentrated wind loads that stress roof systems differently than residential properties.</p>
+                <ul className="text-sm space-y-1">
+                  <li>• Membrane billowing on flat roofs</li>
+                  <li>• Metal panel fastener failures</li>
+                  <li>• Parapet wall wind pressure damage</li>
+                  <li>• HVAC equipment displacement</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+                <div className="text-3xl mb-4">⚡</div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Electrical & Utility Damage</h3>
+                <p className="text-gray-600 mb-4">High Plains winds often damage electrical systems and utilities, creating additional hazards and complicating roof repairs.</p>
+                <ul className="text-sm space-y-1">
+                  <li>• Power line failures affecting repair scheduling</li>
+                  <li>• Electrical mast and service entrance damage</li>
+                  <li>• Satellite dish and antenna displacement</li>
+                  <li>• Solar panel mounting system stress</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-amber-50 border-l-4 border-amber-600 p-8 rounded-lg">
+            <h3 className="text-2xl font-bold mb-4 text-amber-800">🏭 Dumas Industrial & Agricultural Considerations</h3>
+            <p className="text-lg mb-6">Dumas's role as a major agricultural and feedlot center creates unique roofing challenges that require specialized expertise and materials.</p>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white rounded-lg p-6">
+                <h4 className="text-lg font-bold mb-3 text-amber-700">Agricultural Industry Impacts</h4>
+                <ul className="space-y-2 text-sm">
+                  <li>• <strong>Feedlot operations:</strong> Ammonia exposure accelerates metal corrosion</li>
+                  <li>• <strong>Grain storage facilities:</strong> Dust accumulation affects roof surface</li>
+                  <li>• <strong>Processing plants:</strong> Chemical emissions impact roofing materials</li>
+                  <li>• <strong>Heavy equipment:</strong> Vibration affects fastener integrity</li>
+                  <li>• <strong>Agricultural chemicals:</strong> Fertilizer runoff creates corrosive conditions</li>
+                  <li>• <strong>Livestock operations:</strong> Biological contaminants require special cleaning</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-lg p-6">
+                <h4 className="text-lg font-bold mb-3 text-amber-700">Industrial Building Requirements</h4>
+                <ul className="space-y-2 text-sm">
+                  <li>• <strong>Large span roofs:</strong> Enhanced structural support needed</li>
+                  <li>• <strong>Heavy load ratings:</strong> Equipment and storage requirements</li>
+                  <li>• <strong>Chemical resistance:</strong> Special membrane materials</li>
+                  <li>• <strong>Ventilation systems:</strong> Complex penetration sealing</li>
+                  <li>• <strong>Drainage capacity:</strong> Oversized systems for flat roofs</li>
+                  <li>• <strong>Access requirements:</strong> Walkways and safety systems</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions

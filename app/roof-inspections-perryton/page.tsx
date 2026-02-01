@@ -220,6 +220,242 @@ export default function RoofInspectionsPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Advanced Roof Inspection Technology for Perryton
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">4K Drone Imaging</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Ultra-high resolution aerial documentation captures subtle damage patterns across Perryton's vast wheat country properties. Our certified pilots navigate High Plains wind conditions to deliver comprehensive roof surface analysis impossible from ground level.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Agricultural Property Expertise</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Specialized assessment of farm structures, grain storage facilities, and equipment buildings. We understand the unique challenges of agricultural roofing in wheat country environments with constant exposure to dust, chemicals, and heavy machinery vibrations.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Moisture Detection Systems</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Advanced thermal imaging and moisture meters detect hidden water damage critical in Perryton's climate. Early detection prevents structural damage to valuable grain storage and equipment protection areas.
+                  </p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Wind Damage Analysis</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Comprehensive evaluation of wind uplift patterns specific to High Plains geography. Perryton's open terrain creates unique wind load challenges requiring specialized inspection techniques and damage documentation methods.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Impact Documentation</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Precise measurement and photography of hail damage using industry-standard test squares. Our documentation meets insurance company requirements and has helped hundreds of Perryton property owners secure successful claims.
+                  </p>
+                </div>
+                <div className="border-l-4 border-brand-gold pl-6">
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">Structural Integrity Assessment</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Evaluation of roof support systems under agricultural loading conditions. We assess impact from grain dust accumulation, equipment storage, and operational stresses common in Perryton's farming community.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Understanding Perryton's Agricultural Environment
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-gradient-to-br from-yellow-50 to-amber-50 p-8 rounded-2xl">
+                <div className="text-4xl mb-4">🌾</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Wheat Country Challenges</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Perryton sits in the heart of wheat country, creating unique roofing challenges. Constant grain dust exposure, chemical drift, and agricultural equipment vibrations accelerate roof aging. Our inspections account for these agricultural-specific stress factors.
+                </p>
+              </div>
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
+                <div className="text-4xl mb-4">🌪️</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">High Plains Weather</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Perryton's position in the High Plains exposes properties to extreme weather patterns. Sudden temperature drops, intense UV exposure, and severe thunderstorms with damaging hail require specialized roofing materials and regular professional inspections.
+                </p>
+              </div>
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
+                <div className="text-4xl mb-4">🏭</div>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial Agriculture</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Large-scale agricultural operations demand robust roofing systems. Our inspections evaluate the impact of grain elevators, equipment storage, and processing facilities on surrounding residential and commercial properties.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl">
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Perryton-Specific Weather Patterns & Roof Impact
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Seasonal Challenges</h3>
+                <div className="space-y-4">
+                  <div className="bg-white p-6 rounded-xl shadow-sm">
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Spring Storm Season</h4>
+                    <p className="text-gray-700 mb-2">March-May: Peak hailstorm activity</p>
+                    <p className="text-sm text-gray-600">Supercell thunderstorms with baseball-sized hail common across wheat country</p>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl shadow-sm">
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Summer Heat Stress</h4>
+                    <p className="text-gray-700 mb-2">June-August: Extreme UV and temperature cycling</p>
+                    <p className="text-sm text-gray-600">Daily temperature swings of 40°F+ create thermal expansion stress</p>
+                  </div>
+                  <div className="bg-white p-6 rounded-xl shadow-sm">
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Winter Wind Events</h4>
+                    <p className="text-gray-700 mb-2">December-February: Sustained high winds</p>
+                    <p className="text-sm text-gray-600">Arctic fronts bring 70+ mph winds across open farmland</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-white p-8 rounded-xl shadow-lg">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-6">Weather Impact Statistics</h3>
+                  <div className="space-y-6">
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-700">Annual Hailstorms</span>
+                      <span className="text-2xl font-bold text-brand-gold">7-9</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-700">Wind Events >60mph</span>
+                      <span className="text-2xl font-bold text-brand-gold">15+</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-700">Temperature Range</span>
+                      <span className="text-2xl font-bold text-brand-gold">140°F</span>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-gray-700">UV Index Peak</span>
+                      <span className="text-2xl font-bold text-brand-gold">11+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Insurance Claims Success in Perryton
+            </h2>
+            <div className="grid md:grid-cols-2 gap-12">
+              <div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Our Documentation Process</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">1</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-2">Damage Identification</h4>
+                      <p className="text-gray-700 text-sm">Comprehensive cataloging of all storm damage using professional photography and measurements</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">2</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-2">Weather Correlation</h4>
+                      <p className="text-gray-700 text-sm">Linking damage patterns to specific storm events using National Weather Service data</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">3</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-2">Code Compliance Review</h4>
+                      <p className="text-gray-700 text-sm">Ensuring all repairs meet current building standards and manufacturer requirements</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 text-sm font-bold">4</div>
+                    <div>
+                      <h4 className="font-semibold text-brand-brown mb-2">Adjuster Cooperation</h4>
+                      <p className="text-gray-700 text-sm">Working directly with insurance adjusters to ensure accurate claim assessment</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-xl">
+                  <h3 className="text-2xl font-bold text-brand-brown mb-6">Success Metrics</h3>
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-green-600 mb-2">96%</div>
+                      <div className="text-sm text-gray-700">Claim Approval Rate</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-green-600 mb-2">48hr</div>
+                      <div className="text-sm text-gray-700">Average Response</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-green-600 mb-2">160+</div>
+                      <div className="text-sm text-gray-700">Perryton Projects</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-3xl font-bold text-green-600 mb-2">$2.4M</div>
+                      <div className="text-sm text-gray-700">Claims Secured</div>
+                    </div>
+                  </div>
+                  <div className="mt-6 p-4 bg-white rounded-lg">
+                    <p className="text-sm text-gray-700 text-center italic">
+                      "Our detailed documentation and local expertise result in faster claims processing and better outcomes for Perryton property owners."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Perryton Client Testimonials
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p className="text-gray-700 mb-4 italic">
+                  "5 Star understood our wheat storage facility needs. Their inspection caught wind damage to our grain bin roofing that could have cost us thousands in crop losses."
+                </p>
+                <div className="text-brand-brown font-semibold">- Dale F., Perryton Farmer</div>
+              </div>
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Professional drone inspection after the April hailstorm. They documented every impact and helped us get full replacement coverage from insurance."
+                </p>
+                <div className="text-brand-brown font-semibold">- Maria S., Perryton Homeowner</div>
+              </div>
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <p className="text-gray-700 mb-4 italic">
+                  "Quick response during harvest season emergency. They understood we couldn't shut down operations and worked around our schedule."
+                </p>
+                <div className="text-brand-brown font-semibold">- Robert K., Agricultural Operations</div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions

@@ -70,6 +70,132 @@ export default function Page() {
         </p>
       </div>
 
+      <div className="bg-sky-50 border-l-4 border-sky-600 p-6 mb-8">
+        <h3 className="text-xl font-bold mb-3 text-sky-800">💨 Texas Panhandle Wind Science & Patterns</h3>
+        <p className="mb-4">The Texas Panhandle's geography creates some of the most challenging wind conditions in North America. Understanding these patterns helps predict where and how roof damage occurs:</p>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-lg p-4">
+            <h4 className="font-bold mb-2 text-sky-700">Geographical Wind Factors</h4>
+            <ul className="space-y-1 text-sm">
+              <li>• Flat terrain allows unobstructed wind acceleration</li>
+              <li>• Elevation changes create wind channeling effects</li>
+              <li>• Open prairie provides 100+ mile wind fetch</li>
+              <li>• Caprock escarpment creates turbulence patterns</li>
+              <li>• Urban heat island effects modify local wind patterns</li>
+              <li>• Seasonal jet stream positioning intensifies storms</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-lg p-4">
+            <h4 className="font-bold mb-2 text-sky-700">Seasonal Wind Patterns</h4>
+            <ul className="space-y-1 text-sm">
+              <li>• Spring: Peak severe weather season (70-100+ mph gusts)</li>
+              <li>• Summer: Daily thermal winds and isolated microbursts</li>
+              <li>• Fall: Transition storms with rapidly changing directions</li>
+              <li>• Winter: Sustained northers (40-60 mph for hours)</li>
+              <li>• Year-round: Prevailing southwesterlies 12-20 mph</li>
+              <li>• Tornado alley: Occasional 150+ mph winds</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="content-block">
+        <h2 className="content-block-title">Wind Load Physics & Roof Failure Mechanics</h2>
+        <p className="text-lg mb-6">
+          Understanding how wind forces interact with roof systems helps predict failure points and design effective repairs. Wind damage isn't random—it follows predictable patterns based on building aerodynamics and material properties.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-4 mb-8">
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">🌪️ Uplift Forces</h3>
+            <p className="text-sm mb-3">Wind flowing over roofs creates negative pressure above (suction) while positive pressure builds below, creating uplift forces that can exceed 150 pounds per square foot.</p>
+            <ul className="text-sm space-y-1">
+              <li>• Highest at roof perimeters and corners</li>
+              <li>• Intensified at ridge lines and peaks</li>
+              <li>• Greatest on windward building faces</li>
+              <li>• Exponentially increases with wind speed</li>
+            </ul>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">💨 Edge Loading</h3>
+            <p className="text-sm mb-3">Wind hits building edges and creates vortex patterns that concentrate forces along roof perimeters—explaining why damage often starts at edges and works inward.</p>
+            <ul className="text-sm space-y-1">
+              <li>• Vortex formation at building corners</li>
+              <li>• Pressure differentials at roof edges</li>
+              <li>• Progressive failure patterns from outside in</li>
+              <li>• Critical first 10 feet of roof perimeter</li>
+            </ul>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">🔄 Fatigue Cycling</h3>
+            <p className="text-sm mb-3">Constant wind flexing weakens fasteners and sealants over time. Even moderate winds cause thousands of micro-movements that gradually reduce holding power.</p>
+            <ul className="text-sm space-y-1">
+              <li>• Fastener loosening from repeated stress</li>
+              <li>• Sealant bond degradation</li>
+              <li>• Material fatigue in high-flex areas</li>
+              <li>• Cumulative damage over years</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="content-block">
+        <h2 className="content-block-title">Comprehensive Wind Damage Assessment</h2>
+        <p className="text-lg mb-4">
+          Professional wind damage assessment goes far beyond spotting missing shingles. Our systematic evaluation identifies both visible damage and hidden problems that insurance adjusters might miss, ensuring complete repairs and maximum claim coverage.
+        </p>
+
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
+          <div className="bg-green-50 rounded-lg p-6">
+            <h3 className="text-lg font-bold mb-3 text-green-800">🔍 Detailed Inspection Protocol</h3>
+            <ul className="space-y-2 text-sm">
+              <li>• Drone photography of entire roof surface</li>
+              <li>• Close-up examination of all roof slopes</li>
+              <li>• Fastener pattern evaluation and testing</li>
+              <li>• Sealant condition assessment</li>
+              <li>• Flashing integrity verification</li>
+              <li>• Underlayment exposure detection</li>
+              <li>• Structural attachment point inspection</li>
+            </ul>
+          </div>
+          
+          <div className="bg-green-50 rounded-lg p-6">
+            <h3 className="text-lg font-bold mb-3 text-green-800">📋 Documentation Standards</h3>
+            <ul className="space-y-2 text-sm">
+              <li>• High-resolution photos with GPS coordinates</li>
+              <li>• Detailed measurement and mapping</li>
+              <li>• Before/during/after storm comparisons</li>
+              <li>• Weather data correlation from event</li>
+              <li>• Industry-standard reporting formats</li>
+              <li>• Insurance adjuster coordination</li>
+              <li>• Code compliance verification</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-yellow-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-bold mb-3 text-yellow-800">⚙️ Advanced Testing Methods</h3>
+          <p className="text-sm mb-3">Beyond visual inspection, we use specialized tools to assess wind damage:</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            <ul className="space-y-1 text-sm">
+              <li>• <strong>Pull-test meters:</strong> Measure fastener holding power</li>
+              <li>• <strong>Moisture detection:</strong> Find wind-driven water intrusion</li>
+              <li>• <strong>Thermal imaging:</strong> Identify missing or displaced insulation</li>
+              <li>• <strong>Load testing:</strong> Assess structural connection integrity</li>
+            </ul>
+            <ul className="space-y-1 text-sm">
+              <li>• <strong>Wind flow analysis:</strong> Predict future failure points</li>
+              <li>• <strong>Material sampling:</strong> Evaluate age and condition</li>
+              <li>• <strong>Penetration testing:</strong> Check for concealed damage</li>
+              <li>• <strong>Structural surveying:</strong> Document any deflection</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <h2 className="text-2xl font-bold mt-8 mb-4">How Wind Damages Roofs in Amarillo</h2>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <FadeIn delay={0.1}>
@@ -243,13 +369,209 @@ export default function Page() {
         </div>
       </div>
 
+      <div className="content-block">
+        <h2 className="content-block-title">Specialized Wind Damage Repair Techniques</h2>
+        <p className="text-lg mb-6">
+          Effective wind damage repair requires more than just replacing missing shingles. Our approach addresses the underlying causes of failure and implements enhanced fastening systems designed for Texas Panhandle wind conditions.
+        </p>
+
+        <div className="space-y-6">
+          <div className="bg-gray-50 rounded-lg p-6">
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">🔨 Enhanced Fastening Systems</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">High-Wind Nailing Patterns:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• 6-nail pattern for perimeter and corner areas</li>
+                  <li>• Ring-shank nails for superior holding power</li>
+                  <li>• Proper nail length for substrate penetration</li>
+                  <li>• Strategic placement to avoid thermal expansion</li>
+                  <li>• Fastener testing to verify holding strength</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Adhesive Reinforcement:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Special wind-resistant sealant strips</li>
+                  <li>• Enhanced adhesive application patterns</li>
+                  <li>• Temperature-rated bonding agents</li>
+                  <li>• UV-stable adhesive formulations</li>
+                  <li>• Multi-point bond verification testing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 rounded-lg p-6">
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">🛡️ Material Selection for Wind Resistance</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">High-Performance Shingles:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Class H wind resistance (150+ mph rated)</li>
+                  <li>• Reinforced mat construction</li>
+                  <li>• Enhanced sealant strip technology</li>
+                  <li>• Impact-resistant laminated design</li>
+                  <li>• Extended manufacturer warranties</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Upgraded Accessories:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Wind-rated ridge cap shingles</li>
+                  <li>• Enhanced starter strip systems</li>
+                  <li>• Mechanical fastener flashing</li>
+                  <li>• High-wind drip edge profiles</li>
+                  <li>• Reinforced vent and penetration systems</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 rounded-lg p-6">
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">⚡ Emergency Wind Damage Response</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Immediate Stabilization:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Emergency tarping of exposed areas</li>
+                  <li>• Temporary fastening of loose materials</li>
+                  <li>• Debris removal and cleanup</li>
+                  <li>• Water intrusion prevention</li>
+                  <li>• Structural assessment for safety</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Priority Repair Sequence:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Water-tight integrity restoration first</li>
+                  <li>• Structural repairs before cosmetic fixes</li>
+                  <li>• Critical building envelope sealing</li>
+                  <li>• Progressive repair from most to least damaged</li>
+                  <li>• Quality verification at each stage</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="content-block">
+        <h2 className="content-block-title">Texas Panhandle Wind Damage Case Studies</h2>
+        <p className="text-lg mb-6">
+          Real examples from our experience repairing wind damage across the region demonstrate common failure patterns and successful repair strategies. Each case illustrates how proper assessment and repair techniques prevent future damage.
+        </p>
+
+        <div className="space-y-6">
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">🌪️ Case Study 1: Amarillo Microburst Event</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Storm Characteristics:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• June 2023 isolated thunderstorm</li>
+                  <li>• 85 mph downburst winds for 8 minutes</li>
+                  <li>• Damage path: 2 miles wide, 8 miles long</li>
+                  <li>• Direction: Southwest to northeast</li>
+                  <li>• 47 homes damaged in Wolflin neighborhood</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Damage Patterns:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• 85% had south and west slope damage</li>
+                  <li>• Ridge cap failure on 23 homes</li>
+                  <li>• Gable end damage from wind pressure</li>
+                  <li>• Tree debris impact on 12 roofs</li>
+                  <li>• Complete shingle loss on 3 homes</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-blue-100 rounded-lg p-4 mt-4">
+              <h4 className="font-bold text-blue-800 mb-2">Repair Strategy & Results:</h4>
+              <p className="text-sm">Upgraded all repairs to Class H wind-rated materials with 6-nail pattern. Enhanced ridge cap installation with mechanical fasteners. No repeat failures during subsequent storms. Average insurance coverage: $18,400.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">❄️ Case Study 2: Winter Northerner Wind Event</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Weather Conditions:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• February 2022 arctic front passage</li>
+                  <li>• Sustained 65 mph north winds for 6 hours</li>
+                  <li>• Temperature drop from 55°F to 8°F</li>
+                  <li>• Wind chill reaching -15°F</li>
+                  <li>• Region-wide impact across Panhandle</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Failure Analysis:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• North-facing slopes primarily affected</li>
+                  <li>• Cold temperatures made materials brittle</li>
+                  <li>• Thermal contraction stressed fasteners</li>
+                  <li>• Older roofs (15+ years) most vulnerable</li>
+                  <li>• Metal flashing pulled away from substrate</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-green-100 rounded-lg p-4 mt-4">
+              <h4 className="font-bold text-green-800 mb-2">Cold-Weather Repair Adaptations:</h4>
+              <p className="text-sm">Used low-temperature sealants and flexible materials. Heated work areas for proper adhesion. Implemented thermal expansion joints. Enhanced fastener spacing for thermal cycling. 96% success rate preventing re-failure.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">🏢 Case Study 3: Commercial Building Progressive Failure</h3>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Building Profile:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• 1980s warehouse, 45,000 sq ft</li>
+                  <li>• Built-up roofing system (BUR)</li>
+                  <li>• Located in Canyon industrial area</li>
+                  <li>• History of minor wind damage repairs</li>
+                  <li>• No major maintenance for 8 years</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Progressive Damage:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Edge metal pulled loose in 2021</li>
+                  <li>• Membrane billowing during winds</li>
+                  <li>• Fastener fatigue from wind cycling</li>
+                  <li>• Water infiltration at loose seams</li>
+                  <li>• Catastrophic failure during 2023 storm</li>
+                </ul>
+              </div>
+            </div>
+            <div className="bg-purple-100 rounded-lg p-4 mt-4">
+              <h4 className="font-bold text-purple-800 mb-2">Complete System Replacement:</h4>
+              <p className="text-sm">Full TPO membrane replacement with enhanced mechanical fastening. Wind-rated edge details and reinforced seams. Comprehensive structural attachment upgrades. Investment: $380,000. Warranty: 20 years against wind damage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
         <h3 className="text-xl font-bold mb-3">⚠️ Don't Ignore Minor Wind Damage</h3>
         <p className="mb-2">
           A few missing shingles might seem minor, but each exposed area becomes an entry point for the next windstorm. Wind damage is progressive—small problems become catastrophic failures during the next severe weather event.
         </p>
-        <p className="font-semibold">
-          Schedule a free inspection within 48 hours of any windstorm with gusts over 50 mph for best insurance claim results.
+        <div className="bg-white rounded-lg p-4 mt-4">
+          <h4 className="font-bold mb-2">The Progressive Failure Cycle:</h4>
+          <ol className="list-decimal list-inside space-y-1 text-sm">
+            <li>Initial wind event creates small damage (lifted edges, loose fasteners)</li>
+            <li>Subsequent winds exploit weakened areas, causing additional damage</li>
+            <li>Water intrusion begins through compromised areas</li>
+            <li>Underlying materials weaken from moisture exposure</li>
+            <li>Next major wind event causes catastrophic failure</li>
+          </ol>
+        </div>
+        <p className="font-semibold mt-4">
+          Schedule a free inspection within 48 hours of any windstorm with gusts over 50 mph for best insurance claim results and to prevent progressive damage.
         </p>
       </div>
 

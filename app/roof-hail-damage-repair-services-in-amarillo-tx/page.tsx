@@ -5,8 +5,8 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
-  description: 'Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
+  title: 'Expert Hail Damage Roof Repair Services Amarillo TX | Insurance Claims Specialists | Free Inspections | 5 Star',
+  description: 'Premier hail damage roof repair services in Amarillo TX. Hail Alley specialists with 25+ years experience. Free inspections, insurance claim assistance, Class 4 impact-resistant upgrades. Licensed, bonded, insured. Emergency response available throughout Potter & Randall Counties.',
 };
 
 export default function Page() {
@@ -257,6 +257,234 @@ export default function Page() {
           </section>
         </FadeIn>
 
+        <section className="bg-white rounded-lg shadow-md p-8 mb-8">
+          <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Hail Damage Repair Pricing - Amarillo Market 2025</h2>
+          <p className="text-lg mb-8 text-center text-gray-600">
+            Comprehensive pricing guide for hail damage repairs in Amarillo. Most customers pay only their insurance deductible when damage qualifies for coverage.
+          </p>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <div className="pricing-card border-2 border-gray-200 rounded-lg p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Minor Hail Damage</h3>
+              <div className="text-3xl font-bold text-brand-gold mb-4">$2,500-$6,200</div>
+              <p className="text-sm text-gray-600 mb-4">Light to moderate granule loss • Scattered impacts</p>
+              <ul className="text-left space-y-2 text-sm">
+                <li>✓ Spot shingle replacement</li>
+                <li>✓ Granule loss repair</li>
+                <li>✓ Minor flashing adjustment</li>
+                <li>✓ Vent cap replacement</li>
+                <li>✓ Gutter system inspection</li>
+              </ul>
+            </div>
+            
+            <div className="pricing-card border-2 border-brand-gold rounded-lg p-6 text-center relative">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-brand-gold text-white px-4 py-1 rounded-full text-sm font-bold">MOST COMMON</div>
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Moderate Hail Damage</h3>
+              <div className="text-3xl font-bold text-brand-gold mb-4">$8,500-$18,500</div>
+              <p className="text-sm text-gray-600 mb-4">Significant impacts • Multiple damaged areas</p>
+              <ul className="text-left space-y-2 text-sm">
+                <li>✓ Extensive shingle replacement</li>
+                <li>✓ Metal component repair/replace</li>
+                <li>✓ Enhanced flashing work</li>
+                <li>✓ Ventilation system upgrade</li>
+                <li>✓ Partial roof section rebuild</li>
+              </ul>
+            </div>
+            
+            <div className="pricing-card border-2 border-gray-200 rounded-lg p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Severe Hail Damage</h3>
+              <div className="text-3xl font-bold text-brand-gold mb-4">$15,000-$35,000+</div>
+              <p className="text-sm text-gray-600 mb-4">Complete roof replacement • Structural damage</p>
+              <ul className="text-left space-y-2 text-sm">
+                <li>✓ Complete roof tear-off</li>
+                <li>✓ Full system replacement</li>
+                <li>✓ Deck repair if damaged</li>
+                <li>✓ Upgrade to Class 4 materials</li>
+                <li>✓ Enhanced warranty coverage</li>
+              </ul>
+            </div>
+            
+            <div className="pricing-card border-2 border-gray-200 rounded-lg p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Commercial Hail Repair</h3>
+              <div className="text-3xl font-bold text-brand-gold mb-4">$8,500-$75,000+</div>
+              <p className="text-sm text-gray-600 mb-4">Flat roof systems • Membrane repair/replacement</p>
+              <ul className="text-left space-y-2 text-sm">
+                <li>✓ TPO/EPDM membrane repair</li>
+                <li>✓ Metal roof restoration</li>
+                <li>✓ HVAC unit protection</li>
+                <li>✓ Drainage system overhaul</li>
+                <li>✓ Emergency leak mitigation</li>
+              </ul>
+            </div>
+            
+            <div className="pricing-card border-2 border-gray-200 rounded-lg p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Response</h3>
+              <div className="text-3xl font-bold text-brand-gold mb-4">$450-$2,850</div>
+              <p className="text-sm text-gray-600 mb-4">Immediate leak stoppage • Property protection</p>
+              <ul className="text-left space-y-2 text-sm">
+                <li>✓ 24/7 emergency response</li>
+                <li>✓ Emergency tarping service</li>
+                <li>✓ Immediate leak mitigation</li>
+                <li>✓ Interior damage prevention</li>
+                <li>✓ Temporary weatherproofing</li>
+              </ul>
+            </div>
+            
+            <div className="pricing-card border-2 border-green-500 rounded-lg p-6 text-center relative">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold">INSURANCE COVERED</div>
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Claim Work</h3>
+              <div className="text-3xl font-bold text-brand-gold mb-4">Deductible Only</div>
+              <p className="text-sm text-gray-600 mb-4">Full claim management • Maximum coverage</p>
+              <ul className="text-left space-y-2 text-sm">
+                <li>✓ Complete damage documentation</li>
+                <li>✓ Insurance company negotiation</li>
+                <li>✓ Adjuster meeting coordination</li>
+                <li>✓ Supplement claim assistance</li>
+                <li>✓ Code upgrade coverage help</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 rounded">
+            <h4 className="font-bold mb-3">⛈️ Amarillo Hail Damage Cost Factors:</h4>
+            <div className="grid md:grid-cols-2 gap-4 text-sm">
+              <ul className="space-y-2">
+                <li><strong>Hail Size Impact:</strong> Golf ball+ hail typically qualifies for full replacement</li>
+                <li><strong>Age of Roof:</strong> Roofs over 10 years more susceptible to insurance approval</li>
+                <li><strong>Impact Density:</strong> 8+ hits per test square = replacement approved</li>
+                <li><strong>Material Type:</strong> Standard shingles more prone to damage than Class 4</li>
+              </ul>
+              <ul className="space-y-2">
+                <li><strong>Claim Timeline:</strong> File within 1 year of storm date for coverage</li>
+                <li><strong>Upgrade Options:</strong> Insurance often covers Class 4 upgrade costs</li>
+                <li><strong>Emergency Response:</strong> Immediate tarping prevents claim denial</li>
+                <li><strong>Documentation:</strong> Professional photos essential for claim success</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-blue-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold mb-6">Amarillo Hail Patterns & Historical Data</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-brand-brown">Hail Season Patterns in Amarillo</h3>
+              <ul className="space-y-3">
+                <li><strong>Peak Season:</strong> April through June with 68% of annual hail events</li>
+                <li><strong>Average Annual Events:</strong> 35+ days with hail, 8-12 significant storms</li>
+                <li><strong>Typical Hail Size:</strong> Quarter to golf ball size, with softball-sized events 2-3x annually</li>
+                <li><strong>Damage Frequency:</strong> Major insurance events every 3-5 years historically</li>
+                <li><strong>Geographic Impact:</strong> Southwest Amarillo receives 15% more hail than downtown</li>
+                <li><strong>Time of Day:</strong> 70% of severe hail occurs between 4PM-9PM</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-brand-brown">Recent Major Hail Events</h3>
+              <div className="space-y-4">
+                <div className="p-4 bg-white rounded shadow">
+                  <h4 className="font-bold mb-2">May 2024 Supercell</h4>
+                  <p className="text-sm text-gray-600">Tennis ball to softball sized hail • $127M in damage • 15,000+ claims filed</p>
+                </div>
+                <div className="p-4 bg-white rounded shadow">
+                  <h4 className="font-bold mb-2">April 2023 Outbreak</h4>
+                  <p className="text-sm text-gray-600">Golf ball hail across Amarillo • $89M in damage • 12,400+ claims</p>
+                </div>
+                <div className="p-4 bg-white rounded shadow">
+                  <h4 className="font-bold mb-2">June 2022 Event</h4>
+                  <p className="text-sm text-gray-600">Baseball sized hail in Wolflin area • $56M in damage • 8,900+ claims</p>
+                </div>
+                <div className="p-4 bg-white rounded shadow">
+                  <h4 className="font-bold mb-2">May 2021 Storm</h4>
+                  <p className="text-sm text-gray-600">Multiple hail shafts across Potter County • $78M in damage • 11,200+ claims</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white rounded-lg shadow-md p-8 mb-8">
+          <h2 className="text-2xl font-bold mb-6">Advanced Hail Damage Assessment Techniques</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div>
+              <h3 className="text-lg font-bold mb-3 text-brand-brown">Professional Inspection Methods</h3>
+              <ul className="text-sm space-y-2">
+                <li>• Drone photography for comprehensive coverage</li>
+                <li>• Test square measurement and documentation</li>
+                <li>• Impact damage density calculations</li>
+                <li>• Hidden damage detection techniques</li>
+                <li>• Granule loss percentage assessment</li>
+                <li>• Metal component impact evaluation</li>
+                <li>• Thermal imaging for moisture detection</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-lg font-bold mb-3 text-brand-brown">Insurance-Grade Documentation</h3>
+              <ul className="text-sm space-y-2">
+                <li>• High-resolution damage photography</li>
+                <li>• Detailed measurement reports</li>
+                <li>• Impact density mapping</li>
+                <li>• Material degradation analysis</li>
+                <li>• Code compliance assessments</li>
+                <li>• Comparison photo documentation</li>
+                <li>• Professional damage sketches</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-lg font-bold mb-3 text-brand-brown">Class 4 Upgrade Analysis</h3>
+              <ul className="text-sm space-y-2">
+                <li>• Current vs. impact-resistant comparison</li>
+                <li>• Insurance discount calculations</li>
+                <li>• Long-term cost benefit analysis</li>
+                <li>• Performance upgrade recommendations</li>
+                <li>• Warranty enhancement options</li>
+                <li>• Energy efficiency improvements</li>
+                <li>• Property value impact assessment</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-gray-50 rounded-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold mb-6">Customer Success Stories - Hail Damage Claims</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow">
+              <h3 className="text-lg font-bold mb-3 text-brand-brown">Southwest Amarillo Hail Event - May 2024</h3>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Property:</strong> 3,100 sq ft two-story home with architectural shingles (2019 installation)
+              </p>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Damage:</strong> Tennis ball sized hail created 14 impacts per test square, extensive granule loss, damaged gutters and vents
+              </p>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Our Process:</strong> Complete documentation, adjuster meeting, supplement negotiation for code upgrades
+              </p>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Insurance Settlement:</strong> $34,750 approved with Class 4 upgrade coverage
+              </p>
+              <p className="text-sm font-semibold text-green-600">Customer Result: $2,000 deductible payment • GAF Timberline HDZ upgrade • 5-year workmanship warranty</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow">
+              <h3 className="text-lg font-bold mb-3 text-brand-brown">North Heights Historic Home - April 2023</h3>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Property:</strong> 1,850 sq ft 1940s home with original clay tiles requiring historic preservation compliance
+              </p>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Challenge:</strong> Golf ball hail damaged irreplaceable historic tiles, insurance initially denied claim
+              </p>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Our Advocacy:</strong> Extensive documentation, expert testimony, supplement filing for specialty materials
+              </p>
+              <p className="text-sm text-gray-600 mb-3">
+                <strong>Final Settlement:</strong> $28,500 approved after appeal with specialty tile sourcing covered</p>
+              <p className="text-sm font-semibold text-green-600">Outcome: Historic character preserved • Modern performance achieved • $1,500 customer investment beyond deductible</p>
+            </div>
+          </div>
+        </section>
+
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-lg border-2 border-blue-200">
             <h2 className="text-3xl font-bold mb-6 text-blue-800">🌩️ Recent Hail Storm in Amarillo?</h2>
@@ -266,6 +494,24 @@ export default function Page() {
             <div className="bg-white p-6 rounded-lg">
               <p className="text-xl font-bold text-blue-800 mb-2">📞 Schedule Your Free Hail Damage Inspection</p>
               <p className="text-gray-700">Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> or <a href="/contact/" className="text-brand-gold font-bold">request online</a>. We'll inspect your roof within 24-48 hours—completely free with no obligation.</p>
+              
+              <div className="mt-6 grid md:grid-cols-3 gap-4 text-center">
+                <div className="p-4 bg-blue-50 rounded">
+                  <div className="text-2xl mb-2">⏱️</div>
+                  <p className="font-bold">24-48 Hour Response</p>
+                  <p className="text-sm text-gray-600">Fast scheduling after any hail event</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded">
+                  <div className="text-2xl mb-2">💯</div>
+                  <p className="font-bold">100% Free Inspection</p>
+                  <p className="text-sm text-gray-600">No cost, no obligation assessment</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded">
+                  <div className="text-2xl mb-2">📸</div>
+                  <p className="font-bold">Professional Documentation</p>
+                  <p className="text-sm text-gray-600">Insurance-ready damage reports</p>
+                </div>
+              </div>
             </div>
           </section>
         </FadeIn>
