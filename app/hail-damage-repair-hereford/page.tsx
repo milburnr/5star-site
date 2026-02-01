@@ -127,14 +127,161 @@ export default function HailDamageRepairHerefordPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Hereford, Texas, with a population of 14,972, stands as a unique community in the Texas Panhandle. Named after the Hereford cattle brought to the region in 1898, this city has grown to become the unquestioned Beef Capital of the World, feeding more than one million head of cattle annually in the surrounding feedlots and ranches of Deaf Smith County.
             </p>
+
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-xl shadow-lg border border-amber-200 my-8">
+              <h3 className="text-2xl font-bold text-amber-700 mb-4">🥩 The Beef Capital's Infrastructure Challenge</h3>
+              <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                Hereford's status as the Beef Capital of the World isn't just a slogan—it's an economic reality that drives unique roofing challenges. The city and surrounding Deaf Smith County host:
+              </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow">
+                  <h4 className="font-bold text-amber-600 mb-2">Massive Cattle Operations</h4>
+                  <ul className="text-gray-600 space-y-1 text-sm">
+                    <li>• Over 1 million cattle fed annually</li>
+                    <li>• 15+ major commercial feedlots</li>
+                    <li>• Thousands of feeding pens and barns</li>
+                    <li>• Feed storage and processing facilities</li>
+                    <li>• Equipment maintenance buildings</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow">
+                  <h4 className="font-bold text-amber-600 mb-2">Supporting Infrastructure</h4>
+                  <ul className="text-gray-600 space-y-1 text-sm">
+                    <li>• Grain elevators and storage</li>
+                    <li>• Feed mills and processing plants</li>
+                    <li>• Veterinary and livestock facilities</li>
+                    <li>• Transportation and logistics buildings</li>
+                    <li>• Administrative and office complexes</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Located 48 miles southwest of Amarillo, Hereford sits in the heart of the Llano Estacado—the vast high plains region where severe weather systems gain strength as they move across the open landscape. This geographic position makes Hereford particularly vulnerable to large hail events that can devastate both residential and agricultural properties.
             </p>
+
+            <div className="bg-gradient-to-r from-red-600 to-orange-700 text-white p-8 rounded-xl shadow-lg my-8">
+              <h3 className="text-2xl font-bold mb-4">⚠️ Hereford's Position in the Hail Belt</h3>
+              <p className="text-lg mb-4 leading-relaxed">
+                Hereford occupies a particularly dangerous position within the Texas Hail Belt. Sitting at the intersection of multiple storm tracks and positioned where the Llano Estacado's elevation creates optimal atmospheric conditions for supercell development, Hereford regularly experiences some of the most intense hailstorms in North America.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div>
+                  <h4 className="font-bold text-yellow-300 mb-2">Geographic Factors</h4>
+                  <ul className="text-white/90 text-sm space-y-1">
+                    <li>• High plains elevation enhances storm development</li>
+                    <li>• Open terrain allows maximum storm organization</li>
+                    <li>• No upstream mountains to disrupt storm structure</li>
+                    <li>• Southwest-northeast storm track alignment</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-yellow-300 mb-2">Atmospheric Conditions</h4>
+                  <ul className="text-white/90 text-sm space-y-1">
+                    <li>• Cold, dry air from Rocky Mountains</li>
+                    <li>• Warm, moist air from Gulf of Mexico</li>
+                    <li>• Sharp temperature and moisture gradients</li>
+                    <li>• Optimal wind shear for supercell development</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-yellow-300 mb-2">Storm Characteristics</h4>
+                  <ul className="text-white/90 text-sm space-y-1">
+                    <li>• Frequent golf ball to tennis ball size hail</li>
+                    <li>• Baseball to softball size events annually</li>
+                    <li>• Long-duration supercell events</li>
+                    <li>• Wind-driven hail from multiple directions</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
+                <h3 className="text-xl font-bold text-blue-700 mb-4">📈 Hail Impact Statistics</h3>
+                <p className="text-gray-700 mb-4">NOAA data for Deaf Smith County (2015-2024):</p>
+                <ul className="text-gray-600 space-y-2">
+                  <li><strong>Annual Hail Events:</strong> 10-14 (among highest in Texas)</li>
+                  <li><strong>Golf Ball+ Events:</strong> 4-6 annually</li>
+                  <li><strong>Baseball+ Events:</strong> 2-3 annually</li>
+                  <li><strong>Economic Impact:</strong> $8-12 million annually</li>
+                  <li><strong>Agricultural Losses:</strong> $3-5 million annually</li>
+                  <li><strong>Peak Danger Period:</strong> April-June</li>
+                </ul>
+              </div>
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-200">
+                <h3 className="text-xl font-bold text-green-700 mb-4">🏭 Agricultural Roofing Challenges</h3>
+                <p className="text-gray-700 mb-4">Unique requirements for cattle industry:</p>
+                <ul className="text-gray-600 space-y-2">
+                  <li><strong>Large Surface Areas:</strong> Feedlot buildings span acres</li>
+                  <li><strong>Environmental Controls:</strong> Ventilation and climate systems</li>
+                  <li><strong>Equipment Protection:</strong> Expensive machinery and feed</li>
+                  <li><strong>Animal Welfare:</strong> Shelter continuity critical</li>
+                  <li><strong>Operational Continuity:</strong> Minimize production disruption</li>
+                  <li><strong>Code Compliance:</strong> USDA and EPA requirements</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-slate-700 to-slate-900 text-white p-8 rounded-xl shadow-lg my-8">
+              <h3 className="text-2xl font-bold mb-4">🌪️ The Llano Estacado Storm Enhancement Effect</h3>
+              <p className="text-lg mb-4 leading-relaxed">
+                Hereford's position on the Llano Estacado creates a natural "storm amplification zone." The high plains elevation, combined with the flat terrain extending for hundreds of miles, allows storms to organize and intensify to their maximum potential before reaching the city.
+              </p>
+              <div className="bg-white/10 p-4 rounded-lg">
+                <p className="text-yellow-300 font-semibold mb-2">Why This Creates Extreme Hail Risk:</p>
+                <ul className="text-white/90 space-y-1">
+                  <li>• Storms reach peak intensity directly over Hereford area</li>
+                  <li>• No terrain features to disrupt supercell structure</li>
+                  <li>• Maximum hail growth time in strong updrafts</li>
+                  <li>• Multiple storm rounds possible in single event</li>
+                </ul>
+              </div>
+            </div>
+
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               The city's economy, built on wheat, cotton, sorghum, grain production, and massive cattle feeding operations, requires specialized roofing expertise. From family homes to commercial feedlot facilities, Hereford's buildings face unique challenges that demand experienced professionals who understand both severe weather patterns and agricultural industry needs.
             </p>
+
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-purple-200 shadow-lg">
+              <h3 className="text-2xl font-bold text-purple-700 mb-4">⚡ Climate Change Impact on Hereford</h3>
+              <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+                Recent climate studies show that Hereford and the surrounding High Plains are experiencing intensifying storm patterns:
+              </p>
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <h4 className="font-bold text-purple-600 mb-2">Increased Intensity</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• 20% larger average hail size since 2010</li>
+                    <li>• More frequent supercell development</li>
+                    <li>• Longer-duration storm events</li>
+                    <li>• Higher wind speeds in storms</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <h4 className="font-bold text-purple-600 mb-2">Extended Season</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Hail season starting earlier (February)</li>
+                    <li>• Activity extending later (July-August)</li>
+                    <li>• Peak season intensification</li>
+                    <li>• More multi-day outbreaks</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <h4 className="font-bold text-purple-600 mb-2">Agricultural Impact</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Higher insurance claims</li>
+                    <li>• Increased building damage</li>
+                    <li>• More frequent repairs needed</li>
+                    <li>• Higher protection standards required</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Hereford since 2014, developing deep expertise in both residential storm damage and commercial agricultural roofing systems. Our team understands that protecting Hereford means protecting the infrastructure that feeds 65 million people annually through the community's beef production.
+              5 Star Roofing has been serving Hereford since 2014, developing deep expertise in both residential storm damage and commercial agricultural roofing systems. Our team understands that protecting Hereford means protecting the infrastructure that feeds 65 million people annually through the community's beef production. We've worked on everything from historic downtown buildings to state-of-the-art cattle feeding facilities, always with a focus on materials and techniques that can withstand the extreme weather conditions that define life on the High Plains.
             </p>
           </section>
         </FadeIn>

@@ -84,7 +84,7 @@ export default function HailDamageRepairPlainviewPage() {
                 Cotton Capital of the Llano Estacado's Roofing Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Plainview—the county seat of Hale County and cotton capital of the Llano Estacado region—sits at the heart of Texas's agricultural powerhouse. Home to Wayland Baptist University and a thriving agricultural economy, this city of 20,000+ has faced unique challenges in recent years while maintaining its position as a key player in Texas cotton production. 5 Star Roofing has been protecting Plainview's homes, businesses, and agricultural facilities since 2014.
+                Plainview—the county seat of Hale County and cotton capital of the Llano Estacado region—sits at the heart of Texas's agricultural powerhouse. Home to Wayland Baptist University (established 1908) and a thriving agricultural economy, this city of 20,194 residents has faced unique challenges including major industrial transitions while maintaining its position as a key player in Texas cotton production. Located 45 miles south of Amarillo at 3,368 feet elevation, Plainview sits directly in the path of severe High Plains storms that regularly produce damaging hail. 5 Star Roofing has been protecting Plainview's homes, businesses, and agricultural facilities since 2014, understanding both the community's agricultural heritage and its evolving economic landscape.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
