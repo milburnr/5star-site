@@ -246,7 +246,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/photos/tpo-sunset6.jpg" alt="Commercial roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/TPO3.jpg" alt="Commercial roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>

@@ -109,7 +109,7 @@ export default function Page() {
 
       {/* Hero Image */}
       <OptimizedImage
-        src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+        src="/images/cover-background-roofing-sunset"
         alt="Residential roofing services Amarillo Texas - Professional crew installing architectural shingles at sunset - 5 Star Commercial Roofing"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
         priority={true}
@@ -131,7 +131,7 @@ export default function Page() {
         <FadeIn delay={0.1} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/photos/sleepy-hollow/sleepy-hollow-after1.jpg"
+              src="/images/ResidentialServices.jpg"
               alt="Class 4 impact-resistant asphalt shingles on Amarillo home - Architectural style residential roofing - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -154,7 +154,7 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/photos/hereford/hereford-after2.jpg"
+              src="/images/ResidentialServices.jpg"
               alt="Standing seam metal roofing on Texas Panhandle home - Durable hail-resistant residential roof - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -177,7 +177,7 @@ export default function Page() {
         <FadeIn delay={0.3} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/photos/borger/borger-after1.jpg"
+              src="/images/ResidentialServices.jpg"
               alt="Concrete tile roofing on Amarillo Mediterranean-style home - Premium residential roof - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -200,7 +200,7 @@ export default function Page() {
         <FadeIn delay={0.4} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/photos/tpo/tpo-after2.jpg"
+              src="/images/TPO2.jpg"
               alt="Modern flat roof system on contemporary Amarillo home - TPO membrane residential roofing - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -263,7 +263,7 @@ export default function Page() {
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="relative h-48 bg-gray-200">
             <img
-              src="/photos/sleepy-hollow/sleepy-hollow-before1.jpg"
+              src="/images/danage.jpg"
               alt="Amarillo home before roof replacement - Old weathered shingles affecting curb appeal - 5 Star Commercial Roofing"
               className="w-full h-full object-cover"
             />
@@ -276,7 +276,7 @@ export default function Page() {
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="relative h-48 bg-gray-200">
             <img
-              src="/photos/borger/borger-before1.jpg"
+              src="/images/hail-damage-3.jpg"
               alt="Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Commercial Roofing"
               className="w-full h-full object-cover"
             />
@@ -289,7 +289,7 @@ export default function Page() {
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="relative h-48 bg-gray-200">
             <img
-              src="/photos/hereford/hereford-after1.jpg"
+              src="/images/Alluminumroofing.jpg"
               alt="Texas home before metal roof upgrade - Transitioning from shingles to metal - 5 Star Commercial Roofing"
               className="w-full h-full object-cover"
             />
@@ -329,7 +329,7 @@ export default function Page() {
           <div>
             <h3 className="font-bold mb-1">Professional Installation</h3>
             <OptimizedImage
-        src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+        src="/images/cover-background-roofing-sunset"
         alt="Professional roofing crew installing residential shingles in Amarillo TX at sunset"
         className="w-full h-64 object-cover rounded-lg my-4"
         priority={true}

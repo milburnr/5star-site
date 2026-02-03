@@ -865,7 +865,7 @@ export default function HailDamageRepairAmarilloPage() {
 
             <div className="mb-8">
               <img
-                src="/photos/tpo-sunset9.jpg"
+                src="/images/TPO3.jpg"
                 alt="Professional commercial roof installation in Amarillo TX meeting building code requirements - TPO flat roof system by 5 Star Commercial Roofing"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
               />

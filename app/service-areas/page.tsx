@@ -65,7 +65,7 @@ export default function Page() {
 
       {/* Hero Image */}
       <OptimizedImage
-        src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+        src="/images/cover-background-roofing-sunset"
         alt="Roofing services across West Texas - Professional team serving Amarillo Midland Odessa - 5 Star Commercial Roofing"
         className="w-full h-96 object-cover rounded-lg mb-8"
         priority={true}

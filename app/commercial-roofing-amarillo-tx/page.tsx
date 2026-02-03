@@ -581,7 +581,7 @@ export default function CommercialRoofingAmarilloPage() {
 
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/photos/Large_commercial_flat_roof_installation1.png" alt="Large commercial flat roof installation in Amarillo TX - Multi-story downtown office building" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="/images/commercial-roof-1024x575-panorama.png" alt="Large commercial flat roof installation in Amarillo TX - Multi-story downtown office building" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Downtown Office Buildings</h3>
                 <p className="text-gray-600 text-sm">
                   Multi-story commercial buildings in downtown Amarillo requiring minimal tenant disruption during installation.
@@ -589,7 +589,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/photos/tpo-sunset3.jpg" alt="TPO commercial roofing at sunset in Amarillo TX - Retail center flat roof system" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="/images/TPO3.jpg" alt="TPO commercial roofing at sunset in Amarillo TX - Retail center flat roof system" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Retail Centers & Strip Malls</h3>
                 <p className="text-gray-600 text-sm">
                   Shopping centers along I-40 and Soncy Road requiring phased installations to keep stores operational.
@@ -597,7 +597,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/photos/tpo-sunset5.jpg" alt="Amarillo TX commercial roofing - Industrial warehouse TPO membrane installation at sunset" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="/images/TPO2.jpg" alt="Amarillo TX commercial roofing - Industrial warehouse TPO membrane installation at sunset" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Industrial Warehouses</h3>
                 <p className="text-gray-600 text-sm">
                   Large-scale industrial facilities in east Amarillo requiring cost-effective, durable roofing solutions.

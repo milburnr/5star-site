@@ -77,7 +77,7 @@ export default function Page() {
       <FadeIn delay={0.2}>
         <div className="relative mb-6 md:mb-8 rounded-2xl overflow-hidden shadow-2xl">
           <OptimizedImage
-        src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+        src="/images/cover-background-roofing-sunset"
         alt="5 Star Commercial Roofing team in Amarillo Texas - Professional roofing contractors and crew - Locally owned and operated"
         className="w-full h-48 sm:h-64 md:h-96 object-cover"
         priority={true}
@@ -210,7 +210,7 @@ export default function Page() {
           <FadeIn delay={0.1} direction="left">
             <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <img
-                src="/photos/tpo/tpo-after2.jpg"
+                src="/images/TPO2.jpg"
                 alt="5 Star Commercial Roofing company truck in Amarillo TX - Professional roofing equipment and materials ready for service"
                 className="w-full h-64 object-cover"
               />
@@ -220,7 +220,7 @@ export default function Page() {
           <FadeIn delay={0.2} direction="right">
             <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <img
-                src="/photos/in-progress/working1.jpg"
+                src="/images/Constructionhome.jpg"
                 alt="Professional roofing crew installing roof in Amarillo Texas - Quality craftsmanship and safety equipment - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover"
               />

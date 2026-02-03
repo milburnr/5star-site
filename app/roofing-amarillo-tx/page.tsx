@@ -1147,7 +1147,7 @@ export default function AmarilloRoofingPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
               <FadeIn delay={0.1}>
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                  <img src="/photos/sleepy-hollow/sleepy-hollow-after1.jpg" alt="Completed roof replacement in Sleepy Hollow neighborhood Amarillo TX" className="w-full h-64 object-cover" />
+                  <img src="/images/ResidentialServices.jpg" alt="Completed roof replacement in Sleepy Hollow neighborhood Amarillo TX" className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-brand-brown mb-2">Sleepy Hollow Roof Replacement</h3>
                     <p className="text-gray-600">Complete architectural shingle roof replacement after hail damage.</p>
@@ -1157,7 +1157,7 @@ export default function AmarilloRoofingPage() {
 
               <FadeIn delay={0.2}>
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                  <img src="/photos/sleepy-hollow/sleepy-hollow-after2.jpg" alt="High-quality residential roofing installation Amarillo Texas" className="w-full h-64 object-cover" />
+                  <img src="/images/ResidentialServices.jpg" alt="High-quality residential roofing installation Amarillo Texas" className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-brand-brown mb-2">Quality Residential Installation</h3>
                     <p className="text-gray-600">Impact-resistant shingles with enhanced warranty protection.</p>
@@ -1167,7 +1167,7 @@ export default function AmarilloRoofingPage() {
 
               <FadeIn delay={0.3}>
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                  <img src="/photos/sleepy-hollow/sleepy-hollow-after3.jpg" alt="Professional roofing services Amarillo neighborhood" className="w-full h-64 object-cover" />
+                  <img src="/images/Aerialview.jpg" alt="Professional roofing services Amarillo neighborhood" className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-brand-brown mb-2">Expert Craftsmanship</h3>
                     <p className="text-gray-600">Meticulous attention to detail on every installation.</p>
@@ -1180,7 +1180,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.4}>
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl shadow-lg overflow-hidden p-6">
                   <h3 className="text-2xl font-bold text-brand-brown mb-4 text-center">Before Repair</h3>
-                  <img src="/photos/sleepy-hollow/sleepy-hollow-before1.jpg" alt="Hail damaged roof before repair in Amarillo TX" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
+                  <img src="/images/danage.jpg" alt="Hail damaged roof before repair in Amarillo TX" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
                   <p className="text-center text-gray-700 font-semibold">Severe hail damage requiring full replacement</p>
                 </div>
               </FadeIn>
@@ -1188,7 +1188,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.5}>
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl shadow-lg overflow-hidden p-6">
                   <h3 className="text-2xl font-bold text-brand-brown mb-4 text-center">After Installation</h3>
-                  <img src="/photos/sleepy-hollow/sleepy-hollow-after4.jpg" alt="Beautiful new roof after professional installation Amarillo" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
+                  <img src="/images/ResidentialServices.jpg" alt="Beautiful new roof after professional installation Amarillo" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
                   <p className="text-center text-gray-700 font-semibold">Restored with Class 4 impact-resistant shingles</p>
                 </div>
               </FadeIn>

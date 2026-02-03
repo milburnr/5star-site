@@ -16,15 +16,15 @@ export default function GalleryPage() {
       description: "Complete architectural shingle roof replacement after hail damage. Class 4 impact-resistant shingles installed.",
       category: "Residential",
       beforeImages: [
-        "/photos/sleepy-hollow/sleepy-hollow-before1.jpg",
-        "/photos/sleepy-hollow/sleepy-hollow-before2.jpg",
-        "/photos/sleepy-hollow/sleepy-hollow-before3.jpg",
+        "/images/danage.jpg",
+        "/images/hail-damage-3.jpg",
+        "/images/danage.jpg",
       ],
       afterImages: [
-        "/photos/sleepy-hollow/sleepy-hollow-after1.jpg",
-        "/photos/sleepy-hollow/sleepy-hollow-after2.jpg",
-        "/photos/sleepy-hollow/sleepy-hollow-after3.jpg",
-        "/photos/sleepy-hollow/sleepy-hollow-after4.jpg",
+        "/images/ResidentialServices.jpg",
+        "/images/ResidentialServices.jpg",
+        "/images/Aerialview.jpg",
+        "/images/ResidentialServices.jpg",
       ],
     },
     {
@@ -33,14 +33,14 @@ export default function GalleryPage() {
       description: "Insurance claim assistance and complete roof replacement following severe storm damage.",
       category: "Residential",
       beforeImages: [
-        "/photos/borger/borger-before1.jpg",
-        "/photos/borger/borger-before2.jpg",
-        "/photos/borger/borger-before3.jpg",
+        "/images/hail-damage-3.jpg",
+        "/images/danage.jpg",
+        "/images/hail-damage-3.jpg",
       ],
       afterImages: [
-        "/photos/borger/borger-after1.jpg",
-        "/photos/borger/borger-after2.jpg",
-        "/photos/borger/borger-after3.jpg",
+        "/images/ResidentialServices.jpg",
+        "/images/Aerialview.jpg",
+        "/images/ResidentialServices.jpg",
       ],
     },
     {
@@ -49,9 +49,9 @@ export default function GalleryPage() {
       description: "New commercial roofing system installation with 20-year warranty.",
       category: "Commercial",
       afterImages: [
-        "/photos/hereford/hereford-after1.jpg",
-        "/photos/hereford/hereford-after2.jpg",
-        "/photos/hereford/hereford-after3.jpg",
+        "/images/Alluminumroofing.jpg",
+        "/images/ResidentialServices.jpg",
+        "/images/Aerialview.jpg",
       ],
     },
     {
@@ -60,62 +60,62 @@ export default function GalleryPage() {
       description: "TPO membrane installations on commercial buildings throughout Amarillo, Midland, and Odessa.",
       category: "Commercial",
       afterImages: [
-        "/photos/tpo/tpo-after1.jpg",
-        "/photos/tpo/tpo-after2.jpg",
-        "/photos/tpo/tpo-after3.jpg",
-        "/photos/tpo/tpo-after4.jpg",
-        "/photos/tpo/tpo-after5.jpg",
-        "/photos/tpo/tpo-after6.jpg",
+        "/images/TPO1.jpg",
+        "/images/TPO2.jpg",
+        "/images/TPO3.jpg",
+        "/images/TPO1.jpg",
+        "/images/TPO2.jpg",
+        "/images/TPO3.jpg",
       ],
     },
   ];
 
   const actionPhotos = [
     {
-      image: "/photos/in-progress/working1.jpg",
+      image: "/images/Constructionhome.jpg",
       caption: "Professional crew performing roof inspection",
     },
     {
-      image: "/photos/in-progress/working2.jpg",
+      image: "/images/Aerialview.jpg",
       caption: "Quality installation in progress",
     },
   ];
 
   const sunsetPhotos = [
     {
-      image: "/photos/tpo-sunset1.jpg",
+      image: "/images/TPO1.jpg",
       caption: "Completed TPO installation at sunset",
     },
     {
-      image: "/photos/tpo-sunset2.jpg",
+      image: "/images/TPO2.jpg",
       caption: "Commercial flat roof project",
     },
     {
-      image: "/photos/tpo-sunset3.jpg",
+      image: "/images/TPO3.jpg",
       caption: "Quality workmanship on every project",
     },
     {
-      image: "/photos/tpo-sunset4.jpg",
+      image: "/images/TPO1.jpg",
       caption: "Professional TPO membrane installation",
     },
     {
-      image: "/photos/tpo-sunset5.jpg",
+      image: "/images/TPO2.jpg",
       caption: "Sunset view of completed commercial roof",
     },
     {
-      image: "/photos/tpo-sunset6.jpg",
+      image: "/images/TPO3.jpg",
       caption: "West Texas roofing excellence",
     },
     {
-      image: "/photos/tpo-sunset7.jpg",
+      image: "/images/TPO1.jpg",
       caption: "Another successful project completion",
     },
     {
-      image: "/photos/tpo-sunset8.jpg",
+      image: "/images/TPO2.jpg",
       caption: "Energy-efficient white TPO roofing",
     },
     {
-      image: "/photos/tpo-sunset9.jpg",
+      image: "/images/TPO3.jpg",
       caption: "Premium commercial roofing systems",
     },
   ];
@@ -246,28 +246,28 @@ export default function GalleryPage() {
             <div className="space-y-8">
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="/photos/Large_commercial_flat_roof_installation0.png"
+                  src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Commercial TPO flat roof installation Amarillo TX - White membrane roofing system for warehouse and industrial buildings - 5 Star Commercial Roofing"
                   className="w-full h-96 object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="/photos/Large_commercial_flat_roof_installation1.png"
+                  src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Large commercial warehouse roof installation Midland TX - Professional roofing crew installing TPO membrane system - Texas Panhandle roofing contractor"
                   className="w-full h-96 object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="/photos/Large_commercial_flat_roof_installation2.png"
+                  src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Industrial building TPO roofing project Odessa TX - Flat roof installation for oil and gas facilities - Permian Basin commercial roofing"
                   className="w-full h-96 object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="/photos/Large_commercial_flat_roof_installation3.png"
+                  src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Professional commercial roofing crew installing flat roof system West Texas - Expert TPO and PVC membrane installation Amarillo Midland Odessa"
                   className="w-full h-96 object-cover"
                 />

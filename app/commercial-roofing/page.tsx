@@ -116,7 +116,7 @@ export default function Page() {
 
       {/* Hero Image */}
       <img
-        src="/photos/Large_commercial_flat_roof_installation3.png"
+        src="/images/commercial-roof-1024x575-panorama.png"
         alt="Commercial roofing services Midland Odessa Texas - Flat roof TPO installation on business building - 5 Star Commercial Roofing"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
       />
@@ -136,7 +136,7 @@ export default function Page() {
         <FadeIn delay={0.1} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/photos/Large_commercial_flat_roof_installation0.png"
+              src="/images/commercial-roof-1024x575-panorama.png"
               alt="TPO commercial roofing installation Midland TX - White membrane heat-welded seams - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -159,7 +159,7 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/photos/tpo-sunset1.jpg"
+              src="/images/TPO1.jpg"
               alt="PVC commercial roofing membrane Odessa TX - Chemical resistant flat roof system - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -258,7 +258,7 @@ export default function Page() {
 
       <div className="mb-6">
         <img
-          src="/photos/Large_commercial_flat_roof_installation3.png"
+          src="/images/commercial-roof-1024x575-panorama.png"
           alt="Large commercial flat roof installation in Amarillo TX - TPO membrane system for warehouse and industrial buildings - 5 Star Commercial Roofing"
           className="w-full h-64 object-cover rounded-lg"
         />
@@ -362,7 +362,7 @@ export default function Page() {
 
       <div className="mb-6">
         <OptimizedImage
-        src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+        src="/images/cover-background-roofing-sunset"
         alt="Professional 5 Star roofing crew installing commercial roof in Texas"
         className="w-full h-64 object-cover rounded-lg"
         priority={true}

@@ -849,7 +849,7 @@ export default function ResidentialRoofingAmarilloPage() {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-brand-brown mb-3">Professional Installation</h3>
                     <OptimizedImage
-        src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+        src="/images/cover-background-roofing-sunset"
         alt="Professional roofing crew installing residential shingles in Amarillo TX at sunset"
         className="w-full h-64 object-cover rounded-lg mb-6"
         priority={true}
