@@ -6,7 +6,7 @@ import { PhoneClickTracker } from "@/components/PhoneClickTracker";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "5 Star Commercial Roofing | Amarillo, TX",
+  title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
   description: "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
 };
 
