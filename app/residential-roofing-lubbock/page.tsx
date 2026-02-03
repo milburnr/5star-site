@@ -13,7 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Residential Roofing Lubbock TX | Texas Tech Area | 5 Star Roofing',
+  title: 'Residential Roofing Lubbock TX | 5 Star Roofing',
   description: 'Expert residential roofing in Lubbock TX. Serving Tech Terrace, Raider Ranch, and all Texas Tech area neighborhoods. Class 4 impact-resistant shingles for South Plains weather. Free inspections.',
 };
 
@@ -79,6 +79,39 @@ export default function ResidentialRoofingLubbockPage() {
             },
             "description": "Expert residential roofing services in Lubbock neighborhoods including Tech Terrace, Raider Ranch, and university area homes. Specializing in Class 4 impact-resistant shingles for South Plains hail and wind resistance.",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Residential Roofing Services",
+            "name": "Residential Roofing in Lubbock",
+            "description": "Professional residential roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Lubbock",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Residential Roofing Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
           })
         }}
       />

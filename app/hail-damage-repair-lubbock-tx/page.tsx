@@ -7,8 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Lubbock | 5 Star',
-  description: "Lubbock's hail damage experts. South Plains storm specialists. Lubbock experiences 6-8 hailstorms annually. Free inspections, insurance claims, and Class 4 installations. Call today (806) 622-6041",
-};
+  description: "Expert hail damage roof repair in Lubbock TX. 24/7 emergency service, insurance claim help, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairLubbockPage() {
   return (
@@ -21,6 +20,25 @@ export default function HailDamageRepairLubbockPage() {
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock-tx/#localbusiness",
+        "name": "5 Star Commercial Roofing - Lubbock Hail Damage Repair",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 33.5779, "longitude": -101.8552 },
+        "url": "https://5starroofingpros.com/hail-damage-repair-lubbock-tx/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
 
       {/* Hero Section - Conversion-Optimized */}
       <section

@@ -4,7 +4,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: "Amarillo's Best Roofer | Free Inspection Today | Top-Rated Company",
-  description: "Need a reliable roofing company in Amarillo? Amarillo's Best Roofer is the top choice for all your roofing needs with exceptional customer service. Free inspections available. Call today (806) 622-6041",
+  description: "Looking for the best roofer in Amarillo? 5 Star Roofing provides expert residential and commercial roofing services with 10+ years experience. Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Amarillo's Best Roofer | 5 Star Commercial Roofing",
     description: "Top-rated roofing contractor in Amarillo, TX. Free inspections, hail damage experts. Call (806) 622-6041",
@@ -61,6 +61,39 @@ export default function Page() {
               {"@type": "City", "name": "Odessa"},
               {"@type": "City", "name": "Lubbock"}
             ]
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Professional Roofing Services",
+            "name": "Roofing Services in Amarillo",
+            "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Amarillo",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roofing Services Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roofing Services Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roofing Services Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
           })
         }}
       />

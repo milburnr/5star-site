@@ -88,6 +88,39 @@ export default function RoofReplacementLubbockPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Roof Replacement Services",
+            "name": "Roof Replacement in Lubbock",
+            "description": "Professional roof replacement services in Lubbock, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Lubbock",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roof Replacement Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"When should I replace my Lubbock roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread hail damage (10+ impacts per 100 sq ft), roof age over 20 years in South Plains climate, multiple leaks, extensive granule loss, or failed previous repairs. With median home construction year of 1983, many Lubbock homes are approaching their first replacement cycle."}},{"@type":"Question","name":"How much does roof replacement cost in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Residential: $11,000-$32,000 depending on size and materials. Commercial: $15,000-$100,000+ depending on building size and system type. Most Lubbock replacements are insurance-covered South Plains hail damage where property owners pay only their deductible ($1,000-$2,500)."}},{"@type":"Question","name":"What are the best roofing materials for Lubbock's South Plains climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant asphalt shingles (residential), TPO membrane or cool metal roofing (commercial). South Plains hail corridor requires materials engineered for large hail impacts, high winds, and extreme temperature cycling (20°F to 100°F+)."}},{"@type":"Question","name":"Do I need permits for roof replacement in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Yes. City of Lubbock requires building permits for all roof replacements per Chapter 7 Building Code. We handle all permit applications including required wind resistance specifications (110+ mph) and proper ventilation ratios. University area may have additional HOA requirements."}},{"@type":"Question","name":"How long does roof replacement take in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Residential: 1-3 days for most homes. Single-story ranch homes (common in Southwest Lubbock) typically complete in 1-2 days. Two-story homes or complex rooflines require 2-3 days. Commercial projects: 3-14 days depending on building size and system complexity."}},{"@type":"Question","name":"Will new roof reduce my energy costs in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cool roof materials can reduce cooling costs by 20-30% in Lubbock's intense summer heat. Class 4 impact-resistant shingles with reflective granules, TPO membranes, and metal roofs with cool coatings all provide significant energy savings. Many qualify for utility rebates through LP&L."}}]
           })

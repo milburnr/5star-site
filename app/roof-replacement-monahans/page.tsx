@@ -43,6 +43,39 @@ export default function RoofReplacementMonahansPage() {
         "description": "Professional roof replacement in Monahans TX. Expert installation, warranties, and insurance assistance."
       }) }} />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Roof Replacement Services",
+            "name": "Roof Replacement in Monahans",
+            "description": "Professional roof replacement services in Monahans, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Monahans",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roof Replacement Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",

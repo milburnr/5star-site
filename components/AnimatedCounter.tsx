@@ -7,6 +7,7 @@ interface AnimatedCounterProps {
   from?: number;
   to: number;
   duration?: number;
+  prefix?: string;
   suffix?: string;
   className?: string;
 }
@@ -15,6 +16,7 @@ export function AnimatedCounter({
   from = 0,
   to,
   duration = 2,
+  prefix = '',
   suffix = '',
   className = '',
 }: AnimatedCounterProps) {
@@ -51,7 +53,7 @@ export function AnimatedCounter({
   // Always render the same HTML structure
   return (
     <span ref={ref} className={className}>
-      {displayValue}{suffix}
+      {prefix}{displayValue}{suffix}
     </span>
   );
 }

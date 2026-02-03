@@ -6,14 +6,14 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Hail Damage Repair Canyon TX | Randall County Experts | 5 Star Roofing',
-  description: "Canyon's trusted hail damage repair specialists. 24/7 emergency response, insurance claim assistance, Class 4 impact-resistant shingles. Serving Randall County and WTAMU area since 2014. Free inspections. Call (806) 622-6041.",
-};
+  title: 'Hail Damage Repair Canyon TX | 5 Star Roofing',
+  description: "Expert hail damage roof repair in Canyon TX. 24/7 emergency service, insurance claim help, Class 4 shingles. Serving Randall County. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairCanyonPage() {
   return (
@@ -25,6 +25,25 @@ export default function HailDamageRepairCanyonPage() {
       ]} />
 
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-canyon/#localbusiness",
+        "name": "5 Star Commercial Roofing - Canyon Hail Damage Repair",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 34.9803, "longitude": -101.9188 },
+        "url": "https://5starroofingpros.com/hail-damage-repair-canyon/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas", "name": "Canyon", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert hail damage repair services in Canyon, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
 
       <script
         type="application/ld+json"
@@ -774,6 +793,9 @@ export default function HailDamageRepairCanyonPage() {
             </div>
           </section>
         </FadeIn>
+
+        
+        <InternalLinks currentCity="canyon" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Hail Damage in Canyon? We're Minutes Away.</h2>

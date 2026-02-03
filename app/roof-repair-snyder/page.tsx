@@ -37,6 +37,25 @@ export default function RoofRepairSnyderPage() {
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/roof-repair-snyder/#localbusiness",
+        "name": "5 Star Commercial Roofing - Snyder Roof Repair",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 32.7179, "longitude": -100.9176 },
+        "url": "https://5starroofingpros.com/roof-repair-snyder/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas", "name": "Snyder", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert roof repair services in Snyder, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
+
 
       <script
         type="application/ld+json"

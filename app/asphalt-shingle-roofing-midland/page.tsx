@@ -8,7 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Asphalt Shingle Roofing Midland TX | Oil Field Tough | 5 Star Roofing',
+  title: 'Asphalt Shingle Roofing Midland TX | 5 Star Roofing',
   description: "Heavy-duty asphalt shingle roofing in Midland TX. Built for Permian Basin weather and industrial conditions. Desert-rated materials. 30-year warranties. Call (806) 622-6041",
 };
 
@@ -118,7 +118,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Extreme heat:</strong> Summer temps exceeding 110°F with intense UV radiation</li>
                   <li>• <strong>Industrial particulates:</strong> Oil field dust and emissions affecting materials</li>
-                  <li>• <strong>Desert aridity:</strong> <5% humidity accelerating material aging</li>
+                  <li>• <strong>Desert aridity:</strong> Less than 5% humidity accelerating material aging</li>
                   <li>• <strong>Severe storms:</strong> Supercells with giant hail and 80+ mph winds</li>
                   <li>• <strong>Sand abrasion:</strong> Constant wind-blown sand wearing surfaces</li>
                 </ul>

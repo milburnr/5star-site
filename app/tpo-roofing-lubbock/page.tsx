@@ -43,6 +43,39 @@ export default function TPORoofingLubbockPage() {
         "description": "Professional tpo roofing in Lubbock TX. Expert installation, warranties, and insurance assistance."
       }) }} />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "TPO Membrane Roofing Installation",
+            "name": "TPO Roofing in Lubbock",
+            "description": "Professional tpo roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Lubbock",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "TPO Roofing Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "TPO Roofing Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "TPO Roofing Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "FAQPage",

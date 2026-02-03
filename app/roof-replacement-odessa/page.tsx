@@ -88,6 +88,39 @@ export default function RoofReplacementOdessaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Roof Replacement Services",
+            "name": "Roof Replacement in Odessa",
+            "description": "Professional roof replacement services in Odessa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Odessa",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roof Replacement Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"When should I replace my Odessa roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread hail damage (10+ impacts per 100 sq ft), roof age over 20 years, multiple leaks, extensive granule loss, or failed previous repairs."}},{"@type":"Question","name":"How much does roof replacement cost in Odessa?","acceptedAnswer":{"@type":"Answer","text":"Residential: $8,000-$25,000 depending on size and materials. Commercial: $15,000-$100,000+ depending on building size. 85% of replacements are insurance-covered hail damage where property owners pay only their deductible."}},{"@type":"Question","name":"What are the best roofing materials for Odessa's climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant asphalt shingles (residential), TPO or metal roofing (commercial). These materials are engineered for extreme Texas weather conditions including hail, high winds, and temperature swings."}}]
           })

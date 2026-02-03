@@ -88,6 +88,39 @@ export default function CommercialRoofingOdessaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Commercial Roofing Services",
+            "name": "Commercial Roofing in Odessa",
+            "description": "Professional commercial roofing services in Odessa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Odessa",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Commercial Roofing Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"How much does commercial roof replacement cost in Odessa?","acceptedAnswer":{"@type":"Answer","text":"Commercial roofing costs vary by building size, roof type, and complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square foot. We provide free detailed estimates with transparent pricing and financing options for qualified businesses."}},{"@type":"Question","name":"Can you work after hours to minimize business disruption?","acceptedAnswer":{"@type":"Answer","text":"Yes. We schedule commercial installations during evenings, weekends, or planned closure periods to minimize operational impact. Many Odessa businesses prefer after-hours work for retail locations or facilities that cannot shut down during business hours."}},{"@type":"Question","name":"What makes TPO roofing ideal for Odessa's commercial buildings?","acceptedAnswer":{"@type":"Answer","text":"TPO's white reflective membrane is Energy Star rated and dramatically reduces cooling costs. The heat-welded seams create watertight bonds that withstand high winds and hail. TPO offers excellent durability (15-25 year warranties) at a competitive price point."}}]
           })

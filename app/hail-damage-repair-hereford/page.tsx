@@ -11,9 +11,8 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Hail Damage Repair Hereford TX | Beef Capital of the World | 5 Star Roofing',
-  description: "Hereford's #1 hail damage specialists. Serving the Beef Capital of the World with 24/7 emergency response, insurance claims, Class 4 shingles. Expert repairs for Deaf Smith County's severe weather. Call (806) 622-6041.",
-};
+  title: 'Hail Damage Repair Hereford TX | 5 Star Roofing',
+  description: "Expert hail damage roof repair in Hereford TX. 24/7 emergency service, insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairHerefordPage() {
   return (
@@ -25,6 +24,25 @@ export default function HailDamageRepairHerefordPage() {
       ]} />
 
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-hereford/#localbusiness",
+        "name": "5 Star Commercial Roofing - Hereford Hail Damage Repair",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 34.8151, "longitude": -102.3977 },
+        "url": "https://5starroofingpros.com/hail-damage-repair-hereford/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Hereford,_Texas", "name": "Hereford", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert hail damage repair services in Hereford, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
 
       <script
         type="application/ld+json"

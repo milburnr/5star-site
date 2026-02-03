@@ -13,7 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Residential Roofing Midland TX | Grassland Estates & Oil Country | 5 Star Roofing',
+  title: 'Residential Roofing Midland TX | 5 Star Roofing',
   description: 'Expert residential roofing in Midland TX. Serving Grassland Estates, Saddle Club, and all Permian Basin neighborhoods. Premium Class 4 shingles for energy executive homes. Free inspections.',
 };
 
@@ -79,6 +79,39 @@ export default function ResidentialRoofingMidlandPage() {
             },
             "description": "Expert residential roofing services in Midland neighborhoods including Grassland Estates, Saddle Club, and energy executive communities. Specializing in premium Class 4 impact-resistant shingles for Permian Basin weather conditions.",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Residential Roofing Services",
+            "name": "Residential Roofing in Midland",
+            "description": "Professional residential roofing services in Midland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Midland",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Residential Roofing Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
           })
         }}
       />

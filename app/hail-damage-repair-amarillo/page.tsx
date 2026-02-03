@@ -88,6 +88,39 @@ export default function HailDamageRepairAmarilloPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Hail Damage Roof Repair",
+            "name": "Hail Damage Repair in Amarillo",
+            "description": "Professional hail damage repair services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Amarillo",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Hail Damage Repair Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"How do I know if my Amarillo roof has hail damage?","acceptedAnswer":{"@type":"Answer","text":"Look for granule loss (shiny spots on shingles), dents on metal vents/flashing, cracked or missing shingles, and dented gutters. Potter County's 131 severe hail days since 2000 mean most Amarillo roofs over 10 years old have some hail damage. We provide free inspections with detailed photo documentation for insurance claims."}},{"@type":"Question","name":"Will insurance cover hail damage repair in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Yes, if damage occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact, meet adjusters on-site, and advocate for maximum coverage. Our 95%+ approval rate means most homeowners pay only their deductible ($1,000-$2,500) for complete roof replacement."}},{"@type":"Question","name":"How long do I have to file a hail damage claim in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Most Texas insurers allow 1-2 years from the storm date, but filing sooner is better. Potter County experiences multiple hail events annually, making it harder to prove which storm caused damage if you wait. We recommend inspection within 2-4 weeks of any hailstorm. Some carriers require filing within 1 year."}},{"@type":"Question","name":"Why does Amarillo get so much hail?","acceptedAnswer":{"@type":"Answer","text":"Amarillo sits in \"Hail Alley\" at 3,600 feet elevation where warm Gulf moisture meets cold Canadian air. This creates severe updrafts suspending water droplets in freezing zones, forming large hailstones. Potter County recorded 131 severe hail days since 2000 - among the highest frequencies in America. Peak season: March-May."}},{"@type":"Question","name":"Should I get Class 4 shingles after hail damage repair?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Class 4 impact-resistant shingles withstand 2-inch hail strikes and reduce future damage by 90%. Given Potter County's extreme hail frequency, they're essential. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, offsetting the initial cost through avoided future claims and insurance savings."}},{"@type":"Question","name":"How long does hail damage repair take in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Most Amarillo homes are completed in 1-3 days once insurance approves. The claim process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting (1-2 weeks), approval (3-5 days), then installation (1-3 days). We provide emergency tarping within hours if you have active leaks while waiting for insurance approval."}},{"@type":"Question","name":"Do you provide emergency tarping for hail-damaged roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes, 24/7 emergency tarping service throughout Amarillo. If hailstorms cause active leaks, we respond within hours to install temporary waterproof tarps protecting your home until permanent repairs are completed. Emergency tarping costs are typically covered by insurance as part of your claim."}}]
           })

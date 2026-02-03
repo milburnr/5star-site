@@ -8,7 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: "Roof Repair Midland TX | Permian Basin Expert Service | Free Inspection",
+  title: 'Roof Repair Midland TX | Free Inspection | 5 Star',
   description: "Professional roof repair in Midland TX. Desert climate specialists, oil industry housing experts, 24/7 emergency service. Call (806) 622-6041",
 };
 

@@ -88,6 +88,39 @@ export default function RoofReplacementAmarilloPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Roof Replacement Services",
+            "name": "Roof Replacement in Amarillo",
+            "description": "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Amarillo",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roof Replacement Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"When should I replace my Amarillo roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread hail damage (10+ impacts per 100 sq ft), roof age over 20 years in Potter County's harsh climate, multiple leaks, extensive granule loss, or failed previous repairs. Given Amarillo's 131 hail days since 2000, most roofs need replacement every 15-20 years, sooner without Class 4 shingles."}},{"@type":"Question","name":"How much does roof replacement cost in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Residential: $8,000-$25,000 depending on size and materials. Commercial: $15,000-$100,000+ depending on building size and system type. However, 85% of Amarillo replacements are insurance-covered hail damage where homeowners pay only their deductible ($1,000-$2,500). We provide free estimates with financing options."}},{"@type":"Question","name":"What are the best roofing materials for Amarillo's climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant asphalt shingles (residential), TPO or metal roofing (commercial). Amarillo's 131 hail days since 2000, 14.3 mph average winds (highest in Texas), and 86°F temperature swings require materials engineered for extreme conditions. Class 4 shingles reduce damage by 90% and qualify for insurance discounts up to 30%."}},{"@type":"Question","name":"How long does roof replacement take in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Residential: 1-3 days. Single-story homes under 2,000 sq ft take 1-2 days. Two-story or complex roofs require 2-3 days. Commercial: 3-10 days depending on building size. We work efficiently while meeting all City of Amarillo building code requirements. Weather delays possible during winter months."}},{"@type":"Question","name":"Do I need a permit for roof replacement in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Yes. All roofing projects require City of Amarillo building permits per IRC Section 105.1. Contact Building Safety at (806) 378-3041. We handle all permit applications at no extra charge. Requirements include drip edge, proper ventilation (1:150 ratio), wind resistance (110-125 mph standards), and permit display visible from street."}},{"@type":"Question","name":"Will new roof increase my Amarillo home value?","acceptedAnswer":{"@type":"Answer","text":"Yes. New roofs provide 60-70% ROI in Amarillo. Class 4 impact-resistant roofs add premium value due to insurance discounts (10-30% savings), reduced future maintenance, and buyer confidence in Hail Alley. Homes with new Class 4 roofs sell faster and command higher prices in Potter County's competitive market."}},{"@type":"Question","name":"Can you match my HOA-approved shingle colors?","acceptedAnswer":{"@type":"Answer","text":"Yes. We stock pre-approved colors for Wolflin, Westcliff, Sleepy Hollow, and Colonies HOAs. We handle all architectural committee submissions and approvals at no extra charge. Most Amarillo HOAs approve Class 4 impact-resistant shingles in traditional color palettes. Processing typically takes 1-2 weeks."}}]
           })

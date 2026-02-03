@@ -2,6 +2,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { InteractiveCard } from "@/components/InteractiveCard";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import type { Metadata } from "next";
+import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -9,8 +10,7 @@ import { OptimizedImage } from "@/components/OptimizedImage";
 
 export const metadata: Metadata = {
   title: 'Amarillo TX Roofing | Trusted Local Roofers',
-  description: "Amarillo's trusted residential roofing experts. Specializing in hail damage claims, Class 4 shingles, and insurance replacements. Amarillo experiences 8-12 hailstorms annually. Free inspections, 10+ years local experience. Call today (806) 622-6041",
-};
+  description: "Expert residential roofing services in Amarillo TX. Roof repair, replacement, and inspections. Insurance claim assistance. Free estimates. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function ResidentialRoofingAmarilloPage() {
   return (
@@ -31,6 +31,25 @@ export default function ResidentialRoofingAmarilloPage() {
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/residential-roofing-amarillo-tx/#localbusiness",
+        "name": "5 Star Commercial Roofing - Amarillo Residential Roofing",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
+        "url": "https://5starroofingpros.com/residential-roofing-amarillo-tx/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
 
 
       {/* Service Schema Markup */}
@@ -1022,6 +1041,9 @@ export default function ResidentialRoofingAmarilloPage() {
         </FadeIn>
 
         {/* Final CTA */}
+        
+        <InternalLinks currentCity="amarillo" currentService="residential-roofing" />
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center shadow-2xl">
           <FadeIn>
             <h2 className="text-4xl font-bold mb-6">Ready to Replace Your Amarillo Home's Roof?</h2>

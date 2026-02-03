@@ -88,6 +88,39 @@ export default function RoofReplacementMidlandPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Roof Replacement Services",
+            "name": "Roof Replacement in Midland",
+            "description": "Professional roof replacement services in Midland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Midland",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roof Replacement Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Replacement Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"When should I replace my Midland roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread Permian Basin hail damage, roof age over 15-20 years in dust storm environment, multiple leaks, extensive granule loss from dust erosion, or failed previous repairs. Oil boom construction from 1980s-2010s now requires replacement due to age and environmental wear."}},{"@type":"Question","name":"How much does roof replacement cost in Midland?","acceptedAnswer":{"@type":"Answer","text":"Residential: $12,000-$42,000 depending on size and materials. Commercial/Industrial: $20,000-$200,000+ for oil company facilities. Most Midland replacements are insurance-covered hail damage where property owners pay only deductible ($1,000-$3,500)."}},{"@type":"Question","name":"What roofing materials work best in Midland's Permian Basin climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles with dust-resistant granules (residential), TPO membrane or metal systems (commercial). Permian Basin requires materials engineered for dust storms, extreme hail, temperature cycling (20°F to 110°F+), and industrial environments."}},{"@type":"Question","name":"Do commercial buildings in Midland need special roofing considerations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Oil and gas facilities require chemical-resistant materials, 24/7 operational scheduling, enhanced wind resistance, and compliance with industrial safety standards. Many require specialized access for equipment and minimal business interruption during replacement."}},{"@type":"Question","name":"How do dust storms affect roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Frequent northwest wind dust storms cause granule loss, surface erosion, and accelerated aging. Dust accumulation blocks drainage systems and creates abrasive wear patterns. Proper material selection and maintenance schedules are critical for Permian Basin conditions."}},{"@type":"Question","name":"Are there energy efficiency benefits for new roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cool roof technologies can reduce cooling costs by 25-40% in Midland's intense summer heat (110°F+). Reflective membranes, metal roofing, and energy-efficient shingles qualify for utility rebates and reduce operational costs for both residential and commercial properties."}}]
           })

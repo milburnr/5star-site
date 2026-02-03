@@ -4,7 +4,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: "Understanding Climate and Roof Longevity in Amarillo",
-  description: "Explore the impact of Amarillo's climate and roof longevity in Amarillo. Gain insights into weather challenges and tips for extending the lifespan of your roof.",
+  description: "Learn how Amarillo's extreme weather impacts your roof. Hail, high winds, and temperature swings cause damage. Get expert roofing advice from 5 Star Roofing. Free inspections. Call (806) 622-6041.",
   openGraph: {
     title: "Understanding Climate and Roof Longevity in Amarillo",
     description: "Expert guide to protecting your roof from Texas Panhandle weather. Free inspections. Call (806) 622-6041",
@@ -23,6 +23,58 @@ export default function Page() {
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/amarillo-weather-impact-on-roofing/#localbusiness",
+        "name": "5 Star Commercial Roofing - Amarillo Roofing",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
+        "url": "https://5starroofingpros.com/amarillo-weather-impact-on-roofing/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Professional Roofing Services",
+            "name": "Roofing Services in Amarillo",
+            "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Amarillo",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Roofing Services Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roofing Services Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roofing Services Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
 
       {/* Schema Markup */}
       <script

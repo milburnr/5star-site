@@ -88,6 +88,39 @@ export default function EmergencyRoofRepairAmarilloPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Emergency Roofing Services",
+            "name": "Emergency Roof Repair in Amarillo",
+            "description": "Professional emergency roof repair services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Amarillo",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Emergency Roof Repair Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"How quickly can you respond to emergency roof repairs in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"We respond within 2 hours for active leaks and storm damage throughout Amarillo. Our 24/7 emergency crews carry tarps, sealants, and repair materials for immediate leak mitigation. Given Potter County's 131 hail days since 2000 and frequent severe weather, fast response prevents secondary water damage to interiors, insulation, and belongings."}},{"@type":"Question","name":"What qualifies as a roofing emergency in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Active leaks causing interior water damage, missing shingles exposing roof deck after windstorms, holes from hail or debris, collapsed sections from heavy snow/ice, severe storm damage requiring immediate protection. Potter County's extreme weather (50+ mph wind gusts, large hailstones) regularly creates emergency situations requiring 24/7 response."}},{"@type":"Question","name":"Do you provide emergency tarping services?","acceptedAnswer":{"@type":"Answer","text":"Yes, 24/7 emergency tarping throughout Amarillo. When storms damage your roof, we install heavy-duty waterproof tarps within hours to prevent further water intrusion. Tarping protects your home while we process insurance claims and schedule permanent repairs. Emergency tarping costs typically covered by insurance as part of your claim."}},{"@type":"Question","name":"Will insurance cover emergency roof repairs in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Yes, if damage resulted from covered perils (hail, wind, storm). Emergency tarping and temporary repairs are typically covered to prevent additional damage. We document all storm damage with photos, meet adjusters on-site, and ensure emergency costs are included in your claim. Most homeowners pay only their deductible for complete storm damage repairs."}},{"@type":"Question","name":"What should I do immediately after storm damage in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Safety first - stay away from damaged areas. If safe, place buckets under active leaks. Take photos/videos of damage. Call us for emergency tarping (806-622-6041). Don't attempt DIY repairs on damaged roofs - Potter County's steep roof pitches and wind make it dangerous. Contact your insurance within 24-48 hours to report the claim."}},{"@type":"Question","name":"Can you repair roofs during Amarillo's winter months?","acceptedAnswer":{"@type":"Answer","text":"Yes, with weather limitations. We perform emergency repairs year-round, though severe weather may cause delays. Temporary tarping works in any conditions. Permanent shingle repairs require temperatures above 40°F for proper adhesive bonding. Metal and TPO repairs possible in colder weather. We monitor Amarillo forecasts to schedule work during suitable conditions."}},{"@type":"Question","name":"Do you repair roofs damaged by Amarillo's high winds?","acceptedAnswer":{"@type":"Answer","text":"Yes. Amarillo averages 14.3 mph winds (highest in Texas) with gusts exceeding 50 mph annually. Wind damage includes missing/lifted shingles, exposed underlayment, damaged flashing, and blown-off ridge vents. We perform emergency wind damage repairs 24/7 and upgrade installations with 6-nail high-wind patterns and enhanced fastening systems."}}]
           })

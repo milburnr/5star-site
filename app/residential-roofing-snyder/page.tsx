@@ -8,7 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Expert Residential Roofing Snyder TX | Rolling Plains Specialists | Oil Field Housing | 5 Star',
+  title: 'Residential Roofing Snyder TX | 5 Star Roofing',
   description: "Premier residential roofing services in Snyder TX and Scurry County. Rolling Plains weather specialists, oil industry housing experts, Western Texas College area services. Licensed, bonded, insured. Free estimates, comprehensive warranties, insurance claims assistance.",
 };
 
@@ -42,6 +42,39 @@ export default function ResidentialRoofingSnyderPage() {
         "description": "Professional residential roofing in Snyder TX. Expert installation, warranties, and insurance assistance.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Residential Roofing Services",
+            "name": "Residential Roofing in Snyder",
+            "description": "Professional residential roofing services in Snyder, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Snyder",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Residential Roofing Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",

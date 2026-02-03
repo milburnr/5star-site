@@ -8,7 +8,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Roof Repair Lubbock TX | South Plains Expert Service | Free Inspection",
+  title: 'Roof Repair Lubbock TX | Free Inspection | 5 Star',
   description: "Professional roof repair in Lubbock TX. South Plains weather specialists, dust storm damage experts, 24/7 emergency service. Call (806) 622-6041",
 };
 

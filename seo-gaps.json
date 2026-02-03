@@ -1,0 +1,237 @@
+{
+  "missingSchema": [
+    {
+      "dir": "borger-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "budgeting-for-roof-replacement-expenses",
+      "hasLocalBusiness": false,
+      "hasService": false
+    },
+    {
+      "dir": "canyon-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "commercial-roofing-lubbock-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "commercial-roofing-midland-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "dumas-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "emergency-roof-repair-odessa-texas",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "flat-roof-repair-midland-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "hail-damage-roof-repair-lubbock-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "hail-damage-roof-repair-midland-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "hail-damage-roof-repair-odessa-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "hereford-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "metal-roof-installation-odessa-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "pampa-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "perryton-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "plainview-texas-roofing",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "residential-roofing-amarillo-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "residential-roofing-lubbock-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "residential-roofing-midland-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "residential-roofing-odessa-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roof-hail-damage-repair-services-in-amarillo-tx",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roof-inspection-amarillo-texas",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roof-repair-odessa",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roofing-amarillo-tx",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roofing-companies-in-amarillo-tx",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roofing-methods-in-amarillo",
+      "hasLocalBusiness": true,
+      "hasService": false
+    },
+    {
+      "dir": "roofing-services-lubbock-tx",
+      "hasLocalBusiness": false,
+      "hasService": false
+    },
+    {
+      "dir": "storm-damage-repair-amarillo",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "storm-damage-repair-perryton",
+      "hasLocalBusiness": false,
+      "hasService": true
+    },
+    {
+      "dir": "wind-damage-roof-repair-in-amarillo",
+      "hasLocalBusiness": true,
+      "hasService": false
+    }
+  ],
+  "missingInternalLinks": [
+    "amarillo-homes-roofing-services",
+    "amarillo-texas-roofing",
+    "amarillo-weather-impact-on-roofing",
+    "amarillos-best-roofer",
+    "asphalt-flat-roof-repair-in-amarillo",
+    "asphalt-roofing-in-amarillo",
+    "borger-texas-roofing",
+    "budgeting-for-roof-replacement-expenses",
+    "bushland-tx-roofing",
+    "canyon-texas-roofing",
+    "canyon-tx-roofing",
+    "claude-tx-roofing",
+    "commercial-roof-repair-in-amarillo",
+    "commercial-roofing-lubbock-texas",
+    "commercial-roofing-midland-texas",
+    "commercial-roofing-odessa-texas",
+    "damaged-roof-replacement-in-amarillo",
+    "dumas-texas-roofing",
+    "emergency-roof-repair-odessa-texas",
+    "expert-roofing-services-in-amarillo",
+    "flat-roof-repair-midland-texas",
+    "hail-damage-repair-hereford",
+    "hail-damage-repair-lubbock-tx",
+    "hail-damage-repair-midland-tx",
+    "hail-damage-repair-odessa-tx",
+    "hail-damage-repair-plainview",
+    "hail-damage-roof-repair-amarillo-texas",
+    "hail-damage-roof-repair-in-amarillo",
+    "hail-damage-roof-repair-lubbock-texas",
+    "hail-damage-roof-repair-midland-texas",
+    "hail-damage-roof-repair-odessa-texas",
+    "hail-damage-roof-replacement-in-amarillo",
+    "hail-damage-roofs-in-amarillo",
+    "heavy-rain-damage-roof-repair-in-amarillo",
+    "hereford-texas-roofing",
+    "lubbock-tx-roofing",
+    "metal-roof-installation-odessa-texas",
+    "midland-tx-roofing",
+    "odessa-tx-roofing",
+    "pampa-texas-roofing",
+    "perryton-texas-roofing",
+    "plainview-texas-roofing",
+    "pvc-roof-repair-in-amarillo",
+    "pvc-roof-replacement-in-amarillo",
+    "pvc-roofing-contractors-in-amarillo",
+    "residential-roof-repair-in-amarillo",
+    "residential-roof-replacement-in-amarillo",
+    "residential-roofing-amarillo-texas",
+    "residential-roofing-in-amarillo",
+    "residential-roofing-lubbock-texas",
+    "residential-roofing-midland-texas",
+    "residential-roofing-odessa-texas",
+    "roof-hail-damage-repair-services-in-amarillo-tx",
+    "roof-heavy-rain-damage-in-amarillo",
+    "roof-inspection-amarillo-texas",
+    "roof-repair-services-in-amarillo",
+    "roof-replacement-in-amarillo",
+    "roof-rot-damage-in-amarillo",
+    "roof-snow-and-ice-damage-in-amarillo",
+    "roof-storm-damage-in-amarillo",
+    "roof-wind-damage-in-amarillo",
+    "roofers-in-amarillo",
+    "roofing-amarillo-tx",
+    "roofing-companies-in-amarillo-tx",
+    "roofing-methods-in-amarillo",
+    "roofing-repair-services-in-amarillo",
+    "roofing-services-in-amarillo-tx",
+    "roofing-services-lubbock-tx",
+    "storm-damage-roof-repair-in-amarillo",
+    "vega-tx-roofing",
+    "wildorado-tx-roofing",
+    "wind-damage-roof-repair-in-amarillo"
+  ],
+  "longTitles": [],
+  "shortDescriptions": [
+    {
+      "dir": "amarillo-weather-impact-on-roofing",
+      "desc": "Learn how Amarillo",
+      "length": 18
+    }
+  ],
+  "pagesAnalyzed": 244
+}

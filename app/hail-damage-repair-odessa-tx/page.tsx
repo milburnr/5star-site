@@ -7,9 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Odessa | 5 Star',
-  description: "Odessa's hail damage repair specialists. 150+ families served. Permian Basin storm experts. Odessa experiences 6-10 hailstorms annually. Free inspections and insurance help. Call today (806) 622-6041",
-  keywords: "hail damage repair Odessa TX, hail storm damage Odessa, roof hail repair Odessa Texas, 2019 Odessa hailstorm, Ector County roofing, Permian Basin hail damage",
-};
+  description: "Expert hail damage roof repair in Odessa TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairOdessaTXPage() {
   const faqSchema = {

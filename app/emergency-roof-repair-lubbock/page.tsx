@@ -88,6 +88,39 @@ export default function EmergencyRoofRepairLubbockPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Emergency Roofing Services",
+            "name": "Emergency Roof Repair in Lubbock",
+            "description": "Professional emergency roof repair services in Lubbock, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Lubbock",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Emergency Roof Repair Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{"@type":"Question","name":"How quickly can you respond to emergency roof repairs in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"We respond within 2 hours for emergency roof repairs in Lubbock. Our Amarillo headquarters is 124 miles away - typically 2 hours travel time depending on traffic and weather conditions. For active leaks during business hours, response time averages 90-120 minutes. After-hours and weekend emergencies may take up to 2.5 hours due to crew mobilization."}},{"@type":"Question","name":"What makes Lubbock roofs vulnerable to emergency damage?","acceptedAnswer":{"@type":"Answer","text":"Lubbock experiences severe weather with 131°F temperature swings (-17°F to 114°F), peak wind gusts of 90 MPH, and record snowfall of 16.9 inches. The Hub City's flat terrain offers no wind protection, creating ideal conditions for straight-line wind damage. Spring supercells frequently produce baseball-sized hail. These extreme conditions cause rapid roof deterioration and sudden emergency failures."}},{"@type":"Question","name":"Do you provide emergency roof tarping in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Yes, 24/7 emergency tarping services throughout Lubbock and Lubbock County. We use heavy-duty 6-mil polyethylene tarps secured with battens and galvanized fasteners. Our crews carry multiple tarp sizes (20x30, 30x50, and custom cuts) for complete coverage. Emergency tarping prevents secondary water damage to your home's interior, insulation, and belongings while permanent repairs are scheduled."}},{"@type":"Question","name":"Does insurance cover emergency roof repairs in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Yes, if damage resulted from covered weather events like hail, wind, or storms. Emergency tarping and temporary repairs are typically covered as 'reasonable measures to prevent further damage.' We work directly with all major insurance carriers serving Lubbock, document storm damage thoroughly, and ensure emergency services are included in your claim settlement."}},{"@type":"Question","name":"Can you repair roofs during Lubbock's severe weather season?","acceptedAnswer":{"@type":"Answer","text":"Yes, with safety limitations. We perform emergency repairs year-round, though severe thunderstorms (March-June) and winter weather may cause delays. Temporary tarping works in most conditions. Permanent repairs require safe weather - no active lightning, winds under 25 MPH, and temperatures above 40°F for proper shingle adhesive bonding. We monitor NWS Lubbock forecasts to schedule work during safe weather windows."}},{"@type":"Question","name":"What emergency roof services do you provide in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Complete 24/7 emergency services: immediate leak mitigation, emergency tarping, storm damage assessment, temporary shingle repairs, flashing repairs, and debris removal. We handle wind damage (common with 90 MPH gusts), hail damage (frequent spring occurrence), snow load damage (record 16.9 inches), and structural damage. All emergency crews carry repair materials for immediate protection."}}]
           })

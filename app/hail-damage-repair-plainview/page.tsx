@@ -11,9 +11,8 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Hail Damage Repair Plainview TX | Cotton Capital of Llano Estacado | 5 Star Roofing',
-  description: "Plainview's premier hail damage specialists. Serving Hale County's cotton capital with expert repairs, insurance claims, Class 4 shingles. Home of Wayland Baptist University. 24/7 service. Call (806) 622-6041.",
-};
+  title: 'Hail Damage Repair Plainview TX | 5 Star Roofing',
+  description: "Expert hail damage roof repair in Plainview TX. 24/7 emergency service, insurance claim help, quality roofing. Serving Hale County. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairPlainviewPage() {
   return (
@@ -25,6 +24,25 @@ export default function HailDamageRepairPlainviewPage() {
       ]} />
 
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-plainview/#localbusiness",
+        "name": "5 Star Commercial Roofing - Plainview Hail Damage Repair",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 34.1848, "longitude": -101.7068 },
+        "url": "https://5starroofingpros.com/hail-damage-repair-plainview/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Plainview,_Texas", "name": "Plainview", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert hail damage repair services in Plainview, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
 
       <script
         type="application/ld+json"

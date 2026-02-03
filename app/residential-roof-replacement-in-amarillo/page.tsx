@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Expert Residential Roof Replacement Amarillo TX | Class 4 Hail Resistant | Insurance Claims Specialists | 5 Star',
+  title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
   description: 'Premier residential roof replacement in Amarillo TX. Specialized in hail damage claims, Class 4 impact-resistant materials, insurance coverage assistance. 25+ years experience, licensed & bonded. Free estimates, comprehensive warranties on all residential roof replacement projects.',
 };
 
@@ -62,6 +62,25 @@ export default function Page() {
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://5starroofingpros.com/residential-roof-replacement-in-amarillo/#localbusiness",
+        "name": "5 Star Commercial Roofing - Amarillo Roof Replacement",
+        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "telephone": "(806) 622-6041",
+        "email": "info@5starroofingpros.com",
+        "priceRange": "$",
+        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
+        "url": "https://5starroofingpros.com/residential-roof-replacement-in-amarillo/",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+      }) }} />
 
 
       <section className="hero-small">

@@ -13,7 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  title: 'Emergency Roof Repair Midland TX | 24/7 Permian Basin Storm Response',
+  title: 'Emergency Roof Repair Midland TX | 24/7 Service',
   description: '24/7 emergency roof repair in Midland TX. 3.5-hour response from Amarillo HQ. Record 127°F temperature swings, severe hail, oil field wind damage. Call (806) 622-6041',
 };
 
@@ -79,6 +79,39 @@ export default function EmergencyRoofRepairMidlandPage() {
             },
             "description": "24/7 emergency roof repair in Midland TX. Permian Basin oil field experts. 127°F temperature extremes (-11°F to 116°F), severe dust storms, hail damage. 3.5-hour response from Amarillo. Emergency tarping, leak mitigation. Call (806) 622-6041",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Emergency Roofing Services",
+            "name": "Emergency Roof Repair in Midland",
+            "description": "Professional emergency roof repair services in Midland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "provider": {
+              "@type": "RoofingContractor",
+              "name": "5 Star Commercial Roofing",
+              "telephone": "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Midland",
+              "containedInPlace": { "@type": "State", "name": "Texas" }
+            },
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Emergency Roof Repair Services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Installation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roof Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
+              ]
+            }
           })
         }}
       />

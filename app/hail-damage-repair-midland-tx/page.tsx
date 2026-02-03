@@ -7,9 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Midland | 5 Star',
-  description: "Midland's hail damage repair specialists. 200+ insurance claims handled. Permian Basin storm experts. Midland experiences 6-10 hailstorms annually. Free inspections. Call today (806) 622-6041",
-  keywords: "hail damage repair Midland TX, Midland hail damage, storm damage Midland, roof hail repair Midland, Midland TX roofing, insurance claims Midland",
-};
+  description: "Expert hail damage roof repair in Midland TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairMidlandPage() {
   return (
