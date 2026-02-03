@@ -23,7 +23,7 @@ export function MobileMenu() {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden flex flex-col justify-center items-center gap-1.5 w-12 h-12 -mr-2 relative z-[60] touch-manipulation"
+        className="md:hidden flex flex-col justify-center items-center gap-1.5 w-12 h-12 -mr-2 relative z-[101] touch-manipulation"
         aria-label={isOpen ? 'Close menu' : 'Open menu'}
         aria-expanded={isOpen}
       >
@@ -47,7 +47,7 @@ export function MobileMenu() {
       {/* Backdrop */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[55] md:hidden"
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[100] md:hidden"
           onClick={() => setIsOpen(false)}
           aria-hidden="true"
         />
@@ -55,7 +55,7 @@ export function MobileMenu() {
 
       {/* Slide-out Menu */}
       <nav
-        className={`fixed right-0 top-0 bottom-0 w-72 sm:w-80 bg-gradient-to-b from-[#2C1810] to-[#3D2415] z-[55] md:hidden overflow-y-auto shadow-2xl transition-transform duration-300 ease-out ${
+        className={`fixed right-0 top-0 bottom-0 w-72 sm:w-80 bg-gradient-to-b from-[#2C1810] to-[#3D2415] z-[100] md:hidden overflow-y-auto shadow-2xl transition-transform duration-300 ease-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
