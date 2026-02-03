@@ -181,7 +181,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/shutterstock_162724754.jpg" alt="Storm Damage Restoration" className="card-image" />
+              <img src="/images/storm-damage-roof-repair.jpg" alt="Storm Damage Restoration" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="mb-4">
@@ -203,7 +203,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/shutterstock_473737921.jpg" alt="Roof Inspections" className="card-image" />
+              <img src="/images/roof-inspection-texas.jpg" alt="Roof Inspections" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Free Roof Inspections</h3>
                 <p className="mb-4">

@@ -332,7 +332,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/shutterstock_162724754.jpg" alt="Emergency storm response in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency storm response in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response Times</h3>
                   <p className="text-gray-700">
                     Same-day inspections available after storms. Early morning and evening appointments for working families. We know many Odessa residents commute to Midland - we work around your schedule.
@@ -342,7 +342,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/shutterstock_2140326707.jpg" alt="Insurance claims expertise in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="/images/insurance-claims-roofing.jpg" alt="Insurance claims expertise in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Insurance Claim Experts</h3>
                   <p className="text-gray-700">
                     We've handled hundreds of claims with Permian Basin Insurance and all major carriers. We fight to maximize your coverage - many clients receive more than initial estimates.
@@ -352,7 +352,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/shutterstock_473737921.jpg" alt="Professional roof inspection in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="/images/roof-inspection-texas.jpg" alt="Professional roof inspection in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">We Pull All Permits</h3>
                   <p className="text-gray-700">
                     No hassle for you - we handle all City of Odessa permit applications, inspections, and code compliance. You never have to visit 411 W. 8th St or worry about building department requirements.

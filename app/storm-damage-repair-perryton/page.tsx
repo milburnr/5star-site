@@ -151,7 +151,7 @@ export default function StormDamageRepairPerrytonPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(/images/shutterstock_162724754.jpg)',
+          backgroundImage: 'url(/images/storm-damage-roof-repair.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

@@ -393,7 +393,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.3}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/shutterstock_162724754.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
                     <p className="text-gray-600 leading-relaxed">
                       24/7 emergency service for Amarillo homes. Storm damage, active leaks, wind-blown shingles—we respond within 2-4 hours with emergency tarp installation and temporary repairs. Prevents interior water damage while coordinating insurance claims and permanent replacement.
@@ -423,7 +423,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.5}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/shutterstock_473737921.jpg" alt="Free residential roof inspection Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="/images/roof-inspection-texas.jpg" alt="Free residential roof inspection Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔍 Free Roof Inspections</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive residential roof inspections using drone photography. Storm damage assessments, pre-purchase home inspections, routine maintenance checks—all completely free. Detailed written reports with honest recommendations and insurance claim guidance.

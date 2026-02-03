@@ -311,7 +311,7 @@ export default function HailDamageRepairLubbockPage() {
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <InteractiveCard>
-                  <img src="/images/shutterstock_2140326707.jpg" alt="Property management roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="/images/insurance-claims-roofing.jpg" alt="Property management roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-4">Property Managers & Landlords</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     If you own multiple rental properties near Texas Tech, we offer property management accounts with benefits designed for your business:

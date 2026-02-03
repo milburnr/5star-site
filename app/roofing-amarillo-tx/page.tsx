@@ -383,7 +383,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.4}>
                 <InteractiveCard href="/emergency-roof-repair-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/shutterstock_162724754.jpg" alt="Emergency roof repair in Amarillo TX - 24/7 storm damage response" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair in Amarillo TX - 24/7 storm damage response" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
                     <p className="text-gray-600 leading-relaxed">
                       24/7 emergency roofing services throughout Amarillo. Active leaks, storm damage, wind-blown shingles—we respond within 2-4 hours with emergency tarps and temporary repairs, then coordinate permanent solutions quickly.
@@ -398,7 +398,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.5}>
                 <InteractiveCard href="/roof-inspection-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/shutterstock_473737921.jpg" alt="Professional roof inspection in Amarillo TX - Free assessment" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="/images/roof-inspection-texas.jpg" alt="Professional roof inspection in Amarillo TX - Free assessment" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔍 Free Roof Inspections</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive roof inspections using drone technology and professional photography. Storm damage assessments, pre-purchase inspections, routine maintenance checks—all completely free with detailed written reports.

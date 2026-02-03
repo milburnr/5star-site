@@ -96,7 +96,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/shutterstock_162724754.jpg" alt="Storm damage to roof in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="/images/storm-damage-roof-repair.jpg" alt="Storm damage to roof in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Terminal Velocity Impact Forces</h3>
                 <p className="text-gray-700">
                   When a 7.25-inch hailstone falls from thunderstorm heights (often 30,000+ feet), it reaches terminal velocity of 100+ mph before impact. The kinetic energy from a softball-sized ice ball traveling at highway speeds is enough to:
@@ -110,7 +110,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/shutterstock_473737921.jpg" alt="Roof inspection in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="/images/roof-inspection-texas.jpg" alt="Roof inspection in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Midland's Extreme Temperature Cycling</h3>
                 <p className="text-gray-700">
                   Midland experiences temperature extremes that accelerate hail damage deterioration. Summer temperatures routinely exceed 100°F, while winter nights can drop below 20°F. Hail-damaged shingles expand and contract in these cycles, causing:
@@ -272,7 +272,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/shutterstock_2140326707.jpg" alt="Insurance claims assistance in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="/images/insurance-claims-roofing.jpg" alt="Insurance claims assistance in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold text-brand-brown mb-3">200+ Midland Insurance Claims Handled</h3>
                 <p className="text-gray-700">
                   We've successfully managed over 200 insurance claims for Midland homeowners and businesses. We know how State Farm, Farmers, Allstate, USAA, and every other carrier operates. We work with all major Midland insurance adjusters and agents. Our expertise often gets homeowners MORE coverage than they expected.

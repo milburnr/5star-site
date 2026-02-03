@@ -1475,7 +1475,7 @@ export default function HailDamageRepairAmarilloPage() {
               <FadeIn delay={0.3}>
                 <InteractiveCard href="/contact/">
                   <div className="space-y-4">
-                    <img src="/images/shutterstock_473737921.jpg" alt="Free roof inspection Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="/images/roof-inspection-texas.jpg" alt="Free roof inspection Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Free Roof Inspection</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Not sure if you have hail damage? We offer free professional inspections with drone photography and detailed documentation. No obligation, no pressure.

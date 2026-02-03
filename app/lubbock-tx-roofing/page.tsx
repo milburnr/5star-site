@@ -339,7 +339,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard className="bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/shutterstock_162724754.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       Emergency Roof Repair
                     </h3>
