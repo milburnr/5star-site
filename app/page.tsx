@@ -164,7 +164,7 @@ export default function Page() {
 
             <FadeIn delay={0.2} direction="up">
               <a href="/storm-damage-roof-repair-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/shutterstock_162724754" alt="Storm Damage Restoration" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/Roof-Replacement-in-AmarilloTX" alt="Storm Damage Restoration" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">⛈️ Storm Damage Restoration</h3>
                 <p className="text-gray-600 mb-4">
@@ -177,7 +177,7 @@ export default function Page() {
 
             <FadeIn delay={0.3} direction="right">
               <a href="/roof-inspections-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/shutterstock_473737921" alt="Free Roof Inspections" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/Roofing-Methods" alt="Free Roof Inspections" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🔍 Free Roof Inspections</h3>
                 <p className="text-gray-600 mb-4">
@@ -216,7 +216,7 @@ export default function Page() {
 
             <FadeIn delay={0.6} direction="right">
               <a href="/contact/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/shutterstock_2140326707" alt="Insurance Claims Help" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/commercial-roof" alt="Insurance Claims Help" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">📋 Insurance Claims Help</h3>
                 <p className="text-gray-600 mb-4">
@@ -301,7 +301,7 @@ export default function Page() {
                 <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/photos/sleepy-hollow/sleepy-hollow-before1"
+                      src="/images/danage"
                       alt="Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -319,7 +319,7 @@ export default function Page() {
                 <a href="/wind-damage-repair-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/photos/borger/borger-before1"
+                      src="/images/hail-damage-3"
                       alt="Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -337,7 +337,7 @@ export default function Page() {
                 <a href="/roof-replacement-odessa/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/photos/sleepy-hollow/sleepy-hollow-after1"
+                      src="/images/ResidentialServices"
                       alt="Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -355,7 +355,7 @@ export default function Page() {
                 <a href="/tpo-roofing-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/photos/tpo/tpo-after1"
+                      src="/images/TPO1"
                       alt="Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -502,7 +502,7 @@ export default function Page() {
             {/* Step 1 */}
             <div className="text-center">
               <OptimizedImage
-                src="/photos/in-progress/working1"
+                src="/images/Constructionhome"
                 alt="Professional roof inspection in Amarillo Texas - Free hail damage assessment - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -517,7 +517,7 @@ export default function Page() {
             {/* Step 2 */}
             <div className="text-center">
               <OptimizedImage
-                src="/photos/in-progress/working2"
+                src="/images/Aerialview"
                 alt="Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -532,7 +532,7 @@ export default function Page() {
             {/* Step 3 */}
             <div className="text-center">
               <OptimizedImage
-                src="/photos/hereford/hereford-after1"
+                src="/images/Alluminumroofing"
                 alt="Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -547,7 +547,7 @@ export default function Page() {
             {/* Step 4 */}
             <div className="text-center">
               <OptimizedImage
-                src="/photos/Professional_roofing_crew_on_Texas_residential_home"
+                src="/images/cover-background-roofing-sunset"
                 alt="Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -562,7 +562,7 @@ export default function Page() {
             {/* Step 5 */}
             <div className="text-center">
               <OptimizedImage
-                src="/photos/sleepy-hollow/sleepy-hollow-after2"
+                src="/images/ResidentialServices"
                 alt="Final roof inspection quality control in West Texas - Warranty protection - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -577,7 +577,7 @@ export default function Page() {
             {/* Step 6 */}
             <div className="text-center">
               <OptimizedImage
-                src="/photos/sleepy-hollow/sleepy-hollow-after3"
+                src="/images/CommercialRoofing"
                 alt="Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
