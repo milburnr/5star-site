@@ -1,9 +1,16 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 
 export function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  // Wait for client-side mount for portal
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -17,33 +24,8 @@ export function MobileMenu() {
     };
   }, [isOpen]);
 
-  return (
+  const menuContent = (
     <>
-      {/* Hamburger Button - Always interactive */}
-      <button
-        type="button"
-        onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden flex flex-col justify-center items-center gap-1.5 w-12 h-12 -mr-2 relative z-[101] touch-manipulation"
-        aria-label={isOpen ? 'Close menu' : 'Open menu'}
-        aria-expanded={isOpen}
-      >
-        <span
-          className={`w-6 h-0.5 bg-brand-gold-light transition-all duration-300 ${
-            isOpen ? 'rotate-45 translate-y-2' : ''
-          }`}
-        />
-        <span
-          className={`w-6 h-0.5 bg-brand-gold-light transition-all duration-300 ${
-            isOpen ? 'opacity-0' : ''
-          }`}
-        />
-        <span
-          className={`w-6 h-0.5 bg-brand-gold-light transition-all duration-300 ${
-            isOpen ? '-rotate-45 -translate-y-2' : ''
-          }`}
-        />
-      </button>
-
       {/* Backdrop */}
       {isOpen && (
         <div
@@ -95,6 +77,38 @@ export function MobileMenu() {
           </div>
         </div>
       </nav>
+    </>
+  );
+
+  return (
+    <>
+      {/* Hamburger Button - stays in header */}
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="md:hidden flex flex-col justify-center items-center gap-1.5 w-12 h-12 -mr-2 relative z-[101] touch-manipulation"
+        aria-label={isOpen ? 'Close menu' : 'Open menu'}
+        aria-expanded={isOpen}
+      >
+        <span
+          className={`w-6 h-0.5 bg-brand-gold-light transition-all duration-300 ${
+            isOpen ? 'rotate-45 translate-y-2' : ''
+          }`}
+        />
+        <span
+          className={`w-6 h-0.5 bg-brand-gold-light transition-all duration-300 ${
+            isOpen ? 'opacity-0' : ''
+          }`}
+        />
+        <span
+          className={`w-6 h-0.5 bg-brand-gold-light transition-all duration-300 ${
+            isOpen ? '-rotate-45 -translate-y-2' : ''
+          }`}
+        />
+      </button>
+
+      {/* Portal menu content to body to escape header's backdrop-filter containing block */}
+      {mounted && createPortal(menuContent, document.body)}
     </>
   );
 }
