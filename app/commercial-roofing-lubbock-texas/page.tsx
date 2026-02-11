@@ -40,7 +40,7 @@ export default function CommercialLubbockPage() {
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
-      <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-channing-33-1280w.webp)', backgroundPosition: 'center'}}>
+      <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp)', backgroundPosition: 'center'}}>
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">

@@ -82,7 +82,7 @@ export default function TPORoofingOdessaPage() {
         "mainEntity": [{"@type":"Question","name":"What is TPO roofing?","acceptedAnswer":{"@type":"Answer","text":"TPO (Thermoplastic Polyolefin) is a single-ply white membrane for flat/low-slope roofs. Energy Star rated, heat-welded seams, 15-25 year warranties."}},{"@type":"Question","name":"How much does TPO roofing cost in Odessa?","acceptedAnswer":{"@type":"Answer","text":"TPO installation in Odessa costs $4-$8 per square foot including materials and labor. Excellent value for energy efficiency and durability."}},{"@type":"Question","name":"Why choose TPO over other commercial roofing?","acceptedAnswer":{"@type":"Answer","text":"TPO reflects heat (lower cooling costs), resists hail/wind damage, heat-welded seams are watertight, and offers excellent cost-to-performance ratio."}}]
       }) }} />
 
-      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-40-1280w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
