@@ -82,7 +82,7 @@ export default function RoofInspectionsOdessaPage() {
         "mainEntity": [{"@type":"Question","name":"How much does a roof inspection cost in Odessa?","acceptedAnswer":{"@type":"Answer","text":"We provide FREE roof inspections in Odessa with no obligation. Comprehensive reports include photos, damage documentation, and recommendations."}},{"@type":"Question","name":"How long does a roof inspection take?","acceptedAnswer":{"@type":"Answer","text":"Most residential inspections take 30-60 minutes. Commercial buildings require 1-3 hours depending on size and complexity."}},{"@type":"Question","name":"When should I get my roof inspected?","acceptedAnswer":{"@type":"Answer","text":"After any hailstorm, before buying/selling property, annually for maintenance, or if you notice leaks, missing shingles, or interior water stains."}}]
       }) }} />
 
-      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(/images/roof-inspection-2.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>

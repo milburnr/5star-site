@@ -82,7 +82,7 @@ export default function MetalRoofingAmarilloPage() {
         "mainEntity": [{"@type":"Question","name":"How long does metal roofing last in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing lasts 50+ years in Texas climate. Standing seam systems with proper installation can last 70 years with minimal maintenance."}},{"@type":"Question","name":"Is metal roofing noisy during rain and hail?","acceptedAnswer":{"@type":"Answer","text":"No. Proper insulation and underlayment make metal roofs as quiet as asphalt shingles. Modern installations are acoustically dampened."}},{"@type":"Question","name":"Does metal roofing increase home value?","acceptedAnswer":{"@type":"Answer","text":"Yes. Metal roofs provide 85-95% ROI, excellent curb appeal, energy savings up to 25%, and appeal to buyers seeking low-maintenance, durable roofing."}}]
       }) }} />
 
-      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(/images/SteelRoofing.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>

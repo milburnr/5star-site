@@ -16,7 +16,7 @@ export default function EmergencyRepairOdessaPage() {
         { name: "Odessa", url: "/emergency-roof-repair-odessa-texas/" }
       ]} />
 
-      <section className="hero bg-red-900" style={{backgroundImage: 'url(/images/cover-background-roofing-sunset-1024x683.jpg)', backgroundPosition: 'center'}}>
+      <section className="hero bg-red-900" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.webp)', backgroundPosition: 'center'}}>
         <div className="absolute inset-0 bg-gradient-to-r from-red-900/90 to-red-800/80"></div>
         <FadeIn>
           <div className="hero-content relative z-10">

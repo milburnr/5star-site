@@ -144,7 +144,7 @@ export default function ContactPage() {
       <section
         className="relative bg-cover bg-center text-white py-24 min-h-[400px] flex items-center"
         style={{
-          backgroundImage: 'url(/images/cover-background-roofing-sunset-1024x683.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

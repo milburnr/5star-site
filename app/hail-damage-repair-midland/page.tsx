@@ -135,7 +135,7 @@ export default function HailDamageRepairMidlandPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(/images/hail-damage-3.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-30-1280w.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

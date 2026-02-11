@@ -36,7 +36,7 @@ export default function MidlandRoofingPage() {
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(/images/cover-background-roofing-sunset-1024x683.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-17-1280w.webp)',
           backgroundPosition: 'center',
         }}
       >

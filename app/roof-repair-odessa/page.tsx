@@ -49,7 +49,7 @@ export default function RoofRepairOdessaPage() {
         "mainEntity": [{"@type":"Question","name":"How much do roof repairs cost in Odessa?","acceptedAnswer":{"@type":"Answer","text":"Minor repairs: $300-$800. Moderate damage: $800-$2,500. Extensive repairs: $2,500-$5,000. Many repairs covered by insurance. Free estimates provided."}},{"@type":"Question","name":"Can you repair just part of my roof?","acceptedAnswer":{"@type":"Answer","text":"Yes, if damage is localized. We assess whether spot repairs or full replacement makes more sense based on age, condition, and cost-effectiveness."}},{"@type":"Question","name":"How long do roof repairs last?","acceptedAnswer":{"@type":"Answer","text":"Professional repairs with quality materials last 5-10 years. However, if your roof is over 15 years old, replacement may be more cost-effective."}}]
       }) }} />
 
-      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(/images/roof-repair-3.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>

@@ -114,7 +114,7 @@ export default function WindDamageRepairAndrewsPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(/images/wind-damage.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-35-1280w.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
