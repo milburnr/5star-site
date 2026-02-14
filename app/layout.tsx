@@ -17,6 +17,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        {/* Preload hero background image for LCP optimization - local 97KB */}
+        <link
+          rel="preload"
+          href="/images/hero-bg.webp"
+          as="image"
+          type="image/webp"
+        />
+      </head>
       <body>
         <PhoneClickTracker />
         <ScrollProgress />
@@ -35,8 +44,41 @@ export default function RootLayout({
 
               <div className="hidden md:flex gap-6 items-center">
                 <a href="/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Home</a>
-                <a href="/services/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Services</a>
-                <a href="/service-areas/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Areas</a>
+                
+                {/* Services Dropdown */}
+                <div className="relative group">
+                  <a href="/services/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110 flex items-center gap-1">
+                    Services
+                    <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                  </a>
+                  <div className="absolute top-full left-0 mt-2 w-56 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
+                    <div className="py-2">
+                      <a href="/residential-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Residential Roofing</a>
+                      <a href="/commercial-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Commercial Roofing</a>
+                      <a href="/hail-damage-repair-amarillo-tx/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Hail Damage Repair</a>
+                      <a href="/roofing-amarillo-tx/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Roof Replacement</a>
+                      <a href="/services/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2">All Services →</a>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Areas Dropdown */}
+                <div className="relative group">
+                  <a href="/service-areas/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110 flex items-center gap-1">
+                    Areas
+                    <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                  </a>
+                  <div className="absolute top-full left-0 mt-2 w-48 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
+                    <div className="py-2">
+                      <a href="/roofing-amarillo-tx/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Amarillo</a>
+                      <a href="/lubbock-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Lubbock</a>
+                      <a href="/midland-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Midland</a>
+                      <a href="/odessa-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Odessa</a>
+                      <a href="/canyon-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Canyon</a>
+                      <a href="/service-areas/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2">All Areas →</a>
+                    </div>
+                  </div>
+                </div>
                 <a href="/gallery/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Gallery</a>
                 <a href="/blog/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Blog</a>
                 <a href="/reviews/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Reviews</a>
@@ -128,7 +170,7 @@ export default function RootLayout({
             </div>
 
             <div className="border-t border-gray-600 mt-8 pt-8 text-center text-sm">
-              <p>&copy; 2025 5 Star Commercial Roofing. All rights reserved.</p>
+              <p>&copy; 2026 5 Star Commercial Roofing. All rights reserved.</p>
               <p className="mt-2 text-gray-300">
                 Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
               </p>

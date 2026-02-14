@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roof-repair-in-amarillo/' },
   title: 'Commercial Roof Repair in AmarilloService | 5 Star',
   description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -87,7 +88,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/commercial-roof-repair-amarillo.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
         alt="Commercial Roof Repair in Amarillo"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />
@@ -132,7 +133,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Commercial Roof Repair Services for Critical Operations</h2>
 
         <p>
-          Amarillo's severe weather patterns including hailstorms, high winds, and sudden temperature swings can cause catastrophic commercial roof damage that threatens business operations and valuable interior assets. Our 24/7 emergency response teams maintain specialized equipment and materials for immediate temporary repairs that protect commercial properties until permanent solutions can be implemented during optimal weather conditions.
+          Amarillo's severe weather patterns including hailstorms, high winds, and sudden temperature swings can cause catastrophic commercial roof damage that threatens business operations and valuable interior assets. Our prompt response teams maintain specialized equipment and materials for immediate temporary repairs that protect commercial properties until permanent solutions can be implemented during optimal weather conditions.
         </p>
 
         <p>
@@ -224,7 +225,7 @@ export default function Page() {
         </p>
 
         <p>
-          Agricultural processing and storage facilities unique to the Texas Panhandle require roof repairs resistant to ammonia exposure, grain dust, and extreme loading conditions. These facilities often operate 24/7 during harvest seasons, demanding repair schedules that minimize operational disruption while providing immediate weather protection for valuable stored crops and processing equipment.
+          Agricultural processing and storage facilities unique to the Texas Panhandle require roof repairs resistant to ammonia exposure, grain dust, and extreme loading conditions. These facilities often operate during harvest seasons, demanding repair schedules that minimize operational disruption while providing immediate weather protection for valuable stored crops and processing equipment.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Climate-Adaptive Repair Strategies for High Plains Conditions</h2>
@@ -258,7 +259,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Response Protocols and Business Continuity Planning</h2>
 
         <p>
-          Commercial roof emergencies in Amarillo require immediate response capabilities that protect business operations and valuable interior assets. Our emergency response teams maintain pre-positioned materials, specialized equipment, and trained personnel available 24/7 for rapid deployment during severe weather events, system failures, or unexpected damage situations that threaten commercial operations.
+          Commercial roof emergencies in Amarillo require immediate response capabilities that protect business operations and valuable interior assets. Our emergency response teams maintain pre-positioned materials, specialized equipment, and trained personnel available for rapid deployment during severe weather events, system failures, or unexpected damage situations that threaten commercial operations.
         </p>
 
         <p>

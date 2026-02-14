@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roofing-services-lubbock-tx/' },
   title: 'Roofing Contractor Lubbock TX | 5 Star',
   description: 'roofing services in Lubbock, TX. Hail damage repair, storm restoration, Class 4 shingles, TPO, metal roofing. Free inspections. Insurance claims help.',
 };
@@ -26,14 +27,14 @@ export default function Page() {
         </p>
       </div>
 
-      {/* Emergency Services Banner */}
+      
       <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-lg">
         <div className="flex gap-6 items-start">
           <div className="text-5xl">🚨</div>
           <div className="flex-1">
-            <h2 className="text-2xl font-bold text-red-800 mb-3">24/7 Emergency Roofing in Lubbock</h2>
+            <h2 className="text-2xl font-bold text-red-800 mb-3">Storm Damage Repair in Lubbock</h2>
             <p className="text-gray-700 mb-4">
-              Storm damage doesn't wait for business hours. We offer round-the-clock emergency response
+              Storm damage doesn't wait for business hours. We offer fast response for storm damage
               for Lubbock residents and businesses facing:
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
@@ -44,7 +45,7 @@ export default function Page() {
               <li>Commercial roof failures</li>
             </ul>
             <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white">
-              📞 Emergency: (806) 622-6041
+              📞 Call: (806) 622-6041
             </a>
           </div>
         </div>
@@ -78,7 +79,7 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <div className="card">
-            <img src="/images/hail-damage-3.jpg" alt="Hail Damage Repair in Lubbock TX" className="card-image" />
+            <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg" alt="Hail Damage Repair in Lubbock TX" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">Hail Damage Roof Repair</h3>
               <p className="mb-4">
@@ -99,7 +100,7 @@ export default function Page() {
           </div>
 
           <div className="card">
-            <img src="/images/asphaltshingles.jpg" alt="Class 4 Impact Resistant Shingles Lubbock" className="card-image" />
+            <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-9-1280w.jpg" alt="Class 4 Impact Resistant Shingles Lubbock" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">Class 4 Impact-Resistant Shingles</h3>
               <p className="mb-4">
@@ -120,7 +121,7 @@ export default function Page() {
           </div>
 
           <div className="card">
-            <img src="/images/SteelRoofing.jpg" alt="Metal Roofing Lubbock TX" className="card-image" />
+            <img src="/images/SteelRoofing-1280w.jpg" alt="Metal Roofing Lubbock TX" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">Standing Seam Metal Roofing</h3>
               <p className="mb-4">
@@ -172,7 +173,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="card">
-            <img src="/images/TPO1.jpg" alt="TPO Commercial Roofing Lubbock" className="card-image" />
+            <img src="/images/TPO1-1280w.jpg" alt="TPO Commercial Roofing Lubbock" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">TPO Roofing Systems</h3>
               <p className="mb-4">
@@ -189,7 +190,7 @@ export default function Page() {
           </div>
 
           <div className="card">
-            <img src="/images/EPDM2.jpg" alt="EPDM Commercial Roofing Lubbock" className="card-image" />
+            <img src="/images/EPDM1-1280w.jpg" alt="EPDM Commercial Roofing Lubbock" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
               <p className="mb-4">
@@ -345,7 +346,7 @@ export default function Page() {
             <div className="text-5xl mb-4">⚡</div>
             <h3 className="font-bold text-xl mb-3">Fast Response</h3>
             <p className="text-gray-600">
-              Same-day emergency service available. We're typically on-site within 24-48 hours
+              Same-day prompt service available. We're typically on-site within 24-48 hours
               for free inspections after Lubbock hailstorms.
             </p>
           </div>

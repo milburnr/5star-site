@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-andrews/' },
   title: 'Residential Roofing Andrews TX | 5 Star Roofing',
-  description: "Professional residential roofing in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional residential roofing in Andrews TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingAndrewsPage() {
@@ -51,7 +52,7 @@ export default function ResidentialRoofingAndrewsPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Andrews",
-            "description": "Professional residential roofing services in Andrews, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Andrews, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function ResidentialRoofingAndrewsPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Residential Roofing in <span className="text-brand-gold-light">Andrews</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for West Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Andrews and Andrews County. Expert installation, comprehensive warranties, and 24/7 emergency service. Specializing in oil industry worker homes and West Texas weather protection.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Andrews and Andrews County. Expert installation, comprehensive warranties, and . Specializing in oil industry worker homes and West Texas weather protection.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function ResidentialRoofingAndrewsPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -169,7 +170,7 @@ export default function ResidentialRoofingAndrewsPage() {
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Storm Damage Restoration</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">Emergency repairs and insurance claim assistance for Andrews storm damage. Our team responds quickly to protect your home from further damage while documenting everything needed for successful insurance claims.</p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• 24/7 emergency response</li>
+                  <li>• prompt response</li>
                   <li>• Temporary protection services</li>
                   <li>• Insurance claim documentation</li>
                   <li>• Direct insurance billing</li>
@@ -218,7 +219,7 @@ export default function ResidentialRoofingAndrewsPage() {
                   <div>
                     <div className="text-3xl mb-2">⚡</div>
                     <h4 className="font-bold text-brand-brown mb-2">Rapid Response</h4>
-                    <p className="text-gray-600 text-sm">Emergency response times under 2 hours for Andrews storm damage, with 24/7 availability during severe weather events.</p>
+                    <p className="text-gray-600 text-sm">Emergency response times under 2 hours for Andrews storm damage, with availability during severe weather events.</p>
                   </div>
                   <div>
                     <div className="text-3xl mb-2">🤝</div>
@@ -346,7 +347,7 @@ export default function ResidentialRoofingAndrewsPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you offer emergency services for Andrews storm damage?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide 24/7 emergency response for Andrews storm damage. Our emergency team typically arrives within 2 hours for urgent situations like major leaks or structural damage. We immediately secure your home with temporary protection (tarps, boarding) while documenting damage for insurance claims. Emergency services include water damage mitigation, temporary repairs, and priority scheduling for permanent restoration.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for Andrews storm damage. Our emergency team typically arrives within 2 hours for urgent situations like major leaks or structural damage. We immediately secure your home with temporary protection (tarps, boarding) while documenting damage for insurance claims. Emergency services include water damage mitigation, temporary repairs, and priority scheduling for permanent restoration.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

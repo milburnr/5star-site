@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-snyder/' },
   title: 'Roof Replacement Snyder TX | 5 Star Roofing',
-  description: "Professional roof replacement in Snyder TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional roof replacement in Snyder TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function RoofReplacementSnyderPage() {
@@ -51,7 +52,7 @@ export default function RoofReplacementSnyderPage() {
             "@type": "Service",
             "serviceType": "Roof Replacement Services",
             "name": "Roof Replacement in Snyder",
-            "description": "Professional roof replacement services in Snyder, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roof replacement services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function RoofReplacementSnyderPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Roof Replacement in <span className="text-brand-gold-light">Snyder, Texas</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">West Texas Energy Capital Roofing Solutions</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional roof replacement throughout Snyder and Scurry County. Specializing in energy sector and residential roofing systems engineered for West Texas climate extremes. Expert installation, comprehensive warranties, and 24/7 emergency service for this vital Permian Basin community.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional roof replacement throughout Snyder and Scurry County. Specializing in energy sector and residential roofing systems engineered for West Texas climate extremes. Expert installation, comprehensive warranties, and  for this vital Permian Basin community.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function RoofReplacementSnyderPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={15} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -135,7 +136,7 @@ export default function RoofReplacementSnyderPage() {
                   <li>• <strong>Energy Industry Expertise:</strong> Materials tested for industrial environments</li>
                   <li>• <strong>Extreme Weather Protection:</strong> Systems rated for West Texas conditions</li>
                   <li>• <strong>Enhanced Durability:</strong> Superior materials for extended lifespan</li>
-                  <li>• <strong>Rapid Response:</strong> 24/7 emergency service for critical facilities</li>
+                  <li>• <strong>Rapid Response:</strong>  for critical facilities</li>
                   <li>• <strong>Scurry County Knowledge:</strong> Local codes and permit expertise</li>
                 </ul>
               </div>
@@ -212,7 +213,7 @@ export default function RoofReplacementSnyderPage() {
                   <li>• Experience with industrial safety requirements</li>
                   <li>• Knowledge of Permian Basin conditions</li>
                   <li>• Relationships with energy contractors</li>
-                  <li>• Flexible scheduling for 24/7 operations</li>
+                  <li>• Flexible scheduling for operations</li>
                 </ul>
               </div>
             </div>
@@ -313,7 +314,7 @@ export default function RoofReplacementSnyderPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
-                    <div>24/7 emergency response</div>
+                    <div>prompt response</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
@@ -424,7 +425,7 @@ export default function RoofReplacementSnyderPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to emergency roof damage?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We provide 24/7 emergency response throughout Scurry County, typically arriving within 2-4 hours for severe damage. For energy sector facilities requiring immediate attention, we maintain priority response protocols and can mobilize emergency crews within 1-2 hours.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout Scurry County, typically arriving within 2-4 hours for severe damage. For energy sector facilities requiring immediate attention, we maintain priority response protocols and can mobilize emergency crews within 1-2 hours.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

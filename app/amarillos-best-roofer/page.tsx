@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/amarillos-best-roofer/' },
   title: "Amarillo's Best Roofer | Free Inspection Today | Top-Rated Company",
   description: "Looking for the best roofer in Amarillo? 5 Star Roofing provides expert residential and commercial roofing services with 10+ years experience. Free inspections. Call (806) 622-6041.",
   openGraph: {
@@ -73,7 +74,7 @@ export default function Page() {
             "@type": "Service",
             "serviceType": "Professional Roofing Services",
             "name": "Roofing Services in Amarillo",
-            "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -108,7 +109,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/amarillo-roofing-company.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg"
         alt="Amarillo Roofing Company"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />
@@ -219,7 +220,7 @@ export default function Page() {
             </div>
             <div>
               <div className="text-3xl font-bold text-brand-gold">24/7</div>
-              <div className="text-sm">Emergency Service</div>
+              <div className="text-sm">Storm Damage Repair</div>
             </div>
           </div>
         </div>
@@ -556,7 +557,7 @@ export default function Page() {
           you can count on us for prompt, professional roofing services.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">24/7 Emergency Roofing Services</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">Storm Damage Repair Services</h2>
 
         <p>
           When severe weather strikes Amarillo—and it strikes often—roof damage demands immediate attention.
@@ -577,7 +578,7 @@ export default function Page() {
               <li>• Temporary weatherproofing</li>
               <li>• Emergency leak repairs</li>
               <li>• Structural stabilization</li>
-              <li>• 24/7 hotline: (806) 622-6041</li>
+              <li>• hotline: (806) 622-6041</li>
             </ul>
           </div>
 
@@ -679,7 +680,7 @@ export default function Page() {
             <h4 className="font-bold mb-2">How quickly can you respond to roofing emergencies?</h4>
             <p>
               We typically respond to emergency calls within 2-4 hours during business hours and within
-              4-8 hours during evenings and weekends. Our emergency response team is available 24/7
+              4-8 hours during evenings and weekends. Our emergency response team is available
               to handle urgent situations that threaten property damage.
             </p>
           </div>

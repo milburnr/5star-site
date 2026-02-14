@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-monahans/' },
   title: "Storm Damage Repair Monahans TX | 5 Star Commercial Roofing",
   description: "Expert storm damage roof repair in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function StormDamageRepairMonahansPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Monahans,_Texas", "name": "Monahans", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert storm damage repair services in Monahans, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert storm damage repair services in Monahans, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function StormDamageRepairMonahansPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -367,7 +368,7 @@ export default function StormDamageRepairMonahansPage() {
                     <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">4</div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Rapid Response Network</h4>
-                      <p className="text-sm opacity-90">24/7 emergency service for critical energy infrastructure</p>
+                      <p className="text-sm opacity-90"> for critical energy infrastructure</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -396,7 +397,7 @@ export default function StormDamageRepairMonahansPage() {
                   How does the oil field environment affect roofing in Monahans?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  The Permian Basin's oil and gas activity creates several unique challenges for roofing systems. Chemical exposure from hydrocarbon vapors and processing byproducts can accelerate deterioration of certain roofing materials. Heavy industrial traffic generates vibrations that can affect roof membrane integrity over time. The presence of critical infrastructure means that roof failures can have significant operational and environmental consequences, requiring higher standards for materials and installation. Additionally, the 24/7 nature of energy operations demands roofing solutions that minimize maintenance disruption and provide reliable long-term performance in this harsh environment.
+                  The Permian Basin's oil and gas activity creates several unique challenges for roofing systems. Chemical exposure from hydrocarbon vapors and processing byproducts can accelerate deterioration of certain roofing materials. Heavy industrial traffic generates vibrations that can affect roof membrane integrity over time. The presence of critical infrastructure means that roof failures can have significant operational and environmental consequences, requiring higher standards for materials and installation. Additionally, the nature of energy operations demands roofing solutions that minimize maintenance disruption and provide reliable long-term performance in this harsh environment.
                 </AccordionContent>
               </AccordionItem>
               

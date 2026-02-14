@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/blog/roof-maintenance-checklist-texas/' },
   title: "Roof Maintenance Checklist for Texas Homeowners 2025",
   description: "Complete roof maintenance checklist for Texas homes. Seasonal inspections, preventive care, and expert tips to extend roof life. Free printable checklist.",
 };

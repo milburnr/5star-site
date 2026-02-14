@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-odessa/' },
   title: 'Hail Damage Repair Odessa TX | 5 Star Roofing',
   description: "Professional hail damage roof repair in Odessa TX. Fast emergency response, insurance assistance, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -41,7 +42,7 @@ export default function HailDamageRepairOdessaPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -73,7 +74,7 @@ export default function HailDamageRepairOdessaPage() {
                 "name": "Ector County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair services in Odessa, TX. 24/7 emergency response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Ector County properties."
+            "description": "Expert hail damage roof repair services in Odessa, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Ector County properties."
           })
         }}
       />
@@ -123,7 +124,7 @@ export default function HailDamageRepairOdessaPage() {
                 "name": "How quickly can you respond to hail damage in Odessa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We offer 24/7 emergency response for Odessa properties. While our headquarters is in Amarillo (about 282 miles away), we maintain crews throughout West Texas and can typically reach Odessa within 4 hours for emergencies."
+                  "text": "We offer prompt response for Odessa properties. While our headquarters is in Amarillo (about 282 miles away), we maintain crews throughout West Texas and can typically reach Odessa within 4 hours for emergencies."
                 }
               }
             ]
@@ -171,7 +172,7 @@ export default function HailDamageRepairOdessaPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -395,7 +396,7 @@ export default function HailDamageRepairOdessaPage() {
                   How quickly can you respond to hail damage in Odessa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer 24/7 emergency response for Odessa properties. While our headquarters is in Amarillo (about 282 miles away), we maintain crews throughout West Texas and can typically reach Odessa within 4 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin.
+                  We offer prompt response for Odessa properties. While our headquarters is in Amarillo (about 282 miles away), we maintain crews throughout West Texas and can typically reach Odessa within 4 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

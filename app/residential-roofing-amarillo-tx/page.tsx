@@ -6,9 +6,10 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { OptimizedImage } from "@/components/OptimizedImage";
+
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo-tx/' },
   title: 'Amarillo TX Roofing | Trusted Local Roofers',
   description: "Expert residential roofing services in Amarillo TX. Roof repair, replacement, and inspections. Insurance claim assistance. Free estimates. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -47,7 +48,7 @@ export default function ResidentialRoofingAmarilloPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -363,7 +364,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard href="/hail-damage-repair-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/hail-damage-3.jpg" alt="Residential hail damage roof repair in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.jpg" alt="Residential hail damage roof repair in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🌨️ Hail Damage Insurance Claims</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Our #1 residential specialty. 85% of Amarillo home roof replacements are hail damage claims. Free inspections, complete insurance documentation, adjuster meetings, and guaranteed approval process. Most homeowners pay only their deductible.
@@ -378,7 +379,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.2}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/asphaltshingles.jpg" alt="Complete residential roof replacement Amarillo Texas" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.jpg" alt="Complete residential roof replacement Amarillo Texas" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔄 Complete Roof Replacement</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Full residential roof tear-off and replacement with upgraded Class 4 materials. Complete removal of old shingles, decking inspection and repair, proper ventilation, quality underlayment, and precise installation. 1-3 day completion for most homes.
@@ -393,13 +394,13 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.3}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      24/7 emergency service for Amarillo homes. Storm damage, active leaks, wind-blown shingles—we respond within 2-4 hours with emergency tarp installation and temporary repairs. Prevents interior water damage while coordinating insurance claims and permanent replacement.
+                       for Amarillo homes. Storm damage, active leaks, wind-blown shingles—we respond within 2-4 hours with emergency tarp installation and temporary repairs. Prevents interior water damage while coordinating insurance claims and permanent replacement.
                     </p>
                     <div className="pt-4">
-                      <span className="text-brand-gold font-bold">24/7 Emergency Response</span>
+                      <span className="text-brand-gold font-bold">Emergency Response</span>
                     </div>
                   </div>
                 </div>
@@ -408,7 +409,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.4}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/SteelRoofing.jpg" alt="Metal roofing installation for Amarillo homes" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="/images/SteelRoofing-1280w.jpg" alt="Metal roofing installation for Amarillo homes" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏔️ Metal Roofing Installation</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Standing seam metal roofing for Amarillo homes seeking maximum longevity and hail protection. 50+ year lifespan, superior energy efficiency, complete hail resistance (dents may occur but roofs remain watertight), and premium curb appeal.
@@ -423,7 +424,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.5}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free residential roof inspection Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-12-1280w.jpg" alt="Free residential roof inspection Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔍 Free Roof Inspections</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive residential roof inspections using drone photography. Storm damage assessments, pre-purchase home inspections, routine maintenance checks—all completely free. Detailed written reports with honest recommendations and insurance claim guidance.
@@ -438,7 +439,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.6}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="New construction residential roofing Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-13-1280w.jpg" alt="New construction residential roofing Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏗️ New Construction Roofing</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Residential roofing for new home construction throughout Amarillo. We work with custom builders and homeowners to install premium roofing systems—Class 4 shingles or metal roofing—engineered for Texas Panhandle weather. Proper ventilation, quality materials, expert installation.
@@ -631,7 +632,7 @@ export default function ResidentialRoofingAmarilloPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-slate-50 to-gray-100 p-8 rounded-xl shadow-lg border-l-4 border-gray-500">
-                <img src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant shingles for Amarillo homes" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-14-1280w.jpg" alt="Class 4 impact resistant shingles for Amarillo homes" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🛡️ What Are Class 4 Shingles?</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Class 4 shingles pass UL 2218 impact resistance testing—the highest rating available. They withstand 2-inch steel balls dropped from 20 feet, simulating large hail strikes. Available from premium manufacturers like Owens Corning, GAF, and CertainTeed.
@@ -848,13 +849,7 @@ export default function ResidentialRoofingAmarilloPage() {
                   <div className="text-5xl font-bold text-brand-gold">4</div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-brand-brown mb-3">Professional Installation</h3>
-                    <OptimizedImage
-        src="/images/cover-background-roofing-sunset"
-        alt="Professional roofing crew installing residential shingles in Amarillo TX at sunset"
-        className="w-full h-64 object-cover rounded-lg mb-6"
-        priority={true}
-        sizes="100vw"
-      />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-13-1280w.jpg" alt="Professional roofing crew installing residential shingles in Amarillo TX at sunset" className="w-full h-64 object-cover rounded-lg mb-6" loading="lazy" />
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       Our factory-certified crews complete your residential roof replacement in 1-3 days. Complete tear-off, decking inspection and replacement as needed, quality underlayment, proper ventilation, and precise shingle installation following manufacturer specifications. Daily cleanup keeps your property presentable.
                     </p>
@@ -903,15 +898,15 @@ export default function ResidentialRoofingAmarilloPage() {
           <div className="flex gap-6 items-center">
             <div className="text-6xl">🚨</div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-red-800 mb-3">24/7 Emergency Residential Roofing in Amarillo</h2>
+              <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Residential Roofing in Amarillo</h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Storm damage your Amarillo home? Don't wait for leaks to damage your interior. We provide <strong>24/7 emergency residential roofing services</strong> with 2-4 hour response times throughout Amarillo and surrounding areas.
+                Storm damage your Amarillo home? Don't wait for leaks to damage your interior. We provide <strong>emergency residential roofing services</strong> with 2-4 hour response times throughout Amarillo and surrounding areas.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Emergency services include: <strong>Emergency tarp installation</strong> to prevent water intrusion, <strong>temporary leak repairs</strong> to protect your home, <strong>same-day storm damage inspections</strong>, and <strong>rapid insurance claim initiation</strong>. Fast action minimizes interior damage and simplifies insurance claims.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
-                📞 Emergency: (806) 622-6041
+                📞 Call: (806) 622-6041
               </a>
             </div>
           </div>

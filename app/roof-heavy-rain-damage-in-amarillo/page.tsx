@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-heavy-rain-damage-in-amarillo/' },
   title: 'Rain Damage Roof Repair Amarillo TX | 5 Star',
   description: "Expert heavy rain roof damage repair in Amarillo. Flash flood damage, water intrusion, leak detection. Emergency service. Insurance claims. (806) 622-6041",
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -163,7 +164,7 @@ export default function Page() {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-red-600 mr-2">✓</span>
-                <div>24/7 emergency phone answering</div>
+                <div>emergency phone answering</div>
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 mr-2">✓</span>
@@ -500,7 +501,7 @@ export default function Page() {
       <section className="cta-section mt-12">
         <h2 className="cta-title">Need Rain Damage Repair in Amarillo?</h2>
         <p className="cta-text">
-          Free inspections and insurance claim assistance. 24/7 emergency service for active leaks. Most repairs completed within 1-2 days.
+          Free inspections and insurance claim assistance.  for active leaks. Most repairs completed within 1-2 days.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">

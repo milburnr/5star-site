@@ -6,8 +6,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-lubbock-tx/' },
   title: 'Hail Damage Roof Repair in Lubbock | 5 Star',
-  description: "Expert hail damage roof repair in Lubbock TX. 24/7 emergency service, insurance claim help, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Lubbock TX. , insurance claim help, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairLubbockPage() {
   return (
@@ -36,7 +37,7 @@ export default function HailDamageRepairLubbockPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -311,7 +312,7 @@ export default function HailDamageRepairLubbockPage() {
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <InteractiveCard>
-                  <img src="/images/insurance-claims-roofing.jpg" alt="Property management roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-6-1280w.jpg" alt="Property management roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-4">Property Managers & Landlords</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     If you own multiple rental properties near Texas Tech, we offer property management accounts with benefits designed for your business:
@@ -330,7 +331,7 @@ export default function HailDamageRepairLubbockPage() {
                 </InteractiveCard>
 
                 <InteractiveCard>
-                  <img src="/images/ResidentialServices.jpeg" alt="Historic home roofing in Tech Terrace Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-7-1280w.jpg" alt="Historic home roofing in Tech Terrace Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-4">Tech Terrace Historic Character</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     Tech Terrace (officially the U.N.I.T. historic district) is Lubbock's first designated suburb, developed in the 1920s-1930s with distinctive architecture and tree-lined streets. These beautiful older homes require special attention:

@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roof-repair-amarillo-texas/' },
   title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
   description: 'Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -266,7 +267,7 @@ export default function HailDamageAmarilloPage() {
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Damage Services in Amarillo</h2>
 
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after hail storm?</strong> We provide 24/7 emergency tarping and temporary repairs throughout Amarillo. Don't wait - water damage compounds quickly and can lead to mold, structural issues, and ruined belongings.
+              <strong>Active leak after hail storm?</strong> We provide emergency tarping services and temporary repairs throughout Amarillo. Don't wait - water damage compounds quickly and can lead to mold, structural issues, and ruined belongings.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -295,7 +296,7 @@ export default function HailDamageAmarilloPage() {
               <p className="text-2xl font-bold text-brand-gold">
                 <a href="tel:8066226041" className="hover:underline">(806) 622-6041</a>
               </p>
-              <p className="text-gray-700 mt-2">Available 24/7 for roofing emergencies in Amarillo</p>
+              <p className="text-gray-700 mt-2">Available for roofing emergencies in Amarillo</p>
             </div>
           </section>
         </FadeIn>

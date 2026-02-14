@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-odessa-texas/' },
   title: 'Commercial Roofing Odessa TX | 5 Star Roofing',
   description: "Expert commercial roofing in Odessa, TX. TPO, EPDM, flat roof systems for Permian Basin businesses. Free estimates. Call (806) 622-6041.",
 };
@@ -36,7 +37,7 @@ export default function CommercialOdessaPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert commercial roofing services in Odessa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert commercial roofing services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -133,7 +134,7 @@ export default function CommercialOdessaPage() {
                   <li>✓ Membrane patching</li>
                   <li>✓ Seam repairs</li>
                   <li>✓ Preventive maintenance plans</li>
-                  <li>✓ 24/7 emergency service</li>
+                  <li>✓ </li>
                 </ul>
               </div>
             </div>
@@ -173,7 +174,7 @@ export default function CommercialOdessaPage() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">⛈️ Hail & Storm Damage</h3>
-                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer 24/7 emergency repairs to protect your facility and inventory.</p>
+                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer emergency repairs to protect your facility and inventory.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">🏭 Industrial Environment</h3>
@@ -299,7 +300,7 @@ export default function CommercialOdessaPage() {
               <span className="text-gray-400">•</span>
               <a href="/hail-damage-roof-repair-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
-              <a href="/emergency-roof-repair-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Emergency Repairs</a>
+              <a href="/hail-damage-repair-odessa-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Storm Damage Repair</a>
               <span className="text-gray-400">•</span>
               <a href="/commercial-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing Info</a>
             </div>

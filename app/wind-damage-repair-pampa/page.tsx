@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-pampa/' },
   title: 'Wind Damage Repair Pampa TXService | High Plains Winds',
   description: 'wind damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041',
 };
@@ -52,7 +53,7 @@ export default function WindDamageRepairPampaPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas", "name": "Pampa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Pampa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -155,7 +156,7 @@ export default function WindDamageRepairPampaPage() {
                 "name": "How quickly should wind damage be repaired in Pampa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Schedule wind damage repairs immediately. Even small areas of wind damage allow water intrusion during Pampa's frequent rainstorms. Properties throughout Gray County's ranching community face repeated high-wind events, so unrepaired damage worsens quickly. We provide 24/7 emergency response with temporary repairs, then schedule permanent restoration within days to prevent secondary damage."
+                  "text": "Schedule wind damage repairs immediately. Even small areas of wind damage allow water intrusion during Pampa's frequent rainstorms. Properties throughout Gray County's ranching community face repeated high-wind events, so unrepaired damage worsens quickly. We provide prompt response with temporary repairs, then schedule permanent restoration within days to prevent secondary damage."
                 }
               }
             ]
@@ -179,7 +180,7 @@ export default function WindDamageRepairPampaPage() {
                 Wind Damage Repair in <span className="text-brand-gold-light">Pampa</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                24/7 Service | High Plains Wind Experts
+                Service | High Plains Wind Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert wind damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
@@ -203,9 +204,9 @@ export default function WindDamageRepairPampaPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
-                  24/7
+                 
                 </div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
@@ -415,7 +416,7 @@ export default function WindDamageRepairPampaPage() {
                   How quickly should wind damage be repaired in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Schedule wind damage repairs immediately. Even small areas of wind damage allow water intrusion during Pampa's frequent rainstorms. Properties throughout Gray County's ranching community face repeated high-wind events, so unrepaired damage worsens quickly. We provide 24/7 emergency response with temporary repairs, then schedule permanent restoration within days to prevent secondary damage.
+                  Schedule wind damage repairs immediately. Even small areas of wind damage allow water intrusion during Pampa's frequent rainstorms. Properties throughout Gray County's ranching community face repeated high-wind events, so unrepaired damage worsens quickly. We provide prompt response with temporary repairs, then schedule permanent restoration within days to prevent secondary damage.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

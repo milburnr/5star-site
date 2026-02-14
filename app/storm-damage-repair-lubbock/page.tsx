@@ -13,8 +13,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-lubbock/' },
   title: "Storm Damage Repair Lubbock | 5 Star Commercial Roofing",
-  description: "Expert storm damage repair in Lubbock. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+  description: "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
 };
 
 export default function Page() {
@@ -87,7 +88,7 @@ export default function Page() {
                 "name": "Texas"
               }
             },
-            "description": "Expert storm damage repair in Lubbock. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance."
+            "description": "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance."
           })
         }}
       />
@@ -111,7 +112,7 @@ export default function Page() {
                 "name": "How quickly can you respond to storm damage emergencies in Lubbock?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We provide 24/7 emergency response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. Emergency tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims."
+                  "text": "We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. Emergency tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims."
                 }
               },
               {
@@ -162,7 +163,7 @@ export default function Page() {
                 Protecting South Plains Properties Since 2014
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage repair in Lubbock. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance.
+                Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
@@ -186,7 +187,7 @@ export default function Page() {
               Lubbock's location in the South Plains creates unique roofing challenges. The area experiences 7-10 hailstorms annually, sustained winds with gusts exceeding 70+ mph, extreme temperature fluctuations, and high elevation and constant South Plains winds. Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has provided emergency storm damage repair throughout Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot District, we respond quickly with 24/7 emergency service. Our experienced crews understand South Plains storm patterns and provide comprehensive damage assessment, emergency weatherproofing, and complete restoration services that protect your property and maximize insurance coverage.
+              Since 2014, 5 Star Commercial Roofing has provided emergency storm damage repair throughout Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot District, we respond quickly with . Our experienced crews understand South Plains storm patterns and provide comprehensive damage assessment, emergency weatherproofing, and complete restoration services that protect your property and maximize insurance coverage.
             </p>
           </section>
 
@@ -208,7 +209,7 @@ export default function Page() {
                   How quickly can you respond to storm damage emergencies in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  We provide 24/7 emergency response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. Emergency tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims.
+                  We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. Emergency tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">

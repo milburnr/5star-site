@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-andrews/' },
   title: 'Asphalt Shingles Andrews TX | 5 Star Roofing',
   description: "Quality asphalt shingle roofing in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Andrews,_Texas", "name": "Andrews", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert asphalt shingle roofing services in Andrews, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert asphalt shingle roofing services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -296,7 +297,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-gold text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Final Inspection & Warranty Activation</h3>
-                  <p className="text-gray-600">Final walkthrough includes comprehensive cleanup, detailed warranty documentation, and maintenance guidance specific to Andrews's climate challenges. We coordinate final inspections with Andrews building officials, activate manufacturer warranties, and provide emergency contact information for 24/7 storm response coverage throughout Andrews County.</p>
+                  <p className="text-gray-600">Final walkthrough includes comprehensive cleanup, detailed warranty documentation, and maintenance guidance specific to Andrews's climate challenges. We coordinate final inspections with Andrews building officials, activate manufacturer warranties, and provide emergency contact information for storm response coverage throughout Andrews County.</p>
                 </div>
               </div>
             </div>

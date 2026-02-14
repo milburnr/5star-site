@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: 'Roofing Methods & Installation in Amarillo| Hail-Resistan...',
+  alternates: { canonical: 'https://5starroofingpros.com/roofing-methods/' },
+  title: 'Roofing Methods Amarillo | Hail-Resistant',
   description: 'Modern roofing methods for Texas Panhandle homes and businesses. Impact-resistant shingles, standing seam metal, TPO systems. hail damage prevention.',
 };
 
@@ -75,7 +76,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Impact-Resistant Asphalt Shingle Installation</h2>
       <div className="card mb-8">
-        <img src="/images/asphaltshingles.jpg" alt="Roofing services in Amarillo, TX - Class 4 impact-resistant asphalt shingles - Hail protection roofing - 5 Star Commercial Roofing" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg" alt="Roofing services in Amarillo, TX - Class 4 impact-resistant asphalt shingles - Hail protection roofing - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">The Texas Panhandle Standard</h3>
           <p className="mb-4">
@@ -115,7 +116,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Standing Seam Metal Roof Installation</h2>
       <div className="card mb-8">
-        <img src="/images/SteelRoofing.jpg" alt="Roofing services in Amarillo, TX - Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
+        <img src="/images/SteelRoofing-1280w.jpg" alt="Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Ultimate Hail Protection</h3>
           <p className="mb-4">
@@ -167,7 +168,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">TPO & PVC Single-Ply Membrane Installation</h2>
       <div className="card mb-8">
-        <img src="/images/TPO1.jpg" alt="Roofing services in Amarillo, TX - TPO commercial roofing installation - White membrane flat roof system - 5 Star Commercial Roofing" className="card-image" />
+        <img src="/images/TPO2-1280w.jpg" alt="TPO commercial roofing installation - White membrane flat roof system - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Commercial Flat Roof Solutions</h3>
           <p className="mb-4">
@@ -199,7 +200,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Modified Bitumen and Built-Up Roofing Systems</h2>
       <div className="card mb-8">
-        <img src="/images/commercial-roofing-2.jpg" alt="Modified bitumen roofing installation - Commercial flat roof systems - 5 Star Commercial Roofing Amarillo" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Modified bitumen roofing installation - Commercial flat roof systems - 5 Star Commercial Roofing Amarillo" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Heavy-Duty Commercial Solutions</h3>
           <p className="mb-4">

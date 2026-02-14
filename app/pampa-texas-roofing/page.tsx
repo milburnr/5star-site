@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/pampa-texas-roofing/' },
   title: 'Roofing in Pampa, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Pampa, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Gray County. Free inspections available.',
 };
@@ -99,7 +100,7 @@ export default function PampaRoofingPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Emergency Roofing Gray County",
-            "description": "24/7 emergency roof repair services for residential and industrial facilities in Gray County"
+            "description": "emergency roof repair services for residential and industrial facilities in Gray County"
           }
         }
       ]
@@ -283,9 +284,9 @@ export default function PampaRoofingPage() {
             <FadeIn delay={0.3}>
               <div className="card-hover p-6 bg-red-50">
                 <div className="text-5xl mb-4">🚨</div>
-                <h3 className="text-xl font-bold text-red-700 mb-3">Emergency Repairs</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Pampa, we respond 24/7 with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
+                  When severe weather strikes Pampa, we respond with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
                 </p>
                 <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
               </div>
@@ -485,7 +486,7 @@ export default function PampaRoofingPage() {
             <div>
               <h3 className="text-lg font-bold mb-2">Can you handle emergency repairs during industrial incidents or severe weather?</h3>
               <p className="text-gray-700">
-                Absolutely. We maintain 24/7 emergency response capability for both residential and industrial clients throughout Gray County. During severe weather events or industrial incidents, we can provide rapid tarping and temporary repairs to prevent water damage and secure facilities. Our response teams are equipped to work safely in industrial environments and coordinate with facility safety personnel.
+                Absolutely. We maintain prompt response capability for both residential and industrial clients throughout Gray County. During severe weather events or industrial incidents, we can provide rapid tarping and temporary repairs to prevent water damage and secure facilities. Our response teams are equipped to work safely in industrial environments and coordinate with facility safety personnel.
               </p>
             </div>
 

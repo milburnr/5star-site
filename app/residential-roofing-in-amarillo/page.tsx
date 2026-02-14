@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-in-amarillo/' },
   title: 'Residential Roofing Amarillo TX| 25+ Years Experience',
   description: 'Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -79,7 +80,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -171,7 +172,7 @@ export default function Page() {
                   Not every roofing issue requires full replacement. Our <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">expert repair services</a> address leaks, missing shingles, wind damage, flashing failures, and more. We'll honestly assess whether repair or replacement is the most cost-effective solution.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-                  <li>Emergency leak repair (24/7 availability)</li>
+                  <li>Emergency leak repair (availability)</li>
                   <li>Storm damage assessment and repair</li>
                   <li>Chimney and skylight flashing repair</li>
                   <li>Valley and ridge repairs</li>

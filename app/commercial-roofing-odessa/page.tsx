@@ -13,8 +13,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-odessa/' },
   title: 'Commercial Roofing Odessa TX | 5 Star Roofing',
-  description: "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. 24/7 emergency service. Free inspections. Call (806) 622-6041",
+  description: "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. . Free inspections. Call (806) 622-6041",
 };
 
 export default function CommercialRoofingOdessaPage() {
@@ -77,7 +78,7 @@ export default function CommercialRoofingOdessaPage() {
               "opens": "09:00",
               "closes": "17:00"
             },
-            "description": "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. 24/7 emergency service. Free inspections. Call (806) 622-6041",
+            "description": "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. . Free inspections. Call (806) 622-6041",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
           })
         }}
@@ -91,7 +92,7 @@ export default function CommercialRoofingOdessaPage() {
             "@type": "Service",
             "serviceType": "Commercial Roofing Services",
             "name": "Commercial Roofing in Odessa",
-            "description": "Professional commercial roofing services in Odessa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional commercial roofing services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -143,10 +144,10 @@ export default function CommercialRoofingOdessaPage() {
                 Commercial Roofing in <span className="text-brand-gold-light">Odessa</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                24/7 Emergency Service for Texas Businesses
+                 for Texas Businesses
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert commercial roofing for Odessa businesses. TPO, EPDM, and metal roofing systems engineered for harsh weather. Minimize operational disruption with our after-hours installation. 24/7 emergency response available.
+                Expert commercial roofing for Odessa businesses. TPO, EPDM, and metal roofing systems engineered for harsh weather. Minimize operational disruption with our after-hours installation. prompt response available.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
@@ -166,7 +167,7 @@ export default function CommercialRoofingOdessaPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -194,7 +195,7 @@ export default function CommercialRoofingOdessaPage() {
               Odessa's Premier Commercial Roofing Specialists
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Expert commercial roofing for Odessa businesses serving the Permian Basin's energy sector. TPO, EPDM, and metal roofing systems engineered for harsh weather and industrial environments. Minimize operational disruption with our after-hours installation. 24/7 emergency response available for critical petroleum industry operations.
+              Expert commercial roofing for Odessa businesses serving the Permian Basin's energy sector. TPO, EPDM, and metal roofing systems engineered for harsh weather and industrial environments. Minimize operational disruption with our after-hours installation. prompt response available for critical petroleum industry operations.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
               Since 2014, we've served Odessa with expert commercial roofing installations for oil and gas facilities, manufacturing operations, educational institutions, and healthcare facilities. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.
@@ -273,7 +274,7 @@ export default function CommercialRoofingOdessaPage() {
               Automotive dealerships and service facilities serving petroleum industry fleet operations require roofing systems that accommodate vehicle sales areas, service bays, and parts storage while providing comfortable environments for customers and employees. These facilities often include specialized equipment for servicing industrial vehicles and heavy equipment used throughout the Permian Basin.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Restaurant and hospitality businesses serving petroleum industry workers require roofing systems that accommodate specialized kitchen equipment, dining areas, and entertainment systems while providing year-round weather protection for facilities that often operate extended hours to serve industry shift schedules common in 24/7 petroleum operations.
+              Restaurant and hospitality businesses serving petroleum industry workers require roofing systems that accommodate specialized kitchen equipment, dining areas, and entertainment systems while providing year-round weather protection for facilities that often operate extended hours to serve industry shift schedules common in petroleum operations.
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Transportation and Logistics Commercial Roofing</h3>
@@ -337,7 +338,7 @@ export default function CommercialRoofingOdessaPage() {
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Response and Maintenance Services for Critical Operations</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              24/7 emergency response capabilities specifically designed for petroleum industry environments include specialized safety equipment and coordination with industrial emergency response protocols. Rapid response times minimize business interruption for facilities that cannot tolerate weather-related operational disruptions during critical petroleum industry activities including drilling, completion, and production operations.
+              prompt response capabilities specifically designed for petroleum industry environments include specialized safety equipment and coordination with industrial emergency response protocols. Rapid response times minimize business interruption for facilities that cannot tolerate weather-related operational disruptions during critical petroleum industry activities including drilling, completion, and production operations.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Preventive maintenance programs designed for Odessa's industrial environment include quarterly inspections with chemical resistance testing, thermal imaging for equipment protection, and scheduled maintenance that coordinates with petroleum industry operational cycles to minimize disruption during critical business periods that affect regional energy production and economic activity.

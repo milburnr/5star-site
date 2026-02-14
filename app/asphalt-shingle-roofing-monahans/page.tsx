@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-monahans/' },
   title: 'Asphalt Shingles Monahans TX | 5 Star Roofing',
   description: "Quality asphalt shingle roofing in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Monahans,_Texas", "name": "Monahans", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert asphalt shingle roofing services in Monahans, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert asphalt shingle roofing services in Monahans, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -296,7 +297,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-orange-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Complete Warranty & Desert Support</h3>
-                  <p className="text-gray-600">Project completion includes thorough cleanup, comprehensive warranty documentation, and maintenance guidance for Monahans's desert climate. We provide 24/7 emergency service throughout Ward County with maintenance schedules designed for Permian Basin environmental conditions.</p>
+                  <p className="text-gray-600">Project completion includes thorough cleanup, comprehensive warranty documentation, and maintenance guidance for Monahans's desert climate. We provide  throughout Ward County with maintenance schedules designed for Permian Basin environmental conditions.</p>
                 </div>
               </div>
             </div>

@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-in-amarillo/' },
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
   description: 'Premier roof replacement contractor in Amarillo TX. Class 4 impact-resistant shingles, storm damage coverage, insurance claim specialists. 25+ years experience, licensed & bonded. Free estimates, premium warranties on all roof replacement projects.',
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -475,7 +476,7 @@ export default function Page() {
                 <li>✓ Better Business Bureau A+ rating</li>
                 <li>✓ Annual warranty inspection offered</li>
                 <li>✓ Transferable warranty for home sales</li>
-                <li>✓ 24/7 emergency service availability</li>
+                <li>✓  availability</li>
               </ul>
             </div>
           </div>
@@ -559,7 +560,7 @@ export default function Page() {
                 <li><a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">• Commercial Roofing</a></li>
                 <li><a href="/metal-roofing-amarillo/" className="text-brand-gold hover:underline">• Metal Roofing</a></li>
                 <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Hail Damage</a></li>
-                <li><a href="/emergency-roof-repair-amarillo/" className="text-brand-gold hover:underline">• Emergency Service</a></li>
+                <li><a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">• Emergency Service</a></li>
               </ul>
             </div>
           </div>

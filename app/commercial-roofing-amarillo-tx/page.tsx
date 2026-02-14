@@ -8,6 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo-tx/' },
   title: 'Amarillo TX Roofing | Trusted Local Roofers',
   description: 'Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -125,7 +126,7 @@ export default function CommercialRoofingAmarilloPage() {
         "name": "Can you work around our business hours?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes! We understand commercial roofing means business disruption, so we offer flexible scheduling including nights, weekends, and phased installations. For retail centers, we can work section-by-section to keep stores operational. For 24/7 operations like hotels or healthcare, we coordinate carefully to minimize impact. We'll develop a custom installation plan that works for your specific business needs."
+          "text": "Yes! We understand commercial roofing means business disruption, so we offer flexible scheduling including nights, weekends, and phased installations. For retail centers, we can work section-by-section to keep stores operational. For operations like hotels or healthcare, we coordinate carefully to minimize impact. We'll develop a custom installation plan that works for your specific business needs."
         }
       },
       {
@@ -189,7 +190,7 @@ export default function CommercialRoofingAmarilloPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert commercial roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert commercial roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -293,7 +294,7 @@ export default function CommercialRoofingAmarilloPage() {
               Headquartered right here in Amarillo at 2909 S Western St, we're your local <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing specialists</a> who understand the unique challenges facing downtown office buildings, retail centers along I-40, industrial warehouses, medical facilities, and multi-family properties throughout the Texas Panhandle. From emergency <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repairs</a> to complete roof replacements, we minimize business disruption while maximizing your insurance coverage.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Commercial property owners choose us because we offer <strong>24/7 emergency response</strong>, work directly with insurance adjusters to ensure maximum claim approval, and install only premium roofing systems backed by comprehensive warranties. Whether you manage a small retail shop or oversee multiple industrial buildings, we'll protect your investment with roofing solutions built to last 20-30+ years. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free commercial roof inspection.
+              Commercial property owners choose us because we offer <strong>prompt response</strong>, work directly with insurance adjusters to ensure maximum claim approval, and install only premium roofing systems backed by comprehensive warranties. Whether you manage a small retail shop or oversee multiple industrial buildings, we'll protect your investment with roofing solutions built to last 20-30+ years. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free commercial roof inspection.
             </p>
           </section>
         </FadeIn>
@@ -385,7 +386,7 @@ export default function CommercialRoofingAmarilloPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <FadeIn delay={0.1}>
                 <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <img src="/images/TPO1.jpg" alt="TPO commercial roofing Amarillo TX - Heat-welded white membrane" className="w-full h-56 object-cover rounded-lg mb-6" />
+                  <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-9-1280w.jpg" alt="TPO commercial roofing Amarillo TX - Heat-welded white membrane" className="w-full h-56 object-cover rounded-lg mb-6" />
                   <h3 className="text-3xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                   <p className="text-gray-700 mb-4 leading-relaxed text-lg">
                     Thermoplastic Polyolefin (TPO) is the #1 choice for Amarillo commercial properties. White reflective membranes reduce cooling costs by 20-30% while heat-welded seams create watertight bonds stronger than the membrane itself. Available in Class 4 impact-resistant formulations.
@@ -476,7 +477,7 @@ export default function CommercialRoofingAmarilloPage() {
 
               <FadeIn delay={0.3}>
                 <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <img src="/images/EPDM2.jpg" alt="EPDM rubber roofing Amarillo TX - Commercial membrane system" className="w-full h-56 object-cover rounded-lg mb-6" />
+                  <img src="/images/EPDM3-1280w.jpg" alt="EPDM rubber roofing Amarillo TX - Commercial membrane system" className="w-full h-56 object-cover rounded-lg mb-6" />
                   <h3 className="text-3xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                   <p className="text-gray-700 mb-4 leading-relaxed text-lg">
                     Ethylene Propylene Diene Monomer (EPDM) rubber roofing has protected commercial buildings for over 50 years. This proven system offers excellent performance in Amarillo's extreme temperature swings at a lower cost than TPO or PVC—ideal for warehouses and budget-conscious properties.
@@ -581,7 +582,7 @@ export default function CommercialRoofingAmarilloPage() {
 
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/images/commercial-roof-1024x575-panorama.png" alt="Large commercial flat roof installation in Amarillo TX - Multi-story downtown office building" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-1280w.jpg" alt="Large commercial flat roof installation in Amarillo TX - Multi-story downtown office building" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Downtown Office Buildings</h3>
                 <p className="text-gray-600 text-sm">
                   Multi-story commercial buildings in downtown Amarillo requiring minimal tenant disruption during installation.
@@ -589,7 +590,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/images/TPO3.jpg" alt="TPO commercial roofing at sunset in Amarillo TX - Retail center flat roof system" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-12-1280w.jpg" alt="TPO commercial roofing at sunset in Amarillo TX - Retail center flat roof system" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Retail Centers & Strip Malls</h3>
                 <p className="text-gray-600 text-sm">
                   Shopping centers along I-40 and Soncy Road requiring phased installations to keep stores operational.
@@ -597,7 +598,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/images/TPO2.jpg" alt="Amarillo TX commercial roofing - Industrial warehouse TPO membrane installation at sunset" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-13-1280w.jpg" alt="Amarillo TX commercial roofing - Industrial warehouse TPO membrane installation at sunset" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Industrial Warehouses</h3>
                 <p className="text-gray-600 text-sm">
                   Large-scale industrial facilities in east Amarillo requiring cost-effective, durable roofing solutions.
@@ -791,10 +792,10 @@ export default function CommercialRoofingAmarilloPage() {
                 After hailstorms, commercial property damage worsens rapidly. Membrane punctures allow water infiltration. Equipment damage affects HVAC performance. Delayed response increases interior damage, business disruption, and insurance complications.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our 24/7 commercial emergency response team arrives within 2-4 hours with emergency tarps, temporary repairs, and immediate damage assessment. The faster you call, the more we can protect your business and maximize your insurance recovery.
+                Our commercial emergency response team arrives within 2-4 hours with emergency tarps, temporary repairs, and immediate damage assessment. The faster you call, the more we can protect your business and maximize your insurance recovery.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
-                24/7 Commercial Emergency: (806) 622-6041
+                Commercial Emergency: (806) 622-6041
               </a>
             </div>
           </section>
@@ -935,7 +936,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard href="/roofing-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Amarillo roofing services - Residential and commercial" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-14-1280w.jpg" alt="Amarillo roofing services - Residential and commercial" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Complete Amarillo Roofing Services</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive roofing services for all Amarillo properties—residential, commercial, emergency repairs, inspections, and insurance claims assistance.
@@ -950,7 +951,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.2}>
                 <InteractiveCard href="/hail-damage-repair-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage repair Amarillo TX - Commercial insurance claims" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-15-1280w.jpg" alt="Hail damage repair Amarillo TX - Commercial insurance claims" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Hail Damage Repair Amarillo</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Expert hail damage assessment and repair for Amarillo commercial and residential properties. Free inspections and full insurance claim assistance.
@@ -965,7 +966,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.3}>
                 <InteractiveCard href="/commercial-roofing/">
                   <div className="space-y-4">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services - TPO PVC EPDM systems" className="w-full h-48 object-cover rounded-lg" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-16-1280w.jpg" alt="Commercial roofing services - TPO PVC EPDM systems" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Commercial Roofing Services</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Learn more about our commercial roofing services, systems, and expertise serving businesses throughout West Texas and the Panhandle.
@@ -1019,7 +1020,7 @@ export default function CommercialRoofingAmarilloPage() {
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Can you work around our business hours?</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Yes! We understand commercial roofing means business disruption, so we offer flexible scheduling including nights, weekends, and phased installations. For retail centers, we can work section-by-section to keep stores operational. For 24/7 operations like hotels or healthcare, we coordinate carefully to minimize impact. We'll develop a custom installation plan that works for your specific business needs.
+                  Yes! We understand commercial roofing means business disruption, so we offer flexible scheduling including nights, weekends, and phased installations. For retail centers, we can work section-by-section to keep stores operational. For operations like hotels or healthcare, we coordinate carefully to minimize impact. We'll develop a custom installation plan that works for your specific business needs.
                 </p>
               </div>
 
@@ -1052,15 +1053,15 @@ export default function CommercialRoofingAmarilloPage() {
           <div className="flex gap-6 items-center">
             <div className="text-6xl">🚨</div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-red-800 mb-3">24/7 Commercial Emergency Roofing - Amarillo</h2>
+              <h2 className="text-3xl font-bold text-red-800 mb-3">Commercial Emergency Roofing - Amarillo</h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Commercial roof emergency? Severe storm damage? Active leaks threatening your business operations or inventory? We provide <strong>24/7 emergency commercial roofing services</strong> throughout Amarillo with typical response times of 2-4 hours.
+                Commercial roof emergency? Severe storm damage? Active leaks threatening your business operations or inventory? We provide <strong>emergency commercial roofing services</strong> throughout Amarillo with typical response times of 2-4 hours.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Our commercial emergency services include: <strong>Emergency tarp installation</strong>, <strong>temporary leak repairs</strong>, <strong>equipment protection</strong>, <strong>water damage mitigation coordination</strong>, and <strong>immediate insurance claim initiation</strong>. Don't let roof damage shut down your business—call now for immediate response.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
-                📞 24/7 Emergency: (806) 622-6041
+                📞 Call: (806) 622-6041
               </a>
             </div>
           </div>
@@ -1077,7 +1078,7 @@ export default function CommercialRoofingAmarilloPage() {
               Free Inspections • Insurance Claims Experts • Minimal Business Disruption
             </p>
             <p className="text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-              Whether you need emergency hail damage repairs, a complete commercial roof replacement, or want to assess your current roof's condition, our Amarillo commercial roofing team is ready to help. Get your free inspection and estimate today.
+              Whether you need hail damage repairs, a complete commercial roof replacement, or want to assess your current roof's condition, our Amarillo commercial roofing team is ready to help. Get your free inspection and estimate today.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <a href="tel:8066226041" className="btn-primary-hero text-xl bg-white text-brand-brown hover:bg-gray-100 hover:scale-110 transition-all duration-300 hover:shadow-2xl px-10 py-5">

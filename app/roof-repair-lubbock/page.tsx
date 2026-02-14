@@ -8,8 +8,9 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-lubbock/' },
   title: 'Roof Repair Lubbock TX | Free Inspection | 5 Star',
-  description: "Professional roof repair in Lubbock TX. South Plains weather specialists, dust storm damage experts, 24/7 emergency service. Call (806) 622-6041",
+  description: "Professional roof repair in Lubbock TX. South Plains weather specialists, dust storm damage experts, . Call (806) 622-6041",
 };
 
 export default function RoofRepairLubbockPage() {
@@ -623,8 +624,8 @@ export default function RoofRepairLubbockPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Storm Repair</h3>
-                <p className="text-gray-600 mb-4">24/7 response for supercell damage throughout Lubbock County</p>
-                <a href="/emergency-roof-repair-lubbock/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
+                <p className="text-gray-600 mb-4">response for supercell damage throughout Lubbock County</p>
+                <a href="/roof-repair-lubbock/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Repair</h3>

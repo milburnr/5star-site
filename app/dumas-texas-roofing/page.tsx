@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/dumas-texas-roofing/' },
   title: 'Roofing in Dumas, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Dumas, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Moore County. Free inspections available.',
 };
@@ -267,7 +268,7 @@ export default function DumasRoofingPage() {
             <div>
               <h3 className="text-lg font-bold mb-2">How quickly can you respond to storm damage for agricultural buildings?</h3>
               <p className="text-gray-700">
-                We provide 24/7 emergency response for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry emergency tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.
+                We provide prompt response for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry emergency tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.
               </p>
             </div>
 
@@ -348,7 +349,7 @@ export default function DumasRoofingPage() {
               <div className="text-center bg-white p-6 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response</h3>
-                <p className="text-gray-700">24/7 emergency service for storm damage. We respond quickly to protect your property from further damage.</p>
+                <p className="text-gray-700"> for storm damage. We respond quickly to protect your property from further damage.</p>
               </div>
             </div>
           </section>

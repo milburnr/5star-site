@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/' },
   title: 'Emergency Rain Damage Roof Repair in Amarillo | 5 Star',
   description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -125,7 +126,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -144,7 +145,7 @@ export default function Page() {
           While hail gets most of the attention in Texas Panhandle and West Texas, heavy rain can be just as destructive to your roof—especially when combined with wind-driven rain, aging roofing materials, or existing storm damage. When flash floods and severe thunderstorms dump 2-4 inches of rain in an hour (common in Amarillo, Midland, and Odessa during spring and summer), even minor roof vulnerabilities can become major leaks.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we provide 24/7 emergency response for heavy rain damage across West Texas and the Texas Panhandle. Whether you're dealing with active leaks, water-damaged ceilings, or saturated insulation, our team responds fast to minimize damage and begin the insurance claim process. Our expert <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing services</a> cover all aspects of storm damage repair throughout the region.
+          At 5 Star Commercial Roofing, we provide prompt response for heavy rain damage across West Texas and the Texas Panhandle. Whether you're dealing with active leaks, water-damaged ceilings, or saturated insulation, our team responds fast to minimize damage and begin the insurance claim process. Our expert <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing services</a> cover all aspects of storm damage repair throughout the region.
         </p>
       </div>
 
@@ -303,7 +304,7 @@ export default function Page() {
             When heavy rain damages your roof in Amarillo, Midland, Odessa, or Lubbock, you need a roofing contractor with proven experience in the unique challenges of West Texas weather. Our team has been serving the Texas Panhandle for years, and we understand the specific vulnerabilities that regional climate conditions create.
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>24/7 Emergency Response:</strong> We answer calls immediately during storm events and can have tarping crews at your location within hours, not days.</li>
+            <li><strong>Emergency Response:</strong> We answer calls immediately during storm events and can have tarping crews at your location within hours, not days.</li>
             <li><strong>Insurance Expertise:</strong> We've worked with every major insurance carrier in Texas and know exactly what documentation is needed to get your claim approved quickly. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> experience translates directly to rain damage claims.</li>
             <li><strong>Advanced Technology:</strong> Drone inspections provide detailed documentation of roof damage that insurance adjusters trust, while also keeping our team safe during inspections of steep or dangerous roofs.</li>
             <li><strong>Regional Coverage:</strong> From Amarillo to Midland, Odessa to Lubbock, we serve the entire West Texas region with the same fast, professional service.</li>
@@ -383,7 +384,7 @@ export default function Page() {
         <div className="card">
           <div className="card-body">
             <h3 className="font-bold mb-2">How quickly should I call for emergency service after heavy rain?</h3>
-            <p>Call immediately if you notice active leaks, water stains, or any signs of water intrusion. The faster we can tarp and assess damage, the less secondary damage (mold, structural deterioration) will occur. Call (806) 622-6041 24/7 for emergency service.</p>
+            <p>Call immediately if you notice active leaks, water stains, or any signs of water intrusion. The faster we can tarp and assess damage, the less secondary damage (mold, structural deterioration) will occur. Call (806) 622-6041 for emergency service.</p>
           </div>
         </div>
         <div className="card">

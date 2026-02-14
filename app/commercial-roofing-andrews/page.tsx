@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-andrews/' },
   title: 'Commercial Roofing Andrews TX | 5 Star Roofing',
-  description: "Professional commercial roofing in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional commercial roofing in Andrews TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function CommercialRoofingAndrewsPage() {
@@ -51,7 +52,7 @@ export default function CommercialRoofingAndrewsPage() {
             "@type": "Service",
             "serviceType": "Commercial Roofing Services",
             "name": "Commercial Roofing in Andrews",
-            "description": "Professional commercial roofing services in Andrews, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional commercial roofing services in Andrews, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function CommercialRoofingAndrewsPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Commercial Roofing in <span className="text-brand-gold-light">Andrews</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Andrews. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Andrews. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function CommercialRoofingAndrewsPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -121,7 +122,7 @@ export default function CommercialRoofingAndrewsPage() {
             
             <div className="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Andrews' Commercial Roofing Needs</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">Andrews County has emerged as one of Texas's fastest-growing micropolitan areas, driven by its position in the heart of the Permian Basin. This rapid growth in oil and gas operations has created unprecedented demand for commercial roofing solutions that can withstand the harsh West Texas environment while supporting the energy sector's 24/7 operations.</p>
+              <p className="text-gray-700 leading-relaxed mb-4">Andrews County has emerged as one of Texas's fastest-growing micropolitan areas, driven by its position in the heart of the Permian Basin. This rapid growth in oil and gas operations has created unprecedented demand for commercial roofing solutions that can withstand the harsh West Texas environment while supporting the energy sector's operations.</p>
               <p className="text-gray-700 leading-relaxed">Our commercial roofing systems are specifically designed for Andrews' petroleum-based economy, featuring enhanced chemical resistance, superior weather protection, and energy-efficient designs that reduce operational costs for local businesses.</p>
             </div>
           </section>
@@ -136,7 +137,7 @@ export default function CommercialRoofingAndrewsPage() {
                 <p className="text-gray-700 leading-relaxed mb-4">Andrews sits at the center of the Permian Basin's oil boom, hosting numerous drilling operations, processing facilities, and support services. These industrial facilities require specialized roofing systems that can handle:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Chemical exposure from petroleum operations</li>
-                  <li>• 24/7 operational requirements with minimal downtime</li>
+                  <li>• operational requirements with minimal downtime</li>
                   <li>• Heavy equipment and vehicle traffic on roof areas</li>
                   <li>• Fire-resistant materials meeting OSHA standards</li>
                   <li>• Sound dampening for noise-sensitive operations</li>

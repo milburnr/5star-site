@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-big-spring/' },
   title: 'Commercial Roofing Big Spring TX | 5 Star Roofing',
-  description: "Professional commercial roofing in Big Spring TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional commercial roofing in Big Spring TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function CommercialRoofingBigSpringPage() {
@@ -51,7 +52,7 @@ export default function CommercialRoofingBigSpringPage() {
             "@type": "Service",
             "serviceType": "Commercial Roofing Services",
             "name": "Commercial Roofing in Big Spring",
-            "description": "Professional commercial roofing services in Big Spring, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional commercial roofing services in Big Spring, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function CommercialRoofingBigSpringPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Commercial Roofing in <span className="text-brand-gold-light">Big Spring</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Big Spring. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Big Spring. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function CommercialRoofingBigSpringPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -116,12 +117,12 @@ export default function CommercialRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Big Spring's Commercial Roofing Specialists</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Big Spring and surrounding areas, serving the crossroads of West Texas healthcare, corrections, and logistics. As a strategic I-20 corridor hub housing major healthcare facilities, correctional institutions, and energy operations, Big Spring requires specialized roofing solutions for mission-critical facilities that operate 24/7.</p>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Big Spring and surrounding areas, serving the crossroads of West Texas healthcare, corrections, and logistics. As a strategic I-20 corridor hub housing major healthcare facilities, correctional institutions, and energy operations, Big Spring requires specialized roofing solutions for mission-critical facilities that operate.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Big Spring's unique institutional and commercial needs with expert installations and comprehensive warranties. Our 75-minute response time from Amarillo headquarters ensures rapid service for emergency repairs at healthcare facilities, correctional institutions, and critical infrastructure. We handle all permits, insurance claims, and warranty documentation.</p>
             
             <div className="mt-12 bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Big Spring's Critical Infrastructure Needs</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">Big Spring serves as a regional hub for healthcare, corrections, and logistics along the vital I-20 corridor. Home to the Veterans Administration Hospital, Big Spring State Hospital, Federal Correctional Institution, and multiple private correctional facilities, the city's commercial roofing needs are defined by security requirements, 24/7 operations, and strict regulatory compliance.</p>
+              <p className="text-gray-700 leading-relaxed mb-4">Big Spring serves as a regional hub for healthcare, corrections, and logistics along the vital I-20 corridor. Home to the Veterans Administration Hospital, Big Spring State Hospital, Federal Correctional Institution, and multiple private correctional facilities, the city's commercial roofing needs are defined by security requirements, operations, and strict regulatory compliance.</p>
               <p className="text-gray-700 leading-relaxed">Our commercial roofing systems meet the stringent security, healthcare, and safety standards required by institutional facilities while providing cost-effective solutions for retail, logistics, and energy sector businesses that support the regional economy.</p>
             </div>
           </section>

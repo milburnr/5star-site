@@ -13,8 +13,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock/' },
   title: 'Commercial Roofing Lubbock TX | 5 Star Roofing',
-  description: 'Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. 24/7 emergency service. Call (806) 622-6041',
+  description: 'Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041',
 };
 
 export default function CommercialRoofingLubbockPage() {
@@ -91,7 +92,7 @@ export default function CommercialRoofingLubbockPage() {
             "@type": "Service",
             "serviceType": "Commercial Roofing Services",
             "name": "Commercial Roofing in Lubbock",
-            "description": "Professional commercial roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional commercial roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -168,7 +169,7 @@ export default function CommercialRoofingLubbockPage() {
                 "name": "Do you provide emergency roofing for Lubbock's severe weather events?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, we provide 24/7 emergency commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer emergency tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled."
+                  "text": "Yes, we provide emergency commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer emergency tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled."
                 }
               }
             ]
@@ -215,7 +216,7 @@ export default function CommercialRoofingLubbockPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -246,7 +247,7 @@ export default function CommercialRoofingLubbockPage() {
               Lubbock County's commercial landscape demands specialized roofing expertise. From Texas Tech University's sprawling 1,839-acre campus to University Medical Center's 412-bed healthcare facility, from Covenant Health's regional medical complex to agriculture warehouses processing cotton and beef throughout the South Plains—every commercial roof faces unique challenges in this dynamic regional hub.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              With 273 hail reports documented by trained weather spotters in just 12 months, Lubbock ranks among Texas's most severe weather regions. Commercial buildings serving 55,000+ college students, major healthcare systems, and agriculture operations require impact-resistant roofing systems engineered for the South Plains climate. Our specialized commercial roofing protects critical infrastructure while minimizing operational disruption through careful scheduling and 24/7 emergency response.
+              With 273 hail reports documented by trained weather spotters in just 12 months, Lubbock ranks among Texas's most severe weather regions. Commercial buildings serving 55,000+ college students, major healthcare systems, and agriculture operations require impact-resistant roofing systems engineered for the South Plains climate. Our specialized commercial roofing protects critical infrastructure while minimizing operational disruption through careful scheduling and prompt response.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               We coordinate with facility managers at Texas Tech, healthcare administrators at UMC and Covenant Health, and agriculture facility operators to ensure roofing installations meet stringent institutional requirements while maintaining operations. Every project includes comprehensive permitting through the City of Lubbock Building Safety Department and full warranty documentation.
@@ -261,7 +262,7 @@ export default function CommercialRoofingLubbockPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/TPO1.jpg" alt="TPO Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg" alt="TPO Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs for Texas Tech buildings and healthcare facilities. Excellent hail resistance proven in Lubbock County's extreme weather conditions.
@@ -275,7 +276,7 @@ export default function CommercialRoofingLubbockPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/SteelRoofing.jpg" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="/images/SteelRoofing-1280w.jpg" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Standing seam and R-panel metal roofing for agriculture and industrial applications. Superior wind resistance for grain elevators, cotton warehouses, and processing facilities. Fire resistance critical for agricultural operations storing combustible materials.
@@ -289,7 +290,7 @@ export default function CommercialRoofingLubbockPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/EPDM2.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="/images/EPDM2-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance in Lubbock's high-elevation sun exposure. Budget-friendly option for agriculture warehouses and smaller commercial buildings throughout Lubbock County.
@@ -328,7 +329,7 @@ export default function CommercialRoofingLubbockPage() {
               <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Healthcare Campus Complex</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>University Medical Center</strong> - 412-bed teaching hospital requiring critical infrastructure roofing with 24/7 operational demands. Specialized systems for patient safety and uninterrupted healthcare delivery.
+                  <strong>University Medical Center</strong> - 412-bed teaching hospital requiring critical infrastructure roofing with operational demands. Specialized systems for patient safety and uninterrupted healthcare delivery.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   <strong>Covenant Health System</strong> - Region's largest healthcare institution with multiple specialty centers including Covenant Children's Hospital, cardiac facilities, and cancer treatment centers requiring precision roofing coordination.
@@ -447,9 +448,9 @@ export default function CommercialRoofingLubbockPage() {
             <div className="flex gap-6 items-center">
               <div className="text-6xl">🚨</div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-red-800 mb-3">24/7 Emergency Commercial Roofing</h2>
+                <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Commercial Roofing</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Storm damage threatening your Lubbock business operations? We provide 24/7 emergency response for Texas Tech facilities, healthcare institutions, and agriculture operations. Immediate temporary repairs, tarping, and leak mitigation protect critical operations and inventory.
+                  Storm damage threatening your Lubbock business operations? We provide prompt response for Texas Tech facilities, healthcare institutions, and agriculture operations. Immediate temporary repairs, tarping, and leak mitigation protect critical operations and inventory.
                 </p>
                 <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300">
                   Emergency: (806) 622-6041
@@ -515,7 +516,7 @@ export default function CommercialRoofingLubbockPage() {
                   Do you provide emergency roofing for Lubbock's severe weather events?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide 24/7 emergency commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer emergency tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.
+                  Yes, we provide emergency commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer emergency tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

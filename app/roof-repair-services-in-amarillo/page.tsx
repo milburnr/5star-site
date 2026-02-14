@@ -4,8 +4,9 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-services-in-amarillo/' },
   title: 'Roof Repair Amarillo TX | 5 Star Roofing',
-  description: 'Trusted roof repair services in Amarillo TX since 2014. Emergency storm damage repair, hail damage restoration, leak repair, insurance claims assistance. Licensed, bonded, insured. Free estimates, 24/7 emergency response throughout Potter & Randall Counties.',
+  description: 'Trusted roof repair services in Amarillo TX since 2014. Emergency storm damage repair, hail damage restoration, leak repair, insurance claims assistance. Licensed, bonded, insured. Free estimates, prompt response throughout Potter & Randall Counties.',
 };
 
 export default function Page() {
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -78,7 +79,7 @@ export default function Page() {
       <section className="hero-small">
         <FadeIn>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Roof Repair Services in Amarillo, TX</h1>
-          <p className="text-xl text-gray-600 max-w-3xl">Fast, reliable roof repair for Amarillo homes and businesses. Emergency service available 24/7.</p>
+          <p className="text-xl text-gray-600 max-w-3xl">Fast, reliable roof repair for Amarillo homes and businesses. .</p>
         </FadeIn>
       </section>
 
@@ -218,7 +219,7 @@ export default function Page() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-red-600 mr-2">✓</span>
-                    <div>24/7 emergency phone answering during storm season</div>
+                    <div>emergency phone answering during storm season</div>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-600 mr-2">✓</span>
@@ -341,10 +342,10 @@ export default function Page() {
             </div>
             
             <div className="pricing-card border rounded-lg p-6 text-center">
-              <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Service</h3>
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Repair</h3>
               <div className="text-3xl font-bold text-brand-gold mb-4">$385-$1,850</div>
               <ul className="text-left space-y-2 text-sm">
-                <li>✓ 24/7 emergency response</li>
+                <li>✓ prompt response</li>
                 <li>✓ Immediate leak stoppage</li>
                 <li>✓ Emergency tarping included</li>
                 <li>✓ Same-day service available</li>
@@ -377,7 +378,7 @@ export default function Page() {
               <ul className="space-y-2">
                 <li><strong>Multi-Story Homes:</strong> Add 20-30% for safety equipment and access</li>
                 <li><strong>Historic Properties:</strong> Specialty materials may increase costs 25-40%</li>
-                <li><strong>Emergency Response:</strong> No premium charges for 24/7 service in Amarillo</li>
+                <li><strong>Emergency Response:</strong> No premium charges for service in Amarillo</li>
                 <li><strong>Financing Available:</strong> 0% interest for 12 months on repairs over $2,500</li>
               </ul>
             </div>
@@ -552,7 +553,7 @@ export default function Page() {
             <div>
               <h4 className="font-bold mb-2 text-brand-brown">Service Specialties</h4>
               <ul className="text-sm space-y-1">
-                <li><a href="/emergency-roof-repair-amarillo/" className="text-brand-gold hover:underline">• Emergency Repairs</a></li>
+                <li><a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">• Emergency Repairs</a></li>
                 <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">• Hail Damage</a></li>
                 <li><a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">• Storm Damage</a></li>
                 <li><a href="/commercial-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">• Commercial</a></li>
@@ -574,7 +575,7 @@ export default function Page() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Need Roof Repair in Amarillo?</h2>
             <p className="cta-text mb-6">
-              Free inspections for all Amarillo homeowners and businesses. Emergency service available 24/7. Insurance claims assistance.
+              Free inspections for all Amarillo homeowners and businesses. . Insurance claims assistance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100">📞 Call (806) 622-6041</a>

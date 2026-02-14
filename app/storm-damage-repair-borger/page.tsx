@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-borger/' },
   title: 'Storm Damage Repair Borger TXService | Free Inspection',
   description: 'storm damage roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041',
 };
@@ -52,7 +53,7 @@ export default function StormDamageRepairBorgerPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Borger,_Texas", "name": "Borger", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert storm damage repair services in Borger, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert storm damage repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -123,7 +124,7 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "How quickly can you respond to storm damage emergencies in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "We maintain 24/7 emergency teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
+                                        "text": "We maintain emergency teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
                               }
                     },
                     {
@@ -139,7 +140,7 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "Should I tarp my roof myself or wait for professionals in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our 24/7 emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
+                                        "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
                               }
                     },
                     {
@@ -179,7 +180,7 @@ export default function StormDamageRepairBorgerPage() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Borger</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                24/7 Emergency Response | Panhandle Weather Experts
+                Emergency Response | Panhandle Weather Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
@@ -203,9 +204,9 @@ export default function StormDamageRepairBorgerPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
-                  24/7
+                 
                 </div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
@@ -370,7 +371,7 @@ export default function StormDamageRepairBorgerPage() {
                   How quickly can you respond to storm damage emergencies in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain 24/7 emergency teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
+                  We maintain emergency teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
                 </AccordionContent>
               </AccordionItem>
 
@@ -388,7 +389,7 @@ export default function StormDamageRepairBorgerPage() {
                   Should I tarp my roof myself or wait for professionals in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our 24/7 emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
+                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
                 </AccordionContent>
               </AccordionItem>
 
@@ -451,7 +452,7 @@ export default function StormDamageRepairBorgerPage() {
                   What's included in your emergency storm response for Borger properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Our 24/7 emergency service includes immediate safety assessment, professional damage documentation with photos and measurements, emergency tarping to prevent further damage, temporary repairs for active leaks, coordination with insurance adjusters, and detailed estimates for permanent repairs. We arrive within 2-4 hours for critical situations and work around Borger's industrial schedules. All emergency work is properly documented for insurance claims and credited toward final repair costs.
+                  Our  includes immediate safety assessment, professional damage documentation with photos and measurements, emergency tarping to prevent further damage, temporary repairs for active leaks, coordination with insurance adjusters, and detailed estimates for permanent repairs. We arrive within 2-4 hours for critical situations and work around Borger's industrial schedules. All emergency work is properly documented for insurance claims and credited toward final repair costs.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-midland/' },
   title: 'Residential Roofing Midland TX | 5 Star Roofing',
   description: 'Expert residential roofing in Midland TX. Serving Grassland Estates, Saddle Club, and all Permian Basin neighborhoods. Premium Class 4 shingles for energy executive homes. Free inspections.',
 };
@@ -91,7 +92,7 @@ export default function ResidentialRoofingMidlandPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Midland",
-            "description": "Professional residential roofing services in Midland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",

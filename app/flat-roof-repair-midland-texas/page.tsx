@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/flat-roof-repair-midland-texas/' },
   title: 'Flat Roof Repair in Midland, TX| Commercial Specialists',
   description: "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. Emergency service available. Free inspections. Call today (806) 622-6041",
 };
@@ -36,7 +37,7 @@ export default function FlatRoofMidlandPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Midland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -77,7 +78,7 @@ export default function FlatRoofMidlandPage() {
               <strong>Flat roofs in Midland face extreme Permian Basin weather.</strong> Intense heat, severe hail, ponding water, and UV exposure create leaks, membrane damage, and premature failure. Fast, expert repairs prevent minor problems from becoming major disasters that disrupt critical petroleum industry operations and commercial facilities.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              5 Star Commercial Roofing specializes in flat roof repair throughout Midland's diverse commercial sectors. From leak detection to complete membrane restoration, we handle all TPO, EPDM, PVC, and modified bitumen systems. Emergency repairs available 24/7 for petroleum industry facilities, office buildings, retail centers, and healthcare facilities.
+              5 Star Commercial Roofing specializes in flat roof repair throughout Midland's diverse commercial sectors. From leak detection to complete membrane restoration, we handle all TPO, EPDM, PVC, and modified bitumen systems. Emergency repairs available for petroleum industry facilities, office buildings, retail centers, and healthcare facilities.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Midland's role as the petroleum capital of West Texas creates unique flat roof repair challenges for oil company headquarters, industrial facilities, and commercial buildings serving the energy sector. Our specialized expertise addresses chemical-resistant repairs, emergency response protocols, and compliance requirements specific to petroleum industry environments.
@@ -150,7 +151,7 @@ export default function FlatRoofMidlandPage() {
               Shopping centers and retail facilities throughout Midland require flat roof repairs that minimize customer disruption while maintaining comfortable shopping environments during extreme West Texas weather conditions. These repairs often coordinate with retail operations and customer traffic patterns to ensure continuous business operations during peak petroleum industry activity periods.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Restaurant and hospitality facilities serving petroleum industry workers require flat roof repairs that accommodate specialized kitchen equipment, dining areas, and entertainment systems while providing year-round weather protection for facilities that operate extended hours to serve industry shift schedules common in 24/7 petroleum operations throughout the Permian Basin.
+              Restaurant and hospitality facilities serving petroleum industry workers require flat roof repairs that accommodate specialized kitchen equipment, dining areas, and entertainment systems while providing year-round weather protection for facilities that operate extended hours to serve industry shift schedules common in petroleum operations throughout the Permian Basin.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Automotive service facilities and equipment dealerships serving petroleum industry fleet operations require flat roof repairs that accommodate vehicle service areas, parts storage, and customer waiting areas while providing protection for expensive automotive equipment and inventory essential for supporting petroleum industry transportation and logistics operations.
@@ -175,7 +176,7 @@ export default function FlatRoofMidlandPage() {
               Emergency Response and Weather Protection for Critical Flat Roof Systems
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Midland's location in Hail Alley creates frequent opportunities for catastrophic flat roof damage that requires immediate emergency response to protect valuable petroleum industry equipment and critical business operations. Our 24/7 emergency response teams maintain specialized equipment and materials for rapid deployment throughout the Permian Basin region during severe weather events.
+              Midland's location in Hail Alley creates frequent opportunities for catastrophic flat roof damage that requires immediate emergency response to protect valuable petroleum industry equipment and critical business operations. Our prompt response teams maintain specialized equipment and materials for rapid deployment throughout the Permian Basin region during severe weather events.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Severe weather events including hailstorms, high winds, and flash flooding can cause immediate threats to flat roofing systems that protect critical petroleum industry operations and commercial facilities. Emergency tarping systems and temporary weather barriers provide interim protection while permanent repairs are planned and executed during optimal weather conditions.
@@ -263,7 +264,7 @@ export default function FlatRoofMidlandPage() {
               <div className="text-center">
                 <div className="text-5xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response</h3>
-                <p className="text-gray-700">Same-day service available throughout Midland. Emergency repairs 24/7 to protect your property and minimize damage.</p>
+                <p className="text-gray-700">Same-day service available throughout Midland. Emergency repairs to protect your property and minimize damage.</p>
               </div>
               <div className="text-center">
                 <div className="text-5xl mb-4">🔍</div>
@@ -335,11 +336,11 @@ export default function FlatRoofMidlandPage() {
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Flat Roof Repair</h2>
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak causing water damage?</strong> We provide 24/7 emergency flat roof repairs throughout Midland. Fast response to minimize damage and protect your property.
+              <strong>Active leak causing water damage?</strong> We provide emergency flat roof repairs throughout Midland. Fast response to minimize damage and protect your property.
             </p>
             <div className="bg-white p-6 rounded-lg">
               <p className="text-xl font-bold text-red-700 mb-2">🚨 Emergency: <a href="tel:8066226041" className="text-brand-gold">(806) 622-6041</a></p>
-              <p className="text-gray-700">Available 24/7 for commercial and residential flat roof emergencies</p>
+              <p className="text-gray-700">Available for commercial and residential flat roof emergencies</p>
             </div>
           </section>
         </FadeIn>
@@ -371,7 +372,7 @@ export default function FlatRoofMidlandPage() {
         <FadeIn>
           <section className="cta-section">
             <h2 className="cta-title">Fix Your Midland Flat Roof</h2>
-            <p className="cta-text">Expert flat roof repairs for commercial and residential properties. Free inspections and emergency service available.</p>
+            <p className="cta-text">Expert flat roof repairs for commercial and residential properties. Free inspections and prompt service available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">Schedule Inspection</a>

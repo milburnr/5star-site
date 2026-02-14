@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-andrews/' },
   title: 'Hail Damage Repair Andrews TX | 5 Star Roofing',
-  description: "Professional hail damage repair in Andrews TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional hail damage repair in Andrews TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function HailDamageRepairAndrewsPage() {
@@ -51,7 +52,7 @@ export default function HailDamageRepairAndrewsPage() {
             "@type": "Service",
             "serviceType": "Hail Damage Roof Repair",
             "name": "Hail Damage Repair in Andrews",
-            "description": "Professional hail damage repair services in Andrews, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional hail damage repair services in Andrews, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -68,7 +69,7 @@ export default function HailDamageRepairAndrewsPage() {
               "name": "Hail Damage Repair Services",
               "itemListElement": [
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Roof Repair" } },
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
               ]
             }
@@ -89,7 +90,7 @@ export default function HailDamageRepairAndrewsPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Hail Damage Repair in <span className="text-brand-gold-light">Andrews</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Andrews. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Andrews. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function HailDamageRepairAndrewsPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -200,7 +201,7 @@ export default function HailDamageRepairAndrewsPage() {
                   <li>• <strong>Water Extraction:</strong> Rapid response to prevent secondary damage</li>
                   <li>• <strong>Interior Protection:</strong> Contents coverage and moisture barriers</li>
                   <li>• <strong>Structural Assessment:</strong> Engineering evaluation for safety concerns</li>
-                  <li>• <strong>24/7 Response Team:</strong> Emergency mitigation within hours of storm events</li>
+                  <li>• <strong>Response Team:</strong> Emergency mitigation within hours of storm events</li>
                 </ul>
               </div>
             </div>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/amarillo-homes-roofing-services/' },
   title: 'Amarillo Homes Roofing| Expert Residential Services',
   description: 'Amarillo Homes Roofing Services is here to cater to all your roofing needs. We guarantee exceptional results. Free inspections available.',
   openGraph: {
@@ -39,7 +40,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -166,7 +167,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/residential-home-roofing.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg"
         alt="Amarillo Homes Roofing"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />

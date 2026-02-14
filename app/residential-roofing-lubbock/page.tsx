@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-lubbock/' },
   title: 'Residential Roofing Lubbock TX | 5 Star Roofing',
   description: 'Expert residential roofing in Lubbock TX. Serving Tech Terrace, Raider Ranch, and all Texas Tech area neighborhoods. Class 4 impact-resistant shingles for South Plains weather. Free inspections.',
 };
@@ -91,7 +92,7 @@ export default function ResidentialRoofingLubbockPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Lubbock",
-            "description": "Professional residential roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",

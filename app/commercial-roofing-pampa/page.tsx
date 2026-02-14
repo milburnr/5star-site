@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-pampa/' },
   title: 'Commercial Roofing Pampa TX | 5 Star Roofing',
-  description: "Professional commercial roofing in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional commercial roofing in Pampa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function CommercialRoofingPampaPage() {
@@ -51,7 +52,7 @@ export default function CommercialRoofingPampaPage() {
             "@type": "Service",
             "serviceType": "Commercial Roofing Services",
             "name": "Commercial Roofing in Pampa",
-            "description": "Professional commercial roofing services in Pampa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional commercial roofing services in Pampa, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function CommercialRoofingPampaPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Commercial Roofing in <span className="text-brand-gold-light">Pampa</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Pampa. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Pampa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function CommercialRoofingPampaPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -200,7 +201,7 @@ export default function CommercialRoofingPampaPage() {
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Roof Repairs</h3>
-                  <p className="text-gray-700">24/7 emergency response for storm damage, equipment penetration failures, and weather-related roofing emergencies throughout Pampa and surrounding areas.</p>
+                  <p className="text-gray-700">prompt response for storm damage, equipment penetration failures, and weather-related roofing emergencies throughout Pampa and surrounding areas.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Preventive Maintenance Programs</h3>
@@ -379,7 +380,7 @@ export default function CommercialRoofingPampaPage() {
                     <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Emergency Response</h3>
-                      <p className="text-gray-700">24/7 emergency service for storm damage, leak repairs, and urgent roofing issues affecting Pampa commercial operations.</p>
+                      <p className="text-gray-700"> for storm damage, leak repairs, and urgent roofing issues affecting Pampa commercial operations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

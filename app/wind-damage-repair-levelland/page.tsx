@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-levelland/' },
   title: "Wind Damage Repair Levelland TX | 5 Star Commercial Roofing",
   description: "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function WindDamageRepairLevellandPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas", "name": "Levelland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Levelland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function WindDamageRepairLevellandPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -368,7 +369,7 @@ export default function WindDamageRepairLevellandPage() {
                   How quickly can you respond to wind damage emergencies in Levelland?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We maintain 24/7 emergency response capabilities for Hockley County properties. Our rapid response team can typically arrive within 2-4 hours of your call to provide emergency tarping, secure loose materials, and prevent further damage. We understand that South Plains wind events can cause widespread damage requiring immediate attention.
+                  We maintain prompt response capabilities for Hockley County properties. Our rapid response team can typically arrive within 2-4 hours of your call to provide emergency tarping, secure loose materials, and prevent further damage. We understand that South Plains wind events can cause widespread damage requiring immediate attention.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="insurance-coverage" className="bg-white rounded-lg shadow-md">
@@ -484,7 +485,7 @@ export default function WindDamageRepairLevellandPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-red-700 mb-4">Our Emergency Services</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• 24/7 emergency response team</li>
+                  <li>• prompt response team</li>
                   <li>• Professional tarping and securing</li>
                   <li>• Immediate leak repairs</li>
                   <li>• Structural safety assessment</li>

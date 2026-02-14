@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/blog/best-roofing-materials-texas-2025/' },
   title: "Best Roofing Materials for Texas Climate 2025 | Expert Guide",
   description: 'Complete guide to the best roofing materials for Texas. Compare asphalt shingles, metal roofing, tile, and more for heat, hail, and wind resistance.',
 };

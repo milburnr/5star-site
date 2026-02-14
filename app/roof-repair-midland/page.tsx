@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-midland/' },
   title: 'Roof Repair Midland TX | Free Inspection | 5 Star',
-  description: "Professional roof repair in Midland TX. Desert climate specialists, oil industry housing experts, 24/7 emergency service. Call (806) 622-6041",
+  description: "Professional roof repair in Midland TX. Desert climate specialists, oil industry housing experts, . Call (806) 622-6041",
 };
 
 export default function RoofRepairMidlandPage() {
@@ -711,8 +712,8 @@ export default function RoofRepairMidlandPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Storm Repair</h3>
-                <p className="text-gray-600 mb-4">24/7 response for desert storm damage throughout Midland County</p>
-                <a href="/emergency-roof-repair-midland/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
+                <p className="text-gray-600 mb-4">response for desert storm damage throughout Midland County</p>
+                <a href="/roof-repair-midland/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Flat Roof Repair</h3>

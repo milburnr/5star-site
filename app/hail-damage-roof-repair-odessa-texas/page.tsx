@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roof-repair-odessa-texas/' },
   title: 'Hail Damage Roof Repair in Odessa | 5 Star',
   description: 'Hail Damage Repair in Odessa, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -36,7 +37,7 @@ export default function HailDamageOdessaPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -76,7 +77,7 @@ export default function HailDamageOdessaPage() {
               <strong>Odessa experiences frequent severe hail storms that can destroy roofs in minutes.</strong> From downtown to West Odessa, the Permian Basin sees large hail multiple times per year. Even golf ball-sized hail causes thousands in damage.
             </p>
             <p className="text-xl text-gray-600">
-              5 Star Commercial Roofing specializes in hail damage detection, insurance claims, and complete roof restoration for Odessa properties. Located 3.5 hours northwest of our Amarillo headquarters, we respond within 4 hours for emergency hail damage in the Permian Basin. Free inspections and we handle everything with your insurance company.
+              5 Star Commercial Roofing specializes in hail damage detection, insurance claims, and complete roof restoration for Odessa properties. Located 3.5 hours northwest of our Amarillo headquarters, we respond within 4 hours for hail damage in the Permian Basin. Free inspections and we handle everything with your insurance company.
             </p>
           </div>
         </FadeIn>
@@ -383,11 +384,11 @@ export default function HailDamageOdessaPage() {
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Services</h2>
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after storm?</strong> We provide 24/7 emergency tarping and repairs throughout Odessa.
+              <strong>Active leak after storm?</strong> We provide emergency tarping services and repairs throughout Odessa.
             </p>
             <div className="bg-white p-6 rounded-lg">
               <p className="text-xl font-bold text-red-700">🚨 Emergency: <a href="tel:8066226041" className="text-brand-gold">(806) 622-6041</a></p>
-              <p className="text-gray-700">Available 24/7 throughout Odessa and West Texas</p>
+              <p className="text-gray-700">Available throughout Odessa and West Texas</p>
             </div>
           </section>
         </FadeIn>
@@ -411,7 +412,7 @@ export default function HailDamageOdessaPage() {
               <span className="text-gray-400">•</span>
               <a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Metal Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/emergency-roof-repair-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Emergency Repairs</a>
+              <a href="/hail-damage-repair-odessa-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Storm Damage Repair</a>
             </div>
           </section>
         </FadeIn>

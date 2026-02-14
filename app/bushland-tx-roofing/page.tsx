@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/bushland-tx-roofing/' },
   title: 'Roofing in Bushland, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Bushland, Texas Panhandle. Just 10 miles west of Amarillo. Hail damage repair, residential & commercial roofing, metal roofs.',
 };
@@ -122,7 +123,7 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage repair services for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Hail damage repair services for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Repair
                     </h3>
@@ -154,7 +155,7 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg" alt="Residential roofing services for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -186,7 +187,7 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Metal roof systems for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/SteelRoofing-1280w.jpg" alt="Metal roof systems for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Systems
                     </h3>
@@ -218,7 +219,7 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial and agricultural roofing for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg" alt="Commercial and agricultural roofing for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial & Agricultural
                     </h3>
@@ -250,15 +251,15 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roofing service for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg" alt="emergency roofing service for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      24/7 Emergency Service
+                      
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage can't wait, especially in rural areas.</strong> We provide
-                      24/7 emergency roofing services for Bushland residents. From emergency tarping
+                      emergency roofing services for Bushland residents. From emergency tarping
                       after hail storms to urgent leak repairs, we're just 10 miles away and ready to respond.
                     </p>
                     <p className="text-gray-700 mb-4">
@@ -266,7 +267,7 @@ export default function BushlandRoofingPage() {
                       {" "}anytime, day or night, for immediate emergency assistance.
                     </p>
                     <a
-                      href="/emergency-roof-repair-amarillo-texas/"
+                      href="/roof-repair-services-in-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
                       Emergency Services Information →

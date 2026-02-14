@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/damaged-roof-replacement-in-amarillo/' },
   title: 'Damaged Roof Replacement Amarillo TX | 5 Star',
   description: "Professional damaged roof replacement in Amarillo TX. Storm damage, hail damage, and emergency repairs. Insurance claim assistance. Free inspections. Call 5 Star Roofing (806) 622-6041.",
 };
@@ -42,7 +43,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -54,7 +55,7 @@ export default function Page() {
             "@type": "Service",
             "serviceType": "Roof Replacement Services",
             "name": "Roof Replacement in Amarillo",
-            "description": "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -90,7 +91,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/damaged-roof-replacement-amarillo.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg"
         alt="Damaged Roof Replacement in Amarillo"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />
@@ -282,7 +283,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Services Available</h2>
 
         <p>
-          Roof damage doesn't wait for business hours. That's why we offer 24/7 emergency response for severe
+          Roof damage doesn't wait for business hours. That's why we offer prompt response for severe
           damage situations. Whether it's a storm-damaged roof allowing water intrusion or structural damage
           from high winds, we can provide immediate temporary repairs to prevent further damage while planning
           your complete roof replacement.

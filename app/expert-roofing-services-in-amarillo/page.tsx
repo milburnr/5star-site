@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/expert-roofing-services-in-amarillo/' },
   title: 'Amarillo TX Roofing Services | 5 Star Roofing',
   description: "Choose 5 Star Roofing for top-notch residential and commercial roofing services in Amarillo. Quality materials, expert service, and unbeatable reliability.",
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -87,7 +88,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/roofing-services-amarillo.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-24-1280w.jpg"
         alt="Roofing Services in Amarillo"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />
@@ -185,7 +186,7 @@ export default function Page() {
           <li><strong>Built-Up Roofing (BUR) Systems:</strong> Multi-layer systems with hot asphalt or cold adhesive application for maximum durability in high-traffic applications</li>
           <li><strong>Modified Bitumen Roofing:</strong> Self-adhering and torch-applied systems offering excellent flexibility and weather resistance</li>
           <li><strong>Commercial Roof Maintenance Programs:</strong> Scheduled inspections, preventive maintenance, and emergency response to maximize roof lifespan and prevent costly failures</li>
-          <li><strong>24/7 Emergency Roof Repairs:</strong> Rapid response for storm damage, equipment impact, and sudden leaks that threaten business operations</li>
+          <li><strong>Emergency Roof Repairs:</strong> Rapid response for storm damage, equipment impact, and sudden leaks that threaten business operations</li>
           <li><strong>Roof Coating & Restoration:</strong> Liquid-applied systems that extend roof life, improve energy efficiency, and provide cost-effective alternatives to replacement</li>
           <li><strong>Green Roof Systems:</strong> Vegetated roof systems for sustainability goals and stormwater management</li>
         </ul>

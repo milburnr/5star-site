@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roof-replacement-in-amarillo/' },
   title: 'Hail Damage Roof Replacement in Amarillo | 5 Star',
   description: 'Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -165,7 +166,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold text-brand-brown mb-6">🛡️ Class 4 Impact-Resistant Shingle Systems</h3>
-              <img src="/images/asphaltshingles.jpg" alt="Hail damage roof repair in Amarillo, TX - Class 4 impact-resistant asphalt shingles - Hail protection roofing - 5 Star Commercial Roofing" className="w-full h-64 object-cover rounded-lg mb-6" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-20-1280w.jpg" alt="Hail damage roof repair in Amarillo, TX - Class 4 impact-resistant asphalt shingles - Hail protection roofing - 5 Star Commercial Roofing" className="w-full h-64 object-cover rounded-lg mb-6" />
               
               <p className="text-lg text-gray-700 mb-6">Class 4 impact-resistant shingles represent the gold standard for hail protection in Amarillo's extreme weather environment. These engineered systems use advanced polymer technology and reinforced substrates to withstand UL 2218 testing standards, providing essential protection against the High Plains' frequent large hail events.</p>
               
@@ -203,7 +204,7 @@ export default function Page() {
 
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold text-brand-brown mb-6">⚡ Standing Seam Metal Roofing Systems</h3>
-              <img src="/images/SteelRoofing.jpg" alt="Hail damage roof repair in Amarillo, TX - Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="w-full h-64 object-cover rounded-lg mb-6" />
+              <img src="/images/SteelRoofing-1280w.jpg" alt="Standing seam metal roof - Ultimate hail protection - Ultimate hail protection - 5 Star Commercial Roofing" className="w-full h-64 object-cover rounded-lg mb-6" />
               
               <p className="text-lg text-gray-700 mb-6">For ultimate hail protection and longevity in Amarillo's severe weather environment, standing seam metal roofing represents the pinnacle of performance. These systems provide superior resistance to large hail while offering decades of maintenance-free service in the High Plains' challenging climate conditions.</p>
               

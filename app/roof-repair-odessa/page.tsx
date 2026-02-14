@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-odessa/' },
   title: "Roof Repair Odessa TX | Expert Service | Free Inspection",
-  description: "Professional roof repair in Odessa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional roof repair in Odessa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function RoofRepairOdessaPage() {
@@ -56,7 +57,7 @@ export default function RoofRepairOdessaPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Roof Repair in <span className="text-brand-gold-light">Odessa</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional roof repair throughout Odessa. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional roof repair throughout Odessa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -70,7 +71,7 @@ export default function RoofRepairOdessaPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -100,7 +101,7 @@ export default function RoofRepairOdessaPage() {
                   <li><strong>Wind Uplift Restoration:</strong> Escarpment wind damage repair and reinforcement</li>
                   <li><strong>Flash Flood Recovery:</strong> Rapid water damage restoration for desert storm events</li>
                   <li><strong>Lightning Strike Repair:</strong> Electrical damage assessment and structural restoration</li>
-                  <li><strong>Emergency Tarping:</strong> 24/7 temporary protection during severe weather</li>
+                  <li><strong>Emergency Tarping:</strong> temporary protection during severe weather</li>
                 </ul>
               </div>
               <div>
@@ -126,7 +127,7 @@ export default function RoofRepairOdessaPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Emergency Response Services</h3>
                 <ul className="space-y-3 text-gray-700">
-                  <li><strong>24/7 Emergency Response:</strong> Rapid response during industrial incidents</li>
+                  <li><strong>Emergency Response:</strong> Rapid response during industrial incidents</li>
                   <li><strong>Leak Stoppage:</strong> Immediate water intrusion control and containment</li>
                   <li><strong>Safety Hazard Mitigation:</strong> Dangerous condition stabilization and repair</li>
                   <li><strong>Insurance Coordination:</strong> Direct billing and claim management services</li>
@@ -307,7 +308,7 @@ export default function RoofRepairOdessaPage() {
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Rapid Response and Emergency Services</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• 24/7 emergency response within 2 hours in Odessa</li>
+                  <li>• prompt response within 2 hours in Odessa</li>
                   <li>• Mobile repair units equipped for immediate stabilization</li>
                   <li>• Direct relationships with emergency management agencies</li>
                   <li>• Coordination with industrial safety and environmental agencies</li>

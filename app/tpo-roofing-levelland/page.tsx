@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-levelland/' },
   title: "TPO Roofing Levelland TX | 5 Star Commercial Roofing",
   description: "Expert TPO roofing installation in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function TPORoofingLevellandPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas", "name": "Levelland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert tpo roofing services in Levelland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert tpo roofing services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function TPORoofingLevellandPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -467,9 +468,9 @@ export default function TPORoofingLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                <h3 className="text-2xl font-bold text-red-700 mb-4">24/7 Storm Damage Response</h3>
+                <h3 className="text-2xl font-bold text-red-700 mb-4">Storm Damage Response</h3>
                 <p className="text-gray-700 mb-4">
-                  Severe weather doesn't wait for business hours. Our emergency response team is available 24/7 to secure your Levelland property after hail damage, wind damage, or storm events. We provide emergency tarping, temporary repairs, and immediate damage assessment.
+                  Severe weather doesn't wait for business hours. Our emergency response team is available to secure your Levelland property after hail damage, wind damage, or storm events. We provide emergency tarping, temporary repairs, and immediate damage assessment.
                 </p>
                 <div className="bg-white p-4 rounded-lg">
                   <h4 className="font-bold text-red-700 mb-2">Emergency Services Include:</h4>

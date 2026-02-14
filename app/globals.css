@@ -99,45 +99,11 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  /* Optimized Hero Background - Homepage */
+  /* Optimized Hero Background - Homepage - Local for fastest LCP */
   .hero-home {
     background-size: cover;
     background-position: center;
-  }
-
-  @media (max-width: 767px) {
-    .hero-home {
-      background-image: url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.avif);
-      background-image: image-set(
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.avif) type("image/avif"),
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.webp) type("image/webp"),
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-640w.jpg) type("image/jpeg")
-      );
-      /* Focus on the main subject for portrait view */
-      background-position: 60% center;
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 1279px) {
-    .hero-home {
-      background-image: url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.avif);
-      background-image: image-set(
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.avif) type("image/avif"),
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.webp) type("image/webp"),
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1280w.jpg) type("image/jpeg")
-      );
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .hero-home {
-      background-image: url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.avif);
-      background-image: image-set(
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.avif) type("image/avif"),
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.webp) type("image/webp"),
-        url(/photos/Professional_roofing_crew_on_Texas_residential_home-1920w.jpg) type("image/jpeg")
-      );
-    }
+    background-image: url(/images/hero-bg.webp);
   }
 
   /* Cards */

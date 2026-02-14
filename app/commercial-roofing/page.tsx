@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { OptimizedImage } from "@/components/OptimizedImage";
+
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing/' },
   title: 'Commercial Roofing in Amarillo TX| TPO, PVC, EPDM | 5 Star',
   description: 'commercial roofing in Amarillo. TPO, PVC, EPDM, and built-up roofing systems. Call for a free quote!',
 };
@@ -116,7 +117,7 @@ export default function Page() {
 
       {/* Hero Image */}
       <img
-        src="/images/commercial-roof-1024x575-panorama.png"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg"
         alt="Commercial roofing services Midland Odessa Texas - Flat roof TPO installation on business building - 5 Star Commercial Roofing"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
       />
@@ -136,7 +137,7 @@ export default function Page() {
         <FadeIn delay={0.1} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/images/commercial-roof-1024x575-panorama.png"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg"
               alt="TPO commercial roofing installation Midland TX - White membrane heat-welded seams - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -159,7 +160,7 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/images/TPO1.jpg"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg"
               alt="PVC commercial roofing membrane Odessa TX - Chemical resistant flat roof system - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -258,7 +259,7 @@ export default function Page() {
 
       <div className="mb-6">
         <img
-          src="/images/commercial-roof-1024x575-panorama.png"
+          src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg"
           alt="Large commercial flat roof installation in Amarillo TX - TPO membrane system for warehouse and industrial buildings - 5 Star Commercial Roofing"
           className="w-full h-64 object-cover rounded-lg"
         />
@@ -266,10 +267,10 @@ export default function Page() {
 
       <p className="mb-4">
         West Texas hailstorms can devastate commercial roofs, causing leaks, membrane punctures, and
-        equipment damage. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">commercial hail damage specialists</a> are ready 24/7 to protect your business:
+        equipment damage. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">commercial hail damage specialists</a> are ready to protect your business:
       </p>
       <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
-        <li><strong>Emergency Storm Response:</strong> Available 24/7 for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">emergency leak repairs</a> and tarping</li>
+        <li><strong>Emergency Storm Response:</strong> Available for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">emergency leak repairs</a> and tarping</li>
         <li><strong>Comprehensive Damage Assessment:</strong> Detailed documentation for insurance claims with drone inspections</li>
         <li><strong>Insurance Claim Assistance:</strong> We work directly with your adjuster to ensure full coverage—95% claim approval rate</li>
         <li><strong>Minimal Business Disruption:</strong> Strategic scheduling to keep your operations running during installation</li>
@@ -361,13 +362,7 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Why Choose 5 Star for Commercial Roofing?</h2>
 
       <div className="mb-6">
-        <OptimizedImage
-        src="/images/cover-background-roofing-sunset"
-        alt="Professional 5 Star roofing crew installing commercial roof in Texas"
-        className="w-full h-64 object-cover rounded-lg"
-        priority={true}
-        sizes="100vw"
-      />
+        <img src="/images/TPO1-1280w.jpg" alt="Professional TPO commercial roof installation in Texas" className="w-full h-64 object-cover rounded-lg" loading="lazy" />
       </div>
 
       <div className="grid md:grid-cols-3 gap-4 mb-8">

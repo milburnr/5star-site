@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-monahans/' },
   title: 'Roof Inspections Monahans TX | 5 Star Roofing',
   description: "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 severe hailstorms annually. Complete insurance documentation and storm damage assessment. Free inspections for Ward County. Call (806) 622-6041",
 };
@@ -53,7 +54,7 @@ export default function RoofInspectionsMonahansPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Monahans,_Texas", "name": "Monahans", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof inspections services in Monahans, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof inspections services in Monahans, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 

@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-dumas/' },
   title: 'Hail Damage Repair Dumas TX | 5 Star Roofing',
   description: "Professional hail damage roof repair in Dumas TX. Emergency response, insurance assistance, quality roofing. Serving Moore County. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -41,7 +42,7 @@ export default function HailDamageRepairDumasPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Dumas, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -66,7 +67,7 @@ export default function HailDamageRepairDumasPage() {
                 "name": "Moore County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair in Dumas, TX. Serving Moore County with 24/7 emergency response and insurance claim assistance."
+            "description": "Expert hail damage roof repair in Dumas, TX. Serving Moore County with prompt response and insurance claim assistance."
           })
         }}
       />
@@ -81,7 +82,7 @@ export default function HailDamageRepairDumasPage() {
               {"@type":"Question","name":"How do I know if my Dumas roof has hail damage?","acceptedAnswer":{"@type":"Answer","text":"Look for granule loss, dents on metal components, cracked shingles, and dented gutters. Moore County's northern Panhandle location means severe storms are common. Schedule a free inspection after any hail event."}},
               {"@type":"Question","name":"Will insurance cover hail damage in Dumas?","acceptedAnswer":{"@type":"Answer","text":"Yes, most Texas policies cover hail damage during your policy period. File within 1-2 years. We document impacts and advocate for maximum coverage."}},
               {"@type":"Question","name":"How much does hail damage repair cost in Dumas?","acceptedAnswer":{"@type":"Answer","text":"Costs vary by roof size and damage. Most pay only their deductible for storm repairs. Full replacements in Dumas typically range $7,000-$14,000."}},
-              {"@type":"Question","name":"How quickly can you respond to Dumas?","acceptedAnswer":{"@type":"Answer","text":"Dumas is about 49 miles north of our Amarillo headquarters. We offer 24/7 emergency response and can typically reach Dumas within 1 hour."}},
+              {"@type":"Question","name":"How quickly can you respond to Dumas?","acceptedAnswer":{"@type":"Answer","text":"Dumas is about 49 miles north of our Amarillo headquarters. We offer prompt response and can typically reach Dumas within 1 hour."}},
               {"@type":"Question","name":"Should I get Class 4 shingles in Dumas?","acceptedAnswer":{"@type":"Answer","text":"Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance discounts. Excellent for Moore County's severe weather."}}
             ]
           })
@@ -120,7 +121,7 @@ export default function HailDamageRepairDumasPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={49} suffix=" mi" /></div>
@@ -674,11 +675,11 @@ export default function HailDamageRepairDumasPage() {
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li><strong>Distance:</strong> Dumas is 49 miles from our Amarillo headquarters</li>
                     <li><strong>Response Time:</strong> Typically 45-75 minutes for urgent situations</li>
-                    <li><strong>24/7 Availability:</strong> Emergency tarping and temporary repairs</li>
+                    <li><strong>Availability:</strong> Emergency tarping and temporary repairs</li>
                     <li><strong>Scheduled Service:</strong> Usually same-day or next-day appointments</li>
                     <li><strong>Storm Response:</strong> Mobile teams deployed during severe weather events</li>
                   </ul>
-                  <p>During major storm events affecting Moore County, we often pre-position equipment in Dumas to ensure faster response times. Our emergency number (806) 622-6041 is staffed 24/7.</p>
+                  <p>During major storm events affecting Moore County, we often pre-position equipment in Dumas to ensure faster response times. Our emergency number (806) 622-6041 is staffed.</p>
                 </AccordionContent>
               </AccordionItem>
 

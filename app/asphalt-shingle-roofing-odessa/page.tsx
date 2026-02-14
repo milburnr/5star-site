@@ -8,6 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-odessa/' },
   title: 'Asphalt Shingle Roofing Odessa TX | 5 Star Roofing',
   description: "Industrial-grade asphalt shingle roofing in Odessa TX. Chemical-resistant materials for petrochemical environment. Budget-friendly to premium options. Call (806) 622-6041",
 };

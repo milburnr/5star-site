@@ -26,3 +26,14 @@ Thumbs.db
 # Testing
 .lighthouseci/
 google-service-account-key.json
+
+# Images (served from R2, not git)
+processed-categories/
+public/images/jobs/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.avif
+!public/images/*.jpg
+!public/images/*.webp

@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roof-repair-in-amarillo/' },
   title: 'Residential Roof Repair Amarillo TX | 5 Star',
   description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -132,7 +133,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -150,7 +151,7 @@ export default function Page() {
             When it comes to residential roof repair in Amarillo, homeowners face unique challenges due to the extreme weather conditions in the Texas Panhandle. High winds, frequent hailstorms, intense UV exposure, and dramatic temperature swings can all cause significant damage to roofs. The region sits in America's hail belt, experiencing an average of 8-12 hailstorms per year, making roof maintenance and regular roof inspections essential for catching potential roof leaks before they become major problems.
           </p>
           <p className="text-lg mt-4">
-            At 5 Star Commercial Roofing, we provide comprehensive <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> throughout Amarillo, Midland, Odessa, and Lubbock. Our experienced team understands the specific vulnerabilities that West Texas weather creates, and we deliver prompt, reliable roof repair services to efficiently restore your roof and ensure your home is protected from the elements. Whether you need emergency <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> or routine maintenance, we're here to help 24/7.
+            At 5 Star Commercial Roofing, we provide comprehensive <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> throughout Amarillo, Midland, Odessa, and Lubbock. Our experienced team understands the specific vulnerabilities that West Texas weather creates, and we deliver prompt, reliable roof repair services to efficiently restore your roof and ensure your home is protected from the elements. Whether you need emergency <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> or routine maintenance, we're here to help.
           </p>
         </div>
 
@@ -282,8 +283,8 @@ export default function Page() {
           <div className="card-body">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-bold text-lg text-brand-brown mb-2">24/7 Emergency Service</h3>
-                <p className="text-gray-600 mb-4">Storm damage doesn't wait for business hours. Call (806) 622-6041 anytime for emergency tarping and leak repair. We respond quickly to minimize interior damage.</p>
+                <h3 className="font-bold text-lg text-brand-brown mb-2"></h3>
+                <p className="text-gray-600 mb-4">Contact us for storm damage assessment and tarping services. Call (806) 622-6041 during business hours and leak repair. We respond quickly to minimize interior damage.</p>
 
                 <h3 className="font-bold text-lg text-brand-brown mb-2">Insurance Expertise</h3>
                 <p className="text-gray-600 mb-4">We've worked with every major insurance carrier in Texas and know exactly what documentation is needed to get your claim approved quickly.</p>
@@ -377,7 +378,7 @@ export default function Page() {
           <div className="card">
             <div className="card-body">
               <h3 className="font-bold mb-2">How quickly can you respond to emergency repairs?</h3>
-              <p>We offer 24/7 emergency service for active leaks and storm damage. Call (806) 622-6041 anytime, and we'll dispatch crews to your location as quickly as possible—often within hours during major storm events.</p>
+              <p>We offer  for active leaks and storm damage. Call (806) 622-6041 anytime, and we'll dispatch crews to your location as quickly as possible—often within hours during major storm events.</p>
             </div>
           </div>
           <div className="card">
@@ -408,7 +409,7 @@ export default function Page() {
         <section className="cta-section mt-12">
           <h2 className="cta-title">Schedule Your Free Roof Inspection Today</h2>
           <p className="cta-text">
-            Serving Amarillo and the entire Texas Panhandle with expert residential roof repair services. Emergency service available 24/7. Most insurance claims cover storm damage.
+            Serving Amarillo and the entire Texas Panhandle with expert residential roof repair services. . Most insurance claims cover storm damage.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">📞 Call (806) 622-6041

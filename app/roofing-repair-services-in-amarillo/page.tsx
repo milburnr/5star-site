@@ -4,8 +4,9 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roofing-repair-services-in-amarillo/' },
   title: 'Roofing Repair Amarillo TX | 5 Star Roofing',
-  description: 'Leading roofing repair services in Amarillo TX. Emergency storm damage repair, hail damage restoration, leak detection, insurance claims assistance. Licensed, bonded & insured with 10+ years local experience. Free estimates & 24/7 emergency response.',
+  description: 'Leading roofing repair services in Amarillo TX. Emergency storm damage repair, hail damage restoration, leak detection, insurance claims assistance. Licensed, bonded & insured with 10+ years local experience. Free estimates & prompt response.',
 };
 
 export default function Page() {
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -220,10 +221,10 @@ export default function Page() {
           </div>
           
           <div className="pricing-card">
-            <h3 className="pricing-title">Emergency Services</h3>
+            <h3 className="pricing-title">Storm Damage Services</h3>
             <div className="pricing-amount">$350 - $1,200</div>
             <ul className="pricing-features">
-              <li>24/7 response available</li>
+              <li>response available</li>
               <li>Emergency tarping</li>
               <li>Temporary leak stoppage</li>
               <li>Same-day assessment</li>
@@ -492,7 +493,7 @@ export default function Page() {
           <div className="space-y-6">
             <div>
               <h3 className="font-bold mb-2">Q: How quickly can you respond to emergency repairs in Amarillo?</h3>
-              <p className="text-sm">A: We provide 24/7 emergency response throughout Amarillo, Canyon, and Bushland. Same-day emergency tarping is available, with permanent repairs typically scheduled within 48-72 hours depending on weather and damage extent.</p>
+              <p className="text-sm">A: We provide prompt response throughout Amarillo, Canyon, and Bushland. Same-day emergency tarping is available, with permanent repairs typically scheduled within 48-72 hours depending on weather and damage extent.</p>
             </div>
             
             <div>
@@ -625,7 +626,7 @@ export default function Page() {
             <strong>Service Area:</strong> Amarillo • Canyon • Bushland • Happy • Wildorado • Vega • Claude • Potter County • Randall County
           </p>
           <p className="text-white text-sm mt-2">
-            <strong>Business Hours:</strong> Mon-Sat 7:00 AM - 7:00 PM | <strong>Emergency Service:</strong> 24/7/365
+            <strong>Business Hours:</strong> Mon-Sat 7:00 AM - 7:00 PM | <strong>Emergency Service:</strong>/365
           </p>
         </div>
       </section>

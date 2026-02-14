@@ -6,6 +6,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/lubbock-tx-roofing/' },
   title: 'Roofing in Lubbock TX | South Plains Weather Experts',
   description: 'roofing in Lubbock. South Plains weather experts. Residential and commercial services. Lubbock experiences 6-8 hailstorms annually.',
 };
@@ -184,7 +185,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg" alt="Hail damage roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -215,7 +216,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg" alt="Residential roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -246,7 +247,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO3.jpg" alt="Commercial roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="Commercial roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -339,24 +340,24 @@ export default function LubbockRoofingPage() {
               <InteractiveCard className="bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       Emergency Roof Repair
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Available 24/7 for roofing emergencies throughout Lubbock.</strong> Storm damage, roof leaks, wind damage, or structural issues can&apos;t wait. Water damage compounds rapidly - what starts as a small leak can cause thousands in interior damage within hours. We provide emergency tarping, temporary leak repairs, storm damage assessment, and same-day solutions to protect your property until permanent repairs can be completed.
+                      <strong>Available for roofing emergencies throughout Lubbock.</strong> Storm damage, roof leaks, wind damage, or structural issues can&apos;t wait. Water damage compounds rapidly - what starts as a small leak can cause thousands in interior damage within hours. We provide emergency tarping, temporary leak repairs, storm damage assessment, and same-day solutions to protect your property until permanent repairs can be completed.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
                       {" "}now for immediate assistance anywhere in Lubbock - from Tech Terrace to Shadow Hills, from Arnett Benson to Whisperwood. Our emergency crews are standing by.
                     </p>
                     <a
-                      href="/emergency-roof-repair-lubbock-texas/"
+                      href="/roof-repair-lubbock/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
-                      24/7 Emergency Services →
+                      s →
                     </a>
                   </div>
                 </div>
@@ -559,7 +560,7 @@ export default function LubbockRoofingPage() {
                         <strong>Hours:</strong><br />
                         Monday - Sunday<br />
                         9:00 AM - 5:00 PM<br />
-                        <span className="text-red-600 font-semibold">24/7 Emergency Service Available</span>
+                        <span className="text-red-600 font-semibold"></span>
                       </p>
                     </div>
                   </div>
@@ -767,7 +768,7 @@ export default function LubbockRoofingPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Emergency Roof Repair",
-                    "description": "24/7 emergency roofing services for urgent situations throughout Lubbock"
+                    "description": "emergency roofing services for urgent situations throughout Lubbock"
                   }
                 }
               ]

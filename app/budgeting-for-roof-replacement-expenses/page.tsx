@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/budgeting-for-roof-replacement-expenses/' },
   title: 'Budgeting for Roof Replacement Expenses| Amarillo Roofing',
   description: 'Affordable and reliable roof replacement services in Amarillo, TX. FREE inspections and estimates so you can budget exactly what it will cost you.',
 };
@@ -48,7 +49,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/roof-replacement-amarillo.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-6-1280w.jpg"
         alt="Roof Replacement in Amarillo TX"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />

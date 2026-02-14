@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-dumas/' },
   title: 'Residential Roofing Dumas TX | 5 Star Roofing',
-  description: "Professional residential roofing in Dumas TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional residential roofing in Dumas TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingDumasPage() {
@@ -51,7 +52,7 @@ export default function ResidentialRoofingDumasPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Dumas",
-            "description": "Professional residential roofing services in Dumas, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Dumas, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function ResidentialRoofingDumasPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Residential Roofing in <span className="text-brand-gold-light">Dumas</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Dumas. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Dumas. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function ResidentialRoofingDumasPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -174,7 +175,7 @@ export default function ResidentialRoofingDumasPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">Expert restoration services for hail, wind, and severe weather damage common in Moore County.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• 24/7 emergency response</li>
+                  <li>• prompt response</li>
                   <li>• Insurance claim assistance</li>
                   <li>• Temporary protection services</li>
                   <li>• Complete documentation</li>
@@ -263,7 +264,7 @@ export default function ResidentialRoofingDumasPage() {
                 </ul>
                 
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-brand-brown font-semibold">Free estimates and inspections available throughout our service area. Emergency services available 24/7 for storm damage.</p>
+                  <p className="text-sm text-brand-brown font-semibold">Free estimates and inspections available throughout our service area. .</p>
                 </div>
               </div>
             </div>
@@ -323,7 +324,7 @@ export default function ResidentialRoofingDumasPage() {
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">24/7 Storm Response</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Response</h3>
                 <p className="text-gray-700 mb-6">When severe weather strikes Dumas and Moore County, our emergency response team is ready to protect your home and family. We understand that roofing emergencies don't wait for business hours, especially during the active storm season in the Texas Panhandle.</p>
                 
                 <div className="bg-red-50 p-6 rounded-xl mb-6">
@@ -358,7 +359,7 @@ export default function ResidentialRoofingDumasPage() {
             <div className="text-center mt-8">
               <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-6 rounded-xl inline-block">
                 <h3 className="text-2xl font-bold mb-2">Emergency Hotline</h3>
-                <p className="text-xl mb-3">Available 24/7 for Storm Damage</p>
+                <p className="text-xl mb-3">Available for Storm Damage</p>
                 <a href="tel:8066226041" className="bg-white text-red-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-all">
                   📞 Call (806) 622-6041 NOW
                 </a>

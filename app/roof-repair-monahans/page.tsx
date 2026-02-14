@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-monahans/' },
   title: "Roof Repair Monahans TX | 5 Star Commercial Roofing",
   description: "Professional roof repair services in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function RoofRepairMonahansPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Monahans,_Texas", "name": "Monahans", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Monahans, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Monahans, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function RoofRepairMonahansPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -650,7 +651,7 @@ export default function RoofRepairMonahansPage() {
                     <li>• Oil industry activity affects labor costs</li>
                     <li>• Desert-rated materials carry 10-15% premium</li>
                     <li>• Remote locations may include travel charges</li>
-                    <li>• Emergency service availability 24/7</li>
+                    <li>• Emergency service availability</li>
                   </ul>
                 </div>
                 <div>
@@ -737,8 +738,8 @@ export default function RoofRepairMonahansPage() {
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Desert Storm Repair</h3>
-                <p className="text-gray-600 mb-4 text-sm">24/7 emergency response for sandstorm and severe weather damage throughout Ward County</p>
-                <a href="/emergency-roof-repair-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+                <p className="text-gray-600 mb-4 text-sm">prompt response for sandstorm and severe weather damage throughout Ward County</p>
+                <a href="/roof-repair-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Industrial Roofing</h3>

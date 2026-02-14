@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo/' },
   title: 'Residential Roofing Amarillo TX | 5 Star Roofing',
   description: 'Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -91,7 +92,7 @@ export default function ResidentialRoofingAmarilloPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Amarillo",
-            "description": "Professional residential roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",

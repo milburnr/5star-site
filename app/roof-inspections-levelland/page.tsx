@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-levelland/' },
   title: 'Roof Inspections Levelland TX | 5 Star Roofing',
   description: "Expert roof inspections in Levelland TX. South Plains experiences 7-10 severe hailstorms annually. Complete storm damage assessment and insurance documentation. Free inspections for Hockley County. Call (806) 622-6041",
 };
@@ -53,7 +54,7 @@ export default function RoofInspectionsLevellandPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas", "name": "Levelland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof inspections services in Levelland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof inspections services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 

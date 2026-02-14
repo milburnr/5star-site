@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: 'Customer Reviews | 5 Star Commercial Roofing Amarillo, Mi...',
+  alternates: { canonical: 'https://5starroofingpros.com/reviews/' },
+  title: 'Customer Reviews | 5 Star Roofing Amarillo',
   description: 'Read reviews from satisfied customers across West Texas. Call for a free quote!',
 };
 

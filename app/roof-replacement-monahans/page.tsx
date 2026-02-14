@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-monahans/' },
   title: 'Roof Replacement Monahans TX | 5 Star Roofing',
-  description: "Professional roof replacement in Monahans TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional roof replacement in Monahans TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function RoofReplacementMonahansPage() {
@@ -51,7 +52,7 @@ export default function RoofReplacementMonahansPage() {
             "@type": "Service",
             "serviceType": "Roof Replacement Services",
             "name": "Roof Replacement in Monahans",
-            "description": "Professional roof replacement services in Monahans, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roof replacement services in Monahans, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function RoofReplacementMonahansPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Roof Replacement in <span className="text-brand-gold-light">Monahans, Texas</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Desert Climate Roofing Solutions</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional roof replacement throughout Monahans and West Texas. Specializing in desert climate roofing systems engineered for extreme heat, windblown sand, and temperature fluctuations. Expert installation, comprehensive warranties, and 24/7 emergency service.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional roof replacement throughout Monahans and West Texas. Specializing in desert climate roofing systems engineered for extreme heat, windblown sand, and temperature fluctuations. Expert installation, comprehensive warranties, and .</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function RoofReplacementMonahansPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={15} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -280,7 +281,7 @@ export default function RoofReplacementMonahansPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
-                    <div>24/7 emergency response</div>
+                    <div>prompt response</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
@@ -384,7 +385,7 @@ export default function RoofReplacementMonahansPage() {
                   <li>• Multiple active leaks in severe weather</li>
                 </ul>
                 <div className="mt-6 p-4 bg-red-100 rounded-lg">
-                  <p className="text-red-800 font-bold">Call (806) 622-6041 for 24/7 emergency response</p>
+                  <p className="text-red-800 font-bold">Call (806) 622-6041 for prompt response</p>
                 </div>
               </div>
               <div className="bg-blue-50 p-8 rounded-xl border border-blue-200">

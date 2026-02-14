@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-andrews/' },
   title: "Wind Damage Repair Andrews TX | 5 Star Commercial Roofing",
   description: "Expert wind damage roof repair in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function WindDamageRepairAndrewsPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Andrews,_Texas", "name": "Andrews", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Andrews, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function WindDamageRepairAndrewsPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -209,7 +210,7 @@ export default function WindDamageRepairAndrewsPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-slate-500">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Emergency Wind Damage Response</h4>
-                <p className="text-gray-600 mb-3">24/7 emergency tarping and stabilization services for Andrews properties after severe wind events. Our rapid response team secures damaged areas within hours, preventing secondary water damage and protecting your property until permanent repairs begin.</p>
+                <p className="text-gray-600 mb-3">emergency tarping services and stabilization services for Andrews properties after severe wind events. Our rapid response team secures damaged areas within hours, preventing secondary water damage and protecting your property until permanent repairs begin.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• Emergency tarping and board-up</li>
                   <li>• Structural damage assessment</li>
@@ -272,7 +273,7 @@ export default function WindDamageRepairAndrewsPage() {
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-slate-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Emergency Response & Damage Assessment</h3>
-                  <p className="text-gray-600">Our 24/7 emergency response team provides immediate property protection after Andrews wind events. We secure damaged areas, document destruction for insurance purposes, and conduct comprehensive assessments to identify all wind-related damage including hidden structural issues common in Permian Basin storms.</p>
+                  <p className="text-gray-600">Our prompt response team provides immediate property protection after Andrews wind events. We secure damaged areas, document destruction for insurance purposes, and conduct comprehensive assessments to identify all wind-related damage including hidden structural issues common in Permian Basin storms.</p>
                 </div>
               </div>
 

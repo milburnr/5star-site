@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock-texas/' },
   title: 'Commercial Roofing in Lubbock TX| TPO, EPDM, Flat Roofs',
   description: 'Commercial Roofing in Lubbock, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -36,7 +37,7 @@ export default function CommercialLubbockPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert commercial roofing services in Lubbock, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert commercial roofing services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -119,7 +120,7 @@ export default function CommercialLubbockPage() {
               Healthcare Commercial Roofing Excellence in Lubbock
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Lubbock's medical district anchored by Covenant Health System and University Medical Center creates extensive commercial roofing demands for critical healthcare facilities that operate 24/7 with zero tolerance for weather-related service disruptions. Hospital roofing systems must accommodate helicopter landing zones, medical gas systems, and specialized HVAC equipment while maintaining sterile environments.
+              Lubbock's medical district anchored by Covenant Health System and University Medical Center creates extensive commercial roofing demands for critical healthcare facilities that operate with zero tolerance for weather-related service disruptions. Hospital roofing systems must accommodate helicopter landing zones, medical gas systems, and specialized HVAC equipment while maintaining sterile environments.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The Grace Campus including Grace Clinic and specialized medical facilities requires roofing systems that support outpatient surgery centers, diagnostic imaging equipment, and pharmaceutical storage areas. These facilities demand superior moisture control and chemical resistance while maintaining infection control standards required for medical operations.
@@ -249,7 +250,7 @@ export default function CommercialLubbockPage() {
                   <li>✓ Membrane patching</li>
                   <li>✓ Seam repairs</li>
                   <li>✓ Preventive maintenance plans</li>
-                  <li>✓ Emergency 24/7 service</li>
+                  <li>✓ Emergency service</li>
                 </ul>
               </div>
             </div>

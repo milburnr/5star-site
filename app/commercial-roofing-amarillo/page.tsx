@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo/' },
   title: 'Commercial Roofing Amarillo TX | 5 Star Roofing',
   description: 'Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -91,7 +92,7 @@ export default function CommercialRoofingAmarilloPage() {
             "@type": "Service",
             "serviceType": "Commercial Roofing Services",
             "name": "Commercial Roofing in Amarillo",
-            "description": "Professional commercial roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional commercial roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -200,10 +201,10 @@ export default function CommercialRoofingAmarilloPage() {
                 Commercial Roofing in <span className="text-brand-gold-light">Amarillo</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                24/7 Emergency Service for Texas Panhandle Businesses
+                 for Texas Panhandle Businesses
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert commercial roofing for Amarillo businesses. TPO, EPDM, and metal roofing systems engineered for the Texas Panhandle's harsh weather. Minimize operational disruption with our after-hours installation. 24/7 emergency response available.
+                Expert commercial roofing for Amarillo businesses. TPO, EPDM, and metal roofing systems engineered for the Texas Panhandle's harsh weather. Minimize operational disruption with our after-hours installation. prompt response available.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
@@ -223,7 +224,7 @@ export default function CommercialRoofingAmarilloPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -254,7 +255,7 @@ export default function CommercialRoofingAmarilloPage() {
               Commercial buildings in the Texas Panhandle face relentless weather—8-12 hailstorms annually, extreme temperature swings, intense UV radiation, and sustained winds. Your roof isn't just overhead protection; it's a critical business asset protecting inventory, equipment, and operations. Downtime from roof leaks costs Amarillo businesses thousands per day in lost productivity.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We specialize in minimizing disruption to your business. After-hours and weekend installations keep your operations running. Our 24/7 emergency response team handles storm damage and urgent leaks within hours. From small retail buildings along Historic Route 66 to large industrial facilities near Bell Helicopter, from Downtown Amarillo offices to warehouses near the Amarillo Civic Center, we install TPO, EPDM, and metal roofing systems with 15-25 year warranties backed by manufacturers and our workmanship guarantee.
+              We specialize in minimizing disruption to your business. After-hours and weekend installations keep your operations running. Our prompt response team handles storm damage and urgent leaks within hours. From small retail buildings along Historic Route 66 to large industrial facilities near Bell Helicopter, from Downtown Amarillo offices to warehouses near the Amarillo Civic Center, we install TPO, EPDM, and metal roofing systems with 15-25 year warranties backed by manufacturers and our workmanship guarantee.
             </p>
           </section>
         </FadeIn>
@@ -266,7 +267,7 @@ export default function CommercialRoofingAmarilloPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/TPO1.jpg" alt="TPO Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="TPO Commercial Roofing Installation" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs in Amarillo's hot summers. Excellent hail resistance and proven performance in Texas Panhandle weather.
@@ -280,7 +281,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/SteelRoofing.jpg" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="/images/SteelRoofing-1280w.jpg" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Standing seam and R-panel metal roofing for commercial applications. Superior wind resistance (140+ mph), fire resistance (Class A), and longevity (50+ years). Ideal for warehouses, manufacturing facilities, and retail buildings.
@@ -294,7 +295,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/EPDM2.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="/images/EPDM1-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance and proven performance in extreme temperatures (-40°F to 300°F). Budget-friendly option with reliable 15-30 year lifespan.
@@ -432,9 +433,9 @@ export default function CommercialRoofingAmarilloPage() {
             <div className="flex gap-6 items-center">
               <div className="text-6xl">🚨</div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-red-800 mb-3">24/7 Emergency Commercial Roofing</h2>
+                <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Commercial Roofing</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Storm damage or active leak threatening your Amarillo business? We provide 24/7 emergency response with temporary repairs, tarping, and leak mitigation. Minimize inventory damage, protect equipment, and keep operations running.
+                  Storm damage or active leak threatening your Amarillo business? We provide prompt response with temporary repairs, tarping, and leak mitigation. Minimize inventory damage, protect equipment, and keep operations running.
                 </p>
                 <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300">
                   Emergency: (806) 622-6041
@@ -528,7 +529,7 @@ export default function CommercialRoofingAmarilloPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Protect Your Amarillo Business</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free commercial roofing estimates. 24/7 emergency service. After-hours installation available.
+            Free commercial roofing estimates. . After-hours installation available.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">

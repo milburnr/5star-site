@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-andrews/' },
   title: "Roof Repair Andrews TX | 5 Star Commercial Roofing",
   description: "Professional roof repair services in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function RoofRepairAndrewsPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Andrews,_Texas", "name": "Andrews", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Andrews, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function RoofRepairAndrewsPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -207,8 +208,8 @@ export default function RoofRepairAndrewsPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold mb-3 text-brand-brown">Emergency Repairs</h4>
-                <p className="text-gray-600 mb-3">24/7 response for storm damage, leaks, and structural issues affecting Andrews properties.</p>
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Repair</h4>
+                <p className="text-gray-600 mb-3">response for storm damage, leaks, and structural issues affecting Andrews properties.</p>
                 <ul className="text-sm text-gray-600">
                   <li>• Immediate leak stoppage</li>
                   <li>• Temporary weatherproofing</li>
@@ -371,7 +372,7 @@ export default function RoofRepairAndrewsPage() {
                   How quickly can you respond to roof emergencies in Andrews?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  We provide 24/7 emergency response for Andrews County. Our team typically arrives within 2-4 hours for emergency calls, with temporary repairs completed the same day when weather permits. We understand that Permian Basin storms can cause sudden, severe damage that requires immediate attention to prevent further property damage.
+                  We provide prompt response for Andrews County. Our team typically arrives within 2-4 hours for emergency calls, with temporary repairs completed the same day when weather permits. We understand that Permian Basin storms can cause sudden, severe damage that requires immediate attention to prevent further property damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -460,7 +461,7 @@ export default function RoofRepairAndrewsPage() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="text-4xl mb-2">🕐</div>
-                  <h4 className="font-bold mb-2 text-brand-brown">24/7 Emergency Response</h4>
+                  <h4 className="font-bold mb-2 text-brand-brown">Emergency Response</h4>
                   <p className="text-sm text-gray-600">Always available when Andrews weather strikes</p>
                 </div>
                 <div className="text-center">

@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-amarillo/' },
   title: "Roof Repair Amarillo TX | Expert Service | Free Inspection",
-  description: "Professional roof repair in Amarillo TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional roof repair in Amarillo TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function RoofRepairAmarilloPage() {
@@ -586,8 +587,8 @@ export default function RoofRepairAmarilloPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Storm Repair</h3>
-                <p className="text-gray-600 mb-4">24/7 response for hail and wind damage throughout Potter County</p>
-                <a href="/emergency-roof-repair-amarillo/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
+                <p className="text-gray-600 mb-4">response for hail and wind damage throughout Potter County</p>
+                <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Repair</h3>

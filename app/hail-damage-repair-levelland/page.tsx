@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-levelland/' },
   title: 'Hail Damage Repair Levelland TX | 5 Star Roofing',
-  description: "Professional hail damage repair in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional hail damage repair in Levelland TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function HailDamageRepairLevellandPage() {
@@ -51,7 +52,7 @@ export default function HailDamageRepairLevellandPage() {
             "@type": "Service",
             "serviceType": "Hail Damage Roof Repair",
             "name": "Hail Damage Repair in Levelland",
-            "description": "Professional hail damage repair services in Levelland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional hail damage repair services in Levelland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -68,7 +69,7 @@ export default function HailDamageRepairLevellandPage() {
               "name": "Hail Damage Repair Services",
               "itemListElement": [
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Roof Repair" } },
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
               ]
             }
@@ -89,7 +90,7 @@ export default function HailDamageRepairLevellandPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Hail Damage Repair in <span className="text-brand-gold-light">Levelland</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Levelland. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Levelland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function HailDamageRepairLevellandPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -219,7 +220,7 @@ export default function HailDamageRepairLevellandPage() {
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Storm Tracking & Deployment</h4>
-                      <p className="text-gray-600 text-sm">24/7 weather monitoring with pre-positioned response teams activated when severe weather approaches Hockley County</p>
+                      <p className="text-gray-600 text-sm">weather monitoring with pre-positioned response teams activated when severe weather approaches Hockley County</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">

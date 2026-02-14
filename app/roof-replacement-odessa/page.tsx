@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-odessa/' },
   title: 'Roof Replacement Odessa TX | 5 Star Roofing',
   description: "Expert roof replacement in Odessa TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
 };
@@ -91,7 +92,7 @@ export default function RoofReplacementOdessaPage() {
             "@type": "Service",
             "serviceType": "Roof Replacement Services",
             "name": "Roof Replacement in Odessa",
-            "description": "Professional roof replacement services in Odessa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roof replacement services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -166,7 +167,7 @@ export default function RoofReplacementOdessaPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">

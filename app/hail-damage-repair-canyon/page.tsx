@@ -12,8 +12,9 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-canyon/' },
   title: 'Hail Damage Repair Canyon TX | 5 Star Roofing',
-  description: "Expert hail damage roof repair in Canyon TX. 24/7 emergency service, insurance claim help, Class 4 shingles. Serving Randall County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Canyon TX. , insurance claim help, Class 4 shingles. Serving Randall County. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairCanyonPage() {
   return (
@@ -41,7 +42,7 @@ export default function HailDamageRepairCanyonPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas", "name": "Canyon", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Canyon, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -66,7 +67,7 @@ export default function HailDamageRepairCanyonPage() {
                 "name": "Randall County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair in Canyon, TX. Serving WTAMU area and Randall County with 24/7 emergency response and insurance claim assistance."
+            "description": "Expert hail damage roof repair in Canyon, TX. Serving WTAMU area and Randall County with prompt response and insurance claim assistance."
           })
         }}
       />
@@ -82,7 +83,7 @@ export default function HailDamageRepairCanyonPage() {
               {"@type":"Question","name":"Will insurance cover hail damage repair in Canyon?","acceptedAnswer":{"@type":"Answer","text":"Yes, most Texas policies cover hail damage if it occurred during your policy period and you file within 1-2 years. We document impacts, meet adjusters on-site, and advocate for maximum coverage. 95%+ approval rate."}},
               {"@type":"Question","name":"How much does hail damage repair cost in Canyon?","acceptedAnswer":{"@type":"Answer","text":"Costs vary by roof size and damage extent. Most homeowners pay only their deductible for storm-related repairs. Full replacements in Canyon typically range $7,000-$14,000 for average homes."}},
               {"@type":"Question","name":"Do you serve WTAMU student housing in Canyon?","acceptedAnswer":{"@type":"Answer","text":"Yes, we work with landlords, property managers, and homeowners throughout Canyon including the WTAMU area. We understand the need for efficient repairs that minimize disruption."}},
-              {"@type":"Question","name":"How quickly can you respond to Canyon?","acceptedAnswer":{"@type":"Answer","text":"Canyon is just 17 miles from our Amarillo headquarters—we can typically reach you within 30 minutes for emergencies. We offer 24/7 emergency response."}}
+              {"@type":"Question","name":"How quickly can you respond to Canyon?","acceptedAnswer":{"@type":"Answer","text":"Canyon is just 17 miles from our Amarillo headquarters—we can typically reach you within 30 minutes for emergencies. We offer prompt response."}}
             ]
           })
         }}
@@ -120,7 +121,7 @@ export default function HailDamageRepairCanyonPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={17} suffix=" mi" /></div>
@@ -691,7 +692,7 @@ export default function HailDamageRepairCanyonPage() {
                     <li><strong>Distance:</strong> Only 17 miles from our Amarillo headquarters</li>
                     <li><strong>Emergency Response:</strong> 25-35 minutes for urgent situations</li>
                     <li><strong>Normal Service:</strong> Same-day appointments available</li>
-                    <li><strong>24/7 Availability:</strong> Emergency tarping and temporary repairs</li>
+                    <li><strong>Availability:</strong> Emergency tarping and temporary repairs</li>
                     <li><strong>Storm Season:</strong> Mobile teams pre-positioned during severe weather</li>
                   </ul>
                   <p>During major hail events affecting Canyon, we often set up temporary operations at WTAMU-area locations to minimize response times. Our emergency line (806) 622-6041 connects you directly to our dispatch center around the clock.</p>

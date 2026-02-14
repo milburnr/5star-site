@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-midland-texas/' },
   title: 'Commercial Roofing in Midland TX| Oil & Gas Specialists',
   description: 'Commercial Roofing in Midland, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -36,7 +37,7 @@ export default function CommercialMidlandPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert commercial roofing services in Midland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert commercial roofing services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -80,7 +81,7 @@ export default function CommercialMidlandPage() {
               5 Star Commercial Roofing specializes in flat roof systems, TPO, EPDM, and PVC installations for Midland businesses. Minimal disruption, maximum durability, and warranties that protect your investment. Our expertise serves the petroleum industry, financial sector, healthcare facilities, and growing technology companies throughout the Permian Basin.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              With major oil companies, service providers, and financial institutions headquartered in Midland, we understand the complexity of commercial roofing projects for high-rise buildings, industrial facilities, and specialized petroleum operations. Emergency response capabilities and 24/7 availability ensure critical business operations continue without weather-related interruptions.
+              With major oil companies, service providers, and financial institutions headquartered in Midland, we understand the complexity of commercial roofing projects for high-rise buildings, industrial facilities, and specialized petroleum operations. Emergency response capabilities and availability ensure critical business operations continue without weather-related interruptions.
             </p>
           </section>
         </FadeIn>
@@ -161,7 +162,7 @@ export default function CommercialMidlandPage() {
               Midland International Air and Space Port requires specialized commercial roofing for aircraft maintenance facilities, cargo handling operations, and passenger terminal buildings that support petroleum industry transportation needs. These facilities demand large-span roofing systems that accommodate aircraft movement while providing weather protection for sensitive aviation equipment and operations.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Trucking and logistics facilities supporting petroleum industry transportation require roofing systems that accommodate loading dock operations, truck maintenance bays, and cargo storage areas while providing protection for petroleum industry equipment and supplies transported throughout the Permian Basin. These facilities often operate 24/7 during peak drilling and completion activities.
+              Trucking and logistics facilities supporting petroleum industry transportation require roofing systems that accommodate loading dock operations, truck maintenance bays, and cargo storage areas while providing protection for petroleum industry equipment and supplies transported throughout the Permian Basin. These facilities often operate during peak drilling and completion activities.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Railroad facilities including Union Pacific operations serving petroleum industry transportation need roofing systems for maintenance shops, cargo handling facilities, and administrative buildings that support critical transportation infrastructure for petroleum industry operations throughout West Texas and beyond.
@@ -206,7 +207,7 @@ export default function CommercialMidlandPage() {
               Commercial roofing projects in Midland's petroleum industry environment require extensive safety protocols including hot work permits, fire watch procedures, and coordination with facility safety personnel to prevent ignition sources near hydrocarbon operations. Our crews maintain specialized training and certification for working in explosive atmosphere environments common throughout the Permian Basin.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Emergency response capabilities specifically designed for petroleum industry environments include specialized equipment for chemical exposure situations and coordination with industrial emergency response teams. 24/7 emergency roofing services ensure critical petroleum operations continue during severe weather events or equipment failures that could compromise facility operations.
+              Emergency response capabilities specifically designed for petroleum industry environments include specialized equipment for chemical exposure situations and coordination with industrial emergency response teams. emergency roofing services ensure critical petroleum operations continue during severe weather events or equipment failures that could compromise facility operations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Environmental compliance requirements for petroleum industry facilities affect roofing material selection, installation procedures, and waste management protocols. Storm water management, chemical containment, and air quality protection require specialized construction practices that exceed standard commercial building requirements while ensuring full regulatory compliance.
@@ -277,7 +278,7 @@ export default function CommercialMidlandPage() {
                   <li>✓ Membrane patching</li>
                   <li>✓ Seam repairs</li>
                   <li>✓ Preventive maintenance plans</li>
-                  <li>✓ Emergency 24/7 service</li>
+                  <li>✓ Emergency service</li>
                 </ul>
               </div>
             </div>
@@ -317,7 +318,7 @@ export default function CommercialMidlandPage() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">⛈️ Hail & Storm Damage</h3>
-                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer 24/7 emergency repairs to protect your facility.</p>
+                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer emergency repairs to protect your facility.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">🏭 Industrial Environment</h3>

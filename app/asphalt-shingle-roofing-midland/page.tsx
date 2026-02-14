@@ -8,6 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-midland/' },
   title: 'Asphalt Shingle Roofing Midland TX | 5 Star Roofing',
   description: "Heavy-duty asphalt shingle roofing in Midland TX. Built for Permian Basin weather and industrial conditions. Desert-rated materials. 30-year warranties. Call (806) 622-6041",
 };

@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/canyon-tx-roofing/' },
   title: 'Canyon TX Roofing | Professional Roofer Serving Canyon,',
   description: 'Trusted roofing contractor serving Canyon, TX from our Amarillo location. hail damage repair, residential & commercial roofing.',
 };
@@ -143,7 +144,7 @@ export default function CanyonTXRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage repair services for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-12-1280w.jpg" alt="Hail damage repair services for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -175,7 +176,7 @@ export default function CanyonTXRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Residential roofing services for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Canyon Residential Roofing
                     </h3>
@@ -208,7 +209,7 @@ export default function CanyonTXRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-5-1280w.jpg" alt="Commercial roofing services for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial & Educational Facility Roofing
                     </h3>
@@ -273,7 +274,7 @@ export default function CanyonTXRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free roof inspections for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg" alt="Free roof inspections for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -306,9 +307,9 @@ export default function CanyonTXRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roofing service for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="emergency roofing service for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      24/7 Emergency Service
+                      
                     </h3>
                   </div>
                   <div className="md:w-2/3">
@@ -529,7 +530,7 @@ export default function CanyonTXRoofingPage() {
                   <p className="mb-2">Phone: <a href="tel:8066226041" className="hover:text-brand-gold-light">(806) 622-6041</a></p>
                   <p className="mb-2">Email: admin@5starroofingpros.com</p>
                   <p className="mb-2">Hours: Mon-Sun 9AM-5PM</p>
-                  <p className="text-brand-gold-light">24/7 Emergency Service Available</p>
+                  <p className="text-brand-gold-light"></p>
                 </div>
               </div>
               <a
@@ -688,7 +689,7 @@ export default function CanyonTXRoofingPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "24/7 Emergency Roof Repair",
+                    "name": "Emergency Roof Repair",
                     "description": "Fast emergency roofing service for Canyon from our nearby Amarillo location"
                   }
                 }

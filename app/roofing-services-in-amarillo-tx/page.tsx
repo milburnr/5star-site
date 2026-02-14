@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roofing-services-in-amarillo-tx/' },
   title: 'Amarillo TX Roofing Services | 5 Star Roofing',
   description: "Complete roofing services in Amarillo, TX. Residential & commercial, repair & replacement, hail damage, emergency service. Free inspections. Call (806) 622-6041",
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -203,7 +204,7 @@ export default function Page() {
         </div>
         <div className="feature-box">
           <div className="feature-icon">⚡</div>
-          <h3 className="feature-title">24/7 Emergency Service</h3>
+          <h3 className="feature-title"></h3>
           <p className="feature-text">Available around the clock for emergency tarping and storm damage response</p>
         </div>
         <div className="feature-box">
@@ -386,7 +387,7 @@ export default function Page() {
       <section className="cta-section mt-12">
         <h2 className="cta-title">Need Roofing Services in Amarillo?</h2>
         <p className="cta-text">
-          Free inspections, honest estimates, and professional installation. Available 24/7 for emergency service. Serving Amarillo and the Texas Panhandle for over 10 years.
+          Free inspections, honest estimates, and professional installation. Available for emergency service. Serving Amarillo and the Texas Panhandle for over 10 years.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">

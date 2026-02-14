@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-storm-damage-in-amarillo/' },
   title: 'Emergency Storm Damage Roof Repair in Amarillo | 5 Star',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert storm damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert storm damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -205,7 +206,7 @@ export default function Page() {
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-red-800">🚨 24/7 Emergency Storm Damage Service</h3>
+        <h3 className="text-xl font-bold mb-3 text-red-800">🚨 Emergency Storm Damage Service</h3>
         <p className="mb-4">
           When severe storms hit Amarillo, we provide emergency response to prevent further damage to your home or business. Our emergency services include:
         </p>
@@ -217,7 +218,7 @@ export default function Page() {
             </li>
             <li className="flex items-start">
               <span className="text-red-600 mr-2">✓</span>
-              <div>24/7 phone answering during storms</div>
+              <div>phone answering during storms</div>
             </li>
             <li className="flex items-start">
               <span className="text-red-600 mr-2">✓</span>
@@ -620,7 +621,7 @@ export default function Page() {
               <div>
                 <p className="text-sm mb-2"><strong>Recovery Efforts:</strong></p>
                 <ul className="text-sm space-y-1">
-                  <li>• 24/7 emergency response for 72 hours</li>
+                  <li>• prompt response for 72 hours</li>
                   <li>• Emergency tarping for 45 homes</li>
                   <li>• Coordination with FEMA and insurance teams</li>
                   <li>• Complete reconstruction of 12 homes</li>
@@ -654,7 +655,7 @@ export default function Page() {
       <section className="cta-section mt-12">
         <h2 className="cta-title">Need Storm Damage Repair in Amarillo?</h2>
         <p className="cta-text">
-          Free storm damage inspections and insurance claim assistance. 24/7 emergency service available during severe weather.
+          Free storm damage inspections and insurance claim assistance.  available during severe weather.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">

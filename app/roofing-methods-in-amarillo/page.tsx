@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roofing-methods-in-amarillo/' },
   title: 'Roofing Methods & Materials Amarillo TX | 5 Star',
   description: 'Discover proven roofing methods and installation techniques for Amarillo homes. Impact-resistant systems, proper ventilation, and hail protection.',
 };
@@ -63,7 +64,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -755,7 +756,7 @@ export default function Page() {
             <h4 className="font-bold mb-2">Specialized Services</h4>
             <div className="space-y-1 text-sm">
               <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline block">• Hail Damage Repair</a>
-              <a href="/emergency-roof-repair/" className="text-brand-gold hover:underline block">• Emergency Services</a>
+              <a href="/services/" className="text-brand-gold hover:underline block">• Emergency Services</a>
               <a href="/commercial-roofing/" className="text-brand-gold hover:underline block">• Commercial Systems</a>
               <a href="/service-areas/" className="text-brand-gold hover:underline block">• All Service Areas</a>
             </div>

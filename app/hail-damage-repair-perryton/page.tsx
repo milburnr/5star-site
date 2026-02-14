@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-perryton/' },
   title: 'Hail Damage Repair Perryton TX | 5 Star Roofing',
-  description: "Professional hail damage repair in Perryton TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional hail damage repair in Perryton TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function HailDamageRepairPerrytonPage() {
@@ -51,7 +52,7 @@ export default function HailDamageRepairPerrytonPage() {
             "@type": "Service",
             "serviceType": "Hail Damage Roof Repair",
             "name": "Hail Damage Repair in Perryton",
-            "description": "Professional hail damage repair services in Perryton, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional hail damage repair services in Perryton, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -68,7 +69,7 @@ export default function HailDamageRepairPerrytonPage() {
               "name": "Hail Damage Repair Services",
               "itemListElement": [
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Roof Repair" } },
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
               ]
             }
@@ -103,7 +104,7 @@ export default function HailDamageRepairPerrytonPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">$250M</div><div className="text-brand-brown font-semibold text-lg">Annual Ag Revenue</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -200,7 +201,7 @@ export default function HailDamageRepairPerrytonPage() {
                   <li>• <strong>Contents Preservation:</strong> Rapid response to protect remaining property and belongings</li>
                   <li>• <strong>Utility Coordination:</strong> Working with power companies for safe restoration procedures</li>
                   <li>• <strong>Debris Management:</strong> Coordinated removal of tornado debris for safe access</li>
-                  <li>• <strong>24/7 Storm Watch:</strong> Continuous monitoring for additional severe weather threats</li>
+                  <li>• <strong>Storm Watch:</strong> Continuous monitoring for additional severe weather threats</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-500">

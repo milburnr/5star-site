@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/claude-tx-roofing/' },
   title: 'Roofing in Claude, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Claude, Texas Panhandle. Just 25 miles east of Amarillo on US-287. Hail damage repair, residential & commercial roofing.',
 };
@@ -122,7 +123,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage repair services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-17-1280w.jpg" alt="Hail damage repair services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Repair
                     </h3>
@@ -156,7 +157,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg" alt="Residential roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -189,7 +190,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-14-1280w.jpg" alt="Commercial roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -203,7 +204,7 @@ export default function ClaudeRoofingPage() {
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial expertise:</strong> TPO single-ply roofing, EPDM rubber roofing,
                       modified bitumen systems, metal roof installation and repair, roof coating for
-                      extending roof life, preventive maintenance plans, and 24/7 emergency service.
+                      extending roof life, preventive maintenance plans, and .
                     </p>
                     <a
                       href="/commercial-roofing-amarillo-texas/"
@@ -221,7 +222,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Metal roofing systems for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/SteelRoofing-1280w.jpg" alt="Metal roofing systems for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roofing Systems
                     </h3>
@@ -254,7 +255,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free roof inspections for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg" alt="Free roof inspections for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -287,16 +288,16 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roofing service for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg" alt="emergency roofing service for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      24/7 Emergency Service
+                      
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Roofing emergencies don't keep business hours.</strong> Whether it's
                       2am after a hailstorm or Sunday afternoon with water pouring in, we provide
-                      24/7 emergency roofing services to Claude. Emergency tarping, leak repairs,
+                      emergency roofing services to Claude. Emergency tarping, leak repairs,
                       and storm damage mitigation available anytime.
                     </p>
                     <p className="text-gray-700 mb-4">
@@ -304,10 +305,10 @@ export default function ClaudeRoofingPage() {
                       {" "}now for immediate emergency assistance. We'll be on the road to Claude within minutes.
                     </p>
                     <a
-                      href="/emergency-roof-repair-amarillo-texas/"
+                      href="/roof-repair-services-in-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
-                      24/7 Emergency Services →
+                      s →
                     </a>
                   </div>
                 </div>

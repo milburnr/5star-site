@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-pampa/' },
   title: 'Hail Damage Repair Pampa TX | 5 Star Roofing',
   description: "Professional hail damage roof repair in Pampa TX. Emergency response, insurance assistance, quality materials. Serving Gray County. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -41,7 +42,7 @@ export default function HailDamageRepairPampaPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas", "name": "Pampa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Pampa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -66,7 +67,7 @@ export default function HailDamageRepairPampaPage() {
                 "name": "Gray County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair in Pampa, TX. Serving Gray County with 24/7 emergency response and insurance claim assistance."
+            "description": "Expert hail damage roof repair in Pampa, TX. Serving Gray County with prompt response and insurance claim assistance."
           })
         }}
       />
@@ -81,7 +82,7 @@ export default function HailDamageRepairPampaPage() {
               {"@type":"Question","name":"How do I know if my Pampa roof has hail damage?","acceptedAnswer":{"@type":"Answer","text":"Look for granule loss, dents on metal vents/flashing, cracked shingles, and dented gutters. Gray County's Panhandle location means severe storms are common. Schedule a free inspection after any hail event."}},
               {"@type":"Question","name":"Will insurance cover hail damage in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Yes, most Texas policies cover hail damage if it occurred during your policy period. File within 1-2 years. We document impacts and advocate for maximum coverage."}},
               {"@type":"Question","name":"How much does hail damage repair cost in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Costs vary by roof size and damage. Most pay only their deductible for storm repairs. Full replacements in Pampa typically range $7,000-$14,000."}},
-              {"@type":"Question","name":"How quickly can you respond to Pampa?","acceptedAnswer":{"@type":"Answer","text":"Pampa is about 55 miles from our Amarillo headquarters. We offer 24/7 emergency response and can typically reach Pampa within 1 hour for urgent situations."}},
+              {"@type":"Question","name":"How quickly can you respond to Pampa?","acceptedAnswer":{"@type":"Answer","text":"Pampa is about 55 miles from our Amarillo headquarters. We offer prompt response and can typically reach Pampa within 1 hour for urgent situations."}},
               {"@type":"Question","name":"Should I get Class 4 shingles in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance premium discounts. Excellent investment for Gray County's hail-prone climate."}}
             ]
           })
@@ -120,7 +121,7 @@ export default function HailDamageRepairPampaPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={55} suffix=" mi" /></div>
@@ -727,10 +728,10 @@ export default function HailDamageRepairPampaPage() {
                     <li><strong>Distance:</strong> 55 miles from our Amarillo headquarters</li>
                     <li><strong>Emergency Response:</strong> 45-75 minutes for urgent situations</li>
                     <li><strong>Normal Service:</strong> Same-day or next-day scheduling</li>
-                    <li><strong>24/7 Availability:</strong> Emergency tarping and leak stopping</li>
+                    <li><strong>Availability:</strong> Emergency tarping and leak stopping</li>
                     <li><strong>Storm Season:</strong> Mobile response teams during active weather</li>
                   </ul>
-                  <p>During major hail events affecting Gray County, we often establish temporary operations in Pampa to reduce response times. Our emergency line (806) 622-6041 connects directly to our dispatch center 24/7. Industrial and commercial properties receive priority scheduling due to production and business continuity concerns.</p>
+                  <p>During major hail events affecting Gray County, we often establish temporary operations in Pampa to reduce response times. Our emergency line (806) 622-6041 connects directly to our dispatch center. Industrial and commercial properties receive priority scheduling due to production and business continuity concerns.</p>
                 </AccordionContent>
               </AccordionItem>
 

@@ -3,145 +3,71 @@ import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/gallery/' },
   title: "Project Gallery | 5 Star Commercial Roofing Portfolio",
-  description: 'View our completed roofing projects in Amarillo, Midland, Odessa, and Lubbock. Call for a free quote!',
+  description: 'View our completed roofing projects in Amarillo, Midland, Odessa, and Lubbock. Residential and commercial roofing photos from across West Texas.',
   keywords: "roofing gallery, roofing portfolio, Amarillo roofing projects, before after roofing, hail damage repair photos, TPO installation photos",
 };
 
+// R2 CDN base URL
+const R2_CDN = "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev";
+
+// Commercial project images - variety of TPO and flat roof installations
+const commercialImages = [
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-1-1280w.jpg`, caption: "Commercial TPO installation - Pampa, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-2-1280w.jpg`, caption: "Large warehouse roofing - Pampa, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-3-1280w.jpg`, caption: "Industrial flat roof - Pampa, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-5-1280w.jpg`, caption: "Commercial project - Amarillo, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-channing-8-1280w.jpg`, caption: "TPO roofing system - Channing, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-10-1280w.jpg`, caption: "Commercial installation - Amarillo, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-11-1280w.jpg`, caption: "Flat roof replacement - Amarillo, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-12-1280w.jpg`, caption: "Large commercial project - Amarillo, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-4-1280w.jpg`, caption: "Commercial roofing - Pampa, TX" },
+];
+
+// Residential shingle project images
+const residentialImages = [
+  { url: `${R2_CDN}/images/shingle/shingle-midland-1-1280w.jpg`, caption: "Shingle installation - Midland, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-san-angelo-2-1280w.jpg`, caption: "Residential roofing - San Angelo, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-perryton-3-1280w.jpg`, caption: "New shingle roof - Perryton, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-perryton-4-1280w.jpg`, caption: "Shingle replacement - Perryton, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-odessa-5-1280w.jpg`, caption: "Residential project - Odessa, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-perryton-6-1280w.jpg`, caption: "Complete reroof - Perryton, TX" },
+];
+
+// Hail damage repair projects (before photos)
+const hailDamageImages = [
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-1-1280w.jpg`, caption: "Hail damage assessment - Canyon, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-2-1280w.jpg`, caption: "Storm damage repair - Canyon, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-levelland-3-1280w.jpg`, caption: "Hail impact damage - Levelland, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-midland-6-1280w.jpg`, caption: "Insurance claim project - Midland, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-16-1280w.jpg`, caption: "Hail damage - Amarillo, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-22-1280w.jpg`, caption: "Storm restoration - Amarillo, TX" },
+];
+
+// Completed projects - mix of types
+const completedImages = [
+  { url: `${R2_CDN}/images/completed/completed-san-angelo-1-1280w.jpg`, caption: "Completed project - San Angelo, TX" },
+  { url: `${R2_CDN}/images/completed/completed-odessa-2-1280w.jpg`, caption: "New roof installation - Odessa, TX" },
+];
+
 export default function GalleryPage() {
-  const projects = [
-    {
-      title: "Sleepy Hollow Residential Roof Replacement",
-      location: "Amarillo, TX",
-      description: "Complete architectural shingle roof replacement after hail damage. Class 4 impact-resistant shingles installed.",
-      category: "Residential",
-      beforeImages: [
-        "/images/danage.jpg",
-        "/images/hail-damage-3.jpg",
-        "/images/danage.jpg",
-      ],
-      afterImages: [
-        "/images/ResidentialServices.jpg",
-        "/images/ResidentialServices.jpg",
-        "/images/Aerialview.jpg",
-        "/images/ResidentialServices.jpg",
-      ],
-    },
-    {
-      title: "Borger Storm Damage Restoration",
-      location: "Borger, TX",
-      description: "Insurance claim assistance and complete roof replacement following severe storm damage.",
-      category: "Residential",
-      beforeImages: [
-        "/images/hail-damage-3.jpg",
-        "/images/danage.jpg",
-        "/images/hail-damage-3.jpg",
-      ],
-      afterImages: [
-        "/images/ResidentialServices.jpg",
-        "/images/Aerialview.jpg",
-        "/images/ResidentialServices.jpg",
-      ],
-    },
-    {
-      title: "Hereford Commercial Roof Installation",
-      location: "Hereford, TX",
-      description: "New commercial roofing system installation with 20-year warranty.",
-      category: "Commercial",
-      afterImages: [
-        "/images/Alluminumroofing.jpg",
-        "/images/ResidentialServices.jpg",
-        "/images/Aerialview.jpg",
-      ],
-    },
-    {
-      title: "Commercial TPO Roofing Projects",
-      location: "West Texas",
-      description: "TPO membrane installations on commercial buildings throughout Amarillo, Midland, and Odessa.",
-      category: "Commercial",
-      afterImages: [
-        "/images/TPO1.jpg",
-        "/images/TPO2.jpg",
-        "/images/TPO3.jpg",
-        "/images/TPO1.jpg",
-        "/images/TPO2.jpg",
-        "/images/TPO3.jpg",
-      ],
-    },
-  ];
-
-  const actionPhotos = [
-    {
-      image: "/images/Constructionhome.jpg",
-      caption: "Professional crew performing roof inspection",
-    },
-    {
-      image: "/images/Aerialview.jpg",
-      caption: "Quality installation in progress",
-    },
-  ];
-
-  const sunsetPhotos = [
-    {
-      image: "/images/TPO1.jpg",
-      caption: "Completed TPO installation at sunset",
-    },
-    {
-      image: "/images/TPO2.jpg",
-      caption: "Commercial flat roof project",
-    },
-    {
-      image: "/images/TPO3.jpg",
-      caption: "Quality workmanship on every project",
-    },
-    {
-      image: "/images/TPO1.jpg",
-      caption: "Professional TPO membrane installation",
-    },
-    {
-      image: "/images/TPO2.jpg",
-      caption: "Sunset view of completed commercial roof",
-    },
-    {
-      image: "/images/TPO3.jpg",
-      caption: "West Texas roofing excellence",
-    },
-    {
-      image: "/images/TPO1.jpg",
-      caption: "Another successful project completion",
-    },
-    {
-      image: "/images/TPO2.jpg",
-      caption: "Energy-efficient white TPO roofing",
-    },
-    {
-      image: "/images/TPO3.jpg",
-      caption: "Premium commercial roofing systems",
-    },
-  ];
-
   return (
-    <div className="min-h-screen">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Gallery",
-                      "url": "/gallery/"
-              }
+    <div className="min-h-screen">
+      <Breadcrumb items={[
+        { "name": "Home", "url": "/" },
+        { "name": "Gallery", "url": "/gallery/" }
       ]} />
 
-
       {/* Hero Section */}
-      <section className="hero-home relative">
+      <section className="hero-home relative min-h-[400px] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/60 via-orange-900/40 to-yellow-900/30"></div>
         <FadeIn>
-          <div className="hero-content relative z-10">
-            <h1 className="text-6xl font-bold mb-6 text-white leading-tight" style={{textShadow: '0 4px 12px rgba(0,0,0,0.9)'}}>
+          <div className="container-custom relative z-10 py-20">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white leading-tight" style={{textShadow: '0 4px 12px rgba(0,0,0,0.9)'}}>
               Our <span className="text-brand-gold-light">Work</span>
             </h1>
-            <p className="text-3xl text-white leading-relaxed" style={{textShadow: '0 2px 8px rgba(0,0,0,0.8)'}}>
+            <p className="text-xl md:text-3xl text-white leading-relaxed" style={{textShadow: '0 2px 8px rgba(0,0,0,0.8)'}}>
               Quality Roofing Projects Across <span className="text-brand-gold-light">West Texas</span>
             </p>
           </div>
@@ -156,82 +82,97 @@ export default function GalleryPage() {
             <p className="text-xl text-gray-600 mb-4">
               Browse our portfolio of completed roofing projects throughout <a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Odessa</a>, and surrounding <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline">West Texas communities</a>.
             </p>
-            <p className="text-lg text-gray-600">
-              From <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">residential hail damage repairs</a> to <a href="/commercial-roofing/" className="text-brand-brown hover:text-brand-gold underline">commercial TPO installations</a>, we deliver quality workmanship on every project. Learn more about our <a href="/residential-roofing/" className="text-brand-brown hover:text-brand-gold underline">residential services</a> or view our <a href="/services/" className="text-brand-brown hover:text-brand-gold underline">complete service offerings</a>.
-            </p>
           </div>
         </FadeIn>
 
-        {/* Before & After Projects */}
-        {projects.map((project, index) => (
-          <FadeIn key={index}>
-            <section className="mb-20">
-              <div className="mb-8">
-                <div className="flex items-center justify-between mb-4">
-                  <span className="bg-brand-gold text-white px-4 py-1 rounded-full text-sm font-semibold">
-                    {project.category}
-                  </span>
-                  <span className="text-brand-brown font-semibold">📍 {project.location}</span>
-                </div>
-                <h2 className="text-3xl font-bold text-brand-brown mb-3">{project.title}</h2>
-                <p className="text-lg text-gray-600">{project.description}</p>
-              </div>
-
-              {project.beforeImages && project.beforeImages.length > 0 && (
-                <>
-                  <h3 className="text-2xl font-bold mb-4">Before</h3>
-                  <div className="grid md:grid-cols-3 gap-6 mb-8">
-                    {project.beforeImages.map((img, i) => (
-                      <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src={img} alt={`${project.title} before ${i + 1}`} className="w-full h-64 object-cover" />
-                      </div>
-                    ))}
-                  </div>
-                </>
-              )}
-
-              <h3 className="text-2xl font-bold mb-4">After</h3>
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                {project.afterImages.map((img, i) => (
-                  <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src={img} alt={`${project.title} after ${i + 1}`} className="w-full h-64 object-cover" />
-                  </div>
-                ))}
-              </div>
-            </section>
-          </FadeIn>
-        ))}
-
-        {/* Our Team at Work */}
+        {/* Commercial Projects */}
         <FadeIn>
           <section className="mb-20">
-            <h2 className="text-3xl font-bold text-brand-brown mb-8 text-center">Our Team in Action</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {actionPhotos.map((photo, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <img src={photo.image} alt={photo.caption} className="w-full h-80 object-cover" />
-                  <div className="p-4">
-                    <p className="text-center text-gray-700 font-medium">{photo.caption}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="mb-8">
+              <span className="bg-brand-gold text-white px-4 py-1 rounded-full text-sm font-semibold">Commercial</span>
+              <h2 className="text-3xl font-bold text-brand-brown mt-4 mb-3">Commercial Roofing Projects</h2>
+              <p className="text-lg text-gray-600">TPO, EPDM, and flat roof installations for businesses across West Texas.</p>
             </div>
-          </section>
-        </FadeIn>
-
-        {/* Commercial Projects Gallery */}
-        <FadeIn>
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold text-brand-brown mb-4 text-center">Commercial Roofing Excellence</h2>
-            <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-              Our commercial TPO roofing installations across West Texas. Energy-efficient, durable, and built to last.
-            </p>
             <div className="grid md:grid-cols-3 gap-6">
-              {sunsetPhotos.map((photo, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                  <img src={photo.image} alt={photo.caption} className="w-full h-64 object-cover" />
+              {commercialImages.map((img, i) => (
+                <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                  <img src={img.url} alt={img.caption} className="w-full h-64 object-cover" loading="lazy" />
                   <div className="p-4">
-                    <p className="text-sm text-gray-600 text-center">{photo.caption}</p>
+                    <p className="text-sm text-gray-600 text-center">{img.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-8">
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold underline">
+                Learn More About Commercial Roofing →
+              </a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Residential Projects */}
+        <FadeIn>
+          <section className="mb-20">
+            <div className="mb-8">
+              <span className="bg-brand-gold text-white px-4 py-1 rounded-full text-sm font-semibold">Residential</span>
+              <h2 className="text-3xl font-bold text-brand-brown mt-4 mb-3">Residential Roofing Projects</h2>
+              <p className="text-lg text-gray-600">Shingle replacements and repairs for homes throughout the Texas Panhandle.</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {residentialImages.map((img, i) => (
+                <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                  <img src={img.url} alt={img.caption} className="w-full h-64 object-cover" loading="lazy" />
+                  <div className="p-4">
+                    <p className="text-sm text-gray-600 text-center">{img.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-8">
+              <a href="/residential-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold underline">
+                Learn More About Residential Roofing →
+              </a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Hail Damage & Insurance Work */}
+        <FadeIn>
+          <section className="mb-20">
+            <div className="mb-8">
+              <span className="bg-red-600 text-white px-4 py-1 rounded-full text-sm font-semibold">Storm Damage</span>
+              <h2 className="text-3xl font-bold text-brand-brown mt-4 mb-3">Hail & Storm Damage Repairs</h2>
+              <p className="text-lg text-gray-600">Insurance claim assistance and complete roof restoration after Texas storms.</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {hailDamageImages.map((img, i) => (
+                <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                  <img src={img.url} alt={img.caption} className="w-full h-64 object-cover" loading="lazy" />
+                  <div className="p-4">
+                    <p className="text-sm text-gray-600 text-center">{img.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-8">
+              <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold underline">
+                Learn More About Hail Damage Repair →
+              </a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Completed Work Showcase */}
+        <FadeIn>
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold text-brand-brown mb-8 text-center">Recently Completed Projects</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {completedImages.map((img, i) => (
+                <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                  <img src={img.url} alt={img.caption} className="w-full h-80 object-cover" loading="lazy" />
+                  <div className="p-4">
+                    <p className="text-center text-gray-700 font-medium">{img.caption}</p>
                   </div>
                 </div>
               ))}
@@ -239,38 +180,26 @@ export default function GalleryPage() {
           </section>
         </FadeIn>
 
-        {/* Large Format Hero Images */}
+        {/* Why Choose Us Stats */}
         <FadeIn>
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold text-brand-brown mb-8 text-center">Featured Commercial Projects</h2>
-            <div className="space-y-8">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="/images/commercial-roof-1024x575-panorama.png"
-                  alt="Commercial TPO flat roof installation Amarillo TX - White membrane roofing system for warehouse and industrial buildings - 5 Star Commercial Roofing"
-                  className="w-full h-96 object-cover"
-                />
+          <section className="mb-20 bg-gray-50 p-8 rounded-2xl">
+            <h2 className="text-3xl font-bold text-brand-brown mb-8 text-center">Why West Texas Trusts Us</h2>
+            <div className="grid md:grid-cols-4 gap-6 text-center">
+              <div>
+                <div className="text-4xl font-bold text-brand-gold mb-2">10+</div>
+                <div className="text-gray-600">Years Experience</div>
               </div>
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="/images/commercial-roof-1024x575-panorama.png"
-                  alt="Large commercial warehouse roof installation Midland TX - Professional roofing crew installing TPO membrane system - Texas Panhandle roofing contractor"
-                  className="w-full h-96 object-cover"
-                />
+              <div>
+                <div className="text-4xl font-bold text-brand-gold mb-2">$50M+</div>
+                <div className="text-gray-600">Claims Helped</div>
               </div>
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="/images/commercial-roof-1024x575-panorama.png"
-                  alt="Industrial building TPO roofing project Odessa TX - Flat roof installation for oil and gas facilities - Permian Basin commercial roofing"
-                  className="w-full h-96 object-cover"
-                />
+              <div>
+                <div className="text-4xl font-bold text-brand-gold mb-2">20+</div>
+                <div className="text-gray-600">Cities Served</div>
               </div>
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="/images/commercial-roof-1024x575-panorama.png"
-                  alt="Professional commercial roofing crew installing flat roof system West Texas - Expert TPO and PVC membrane installation Amarillo Midland Odessa"
-                  className="w-full h-96 object-cover"
-                />
+              <div>
+                <div className="text-4xl font-bold text-brand-gold mb-2">⭐⭐⭐⭐⭐</div>
+                <div className="text-gray-600">5-Star Rated</div>
               </div>
             </div>
           </section>
@@ -278,16 +207,16 @@ export default function GalleryPage() {
 
         {/* CTA Section */}
         <FadeIn>
-          <section className="cta-section">
-            <h2 className="cta-title">Ready to Start Your Project?</h2>
-            <p className="cta-text">
+          <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-2xl text-center">
+            <h2 className="text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
+            <p className="text-xl mb-8 max-w-2xl mx-auto">
               Let us transform your roof with the same quality and attention to detail you see in our portfolio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
+              <a href="tel:8066226041" className="bg-white text-brand-brown px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all text-lg">
                 📞 Call (806) 622-6041
               </a>
-              <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">
+              <a href="/contact/" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-brand-brown transition-all text-lg">
                 Request Free Inspection
               </a>
             </div>
@@ -304,7 +233,6 @@ export default function GalleryPage() {
         "provider": {
           "@type": "RoofingContractor",
           "name": "5 Star Commercial Roofing",
-          "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "2909 S Western St",

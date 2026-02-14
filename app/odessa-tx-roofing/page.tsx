@@ -6,12 +6,13 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/odessa-tx-roofing/' },
   title: 'Roofing Contractor Odessa TX | 5 Star',
   description: 'Commercial and industrial roofing in Odessa. Permian Basin experts. Specialized systems for manufacturing and oil & gas facilities.',
   keywords: "Odessa roofing, Odessa roofer, roofing contractor Odessa TX, hail damage Odessa, metal roofing Odessa, commercial roofing Odessa",
   openGraph: {
-    title: "Roofing in Odessa TX | Commercial & Industrial Specialists | 24/7 Service",
-    description: "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing, 24/7 emergency service.",
+    title: "Roofing in Odessa TX | Commercial & Industrial Specialists | Service",
+    description: "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing, .",
     type: "website",
     locale: "en_US",
   },
@@ -164,7 +165,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard className="border-l-4 border-red-500">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg" alt="Hail damage roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -206,7 +207,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg" alt="Residential roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -248,7 +249,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard className="bg-blue-50 border-2 border-blue-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO1.jpg" alt="Commercial and industrial roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg" alt="Commercial and industrial roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial & Industrial Roofing
                     </h3>
@@ -271,7 +272,7 @@ export default function OdessaRoofingPage() {
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Industrial facility advantages:</strong> We schedule work around your operations to
-                      minimize downtime, provide 24/7 emergency service for critical facilities, understand safety
+                      minimize downtime, provide  for critical facilities, understand safety
                       protocols and OSHA requirements, and offer preventive maintenance programs that identify problems
                       before they become costly emergencies.
                     </p>
@@ -291,7 +292,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO1.jpg" alt="Metal roof installation services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/SteelRoofing-1280w.jpg" alt="Metal roof installation services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -332,9 +333,9 @@ export default function OdessaRoofingPage() {
               <InteractiveCard className="bg-red-50 border-2 border-red-300">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-38-1280w.jpg" alt="emergency roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      24/7 Emergency Roof Repair
+                      Emergency Roof Repair
                     </h3>
                     <p className="text-sm text-red-600 font-semibold">RAPID RESPONSE TEAM</p>
                   </div>
@@ -343,7 +344,7 @@ export default function OdessaRoofingPage() {
                       <strong>Roofing emergencies strike without warning in Odessa.</strong> When severe
                       thunderstorms roll across the Permian Basin, when high winds tear off shingles, when hail
                       punctures your roof, or when you discover an active leak threatening your property, you need
-                      immediate professional response. We provide 24/7 emergency roofing services throughout Odessa
+                      immediate professional response. We provide emergency roofing services throughout Odessa
                       and surrounding communities.
                     </p>
                     <p className="text-gray-700 mb-4">
@@ -358,13 +359,13 @@ export default function OdessaRoofingPage() {
                       <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">
                         (806) 622-6041
                       </a>{" "}
-                      immediately for 24/7 emergency assistance anywhere in Odessa.
+                      immediately for emergency assistance anywhere in Odessa.
                     </p>
                     <a
-                      href="/emergency-roof-repair-odessa-texas/"
+                      href="/hail-damage-repair-odessa-tx/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2 text-lg"
                     >
-                      24/7 Emergency Services →
+                      s →
                     </a>
                   </div>
                 </div>
@@ -790,7 +791,7 @@ export default function OdessaRoofingPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Emergency Roof Repair",
-                    "description": "24/7 emergency roofing services throughout Odessa for storm damage, leaks, and urgent repairs."
+                    "description": "emergency roofing services throughout Odessa for storm damage, leaks, and urgent repairs."
                   }
                 }
               ]

@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-amarillo/' },
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
   description: 'Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -91,7 +92,7 @@ export default function RoofReplacementAmarilloPage() {
             "@type": "Service",
             "serviceType": "Roof Replacement Services",
             "name": "Roof Replacement in Amarillo",
-            "description": "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",

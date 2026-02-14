@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: 'Industrial Roofing in Amarillo TX| Warehouses & Manufactu...',
+  alternates: { canonical: 'https://5starroofingpros.com/industrial-roofing/' },
+  title: 'Industrial Roofing Amarillo TX | 5 Star',
   description: 'industrial roofing in Amarillo. TPO, EPDM, and metal roofing for warehouses and manufacturing facilities.',
 };
 
@@ -207,7 +208,7 @@ export default function Page() {
         <div className="check-item">
           <span className="check-icon text-2xl">⚡</span>
           <div>
-            <h3 className="font-bold mb-2">24/7 Emergency Service</h3>
+            <h3 className="font-bold mb-2"></h3>
             <p className="text-gray-600">Available day or night for emergency tarping and temporary repairs to protect inventory and equipment</p>
           </div>
         </div>
@@ -401,8 +402,8 @@ export default function Page() {
       </div>
 
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
-        <h3 className="font-bold mb-3">Emergency Service Available 24/7</h3>
-        <p>When storm damage threatens your industrial facility, every minute counts. Our emergency response team is available 24/7 for tarping, temporary repairs, and damage assessment. We respond quickly to minimize downtime and protect your valuable assets. Call (806) 622-6041 anytime for immediate assistance.</p>
+        <h3 className="font-bold mb-3">Emergency Service Available</h3>
+        <p>When storm damage threatens your industrial facility, every minute counts. Our emergency response team is available for tarping, temporary repairs, and damage assessment. We respond quickly to minimize downtime and protect your valuable assets. Call (806) 622-6041 anytime for immediate assistance.</p>
       </div>
 
 

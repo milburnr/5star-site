@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/vega-tx-roofing/' },
   title: 'Roofing in Vega, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs.',
 };
@@ -123,7 +124,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg" alt="Hail damage roof repair services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -157,7 +158,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg" alt="Residential roofing services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -191,7 +192,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Metal roof installation for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/SteelRoofing-1280w.jpg" alt="Metal roof installation for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -225,7 +226,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-15-1280w.jpg" alt="Commercial roofing services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -240,7 +241,7 @@ export default function VegaRoofingPage() {
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial services:</strong> TPO single-ply membrane roofing, EPDM rubber
                       roofing systems, modified bitumen installation, metal roof systems, roof coating
-                      for extended life, preventive maintenance programs, and 24/7 emergency repair service.
+                      for extended life, preventive maintenance programs, and emergency repair service.
                       Minimal business disruption.
                     </p>
                     <a
@@ -259,7 +260,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free roof inspections for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg" alt="Free roof inspections for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -293,15 +294,15 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roofing repairs for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg" alt="emergency roofing repairs for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      24/7 Emergency Repairs
+                      Emergency Repairs
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage requires immediate response.</strong> When severe weather
-                      hits Vega, we provide 24/7 emergency roofing services. Emergency tarping to
+                      hits Vega, we provide emergency roofing services. Emergency tarping to
                       prevent water damage, urgent leak repairs, temporary storm damage mitigation,
                       and same-day response available.
                     </p>
@@ -310,10 +311,10 @@ export default function VegaRoofingPage() {
                       {" "}anytime for immediate emergency assistance. We'll head west on I-40 immediately.
                     </p>
                     <a
-                      href="/emergency-roof-repair-amarillo-texas/"
+                      href="/roof-repair-services-in-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
-                      24/7 Emergency Services →
+                      s →
                     </a>
                   </div>
                 </div>

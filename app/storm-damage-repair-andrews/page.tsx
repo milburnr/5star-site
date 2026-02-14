@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-andrews/' },
   title: "Storm Damage Repair Andrews TX | 5 Star Commercial Roofing",
   description: "Expert storm damage roof repair in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function StormDamageRepairAndrewsPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Andrews,_Texas", "name": "Andrews", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert storm damage repair services in Andrews, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert storm damage repair services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function StormDamageRepairAndrewsPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -322,7 +323,7 @@ export default function StormDamageRepairAndrewsPage() {
                     <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">1</div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Emergency Response</h4>
-                      <p className="text-sm opacity-90">24/7 emergency calls, immediate temporary repairs to prevent further damage</p>
+                      <p className="text-sm opacity-90">emergency calls, immediate temporary repairs to prevent further damage</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -372,7 +373,7 @@ export default function StormDamageRepairAndrewsPage() {
                   How quickly should I address storm damage in Andrews?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  Storm damage should be addressed immediately in Andrews due to the region's weather patterns. Even minor damage can quickly worsen during the next storm event, which typically occurs within weeks during active weather seasons. The intense summer heat can cause compromised roofing materials to deteriorate rapidly, while sudden temperature drops can cause expansion and contraction that worsens existing damage. Most insurance companies require prompt action to maintain coverage, typically within 30-60 days of the storm event. Our 24/7 emergency response ensures temporary protection while permanent repairs are scheduled.
+                  Storm damage should be addressed immediately in Andrews due to the region's weather patterns. Even minor damage can quickly worsen during the next storm event, which typically occurs within weeks during active weather seasons. The intense summer heat can cause compromised roofing materials to deteriorate rapidly, while sudden temperature drops can cause expansion and contraction that worsens existing damage. Most insurance companies require prompt action to maintain coverage, typically within 30-60 days of the storm event. Our prompt response ensures temporary protection while permanent repairs are scheduled.
                 </AccordionContent>
               </AccordionItem>
               

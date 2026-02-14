@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-hail-damage-repair-services-in-amarillo-tx/' },
   title: 'Hail Damage Roof Repair Amarillo | 5 Star Roofing',
   description: 'Premier hail damage roof repair services in Amarillo TX. Hail Alley specialists with 25+ years experience. Free inspections, insurance claim assistance, Class 4 impact-resistant upgrades. Licensed, bonded, insured. Emergency response available throughout Potter & Randall Counties.',
 };
@@ -44,7 +45,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -138,7 +139,7 @@ export default function Page() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Emergency Repair Services</h3>
                 <p className="text-gray-700 mb-4">Severe hail can create immediate leaks and damage. We offer emergency roof repair services to prevent further water damage to your home or business while we work on your insurance claim.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ 24/7 emergency response</li>
+                  <li>✓ prompt response</li>
                   <li>✓ Temporary leak repairs</li>
                   <li>✓ Tarp installation if needed</li>
                   <li>✓ Prevent interior water damage</li>
@@ -341,7 +342,7 @@ export default function Page() {
               <div className="text-3xl font-bold text-brand-gold mb-4">$450-$2,850</div>
               <p className="text-sm text-gray-600 mb-4">Immediate leak stoppage • Property protection</p>
               <ul className="text-left space-y-2 text-sm">
-                <li>✓ 24/7 emergency response</li>
+                <li>✓ prompt response</li>
                 <li>✓ Emergency tarping service</li>
                 <li>✓ Immediate leak mitigation</li>
                 <li>✓ Interior damage prevention</li>

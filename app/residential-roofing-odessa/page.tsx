@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-odessa/' },
   title: 'Residential Roofing Odessa TX | 5 Star Roofing',
   description: 'Expert residential roofing in Odessa TX. Serving Crestview, Ridgecrest West, and all Ector County working families. Affordable Class 4 shingles for brick ranch homes. Free inspections.',
 };
@@ -91,7 +92,7 @@ export default function ResidentialRoofingOdessaPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Odessa",
-            "description": "Professional residential roofing services in Odessa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -166,7 +167,7 @@ export default function ResidentialRoofingOdessaPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -244,7 +245,7 @@ export default function ResidentialRoofingOdessaPage() {
                   <li>✓ Flashing and vent repairs</li>
                   <li>✓ Preventive maintenance plans</li>
                   <li>✓ Gutter installation and repair</li>
-                  <li>✓ 24/7 emergency service</li>
+                  <li>✓ </li>
                 </ul>
               </div>
 

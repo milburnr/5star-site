@@ -4,8 +4,9 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/' },
   title: 'Emergency Snow & Ice Damage Roof Repair in Amarillo',
-  description: 'Snow and ice damage roof emergency in Amarillo? We respond 24/7. Ice dam removal, freeze-thaw damage repair, and emergency tarping. Same-day inspections.',
+  description: 'Snow and ice damage roof emergency in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and emergency tarping. Same-day inspections.',
 };
 
 export default function Page() {
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -558,7 +559,7 @@ export default function Page() {
           <div className="bg-red-50 rounded-lg p-6">
             <h3 className="text-lg font-bold mb-3 text-red-800">🚨 Immediate Emergency Actions</h3>
             <ul className="space-y-2 text-sm">
-              <li>• 24/7 emergency hotline activation during storms</li>
+              <li>• emergency hotline activation during storms</li>
               <li>• Rapid response teams within 2-4 hours</li>
               <li>• Emergency tarping and stabilization</li>
               <li>• Ice dam removal for active leaks</li>

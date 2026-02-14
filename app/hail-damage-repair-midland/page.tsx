@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-midland/' },
   title: 'Hail Damage Repair Midland TX | 5 Star Roofing',
   description: "Professional hail damage roof repair in Midland TX. Emergency response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -41,7 +42,7 @@ export default function HailDamageRepairMidlandPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Midland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -73,7 +74,7 @@ export default function HailDamageRepairMidlandPage() {
                 "name": "Midland County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair services in Midland, TX. 24/7 emergency response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Midland County properties."
+            "description": "Expert hail damage roof repair services in Midland, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Midland County properties."
           })
         }}
       />
@@ -123,7 +124,7 @@ export default function HailDamageRepairMidlandPage() {
                 "name": "How quickly can you respond to hail damage in Midland?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We offer 24/7 emergency response for Midland properties. Our crews can typically reach Midland from our Amarillo headquarters within 3-4 hours for urgent situations. After major storms, we prioritize emergency tarping to prevent further water damage before permanent repairs."
+                  "text": "We offer prompt response for Midland properties. Our crews can typically reach Midland from our Amarillo headquarters within 3-4 hours for urgent situations. After major storms, we prioritize emergency tarping to prevent further water damage before permanent repairs."
                 }
               }
             ]
@@ -171,7 +172,7 @@ export default function HailDamageRepairMidlandPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -395,7 +396,7 @@ export default function HailDamageRepairMidlandPage() {
                   How quickly can you respond to hail damage in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer 24/7 emergency response for Midland properties. While our headquarters is in Amarillo (about 263 miles away), we maintain crews throughout West Texas and can typically reach Midland within 3-4 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin.
+                  We offer prompt response for Midland properties. While our headquarters is in Amarillo (about 263 miles away), we maintain crews throughout West Texas and can typically reach Midland within 3-4 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

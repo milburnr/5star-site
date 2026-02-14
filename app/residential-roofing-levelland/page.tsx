@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-levelland/' },
   title: 'Residential Roofing Levelland TX | 5 Star Roofing',
-  description: "Professional residential roofing in Levelland TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional residential roofing in Levelland TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingLevellandPage() {
@@ -51,7 +52,7 @@ export default function ResidentialRoofingLevellandPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Levelland",
-            "description": "Professional residential roofing services in Levelland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Levelland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function ResidentialRoofingLevellandPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Residential Roofing in <span className="text-brand-gold-light">Levelland</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Levelland. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Levelland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function ResidentialRoofingLevellandPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -188,7 +189,7 @@ export default function ResidentialRoofingLevellandPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="text-gray-700 mb-4">Expert restoration for South Plains severe weather damage including hail, wind, and flash flood impacts.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• 24/7 emergency response</li>
+                  <li>• prompt response</li>
                   <li>• Multi-property coordination</li>
                   <li>• Insurance claim expertise</li>
                   <li>• Temporary protection services</li>
@@ -308,7 +309,7 @@ export default function ResidentialRoofingLevellandPage() {
               
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle emergency repairs during the school year?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We provide 24/7 emergency response throughout the school year with special consideration for student housing. Our team coordinates with property managers to minimize disruption and provides temporary protection services. We maintain emergency contact protocols for multi-property owners and college housing providers.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout the school year with special consideration for student housing. Our team coordinates with property managers to minimize disruption and provides temporary protection services. We maintain emergency contact protocols for multi-property owners and college housing providers.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

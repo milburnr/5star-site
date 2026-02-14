@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/plainview-texas-roofing/' },
   title: 'Roofing in Plainview, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Plainview, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Hale County. Free inspections available.',
 };
@@ -37,7 +38,7 @@ export default function PlainviewRoofingPage() {
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "description": "Commercial roofing for Plainview businesses" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing", "description": "Residential roofing for Plainview homes" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair", "description": "Storm and hail damage repair in Plainview, TX" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roofing", "description": "24/7 emergency roofing in Hale County" } }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roofing", "description": "emergency roofing in Hale County" } }
       ]
     }
   };
@@ -130,9 +131,9 @@ export default function PlainviewRoofingPage() {
             <FadeIn delay={0.3}>
               <div className="card-hover p-6 bg-red-50">
                 <div className="text-5xl mb-4">🚨</div>
-                <h3 className="text-xl font-bold text-red-700 mb-3">Emergency Repairs</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Plainview, we respond 24/7 with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
+                  When severe weather strikes Plainview, we respond with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
                 </p>
                 <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
               </div>
@@ -330,7 +331,7 @@ export default function PlainviewRoofingPage() {
             </p>
             
             <div className="bg-red-50 p-6 rounded-lg mb-6">
-              <h3 className="text-xl font-bold text-red-700 mb-3">24/7 Emergency Response Protocol</h3>
+              <h3 className="text-xl font-bold text-red-700 mb-3">Emergency Response Protocol</h3>
               <p className="text-gray-700 mb-4">When severe weather threatens or damages Plainview properties, our emergency teams deploy immediately with specialized equipment and materials for temporary protection while permanent repairs are planned and executed.</p>
               
               <div className="grid md:grid-cols-2 gap-6">

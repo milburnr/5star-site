@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/contact/' },
   title: "Contact Us | 5 Star Commercial Roofing | Amarillo, TX",
   description: 'Contact 5 Star Commercial Roofing for roofing services in Amarillo, Midland, Odessa, and West Texas.',
   openGraph: {
@@ -105,13 +106,6 @@ const contactSchema = {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Emergency Repair"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
             "name": "Commercial Roofing"
           }
         }
@@ -161,27 +155,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* Emergency Callout Banner */}
-      <section className="bg-gradient-to-r from-red-600 via-orange-600 to-red-600 text-white py-6">
-          <div className="container-custom">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div className="flex items-center gap-4">
-                <span className="text-4xl">🚨</span>
-                <div>
-                  <h2 className="text-2xl font-bold">24/7 Emergency Service Available</h2>
-                  <p className="text-lg">Storm damage? Leak? We respond immediately to protect your property.</p>
-                </div>
-              </div>
-              <a
-                href="tel:8066226041"
-                className="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-xl hover:bg-gray-100 hover:scale-110 transition-all duration-300 shadow-2xl whitespace-nowrap"
-              >
-                📞 Call Now: (806) 622-6041
-              </a>
-            </div>
-          </div>
-        </section>
 
       <div className="container-custom py-16">
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
@@ -262,38 +235,12 @@ export default function ContactPage() {
                         <h3 className="font-bold text-brand-brown mb-1">Business Hours</h3>
                         <p className="text-gray-700">Monday - Sunday</p>
                         <p className="text-gray-700">9:00 AM - 5:00 PM</p>
-                        <p className="text-sm text-red-600 font-semibold mt-2">24/7 Emergency Service Available</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </InteractiveCard>
 
-              {/* Quick Contact CTA */}
-              <InteractiveCard tiltEffect={false} glowEffect={true}>
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Need Immediate Assistance?</h3>
-                  <p className="text-gray-700 mb-6">
-                    Our team is standing by to help with your roofing emergency or to schedule your free inspection.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a
-                      href="tel:8066226041"
-                      className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white px-8 py-4 rounded-full font-bold shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
-                    >
-                      <span className="text-xl">📞</span>
-                      Call Now
-                    </a>
-                    <a
-                      href="mailto:admin@5starroofingpros.com"
-                      className="bg-white border-2 border-brand-gold text-brand-brown hover:bg-brand-gold px-8 py-4 rounded-full font-bold shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
-                    >
-                      <span className="text-xl">✉️</span>
-                      Email Us
-                    </a>
-                  </div>
-                </div>
-              </InteractiveCard>
             </div>
           </div>
         </div>
@@ -397,7 +344,7 @@ export default function ContactPage() {
                     <div className="text-5xl mb-4">⚡</div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Fast Response</h3>
                     <p className="text-gray-700">
-                      24/7 emergency service with rapid response times when you need us most.
+                      Quick scheduling and prompt service when you need roof repairs or inspections.
                     </p>
                   </div>
                 </InteractiveCard>

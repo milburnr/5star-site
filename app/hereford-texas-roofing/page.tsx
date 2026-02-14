@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hereford-texas-roofing/' },
   title: 'Roofing in Hereford, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.',
 };
@@ -221,8 +222,8 @@ export default function HerefordRoofingPage() {
                     <p className="text-gray-600">We only install roofing products rated for severe weather conditions, including Class 4 impact-resistant shingles and wind-rated materials. Every installation is backed by manufacturer warranties and our workmanship guarantee.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-sm">
-                    <h3 className="font-bold text-xl text-brand-brown mb-3">Emergency Response Available</h3>
-                    <p className="text-gray-600">Storm damage doesn't wait for business hours. Call (806) 622-6041 anytime for emergency tarping and damage assessment. We respond quickly to minimize water damage and begin the restoration process.</p>
+                    <h3 className="font-bold text-xl text-brand-brown mb-3">Storm Damage Response</h3>
+                    <p className="text-gray-600">Contact us for storm damage assessment and tarping services. Call (806) 622-6041 during business hours and damage assessment. We respond quickly to minimize water damage and begin the restoration process.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-sm">
                     <h3 className="font-bold text-xl text-brand-brown mb-3">Free Inspections & Estimates</h3>
@@ -346,7 +347,7 @@ export default function HerefordRoofingPage() {
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="font-bold text-lg text-brand-brown mb-2">How quickly can you respond to emergency repairs?</h3>
-                  <p className="text-gray-600">We offer 24/7 emergency service for active leaks and storm damage. Call (806) 622-6041 anytime, and we'll dispatch crews to your Hereford location as quickly as possible—often within hours during major storm events.</p>
+                  <p className="text-gray-600">We offer  for active leaks and storm damage. Call (806) 622-6041 anytime, and we'll dispatch crews to your Hereford location as quickly as possible—often within hours during major storm events.</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="font-bold text-lg text-brand-brown mb-2">What areas do you serve besides Hereford?</h3>
@@ -360,7 +361,7 @@ export default function HerefordRoofingPage() {
             <section className="cta-section my-16">
               <h2 className="cta-title">Protecting Hereford Properties for Years to Come</h2>
               <p className="cta-text">
-                Free inspections and expert roofing throughout Deaf Smith County. Emergency service available 24/7.
+                Free inspections and expert roofing throughout Deaf Smith County. .
               </p>
               <div className="flex gap-4 justify-center flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block">📞 Call (806) 622-6041</a>

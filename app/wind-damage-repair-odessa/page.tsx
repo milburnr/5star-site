@@ -13,8 +13,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-odessa/' },
   title: "Wind Damage Repair Odessa | 5 Star Commercial Roofing",
-  description: "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph. 24/7 emergency service and insurance claim assistance. Call (806) 622-6041",
+  description: "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph.  and insurance claim assistance. Call (806) 622-6041",
 };
 
 export default function Page() {
@@ -52,7 +53,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Odessa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -106,7 +107,7 @@ export default function Page() {
                 "name": "Texas"
               }
             },
-            "description": "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph. 24/7 emergency service and insurance claim assistance."
+            "description": "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph.  and insurance claim assistance."
           })
         }}
       />
@@ -182,7 +183,7 @@ export default function Page() {
                 Protecting Permian Basin Properties Since 2014
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph. 24/7 emergency service and insurance claim assistance.
+                Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph.  and insurance claim assistance.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
@@ -206,7 +207,7 @@ export default function Page() {
               Odessa's location in the Permian Basin creates unique roofing challenges. The area experiences 6-8 hailstorms annually, sustained winds with gusts exceeding 65+ mph, extreme temperature fluctuations, and intense desert sun and oil field operations. Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected Odessa properties with premium materials and expert installation. Serving property owners from Music City Mall to Downtown Odessa, from the UTPB campus area to Ratliff Stadium neighborhoods, from the Odessa Meteor Crater vicinity to Ector County Coliseum communities, we provide expert wind damage assessment and 24/7 emergency service. Our installations meet or exceed manufacturer specifications, preserving full warranty coverage while delivering long-term performance.
+              Since 2014, 5 Star Commercial Roofing has protected Odessa properties with premium materials and expert installation. Serving property owners from Music City Mall to Downtown Odessa, from the UTPB campus area to Ratliff Stadium neighborhoods, from the Odessa Meteor Crater vicinity to Ector County Coliseum communities, we provide expert wind damage assessment and . Our installations meet or exceed manufacturer specifications, preserving full warranty coverage while delivering long-term performance.
             </p>
           </section>
         </FadeIn>
@@ -248,7 +249,7 @@ export default function Page() {
               Odessa's location puts it in the path of severe spring storms moving northeast from Mexico and powerful cold fronts sweeping south across the High Plains. These weather systems regularly produce damaging winds, requiring immediate emergency response to prevent secondary water damage to commercial and residential properties.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Our 24/7 emergency crews maintain equipment caches strategically positioned to serve Odessa within 90 minutes of initial contact. During major wind events, we coordinate with local emergency management and the Ector County Emergency Operations Center to prioritize critical infrastructure repairs. Priority response goes to healthcare facilities like Medical Center Health System, educational institutions including UTPB and Odessa College, and essential services.
+              Our emergency crews maintain equipment caches strategically positioned to serve Odessa within 90 minutes of initial contact. During major wind events, we coordinate with local emergency management and the Ector County Emergency Operations Center to prioritize critical infrastructure repairs. Priority response goes to healthcare facilities like Medical Center Health System, educational institutions including UTPB and Odessa College, and essential services.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Emergency tarping procedures for Odessa properties require specialized techniques due to ongoing high winds. Standard tarping methods often fail in sustained 40+ mph winds common after storm passage. We use reinforced tarp systems with additional anchor points, tension cables, and wind-load distribution techniques specifically developed for West Texas conditions. These emergency measures protect properties while insurance adjusters complete damage assessments.

@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-amarillo/' },
   title: 'Wind Damage Repair Amarillo TX | 5 Star Roofing',
   description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -52,7 +53,7 @@ export default function WindDamageRepairAmarilloPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -106,7 +107,7 @@ export default function WindDamageRepairAmarilloPage() {
                 "name": "Texas"
               }
             },
-            "description": "Professional wind damage roof repair in Amarillo, TX with 24/7 emergency service and complete insurance claim assistance."
+            "description": "Professional wind damage roof repair in Amarillo, TX with  and complete insurance claim assistance."
           })
         }}
       />
@@ -203,7 +204,7 @@ export default function WindDamageRepairAmarilloPage() {
                 Wind Damage Repair in <span className="text-brand-gold-light">Amarillo</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                High Wind Roofing Experts | 24/7 Emergency Service
+                High Wind Roofing Experts | 
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Amarillo's location in the Texas Panhandle creates perfect conditions for extreme winds. Sustained winds of 30-50 mph with gusts exceeding 70 mph damage shingles, flashing, and underlayment. We specialize in wind damage assessment and high-wind roofing systems designed for Panhandle conditions.
@@ -227,7 +228,7 @@ export default function WindDamageRepairAmarilloPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
                 <div className="text-4xl font-bold text-brand-gold mb-3">70+</div>
@@ -614,7 +615,7 @@ export default function WindDamageRepairAmarilloPage() {
                   <div>
                     <h3 className="text-xl font-bold text-green-900 mb-2">Emergency Temporary Repairs</h3>
                     <p className="text-gray-700">
-                      If your roof is actively leaking or exposed to elements, we provide emergency tarping and temporary leak repairs within hours. This prevents water damage to interior while insurance claim processes. Emergency service available 24/7 throughout Amarillo and surrounding Potter County communities.
+                      If your roof is actively leaking or exposed to elements, we provide emergency tarping and temporary leak repairs within hours. This prevents water damage to interior while insurance claim processes.  throughout Amarillo and surrounding Potter County communities.
                     </p>
                   </div>
                 </div>
@@ -740,7 +741,7 @@ export default function WindDamageRepairAmarilloPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Wind Damage Your Amarillo Roof?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free wind damage inspections. 24/7 emergency service. Complete insurance claim assistance. High-wind installation methods that prevent future damage.
+            Free wind damage inspections. . Complete insurance claim assistance. High-wind installation methods that prevent future damage.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">

@@ -13,8 +13,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-midland/' },
   title: "Storm Damage Repair Midland | 5 Star Commercial Roofing",
-  description: "Expert storm damage repair in Midland. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+  description: "Expert storm damage repair in Midland.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
 };
 
 export default function Page() {
@@ -52,7 +53,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert storm damage repair services in Midland, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert storm damage repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -106,7 +107,7 @@ export default function Page() {
                 "name": "Texas"
               }
             },
-            "description": "Expert storm damage repair in Midland. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance."
+            "description": "Expert storm damage repair in Midland.  for hail, wind, and weather damage. Complete insurance assistance."
           })
         }}
       />
@@ -131,7 +132,7 @@ export default function Page() {
                 "name": "Should I tarp my Midland roof after storm damage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, emergency tarping prevents further water damage after storms. We provide 24/7 emergency tarping service in Midland to protect your property until permanent repairs are completed. Most insurance policies cover emergency mitigation costs, and prompt action prevents mold and interior damage."
+                  "text": "Yes, emergency tarping prevents further water damage after storms. We provide emergency tarping services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover emergency mitigation costs, and prompt action prevents mold and interior damage."
                 }
               },
               {
@@ -182,7 +183,7 @@ export default function Page() {
                 Protecting Permian Basin Properties Since 2014
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage repair in Midland. 24/7 emergency service for hail, wind, and weather damage. Complete insurance assistance.
+                Expert storm damage repair in Midland.  for hail, wind, and weather damage. Complete insurance assistance.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
@@ -434,7 +435,7 @@ export default function Page() {
               <div className="bg-orange-50 p-6 rounded-xl border-t-4 border-orange-500 text-center">
                 <div className="text-3xl mb-3">⚡</div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Rapid Deployment</h3>
-                <p className="text-sm text-gray-700">24/7 response throughout Permian Basin with 2-4 hour arrival times, including petroleum facility safety protocols.</p>
+                <p className="text-sm text-gray-700">response throughout Permian Basin with 2-4 hour arrival times, including petroleum facility safety protocols.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500 text-center">
                 <div className="text-3xl mb-3">🔍</div>
@@ -458,7 +459,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              24/7 Storm Response in Midland
+              Storm Response in Midland
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe

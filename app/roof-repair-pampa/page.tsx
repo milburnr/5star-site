@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-pampa/' },
   title: "Roof Repair Pampa TX | Same-Day Service | Free Inspection",
   description: "Expert roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function RoofRepairPampaPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas", "name": "Pampa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Pampa, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -402,7 +403,7 @@ export default function RoofRepairPampaPage() {
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Energy Sector Schedules</h4>
                   <p className="text-gray-700 mb-4">
-                    The oil and gas industry operates on demanding schedules with 24/7 operations. Our service delivery accommodates energy sector timing requirements and emergency response needs.
+                    The oil and gas industry operates on demanding schedules with operations. Our service delivery accommodates energy sector timing requirements and emergency response needs.
                   </p>
                 </div>
               </div>
@@ -425,7 +426,7 @@ export default function RoofRepairPampaPage() {
                       Understanding that Pampa's energy sector operates around the clock, we coordinate our emergency response with oil and gas facility operations and worker shift schedules to minimize disruption.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• 24/7 energy facility emergency response</li>
+                      <li>• energy facility emergency response</li>
                       <li>• Shift schedule accommodation</li>
                       <li>• Industrial safety protocol compliance</li>
                       <li>• Oil field facility prioritization</li>
@@ -542,12 +543,12 @@ export default function RoofRepairPampaPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">24/7 Energy Sector Support</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Energy Sector Support</h3>
                 <p className="text-gray-700 mb-4">
                   Energy operations don't follow traditional schedules, and neither do we. Our emergency response accommodates the round-the-clock nature of oil and gas facilities in Pampa.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• 24/7 emergency response</li>
+                  <li>• prompt response</li>
                   <li>• Shift schedule accommodation</li>
                   <li>• Energy facility prioritization</li>
                   <li>• Industrial safety protocols</li>

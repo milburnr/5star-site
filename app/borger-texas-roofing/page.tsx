@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/borger-texas-roofing/' },
   title: 'Roofing in Borger, TX| Hail Damage Specialists | 5 Star',
   description: 'roofing services in Borger, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Hutchinson County. Free inspections available.',
 };
@@ -91,7 +92,7 @@ export default function BorgerRoofingPage() {
           "itemOffered": {
             "@type": "Service",
             "name": "Emergency Roofing Hutchinson County",
-            "description": "24/7 emergency roof repair services in Hutchinson County and Borger area"
+            "description": "emergency roof repair services in Hutchinson County and Borger area"
           }
         },
         {
@@ -273,9 +274,9 @@ export default function BorgerRoofingPage() {
             <FadeIn delay={0.3}>
               <div className="card-hover p-6 bg-red-50">
                 <div className="text-5xl mb-4">🚨</div>
-                <h3 className="text-xl font-bold text-red-700 mb-3">Emergency Repairs</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Borger, we respond 24/7 with emergency tarping and rapid roof repairs. Don't wait—call us immediately for storm damage assessment and temporary protection.
+                  When severe weather strikes Borger, we respond with emergency tarping and rapid roof repairs. Don't wait—call us immediately for storm damage assessment and temporary protection.
                 </p>
                 <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
               </div>
@@ -475,7 +476,7 @@ export default function BorgerRoofingPage() {
             <div>
               <h3 className="text-lg font-bold mb-2">How quickly can you respond to storm damage in Hutchinson County?</h3>
               <p className="text-gray-700">
-                We maintain 24/7 emergency response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide emergency tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.
+                We maintain prompt response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide emergency tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.
               </p>
             </div>
 

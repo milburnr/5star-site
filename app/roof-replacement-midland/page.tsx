@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-midland/' },
   title: 'Roof Replacement Midland TX | 5 Star Roofing',
   description: "Expert roof replacement in Midland TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
 };
@@ -91,7 +92,7 @@ export default function RoofReplacementMidlandPage() {
             "@type": "Service",
             "serviceType": "Roof Replacement Services",
             "name": "Roof Replacement in Midland",
-            "description": "Professional roof replacement services in Midland, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roof replacement services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -122,7 +123,7 @@ export default function RoofReplacementMidlandPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [{"@type":"Question","name":"When should I replace my Midland roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread Permian Basin hail damage, roof age over 15-20 years in dust storm environment, multiple leaks, extensive granule loss from dust erosion, or failed previous repairs. Oil boom construction from 1980s-2010s now requires replacement due to age and environmental wear."}},{"@type":"Question","name":"How much does roof replacement cost in Midland?","acceptedAnswer":{"@type":"Answer","text":"Residential: $12,000-$42,000 depending on size and materials. Commercial/Industrial: $20,000-$200,000+ for oil company facilities. Most Midland replacements are insurance-covered hail damage where property owners pay only deductible ($1,000-$3,500)."}},{"@type":"Question","name":"What roofing materials work best in Midland's Permian Basin climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles with dust-resistant granules (residential), TPO membrane or metal systems (commercial). Permian Basin requires materials engineered for dust storms, extreme hail, temperature cycling (20°F to 110°F+), and industrial environments."}},{"@type":"Question","name":"Do commercial buildings in Midland need special roofing considerations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Oil and gas facilities require chemical-resistant materials, 24/7 operational scheduling, enhanced wind resistance, and compliance with industrial safety standards. Many require specialized access for equipment and minimal business interruption during replacement."}},{"@type":"Question","name":"How do dust storms affect roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Frequent northwest wind dust storms cause granule loss, surface erosion, and accelerated aging. Dust accumulation blocks drainage systems and creates abrasive wear patterns. Proper material selection and maintenance schedules are critical for Permian Basin conditions."}},{"@type":"Question","name":"Are there energy efficiency benefits for new roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cool roof technologies can reduce cooling costs by 25-40% in Midland's intense summer heat (110°F+). Reflective membranes, metal roofing, and energy-efficient shingles qualify for utility rebates and reduce operational costs for both residential and commercial properties."}}]
+            "mainEntity": [{"@type":"Question","name":"When should I replace my Midland roof?","acceptedAnswer":{"@type":"Answer","text":"Replace when you have widespread Permian Basin hail damage, roof age over 15-20 years in dust storm environment, multiple leaks, extensive granule loss from dust erosion, or failed previous repairs. Oil boom construction from 1980s-2010s now requires replacement due to age and environmental wear."}},{"@type":"Question","name":"How much does roof replacement cost in Midland?","acceptedAnswer":{"@type":"Answer","text":"Residential: $12,000-$42,000 depending on size and materials. Commercial/Industrial: $20,000-$200,000+ for oil company facilities. Most Midland replacements are insurance-covered hail damage where property owners pay only deductible ($1,000-$3,500)."}},{"@type":"Question","name":"What roofing materials work best in Midland's Permian Basin climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles with dust-resistant granules (residential), TPO membrane or metal systems (commercial). Permian Basin requires materials engineered for dust storms, extreme hail, temperature cycling (20°F to 110°F+), and industrial environments."}},{"@type":"Question","name":"Do commercial buildings in Midland need special roofing considerations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Oil and gas facilities require chemical-resistant materials, operational scheduling, enhanced wind resistance, and compliance with industrial safety standards. Many require specialized access for equipment and minimal business interruption during replacement."}},{"@type":"Question","name":"How do dust storms affect roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Frequent northwest wind dust storms cause granule loss, surface erosion, and accelerated aging. Dust accumulation blocks drainage systems and creates abrasive wear patterns. Proper material selection and maintenance schedules are critical for Permian Basin conditions."}},{"@type":"Question","name":"Are there energy efficiency benefits for new roofs in Midland?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cool roof technologies can reduce cooling costs by 25-40% in Midland's intense summer heat (110°F+). Reflective membranes, metal roofing, and energy-efficient shingles qualify for utility rebates and reduce operational costs for both residential and commercial properties."}}]
           })
         }}
       />
@@ -166,7 +167,7 @@ export default function RoofReplacementMidlandPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -273,7 +274,7 @@ export default function RoofReplacementMidlandPage() {
                   <div className="border-l-4 border-red-500 pl-4">
                     <h4 className="font-bold text-red-800 mb-2">Energy Sector Buildings</h4>
                     <p className="text-sm text-gray-700">
-                      Oil company offices, equipment facilities, and industrial complexes require specialized commercial roofing systems designed for 24/7 operations.
+                      Oil company offices, equipment facilities, and industrial complexes require specialized commercial roofing systems designed for operations.
                     </p>
                   </div>
                   
@@ -344,7 +345,7 @@ export default function RoofReplacementMidlandPage() {
                   Complete replacement with scheduling flexibility for commercial operations. Enhanced installation techniques designed for extreme weather resistance and minimal business disruption.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• 24/7 commercial scheduling</li>
+                  <li>• commercial scheduling</li>
                   <li>• Enhanced wind resistance (120+ mph)</li>
                   <li>• Dust mitigation during installation</li>
                   <li>• Operations continuity planning</li>
@@ -432,7 +433,7 @@ export default function RoofReplacementMidlandPage() {
                       <strong>Upgrade solution:</strong> Over existing commercial roofs
                     </p>
                     <p className="text-sm text-gray-600 leading-relaxed">
-                      Maximum durability for 24/7 operations. Eliminates future maintenance concerns. Superior energy performance for large facilities. Perfect for oil company buildings.
+                      Maximum durability for operations. Eliminates future maintenance concerns. Superior energy performance for large facilities. Perfect for oil company buildings.
                     </p>
                     <p className="text-lg font-bold text-green-600 mt-2">$12.00 - $18.00 per sq ft</p>
                   </div>

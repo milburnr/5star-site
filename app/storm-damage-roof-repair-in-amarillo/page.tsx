@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-roof-repair-in-amarillo/' },
   title: 'Emergency Storm Damage Roof Repair in Amarillo | 5 Star',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -33,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Canyon"},
       {"@type": "City", "name": "Bushland"}
     ],
-    "description": "24/7 emergency storm damage roof repair in Amarillo, Texas. Wind, hail, rain damage restoration. Insurance claim assistance and emergency tarping."
+    "description": "emergency storm damage roof repair in Amarillo, Texas. Wind, hail, rain damage restoration. Insurance claim assistance and emergency tarping."
   };
 
   return (
@@ -67,15 +68,15 @@ export default function Page() {
       />
 
       <div className="content-block">
-        <h2 className="content-block-title">24/7 Emergency Storm Damage Response</h2>
+        <h2 className="content-block-title">Emergency Storm Damage Response</h2>
         <p className="text-lg">
-          Severe weather strikes the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> without warning. High winds, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a>, <a href="/roof-heavy-rain-damage-in-amarillo/" className="text-brand-gold hover:underline">heavy rain</a>, and even tornadoes can damage roofs across Amarillo in minutes. When <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> occurs, fast action prevents further interior damage. We're available 24/7 for emergency tarping and <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">repairs</a>.
+          Severe weather strikes the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> without warning. High winds, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a>, <a href="/roof-heavy-rain-damage-in-amarillo/" className="text-brand-gold hover:underline">heavy rain</a>, and even tornadoes can damage roofs across Amarillo in minutes. When <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> occurs, fast action prevents further interior damage. We're available for emergency tarping and <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">repairs</a>.
         </p>
       </div>
 
       <div className="bg-red-100 border-l-4 border-red-600 p-6 mb-8">
         <h3 className="text-xl font-bold mb-2">🚨 Emergency? Call Now: (806) 622-6041</h3>
-        <p>Available 24/7 for emergency tarping, leak repair, and storm damage assessment</p>
+        <p>Available for emergency tarping, leak repair, and storm damage assessment</p>
       </div>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Common Storm Damage in Amarillo</h2>
@@ -138,7 +139,7 @@ export default function Page() {
               <li>• Same-day response</li>
               <li>• Heavy-duty materials</li>
               <li>• Prevents water intrusion</li>
-              <li>• 24/7 availability</li>
+              <li>• availability</li>
             </ul>
           </div>
         </div>
@@ -189,7 +190,7 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Texas Panhandle & West Texas</h2>
         <p className="text-lg mb-4">
-          24/7 emergency storm damage services for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout the region:
+          emergency storm damage services for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>

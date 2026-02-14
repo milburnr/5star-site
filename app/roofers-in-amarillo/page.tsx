@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roofers-in-amarillo/' },
   title: 'Best Roofers in Amarillo TX | 5 Star Roofing',
   description: 'roofers in Amarillo, TX. Our roofing services meet all your needs. We provide top-quality solutions to ensure the best property protection.',
 };
@@ -42,7 +43,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -383,9 +384,9 @@ export default function Page() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">✅ 24/7 Emergency Service</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">✅ </h3>
                 <p className="text-gray-700">
-                  When storms strike Amarillo, we respond. Our emergency crews are available 24/7 for urgent tarping, leak repairs, and damage mitigation with typical response times of 2-4 hours.
+                  When storms strike Amarillo, we respond. Our emergency crews are available for urgent tarping, leak repairs, and damage mitigation with typical response times of 2-4 hours.
                 </p>
               </div>
 
@@ -477,10 +478,10 @@ export default function Page() {
               <div className="flex-1">
                 <h2 className="text-2xl font-bold text-red-800 mb-3">Need Emergency Roofing Service?</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Storm damage doesn't wait for business hours. Our emergency crews are available 24/7 throughout Amarillo and the Texas Panhandle for urgent tarping, leak repairs, and damage mitigation.
+                  Storm damage doesn't wait for business hours. Our emergency crews are available throughout Amarillo and the Texas Panhandle for urgent tarping, leak repairs, and damage mitigation.
                 </p>
                 <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-lg inline-block">
-                  📞 Emergency: (806) 622-6041
+                  📞 Call: (806) 622-6041
                 </a>
               </div>
             </div>

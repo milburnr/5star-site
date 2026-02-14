@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/amarillo-weather-impact-on-roofing/' },
   title: "Understanding Climate and Roof Longevity in Amarillo",
   description: "Learn how Amarillo's extreme weather impacts your roof. Hail, high winds, and temperature swings cause damage. Get expert roofing advice from 5 Star Roofing. Free inspections. Call (806) 622-6041.",
   openGraph: {
@@ -39,7 +40,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -51,7 +52,7 @@ export default function Page() {
             "@type": "Service",
             "serviceType": "Professional Roofing Services",
             "name": "Roofing Services in Amarillo",
-            "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -136,7 +137,7 @@ export default function Page() {
 
       {/* Featured Image */}
       <img
-        src="/images/amarillo-climate-roofing.jpg"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg"
         alt="Climate and Roof Longevity in Amarillo"
         className="w-full max-w-2xl h-auto mb-8 rounded-lg shadow-lg"
       />
@@ -653,7 +654,7 @@ export default function Page() {
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mb-6">
-          <li><strong>24/7 Emergency Hotline:</strong> (806) 622-6041 for immediate storm damage assistance</li>
+          <li><strong>Emergency Hotline:</strong> (806) 622-6041 for immediate storm damage assistance</li>
           <li><strong>Rapid Response Teams:</strong> Deployed within 2-4 hours of storm passage</li>
           <li><strong>Emergency Tarping Services:</strong> Temporary protection while permanent repairs are scheduled</li>
           <li><strong>Insurance Coordination:</strong> On-site claim assistance and documentation</li>
@@ -763,7 +764,7 @@ export default function Page() {
           Contact our team at <strong>(806) 622-6041</strong> for immediate assistance or to schedule your
           <strong>free roof inspection</strong>. We provide same-day <strong>emergency services</strong>
           for storm damage and can typically schedule routine inspections within 24-48 hours. Our office
-          hours are 9 AM to 5 PM, Monday through Friday, but emergency calls are answered 24/7.
+          hours are 9 AM to 5 PM, Monday through Friday, but emergency calls are answered.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Conclusion: Protecting Your Investment in Amarillo</h2>

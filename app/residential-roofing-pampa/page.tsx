@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-pampa/' },
   title: 'Residential Roofing Pampa TX | 5 Star Roofing',
-  description: "Professional residential roofing in Pampa TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional residential roofing in Pampa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingPampaPage() {
@@ -51,7 +52,7 @@ export default function ResidentialRoofingPampaPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Pampa",
-            "description": "Professional residential roofing services in Pampa, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Pampa, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function ResidentialRoofingPampaPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Residential Roofing in <span className="text-brand-gold-light">Pampa</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Pampa. Expert installation, comprehensive warranties, and 24/7 emergency service. Free inspections and insurance assistance available.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Pampa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function ResidentialRoofingPampaPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -176,7 +177,7 @@ export default function ResidentialRoofingPampaPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="text-gray-700 mb-4">Expert restoration for severe weather damage including hail, tornadoes, and straight-line winds common in Gray County.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• 24/7 emergency response</li>
+                  <li>• prompt response</li>
                   <li>• Tornado damage specialists</li>
                   <li>• Complete insurance coordination</li>
                   <li>• Structural assessment services</li>
@@ -265,7 +266,7 @@ export default function ResidentialRoofingPampaPage() {
                 </ul>
                 
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-brand-brown font-semibold">Priority storm response for severe weather events. Emergency services available 24/7 during severe weather season.</p>
+                  <p className="text-sm text-brand-brown font-semibold">Priority storm response for severe weather events. Emergency services available during severe weather season.</p>
                 </div>
               </div>
             </div>
@@ -308,7 +309,7 @@ export default function ResidentialRoofingPampaPage() {
               
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you prepare for severe weather season?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We maintain emergency response protocols from March through October, Pampa's peak severe weather season. This includes pre-positioned materials, 24/7 response teams, and coordination with local emergency management. We offer preventive inspections and minor repairs before storm season to minimize damage risk.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We maintain emergency response protocols from March through October, Pampa's peak severe weather season. This includes pre-positioned materials, response teams, and coordination with local emergency management. We offer preventive inspections and minor repairs before storm season to minimize damage risk.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -331,7 +332,7 @@ export default function ResidentialRoofingPampaPage() {
                 <div className="bg-red-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2">⚡ Storm Response Protocol:</h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• 24/7 emergency hotline activation</li>
+                    <li>• emergency hotline activation</li>
                     <li>• Rapid damage assessment teams</li>
                     <li>• Priority temporary protection</li>
                     <li>• Insurance coordination specialists</li>

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: 'Roofing Articles & Local Amarillo Guide | 5 Star Commerci...',
+  alternates: { canonical: 'https://5starroofingpros.com/articles/' },
+  title: 'Roofing Articles & Amarillo Guide | 5 Star',
   description: "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage, and roofing maintenance for West Texas homes.",
   openGraph: {
     title: "Roofing Articles & Local Amarillo Guide",

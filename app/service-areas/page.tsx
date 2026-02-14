@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { OptimizedImage } from "@/components/OptimizedImage";
+
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/service-areas/' },
   title: 'Service Areas | Amarillo, Midland, Odessa Roofing | & West',
   description: 'roofing services across West Texas. Serving Amarillo, Midland, Odessa, Lubbock, and 20+ Texas Panhandle cities. Hail damage specialists. Call (806) 622-6041',
 };
@@ -64,13 +65,7 @@ export default function Page() {
       <h1 className="text-4xl font-bold mb-6">Serving All of West Texas</h1>
 
       {/* Hero Image */}
-      <OptimizedImage
-        src="/images/cover-background-roofing-sunset"
-        alt="Roofing services across West Texas - Professional team serving Amarillo Midland Odessa - 5 Star Commercial Roofing"
-        className="w-full h-96 object-cover rounded-lg mb-8"
-        priority={true}
-        sizes="100vw"
-      />
+      <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-14-1280w.jpg" alt="Roofing services across West Texas - Professional team serving Amarillo Midland Odessa - 5 Star Commercial Roofing" className="w-full h-96 object-cover rounded-lg mb-8" loading="lazy" />
 
       <div className="content-block mb-12">
         <p className="text-lg">

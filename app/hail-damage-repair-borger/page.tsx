@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-borger/' },
   title: 'Hail Damage Repair Borger TX | 5 Star Roofing',
   description: "Professional hail damage roof repair in Borger TX. Fast emergency response, insurance assistance, quality materials. Serving Hutchinson County. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -41,7 +42,7 @@ export default function HailDamageRepairBorgerPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Borger,_Texas", "name": "Borger", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Borger, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -73,7 +74,7 @@ export default function HailDamageRepairBorgerPage() {
                 "name": "Hutchinson County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair services in Borger, TX. 24/7 emergency response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Hutchinson County properties."
+            "description": "Expert hail damage roof repair services in Borger, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Hutchinson County properties."
           })
         }}
       />
@@ -123,7 +124,7 @@ export default function HailDamageRepairBorgerPage() {
                 "name": "How quickly can you respond to hail damage in Borger?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We offer 24/7 emergency response for Borger properties. Located just 47 miles from our Amarillo headquarters, we can typically reach Borger within 1 hour for emergencies. After major storms, we prioritize emergency tarping to prevent water damage."
+                  "text": "We offer prompt response for Borger properties. Located just 47 miles from our Amarillo headquarters, we can typically reach Borger within 1 hour for emergencies. After major storms, we prioritize emergency tarping to prevent water damage."
                 }
               }
             ]
@@ -171,7 +172,7 @@ export default function HailDamageRepairBorgerPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -394,7 +395,7 @@ export default function HailDamageRepairBorgerPage() {
                   How quickly can you respond to hail damage in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer 24/7 emergency response for Borger properties. Our Amarillo headquarters is just 47 miles away, and we can typically reach Borger within about an hour for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin. For non-emergencies, we typically schedule inspections within 24-48 hours.
+                  We offer prompt response for Borger properties. Our Amarillo headquarters is just 47 miles away, and we can typically reach Borger within about an hour for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin. For non-emergencies, we typically schedule inspections within 24-48 hours.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roof-replacement-in-amarillo/' },
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
   description: 'Premier residential roof replacement in Amarillo TX. Specialized in hail damage claims, Class 4 impact-resistant materials, insurance coverage assistance. 25+ years experience, licensed & bonded. Free estimates, comprehensive warranties on all residential roof replacement projects.',
 };
@@ -78,7 +79,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -502,7 +503,7 @@ export default function Page() {
               <div className="w-20 h-20 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">⚡</span>
               </div>
-              <h3 className="font-bold mb-3">24/7 Emergency Response</h3>
+              <h3 className="font-bold mb-3">Emergency Response</h3>
               <p className="text-sm text-gray-600">Emergency service guarantee for any warranty-covered issues within 24 hours of contact.</p>
             </div>
           </div>
@@ -612,7 +613,7 @@ export default function Page() {
                 <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Hail Damage Claims</a></li>
                 <li><a href="/metal-roofing-amarillo/" className="text-brand-gold hover:underline">• Metal Roofing</a></li>
                 <li><a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">• Free Inspections</a></li>
-                <li><a href="/emergency-roof-repair-amarillo/" className="text-brand-gold hover:underline">• Emergency Service</a></li>
+                <li><a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">• Emergency Service</a></li>
               </ul>
             </div>
           </div>

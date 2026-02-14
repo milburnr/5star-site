@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/pvc-roof-repair-in-amarillo/' },
   title: 'PVC Roof Repair Amarillo TX | 5 Star Roofing',
   description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -33,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Midland"},
       {"@type": "City", "name": "Odessa"}
     ],
-    "description": "Professional PVC membrane roof repair in Amarillo and West Texas. Emergency service available 24/7 for commercial buildings."
+    "description": "Professional PVC membrane roof repair in Amarillo and West Texas.  for commercial buildings."
   };
 
   return (
@@ -70,7 +71,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -123,7 +124,7 @@ export default function Page() {
           Emergency PVC Repair Services for Critical Commercial Operations
         </h2>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-          Amarillo's severe weather patterns including hailstorms and high winds can cause sudden PVC membrane damage that threatens critical commercial operations and valuable interior assets. Emergency response capabilities include 24/7 availability, rapid deployment, and specialized equipment for immediate temporary repairs that protect facilities until permanent solutions can be implemented during optimal weather conditions.
+          Amarillo's severe weather patterns including hailstorms and high winds can cause sudden PVC membrane damage that threatens critical commercial operations and valuable interior assets. Emergency response capabilities include availability, rapid deployment, and specialized equipment for immediate temporary repairs that protect facilities until permanent solutions can be implemented during optimal weather conditions.
         </p>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
           Emergency tarping systems specifically designed for PVC membrane protection utilize compatible materials that won't cause chemical reactions or membrane damage during temporary installation periods. Professional-grade fastening systems withstand wind loads while preventing additional membrane damage from emergency protection procedures during storm events.
@@ -304,7 +305,7 @@ export default function Page() {
           Active roof leaks can cause tens of thousands of dollars in interior damage within hours. Don't wait—call for emergency service:
         </p>
         <ul className="space-y-2">
-          <li><strong>24/7 Availability:</strong> We answer phones day and night during storm season</li>
+          <li><strong>Availability:</strong> We answer phones day and night during storm season</li>
           <li><strong>2-Hour Response:</strong> Emergency crews dispatched immediately in Amarillo area</li>
           <li><strong>Same-Day Tarping:</strong> Temporary protection while permanent repairs are scheduled</li>
           <li><strong>Insurance Documentation:</strong> We handle all paperwork for your claim</li>

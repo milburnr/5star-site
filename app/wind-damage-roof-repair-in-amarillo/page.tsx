@@ -3,6 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-roof-repair-in-amarillo/' },
   title: 'Emergency Wind Damage Roof Repair in Amarillo | 5 Star',
   description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -42,7 +43,7 @@ export default function Page() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -53,7 +54,7 @@ export default function Page() {
           <p className="text-2xl mb-4 font-semibold text-blue-200">Texas Panhandle Wind Specialists</p>
           <p className="text-xl mb-8 leading-relaxed">Expert wind damage restoration in America's windiest region. From microburst destruction to sustained high-wind uplift, we repair all types of wind damage with specialized techniques designed for Amarillo's extreme wind environment.</p>
           <div className="flex gap-4 flex-wrap">
-            <a href="tel:8066226041" className="bg-yellow-500 text-gray-900 px-8 py-4 rounded-full font-bold hover:bg-yellow-400 transition-all text-lg shadow-2xl">📞 Emergency: (806) 622-6041</a>
+            <a href="tel:8066226041" className="bg-yellow-500 text-gray-900 px-8 py-4 rounded-full font-bold hover:bg-yellow-400 transition-all text-lg shadow-2xl">📞 Call: (806) 622-6041</a>
             <a href="/contact/" className="bg-white text-gray-800 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all text-lg shadow-2xl">Free Wind Damage Assessment</a>
           </div>
         </div>

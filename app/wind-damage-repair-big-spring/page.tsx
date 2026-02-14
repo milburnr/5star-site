@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-big-spring/' },
   title: "Wind Damage Repair Big Spring TX | 5 Star Commercial Roofing",
   description: "Expert wind damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function WindDamageRepairBigSpringPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas", "name": "Big Spring", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert wind damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert wind damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -160,7 +161,7 @@ export default function WindDamageRepairBigSpringPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
@@ -209,7 +210,7 @@ export default function WindDamageRepairBigSpringPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-cyan-500">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Emergency Storm Response</h4>
-                <p className="text-gray-600 mb-3">24/7 emergency services for Big Spring wind damage events. Our rapid response team provides immediate tarping, board-up, and stabilization to prevent secondary damage while coordinating with local emergency services and insurance providers.</p>
+                <p className="text-gray-600 mb-3">s for Big Spring wind damage events. Our rapid response team provides immediate tarping, board-up, and stabilization to prevent secondary damage while coordinating with local emergency services and insurance providers.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• Immediate emergency tarping</li>
                   <li>• Structural damage stabilization</li>
@@ -299,7 +300,7 @@ export default function WindDamageRepairBigSpringPage() {
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Rapid Response & Emergency Protection</h3>
-                  <p className="text-gray-600">Our 24/7 emergency response team secures Big Spring properties immediately after wind events. We provide emergency tarping, board-up services, and structural stabilization to prevent secondary damage while beginning comprehensive damage assessment processes.</p>
+                  <p className="text-gray-600">Our prompt response team secures Big Spring properties immediately after wind events. We provide emergency tarping, board-up services, and structural stabilization to prevent secondary damage while beginning comprehensive damage assessment processes.</p>
                 </div>
               </div>
 

@@ -13,6 +13,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-borger/' },
   title: "Roof Repair Borger TX | Same-Day Service | Free Inspection",
   description: "Expert roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
 };
@@ -52,7 +53,7 @@ export default function RoofRepairBorgerPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Borger,_Texas", "name": "Borger", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert roof repair services in Borger, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert roof repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -347,12 +348,12 @@ export default function RoofRepairBorgerPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Services</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Storm Damage Services</h3>
                 <p className="text-gray-700 mb-4">
-                  Texas Panhandle weather doesn't follow business hours. Our 24/7 emergency service ensures your Borger property is protected when storms strike or unexpected damage occurs.
+                  Texas Panhandle weather doesn't follow business hours. Our  ensures your Borger property is protected when storms strike or unexpected damage occurs.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• 24/7 emergency response</li>
+                  <li>• prompt response</li>
                   <li>• Temporary weatherproofing</li>
                   <li>• Leak location and repair</li>
                   <li>• Same-day service available</li>
@@ -500,7 +501,7 @@ export default function RoofRepairBorgerPage() {
                       <li>• Final quality inspection</li>
                       <li>• Warranty documentation</li>
                       <li>• Maintenance recommendations</li>
-                      <li>• 24/7 warranty support</li>
+                      <li>• warranty support</li>
                     </ul>
                   </div>
                 </div>
@@ -562,7 +563,7 @@ export default function RoofRepairBorgerPage() {
                 <ul className="text-gray-600 space-y-2">
                   <li>• 1-5 year workmanship warranties</li>
                   <li>• Manufacturer material coverage</li>
-                  <li>• 24/7 warranty support</li>
+                  <li>• warranty support</li>
                   <li>• No-cost defect corrections</li>
                 </ul>
               </div>

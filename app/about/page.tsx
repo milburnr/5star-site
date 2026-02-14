@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { OptimizedImage } from "@/components/OptimizedImage";
+
 
 export const metadata: Metadata = {
-  title: 'About 5 Star Commercial Roofing | Amarillo, Midland, Odes...',
+  alternates: { canonical: 'https://5starroofingpros.com/about/' },
+  title: 'About 5 Star Roofing | West Texas Roofers',
   description: 'Over 10 years serving Amarillo, Midland, Odessa and West Texas. Call for a free quote!',
 };
 
@@ -76,13 +77,7 @@ export default function Page() {
       {/* Team/Company Hero Image */}
       <FadeIn delay={0.2}>
         <div className="relative mb-6 md:mb-8 rounded-2xl overflow-hidden shadow-2xl">
-          <OptimizedImage
-        src="/images/cover-background-roofing-sunset"
-        alt="5 Star Commercial Roofing team in Amarillo Texas - Professional roofing contractors and crew - Locally owned and operated"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover"
-        priority={true}
-        sizes="100vw"
-      />
+          <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg" alt="5 Star Commercial Roofing team in Amarillo Texas - Professional roofing contractors and crew - Locally owned and operated" className="w-full h-48 sm:h-64 md:h-96 object-cover" loading="lazy" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
         </div>
       </FadeIn>
@@ -210,7 +205,7 @@ export default function Page() {
           <FadeIn delay={0.1} direction="left">
             <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <img
-                src="/images/TPO2.jpg"
+                src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg"
                 alt="5 Star Commercial Roofing company truck in Amarillo TX - Professional roofing equipment and materials ready for service"
                 className="w-full h-64 object-cover"
               />
@@ -220,7 +215,7 @@ export default function Page() {
           <FadeIn delay={0.2} direction="right">
             <div className="relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
               <img
-                src="/images/Constructionhome.jpg"
+                src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
                 alt="Professional roofing crew installing roof in Amarillo Texas - Quality craftsmanship and safety equipment - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover"
               />

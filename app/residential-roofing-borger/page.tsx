@@ -8,8 +8,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-borger/' },
   title: 'Residential Roofing Borger TX | 5 Star Roofing',
-  description: "Professional residential roofing in Borger TX. Expert installation, 24/7 emergency service, insurance assistance. Free inspections. Call (806) 622-6041",
+  description: "Professional residential roofing in Borger TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingBorgerPage() {
@@ -51,7 +52,7 @@ export default function ResidentialRoofingBorgerPage() {
             "@type": "Service",
             "serviceType": "Residential Roofing Services",
             "name": "Residential Roofing in Borger",
-            "description": "Professional residential roofing services in Borger, Texas. Expert installation, repair, and maintenance with 24/7 emergency response.",
+            "description": "Professional residential roofing services in Borger, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
               "@type": "RoofingContractor",
               "name": "5 Star Commercial Roofing",
@@ -89,7 +90,7 @@ export default function ResidentialRoofingBorgerPage() {
             <div className="max-w-4xl">
               <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Residential Roofing in <span className="text-brand-gold-light">Borger</span></h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Northern Panhandle Roofing Excellence</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing serving Borger and Hutchinson County. Expert protection for industrial families with comprehensive warranties, 24/7 emergency service, and specialized knowledge of northern Texas Panhandle weather challenges.</p>
+              <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing serving Borger and Hutchinson County. Expert protection for industrial families with comprehensive warranties, , and specialized knowledge of northern Texas Panhandle weather challenges.</p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
@@ -103,7 +104,7 @@ export default function ResidentialRoofingBorgerPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">24/7</div><div className="text-brand-brown font-semibold text-lg">Emergency Service</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
@@ -202,7 +203,7 @@ export default function ResidentialRoofingBorgerPage() {
               </div>
               <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border border-purple-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Emergency Response Network</h3>
-                <p className="text-gray-700 mb-4 leading-relaxed">Borger's location in severe weather territory requires robust emergency response capabilities. Our 24/7 emergency network includes dedicated crews, material stockpiles, and rapid deployment protocols.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">Borger's location in severe weather territory requires robust emergency response capabilities. Our emergency network includes dedicated crews, material stockpiles, and rapid deployment protocols.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• 90-minute emergency response time</li>
                   <li>• Pre-positioned emergency materials</li>
@@ -452,7 +453,7 @@ export default function ResidentialRoofingBorgerPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency services during severe weather events?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. Borger's location in Tornado Alley requires robust emergency response capabilities. We provide 24/7 emergency service with typically 90-minute response times during severe weather events. Our emergency services include immediate tarping, water damage mitigation, structural stabilization, and priority scheduling for permanent repairs. We maintain pre-positioned materials and dedicated emergency crews during storm season to ensure rapid response when Borger families need protection most.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. Borger's location in Tornado Alley requires robust emergency response capabilities. We provide  with typically 90-minute response times during severe weather events. Our emergency services include immediate tarping, water damage mitigation, structural stabilization, and priority scheduling for permanent repairs. We maintain pre-positioned materials and dedicated emergency crews during storm season to ensure rapid response when Borger families need protection most.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

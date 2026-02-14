@@ -6,8 +6,9 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-midland-tx/' },
   title: 'Hail Damage Roof Repair in Midland | 5 Star',
-  description: "Expert hail damage roof repair in Midland TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Midland TX. , insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairMidlandPage() {
   return (
@@ -85,7 +86,7 @@ export default function HailDamageRepairMidlandPage() {
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <InteractiveCard>
-                <img src="/images/hail-damage-3.jpg" alt="Record hail damage in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-8-1280w.jpg" alt="Record hail damage in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Record-Breaking Hailstone Sizes</h3>
                 <p className="text-gray-700 mb-4">
                   <strong>May 2024:</strong> 7.25-inch diameter hailstone - nearly the size of a volleyball. This ranks among the largest hailstones ever recorded in Texas history. Standard roofing shingles are tested to withstand 2-inch hail. At 7.25 inches, these hailstones weren't just damaging roofs - they were punching through them entirely.
@@ -96,7 +97,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/storm-damage-roof-repair.jpg" alt="Storm damage to roof in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-9-1280w.jpg" alt="Storm damage to roof in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Terminal Velocity Impact Forces</h3>
                 <p className="text-gray-700">
                   When a 7.25-inch hailstone falls from thunderstorm heights (often 30,000+ feet), it reaches terminal velocity of 100+ mph before impact. The kinetic energy from a softball-sized ice ball traveling at highway speeds is enough to:
@@ -110,7 +111,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/roof-inspection-texas.jpg" alt="Roof inspection in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-10-1280w.jpg" alt="Roof inspection in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Midland's Extreme Temperature Cycling</h3>
                 <p className="text-gray-700">
                   Midland experiences temperature extremes that accelerate hail damage deterioration. Summer temperatures routinely exceed 100°F, while winter nights can drop below 20°F. Hail-damaged shingles expand and contract in these cycles, causing:
@@ -124,7 +125,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/asphaltshingles.jpg" alt="Quality roofing shingles for Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg" alt="Quality roofing shingles for Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">High Wind Exposure in the Permian Basin</h3>
                 <p className="text-gray-700">
                   Midland's open Permian Basin geography offers zero wind protection. After hail loosens adhesive strips and compromises shingle integrity, Midland's frequent 40-50 mph winds (and occasional 60-70 mph gusts) tear off damaged shingles that would survive in calmer climates. One hailstorm followed by one windstorm = catastrophic roof failure.
@@ -264,7 +265,7 @@ export default function HailDamageRepairMidlandPage() {
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <InteractiveCard>
-                <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.jpg" alt="Residential roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Licensed Midland Contractor - Not Storm Chasers</h3>
                 <p className="text-gray-700">
                   We're a licensed contractor serving Midland for over 10 years. We're not out-of-state storm chasers who disappear after the insurance check clears. We're here for your warranty needs 10, 20, 30 years from now. Our reputation in Midland County matters - we earn it one roof at a time.
@@ -272,7 +273,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/insurance-claims-roofing.jpg" alt="Insurance claims assistance in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-13-1280w.jpg" alt="Insurance claims assistance in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold text-brand-brown mb-3">200+ Midland Insurance Claims Handled</h3>
                 <p className="text-gray-700">
                   We've successfully managed over 200 insurance claims for Midland homeowners and businesses. We know how State Farm, Farmers, Allstate, USAA, and every other carrier operates. We work with all major Midland insurance adjusters and agents. Our expertise often gets homeowners MORE coverage than they expected.
@@ -443,10 +444,10 @@ export default function HailDamageRepairMidlandPage() {
         {/* Emergency Services */}
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
-            <h2 className="text-3xl font-bold mb-6 text-red-700">24/7 Emergency Hail Damage Services in Midland</h2>
+            <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Damage Services in Midland</h2>
 
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after the May or June 2024 hailstorms?</strong> We provide 24/7 emergency tarping and temporary repairs throughout Midland County. Don't wait - water damage compounds rapidly and can lead to mold growth, ceiling collapse, ruined insulation, and destroyed belongings worth far more than your roof.
+              <strong>Active leak after the May or June 2024 hailstorms?</strong> We provide emergency tarping services and temporary repairs throughout Midland County. Don't wait - water damage compounds rapidly and can lead to mold growth, ceiling collapse, ruined insulation, and destroyed belongings worth far more than your roof.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -478,7 +479,7 @@ export default function HailDamageRepairMidlandPage() {
               <p className="text-2xl font-bold text-brand-gold mb-2">
                 <a href="tel:8066226041" className="hover:underline">(806) 622-6041</a>
               </p>
-              <p className="text-gray-700">Available 24/7/365 for roofing emergencies throughout Midland County</p>
+              <p className="text-gray-700">Available/365 for roofing emergencies throughout Midland County</p>
             </div>
           </section>
         </FadeIn>

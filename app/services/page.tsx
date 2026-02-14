@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { OptimizedImage } from "@/components/OptimizedImage";
+
 
 export const metadata: Metadata = {
-  title: 'Roofing Services in Amarillo, Midland, Odessa| Hail Damag...',
+  alternates: { canonical: 'https://5starroofingpros.com/services/' },
+  title: 'Roofing Services Amarillo TX | 5 Star',
   description: 'Complete roofing services for West Texas including residential, commercial, and industrial. Call for a free quote!',
 };
 
@@ -53,7 +54,7 @@ export default function Page() {
           "@type": "Service",
           "name": "Storm Damage Restoration",
           "url": "https://5starroofingpros.com/storm-damage-roof-repair-in-amarillo/",
-          "description": "24/7 emergency storm damage repair and restoration services"
+          "description": "Complete storm damage repair and restoration services for West Texas"
         }
       },
       {
@@ -112,13 +113,7 @@ export default function Page() {
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Complete Roofing Services for West Texas</h1>
 
       {/* Hero Image */}
-      <OptimizedImage
-        src="/images/cover-background-roofing-sunset"
-        alt="Professional roofing services in Amarillo Texas - Expert crew installing quality roofing - 5 Star Commercial Roofing"
-        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
-        priority={true}
-        sizes="100vw"
-      />
+      <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-15-1280w.jpg" alt="Professional roofing services in Amarillo Texas - Expert crew installing quality roofing - 5 Star Commercial Roofing" className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8" loading="lazy" />
 
       <div className="content-block mb-12">
         <p className="text-lg">
@@ -129,29 +124,6 @@ export default function Page() {
         </p>
       </div>
 
-      {/* Emergency Services */}
-      <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-lg">
-        <div className="flex gap-6 items-start">
-          <div className="text-5xl">🚨</div>
-          <div className="flex-1">
-            <h2 className="text-2xl font-bold text-red-800 mb-3">24/7 Emergency Roofing Services</h2>
-            <p className="text-gray-700 mb-4">
-              Storm damage doesn't wait for business hours. We offer round-the-clock emergency response for:
-            </p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 mb-4">
-              <li>Active roof leaks causing interior damage</li>
-              <li>Severe hail or wind damage exposing roof deck</li>
-              <li>Missing shingles after storms</li>
-              <li>Tree or debris impact damage</li>
-              <li>Commercial roof failures causing business interruption</li>
-            </ul>
-            <a href="tel:8066226041" className="btn-primary bg-red-600 hover:bg-red-700 text-white">
-              📞 Emergency: (806) 622-6041
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Storm Damage Services */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-8">Storm Damage & Insurance Services</h2>
@@ -159,7 +131,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/hail-damage-3.jpg" alt="Hail Damage Roof Repair" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Hail Damage Roof Repair" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Hail Damage Roof Repair</h3>
                 <p className="mb-4">
@@ -181,7 +153,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/storm-damage-roof-repair.jpg" alt="Storm Damage Restoration" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg" alt="Storm Damage Restoration" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="mb-4">
@@ -203,7 +175,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/roof-inspection-texas.jpg" alt="Roof Inspections" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg" alt="Roof Inspections" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Free Roof Inspections</h3>
                 <p className="mb-4">
@@ -254,7 +226,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/asphaltshingles.jpg" alt="Asphalt Shingle Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="Asphalt Shingle Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Asphalt Shingle Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -270,7 +242,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="up">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/SteelRoofing.jpg" alt="Metal Roofing" className="card-image" />
+              <img src="/images/SteelRoofing-1280w.jpg" alt="Metal Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Standing Seam Metal Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -353,7 +325,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO1.jpg" alt="TPO Commercial Roofing" className="card-image" />
+              <img src="/images/TPO1-1280w.jpg" alt="TPO Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">TPO Roofing Systems</h3>
                 <p className="mb-4">
@@ -375,7 +347,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/EPDM2.jpg" alt="EPDM Commercial Roofing" className="card-image" />
+              <img src="/images/EPDM1-1280w.jpg" alt="EPDM Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
                 <p className="mb-4">
@@ -397,7 +369,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO1.jpg" alt="PVC and TPO commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
+              <img src="/images/PVC1-1280w.jpg" alt="PVC commercial roofing commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">PVC Roofing Systems</h3>
                 <p className="mb-4">
@@ -419,7 +391,7 @@ export default function Page() {
 
           <FadeIn delay={0.4} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO2.jpg" alt="Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg" alt="Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Built-Up Roofing (BUR)</h3>
                 <p className="mb-4">
@@ -621,7 +593,7 @@ export default function Page() {
               <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="hover:text-brand-gold">Hail Replacement</a></li>
               <li><a href="/storm-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Storm Damage</a></li>
               <li><a href="/wind-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Wind Damage</a></li>
-              <li><a href="/emergency-roof-repair-odessa-texas/" className="hover:text-brand-gold">Emergency Repair</a></li>
+              <li><a href="/hail-damage-repair-odessa-tx/" className="hover:text-brand-gold">Emergency Repair</a></li>
             </ul>
           </div>
 

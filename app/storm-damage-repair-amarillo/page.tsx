@@ -12,7 +12,8 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 
 export const metadata: Metadata = {
-  title: 'Storm Damage Roof Repair Amarillo TXEmergency | 5 Star',
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-amarillo/' },
+  title: 'Storm Damage Roof Repair Amarillo TX | 5 Star Roofing',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
 
@@ -83,7 +84,7 @@ export default function StormDamageRepairAmarilloPage() {
                 "name": "Texas"
               }
             },
-            "description": "24/7 emergency storm damage roof repair in Amarillo, TX. Wind, hail, and severe weather damage specialists with complete insurance assistance."
+            "description": "emergency storm damage roof repair in Amarillo, TX. Wind, hail, and severe weather damage specialists with complete insurance assistance."
           })
         }}
       />
@@ -100,7 +101,7 @@ export default function StormDamageRepairAmarilloPage() {
                 "name": "How quickly can you respond to storm damage emergencies?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We maintain 24/7 emergency teams throughout the Amarillo area with 2-4 hour response times for critical situations. During major storm events affecting the entire Texas Panhandle, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
+                  "text": "We maintain emergency teams throughout the Amarillo area with 2-4 hour response times for critical situations. During major storm events affecting the entire Texas Panhandle, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
                 }
               },
               {
@@ -116,7 +117,7 @@ export default function StormDamageRepairAmarilloPage() {
                 "name": "Should I tarp my roof myself or wait for professionals?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our 24/7 emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
+                  "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
                 }
               },
               {
@@ -156,10 +157,10 @@ export default function StormDamageRepairAmarilloPage() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Amarillo</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                24/7 Emergency Service | Severe Weather Specialists
+                 | Severe Weather Specialists
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Texas Panhandle severe storms bring hail, high winds, torrential rain, and tornado activity. We provide 24/7 emergency response, temporary repairs, complete damage assessment, and insurance claim assistance for storm-damaged roofs throughout Amarillo.
+                Texas Panhandle severe storms bring hail, high winds, torrential rain, and tornado activity. We provide prompt response, temporary repairs, complete damage assessment, and insurance claim assistance for storm-damaged roofs throughout Amarillo.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="bg-gradient-to-r from-red-600 to-red-700 text-white text-lg px-10 py-5 rounded-full font-bold shadow-2xl hover:scale-110 transition-all duration-300 animate-pulse-subtle">
@@ -180,7 +181,7 @@ export default function StormDamageRepairAmarilloPage() {
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -220,7 +221,7 @@ export default function StormDamageRepairAmarilloPage() {
             </p>
             
             <p className="text-lg text-gray-600 leading-relaxed">
-              We've responded to every major Amarillo storm since 2014, serving properties from Palo Duro Canyon estates to Downtown Amarillo commercial districts, from West Texas A&M University neighborhoods to Historic Route 66 properties, and throughout the rapidly growing Southwest Amarillo corridor. Our 24/7 emergency team provides 2-4 hour response times with same-day tarping and temporary repairs documented for insurance claims. We handle the complete process—emergency mitigation, detailed damage assessment, insurance negotiations, and final restoration with upgraded Class 4 impact-resistant materials engineered for Texas Panhandle storms.
+              We've responded to every major Amarillo storm since 2014, serving properties from Palo Duro Canyon estates to Downtown Amarillo commercial districts, from West Texas A&M University neighborhoods to Historic Route 66 properties, and throughout the rapidly growing Southwest Amarillo corridor. Our emergency team provides 2-4 hour response times with same-day tarping and temporary repairs documented for insurance claims. We handle the complete process—emergency mitigation, detailed damage assessment, insurance negotiations, and final restoration with upgraded Class 4 impact-resistant materials engineered for Texas Panhandle storms.
             </p>
           </section>
         </FadeIn>
@@ -327,7 +328,7 @@ export default function StormDamageRepairAmarilloPage() {
                   Amarillo's occasional torrential rain events (2-4 inches in hours) overwhelm damaged roofing systems. Water infiltration leads to saturated insulation, ceiling stains, mold growth, and structural damage. Emergency tarping prevents secondary damage during claim processing.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Our 24/7 emergency team responds within 2-4 hours to prevent interior damage.
+                  Our emergency team responds within 2-4 hours to prevent interior damage.
                 </p>
               </div>
 
@@ -351,7 +352,7 @@ export default function StormDamageRepairAmarilloPage() {
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">Storm Just Hit? Call Now!</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Active leaks or severe storm damage require immediate attention. Every hour of delay increases interior damage and total repair costs. We provide <strong>24/7 emergency response</strong> throughout Amarillo—same-day tarping, temporary repairs, and damage mitigation.
+                  Active leaks or severe storm damage require immediate attention. Every hour of delay increases interior damage and total repair costs. We provide <strong>prompt response</strong> throughout Amarillo—same-day tarping, temporary repairs, and damage mitigation.
                 </p>
                 <div className="flex gap-4 flex-wrap">
                   <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300 text-lg">
@@ -377,7 +378,7 @@ export default function StormDamageRepairAmarilloPage() {
                   How quickly can you respond to storm damage emergencies?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain 24/7 emergency teams throughout the Amarillo area with 2-4 hour response times for critical situations. During major storm events affecting the entire Texas Panhandle, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
+                  We maintain emergency teams throughout the Amarillo area with 2-4 hour response times for critical situations. During major storm events affecting the entire Texas Panhandle, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
                 </AccordionContent>
               </AccordionItem>
 
@@ -395,7 +396,7 @@ export default function StormDamageRepairAmarilloPage() {
                   Should I tarp my roof myself or wait for professionals?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our 24/7 emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
+                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
                 </AccordionContent>
               </AccordionItem>
 
@@ -456,7 +457,7 @@ export default function StormDamageRepairAmarilloPage() {
               <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500 text-center">
                 <div className="text-3xl mb-3">🚨</div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Emergency Response</h3>
-                <p className="text-sm text-gray-700">24/7 dispatch, 2-4 hour arrival, immediate tarping and temporary repairs to prevent interior damage.</p>
+                <p className="text-sm text-gray-700">dispatch, 2-4 hour arrival, immediate tarping and temporary repairs to prevent interior damage.</p>
               </div>
               <div className="bg-blue-50 p-6 rounded-xl border-t-4 border-blue-500 text-center">
                 <div className="text-3xl mb-3">📋</div>
@@ -512,7 +513,7 @@ export default function StormDamageRepairAmarilloPage() {
         </FadeIn>
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Storm Damage? We're Here 24/7</h2>
+          <h2 className="text-4xl font-bold mb-6">Storm Damage? We're Here</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Emergency response. Free storm inspections. Complete insurance assistance. Serving Amarillo and the Texas Panhandle around the clock.
           </p>

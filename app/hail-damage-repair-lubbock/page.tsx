@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-lubbock/' },
   title: 'Hail Damage Repair Lubbock TX | 5 Star Roofing',
   description: "Professional hail damage roof repair in Lubbock TX. Fast emergency response, insurance assistance, Class 4 shingles. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -41,7 +42,7 @@ export default function HailDamageRepairLubbockPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -73,7 +74,7 @@ export default function HailDamageRepairLubbockPage() {
                 "name": "Lubbock County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair services in Lubbock, TX. 24/7 emergency response, insurance claim assistance, and Class 4 impact-resistant roof replacements for the Hub City."
+            "description": "Expert hail damage roof repair services in Lubbock, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for the Hub City."
           })
         }}
       />
@@ -123,7 +124,7 @@ export default function HailDamageRepairLubbockPage() {
                 "name": "How quickly can you respond to hail damage in Lubbock?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We offer 24/7 emergency response for Lubbock properties. Located just 124 miles from our Amarillo headquarters, our crews can typically reach Lubbock within 2 hours for urgent situations. After major storms, we prioritize emergency tarping to prevent water damage."
+                  "text": "We offer prompt response for Lubbock properties. Located just 124 miles from our Amarillo headquarters, our crews can typically reach Lubbock within 2 hours for urgent situations. After major storms, we prioritize emergency tarping to prevent water damage."
                 }
               }
             ]
@@ -171,7 +172,7 @@ export default function HailDamageRepairLubbockPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -395,7 +396,7 @@ export default function HailDamageRepairLubbockPage() {
                   How quickly can you respond to hail damage in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer 24/7 emergency response for Lubbock properties. Our Amarillo headquarters is just 124 miles away, and we can typically reach Lubbock within 2 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin. For non-emergencies, we typically schedule inspections within 24-48 hours.
+                  We offer prompt response for Lubbock properties. Our Amarillo headquarters is just 124 miles away, and we can typically reach Lubbock within 2 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin. For non-emergencies, we typically schedule inspections within 24-48 hours.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

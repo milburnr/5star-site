@@ -11,8 +11,9 @@ import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-hereford/' },
   title: 'Hail Damage Repair Hereford TX | 5 Star Roofing',
-  description: "Expert hail damage roof repair in Hereford TX. 24/7 emergency service, insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Hereford TX. , insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairHerefordPage() {
   return (
@@ -40,7 +41,7 @@ export default function HailDamageRepairHerefordPage() {
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Hereford,_Texas", "name": "Hereford", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
-        "description": "Expert hail damage repair services in Hereford, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",
+        "description": "Expert hail damage repair services in Hereford, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
 
@@ -65,7 +66,7 @@ export default function HailDamageRepairHerefordPage() {
                 "name": "Deaf Smith County, Texas"
               }
             },
-            "description": "Expert hail damage roof repair in Hereford, TX - the Beef Capital of the World. Serving Deaf Smith County with 24/7 emergency response and insurance claim assistance."
+            "description": "Expert hail damage roof repair in Hereford, TX - the Beef Capital of the World. Serving Deaf Smith County with prompt response and insurance claim assistance."
           })
         }}
       />
@@ -119,7 +120,7 @@ export default function HailDamageRepairHerefordPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Service</div>
+                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={48} suffix=" mi" /></div>
@@ -380,7 +381,7 @@ export default function HailDamageRepairHerefordPage() {
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔧</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Emergency Response</h3>
-                <p className="text-gray-600">24/7 service for critical agricultural facilities and residential emergencies.</p>
+                <p className="text-gray-600">service for critical agricultural facilities and residential emergencies.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🛡️</div>

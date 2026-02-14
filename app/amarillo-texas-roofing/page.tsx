@@ -5,6 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://5starroofingpros.com/amarillo-texas-roofing/' },
   title: 'Amarillo Texas Roofing | Local Hail Experts',
   description: 'Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.',
 };
@@ -303,7 +304,7 @@ export default function AmarilloRoofingPage() {
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Available 24/7 for roofing emergencies in Amarillo.</strong> Roof leaks, storm
+                      <strong>Available for roofing emergencies in Amarillo.</strong> Roof leaks, storm
                       damage, or structural issues can&apos;t wait. We provide emergency tarping, leak repairs,
                       and temporary solutions to protect your property until permanent repairs can be made.
                     </p>
@@ -312,10 +313,10 @@ export default function AmarilloRoofingPage() {
                       {" "}now for immediate assistance anywhere in Amarillo.
                     </p>
                     <a
-                      href="/emergency-roof-repair-amarillo-texas/"
+                      href="/roof-repair-services-in-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
-                      24/7 Emergency Services →
+                      s →
                     </a>
                   </div>
                 </div>
@@ -473,7 +474,7 @@ export default function AmarilloRoofingPage() {
                         <strong>Hours:</strong><br />
                         Monday - Sunday<br />
                         9:00 AM - 5:00 PM<br />
-                        <span className="text-red-600 font-semibold">24/7 Emergency Service Available</span>
+                        <span className="text-red-600 font-semibold"></span>
                       </p>
                     </div>
                   </div>
@@ -667,7 +668,7 @@ export default function AmarilloRoofingPage() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Emergency Roof Repair",
-                    "description": "24/7 emergency roofing services for urgent situations"
+                    "description": "emergency roofing services for urgent situations"
                   }
                 }
               ]
