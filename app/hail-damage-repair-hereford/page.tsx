@@ -81,7 +81,7 @@ export default function HailDamageRepairHerefordPage() {
               {"@type":"Question","name":"How does Hereford's cattle industry affect roof damage claims?","acceptedAnswer":{"@type":"Answer","text":"Hereford's feedlots and cattle facilities have unique roofing needs. Our team understands agricultural structures and works with specialized insurance policies for commercial agricultural properties throughout Deaf Smith County."}},
               {"@type":"Question","name":"What makes Hereford's weather challenging for roofs?","acceptedAnswer":{"@type":"Answer","text":"As the Beef Capital of the World, Hereford sits at high elevation where severe storms develop intensity. The open plains allow hail-producing supercells to gain strength, often creating golf ball to softball-sized hail."}},
               {"@type":"Question","name":"Do you service cattle facilities and agricultural buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes! We specialize in agricultural roofing including feedlot facilities, barns, and commercial cattle operations. Hereford feeds over 1 million head annually - we understand the industry's needs."}},
-              {"@type":"Question","name":"How quickly can you reach Hereford from Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Hereford is 48 miles southwest of our Amarillo headquarters. We typically reach Hereford properties within 45-60 minutes for emergency situations."}},
+              {"@type":"Question","name":"How quickly can you reach Hereford from Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Hereford is 48 miles southwest of our Amarillo headquarters. We typically reach Hereford properties within 45-60 minutes for prompt situations."}},
               {"@type":"Question","name":"What's the best roofing material for Hereford's climate?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles perform excellently in Hereford's severe weather. For agricultural facilities, we often recommend metal roofing systems designed for high winds and hail resistance."}}
             ]
           })
@@ -380,7 +380,7 @@ export default function HailDamageRepairHerefordPage() {
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔧</div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">5. Emergency Response</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">5. storm response</h3>
                 <p className="text-gray-600">service for critical agricultural facilities and residential emergencies.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -465,7 +465,7 @@ export default function HailDamageRepairHerefordPage() {
               </AccordionItem>
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you reach Hereford from Amarillo?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Hereford is 48 miles southwest of our Amarillo headquarters. We typically reach Hereford properties within 45-60 minutes for emergency situations, with priority response for critical agricultural facilities.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Hereford is 48 miles southwest of our Amarillo headquarters. We typically reach Hereford properties within 45-60 minutes for prompt situations, with priority response for critical agricultural facilities.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What's the best roofing material for Hereford's climate?</AccordionTrigger>

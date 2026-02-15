@@ -131,7 +131,6 @@ export default function AsphaltShingleRoofingLubbockPage() {
                   <li>• Enhanced wind-rated fastening systems exceeding code requirements</li>
                   <li>• Dust-resistant shingle selections with superior granule retention</li>
                   <li>• Proper attic ventilation for agricultural environment</li>
-                  <li>• Storm damage assessment and emergency response protocols</li>
                   <li>• Insurance expertise for frequent wind and hail claims</li>
                 </ul>
               </div>
@@ -402,7 +401,6 @@ export default function AsphaltShingleRoofingLubbockPage() {
                       <li>• Immediate visual inspection from ground level</li>
                       <li>• Professional assessment within 48 hours</li>
                       <li>• Documentation for potential insurance claims</li>
-                      <li>• Emergency repairs if needed</li>
                     </ul>
                   </div>
                 </div>

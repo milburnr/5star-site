@@ -231,7 +231,6 @@ export default function RoofMaintenanceChecklistPage() {
                       <li>• Look for missing shingles or exposed decking</li>
                       <li>• Check for water intrusion or active leaks</li>
                       <li>• Identify any structural damage or sagging</li>
-                      <li>• Call emergency repair if actively leaking</li>
                     </ul>
                   </div>
 
@@ -301,7 +300,7 @@ export default function RoofMaintenanceChecklistPage() {
             <div className="max-w-4xl mx-auto space-y-4">
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
                 <h3 className="font-bold text-red-700 mb-2">🚨 Active Water Intrusion</h3>
-                <p className="text-gray-700">Water actively coming through ceiling or walls. Call emergency repair immediately—continuing leaks cause exponential damage.</p>
+                <p className="text-gray-700">Water actively coming through ceiling or walls. Call storm repair immediately—continuing leaks cause exponential damage.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
                 <h3 className="font-bold text-red-700 mb-2">⚠️ Sagging Roof Deck</h3>
@@ -309,7 +308,7 @@ export default function RoofMaintenanceChecklistPage() {
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
                 <h3 className="font-bold text-red-700 mb-2">🌪️ Large Missing Sections</h3>
-                <p className="text-gray-700">Wind has blown off large sections of roofing. Exposed decking needs emergency tarping to prevent interior damage.</p>
+                <p className="text-gray-700">Wind has blown off large sections of roofing. Exposed decking needs tarping to prevent interior damage.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
                 <h3 className="font-bold text-red-700 mb-2">💧 Multiple New Water Stains</h3>
@@ -336,7 +335,7 @@ export default function RoofMaintenanceChecklistPage() {
               </div>
               <div className="bg-white p-6 rounded-lg">
                 <h3 className="font-bold text-brand-brown mb-2">🛡️ Preventive Maintenance Plans</h3>
-                <p className="text-gray-700">Annual or bi-annual maintenance contracts include inspections, minor repairs, gutter cleaning, and priority emergency service. Typical cost: $300-$600/year.</p>
+                <p className="text-gray-700">Annual or bi-annual maintenance contracts include inspections, minor repairs, gutter cleaning, and priority prompt service. Typical cost: $300-$600/year.</p>
               </div>
             </div>
           </section>

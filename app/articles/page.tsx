@@ -140,7 +140,7 @@ export default function Page() {
         <p className="text-gray-700">
           Our services extend beyond Amarillo to include <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>,
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline"> Odessa</a>, and Lubbock.
-          We offer free inspections, emergency services, and work directly with your insurance company
+          We offer free inspections, prompt services, and work directly with your insurance company
           for hail and storm damage claims. Call <strong>(806) 622-6041</strong> today for immediate assistance.
         </p>
       </section>

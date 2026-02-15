@@ -132,7 +132,7 @@ export default function RoofRepairPampaPage() {
                 "name": "How quickly can you repair my leaking roof in Pampa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality."
+                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
                 }
               },
               {
@@ -259,7 +259,7 @@ export default function RoofRepairPampaPage() {
                   How quickly can you repair my leaking roof in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
@@ -356,7 +356,6 @@ export default function RoofRepairPampaPage() {
                   <li>• Energy worker housing repairs</li>
                   <li>• Family residential services</li>
                   <li>• Shift schedule accommodation</li>
-                  <li>• Emergency response for worker housing</li>
                 </ul>
               </div>
             </div>
@@ -403,7 +402,7 @@ export default function RoofRepairPampaPage() {
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Energy Sector Schedules</h4>
                   <p className="text-gray-700 mb-4">
-                    The oil and gas industry operates on demanding schedules with operations. Our service delivery accommodates energy sector timing requirements and emergency response needs.
+                    The oil and gas industry operates on demanding schedules with operations. Our service delivery accommodates energy sector timing requirements and storm response needs.
                   </p>
                 </div>
               </div>
@@ -423,10 +422,9 @@ export default function RoofRepairPampaPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Energy Sector Response Coordination</h3>
                     <p className="text-gray-700 mb-3">
-                      Understanding that Pampa's energy sector operates around the clock, we coordinate our emergency response with oil and gas facility operations and worker shift schedules to minimize disruption.
+                      Understanding that Pampa's energy sector operates around the clock, we coordinate our storm response with oil and gas facility operations and worker shift schedules to minimize disruption.
                     </p>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• energy facility emergency response</li>
                       <li>• Shift schedule accommodation</li>
                       <li>• Industrial safety protocol compliance</li>
                       <li>• Oil field facility prioritization</li>
@@ -545,7 +543,7 @@ export default function RoofRepairPampaPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Energy Sector Support</h3>
                 <p className="text-gray-700 mb-4">
-                  Energy operations don't follow traditional schedules, and neither do we. Our emergency response accommodates the round-the-clock nature of oil and gas facilities in Pampa.
+                  Energy operations don't follow traditional schedules, and neither do we. Our storm response accommodates the round-the-clock nature of oil and gas facilities in Pampa.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• prompt response</li>

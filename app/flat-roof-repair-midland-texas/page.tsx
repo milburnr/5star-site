@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/flat-roof-repair-midland-texas/' },
   title: 'Flat Roof Repair in Midland, TX| Commercial Specialists',
-  description: "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. Emergency service available. Free inspections. Call today (806) 622-6041",
+  description: "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. prompt service available. Free inspections. Call today (806) 622-6041",
 };
 
 export default function FlatRoofMidlandPage() {
@@ -78,10 +78,10 @@ export default function FlatRoofMidlandPage() {
               <strong>Flat roofs in Midland face extreme Permian Basin weather.</strong> Intense heat, severe hail, ponding water, and UV exposure create leaks, membrane damage, and premature failure. Fast, expert repairs prevent minor problems from becoming major disasters that disrupt critical petroleum industry operations and commercial facilities.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              5 Star Commercial Roofing specializes in flat roof repair throughout Midland's diverse commercial sectors. From leak detection to complete membrane restoration, we handle all TPO, EPDM, PVC, and modified bitumen systems. Emergency repairs available for petroleum industry facilities, office buildings, retail centers, and healthcare facilities.
+              5 Star Commercial Roofing specializes in flat roof repair throughout Midland's diverse commercial sectors. From leak detection to complete membrane restoration, we handle all TPO, EPDM, PVC, and modified bitumen systems. storm repairs available for petroleum industry facilities, office buildings, retail centers, and healthcare facilities.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Midland's role as the petroleum capital of West Texas creates unique flat roof repair challenges for oil company headquarters, industrial facilities, and commercial buildings serving the energy sector. Our specialized expertise addresses chemical-resistant repairs, emergency response protocols, and compliance requirements specific to petroleum industry environments.
+              Midland's role as the petroleum capital of West Texas creates unique flat roof repair challenges for oil company headquarters, industrial facilities, and commercial buildings serving the energy sector. Our specialized expertise addresses chemical-resistant repairs, storm response protocols, and compliance requirements specific to petroleum industry environments.
             </p>
           </section>
         </FadeIn>
@@ -98,7 +98,7 @@ export default function FlatRoofMidlandPage() {
               Chemical-resistant repair materials become essential for facilities exposed to petroleum byproducts, drilling fluids, and industrial chemicals common in oil field service operations. PVC membrane repair systems provide superior chemical resistance compared to TPO or EPDM alternatives, while specialized adhesives and welding techniques ensure permanent bonds that withstand chemical exposure and thermal cycling in industrial environments.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Safety protocols for petroleum industry flat roof repairs include hot work permits, fire watch procedures, and specialized equipment designed for explosive atmosphere environments. Our certified technicians maintain training and certification for working near petroleum operations while utilizing non-sparking tools and emergency response equipment specifically designed for industrial environments.
+              Safety protocols for petroleum industry flat roof repairs include hot work permits, fire watch procedures, and specialized equipment designed for explosive atmosphere environments. Our certified technicians maintain training and certification for working near petroleum operations while utilizing non-sparking tools and storm response equipment specifically designed for industrial environments.
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Commercial Office Building Flat Roof Repair Excellence</h3>
@@ -123,7 +123,7 @@ export default function FlatRoofMidlandPage() {
               Manufacturing facilities serving Midland's petroleum industry require flat roof repairs that accommodate heavy industrial equipment, overhead crane systems, and specialized production processes that operate continuously during peak drilling seasons. These repairs must coordinate with production schedules and safety requirements while providing weather protection for valuable industrial equipment and work-in-progress materials.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Chemical processing and storage facilities require flat roof repairs that meet EPA and OSHA requirements for hazardous material handling while providing containment capabilities that prevent environmental contamination. Specialized drainage systems and emergency response access affect repair procedures and material selection for facilities handling petroleum industry chemicals and byproducts.
+              Chemical processing and storage facilities require flat roof repairs that meet EPA and OSHA requirements for hazardous material handling while providing containment capabilities that prevent environmental contamination. Specialized drainage systems and storm response access affect repair procedures and material selection for facilities handling petroleum industry chemicals and byproducts.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Warehouse and distribution facilities supporting petroleum industry logistics require flat roof repairs that accommodate loading dock operations, heavy equipment storage, and climate-controlled environments for temperature-sensitive petroleum industry supplies and equipment. These repairs often address large-span roofing systems with unique drainage and structural considerations.
@@ -131,7 +131,7 @@ export default function FlatRoofMidlandPage() {
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Healthcare Facility Flat Roof Repair Expertise</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Midland Memorial Hospital and associated healthcare facilities require specialized flat roof repair approaches that coordinate with critical medical operations, infection control protocols, and life-safety systems that operate around the clock. Hospital flat roof repairs must accommodate medical gas systems, backup power equipment, and emergency access routes while maintaining sterile environments essential for patient safety.
+              Midland Memorial Hospital and associated healthcare facilities require specialized flat roof repair approaches that coordinate with critical medical operations, infection control protocols, and life-safety systems that operate around the clock. Hospital flat roof repairs must accommodate medical gas systems, backup power equipment, and storm access routes while maintaining sterile environments essential for patient safety.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Medical office buildings and specialized healthcare facilities need flat roof repairs that provide quiet environments for patient care while supporting sensitive medical equipment and diagnostic systems that require consistent environmental conditions. These repairs often coordinate with medical equipment operations and patient scheduling to minimize disruption to healthcare services.
@@ -173,24 +173,24 @@ export default function FlatRoofMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Emergency Response and Weather Protection for Critical Flat Roof Systems
+              storm response and Weather Protection for Critical Flat Roof Systems
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Midland's location in Hail Alley creates frequent opportunities for catastrophic flat roof damage that requires immediate emergency response to protect valuable petroleum industry equipment and critical business operations. Our prompt response teams maintain specialized equipment and materials for rapid deployment throughout the Permian Basin region during severe weather events.
+              Midland's location in Hail Alley creates frequent opportunities for catastrophic flat roof damage that requires immediate storm response to protect valuable petroleum industry equipment and critical business operations. Our prompt response teams maintain specialized equipment and materials for rapid deployment throughout the Permian Basin region during severe weather events.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Severe weather events including hailstorms, high winds, and flash flooding can cause immediate threats to flat roofing systems that protect critical petroleum industry operations and commercial facilities. Emergency tarping systems and temporary weather barriers provide interim protection while permanent repairs are planned and executed during optimal weather conditions.
+              Severe weather events including hailstorms, high winds, and flash flooding can cause immediate threats to flat roofing systems that protect critical petroleum industry operations and commercial facilities. tarping systems and temporary weather barriers provide interim protection while permanent repairs are planned and executed during optimal weather conditions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Rapid response capabilities specifically designed for petroleum industry environments include specialized safety equipment, chemical exposure protocols, and coordination with industrial emergency response teams. These capabilities ensure business continuity during weather events while maintaining safety standards required for petroleum industry operations.
+              Rapid response capabilities specifically designed for petroleum industry environments include specialized safety equipment, chemical exposure protocols, and coordination with industrial storm response teams. These capabilities ensure business continuity during weather events while maintaining safety standards required for petroleum industry operations.
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Preventive Maintenance and Long-Term Performance for Commercial Flat Roofs</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Comprehensive preventive maintenance programs designed specifically for Midland's climate help commercial property owners avoid costly emergency flat roof repairs while extending system life and maintaining business operations. Regular inspections identify minor problems before they develop into major failures that could disrupt critical petroleum industry activities or commercial operations.
+              Comprehensive preventive maintenance programs designed specifically for Midland's climate help commercial property owners avoid costly flat roof repairs while extending system life and maintaining business operations. Regular inspections identify minor problems before they develop into major failures that could disrupt critical petroleum industry activities or commercial operations.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Predictive maintenance utilizing infrared thermography, moisture detection systems, and advanced diagnostic techniques helps identify potential failure points before they compromise building operations or require expensive emergency repairs during peak business periods. These techniques provide early warning systems that prevent costly business interruptions.
+              Predictive maintenance utilizing infrared thermography, moisture detection systems, and advanced diagnostic techniques helps identify potential failure points before they compromise building operations or require expensive storm repairs during peak business periods. These techniques provide early warning systems that prevent costly business interruptions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Seasonal maintenance schedules coordinate with Midland's weather patterns and petroleum industry operational cycles to address specific flat roof concerns during optimal conditions. Spring preparations focus on severe weather readiness while fall maintenance ensures drainage systems are prepared for winter precipitation and freeze-thaw cycles that affect membrane performance.
@@ -264,7 +264,7 @@ export default function FlatRoofMidlandPage() {
               <div className="text-center">
                 <div className="text-5xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response</h3>
-                <p className="text-gray-700">Same-day service available throughout Midland. Emergency repairs to protect your property and minimize damage.</p>
+                <p className="text-gray-700">Same-day service available throughout Midland. storm repairs to protect your property and minimize damage.</p>
               </div>
               <div className="text-center">
                 <div className="text-5xl mb-4">🔍</div>
@@ -323,7 +323,7 @@ export default function FlatRoofMidlandPage() {
                 <li><strong>Flashing replacement:</strong> $400 - $1,200</li>
                 <li><strong>Larger section replacement:</strong> $2,000 - $5,000+</li>
               </ul>
-              <p className="text-gray-600 mt-4 text-sm">Emergency repairs may include additional fees. Insurance often covers hail and storm damage.</p>
+              <p className="text-gray-600 mt-4 text-sm">storm repairs may include additional fees. Insurance often covers hail and storm damage.</p>
             </div>
             <div className="bg-white p-6 rounded-lg">
               <p className="font-semibold text-brand-brown mb-2">📋 Free Inspections</p>
@@ -336,10 +336,9 @@ export default function FlatRoofMidlandPage() {
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Flat Roof Repair</h2>
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak causing water damage?</strong> We provide emergency flat roof repairs throughout Midland. Fast response to minimize damage and protect your property.
+              <strong>Active leak causing water damage?</strong> We provide prompt flat roof repairs throughout Midland. Fast response to minimize damage and protect your property.
             </p>
             <div className="bg-white p-6 rounded-lg">
-              <p className="text-xl font-bold text-red-700 mb-2">🚨 Emergency: <a href="tel:8066226041" className="text-brand-gold">(806) 622-6041</a></p>
               <p className="text-gray-700">Available for commercial and residential flat roof emergencies</p>
             </div>
           </section>

@@ -525,7 +525,7 @@ export default function Page() {
       <div className="bg-yellow-50 p-6 rounded-lg mb-6">
         <h3 className="text-xl font-bold mb-4">Timing Your Roofing Project in Amarillo</h3>
         <p className="mb-4">
-          While roofing emergencies can't wait for ideal weather, planned installations benefit from
+          While roofing issues can't wait for ideal weather, planned installations benefit from
           strategic timing. Amarillo's weather patterns create distinct advantages and challenges
           throughout the year that affect installation quality and efficiency.
         </p>
@@ -536,7 +536,6 @@ export default function Page() {
             <ul className="space-y-2 text-sm">
               <li><strong>Advantages:</strong> Moderate temperatures, accessible weather</li>
               <li><strong>Challenges:</strong> Peak storm season, high demand</li>
-              <li><strong>Best For:</strong> Emergency repairs after winter damage</li>
               <li><strong>Methods:</strong> Rapid installation between weather windows</li>
               <li><strong>Schedule:</strong> Book 4-6 weeks in advance</li>
             </ul>
@@ -756,7 +755,7 @@ export default function Page() {
             <h4 className="font-bold mb-2">Specialized Services</h4>
             <div className="space-y-1 text-sm">
               <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline block">• Hail Damage Repair</a>
-              <a href="/services/" className="text-brand-gold hover:underline block">• Emergency Services</a>
+              <a href="/services/" className="text-brand-gold hover:underline block">• Storm Damage Services</a>
               <a href="/commercial-roofing/" className="text-brand-gold hover:underline block">• Commercial Systems</a>
               <a href="/service-areas/" className="text-brand-gold hover:underline block">• All Service Areas</a>
             </div>

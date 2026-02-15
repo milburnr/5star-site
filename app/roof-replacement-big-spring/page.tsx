@@ -355,7 +355,7 @@ export default function RoofReplacementBigSpringPage() {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter Protection:</span>
-                      <span className="text-pink-600">Emergency repairs only</span>
+                      <span className="text-pink-600">Storm repairs only</span>
                     </div>
                   </div>
                 </div>

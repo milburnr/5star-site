@@ -86,7 +86,7 @@ export default function RoofRepairOdessaPage() {
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Odessa's Premier Roof Repair Service</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof repair specialists serving Odessa's unique environmental challenges. From storm damage restoration to industrial contamination remediation, we understand how the petroleum industry, desert climate, and West Texas weather create specific repair requirements not found elsewhere.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">Since 2014, we've completed thousands of repairs across Odessa, from historic downtown buildings affected by decades of refinery emissions to modern subdivisions dealing with escarpment wind damage. Our repair techniques address both immediate damage and long-term protection against Odessa's harsh environmental conditions.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">We specialize in emergency repairs during industrial incidents, scheduled maintenance during refinery shutdowns, and comprehensive restoration projects that address both weather damage and industrial contamination impacts. All repairs include warranties specifically designed for Odessa's challenging environment.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">We specialize in storm repairs during industrial incidents, scheduled maintenance during refinery shutdowns, and comprehensive restoration projects that address both weather damage and industrial contamination impacts. All repairs include warranties specifically designed for Odessa's challenging environment.</p>
           </section>
         </FadeIn>
 
@@ -101,7 +101,7 @@ export default function RoofRepairOdessaPage() {
                   <li><strong>Wind Uplift Restoration:</strong> Escarpment wind damage repair and reinforcement</li>
                   <li><strong>Flash Flood Recovery:</strong> Rapid water damage restoration for desert storm events</li>
                   <li><strong>Lightning Strike Repair:</strong> Electrical damage assessment and structural restoration</li>
-                  <li><strong>Emergency Tarping:</strong> temporary protection during severe weather</li>
+                  <li><strong>tarping:</strong> temporary protection during severe weather</li>
                 </ul>
               </div>
               <div>
@@ -125,9 +125,8 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Emergency Response Services</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ storm response Services</h3>
                 <ul className="space-y-3 text-gray-700">
-                  <li><strong>Emergency Response:</strong> Rapid response during industrial incidents</li>
                   <li><strong>Leak Stoppage:</strong> Immediate water intrusion control and containment</li>
                   <li><strong>Safety Hazard Mitigation:</strong> Dangerous condition stabilization and repair</li>
                   <li><strong>Insurance Coordination:</strong> Direct billing and claim management services</li>
@@ -171,7 +170,7 @@ export default function RoofRepairOdessaPage() {
               <div className="space-y-4">
                 <p className="text-gray-700"><strong>Thermal Management Systems:</strong> Odessa's extreme temperature variations require specialized thermal expansion joints, flexible connections, and heat-resistant materials that can withstand rapid temperature changes while maintaining structural integrity.</p>
                 <p className="text-gray-700"><strong>Wind Resistance Upgrades:</strong> Escarpment wind patterns require enhanced fastening systems, reinforced edge details, and aerodynamic design modifications that reduce wind uplift forces specific to Odessa's topographical challenges.</p>
-                <p className="text-gray-700"><strong>Flash Flood Drainage:</strong> Desert storm drainage systems must handle intense but brief rainfall events. We install oversized gutters, rapid-flow downspouts, and emergency overflow systems designed for West Texas flash flood conditions.</p>
+                <p className="text-gray-700"><strong>Flash Flood Drainage:</strong> Desert storm drainage systems must handle intense but brief rainfall events. We install oversized gutters, rapid-flow downspouts, and storm overflow systems designed for West Texas flash flood conditions.</p>
               </div>
             </div>
           </section>
@@ -187,7 +186,7 @@ export default function RoofRepairOdessaPage() {
                   <div className="flex items-start gap-3">
                     <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">1</div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Emergency Stabilization</h4>
+                      <h4 className="font-semibold text-gray-800">Structural Stabilization</h4>
                       <p className="text-gray-700 text-sm">Immediate safety hazard mitigation and temporary weather protection</p>
                     </div>
                   </div>
@@ -306,7 +305,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Rapid Response and Emergency Services</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Rapid Response and prompt services</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• prompt response within 2 hours in Odessa</li>
                   <li>• Mobile repair units equipped for immediate stabilization</li>

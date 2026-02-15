@@ -690,12 +690,11 @@ export default function HailDamageRepairCanyonPage() {
                   <p className="mb-3">Canyon enjoys our fastest response times:</p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li><strong>Distance:</strong> Only 17 miles from our Amarillo headquarters</li>
-                    <li><strong>Emergency Response:</strong> 25-35 minutes for urgent situations</li>
                     <li><strong>Normal Service:</strong> Same-day appointments available</li>
-                    <li><strong>Availability:</strong> Emergency tarping and temporary repairs</li>
+                    <li><strong>Availability:</strong> tarping and temporary repairs</li>
                     <li><strong>Storm Season:</strong> Mobile teams pre-positioned during severe weather</li>
                   </ul>
-                  <p>During major hail events affecting Canyon, we often set up temporary operations at WTAMU-area locations to minimize response times. Our emergency line (806) 622-6041 connects you directly to our dispatch center around the clock.</p>
+                  <p>During major hail events affecting Canyon, we often set up temporary operations at WTAMU-area locations to minimize response times. Our office (806) 622-6041 connects you directly to our dispatch center around the clock.</p>
                 </AccordionContent>
               </AccordionItem>
 

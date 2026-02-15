@@ -285,8 +285,8 @@ export default function Page() {
               <div className="bg-white p-8 rounded-lg shadow-md flex gap-6 items-start">
                 <div className="bg-brand-gold text-white px-6 py-3 rounded-lg font-bold text-lg min-w-fit">Day 1-2</div>
                 <div className="flex-1">
-                  <h4 className="text-xl font-bold text-brand-brown mb-3">Emergency Assessment & Documentation</h4>
-                  <p className="text-gray-700 mb-4">Comprehensive roof inspection using drone technology and standardized assessment protocols. Professional photographic documentation with GPS coordinates, impact measurements, and granule loss analysis. Emergency tarping provided if active leaks are present.</p>
+                  <h4 className="text-xl font-bold text-brand-brown mb-3">Damage Assessment & Documentation</h4>
+                  <p className="text-gray-700 mb-4">Comprehensive roof inspection using drone technology and standardized assessment protocols. Professional photographic documentation with GPS coordinates, impact measurements, and granule loss analysis. tarping provided if active leaks are present.</p>
                   <ul className="space-y-1 text-sm text-gray-600">
                     <li>• Complete roof surface examination</li>
                     <li>• Gutters, downspouts, and flashing assessment</li>

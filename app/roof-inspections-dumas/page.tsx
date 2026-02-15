@@ -156,7 +156,7 @@ export default function RoofInspectionsDumasPage() {
                 "name": "How quickly can you inspect my roof after a storm?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Dumas. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
+                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Dumas. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
                 }
               }
             ]
@@ -435,7 +435,6 @@ export default function RoofInspectionsDumasPage() {
                           <li>• Respiratory protection for chemical exposure</li>
                           <li>• Gas detection equipment</li>
                           <li>• Personal protective equipment protocols</li>
-                          <li>• Emergency response procedures</li>
                         </ul>
                       </div>
                       <div>
@@ -672,7 +671,7 @@ export default function RoofInspectionsDumasPage() {
                   How quickly can you inspect my roof after a storm?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Dumas. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
+                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Dumas. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -187,7 +187,7 @@ export default function WindDamageRepairPampaPage() {
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -277,7 +277,7 @@ export default function WindDamageRepairPampaPage() {
               Wind damage to oil and gas facilities in Gray County requires immediate specialized response due to safety and environmental concerns. Damaged roofing on compressor stations, storage tank facilities, and processing units can expose sensitive equipment to weather while creating potential safety hazards from compromised structural integrity around high-pressure operations.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Our emergency response teams maintain OSHA safety certifications and specialized equipment for working around active oil and gas operations. Emergency tarping and temporary repairs use fire-resistant materials and spark-free installation techniques required in potentially hazardous environments. All repairs coordinate with facility safety personnel and follow established industry protocols.
+              Our storm response teams maintain OSHA safety certifications and specialized equipment for working around active oil and gas operations. tarping and temporary repairs use fire-resistant materials and spark-free installation techniques required in potentially hazardous environments. All repairs coordinate with facility safety personnel and follow established industry protocols.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Environmental compliance requires immediate containment of any roofing materials or debris that could contaminate soil or water sources. Wind damage cleanup around oil facilities involves specialized waste handling procedures and documentation to ensure regulatory compliance with Texas Railroad Commission and EPA requirements for petroleum industry operations.
@@ -288,10 +288,10 @@ export default function WindDamageRepairPampaPage() {
               Gray County's extensive ranching operations depend on large agricultural buildings that face unique wind damage challenges due to their size, construction methods, and critical operational requirements. Cattle barns, feed storage facilities, and equipment sheds typically use metal roofing systems with wide spans that create significant wind uplift potential during High Plains storm events.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Emergency wind damage repairs to agricultural facilities require coordination with livestock management and seasonal operations. Cattle barns need immediate weather protection to maintain animal welfare, while feed storage facilities require rapid repair to prevent feed contamination and spoilage. Our agricultural emergency response prioritizes livestock protection and feed preservation.
+              Wind damage repairs to agricultural facilities require coordination with livestock management and seasonal operations. Cattle barns need immediate weather protection to maintain animal welfare, while feed storage facilities require rapid repair to prevent feed contamination and spoilage. Our agricultural storm response prioritizes livestock protection and feed preservation.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Hay storage and grain facilities present unique wind damage challenges as compromised roofing can destroy entire harvests worth hundreds of thousands of dollars. Emergency tarping for agricultural storage requires specialized anchoring techniques that prevent tarp failure in continued high winds while maintaining access for loading and unloading operations.
+              Hay storage and grain facilities present unique wind damage challenges as compromised roofing can destroy entire harvests worth hundreds of thousands of dollars. tarping for agricultural storage requires specialized anchoring techniques that prevent tarp failure in continued high winds while maintaining access for loading and unloading operations.
             </p>
           </section>
         </FadeIn>
@@ -302,10 +302,10 @@ export default function WindDamageRepairPampaPage() {
               Commercial Wind Damage Response in Pampa's Business District
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Pampa's commercial district along Highway 60 and around the historic downtown area includes businesses serving both the oil industry and ranching community. Hotels, restaurants, and retail establishments experience significant wind damage during severe weather events, often requiring emergency repairs to maintain operations for traveling oil field workers and local residents.
+              Pampa's commercial district along Highway 60 and around the historic downtown area includes businesses serving both the oil industry and ranching community. Hotels, restaurants, and retail establishments experience significant wind damage during severe weather events, often requiring storm repairs to maintain operations for traveling oil field workers and local residents.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              The Top O' Texas Hotel and other hospitality businesses cannot afford extended closures due to roof damage, as they serve essential lodging needs for oil industry workers and traveling ranchers. Emergency repairs to commercial lodging facilities receive priority response to maintain room availability and prevent business interruption during peak demand periods.
+              The Top O' Texas Hotel and other hospitality businesses cannot afford extended closures due to roof damage, as they serve essential lodging needs for oil industry workers and traveling ranchers. storm repairs to commercial lodging facilities receive priority response to maintain room availability and prevent business interruption during peak demand periods.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Pampa Regional Medical Center and other healthcare facilities require immediate wind damage response to maintain critical care services for a widespread rural population. Medical facilities serving Gray County's oil workers and ranch families cannot tolerate weather exposure of sensitive equipment or interruption of patient care services during emergency situations.
@@ -355,16 +355,16 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Community Emergency Response and Regional Coordination
+              Community storm response and Regional Coordination
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Wind damage emergencies in Gray County require coordination with multiple agencies including county emergency management, volunteer fire departments, and mutual aid partners from surrounding counties. The area's rural nature and dispersed population create challenges for rapid emergency response that require advance planning and resource positioning.
+              Wind damage emergencies in Gray County require coordination with multiple agencies including county emergency management, volunteer fire departments, and mutual aid partners from surrounding counties. The area's rural nature and dispersed population create challenges for rapid storm response that require advance planning and resource positioning.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Pampa's position as Gray County seat provides emergency management resources and equipment that support countywide storm response. However, the vast distances involved in serving ranch properties and oil facilities throughout the county demand strategic equipment positioning and coordination with local first responders familiar with rural access challenges.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Regional mutual aid agreements with neighboring counties provide additional emergency response resources during major storm events affecting multiple communities. These partnerships prove essential when wind damage exceeds local response capacity and outside contractors must be coordinated through emergency management channels to provide adequate storm damage response.
+              Regional mutual aid agreements with neighboring counties provide additional storm response resources during major storm events affecting multiple communities. These partnerships prove essential when wind damage exceeds local response capacity and outside contractors must be coordinated through emergency management channels to provide adequate storm damage response.
             </p>
           </section>
         </FadeIn>

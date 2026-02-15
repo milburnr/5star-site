@@ -132,7 +132,7 @@ export default function Page() {
                 "name": "Should I tarp my Odessa roof after storm damage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, emergency tarping prevents further water damage after storms. We provide emergency tarping services available in Odessa to protect your property until permanent repairs are completed. Most insurance policies cover emergency mitigation costs, and prompt action prevents mold and interior damage."
+                  "text": "Yes, tarping prevents further water damage after storms. We provide tarping services available in Odessa to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage."
                 }
               },
               {
@@ -347,7 +347,7 @@ export default function Page() {
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-purple-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">May 2024 - Basin Bowl Storm Complex</h3>
                 <p className="text-gray-700 mb-2">A severe storm system intensified dramatically as it entered Odessa's basin geography, producing tennis ball-sized hail and 80+ mph winds. The concentration of refinery heat sources amplified the storm beyond forecast predictions, causing widespread damage across UTPB campus and downtown areas.</p>
-                <p className="text-sm text-gray-600 italic">Response: 112 emergency calls, 78 roof replacements, specialized UTPB campus protocols</p>
+                <p className="text-sm text-gray-600 italic">Response: 112 service calls, 78 roof replacements, specialized UTPB campus protocols</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-yellow-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">April 2023 - Chemical Dust Storm</h3>
@@ -357,7 +357,7 @@ export default function Page() {
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-orange-500">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">August 2022 - Heat Island Supercell</h3>
                 <p className="text-gray-700 mb-2">Extreme heat from refinery operations triggered explosive supercell development with golf ball hail and 75+ mph winds. The storm's rapid intensification caught weather services off-guard, demonstrating the unpredictable nature of petroleum-enhanced weather systems.</p>
-                <p className="text-sm text-gray-600 italic">Response: 145 emergency tarping jobs, 89 complete replacements</p>
+                <p className="text-sm text-gray-600 italic">Response: 145 tarping jobs, 89 complete replacements</p>
               </div>
             </div>
           </section>
@@ -383,7 +383,7 @@ export default function Page() {
                   What special considerations apply to UTPB campus properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  University of Texas Permian Basin facilities require coordination with university administration, adherence to state building codes, and consideration of academic calendar timing. Emergency response must accommodate student safety protocols and research facility requirements. We maintain current university vendor credentials and understand the unique needs of academic buildings, dormitories, and research facilities. Response times are prioritized during severe weather events that threaten student housing and critical campus infrastructure.
+                  University of Texas Permian Basin facilities require coordination with university administration, adherence to state building codes, and consideration of academic calendar timing. storm response must accommodate student safety protocols and research facility requirements. We maintain current university vendor credentials and understand the unique needs of academic buildings, dormitories, and research facilities. Response times are prioritized during severe weather events that threaten student housing and critical campus infrastructure.
                 </AccordionContent>
               </AccordionItem>
 
@@ -398,10 +398,10 @@ export default function Page() {
 
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What safety protocols apply to refinery area emergency response?
+                  What safety protocols apply to refinery area storm response?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency response near refinery facilities requires specialized safety protocols including gas monitoring, fire safety procedures, and hazardous area entry permits. Our crews maintain current refinery safety certifications and coordinate with facility security before entering restricted areas. Response includes air quality monitoring, specialized personal protective equipment, and adherence to petroleum industry emergency protocols. We prioritize worker safety while providing rapid storm damage mitigation in industrial zones.
+                  storm response near refinery facilities requires specialized safety protocols including gas monitoring, fire safety procedures, and hazardous area entry permits. Our crews maintain current refinery safety certifications and coordinate with facility security before entering restricted areas. Response includes air quality monitoring, specialized personal protective equipment, and adherence to petroleum industry safety protocols. We prioritize worker safety while providing rapid storm damage mitigation in industrial zones.
                 </AccordionContent>
               </AccordionItem>
 

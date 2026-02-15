@@ -113,7 +113,7 @@ export default function LubbockRoofingPage() {
               <div className="testimonial-card-visual">
                 <div className="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 <p className="testimonial-text">
-                  "Emergency call at 11pm with water pouring into our Tech Terrace home. They arrived by midnight with tarps and stopped the leak immediately. Permanent repairs done within a week."
+                  "Call at 11pm with water pouring into our Tech Terrace home. They arrived by midnight with tarps and stopped the leak immediately. Permanent repairs done within a week."
                 </p>
                 <div className="testimonial-author">
                   <div className="testimonial-author-info">
@@ -260,7 +260,7 @@ export default function LubbockRoofingPage() {
                       Texas Tech&apos;s campus presents unique commercial roofing challenges with buildings like Jones AT&T Stadium (capacity 60,000+, currently undergoing a $242 million renovation), the Student Union Building at 15th Street and Akron Avenue, and numerous academic facilities requiring minimal disruption during installations. We&apos;ve worked extensively with university-area properties and understand the scheduling, access, and quality requirements these projects demand.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Commercial expertise includes:</strong> TPO and EPDM flat roof systems engineered for Lubbock&apos;s extreme weather, PVC membrane systems for superior hail resistance and chemical applications, built-up roofing (BUR) providing multi-layer protection for industrial buildings, modified bitumen installations with enhanced UV resistance, metal roofing for warehouses and agricultural facilities common in the South Plains, preventive maintenance programs that extend roof life and prevent costly emergency repairs, and roof coating systems that restore aging commercial roofs at a fraction of replacement cost.
+                      <strong>Commercial expertise includes:</strong> TPO and EPDM flat roof systems engineered for Lubbock&apos;s extreme weather, PVC membrane systems for superior hail resistance and chemical applications, built-up roofing (BUR) providing multi-layer protection for industrial buildings, modified bitumen installations with enhanced UV resistance, metal roofing for warehouses and agricultural facilities common in the South Plains, preventive maintenance programs that extend roof life and prevent costly prompt repairs, and roof coating systems that restore aging commercial roofs at a fraction of replacement cost.
                     </p>
                     <a
                       href="/commercial-roofing-lubbock-texas/"
@@ -335,23 +335,22 @@ export default function LubbockRoofingPage() {
               </InteractiveCard>
             </FadeIn>
 
-            {/* Emergency Repairs */}
+            {/* Storm Repairs */}
             <FadeIn delay={0.6}>
               <InteractiveCard className="bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Emergency Roof Repair
+                      Storm Damage Roof Repair
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Available for roofing emergencies throughout Lubbock.</strong> Storm damage, roof leaks, wind damage, or structural issues can&apos;t wait. Water damage compounds rapidly - what starts as a small leak can cause thousands in interior damage within hours. We provide emergency tarping, temporary leak repairs, storm damage assessment, and same-day solutions to protect your property until permanent repairs can be completed.
+                      <strong>Available for roofing issues throughout Lubbock.</strong> Storm damage, roof leaks, wind damage, or structural issues can&apos;t wait. Water damage compounds rapidly - what starts as a small leak can cause thousands in interior damage within hours. We provide tarping, temporary leak repairs, storm damage assessment, and same-day solutions to protect your property until permanent repairs can be completed.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}now for immediate assistance anywhere in Lubbock - from Tech Terrace to Shadow Hills, from Arnett Benson to Whisperwood. Our emergency crews are standing by.
+                      {" "}now for immediate assistance anywhere in Lubbock - from Tech Terrace to Shadow Hills, from Arnett Benson to Whisperwood. Our our crews are standing by.
                     </p>
                     <a
                       href="/roof-repair-lubbock/"
@@ -488,7 +487,6 @@ export default function LubbockRoofingPage() {
                   <ul className="space-y-2 text-gray-700">
                     <li>✓ Competitive pricing for multi-property portfolios</li>
                     <li>✓ Flexible scheduling around academic calendar</li>
-                    <li>✓ Rapid response for emergency repairs</li>
                     <li>✓ Durable materials that handle high-traffic properties</li>
                   </ul>
                 </div>
@@ -602,7 +600,7 @@ export default function LubbockRoofingPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready to Protect Your Lubbock Property?</h2>
             <p className="cta-text">
-              Whether you need a free roof inspection, hail damage assessment, emergency repairs, or a complete roof replacement, we&apos;re here to help. Serving Lubbock with honesty, integrity, and expert craftsmanship for over a decade. Most hail damage repairs are covered 100% by insurance.
+              Whether you need a free roof inspection, hail damage assessment, prompt repairs, or a complete roof replacement, we&apos;re here to help. Serving Lubbock with honesty, integrity, and expert craftsmanship for over a decade. Most hail damage repairs are covered 100% by insurance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
@@ -767,8 +765,7 @@ export default function LubbockRoofingPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Roof Repair",
-                    "description": "emergency roofing services for urgent situations throughout Lubbock"
+                    "description": "professional roofing services for urgent situations throughout Lubbock"
                   }
                 }
               ]

@@ -333,7 +333,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg" alt="Emergency storm response in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg" alt="storm response in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response Times</h3>
                   <p className="text-gray-700">
                     Same-day inspections available after storms. Early morning and evening appointments for working families. We know many Odessa residents commute to Midland - we work around your schedule.
@@ -426,7 +426,7 @@ export default function HailDamageRepairOdessaTXPage() {
                     Compromised Wind Resistance
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Hail impacts loosen the adhesive strips that bond shingles together. This might not be immediately visible, but it's dangerous in Odessa where 50+ mph winds are common (particularly during spring storm season). Weakened shingles blow off during the next windstorm, creating an expensive emergency repair situation and exposing your home to water damage. After the 2019 hail, many Odessa homes experienced additional wind damage in subsequent storms because hail had compromised their roof integrity.
+                    Hail impacts loosen the adhesive strips that bond shingles together. This might not be immediately visible, but it's dangerous in Odessa where 50+ mph winds are common (particularly during spring storm season). Weakened shingles blow off during the next windstorm, creating an expensive storm repair situation and exposing your home to water damage. After the 2019 hail, many Odessa homes experienced additional wind damage in subsequent storms because hail had compromised their roof integrity.
                   </p>
                 </div>
               </InteractiveCard>
@@ -672,25 +672,25 @@ export default function HailDamageRepairOdessaTXPage() {
           </section>
         </FadeIn>
 
-        {/* Emergency Services */}
+        {/* Storm Services */}
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Damage Services in Odessa</h2>
 
             <p className="text-lg text-gray-800 mb-6 leading-relaxed">
-              <strong>Active leak after hail storm?</strong> Don't wait - water damage compounds quickly in Odessa's climate. High humidity after storms combined with extreme heat creates perfect conditions for mold growth and structural damage. We provide emergency tarping services and temporary repairs throughout Odessa and Ector County.
+              <strong>Active leak after hail storm?</strong> Don't wait - water damage compounds quickly in Odessa's climate. High humidity after storms combined with extreme heat creates perfect conditions for mold growth and structural damage. We provide tarping services and temporary repairs throughout Odessa and Ector County.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-bold text-xl text-red-700 mb-3">Emergency Services Include:</h3>
+                <h3 className="font-bold text-xl text-red-700 mb-3">Storm Damage Services Include:</h3>
                 <ul className="space-y-2 text-gray-800">
-                  <li className="flex gap-3"><span className="text-red-600">✓</span> Same-day emergency tarping (available)</li>
+                  <li className="flex gap-3"><span className="text-red-600">✓</span> Same-day tarping (available)</li>
                   <li className="flex gap-3"><span className="text-red-600">✓</span> Temporary leak repairs and water diversion</li>
                   <li className="flex gap-3"><span className="text-red-600">✓</span> Interior water damage assessment</li>
-                  <li className="flex gap-3"><span className="text-red-600">✓</span> Emergency board-up for severe damage</li>
+                  <li className="flex gap-3"><span className="text-red-600">✓</span> Board-up for severe damage</li>
                   <li className="flex gap-3"><span className="text-red-600">✓</span> Priority scheduling for permanent repairs</li>
-                  <li className="flex gap-3"><span className="text-red-600">✓</span> Documentation for insurance emergency claims</li>
+                  <li className="flex gap-3"><span className="text-red-600">✓</span> Documentation for insurance claims</li>
                 </ul>
               </div>
 
@@ -708,7 +708,7 @@ export default function HailDamageRepairOdessaTXPage() {
             </div>
 
             <div className="bg-white p-8 rounded-lg text-center">
-              <p className="text-xl font-bold text-red-700 mb-3">Emergency Service Available</p>
+              <p className="text-xl font-bold text-red-700 mb-3">prompt service Available</p>
               <p className="text-4xl font-bold text-brand-gold mb-3">
                 <a href="tel:8066226041" className="hover:underline">(806) 622-6041</a>
               </p>
@@ -757,7 +757,7 @@ export default function HailDamageRepairOdessaTXPage() {
               </a>
               <span className="text-gray-400">•</span>
               <a href="/hail-damage-repair-odessa-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
-                Emergency Repairs
+                storm repairs
               </a>
               <span className="text-gray-400">•</span>
               <a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">

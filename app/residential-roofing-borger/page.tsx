@@ -185,7 +185,6 @@ export default function ResidentialRoofingBorgerPage() {
                 <ul className="text-gray-600 space-y-2">
                   <li>• Flexible inspection scheduling</li>
                   <li>• Weekend and evening consultations</li>
-                  <li>• Rapid emergency response during downtime</li>
                   <li>• Coordination with turnaround schedules</li>
                   <li>• Extended project communication for traveling workers</li>
                 </ul>
@@ -202,11 +201,10 @@ export default function ResidentialRoofingBorgerPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border border-purple-100">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">Emergency Response Network</h3>
-                <p className="text-gray-700 mb-4 leading-relaxed">Borger's location in severe weather territory requires robust emergency response capabilities. Our emergency network includes dedicated crews, material stockpiles, and rapid deployment protocols.</p>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">storm response Network</h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">Borger's location in severe weather territory requires robust storm response capabilities. our network includes dedicated crews, material stockpiles, and rapid deployment protocols.</p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• 90-minute emergency response time</li>
-                  <li>• Pre-positioned emergency materials</li>
+                  <li>• Pre-positioned materials</li>
                   <li>• Storm tracking and early warning</li>
                   <li>• Community-wide damage assessment</li>
                   <li>• Mass casualty roofing event protocols</li>
@@ -350,7 +348,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & Emergency Services for Borger</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & prompt services for Borger</h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-8 rounded-xl shadow-md">
@@ -363,7 +361,7 @@ export default function ResidentialRoofingBorgerPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2 mt-1">•</span>
-                      <span>Emergency tarping and temporary protection services</span>
+                      <span>tarping and temporary protection services</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2 mt-1">•</span>
@@ -407,11 +405,11 @@ export default function ResidentialRoofingBorgerPage() {
                 </div>
               </div>
               <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 rounded-xl text-center">
-                <h3 className="text-2xl font-bold mb-4">Borger Emergency Response Statistics</h3>
+                <h3 className="text-2xl font-bold mb-4">Borger storm response Statistics</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
                     <div className="text-3xl font-bold mb-2">90min</div>
-                    <div className="text-sm opacity-90">average emergency response time</div>
+                    <div className="text-sm opacity-90">average storm response time</div>
                   </div>
                   <div>
                     <div className="text-3xl font-bold mb-2">24/7</div>
@@ -441,7 +439,7 @@ export default function ResidentialRoofingBorgerPage() {
               </AccordionItem>
               <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How long does roof replacement take in Borger?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Most Borger homes complete roof replacement in 2-4 days, with weather being the primary variable. Single-story homes under 2,000 sq ft typically finish in 2-3 days, while larger or complex roofs require 3-4 days. Borger's volatile spring weather can cause delays, so we monitor conditions closely and maintain flexible scheduling. During severe weather season, emergency projects receive priority scheduling to restore protection quickly.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Most Borger homes complete roof replacement in 2-4 days, with weather being the primary variable. Single-story homes under 2,000 sq ft typically finish in 2-3 days, while larger or complex roofs require 3-4 days. Borger's volatile spring weather can cause delays, so we monitor conditions closely and maintain flexible scheduling. During severe weather season, urgent projects receive priority scheduling to restore protection quickly.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you handle Hutchinson County permits and industrial area requirements?</AccordionTrigger>
@@ -452,8 +450,8 @@ export default function ResidentialRoofingBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">Borger's petrochemical industry creates unique atmospheric conditions including chemical emissions, particulate matter, and industrial humidity that can accelerate normal material degradation. We specify enhanced chemical-resistant coatings, improved ventilation systems, and materials designed for industrial exposure. Regular maintenance is also critical to prevent particulate buildup and ensure optimal performance in this challenging environment.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide emergency services during severe weather events?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. Borger's location in Tornado Alley requires robust emergency response capabilities. We provide  with typically 90-minute response times during severe weather events. Our emergency services include immediate tarping, water damage mitigation, structural stabilization, and priority scheduling for permanent repairs. We maintain pre-positioned materials and dedicated emergency crews during storm season to ensure rapid response when Borger families need protection most.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide prompt services during severe weather events?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. Borger's location in Tornado Alley requires robust storm response capabilities. We provide  with typically 90-minute response times during severe weather events. Our prompt services include immediate tarping, water damage mitigation, structural stabilization, and priority scheduling for permanent repairs. We maintain pre-positioned materials and dedicated our crews during storm season to ensure rapid response when Borger families need protection most.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>
@@ -475,7 +473,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Borger Property?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">Free inspections for Borger homeowners. Expert residential roofing with comprehensive warranties, emergency response, and deep understanding of northern Panhandle weather extremes.</p>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">Free inspections for Borger homeowners. Expert residential roofing with comprehensive warranties, storm response, and deep understanding of northern Panhandle weather extremes.</p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">Call (806) 622-6041</a>
             <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">Schedule Free Inspection</a>

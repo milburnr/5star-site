@@ -118,7 +118,7 @@ export default function CommercialRoofingLevellandPage() {
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Levelland's Commercial Roofing Specialists</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Levelland and surrounding areas, serving the cotton capital of Texas and home to South Plains College. As the county seat of Hockley County and a major agricultural processing hub, Levelland requires specialized roofing solutions for cotton warehouses, educational facilities, agribusiness operations, and the petroleum support industries that drive the South Plains economy.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Levelland's unique agricultural and educational sectors with expert installations and comprehensive warranties. Our 55-minute response time from Amarillo headquarters ensures rapid service for emergency repairs at cotton processing facilities and college buildings. We handle all permits, insurance claims, and warranty documentation for agricultural and educational institutions.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Levelland's unique agricultural and educational sectors with expert installations and comprehensive warranties. Our 55-minute response time from Amarillo headquarters ensures rapid service for storm repairs at cotton processing facilities and college buildings. We handle all permits, insurance claims, and warranty documentation for agricultural and educational institutions.</p>
             
             <div className="mt-12 bg-gradient-to-r from-green-50 to-yellow-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Levelland's Agricultural Economy</h3>
@@ -200,7 +200,7 @@ export default function CommercialRoofingLevellandPage() {
                   <span className="text-white text-2xl font-bold">55</span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">55-Minute Response Time</h3>
-                <p className="text-gray-700">Critical agricultural facility emergency response from Amarillo headquarters protects valuable crops and equipment.</p>
+                <p className="text-gray-700">Critical agricultural facility storm response from Amarillo headquarters protects valuable crops and equipment.</p>
               </div>
               
               <div className="text-center">
@@ -321,11 +321,11 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Harvest Season Emergency Response</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Harvest Season storm response</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Critical Harvest Protection</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Cotton harvest season is crucial for Levelland's economy, with millions of dollars in crops requiring immediate protection from weather damage. Our emergency response prioritizes cotton storage and processing facilities during harvest season (September-December) when weather protection is critical.</p>
+                <p className="text-gray-700 leading-relaxed mb-4">Cotton harvest season is crucial for Levelland's economy, with millions of dollars in crops requiring immediate protection from weather damage. Our storm response prioritizes cotton storage and processing facilities during harvest season (September-December) when weather protection is critical.</p>
                 
                 <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Harvest Season Protocol:</h4>
                 <div className="space-y-4">

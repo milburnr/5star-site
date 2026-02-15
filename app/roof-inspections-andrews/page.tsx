@@ -203,12 +203,11 @@ export default function RoofInspectionsAndrewsPage() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="text-xl font-bold mb-3 text-brand-brown">Post-Storm Assessments</h4>
-                <p className="text-gray-600 mb-3">Emergency inspections following Permian Basin severe weather events.</p>
+                <p className="text-gray-600 mb-3">damage inspections following Permian Basin severe weather events.</p>
                 <ul className="text-sm text-gray-600">
                   <li>• Hail damage documentation</li>
                   <li>• Wind damage evaluation</li>
                   <li>• Insurance claim preparation</li>
-                  <li>• Emergency repair needs</li>
                 </ul>
               </div>
             </div>
@@ -477,7 +476,6 @@ export default function RoofInspectionsAndrewsPage() {
                       <li>• Fresh hail damage documentation</li>
                       <li>• Wind damage from spring storms</li>
                       <li>• Insurance claim preparation timing</li>
-                      <li>• Emergency repair prioritization</li>
                     </ul>
                   </div>
                   <div>
@@ -554,7 +552,7 @@ export default function RoofInspectionsAndrewsPage() {
                       <li>• Ice formation safety hazards</li>
                       <li>• Reduced daylight hours</li>
                       <li>• Equipment functionality in cold</li>
-                      <li>• Emergency-only roof access</li>
+                      <li>• Storm-related roof access</li>
                       <li>• Interior focus on leak detection</li>
                     </ul>
                   </div>

@@ -34,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Midland"},
       {"@type": "City", "name": "Odessa"}
     ],
-    "description": "Professional commercial roof repair services in Amarillo and West Texas. Emergency leak repair, flat roof systems, preventive maintenance programs."
+    "description": "Professional commercial roof repair services in Amarillo and West Texas. prompt leak repair, flat roof systems, preventive maintenance programs."
   };
 
   return (
@@ -137,11 +137,11 @@ export default function Page() {
         </p>
 
         <p>
-          Emergency tarping systems designed for commercial applications utilize heavy-duty reinforced tarps with professional-grade fastening systems that withstand sustained winds up to 70 mph. Temporary roof membrane patches provide interim weather protection for small damage areas while permanent repair materials are ordered and weather conditions improve. Emergency water extraction services prevent secondary damage to building contents and structural components during leak events.
+          tarping systems designed for commercial applications utilize heavy-duty reinforced tarps with professional-grade fastening systems that withstand sustained winds up to 70 mph. Temporary roof membrane patches provide interim weather protection for small damage areas while permanent repair materials are ordered and weather conditions improve. Emergency water extraction services prevent secondary damage to building contents and structural components during leak events.
         </p>
 
         <p>
-          Critical facility operations including hospitals, data centers, and manufacturing facilities require immediate emergency response that minimizes operational disruption while providing effective weather protection. Our emergency teams coordinate with facility managers to identify critical areas, establish temporary weather barriers, and implement repair procedures that maintain business continuity during severe weather events common throughout the Texas Panhandle region.
+          Critical facility operations including hospitals, data centers, and manufacturing facilities require immediate storm response that minimizes operational disruption while providing effective weather protection. Our our teams coordinate with facility managers to identify critical areas, establish temporary weather barriers, and implement repair procedures that maintain business continuity during severe weather events common throughout the Texas Panhandle region.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Specialized Repair Solutions for Amarillo's Commercial Building Types</h2>
@@ -175,7 +175,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Preventive Maintenance and Early Problem Detection for Commercial Roofing</h2>
 
         <p>
-          Comprehensive preventive maintenance programs designed specifically for Amarillo's climate conditions help commercial property owners avoid costly emergency repairs while extending roof system life. Regular inspections identify minor problems before they develop into major failures that could disrupt business operations or require complete system replacement during peak business periods.
+          Comprehensive preventive maintenance programs designed specifically for Amarillo's climate conditions help commercial property owners avoid costly storm repairs while extending roof system life. Regular inspections identify minor problems before they develop into major failures that could disrupt business operations or require complete system replacement during peak business periods.
         </p>
 
         <p>
@@ -183,7 +183,7 @@ export default function Page() {
         </p>
 
         <p>
-          Predictive maintenance utilizing infrared thermography, moisture meters, and core sampling techniques helps identify potential failure points before they compromise building operations or require expensive emergency repairs. These diagnostic techniques provide early warning of membrane deterioration, insulation saturation, and structural concerns that could affect building performance and occupant comfort.
+          Predictive maintenance utilizing infrared thermography, moisture meters, and core sampling techniques helps identify potential failure points before they compromise building operations or require expensive prompt repairs. These diagnostic techniques provide early warning of membrane deterioration, insulation saturation, and structural concerns that could affect building performance and occupant comfort.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Energy-Efficient Repair Solutions and Building Performance Enhancement</h2>
@@ -256,14 +256,14 @@ export default function Page() {
           Core sampling and laboratory testing verify material compatibility and installation quality for critical repair applications. Adhesion testing, tensile strength measurement, and accelerated aging tests ensure repair materials meet or exceed manufacturer specifications while providing long-term performance in Amarillo's challenging environmental conditions.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Response Protocols and Business Continuity Planning</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">storm response Protocols and Business Continuity Planning</h2>
 
         <p>
-          Commercial roof emergencies in Amarillo require immediate response capabilities that protect business operations and valuable interior assets. Our emergency response teams maintain pre-positioned materials, specialized equipment, and trained personnel available for rapid deployment during severe weather events, system failures, or unexpected damage situations that threaten commercial operations.
+          Commercial roof emergencies in Amarillo require immediate response capabilities that protect business operations and valuable interior assets. Our storm response teams maintain pre-positioned materials, specialized equipment, and trained personnel available for rapid deployment during severe weather events, system failures, or unexpected damage situations that threaten commercial operations.
         </p>
 
         <p>
-          Temporary weather protection systems designed for commercial applications utilize heavy-duty materials and professional installation techniques that provide reliable protection during emergency situations. Emergency tarping, temporary membrane patches, and interim drainage solutions protect commercial properties while permanent repairs are planned and implemented under optimal conditions.
+          Temporary weather protection systems designed for commercial applications utilize heavy-duty materials and professional installation techniques that provide reliable protection during emergency situations. tarping, temporary membrane patches, and interim drainage solutions protect commercial properties while permanent repairs are planned and implemented under optimal conditions.
         </p>
 
         <p>
@@ -291,7 +291,7 @@ export default function Page() {
         </p>
 
         <p>
-          Extended warranty options available through manufacturer partnerships provide additional protection for qualifying repairs using specified materials and installation procedures. These programs often include periodic inspections, preventive maintenance services, and priority emergency response that maximize repair value while ensuring long-term performance.
+          Extended warranty options available through manufacturer partnerships provide additional protection for qualifying repairs using specified materials and installation procedures. These programs often include periodic inspections, preventive maintenance services, and priority response that maximize repair value while ensuring long-term performance.
         </p>
 
         <p>
@@ -352,7 +352,6 @@ export default function Page() {
 
         <ul className="list-disc pl-6 space-y-2">
           <li>Bi-annual professional inspections</li>
-          <li>Priority emergency service for maintenance customers</li>
           <li>Detailed inspection reports with photos</li>
           <li>Minor repairs included in maintenance agreement</li>
           <li>Extended warranty protection</li>
@@ -365,7 +364,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mb-4 text-brand-brown">Need Commercial Roof Repair in Amarillo?</h2>
         <p className="mb-6 text-gray-700">
           Contact 5 Star Commercial Roofing for fast, professional commercial roof repair and maintenance.
-          We offer free estimates and emergency service for commercial properties.
+          We offer free estimates and prompt service for commercial properties.
         </p>
         <div className="flex gap-4 flex-wrap">
           <a

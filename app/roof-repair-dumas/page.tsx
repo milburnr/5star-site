@@ -132,7 +132,7 @@ export default function RoofRepairDumasPage() {
                 "name": "How quickly can you repair my leaking roof in Dumas?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality."
+                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
                 }
               },
               {
@@ -259,7 +259,7 @@ export default function RoofRepairDumasPage() {
                   How quickly can you repair my leaking roof in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
@@ -423,11 +423,11 @@ export default function RoofRepairDumasPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Schedule Coordination</h3>
                     <p className="text-gray-700 mb-3">
-                      We understand that agricultural operations in Dumas run on demanding schedules tied to livestock care and commodity processing. Our emergency response considers the critical nature of agricultural building integrity.
+                      We understand that agricultural operations in Dumas run on demanding schedules tied to livestock care and commodity processing. Our storm response considers the critical nature of agricultural building integrity.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Agricultural operation priority scheduling</li>
-                      <li>• Livestock facility emergency protocols</li>
+                      <li>• Livestock facility safety protocols</li>
                       <li>• Grain storage protection measures</li>
                       <li>• Minimal operational disruption</li>
                     </ul>
@@ -551,7 +551,6 @@ export default function RoofRepairDumasPage() {
                   <li>• Agricultural schedule accommodation</li>
                   <li>• Livestock operation consideration</li>
                   <li>• Commodity protection protocols</li>
-                  <li>• Emergency response prioritization</li>
                 </ul>
               </div>
 

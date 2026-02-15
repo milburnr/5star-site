@@ -233,7 +233,7 @@ export default function StormDamageRepairLevellandPage() {
                   <div>
                     <h5 className="text-xl font-semibold text-red-700">June 15, 2018 - Night Ambush Storm</h5>
                     <p className="text-gray-700 leading-relaxed">
-                      A rare overnight supercell caught Levelland residents sleeping, producing baseball-sized hail from 1:30-3:00 AM. The storm formed rapidly along a convergence zone and intensified directly over the city. Morning revealed extensive damage to thousands of roofing systems, with many commercial flat roofs experiencing complete membrane failure. The storm's timing amplified damage as emergency repairs were delayed until daylight, allowing water infiltration to cause additional interior damage throughout the city.
+                      A rare overnight supercell caught Levelland residents sleeping, producing baseball-sized hail from 1:30-3:00 AM. The storm formed rapidly along a convergence zone and intensified directly over the city. Morning revealed extensive damage to thousands of roofing systems, with many commercial flat roofs experiencing complete membrane failure. The storm's timing amplified damage as storm repairs were delayed until daylight, allowing water infiltration to cause additional interior damage throughout the city.
                     </p>
                   </div>
                 </div>
@@ -403,7 +403,7 @@ export default function StormDamageRepairLevellandPage() {
                   How do you handle the high volume of claims after major storm events?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  We maintain strategic relationships with material suppliers and additional crews throughout Texas to ensure rapid response capability during major storm events that affect the entire South Plains region. Our process includes immediate emergency services to prevent further damage, comprehensive documentation for insurance purposes, and phased restoration that prioritizes critical repairs first. We utilize drone technology for rapid assessment of large commercial properties and maintain detailed databases of local building specifications to expedite the estimation process. During major events like the 2022 hailstorm marathon, we coordinate with regional contractors while maintaining our quality standards to ensure all customers receive proper restoration services.
+                  We maintain strategic relationships with material suppliers and additional crews throughout Texas to ensure rapid response capability during major storm events that affect the entire South Plains region. Our process includes immediate prompt services to prevent further damage, comprehensive documentation for insurance purposes, and phased restoration that prioritizes critical repairs first. We utilize drone technology for rapid assessment of large commercial properties and maintain detailed databases of local building specifications to expedite the estimation process. During major events like the 2022 hailstorm marathon, we coordinate with regional contractors while maintaining our quality standards to ensure all customers receive proper restoration services.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

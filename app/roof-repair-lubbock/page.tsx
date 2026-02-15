@@ -389,7 +389,7 @@ export default function RoofRepairLubbockPage() {
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Preventive Maintenance Programs</h4>
-                    <p className="text-gray-700 text-sm">Annual inspection and maintenance schedules designed to prevent costly emergency repairs during peak rental periods</p>
+                    <p className="text-gray-700 text-sm">Annual inspection and maintenance schedules designed to prevent costly storm repairs during peak rental periods</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Landlord Liaison Services</h4>
@@ -623,7 +623,7 @@ export default function RoofRepairLubbockPage() {
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Storm Repair</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Repair</h3>
                 <p className="text-gray-600 mb-4">response for supercell damage throughout Lubbock County</p>
                 <a href="/roof-repair-lubbock/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>

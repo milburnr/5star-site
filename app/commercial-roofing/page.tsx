@@ -270,7 +270,7 @@ export default function Page() {
         equipment damage. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">commercial hail damage specialists</a> are ready to protect your business:
       </p>
       <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
-        <li><strong>Emergency Storm Response:</strong> Available for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">emergency leak repairs</a> and tarping</li>
+        <li><strong>storm response:</strong> Available for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">prompt leak repairs</a> and tarping</li>
         <li><strong>Comprehensive Damage Assessment:</strong> Detailed documentation for insurance claims with drone inspections</li>
         <li><strong>Insurance Claim Assistance:</strong> We work directly with your adjuster to ensure full coverage—95% claim approval rate</li>
         <li><strong>Minimal Business Disruption:</strong> Strategic scheduling to keep your operations running during installation</li>
@@ -369,7 +369,7 @@ export default function Page() {
         <div className="text-center p-4 bg-gray-50 rounded-lg">
           <div className="text-3xl mb-2">⚡</div>
           <h3 className="font-bold mb-2">Fast Response</h3>
-          <p className="text-sm text-gray-600">Emergency service available when you need it most</p>
+          <p className="text-sm text-gray-600">prompt service available when you need it most</p>
         </div>
         <div className="text-center p-4 bg-gray-50 rounded-lg">
           <div className="text-3xl mb-2">💼</div>

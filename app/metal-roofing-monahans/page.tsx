@@ -506,7 +506,6 @@ export default function MetalRoofingMonahansPage() {
                     <li>• Post-hailstorm damage assessment</li>
                     <li>• Preventive maintenance programs</li>
                     <li>• Coating restoration services</li>
-                    <li>• Emergency repair response</li>
                     <li>• Warranty compliance inspections</li>
                     <li>• Performance optimization</li>
                   </ul>
@@ -516,7 +515,7 @@ export default function MetalRoofingMonahansPage() {
               <div className="mt-8 p-6 bg-amber-50 rounded-xl">
                 <h4 className="text-lg font-bold text-brand-brown mb-3">5 Star Maintenance Program</h4>
                 <p className="text-gray-700">
-                  Our comprehensive maintenance program ensures your metal roofing investment continues to protect your Monahans property for decades. We provide annual inspections, preventive maintenance, and priority emergency response to keep your roofing system performing at peak efficiency through all of the Permian Basin's weather challenges.
+                  Our comprehensive maintenance program ensures your metal roofing investment continues to protect your Monahans property for decades. We provide annual inspections, preventive maintenance, and priority response to keep your roofing system performing at peak efficiency through all of the Permian Basin's weather challenges.
                 </p>
               </div>
             </div>

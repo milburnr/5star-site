@@ -266,7 +266,7 @@ export default function ResidentialRoofingPampaPage() {
                 </ul>
                 
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-brand-brown font-semibold">Priority storm response for severe weather events. Emergency services available during severe weather season.</p>
+                  <p className="text-sm text-brand-brown font-semibold">Priority storm response for severe weather events. prompt services available during severe weather season.</p>
                 </div>
               </div>
             </div>
@@ -284,7 +284,7 @@ export default function ResidentialRoofingPampaPage() {
               
               <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle tornado damage in Pampa?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">As tornado specialists, we provide immediate emergency response including structural assessment, temporary protection, and complete restoration services. Our team has extensive experience with severe wind damage and coordinates closely with insurance adjusters and emergency management officials during major storm events.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">As tornado specialists, we provide immediate response including structural assessment, temporary protection, and complete restoration services. Our team has extensive experience with severe wind damage and coordinates closely with insurance adjusters and emergency management officials during major storm events.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -309,7 +309,7 @@ export default function ResidentialRoofingPampaPage() {
               
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you prepare for severe weather season?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We maintain emergency response protocols from March through October, Pampa's peak severe weather season. This includes pre-positioned materials, response teams, and coordination with local emergency management. We offer preventive inspections and minor repairs before storm season to minimize damage risk.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We maintain storm response protocols from March through October, Pampa's peak severe weather season. This includes pre-positioned materials, response teams, and coordination with local emergency management. We offer preventive inspections and minor repairs before storm season to minimize damage risk.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -332,7 +332,6 @@ export default function ResidentialRoofingPampaPage() {
                 <div className="bg-red-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2">⚡ Storm Response Protocol:</h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• emergency hotline activation</li>
                     <li>• Rapid damage assessment teams</li>
                     <li>• Priority temporary protection</li>
                     <li>• Insurance coordination specialists</li>
@@ -354,7 +353,6 @@ export default function ResidentialRoofingPampaPage() {
                     <li>• Minor repair priority scheduling</li>
                     <li>• Insurance documentation support</li>
                     <li>• Weather alerts and recommendations</li>
-                    <li>• Emergency response priority</li>
                   </ul>
                 </div>
               </div>

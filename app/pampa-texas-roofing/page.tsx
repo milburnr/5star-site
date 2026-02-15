@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pampa-texas-roofing/' },
   title: 'Roofing in Pampa, TX| Hail Damage Specialists | 5 Star',
-  description: 'roofing services in Pampa, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Gray County. Free inspections available.',
+  description: 'roofing services in Pampa, Texas Panhandle. Commercial, residential, and storm roofing. Serving Gray County. Free inspections available.',
 };
 
 export default function PampaRoofingPage() {
@@ -99,8 +99,7 @@ export default function PampaRoofingPage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Emergency Roofing Gray County",
-            "description": "emergency roof repair services for residential and industrial facilities in Gray County"
+            "description": "storm damage roof repair services for residential and industrial facilities in Gray County"
           }
         }
       ]
@@ -166,7 +165,7 @@ export default function PampaRoofingPage() {
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Pampa, Texas</h2>
             <p className="text-lg mb-4">
-              As Pampa's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Gray County and the entire Texas Panhandle. Whether you need commercial roofing for Pampa's chemical plants, residential roofing for your home, or emergency storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
+              As Pampa's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Gray County and the entire Texas Panhandle. Whether you need commercial roofing for Pampa's chemical plants, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
               Pampa's climate—with severe hailstorms, high winds, and extreme temperature swings—combined with the city's industrial base demands roofing systems built to withstand the harshest conditions and chemical exposure. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and chemical-resistant roofing systems proven to protect Gray County properties year after year.
@@ -286,9 +285,9 @@ export default function PampaRoofingPage() {
                 <div className="text-5xl mb-4">🚨</div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Pampa, we respond with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
+                  When severe weather strikes Pampa, we respond with tarping and rapid roof repairs. Call us immediately for storm damage assessment.
                 </p>
-                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
+                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Storm Damage Repair →</a>
               </div>
             </FadeIn>
           </div>
@@ -484,7 +483,7 @@ export default function PampaRoofingPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-bold mb-2">Can you handle emergency repairs during industrial incidents or severe weather?</h3>
+              <h3 className="text-lg font-bold mb-2">Can you handle storm repairs during industrial incidents or severe weather?</h3>
               <p className="text-gray-700">
                 Absolutely. We maintain prompt response capability for both residential and industrial clients throughout Gray County. During severe weather events or industrial incidents, we can provide rapid tarping and temporary repairs to prevent water damage and secure facilities. Our response teams are equipped to work safely in industrial environments and coordinate with facility safety personnel.
               </p>

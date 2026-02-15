@@ -102,7 +102,7 @@ export default function Page() {
 
         <p>
           Our comprehensive services encompass <strong>roof repair</strong>, <strong>residential roofing</strong>,{" "}
-          <strong>commercial roofing</strong>, <strong>roof installation</strong>, and specialized <a href="/emergency-roofing-services/" className="text-brand-gold hover:underline">emergency services</a>. We provide <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">free roof inspections</a> and work directly with all major insurance companies to streamline <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage claims</a>, ensuring our clients receive the maximum coverage they deserve.
+          <strong>commercial roofing</strong>, <strong>roof installation</strong>, and specialized <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">prompt services</a>. We provide <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">free roof inspections</a> and work directly with all major insurance companies to streamline <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage claims</a>, ensuring our clients receive the maximum coverage they deserve.
         </p>
 
         <h2 className="text-3xl font-bold mt-12 mb-6 text-brand-brown">What Sets 5 Star Commercial Roofing Apart in Amarillo</h2>
@@ -185,8 +185,7 @@ export default function Page() {
           <li><strong>Flat Roof Installation & Repair:</strong> TPO, EPDM, and PVC single-ply membrane systems with heat-welded seams and enhanced puncture resistance</li>
           <li><strong>Built-Up Roofing (BUR) Systems:</strong> Multi-layer systems with hot asphalt or cold adhesive application for maximum durability in high-traffic applications</li>
           <li><strong>Modified Bitumen Roofing:</strong> Self-adhering and torch-applied systems offering excellent flexibility and weather resistance</li>
-          <li><strong>Commercial Roof Maintenance Programs:</strong> Scheduled inspections, preventive maintenance, and emergency response to maximize roof lifespan and prevent costly failures</li>
-          <li><strong>Emergency Roof Repairs:</strong> Rapid response for storm damage, equipment impact, and sudden leaks that threaten business operations</li>
+          <li><strong>Storm Damage Roof Repairs:</strong> Rapid response for storm damage, equipment impact, and sudden leaks that threaten business operations</li>
           <li><strong>Roof Coating & Restoration:</strong> Liquid-applied systems that extend roof life, improve energy efficiency, and provide cost-effective alternatives to replacement</li>
           <li><strong>Green Roof Systems:</strong> Vegetated roof systems for sustainability goals and stormwater management</li>
         </ul>

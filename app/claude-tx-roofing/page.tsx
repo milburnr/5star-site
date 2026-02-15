@@ -283,26 +283,26 @@ export default function ClaudeRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Services */}
+            {/* Storm Services */}
             <FadeIn delay={0.6}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg" alt="emergency roofing service for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg" alt="professional roofing service for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Roofing emergencies don't keep business hours.</strong> Whether it's
+                      <strong>roofing issues don't keep business hours.</strong> Whether it's
                       2am after a hailstorm or Sunday afternoon with water pouring in, we provide
-                      emergency roofing services to Claude. Emergency tarping, leak repairs,
+                      professional roofing services to Claude. tarping, leak repairs,
                       and storm damage mitigation available anytime.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}now for immediate emergency assistance. We'll be on the road to Claude within minutes.
+                      {" "}now for immediate professional assistance. We'll be on the road to Claude within minutes.
                     </p>
                     <a
                       href="/roof-repair-services-in-amarillo/"
@@ -440,7 +440,7 @@ export default function ClaudeRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve the Claude community with honest,
               professional roofing services. Whether you need a free inspection, hail damage
-              assessment, or emergency repairs, we're just a quick drive east on US-287.
+              assessment, or prompt repairs, we're just a quick drive east on US-287.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">

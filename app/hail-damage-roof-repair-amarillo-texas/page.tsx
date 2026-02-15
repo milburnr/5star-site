@@ -73,7 +73,7 @@ export default function HailDamageAmarilloPage() {
             <div className="bg-brand-gold-light p-8 rounded-lg border-l-4 border-brand-gold">
               <p className="text-lg font-semibold text-brand-brown mb-2">🚀 Fast Response Throughout Amarillo</p>
               <p className="text-gray-700">
-                From Wolflin to Southwest Amarillo, we provide same-day emergency inspections after major storms.
+                From Wolflin to Southwest Amarillo, we provide same-day damage inspections after major storms.
                 Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a> to schedule yours now.
               </p>
             </div>
@@ -261,20 +261,20 @@ export default function HailDamageAmarilloPage() {
           </section>
         </FadeIn>
 
-        {/* Emergency Services */}
+        {/* Storm Services */}
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Damage Services in Amarillo</h2>
 
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after hail storm?</strong> We provide emergency tarping services and temporary repairs throughout Amarillo. Don't wait - water damage compounds quickly and can lead to mold, structural issues, and ruined belongings.
+              <strong>Active leak after hail storm?</strong> We provide tarping services and temporary repairs throughout Amarillo. Don't wait - water damage compounds quickly and can lead to mold, structural issues, and ruined belongings.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-bold text-xl text-red-700 mb-3">Emergency Services Include:</h3>
+                <h3 className="font-bold text-xl text-red-700 mb-3">Storm Damage Services Include:</h3>
                 <ul className="space-y-2 text-gray-800">
-                  <li>✓ Emergency roof tarping (same-day available)</li>
+                  <li>✓ Roof tarping (same-day available)</li>
                   <li>✓ Temporary leak repairs</li>
                   <li>✓ Water damage mitigation</li>
                   <li>✓ Priority scheduling for permanent repairs</li>
@@ -292,11 +292,10 @@ export default function HailDamageAmarilloPage() {
             </div>
 
             <div className="mt-8 bg-white p-6 rounded-lg">
-              <p className="text-xl font-bold text-red-700 mb-2">🚨 Call Now for Emergency Service</p>
               <p className="text-2xl font-bold text-brand-gold">
                 <a href="tel:8066226041" className="hover:underline">(806) 622-6041</a>
               </p>
-              <p className="text-gray-700 mt-2">Available for roofing emergencies in Amarillo</p>
+              <p className="text-gray-700 mt-2">Available for roofing issues in Amarillo</p>
             </div>
           </section>
         </FadeIn>

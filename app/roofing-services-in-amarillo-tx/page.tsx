@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-services-in-amarillo-tx/' },
   title: 'Amarillo TX Roofing Services | 5 Star Roofing',
-  description: "Complete roofing services in Amarillo, TX. Residential & commercial, repair & replacement, hail damage, emergency service. Free inspections. Call (806) 622-6041",
+  description: "Complete roofing services in Amarillo, TX. Residential & commercial, repair & replacement, hail damage, prompt service. Free inspections. Call (806) 622-6041",
 };
 
 export default function Page() {
@@ -34,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Canyon"},
       {"@type": "City", "name": "Bushland"}
     ],
-    "description": "Comprehensive roofing services in Amarillo, Texas including repair, replacement, hail damage restoration, and emergency service for residential and commercial properties."
+    "description": "Comprehensive roofing services in Amarillo, Texas including repair, replacement, hail damage restoration, and prompt service for residential and commercial properties."
   };
 
   return (
@@ -83,7 +83,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Complete Roofing Solutions for Amarillo & the Texas Panhandle</h2>
         <p className="text-lg">
-          At 5 Star Commercial Roofing, we provide comprehensive <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services</a> for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo and the Texas Panhandle. From routine <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">inspections</a> to emergency <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">storm damage repairs</a>, we handle every aspect of roofing with professional expertise and customer-first service.
+          At 5 Star Commercial Roofing, we provide comprehensive <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services</a> for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo and the Texas Panhandle. From routine <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">inspections</a> to storm damage <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">storm damage repairs</a>, we handle every aspect of roofing with professional expertise and customer-first service.
         </p>
         <p className="text-lg mt-4">
           Whether you need <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage assessment</a>, a complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, or ongoing maintenance for your commercial facility, our experienced team delivers quality workmanship backed by industry-leading warranties. We understand the unique challenges of the Texas Panhandle climate—from severe hailstorms to high winds and extreme temperature swings—and we build roofs designed to withstand them.
@@ -104,7 +104,6 @@ export default function Page() {
               <li>✓ Flashing repair around chimneys and vents</li>
               <li>✓ Valley repair and re-sealing</li>
               <li>✓ Gutter and downspout repairs</li>
-              <li>✓ Emergency tarping service (24/7)</li>
             </ul>
           </div>
         </FadeIn>
@@ -155,7 +154,7 @@ export default function Page() {
               <li>✓ Modified bitumen and BUR systems</li>
               <li>✓ Metal roof coating and restoration</li>
               <li>✓ Planned maintenance programs</li>
-              <li>✓ Emergency commercial repairs</li>
+              <li>✓ Commercial repairs</li>
             </ul>
           </div>
         </FadeIn>
@@ -205,7 +204,7 @@ export default function Page() {
         <div className="feature-box">
           <div className="feature-icon">⚡</div>
           <h3 className="feature-title"></h3>
-          <p className="feature-text">Available around the clock for emergency tarping and storm damage response</p>
+          <p className="feature-text">Available around the clock for tarping and storm damage response</p>
         </div>
         <div className="feature-box">
           <div className="feature-icon">🛡️</div>
@@ -387,7 +386,7 @@ export default function Page() {
       <section className="cta-section mt-12">
         <h2 className="cta-title">Need Roofing Services in Amarillo?</h2>
         <p className="cta-text">
-          Free inspections, honest estimates, and professional installation. Available for emergency service. Serving Amarillo and the Texas Panhandle for over 10 years.
+          Free inspections, honest estimates, and professional installation. Available for prompt service. Serving Amarillo and the Texas Panhandle for over 10 years.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">

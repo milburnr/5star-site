@@ -118,7 +118,7 @@ export default function CommercialRoofingCanyonPage() {
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Canyon's Commercial Roofing Specialists</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Canyon and surrounding areas, serving the gateway to Palo Duro Canyon and home to West Texas A&M University. As a dynamic university town and tourism destination, Canyon requires specialized roofing solutions for educational facilities, hospitality venues, student housing, and the diverse businesses that support both academic life and the growing tourism industry.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Canyon's unique blend of educational, tourism, and agricultural sectors with expert installations and comprehensive warranties. Our 45-minute response time from Amarillo headquarters provides rapid service for emergency repairs to campus facilities and tourist accommodations. We handle all permits, insurance claims, and warranty documentation for educational institutions and commercial properties.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Canyon's unique blend of educational, tourism, and agricultural sectors with expert installations and comprehensive warranties. Our 45-minute response time from Amarillo headquarters provides rapid service for storm repairs to campus facilities and tourist accommodations. We handle all permits, insurance claims, and warranty documentation for educational institutions and commercial properties.</p>
             
             <div className="mt-12 bg-gradient-to-r from-purple-50 to-red-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Canyon's Educational and Tourism Economy</h3>
@@ -200,7 +200,7 @@ export default function CommercialRoofingCanyonPage() {
                   <span className="text-white text-2xl font-bold">45</span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">45-Minute Response Time</h3>
-                <p className="text-gray-700">Rapid emergency response from Amarillo headquarters ensures minimal disruption to university operations and tourist facilities.</p>
+                <p className="text-gray-700">Rapid storm response from Amarillo headquarters ensures minimal disruption to university operations and tourist facilities.</p>
               </div>
               
               <div className="text-center">
@@ -321,11 +321,11 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Tourism Season Emergency Response</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Tourism Season storm response</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Peak Season Priority Service</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Canyon's tourism industry peaks during spring and fall when visitors flock to Palo Duro Canyon. Our emergency response prioritizes hospitality and tourism facilities during these critical revenue periods, ensuring minimal impact to visitor experiences and business operations.</p>
+                <p className="text-gray-700 leading-relaxed mb-4">Canyon's tourism industry peaks during spring and fall when visitors flock to Palo Duro Canyon. Our storm response prioritizes hospitality and tourism facilities during these critical revenue periods, ensuring minimal impact to visitor experiences and business operations.</p>
                 
                 <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Tourism Season Response:</h4>
                 <div className="space-y-4">
@@ -391,7 +391,7 @@ export default function CommercialRoofingCanyonPage() {
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2"><AnimatedCounter to={15} suffix="%" /></div>
                   <div className="text-brand-brown font-semibold">Tourism Revenue Protected</div>
-                  <div className="text-sm text-gray-600 mt-1">During emergency responses</div>
+                  <div className="text-sm text-gray-600 mt-1">During storm responses</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2"><AnimatedCounter to={8} suffix="+" /></div>
@@ -438,7 +438,6 @@ export default function CommercialRoofingCanyonPage() {
                 <ul className="text-gray-700 space-y-2 ml-4 mb-4">
                   <li>• Seasonal payment schedules matching revenue cycles</li>
                   <li>• Deferred payments during off-season periods</li>
-                  <li>• Quick approval for emergency repairs</li>
                   <li>• Business interruption insurance coordination</li>
                   <li>• Extended terms for family-owned businesses</li>
                 </ul>

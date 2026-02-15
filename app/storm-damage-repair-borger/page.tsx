@@ -124,7 +124,7 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "How quickly can you respond to storm damage emergencies in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "We maintain emergency teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
+                                        "text": "We maintain our teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
                               }
                     },
                     {
@@ -132,7 +132,7 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "Will insurance cover my storm damage repairs in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes emergency mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise."
+                                        "text": "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise."
                               }
                     },
                     {
@@ -140,7 +140,6 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "Should I tarp my roof myself or wait for professionals in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
                               }
                     },
                     {
@@ -148,7 +147,7 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "How long does storm damage roof replacement take in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling."
+                                        "text": "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling."
                               }
                     },
                     {
@@ -156,7 +155,7 @@ export default function StormDamageRepairBorgerPage() {
                               "name": "What should I do immediately after storm damage in Borger?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration."
+                                        "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration."
                               }
                     }
           ]
@@ -180,14 +179,14 @@ export default function StormDamageRepairBorgerPage() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Borger</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Emergency Response | Panhandle Weather Experts
+                Storm Damage Experts | Panhandle Weather Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -278,7 +277,7 @@ export default function StormDamageRepairBorgerPage() {
                 <h3 className="text-xl font-bold mb-3 text-red-700">Emergency Phase (0-24 hours)</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>
-                  <li>• Emergency tarping for active leaks</li>
+                  <li>• tarping for active leaks</li>
                   <li>• Damage documentation begins</li>
                   <li>• Insurance notification</li>
                   <li>• Temporary weather protection</li>
@@ -343,7 +342,7 @@ export default function StormDamageRepairBorgerPage() {
                     <p className="text-gray-600 text-sm">Roofing materials near petrochemical facilities must resist acid rain, chemical vapors, and industrial emissions that accelerate degradation.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold mb-2">Emergency Access Protocols</h4>
+                    <h4 className="font-semibold mb-2">Access Protocols</h4>
                     <p className="text-gray-600 text-sm">Industrial area response requires coordination with facility security and safety protocols. We maintain certifications for working near active operations.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
@@ -371,7 +370,7 @@ export default function StormDamageRepairBorgerPage() {
                   How quickly can you respond to storm damage emergencies in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain emergency teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
+                  We maintain our teams throughout the Texas Panhandle including Borger with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
                 </AccordionContent>
               </AccordionItem>
 
@@ -380,7 +379,7 @@ export default function StormDamageRepairBorgerPage() {
                   Will insurance cover my storm damage repairs in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes emergency mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.
+                  Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.
                 </AccordionContent>
               </AccordionItem>
 
@@ -389,7 +388,6 @@ export default function StormDamageRepairBorgerPage() {
                   Should I tarp my roof myself or wait for professionals in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
                 </AccordionContent>
               </AccordionItem>
 
@@ -398,7 +396,7 @@ export default function StormDamageRepairBorgerPage() {
                   How long does storm damage roof replacement take in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling.
+                  Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling.
                 </AccordionContent>
               </AccordionItem>
 
@@ -407,7 +405,7 @@ export default function StormDamageRepairBorgerPage() {
                   What should I do immediately after storm damage in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration.
+                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.
                 </AccordionContent>
               </AccordionItem>
 
@@ -449,10 +447,10 @@ export default function StormDamageRepairBorgerPage() {
 
               <AccordionItem value="item-10" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What's included in your emergency storm response for Borger properties?
+                  What's included in your storm response for Borger properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Our  includes immediate safety assessment, professional damage documentation with photos and measurements, emergency tarping to prevent further damage, temporary repairs for active leaks, coordination with insurance adjusters, and detailed estimates for permanent repairs. We arrive within 2-4 hours for critical situations and work around Borger's industrial schedules. All emergency work is properly documented for insurance claims and credited toward final repair costs.
+                  Our  includes immediate safety assessment, professional damage documentation with photos and measurements, tarping to prevent further damage, temporary repairs for active leaks, coordination with insurance adjusters, and detailed estimates for permanent repairs. We arrive within 2-4 hours for critical situations and work around Borger's industrial schedules. All work is properly documented for insurance claims and credited toward final repair costs.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

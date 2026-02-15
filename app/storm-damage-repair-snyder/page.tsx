@@ -322,7 +322,7 @@ export default function StormDamageRepairSnyderPage() {
                   <div className="flex items-start space-x-3">
                     <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">1</div>
                     <div>
-                      <h4 className="font-semibold text-lg mb-1">Emergency Response</h4>
+                      <h4 className="font-semibold text-lg mb-1">Storm Response</h4>
                       <p className="text-sm opacity-90">Priority service for Snyder's frequent severe weather events</p>
                     </div>
                   </div>
@@ -373,7 +373,7 @@ export default function StormDamageRepairSnyderPage() {
                   How do you handle the high frequency of storm events in Snyder?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  Snyder's 7-9 annual hailstorms require a strategic approach to storm damage restoration. We maintain dedicated crews and material stockpiles specifically for the Scurry County area during peak storm season (April-July). Our process prioritizes emergency stabilization to prevent further damage, followed by comprehensive assessment and systematic restoration. We work closely with local insurance adjusters who understand Snyder's unique storm patterns and maintain relationships with Western Texas College and other major institutions to ensure rapid response capability. Our goal is to complete most residential repairs within 2-3 weeks and commercial projects within 4-6 weeks, depending on damage severity.
+                  Snyder's 7-9 annual hailstorms require a strategic approach to storm damage restoration. We maintain dedicated crews and material stockpiles specifically for the Scurry County area during peak storm season (April-July). Our process prioritizes structural stabilization to prevent further damage, followed by comprehensive assessment and systematic restoration. We work closely with local insurance adjusters who understand Snyder's unique storm patterns and maintain relationships with Western Texas College and other major institutions to ensure rapid response capability. Our goal is to complete most residential repairs within 2-3 weeks and commercial projects within 4-6 weeks, depending on damage severity.
                 </AccordionContent>
               </AccordionItem>
               

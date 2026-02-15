@@ -148,7 +148,7 @@ export default function WindDamageRepairAmarilloPage() {
                 "name": "How quickly can you repair wind damage after a storm?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We provide emergency tarping and temporary repairs within hours for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate emergency needs."
+                  "text": "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs."
                 }
               },
               {
@@ -180,7 +180,7 @@ export default function WindDamageRepairAmarilloPage() {
                 "name": "What's the best time of year for wind damage repairs in Amarillo?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Late fall through early spring offers the most stable weather for roofing work, with reduced wind speeds and fewer severe weather events. However, emergency repairs can't wait—we're equipped for year-round installation with specialized techniques for high-wind conditions."
+                  "text": "Late fall through early spring offers the most stable weather for roofing work, with reduced wind speeds and fewer severe weather events. However, storm repairs can't wait—we're equipped for year-round installation with specialized techniques for high-wind conditions."
                 }
               }
             ]
@@ -211,7 +211,7 @@ export default function WindDamageRepairAmarilloPage() {
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Free Inspection
@@ -613,9 +613,9 @@ export default function WindDamageRepairAmarilloPage() {
                 <div className="flex gap-4 items-start">
                   <div className="flex-shrink-0 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div>
-                    <h3 className="text-xl font-bold text-green-900 mb-2">Emergency Temporary Repairs</h3>
+                    <h3 className="text-xl font-bold text-green-900 mb-2">Temporary Storm Repairs</h3>
                     <p className="text-gray-700">
-                      If your roof is actively leaking or exposed to elements, we provide emergency tarping and temporary leak repairs within hours. This prevents water damage to interior while insurance claim processes.  throughout Amarillo and surrounding Potter County communities.
+                      If your roof is actively leaking or exposed to elements, we provide tarping and temporary leak repairs within hours. This prevents water damage to interior while insurance claim processes.  throughout Amarillo and surrounding Potter County communities.
                     </p>
                   </div>
                 </div>
@@ -686,7 +686,7 @@ export default function WindDamageRepairAmarilloPage() {
                   How quickly can you repair wind damage after Amarillo storms?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide emergency tarping and temporary repairs within 2-4 hours for actively leaking roofs—critical in Amarillo where wind damage often precedes heavy rain events. Full repair or replacement typically occurs 2-4 weeks after insurance claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle (like derechos or major frontal systems), we coordinate with regional suppliers and work extended hours to accommodate emergency needs. Our local inventory of high-wind rated materials ensures faster repairs than companies relying on distant suppliers.
+                  We provide tarping and temporary repairs within 2-4 hours for actively leaking roofs—critical in Amarillo where wind damage often precedes heavy rain events. Full repair or replacement typically occurs 2-4 weeks after insurance claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle (like derechos or major frontal systems), we coordinate with regional suppliers and work extended hours to accommodate scheduling needs. Our local inventory of high-wind rated materials ensures faster repairs than companies relying on distant suppliers.
                 </AccordionContent>
               </AccordionItem>
 
@@ -722,7 +722,7 @@ export default function WindDamageRepairAmarilloPage() {
                   What's the best time of year for wind damage repairs in Amarillo?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Late fall through early spring (October-March) offers the most stable weather for roofing work, with reduced wind speeds and fewer severe weather events. However, emergency repairs can't wait for ideal weather—we're equipped for year-round installation with specialized techniques for high-wind conditions. Summer repairs face challenges from extreme heat and afternoon thunderstorms, while spring work must be scheduled around frequent storm systems. We maintain inventory and crew scheduling specifically for Amarillo's weather patterns to minimize delays regardless of season.
+                  Late fall through early spring (October-March) offers the most stable weather for roofing work, with reduced wind speeds and fewer severe weather events. However, storm repairs can't wait for ideal weather—we're equipped for year-round installation with specialized techniques for high-wind conditions. Summer repairs face challenges from extreme heat and afternoon thunderstorms, while spring work must be scheduled around frequent storm systems. We maintain inventory and crew scheduling specifically for Amarillo's weather patterns to minimize delays regardless of season.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

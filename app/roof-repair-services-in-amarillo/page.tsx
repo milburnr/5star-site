@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-services-in-amarillo/' },
   title: 'Roof Repair Amarillo TX | 5 Star Roofing',
-  description: 'Trusted roof repair services in Amarillo TX since 2014. Emergency storm damage repair, hail damage restoration, leak repair, insurance claims assistance. Licensed, bonded, insured. Free estimates, prompt response throughout Potter & Randall Counties.',
+  description: 'Trusted roof repair services in Amarillo TX since 2014. Storm damage repair, hail damage restoration, leak repair, insurance claims assistance. Licensed, bonded, insured. Free estimates, prompt response throughout Potter & Randall Counties.',
 };
 
 export default function Page() {
@@ -34,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Canyon"},
       {"@type": "City", "name": "Bushland"}
     ],
-    "description": "Professional roof repair services in Amarillo, Texas. Emergency leak repair, hail damage repair, shingle replacement, and storm damage restoration."
+    "description": "Professional roof repair services in Amarillo, Texas. prompt leak repair, hail damage repair, shingle replacement, and storm damage restoration."
   };
 
   return (
@@ -88,7 +88,7 @@ export default function Page() {
           <section className="content-block">
             <h2 className="content-block-title">Expert Roof Repair in Amarillo & West Texas</h2>
             <p className="text-lg mb-4">
-              When your <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo roof</a> develops a leak, loses shingles in a windstorm, or suffers <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, fast professional repair is critical to prevent further damage to your home or business. At 5 Star Commercial Roofing, we've been Amarillo's trusted roof repair specialists for over a decade, handling everything from emergency leak repairs to comprehensive storm damage restoration across the Texas Panhandle.
+              When your <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo roof</a> develops a leak, loses shingles in a windstorm, or suffers <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, fast professional repair is critical to prevent further damage to your home or business. At 5 Star Commercial Roofing, we've been Amarillo's trusted roof repair specialists for over a decade, handling everything from prompt leak repairs to comprehensive storm damage restoration across the Texas Panhandle.
             </p>
             <p className="text-lg mb-4">
               Amarillo sits at 3,605 feet elevation in the heart of the Texas Panhandle, creating unique weather challenges that few roofing companies truly understand. The city experiences an average of 8-12 severe hailstorms annually, with supercell thunderstorms producing hail up to softball-size. Combined with Panhandle winds regularly exceeding 70 mph, temperature extremes from -23°F to 108°F, and intense UV radiation at elevation, Amarillo roofing systems face some of Texas's most demanding conditions.
@@ -209,7 +209,6 @@ export default function Page() {
 
         <FadeIn>
           <section className="content-block bg-red-50 rounded-lg p-8 mb-12 border-l-4 border-red-600">
-            <h2 className="text-2xl font-bold mb-4 text-red-800">🚨 Emergency Roof Repair (24/7)</h2>
             <p className="text-lg mb-4">
               When severe storms hit Amarillo or your roof develops sudden leaks, every minute counts. Water damage to interiors, insulation, and possessions can cost thousands of dollars—far more than the roof repair itself.
             </p>
@@ -219,7 +218,7 @@ export default function Page() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-red-600 mr-2">✓</span>
-                    <div>emergency phone answering during storm season</div>
+                    <div>phone answering during storm season</div>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-600 mr-2">✓</span>
@@ -227,7 +226,7 @@ export default function Page() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-600 mr-2">✓</span>
-                    <div>Emergency tarping to stop active leaks immediately</div>
+                    <div>tarping to stop active leaks immediately</div>
                   </li>
                   <li className="flex items-start">
                     <span className="text-red-600 mr-2">✓</span>
@@ -247,7 +246,7 @@ export default function Page() {
               </div>
             </div>
             <p className="text-center mt-6">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block">📞 Call (806) 622-6041 for Emergency Service</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block">📞 Call (806) 622-6041 for prompt service</a>
             </p>
           </section>
         </FadeIn>
@@ -336,7 +335,7 @@ export default function Page() {
                 <li>✓ Flat roof membrane repair</li>
                 <li>✓ HVAC penetration sealing</li>
                 <li>✓ Metal roof restoration</li>
-                <li>✓ Emergency leak response</li>
+                <li>✓ Prompt leak response</li>
                 <li>✓ Preventive maintenance plans</li>
               </ul>
             </div>
@@ -347,7 +346,7 @@ export default function Page() {
               <ul className="text-left space-y-2 text-sm">
                 <li>✓ prompt response</li>
                 <li>✓ Immediate leak stoppage</li>
-                <li>✓ Emergency tarping included</li>
+                <li>✓ tarping included</li>
                 <li>✓ Same-day service available</li>
                 <li>✓ No overtime charges in storm season</li>
               </ul>
@@ -378,7 +377,6 @@ export default function Page() {
               <ul className="space-y-2">
                 <li><strong>Multi-Story Homes:</strong> Add 20-30% for safety equipment and access</li>
                 <li><strong>Historic Properties:</strong> Specialty materials may increase costs 25-40%</li>
-                <li><strong>Emergency Response:</strong> No premium charges for service in Amarillo</li>
                 <li><strong>Financing Available:</strong> 0% interest for 12 months on repairs over $2,500</li>
               </ul>
             </div>
@@ -553,7 +551,6 @@ export default function Page() {
             <div>
               <h4 className="font-bold mb-2 text-brand-brown">Service Specialties</h4>
               <ul className="text-sm space-y-1">
-                <li><a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">• Emergency Repairs</a></li>
                 <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">• Hail Damage</a></li>
                 <li><a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">• Storm Damage</a></li>
                 <li><a href="/commercial-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">• Commercial</a></li>

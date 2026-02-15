@@ -395,7 +395,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
                       <li><strong>Monthly:</strong> Visual inspection for heat stress indicators</li>
                       <li><strong>Quarterly:</strong> Professional thermal assessment</li>
                       <li><strong>Pre-summer:</strong> Comprehensive ventilation check</li>
-                      <li><strong>Post-storm:</strong> Emergency inspection and repairs</li>
+                      <li><strong>Post-storm:</strong> damage inspection and repairs</li>
                     </ul>
                   </div>
                   

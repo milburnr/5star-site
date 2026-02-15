@@ -187,7 +187,7 @@ export default function HailDamageRepairMonahansPage() {
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Storm Tracking Technology:</strong> Advanced radar monitoring for sudden supercell development in Ward County</li>
                   <li>• <strong>Pre-Positioned Resources:</strong> Materials and crews strategically located for Permian Basin coverage</li>
-                  <li>• <strong>Emergency Stabilization:</strong> Immediate protection systems designed for extreme desert conditions</li>
+                  <li>• <strong>Stabilization:</strong> Immediate protection systems designed for extreme desert conditions</li>
                   <li>• <strong>Heat Mitigation Protocols:</strong> Specialized procedures for working in temperatures exceeding 100°F</li>
                   <li>• <strong>Dust Storm Coordination:</strong> Timing repairs around frequent dust storm events in Ward County</li>
                   <li>• <strong>Industrial Site Safety:</strong> Enhanced protocols for properties near active oil and gas operations</li>
@@ -211,7 +211,7 @@ export default function HailDamageRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ward County Emergency Response</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ward County storm response</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Immediate Storm Response (0-2 Hours)</h3>
@@ -234,13 +234,13 @@ export default function HailDamageRepairMonahansPage() {
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Industrial Coordination</h4>
-                      <p className="text-gray-600 text-sm">Safety coordination with nearby oil and gas operations during emergency response activities</p>
+                      <p className="text-gray-600 text-sm">Safety coordination with nearby oil and gas operations during storm response activities</p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
                   <h4 className="font-semibold text-brand-brown mb-2">Monahans Resource Network</h4>
-                  <p className="text-gray-700 text-sm">Established partnerships with Ward County Emergency Management, Monahans Fire Department, and Permian Basin industrial safety coordinators ensure comprehensive emergency response.</p>
+                  <p className="text-gray-700 text-sm">Established partnerships with Ward County Emergency Management, Monahans Fire Department, and Permian Basin industrial safety coordinators ensure comprehensive storm response.</p>
                 </div>
               </div>
               <div>

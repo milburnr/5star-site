@@ -464,18 +464,18 @@ export default function TPORoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Emergency Response & Insurance Claims
+              storm response & Insurance Claims
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
                 <h3 className="text-2xl font-bold text-red-700 mb-4">Storm Damage Response</h3>
                 <p className="text-gray-700 mb-4">
-                  Severe weather doesn't wait for business hours. Our emergency response team is available to secure your Levelland property after hail damage, wind damage, or storm events. We provide emergency tarping, temporary repairs, and immediate damage assessment.
+                  Severe weather doesn't wait for business hours. Our storm response team is available to secure your Levelland property after hail damage, wind damage, or storm events. We provide tarping, temporary repairs, and immediate damage assessment.
                 </p>
                 <div className="bg-white p-4 rounded-lg">
-                  <h4 className="font-bold text-red-700 mb-2">Emergency Services Include:</h4>
+                  <h4 className="font-bold text-red-700 mb-2">Storm Damage Services Include:</h4>
                   <ul className="text-sm space-y-1 text-gray-700">
-                    <li>• Emergency leak repairs and tarping</li>
+                    <li>• Prompt leak repairs and tarping</li>
                     <li>• Rapid damage assessment and documentation</li>
                     <li>• Temporary weatherproofing</li>
                     <li>• Water damage mitigation</li>

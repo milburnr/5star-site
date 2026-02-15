@@ -59,7 +59,7 @@ export default function HailDamageRepairMidlandPage() {
               <strong>Midland just experienced history: a 7.25-inch hailstone in May 2024 - one of Texas's largest ever recorded.</strong> If you're a Midland homeowner or business owner, your roof likely sustained significant damage from this storm or the June 2024 event that produced 6.14-inch hailstones. These weren't ordinary hail events - they were catastrophic storms that devastated roofs across Grassland Estates, Green Tree, Club Estates, and neighborhoods throughout Midland County.
             </p>
             <p className="text-xl text-gray-600 mb-8">
-              5 Star Commercial Roofing is Midland's trusted hail damage repair specialist. We're a licensed Midland contractor who has handled over 200 insurance claims for local homeowners and businesses. We know Midland building codes, work with all major Midland insurance adjusters, and provide same-day emergency inspections throughout Midland County. <strong>Your roof suffered record-breaking hail damage - let us help you get it properly repaired through your insurance.</strong>
+              5 Star Commercial Roofing is Midland's trusted hail damage repair specialist. We're a licensed Midland contractor who has handled over 200 insurance claims for local homeowners and businesses. We know Midland building codes, work with all major Midland insurance adjusters, and provide same-day damage inspections throughout Midland County. <strong>Your roof suffered record-breaking hail damage - let us help you get it properly repaired through your insurance.</strong>
             </p>
             <div className="bg-red-50 p-8 rounded-lg border-l-4 border-red-600">
               <p className="text-lg font-semibold text-red-700 mb-2">URGENT: May &amp; June 2024 Hailstorm Deadlines Approaching</p>
@@ -144,7 +144,7 @@ export default function HailDamageRepairMidlandPage() {
               <div className="flex gap-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-brand-gold rounded-full flex items-center justify-center text-white font-bold text-2xl">1</div>
                 <div>
-                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Emergency Contact &amp; Scheduling</h3>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Contact &amp; Scheduling</h3>
                   <p className="text-gray-700 leading-relaxed">
                     Call us at <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a> and we'll schedule your free inspection within 24-48 hours. After major Midland hailstorms, we work extended hours including weekends to accommodate everyone. We serve all Midland neighborhoods: Grassland Estates, Green Tree, Club Estates, Fairview Park, Mission Dorado, and throughout Midland County.
                   </p>
@@ -290,9 +290,9 @@ export default function HailDamageRepairMidlandPage() {
 
               <InteractiveCard>
                 <div className="text-4xl mb-4">⚡</div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Same-Day Emergency Response</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Same-Day storm response</h3>
                 <p className="text-gray-700">
-                  After major hailstorms hit Midland, we provide same-day emergency inspections and tarping services. The sooner you file your claim, the sooner you get your new roof. We prioritize Midland residents and work extended hours after storms to accommodate everyone quickly.
+                  After major hailstorms hit Midland, we provide same-day damage inspections and tarping services. The sooner you file your claim, the sooner you get your new roof. We prioritize Midland residents and work extended hours after storms to accommodate everyone quickly.
                 </p>
               </InteractiveCard>
 
@@ -352,7 +352,7 @@ export default function HailDamageRepairMidlandPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Compromised Wind Resistance &amp; Blow-Off Risk</h3>
                 <p className="text-gray-700">
-                  Even when hail damage isn't immediately visible, impacts loosen the adhesive strips that seal shingles down. With Midland's Permian Basin location offering zero wind protection and frequent 40-50 mph winds (plus occasional 60-70 mph gusts), weakened shingles blow off during the next windstorm. One hailstorm followed by one windstorm = catastrophic roof failure requiring emergency tarping and immediate replacement.
+                  Even when hail damage isn't immediately visible, impacts loosen the adhesive strips that seal shingles down. With Midland's Permian Basin location offering zero wind protection and frequent 40-50 mph winds (plus occasional 60-70 mph gusts), weakened shingles blow off during the next windstorm. One hailstorm followed by one windstorm = catastrophic roof failure requiring tarping and immediate replacement.
                 </p>
               </div>
 
@@ -441,23 +441,23 @@ export default function HailDamageRepairMidlandPage() {
           </section>
         </FadeIn>
 
-        {/* Emergency Services */}
+        {/* Storm Services */}
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
             <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Damage Services in Midland</h2>
 
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after the May or June 2024 hailstorms?</strong> We provide emergency tarping services and temporary repairs throughout Midland County. Don't wait - water damage compounds rapidly and can lead to mold growth, ceiling collapse, ruined insulation, and destroyed belongings worth far more than your roof.
+              <strong>Active leak after the May or June 2024 hailstorms?</strong> We provide tarping services and temporary repairs throughout Midland County. Don't wait - water damage compounds rapidly and can lead to mold growth, ceiling collapse, ruined insulation, and destroyed belongings worth far more than your roof.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div>
-                <h3 className="font-bold text-xl text-red-700 mb-3">Emergency Services Include:</h3>
+                <h3 className="font-bold text-xl text-red-700 mb-3">Storm Damage Services Include:</h3>
                 <ul className="space-y-2 text-gray-800">
-                  <li>✓ Emergency roof tarping (same-day available)</li>
+                  <li>✓ Roof tarping (same-day available)</li>
                   <li>✓ Temporary leak repairs and water diversion</li>
                   <li>✓ Water damage mitigation and containment</li>
-                  <li>✓ Emergency board-up for severe roof damage</li>
+                  <li>✓ Board-up for severe roof damage</li>
                   <li>✓ Interior damage documentation for insurance</li>
                   <li>✓ Priority scheduling for permanent repairs</li>
                 </ul>
@@ -475,11 +475,11 @@ export default function HailDamageRepairMidlandPage() {
             </div>
 
             <div className="bg-white p-6 rounded-lg">
-              <p className="text-xl font-bold text-red-700 mb-2">EMERGENCY: Call Now for Immediate Service</p>
+              <p className="text-xl font-bold text-red-700 mb-2">urgent: Call Now for Immediate Service</p>
               <p className="text-2xl font-bold text-brand-gold mb-2">
                 <a href="tel:8066226041" className="hover:underline">(806) 622-6041</a>
               </p>
-              <p className="text-gray-700">Available/365 for roofing emergencies throughout Midland County</p>
+              <p className="text-gray-700">Available/365 for roofing issues throughout Midland County</p>
             </div>
           </section>
         </FadeIn>

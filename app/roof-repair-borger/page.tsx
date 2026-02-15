@@ -132,7 +132,7 @@ export default function RoofRepairBorgerPage() {
                 "name": "How quickly can you repair my leaking roof in Borger?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality."
+                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
                 }
               },
               {
@@ -259,7 +259,7 @@ export default function RoofRepairBorgerPage() {
                   How quickly can you repair my leaking roof in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
@@ -316,7 +316,7 @@ export default function RoofRepairBorgerPage() {
                 <ul className="text-gray-600 space-y-2">
                   <li>• Hail damage assessment and repair</li>
                   <li>• Wind damage restoration</li>
-                  <li>• Emergency leak repair</li>
+                  <li>• prompt leak repair</li>
                   <li>• Insurance claim assistance</li>
                 </ul>
               </div>
@@ -421,9 +421,8 @@ export default function RoofRepairBorgerPage() {
                 <div className="flex items-start space-x-4">
                   <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Response Assessment</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">storm response Assessment</h3>
                     <p className="text-gray-700 mb-3">
-                      When you call our Borger emergency line, we dispatch certified technicians within 2 hours during business hours, or first thing the next morning for after-hours calls. Our initial assessment identifies immediate safety concerns and temporary weatherproofing needs.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Safety evaluation of damaged areas</li>

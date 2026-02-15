@@ -139,7 +139,7 @@ export default function HerefordRoofingPage() {
                   Located in the heart of Deaf Smith County, Hereford faces unique roofing challenges from the Texas Panhandle's severe weather conditions. From intense hailstorms and high winds to extreme temperature swings and UV exposure, your roof takes a beating year-round. At 5 Star Commercial Roofing, we've been protecting Hereford homes and businesses with expert roofing solutions designed specifically for West Texas weather.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  Whether you need emergency <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a>, a complete roof replacement, or routine maintenance, our experienced team delivers quality workmanship backed by industry-leading warranties. We serve all of Hereford and surrounding communities in Deaf Smith County with the same commitment to excellence.
+                  Whether you need storm damage <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a>, a complete roof replacement, or routine maintenance, our experienced team delivers quality workmanship backed by industry-leading warranties. We serve all of Hereford and surrounding communities in Deaf Smith County with the same commitment to excellence.
                 </p>
               </div>
             </section>
@@ -152,7 +152,7 @@ export default function HerefordRoofingPage() {
                 <div className="card-hover p-6">
                   <div className="text-5xl mb-4">🌨️</div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Damage Repair</h3>
-                  <p className="text-gray-600 mb-4">Hereford sits in America's hail belt, experiencing frequent severe storms. Our storm damage specialists provide emergency response, comprehensive damage assessment, and insurance claim support to get your roof restored quickly. We work with all major insurance carriers and document damage thoroughly to maximize your claim.</p>
+                  <p className="text-gray-600 mb-4">Hereford sits in America's hail belt, experiencing frequent severe storms. Our storm damage specialists provide storm response, comprehensive damage assessment, and insurance claim support to get your roof restored quickly. We work with all major insurance carriers and document damage thoroughly to maximize your claim.</p>
                   <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
                 </div>
               </FadeIn>
@@ -346,7 +346,7 @@ export default function HerefordRoofingPage() {
                   <p className="text-gray-600">Yes, we work with financing partners to offer flexible payment options for qualified customers. Many insurance claims also cover storm damage, which can significantly reduce out-of-pocket costs.</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="font-bold text-lg text-brand-brown mb-2">How quickly can you respond to emergency repairs?</h3>
+                  <h3 className="font-bold text-lg text-brand-brown mb-2">How quickly can you respond to storm damage repairs?</h3>
                   <p className="text-gray-600">We offer  for active leaks and storm damage. Call (806) 622-6041 anytime, and we'll dispatch crews to your Hereford location as quickly as possible—often within hours during major storm events.</p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">

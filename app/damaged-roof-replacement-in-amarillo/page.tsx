@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/damaged-roof-replacement-in-amarillo/' },
   title: 'Damaged Roof Replacement Amarillo TX | 5 Star',
-  description: "Professional damaged roof replacement in Amarillo TX. Storm damage, hail damage, and emergency repairs. Insurance claim assistance. Free inspections. Call 5 Star Roofing (806) 622-6041.",
+  description: "Professional damaged roof replacement in Amarillo TX. Storm damage, hail damage, and prompt repairs. Insurance claim assistance. Free inspections. Call 5 Star Roofing (806) 622-6041.",
 };
 
 export default function Page() {
@@ -280,7 +280,7 @@ export default function Page() {
           <li>We complete your roof replacement with quality materials</li>
         </ol>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Services Available</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">prompt services Available</h2>
 
         <p>
           Roof damage doesn't wait for business hours. That's why we offer prompt response for severe
@@ -290,7 +290,7 @@ export default function Page() {
         </p>
 
         <p>
-          Call <strong>(806) 622-6041</strong> anytime for emergency roof services in Amarillo and the surrounding
+          Call <strong>(806) 622-6041</strong> anytime for prompt roof services in Amarillo and the surrounding
           Texas Panhandle region.
         </p>
       </div>

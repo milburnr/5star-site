@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-roof-repair-in-amarillo/' },
-  title: 'Emergency Storm Damage Roof Repair in Amarillo | 5 Star',
+  title: 'Storm Damage Roof Repair in Amarillo | 5 Star',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
 
@@ -13,7 +13,7 @@ export default function Page() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Emergency Storm Damage Roof Repair",
+    "serviceType": "Storm Damage Roof Repair",
     "provider": {
       "@type": "RoofingContractor",
               "@id": "https://5starroofingpros.com/#organization",
@@ -34,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Canyon"},
       {"@type": "City", "name": "Bushland"}
     ],
-    "description": "emergency storm damage roof repair in Amarillo, Texas. Wind, hail, rain damage restoration. Insurance claim assistance and emergency tarping."
+    "description": "storm damage roof repair in Amarillo, Texas. Wind, hail, rain damage restoration. Insurance claim assistance and tarping."
   };
 
   return (
@@ -63,20 +63,19 @@ export default function Page() {
 
       {/* Hero Image */}
       <img
-        alt="Severe storm damage on Texas Panhandle roof - Emergency tarping and repair services - 5 Star Commercial Roofing"
+        alt="Severe storm damage on Texas Panhandle roof - tarping and repair services - 5 Star Commercial Roofing"
         className="w-full h-96 object-cover rounded-lg mb-8"
       />
 
       <div className="content-block">
-        <h2 className="content-block-title">Emergency Storm Damage Response</h2>
+        <h2 className="content-block-title">Storm Damage Response</h2>
         <p className="text-lg">
-          Severe weather strikes the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> without warning. High winds, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a>, <a href="/roof-heavy-rain-damage-in-amarillo/" className="text-brand-gold hover:underline">heavy rain</a>, and even tornadoes can damage roofs across Amarillo in minutes. When <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> occurs, fast action prevents further interior damage. We're available for emergency tarping and <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">repairs</a>.
+          Severe weather strikes the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> without warning. High winds, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a>, <a href="/roof-heavy-rain-damage-in-amarillo/" className="text-brand-gold hover:underline">heavy rain</a>, and even tornadoes can damage roofs across Amarillo in minutes. When <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> occurs, fast action prevents further interior damage. We're available for tarping and <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">repairs</a>.
         </p>
       </div>
 
       <div className="bg-red-100 border-l-4 border-red-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-2">🚨 Emergency? Call Now: (806) 622-6041</h3>
-        <p>Available for emergency tarping, leak repair, and storm damage assessment</p>
+        <p>Available for tarping, leak repair, and storm damage assessment</p>
       </div>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Common Storm Damage in Amarillo</h2>
@@ -115,7 +114,7 @@ export default function Page() {
         </div>
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            alt="Tree damage on Texas Panhandle roof - Branch puncture requiring emergency repair - 5 Star Commercial Roofing"
+            alt="Tree damage on Texas Panhandle roof - Branch puncture requiring storm repair - 5 Star Commercial Roofing"
             className="w-full h-40 object-cover"
           />
           <div className="p-4">
@@ -130,11 +129,10 @@ export default function Page() {
         </div>
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img
-            alt="Emergency roof tarping service Amarillo TX - Preventing further storm damage - 5 Star Commercial Roofing"
+            alt="Storm damage roof tarping service Amarillo TX - Preventing further storm damage - 5 Star Commercial Roofing"
             className="w-full h-40 object-cover"
           />
           <div className="p-4">
-            <h3 className="font-bold mb-2">🚨 Emergency Tarping</h3>
             <ul className="space-y-1 text-xs text-gray-600">
               <li>• Same-day response</li>
               <li>• Heavy-duty materials</li>
@@ -145,13 +143,13 @@ export default function Page() {
         </div>
       </div>
 
-      <h2 className="text-2xl font-bold mt-8 mb-4">Our Emergency Response Process</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">Our storm response Process</h2>
       <div className="space-y-4 mb-8">
         <div className="process-step">
           <div className="step-number">1</div>
           <div className="step-content">
             <h3 className="step-title">Immediate Response (Within Hours)</h3>
-            <p className="step-text">We dispatch a crew for emergency tarping to prevent further water damage. Our trucks carry heavy-duty tarps, 2x4s, and fastening equipment.</p>
+            <p className="step-text">We dispatch a crew for tarping to prevent further water damage. Our trucks carry heavy-duty tarps, 2x4s, and fastening equipment.</p>
           </div>
         </div>
         <div className="process-step">
@@ -194,7 +192,7 @@ export default function Page() {
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>
-          <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Emergency Service</a>
+          <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland prompt service</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Storm Repairs</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Storm Damage</a>
           <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>

@@ -158,7 +158,7 @@ export default function HailDamageRepairBigSpringPage() {
                   </div>
                 </div>
                 <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
-                  <p className="text-sm text-amber-800"><strong>Emergency Response:</strong> The City of Big Spring established special debris collection sites for vegetation, fencing, roofing, and building materials damaged by severe hailstorms.</p>
+                  <p className="text-sm text-amber-800"><strong>storm response:</strong> The City of Big Spring established special debris collection sites for vegetation, fencing, roofing, and building materials damaged by severe hailstorms.</p>
                 </div>
               </div>
             </div>
@@ -185,7 +185,6 @@ export default function HailDamageRepairBigSpringPage() {
                 <div className="text-4xl mb-4">⚡</div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Response Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
-                  <li>• <strong>Immediate Deployment:</strong> Emergency teams activated within 2 hours</li>
                   <li>• <strong>Priority Triage:</strong> Active leaks and structural concerns first</li>
                   <li>• <strong>Temporary Protection:</strong> Professional tarping and board-up services</li>
                   <li>• <strong>Contents Safeguarding:</strong> Interior protection from additional damage</li>
@@ -219,7 +218,7 @@ export default function HailDamageRepairBigSpringPage() {
                   <div className="flex items-start space-x-3">
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Emergency Contact Response</h4>
+                      <h4 className="font-medium text-gray-800">Contact Response</h4>
                       <p className="text-gray-600 text-sm">hotline activation with storm tracking and rapid deployment protocols</p>
                     </div>
                   </div>
@@ -233,7 +232,7 @@ export default function HailDamageRepairBigSpringPage() {
                   <div className="flex items-start space-x-3">
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Emergency Mitigation</h4>
+                      <h4 className="font-medium text-gray-800">Storm Mitigation</h4>
                       <p className="text-gray-600 text-sm">Professional tarping, board-up, and water extraction services</p>
                     </div>
                   </div>

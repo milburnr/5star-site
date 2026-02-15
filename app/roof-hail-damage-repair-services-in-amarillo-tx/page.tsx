@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-hail-damage-repair-services-in-amarillo-tx/' },
   title: 'Hail Damage Roof Repair Amarillo | 5 Star Roofing',
-  description: 'Premier hail damage roof repair services in Amarillo TX. Hail Alley specialists with 25+ years experience. Free inspections, insurance claim assistance, Class 4 impact-resistant upgrades. Licensed, bonded, insured. Emergency response available throughout Potter & Randall Counties.',
+  description: 'Premier hail damage roof repair services in Amarillo TX. Hail Alley specialists with 25+ years experience. Free inspections, insurance claim assistance, Class 4 impact-resistant upgrades. Licensed, bonded, insured. storm response available throughout Potter & Randall Counties.',
 };
 
 export default function Page() {
@@ -136,8 +136,8 @@ export default function Page() {
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">⚡</div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-3">Emergency Repair Services</h3>
-                <p className="text-gray-700 mb-4">Severe hail can create immediate leaks and damage. We offer emergency roof repair services to prevent further water damage to your home or business while we work on your insurance claim.</p>
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">storm repair Services</h3>
+                <p className="text-gray-700 mb-4">Severe hail can create immediate leaks and damage. We offer storm damage roof repair services to prevent further water damage to your home or business while we work on your insurance claim.</p>
                 <ul className="space-y-2 text-gray-700">
                   <li>✓ prompt response</li>
                   <li>✓ Temporary leak repairs</li>
@@ -338,12 +338,12 @@ export default function Page() {
             </div>
             
             <div className="pricing-card border-2 border-gray-200 rounded-lg p-6 text-center">
-              <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Response</h3>
+              <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
               <div className="text-3xl font-bold text-brand-gold mb-4">$450-$2,850</div>
               <p className="text-sm text-gray-600 mb-4">Immediate leak stoppage • Property protection</p>
               <ul className="text-left space-y-2 text-sm">
                 <li>✓ prompt response</li>
-                <li>✓ Emergency tarping service</li>
+                <li>✓ tarping service</li>
                 <li>✓ Immediate leak mitigation</li>
                 <li>✓ Interior damage prevention</li>
                 <li>✓ Temporary weatherproofing</li>
@@ -377,7 +377,6 @@ export default function Page() {
               <ul className="space-y-2">
                 <li><strong>Claim Timeline:</strong> File within 1 year of storm date for coverage</li>
                 <li><strong>Upgrade Options:</strong> Insurance often covers Class 4 upgrade costs</li>
-                <li><strong>Emergency Response:</strong> Immediate tarping prevents claim denial</li>
                 <li><strong>Documentation:</strong> Professional photos essential for claim success</li>
               </ul>
             </div>
@@ -567,7 +566,6 @@ export default function Page() {
         </FadeIn>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Hail Damage Repair","provider":{"@type":"LocalBusiness","name":"5 Star Commercial Roofing","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"},"telephone":"+18066226041","address":{"@type":"PostalAddress","streetAddress":"2909 S Western St","addressLocality":"Amarillo","addressRegion":"TX","postalCode":"79109","addressCountry":"US"}},"areaServed":[{"@type":"City","name":"Amarillo","containedInPlace":{"@type":"State","name":"Texas"}},{"@type":"City","name":"Midland","containedInPlace":{"@type":"State","name":"Texas"}},{"@type":"City","name":"Odessa","containedInPlace":{"@type":"State","name":"Texas"}},{"@type":"City","name":"Lubbock","containedInPlace":{"@type":"State","name":"Texas"}}],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free hail damage inspections"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Hail Damage Repair Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Free Hail Damage Inspections"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Insurance Claim Assistance"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Hail Damage Repair"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Emergency Repair Services"}}]}})}}/>
     </div>
   );
 }

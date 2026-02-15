@@ -156,7 +156,7 @@ export default function RoofInspectionsBorgerPage() {
                 "name": "How quickly can you inspect my roof after a storm?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Borger. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
+                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Borger. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
                 }
               }
             ]
@@ -345,7 +345,6 @@ export default function RoofInspectionsBorgerPage() {
                           <li>• Inspector safety protocols for chemical exposure</li>
                           <li>• Respiratory protection requirements</li>
                           <li>• Skin contact prevention measures</li>
-                          <li>• Emergency response procedures</li>
                           <li>• Decontamination protocols</li>
                         </ul>
                       </div>
@@ -531,7 +530,6 @@ export default function RoofInspectionsBorgerPage() {
                       <li>• Chemical-resistant coating renewal</li>
                       <li>• Enhanced fastener replacement</li>
                       <li>• Ventilation system upgrades</li>
-                      <li>• Emergency repair preparation</li>
                     </ul>
                   </div>
                 </div>
@@ -556,7 +554,6 @@ export default function RoofInspectionsBorgerPage() {
                     <ul className="space-y-1 text-gray-700">
                       <li>• Interior moisture monitoring</li>
                       <li>• Remote sensor installation</li>
-                      <li>• Emergency response planning</li>
                       <li>• Chemical vapor detection</li>
                     </ul>
                   </div>
@@ -672,7 +669,7 @@ export default function RoofInspectionsBorgerPage() {
                   How quickly can you inspect my roof after a storm?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Borger. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
+                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Borger. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

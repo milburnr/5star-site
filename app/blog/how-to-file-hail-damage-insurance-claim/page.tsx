@@ -261,7 +261,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>2. Making Temporary Repairs Without Photos</h3>
               <p>
-                If you make emergency repairs (tarping, etc.) before filing, insurance may argue the damage wasn't severe. <strong>Always photograph BEFORE making any repairs.</strong>
+                If you make storm repairs (tarping, etc.) before filing, insurance may argue the damage wasn't severe. <strong>Always photograph BEFORE making any repairs.</strong>
               </p>
 
               <h3>3. Not Getting a Professional Inspection</h3>

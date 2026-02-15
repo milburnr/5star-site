@@ -376,7 +376,7 @@ export default function Page() {
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• Production schedule coordination</li>
                     <li>• Phased replacement to maintain operations</li>
-                    <li>• Emergency backup protection systems</li>
+                    <li>• Backup protection systems</li>
                     <li>• Minimal downtime installation methods</li>
                   </ul>
                 </div>

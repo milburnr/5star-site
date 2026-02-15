@@ -209,10 +209,10 @@ export default function WindDamageRepairAndrewsPage() {
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-slate-500">
-                <h4 className="text-xl font-semibold text-brand-brown mb-3">Emergency Wind Damage Response</h4>
-                <p className="text-gray-600 mb-3">emergency tarping services and stabilization services for Andrews properties after severe wind events. Our rapid response team secures damaged areas within hours, preventing secondary water damage and protecting your property until permanent repairs begin.</p>
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">Wind Damage Response</h4>
+                <p className="text-gray-600 mb-3">tarping services and stabilization services for Andrews properties after severe wind events. Our rapid response team secures damaged areas within hours, preventing secondary water damage and protecting your property until permanent repairs begin.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Emergency tarping and board-up</li>
+                  <li>• tarping and board-up</li>
                   <li>• Structural damage assessment</li>
                   <li>• Immediate leak prevention</li>
                   <li>• Insurance documentation</li>
@@ -272,7 +272,7 @@ export default function WindDamageRepairAndrewsPage() {
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-slate-50 to-white p-6 rounded-2xl">
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-slate-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
                 <div className="flex-grow">
-                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Emergency Response & Damage Assessment</h3>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">storm response & Damage Assessment</h3>
                   <p className="text-gray-600">Our prompt response team provides immediate property protection after Andrews wind events. We secure damaged areas, document destruction for insurance purposes, and conduct comprehensive assessments to identify all wind-related damage including hidden structural issues common in Permian Basin storms.</p>
                 </div>
               </div>

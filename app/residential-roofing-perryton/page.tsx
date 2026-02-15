@@ -300,7 +300,7 @@ export default function ResidentialRoofingPerrytonPage() {
               
               <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Can you coordinate roofing around agricultural seasons?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We understand wheat harvest (June-July) and planting seasons (September-October) are critical periods. We offer priority scheduling before these busy times and emergency services during harvest. Many farming families prefer spring installations after winter equipment maintenance is complete.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We understand wheat harvest (June-July) and planting seasons (September-October) are critical periods. We offer priority scheduling before these busy times and prompt services during harvest. Many farming families prefer spring installations after winter equipment maintenance is complete.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -337,7 +337,6 @@ export default function ResidentialRoofingPerrytonPage() {
                     <li>• Late Summer (August): Post-harvest coordination</li>
                     <li>• Fall (September): Before winter preparations</li>
                     <li>• Winter (December-February): Planning season</li>
-                    <li>• Emergency services year-round</li>
                   </ul>
                 </div>
               </div>

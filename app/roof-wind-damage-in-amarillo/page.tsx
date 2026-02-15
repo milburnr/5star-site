@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-wind-damage-in-amarillo/' },
-  title: 'Emergency Wind Damage Roof Repair in Amarillo | 5 Star',
+  title: 'Wind Damage Roof Repair in Amarillo | 5 Star',
   description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
 
@@ -449,12 +449,12 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">⚡ Emergency Wind Damage Response</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">⚡ Wind Damage Response</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Immediate Stabilization:</h4>
                 <ul className="space-y-1 text-sm">
-                  <li>• Emergency tarping of exposed areas</li>
+                  <li>• tarping of exposed areas</li>
                   <li>• Temporary fastening of loose materials</li>
                   <li>• Debris removal and cleanup</li>
                   <li>• Water intrusion prevention</li>

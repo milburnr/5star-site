@@ -644,7 +644,7 @@ export default function HailDamageRepairLubbockPage() {
                     <strong>Why it's vulnerable:</strong> Arnett Benson and eastern Lubbock neighborhoods lie directly in the path of storms tracking from Slaton/Woodrow area toward Idalou/New Deal. Supercells often reach peak intensity in this corridor.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    <strong>Recent impacts:</strong> The June 2023 Woodrow softball hail event devastated eastern Lubbock. Arnett Benson and Monterey neighborhoods experienced some of the worst damage in Lubbock history, with 100% of roofs in the direct path requiring replacement. Emergency tarping services were overwhelmed for weeks following this event.
+                    <strong>Recent impacts:</strong> The June 2023 Woodrow softball hail event devastated eastern Lubbock. Arnett Benson and Monterey neighborhoods experienced some of the worst damage in Lubbock history, with 100% of roofs in the direct path requiring replacement. tarping services were overwhelmed for weeks following this event.
                   </p>
                 </div>
 
@@ -753,7 +753,7 @@ export default function HailDamageRepairLubbockPage() {
                   What should I do immediately after a hail storm in Lubbock?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Follow these steps after any significant hail event in Lubbock: (1) Document the storm - note date, time, approximate hail size, and duration. Take photos of hail on the ground if possible. (2) Inspect for obvious damage - look at gutters, downspouts, air conditioning units, vehicles, and lawn furniture. Damage to these items correlates with roof damage. (3) Check your attic for leaks - water stains or dripping indicate roof penetration requiring emergency service. (4) Don't climb on your roof - this is dangerous and can cause additional damage. Wait for professional inspection. (5) Call us for free inspection - we provide same-day service after major Lubbock storms. (6) Document interior condition - photograph ceilings and walls before any leaks occur. This establishes pre-existing condition for insurance. (7) Notify your insurance company - most policies require prompt notification, though you don't need to file formal claim until damage is confirmed. (8) Beware of storm chasers - out-of-state contractors flood Lubbock after major events. Verify licensing, local presence, and references before signing contracts. We're locally based, licensed, and established with permanent Lubbock presence.
+                  Follow these steps after any significant hail event in Lubbock: (1) Document the storm - note date, time, approximate hail size, and duration. Take photos of hail on the ground if possible. (2) Inspect for obvious damage - look at gutters, downspouts, air conditioning units, vehicles, and lawn furniture. Damage to these items correlates with roof damage. (3) Check your attic for leaks - water stains or dripping indicate roof penetration requiring prompt service. (4) Don't climb on your roof - this is dangerous and can cause additional damage. Wait for professional inspection. (5) Call us for free inspection - we provide same-day service after major Lubbock storms. (6) Document interior condition - photograph ceilings and walls before any leaks occur. This establishes pre-existing condition for insurance. (7) Notify your insurance company - most policies require prompt notification, though you don't need to file formal claim until damage is confirmed. (8) Beware of storm chasers - out-of-state contractors flood Lubbock after major events. Verify licensing, local presence, and references before signing contracts. We're locally based, licensed, and established with permanent Lubbock presence.
                 </p>
               </div>
 
@@ -812,7 +812,7 @@ export default function HailDamageRepairLubbockPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Protect Your Lubbock Property From Hail Damage</h2>
             <p className="cta-text max-w-3xl mx-auto">
-              With 273 hail events in the past year and intensifying storm patterns, Lubbock property owners can't afford to wait. Whether you need free hail damage inspection, insurance claim assistance, emergency repairs, or Class 4 roof replacement, we're here to help. Licensed Lubbock contractor. Over 300 successful insurance claims. Same-day inspections after storms. We navigate City of Lubbock permits and building codes for you.
+              With 273 hail events in the past year and intensifying storm patterns, Lubbock property owners can't afford to wait. Whether you need free hail damage inspection, insurance claim assistance, prompt repairs, or Class 4 roof replacement, we're here to help. Licensed Lubbock contractor. Over 300 successful insurance claims. Same-day inspections after storms. We navigate City of Lubbock permits and building codes for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">

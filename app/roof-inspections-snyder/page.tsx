@@ -449,7 +449,7 @@ export default function RoofInspectionsSnyderPage() {
               <div className="text-center p-6">
                 <div className="text-4xl mb-3">🏛️</div>
                 <h3 className="font-bold text-brand-brown mb-2">Government Buildings</h3>
-                <p className="text-gray-600 text-sm">Municipal offices, courthouse, emergency services, utilities</p>
+                <p className="text-gray-600 text-sm">Municipal offices, courthouse, prompt services, utilities</p>
               </div>
             </div>
             <div className="mt-8 text-center">
@@ -476,7 +476,7 @@ export default function RoofInspectionsSnyderPage() {
                   <li>• Storm preparation checklist</li>
                   <li>• Drainage system cleaning</li>
                   <li>• Fastener tightening and replacement</li>
-                  <li>• Emergency contact information update</li>
+                  <li>• Contact information update</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">

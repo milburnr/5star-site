@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/borger-texas-roofing/' },
   title: 'Roofing in Borger, TX| Hail Damage Specialists | 5 Star',
-  description: 'roofing services in Borger, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Hutchinson County. Free inspections available.',
+  description: 'roofing services in Borger, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hutchinson County. Free inspections available.',
 };
 
 export default function BorgerRoofingPage() {
@@ -18,7 +18,7 @@ export default function BorgerRoofingPage() {
     "name": "5 Star Commercial Roofing - Borger",
     "alternateName": "5 Star Roofing Borger TX",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-    "description": "Professional roofing contractor serving Borger, Texas and Hutchinson County with commercial, residential, emergency roofing services, and specialized petrochemical industry roofing solutions.",
+    "description": "Professional roofing contractor serving Borger, Texas and Hutchinson County with commercial, residential, professional roofing services, and specialized petrochemical industry roofing solutions.",
     "url": "https://5starroofingpros.com/borger-texas-roofing/",
     "telephone": "+18066226041",
     "email": "admin@5starroofingpros.com",
@@ -91,8 +91,7 @@ export default function BorgerRoofingPage() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Emergency Roofing Hutchinson County",
-            "description": "emergency roof repair services in Hutchinson County and Borger area"
+            "description": "storm damage roof repair services in Hutchinson County and Borger area"
           }
         },
         {
@@ -166,7 +165,7 @@ export default function BorgerRoofingPage() {
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Borger, Texas</h2>
             <p className="text-lg mb-4">
-              As Borger's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Hutchinson County and the entire Texas Panhandle. Whether you need commercial roofing for Borger's industrial facilities, residential roofing for your home, or emergency storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
+              As Borger's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Hutchinson County and the entire Texas Panhandle. Whether you need commercial roofing for Borger's industrial facilities, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
               Borger's unique climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Hutchinson County properties year after year.
@@ -276,9 +275,9 @@ export default function BorgerRoofingPage() {
                 <div className="text-5xl mb-4">🚨</div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Borger, we respond with emergency tarping and rapid roof repairs. Don't wait—call us immediately for storm damage assessment and temporary protection.
+                  When severe weather strikes Borger, we respond with tarping and rapid roof repairs. Don't wait—call us immediately for storm damage assessment and temporary protection.
                 </p>
-                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
+                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Storm Damage Repair →</a>
               </div>
             </FadeIn>
           </div>
@@ -476,7 +475,7 @@ export default function BorgerRoofingPage() {
             <div>
               <h3 className="text-lg font-bold mb-2">How quickly can you respond to storm damage in Hutchinson County?</h3>
               <p className="text-gray-700">
-                We maintain prompt response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide emergency tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.
+                We maintain prompt response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.
               </p>
             </div>
 

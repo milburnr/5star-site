@@ -190,7 +190,7 @@ export default function CanyonTXRoofingPage() {
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Our residential services:</strong> Complete roof replacement, asphalt shingle installation,
-                      roof repairs, ventilation system upgrades, warranty work, and emergency leak repairs. We use only
+                      roof repairs, ventilation system upgrades, warranty work, and prompt leak repairs. We use only
                       premium materials rated for the harsh Texas Panhandle climate.
                     </p>
                     <a
@@ -223,7 +223,7 @@ export default function CanyonTXRoofingPage() {
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial expertise:</strong> Flat roof repair and replacement, preventive maintenance
-                      programs, emergency repairs, roof coating systems, and multi-property management. We work around
+                      programs, prompt repairs, roof coating systems, and multi-property management. We work around
                       your schedule to minimize disruption to business or educational operations.
                     </p>
                     <a
@@ -302,26 +302,26 @@ export default function CanyonTXRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Repairs */}
+            {/* Storm Repairs */}
             <FadeIn delay={0.6}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="emergency roofing service for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="professional roofing service for Canyon TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Emergency roofing service for Canyon available around the clock.</strong> Being just 15
+                      <strong>Professional roofing service for Canyon available around the clock.</strong> Being just 15
                       miles away in <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">Amarillo</a> means
                       we can respond to Canyon emergencies fast - typically within 20-30 minutes. Roof leaks, storm
                       damage, and structural issues require immediate attention.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}now for immediate emergency assistance anywhere in Canyon. We provide emergency tarping,
+                      {" "}now for immediate professional assistance anywhere in Canyon. We provide tarping,
                       temporary leak repairs, and fast permanent solutions.
                     </p>
                   </div>
@@ -405,7 +405,7 @@ export default function CanyonTXRoofingPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response Times</h3>
                 <p className="text-gray-600">
                   Unlike national chains or distant contractors, we can be in Canyon within 20-30 minutes of your
-                  call. After a hailstorm, every minute counts for documentation. After an emergency, fast response
+                  call. After a hailstorm, every minute counts for documentation. After storm damage, fast response
                   prevents water damage. Our proximity means you get the fastest possible service.
                 </p>
               </div>
@@ -548,7 +548,7 @@ export default function CanyonTXRoofingPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready to Protect Your Canyon Property?</h2>
             <p className="cta-text">
-              Whether you need hail damage assessment, roof replacement, or emergency repairs in Canyon,
+              Whether you need hail damage assessment, roof replacement, or storm repairs in Canyon,
               we&apos;re just down the road and ready to help. Fast service, honest pricing, and expert
               craftsmanship - that&apos;s the 5 Star difference.
             </p>
@@ -689,8 +689,7 @@ export default function CanyonTXRoofingPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Roof Repair",
-                    "description": "Fast emergency roofing service for Canyon from our nearby Amarillo location"
+                    "description": "Fast professional roofing service for Canyon from our nearby Amarillo location"
                   }
                 }
               ]

@@ -470,7 +470,7 @@ export default function RoofInspectionAmarilloPage() {
                         <li>• Icy conditions limit roof access</li>
                         <li>• Snow conceals damage</li>
                         <li>• Shortened daylight hours</li>
-                        <li>• Emergency-only roof work</li>
+                        <li>• Storm-related roof work</li>
                       </ul>
                     </div>
                     <div>

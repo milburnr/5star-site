@@ -243,16 +243,16 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Emergency Response for Odessa Wind Damage Events
+              storm response for Odessa Wind Damage Events
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Odessa's location puts it in the path of severe spring storms moving northeast from Mexico and powerful cold fronts sweeping south across the High Plains. These weather systems regularly produce damaging winds, requiring immediate emergency response to prevent secondary water damage to commercial and residential properties.
+              Odessa's location puts it in the path of severe spring storms moving northeast from Mexico and powerful cold fronts sweeping south across the High Plains. These weather systems regularly produce damaging winds, requiring immediate storm response to prevent secondary water damage to commercial and residential properties.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Our emergency crews maintain equipment caches strategically positioned to serve Odessa within 90 minutes of initial contact. During major wind events, we coordinate with local emergency management and the Ector County Emergency Operations Center to prioritize critical infrastructure repairs. Priority response goes to healthcare facilities like Medical Center Health System, educational institutions including UTPB and Odessa College, and essential services.
+              our crews maintain equipment caches strategically positioned to serve Odessa within 90 minutes of initial contact. During major wind events, we coordinate with local officials and the Ector County Emergency Operations Center to prioritize critical infrastructure repairs. Priority response goes to healthcare facilities like Medical Center Health System, educational institutions including UTPB and Odessa College, and essential services.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Emergency tarping procedures for Odessa properties require specialized techniques due to ongoing high winds. Standard tarping methods often fail in sustained 40+ mph winds common after storm passage. We use reinforced tarp systems with additional anchor points, tension cables, and wind-load distribution techniques specifically developed for West Texas conditions. These emergency measures protect properties while insurance adjusters complete damage assessments.
+              tarping procedures for Odessa properties require specialized techniques due to ongoing high winds. Standard tarping methods often fail in sustained 40+ mph winds common after storm passage. We use reinforced tarp systems with additional anchor points, tension cables, and wind-load distribution techniques specifically developed for West Texas conditions. These emergency measures protect properties while insurance adjusters complete damage assessments.
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insurance Claims and Wind Damage Documentation</h3>

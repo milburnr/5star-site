@@ -156,7 +156,7 @@ export default function RoofInspectionsPampaPage() {
                 "name": "How quickly can you inspect my roof after a storm?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Pampa. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
+                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Pampa. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
                 }
               }
             ]
@@ -401,7 +401,7 @@ export default function RoofInspectionsPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Inspection Scheduling & Emergency Response
+              Inspection Scheduling & storm response
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -420,11 +420,11 @@ export default function RoofInspectionsPampaPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-6">Emergency Response</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">Storm Response</h3>
                 <div className="space-y-4">
                   <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-xl">
                     <h4 className="text-lg font-semibold text-red-800 mb-2">Active Leak Response</h4>
-                    <p className="text-red-700 mb-2">Emergency deployment within 2-4 hours</p>
+                    <p className="text-red-700 mb-2">Deployment within 2-4 hours</p>
                     <p className="text-sm text-red-600">For properties experiencing active water infiltration</p>
                   </div>
                   <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-xl">
@@ -485,7 +485,7 @@ export default function RoofInspectionsPampaPage() {
                   How quickly can you inspect my roof after a storm?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Pampa. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
+                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Pampa. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -251,7 +251,6 @@ export default function TpoRoofingPampaPage() {
                   <li>✓ Industrial equipment buildings</li>
                   <li>✓ Administrative offices</li>
                   <li>✓ Storage and warehouse facilities</li>
-                  <li>✓ Emergency services buildings</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">

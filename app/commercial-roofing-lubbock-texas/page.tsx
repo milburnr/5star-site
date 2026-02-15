@@ -92,7 +92,7 @@ export default function CommercialLubbockPage() {
               Commercial Roofing for Lubbock's Educational Institutions
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Texas Tech University represents one of the largest commercial roofing complexes in West Texas, with over 150 buildings requiring specialized roofing systems that accommodate research laboratories, student housing, athletic facilities, and administrative buildings. Educational facility roofing must support HVAC systems, telecommunications equipment, and emergency communication systems while maintaining aesthetic standards appropriate for campus environments.
+              Texas Tech University represents one of the largest commercial roofing complexes in West Texas, with over 150 buildings requiring specialized roofing systems that accommodate research laboratories, student housing, athletic facilities, and administrative buildings. Educational facility roofing must support HVAC systems, telecommunications equipment, and storm communication systems while maintaining aesthetic standards appropriate for campus environments.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Lubbock Independent School District facilities including Monterey High School, Coronado High School, and numerous elementary schools require cost-effective roofing solutions that accommodate large assembly spaces, gymnasiums, and cafeterias. School roofing projects often coordinate with summer break schedules and bond funding cycles to minimize disruption to educational activities.
@@ -106,7 +106,7 @@ export default function CommercialLubbockPage() {
               Texas Tech's research facilities require specialized commercial roofing systems that support sensitive scientific equipment, chemical exhaust systems, and climate-controlled environments. Laboratory buildings demand superior moisture control, chemical resistance, and vibration isolation that standard commercial applications don't provide.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              The Texas Tech University Health Sciences Center adds complexity with medical research requirements including biological containment systems, medical gas piping, and emergency power systems that must be integrated with roofing installations. These facilities require coordination with infection control protocols and specialized safety procedures.
+              The Texas Tech University Health Sciences Center adds complexity with medical research requirements including biological containment systems, medical gas piping, and storm power systems that must be integrated with roofing installations. These facilities require coordination with infection control protocols and specialized safety procedures.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Agricultural research facilities at Texas Tech demand roofing systems resistant to agricultural chemicals, grain dust, and specialized equipment installations. Greenhouse complexes and animal research facilities require integrated ventilation systems and specialized drainage for research operations that continue year-round.
@@ -148,7 +148,7 @@ export default function CommercialLubbockPage() {
               Technology and Innovation Sector Commercial Roofing
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Lubbock's growing technology sector centered around Texas Tech Innovation Hub and downtown technology incubators requires modern commercial roofing systems that support high-tech operations, data centers, and research and development facilities. These buildings demand superior environmental control, electromagnetic shielding, and emergency power integration.
+              Lubbock's growing technology sector centered around Texas Tech Innovation Hub and downtown technology incubators requires modern commercial roofing systems that support high-tech operations, data centers, and research and development facilities. These buildings demand superior environmental control, electromagnetic shielding, and storm power integration.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Data centers and telecommunications facilities require roofing systems that support heavy HVAC equipment, backup power systems, and specialized cooling equipment while providing absolute weather protection for sensitive electronic equipment. Redundant systems and emergency access provisions become essential for facilities supporting critical communications infrastructure.
@@ -193,7 +193,7 @@ export default function CommercialLubbockPage() {
               Federal facilities including the federal courthouse and post office require roofing systems that meet GSA specifications and security standards while providing long-term durability and minimal maintenance requirements. These projects require specialized contractor certifications and extensive background checks for installation personnel.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Emergency services facilities including fire stations, EMS facilities, and police facilities require roofing systems that support emergency communication equipment, vehicle storage, and rapid deployment capabilities while providing reliable protection during severe weather events when emergency services are most critical for community safety.
+              Emergency services facilities including fire stations, EMS facilities, and police facilities require roofing systems that support emergency communication equipment, vehicle storage, and rapid deployment capabilities while providing reliable protection during severe weather events when prompt services are most critical for community safety.
             </p>
           </section>
         </FadeIn>
@@ -244,13 +244,12 @@ export default function CommercialLubbockPage() {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">🔧</div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Repairs & Maintenance</h3>
-                <p className="text-gray-700 mb-4">Preventive maintenance programs extend roof life and prevent expensive emergency repairs. We service all commercial roof types throughout Lubbock.</p>
+                <p className="text-gray-700 mb-4">Preventive maintenance programs extend roof life and prevent expensive prompt repairs. We service all commercial roof types throughout Lubbock.</p>
                 <ul className="space-y-2 text-gray-700">
                   <li>✓ Leak detection and repair</li>
                   <li>✓ Membrane patching</li>
                   <li>✓ Seam repairs</li>
                   <li>✓ Preventive maintenance plans</li>
-                  <li>✓ Emergency service</li>
                 </ul>
               </div>
             </div>

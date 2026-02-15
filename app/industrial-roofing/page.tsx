@@ -123,7 +123,7 @@ export default function Page() {
             Industrial facilities in Amarillo, Midland, Odessa, and Lubbock face unique roofing challenges. The Texas Panhandle sits in America's hail belt, experiencing an average of 8-12 hailstorms per year, causing millions in damage to warehouses, manufacturing plants, and distribution centers across the region. Combined with extreme temperature swings, high winds averaging 12-14 mph, and intense UV exposure, industrial roofs in West Texas require specialized engineering and materials.
           </p>
           <p className="text-lg mt-4">
-            At 5 Star Commercial Roofing, we specialize in industrial roofing systems engineered to withstand West Texas weather—with a focus on rapid <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage</a> assessment and insurance claim assistance to get your facility back in operation fast. Our comprehensive <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing services</a> cover everything from emergency repairs to complete roof replacements for industrial facilities of any size.
+            At 5 Star Commercial Roofing, we specialize in industrial roofing systems engineered to withstand West Texas weather—with a focus on rapid <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage</a> assessment and insurance claim assistance to get your facility back in operation fast. Our comprehensive <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing services</a> cover everything from storm repairs to complete roof replacements for industrial facilities of any size.
           </p>
         </div>
 
@@ -201,7 +201,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Hail Damage Response for Industrial Facilities</h2>
       <p className="mb-4">
-        When hail strikes your industrial facility, every hour of downtime costs money. Our emergency response team provides:
+        When hail strikes your industrial facility, every hour of downtime costs money. Our storm response team provides:
       </p>
 
       <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -209,7 +209,7 @@ export default function Page() {
           <span className="check-icon text-2xl">⚡</span>
           <div>
             <h3 className="font-bold mb-2"></h3>
-            <p className="text-gray-600">Available day or night for emergency tarping and temporary repairs to protect inventory and equipment</p>
+            <p className="text-gray-600">Available day or night for tarping and temporary repairs to protect inventory and equipment</p>
           </div>
         </div>
         <div className="check-item">
@@ -345,7 +345,6 @@ export default function Page() {
             <li><strong>Energy Savings:</strong> Reflective white TPO roofing can reduce cooling costs by 20-30% in Texas summers</li>
             <li><strong>Insurance Discounts:</strong> Impact-resistant roofing may qualify for premium reductions of 10-35%</li>
             <li><strong>Asset Protection:</strong> Prevent costly water damage to inventory, equipment, and structural components</li>
-            <li><strong>Business Continuity:</strong> Minimize downtime from emergency repairs and storm damage</li>
             <li><strong>Longevity:</strong> Quality industrial roofing systems last 20-50 years with minimal maintenance</li>
           </ul>
         </div>
@@ -355,7 +354,7 @@ export default function Page() {
       <div className="card mb-8">
         <div className="card-body">
           <p className="mb-4">
-            Extend your industrial roof's lifespan and prevent costly emergency repairs with our preventive maintenance programs. Regular inspections and minor repairs catch problems before they become major issues.
+            Extend your industrial roof's lifespan and prevent costly storm repairs with our preventive maintenance programs. Regular inspections and minor repairs catch problems before they become major issues.
           </p>
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Our Maintenance Program Includes:</h3>
           <ul className="list-disc pl-6 space-y-2 mb-4">
@@ -364,7 +363,6 @@ export default function Page() {
             <li>Sealant and flashing inspections</li>
             <li>Minor repairs included in program cost</li>
             <li>Detailed inspection reports with photo documentation</li>
-            <li>Priority emergency response for program members</li>
             <li>Warranty compliance documentation</li>
           </ul>
           <p className="mt-4">
@@ -402,8 +400,8 @@ export default function Page() {
       </div>
 
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
-        <h3 className="font-bold mb-3">Emergency Service Available</h3>
-        <p>When storm damage threatens your industrial facility, every minute counts. Our emergency response team is available for tarping, temporary repairs, and damage assessment. We respond quickly to minimize downtime and protect your valuable assets. Call (806) 622-6041 anytime for immediate assistance.</p>
+        <h3 className="font-bold mb-3">prompt service Available</h3>
+        <p>When storm damage threatens your industrial facility, every minute counts. Our storm response team is available for tarping, temporary repairs, and damage assessment. We respond quickly to minimize downtime and protect your valuable assets. Call (806) 622-6041 anytime for immediate assistance.</p>
       </div>
 
 

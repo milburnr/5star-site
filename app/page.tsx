@@ -254,7 +254,7 @@ export default function Page() {
             <div className="flex gap-4">
               <div className="text-3xl">✓</div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Fast Emergency Response</h3>
+                <h3 className="font-bold text-lg mb-2">Fast storm response</h3>
                 <p>After a storm, time is critical. We offer same-day inspections and rapid <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">storm damage repair</a> scheduling to minimize interior damage.</p>
               </div>
             </div>
@@ -864,7 +864,7 @@ export default function Page() {
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Storm Damage Repair",
-                    "description": "emergency storm damage repair and roof restoration services"
+                    "description": "storm damage repair and roof restoration services"
                   }
                 }
               ]

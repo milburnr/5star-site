@@ -292,7 +292,7 @@ export default function ResidentialRoofingDumasPage() {
               
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">When is the best time to replace a roof in Dumas?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Late spring through early fall offers the best weather windows for roofing projects. However, we provide year-round service including emergency repairs. Winter installations are possible during mild periods, though scheduling flexibility is important due to weather variability in the Texas Panhandle.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Late spring through early fall offers the best weather windows for roofing projects. However, we provide year-round service including prompt repairs. Winter installations are possible during mild periods, though scheduling flexibility is important due to weather variability in the Texas Panhandle.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -320,15 +320,15 @@ export default function ResidentialRoofingDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Emergency Roofing Services in Dumas</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Storm Damage Roofing Services in Dumas</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Response</h3>
-                <p className="text-gray-700 mb-6">When severe weather strikes Dumas and Moore County, our emergency response team is ready to protect your home and family. We understand that roofing emergencies don't wait for business hours, especially during the active storm season in the Texas Panhandle.</p>
+                <p className="text-gray-700 mb-6">When severe weather strikes Dumas and Moore County, our storm response team is ready to protect your home and family. We understand that storm damage requires prompt attention, especially during the active storm season in the Texas Panhandle.</p>
                 
                 <div className="bg-red-50 p-6 rounded-xl mb-6">
-                  <h4 className="font-bold text-brand-brown mb-2">⚠️ When to Call for Emergency Service:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">⚠️ When to call for service:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Visible roof damage after hail or wind storms</li>
                     <li>• Water leaks or interior damage</li>
@@ -341,7 +341,7 @@ export default function ResidentialRoofingDumasPage() {
               
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Temporary Protection Services</h3>
-                <p className="text-gray-700 mb-6">Our emergency response includes temporary protection measures to prevent further damage while permanent repairs are arranged. This service is often covered by insurance and can save thousands in additional damage.</p>
+                <p className="text-gray-700 mb-6">Our storm response includes temporary protection measures to prevent further damage while permanent repairs are arranged. This service is often covered by insurance and can save thousands in additional damage.</p>
                 
                 <div className="bg-blue-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2">🛡️ Temporary Protection Includes:</h4>
@@ -358,7 +358,6 @@ export default function ResidentialRoofingDumasPage() {
             
             <div className="text-center mt-8">
               <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-6 rounded-xl inline-block">
-                <h3 className="text-2xl font-bold mb-2">Emergency Hotline</h3>
                 <p className="text-xl mb-3">Available for Storm Damage</p>
                 <a href="tel:8066226041" className="bg-white text-red-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-all">
                   📞 Call (806) 622-6041 NOW

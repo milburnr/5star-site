@@ -158,7 +158,6 @@ export default function CommercialRoofingPerrytonPage() {
                   <li>• Class A fire-rated assemblies</li>
                   <li>• Specialized equipment mounting systems</li>
                   <li>• Enhanced leak detection capabilities</li>
-                  <li>• Emergency repair accessibility</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -201,7 +200,7 @@ export default function CommercialRoofingPerrytonPage() {
                     <li>• Enhanced mechanical fastening systems</li>
                     <li>• Perimeter edge securement</li>
                     <li>• Uplift testing and verification</li>
-                    <li>• Emergency wind damage response</li>
+                    <li>• Wind damage response</li>
                   </ul>
                 </div>
               </div>
@@ -294,7 +293,7 @@ export default function CommercialRoofingPerrytonPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to storm damage in Perryton?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response for storm damage throughout Perryton and surrounding areas. Our emergency teams can typically respond within 2-4 hours for critical leaks and same-day service for urgent repairs to minimize business disruption.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response for storm damage throughout Perryton and surrounding areas. Our our teams can typically respond within 2-4 hours for critical leaks and same-day service for urgent repairs to minimize business disruption.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide preventive maintenance programs?</AccordionTrigger>
@@ -312,13 +311,12 @@ export default function CommercialRoofingPerrytonPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4 text-brand-brown">OSHA Safety Standards</h3>
-                  <p className="text-gray-700 mb-4">All crew members receive comprehensive safety training with regular updates on OSHA standards. We maintain strict safety protocols including fall protection, hazard communication, and emergency response procedures.</p>
+                  <p className="text-gray-700 mb-4">All crew members receive comprehensive safety training with regular updates on OSHA standards. We maintain strict safety protocols including fall protection, hazard communication, and safety response procedures.</p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• OSHA 10 and 30-hour certified personnel</li>
                     <li>• Daily safety meetings and hazard assessments</li>
                     <li>• Comprehensive fall protection systems</li>
                     <li>• Regular safety equipment inspections</li>
-                    <li>• Emergency response protocols</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -361,7 +359,7 @@ export default function CommercialRoofingPerrytonPage() {
                     <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown"></h3>
-                      <p className="text-gray-700">Round-the-clock emergency response for critical repairs and storm damage, ensuring minimal disruption to Perryton business operations.</p>
+                      <p className="text-gray-700">Round-the-clock storm response for critical repairs and storm damage, ensuring minimal disruption to Perryton business operations.</p>
                     </div>
                   </div>
                 </div>

@@ -118,7 +118,7 @@ export default function CommercialRoofingBigSpringPage() {
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Big Spring's Commercial Roofing Specialists</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Big Spring and surrounding areas, serving the crossroads of West Texas healthcare, corrections, and logistics. As a strategic I-20 corridor hub housing major healthcare facilities, correctional institutions, and energy operations, Big Spring requires specialized roofing solutions for mission-critical facilities that operate.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Big Spring's unique institutional and commercial needs with expert installations and comprehensive warranties. Our 75-minute response time from Amarillo headquarters ensures rapid service for emergency repairs at healthcare facilities, correctional institutions, and critical infrastructure. We handle all permits, insurance claims, and warranty documentation.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Big Spring's unique institutional and commercial needs with expert installations and comprehensive warranties. Our 75-minute response time from Amarillo headquarters ensures rapid service for storm repairs at healthcare facilities, correctional institutions, and critical infrastructure. We handle all permits, insurance claims, and warranty documentation.</p>
             
             <div className="mt-12 bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Big Spring's Critical Infrastructure Needs</h3>
@@ -154,7 +154,7 @@ export default function CommercialRoofingBigSpringPage() {
                   <li>• Restricted access installation procedures</li>
                   <li>• Impact-resistant materials for perimeter areas</li>
                   <li>• Integration with security monitoring systems</li>
-                  <li>• Rapid repair capabilities for emergency situations</li>
+                  <li>• Rapid repair capabilities for prompt situations</li>
                   <li>• Compliance with federal detention facility standards</li>
                 </ul>
                 <p className="text-gray-700 mt-4 leading-relaxed">Our correctional facility experience includes specialized security clearances, background-checked installation crews, and materials that meet federal correctional facility specifications.</p>
@@ -200,7 +200,7 @@ export default function CommercialRoofingBigSpringPage() {
                   <span className="text-white text-2xl font-bold">75</span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">75-Minute Response Time</h3>
-                <p className="text-gray-700">Critical facility emergency response from Amarillo HQ ensures minimal disruption to healthcare and correctional operations.</p>
+                <p className="text-gray-700">Critical facility storm response from Amarillo HQ ensures minimal disruption to healthcare and correctional operations.</p>
               </div>
               
               <div className="text-center">
@@ -236,7 +236,6 @@ export default function CommercialRoofingBigSpringPage() {
                       <li>• Intensive care and surgical wings</li>
                       <li>• Pharmaceutical storage areas</li>
                       <li>• Medical equipment housing</li>
-                      <li>• Emergency services buildings</li>
                       <li>• Administrative and records facilities</li>
                     </ul>
                   </div>
@@ -277,7 +276,6 @@ export default function CommercialRoofingBigSpringPage() {
                       <li>• Impact-resistant membrane systems</li>
                       <li>• Concealed attachment methods</li>
                       <li>• Restricted access installation protocols</li>
-                      <li>• Emergency repair capabilities</li>
                     </ul>
                     <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                       <p className="text-sm text-blue-800"><strong>Big Spring Corrections Project:</strong> Successfully completed security roofing upgrades on a 25,000 sq ft correctional facility with full compliance with federal detention standards.</p>
@@ -321,11 +319,11 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Emergency Response for Big Spring's Critical Facilities</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">storm response for Big Spring's Critical Facilities</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Priority Emergency Service</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Big Spring's healthcare facilities, correctional institutions, and critical infrastructure cannot tolerate roofing failures. Our emergency response protocols prioritize mission-critical facilities with 75-minute response times and specialized emergency repair capabilities.</p>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Priority prompt service</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Big Spring's healthcare facilities, correctional institutions, and critical infrastructure cannot tolerate roofing failures. Our storm response protocols prioritize mission-critical facilities with 75-minute response times and specialized storm repair capabilities.</p>
                 
                 <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Critical Facility Response Protocol:</h4>
                 <div className="space-y-4">
@@ -333,7 +331,7 @@ export default function CommercialRoofingBigSpringPage() {
                     <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</div>
                     <div>
                       <h5 className="font-bold text-brand-brown">Priority Dispatch (0-10 minutes)</h5>
-                      <p className="text-gray-700 text-sm">Immediate emergency response team deployment for healthcare and correctional facilities</p>
+                      <p className="text-gray-700 text-sm">Immediate storm response team deployment for healthcare and correctional facilities</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -347,7 +345,7 @@ export default function CommercialRoofingBigSpringPage() {
                     <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">3</div>
                     <div>
                       <h5 className="font-bold text-brand-brown">Immediate Protection (Same Day)</h5>
-                      <p className="text-gray-700 text-sm">Emergency containment with minimal disruption to critical operations</p>
+                      <p className="text-gray-700 text-sm">Storm containment with minimal disruption to critical operations</p>
                     </div>
                   </div>
                 </div>
@@ -358,19 +356,19 @@ export default function CommercialRoofingBigSpringPage() {
                 <div className="space-y-3">
                   <div className="p-3 bg-red-50 rounded-lg border-l-4 border-red-400">
                     <h5 className="font-bold text-gray-800">Level 1: Healthcare Facilities</h5>
-                    <p className="text-sm text-gray-600">Hospitals, medical centers, and patient care facilities receive highest priority emergency response.</p>
+                    <p className="text-sm text-gray-600">Hospitals, medical centers, and patient care facilities receive highest priority response.</p>
                   </div>
                   <div className="p-3 bg-orange-50 rounded-lg border-l-4 border-orange-400">
                     <h5 className="font-bold text-gray-800">Level 2: Correctional Facilities</h5>
-                    <p className="text-sm text-gray-600">Federal and private correctional institutions with security-focused emergency protocols.</p>
+                    <p className="text-sm text-gray-600">Federal and private correctional institutions with security-focused safety protocols.</p>
                   </div>
                   <div className="p-3 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
                     <h5 className="font-bold text-gray-800">Level 3: Industrial Operations</h5>
-                    <p className="text-sm text-gray-600">Refinery and manufacturing facilities requiring safety-compliant emergency repairs.</p>
+                    <p className="text-sm text-gray-600">Refinery and manufacturing facilities requiring safety-compliant prompt repairs.</p>
                   </div>
                   <div className="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-400">
                     <h5 className="font-bold text-gray-800">Level 4: Commercial Properties</h5>
-                    <p className="text-sm text-gray-600">Standard commercial properties with next-business-day emergency response.</p>
+                    <p className="text-sm text-gray-600">Standard commercial properties with next-business-day storm response.</p>
                   </div>
                 </div>
               </div>
@@ -439,7 +437,6 @@ export default function CommercialRoofingBigSpringPage() {
                   <li>• Extended payment terms for budget cycles</li>
                   <li>• Grant funding coordination and documentation</li>
                   <li>• Capital improvement program financing</li>
-                  <li>• Emergency repair immediate approval</li>
                   <li>• Multi-phase project payment structures</li>
                 </ul>
                 

@@ -328,7 +328,7 @@ export default function WindDamageRepairMonahansPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Operational Continuity Planning</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Industrial facilities cannot shut down for repairs. We develop phased repair plans that maintain operational continuity while addressing wind damage. Our scheduling accommodates production requirements and emergency response needs.
+                    Industrial facilities cannot shut down for repairs. We develop phased repair plans that maintain operational continuity while addressing wind damage. Our scheduling accommodates production requirements and storm response needs.
                   </p>
                 </div>
               </div>
@@ -369,7 +369,7 @@ export default function WindDamageRepairMonahansPage() {
                   How do you handle wind damage emergencies at industrial facilities?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Our industrial emergency response team is available with specialized equipment for oil and gas facilities. We maintain safety certifications for industrial work and can coordinate with facility safety managers to provide immediate emergency repairs while maintaining operational safety protocols.
+                  Our industrial storm response team is available with specialized equipment for oil and gas facilities. We maintain safety certifications for industrial work and can coordinate with facility safety managers to provide immediate repairs while maintaining operational safety protocols.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="microburst-damage" className="bg-white rounded-lg shadow-md">
@@ -450,7 +450,7 @@ export default function WindDamageRepairMonahansPage() {
               <div className="text-center p-6">
                 <div className="text-4xl mb-3">🏛️</div>
                 <h3 className="font-bold text-brand-brown mb-2">Municipal Facilities</h3>
-                <p className="text-gray-600 text-sm">Government buildings, emergency services, public works</p>
+                <p className="text-gray-600 text-sm">Government buildings, prompt services, public works</p>
               </div>
             </div>
             <div className="mt-8 text-center">
@@ -464,10 +464,10 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl border border-red-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-red-700 mb-4">Industrial Emergency Wind Damage Response</h2>
+              <h2 className="text-4xl font-bold text-red-700 mb-4">Industrial Wind Damage Response</h2>
               <div className="text-6xl mb-4">🚨</div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Desert microbursts and dust storms can cause catastrophic damage to industrial facilities. Emergency response is critical.
+                Desert microbursts and dust storms can cause catastrophic damage to industrial facilities. storm response is critical.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -478,15 +478,14 @@ export default function WindDamageRepairMonahansPage() {
                   <li>• Contact facility safety manager immediately</li>
                   <li>• Document damage for insurance and regulatory compliance</li>
                   <li>• Secure any hazardous material exposures</li>
-                  <li>• Call our industrial emergency line: (806) 622-6041</li>
                   <li>• Coordinate with environmental compliance officers</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-red-700 mb-4">Our Industrial Emergency Services</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-4">Our Industrial Storm Response Services</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• certified industrial response team</li>
-                  <li>• Emergency containment and securing</li>
+                  <li>• Storm containment and securing</li>
                   <li>• Hot work permits and safety compliance</li>
                   <li>• Environmental protection measures</li>
                   <li>• Regulatory documentation assistance</li>
@@ -496,7 +495,6 @@ export default function WindDamageRepairMonahansPage() {
             </div>
             <div className="text-center mt-8">
               <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 inline-block">
-                🚨 Industrial Emergency: Call (806) 622-6041
               </a>
             </div>
           </section>

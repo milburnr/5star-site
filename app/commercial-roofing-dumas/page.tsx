@@ -202,7 +202,7 @@ export default function CommercialRoofingDumasPage() {
               Hail-resistant roofing systems become essential for protecting agricultural processing equipment and stored crops from costly storm damage. Class 4 impact-resistant materials and reinforced membrane systems provide superior protection against hailstones up to golf-ball size that commonly occur during High Plains severe weather events.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Emergency backup and redundant roofing protection systems help critical agricultural facilities maintain operations during extended severe weather periods. Temporary weather protection capabilities and rapid repair protocols ensure continuous operation of time-sensitive agricultural processes that cannot tolerate weather-related delays.
+              Backup and redundant roofing protection systems help critical agricultural facilities maintain operations during extended severe weather periods. Temporary weather protection capabilities and rapid repair protocols ensure continuous operation of time-sensitive agricultural processes that cannot tolerate weather-related delays.
             </p>
           </section>
         </FadeIn>
@@ -213,7 +213,7 @@ export default function CommercialRoofingDumasPage() {
               Healthcare and Community Service Commercial Roofing
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Moore County Hospital and medical facilities serving Dumas' agricultural community require specialized commercial roofing systems that support critical healthcare delivery while accommodating medical equipment and emergency services. Hospital roofing must accommodate helicopter access, medical gas systems, and backup power equipment while maintaining sterile environments.
+              Moore County Hospital and medical facilities serving Dumas' agricultural community require specialized commercial roofing systems that support critical healthcare delivery while accommodating medical equipment and prompt services. Hospital roofing must accommodate helicopter access, medical gas systems, and backup power equipment while maintaining sterile environments.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Educational facilities including Dumas High School and elementary schools need durable, cost-effective roofing systems that accommodate large assembly spaces while providing energy efficiency for year-round climate control. School roofing projects often coordinate with summer break schedules and agricultural community funding cycles.
@@ -258,7 +258,7 @@ export default function CommercialRoofingDumasPage() {
               Predictive maintenance using infrared thermography and moisture detection helps identify potential failure points before they compromise agricultural operations or stored products. Early detection prevents equipment damage and product losses that could significantly impact agricultural business profitability during competitive market conditions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Emergency response capabilities specifically designed for agricultural environments include specialized safety equipment for working around grain handling equipment and agricultural chemicals. Our emergency response teams maintain training and equipment necessary for safe operations in agricultural facility environments during emergency repair situations.
+              storm response capabilities specifically designed for agricultural environments include specialized safety equipment for working around grain handling equipment and agricultural chemicals. Our storm response teams maintain training and equipment necessary for safe operations in agricultural facility environments during storm repair situations.
             </p>
           </section>
         </FadeIn>
@@ -283,7 +283,7 @@ export default function CommercialRoofingDumasPage() {
               The natural gas industry presence around Dumas creates demand for commercial roofing systems meeting strict safety standards for facilities handling flammable materials and operating compression equipment. These installations require fire-resistant materials, explosion-proof electrical components, and specialized venting systems integrated with roofing structures.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Processing plant roofing must accommodate heavy equipment loads, vibration from compressor operations, and potential emergency venting requirements. Structural design considerations include equipment anchorage points, maintenance access platforms, and emergency escape route protection integrated with roofing installations.
+              Processing plant roofing must accommodate heavy equipment loads, vibration from compressor operations, and potential emergency venting requirements. Structural design considerations include equipment anchorage points, maintenance access platforms, and storm escape route protection integrated with roofing installations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Environmental monitoring equipment and safety systems required for natural gas facilities often mount on roofing structures, requiring specialized penetration sealing and equipment support systems that maintain weatherproofing integrity while providing reliable operation of critical safety equipment.
@@ -342,7 +342,7 @@ export default function CommercialRoofingDumasPage() {
               Metal roofing systems with specialized coatings resist denting from large hailstones while maintaining weather protection and aesthetic appearance after severe weather events. Granular surface membranes and impact-resistant installation methods provide cost-effective alternatives for facilities requiring maximum hail protection within budget constraints.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Emergency repair capabilities specifically designed for post-storm response ensure rapid restoration of weather protection following major hail events. Pre-positioned materials and trained crews provide immediate temporary protection while permanent repairs are scheduled and completed to restore full building protection quickly.
+              storm repair capabilities specifically designed for post-storm response ensure rapid restoration of weather protection following major hail events. Pre-positioned materials and trained crews provide immediate temporary protection while permanent repairs are scheduled and completed to restore full building protection quickly.
             </p>
           </section>
         </FadeIn>

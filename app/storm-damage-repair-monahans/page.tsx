@@ -412,10 +412,10 @@ export default function StormDamageRepairMonahansPage() {
 
               <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-xl font-semibold text-brand-brown">
-                  How do you handle emergency repairs in remote Permian Basin locations?
+                  How do you handle storm repairs in remote Permian Basin locations?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  We maintain strategic material stockpiles and mobile repair equipment specifically for Permian Basin operations. Our emergency response protocol includes immediate temporary weatherization to protect critical operations, followed by comprehensive permanent repairs. We understand that many facilities in the Monahans area operate around the clock and cannot afford extended downtime. Our crews are experienced in working around active industrial operations while maintaining safety standards. We also coordinate with facility management to schedule repairs during planned maintenance windows when possible, minimizing operational disruption while ensuring thorough restoration of damaged roofing systems.
+                  We maintain strategic material stockpiles and mobile repair equipment specifically for Permian Basin operations. Our storm response protocol includes immediate temporary weatherization to protect critical operations, followed by comprehensive permanent repairs. We understand that many facilities in the Monahans area operate around the clock and cannot afford extended downtime. Our crews are experienced in working around active industrial operations while maintaining safety standards. We also coordinate with facility management to schedule repairs during planned maintenance windows when possible, minimizing operational disruption while ensuring thorough restoration of damaged roofing systems.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

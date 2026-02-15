@@ -168,7 +168,7 @@ export default function ResidentialRoofingAndrewsPage() {
               </div>
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg border border-green-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Storm Damage Restoration</h3>
-                <p className="text-gray-700 mb-4 leading-relaxed">Emergency repairs and insurance claim assistance for Andrews storm damage. Our team responds quickly to protect your home from further damage while documenting everything needed for successful insurance claims.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">storm repairs and insurance claim assistance for Andrews storm damage. Our team responds quickly to protect your home from further damage while documenting everything needed for successful insurance claims.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• prompt response</li>
                   <li>• Temporary protection services</li>
@@ -199,8 +199,8 @@ export default function ResidentialRoofingAndrewsPage() {
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Oil Industry Worker Housing</h3>
-                  <p className="text-gray-700 mb-4 leading-relaxed">Andrews serves as home base for thousands of Permian Basin oil workers and their families. We understand the unique needs of oil industry households – from accommodating shift schedules for inspections to providing rapid emergency repairs when workers are away on rotation.</p>
-                  <p className="text-gray-600 leading-relaxed">Our flexible scheduling and emergency response services ensure Andrews oil families never lose protection, regardless of work schedules. We coordinate with both homeowners and property management companies serving temporary housing needs.</p>
+                  <p className="text-gray-700 mb-4 leading-relaxed">Andrews serves as home base for thousands of Permian Basin oil workers and their families. We understand the unique needs of oil industry households – from accommodating shift schedules for inspections to providing rapid storm repairs when workers are away on rotation.</p>
+                  <p className="text-gray-600 leading-relaxed">Our flexible scheduling and storm response services ensure Andrews oil families never lose protection, regardless of work schedules. We coordinate with both homeowners and property management companies serving temporary housing needs.</p>
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Growing Family Community</h3>
@@ -219,7 +219,7 @@ export default function ResidentialRoofingAndrewsPage() {
                   <div>
                     <div className="text-3xl mb-2">⚡</div>
                     <h4 className="font-bold text-brand-brown mb-2">Rapid Response</h4>
-                    <p className="text-gray-600 text-sm">Emergency response times under 2 hours for Andrews storm damage, with availability during severe weather events.</p>
+                    <p className="text-gray-600 text-sm">storm response times under 2 hours for Andrews storm damage, with availability during severe weather events.</p>
                   </div>
                   <div>
                     <div className="text-3xl mb-2">🤝</div>
@@ -346,8 +346,8 @@ export default function ResidentialRoofingAndrewsPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">Andrews sits in the heart of West Texas "hail alley" with frequent severe thunderstorms March through June. The area experiences extreme temperature swings (40+ degrees in a day), sustained winds over 40 mph, regular dust storms, and over 100 days annually above 95°F. This combination creates exceptional stress on roofing materials, requiring premium systems and professional installation to ensure long-term performance.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you offer emergency services for Andrews storm damage?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for Andrews storm damage. Our emergency team typically arrives within 2 hours for urgent situations like major leaks or structural damage. We immediately secure your home with temporary protection (tarps, boarding) while documenting damage for insurance claims. Emergency services include water damage mitigation, temporary repairs, and priority scheduling for permanent restoration.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you offer prompt services for Andrews storm damage?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for Andrews storm damage. Our our team typically arrives within 2 hours for urgent situations like major leaks or structural damage. We immediately secure your home with temporary protection (tarps, boarding) while documenting damage for insurance claims. prompt services include water damage mitigation, temporary repairs, and priority scheduling for permanent restoration.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

@@ -308,8 +308,8 @@ export default function ResidentialRoofingLevellandPage() {
               </AccordionItem>
               
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle emergency repairs during the school year?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout the school year with special consideration for student housing. Our team coordinates with property managers to minimize disruption and provides temporary protection services. We maintain emergency contact protocols for multi-property owners and college housing providers.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle storm repairs during the school year?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout the school year with special consideration for student housing. Our team coordinates with property managers to minimize disruption and provides temporary protection services. We maintain contact protocols for multi-property owners and college housing providers.</AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -334,7 +334,6 @@ export default function ResidentialRoofingLevellandPage() {
                   <ul className="text-gray-700 space-y-1">
                     <li>• Multi-property volume discounts</li>
                     <li>• Preventive maintenance programs</li>
-                    <li>• Emergency response priority</li>
                     <li>• Tenant coordination services</li>
                     <li>• Insurance claim assistance</li>
                     <li>• Flexible billing arrangements</li>
@@ -372,13 +371,13 @@ export default function ResidentialRoofingLevellandPage() {
                 <div className="text-center">
                   <div className="text-3xl mb-2">🍂</div>
                   <h4 className="font-bold text-brand-brown mb-2">Fall/Spring (Sept-May)</h4>
-                  <p className="text-gray-700 text-sm">Emergency repairs and insurance claims. Coordinated scheduling to minimize academic disruption.</p>
+                  <p className="text-gray-700 text-sm">storm repairs and insurance claims. Coordinated scheduling to minimize academic disruption.</p>
                 </div>
                 
                 <div className="text-center">
                   <div className="text-3xl mb-2">❄️</div>
                   <h4 className="font-bold text-brand-brown mb-2">Winter (Dec-Feb)</h4>
-                  <p className="text-gray-700 text-sm">Emergency services only. Planning and preparation for spring projects.</p>
+                  <p className="text-gray-700 text-sm">prompt services only. Planning and preparation for spring projects.</p>
                 </div>
               </div>
             </div>

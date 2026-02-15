@@ -132,7 +132,7 @@ export default function StormDamageRepairPampaPage() {
                 "name": "How quickly do you respond to storm damage emergencies in Pampa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We provide emergency storm damage response throughout Pampa and Gray County. For active leaks and urgent damage near Harvester Stadium, Coronado Healthcare Center, or anywhere in Pampa's ranching community, we typically arrive within 2-4 hours with emergency tarping and temporary repairs. For comprehensive post-storm inspections, we schedule within 24-48 hours."
+                  "text": "We provide prompt storm damage response throughout Pampa and Gray County. For active leaks and urgent damage near Harvester Stadium, Coronado Healthcare Center, or anywhere in Pampa's ranching community, we typically arrive within 2-4 hours with tarping and temporary repairs. For comprehensive post-storm inspections, we schedule within 24-48 hours."
                 }
               },
               {
@@ -156,7 +156,7 @@ export default function StormDamageRepairPampaPage() {
                 "name": "What storm damage repairs do you handle in Pampa?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, emergency leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties."
+                  "text": "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties."
                 }
               }
             ]
@@ -180,14 +180,14 @@ export default function StormDamageRepairPampaPage() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Pampa</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Emergency Response | Panhandle Weather Experts
+                Storm Damage Experts | Panhandle Weather Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -235,7 +235,7 @@ export default function StormDamageRepairPampaPage() {
               Pampa's position as Gray County's seat exposes properties to severe Panhandle storm systems. From Pampa Regional Medical Center and Recreation Park to agricultural properties throughout the county, storm damage from hail, wind, and debris threatens every building. Properties near downtown Pampa, Harvester Stadium, and Coronado Healthcare Center face 6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural debris impacts—creating comprehensive storm damage needing immediate professional response.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've responded to 220+ storm damage emergencies across Pampa's ranching community with service. From historic areas near Woody Guthrie Folk Music Center to properties near Hobart Street Park and White Deer Land Museum, we provide emergency tarping, complete damage documentation, insurance claim management, and permanent repairs. We understand Gray County building codes and work efficiently to restore your property. Most owners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've responded to 220+ storm damage emergencies across Pampa's ranching community with service. From historic areas near Woody Guthrie Folk Music Center to properties near Hobart Street Park and White Deer Land Museum, we provide tarping, complete damage documentation, insurance claim management, and permanent repairs. We understand Gray County building codes and work efficiently to restore your property. Most owners pay only their deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -321,14 +321,14 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Emergency Storm Response Protocol for Pampa Properties
+              storm response Protocol for Pampa Properties
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
                 <h3 className="text-xl font-bold mb-3">Immediate Safety Assessment</h3>
                 <p className="text-gray-700">
-                  Within 2-4 hours of your call, our emergency team arrives at your Pampa property to assess structural safety, document all visible damage, and implement immediate protective measures like emergency tarping.
+                  Within 2-4 hours of your call, our our team arrives at your Pampa property to assess structural safety, document all visible damage, and implement immediate protective measures like tarping.
                 </p>
               </div>
               <div className="text-center">
@@ -377,7 +377,7 @@ export default function StormDamageRepairPampaPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-500 mr-2 mt-1">✓</span>
-                      <span><strong>Emergency repairs:</strong> Tarping and temporary protection measures</span>
+                      <span><strong>storm repairs:</strong> Tarping and temporary protection measures</span>
                     </li>
                   </ul>
                 </div>
@@ -394,7 +394,7 @@ export default function StormDamageRepairPampaPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2 mt-1">•</span>
-                      <span>Keep receipts for emergency repairs and hotel stays</span>
+                      <span>Keep receipts for storm repairs and hotel stays</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2 mt-1">•</span>
@@ -431,7 +431,7 @@ export default function StormDamageRepairPampaPage() {
                   How quickly do you respond to storm damage emergencies in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide emergency storm damage response throughout Pampa and Gray County. For active leaks and urgent damage near Harvester Stadium, Coronado Healthcare Center, or anywhere in Pampa's ranching community, we typically arrive within 2-4 hours with emergency tarping and temporary repairs. For comprehensive post-storm inspections, we schedule within 24-48 hours.
+                  We provide prompt storm damage response throughout Pampa and Gray County. For active leaks and urgent damage near Harvester Stadium, Coronado Healthcare Center, or anywhere in Pampa's ranching community, we typically arrive within 2-4 hours with tarping and temporary repairs. For comprehensive post-storm inspections, we schedule within 24-48 hours.
                 </AccordionContent>
               </AccordionItem>
 
@@ -458,7 +458,7 @@ export default function StormDamageRepairPampaPage() {
                   What storm damage repairs do you handle in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, emergency leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.
+                  We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.
                 </AccordionContent>
               </AccordionItem>
 

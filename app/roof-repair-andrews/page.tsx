@@ -213,7 +213,7 @@ export default function RoofRepairAndrewsPage() {
                 <ul className="text-sm text-gray-600">
                   <li>• Immediate leak stoppage</li>
                   <li>• Temporary weatherproofing</li>
-                  <li>• Emergency structural stabilization</li>
+                  <li>• Structural stabilization</li>
                   <li>• Insurance documentation assistance</li>
                 </ul>
               </div>
@@ -372,7 +372,7 @@ export default function RoofRepairAndrewsPage() {
                   How quickly can you respond to roof emergencies in Andrews?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  We provide prompt response for Andrews County. Our team typically arrives within 2-4 hours for emergency calls, with temporary repairs completed the same day when weather permits. We understand that Permian Basin storms can cause sudden, severe damage that requires immediate attention to prevent further property damage.
+                  We provide prompt response for Andrews County. Our team typically arrives within 2-4 hours for service calls, with temporary repairs completed the same day when weather permits. We understand that Permian Basin storms can cause sudden, severe damage that requires immediate attention to prevent further property damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -461,7 +461,7 @@ export default function RoofRepairAndrewsPage() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="text-4xl mb-2">🕐</div>
-                  <h4 className="font-bold mb-2 text-brand-brown">Emergency Response</h4>
+                  <h4 className="font-bold mb-2 text-brand-brown">Storm Response</h4>
                   <p className="text-sm text-gray-600">Always available when Andrews weather strikes</p>
                 </div>
                 <div className="text-center">

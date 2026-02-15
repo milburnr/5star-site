@@ -471,7 +471,7 @@ export default function RoofInspectionsBigSpringPage() {
                   How soon after a storm should I schedule an inspection?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Contact us within 24-48 hours after any severe weather event. Early inspection documentation is crucial for insurance claims and prevents further damage. We offer emergency inspection services and can usually schedule within 24 hours of your call during storm seasons.
+                  Contact us within 24-48 hours after any severe weather event. Early inspection documentation is crucial for insurance claims and prevents further damage. We offer damage inspection services and can usually schedule within 24 hours of your call during storm seasons.
                 </AccordionContent>
               </AccordionItem>
 

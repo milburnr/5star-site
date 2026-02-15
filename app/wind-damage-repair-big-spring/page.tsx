@@ -209,13 +209,13 @@ export default function WindDamageRepairBigSpringPage() {
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-cyan-500">
-                <h4 className="text-xl font-semibold text-brand-brown mb-3">Emergency Storm Response</h4>
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">storm response</h4>
                 <p className="text-gray-600 mb-3">s for Big Spring wind damage events. Our rapid response team provides immediate tarping, board-up, and stabilization to prevent secondary damage while coordinating with local emergency services and insurance providers.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Immediate emergency tarping</li>
+                  <li>• Immediate tarping</li>
                   <li>• Structural damage stabilization</li>
                   <li>• Water intrusion prevention</li>
-                  <li>• Emergency contact coordination</li>
+                  <li>• Contact coordination</li>
                 </ul>
               </div>
               
@@ -299,8 +299,8 @@ export default function WindDamageRepairBigSpringPage() {
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl">
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-cyan-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
                 <div className="flex-grow">
-                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Rapid Response & Emergency Protection</h3>
-                  <p className="text-gray-600">Our prompt response team secures Big Spring properties immediately after wind events. We provide emergency tarping, board-up services, and structural stabilization to prevent secondary damage while beginning comprehensive damage assessment processes.</p>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-3">Rapid Response & Storm Protection</h3>
+                  <p className="text-gray-600">Our prompt response team secures Big Spring properties immediately after wind events. We provide tarping, board-up services, and structural stabilization to prevent secondary damage while beginning comprehensive damage assessment processes.</p>
                 </div>
               </div>
 

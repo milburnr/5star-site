@@ -450,7 +450,7 @@ export default function TPORoofingSnyderPage() {
               <div className="text-center p-6">
                 <div className="text-4xl mb-3">🏛️</div>
                 <h3 className="font-bold text-brand-brown mb-2">Government Buildings</h3>
-                <p className="text-gray-600 text-sm">Municipal facilities, emergency services</p>
+                <p className="text-gray-600 text-sm">Municipal facilities, prompt services</p>
               </div>
             </div>
             <div className="mt-8 text-center">

@@ -651,7 +651,6 @@ export default function RoofRepairMonahansPage() {
                     <li>• Oil industry activity affects labor costs</li>
                     <li>• Desert-rated materials carry 10-15% premium</li>
                     <li>• Remote locations may include travel charges</li>
-                    <li>• Emergency service availability</li>
                   </ul>
                 </div>
                 <div>
@@ -717,7 +716,7 @@ export default function RoofRepairMonahansPage() {
                   When is the best time to schedule roof repairs in Monahans?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  Late fall through early spring (October-March) offers the most stable weather and moderate temperatures for optimal installation conditions. Avoid summer heat that can make materials too hot to handle safely, and spring storm season when severe weather can interrupt work. Emergency repairs are available year-round, but planned projects should target the cooler months for best results.
+                  Late fall through early spring (October-March) offers the most stable weather and moderate temperatures for optimal installation conditions. Avoid summer heat that can make materials too hot to handle safely, and spring storm season when severe weather can interrupt work. storm repairs are available year-round, but planned projects should target the cooler months for best results.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">

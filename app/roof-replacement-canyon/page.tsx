@@ -355,7 +355,7 @@ export default function RoofReplacementCanyonPage() {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter Maintenance:</span>
-                      <span className="text-blue-600">Emergency repairs and planning</span>
+                      <span className="text-blue-600">storm repairs and planning</span>
                     </div>
                   </div>
                 </div>

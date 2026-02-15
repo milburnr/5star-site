@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-pampa/' },
   title: 'Hail Damage Repair Pampa TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Pampa TX. Emergency response, insurance assistance, quality materials. Serving Gray County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Professional hail damage roof repair in Pampa TX. storm response, insurance assistance, quality materials. Serving Gray County. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairPampaPage() {
   return (
@@ -282,7 +282,6 @@ export default function HailDamageRepairPampaPage() {
                   <ul className="text-gray-600 text-sm space-y-1">
                     <li>• Modified bitumen or TPO systems</li>
                     <li>• Impact-resistant membrane materials</li>
-                    <li>• Emergency response procedures</li>
                     <li>• Business continuity planning</li>
                   </ul>
                 </div>
@@ -299,7 +298,7 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55 miles from our Amarillo headquarters, we can reach Pampa within approximately one hour for emergency situations. We understand Pampa's unique combination of industrial, residential, and agricultural properties, having helped hundreds of property owners protect their investments with expert repairs and storm-resistant materials. Our experience includes work on everything from historic downtown buildings to modern industrial facilities to rural residential properties throughout Gray County.
+              5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55 miles from our Amarillo headquarters, we can reach Pampa within approximately one hour for prompt situations. We understand Pampa's unique combination of industrial, residential, and agricultural properties, having helped hundreds of property owners protect their investments with expert repairs and storm-resistant materials. Our experience includes work on everything from historic downtown buildings to modern industrial facilities to rural residential properties throughout Gray County.
             </p>
           </section>
         </FadeIn>
@@ -450,7 +449,7 @@ export default function HailDamageRepairPampaPage() {
                   <p className="text-lg mb-2">Serving Pampa since 2014 with both residential and commercial expertise. We understand the unique challenges of Gray County's industrial and residential mix.</p>
                 </div>
                 <div>
-                  <p className="text-brand-gold-light font-semibold">96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour emergency response</p>
+                  <p className="text-brand-gold-light font-semibold">96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour storm response</p>
                 </div>
               </div>
             </div>
@@ -723,15 +722,14 @@ export default function HailDamageRepairPampaPage() {
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to Pampa emergencies?</AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">Our emergency response for Pampa area:</p>
+                  <p className="mb-3">Our storm response for Pampa area:</p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
                     <li><strong>Distance:</strong> 55 miles from our Amarillo headquarters</li>
-                    <li><strong>Emergency Response:</strong> 45-75 minutes for urgent situations</li>
                     <li><strong>Normal Service:</strong> Same-day or next-day scheduling</li>
-                    <li><strong>Availability:</strong> Emergency tarping and leak stopping</li>
+                    <li><strong>Availability:</strong> tarping and leak stopping</li>
                     <li><strong>Storm Season:</strong> Mobile response teams during active weather</li>
                   </ul>
-                  <p>During major hail events affecting Gray County, we often establish temporary operations in Pampa to reduce response times. Our emergency line (806) 622-6041 connects directly to our dispatch center. Industrial and commercial properties receive priority scheduling due to production and business continuity concerns.</p>
+                  <p>During major hail events affecting Gray County, we often establish temporary operations in Pampa to reduce response times. Our office (806) 622-6041 connects directly to our dispatch center. Industrial and commercial properties receive priority scheduling due to production and business continuity concerns.</p>
                 </AccordionContent>
               </AccordionItem>
 

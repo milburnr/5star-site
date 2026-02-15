@@ -337,7 +337,7 @@ export default function CommercialRoofingAmarilloPage() {
                   <strong>Bell Helicopter Industrial Area</strong> - Manufacturing facilities, warehouses, and industrial buildings requiring durable metal and TPO roofing systems engineered for large-scale commercial operations.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Retail & Business Centers</strong> - Shopping centers, office parks, and commercial developments throughout Amarillo. We specialize in minimizing business disruption with after-hours installations and rapid emergency response.
+                  <strong>Retail & Business Centers</strong> - Shopping centers, office parks, and commercial developments throughout Amarillo. We specialize in minimizing business disruption with after-hours installations and rapid storm response.
                 </p>
               </div>
             </div>
@@ -438,7 +438,7 @@ export default function CommercialRoofingAmarilloPage() {
                   Storm damage or active leak threatening your Amarillo business? We provide prompt response with temporary repairs, tarping, and leak mitigation. Minimize inventory damage, protect equipment, and keep operations running.
                 </p>
                 <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
               </div>
             </div>

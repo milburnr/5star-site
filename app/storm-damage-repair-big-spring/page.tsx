@@ -397,7 +397,7 @@ export default function StormDamageRepairBigSpringPage() {
                   How quickly can you respond to storm damage in Big Spring?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  We maintain prompt response capability for Big Spring and Howard County. During major storm events, we pre-position crews and materials in the area to ensure rapid response. Our goal is same-day emergency service for critical damage and comprehensive assessment within 24-48 hours of initial contact. We understand that Big Spring's weather patterns often produce multiple storm events in short periods, so quick temporary repairs are essential to prevent cascading damage. Our local relationships with material suppliers ensure we can obtain necessary repair materials even when demand is high throughout West Texas.
+                  We maintain prompt response capability for Big Spring and Howard County. During major storm events, we pre-position crews and materials in the area to ensure rapid response. Our goal is same-day prompt service for critical damage and comprehensive assessment within 24-48 hours of initial contact. We understand that Big Spring's weather patterns often produce multiple storm events in short periods, so quick temporary repairs are essential to prevent cascading damage. Our local relationships with material suppliers ensure we can obtain necessary repair materials even when demand is high throughout West Texas.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

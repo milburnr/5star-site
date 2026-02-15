@@ -294,7 +294,7 @@ export default function CommercialRoofingSnyderPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide storm damage response?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for storm damage, leak repairs, and urgent roofing issues throughout Snyder and surrounding areas. Our emergency teams typically respond within 2-4 hours for critical situations to minimize business disruption and property damage.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for storm damage, leak repairs, and urgent roofing issues throughout Snyder and surrounding areas. Our our teams typically respond within 2-4 hours for critical situations to minimize business disruption and property damage.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What maintenance programs do you offer?</AccordionTrigger>
@@ -312,13 +312,12 @@ export default function CommercialRoofingSnyderPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4 text-brand-brown">Comprehensive Safety Program</h3>
-                  <p className="text-gray-700 mb-4">All team members receive extensive safety training with regular updates on OSHA standards and industry best practices. We maintain strict safety protocols including fall protection, hazard recognition, and emergency response procedures.</p>
+                  <p className="text-gray-700 mb-4">All team members receive extensive safety training with regular updates on OSHA standards and industry best practices. We maintain strict safety protocols including fall protection, hazard recognition, and safety response procedures.</p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• OSHA 10 and 30-hour certified personnel</li>
                     <li>• Daily safety briefings and job hazard analysis</li>
                     <li>• Comprehensive personal protective equipment</li>
                     <li>• Regular safety audits and equipment inspections</li>
-                    <li>• Emergency response and first aid training</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -376,7 +375,7 @@ export default function CommercialRoofingSnyderPage() {
                   <div className="flex items-start gap-4">
                     <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Emergency Response</h3>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Response</h3>
                       <p className="text-gray-700"> for storm damage, leak repairs, and urgent roofing issues affecting Snyder commercial operations and property protection.</p>
                     </div>
                   </div>

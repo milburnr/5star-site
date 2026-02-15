@@ -200,7 +200,6 @@ export default function HailDamageRepairLevellandPage() {
                   <li>• <strong>Enhanced Uplift Resistance:</strong> Upgraded fastening systems designed for 90+ mph wind events</li>
                   <li>• <strong>Bow Echo Protection:</strong> Reinforced roof-to-wall connections for straight-line wind resistance</li>
                   <li>• <strong>Multi-Impact Barriers:</strong> Advanced underlayment systems for repeated hail impact protection</li>
-                  <li>• <strong>Emergency Response Planning:</strong> Pre-positioned materials and rapid deployment protocols</li>
                   <li>• <strong>Utility Coordination:</strong> Working with Levelland utilities for expedited restoration</li>
                   <li>• <strong>Community Resilience:</strong> Building back stronger with climate-adapted materials</li>
                 </ul>
@@ -211,7 +210,7 @@ export default function HailDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">South Plains Emergency Response Protocol</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">South Plains Storm Response Protocol</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Immediate Storm Response (0-4 Hours)</h3>
@@ -227,19 +226,19 @@ export default function HailDamageRepairLevellandPage() {
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">2</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Safety-First Assessment</h4>
-                      <p className="text-gray-600 text-sm">Immediate structural integrity evaluation focusing on life safety and emergency stabilization needs</p>
+                      <p className="text-gray-600 text-sm">Immediate structural integrity evaluation focusing on life safety and structural stabilization needs</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Emergency Protection</h4>
+                      <h4 className="font-medium text-gray-800">Storm Protection</h4>
                       <p className="text-gray-600 text-sm">Professional tarping and board-up services to prevent additional water damage and secure property</p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-6 bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-semibold text-brand-brown mb-2">Levelland Emergency Coordination</h4>
+                  <h4 className="font-semibold text-brand-brown mb-2">Levelland Storm Coordination</h4>
                   <p className="text-gray-700 text-sm">We maintain direct communication with Levelland Emergency Management and Hockley County officials for coordinated disaster response and resource allocation.</p>
                 </div>
               </div>

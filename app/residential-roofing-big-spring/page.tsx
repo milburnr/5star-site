@@ -179,12 +179,11 @@ export default function ResidentialRoofingBigSpringPage() {
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl shadow-lg border border-orange-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Retiree Community Support</h3>
-                <p className="text-gray-700 mb-4 leading-relaxed">Big Spring's affordable cost of living attracts retirees who need reliable, low-maintenance roofing solutions. Our senior-focused programs include extended warranties and priority emergency response.</p>
+                <p className="text-gray-700 mb-4 leading-relaxed">Big Spring's affordable cost of living attracts retirees who need reliable, low-maintenance roofing solutions. Our senior-focused programs include extended warranties and priority response.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Senior citizen discounts</li>
                   <li>• Extended warranty programs</li>
                   <li>• Simplified claims assistance</li>
-                  <li>• Priority emergency service</li>
                 </ul>
               </div>
             </div>
@@ -427,8 +426,8 @@ export default function ResidentialRoofingBigSpringPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">Big Spring sits at a meteorological crossroads where different air masses collide, creating severe thunderstorms with large hail and damaging winds. The area experiences extreme temperature swings (up to 50°F daily variations), persistent winds, and over 100 days annually above 95°F. This combination of hail exposure, thermal stress, and UV radiation at 2,400-foot elevation requires premium materials and expert installation for reliable long-term performance.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you offer emergency services for Big Spring storm damage?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for Big Spring storm damage. Our emergency crews typically arrive within 90 minutes for urgent situations. We immediately secure damaged areas with tarps and temporary repairs while documenting everything for insurance claims. Emergency services include water damage mitigation, structural stabilization, and priority scheduling for permanent repairs.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you offer prompt services for Big Spring storm damage?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for Big Spring storm damage. Our our crews typically arrive within 90 minutes for urgent situations. We immediately secure damaged areas with tarps and temporary repairs while documenting everything for insurance claims. prompt services include water damage mitigation, structural stabilization, and priority scheduling for permanent repairs.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

@@ -90,7 +90,6 @@ const serviceSchema = {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Emergency Roof Repair"
         }
       }
     ]
@@ -151,7 +150,7 @@ export default function Page() {
             When it comes to residential roof repair in Amarillo, homeowners face unique challenges due to the extreme weather conditions in the Texas Panhandle. High winds, frequent hailstorms, intense UV exposure, and dramatic temperature swings can all cause significant damage to roofs. The region sits in America's hail belt, experiencing an average of 8-12 hailstorms per year, making roof maintenance and regular roof inspections essential for catching potential roof leaks before they become major problems.
           </p>
           <p className="text-lg mt-4">
-            At 5 Star Commercial Roofing, we provide comprehensive <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> throughout Amarillo, Midland, Odessa, and Lubbock. Our experienced team understands the specific vulnerabilities that West Texas weather creates, and we deliver prompt, reliable roof repair services to efficiently restore your roof and ensure your home is protected from the elements. Whether you need emergency <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> or routine maintenance, we're here to help.
+            At 5 Star Commercial Roofing, we provide comprehensive <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> throughout Amarillo, Midland, Odessa, and Lubbock. Our experienced team understands the specific vulnerabilities that West Texas weather creates, and we deliver prompt, reliable roof repair services to efficiently restore your roof and ensure your home is protected from the elements. Whether you need storm damage <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> or routine maintenance, we're here to help.
           </p>
         </div>
 
@@ -180,7 +179,7 @@ export default function Page() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-600">
                 <li>Thermal imaging leak detection</li>
-                <li>Emergency tarping service</li>
+                <li>tarping service</li>
                 <li>Interior damage assessment</li>
                 <li>Permanent leak repair solutions</li>
               </ul>
@@ -377,7 +376,7 @@ export default function Page() {
         <div className="space-y-4 mb-8">
           <div className="card">
             <div className="card-body">
-              <h3 className="font-bold mb-2">How quickly can you respond to emergency repairs?</h3>
+              <h3 className="font-bold mb-2">How quickly can you respond to storm damage repairs?</h3>
               <p>We offer  for active leaks and storm damage. Call (806) 622-6041 anytime, and we'll dispatch crews to your location as quickly as possible—often within hours during major storm events.</p>
             </div>
           </div>

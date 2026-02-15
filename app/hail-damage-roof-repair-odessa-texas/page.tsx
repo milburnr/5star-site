@@ -233,8 +233,8 @@ export default function HailDamageOdessaPage() {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="font-bold text-xl text-brand-brown mb-4">🌪️ Multi-Hazard Storm Events</h3>
                 <p className="text-gray-700 mb-4">Odessa's location in both Hail Alley and Tornado Alley means severe thunderstorms often produce multiple hazards simultaneously. Supercells can generate large hail, tornadoes, and straight-line winds exceeding 90 mph within the same system, creating complex damage patterns requiring expert assessment.</p>
-                <p className="text-gray-700 mb-4">Derecho events (long-lived windstorms) can affect Odessa several times per decade, combining large hail with sustained winds over 75 mph for hours. These events create catastrophic damage over large areas and often overwhelm regional emergency response and repair capacity.</p>
-                <p className="text-gray-700">Flash flooding following severe hailstorms is common in Odessa due to poor drainage on the flat terrain and urban runoff. Hail-damaged roofs are particularly vulnerable to water intrusion during these flooding events, often requiring emergency tarping and immediate professional assessment.</p>
+                <p className="text-gray-700 mb-4">Derecho events (long-lived windstorms) can affect Odessa several times per decade, combining large hail with sustained winds over 75 mph for hours. These events create catastrophic damage over large areas and often overwhelm regional storm response and repair capacity.</p>
+                <p className="text-gray-700">Flash flooding following severe hailstorms is common in Odessa due to poor drainage on the flat terrain and urban runoff. Hail-damaged roofs are particularly vulnerable to water intrusion during these flooding events, often requiring tarping and immediate professional assessment.</p>
               </div>
             </div>
           </section>
@@ -382,12 +382,11 @@ export default function HailDamageOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
-            <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Services</h2>
+            <h2 className="text-3xl font-bold mb-6 text-red-700">Hail Damage Services</h2>
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after storm?</strong> We provide emergency tarping services and repairs throughout Odessa.
+              <strong>Active leak after storm?</strong> We provide tarping services and repairs throughout Odessa.
             </p>
             <div className="bg-white p-6 rounded-lg">
-              <p className="text-xl font-bold text-red-700">🚨 Emergency: <a href="tel:8066226041" className="text-brand-gold">(806) 622-6041</a></p>
               <p className="text-gray-700">Available throughout Odessa and West Texas</p>
             </div>
           </section>

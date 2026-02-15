@@ -120,7 +120,7 @@ export default function HailDamageRepairPlainviewPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Emergency Response</div>
+                <div className="text-brand-brown font-semibold text-lg">Storm Response</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={75} suffix=" mi" /></div>

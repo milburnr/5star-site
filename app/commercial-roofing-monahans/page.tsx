@@ -118,7 +118,7 @@ export default function CommercialRoofingMonahansPage() {
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Monahans's Commercial Roofing Specialists</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Monahans and surrounding areas, serving the gateway to the Monahans Sandhills and a diversifying West Texas economy. As a traditional oil marketing center for over 800 square miles of petroleum and cattle country, Monahans is strategically diversifying into hydroponic agriculture, military gear manufacturing, and sand mining while maintaining its tourism appeal as home to one of Texas's most unique natural attractions.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Monahans' evolving economy with expert installations and comprehensive warranties for oil and gas facilities, emerging industries, and tourism-related businesses. Our 65-minute response time from Amarillo headquarters ensures rapid service for emergency repairs across diverse facility types. We handle all permits, insurance claims, and warranty documentation.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Monahans' evolving economy with expert installations and comprehensive warranties for oil and gas facilities, emerging industries, and tourism-related businesses. Our 65-minute response time from Amarillo headquarters ensures rapid service for storm repairs across diverse facility types. We handle all permits, insurance claims, and warranty documentation.</p>
             
             <div className="mt-12 bg-gradient-to-r from-orange-50 to-blue-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Monahans' Economic Diversification</h3>
@@ -200,7 +200,7 @@ export default function CommercialRoofingMonahansPage() {
                   <span className="text-white text-2xl font-bold">65</span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">65-Minute Response Time</h3>
-                <p className="text-gray-700">Rapid emergency response from Amarillo headquarters serves diverse industrial and tourism operations efficiently.</p>
+                <p className="text-gray-700">Rapid storm response from Amarillo headquarters serves diverse industrial and tourism operations efficiently.</p>
               </div>
               
               <div className="text-center">
@@ -321,13 +321,13 @@ export default function CommercialRoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Desert Environment Emergency Response</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Desert Environment storm response</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Extreme Weather Protection</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Monahans' desert environment creates unique challenges including extreme temperature fluctuations, sand infiltration, and intense UV exposure. Our emergency response protocols address these conditions while protecting diverse industrial operations and tourism businesses.</p>
+                <p className="text-gray-700 leading-relaxed mb-4">Monahans' desert environment creates unique challenges including extreme temperature fluctuations, sand infiltration, and intense UV exposure. Our storm response protocols address these conditions while protecting diverse industrial operations and tourism businesses.</p>
                 
-                <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Desert Emergency Response:</h4>
+                <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Desert storm response:</h4>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="bg-orange-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</div>
@@ -438,7 +438,7 @@ export default function CommercialRoofingMonahansPage() {
                 <ul className="text-gray-700 space-y-2 ml-4 mb-4">
                   <li>• Seasonal payment schedules for tourist revenue cycles</li>
                   <li>• Off-season installation with spring payment starts</li>
-                  <li>• Quick approval for emergency tourist season repairs</li>
+                  <li>• Quick approval for prompt tourist season repairs</li>
                   <li>• Aesthetic upgrade financing for visitor appeal</li>
                   <li>• Family business extended payment terms</li>
                 </ul>

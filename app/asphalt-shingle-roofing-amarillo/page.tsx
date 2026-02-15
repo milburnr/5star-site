@@ -387,7 +387,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
                   
                   <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
                     <h4 className="text-lg font-bold text-yellow-800 mb-2">Storm Response Guarantee</h4>
-                    <p className="text-yellow-700 text-sm">Emergency tarping within 4 hours of storm damage. Priority scheduling for repairs after severe weather events.</p>
+                    <p className="text-yellow-700 text-sm">tarping within 4 hours of storm damage. Priority scheduling for repairs after severe weather events.</p>
                   </div>
                 </div>
               </div>

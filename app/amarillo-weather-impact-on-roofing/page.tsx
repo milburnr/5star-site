@@ -326,7 +326,7 @@ export default function Page() {
 
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Bi-Annual Professional Inspections:</strong> Spring pre-storm and fall post-storm assessments</li>
-          <li><strong>Post-Storm Emergency Inspections:</strong> Within 24-48 hours after hail or high wind events</li>
+          <li><strong>Post-Storm damage inspections:</strong> Within 24-48 hours after hail or high wind events</li>
           <li><strong>Quarterly Gutter Cleaning:</strong> Essential due to dust accumulation and seasonal debris</li>
           <li><strong>Monthly Visual Inspections:</strong> Check for missing granules, loose shingles, or damaged flashing</li>
           <li><strong>Attic Temperature Monitoring:</strong> Ensure proper ventilation and insulation performance</li>
@@ -343,7 +343,7 @@ export default function Page() {
             <li>Inspect for winter damage from freeze-thaw cycles</li>
             <li>Clean and repair gutters before storm season</li>
             <li>Check and re-secure loose shingles or flashing</li>
-            <li>Test emergency tarps and contact information</li>
+            <li>Test temporary tarps and contact information</li>
             <li>Review insurance coverage and deductibles</li>
           </ul>
 
@@ -519,7 +519,6 @@ export default function Page() {
             <li><strong>Material Warranty:</strong> Up to 50 years from manufacturer (lifetime on premium products)</li>
             <li><strong>Workmanship Warranty:</strong> 10-25 years on installation quality</li>
             <li><strong>Wind Resistance Guarantee:</strong> Coverage for specified wind speeds</li>
-            <li><strong>Storm Damage Response:</strong> Priority emergency service for warranty customers</li>
             <li><strong>Annual Maintenance:</strong> Optional maintenance plans to preserve warranty coverage</li>
             <li><strong>Transferable Coverage:</strong> Warranty transfers to new homeowners</li>
           </ul>
@@ -531,7 +530,7 @@ export default function Page() {
           <div className="bg-gray-50 p-6 rounded-lg">
             <h4 className="font-bold mb-2">How often should I have my roof inspected in Amarillo?</h4>
             <p>
-              We recommend professional inspections twice yearly—spring and fall—plus emergency inspections
+              We recommend professional inspections twice yearly—spring and fall—plus damage inspections
               after any significant weather event. Monthly visual inspections from the ground can help
               identify obvious problems between professional visits.
             </p>
@@ -642,21 +641,20 @@ export default function Page() {
 
         <p>
           Our local expertise means we understand these microclimate differences and adjust our roofing
-          recommendations accordingly. We maintain material stockpiles, certified crews, and emergency
+          recommendations accordingly. We maintain material stockpiles, certified crews, and storm
           response capabilities throughout the region to provide rapid service when severe weather strikes.
         </p>
 
-        <h3 className="text-xl font-bold mt-6 mb-3">Emergency Response Network</h3>
+        <h3 className="text-xl font-bold mt-6 mb-3">storm response Network</h3>
 
         <p>
-          When severe weather impacts West Texas, we mobilize our emergency response network to provide
+          When severe weather impacts West Texas, we mobilize our storm response network to provide
           priority service to affected areas. Our storm response protocol includes:
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mb-6">
-          <li><strong>Emergency Hotline:</strong> (806) 622-6041 for immediate storm damage assistance</li>
           <li><strong>Rapid Response Teams:</strong> Deployed within 2-4 hours of storm passage</li>
-          <li><strong>Emergency Tarping Services:</strong> Temporary protection while permanent repairs are scheduled</li>
+          <li><strong>tarping Services:</strong> Temporary protection while permanent repairs are scheduled</li>
           <li><strong>Insurance Coordination:</strong> On-site claim assistance and documentation</li>
           <li><strong>Material Priority:</strong> Pre-positioned inventory for faster repairs</li>
         </ul>
@@ -742,7 +740,6 @@ export default function Page() {
           <div>
             <h4 className="font-bold mb-3">Comprehensive Service</h4>
             <ul className="space-y-1 text-sm">
-              <li>• Emergency response capabilities</li>
               <li>• Complete residential and commercial services</li>
               <li>• Insurance claim assistance</li>
               <li>• Extended warranty protection</li>
@@ -762,9 +759,9 @@ export default function Page() {
 
         <p className="mb-6">
           Contact our team at <strong>(806) 622-6041</strong> for immediate assistance or to schedule your
-          <strong>free roof inspection</strong>. We provide same-day <strong>emergency services</strong>
+          <strong>free roof inspection</strong>. We provide same-day <strong>prompt services</strong>
           for storm damage and can typically schedule routine inspections within 24-48 hours. Our office
-          hours are 9 AM to 5 PM, Monday through Friday, but emergency calls are answered.
+          hours are 9 AM to 5 PM, Monday through Friday, but service calls are answered.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">Conclusion: Protecting Your Investment in Amarillo</h2>

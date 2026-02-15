@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-storm-damage-in-amarillo/' },
-  title: 'Emergency Storm Damage Roof Repair in Amarillo | 5 Star',
+  title: 'Storm Damage Roof Repair in Amarillo | 5 Star',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Canyon"},
       {"@type": "City", "name": "Bushland"}
     ],
-    "description": "Professional storm damage roof repair in Amarillo, Texas. Hail, wind, and rain damage restoration. Insurance claim assistance and emergency repairs."
+    "description": "Professional storm damage roof repair in Amarillo, Texas. Hail, wind, and rain damage restoration. Insurance claim assistance and prompt repairs."
   };
 
   return (
@@ -83,7 +83,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Expert Storm Damage Restoration for Amarillo Roofs</h2>
         <p className="text-lg">
-          The <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences some of the nation's most severe weather—from baseball-sized <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a> to sustained winds over 70 mph, heavy rain, and even tornadoes. At 5 Star Commercial Roofing, we specialize in comprehensive storm damage assessment, <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">emergency repairs</a>, and insurance claim assistance for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout Amarillo.
+          The <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences some of the nation's most severe weather—from baseball-sized <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a> to sustained winds over 70 mph, heavy rain, and even tornadoes. At 5 Star Commercial Roofing, we specialize in comprehensive storm damage assessment, <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">storm repairs</a>, and insurance claim assistance for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout Amarillo.
         </p>
         <p className="text-lg mt-4">
           After every major storm, our phones ring constantly from homeowners discovering roof damage. Most insurance policies in the Texas Panhandle cover storm damage—and we handle all paperwork, meet with adjusters, and ensure you receive full coverage. For severe damage, complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a> may be covered at only the cost of your deductible.
@@ -193,7 +193,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-bold mb-3 text-brand-brown">🌪️ Tornado & Severe Wind</h3>
             <p className="text-gray-600 mb-3">
-              Tornado touchdowns and downbursts can cause catastrophic damage including complete roof loss, structural damage, and extensive debris impacts requiring emergency repairs.
+              Tornado touchdowns and downbursts can cause catastrophic damage including complete roof loss, structural damage, and extensive debris impacts requiring prompt repairs.
             </p>
             <ul className="text-sm space-y-1">
               <li>✓ Extensive shingle loss</li>
@@ -206,15 +206,14 @@ export default function Page() {
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-red-800">🚨 Emergency Storm Damage Service</h3>
         <p className="mb-4">
-          When severe storms hit Amarillo, we provide emergency response to prevent further damage to your home or business. Our emergency services include:
+          When severe storms hit Amarillo, we provide storm response to prevent further damage to your home or business. Our prompt services include:
         </p>
         <div className="grid md:grid-cols-2 gap-4">
           <ul className="space-y-2">
             <li className="flex items-start">
               <span className="text-red-600 mr-2">✓</span>
-              <div>Emergency tarping for active leaks</div>
+              <div>tarping for active leaks</div>
             </li>
             <li className="flex items-start">
               <span className="text-red-600 mr-2">✓</span>
@@ -241,7 +240,7 @@ export default function Page() {
           </ul>
         </div>
         <p className="text-center font-bold mt-4">
-          <a href="tel:8066226041" className="text-red-800 hover:underline">Call (806) 622-6041 Now for Emergency Service</a>
+          <a href="tel:8066226041" className="text-red-800 hover:underline">Call (806) 622-6041 Now for prompt service</a>
         </p>
       </div>
 
@@ -322,7 +321,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Comprehensive Storm Damage Repair Solutions</h2>
         <p className="text-lg mb-6">
-          Every storm creates unique damage patterns. Our experienced team addresses all aspects of storm damage, from emergency stabilization to complete system reconstruction. We work with all roofing materials common in the Texas Panhandle and use proven repair techniques that restore your roof's integrity and longevity.
+          Every storm creates unique damage patterns. Our experienced team addresses all aspects of storm damage, from structural stabilization to complete system reconstruction. We work with all roofing materials common in the Texas Panhandle and use proven repair techniques that restore your roof's integrity and longevity.
         </p>
 
         <div className="space-y-6">
@@ -462,7 +461,6 @@ export default function Page() {
               <li>• Wind damage including blown-off roofing materials</li>
               <li>• Impact damage from flying debris</li>
               <li>• Interior water damage from roof leaks</li>
-              <li>• Emergency repair costs to prevent further damage</li>
               <li>• Code upgrades required during repairs</li>
               <li>• Complete roof replacement if damage exceeds threshold</li>
             </ul>
@@ -532,7 +530,6 @@ export default function Page() {
               <li>• Note time and duration of hail/high winds</li>
               <li>• Avoid going outside during the storm</li>
               <li>• Place buckets under any active leaks</li>
-              <li>• Contact emergency services if needed</li>
             </ul>
           </div>
           
@@ -545,7 +542,6 @@ export default function Page() {
               <li>• Schedule professional inspection within 48 hours</li>
               <li>• Contact insurance company to initiate claim</li>
               <li>• Arrange temporary repairs to prevent further damage</li>
-              <li>• Keep all receipts for emergency repairs</li>
             </ul>
           </div>
         </div>
@@ -615,14 +611,13 @@ export default function Page() {
                   <li>• Multiple EF1-EF2 tornadoes</li>
                   <li>• Large hail up to 3" diameter</li>
                   <li>• Widespread power outages</li>
-                  <li>• Emergency response activation</li>
                 </ul>
               </div>
               <div>
                 <p className="text-sm mb-2"><strong>Recovery Efforts:</strong></p>
                 <ul className="text-sm space-y-1">
                   <li>• prompt response for 72 hours</li>
-                  <li>• Emergency tarping for 45 homes</li>
+                  <li>• tarping for 45 homes</li>
                   <li>• Coordination with FEMA and insurance teams</li>
                   <li>• Complete reconstruction of 12 homes</li>
                 </ul>
@@ -635,7 +630,7 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Amarillo & Texas Panhandle</h2>
         <p className="text-lg mb-4">
-          Emergency storm damage services available throughout the region. Our crews are strategically positioned to respond quickly to storm events across the entire Texas Panhandle:
+          Storm damage services available throughout the region. Our crews are strategically positioned to respond quickly to storm events across the entire Texas Panhandle:
         </p>
         <div className="grid md:grid-cols-4 gap-4 mb-6">
           <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>
@@ -643,7 +638,7 @@ export default function Page() {
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Storm Damage</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Storm Damage</a>
           <a href="/pampa-tx-roofing/" className="text-brand-gold hover:underline">• Pampa Storm Repair</a>
-          <a href="/borger-tx-roofing/" className="text-brand-gold hover:underline">• Borger Emergency Service</a>
+          <a href="/borger-tx-roofing/" className="text-brand-gold hover:underline">• Borger prompt service</a>
           <a href="/plainview-tx-roofing/" className="text-brand-gold hover:underline">• Plainview Storm Response</a>
           <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
         </div>

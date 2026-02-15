@@ -1,0 +1,2212 @@
+{
+  "completed": [
+    "amarillo-tx/3310-3313-3317-southwest-6th-avenue",
+    "amarillo-tx/chattanooga-road",
+    "amarillo-tx/dahlia-street",
+    "amarillo-tx/echo-street",
+    "amarillo-tx/foxglove-street",
+    "amarillo-tx/morning-drive",
+    "amarillo-tx/nebraska-street",
+    "amarillo-tx/north-cleveland-street",
+    "amarillo-tx/north-maryland-street",
+    "amarillo-tx/opal-ct",
+    "amarillo-tx/progress-drive",
+    "amarillo-tx/sleepy-hollow-boulevard",
+    "amarillo-tx/south-bonham-street",
+    "amarillo-tx/south-independence-street",
+    "amarillo-tx/south-lipscomb-street",
+    "amarillo-tx/southwest-45th-avenue",
+    "amarillo-tx/sw-45th-ave",
+    "amarillo-tx/teckla-boulevard",
+    "amarillo-tx/tumbleweed-dr",
+    "borger-tx/concord-street",
+    "borger-tx/pinehurst-st",
+    "borger-tx/thompson-street",
+    "borger-tx/westhaven-drive",
+    "canyon-tx/conner",
+    "canyon-tx/conner-drive",
+    "canyon-tx/taylor-ln",
+    "canyon-tx/w-cementary",
+    "channing-tx/denver-avenue",
+    "channing-tx/santa-fe-avenue",
+    "channing-tx/west-6th-street",
+    "clarendon-tx/south-kearney-street",
+    "dalhart-tx/conlen-avenue",
+    "dalhart-tx/wagon-trail-rd",
+    "dalhart-tx/westlin-ave",
+    "dumas-tx/bradley-lane",
+    "dumas-tx/bruce-avenue",
+    "dumas-tx/floyd-avenue",
+    "dumas-tx/us-87",
+    "earth-tx/ne-1st",
+    "hereford-tx/blevins",
+    "hereford-tx/blevins-street",
+    "hereford-tx/centre",
+    "hereford-tx/elm-st",
+    "hereford-tx/fir",
+    "hereford-tx/ranger-street",
+    "hereford-tx/sunset-dr",
+    "levelland-tx/boston-road",
+    "levelland-tx/cherry-street",
+    "levelland-tx/us-385",
+    "lubbock-tx/35th-street",
+    "lubbock-tx/41st-street",
+    "lubbock-tx/85th-street",
+    "lubbock-tx/94th-street",
+    "lubbock-tx/95th-street",
+    "memphis-tx/fm-2361",
+    "memphis-tx/n-18th",
+    "memphis-tx/north-16th-street",
+    "memphis-tx/north-18th-street",
+    "midland-tx/hall-of-fame",
+    "midland-tx/mark-lane",
+    "midland-tx/mel-ott-ln",
+    "midland-tx/metz-dr",
+    "midland-tx/metz-drive",
+    "midland-tx/mile-high-lane",
+    "midland-tx/rangers-court",
+    "midland-tx/stanolind-avenue",
+    "midland-tx/thornridge",
+    "midland-tx/west-county-road-166",
+    "morton-tx/east-lincoln-avenue",
+    "odessa-tx/diana-avenue",
+    "odessa-tx/dublin-avenue",
+    "odessa-tx/east-100th-street",
+    "odessa-tx/east-93rd-street",
+    "odessa-tx/east-95th-street",
+    "odessa-tx/east-96th-street",
+    "odessa-tx/indigo-court",
+    "pampa-tx/north-aspen-drive",
+    "pampa-tx/north-dogwood-lane",
+    "pampa-tx/north-hobart-street",
+    "pampa-tx/white-acres-road",
+    "perryton-tx/s-baylor",
+    "perryton-tx/south-ash-street",
+    "perryton-tx/south-birch-street",
+    "perryton-tx/south-fordham-street",
+    "perryton-tx/south-kentucky-street",
+    "perryton-tx/utah-street",
+    "perryton-tx/west-loop-rd",
+    "plainview-tx/county-road-u",
+    "quitaque-tx/fourth-street",
+    "san-angelo-tx/lyndhurst-drive",
+    "san-angelo-tx/melrose-avenue",
+    "san-angelo-tx/willowbrook-dr",
+    "sanderson-tx/n-1st",
+    "sanderson-tx/west-hackberry-street",
+    "stinnett-tx/east-2nd-street",
+    "stinnett-tx/texas-152",
+    "wichita-falls-tx/berwick-dr",
+    "wichita-falls-tx/cromwell-ave",
+    "wichita-falls-tx/inlet-drive",
+    "wichita-falls-tx/natchez-trce",
+    "wichita-falls-tx/sand-beach-road",
+    "wolfforth-tx/8th-street"
+  ],
+  "results": {
+    "amarillo-tx/3310-3313-3317-southwest-6th-avenue": {
+      "city": "amarillo-tx",
+      "street": "3310-3313-3317-southwest-6th-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/3310-3313-3317-southwest-6th-avenue/3310-3313-3317-southwest-6th-avenue-after-10.webp",
+      "imageCount": 180,
+      "hasBeforeAfter": {
+        "before": 58,
+        "after": 122
+      },
+      "analysis": {
+        "roofType": "flat",
+        "buildingType": "unknown",
+        "roofColor": "white",
+        "condition": "unknown",
+        "features": [
+          "vent pipe",
+          "HVAC unit"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:29:38.393Z"
+    },
+    "amarillo-tx/chattanooga-road": {
+      "city": "amarillo-tx",
+      "street": "chattanooga-road",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/chattanooga-road/chattanooga-road-before-10.webp",
+      "imageCount": 25,
+      "hasBeforeAfter": {
+        "before": 25,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "repair-in-progress",
+        "features": [
+          "skylights"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:42.096Z"
+    },
+    "amarillo-tx/dahlia-street": {
+      "city": "amarillo-tx",
+      "street": "dahlia-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/dahlia-street/dahlia-street-before-1.webp",
+      "imageCount": 5,
+      "hasBeforeAfter": {
+        "before": 5,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:44.790Z"
+    },
+    "amarillo-tx/echo-street": {
+      "city": "amarillo-tx",
+      "street": "echo-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/echo-street/echo-street-after-14.webp",
+      "imageCount": 8,
+      "hasBeforeAfter": {
+        "before": 0,
+        "after": 8
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:47.097Z"
+    },
+    "amarillo-tx/foxglove-street": {
+      "city": "amarillo-tx",
+      "street": "foxglove-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/foxglove-street/foxglove-street-after-1.webp",
+      "imageCount": 30,
+      "hasBeforeAfter": {
+        "before": 28,
+        "after": 2
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:49.500Z"
+    },
+    "amarillo-tx/morning-drive": {
+      "city": "amarillo-tx",
+      "street": "morning-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/morning-drive/morning-drive-before-10.webp",
+      "imageCount": 33,
+      "hasBeforeAfter": {
+        "before": 33,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "damaged",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:52.230Z"
+    },
+    "amarillo-tx/nebraska-street": {
+      "city": "amarillo-tx",
+      "street": "nebraska-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/nebraska-street/nebraska-street-before-1.webp",
+      "imageCount": 24,
+      "hasBeforeAfter": {
+        "before": 24,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark brown",
+        "condition": "new",
+        "features": [
+          "vent",
+          "ridge cap"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:55.228Z"
+    },
+    "amarillo-tx/north-cleveland-street": {
+      "city": "amarillo-tx",
+      "street": "north-cleveland-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/north-cleveland-street/north-cleveland-street-after-2.webp",
+      "imageCount": 8,
+      "hasBeforeAfter": {
+        "before": 4,
+        "after": 4
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "unknown",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:56.642Z"
+    },
+    "amarillo-tx/north-maryland-street": {
+      "city": "amarillo-tx",
+      "street": "north-maryland-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/north-maryland-street/north-maryland-street-before-1.webp",
+      "imageCount": 22,
+      "hasBeforeAfter": {
+        "before": 22,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark brown",
+        "condition": "repair-in-progress",
+        "features": [
+          "venting system"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:29:58.722Z"
+    },
+    "amarillo-tx/opal-ct": {
+      "city": "amarillo-tx",
+      "street": "opal-ct",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/opal-ct/opal-ct-before-1.webp",
+      "imageCount": 29,
+      "hasBeforeAfter": {
+        "before": 29,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:01.657Z"
+    },
+    "amarillo-tx/progress-drive": {
+      "city": "amarillo-tx",
+      "street": "progress-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/progress-drive/progress-drive-before-1.webp",
+      "imageCount": 41,
+      "hasBeforeAfter": {
+        "before": 41,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "unknown",
+        "roofColor": "gray",
+        "condition": "unknown",
+        "features": [],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:30:04.544Z"
+    },
+    "amarillo-tx/sleepy-hollow-boulevard": {
+      "city": "amarillo-tx",
+      "street": "sleepy-hollow-boulevard",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/sleepy-hollow-boulevard/sleepy-hollow-boulevard-after-1.webp",
+      "imageCount": 48,
+      "hasBeforeAfter": {
+        "before": 28,
+        "after": 20
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:07.935Z"
+    },
+    "amarillo-tx/south-bonham-street": {
+      "city": "amarillo-tx",
+      "street": "south-bonham-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/south-bonham-street/south-bonham-street-after-2.webp",
+      "imageCount": 18,
+      "hasBeforeAfter": {
+        "before": 13,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "vent pipes",
+          "dormers"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:10.156Z"
+    },
+    "amarillo-tx/south-independence-street": {
+      "city": "amarillo-tx",
+      "street": "south-independence-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/south-independence-street/south-independence-street-before-1.webp",
+      "imageCount": 7,
+      "hasBeforeAfter": {
+        "before": 7,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:12.290Z"
+    },
+    "amarillo-tx/south-lipscomb-street": {
+      "city": "amarillo-tx",
+      "street": "south-lipscomb-street",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/south-lipscomb-street/south-lipscomb-street-after-1.webp",
+      "imageCount": 11,
+      "hasBeforeAfter": {
+        "before": 3,
+        "after": 8
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark brown",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:14.770Z"
+    },
+    "amarillo-tx/southwest-45th-avenue": {
+      "city": "amarillo-tx",
+      "street": "southwest-45th-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/southwest-45th-avenue/southwest-45th-avenue-before-10.webp",
+      "imageCount": 11,
+      "hasBeforeAfter": {
+        "before": 11,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "flat",
+        "buildingType": "commercial",
+        "roofColor": "white",
+        "condition": "completed",
+        "features": [
+          "HVAC unit",
+          "vents"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:16.771Z"
+    },
+    "amarillo-tx/sw-45th-ave": {
+      "city": "amarillo-tx",
+      "street": "sw-45th-ave",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/sw-45th-ave/sw-45th-ave-before-1.webp",
+      "imageCount": 8,
+      "hasBeforeAfter": {
+        "before": 8,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "flat",
+        "buildingType": "unknown",
+        "roofColor": "white",
+        "condition": "new",
+        "features": [
+          "vent pipe"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:18.773Z"
+    },
+    "amarillo-tx/teckla-boulevard": {
+      "city": "amarillo-tx",
+      "street": "teckla-boulevard",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/teckla-boulevard/teckla-boulevard-before-1.webp",
+      "imageCount": 10,
+      "hasBeforeAfter": {
+        "before": 10,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "vent caps"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:22.882Z"
+    },
+    "amarillo-tx/tumbleweed-dr": {
+      "city": "amarillo-tx",
+      "street": "tumbleweed-dr",
+      "sampleImage": "/Users/bo/Photos/5-star/amarillo-tx/tumbleweed-dr/tumbleweed-dr-after-1.webp",
+      "imageCount": 12,
+      "hasBeforeAfter": {
+        "before": 7,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "completed",
+        "features": [
+          "ventilation fan"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:25.521Z"
+    },
+    "borger-tx/concord-street": {
+      "city": "borger-tx",
+      "street": "concord-street",
+      "sampleImage": "/Users/bo/Photos/5-star/borger-tx/concord-street/concord-street-after-1.webp",
+      "imageCount": 61,
+      "hasBeforeAfter": {
+        "before": 49,
+        "after": 12
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "damaged",
+        "features": [],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:30:28.053Z"
+    },
+    "borger-tx/pinehurst-st": {
+      "city": "borger-tx",
+      "street": "pinehurst-st",
+      "sampleImage": "/Users/bo/Photos/5-star/borger-tx/pinehurst-st/pinehurst-st-after-1.webp",
+      "imageCount": 34,
+      "hasBeforeAfter": {
+        "before": 25,
+        "after": 9
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:31.134Z"
+    },
+    "borger-tx/thompson-street": {
+      "city": "borger-tx",
+      "street": "thompson-street",
+      "sampleImage": "/Users/bo/Photos/5-star/borger-tx/thompson-street/thompson-street-before-10.webp",
+      "imageCount": 9,
+      "hasBeforeAfter": {
+        "before": 9,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "grey",
+        "condition": "new",
+        "features": [
+          "vent pipe",
+          "cap"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:34.088Z"
+    },
+    "borger-tx/westhaven-drive": {
+      "city": "borger-tx",
+      "street": "westhaven-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/borger-tx/westhaven-drive/westhaven-drive-before-11.webp",
+      "imageCount": 53,
+      "hasBeforeAfter": {
+        "before": 53,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "chimney",
+          "vent"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:36.753Z"
+    },
+    "canyon-tx/conner": {
+      "city": "canyon-tx",
+      "street": "conner",
+      "sampleImage": "/Users/bo/Photos/5-star/canyon-tx/conner/conner-before-11.webp",
+      "imageCount": 30,
+      "hasBeforeAfter": {
+        "before": 30,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "residential",
+        "roofColor": "not visible",
+        "condition": "repair-in-progress",
+        "features": [],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:30:39.498Z"
+    },
+    "canyon-tx/conner-drive": {
+      "city": "canyon-tx",
+      "street": "conner-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/canyon-tx/conner-drive/conner-drive-after-1.webp",
+      "imageCount": 34,
+      "hasBeforeAfter": {
+        "before": 28,
+        "after": 6
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [
+          "none"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:42.043Z"
+    },
+    "canyon-tx/taylor-ln": {
+      "city": "canyon-tx",
+      "street": "taylor-ln",
+      "sampleImage": "/Users/bo/Photos/5-star/canyon-tx/taylor-ln/taylor-ln-after-1.webp",
+      "imageCount": 38,
+      "hasBeforeAfter": {
+        "before": 16,
+        "after": 22
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "unknown",
+        "features": [],
+        "confidence": 10
+      },
+      "analyzedAt": "2026-02-10T23:30:43.973Z"
+    },
+    "canyon-tx/w-cementary": {
+      "city": "canyon-tx",
+      "street": "w-cementary",
+      "sampleImage": "/Users/bo/Photos/5-star/canyon-tx/w-cementary/w-cementary-after-1.webp",
+      "imageCount": 81,
+      "hasBeforeAfter": {
+        "before": 73,
+        "after": 8
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark brown",
+        "condition": "new",
+        "features": [
+          "chimney"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:46.196Z"
+    },
+    "channing-tx/denver-avenue": {
+      "city": "channing-tx",
+      "street": "denver-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/channing-tx/denver-avenue/denver-avenue-after-1.webp",
+      "imageCount": 24,
+      "hasBeforeAfter": {
+        "before": 21,
+        "after": 3
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "commercial",
+        "roofColor": "reddish-orange and tan",
+        "condition": "completed",
+        "features": [
+          "steeple",
+          "gutter",
+          "decorative trim"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:48.549Z"
+    },
+    "channing-tx/santa-fe-avenue": {
+      "city": "channing-tx",
+      "street": "santa-fe-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/channing-tx/santa-fe-avenue/santa-fe-avenue-after-1.webp",
+      "imageCount": 83,
+      "hasBeforeAfter": {
+        "before": 46,
+        "after": 37
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:51.043Z"
+    },
+    "channing-tx/west-6th-street": {
+      "city": "channing-tx",
+      "street": "west-6th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/channing-tx/west-6th-street/west-6th-street-after-10.webp",
+      "imageCount": 321,
+      "hasBeforeAfter": {
+        "before": 59,
+        "after": 262
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "unknown",
+        "roofColor": "silver",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:53.108Z"
+    },
+    "clarendon-tx/south-kearney-street": {
+      "city": "clarendon-tx",
+      "street": "south-kearney-street",
+      "sampleImage": "/Users/bo/Photos/5-star/clarendon-tx/south-kearney-street/south-kearney-street-after-1.webp",
+      "imageCount": 36,
+      "hasBeforeAfter": {
+        "before": 16,
+        "after": 20
+      },
+      "analysis": {
+        "roofType": "flat",
+        "buildingType": "unknown",
+        "roofColor": "white",
+        "condition": "new",
+        "features": [
+          "unknown"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:30:54.762Z"
+    },
+    "dalhart-tx/conlen-avenue": {
+      "city": "dalhart-tx",
+      "street": "conlen-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/dalhart-tx/conlen-avenue/conlen-avenue-after-1.webp",
+      "imageCount": 71,
+      "hasBeforeAfter": {
+        "before": 18,
+        "after": 53
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 80
+      },
+      "analyzedAt": "2026-02-10T23:30:57.304Z"
+    },
+    "dalhart-tx/wagon-trail-rd": {
+      "city": "dalhart-tx",
+      "street": "wagon-trail-rd",
+      "sampleImage": "/Users/bo/Photos/5-star/dalhart-tx/wagon-trail-rd/wagon-trail-rd-before-1.webp",
+      "imageCount": 17,
+      "hasBeforeAfter": {
+        "before": 17,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:30:59.889Z"
+    },
+    "dalhart-tx/westlin-ave": {
+      "city": "dalhart-tx",
+      "street": "westlin-ave",
+      "sampleImage": "/Users/bo/Photos/5-star/dalhart-tx/westlin-ave/westlin-ave-before-1.webp",
+      "imageCount": 12,
+      "hasBeforeAfter": {
+        "before": 12,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "unknown",
+        "roofColor": "gray",
+        "condition": "repair-in-progress",
+        "features": [
+          "chimney"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:31:02.631Z"
+    },
+    "dumas-tx/bradley-lane": {
+      "city": "dumas-tx",
+      "street": "bradley-lane",
+      "sampleImage": "/Users/bo/Photos/5-star/dumas-tx/bradley-lane/bradley-lane-before-1.webp",
+      "imageCount": 30,
+      "hasBeforeAfter": {
+        "before": 30,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "completed",
+        "features": [
+          "skylight"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:05.415Z"
+    },
+    "dumas-tx/bruce-avenue": {
+      "city": "dumas-tx",
+      "street": "bruce-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/dumas-tx/bruce-avenue/bruce-avenue-after-1.webp",
+      "imageCount": 45,
+      "hasBeforeAfter": {
+        "before": 35,
+        "after": 10
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [
+          "none"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:08.366Z"
+    },
+    "dumas-tx/floyd-avenue": {
+      "city": "dumas-tx",
+      "street": "floyd-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/dumas-tx/floyd-avenue/floyd-avenue-after-1.webp",
+      "imageCount": 32,
+      "hasBeforeAfter": {
+        "before": 23,
+        "after": 9
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black and grey",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:10.680Z"
+    },
+    "dumas-tx/us-87": {
+      "city": "dumas-tx",
+      "street": "us-87",
+      "sampleImage": "/Users/bo/Photos/5-star/dumas-tx/us-87/us-87-after-10.webp",
+      "imageCount": 71,
+      "hasBeforeAfter": {
+        "before": 62,
+        "after": 9
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "damaged",
+        "features": [],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:31:12.518Z"
+    },
+    "earth-tx/ne-1st": {
+      "city": "earth-tx",
+      "street": "ne-1st",
+      "sampleImage": "/Users/bo/Photos/5-star/earth-tx/ne-1st/ne-1st-after-1.webp",
+      "imageCount": 81,
+      "hasBeforeAfter": {
+        "before": 77,
+        "after": 4
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:14.515Z"
+    },
+    "hereford-tx/blevins": {
+      "city": "hereford-tx",
+      "street": "blevins",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/blevins/blevins-before-1.webp",
+      "imageCount": 37,
+      "hasBeforeAfter": {
+        "before": 37,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:16.582Z"
+    },
+    "hereford-tx/blevins-street": {
+      "city": "hereford-tx",
+      "street": "blevins-street",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/blevins-street/blevins-street-after-1.webp",
+      "imageCount": 5,
+      "hasBeforeAfter": {
+        "before": 0,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "completed",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:18.641Z"
+    },
+    "hereford-tx/centre": {
+      "city": "hereford-tx",
+      "street": "centre",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/centre/centre-after-1.webp",
+      "imageCount": 54,
+      "hasBeforeAfter": {
+        "before": 25,
+        "after": 29
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "repair-in-progress",
+        "features": [
+          "ladder",
+          "trees",
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:21.141Z"
+    },
+    "hereford-tx/elm-st": {
+      "city": "hereford-tx",
+      "street": "elm-st",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/elm-st/elm-st-before-1.webp",
+      "imageCount": 37,
+      "hasBeforeAfter": {
+        "before": 37,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [
+          "vents",
+          "gables"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:23.054Z"
+    },
+    "hereford-tx/fir": {
+      "city": "hereford-tx",
+      "street": "fir",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/fir/fir-after-1.webp",
+      "imageCount": 54,
+      "hasBeforeAfter": {
+        "before": 49,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:24.775Z"
+    },
+    "hereford-tx/ranger-street": {
+      "city": "hereford-tx",
+      "street": "ranger-street",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/ranger-street/ranger-street-before-10.webp",
+      "imageCount": 27,
+      "hasBeforeAfter": {
+        "before": 27,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:26.834Z"
+    },
+    "hereford-tx/sunset-dr": {
+      "city": "hereford-tx",
+      "street": "sunset-dr",
+      "sampleImage": "/Users/bo/Photos/5-star/hereford-tx/sunset-dr/sunset-dr-after-2.webp",
+      "imageCount": 135,
+      "hasBeforeAfter": {
+        "before": 133,
+        "after": 2
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 90
+      },
+      "analyzedAt": "2026-02-10T23:31:28.631Z"
+    },
+    "levelland-tx/boston-road": {
+      "city": "levelland-tx",
+      "street": "boston-road",
+      "sampleImage": "/Users/bo/Photos/5-star/levelland-tx/boston-road/boston-road-after-2.webp",
+      "imageCount": 39,
+      "hasBeforeAfter": {
+        "before": 38,
+        "after": 1
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "completed",
+        "features": [
+          "chimney",
+          "power attic vent covers",
+          "high profile ridge"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:31.089Z"
+    },
+    "levelland-tx/cherry-street": {
+      "city": "levelland-tx",
+      "street": "cherry-street",
+      "sampleImage": "/Users/bo/Photos/5-star/levelland-tx/cherry-street/cherry-street-before-10.webp",
+      "imageCount": 18,
+      "hasBeforeAfter": {
+        "before": 18,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "unknown",
+        "features": [],
+        "confidence": 50
+      },
+      "analyzedAt": "2026-02-10T23:31:32.948Z"
+    },
+    "levelland-tx/us-385": {
+      "city": "levelland-tx",
+      "street": "us-385",
+      "sampleImage": "/Users/bo/Photos/5-star/levelland-tx/us-385/us-385-before-10.webp",
+      "imageCount": 20,
+      "hasBeforeAfter": {
+        "before": 20,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "repair-in-progress",
+        "features": [
+          "gutters",
+          "unknown"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:31:34.856Z"
+    },
+    "lubbock-tx/35th-street": {
+      "city": "lubbock-tx",
+      "street": "35th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/lubbock-tx/35th-street/35th-street-before-13.webp",
+      "imageCount": 18,
+      "hasBeforeAfter": {
+        "before": 18,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "light gray",
+        "condition": "new",
+        "features": [
+          "vent pipe"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:37.481Z"
+    },
+    "lubbock-tx/41st-street": {
+      "city": "lubbock-tx",
+      "street": "41st-street",
+      "sampleImage": "/Users/bo/Photos/5-star/lubbock-tx/41st-street/41st-street-before-1.webp",
+      "imageCount": 63,
+      "hasBeforeAfter": {
+        "before": 63,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "light beige",
+        "condition": "new",
+        "features": [
+          "vent pipe"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:39.878Z"
+    },
+    "lubbock-tx/85th-street": {
+      "city": "lubbock-tx",
+      "street": "85th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/lubbock-tx/85th-street/85th-street-before-12.webp",
+      "imageCount": 59,
+      "hasBeforeAfter": {
+        "before": 59,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown and gray",
+        "condition": "repair-in-progress",
+        "features": [
+          "vents",
+          "roofing materials"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:42.417Z"
+    },
+    "lubbock-tx/94th-street": {
+      "city": "lubbock-tx",
+      "street": "94th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/lubbock-tx/94th-street/94th-street-before-1.webp",
+      "imageCount": 66,
+      "hasBeforeAfter": {
+        "before": 66,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "unknown",
+        "roofColor": "black",
+        "condition": "damaged",
+        "features": [],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:31:44.906Z"
+    },
+    "lubbock-tx/95th-street": {
+      "city": "lubbock-tx",
+      "street": "95th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/lubbock-tx/95th-street/95th-street-before-1.webp",
+      "imageCount": 4,
+      "hasBeforeAfter": {
+        "before": 4,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:47.608Z"
+    },
+    "memphis-tx/fm-2361": {
+      "city": "memphis-tx",
+      "street": "fm-2361",
+      "sampleImage": "/Users/bo/Photos/5-star/memphis-tx/fm-2361/fm-2361-after-1.webp",
+      "imageCount": 94,
+      "hasBeforeAfter": {
+        "before": 92,
+        "after": 2
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "residential",
+        "roofColor": "red",
+        "condition": "repair-in-progress",
+        "features": [
+          "gutters",
+          "ladder"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:50.370Z"
+    },
+    "memphis-tx/n-18th": {
+      "city": "memphis-tx",
+      "street": "n-18th",
+      "sampleImage": "/Users/bo/Photos/5-star/memphis-tx/n-18th/n-18th-before-1.webp",
+      "imageCount": 12,
+      "hasBeforeAfter": {
+        "before": 12,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:52.207Z"
+    },
+    "memphis-tx/north-16th-street": {
+      "city": "memphis-tx",
+      "street": "north-16th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/memphis-tx/north-16th-street/north-16th-street-after-1.webp",
+      "imageCount": 54,
+      "hasBeforeAfter": {
+        "before": 34,
+        "after": 20
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "unknown",
+        "features": [],
+        "confidence": 0
+      },
+      "analyzedAt": "2026-02-10T23:31:54.120Z"
+    },
+    "memphis-tx/north-18th-street": {
+      "city": "memphis-tx",
+      "street": "north-18th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/memphis-tx/north-18th-street/north-18th-street-after-1.webp",
+      "imageCount": 27,
+      "hasBeforeAfter": {
+        "before": 22,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:56.330Z"
+    },
+    "midland-tx/hall-of-fame": {
+      "city": "midland-tx",
+      "street": "hall-of-fame",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/hall-of-fame/hall-of-fame-after-1.webp",
+      "imageCount": 55,
+      "hasBeforeAfter": {
+        "before": 48,
+        "after": 7
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:31:59.110Z"
+    },
+    "midland-tx/mark-lane": {
+      "city": "midland-tx",
+      "street": "mark-lane",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/mark-lane/mark-lane-after-1.webp",
+      "imageCount": 27,
+      "hasBeforeAfter": {
+        "before": 17,
+        "after": 10
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "new",
+        "features": [
+          "vents",
+          "chimney"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:01.699Z"
+    },
+    "midland-tx/mel-ott-ln": {
+      "city": "midland-tx",
+      "street": "mel-ott-ln",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/mel-ott-ln/mel-ott-ln-before-1.webp",
+      "imageCount": 168,
+      "hasBeforeAfter": {
+        "before": 168,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:04.493Z"
+    },
+    "midland-tx/metz-dr": {
+      "city": "midland-tx",
+      "street": "metz-dr",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/metz-dr/metz-dr-before-1.webp",
+      "imageCount": 106,
+      "hasBeforeAfter": {
+        "before": 106,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "ventilation caps"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:07.310Z"
+    },
+    "midland-tx/metz-drive": {
+      "city": "midland-tx",
+      "street": "metz-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/metz-drive/metz-drive-before-1.webp",
+      "imageCount": 10,
+      "hasBeforeAfter": {
+        "before": 10,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:08.877Z"
+    },
+    "midland-tx/mile-high-lane": {
+      "city": "midland-tx",
+      "street": "mile-high-lane",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/mile-high-lane/mile-high-lane-before-3.webp",
+      "imageCount": 7,
+      "hasBeforeAfter": {
+        "before": 7,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "varied shades of gray and brown",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:10.665Z"
+    },
+    "midland-tx/rangers-court": {
+      "city": "midland-tx",
+      "street": "rangers-court",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/rangers-court/rangers-court-after-1.webp",
+      "imageCount": 73,
+      "hasBeforeAfter": {
+        "before": 64,
+        "after": 9
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:12.529Z"
+    },
+    "midland-tx/stanolind-avenue": {
+      "city": "midland-tx",
+      "street": "stanolind-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/stanolind-avenue/stanolind-avenue-after-1.webp",
+      "imageCount": 70,
+      "hasBeforeAfter": {
+        "before": 60,
+        "after": 10
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "repair-in-progress",
+        "features": [],
+        "confidence": 70
+      },
+      "analyzedAt": "2026-02-10T23:32:14.841Z"
+    },
+    "midland-tx/thornridge": {
+      "city": "midland-tx",
+      "street": "thornridge",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/thornridge/thornridge-before-1.webp",
+      "imageCount": 26,
+      "hasBeforeAfter": {
+        "before": 26,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray with lighter gray accents",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:17.086Z"
+    },
+    "midland-tx/west-county-road-166": {
+      "city": "midland-tx",
+      "street": "west-county-road-166",
+      "sampleImage": "/Users/bo/Photos/5-star/midland-tx/west-county-road-166/west-county-road-166-before-1.webp",
+      "imageCount": 108,
+      "hasBeforeAfter": {
+        "before": 108,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:18.740Z"
+    },
+    "morton-tx/east-lincoln-avenue": {
+      "city": "morton-tx",
+      "street": "east-lincoln-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/morton-tx/east-lincoln-avenue/east-lincoln-avenue-after-1.webp",
+      "imageCount": 90,
+      "hasBeforeAfter": {
+        "before": 0,
+        "after": 90
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray with lighter gray accents",
+        "condition": "new",
+        "features": [
+          "none"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:21.420Z"
+    },
+    "odessa-tx/diana-avenue": {
+      "city": "odessa-tx",
+      "street": "diana-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/diana-avenue/diana-avenue-after-1.webp",
+      "imageCount": 66,
+      "hasBeforeAfter": {
+        "before": 20,
+        "after": 46
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "unknown",
+        "roofColor": "silver",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:24.021Z"
+    },
+    "odessa-tx/dublin-avenue": {
+      "city": "odessa-tx",
+      "street": "dublin-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/dublin-avenue/dublin-avenue-after-1.webp",
+      "imageCount": 40,
+      "hasBeforeAfter": {
+        "before": 31,
+        "after": 9
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:26.689Z"
+    },
+    "odessa-tx/east-100th-street": {
+      "city": "odessa-tx",
+      "street": "east-100th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/east-100th-street/east-100th-street-before-14.webp",
+      "imageCount": 32,
+      "hasBeforeAfter": {
+        "before": 32,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown with gray",
+        "condition": "repair-in-progress",
+        "features": [
+          "vent"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:29.459Z"
+    },
+    "odessa-tx/east-93rd-street": {
+      "city": "odessa-tx",
+      "street": "east-93rd-street",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/east-93rd-street/east-93rd-street-after-1.webp",
+      "imageCount": 28,
+      "hasBeforeAfter": {
+        "before": 21,
+        "after": 7
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:31.899Z"
+    },
+    "odessa-tx/east-95th-street": {
+      "city": "odessa-tx",
+      "street": "east-95th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/east-95th-street/east-95th-street-after-1.webp",
+      "imageCount": 53,
+      "hasBeforeAfter": {
+        "before": 49,
+        "after": 4
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray with lighter shades",
+        "condition": "new",
+        "features": [
+          "vents"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:35.509Z"
+    },
+    "odessa-tx/east-96th-street": {
+      "city": "odessa-tx",
+      "street": "east-96th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/east-96th-street/east-96th-street-after-1.webp",
+      "imageCount": 47,
+      "hasBeforeAfter": {
+        "before": 28,
+        "after": 19
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "unknown",
+        "roofColor": "dark gray",
+        "condition": "unknown",
+        "features": [],
+        "confidence": 80
+      },
+      "analyzedAt": "2026-02-10T23:32:39.560Z"
+    },
+    "odessa-tx/indigo-court": {
+      "city": "odessa-tx",
+      "street": "indigo-court",
+      "sampleImage": "/Users/bo/Photos/5-star/odessa-tx/indigo-court/indigo-court-before-10.webp",
+      "imageCount": 44,
+      "hasBeforeAfter": {
+        "before": 44,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:41.940Z"
+    },
+    "pampa-tx/north-aspen-drive": {
+      "city": "pampa-tx",
+      "street": "north-aspen-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/pampa-tx/north-aspen-drive/north-aspen-drive-after-3.webp",
+      "imageCount": 34,
+      "hasBeforeAfter": {
+        "before": 32,
+        "after": 2
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "repair-in-progress",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:44.572Z"
+    },
+    "pampa-tx/north-dogwood-lane": {
+      "city": "pampa-tx",
+      "street": "north-dogwood-lane",
+      "sampleImage": "/Users/bo/Photos/5-star/pampa-tx/north-dogwood-lane/north-dogwood-lane-after-1.webp",
+      "imageCount": 66,
+      "hasBeforeAfter": {
+        "before": 48,
+        "after": 18
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutter"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:46.441Z"
+    },
+    "pampa-tx/north-hobart-street": {
+      "city": "pampa-tx",
+      "street": "north-hobart-street",
+      "sampleImage": "/Users/bo/Photos/5-star/pampa-tx/north-hobart-street/north-hobart-street-before-1.webp",
+      "imageCount": 50,
+      "hasBeforeAfter": {
+        "before": 50,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "flat",
+        "buildingType": "unknown",
+        "roofColor": "gray",
+        "condition": "unknown",
+        "features": [
+          "vent pipe"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:32:48.937Z"
+    },
+    "pampa-tx/white-acres-road": {
+      "city": "pampa-tx",
+      "street": "white-acres-road",
+      "sampleImage": "/Users/bo/Photos/5-star/pampa-tx/white-acres-road/white-acres-road-after-1.webp",
+      "imageCount": 41,
+      "hasBeforeAfter": {
+        "before": 34,
+        "after": 6
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "grey",
+        "condition": "new",
+        "features": [
+          "gutters",
+          "chimney"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:50.702Z"
+    },
+    "perryton-tx/s-baylor": {
+      "city": "perryton-tx",
+      "street": "s-baylor",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/s-baylor/s-baylor-after-1.webp",
+      "imageCount": 97,
+      "hasBeforeAfter": {
+        "before": 46,
+        "after": 51
+      },
+      "analysis": {
+        "roofType": "tile",
+        "buildingType": "residential",
+        "roofColor": "orange",
+        "condition": "new",
+        "features": [
+          "none"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:53.274Z"
+    },
+    "perryton-tx/south-ash-street": {
+      "city": "perryton-tx",
+      "street": "south-ash-street",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/south-ash-street/south-ash-street-before-1.webp",
+      "imageCount": 22,
+      "hasBeforeAfter": {
+        "before": 22,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "unknown",
+        "roofColor": "unknown",
+        "condition": "unknown",
+        "features": [],
+        "confidence": 0
+      },
+      "analyzedAt": "2026-02-10T23:32:55.099Z"
+    },
+    "perryton-tx/south-birch-street": {
+      "city": "perryton-tx",
+      "street": "south-birch-street",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/south-birch-street/south-birch-street-before-1.webp",
+      "imageCount": 4,
+      "hasBeforeAfter": {
+        "before": 4,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:57.144Z"
+    },
+    "perryton-tx/south-fordham-street": {
+      "city": "perryton-tx",
+      "street": "south-fordham-street",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/south-fordham-street/south-fordham-street-after-1.webp",
+      "imageCount": 43,
+      "hasBeforeAfter": {
+        "before": 37,
+        "after": 6
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "damaged",
+        "features": [
+          "chimney",
+          "flag"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:32:59.033Z"
+    },
+    "perryton-tx/south-kentucky-street": {
+      "city": "perryton-tx",
+      "street": "south-kentucky-street",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/south-kentucky-street/south-kentucky-street-before-1.webp",
+      "imageCount": 18,
+      "hasBeforeAfter": {
+        "before": 18,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "completed",
+        "features": [
+          "vent pipe"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:02.576Z"
+    },
+    "perryton-tx/utah-street": {
+      "city": "perryton-tx",
+      "street": "utah-street",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/utah-street/utah-street-before-1.webp",
+      "imageCount": 34,
+      "hasBeforeAfter": {
+        "before": 34,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray and black",
+        "condition": "new",
+        "features": [
+          "vent pipe"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:05.138Z"
+    },
+    "perryton-tx/west-loop-rd": {
+      "city": "perryton-tx",
+      "street": "west-loop-rd",
+      "sampleImage": "/Users/bo/Photos/5-star/perryton-tx/west-loop-rd/west-loop-rd-after-1.webp",
+      "imageCount": 151,
+      "hasBeforeAfter": {
+        "before": 146,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "unknown",
+        "buildingType": "residential",
+        "roofColor": "black",
+        "condition": "repair-in-progress",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 70
+      },
+      "analyzedAt": "2026-02-10T23:33:07.567Z"
+    },
+    "plainview-tx/county-road-u": {
+      "city": "plainview-tx",
+      "street": "county-road-u",
+      "sampleImage": "/Users/bo/Photos/5-star/plainview-tx/county-road-u/county-road-u-before-1.webp",
+      "imageCount": 14,
+      "hasBeforeAfter": {
+        "before": 14,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "commercial",
+        "roofColor": "gray",
+        "condition": "completed",
+        "features": [
+          "ridge vents"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:09.528Z"
+    },
+    "quitaque-tx/fourth-street": {
+      "city": "quitaque-tx",
+      "street": "fourth-street",
+      "sampleImage": "/Users/bo/Photos/5-star/quitaque-tx/fourth-street/fourth-street-before-1.webp",
+      "imageCount": 10,
+      "hasBeforeAfter": {
+        "before": 10,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:12.341Z"
+    },
+    "san-angelo-tx/lyndhurst-drive": {
+      "city": "san-angelo-tx",
+      "street": "lyndhurst-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/san-angelo-tx/lyndhurst-drive/lyndhurst-drive-before-10.webp",
+      "imageCount": 56,
+      "hasBeforeAfter": {
+        "before": 56,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [
+          "chimney",
+          "vent",
+          "solar panels"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:14.930Z"
+    },
+    "san-angelo-tx/melrose-avenue": {
+      "city": "san-angelo-tx",
+      "street": "melrose-avenue",
+      "sampleImage": "/Users/bo/Photos/5-star/san-angelo-tx/melrose-avenue/melrose-avenue-after-1.webp",
+      "imageCount": 19,
+      "hasBeforeAfter": {
+        "before": 14,
+        "after": 5
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "dark gray",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:17.369Z"
+    },
+    "san-angelo-tx/willowbrook-dr": {
+      "city": "san-angelo-tx",
+      "street": "willowbrook-dr",
+      "sampleImage": "/Users/bo/Photos/5-star/san-angelo-tx/willowbrook-dr/willowbrook-dr-after-1.webp",
+      "imageCount": 119,
+      "hasBeforeAfter": {
+        "before": 92,
+        "after": 27
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:20.830Z"
+    },
+    "sanderson-tx/n-1st": {
+      "city": "sanderson-tx",
+      "street": "n-1st",
+      "sampleImage": "/Users/bo/Photos/5-star/sanderson-tx/n-1st/n-1st-before-1.webp",
+      "imageCount": 45,
+      "hasBeforeAfter": {
+        "before": 45,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "damaged",
+        "features": [
+          "gutters",
+          "chimney"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:33:22.692Z"
+    },
+    "sanderson-tx/west-hackberry-street": {
+      "city": "sanderson-tx",
+      "street": "west-hackberry-street",
+      "sampleImage": "/Users/bo/Photos/5-star/sanderson-tx/west-hackberry-street/west-hackberry-street-before-1.webp",
+      "imageCount": 13,
+      "hasBeforeAfter": {
+        "before": 13,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "repair-in-progress",
+        "features": [
+          "solar panel",
+          "vent pipes"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:24.650Z"
+    },
+    "stinnett-tx/east-2nd-street": {
+      "city": "stinnett-tx",
+      "street": "east-2nd-street",
+      "sampleImage": "/Users/bo/Photos/5-star/stinnett-tx/east-2nd-street/east-2nd-street-after-1.webp",
+      "imageCount": 62,
+      "hasBeforeAfter": {
+        "before": 55,
+        "after": 7
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "chimney"
+        ],
+        "confidence": 90
+      },
+      "analyzedAt": "2026-02-10T23:33:27.372Z"
+    },
+    "stinnett-tx/texas-152": {
+      "city": "stinnett-tx",
+      "street": "texas-152",
+      "sampleImage": "/Users/bo/Photos/5-star/stinnett-tx/texas-152/texas-152-before-10.webp",
+      "imageCount": 34,
+      "hasBeforeAfter": {
+        "before": 34,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "unknown",
+        "roofColor": "red",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:29.118Z"
+    },
+    "wichita-falls-tx/berwick-dr": {
+      "city": "wichita-falls-tx",
+      "street": "berwick-dr",
+      "sampleImage": "/Users/bo/Photos/5-star/wichita-falls-tx/berwick-dr/berwick-dr-after-1.webp",
+      "imageCount": 9,
+      "hasBeforeAfter": {
+        "before": 0,
+        "after": 9
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "repair-in-progress",
+        "features": [
+          "gutters",
+          "chimney"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:32.115Z"
+    },
+    "wichita-falls-tx/cromwell-ave": {
+      "city": "wichita-falls-tx",
+      "street": "cromwell-ave",
+      "sampleImage": "/Users/bo/Photos/5-star/wichita-falls-tx/cromwell-ave/cromwell-ave-after-10.webp",
+      "imageCount": 47,
+      "hasBeforeAfter": {
+        "before": 18,
+        "after": 29
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "completed",
+        "features": [
+          "gutters"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:34.559Z"
+    },
+    "wichita-falls-tx/inlet-drive": {
+      "city": "wichita-falls-tx",
+      "street": "inlet-drive",
+      "sampleImage": "/Users/bo/Photos/5-star/wichita-falls-tx/inlet-drive/inlet-drive-after-1.webp",
+      "imageCount": 56,
+      "hasBeforeAfter": {
+        "before": 39,
+        "after": 17
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "brown",
+        "condition": "new",
+        "features": [],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:37.270Z"
+    },
+    "wichita-falls-tx/natchez-trce": {
+      "city": "wichita-falls-tx",
+      "street": "natchez-trce",
+      "sampleImage": "/Users/bo/Photos/5-star/wichita-falls-tx/natchez-trce/natchez-trce-before-10.webp",
+      "imageCount": 15,
+      "hasBeforeAfter": {
+        "before": 15,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "residential",
+        "roofColor": "gray",
+        "condition": "unknown",
+        "features": [
+          "chimney"
+        ],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:33:39.303Z"
+    },
+    "wichita-falls-tx/sand-beach-road": {
+      "city": "wichita-falls-tx",
+      "street": "sand-beach-road",
+      "sampleImage": "/Users/bo/Photos/5-star/wichita-falls-tx/sand-beach-road/sand-beach-road-before-1.webp",
+      "imageCount": 23,
+      "hasBeforeAfter": {
+        "before": 23,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "metal",
+        "buildingType": "unknown",
+        "roofColor": "gray",
+        "condition": "new",
+        "features": [
+          "chimney"
+        ],
+        "confidence": 85
+      },
+      "analyzedAt": "2026-02-10T23:33:42.120Z"
+    },
+    "wolfforth-tx/8th-street": {
+      "city": "wolfforth-tx",
+      "street": "8th-street",
+      "sampleImage": "/Users/bo/Photos/5-star/wolfforth-tx/8th-street/8th-street-before-1.webp",
+      "imageCount": 53,
+      "hasBeforeAfter": {
+        "before": 53,
+        "after": 0
+      },
+      "analysis": {
+        "roofType": "shingle",
+        "buildingType": "unknown",
+        "roofColor": "brown",
+        "condition": "damaged",
+        "features": [],
+        "confidence": 75
+      },
+      "analyzedAt": "2026-02-10T23:33:45.271Z"
+    }
+  }
+}

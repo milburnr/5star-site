@@ -158,7 +158,6 @@ export default function RoofReplacementSnyderPage() {
                   <li>• High-temperature performance coatings</li>
                   <li>• Explosion-resistant construction methods</li>
                   <li>• Environmental compliance standards</li>
-                  <li>• Rapid emergency repair capabilities</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -350,7 +349,6 @@ export default function RoofReplacementSnyderPage() {
                   <li>• Well site building protection</li>
                   <li>• Pipeline facility roofing</li>
                   <li>• Equipment storage buildings</li>
-                  <li>• Emergency repair services</li>
                 </ul>
               </div>
               <div className="bg-blue-50 p-8 rounded-xl border border-blue-200">
@@ -374,7 +372,6 @@ export default function RoofReplacementSnyderPage() {
                   <h4 className="font-bold text-brand-brown mb-2">Government Buildings</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
                     <li>• Courthouse and county offices</li>
-                    <li>• Emergency services facilities</li>
                     <li>• Municipal buildings</li>
                   </ul>
                 </div>
@@ -425,7 +422,7 @@ export default function RoofReplacementSnyderPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to emergency roof damage?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout Scurry County, typically arriving within 2-4 hours for severe damage. For energy sector facilities requiring immediate attention, we maintain priority response protocols and can mobilize emergency crews within 1-2 hours.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout Scurry County, typically arriving within 2-4 hours for severe damage. For energy sector facilities requiring immediate attention, we maintain priority response protocols and can mobilize our crews within 1-2 hours.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

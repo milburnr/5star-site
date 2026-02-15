@@ -183,9 +183,9 @@ export default function MidlandRoofingPage() {
                       and local agents throughout Midland.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Our hail damage service includes:</strong> Free emergency inspections within hours of storms,
+                      <strong>Our hail damage service includes:</strong> Free storm damage inspections within hours of storms,
                       comprehensive photo documentation with drone imagery, detailed damage reports for insurance claims,
-                      direct communication with adjusters, temporary emergency repairs to prevent further damage, and complete
+                      direct communication with adjusters, temporary storm repairs to prevent further damage, and complete
                       roof replacement with impact-resistant materials rated for Midland&apos;s severe weather.
                     </p>
                     <a
@@ -228,7 +228,7 @@ export default function MidlandRoofingPage() {
                       resistance, PVC membrane installations for chemical-resistant applications, standing seam metal roofing
                       for office buildings and retail centers (exceptional hail resistance and 40-50 year lifespan), modified
                       bitumen systems, built-up roofing (BUR), roof coating and restoration to extend existing roof life,
-                      preventive maintenance programs, emergency leak repairs, and comprehensive roof asset management.
+                      preventive maintenance programs, prompt leak repairs, and comprehensive roof asset management.
                     </p>
                     <a
                       href="/commercial-roofing-midland-texas/"
@@ -324,14 +324,13 @@ export default function MidlandRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Roof Repair */}
+            {/* Storm Damage Roof Repair */}
             <FadeIn delay={0.5}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg" alt="emergency roof repair in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Emergency Roof Repair
+                      Storm Damage Roof Repair
                     </h3>
                   </div>
                   <div className="md:w-2/3">
@@ -343,13 +342,13 @@ export default function MidlandRoofingPage() {
                     </p>
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       Our prompt response team is available any time, day or night, throughout Midland and
-                      surrounding communities. We provide emergency tarping to prevent further water damage, temporary
-                      leak repairs, storm damage assessment and documentation, emergency board-up services, and coordination
+                      surrounding communities. We provide tarping to prevent further water damage, temporary
+                      leak repairs, storm damage assessment and documentation, board-up services, and coordination
                       with your insurance company—all designed to minimize damage and get you back to normal as quickly
                       as possible.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      <strong>Don&apos;t wait when you have a roofing emergency.</strong> Call{" "}
+                      <strong>Don&apos;t wait when you have a roofing issue.</strong> Call{" "}
                       <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">
                         (806) 622-6041
                       </a>{" "}
@@ -443,7 +442,7 @@ export default function MidlandRoofingPage() {
                 <p className="text-gray-700 leading-relaxed mt-3">
                   Commercial operations can&apos;t afford extended downtime for roof work. We specialize in phased installations
                   that allow businesses to continue operating, weekend and after-hours work to minimize disruption, and rapid
-                  emergency response to keep critical operations running.
+                  storm response to keep critical operations running.
                 </p>
               </div>
             </div>
@@ -620,7 +619,7 @@ export default function MidlandRoofingPage() {
                     <p className="text-gray-700 mb-4">
                       We provide comprehensive roofing services throughout Midland, Midland County, and surrounding
                       Permian Basin communities. Our central Texas Panhandle location allows us to respond quickly
-                      to emergency calls anywhere in the region.
+                      to service calls anywhere in the region.
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Our service radius includes:</strong> All of Midland proper, Odessa, Stanton, Garden City,
@@ -901,8 +900,7 @@ export default function MidlandRoofingPage() {
                       "@type": "Offer",
                       "itemOffered": {
                         "@type": "Service",
-                        "name": "Emergency Roof Repair",
-                        "description": "emergency roofing services for storm damage and urgent repairs",
+                        "description": "professional roofing services for storm damage and urgent repairs",
                         "areaServed": "Midland, TX"
                       }
                     }

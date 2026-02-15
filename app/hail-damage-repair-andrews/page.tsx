@@ -194,14 +194,14 @@ export default function HailDamageRepairAndrewsPage() {
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-400">
                 <div className="text-4xl mb-4">⚡</div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Emergency Mitigation</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Mitigation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Immediate Tarping:</strong> Professional-grade tarps with secure fastening systems</li>
                   <li>• <strong>Board-Up Services:</strong> Temporary protection for compromised openings</li>
                   <li>• <strong>Water Extraction:</strong> Rapid response to prevent secondary damage</li>
                   <li>• <strong>Interior Protection:</strong> Contents coverage and moisture barriers</li>
                   <li>• <strong>Structural Assessment:</strong> Engineering evaluation for safety concerns</li>
-                  <li>• <strong>Response Team:</strong> Emergency mitigation within hours of storm events</li>
+                  <li>• <strong>Response Team:</strong> Mitigation within hours of storm events</li>
                 </ul>
               </div>
             </div>

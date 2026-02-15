@@ -350,7 +350,7 @@ export default function RoofInspectionsAmarilloPage() {
                     <li>• Schedule professional inspection within 48 hours of storm</li>
                     <li>• Photograph all damage before making temporary repairs</li>
                     <li>• Contact insurance company immediately to file claim</li>
-                    <li>• Keep all receipts for emergency protective measures</li>
+                    <li>• Keep all receipts for prompt protective measures</li>
                     <li>• Compile maintenance records showing proper roof care</li>
                   </ul>
                 </div>

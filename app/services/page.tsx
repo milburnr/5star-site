@@ -481,7 +481,7 @@ export default function Page() {
             <div className="text-5xl mb-4">⚡</div>
             <h3 className="font-bold text-xl mb-3">Fast Response Times</h3>
             <p className="text-gray-600">
-              Same-day emergency response, 24-48 hour inspection scheduling, and rapid project completion
+              Same-day storm response, 24-48 hour inspection scheduling, and rapid project completion
               to minimize business interruption.
             </p>
           </div>
@@ -593,7 +593,6 @@ export default function Page() {
               <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="hover:text-brand-gold">Hail Replacement</a></li>
               <li><a href="/storm-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Storm Damage</a></li>
               <li><a href="/wind-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Wind Damage</a></li>
-              <li><a href="/hail-damage-repair-odessa-tx/" className="hover:text-brand-gold">Emergency Repair</a></li>
             </ul>
           </div>
 

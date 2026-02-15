@@ -156,7 +156,7 @@ export default function RoofInspectionsPerrytonPage() {
                 "name": "How quickly can you inspect my roof after a storm?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Perryton. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
+                  "text": "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Perryton. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast."
                 }
               }
             ]
@@ -467,7 +467,7 @@ export default function RoofInspectionsPerrytonPage() {
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
                 <p className="text-gray-700 mb-4 italic">
-                  "Quick response during harvest season emergency. They understood we couldn't shut down operations and worked around our schedule."
+                  "Quick response during harvest season situation. They understood we couldn't shut down operations and worked around our schedule."
                 </p>
                 <div className="text-brand-brown font-semibold">- Robert K., Agricultural Operations</div>
               </div>
@@ -522,7 +522,7 @@ export default function RoofInspectionsPerrytonPage() {
                   How quickly can you inspect my roof after a storm?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Perryton. For emergency situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
+                  We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Perryton. for prompt situations with active leaks, we can often respond within 2-4 hours. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

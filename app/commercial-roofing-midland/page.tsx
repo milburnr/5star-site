@@ -166,10 +166,10 @@ export default function CommercialRoofingMidlandPage() {
               },
               {
                 "@type": "Question",
-                "name": "Do you provide emergency roofing for oil industry facilities?",
+                "name": "Do you provide prompt roofing for oil industry facilities?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, we provide emergency commercial roofing throughout Midland County. With 144 hail reports in 12 months and critical oil operations that cannot shut down, rapid emergency response is essential. We offer emergency tarping, temporary repairs, and leak mitigation for energy facilities, headquarters buildings, and industrial operations."
+                  "text": "Yes, we provide prompt commercial roofing throughout Midland County. With 144 hail reports in 12 months and critical oil operations that cannot shut down, rapid storm response is essential. We offer tarping, temporary repairs, and leak mitigation for energy facilities, headquarters buildings, and industrial operations."
                 }
               }
             ]
@@ -366,7 +366,7 @@ export default function CommercialRoofingMidlandPage() {
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Commercial roofing projects in Midland must comply with both city building codes and specialized energy industry safety standards. Oil company headquarters, industrial facilities, and petroleum operations require enhanced fire resistance, chemical compatibility, and emergency access considerations.
+                Commercial roofing projects in Midland must comply with both city building codes and specialized energy industry safety standards. Oil company headquarters, industrial facilities, and petroleum operations require enhanced fire resistance, chemical compatibility, and storm access considerations.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -450,10 +450,10 @@ export default function CommercialRoofingMidlandPage() {
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Commercial Roofing</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Storm damage threatening your oil company operations or energy facilities? We provide prompt response for Midland's energy industry. Critical petroleum operations, corporate headquarters, and industrial facilities cannot afford downtime. Emergency tarping, temporary repairs, and rapid leak mitigation protect operations and equipment.
+                  Storm damage threatening your oil company operations or energy facilities? We provide prompt response for Midland's energy industry. Critical petroleum operations, corporate headquarters, and industrial facilities cannot afford downtime. tarping, temporary repairs, and rapid leak mitigation protect operations and equipment.
                 </p>
                 <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
               </div>
             </div>
@@ -513,10 +513,10 @@ export default function CommercialRoofingMidlandPage() {
 
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you provide emergency roofing for oil industry facilities?
+                  Do you provide prompt roofing for oil industry facilities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide emergency commercial roofing throughout Midland County. With 144 hail reports in 12 months and critical oil operations that cannot shut down, rapid emergency response is essential. We offer emergency tarping, temporary repairs, and leak mitigation for energy facilities, headquarters buildings, and industrial operations.
+                  Yes, we provide prompt commercial roofing throughout Midland County. With 144 hail reports in 12 months and critical oil operations that cannot shut down, rapid storm response is essential. We offer tarping, temporary repairs, and leak mitigation for energy facilities, headquarters buildings, and industrial operations.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

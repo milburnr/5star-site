@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-heavy-rain-damage-in-amarillo/' },
   title: 'Rain Damage Roof Repair Amarillo TX | 5 Star',
-  description: "Expert heavy rain roof damage repair in Amarillo. Flash flood damage, water intrusion, leak detection. Emergency service. Insurance claims. (806) 622-6041",
+  description: "Expert heavy rain roof damage repair in Amarillo. Flash flood damage, water intrusion, leak detection. prompt service. Insurance claims. (806) 622-6041",
 };
 
 export default function Page() {
@@ -86,7 +86,7 @@ export default function Page() {
           While <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a> averages only 20 inches of annual rainfall, when it rains it pours—literally. The <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences sudden, intense thunderstorms that can drop 2-4 inches of rain in under an hour, overwhelming even well-maintained drainage systems. Flash flooding, wind-driven rain, and sustained downpours expose weaknesses in <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roofing systems</a> that might otherwise go unnoticed for years.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we specialize in identifying and repairing heavy rain damage for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo. From emergency leak repairs during active storms to comprehensive water damage restoration, we help property owners recover quickly and prevent future problems.
+          At 5 Star Commercial Roofing, we specialize in identifying and repairing heavy rain damage for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo. From prompt leak repairs during active storms to comprehensive water damage restoration, we help property owners recover quickly and prevent future problems.
         </p>
       </div>
 
@@ -154,7 +154,6 @@ export default function Page() {
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-red-800">🚨 Emergency Rain Damage Service</h3>
         <p className="mb-4">
           Active roof leaks during rainstorms cause extensive interior damage—soaked insulation, ceiling stains, electrical hazards, and ruined possessions. Every minute counts when water is entering your home or business.
         </p>
@@ -164,7 +163,7 @@ export default function Page() {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="text-red-600 mr-2">✓</span>
-                <div>emergency phone answering</div>
+                <div>phone answering</div>
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 mr-2">✓</span>
@@ -172,7 +171,7 @@ export default function Page() {
               </li>
               <li className="flex items-start">
                 <span className="text-red-600 mr-2">✓</span>
-                <div>Emergency tarping to stop active leaks</div>
+                <div>tarping to stop active leaks</div>
               </li>
             </ul>
           </div>
@@ -187,7 +186,7 @@ export default function Page() {
           </div>
         </div>
         <p className="text-center mt-4">
-          <a href="tel:8066226041" className="font-bold text-red-800 hover:underline">Call (806) 622-6041 Now for Emergency Service</a>
+          <a href="tel:8066226041" className="font-bold text-red-800 hover:underline">Call (806) 622-6041 Now for prompt service</a>
         </p>
       </div>
 
@@ -277,8 +276,7 @@ export default function Page() {
           <div className="bg-blue-50 p-6 rounded-lg mb-6 border-l-4 border-blue-500">
             <h4 className="text-xl font-bold mb-3 text-brand-brown">Amarillo Heavy Rain Event Timeline and Response</h4>
             <ul className="space-y-2 text-gray-700">
-              <li><strong>0-30 minutes during storm:</strong> Active leak emergency response, immediate temporary measures</li>
-              <li><strong>30 minutes-4 hours post-storm:</strong> Comprehensive damage assessment, moisture detection, emergency protection</li>
+              <li><strong>30 minutes-4 hours post-storm:</strong> Comprehensive damage assessment, moisture detection, storm protection</li>
               <li><strong>4-24 hours post-storm:</strong> Water extraction, dehumidification, documentation for insurance claims</li>
               <li><strong>24-72 hours post-storm:</strong> Structural drying, permanent repair planning, material procurement</li>
               <li><strong>3-14 days post-storm:</strong> Complete repair execution, system upgrades, preventive improvements</li>
@@ -329,7 +327,7 @@ export default function Page() {
                   <li>• Structural safety evaluation for water loading</li>
                   <li>• Electrical system safety inspection</li>
                   <li>• Initial moisture mapping with infrared technology</li>
-                  <li>• Emergency protection installation</li>
+                  <li>• Storm protection installation</li>
                 </ul>
               </div>
               <div>
@@ -365,7 +363,7 @@ export default function Page() {
                 <h5 className="font-bold text-gray-800 mb-2">Flat Roof Drainage Improvements</h5>
                 <ul className="text-gray-700 text-sm space-y-1">
                   <li>• Additional drains beyond minimum code requirements</li>
-                  <li>• Emergency overflow drains for catastrophic events</li>
+                  <li>• Overflow drains for catastrophic events</li>
                   <li>• Tapered insulation systems for positive drainage</li>
                   <li>• Drain dome protection from debris accumulation</li>
                 </ul>
@@ -453,19 +451,19 @@ export default function Page() {
             </div>
           </div>
 
-          <h3 className="text-2xl font-bold mb-6 text-brand-brown">Emergency Response and Water Mitigation Services</h3>
+          <h3 className="text-2xl font-bold mb-6 text-brand-brown">storm response and Water Mitigation Services</h3>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            Heavy rain damage in Amarillo requires immediate response to prevent secondary damage including mold growth, structural deterioration, and electrical hazards. Our emergency response protocol activates within 30 minutes of receiving calls during active weather events, with full-service water extraction and building drying capabilities.
+            Heavy rain damage in Amarillo requires immediate response to prevent secondary damage including mold growth, structural deterioration, and electrical hazards. Our storm response protocol activates within 30 minutes of receiving calls during active weather events, with full-service water extraction and building drying capabilities.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-              <h4 className="text-lg font-bold mb-3 text-brand-brown">Active Storm Emergency Services</h4>
+              <h4 className="text-lg font-bold mb-3 text-brand-brown">Active Storm prompt services</h4>
               <ul className="space-y-2 text-gray-700 text-sm">
-                <li>• Emergency tarping during active rainfall</li>
+                <li>• tarping during active rainfall</li>
                 <li>• Water extraction using commercial-grade equipment</li>
                 <li>• Emergency electrical system protection</li>
                 <li>• Structural safety assessment and stabilization</li>
-                <li>• Content protection and emergency pack-out services</li>
+                <li>• Content protection and pack-out services</li>
                 <li>• Immediate mold prevention treatment</li>
               </ul>
             </div>
@@ -487,7 +485,7 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Texas Panhandle & West Texas</h2>
         <p className="text-lg mb-4">
-          Emergency rain damage services throughout the region:
+          Rain damage services throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Rain Damage</a>

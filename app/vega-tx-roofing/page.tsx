@@ -241,7 +241,7 @@ export default function VegaRoofingPage() {
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial services:</strong> TPO single-ply membrane roofing, EPDM rubber
                       roofing systems, modified bitumen installation, metal roof systems, roof coating
-                      for extended life, preventive maintenance programs, and emergency repair service.
+                      for extended life, preventive maintenance programs, and storm repair service.
                       Minimal business disruption.
                     </p>
                     <a
@@ -289,26 +289,26 @@ export default function VegaRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Services */}
+            {/* Storm Services */}
             <FadeIn delay={0.6}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg" alt="emergency roofing repairs for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg" alt="Storm damage roofing repairs for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Emergency Repairs
+                      storm repairs
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage requires immediate response.</strong> When severe weather
-                      hits Vega, we provide emergency roofing services. Emergency tarping to
+                      hits Vega, we provide professional roofing services. tarping to
                       prevent water damage, urgent leak repairs, temporary storm damage mitigation,
                       and same-day response available.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}anytime for immediate emergency assistance. We'll head west on I-40 immediately.
+                      {" "}anytime for immediate professional assistance. We'll head west on I-40 immediately.
                     </p>
                     <a
                       href="/roof-repair-services-in-amarillo/"
@@ -446,7 +446,7 @@ export default function VegaRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve the historic Vega community with
               honest, professional roofing services built for high plains weather. Whether you need
-              a free inspection, hail damage assessment, or emergency repairs, we're just 35 minutes
+              a free inspection, hail damage assessment, or prompt repairs, we're just 35 minutes
               away on I-40.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -132,7 +132,7 @@ export default function Page() {
                 "name": "Should I tarp my Midland roof after storm damage?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, emergency tarping prevents further water damage after storms. We provide emergency tarping services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover emergency mitigation costs, and prompt action prevents mold and interior damage."
+                  "text": "Yes, tarping prevents further water damage after storms. We provide tarping services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage."
                 }
               },
               {
@@ -321,7 +321,7 @@ export default function Page() {
                   Permian Basin storms create unique debris fields from oil field equipment, industrial piping, and petroleum infrastructure. High winds can launch heavy industrial materials at structures, causing puncture damage and structural stress beyond typical residential storm debris.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Emergency response requires specialized safety protocols for petroleum facility areas
+                  storm response requires specialized safety protocols for petroleum facility areas
                 </p>
               </div>
 
@@ -347,12 +347,12 @@ export default function Page() {
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-orange-500">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">May 2024 - Permian Basin Supercell</h3>
                 <p className="text-gray-700 mb-2">A severe thunderstorm swept through the Permian Basin with golf ball-sized hail, 75+ mph winds, and torrential rain. The storm was intensified by heat from petroleum infrastructure, creating larger hail and higher winds than forecast models predicted.</p>
-                <p className="text-sm text-gray-600 italic">Response: 89 emergency calls, 67 roof replacements, enhanced industrial facility protocols implemented</p>
+                <p className="text-sm text-gray-600 italic">Response: 89 service calls, 67 roof replacements, enhanced industrial facility protocols implemented</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-red-500">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">March 2023 - Ice Storm Event</h3>
                 <p className="text-gray-700 mb-2">Unusual ice accumulation combined with petroleum facility heating created rapid freeze-thaw cycles that stressed roofing systems beyond normal parameters. Many properties near oil operations experienced membrane failures.</p>
-                <p className="text-sm text-gray-600 italic">Response: 134 emergency inspections, specialized industrial facility repairs</p>
+                <p className="text-sm text-gray-600 italic">Response: 134 damage inspections, specialized industrial facility repairs</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-yellow-500">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">June 2022 - Flash Flood Complex</h3>
@@ -383,7 +383,7 @@ export default function Page() {
                   What special considerations apply to oil field worker housing?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Oil field housing faces unique challenges including rapid construction schedules, high occupancy turnover, and exposure to industrial environments. These properties require fast emergency response due to worker safety and housing shortage considerations. We're experienced with temporary housing repairs, insurance coordination for rental properties, and meeting petroleum industry safety protocols during emergency response in hazardous areas.
+                  Oil field housing faces unique challenges including rapid construction schedules, high occupancy turnover, and exposure to industrial environments. These properties require fast storm response due to worker safety and housing shortage considerations. We're experienced with temporary housing repairs, insurance coordination for rental properties, and meeting petroleum industry safety protocols during storm response in hazardous areas.
                 </AccordionContent>
               </AccordionItem>
 
@@ -416,10 +416,10 @@ export default function Page() {
 
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How do you handle emergency response in petroleum facility areas?
+                  How do you handle storm response in petroleum facility areas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency response near petroleum facilities requires specialized safety protocols including gas monitoring, fire safety procedures, and hazardous area classifications. Our crews maintain current certifications for petroleum facility work and carry appropriate safety equipment. We coordinate with facility safety departments and follow all industry protocols while providing rapid storm damage mitigation. Response times are prioritized for facilities with critical infrastructure or worker housing.
+                  storm response near petroleum facilities requires specialized safety protocols including gas monitoring, fire safety procedures, and hazardous area classifications. Our crews maintain current certifications for petroleum facility work and carry appropriate safety equipment. We coordinate with facility safety departments and follow all industry protocols while providing rapid storm damage mitigation. Response times are prioritized for facilities with critical infrastructure or worker housing.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

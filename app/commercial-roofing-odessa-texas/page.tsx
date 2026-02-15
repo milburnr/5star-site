@@ -128,7 +128,7 @@ export default function CommercialOdessaPage() {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">🔧</div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Repairs & Maintenance</h3>
-                <p className="text-gray-700 mb-4">Preventive maintenance extends roof life and prevents costly emergency repairs. We offer maintenance programs and expert repair for all commercial roof types.</p>
+                <p className="text-gray-700 mb-4">Preventive maintenance extends roof life and prevents costly prompt repairs. We offer maintenance programs and expert repair for all commercial roof types.</p>
                 <ul className="space-y-2 text-gray-700">
                   <li>✓ Leak detection and repair</li>
                   <li>✓ Membrane patching</li>
@@ -174,7 +174,7 @@ export default function CommercialOdessaPage() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">⛈️ Hail & Storm Damage</h3>
-                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer emergency repairs to protect your facility and inventory.</p>
+                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer storm repairs to protect your facility and inventory.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">🏭 Industrial Environment</h3>

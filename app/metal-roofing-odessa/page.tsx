@@ -204,7 +204,6 @@ export default function MetalRoofingOdessaPage() {
                     <li>• Chemical-resistant fastener coatings</li>
                     <li>• Sealed connection systems</li>
                     <li>• Corrosion monitoring access points</li>
-                    <li>• Emergency repair accessibility features</li>
                     <li>• Heavy equipment clearance design</li>
                   </ul>
                 </div>

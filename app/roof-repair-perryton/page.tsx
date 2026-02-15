@@ -132,7 +132,7 @@ export default function RoofRepairPerrytonPage() {
                 "name": "How quickly can you repair my leaking roof in Perryton?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality."
+                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
                 }
               },
               {
@@ -259,7 +259,7 @@ export default function RoofRepairPerrytonPage() {
                   How quickly can you repair my leaking roof in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
@@ -342,7 +342,6 @@ export default function RoofRepairPerrytonPage() {
                 <ul className="text-gray-600 space-y-2">
                   <li>• Impact-resistant roofing systems</li>
                   <li>• Hail damage assessment and repair</li>
-                  <li>• Storm damage emergency response</li>
                   <li>• Insurance claim specialization</li>
                 </ul>
               </div>
@@ -423,11 +422,11 @@ export default function RoofRepairPerrytonPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Schedule Coordination</h3>
                     <p className="text-gray-700 mb-3">
-                      Understanding that Perryton's wheat operations follow strict seasonal schedules tied to planting, harvest, and storage, we coordinate our emergency response around critical agricultural timing.
+                      Understanding that Perryton's wheat operations follow strict seasonal schedules tied to planting, harvest, and storage, we coordinate our storm response around critical agricultural timing.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Harvest season priority scheduling</li>
-                      <li>• Grain storage facility emergency protocols</li>
+                      <li>• Grain storage facility safety protocols</li>
                       <li>• Farm operation coordination</li>
                       <li>• Seasonal agricultural considerations</li>
                     </ul>
@@ -545,7 +544,7 @@ export default function RoofRepairPerrytonPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Schedule Accommodation</h3>
                 <p className="text-gray-700 mb-4">
-                  We understand that agricultural operations in wheat country follow critical seasonal schedules. Our emergency response and scheduling accommodate the demands of farming cycles.
+                  We understand that agricultural operations in wheat country follow critical seasonal schedules. Our storm response and scheduling accommodate the demands of farming cycles.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Harvest season scheduling</li>

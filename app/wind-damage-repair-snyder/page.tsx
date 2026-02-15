@@ -368,7 +368,7 @@ export default function WindDamageRepairSnyderPage() {
                   How quickly can you respond to supercell wind damage in Snyder?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We maintain rapid response capabilities specifically for West Texas supercell events. Our emergency team can typically respond within 2-3 hours of storm passage to provide immediate stabilization, emergency tarping, and damage assessment. We monitor weather radar during severe weather events to prepare for immediate deployment.
+                  We maintain rapid response capabilities specifically for West Texas supercell events. Our our team can typically respond within 2-3 hours of storm passage to provide immediate stabilization, tarping, and damage assessment. We monitor weather radar during severe weather events to prepare for immediate deployment.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="complex-damage" className="bg-white rounded-lg shadow-md">
@@ -400,7 +400,7 @@ export default function WindDamageRepairSnyderPage() {
                   What's the best time for wind damage repairs in West Texas?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  While emergency repairs happen year-round, comprehensive repairs are best scheduled outside peak storm season (April-June) when possible. Fall and winter provide calmer conditions for major repairs. However, we maintain full repair capabilities throughout storm season with weather monitoring and flexible scheduling.
+                  While storm repairs happen year-round, comprehensive repairs are best scheduled outside peak storm season (April-June) when possible. Fall and winter provide calmer conditions for major repairs. However, we maintain full repair capabilities throughout storm season with weather monitoring and flexible scheduling.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="prevention-systems" className="bg-white rounded-lg shadow-md">
@@ -477,8 +477,7 @@ export default function WindDamageRepairSnyderPage() {
                   <li>• Secure loose materials and equipment</li>
                   <li>• Clear drainage systems and gutters</li>
                   <li>• Review insurance coverage and deductibles</li>
-                  <li>• Develop emergency response plan</li>
-                  <li>• Program our emergency number: (806) 622-6041</li>
+                  <li>• Program our number: (806) 622-6041</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">

@@ -132,7 +132,7 @@ export default function RoofRepairCanyonPage() {
                 "name": "How quickly can you repair my leaking roof in Canyon?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality."
+                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
                 }
               },
               {
@@ -259,7 +259,7 @@ export default function RoofRepairCanyonPage() {
                   How quickly can you repair my leaking roof in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For emergency leaks, we provide same-day service when called before noon on most days. Non-emergency repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize fast response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
@@ -317,7 +317,6 @@ export default function RoofRepairCanyonPage() {
                   <li>• Student housing roof repairs</li>
                   <li>• Faculty residential services</li>
                   <li>• Commercial property maintenance</li>
-                  <li>• Emergency response for campus area</li>
                 </ul>
               </div>
 
@@ -423,12 +422,12 @@ export default function RoofRepairCanyonPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Rapid Response Assessment</h3>
                     <p className="text-gray-700 mb-3">
-                      Our Canyon service team provides rapid response to emergency calls, understanding that university district timing is critical for students and faculty. We prioritize same-day emergency response and work around academic schedules when possible.
+                      Our Canyon service team provides rapid response to service calls, understanding that university district timing is critical for students and faculty. We prioritize same-day storm response and work around academic schedules when possible.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• University district priority response</li>
                       <li>• Academic calendar consideration</li>
-                      <li>• Student housing emergency protocols</li>
+                      <li>• Student housing safety protocols</li>
                       <li>• Faculty and staff accommodation</li>
                     </ul>
                   </div>

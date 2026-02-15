@@ -241,7 +241,7 @@ export default function WildoradoRoofingPage() {
                     <p className="text-gray-600 mb-4">
                       <strong>Agricultural services:</strong> Metal building re-roofing, pole barn roof
                       replacement, steel panel installation, roof repair for agricultural structures,
-                      emergency leak repair, and preventive maintenance. We understand farming operations
+                      prompt leak repair, and preventive maintenance. We understand farming operations
                       and work around your schedule.
                     </p>
                     <a
@@ -289,26 +289,26 @@ export default function WildoradoRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Services */}
+            {/* Storm Services */}
             <FadeIn delay={0.6}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg" alt="emergency roofing service for Wildorado TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg" alt="professional roofing service for Wildorado TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Rural locations need fast emergency response.</strong> When storm damage
-                      occurs at 2am or on Sunday afternoon, we provide emergency roofing services
-                      to Wildorado. Emergency tarping, leak repair, storm damage mitigation - we're
+                      <strong>Rural locations need fast storm response.</strong> When storm damage
+                      occurs at 2am or on Sunday afternoon, we provide professional roofing services
+                      to Wildorado. tarping, leak repair, storm damage mitigation - we're
                       only 15 miles away and can respond quickly.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}anytime for immediate emergency assistance. We'll be there fast.
+                      {" "}anytime for immediate professional assistance. We'll be there fast.
                     </p>
                     <a
                       href="/roof-repair-services-in-amarillo/"
@@ -447,7 +447,7 @@ export default function WildoradoRoofingPage() {
             <p className="cta-text">
               From our nearby Amarillo location, we're proud to serve the Wildorado community with
               honest, professional roofing services. Whether you need a free inspection, hail damage
-              assessment, or emergency repairs, we're just 15 miles away and ready to help.
+              assessment, or prompt repairs, we're just 15 miles away and ready to help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">

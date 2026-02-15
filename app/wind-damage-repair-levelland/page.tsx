@@ -306,7 +306,7 @@ export default function WindDamageRepairLevellandPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Comprehensive Safety Inspection</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our certified inspectors conduct thorough safety assessments to identify structural integrity issues, loose materials, and immediate hazards. We secure dangerous areas and provide emergency stabilization to prevent further damage while planning comprehensive repairs.
+                    Our certified inspectors conduct thorough safety assessments to identify structural integrity issues, loose materials, and immediate hazards. We secure dangerous areas and provide prompt stabilization to prevent further damage while planning comprehensive repairs.
                   </p>
                 </div>
               </div>
@@ -364,12 +364,12 @@ export default function WindDamageRepairLevellandPage() {
               Levelland Wind Damage Repair FAQ
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
-              <AccordionItem value="emergency-response" className="bg-white rounded-lg shadow-md">
+              <AccordionItem value="storm-response" className="bg-white rounded-lg shadow-md">
                 <AccordionTrigger className="px-6 py-4 text-left text-lg font-semibold text-brand-brown">
                   How quickly can you respond to wind damage emergencies in Levelland?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We maintain prompt response capabilities for Hockley County properties. Our rapid response team can typically arrive within 2-4 hours of your call to provide emergency tarping, secure loose materials, and prevent further damage. We understand that South Plains wind events can cause widespread damage requiring immediate attention.
+                  We maintain prompt response capabilities for Hockley County properties. Our rapid response team can typically arrive within 2-4 hours of your call to provide tarping, secure loose materials, and prevent further damage. We understand that South Plains wind events can cause widespread damage requiring immediate attention.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="insurance-coverage" className="bg-white rounded-lg shadow-md">
@@ -393,7 +393,7 @@ export default function WindDamageRepairLevellandPage() {
                   What temporary repairs can protect my building until permanent repairs?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Emergency temporary repairs include professional tarping, securing loose materials, temporary flashing installation, and emergency leak repairs. These measures protect your property from further damage while insurance claims are processed and permanent repair materials are ordered. All temporary work is credited toward final repair costs.
+                  Temporary repairs include professional tarping, securing loose materials, temporary flashing installation, and prompt leak repairs. These measures protect your property from further damage while insurance claims are processed and permanent repair materials are ordered. All temporary work is credited toward final repair costs.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="repair-timeline" className="bg-white rounded-lg shadow-md">
@@ -401,7 +401,7 @@ export default function WindDamageRepairLevellandPage() {
                   How long do wind damage repairs typically take?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Repair timelines depend on damage extent and material availability. Minor repairs can often be completed in 1-2 days, while major wind damage requiring membrane replacement may take 1-2 weeks. We prioritize emergency stabilization immediately and provide detailed timelines once the full scope of damage is assessed.
+                  Repair timelines depend on damage extent and material availability. Minor repairs can often be completed in 1-2 days, while major wind damage requiring membrane replacement may take 1-2 weeks. We prioritize structural stabilization immediately and provide detailed timelines once the full scope of damage is assessed.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="quality-assurance" className="bg-white rounded-lg shadow-md">
@@ -464,7 +464,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl border border-red-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-red-700 mb-4">Emergency Wind Damage Response</h2>
+              <h2 className="text-4xl font-bold text-red-700 mb-4">Wind Damage Response</h2>
               <div className="text-6xl mb-4">🚨</div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 South Plains wind storms can strike without warning. Don't wait for minor damage to become major problems.
@@ -478,12 +478,11 @@ export default function WindDamageRepairLevellandPage() {
                   <li>• Document damage with photos from ground level</li>
                   <li>• Move valuable items away from leak areas</li>
                   <li>• Place tarps or buckets to catch water</li>
-                  <li>• Contact our emergency hotline: (806) 622-6041</li>
                   <li>• Notify your insurance company</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-red-700 mb-4">Our Emergency Services</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-4">Our prompt services</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• prompt response team</li>
                   <li>• Professional tarping and securing</li>
@@ -496,7 +495,6 @@ export default function WindDamageRepairLevellandPage() {
             </div>
             <div className="text-center mt-8">
               <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 inline-block">
-                🚨 Emergency: Call (806) 622-6041
               </a>
             </div>
           </section>

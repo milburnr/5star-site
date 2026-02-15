@@ -251,7 +251,7 @@ export default function RoofReplacementPerrytonPage() {
               
               <div className="mt-8 p-6 bg-white rounded-xl border border-red-300">
                 <h3 className="text-xl font-bold mb-4 text-red-800">Our Weather-Warrior Solutions</h3>
-                <p className="text-red-700 leading-relaxed">We combat these extreme conditions with the most advanced roofing materials available. Our systems feature UL 2218 Class 4 impact resistance, ASTM D3161 Class F wind ratings, and specialized coatings designed for agricultural environments. Every installation includes emergency weather protection and rapid storm response capabilities.</p>
+                <p className="text-red-700 leading-relaxed">We combat these extreme conditions with the most advanced roofing materials available. Our systems feature UL 2218 Class 4 impact resistance, ASTM D3161 Class F wind ratings, and specialized coatings designed for agricultural environments. Every installation includes weather protection and rapid storm response capabilities.</p>
               </div>
             </div>
           </section>
@@ -326,7 +326,7 @@ export default function RoofReplacementPerrytonPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
-                    <div>emergency storm response</div>
+                    <div>storm response</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
@@ -350,7 +350,7 @@ export default function RoofReplacementPerrytonPage() {
                   <li>• Storage facility weatherization</li>
                   <li>• Equipment shed roof replacements</li>
                   <li>• Farmhouse protection for workers</li>
-                  <li>• Emergency harvest-season repairs</li>
+                  <li>• Prompt harvest-season repairs</li>
                 </ul>
               </div>
               <div className="bg-green-50 p-8 rounded-xl border border-green-200">
@@ -417,7 +417,7 @@ export default function RoofReplacementPerrytonPage() {
               </AccordionItem>
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Can you work around farming schedules?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We understand the critical nature of planting and harvest seasons. We schedule installations during agricultural downtime and can provide emergency repairs during busy farming periods. Our team coordinates with your operation schedule to minimize disruption.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Absolutely. We understand the critical nature of planting and harvest seasons. We schedule installations during agricultural downtime and can provide storm repairs during busy farming periods. Our team coordinates with your operation schedule to minimize disruption.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Will a new roof increase my home value in Perryton?</AccordionTrigger>

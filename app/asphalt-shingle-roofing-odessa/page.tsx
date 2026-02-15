@@ -429,7 +429,6 @@ export default function AsphaltShingleRoofingOdessaPage() {
                       <li>• Annual comprehensive inspection included</li>
                       <li>• Priority scheduling for working families</li>
                       <li>• Affordable maintenance programs available</li>
-                      <li>• Emergency response for storm damage</li>
                     </ul>
                   </div>
                 </div>

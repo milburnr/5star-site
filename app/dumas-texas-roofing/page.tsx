@@ -268,7 +268,7 @@ export default function DumasRoofingPage() {
             <div>
               <h3 className="text-lg font-bold mb-2">How quickly can you respond to storm damage for agricultural buildings?</h3>
               <p className="text-gray-700">
-                We provide prompt response for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry emergency tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.
+                We provide prompt response for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.
               </p>
             </div>
 
@@ -293,7 +293,7 @@ export default function DumasRoofingPage() {
                   <li>✓ Free storm damage inspections</li>
                   <li>✓ Insurance claim assistance</li>
                   <li>✓ Impact-resistant materials</li>
-                  <li>✓ Emergency tarping services</li>
+                  <li>✓ Tarping services</li>
                 </ul>
                 <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>

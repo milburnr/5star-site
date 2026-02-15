@@ -200,7 +200,7 @@ export default function CommercialRoofingPampaPage() {
                   <p className="text-gray-700">Quiet installation techniques and specialized roofing systems for sensitive environments, ensuring continuous operations during roofing projects at schools and medical facilities.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                  <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Roof Repairs</h3>
+                  <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Roof Repairs</h3>
                   <p className="text-gray-700">prompt response for storm damage, equipment penetration failures, and weather-related roofing emergencies throughout Pampa and surrounding areas.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -317,7 +317,7 @@ export default function CommercialRoofingPampaPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4 text-brand-brown">OSHA Compliance</h3>
-                  <p className="text-gray-700 mb-4">All crew members receive OSHA 10-hour safety training with annual updates. We maintain comprehensive safety equipment including fall protection systems, safety harnesses, and emergency response equipment on every job site.</p>
+                  <p className="text-gray-700 mb-4">All crew members receive OSHA 10-hour safety training with annual updates. We maintain comprehensive safety equipment including fall protection systems, safety harnesses, and storm response equipment on every job site.</p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• OSHA 10-hour certified crew members</li>
                     <li>• Daily safety briefings and hazard assessments</li>
@@ -379,7 +379,7 @@ export default function CommercialRoofingPampaPage() {
                   <div className="flex items-start gap-4">
                     <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Emergency Response</h3>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Response</h3>
                       <p className="text-gray-700"> for storm damage, leak repairs, and urgent roofing issues affecting Pampa commercial operations.</p>
                     </div>
                   </div>

@@ -252,7 +252,6 @@ export default function MetalRoofingPampaPage() {
                   <li>✓ Equipment storage buildings</li>
                   <li>✓ Administrative and office complexes</li>
                   <li>✓ Maintenance and repair shops</li>
-                  <li>✓ Emergency services facilities</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">

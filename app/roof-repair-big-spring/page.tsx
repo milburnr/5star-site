@@ -218,11 +218,11 @@ export default function RoofRepairBigSpringPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold mb-3 text-brand-brown">Emergency Response Services</h4>
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">storm response Services</h4>
                 <p className="text-gray-600 mb-3">availability for urgent repairs protecting Big Spring properties.</p>
                 <ul className="text-sm text-gray-600">
                   <li>• Immediate leak containment</li>
-                  <li>• Emergency tarping and protection</li>
+                  <li>• tarping and protection</li>
                   <li>• Structural stabilization</li>
                   <li>• Insurance documentation support</li>
                 </ul>
@@ -282,7 +282,7 @@ export default function RoofRepairBigSpringPage() {
                   <ul className="text-xs text-gray-600">
                     <li>• Hail damage assessment and repair</li>
                     <li>• Tornado debris cleanup</li>
-                    <li>• Emergency weatherproofing</li>
+                    <li>• Weatherproofing</li>
                   </ul>
                 </div>
                 <div>
@@ -387,10 +387,10 @@ export default function RoofRepairBigSpringPage() {
 
               <AccordionItem value="item-3" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
-                  Do you offer emergency roof repair services in Big Spring?
+                  Do you offer storm damage roof repair services in Big Spring?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  Yes, we provide prompt response throughout Howard County. Our emergency team typically responds within 2-3 hours for urgent calls. We understand that Big Spring storms can cause sudden, severe damage requiring immediate attention to prevent water intrusion and further structural damage to your property.
+                  Yes, we provide prompt response throughout Howard County. Our our team typically responds within 2-3 hours for urgent calls. We understand that Big Spring storms can cause sudden, severe damage requiring immediate attention to prevent water intrusion and further structural damage to your property.
                 </AccordionContent>
               </AccordionItem>
 
@@ -462,7 +462,7 @@ export default function RoofRepairBigSpringPage() {
                 <div className="text-center">
                   <div className="text-4xl mb-2">⚡</div>
                   <h4 className="font-bold mb-2 text-brand-brown">Rapid Storm Response</h4>
-                  <p className="text-sm text-gray-600">Emergency services when Big Spring weather strikes</p>
+                  <p className="text-sm text-gray-600">prompt services when Big Spring weather strikes</p>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl mb-2">🔒</div>

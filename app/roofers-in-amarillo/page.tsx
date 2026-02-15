@@ -151,7 +151,6 @@ export default function Page() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Roof Repair"
                   }
                 }
               ]
@@ -200,9 +199,9 @@ export default function Page() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold text-brand-brown mb-3">⚡ Emergency Response Ready</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">⚡ storm response Ready</h3>
                 <p className="text-gray-700">
-                  When severe weather strikes Amarillo, professional roofers can respond quickly with emergency tarping and temporary repairs to prevent interior damage while coordinating your permanent solution.
+                  When severe weather strikes Amarillo, professional roofers can respond quickly with tarping and temporary repairs to prevent interior damage while coordinating your permanent solution.
                 </p>
               </div>
 
@@ -232,7 +231,7 @@ export default function Page() {
                   <li>Class 4 impact-resistant asphalt shingles</li>
                   <li>Standing seam metal roofing</li>
                   <li>Architectural and designer shingles</li>
-                  <li>Emergency leak repairs</li>
+                  <li>Prompt leak repairs</li>
                   <li>Roof inspections and maintenance</li>
                 </ul>
               </div>
@@ -260,7 +259,7 @@ export default function Page() {
                   <li>Free post-storm damage inspections</li>
                   <li>Complete insurance claim documentation</li>
                   <li>Adjuster meeting representation</li>
-                  <li>Emergency tarping and temporary repairs</li>
+                  <li>tarping and temporary repairs</li>
                   <li>Full roof replacement with upgraded materials</li>
                 </ul>
               </div>
@@ -386,7 +385,7 @@ export default function Page() {
               <div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">✅ </h3>
                 <p className="text-gray-700">
-                  When storms strike Amarillo, we respond. Our emergency crews are available for urgent tarping, leak repairs, and damage mitigation with typical response times of 2-4 hours.
+                  When storms strike Amarillo, we respond. Our our crews are available for urgent tarping, leak repairs, and damage mitigation with typical response times of 2-4 hours.
                 </p>
               </div>
 
@@ -476,9 +475,9 @@ export default function Page() {
             <div className="flex gap-6 items-center">
               <div className="text-6xl">🚨</div>
               <div className="flex-1">
-                <h2 className="text-2xl font-bold text-red-800 mb-3">Need Emergency Roofing Service?</h2>
+                <h2 className="text-2xl font-bold text-red-800 mb-3">Need Roofing Service?</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Storm damage doesn't wait for business hours. Our emergency crews are available throughout Amarillo and the Texas Panhandle for urgent tarping, leak repairs, and damage mitigation.
+                  Storm damage doesn't wait for business hours. Our our crews are available throughout Amarillo and the Texas Panhandle for urgent tarping, leak repairs, and damage mitigation.
                 </p>
                 <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-lg inline-block">
                   📞 Call: (806) 622-6041

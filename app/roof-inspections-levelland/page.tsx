@@ -356,7 +356,6 @@ export default function RoofInspectionsLevellandPage() {
                     <li>• Take initial photographs before any temporary protective measures</li>
                     <li>• Contact your insurance company within 24-48 hours of the event</li>
                     <li>• Schedule professional inspection to document all damage thoroughly</li>
-                    <li>• Keep receipts for any emergency repairs or protective measures</li>
                     <li>• Avoid permanent repairs until insurance adjuster inspection</li>
                   </ul>
                 </div>
@@ -486,7 +485,7 @@ export default function RoofInspectionsLevellandPage() {
                   How quickly should I schedule inspection after a storm?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Contact us within 24-48 hours after any severe weather event in Levelland. Quick response is crucial for proper damage documentation and insurance claim success. We offer emergency inspection services and typically schedule within 24 hours during active storm periods.
+                  Contact us within 24-48 hours after any severe weather event in Levelland. Quick response is crucial for proper damage documentation and insurance claim success. We offer damage inspection services and typically schedule within 24 hours during active storm periods.
                 </AccordionContent>
               </AccordionItem>
 

@@ -353,7 +353,7 @@ export default function RoofReplacementAndrewsPage() {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter (Dec-Feb):</span>
-                      <span className="text-purple-600">Emergency repairs only</span>
+                      <span className="text-purple-600">Storm repairs only</span>
                     </div>
                   </div>
                 </div>

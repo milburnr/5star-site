@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-repair-services-in-amarillo/' },
   title: 'Roofing Repair Amarillo TX | 5 Star Roofing',
-  description: 'Leading roofing repair services in Amarillo TX. Emergency storm damage repair, hail damage restoration, leak detection, insurance claims assistance. Licensed, bonded & insured with 10+ years local experience. Free estimates & prompt response.',
+  description: 'Leading roofing repair services in Amarillo TX. Storm damage repair, hail damage restoration, leak detection, insurance claims assistance. Licensed, bonded & insured with 10+ years local experience. Free estimates & prompt response.',
 };
 
 export default function Page() {
@@ -34,7 +34,7 @@ export default function Page() {
       {"@type": "City", "name": "Canyon"},
       {"@type": "City", "name": "Bushland"}
     ],
-    "description": "Professional roofing repair services in Amarillo, Texas. Emergency repairs, leak detection, shingle replacement, and storm damage restoration."
+    "description": "Professional roofing repair services in Amarillo, Texas. storm repairs, leak detection, shingle replacement, and storm damage restoration."
   };
 
   return (
@@ -86,7 +86,7 @@ export default function Page() {
           When it comes to <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing repair services in Amarillo</a>, finding the right contractor is crucial. Amarillo's unpredictable weather—from severe hailstorms averaging 35 days per year to high winds exceeding 58 mph and extreme temperature swings from 105°F in summer to below freezing in winter—makes it essential to maintain a well-functioning roof to protect your home or business from costly damage.
         </p>
         <p className="text-lg mt-4">
-          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've been providing emergency and scheduled <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roof repairs</a> throughout the Texas Panhandle for over 10 years. Whether you're dealing with a sudden leak, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, or gradual wear and tear, our experienced team responds quickly with lasting solutions that stand up to West Texas weather.
+          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've been providing prompt and scheduled <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roof repairs</a> throughout the Texas Panhandle for over 10 years. Whether you're dealing with a sudden leak, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, or gradual wear and tear, our experienced team responds quickly with lasting solutions that stand up to West Texas weather.
         </p>
         <p className="text-lg mt-4">
           <strong>Located in Amarillo's business district at 2909 S Western St,</strong> we understand the unique challenges facing Potter and Randall County property owners. From the historic homes in the Plemons-Eakle neighborhood to modern developments in Wolflin Village, we've repaired thousands of roofs throughout our service area including Canyon, Bushland, Happy, Wildorado, and surrounding communities.
@@ -141,7 +141,7 @@ export default function Page() {
               <li><strong>Blown-Off Shingles:</strong> Replace missing shingles before water intrusion</li>
               <li><strong>Wind Uplift Damage:</strong> Repair lifted edges and corners</li>
               <li><strong>Debris Impact:</strong> Fix punctures from tree branches and flying objects</li>
-              <li><strong>Emergency Tarping:</strong> Immediate protection while scheduling permanent repairs</li>
+              <li><strong>tarping:</strong> Immediate protection while scheduling permanent repairs</li>
             </ul>
           </div>
         </FadeIn>
@@ -225,7 +225,7 @@ export default function Page() {
             <div className="pricing-amount">$350 - $1,200</div>
             <ul className="pricing-features">
               <li>response available</li>
-              <li>Emergency tarping</li>
+              <li>tarping</li>
               <li>Temporary leak stoppage</li>
               <li>Same-day assessment</li>
               <li>Weekend & holiday service</li>
@@ -352,7 +352,7 @@ export default function Page() {
         <div className="process-step">
           <div className="step-number">1</div>
           <div className="step-content">
-            <h3 className="step-title">Emergency Response & Initial Assessment</h3>
+            <h3 className="step-title">storm response & Initial Assessment</h3>
             <p className="step-text">We respond quickly to your call. For emergencies, we provide same-day or next-day service. Our initial assessment identifies all damage—not just the obvious issues—so you get a complete repair solution.</p>
           </div>
         </div>
@@ -418,9 +418,9 @@ export default function Page() {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-brand-brown mb-3">Emergency Response</h3>
+              <h3 className="text-xl font-semibold text-brand-brown mb-3">Storm Response</h3>
               <p className="mb-4">
-                We understand that roof emergencies don't wait for convenient times. We offer rapid response for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> and urgent leaks, often providing same-day emergency tarping and next-day permanent repairs.
+                We understand that roof emergencies don't wait for convenient times. We offer rapid response for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> and urgent leaks, often providing same-day tarping and next-day permanent repairs.
               </p>
             </div>
             <div>
@@ -447,7 +447,7 @@ export default function Page() {
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Repairs</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Repair Services</a>
-          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Emergency Repairs</a>
+          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa storm repairs</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roof Repairs</a>
           <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Roof Replacement</a>
           <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">• Free Roof Inspections</a>
@@ -492,8 +492,8 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div>
-              <h3 className="font-bold mb-2">Q: How quickly can you respond to emergency repairs in Amarillo?</h3>
-              <p className="text-sm">A: We provide prompt response throughout Amarillo, Canyon, and Bushland. Same-day emergency tarping is available, with permanent repairs typically scheduled within 48-72 hours depending on weather and damage extent.</p>
+              <h3 className="font-bold mb-2">Q: How quickly can you respond to storm damage repairs in Amarillo?</h3>
+              <p className="text-sm">A: We provide prompt response throughout Amarillo, Canyon, and Bushland. Same-day tarping is available, with permanent repairs typically scheduled within 48-72 hours depending on weather and damage extent.</p>
             </div>
             
             <div>
@@ -525,7 +525,7 @@ export default function Page() {
             
             <div>
               <h3 className="font-bold mb-2">Q: What warranty do you provide on repair work?</h3>
-              <p className="text-sm">A: All repair work includes our 5-year workmanship warranty. Material warranties vary by manufacturer (typically 10-50 years). Emergency repairs include 90-day temporary warranty until permanent repairs are completed.</p>
+              <p className="text-sm">A: All repair work includes our 5-year workmanship warranty. Material warranties vary by manufacturer (typically 10-50 years). storm repairs include 90-day temporary warranty until permanent repairs are completed.</p>
             </div>
             
             <div>
@@ -598,7 +598,6 @@ export default function Page() {
           <div className="text-center">
             <h3 className="font-bold mb-3 text-brand-brown">❄️ Winter (Dec-Feb)</h3>
             <ul className="text-sm space-y-1 text-left">
-              <li>• Emergency repairs only</li>
               <li>• Planning for spring work</li>
               <li>• Material pre-ordering</li>
               <li>• Interior damage assessment</li>
@@ -608,16 +607,16 @@ export default function Page() {
       </section>
 
       <section className="cta-section mt-12">
-        <h2 className="cta-title">Need Emergency Roof Repairs in Amarillo?</h2>
+        <h2 className="cta-title">Need Storm Damage Roof Repairs in Amarillo?</h2>
         <p className="cta-text">
-          Don't wait for a small leak to become major water damage. Call 5 Star Commercial Roofing now for fast, professional <a href="/roof-repair-services-in-amarillo/" className="text-white hover:underline">roof repairs</a> in Amarillo. <a href="/roof-inspections-in-amarillo/" className="text-white hover:underline">Free inspections</a>, emergency response, and insurance claim assistance available. Serving Amarillo and the entire Texas Panhandle since 2014.
+          Don't wait for a small leak to become major water damage. Call 5 Star Commercial Roofing now for fast, professional <a href="/roof-repair-services-in-amarillo/" className="text-white hover:underline">roof repairs</a> in Amarillo. <a href="/roof-inspections-in-amarillo/" className="text-white hover:underline">Free inspections</a>, storm response, and insurance claim assistance available. Serving Amarillo and the entire Texas Panhandle since 2014.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
             📞 Call (806) 622-6041 Now
           </a>
           <a href="/contact/" className="btn-secondary border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
-            Request Emergency Service
+            Request prompt service
           </a>
         </div>
         
@@ -626,7 +625,7 @@ export default function Page() {
             <strong>Service Area:</strong> Amarillo • Canyon • Bushland • Happy • Wildorado • Vega • Claude • Potter County • Randall County
           </p>
           <p className="text-white text-sm mt-2">
-            <strong>Business Hours:</strong> Mon-Sat 7:00 AM - 7:00 PM | <strong>Emergency Service:</strong>/365
+            <strong>Business Hours:</strong> Mon-Sat 7:00 AM - 7:00 PM | <strong>prompt service:</strong>/365
           </p>
         </div>
       </section>

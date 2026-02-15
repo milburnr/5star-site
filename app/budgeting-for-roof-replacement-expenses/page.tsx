@@ -185,7 +185,7 @@ export default function Page() {
         </p>
 
         <p>
-          <strong>Peak Season (April-August):</strong> Highest demand following spring storms results in premium pricing and longer wait times. Emergency repairs command highest rates during this period.
+          <strong>Peak Season (April-August):</strong> Highest demand following spring storms results in premium pricing and longer wait times. storm repairs command highest rates during this period.
         </p>
 
         <p>
@@ -243,7 +243,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Emergency Fund Planning</h2>
 
         <p>
-          Amarillo homeowners should maintain emergency funds specifically for storm damage since hail damage can occur multiple times per property ownership period. Consider establishing a dedicated roofing emergency fund separate from general home maintenance savings.
+          Amarillo homeowners should maintain emergency funds specifically for storm damage since hail damage can occur multiple times per property ownership period. Consider establishing a dedicated roofing issue fund separate from general home maintenance savings.
         </p>
 
         <p>

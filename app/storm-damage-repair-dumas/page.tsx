@@ -124,7 +124,7 @@ export default function StormDamageRepairDumasPage() {
                               "name": "How quickly can you respond to storm damage emergencies in Dumas?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "We maintain emergency teams throughout the Texas Panhandle including Dumas with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
+                                        "text": "We maintain our teams throughout the Texas Panhandle including Dumas with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
                               }
                     },
                     {
@@ -132,7 +132,7 @@ export default function StormDamageRepairDumasPage() {
                               "name": "Will insurance cover my storm damage repairs in Dumas?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes emergency mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise."
+                                        "text": "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise."
                               }
                     },
                     {
@@ -140,7 +140,6 @@ export default function StormDamageRepairDumasPage() {
                               "name": "Should I tarp my roof myself or wait for professionals in Dumas?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
                               }
                     },
                     {
@@ -148,7 +147,7 @@ export default function StormDamageRepairDumasPage() {
                               "name": "How long does storm damage roof replacement take in Dumas?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling."
+                                        "text": "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling."
                               }
                     },
                     {
@@ -156,7 +155,7 @@ export default function StormDamageRepairDumasPage() {
                               "name": "What should I do immediately after storm damage in Dumas?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration."
+                                        "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration."
                               }
                     }
           ]
@@ -180,14 +179,14 @@ export default function StormDamageRepairDumasPage() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Dumas</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Emergency Response | Panhandle Weather Experts
+                Storm Damage Experts | Panhandle Weather Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -252,7 +251,7 @@ export default function StormDamageRepairDumasPage() {
                   Dumas sits at the heart of Moore County's agricultural operations, where storm damage affects not just homes and businesses but critical farming infrastructure. Livestock facilities, grain storage, and equipment buildings face unique challenges from High Plains supercells that develop tremendous intensity crossing the unobstructed terrain from Colorado and New Mexico.
                 </p>
                 <p className="text-gray-700">
-                  Agricultural buildings require rapid storm response to protect livestock, stored grain, and expensive equipment. We prioritize emergency repairs on agricultural structures and understand the critical timing around planting and harvest seasons when delays cost thousands daily.
+                  Agricultural buildings require rapid storm response to protect livestock, stored grain, and expensive equipment. We prioritize storm repairs on agricultural structures and understand the critical timing around planting and harvest seasons when delays cost thousands daily.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -277,7 +276,7 @@ export default function StormDamageRepairDumasPage() {
               <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
                 <h3 className="text-lg font-bold mb-3 text-red-700">Livestock Facilities</h3>
                 <ul className="text-red-600 space-y-2 text-sm">
-                  <li>• Emergency animal protection</li>
+                  <li>• Animal protection</li>
                   <li>• Rapid ventilation restoration</li>
                   <li>• Feed storage security</li>
                   <li>• Milking barn priority</li>
@@ -349,7 +348,7 @@ export default function StormDamageRepairDumasPage() {
                     <p className="text-gray-600 text-sm">Pre-storm season inspections in February and August identify vulnerabilities before peak weather periods, preventing catastrophic failures during critical farming periods.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold mb-2">Emergency Response Planning</h4>
+                    <h4 className="font-semibold mb-2">storm response Planning</h4>
                     <p className="text-gray-600 text-sm">Agricultural operations need rapid response protocols for livestock protection, grain preservation, and equipment security during and after severe weather events.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
@@ -377,7 +376,7 @@ export default function StormDamageRepairDumasPage() {
                   How quickly can you respond to storm damage emergencies in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain emergency teams throughout the Texas Panhandle including Dumas with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
+                  We maintain our teams throughout the Texas Panhandle including Dumas with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
                 </AccordionContent>
               </AccordionItem>
 
@@ -386,7 +385,7 @@ export default function StormDamageRepairDumasPage() {
                   Will insurance cover my storm damage repairs in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes emergency mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.
+                  Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.
                 </AccordionContent>
               </AccordionItem>
 
@@ -395,7 +394,6 @@ export default function StormDamageRepairDumasPage() {
                   Should I tarp my roof myself or wait for professionals in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
                 </AccordionContent>
               </AccordionItem>
 
@@ -404,7 +402,7 @@ export default function StormDamageRepairDumasPage() {
                   How long does storm damage roof replacement take in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling.
+                  Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling.
                 </AccordionContent>
               </AccordionItem>
 
@@ -413,7 +411,7 @@ export default function StormDamageRepairDumasPage() {
                   What should I do immediately after storm damage in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration.
+                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -389,17 +389,17 @@ export default function RoofReplacementMonahansPage() {
                 </div>
               </div>
               <div className="bg-blue-50 p-8 rounded-xl border border-blue-200">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">Our Emergency Response</h3>
+                <h3 className="text-2xl font-bold mb-4 text-blue-800">Our storm response</h3>
                 <ul className="text-blue-700 space-y-3">
                   <li>• Immediate damage assessment</li>
-                  <li>• Emergency tarping and weatherization</li>
+                  <li>• tarping and weatherization</li>
                   <li>• Rapid material procurement</li>
                   <li>• Expedited permitting when possible</li>
                   <li>• Insurance claim documentation</li>
                   <li>• Priority scheduling for replacement</li>
                 </ul>
                 <div className="mt-6 p-4 bg-blue-100 rounded-lg">
-                  <p className="text-blue-800 font-bold">Average emergency response time: Under 2 hours</p>
+                  <p className="text-blue-800 font-bold">Average storm response time: Under 2 hours</p>
                 </div>
               </div>
             </div>

@@ -148,7 +148,7 @@ export default function WindDamageRepairCanyonPage() {
                               "name": "How quickly can you repair wind damage in Canyon?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "We provide emergency tarping and temporary repairs within hours for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate emergency needs."
+                                        "text": "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs."
                               }
                     },
                     {
@@ -187,7 +187,7 @@ export default function WindDamageRepairCanyonPage() {
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -399,7 +399,7 @@ export default function WindDamageRepairCanyonPage() {
                   How quickly can you repair wind damage in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide emergency tarping and temporary repairs within hours for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate emergency needs.
+                  We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.
                 </AccordionContent>
               </AccordionItem>
 

@@ -202,7 +202,7 @@ export default function HailDamageRepairSnyderPage() {
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                     <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">💧 Immediate vs. Progressive Damage</h3>
-                    <p className="text-gray-700">Some hail damage causes immediate leaks requiring emergency response, while other damage compromises long-term integrity without immediate symptoms. Professional assessment identifies both types for comprehensive repair planning.</p>
+                    <p className="text-gray-700">Some hail damage causes immediate leaks requiring storm response, while other damage compromises long-term integrity without immediate symptoms. Professional assessment identifies both types for comprehensive repair planning.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                     <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">🌪️ Wind-Driven Hail Patterns</h3>
@@ -321,7 +321,7 @@ export default function HailDamageRepairSnyderPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4 text-brand-brown">Immediate Response (0-48 Hours)</h3>
-                  <p className="text-gray-700 mb-4">Immediately after a hail event, focus on safety and emergency protection. Document visible damage with photos, contact your insurance company to report potential damage, and schedule professional inspection for comprehensive assessment.</p>
+                  <p className="text-gray-700 mb-4">Immediately after a hail event, focus on safety and storm protection. Document visible damage with photos, contact your insurance company to report potential damage, and schedule professional inspection for comprehensive assessment.</p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Ensure safety and assess immediate hazards</li>
                     <li>• Document visible damage with photos</li>
@@ -386,7 +386,7 @@ export default function HailDamageRepairSnyderPage() {
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Local Availability</h3>
-                      <p className="text-gray-700">Immediate response capability for post-storm assessment and emergency services throughout Snyder and surrounding areas with rapid deployment for time-sensitive situations.</p>
+                      <p className="text-gray-700">Immediate response capability for post-storm assessment and prompt services throughout Snyder and surrounding areas with rapid deployment for time-sensitive situations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

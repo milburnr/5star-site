@@ -321,7 +321,7 @@ export default function Page() {
             <h3 className="font-bold text-xl mb-3">🌪️ Storm Response</h3>
             <p className="text-gray-600 mb-4">
               Hailstorms don't respect city limits. When severe weather hits multiple areas simultaneously,
-              our teams mobilize across the entire region to provide rapid emergency response.
+              our teams mobilize across the entire region to provide rapid storm response.
             </p>
           </div>
           <div>
@@ -359,7 +359,7 @@ export default function Page() {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="text-4xl font-bold text-brand-gold mb-2">24/7</div>
-            <div className="text-gray-600">Emergency Response</div>
+            <div className="text-gray-600">Storm Response</div>
           </div>
         </div>
       </section>

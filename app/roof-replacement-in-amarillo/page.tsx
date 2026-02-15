@@ -448,8 +448,8 @@ export default function Page() {
               <div className="w-20 h-20 bg-brand-gold rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-xl">⚡</span>
               </div>
-              <h3 className="font-bold mb-3">Emergency Response Guarantee</h3>
-              <p className="text-sm text-gray-600">If your new roof develops leaks within warranty period, we provide emergency response within 24 hours and permanent repairs at no cost.</p>
+              <h3 className="font-bold mb-3">storm response Guarantee</h3>
+              <p className="text-sm text-gray-600">If your new roof develops leaks within warranty period, we provide storm response within 24 hours and permanent repairs at no cost.</p>
             </div>
           </div>
           
@@ -560,7 +560,6 @@ export default function Page() {
                 <li><a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">• Commercial Roofing</a></li>
                 <li><a href="/metal-roofing-amarillo/" className="text-brand-gold hover:underline">• Metal Roofing</a></li>
                 <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Hail Damage</a></li>
-                <li><a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">• Emergency Service</a></li>
               </ul>
             </div>
           </div>

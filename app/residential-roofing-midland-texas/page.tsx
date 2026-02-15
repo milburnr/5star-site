@@ -120,7 +120,6 @@ export default function ResidentialMidlandPage() {
                   <li>✓ Shingle replacement</li>
                   <li>✓ Flashing repairs</li>
                   <li>✓ Vent and chimney work</li>
-                  <li>✓ Emergency repairs available</li>
                 </ul>
               </div>
 

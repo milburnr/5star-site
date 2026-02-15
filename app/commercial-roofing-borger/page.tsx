@@ -157,10 +157,10 @@ export default function CommercialRoofingBorgerPage() {
               Safety Protocols for Refinery-Adjacent Commercial Projects
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Commercial roofing projects near the Phillips 66 facility require extensive safety protocols and specialized equipment to prevent ignition sources and chemical exposure. Our crews complete refinery-specific safety training including confined space awareness, chemical hazard recognition, and emergency evacuation procedures. All equipment undergoes inspection for spark-prevention compliance before entering refinery-adjacent areas.
+              Commercial roofing projects near the Phillips 66 facility require extensive safety protocols and specialized equipment to prevent ignition sources and chemical exposure. Our crews complete refinery-specific safety training including confined space awareness, chemical hazard recognition, and storm evacuation procedures. All equipment undergoes inspection for spark-prevention compliance before entering refinery-adjacent areas.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Hot work permits and fire watch procedures are mandatory for any heat-based installation techniques within refinery influence zones. We coordinate extensively with refinery safety personnel and maintain constant communication during installation activities. Emergency response equipment and chemical exposure protocols are standard requirements for all crew members working in these environments.
+              Hot work permits and fire watch procedures are mandatory for any heat-based installation techniques within refinery influence zones. We coordinate extensively with refinery safety personnel and maintain constant communication during installation activities. storm response equipment and chemical exposure protocols are standard requirements for all crew members working in these environments.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Air quality monitoring during roofing installations ensures worker safety and project compliance. Continuous monitoring for hydrogen sulfide, benzene, and other petrochemical compounds determines safe working conditions. When air quality exceeds safety thresholds, work stops until conditions improve, ensuring both worker safety and project integrity.
@@ -202,7 +202,7 @@ export default function CommercialRoofingBorgerPage() {
               Predictive maintenance using infrared thermography identifies potential failure points before they compromise building operations. Thermal imaging reveals insulation defects, membrane delamination, and moisture intrusion that could lead to costly operational disruptions. Early detection prevents minor issues from becoming major system failures that could impact business operations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Emergency response capabilities are essential for commercial properties in Borger's industrial area. Chemical spills, thermal events, and severe weather can compromise roofing systems within hours. Our emergency response teams maintain equipment specifically designed for chemical-contaminated environments and coordinate with industrial emergency response protocols.
+              storm response capabilities are essential for commercial properties in Borger's industrial area. Chemical spills, thermal events, and severe weather can compromise roofing systems within hours. Our storm response teams maintain equipment specifically designed for chemical-contaminated environments and coordinate with industrial storm response protocols.
             </p>
           </section>
         </FadeIn>
@@ -227,7 +227,7 @@ export default function CommercialRoofingBorgerPage() {
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Professional Installation Teams and Project Management</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Our commercial roofing teams serving Borger include certified professionals with specialized training in industrial environments, chemical safety protocols, and advanced installation techniques. Team leaders hold OSHA 30-hour certifications with additional training in confined space safety, fall protection systems, and emergency response procedures specific to petrochemical environments.
+              Our commercial roofing teams serving Borger include certified professionals with specialized training in industrial environments, chemical safety protocols, and advanced installation techniques. Team leaders hold OSHA 30-hour certifications with additional training in confined space safety, fall protection systems, and safety response procedures specific to petrochemical environments.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Project management for Borger commercial installations incorporates extensive pre-planning phases that address weather windows, production schedules, and safety coordination requirements. We maintain detailed communication protocols with facility managers, safety coordinators, and operations personnel to ensure seamless project execution without compromising business operations.
@@ -264,15 +264,14 @@ export default function CommercialRoofingBorgerPage() {
               Building permit processes in Hutchinson County require detailed engineering calculations and material specifications for commercial projects. Our design team prepares comprehensive permit packages that expedite approval processes while ensuring full code compliance. Coordination with local building officials ensures smooth inspections and timely project completion.
             </p>
 
-            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Emergency Roofing Services and Response Capabilities</h3>
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">professional roofing services and Response Capabilities</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Borger's industrial environment requires immediate emergency response capabilities for roofing failures that could impact critical operations. Our emergency response teams maintain specialized equipment for chemical-contaminated environments and coordinate with industrial emergency response protocols established by major facilities including Phillips 66.
+              Borger's industrial environment requires immediate storm response capabilities for roofing failures that could impact critical operations. Our storm response teams maintain specialized equipment for chemical-contaminated environments and coordinate with industrial storm response protocols established by major facilities including Phillips 66.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Severe weather events including hailstorms, tornadoes, and high winds can cause catastrophic damage to commercial roofing systems. Emergency tarping and temporary weather protection services prevent secondary damage while permanent repairs are planned and executed. Rapid response times minimize business interruption and protect valuable interior assets.
+              Severe weather events including hailstorms, tornadoes, and high winds can cause catastrophic damage to commercial roofing systems. tarping and temporary weather protection services prevent secondary damage while permanent repairs are planned and executed. Rapid response times minimize business interruption and protect valuable interior assets.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              emergency hotline services ensure immediate contact with qualified technicians who understand Borger's unique industrial environment. Emergency response protocols include safety assessments, temporary protection installation, and coordination with insurance adjusters and facility managers to minimize disruption to critical operations.
             </p>
           </section>
         </FadeIn>

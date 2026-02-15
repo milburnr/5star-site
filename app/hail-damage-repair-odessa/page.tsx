@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-odessa/' },
   title: 'Hail Damage Repair Odessa TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Odessa TX. Fast emergency response, insurance assistance, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Professional hail damage roof repair in Odessa TX. Fast storm response, insurance assistance, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairOdessaPage() {
   return (
@@ -396,7 +396,7 @@ export default function HailDamageRepairOdessaPage() {
                   How quickly can you respond to hail damage in Odessa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer prompt response for Odessa properties. While our headquarters is in Amarillo (about 282 miles away), we maintain crews throughout West Texas and can typically reach Odessa within 4 hours for emergencies. After major storms, we prioritize emergency tarping to prevent water damage before permanent repairs begin.
+                  We offer prompt response for Odessa properties. While our headquarters is in Amarillo (about 282 miles away), we maintain crews throughout West Texas and can typically reach Odessa within 4 hours for emergencies. After major storms, we prioritize tarping to prevent water damage before permanent repairs begin.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/canyon-texas-roofing/' },
   title: 'Roofing in Canyon, TX| Hail Damage Specialists | 5 Star',
-  description: 'roofing services in Canyon, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Randall County. Free inspections available.',
+  description: 'roofing services in Canyon, Texas Panhandle. Commercial, residential, and storm roofing. Serving Randall County. Free inspections available.',
 };
 
 export default function CanyonRoofingPage() {
@@ -166,7 +166,7 @@ export default function CanyonRoofingPage() {
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Canyon, Texas</h2>
             <p className="text-lg mb-4">
-              As Canyon's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Randall County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or emergency storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
+              As Canyon's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Randall County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
               Canyon's climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Randall County properties year after year.
@@ -286,9 +286,9 @@ export default function CanyonRoofingPage() {
                 <div className="text-5xl mb-4">🚨</div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Canyon, we respond with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
+                  When severe weather strikes Canyon, we respond with tarping and rapid roof repairs. Call us immediately for storm damage assessment.
                 </p>
-                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
+                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Storm Damage Repair →</a>
               </div>
             </FadeIn>
           </div>

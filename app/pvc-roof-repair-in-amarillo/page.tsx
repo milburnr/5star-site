@@ -124,13 +124,13 @@ export default function Page() {
           Emergency PVC Repair Services for Critical Commercial Operations
         </h2>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-          Amarillo's severe weather patterns including hailstorms and high winds can cause sudden PVC membrane damage that threatens critical commercial operations and valuable interior assets. Emergency response capabilities include availability, rapid deployment, and specialized equipment for immediate temporary repairs that protect facilities until permanent solutions can be implemented during optimal weather conditions.
+          Amarillo's severe weather patterns including hailstorms and high winds can cause sudden PVC membrane damage that threatens critical commercial operations and valuable interior assets. storm response capabilities include availability, rapid deployment, and specialized equipment for immediate temporary repairs that protect facilities until permanent solutions can be implemented during optimal weather conditions.
         </p>
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-          Emergency tarping systems specifically designed for PVC membrane protection utilize compatible materials that won't cause chemical reactions or membrane damage during temporary installation periods. Professional-grade fastening systems withstand wind loads while preventing additional membrane damage from emergency protection procedures during storm events.
+          tarping systems specifically designed for PVC membrane protection utilize compatible materials that won't cause chemical reactions or membrane damage during temporary installation periods. Professional-grade fastening systems withstand wind loads while preventing additional membrane damage from storm protection procedures during storm events.
         </p>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-          Critical facility operations including data centers, medical facilities, and manufacturing operations require immediate response that minimizes operational disruption while providing effective weather protection. Emergency teams coordinate with facility managers to identify critical areas and implement protection procedures that maintain business continuity during severe weather events.
+          Critical facility operations including data centers, medical facilities, and manufacturing operations require immediate response that minimizes operational disruption while providing effective weather protection. our teams coordinate with facility managers to identify critical areas and implement protection procedures that maintain business continuity during severe weather events.
         </p>
 
         <h3 className="text-2xl font-bold mb-4 text-brand-brown">Educational Institution PVC Roof Repair Excellence</h3>
@@ -265,8 +265,7 @@ export default function Page() {
         <div className="process-step">
           <div className="step-number">1</div>
           <div className="step-content">
-            <h5 className="step-title">Emergency Response (24/7)</h5>
-            <p className="step-text">For active leaks, we provide same-day emergency tarping and temporary repairs to protect your building and inventory while permanent repairs are scheduled.</p>
+            <p className="step-text">For active leaks, we provide same-day tarping and temporary repairs to protect your building and inventory while permanent repairs are scheduled.</p>
           </div>
         </div>
         <div className="process-step">
@@ -300,13 +299,12 @@ export default function Page() {
       </div>
 
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
-        <h3 className="font-bold mb-3">🚨 Emergency PVC Roof Repair</h3>
         <p className="mb-4">
-          Active roof leaks can cause tens of thousands of dollars in interior damage within hours. Don't wait—call for emergency service:
+          Active roof leaks can cause tens of thousands of dollars in interior damage within hours. Don't wait—call for service:
         </p>
         <ul className="space-y-2">
           <li><strong>Availability:</strong> We answer phones day and night during storm season</li>
-          <li><strong>2-Hour Response:</strong> Emergency crews dispatched immediately in Amarillo area</li>
+          <li><strong>2-Hour Response:</strong> our crews dispatched immediately in Amarillo area</li>
           <li><strong>Same-Day Tarping:</strong> Temporary protection while permanent repairs are scheduled</li>
           <li><strong>Insurance Documentation:</strong> We handle all paperwork for your claim</li>
         </ul>

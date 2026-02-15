@@ -263,7 +263,7 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow border">
             <h4 className="font-bold text-brand-brown mb-3">Repair & Maintenance</h4>
             <ul className="space-y-2 text-sm">
-              <li>• <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">Emergency Roof Repairs</a></li>
+              <li>• <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">Storm Damage Roof Repairs</a></li>
               <li>• <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Hail Damage Restoration</a></li>
               <li>• Wind Damage Repair</li>
               <li>• Leak Detection & Repair</li>
@@ -337,7 +337,7 @@ export default function Page() {
               <span className="text-yellow-500 text-lg">★★★★★</span>
             </div>
             <p className="mb-4 italic">
-              "The team was incredible during our emergency roof repair. They responded the same day,
+              "The team was incredible during our roof repair. They responded the same day,
               provided temporary protection, and had permanent repairs completed within 48 hours.
               Outstanding service when we needed it most."
             </p>
@@ -525,7 +525,6 @@ export default function Page() {
         <ul className="list-disc pl-6 space-y-2">
           <li>Transparent pricing with detailed written estimates</li>
           <li>Quality workmanship backed by manufacturer warranties</li>
-          <li>Same-day emergency response for urgent repairs</li>
           <li>Clean job sites and professional crews</li>
           <li>Direct communication throughout your project</li>
         </ul>
@@ -562,21 +561,20 @@ export default function Page() {
         <p>
           When severe weather strikes Amarillo—and it strikes often—roof damage demands immediate attention.
           Water infiltration can cause thousands of dollars in additional damage within hours, making rapid
-          response absolutely critical. Our emergency response team is staffed around the clock to provide
+          response absolutely critical. Our storm response team is staffed around the clock to provide
           immediate protection and begin permanent repairs as quickly as possible.
         </p>
 
-        <h3 className="text-xl font-bold mt-6 mb-3">Emergency Response Capabilities</h3>
+        <h3 className="text-xl font-bold mt-6 mb-3">storm response Capabilities</h3>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-red-50 p-6 rounded-lg">
             <h4 className="font-bold mb-3">Immediate Response Services</h4>
             <ul className="space-y-2">
-              <li>• 2-4 hour emergency response time</li>
-              <li>• Professional emergency tarping</li>
+              <li>• Professional tarping</li>
               <li>• Water damage prevention measures</li>
               <li>• Temporary weatherproofing</li>
-              <li>• Emergency leak repairs</li>
+              <li>• Prompt leak repairs</li>
               <li>• Structural stabilization</li>
               <li>• hotline: (806) 622-6041</li>
             </ul>
@@ -585,7 +583,7 @@ export default function Page() {
           <div className="bg-blue-50 p-6 rounded-lg">
             <h4 className="font-bold mb-3">Storm Response Protocol</h4>
             <ul className="space-y-2">
-              <li>• Pre-positioned emergency materials</li>
+              <li>• Pre-positioned materials</li>
               <li>• Rapid damage assessment teams</li>
               <li>• Coordination with local authorities</li>
               <li>• Insurance notification assistance</li>
@@ -677,10 +675,10 @@ export default function Page() {
 
         <div className="space-y-4 mb-6">
           <div className="bg-gray-50 p-6 rounded-lg">
-            <h4 className="font-bold mb-2">How quickly can you respond to roofing emergencies?</h4>
+            <h4 className="font-bold mb-2">How quickly can you respond to roofing issues?</h4>
             <p>
-              We typically respond to emergency calls within 2-4 hours during business hours and within
-              4-8 hours during evenings and weekends. Our emergency response team is available
+              We typically respond to service calls within 2-4 hours during business hours and within
+              4-8 hours during evenings and weekends. Our storm response team is available
               to handle urgent situations that threaten property damage.
             </p>
           </div>

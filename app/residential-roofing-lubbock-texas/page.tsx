@@ -121,7 +121,6 @@ export default function ResidentialLubbockPage() {
                   <li>✓ Shingle replacement</li>
                   <li>✓ Flashing repairs</li>
                   <li>✓ Wind damage fixes</li>
-                  <li>✓ Emergency services available</li>
                 </ul>
               </div>
 

@@ -165,7 +165,7 @@ export default function HailDamageRepairAmarilloPage() {
                 "name": "How long does hail damage roof replacement take in Amarillo?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Most residential hail damage roof replacements in Amarillo are completed in 1-3 days depending on home size and complexity. The insurance claim process typically takes 2-4 weeks from initial inspection to approval. Once your claim is approved, we typically schedule installation within 1-2 weeks, weather permitting. Emergency tarp service is available same-day if you're experiencing active leaks."
+                  "text": "Most residential hail damage roof replacements in Amarillo are completed in 1-3 days depending on home size and complexity. The insurance claim process typically takes 2-4 weeks from initial inspection to approval. Once your claim is approved, we typically schedule installation within 1-2 weeks, weather permitting. Tarp service is available same-day if you're experiencing active leaks."
                 }
               },
               {
@@ -331,7 +331,7 @@ export default function HailDamageRepairAmarilloPage() {
                 <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-blue-500">
                   <h3 className="text-2xl font-bold text-brand-brown mb-4">⚡ Rapid Response After Storms</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    When severe weather hits Amarillo, every hour counts. We offer same-day emergency inspections and tarp services to prevent interior water damage. Our typical response time after major storms is 2-4 hours. We document damage immediately—before additional weathering makes it harder to prove storm-related damage versus normal aging.
+                    When severe weather hits Amarillo, every hour counts. We offer same-day damage inspections and tarp services to prevent interior water damage. Our typical response time after major storms is 2-4 hours. We document damage immediately—before additional weathering makes it harder to prove storm-related damage versus normal aging.
                   </p>
                 </div>
 
@@ -1537,7 +1537,7 @@ export default function HailDamageRepairAmarilloPage() {
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">How long does hail damage roof replacement take in Amarillo?</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Most residential hail damage roof replacements in Amarillo are completed in 1-3 days depending on home size and complexity. The insurance claim process typically takes 2-4 weeks from initial inspection to approval. Once your claim is approved, we typically schedule installation within 1-2 weeks, weather permitting. Emergency tarp service is available same-day if you're experiencing active leaks.
+                  Most residential hail damage roof replacements in Amarillo are completed in 1-3 days depending on home size and complexity. The insurance claim process typically takes 2-4 weeks from initial inspection to approval. Once your claim is approved, we typically schedule installation within 1-2 weeks, weather permitting. Tarp service is available same-day if you're experiencing active leaks.
                 </p>
               </div>
 
@@ -1577,9 +1577,9 @@ export default function HailDamageRepairAmarilloPage() {
           <div className="flex gap-6 items-center">
             <div className="text-6xl">🚨</div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-red-800 mb-3">Storm Just Hit Amarillo? Get Emergency Service Now</h2>
+              <h2 className="text-3xl font-bold text-red-800 mb-3">Storm Just Hit Amarillo? Get prompt service Now</h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                After severe hail or wind storms, every hour counts. We offer <strong>same-day emergency inspections and tarp services</strong> to prevent interior water damage. Our typical response time is 2-4 hours after major Amarillo storm events. Don't wait for leaks to cause thousands in additional damage—call now.
+                After severe hail or wind storms, every hour counts. We offer <strong>same-day damage inspections and tarp services</strong> to prevent interior water damage. Our typical response time is 2-4 hours after major Amarillo storm events. Don't wait for leaks to cause thousands in additional damage—call now.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
                 Emergency Hail Damage: (806) 622-6041

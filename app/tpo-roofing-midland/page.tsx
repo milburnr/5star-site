@@ -311,7 +311,6 @@ export default function TPORoofingMidlandPage() {
                     <li>• Superior weather resistance</li>
                     <li>• Fire-resistant membrane construction</li>
                     <li>• Comprehensive insurance coverage</li>
-                    <li>• Emergency repair capabilities</li>
                   </ul>
                 </div>
               </div>
@@ -348,8 +347,8 @@ export default function TPORoofingMidlandPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">We provide comprehensive warranty protection including manufacturer material warranties ranging from 20-30 years and our own 15-year workmanship warranty for industrial applications. Given the demanding conditions in energy facilities, we offer enhanced warranty coverage that specifically addresses chemical exposure, thermal cycling, and heavy equipment loads. All warranties include detailed maintenance protocols and are fully transferable. We also provide extended service agreements for critical facilities requiring ongoing maintenance and inspection services.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to emergency repairs for energy facilities?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We maintain prompt response capabilities for energy industry clients, understanding that operational downtime can be extremely costly. Our emergency response team can be on-site within 2-4 hours for critical facilities, providing temporary repairs and leak mitigation while permanent solutions are planned. We stock emergency repair materials specifically for TPO systems and maintain relationships with equipment suppliers to ensure rapid material availability. Our goal is to minimize operational impact while ensuring long-term roof integrity.</AccordionContent>
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to storm damage repairs for energy facilities?</AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">We maintain prompt response capabilities for energy industry clients, understanding that operational downtime can be extremely costly. Our storm response team can be on-site within 2-4 hours for critical facilities, providing temporary repairs and leak mitigation while permanent solutions are planned. We stock storm repair materials specifically for TPO systems and maintain relationships with equipment suppliers to ensure rapid material availability. Our goal is to minimize operational impact while ensuring long-term roof integrity.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What maintenance is required for TPO roofing in industrial environments?</AccordionTrigger>

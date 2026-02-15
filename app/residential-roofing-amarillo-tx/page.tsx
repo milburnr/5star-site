@@ -394,13 +394,12 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.3}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
-                    <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.jpg" alt="Storm damage residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <p className="text-gray-600 leading-relaxed">
-                       for Amarillo homes. Storm damage, active leaks, wind-blown shingles—we respond within 2-4 hours with emergency tarp installation and temporary repairs. Prevents interior water damage while coordinating insurance claims and permanent replacement.
+                       for Amarillo homes. Storm damage, active leaks, wind-blown shingles—we respond within 2-4 hours with tarp installation and temporary repairs. Prevents interior water damage while coordinating insurance claims and permanent replacement.
                     </p>
                     <div className="pt-4">
-                      <span className="text-brand-gold font-bold">Emergency Response</span>
+                      <span className="text-brand-gold font-bold">Storm Response</span>
                     </div>
                   </div>
                 </div>
@@ -893,17 +892,17 @@ export default function ResidentialRoofingAmarilloPage() {
           </section>
         </FadeIn>
 
-        {/* Emergency Services */}
+        {/* Storm Services */}
         <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl shadow-lg">
           <div className="flex gap-6 items-center">
             <div className="text-6xl">🚨</div>
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Residential Roofing in Amarillo</h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Storm damage your Amarillo home? Don't wait for leaks to damage your interior. We provide <strong>emergency residential roofing services</strong> with 2-4 hour response times throughout Amarillo and surrounding areas.
+                Storm damage your Amarillo home? Don't wait for leaks to damage your interior. We provide <strong>residential roofing services</strong> with 2-4 hour response times throughout Amarillo and surrounding areas.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Emergency services include: <strong>Emergency tarp installation</strong> to prevent water intrusion, <strong>temporary leak repairs</strong> to protect your home, <strong>same-day storm damage inspections</strong>, and <strong>rapid insurance claim initiation</strong>. Fast action minimizes interior damage and simplifies insurance claims.
+                prompt services include: <strong>Tarp installation</strong> to prevent water intrusion, <strong>temporary leak repairs</strong> to protect your home, <strong>same-day storm damage inspections</strong>, and <strong>rapid insurance claim initiation</strong>. Fast action minimizes interior damage and simplifies insurance claims.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
                 📞 Call: (806) 622-6041
@@ -1000,7 +999,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <a href="/roofing-amarillo-tx/" className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">🏢 All Amarillo Services</h3>
                 <p className="text-gray-600">
-                  Complete overview of our Amarillo roofing services—residential, commercial, emergency, inspections, and storm damage response.
+                  Complete overview of our Amarillo roofing services—residential, commercial, inspections, and storm damage response.
                 </p>
               </a>
 

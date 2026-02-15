@@ -142,7 +142,7 @@ export default function CommercialRoofingAmarilloPage() {
         "name": "Do you offer roof maintenance programs?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes! We offer preventative maintenance programs including bi-annual inspections, minor repairs, drain cleaning, and seal/seam checks. Regular maintenance extends commercial roof life 30-50% by catching small issues before they become major problems. Our maintenance customers receive priority emergency response, discounted repairs, and detailed condition reports useful for budgeting future replacements. Maintenance programs start at $500-$1,500 annually depending on building size."
+          "text": "Yes! We offer preventative maintenance programs including bi-annual inspections, minor repairs, drain cleaning, and seal/seam checks. Regular maintenance extends commercial roof life 30-50% by catching small issues before they become major problems. Our maintenance customers receive priority response, discounted repairs, and detailed condition reports useful for budgeting future replacements. Maintenance programs start at $500-$1,500 annually depending on building size."
         }
       },
       {
@@ -260,7 +260,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.2}>
                 <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20">
                   <div className="text-4xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-3">24/7</div>
-                  <div className="text-brand-brown font-semibold text-lg">Emergency Response</div>
+                  <div className="text-brand-brown font-semibold text-lg">Storm Response</div>
                 </div>
               </FadeIn>
               <FadeIn delay={0.3}>
@@ -291,7 +291,7 @@ export default function CommercialRoofingAmarilloPage() {
               When your Amarillo commercial property sits in "Hail Alley," you need more than a standard flat roof—you need a roofing system engineered to withstand frequent hail bombardment, extreme temperature swings, and high winds. Since 2014, 5 Star Commercial Roofing has protected over 500 Amarillo businesses with premium TPO, PVC, EPDM, standing seam metal, and built-up roofing systems designed specifically for the harsh Texas Panhandle climate.
             </p>
             <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-              Headquartered right here in Amarillo at 2909 S Western St, we're your local <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing specialists</a> who understand the unique challenges facing downtown office buildings, retail centers along I-40, industrial warehouses, medical facilities, and multi-family properties throughout the Texas Panhandle. From emergency <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repairs</a> to complete roof replacements, we minimize business disruption while maximizing your insurance coverage.
+              Headquartered right here in Amarillo at 2909 S Western St, we're your local <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing specialists</a> who understand the unique challenges facing downtown office buildings, retail centers along I-40, industrial warehouses, medical facilities, and multi-family properties throughout the Texas Panhandle. From storm damage <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repairs</a> to complete roof replacements, we minimize business disruption while maximizing your insurance coverage.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed">
               Commercial property owners choose us because we offer <strong>prompt response</strong>, work directly with insurance adjusters to ensure maximum claim approval, and install only premium roofing systems backed by comprehensive warranties. Whether you manage a small retail shop or oversee multiple industrial buildings, we'll protect your investment with roofing solutions built to last 20-30+ years. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free commercial roof inspection.
@@ -706,7 +706,7 @@ export default function CommercialRoofingAmarilloPage() {
                 <ol className="space-y-3 text-gray-700">
                   <li className="flex gap-3">
                     <span className="font-bold text-blue-600">1.</span>
-                    <span><strong>Emergency Response (2-4 hours):</strong> Emergency tarp installation and temporary leak repairs to prevent interior damage</span>
+                    <span><strong>storm response (2-4 hours):</strong> Tarp installation and temporary leak repairs to prevent interior damage</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="font-bold text-blue-600">2.</span>
@@ -780,7 +780,7 @@ export default function CommercialRoofingAmarilloPage() {
                     <strong>Challenge:</strong> Severe hail damaged EPDM roof and 8 rooftop HVAC units. Client concerned about production shutdown.
                   </p>
                   <p>
-                    <strong>Our Solution:</strong> Emergency tarp prevented interior damage. Documented HVAC equipment damage for claim. Insurance approved $520,000 total claim. Phased installation during weekends maintained 100% production uptime.
+                    <strong>Our Solution:</strong> Tarp prevented interior damage. Documented HVAC equipment damage for claim. Insurance approved $520,000 total claim. Phased installation during weekends maintained 100% production uptime.
                   </p>
                 </div>
               </div>
@@ -792,10 +792,10 @@ export default function CommercialRoofingAmarilloPage() {
                 After hailstorms, commercial property damage worsens rapidly. Membrane punctures allow water infiltration. Equipment damage affects HVAC performance. Delayed response increases interior damage, business disruption, and insurance complications.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our commercial emergency response team arrives within 2-4 hours with emergency tarps, temporary repairs, and immediate damage assessment. The faster you call, the more we can protect your business and maximize your insurance recovery.
+                Our commercial storm response team arrives within 2-4 hours with temporary tarps, temporary repairs, and immediate damage assessment. The faster you call, the more we can protect your business and maximize your insurance recovery.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
-                Commercial Emergency: (806) 622-6041
+                Commercial urgent: (806) 622-6041
               </a>
             </div>
           </section>
@@ -939,7 +939,7 @@ export default function CommercialRoofingAmarilloPage() {
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-14-1280w.jpg" alt="Amarillo roofing services - Residential and commercial" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Complete Amarillo Roofing Services</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Comprehensive roofing services for all Amarillo properties—residential, commercial, emergency repairs, inspections, and insurance claims assistance.
+                      Comprehensive roofing services for all Amarillo properties—residential, commercial, prompt repairs, inspections, and insurance claims assistance.
                     </p>
                     <div className="pt-4">
                       <span className="text-brand-gold font-bold hover:underline">Explore All Amarillo Services →</span>
@@ -1034,7 +1034,7 @@ export default function CommercialRoofingAmarilloPage() {
               <div className="bg-white p-6 rounded-xl shadow-md">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Do you offer roof maintenance programs?</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Yes! We offer preventative maintenance programs including bi-annual inspections, minor repairs, drain cleaning, and seal/seam checks. Regular maintenance extends commercial roof life 30-50% by catching small issues before they become major problems. Our maintenance customers receive priority emergency response, discounted repairs, and detailed condition reports useful for budgeting future replacements. Maintenance programs start at $500-$1,500 annually depending on building size.
+                  Yes! We offer preventative maintenance programs including bi-annual inspections, minor repairs, drain cleaning, and seal/seam checks. Regular maintenance extends commercial roof life 30-50% by catching small issues before they become major problems. Our maintenance customers receive priority response, discounted repairs, and detailed condition reports useful for budgeting future replacements. Maintenance programs start at $500-$1,500 annually depending on building size.
                 </p>
               </div>
 
@@ -1055,10 +1055,10 @@ export default function CommercialRoofingAmarilloPage() {
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-red-800 mb-3">Commercial Emergency Roofing - Amarillo</h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Commercial roof emergency? Severe storm damage? Active leaks threatening your business operations or inventory? We provide <strong>emergency commercial roofing services</strong> throughout Amarillo with typical response times of 2-4 hours.
+                Commercial roof damage? Severe storm damage? Active leaks threatening your business operations or inventory? We provide <strong>commercial roofing services</strong> throughout Amarillo with typical response times of 2-4 hours.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our commercial emergency services include: <strong>Emergency tarp installation</strong>, <strong>temporary leak repairs</strong>, <strong>equipment protection</strong>, <strong>water damage mitigation coordination</strong>, and <strong>immediate insurance claim initiation</strong>. Don't let roof damage shut down your business—call now for immediate response.
+                Our commercial prompt services include: <strong>Tarp installation</strong>, <strong>temporary leak repairs</strong>, <strong>equipment protection</strong>, <strong>water damage mitigation coordination</strong>, and <strong>immediate insurance claim initiation</strong>. Don't let roof damage shut down your business—call now for immediate response.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
                 📞 Call: (806) 622-6041

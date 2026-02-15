@@ -328,30 +328,29 @@ export default function OdessaRoofingPage() {
               </InteractiveCard>
             </FadeIn>
 
-            {/* Emergency Services */}
+            {/* Storm Services */}
             <FadeIn delay={0.5}>
               <InteractiveCard className="bg-red-50 border-2 border-red-300">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-38-1280w.jpg" alt="emergency roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Emergency Roof Repair
+                      Storm Damage Roof Repair
                     </h3>
                     <p className="text-sm text-red-600 font-semibold">RAPID RESPONSE TEAM</p>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Roofing emergencies strike without warning in Odessa.</strong> When severe
+                      <strong>roofing issues strike without warning in Odessa.</strong> When severe
                       thunderstorms roll across the Permian Basin, when high winds tear off shingles, when hail
                       punctures your roof, or when you discover an active leak threatening your property, you need
-                      immediate professional response. We provide emergency roofing services throughout Odessa
+                      immediate professional response. We provide professional roofing services throughout Odessa
                       and surrounding communities.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      Our emergency services include immediate response typically within 1-2 hours, emergency
+                      Our prompt services include immediate response typically within 1-2 hours, prompt
                       tarping to prevent water damage and secure your property, temporary leak repairs to stop
                       active water intrusion, storm damage assessment and documentation, debris removal and site
-                      cleanup, and coordination with your insurance company for emergency services coverage.
+                      cleanup, and coordination with your insurance company for prompt services coverage.
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Don&apos;t wait:</strong> Every minute of water infiltration causes exponentially
@@ -359,7 +358,7 @@ export default function OdessaRoofingPage() {
                       <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">
                         (806) 622-6041
                       </a>{" "}
-                      immediately for emergency assistance anywhere in Odessa.
+                      immediately for professional assistance anywhere in Odessa.
                     </p>
                     <a
                       href="/hail-damage-repair-odessa-tx/"
@@ -553,7 +552,7 @@ export default function OdessaRoofingPage() {
                     neighborhoods, commercial districts, and industrial facilities throughout the Permian Basin.
                   </p>
                   <p className="text-gray-700 mb-4">
-                    <strong>Response Times:</strong> Emergency service typically within 1-2 hours anywhere in Odessa.
+                    <strong>Response Times:</strong> prompt service typically within 1-2 hours anywhere in Odessa.
                     Scheduled inspections and installations available throughout the week.
                   </p>
                   <p className="text-gray-700">
@@ -720,7 +719,7 @@ export default function OdessaRoofingPage() {
             "name": "5 Star Commercial Roofing - Odessa",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
-            "description": "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and emergency services for residential and industrial properties.",
+            "description": "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and prompt services for residential and industrial properties.",
             "telephone": "+18066226041",
             "email": "admin@5starroofingpros.com",
             "url": "https://5starroofingpros.com/odessa-texas-roofing/",
@@ -790,8 +789,7 @@ export default function OdessaRoofingPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Roof Repair",
-                    "description": "emergency roofing services throughout Odessa for storm damage, leaks, and urgent repairs."
+                    "description": "professional roofing services throughout Odessa for storm damage, leaks, and urgent repairs."
                   }
                 }
               ]

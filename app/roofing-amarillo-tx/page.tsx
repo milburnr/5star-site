@@ -168,10 +168,10 @@ export default function AmarilloRoofingPage() {
               },
               {
                 "@type": "Question",
-                "name": "Do you offer emergency roofing services in Amarillo?",
+                "name": "Do you offer professional roofing services in Amarillo?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes! We provide emergency roofing services throughout Amarillo. After severe storms, we prioritize emergency calls and typically arrive within 2-4 hours for urgent leak repairs and tarp installations. Our rapid response helps minimize interior damage and gets you on the path to a full roof replacement quickly."
+                  "text": "Yes! We provide professional roofing services throughout Amarillo. After severe storms, we prioritize service calls and typically arrive within 2-4 hours for urgent leak repairs and tarp installations. Our rapid response helps minimize interior damage and gets you on the path to a full roof replacement quickly."
                 }
               }
             ]
@@ -266,7 +266,7 @@ export default function AmarilloRoofingPage() {
               Located at 2909 S Western St in Amarillo, we're your local roofing experts who understand exactly what your roof faces living in "Hail Alley." From <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage assessment and insurance claims</a> to complete <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roof replacement</a> and <a href="/commercial-roofing-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing systems</a>, we've completed over 1,500 projects across every Amarillo neighborhood.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed">
-              When hail strikes, time is critical. We offer same-day emergency inspections and work directly with your insurance company to maximize coverage—our goal is getting your claim approved and your roof replaced with minimal out-of-pocket expense. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free roof inspection today.
+              When hail strikes, time is critical. We offer same-day damage inspections and work directly with your insurance company to maximize coverage—our goal is getting your claim approved and your roof replaced with minimal out-of-pocket expense. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free roof inspection today.
             </p>
           </section>
         </FadeIn>
@@ -303,9 +303,9 @@ export default function AmarilloRoofingPage() {
                 </div>
 
                 <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-brand-gold">
-                  <h3 className="text-2xl font-bold text-brand-brown mb-4">⚡ Rapid Emergency Response</h3>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">⚡ Rapid storm response</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    After severe storms, we prioritize emergency calls with 2-4 hour response times throughout Amarillo. We provide emergency tarp services to prevent interior water damage while coordinating your insurance claim and scheduling permanent repairs. Our availability means you're never left waiting during a roofing crisis.
+                    After severe storms, we prioritize service calls with 2-4 hour response times throughout Amarillo. We provide prompt tarp services to prevent interior water damage while coordinating your insurance claim and scheduling permanent repairs. Our availability means you're never left waiting during a roofing crisis.
                   </p>
                 </div>
 
@@ -384,13 +384,11 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.4}>
                 <InteractiveCard href="/roof-repair-services-in-amarillo/">
                   <div className="space-y-4">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-42-1280w.jpg" alt="Emergency roof repair in Amarillo TX - storm damage response" className="w-full h-48 object-cover rounded-lg" />
-                    <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      emergency roofing services throughout Amarillo. Active leaks, storm damage, wind-blown shingles—we respond within 2-4 hours with emergency tarps and temporary repairs, then coordinate permanent solutions quickly.
+                      professional roofing services throughout Amarillo. Active leaks, storm damage, wind-blown shingles—we respond within 2-4 hours with temporary tarps and temporary repairs, then coordinate permanent solutions quickly.
                     </p>
                     <div className="pt-4">
-                      <span className="text-brand-gold font-bold hover:underline">Emergency Service Info →</span>
+                      <span className="text-brand-gold font-bold hover:underline">prompt service Info →</span>
                     </div>
                   </div>
                 </InteractiveCard>
@@ -964,17 +962,17 @@ export default function AmarilloRoofingPage() {
           </section>
         </FadeIn>
 
-        {/* Emergency Services */}
+        {/* Storm Services */}
         <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl shadow-lg">
           <div className="flex gap-6 items-center">
             <div className="text-6xl">🚨</div>
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-red-800 mb-3">Storm Damage Repair Services in Amarillo</h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Severe storm just hit Amarillo? Don't wait for leaks to cause interior damage. We offer <strong>emergency roofing services</strong> throughout Amarillo and the Texas Panhandle with typical response times of 2-4 hours for urgent situations.
+                Severe storm just hit Amarillo? Don't wait for leaks to cause interior damage. We offer <strong>professional roofing services</strong> throughout Amarillo and the Texas Panhandle with typical response times of 2-4 hours for urgent situations.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our emergency services include: <strong>Emergency tarp installation</strong> to prevent water damage, <strong>temporary leak repairs</strong>, <strong>same-day storm damage inspections</strong>, and <strong>rapid insurance claim initiation</strong>. The faster you act after storm damage, the less interior damage you'll experience—and the easier your insurance claim process.
+                Our prompt services include: <strong>Tarp installation</strong> to prevent water damage, <strong>temporary leak repairs</strong>, <strong>same-day storm damage inspections</strong>, and <strong>rapid insurance claim initiation</strong>. The faster you act after storm damage, the less interior damage you'll experience—and the easier your insurance claim process.
               </p>
               <a href="tel:8066226041" className="btn-primary-hero bg-red-600 hover:bg-red-700 text-white text-xl px-8 py-4 inline-block hover:scale-110 hover:shadow-[0_0_30px_rgba(220,38,38,0.5)] transition-all duration-300">
                 📞 Call: (806) 622-6041
@@ -1041,9 +1039,9 @@ export default function AmarilloRoofingPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md">
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Do you offer emergency roofing services in Amarillo?</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Do you offer professional roofing services in Amarillo?</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Yes! We provide emergency roofing services throughout Amarillo. After severe storms, we prioritize emergency calls and typically arrive within 2-4 hours for urgent leak repairs and tarp installations. Our rapid response helps minimize interior damage and gets you on the path to a full roof replacement quickly.
+                  Yes! We provide professional roofing services throughout Amarillo. After severe storms, we prioritize service calls and typically arrive within 2-4 hours for urgent leak repairs and tarp installations. Our rapid response helps minimize interior damage and gets you on the path to a full roof replacement quickly.
                 </p>
               </div>
             </div>

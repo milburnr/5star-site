@@ -322,8 +322,8 @@ export default function StormDamageRepairAndrewsPage() {
                   <div className="flex items-start space-x-3">
                     <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">1</div>
                     <div>
-                      <h4 className="font-semibold text-lg mb-1">Emergency Response</h4>
-                      <p className="text-sm opacity-90">emergency calls, immediate temporary repairs to prevent further damage</p>
+                      <h4 className="font-semibold text-lg mb-1">Storm Response</h4>
+                      <p className="text-sm opacity-90">service calls, immediate temporary repairs to prevent further damage</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">

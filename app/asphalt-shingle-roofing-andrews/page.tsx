@@ -297,7 +297,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                 <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-gold text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Final Inspection & Warranty Activation</h3>
-                  <p className="text-gray-600">Final walkthrough includes comprehensive cleanup, detailed warranty documentation, and maintenance guidance specific to Andrews's climate challenges. We coordinate final inspections with Andrews building officials, activate manufacturer warranties, and provide emergency contact information for storm response coverage throughout Andrews County.</p>
+                  <p className="text-gray-600">Final walkthrough includes comprehensive cleanup, detailed warranty documentation, and maintenance guidance specific to Andrews's climate challenges. We coordinate final inspections with Andrews building officials, activate manufacturer warranties, and provide prompt contact information for storm response coverage throughout Andrews County.</p>
                 </div>
               </div>
             </div>

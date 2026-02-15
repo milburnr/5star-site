@@ -213,7 +213,6 @@ export default function RoofReplacementPampaPage() {
                   <li>• Understanding of oil field schedules</li>
                   <li>• Knowledge of local safety requirements</li>
                   <li>• Established supplier relationships</li>
-                  <li>• Quick emergency response capabilities</li>
                 </ul>
               </div>
             </div>
@@ -318,7 +317,7 @@ export default function RoofReplacementPampaPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
-                    <div>emergency storm response</div>
+                    <div>storm response</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">✓</div>
@@ -360,7 +359,6 @@ export default function RoofReplacementPampaPage() {
                   <li>• Warehouse and storage facility roofing</li>
                   <li>• Administrative building solutions</li>
                   <li>• Equipment shelter replacements</li>
-                  <li>• Emergency response capabilities</li>
                   <li>• Understanding of operational requirements</li>
                 </ul>
               </div>
@@ -425,7 +423,7 @@ export default function RoofReplacementPampaPage() {
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to storm damage in Pampa?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout Gray County, typically arriving within 2-4 hours for severe storm damage. Our teams are positioned regionally to respond quickly to Panhandle storm events, with emergency tarping and temporary repairs available immediately.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">We provide prompt response throughout Gray County, typically arriving within 2-4 hours for severe storm damage. Our teams are positioned regionally to respond quickly to Panhandle storm events, with tarping and temporary repairs available immediately.</AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>

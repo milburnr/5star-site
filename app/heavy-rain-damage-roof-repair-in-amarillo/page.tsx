@@ -69,7 +69,6 @@ const serviceSchema = {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Emergency Rain Damage Repair"
         }
       },
       {
@@ -83,7 +82,6 @@ const serviceSchema = {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Emergency Tarping Service"
         }
       }
     ]
@@ -162,7 +160,7 @@ export default function Page() {
           <span className="check-icon text-2xl">🌊</span>
           <div>
             <h3 className="font-bold mb-2">Dripping Water During/After Storms</h3>
-            <p className="text-gray-600">Active leaks during rain events require immediate emergency response</p>
+            <p className="text-gray-600">Active leaks during rain events require immediate storm response</p>
           </div>
         </div>
         <div className="check-item">
@@ -225,19 +223,18 @@ export default function Page() {
         </div>
       </div>
 
-      <h2 className="text-2xl font-bold mt-8 mb-4">Our Emergency Rain Damage Response Process</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">our Rain Damage Response Process</h2>
       <div className="space-y-3 mb-8">
         <div className="process-step">
           <div className="step-number">1</div>
           <div className="step-content">
-            <h5 className="step-title">Emergency Contact (24/7)</h5>
             <p className="step-text">Call (806) 622-6041 any time, day or night. We answer immediately during storm events and dispatch crews to your location in Amarillo, Midland, Odessa, or surrounding areas.</p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">2</div>
           <div className="step-content">
-            <h5 className="step-title">Emergency Tarping</h5>
+            <h5 className="step-title">tarping</h5>
             <p className="step-text">Our team arrives with heavy-duty tarps to stop active water intrusion and protect your property from further damage until permanent repairs can be made.</p>
           </div>
         </div>
@@ -294,7 +291,7 @@ export default function Page() {
 
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
         <h3 className="font-bold mb-3">Act Fast After Heavy Rain</h3>
-        <p>Water damage worsens rapidly. Within 24-48 hours, mold can begin growing in saturated insulation and drywall. Don't wait—call for emergency service immediately if you suspect roof leaks after heavy rain.</p>
+        <p>Water damage worsens rapidly. Within 24-48 hours, mold can begin growing in saturated insulation and drywall. Don't wait—call for service immediately if you suspect roof leaks after heavy rain.</p>
       </div>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Why Choose 5 Star Commercial Roofing for Rain Damage Repairs</h2>
@@ -304,7 +301,6 @@ export default function Page() {
             When heavy rain damages your roof in Amarillo, Midland, Odessa, or Lubbock, you need a roofing contractor with proven experience in the unique challenges of West Texas weather. Our team has been serving the Texas Panhandle for years, and we understand the specific vulnerabilities that regional climate conditions create.
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Emergency Response:</strong> We answer calls immediately during storm events and can have tarping crews at your location within hours, not days.</li>
             <li><strong>Insurance Expertise:</strong> We've worked with every major insurance carrier in Texas and know exactly what documentation is needed to get your claim approved quickly. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> experience translates directly to rain damage claims.</li>
             <li><strong>Advanced Technology:</strong> Drone inspections provide detailed documentation of roof damage that insurance adjusters trust, while also keeping our team safe during inspections of steep or dangerous roofs.</li>
             <li><strong>Regional Coverage:</strong> From Amarillo to Midland, Odessa to Lubbock, we serve the entire West Texas region with the same fast, professional service.</li>
@@ -317,7 +313,7 @@ export default function Page() {
       <div className="card mb-8">
         <div className="card-body">
           <p className="mb-4">
-            Our emergency rain damage repair services are available throughout the Texas Panhandle and West Texas region. We maintain rapid response teams ready to deploy to:
+            our rain damage repair services are available throughout the Texas Panhandle and West Texas region. We maintain rapid response teams ready to deploy to:
           </p>
           <div className="grid md:grid-cols-3 gap-4">
             <div>
@@ -362,7 +358,7 @@ export default function Page() {
           <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>Sudden and accidental water intrusion from storm events</li>
             <li>Wind-driven rain damage through roof openings created by storms</li>
-            <li>Emergency tarping to prevent further damage</li>
+            <li>tarping to prevent further damage</li>
             <li>Roof repairs or replacement if damage is extensive</li>
             <li>Interior water damage resulting from roof failure during storms</li>
           </ul>
@@ -383,13 +379,13 @@ export default function Page() {
       <div className="space-y-4 mb-8">
         <div className="card">
           <div className="card-body">
-            <h3 className="font-bold mb-2">How quickly should I call for emergency service after heavy rain?</h3>
-            <p>Call immediately if you notice active leaks, water stains, or any signs of water intrusion. The faster we can tarp and assess damage, the less secondary damage (mold, structural deterioration) will occur. Call (806) 622-6041 for emergency service.</p>
+            <h3 className="font-bold mb-2">How quickly should I call for service after heavy rain?</h3>
+            <p>Call immediately if you notice active leaks, water stains, or any signs of water intrusion. The faster we can tarp and assess damage, the less secondary damage (mold, structural deterioration) will occur. Call (806) 622-6041 for prompt service.</p>
           </div>
         </div>
         <div className="card">
           <div className="card-body">
-            <h3 className="font-bold mb-2">Will emergency tarping damage my roof further?</h3>
+            <h3 className="font-bold mb-2">Will tarping damage my roof further?</h3>
             <p>No. Our crews use professional-grade tarps and installation methods that secure the tarp without creating additional penetrations or damage. Tarping prevents exponentially more damage than it could possibly cause.</p>
           </div>
         </div>

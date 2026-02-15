@@ -232,9 +232,8 @@ export default function RoofInspectionsLubbockPage() {
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌩️ Peak Storm Season (April-June)</h3>
                 <p className="text-gray-700 mb-4"><strong>Active Monitoring Period:</strong> This is Lubbock's most dangerous weather period, with supercells producing giant hail and violent winds. Immediate post-storm inspections are critical.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• 24-48 hour post-storm emergency inspections</li>
+                  <li>• 24-48 hour post-storm damage inspections</li>
                   <li>• Rapid insurance claim initiation and documentation</li>
-                  <li>• Temporary protection and emergency repairs</li>
                   <li>• Cumulative damage assessment from multiple events</li>
                   <li>• Priority scheduling during high-demand periods</li>
                 </ul>

@@ -124,7 +124,7 @@ export default function StormDamageRepairCanyonPage() {
                               "name": "How quickly can you respond to storm damage emergencies in Canyon?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "We maintain emergency teams throughout the Texas Panhandle including Canyon with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
+                                        "text": "We maintain our teams throughout the Texas Panhandle including Canyon with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
                               }
                     },
                     {
@@ -132,7 +132,7 @@ export default function StormDamageRepairCanyonPage() {
                               "name": "Will insurance cover my storm damage repairs in Canyon?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes emergency mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise."
+                                        "text": "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise."
                               }
                     },
                     {
@@ -140,7 +140,6 @@ export default function StormDamageRepairCanyonPage() {
                               "name": "Should I tarp my roof myself or wait for professionals in Canyon?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
                               }
                     },
                     {
@@ -148,7 +147,7 @@ export default function StormDamageRepairCanyonPage() {
                               "name": "How long does storm damage roof replacement take in Canyon?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Canyon, timelines may extend due to high demand—early claims get priority scheduling."
+                                        "text": "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Canyon, timelines may extend due to high demand—early claims get priority scheduling."
                               }
                     },
                     {
@@ -156,7 +155,7 @@ export default function StormDamageRepairCanyonPage() {
                               "name": "What should I do immediately after storm damage in Canyon?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration."
+                                        "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration."
                               }
                     }
           ]
@@ -180,14 +179,14 @@ export default function StormDamageRepairCanyonPage() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Canyon</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Emergency Response | Panhandle Weather Experts
+                Storm Damage Experts | Panhandle Weather Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -261,7 +260,7 @@ export default function StormDamageRepairCanyonPage() {
                   Palo Duro Canyon's 800-foot depth creates temperature differentials that can trigger or intensify thunderstorm development. Cool air from the canyon floor meets heated surface air from the surrounding plains, creating atmospheric instability. This effect is strongest during late afternoon and early evening hours.
                 </p>
                 <p className="text-gray-700">
-                  These localized storm cells often produce more intense hail and damaging winds than regional weather forecasts predict. Our emergency response teams monitor local conditions and respond quickly when canyon-enhanced storms develop.
+                  These localized storm cells often produce more intense hail and damaging winds than regional weather forecasts predict. Our storm response teams monitor local conditions and respond quickly when canyon-enhanced storms develop.
                 </p>
               </div>
             </div>
@@ -327,14 +326,14 @@ export default function StormDamageRepairCanyonPage() {
                     <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">1</div>
                     <div>
                       <h4 className="font-semibold">Coordinated University Response</h4>
-                      <p className="text-gray-600 text-sm">We work directly with WTAMU facilities management to coordinate emergency repairs on campus buildings and student housing complexes.</p>
+                      <p className="text-gray-600 text-sm">We work directly with WTAMU facilities management to coordinate storm repairs on campus buildings and student housing complexes.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">2</div>
                     <div>
                       <h4 className="font-semibold">Student Safety Priority</h4>
-                      <p className="text-gray-600 text-sm">Emergency housing protection focuses on residence halls and student apartments, ensuring safe living conditions throughout the repair process.</p>
+                      <p className="text-gray-600 text-sm">Housing protection focuses on residence halls and student apartments, ensuring safe living conditions throughout the repair process.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -389,7 +388,7 @@ export default function StormDamageRepairCanyonPage() {
                   How quickly can you respond to storm damage emergencies in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain emergency teams throughout the Texas Panhandle including Canyon with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
+                  We maintain our teams throughout the Texas Panhandle including Canyon with 2-4 hour response times for critical situations. During major storm events affecting the region, we mobilize additional crews to handle high call volumes. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
                 </AccordionContent>
               </AccordionItem>
 
@@ -398,7 +397,7 @@ export default function StormDamageRepairCanyonPage() {
                   Will insurance cover my storm damage repairs in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes emergency mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.
+                  Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.
                 </AccordionContent>
               </AccordionItem>
 
@@ -407,7 +406,6 @@ export default function StormDamageRepairCanyonPage() {
                   Should I tarp my roof myself or wait for professionals in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
                 </AccordionContent>
               </AccordionItem>
 
@@ -416,7 +414,7 @@ export default function StormDamageRepairCanyonPage() {
                   How long does storm damage roof replacement take in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Canyon, timelines may extend due to high demand—early claims get priority scheduling.
+                  Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Canyon, timelines may extend due to high demand—early claims get priority scheduling.
                 </AccordionContent>
               </AccordionItem>
 
@@ -425,7 +423,7 @@ export default function StormDamageRepairCanyonPage() {
                   What should I do immediately after storm damage in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration.
+                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.
                 </AccordionContent>
               </AccordionItem>
 

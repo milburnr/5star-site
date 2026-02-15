@@ -81,7 +81,7 @@ export default function CommercialMidlandPage() {
               5 Star Commercial Roofing specializes in flat roof systems, TPO, EPDM, and PVC installations for Midland businesses. Minimal disruption, maximum durability, and warranties that protect your investment. Our expertise serves the petroleum industry, financial sector, healthcare facilities, and growing technology companies throughout the Permian Basin.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              With major oil companies, service providers, and financial institutions headquartered in Midland, we understand the complexity of commercial roofing projects for high-rise buildings, industrial facilities, and specialized petroleum operations. Emergency response capabilities and availability ensure critical business operations continue without weather-related interruptions.
+              With major oil companies, service providers, and financial institutions headquartered in Midland, we understand the complexity of commercial roofing projects for high-rise buildings, industrial facilities, and specialized petroleum operations. storm response capabilities and availability ensure critical business operations continue without weather-related interruptions.
             </p>
           </section>
         </FadeIn>
@@ -123,7 +123,7 @@ export default function CommercialMidlandPage() {
               Midland's financial district anchored by major banks including First National Bank of Midland and petroleum industry financial services creates high-rise commercial roofing demands requiring specialized expertise in wind-resistant systems, seismic considerations, and aesthetic requirements appropriate for corporate environments. These facilities demand superior weather protection while maintaining professional appearances that reflect corporate image standards.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Corporate headquarters buildings including the Diamondback Energy Tower and other high-rise facilities require roofing systems that accommodate telecommunications equipment, helicopter access, and emergency communication systems while providing energy-efficient solutions that control operational costs for large office complexes with extensive HVAC requirements.
+              Corporate headquarters buildings including the Diamondback Energy Tower and other high-rise facilities require roofing systems that accommodate telecommunications equipment, helicopter access, and storm communication systems while providing energy-efficient solutions that control operational costs for large office complexes with extensive HVAC requirements.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Executive office complexes and professional buildings throughout Midland need roofing systems that support modern building technologies including smart building systems, renewable energy integration, and advanced HVAC controls while maintaining quiet, comfortable environments essential for professional office operations and client interactions.
@@ -131,7 +131,7 @@ export default function CommercialMidlandPage() {
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Healthcare and Medical Facility Commercial Roofing</h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Midland Memorial Hospital and associated medical facilities require specialized commercial roofing systems that support critical healthcare operations including emergency services, surgical facilities, and diagnostic equipment that demands consistent environmental conditions. Hospital roofing must accommodate medical gas systems, backup power equipment, and helicopter landing zones while maintaining infection control standards.
+              Midland Memorial Hospital and associated medical facilities require specialized commercial roofing systems that support critical healthcare operations including prompt services, surgical facilities, and diagnostic equipment that demands consistent environmental conditions. Hospital roofing must accommodate medical gas systems, backup power equipment, and helicopter landing zones while maintaining infection control standards.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Specialized medical facilities including cancer treatment centers, surgical centers, and diagnostic imaging facilities need roofing systems that provide electromagnetic shielding for sensitive medical equipment while maintaining sterile environments essential for patient safety. These installations often require coordination with medical equipment manufacturers and infection control specialists.
@@ -154,7 +154,7 @@ export default function CommercialMidlandPage() {
               Steel fabrication and machining facilities serving the petroleum industry require roofing systems that withstand metal working operations, chemical cutting processes, and heavy equipment installation while providing adequate natural lighting and ventilation for precision manufacturing operations. Specialized drainage systems prevent contamination from metalworking fluids and cutting oils.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Chemical storage and distribution facilities require roofing systems that meet EPA and DOT regulations for hazardous material storage while providing containment capabilities that prevent environmental contamination. These installations often require specialized fire suppression integration and emergency response access that affects roofing design and material selection.
+              Chemical storage and distribution facilities require roofing systems that meet EPA and DOT regulations for hazardous material storage while providing containment capabilities that prevent environmental contamination. These installations often require specialized fire suppression integration and storm response access that affects roofing design and material selection.
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">Logistics and Transportation Commercial Roofing</h3>
@@ -201,13 +201,13 @@ export default function CommercialMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Emergency Response and Safety Considerations for Petroleum Industry Roofing
+              storm response and Safety Considerations for Petroleum Industry Roofing
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Commercial roofing projects in Midland's petroleum industry environment require extensive safety protocols including hot work permits, fire watch procedures, and coordination with facility safety personnel to prevent ignition sources near hydrocarbon operations. Our crews maintain specialized training and certification for working in explosive atmosphere environments common throughout the Permian Basin.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Emergency response capabilities specifically designed for petroleum industry environments include specialized equipment for chemical exposure situations and coordination with industrial emergency response teams. emergency roofing services ensure critical petroleum operations continue during severe weather events or equipment failures that could compromise facility operations.
+              storm response capabilities specifically designed for petroleum industry environments include specialized equipment for chemical exposure situations and coordination with industrial storm response teams. professional roofing services ensure critical petroleum operations continue during severe weather events or equipment failures that could compromise facility operations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Environmental compliance requirements for petroleum industry facilities affect roofing material selection, installation procedures, and waste management protocols. Storm water management, chemical containment, and air quality protection require specialized construction practices that exceed standard commercial building requirements while ensuring full regulatory compliance.
@@ -272,13 +272,12 @@ export default function CommercialMidlandPage() {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">🔧</div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Flat Roof Repair & Maintenance</h3>
-                <p className="text-gray-700 mb-4">Preventive maintenance extends roof life and prevents costly emergency repairs. We offer comprehensive maintenance programs and expert repair services for all commercial roof types.</p>
+                <p className="text-gray-700 mb-4">Preventive maintenance extends roof life and prevents costly prompt repairs. We offer comprehensive maintenance programs and expert repair services for all commercial roof types.</p>
                 <ul className="space-y-2 text-gray-700">
                   <li>✓ Leak detection and repair</li>
                   <li>✓ Membrane patching</li>
                   <li>✓ Seam repairs</li>
                   <li>✓ Preventive maintenance plans</li>
-                  <li>✓ Emergency service</li>
                 </ul>
               </div>
             </div>
@@ -318,7 +317,7 @@ export default function CommercialMidlandPage() {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">⛈️ Hail & Storm Damage</h3>
-                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer emergency repairs to protect your facility.</p>
+                <p className="text-gray-700">Permian Basin hail can destroy flat roofs. We use impact-resistant systems and offer storm repairs to protect your facility.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-2">🏭 Industrial Environment</h3>

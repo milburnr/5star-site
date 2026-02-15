@@ -112,7 +112,7 @@ export default function Page() {
                 "name": "How quickly can you respond to storm damage emergencies in Lubbock?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. Emergency tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims."
+                  "text": "We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims."
                 }
               },
               {
@@ -187,7 +187,7 @@ export default function Page() {
               Lubbock's location in the South Plains creates unique roofing challenges. The area experiences 7-10 hailstorms annually, sustained winds with gusts exceeding 70+ mph, extreme temperature fluctuations, and high elevation and constant South Plains winds. Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has provided emergency storm damage repair throughout Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot District, we respond quickly with . Our experienced crews understand South Plains storm patterns and provide comprehensive damage assessment, emergency weatherproofing, and complete restoration services that protect your property and maximize insurance coverage.
+              Since 2014, 5 Star Commercial Roofing has provided storm damage repair throughout Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot District, we respond quickly with . Our experienced crews understand South Plains storm patterns and provide comprehensive damage assessment, weatherproofing, and complete restoration services that protect your property and maximize insurance coverage.
             </p>
           </section>
 
@@ -209,7 +209,7 @@ export default function Page() {
                   How quickly can you respond to storm damage emergencies in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. Emergency tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims.
+                  We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">

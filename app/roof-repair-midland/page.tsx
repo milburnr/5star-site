@@ -585,7 +585,6 @@ export default function RoofRepairMidlandPage() {
                       <li>• Labor costs 15-25% above regional averages</li>
                       <li>• Material shortages and extended lead times</li>
                       <li>• High demand requiring advance scheduling</li>
-                      <li>• Premium pricing for emergency services</li>
                     </ul>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
@@ -711,7 +710,7 @@ export default function RoofRepairMidlandPage() {
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Storm Repair</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Repair</h3>
                 <p className="text-gray-600 mb-4">response for desert storm damage throughout Midland County</p>
                 <a href="/roof-repair-midland/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>

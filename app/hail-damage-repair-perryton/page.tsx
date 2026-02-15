@@ -161,15 +161,15 @@ export default function HailDamageRepairPerrytonPage() {
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-green-500">
                     <h4 className="font-semibold text-brand-brown">Healthcare Crisis Management</h4>
-                    <p className="text-gray-700 text-sm">Ochiltree General Hospital activated emergency protocols, treating walking wounded at their clinic while managing surge capacity for major trauma cases.</p>
+                    <p className="text-gray-700 text-sm">Ochiltree General Hospital activated safety protocols, treating walking wounded at their clinic while managing surge capacity for major trauma cases.</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500">
                     <h4 className="font-semibold text-brand-brown">Infrastructure Restoration</h4>
-                    <p className="text-gray-700 text-sm">Power restoration efforts focused on the 91% of customers without electricity, while emergency services coordinated debris removal and structural assessments.</p>
+                    <p className="text-gray-700 text-sm">Power restoration efforts focused on the 91% of customers without electricity, while prompt services coordinated debris removal and structural assessments.</p>
                   </div>
                 </div>
                 <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
-                  <p className="text-sm text-amber-800"><strong>Storm Chaser Documentation:</strong> Professional storm chasers documented the tornado's path through mobile home parks and industrial areas, providing critical damage assessment data for emergency response and insurance claims.</p>
+                  <p className="text-sm text-amber-800"><strong>Storm Chaser Documentation:</strong> Professional storm chasers documented the tornado's path through mobile home parks and industrial areas, providing critical damage assessment data for storm response and insurance claims.</p>
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@ export default function HailDamageRepairPerrytonPage() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Disaster Response Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Immediate Safety Assessment:</strong> Structural integrity evaluation within hours of storm impact</li>
-                  <li>• <strong>Emergency Weather Protection:</strong> Temporary roofing and weatherization services</li>
+                  <li>• <strong>Weather Protection:</strong> Temporary roofing and weatherization services</li>
                   <li>• <strong>Contents Preservation:</strong> Rapid response to protect remaining property and belongings</li>
                   <li>• <strong>Utility Coordination:</strong> Working with power companies for safe restoration procedures</li>
                   <li>• <strong>Debris Management:</strong> Coordinated removal of tornado debris for safe access</li>
@@ -245,7 +245,7 @@ export default function HailDamageRepairPerrytonPage() {
                     <div className="bg-red-100 text-red-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">1</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Immediate Response (0-24 Hours)</h4>
-                      <p className="text-gray-600 text-sm">Life safety assessment, emergency protection, and critical infrastructure evaluation</p>
+                      <p className="text-gray-600 text-sm">Life safety assessment, storm protection, and critical infrastructure evaluation</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -375,7 +375,7 @@ export default function HailDamageRepairPerrytonPage() {
                   <div className="flex items-start space-x-3">
                     <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Emergency Restoration Priority</h4>
+                      <h4 className="font-medium text-gray-800">Restoration Priority</h4>
                       <p className="text-gray-600 text-sm">Expedited processing for time-critical agricultural infrastructure repairs</p>
                     </div>
                   </div>

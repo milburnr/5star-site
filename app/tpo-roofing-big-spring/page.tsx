@@ -229,7 +229,7 @@ export default function TPORoofingBigSpringPage() {
                   <li>✓ Puncture and tear repair</li>
                   <li>✓ Drain and scupper maintenance</li>
                   <li>✓ Preventive maintenance programs</li>
-                  <li>✓ Emergency leak repairs</li>
+                  <li>✓ Prompt leak repairs</li>
                 </ul>
               </div>
 

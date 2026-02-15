@@ -282,7 +282,7 @@ export default function RoofRepairLevellandPage() {
                   <ul className="text-xs text-gray-600">
                     <li>• Large hail damage assessment</li>
                     <li>• Tornado debris cleanup</li>
-                    <li>• Emergency weatherproofing</li>
+                    <li>• Weatherproofing</li>
                   </ul>
                 </div>
                 <div>
@@ -357,7 +357,7 @@ export default function RoofRepairLevellandPage() {
                   What should I do immediately after a hailstorm in Levelland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  First, ensure your safety and check for interior leaks. Document any visible damage with photos for insurance purposes. Contact us for a professional inspection within 48-72 hours - early detection prevents secondary damage. Don't climb on your roof, but check gutters for granule accumulation and look for damaged outdoor equipment. We provide emergency tarping if needed while insurance processes your claim.
+                  First, ensure your safety and check for interior leaks. Document any visible damage with photos for insurance purposes. Contact us for a professional inspection within 48-72 hours - early detection prevents secondary damage. Don't climb on your roof, but check gutters for granule accumulation and look for damaged outdoor equipment. We provide tarping if needed while insurance processes your claim.
                 </AccordionContent>
               </AccordionItem>
 

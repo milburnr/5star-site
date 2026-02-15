@@ -346,7 +346,6 @@ export default function Page() {
                   <li>• Isolated supercells with 80-120 mph microbursts</li>
                   <li>• Extreme heat stress on roofing materials</li>
                   <li>• Oil field operations at peak intensity</li>
-                  <li>• Emergency repair season for sudden damage</li>
                 </ul>
               </div>
               
@@ -574,10 +573,10 @@ export default function Page() {
 
               <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What's the emergency response time for wind damage in Midland?
+                  What's the storm response time for wind damage in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency tarping and temporary repairs are completed within 2-4 hours for actively leaking roofs—critical since Permian Basin wind events often precede heavy rain. Our industrial environment experience ensures proper safety protocols around oil field operations during emergency repairs. Full repairs typically occur 2-3 weeks after insurance approval, with expedited scheduling for properties affecting oil operations. We maintain relationships with industrial suppliers for specialized materials and coordinate with oil companies when repairs affect operational areas.
+                  tarping and temporary repairs are completed within 2-4 hours for actively leaking roofs—critical since Permian Basin wind events often precede heavy rain. Our industrial environment experience ensures proper safety protocols around oil field operations during prompt repairs. Full repairs typically occur 2-3 weeks after insurance approval, with expedited scheduling for properties affecting oil operations. We maintain relationships with industrial suppliers for specialized materials and coordinate with oil companies when repairs affect operational areas.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

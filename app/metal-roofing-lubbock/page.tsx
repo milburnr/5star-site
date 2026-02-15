@@ -205,7 +205,6 @@ export default function MetalRoofingLubbockPage() {
                     <li>• Enhanced corner and edge reinforcement</li>
                     <li>• Impact-resistant penetration details</li>
                     <li>• Debris-resistant ventilation systems</li>
-                    <li>• Emergency repair accessibility features</li>
                   </ul>
                 </div>
               </div>

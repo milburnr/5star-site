@@ -163,7 +163,7 @@ export default function Page() {
                 <span className="text-3xl">⚡</span> Fast Response
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                After a storm, time is critical. We offer free emergency inspections and can typically
+                After a storm, time is critical. We offer free damage inspections and can typically
                 begin repairs within days of insurance approval.
               </p>
             </div>

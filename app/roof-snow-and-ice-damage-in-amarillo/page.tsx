@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/' },
   title: 'Emergency Snow & Ice Damage Roof Repair in Amarillo',
-  description: 'Snow and ice damage roof emergency in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and emergency tarping. Same-day inspections.',
+  description: 'Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Same-day inspections.',
 };
 
 export default function Page() {
@@ -252,7 +252,7 @@ export default function Page() {
               <li>• Evaluate structural integrity of roof deck</li>
               <li>• Assess support beam and truss condition</li>
               <li>• Identify deflection or sagging issues</li>
-              <li>• Determine need for emergency snow removal</li>
+              <li>• Determine need for prompt snow removal</li>
               <li>• Document pre-existing versus storm damage</li>
             </ul>
           </div>
@@ -384,7 +384,6 @@ export default function Page() {
                 <li>• 65 mph wind gusts creating whiteout conditions</li>
                 <li>• Temperature drop from 75°F to 15°F in 12 hours</li>
                 <li>• Complete shutdown of Amarillo for 3 days</li>
-                <li>• National Guard activated for emergency response</li>
               </ul>
             </div>
             <div>
@@ -420,7 +419,6 @@ export default function Page() {
                 <li>• Tree limb impacts on 950+ roofs</li>
                 <li>• Metal roof systems severely dented</li>
                 <li>• Skylights shattered from ice loading</li>
-                <li>• Emergency services overwhelmed for weeks</li>
               </ul>
             </div>
           </div>
@@ -527,7 +525,6 @@ export default function Page() {
               <li>• Freeze burst pipe damage to roof/ceiling</li>
               <li>• Tree limb damage from ice loading</li>
               <li>• Wind-driven snow penetration</li>
-              <li>• Emergency repairs to prevent further damage</li>
             </ul>
           </div>
           <div className="bg-white rounded-lg p-4">
@@ -550,22 +547,19 @@ export default function Page() {
       </div>
 
       <div className="content-block">
-        <h2 className="content-block-title">Emergency Response Protocols</h2>
+        <h2 className="content-block-title">storm response Protocols</h2>
         <p className="text-lg mb-4">
-          When winter storms strike the Texas Panhandle, rapid response can mean the difference between minor repairs and major structural damage. Our emergency protocols ensure immediate stabilization and damage mitigation.
+          When winter storms strike the Texas Panhandle, rapid response can mean the difference between minor repairs and major structural damage. our protocols ensure immediate stabilization and damage mitigation.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-red-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-red-800">🚨 Immediate Emergency Actions</h3>
             <ul className="space-y-2 text-sm">
-              <li>• emergency hotline activation during storms</li>
               <li>• Rapid response teams within 2-4 hours</li>
-              <li>• Emergency tarping and stabilization</li>
+              <li>• tarping and stabilization</li>
               <li>• Ice dam removal for active leaks</li>
               <li>• Water extraction and drying services</li>
               <li>• Temporary structural reinforcement</li>
-              <li>• Coordination with emergency services</li>
             </ul>
           </div>
           

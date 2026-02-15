@@ -84,7 +84,7 @@ export default function StormDamageRepairPerrytonPage() {
                 "name": "Texas"
               }
             },
-            "description": "emergency storm damage roof repair in Perryton, TX. Wind, hail, and severe weather damage specialists with complete insurance assistance."
+            "description": "storm damage roof repair in Perryton, TX. Wind, hail, and severe weather damage specialists with complete insurance assistance."
           })
         }}
       />
@@ -101,7 +101,7 @@ export default function StormDamageRepairPerrytonPage() {
                 "name": "How quickly can you respond to storm damage emergencies in Perryton?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We maintain emergency teams serving the northernmost Texas Panhandle with 2-4 hour response times for critical situations in Perryton. During major storm events affecting Ochiltree County's wheat country, we mobilize additional crews. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
+                  "text": "We maintain our teams serving the northernmost Texas Panhandle with 2-4 hour response times for critical situations in Perryton. During major storm events affecting Ochiltree County's wheat country, we mobilize additional crews. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions."
                 }
               },
               {
@@ -117,7 +117,6 @@ export default function StormDamageRepairPerrytonPage() {
                 "name": "Should I tarp my Perryton roof myself or wait for professionals?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe."
                 }
               },
               {
@@ -125,7 +124,7 @@ export default function StormDamageRepairPerrytonPage() {
                 "name": "How long does storm damage roof replacement take in Perryton?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling."
+                  "text": "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling."
                 }
               },
               {
@@ -133,7 +132,7 @@ export default function StormDamageRepairPerrytonPage() {
                 "name": "What should I do immediately after storm damage in Perryton?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County."
+                  "text": "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County."
                 }
               },
               {
@@ -172,7 +171,7 @@ export default function StormDamageRepairPerrytonPage() {
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="bg-gradient-to-r from-red-600 to-red-700 text-white text-lg px-10 py-5 rounded-full font-bold shadow-2xl hover:scale-110 transition-all duration-300 animate-pulse-subtle">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Free Inspection
@@ -220,7 +219,7 @@ export default function StormDamageRepairPerrytonPage() {
               As the northernmost city in the Texas Panhandle, Perryton experiences severe weather—7-9 annual hailstorms with baseball-sized hail, straight-line winds exceeding 70 mph, torrential rainfall, and extreme agricultural exposure in wheat country. These storms don't just damage roofs; they can compromise your entire roofing system in minutes. Delayed repairs lead to interior water damage, mold growth, structural issues, and exponentially higher costs.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We've responded to every major Perryton storm since 2014, serving properties from downtown Perryton to agricultural facilities, from the Perryton Museum area to homes throughout Ochiltree County. Our emergency team provides same-day tarping and temporary repairs to prevent interior damage while we document everything for insurance claims. We handle the entire process—from emergency mitigation through final restoration with upgraded Class 4 materials. Most storm damage is 100% covered by insurance when properly documented.
+              We've responded to every major Perryton storm since 2014, serving properties from downtown Perryton to agricultural facilities, from the Perryton Museum area to homes throughout Ochiltree County. Our our team provides same-day tarping and temporary repairs to prevent interior damage while we document everything for insurance claims. We handle the entire process—from mitigation through final restoration with upgraded Class 4 materials. Most storm damage is 100% covered by insurance when properly documented.
             </p>
           </section>
         </FadeIn>
@@ -256,14 +255,14 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Perryton Emergency Response Protocol
+              Perryton storm response Protocol
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
                 <h3 className="text-xl font-bold mb-3 text-red-700">Immediate Response (0-4 hours)</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>
-                  <li>• Emergency tarping for active leaks</li>
+                  <li>• tarping for active leaks</li>
                   <li>• Structural stability evaluation</li>
                   <li>• Initial damage documentation</li>
                   <li>• Insurance company notification</li>
@@ -368,7 +367,7 @@ export default function StormDamageRepairPerrytonPage() {
                   How quickly can you respond to storm damage emergencies in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain emergency teams serving the northernmost Texas Panhandle with 2-4 hour response times for critical situations in Perryton. During major storm events affecting Ochiltree County's wheat country, we mobilize additional crews. Emergency tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
+                  We maintain our teams serving the northernmost Texas Panhandle with 2-4 hour response times for critical situations in Perryton. During major storm events affecting Ochiltree County's wheat country, we mobilize additional crews. tarping and temporary repairs are typically completed same-day or next-day depending on severity and weather conditions.
                 </AccordionContent>
               </AccordionItem>
 
@@ -386,7 +385,6 @@ export default function StormDamageRepairPerrytonPage() {
                   Should I tarp my Perryton roof myself or wait for professionals?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Never climb on a storm-damaged roof—it's extremely dangerous with unstable footing, electrical hazards, and severe weather conditions. Improper tarping can cause additional damage and complicate insurance claims. Call our emergency line immediately—we'll dispatch crews for professional emergency tarping that's properly documented for insurance. Our service prevents interior damage while keeping you safe.
                 </AccordionContent>
               </AccordionItem>
 
@@ -395,7 +393,7 @@ export default function StormDamageRepairPerrytonPage() {
                   How long does storm damage roof replacement take in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency mitigation (tarping/temporary repairs) happens same-day or next-day. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling.
+                  Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling.
                 </AccordionContent>
               </AccordionItem>
 
@@ -404,7 +402,7 @@ export default function StormDamageRepairPerrytonPage() {
                   What should I do immediately after storm damage in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for emergency inspection and mitigation—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from emergency response through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County.
+                  (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County.
                 </AccordionContent>
               </AccordionItem>
 
@@ -446,11 +444,11 @@ export default function StormDamageRepairPerrytonPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Storm Damage? We're Here</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Emergency response. Free storm inspections. Complete insurance assistance. Serving Perryton and Ochiltree County around the clock.
+            storm response. Free storm inspections. Complete insurance assistance. Serving Perryton and Ochiltree County around the clock.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-10 py-5 rounded-full font-bold hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
-              Emergency: (806) 622-6041
+              urgent: (806) 622-6041
             </a>
             <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
               Schedule Inspection

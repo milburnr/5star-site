@@ -119,7 +119,7 @@ export default function ResidentialAmarilloPage() {
                   <li>✓ Flashing repairs</li>
                   <li>✓ Vent and pipe boot replacement</li>
                   <li>✓ Storm damage repairs</li>
-                  <li>✓ Emergency tarping</li>
+                  <li>✓ tarping</li>
                 </ul>
               </div>
 

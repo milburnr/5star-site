@@ -266,7 +266,7 @@ export default function ResidentialRoofingMonahansPage() {
                 </ul>
                 
                 <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-brand-brown font-semibold">Specialized services for energy sector housing projects. Emergency response available for critical infrastructure.</p>
+                  <p className="text-sm text-brand-brown font-semibold">Specialized services for energy sector housing projects. storm response available for critical infrastructure.</p>
                 </div>
               </div>
             </div>
@@ -359,14 +359,14 @@ export default function ResidentialRoofingMonahansPage() {
             </div>
 
             <div className="bg-gradient-to-r from-orange-50 to-red-50 p-8 rounded-xl">
-              <h3 className="text-2xl font-bold text-brand-brown mb-4">Emergency Services for Energy Sector</h3>
-              <p className="text-gray-700 mb-6">The oil industry operates, and housing infrastructure must maintain continuous operation. Our emergency response team understands the critical nature of energy sector housing and provides priority service for workforce developments.</p>
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">prompt services for Energy Sector</h3>
+              <p className="text-gray-700 mb-6">The oil industry operates, and housing infrastructure must maintain continuous operation. Our storm response team understands the critical nature of energy sector housing and provides priority service for workforce developments.</p>
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="text-3xl mb-2">🚨</div>
                   <h4 className="font-bold text-brand-brown mb-2">Priority Response</h4>
-                  <p className="text-gray-700 text-sm">Emergency repairs for energy sector housing receive priority scheduling and rapid mobilization.</p>
+                  <p className="text-gray-700 text-sm">storm repairs for energy sector housing receive priority scheduling and rapid mobilization.</p>
                 </div>
                 
                 <div className="text-center">
@@ -378,13 +378,12 @@ export default function ResidentialRoofingMonahansPage() {
                 <div className="text-center">
                   <div className="text-3xl mb-2">📞</div>
                   <h4 className="font-bold text-brand-brown mb-2">Availability</h4>
-                  <p className="text-gray-700 text-sm">Round-the-clock emergency services to match energy sector operational demands.</p>
+                  <p className="text-gray-700 text-sm">Round-the-clock prompt services to match energy sector operational demands.</p>
                 </div>
               </div>
               
               <div className="text-center mt-6">
                 <div className="bg-red-600 text-white p-4 rounded-xl inline-block">
-                  <h3 className="text-xl font-bold mb-2">Energy Sector Emergency Hotline</h3>
                   <a href="tel:8066226041" className="bg-white text-red-600 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition-all">
                     📞 (806) 622-6041
                   </a>

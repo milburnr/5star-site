@@ -4,7 +4,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-roof-repair-in-amarillo/' },
-  title: 'Emergency Wind Damage Roof Repair in Amarillo | 5 Star',
+  title: 'Wind Damage Roof Repair in Amarillo | 5 Star',
   description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
 
@@ -50,7 +50,7 @@ export default function Page() {
 
       <section className="hero-section mb-16 bg-gradient-to-br from-blue-600 to-gray-800 text-white -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-20 rounded-3xl">
         <div className="max-w-4xl">
-          <h1 className="text-6xl font-bold mb-6 leading-tight">Emergency Wind Damage Repair in <span className="text-yellow-400">Amarillo</span></h1>
+          <h1 className="text-6xl font-bold mb-6 leading-tight">Wind Damage Repair in <span className="text-yellow-400">Amarillo</span></h1>
           <p className="text-2xl mb-4 font-semibold text-blue-200">Texas Panhandle Wind Specialists</p>
           <p className="text-xl mb-8 leading-relaxed">Expert wind damage restoration in America's windiest region. From microburst destruction to sustained high-wind uplift, we repair all types of wind damage with specialized techniques designed for Amarillo's extreme wind environment.</p>
           <div className="flex gap-4 flex-wrap">
@@ -320,7 +320,7 @@ export default function Page() {
         <div className="bg-green-50 p-8 rounded-2xl mt-8">
           <h3 className="text-2xl font-semibold mb-6 text-gray-800">Maximizing Your Amarillo Wind Damage Claim</h3>
           <div className="space-y-4">
-            <p className="text-gray-700"><strong>Immediate Action Protocol:</strong> Contact us within 24 hours of a wind event for emergency tarping and initial assessment. Quick response prevents secondary water damage and preserves evidence for insurance documentation.</p>
+            <p className="text-gray-700"><strong>Immediate Action Protocol:</strong> Contact us within 24 hours of a wind event for tarping and initial assessment. Quick response prevents secondary water damage and preserves evidence for insurance documentation.</p>
             <p className="text-gray-700"><strong>Professional Advocacy:</strong> Our team includes licensed public adjusters who specialize in Amarillo wind damage claims. We communicate directly with insurance adjusters and provide technical expertise they respect and trust.</p>
             <p className="text-gray-700"><strong>Comprehensive Damage Assessment:</strong> We identify all wind-related damage, including hidden damage that property owners might miss. Our thorough approach ensures complete claim coverage and prevents having to file supplemental claims later.</p>
           </div>

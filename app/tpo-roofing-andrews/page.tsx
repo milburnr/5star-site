@@ -496,7 +496,7 @@ export default function TPORoofingAndrewsPage() {
                     <li>✓ Drainage system maintenance</li>
                     <li>✓ Membrane cleaning and care</li>
                     <li>✓ Seam integrity verification</li>
-                    <li>✓ Emergency leak response</li>
+                    <li>✓ Prompt leak response</li>
                     <li>✓ Warranty compliance documentation</li>
                   </ul>
                 </div>
@@ -516,7 +516,7 @@ export default function TPORoofingAndrewsPage() {
               <div className="mt-8 p-6 bg-amber-50 rounded-xl">
                 <h4 className="text-lg font-bold text-brand-brown mb-3">5 Star Commercial Maintenance Program</h4>
                 <p className="text-gray-700">
-                  Our comprehensive maintenance program is designed specifically for Andrews commercial properties. We provide scheduled inspections, preventive maintenance, priority emergency response, and detailed reporting to ensure your TPO roofing investment continues to protect your business for years to come.
+                  Our comprehensive maintenance program is designed specifically for Andrews commercial properties. We provide scheduled inspections, preventive maintenance, priority response, and detailed reporting to ensure your TPO roofing investment continues to protect your business for years to come.
                 </p>
               </div>
             </div>

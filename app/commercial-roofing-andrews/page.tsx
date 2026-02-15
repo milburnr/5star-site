@@ -118,7 +118,7 @@ export default function CommercialRoofingAndrewsPage() {
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">Andrews's Commercial Roofing Specialists</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Andrews and surrounding areas, serving the heart of the Permian Basin's energy sector. We understand the unique challenges facing Andrews' commercial properties, from oil and gas facilities to agricultural operations, and engineer roofing systems built for extreme Texas conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Andrews with expert installations, comprehensive warranties, and outstanding customer service. Our 90-minute response time from Amarillo headquarters ensures rapid service for emergency repairs. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Andrews with expert installations, comprehensive warranties, and outstanding customer service. Our 90-minute response time from Amarillo headquarters ensures rapid service for prompt repairs. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
             
             <div className="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Andrews' Commercial Roofing Needs</h3>
@@ -170,7 +170,7 @@ export default function CommercialRoofingAndrewsPage() {
                   <span className="text-white text-2xl font-bold">90</span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">90-Minute Response Time</h3>
-                <p className="text-gray-700">Emergency response from our Amarillo headquarters ensures minimal business disruption for Andrews' critical operations.</p>
+                <p className="text-gray-700">storm response from our Amarillo headquarters ensures minimal business disruption for Andrews' critical operations.</p>
               </div>
               
               <div className="text-center">
@@ -288,19 +288,18 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Emergency Response for Andrews' Critical Operations</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">storm response for Andrews' Critical Operations</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">90-Minute Emergency Response</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Andrews' oil and gas operations can't afford downtime due to roof failures. Our emergency response team can be on-site within 90 minutes of your call from our Amarillo headquarters, equipped with materials and expertise to provide immediate temporary protection and permanent repairs.</p>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">90-Minute storm response</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Andrews' oil and gas operations can't afford downtime due to roof failures. Our storm response team can be on-site within 90 minutes of your call from our Amarillo headquarters, equipped with materials and expertise to provide immediate temporary protection and permanent repairs.</p>
                 
-                <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Our Emergency Response Process:</h4>
+                <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Our storm response Process:</h4>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</div>
                     <div>
                       <h5 className="font-bold text-brand-brown">Immediate Response (0-15 minutes)</h5>
-                      <p className="text-gray-700 text-sm">Emergency hotline assessment and crew dispatch from Amarillo</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -329,7 +328,7 @@ export default function CommercialRoofingAndrewsPage() {
                   </div>
                   <div className="p-3 bg-gray-50 rounded-lg">
                     <h5 className="font-bold text-gray-800">Wind Damage</h5>
-                    <p className="text-sm text-gray-600">High winds can lift roofing materials and damage HVAC units. Emergency securing and repairs prevent further damage.</p>
+                    <p className="text-sm text-gray-600">High winds can lift roofing materials and damage HVAC units. Prompt securing and repairs prevent further damage.</p>
                   </div>
                   <div className="p-3 bg-gray-50 rounded-lg">
                     <h5 className="font-bold text-gray-800">Equipment Damage</h5>

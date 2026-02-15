@@ -284,7 +284,6 @@ export default function HailDamageLubbockPage() {
                     <li>• UMC and hospital facility protection</li>
                     <li>• Critical infrastructure requirements</li>
                     <li>• Medical equipment weather exposure</li>
-                    <li>• Emergency service continuity needs</li>
                   </ul>
                 </div>
               </div>

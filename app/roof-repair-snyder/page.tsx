@@ -213,7 +213,7 @@ export default function RoofRepairSnyderPage() {
                 <ul className="text-sm text-gray-600">
                   <li>• Hail damage assessment</li>
                   <li>• Wind uplift reinforcement</li>
-                  <li>• Emergency leak repairs</li>
+                  <li>• Prompt leak repairs</li>
                   <li>• Insurance documentation</li>
                 </ul>
               </div>
@@ -344,7 +344,6 @@ export default function RoofRepairSnyderPage() {
                       <li>• Pump house weatherproofing</li>
                       <li>• Electrical system protection</li>
                       <li>• Remote location service</li>
-                      <li>• Emergency repair capabilities</li>
                     </ul>
                   </div>
                 </div>
@@ -677,7 +676,7 @@ export default function RoofRepairSnyderPage() {
                 <ul className="text-gray-700 text-sm space-y-2 mb-4">
                   <li>• Hail damage repair</li>
                   <li>• Wind uplift restoration</li>
-                  <li>• Emergency leak fixes</li>
+                  <li>• Prompt leak fixes</li>
                   <li>• Insurance claim work</li>
                 </ul>
                 <p className="text-xs text-gray-600">Typical timeline: 3-7 days</p>
@@ -762,7 +761,7 @@ export default function RoofRepairSnyderPage() {
                   When is the best time to schedule agricultural roof work?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  Fall through early spring (October-March) offers the most stable weather and doesn't interfere with planting or harvest seasons. Avoid cotton harvest period (September-October) when agricultural operations are at peak activity. Emergency repairs are available year-round, but planned projects should consider agricultural schedules.
+                  Fall through early spring (October-March) offers the most stable weather and doesn't interfere with planting or harvest seasons. Avoid cotton harvest period (September-October) when agricultural operations are at peak activity. storm repairs are available year-round, but planned projects should consider agricultural schedules.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6">
@@ -787,8 +786,8 @@ export default function RoofRepairSnyderPage() {
                 <a href="/agricultural-roofing-snyder/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-lg font-bold mb-3 text-brand-brown">Emergency Storm Response</h3>
-                <p className="text-gray-600 mb-4 text-sm">emergency repair for West Texas storm damage</p>
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">storm response</h3>
+                <p className="text-gray-600 mb-4 text-sm">storm repair for West Texas storm damage</p>
                 <a href="/roof-repair-snyder/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">

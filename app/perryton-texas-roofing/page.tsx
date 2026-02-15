@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/perryton-texas-roofing/' },
   title: 'Roofing in Perryton, TX| Hail Damage Specialists | 5 Star',
-  description: 'roofing services in Perryton, Texas Panhandle. Commercial, residential, and emergency roofing. Serving Ochiltree County. Free inspections available.',
+  description: 'roofing services in Perryton, Texas Panhandle. Commercial, residential, and storm roofing. Serving Ochiltree County. Free inspections available.',
 };
 
 export default function PerrytonRoofingPage() {
@@ -17,7 +17,7 @@ export default function PerrytonRoofingPage() {
               "@id": "https://5starroofingpros.com/#organization",
     "name": "5 Star Commercial Roofing - Perryton",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-    "description": "Professional roofing contractor serving Perryton, Texas and Ochiltree County with commercial, residential, and emergency roofing services.",
+    "description": "Professional roofing contractor serving Perryton, Texas and Ochiltree County with commercial, residential, and professional roofing services.",
     "telephone": "+18066226041",
     "email": "admin@5starroofingpros.com",
     "address": {
@@ -39,7 +39,6 @@ export default function PerrytonRoofingPage() {
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing", "description": "Commercial roofing for Perryton businesses" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Roofing", "description": "Residential roofing for Perryton homes" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hail Damage Repair", "description": "Storm and hail damage repair in Perryton, TX" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Roofing", "description": "emergency roofing in Ochiltree County" } }
       ]
     }
   };
@@ -98,7 +97,7 @@ export default function PerrytonRoofingPage() {
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Perryton, Texas</h2>
             <p className="text-lg mb-4">
-              As Perryton's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Ochiltree County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or emergency storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
+              As Perryton's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Ochiltree County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
               Perryton's climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Ochiltree County properties year after year.
@@ -134,9 +133,9 @@ export default function PerrytonRoofingPage() {
                 <div className="text-5xl mb-4">🚨</div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Perryton, we respond with emergency tarping and rapid roof repairs. Call us immediately for storm damage assessment.
+                  When severe weather strikes Perryton, we respond with tarping and rapid roof repairs. Call us immediately for storm damage assessment.
                 </p>
-                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Emergency Service →</a>
+                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Storm Damage Repair →</a>
               </div>
             </FadeIn>
           </div>
@@ -310,7 +309,7 @@ export default function PerrytonRoofingPage() {
                     </div>
                     <div className="text-center">
                       <div className="text-3xl font-bold text-brand-gold mb-2">24/7</div>
-                      <div className="text-sm text-gray-700">Emergency Response</div>
+                      <div className="text-sm text-gray-700">Storm Response</div>
                     </div>
                   </div>
                   <div className="mt-6 p-4 bg-brand-gold-light rounded-lg">
@@ -370,7 +369,7 @@ export default function PerrytonRoofingPage() {
 
         <FadeIn>
           <section className="bg-gray-50 rounded-lg p-8 mb-12">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Emergency Response for Perryton Weather Events</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">storm response for Perryton Weather Events</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-brand-brown mb-4">When Severe Weather Strikes</h3>
@@ -378,12 +377,11 @@ export default function PerrytonRoofingPage() {
                   Perryton's location in the heart of "Hail Alley" means severe weather can strike with little warning. When storms hit, immediate action is critical to prevent further damage.
                 </p>
                 <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded mb-4">
-                  <h4 className="font-semibold text-red-800 mb-2">Emergency Hotline</h4>
                   <p className="text-red-700 text-lg font-bold">(806) 622-6041</p>
                   <p className="text-red-700 text-sm">Available day or night for Ochiltree County emergencies</p>
                 </div>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Emergency tarping to prevent water infiltration</li>
+                  <li>• tarping to prevent water infiltration</li>
                   <li>• Rapid response team deployment within 2-4 hours</li>
                   <li>• Temporary repairs to secure property until permanent fixes</li>
                   <li>• Insurance claim initiation and documentation</li>

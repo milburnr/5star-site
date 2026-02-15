@@ -153,9 +153,9 @@ export default function Page() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-yellow-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-3">6. Emergency Services & Responsiveness</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">6. prompt services & Responsiveness</h3>
                 <p className="text-gray-700">
-                  When hail strikes Amarillo, you need immediate response. The best roofing companies offer s with rapid response times for tarping and temporary repairs. We typically arrive within 2-4 hours for emergency calls throughout the Panhandle.
+                  When hail strikes Amarillo, you need immediate response. The best roofing companies offer s with rapid response times for tarping and temporary repairs. We typically arrive within 2-4 hours for service calls throughout the Panhandle.
                 </p>
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function Page() {
                   <li>Roof repairs and maintenance</li>
                   <li>Asphalt shingle roofing (Class 4 impact-resistant)</li>
                   <li>Metal roofing systems</li>
-                  <li>Emergency leak repairs</li>
+                  <li>Prompt leak repairs</li>
                 </ul>
               </div>
 
@@ -199,7 +199,7 @@ export default function Page() {
                   <li>Free storm damage inspections</li>
                   <li>Hail damage assessment and repair</li>
                   <li>Wind damage repairs</li>
-                  <li>Emergency tarping services</li>
+                  <li>tarping services</li>
                   <li>Complete insurance claim assistance</li>
                   <li>prompt response</li>
                 </ul>
@@ -307,7 +307,7 @@ export default function Page() {
                   <span className="text-3xl">🚨</span> 
                 </h3>
                 <p className="text-gray-700">
-                  When storms hit Amarillo, we respond. Our crews are available around the clock for emergency tarping, leak repairs, and damage assessment—typically arriving within 2-4 hours throughout the Panhandle.
+                  When storms hit Amarillo, we respond. Our crews are available around the clock for tarping, leak repairs, and damage assessment—typically arriving within 2-4 hours throughout the Panhandle.
                 </p>
               </div>
 

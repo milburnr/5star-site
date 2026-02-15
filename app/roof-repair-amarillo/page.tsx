@@ -67,7 +67,7 @@ export default function RoofRepairAmarilloPage() {
           {"@type":"Question","name":"Why do Amarillo roofs fail more often than other Texas cities?","acceptedAnswer":{"@type":"Answer","text":"Amarillo's location in the Texas Panhandle creates unique stresses: extreme temperature swings from -10°F to 105°F cause expansion/contraction damage, constant 15+ mph winds loosen shingles, and frequent hailstorms damage roofing materials. The median home age of 52 years means many roofs are past their prime lifespan."}},
           {"@type":"Question","name":"What roof repairs are most common in historic Wolflin and Paramount Terrace?","acceptedAnswer":{"@type":"Answer","text":"These 1940s-1960s neighborhoods typically need: deteriorated wood decking replacement, failed flashing around brick chimneys, worn composite shingle replacement, and gutter system upgrades. Many homes still have original cedar shakes requiring specialized restoration techniques."}},
           {"@type":"Question","name":"How much does roof repair cost in Amarillo compared to Dallas or Houston?","acceptedAnswer":{"@type":"Answer","text":"Amarillo roof repairs average 15-20% less than major metro areas. Minor repairs: $400-900, moderate damage: $900-2,800, extensive repairs: $2,800-6,500. However, material costs are rising due to frequent hail damage creating supply shortages across the Panhandle."}},
-          {"@type":"Question","name":"When is the best time to schedule roof repairs in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Late fall through early spring (October-March) offers the most stable weather. Avoid summer heat stress repairs and spring hail season scheduling. Emergency repairs are available year-round, but planned work should avoid the peak storm months of April-July."}},
+          {"@type":"Question","name":"When is the best time to schedule roof repairs in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Late fall through early spring (October-March) offers the most stable weather. Avoid summer heat stress repairs and spring hail season scheduling. storm repairs are available year-round, but planned work should avoid the peak storm months of April-July."}},
           {"@type":"Question","name":"Do I need special permits for roof repairs in Potter County?","acceptedAnswer":{"@type":"Answer","text":"Minor repairs under $1,000 typically don't require permits. Structural repairs, complete sections, or work involving electrical/plumbing need City of Amarillo permits. We handle all permit applications and ensure compliance with local wind load requirements for the Texas Panhandle."}},
           {"@type":"Question","name":"What roofing materials work best in Amarillo's climate extremes?","acceptedAnswer":{"@type":"Answer","text":"Impact-resistant asphalt shingles (Class 3-4) perform best against hail. Metal roofing excels in high winds and temperature extremes. Avoid standard 3-tab shingles which fail quickly. Clay tiles work but require structural reinforcement for wind uplift in this region."}}
         ]
@@ -282,7 +282,7 @@ export default function RoofRepairAmarilloPage() {
               </AccordionItem>
               <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">When is the best time to schedule roof repairs in Amarillo?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Late fall through early spring (October-March) offers the most stable weather. Avoid summer heat stress repairs and spring hail season scheduling. Emergency repairs are available year-round, but planned work should avoid the peak storm months of April-July.</AccordionContent>
+                <AccordionContent className="text-gray-700 leading-relaxed">Late fall through early spring (October-March) offers the most stable weather. Avoid summer heat stress repairs and spring hail season scheduling. storm repairs are available year-round, but planned work should avoid the peak storm months of April-July.</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do I need special permits for roof repairs in Potter County?</AccordionTrigger>
@@ -308,7 +308,7 @@ export default function RoofRepairAmarilloPage() {
                 <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Ice dam prevention and removal</li>
                   <li>• Gutter system winterization</li>
-                  <li>• Emergency leak response</li>
+                  <li>• Prompt leak response</li>
                   <li>• Attic insulation assessment</li>
                 </ul>
               </div>
@@ -479,7 +479,7 @@ export default function RoofRepairAmarilloPage() {
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Workmanship warranty</li>
                   <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Material defect coverage</li>
-                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Emergency leak repair</li>
+                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>prompt leak repair</li>
                   <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Annual inspection included</li>
                 </ul>
                 <p className="text-gray-600">Perfect for minor repairs and maintenance work</p>
@@ -495,7 +495,7 @@ export default function RoofRepairAmarilloPage() {
                   <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>All Basic Protection features</li>
                   <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Hail damage coverage</li>
                   <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Wind damage protection</li>
-                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Priority emergency response</li>
+                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Priority storm response</li>
                   <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Insurance claim assistance</li>
                 </ul>
                 <p className="text-gray-600">Ideal for comprehensive roof repairs and replacements</p>
@@ -586,7 +586,7 @@ export default function RoofRepairAmarilloPage() {
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Emergency Storm Repair</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Repair</h3>
                 <p className="text-gray-600 mb-4">response for hail and wind damage throughout Potter County</p>
                 <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>

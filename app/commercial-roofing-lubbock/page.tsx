@@ -166,10 +166,10 @@ export default function CommercialRoofingLubbockPage() {
               },
               {
                 "@type": "Question",
-                "name": "Do you provide emergency roofing for Lubbock's severe weather events?",
+                "name": "Do you provide prompt roofing for Lubbock's severe weather events?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, we provide emergency commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer emergency tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled."
+                  "text": "Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled."
                 }
               }
             ]
@@ -453,7 +453,7 @@ export default function CommercialRoofingLubbockPage() {
                   Storm damage threatening your Lubbock business operations? We provide prompt response for Texas Tech facilities, healthcare institutions, and agriculture operations. Immediate temporary repairs, tarping, and leak mitigation protect critical operations and inventory.
                 </p>
                 <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300">
-                  Emergency: (806) 622-6041
+                  urgent: (806) 622-6041
                 </a>
               </div>
             </div>
@@ -513,10 +513,10 @@ export default function CommercialRoofingLubbockPage() {
 
               <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you provide emergency roofing for Lubbock's severe weather events?
+                  Do you provide prompt roofing for Lubbock's severe weather events?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide emergency commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer emergency tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.
+                  Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

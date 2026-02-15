@@ -229,7 +229,7 @@ export default function ResidentialRoofingOdessaPage() {
                   <li>✓ Free storm damage inspections</li>
                   <li>✓ Insurance documentation</li>
                   <li>✓ Adjuster meetings and advocacy</li>
-                  <li>✓ Emergency tarping services</li>
+                  <li>✓ Tarping services</li>
                   <li>✓ Complete damage restoration</li>
                   <li>✓ Direct insurance billing</li>
                 </ul>

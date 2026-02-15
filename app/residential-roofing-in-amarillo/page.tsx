@@ -172,7 +172,7 @@ export default function Page() {
                   Not every roofing issue requires full replacement. Our <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">expert repair services</a> address leaks, missing shingles, wind damage, flashing failures, and more. We'll honestly assess whether repair or replacement is the most cost-effective solution.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
-                  <li>Emergency leak repair (availability)</li>
+                  <li>prompt leak repair (availability)</li>
                   <li>Storm damage assessment and repair</li>
                   <li>Chimney and skylight flashing repair</li>
                   <li>Valley and ridge repairs</li>

@@ -110,7 +110,7 @@ export default function AmarilloRoofingPage() {
                 <div className="text-5xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Fast Response</h3>
                 <p className="text-gray-600">
-                  30-minute emergency response time throughout Amarillo. We know every neighborhood
+                  30-minute storm response time throughout Amarillo. We know every neighborhood
                   from Soncy Road to Loop 335.
                 </p>
               </div>
@@ -216,7 +216,7 @@ export default function AmarilloRoofingPage() {
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial expertise:</strong> Flat roof repair and replacement, preventive maintenance
-                      programs, emergency repairs, and roof coating systems. Minimal disruption to your business.
+                      programs, prompt repairs, and roof coating systems. Minimal disruption to your business.
                     </p>
                     <a
                       href="/commercial-roofing-amarillo-texas/"
@@ -292,20 +292,20 @@ export default function AmarilloRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Repairs */}
+            {/* Storm Repairs */}
             <FadeIn delay={0.6}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
                     <div className="text-6xl mb-4">🚨</div>
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      Emergency Roof Repair
+                      Storm Damage Roof Repair
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Available for roofing emergencies in Amarillo.</strong> Roof leaks, storm
-                      damage, or structural issues can&apos;t wait. We provide emergency tarping, leak repairs,
+                      <strong>Available for roofing issues in Amarillo.</strong> Roof leaks, storm
+                      damage, or structural issues can&apos;t wait. We provide tarping, leak repairs,
                       and temporary solutions to protect your property until permanent repairs can be made.
                     </p>
                     <p className="text-gray-700 mb-4">
@@ -515,7 +515,7 @@ export default function AmarilloRoofingPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready to Protect Your Amarillo Property?</h2>
             <p className="cta-text">
-              Whether you need a free roof inspection, hail damage assessment, or emergency repairs,
+              Whether you need a free roof inspection, hail damage assessment, or prompt repairs,
               we&apos;re here to help. Serving Amarillo with honesty, integrity, and expert craftsmanship
               since 2010.
             </p>
@@ -667,8 +667,7 @@ export default function AmarilloRoofingPage() {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency Roof Repair",
-                    "description": "emergency roofing services for urgent situations"
+                    "description": "professional roofing services for urgent situations"
                   }
                 }
               ]

@@ -148,7 +148,7 @@ export default function Page() {
                               "name": "How quickly can you repair wind damage in Lubbock?",
                               "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "We provide emergency tarping and temporary repairs within hours for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate emergency needs."
+                                        "text": "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs."
                               }
                     },
                     {
@@ -319,7 +319,6 @@ export default function Page() {
                   <li>• Severe thunderstorm microbursts 70-100+ mph</li>
                   <li>• Heat expansion worsens existing wind damage</li>
                   <li>• Haboob dust storms with sustained high winds</li>
-                  <li>• Emergency repair season due to sudden events</li>
                 </ul>
               </div>
               
@@ -583,7 +582,7 @@ export default function Page() {
                   How quickly can repairs be completed after South Plains wind events?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Emergency tarping and temporary repairs are completed within 2-4 hours for actively leaking roofs—critical since Lubbock wind events often precede heavy rain. Full repairs typically occur 2-3 weeks after insurance approval, depending on damage extent and material availability. During widespread events (affecting multiple South Plains counties), we maintain regional material stockpiles and coordinate with agricultural equipment suppliers for specialized debris removal. Our local presence and South Plains weather expertise ensure faster response times than companies unfamiliar with agricultural area challenges.
+                  tarping and temporary repairs are completed within 2-4 hours for actively leaking roofs—critical since Lubbock wind events often precede heavy rain. Full repairs typically occur 2-3 weeks after insurance approval, depending on damage extent and material availability. During widespread events (affecting multiple South Plains counties), we maintain regional material stockpiles and coordinate with agricultural equipment suppliers for specialized debris removal. Our local presence and South Plains weather expertise ensure faster response times than companies unfamiliar with agricultural area challenges.
                 </AccordionContent>
               </AccordionItem>
 

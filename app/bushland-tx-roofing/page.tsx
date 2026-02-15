@@ -103,7 +103,7 @@ export default function BushlandRoofingPage() {
                 <div className="text-5xl mb-4">⚡</div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
                 <p className="text-gray-600">
-                  Bushland's exposed location means severe weather hits hard. We provide emergency
+                  Bushland's exposed location means severe weather hits hard. We provide prompt
                   tarping and rapid hail damage assessment.
                 </p>
               </div>
@@ -232,7 +232,7 @@ export default function BushlandRoofingPage() {
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial services:</strong> TPO and EPDM flat roofing, metal building
-                      re-roofing, roof coating systems, preventive maintenance programs, and emergency
+                      re-roofing, roof coating systems, preventive maintenance programs, and storm
                       repairs. We minimize disruption to your operations.
                     </p>
                     <a
@@ -246,12 +246,12 @@ export default function BushlandRoofingPage() {
               </div>
             </FadeIn>
 
-            {/* Emergency Services */}
+            {/* Storm Services */}
             <FadeIn delay={0.5}>
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg" alt="emergency roofing service for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg" alt="professional roofing service for Bushland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       
                     </h3>
@@ -259,18 +259,18 @@ export default function BushlandRoofingPage() {
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage can't wait, especially in rural areas.</strong> We provide
-                      emergency roofing services for Bushland residents. From emergency tarping
+                      professional roofing services for Bushland residents. From tarping
                       after hail storms to urgent leak repairs, we're just 10 miles away and ready to respond.
                     </p>
                     <p className="text-gray-700 mb-4">
                       Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}anytime, day or night, for immediate emergency assistance.
+                      {" "}anytime, day or night, for immediate professional assistance.
                     </p>
                     <a
                       href="/roof-repair-services-in-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
-                      Emergency Services Information →
+                      prompt services Information →
                     </a>
                   </div>
                 </div>
@@ -400,7 +400,7 @@ export default function BushlandRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve Bushland with fast, professional
               roofing services. Whether you need a free inspection, hail damage assessment, or
-              emergency repairs, we're just 10 miles away.
+              prompt repairs, we're just 10 miles away.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">

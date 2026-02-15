@@ -305,7 +305,7 @@ export default function HailDamageMidlandPage() {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="font-bold text-xl text-brand-brown mb-4">🌪️ Wind-Hail Combination Damage Patterns</h3>
                 <p className="text-gray-700 mb-4">Midland's position in Tornado Alley means severe hailstorms often combine with straight-line winds exceeding 80 mph. This creates complex damage patterns where hail-weakened shingles are subsequently torn away by wind, exposing roof decking to immediate water infiltration.</p>
-                <p className="text-gray-700 mb-4">Microburst activity associated with severe thunderstorms can create localized wind speeds exceeding 100 mph for brief periods. Combined with concurrent hail, these events can cause catastrophic roof damage requiring emergency tarping and immediate professional assessment.</p>
+                <p className="text-gray-700 mb-4">Microburst activity associated with severe thunderstorms can create localized wind speeds exceeding 100 mph for brief periods. Combined with concurrent hail, these events can cause catastrophic roof damage requiring tarping and immediate professional assessment.</p>
                 <p className="text-gray-700">Directional damage assessment is crucial in Midland, where southwest-facing slopes typically receive the most severe hail impact due to storm approach patterns, while north-facing slopes may show primarily wind damage patterns.</p>
               </div>
             </div>
@@ -404,12 +404,11 @@ export default function HailDamageMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-red-50 p-8 rounded-lg border-2 border-red-200">
-            <h2 className="text-3xl font-bold mb-6 text-red-700">Emergency Hail Damage Services</h2>
+            <h2 className="text-3xl font-bold mb-6 text-red-700">Hail Damage Services</h2>
             <p className="text-lg text-gray-800 mb-6">
-              <strong>Active leak after storm?</strong> We provide emergency tarping services and temporary repairs throughout Midland. Don't wait - water damage compounds quickly.
+              <strong>Active leak after storm?</strong> We provide tarping services and temporary repairs throughout Midland. Don't wait - water damage compounds quickly.
             </p>
             <div className="bg-white p-6 rounded-lg">
-              <p className="text-xl font-bold text-red-700 mb-2">🚨 Call Now for Emergency Service</p>
               <p className="text-2xl font-bold text-brand-gold"><a href="tel:8066226041">(806) 622-6041</a></p>
               <p className="text-gray-700 mt-2">Available throughout Midland and the Permian Basin</p>
             </div>

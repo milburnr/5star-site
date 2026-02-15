@@ -189,7 +189,7 @@ export default function Page() {
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">Immediate Response Capability</h4>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Same-day inspection availability</li>
-                  <li>• Emergency tarping within hours</li>
+                  <li>• tarping within hours</li>
                   <li>• storm response protocols</li>
                   <li>• Rapid claim documentation</li>
                 </ul>
