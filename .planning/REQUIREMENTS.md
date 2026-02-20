@@ -151,86 +151,86 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| COMP-01 | — | Pending |
-| COMP-02 | — | Pending |
-| COMP-03 | — | Pending |
-| COMP-04 | — | Pending |
-| COMP-05 | — | Pending |
-| URL-01 | — | Pending |
-| URL-02 | — | Pending |
-| URL-03 | — | Pending |
-| URL-04 | — | Pending |
-| URL-05 | — | Pending |
-| URL-06 | — | Pending |
-| META-01 | — | Pending |
-| META-02 | — | Pending |
-| META-03 | — | Pending |
-| META-04 | — | Pending |
-| META-05 | — | Pending |
-| META-06 | — | Pending |
-| HOME-01 | — | Pending |
-| HOME-02 | — | Pending |
-| HOME-03 | — | Pending |
-| HOME-04 | — | Pending |
-| HOME-05 | — | Pending |
-| SCHM-01 | — | Pending |
-| SCHM-02 | — | Pending |
-| SCHM-03 | — | Pending |
-| SCHM-04 | — | Pending |
-| SCHM-05 | — | Pending |
-| SCHM-06 | — | Pending |
-| SCHM-07 | — | Pending |
-| SCHM-08 | — | Pending |
-| HUB-01 | — | Pending |
-| HUB-02 | — | Pending |
-| HUB-03 | — | Pending |
-| HUB-04 | — | Pending |
-| HUB-05 | — | Pending |
-| HUB-06 | — | Pending |
-| HUB-07 | — | Pending |
-| HUB-08 | — | Pending |
-| HUB-09 | — | Pending |
-| HUB-10 | — | Pending |
-| HUB-11 | — | Pending |
-| HUB-12 | — | Pending |
-| LINK-01 | — | Pending |
-| LINK-02 | — | Pending |
-| LINK-03 | — | Pending |
-| LINK-04 | — | Pending |
-| LINK-05 | — | Pending |
-| LINK-06 | — | Pending |
-| LINK-07 | — | Pending |
-| LINK-08 | — | Pending |
-| CONT-01 | — | Pending |
-| CONT-02 | — | Pending |
-| CONT-03 | — | Pending |
-| CONT-04 | — | Pending |
-| CONT-05 | — | Pending |
-| CONT-06 | — | Pending |
-| CONT-07 | — | Pending |
-| CONT-08 | — | Pending |
-| CONT-09 | — | Pending |
-| IMG-01 | — | Pending |
-| IMG-02 | — | Pending |
-| IMG-03 | — | Pending |
-| IMG-04 | — | Pending |
-| IMG-05 | — | Pending |
-| IMG-06 | — | Pending |
-| IMG-07 | — | Pending |
-| IMG-08 | — | Pending |
-| TECH-01 | — | Pending |
-| TECH-02 | — | Pending |
-| TECH-03 | — | Pending |
-| TECH-04 | — | Pending |
-| TECH-05 | — | Pending |
-| TECH-06 | — | Pending |
-| TECH-07 | — | Pending |
+| COMP-01 | Phase 1 | Pending |
+| COMP-02 | Phase 1 | Pending |
+| COMP-03 | Phase 1 | Pending |
+| COMP-04 | Phase 1 | Pending |
+| COMP-05 | Phase 1 | Pending |
+| URL-01 | Phase 2 | Pending |
+| URL-02 | Phase 2 | Pending |
+| URL-03 | Phase 2 | Pending |
+| URL-04 | Phase 2 | Pending |
+| URL-05 | Phase 2 | Pending |
+| URL-06 | Phase 2 | Pending |
+| META-01 | Phase 3 | Pending |
+| META-02 | Phase 3 | Pending |
+| META-03 | Phase 3 | Pending |
+| META-04 | Phase 3 | Pending |
+| META-05 | Phase 3 | Pending |
+| META-06 | Phase 3 | Pending |
+| HOME-01 | Phase 4 | Pending |
+| HOME-02 | Phase 4 | Pending |
+| HOME-03 | Phase 4 | Pending |
+| HOME-04 | Phase 4 | Pending |
+| HOME-05 | Phase 4 | Pending |
+| SCHM-01 | Phase 5 | Pending |
+| SCHM-02 | Phase 5 | Pending |
+| SCHM-03 | Phase 5 | Pending |
+| SCHM-04 | Phase 5 | Pending |
+| SCHM-05 | Phase 5 | Pending |
+| SCHM-06 | Phase 5 | Pending |
+| SCHM-07 | Phase 5 | Pending |
+| SCHM-08 | Phase 5 | Pending |
+| HUB-01 | Phase 6 | Pending |
+| HUB-02 | Phase 6 | Pending |
+| HUB-03 | Phase 6 | Pending |
+| HUB-04 | Phase 6 | Pending |
+| HUB-05 | Phase 6 | Pending |
+| HUB-06 | Phase 6 | Pending |
+| HUB-07 | Phase 6 | Pending |
+| HUB-08 | Phase 6 | Pending |
+| HUB-09 | Phase 6 | Pending |
+| HUB-10 | Phase 6 | Pending |
+| HUB-11 | Phase 6 | Pending |
+| HUB-12 | Phase 6 | Pending |
+| LINK-01 | Phase 7 | Pending |
+| LINK-02 | Phase 7 | Pending |
+| LINK-03 | Phase 7 | Pending |
+| LINK-04 | Phase 7 | Pending |
+| LINK-05 | Phase 7 | Pending |
+| LINK-06 | Phase 7 | Pending |
+| LINK-07 | Phase 7 | Pending |
+| LINK-08 | Phase 7 | Pending |
+| CONT-01 | Phase 4 | Pending |
+| CONT-02 | Phase 8 | Pending |
+| CONT-03 | Phase 8 | Pending |
+| CONT-04 | Phase 8 | Pending |
+| CONT-05 | Phase 8 | Pending |
+| CONT-06 | Phase 8 | Pending |
+| CONT-07 | Phase 8 | Pending |
+| CONT-08 | Phase 8 | Pending |
+| CONT-09 | Phase 8 | Pending |
+| IMG-01 | Phase 9 | Pending |
+| IMG-02 | Phase 9 | Pending |
+| IMG-03 | Phase 9 | Pending |
+| IMG-04 | Phase 9 | Pending |
+| IMG-05 | Phase 9 | Pending |
+| IMG-06 | Phase 9 | Pending |
+| IMG-07 | Phase 9 | Pending |
+| IMG-08 | Phase 9 | Pending |
+| TECH-01 | Phase 10 | Pending |
+| TECH-02 | Phase 10 | Pending |
+| TECH-03 | Phase 10 | Pending |
+| TECH-04 | Phase 10 | Pending |
+| TECH-05 | Phase 10 | Pending |
+| TECH-06 | Phase 10 | Pending |
+| TECH-07 | Phase 10 | Pending |
 
 **Coverage:**
-- v1 requirements: 65 total
-- Mapped to phases: 0
-- Unmapped: 65 ⚠️
+- v1 requirements: 74 total
+- Mapped to phases: 74
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-20*
-*Last updated: 2026-02-20 after initial definition*
+*Last updated: 2026-02-20 after roadmap creation*
