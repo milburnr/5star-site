@@ -9,19 +9,19 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 
 ## Current Position
 
-Phase: 4 of 10 (Homepage Overhaul)
-Plan: 1 of 2 in current phase
-Status: In Progress
-Last activity: 2026-02-20 — Completed 04-01 homepage hero rewrite and entity name fix
+Phase: 4 of 10 (Homepage Overhaul) -- COMPLETE
+Plan: 2 of 2 in current phase
+Status: Phase Complete
+Last activity: 2026-02-20 — Completed 04-02 Also Serving section and hub page links
 
-Progress: [▓▓▓▓░░░░░░] 35%
+Progress: [▓▓▓▓░░░░░░] 40%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
-- Average duration: 5.0min
-- Total execution time: 0.75 hours
+- Total plans completed: 10
+- Average duration: 4.7min
+- Total execution time: 0.78 hours
 
 **By Phase:**
 
@@ -30,10 +30,10 @@ Progress: [▓▓▓▓░░░░░░] 35%
 | 01-compliance-entity-fixes | 2 | 15min | 7.5min |
 | 02-url-canonicalization | 3 | 10min | 3.3min |
 | 03-meta-titles | 3 | 17min | 5.7min |
-| 04-homepage-overhaul | 1 | 3min | 3.0min |
+| 04-homepage-overhaul | 2 | 5min | 2.5min |
 
 **Recent Trend:**
-- Last 5 plans: 4min, 6min, 6min, 5min, 3min
+- Last 5 plans: 6min, 6min, 5min, 3min, 2min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -72,6 +72,8 @@ Recent decisions affecting current work:
 - [04-01]: West Texas kept in factual contexts (hail stats, weather, FAQ answers) but removed from all identity/positioning headings
 - [04-01]: Hero paragraph includes inline link to /amarillo-texas-roofing/ for internal linking
 - [04-01]: Service areas intro reframed: Amarillo primary, Midland/Odessa as "additional coverage"
+- [04-02]: Also Serving section uses existing CSS classes with FadeIn wrapper, placed between service areas and FAQ
+- [04-02]: Services hub link added inline in intro paragraph, not as standalone CTA button
 
 ### Pending Todos
 
@@ -86,5 +88,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 04-01-PLAN.md (homepage hero rewrite, entity name fix, West Texas heading demotions)
+Stopped at: Completed 04-02-PLAN.md (Also Serving section, hub page links — Phase 4 complete)
 Resume file: None
