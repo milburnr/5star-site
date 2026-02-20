@@ -242,7 +242,7 @@ export default function Page() {
           <li><a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement</a></li>
           <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Hail Damage Repair</a></li>
           <li><a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">Free Roof Inspections</a></li>
-          <li><a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold hover:underline">Asphalt Shingle Installation</a></li>
+          <li><a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-gold hover:underline">Asphalt Shingle Installation</a></li>
           <li><a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold hover:underline">Metal Roofing</a></li>
           <li>Insurance Claim Assistance</li>
           <li>Storm Damage Roof Repairs</li>
@@ -323,7 +323,7 @@ export default function Page() {
         </p>
 
         <p>
-          For comprehensive <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services in Amarillo</a> and
+          For comprehensive <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing services in Amarillo</a> and
           the surrounding areas, trust the experts at 5 Star Commercial Roofing. We combine local knowledge,
           premium materials, and exceptional craftsmanship to deliver roofing solutions that protect your home
           for decades to come.
@@ -372,7 +372,7 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
             <p className="text-sm text-gray-600">Expert hail damage assessment and insurance claims</p>
           </a>
-          <a href="/roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/amarillo-texas-roofing/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing</h3>
             <p className="text-sm text-gray-600">All roofing services for Amarillo, TX</p>
           </a>

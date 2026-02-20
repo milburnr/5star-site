@@ -81,7 +81,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Amarillo */}
-          <a href="/roofing-amarillo-tx/" className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+          <a href="/amarillo-texas-roofing/" className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
             <div className="card-body">
               <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🏢 Amarillo, TX</h3>
               <p className="text-gray-600 mb-4">
@@ -233,7 +233,7 @@ export default function Page() {
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">
-          <a href="/roofing-services-lubbock-tx/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/lubbock-tx-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Lubbock, TX</h4>
             <p className="text-gray-600 mb-2">
               <strong>Population:</strong> ~260,000<br />
@@ -375,7 +375,7 @@ export default function Page() {
           <div>
             <h3 className="text-lg font-bold mb-3 text-brand-gold">Major Cities</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/roofing-amarillo-tx/" className="hover:text-brand-gold">Amarillo</a></li>
+              <li><a href="/amarillo-texas-roofing/" className="hover:text-brand-gold">Amarillo</a></li>
               <li><a href="/midland-tx-roofing/" className="hover:text-brand-gold">Midland</a></li>
               <li><a href="/odessa-tx-roofing/" className="hover:text-brand-gold">Odessa</a></li>
               <li><a href="/lubbock-tx-roofing/" className="hover:text-brand-gold">Lubbock</a></li>

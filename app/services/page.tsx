@@ -233,7 +233,7 @@ export default function Page() {
                   Class 4 impact-resistant shingles designed for West Texas hail. Available in architectural
                   and luxury styles with 20-50 year warranties.
                 </p>
-                <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm">
+                <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline text-sm">
                   Learn More →
                 </a>
               </div>
@@ -566,7 +566,7 @@ export default function Page() {
               <li><a href="/residential-roofing-amarillo/" className="hover:text-brand-gold">Amarillo Residential</a></li>
               <li><a href="/residential-roofing-amarillo/" className="hover:text-brand-gold">Roof Repair</a></li>
               <li><a href="/roof-replacement-amarillo/" className="hover:text-brand-gold">Roof Replacement</a></li>
-              <li><a href="/asphalt-roofing-in-amarillo/" className="hover:text-brand-gold">Asphalt Shingles</a></li>
+              <li><a href="/asphalt-shingle-roofing-amarillo/" className="hover:text-brand-gold">Asphalt Shingles</a></li>
               <li><a href="/metal-roof-installation-odessa-texas/" className="hover:text-brand-gold">Metal Roofing</a></li>
             </ul>
           </div>

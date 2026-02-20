@@ -275,7 +275,7 @@ export default function ContactPage() {
 
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
               {[
-                { city: 'Amarillo', icon: '🏙️', link: '/roofing-amarillo-tx/' },
+                { city: 'Amarillo', icon: '🏙️', link: '/amarillo-texas-roofing/' },
                 { city: 'Midland', icon: '🌆', link: '/midland-tx-roofing/' },
                 { city: 'Odessa', icon: '🏘️', link: '/odessa-tx-roofing/' },
                 { city: 'Lubbock', icon: '🌃', link: '/lubbock-tx-roofing/' },

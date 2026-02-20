@@ -543,6 +543,110 @@
   status = 301
   force = true
 
+# --- General Roofing Amarillo variants -> /amarillo-texas-roofing/ ---
+
+[[redirects]]
+  from = "/roofing-amarillo-tx"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-amarillo-tx/"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-services-in-amarillo-tx"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-services-in-amarillo-tx/"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-companies-in-amarillo-tx"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-companies-in-amarillo-tx/"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/expert-roofing-services-in-amarillo"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/expert-roofing-services-in-amarillo/"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofers-in-amarillo"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofers-in-amarillo/"
+  to = "/amarillo-texas-roofing/"
+  status = 301
+  force = true
+
+# --- General Roofing Lubbock variant -> /lubbock-tx-roofing/ ---
+
+[[redirects]]
+  from = "/roofing-services-lubbock-tx"
+  to = "/lubbock-tx-roofing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roofing-services-lubbock-tx/"
+  to = "/lubbock-tx-roofing/"
+  status = 301
+  force = true
+
+# --- Asphalt Roofing Amarillo -> /asphalt-shingle-roofing-amarillo/ ---
+
+[[redirects]]
+  from = "/asphalt-roofing-in-amarillo"
+  to = "/asphalt-shingle-roofing-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/asphalt-roofing-in-amarillo/"
+  to = "/asphalt-shingle-roofing-amarillo/"
+  status = 301
+  force = true
+
+# --- Heavy Rain Damage Amarillo -> /heavy-rain-damage-roof-repair-in-amarillo/ ---
+
+[[redirects]]
+  from = "/roof-heavy-rain-damage-in-amarillo"
+  to = "/heavy-rain-damage-roof-repair-in-amarillo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/roof-heavy-rain-damage-in-amarillo/"
+  to = "/heavy-rain-damage-roof-repair-in-amarillo/"
+  status = 301
+  force = true
+
 # ============================================================================
 # SPA Catch-All (must be last)
 # ============================================================================

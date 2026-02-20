@@ -91,7 +91,7 @@ export default function Page() {
         <p className="text-lg text-gray-600 mb-4">
           Welcome to our collection of articles featuring local Amarillo attractions and roofing insights.
           As a locally-owned business, we're proud to serve Amarillo and showcase the best our community has to offer.
-          For professional <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services in Amarillo</a>,
+          For professional <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing services in Amarillo</a>,
           call us at <strong>(806) 622-6041</strong> for a free inspection.
         </p>
         <p className="text-lg text-gray-600 mb-4">
@@ -170,7 +170,7 @@ export default function Page() {
               we'd expect for our own homes.
             </p>
             <p className="text-gray-700">
-              Explore our comprehensive <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services</a> to
+              Explore our comprehensive <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing services</a> to
               learn more about what we can do for you.
             </p>
           </div>

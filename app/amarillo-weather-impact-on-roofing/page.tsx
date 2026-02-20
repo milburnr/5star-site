@@ -246,7 +246,7 @@ export default function Page() {
           Whether you're building a new home or replacing an existing roof, the materials you choose will
           directly impact how well your roof performs over its lifetime. We work with top-tier manufacturers
           to provide options that offer the best combination of durability, aesthetics, and value for Amarillo
-          homeowners. Our <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">comprehensive roofing services</a> include
+          homeowners. Our <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">comprehensive roofing services</a> include
           expert consultation to help you make the right choice for your specific needs and budget.
         </p>
 
@@ -822,7 +822,7 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Roof Replacement</h3>
             <p className="text-sm text-gray-600">Complete roof replacement with weather-resistant materials</p>
           </a>
-          <a href="/roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/amarillo-texas-roofing/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
             <p className="text-sm text-gray-600">Comprehensive roofing solutions for West Texas homes</p>
           </a>

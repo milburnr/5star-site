@@ -165,7 +165,7 @@ export default function PampaRoofingPage() {
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Pampa, Texas</h2>
             <p className="text-lg mb-4">
-              As Pampa's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Gray County and the entire Texas Panhandle. Whether you need commercial roofing for Pampa's chemical plants, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
+              As Pampa's premier <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Gray County and the entire Texas Panhandle. Whether you need commercial roofing for Pampa's chemical plants, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
               Pampa's climate—with severe hailstorms, high winds, and extreme temperature swings—combined with the city's industrial base demands roofing systems built to withstand the harshest conditions and chemical exposure. We specialize in <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and chemical-resistant roofing systems proven to protect Gray County properties year after year.
@@ -345,7 +345,7 @@ export default function PampaRoofingPage() {
               While we're proud to serve Pampa and Gray County, our roofing expertise extends across the entire region:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Amarillo Roofing</a>
+              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">• Amarillo Roofing</a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Roofing</a>
               <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roofing</a>
               <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>

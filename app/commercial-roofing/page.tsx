@@ -283,7 +283,7 @@ export default function Page() {
       <div className="grid md:grid-cols-3 gap-4 mb-8">
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-brand-brown mb-2">Retail Centers</h3>
-          <p className="text-sm text-gray-600 mb-2">I-40 corridor shopping centers in <a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a></p>
+          <p className="text-sm text-gray-600 mb-2">I-40 corridor shopping centers in <a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a></p>
           <p className="text-xs text-gray-500">45,000 sq ft TPO white membrane replacement after 2023 hail storm</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">

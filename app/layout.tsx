@@ -56,7 +56,7 @@ export default function RootLayout({
                       <a href="/residential-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Residential Roofing</a>
                       <a href="/commercial-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Commercial Roofing</a>
                       <a href="/hail-damage-repair-amarillo/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Hail Damage Repair</a>
-                      <a href="/roofing-amarillo-tx/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Roof Replacement</a>
+                      <a href="/amarillo-texas-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Roof Replacement</a>
                       <a href="/services/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2">All Services →</a>
                     </div>
                   </div>
@@ -70,7 +70,7 @@ export default function RootLayout({
                   </a>
                   <div className="absolute top-full left-0 mt-2 w-48 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
                     <div className="py-2">
-                      <a href="/roofing-amarillo-tx/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Amarillo</a>
+                      <a href="/amarillo-texas-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Amarillo</a>
                       <a href="/lubbock-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Lubbock</a>
                       <a href="/midland-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Midland</a>
                       <a href="/odessa-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Odessa</a>
@@ -125,7 +125,7 @@ export default function RootLayout({
                   <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Hail Damage Repair</a></li>
                   <li><a href="/roof-inspections-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Roof Inspections</a></li>
                   <li><a href="/roof-replacement-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Roof Replacement</a></li>
-                  <li><a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Asphalt Shingles</a></li>
+                  <li><a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Asphalt Shingles</a></li>
                   <li><a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold-light hover:text-brand-gold-bright">Metal Roofing</a></li>
                 </ul>
               </div>
@@ -133,7 +133,7 @@ export default function RootLayout({
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-gold-bright">Major Cities</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/roofing-amarillo-tx/" className="text-brand-gold-light hover:text-brand-gold-bright">Amarillo Roofing</a></li>
+                  <li><a href="/amarillo-texas-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Amarillo Roofing</a></li>
                   <li><a href="/midland-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Midland Roofing</a></li>
                   <li><a href="/odessa-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Odessa Roofing</a></li>
                   <li><a href="/lubbock-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Lubbock Roofing</a></li>

@@ -133,7 +133,7 @@ export default function Page() {
 
         <p>
           When looking for Amarillo's best roofer, it's important to consider several factors. You need a
-          contractor who understands the unique challenges of <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing in Amarillo</a> and
+          contractor who understands the unique challenges of <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing in Amarillo</a> and
           the broader West Texas region, from severe hailstorms to extreme temperature fluctuations.
         </p>
 
@@ -251,7 +251,7 @@ export default function Page() {
             <h4 className="font-bold text-brand-brown mb-3">Roof Replacement Services</h4>
             <ul className="space-y-2 text-sm">
               <li>• <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement</a></li>
-              <li>• <a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold hover:underline">Asphalt Shingle Installation</a></li>
+              <li>• <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-gold hover:underline">Asphalt Shingle Installation</a></li>
               <li>• Metal Roofing Systems</li>
               <li>• <a href="/tpo-roofing-amarillo/" className="text-brand-gold hover:underline">TPO Flat Roofing</a></li>
               <li>• Impact-Resistant Materials</li>

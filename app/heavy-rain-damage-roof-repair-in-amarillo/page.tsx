@@ -265,7 +265,7 @@ export default function Page() {
         <div className="card">
           <div className="card-body">
             <h3 className="font-bold mb-3">Impact-Resistant Shingles</h3>
-            <p>Upgrade to Class 4 <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">impact-resistant shingles</a> that resist <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage</a> and reduce the likelihood of granule loss that leads to water penetration.</p>
+            <p>Upgrade to Class 4 <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">impact-resistant shingles</a> that resist <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage</a> and reduce the likelihood of granule loss that leads to water penetration.</p>
           </div>
         </div>
         <div className="card">
@@ -318,7 +318,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold mb-2">Texas Panhandle</h3>
               <ul className="space-y-1">
-                <li><a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a></li>
+                <li><a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a></li>
                 <li>Canyon</li>
                 <li>Borger</li>
                 <li>Pampa</li>

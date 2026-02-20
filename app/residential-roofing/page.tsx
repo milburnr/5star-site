@@ -116,7 +116,7 @@ export default function Page() {
         <p className="text-lg">
           Your home is your biggest investment. At 5 Star Commercial Roofing, we provide Amarillo, Midland, and Odessa homeowners
           with high-quality residential roofing services, specializing in <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a> and insurance
-          claim assistance. The Texas Panhandle experiences 8-12 hailstorms annually—trust our expertise to protect your home with <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Class 4 impact-resistant shingles</a>.
+          claim assistance. The Texas Panhandle experiences 8-12 hailstorms annually—trust our expertise to protect your home with <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Class 4 impact-resistant shingles</a>.
         </p>
       </div>
 
@@ -133,7 +133,7 @@ export default function Page() {
             <div className="p-6">
               <h3 className="text-xl font-semibold text-brand-brown mb-3">Asphalt Shingles</h3>
               <p className="mb-3">
-                The most popular roofing choice for Amarillo homes. <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Modern impact-resistant shingles</a>
+                The most popular roofing choice for Amarillo homes. <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Modern impact-resistant shingles</a>
                 provide excellent hail protection while maintaining curb appeal. Learn more about our <a href="/roofing-methods/" className="text-brand-brown hover:text-brand-gold underline">installation methods</a>.
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-600">

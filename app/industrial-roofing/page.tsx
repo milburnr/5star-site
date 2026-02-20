@@ -297,7 +297,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold mb-2">Texas Panhandle</h3>
               <ul className="space-y-1">
-                <li><a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a></li>
+                <li><a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a></li>
                 <li>Canyon</li>
                 <li>Borger</li>
                 <li>Pampa</li>

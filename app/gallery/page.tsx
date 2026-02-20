@@ -80,7 +80,7 @@ export default function GalleryPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold mb-6">Real Projects, Real Results</h2>
             <p className="text-xl text-gray-600 mb-4">
-              Browse our portfolio of completed roofing projects throughout <a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Odessa</a>, and surrounding <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline">West Texas communities</a>.
+              Browse our portfolio of completed roofing projects throughout <a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Odessa</a>, and surrounding <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline">West Texas communities</a>.
             </p>
           </div>
         </FadeIn>

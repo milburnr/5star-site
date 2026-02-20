@@ -351,7 +351,7 @@ export default function HerefordRoofingPage() {
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
                   <h3 className="font-bold text-lg text-brand-brown mb-2">What areas do you serve besides Hereford?</h3>
-                  <p className="text-gray-600">We serve the entire Texas Panhandle and West Texas region, including <a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a>, Canyon, Dumas, Borger, Plainview, Midland, Odessa, and Lubbock. Our regional coverage ensures consistent service quality across all locations.</p>
+                  <p className="text-gray-600">We serve the entire Texas Panhandle and West Texas region, including <a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a>, Canyon, Dumas, Borger, Plainview, Midland, Odessa, and Lubbock. Our regional coverage ensures consistent service quality across all locations.</p>
                 </div>
               </div>
             </FadeIn>

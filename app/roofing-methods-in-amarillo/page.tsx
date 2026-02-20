@@ -75,10 +75,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Modern Roofing Techniques for Texas Panhandle Durability</h2>
         <p className="text-lg">
-          When it comes to <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing in Amarillo</a>, installation method matters just as much as material selection. The <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">severe hailstorms</a>, high winds, and extreme temperature swings that define the Texas Panhandle climate demand roofing methods that go beyond standard practices used in milder regions.
+          When it comes to <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing in Amarillo</a>, installation method matters just as much as material selection. The <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">severe hailstorms</a>, high winds, and extreme temperature swings that define the Texas Panhandle climate demand roofing methods that go beyond standard practices used in milder regions.
         </p>
         <p className="text-lg mt-4">
-          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've spent over a decade perfecting installation techniques specifically for Amarillo's challenging conditions. Whether you need <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> or <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a>, our proven methods ensure your roof stands up to whatever West Texas weather throws at it.
+          At <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've spent over a decade perfecting installation techniques specifically for Amarillo's challenging conditions. Whether you need <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> or <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a>, our proven methods ensure your roof stands up to whatever West Texas weather throws at it.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-4">The Science Behind Amarillo Roofing Methods</h3>

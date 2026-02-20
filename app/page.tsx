@@ -279,7 +279,7 @@ export default function Page() {
               <div className="text-3xl">✓</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Comprehensive Warranties</h3>
-                <p>We stand behind our work with industry-leading warranty protection. All <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Class 4 impact-resistant shingles</a> include manufacturer warranties up to 50 years.</p>
+                <p>We stand behind our work with industry-leading warranty protection. All <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Class 4 impact-resistant shingles</a> include manufacturer warranties up to 50 years.</p>
               </div>
             </div>
           </div>
@@ -418,7 +418,7 @@ export default function Page() {
                 <li>Multiple color options</li>
                 <li>Wind resistance up to 130 mph</li>
               </ul>
-              <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">Learn More →</a>
+              <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">Learn More →</a>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
@@ -554,7 +554,7 @@ export default function Page() {
             <div className="text-center p-6 bg-brand-gold-light rounded-lg hover:bg-brand-gold-vibrant/10 transition-all duration-300">
               <h3 className="font-bold text-xl mb-3">Texas Panhandle</h3>
               <div className="space-y-1 text-gray-700">
-                <div><a href="/roofing-amarillo-tx/" className="hover:text-brand-gold hover:font-semibold transition-all">Amarillo</a></div>
+                <div><a href="/amarillo-texas-roofing/" className="hover:text-brand-gold hover:font-semibold transition-all">Amarillo</a></div>
                 <div><a href="/service-areas/" className="hover:text-brand-gold hover:font-semibold transition-all">Canyon</a></div>
                 <div><a href="/service-areas/" className="hover:text-brand-gold hover:font-semibold transition-all">Borger</a></div>
                 <div><a href="/service-areas/" className="hover:text-brand-gold hover:font-semibold transition-all">Pampa</a></div>
@@ -567,7 +567,7 @@ export default function Page() {
               <div className="space-y-1 text-gray-700">
                 <div><a href="/contact/" className="hover:text-brand-gold hover:font-semibold transition-all">Midland</a></div>
                 <div><a href="/contact/" className="hover:text-brand-gold hover:font-semibold transition-all">Odessa</a></div>
-                <div><a href="/roofing-services-lubbock-tx/" className="hover:text-brand-gold hover:font-semibold transition-all">Lubbock</a></div>
+                <div><a href="/lubbock-tx-roofing/" className="hover:text-brand-gold hover:font-semibold transition-all">Lubbock</a></div>
                 <div><a href="/service-areas/" className="hover:text-brand-gold hover:font-semibold transition-all">Big Spring</a></div>
                 <div><a href="/service-areas/" className="hover:text-brand-gold hover:font-semibold transition-all">Plainview</a></div>
                 <div><a href="/service-areas/" className="hover:text-brand-gold hover:font-semibold transition-all">Levelland</a></div>
@@ -664,7 +664,7 @@ export default function Page() {
                     What is a Class 4 shingle and why is it good for West Texas?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed pb-6">
-                    Class 4 shingles are <a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold hover:underline">impact-resistant roofing materials</a> that have passed rigorous testing for hail resistance. They're engineered to withstand impacts from hail up to 2 inches in diameter without cracking. For West Texas homeowners, Class 4 shingles offer better protection against recurring hailstorms and may qualify for insurance premium discounts of 10% or more, depending on your carrier.
+                    Class 4 shingles are <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-gold hover:underline">impact-resistant roofing materials</a> that have passed rigorous testing for hail resistance. They're engineered to withstand impacts from hail up to 2 inches in diameter without cracking. For West Texas homeowners, Class 4 shingles offer better protection against recurring hailstorms and may qualify for insurance premium discounts of 10% or more, depending on your carrier.
                   </AccordionContent>
                 </AccordionItem>
 

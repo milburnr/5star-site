@@ -166,7 +166,7 @@ export default function CanyonRoofingPage() {
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Canyon, Texas</h2>
             <p className="text-lg mb-4">
-              As Canyon's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Randall County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
+              As Canyon's premier <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Randall County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
               Canyon's climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Randall County properties year after year.
@@ -346,7 +346,7 @@ export default function CanyonRoofingPage() {
               While we're proud to serve Canyon and Randall County, our roofing expertise extends across the entire region:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Amarillo Roofing</a>
+              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">• Amarillo Roofing</a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Roofing</a>
               <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roofing</a>
               <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>

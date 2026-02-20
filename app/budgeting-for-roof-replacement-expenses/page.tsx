@@ -57,7 +57,7 @@ export default function Page() {
       {/* Content */}
       <div className="prose max-w-none">
         <p>
-          As a homeowner in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, you know that wear and tear on your property is inevitable. Appliances will break
+          As a homeowner in <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">Amarillo</a>, you know that wear and tear on your property is inevitable. Appliances will break
           down, <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roofs will leak</a>, and major components will eventually need to be replaced. These <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">replacement
           expenses</a> can be costly and unpredictable, so it's essential to have a plan in place to manage these
           costs proactively.
@@ -232,7 +232,7 @@ export default function Page() {
 
         <ul className="list-disc pl-6 space-y-2">
           <li><strong>Climate-Appropriate Materials:</strong> Choose materials specifically rated for <a href="/amarillo-weather-impact-on-roofing/" className="text-brand-gold hover:underline">Amarillo's weather challenges</a> including hail resistance and thermal cycling tolerance</li>
-          <li><strong>Certified Contractors:</strong> Work with licensed, insured, and manufacturer-certified <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">contractors</a> who understand local conditions and codes</li>
+          <li><strong>Certified Contractors:</strong> Work with licensed, insured, and manufacturer-certified <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">contractors</a> who understand local conditions and codes</li>
           <li><strong>Comprehensive Ventilation:</strong> Invest in proper ventilation systems to extend roof lifespan and reduce energy costs</li>
           <li><strong>Warranty Understanding:</strong> Review and understand both material and workmanship warranty coverage, transfer procedures, and maintenance requirements</li>
           <li><strong>Maintenance Planning:</strong> Schedule annual inspections and preventive maintenance to protect your investment and preserve warranty coverage</li>
@@ -311,7 +311,7 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Insurance Claims</h3>
             <p className="text-sm text-gray-600">We handle storm damage insurance claims</p>
           </a>
-          <a href="/roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/amarillo-texas-roofing/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">All Roofing Services</h3>
             <p className="text-sm text-gray-600">Comprehensive roofing solutions for Amarillo</p>
           </a>
