@@ -54,10 +54,12 @@ Recent decisions affecting current work:
 - [02-01]: Variant page.tsx files updated in place (not deleted yet -- deletion is plan 02-02)
 - [02-02]: All 36 variant directories deleted after redirects confirmed working
 - [02-02]: Sitemap regenerated from out/ post-build to guarantee only built pages appear
+- [Quality]: DESIGN-QUALITY-STANDARDS.md integrated into ROADMAP.md — 6-check verification loop, brand refs, anti-generic patterns, component reuse added to all phases
+- [Quality]: Brand assets created: .planning/brand/entity-guidelines.md, content-voice.md, keyword-map.md
 
 ### Pending Todos
 
-None yet.
+- [Quality Standards] keyword-map.md needs full population during Phase 3 (Meta & Titles) — currently a skeleton
 
 ### Blockers/Concerns
 

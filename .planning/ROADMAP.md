@@ -23,6 +23,29 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 9: Image Optimization** - Audit and fix all images: alt text, contextual relevance, broken URLs, R2 compliance
 - [ ] **Phase 10: Technical Validation & Relaunch** - Full-site QA, sitemap regeneration, performance verification, Google resubmission
 
+## Quality Standards
+
+Every phase must pass the **6-Check Verification Loop** before completion (see `.planning/DESIGN-QUALITY-STANDARDS.md`):
+
+1. **Build Verification** — `npm run build` completes with zero errors
+2. **Schema Validation** — Entity name "5 Star Roofing" renders correctly in built HTML; no name variants
+3. **Meta Quality Spot Check** — Sample 10 pages: titles <60 chars, descriptions <160 chars, no duplicates
+4. **Image URL Audit** — Zero GitHub-hosted images; all from R2
+5. **Internal Link Check** — All `href="/..."` resolve to real pages in `out/`
+6. **PageSpeed Regression** — Score stays 95+ desktop
+
+**Brand References** (use in planning and execution):
+- `.planning/brand/entity-guidelines.md` — Canonical name, NAP, voice
+- `.planning/brand/content-voice.md` — Tone, good/bad patterns, FAQ templates
+- `.planning/brand/keyword-map.md` — Primary keyword per page (populated Phase 3+)
+
+**Hard Rules:**
+- No visual design changes (CSS, layout, animations frozen)
+- Build must succeed every phase
+- Entity name "5 Star Roofing" — no variations
+- Images from R2 only
+- No phase ships without all 6 checks passing
+
 ## Phase Details
 
 ### Phase 1: Compliance & Entity Fixes
@@ -35,6 +58,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Every page's schema uses the same canonical email address matching constants.ts
   4. Every page's schema phone, address, and hours match constants.ts exactly
   5. Copyright shows 2026 on every page
+**Quality Gate**: Build succeeds, entity name grep shows zero variants in `out/`, schema NAP matches constants.ts
+**Brand Refs**: `.planning/brand/entity-guidelines.md`
 **Plans:** 2 plans
 
 Plans:
@@ -51,11 +76,13 @@ Plans:
   3. All commercial and residential roofing URL variants redirect to their canonical counterparts
   4. No duplicate page.tsx files remain in the app/ directory for redirected URLs
   5. No two pages on the site target the same primary keyword (verified by title/H1 audit)
-**Plans:** 2 plans
+**Quality Gate**: Build succeeds, no redirect chains, sitemap contains only canonical URLs, internal link spot-check passes
+**Plans:** 3 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Rewrite netlify.toml redirects with correct canonical targets + update internal links in page.tsx files
-- [ ] 02-02-PLAN.md — Delete duplicate page.tsx directories, rebuild, regenerate sitemap, audit for keyword self-competition
+- [x] 02-01-PLAN.md — Rewrite netlify.toml redirects with correct canonical targets + update internal links in page.tsx files
+- [x] 02-02-PLAN.md — Delete duplicate page.tsx directories, rebuild, regenerate sitemap, audit for keyword self-competition
+- [ ] 02-03-PLAN.md — Gap closure: redirect 8 remaining redundant pages, designate 10 unique niche pages as canonical
 
 ### Phase 3: Meta & Titles
 **Goal**: Every page has a unique, correctly formatted meta title and description that drives clicks from search results
@@ -67,6 +94,9 @@ Plans:
   3. No meta descriptions contain double commas or truncated text
   4. No two pages share the same meta title
   5. Homepage meta title leads with "Amarillo" and residential roofing focus
+**Quality Gate**: Build succeeds, entity name consistent in all meta titles, no duplicate titles across site, meta spot-check (10 pages) passes length limits, keyword map updated
+**Brand Refs**: `.planning/brand/entity-guidelines.md`, `.planning/brand/content-voice.md`, `.planning/brand/keyword-map.md` (populate during this phase)
+**Anti-Generic**: No meta descriptions starting with "Looking for..." — use outcome-focused descriptions per content-voice.md
 **Plans**: TBD
 
 Plans:
@@ -84,6 +114,9 @@ Plans:
   3. An "Also Serving" section exists below the fold linking to Midland, Odessa, and Lubbock city hubs
   4. Homepage has explicit links to /services/ hub and /amarillo-texas-roofing/ city hub
   5. First paragraph of homepage content names Amarillo as primary service area with residential-first positioning
+**Quality Gate**: Build succeeds, entity name consistent, PageSpeed 95+ on homepage, no visual regressions (layout/animations frozen)
+**Brand Refs**: `.planning/brand/entity-guidelines.md`, `.planning/brand/content-voice.md`
+**Anti-Generic**: No empty claims ("quality service, affordable prices") — use specific, localized content per content-voice.md
 **Plans**: TBD
 
 Plans:
@@ -100,6 +133,9 @@ Plans:
   3. About page contains Person schema for the business owner
   4. Every page with FAQ content has corresponding FAQ schema in the HTML output
   5. Schema validation script passes against all 268 built pages with zero errors
+**Quality Gate**: Build succeeds, `grep -r "LocalBusiness" out/ | wc -l` matches page count, entity name "5 Star Roofing" in all schema, zero "5 FIVE Star" variants
+**Brand Refs**: `.planning/brand/entity-guidelines.md`
+**Component Reuse**: Standard schema template pattern — LocalBusiness+RoofingContractor on every page, FAQ schema wherever FAQ content exists, Breadcrumb schema matching nav hierarchy
 **Plans**: TBD
 
 Plans:
@@ -118,6 +154,10 @@ Plans:
   3. Each hub page has substantial unique content (not just a link directory) — minimum 800 words
   4. Each hub page has a FAQ section with corresponding FAQ schema in the HTML output
   5. No new hub page cannibalizes an existing spoke page's primary keyword (verified by title/H1 differentiation)
+**Quality Gate**: Build succeeds, all 9 hub URLs return 200 in out/, FAQ schema renders in built HTML, entity name consistent, keyword map updated with hub keywords, PageSpeed 95+
+**Brand Refs**: `.planning/brand/content-voice.md` (hub page content quality), `.planning/brand/keyword-map.md` (hub vs spoke differentiation)
+**Component Reuse**: Standard FAQ template (6-7 service-type questions per hub), standard schema (LocalBusiness+RoofingContractor+FAQ), standard internal linking (hub links down to all spokes)
+**Anti-Generic**: Hub pages must have 800+ words of substantive content — not just link directories. Use content-voice.md patterns.
 **Plans**: TBD
 
 Plans:
@@ -136,6 +176,8 @@ Plans:
   3. Cross-city links exist for same services (e.g., roof-repair-amarillo links to roof-repair-midland)
   4. Every page has at least 3 outbound internal links (no dead-end pages)
   5. Breadcrumb navigation on every page resolves to real pages (no 404 breadcrumb parents)
+**Quality Gate**: Build succeeds, zero orphan pages, zero dead-end pages (every page has 3+ outbound links), all breadcrumb hrefs resolve to real pages in out/, internal link spot-check passes
+**Component Reuse**: Standard internal linking pattern — hub uplinks (spoke->service hub + city hub), cross-city links (same service), cross-service links (same city)
 **Plans**: TBD
 
 Plans:
@@ -153,6 +195,10 @@ Plans:
   3. Service pages use answer-first H2 structure (H2s framed as homeowner questions)
   4. Content covers all roofing types: asphalt shingles, metal roofs, flat membrane/TPO/EPDM across relevant pages
   5. No two pages target the same search intent (cannibalization check passes)
+**Quality Gate**: Build succeeds, entity name consistent, FAQ schema on every page with FAQ content, no duplicate FAQ questions across pages, keyword map confirms no cannibalization, PageSpeed 95+
+**Brand Refs**: `.planning/brand/content-voice.md` (FAQ templates, answer-first H2s, city-specific content rules), `.planning/brand/keyword-map.md` (cannibalization check)
+**Component Reuse**: Standard FAQ templates (service-type and city-type per content-voice.md), answer-first H2 structure on service pages
+**Anti-Generic**: Every city page must have 3+ genuinely city-specific elements (local weather, neighborhood names, building codes). No city-name-swapped templates.
 **Plans**: TBD
 
 Plans:
@@ -171,6 +217,7 @@ Plans:
   3. No duplicate images appear on the same page
   4. Every image has a descriptive, keyword-rich alt attribute relevant to its surrounding content
   5. Inline images of roofing materials, hail damage, and completed work appear where content references them
+**Quality Gate**: Build succeeds, `grep -r "public/images" out/ | wc -l` returns ZERO (no GitHub images), `grep -r "r2.dev" out/ | wc -l` returns >0, zero broken image URLs validated against built output, PageSpeed 95+
 **Plans**: TBD
 
 Plans:
@@ -188,6 +235,7 @@ Plans:
   3. Sitemap.xml is regenerated with correct URLs, priorities, and changefreq values
   4. All 268+ pages resubmitted to Google Indexing API without errors
   5. Broken link check passes across all pages (zero internal 404s)
+**Quality Gate**: ALL 6 verification checks must pass as final gate — this phase IS the comprehensive quality validation. Build, schema, meta, images, links, PageSpeed all verified.
 **Plans**: TBD
 
 Plans:
