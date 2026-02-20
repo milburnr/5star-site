@@ -1,4 +1,5 @@
 // Schema template utilities for SEO enhancement
+import type { WithContext, LocalBusiness, FAQPage } from 'schema-dts';
 
 interface CityData {
   name: string;
@@ -20,8 +21,8 @@ interface ServiceData {
 export function generateLocalBusinessSchema(city: CityData, service: ServiceData) {
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "5 Star Commercial Roofing",
+    "@type": ["LocalBusiness", "RoofingContractor"],
+    "name": "5 Star Roofing",
     "email": "admin@5starroofingpros.com",
     "@id": `https://5starroofingpros.com/${service.slug}-${city.slug}/#localbusiness`,
     "image": `https://5starroofingpros.com/images/${city.slug}-location.jpg`,
