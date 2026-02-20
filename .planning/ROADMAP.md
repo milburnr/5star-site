@@ -97,12 +97,12 @@ Plans:
 **Quality Gate**: Build succeeds, entity name consistent in all meta titles, no duplicate titles across site, meta spot-check (10 pages) passes length limits, keyword map updated
 **Brand Refs**: `.planning/brand/entity-guidelines.md`, `.planning/brand/content-voice.md`, `.planning/brand/keyword-map.md` (populate during this phase)
 **Anti-Generic**: No meta descriptions starting with "Looking for..." — use outcome-focused descriptions per content-voice.md
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 03-01: Audit all 268 pages for meta title issues and batch-fix
-- [ ] 03-02: Audit all 268 pages for meta description issues and batch-fix
-- [ ] 03-03: Verify uniqueness and formatting across all pages post-fix
+- [ ] 03-01-PLAN.md — Standardize all meta titles to use "5 Star Roofing" brand, fix formatting issues, rewrite homepage title (META-06)
+- [ ] 03-02-PLAN.md — Fix all meta descriptions: capitalize, trim length, add CTAs, eliminate anti-patterns
+- [ ] 03-03-PLAN.md — Comprehensive verification audit, build spot-check, populate keyword-map.md
 
 ### Phase 4: Homepage Overhaul
 **Goal**: Homepage positions 5 Star Roofing as Amarillo's residential roofing expert, not a generic West Texas commercial roofer
