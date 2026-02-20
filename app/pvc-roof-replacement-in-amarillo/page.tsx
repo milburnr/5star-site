@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pvc-roof-replacement-in-amarillo/' },
   title: 'PVC Roof Replacement Amarillo TX | 5 Star Roofing',
-  description: 'Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
+  description: "Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
 };
 
 export default function Page() {

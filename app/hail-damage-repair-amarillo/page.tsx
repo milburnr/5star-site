@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-amarillo/' },
   title: 'Hail Damage Roof Repair Amarillo TX | 5 Star Roofing',
-  description: 'Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help, 95%+ approval rate. Call (806) 622-6041 for a free estimate!',
+  description: "Expert hail damage roof repair in Amarillo, TX. Free inspections, insurance claim help, 95%+ approval rate. Call (806) 622-6041 for a free estimate!",
 };
 
 export default function HailDamageRepairAmarilloPage() {

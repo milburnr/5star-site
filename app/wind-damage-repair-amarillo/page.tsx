@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-amarillo/' },
   title: 'Wind Damage Repair Amarillo TX | 5 Star Roofing',
-  description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
+  description: "Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
 };
 
 export default function WindDamageRepairAmarilloPage() {

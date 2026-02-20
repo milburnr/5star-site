@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-odessa/' },
   title: 'Residential Roofing Odessa TX | 5 Star Roofing',
-  description: 'Expert residential roofing in Odessa TX. Serving Crestview, Ridgecrest West, and all Ector County working families. Affordable Class 4 shingles for brick ranch homes. Free inspections.',
+  description: "Expert residential roofing in Odessa TX. Serving Crestview, Ridgecrest West, and all Ector County working families. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingOdessaPage() {

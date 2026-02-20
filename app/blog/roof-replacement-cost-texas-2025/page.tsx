@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/roof-replacement-cost-texas-2025/' },
   title: "Roof Replacement Cost in Texas 2025 | 5 Star Roofing",
-  description: 'How much does roof replacement cost in Texas? Complete 2025 pricing guide with average costs by size, material, and location.',
+  description: "How much does roof replacement cost in Texas? Complete 2025 pricing guide with average costs by size, material, and location. Call (806) 622-6041",
 };
 
 export default function RoofReplacementCostBlogPage() {

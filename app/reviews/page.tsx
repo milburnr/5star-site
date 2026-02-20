@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/reviews/' },
   title: 'Customer Reviews | 5 Star Roofing Amarillo',
-  description: 'Read reviews from satisfied customers across West Texas. Call for a free quote!',
+  description: "Read reviews from satisfied 5 Star Roofing customers across West Texas. Hail damage, storm repair, full replacements. Free quote — (806) 622-6041",
 };
 
 export default function Page() {

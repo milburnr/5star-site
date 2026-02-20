@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/best-roofing-materials-texas-2025/' },
   title: "Best Roof Materials for Texas Climate 2025 | 5 Star Roofing",
-  description: 'Complete guide to the best roofing materials for Texas. Compare asphalt shingles, metal roofing, tile, and more for heat, hail, and wind resistance.',
+  description: "Complete guide to the best roofing materials for Texas. Compare asphalt shingles, metal roofing, tile, and more for heat, hail. Call (806) 622-6041",
 };
 
 export default function BestRoofingMaterialsTexasPage() {

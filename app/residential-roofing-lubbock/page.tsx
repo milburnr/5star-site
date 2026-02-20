@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-lubbock/' },
   title: 'Residential Roofing Lubbock TX | 5 Star Roofing',
-  description: 'Expert residential roofing in Lubbock TX. Serving Tech Terrace, Raider Ranch, and all Texas Tech area neighborhoods. Class 4 impact-resistant shingles for South Plains weather. Free inspections.',
+  description: "Expert residential roofing in Lubbock TX. Serving Tech Terrace, Raider Ranch, and all Texas Tech area neighborhoods. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingLubbockPage() {

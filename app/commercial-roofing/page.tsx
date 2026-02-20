@@ -6,7 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing/' },
   title: 'Commercial Roof Amarillo TX | 5 Star Roofing',
-  description: 'commercial roofing in Amarillo. TPO, PVC, EPDM, and built-up roofing systems. Call for a free quote!',
+  description: "Commercial roofing in Amarillo. TPO, PVC, EPDM, and built-up roofing systems. Call for a free quote!",
 };
 
 export default function Page() {

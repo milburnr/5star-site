@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock/' },
   title: 'Commercial Roofing Lubbock TX | 5 Star Roofing',
-  description: 'Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041',
+  description: "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
 };
 
 export default function CommercialRoofingLubbockPage() {

@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hereford-texas-roofing/' },
   title: 'Roofing Hereford TX | Hail Damage | 5 Star Roofing',
-  description: 'roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.',
+  description: "Roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.",
 };
 
 const localBusinessSchema = {

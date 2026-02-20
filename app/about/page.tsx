@@ -7,7 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/about/' },
   title: 'About 5 Star Roofing | West Texas Roofers',
-  description: 'Over 10 years serving Amarillo, Midland, Odessa and West Texas. Call for a free quote!',
+  description: "Over 10 years serving Amarillo, Midland, Odessa and West Texas. Call for a free quote!",
 };
 
 export default function Page() {

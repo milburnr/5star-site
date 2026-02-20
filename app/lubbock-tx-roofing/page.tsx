@@ -8,7 +8,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/lubbock-tx-roofing/' },
   title: 'Roofing in Lubbock TX | 5 Star Roofing',
-  description: 'roofing in Lubbock. South Plains weather experts. Residential and commercial services. Lubbock experiences 6-8 hailstorms annually.',
+  description: "Roofing in Lubbock. South Plains weather experts. Residential and commercial services. Lubbock experiences 6-8 hailstorms annually. Call (806) 622-6041",
 };
 
 export default function LubbockRoofingPage() {

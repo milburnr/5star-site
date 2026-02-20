@@ -10,7 +10,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-lubbock/' },
   title: 'Asphalt Shingle Roofing Lubbock TX | 5 Star Roofing',
-  description: "Professional asphalt shingle installation in Lubbock TX. Wind-rated systems for South Plains weather. Class 4 hail protection. 25-year warranties. Call (806) 622-6041",
+  description: "Professional asphalt shingle installation in Lubbock TX. Wind-rated systems for South Plains weather. Class 4 hail protection. Call (806) 622-6041",
 };
 
 export default function AsphaltShingleRoofingLubbockPage() {

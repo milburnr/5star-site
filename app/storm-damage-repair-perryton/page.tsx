@@ -14,7 +14,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-perryton/' },
   title: 'Storm Damage Roof Repair Perryton TX | 5 Star Roofing',
-  description: 'Storm Damage Repair in Perryton, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
+  description: "Storm Damage Repair in Perryton, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
 };
 
 export default function StormDamageRepairPerrytonPage() {

@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/borger-texas-roofing/' },
   title: 'Roofing Borger TX | Hail Damage Specialists | 5 Star Roofing',
-  description: 'roofing services in Borger, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hutchinson County. Free inspections available.',
+  description: "Roofing services in Borger, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hutchinson County. Free inspections available.",
 };
 
 export default function BorgerRoofingPage() {

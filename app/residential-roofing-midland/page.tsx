@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-midland/' },
   title: 'Residential Roofing Midland TX | 5 Star Roofing',
-  description: 'Expert residential roofing in Midland TX. Serving Grassland Estates, Saddle Club, and all Permian Basin neighborhoods. Premium Class 4 shingles for energy executive homes. Free inspections.',
+  description: "Expert residential roofing in Midland TX. Serving Grassland Estates, Saddle Club, and all Permian Basin neighborhoods. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingMidlandPage() {

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   keywords: "Odessa roofing, Odessa roofer, roofing contractor Odessa TX, hail damage Odessa, metal roofing Odessa, commercial roofing Odessa",
   openGraph: {
     title: "Roofing Contractor Odessa TX | 5 Star Roofing",
-    description: "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing, .",
+    description: "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing. Call (806) 622-6041",
     type: "website",
     locale: "en_US",
   },

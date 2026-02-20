@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/' },
   title: 'PVC Roofing Amarillo TX | Commercial | 5 Star Roofing',
-  description: 'PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Commercial roofing specialists.',
+  description: "PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Call (806) 622-6041",
 };
 
 export default function Page() {

@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-levelland/' },
   title: 'Roof Inspections Levelland TX | 5 Star Roofing',
-  description: "Expert roof inspections in Levelland TX. South Plains experiences 7-10 severe hailstorms annually. Complete storm damage assessment and insurance documentation. Free inspections for Hockley County. Call (806) 622-6041",
+  description: "Expert roof inspections in Levelland TX. South Plains experiences 7-10 severe hailstorms annually. Call (806) 622-6041",
 };
 
 export default function RoofInspectionsLevellandPage() {

@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pampa-texas-roofing/' },
   title: 'Roofing Pampa, TX | Hail Damage Specialists | 5 Star Roofing',
-  description: 'roofing services in Pampa, Texas Panhandle. Commercial, residential, and storm roofing. Serving Gray County. Free inspections available.',
+  description: "Roofing services in Pampa, Texas Panhandle. Commercial, residential, and storm roofing. Serving Gray County. Free inspections available.",
 };
 
 export default function PampaRoofingPage() {

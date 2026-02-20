@@ -10,7 +10,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-amarillo/' },
   title: 'Asphalt Shingle Roofing Amarillo TX | 5 Star Roofing',
-  description: "Expert asphalt shingle roofing in Amarillo TX. Specializing in Class 4 impact-resistant shingles for Texas Panhandle weather. 30-year warranties. Free inspections. Call (806) 622-6041",
+  description: "Expert asphalt shingle roofing in Amarillo TX. Specializing in Class 4 impact-resistant shingles for Texas Panhandle weather. Call (806) 622-6041",
 };
 
 export default function AsphaltShingleRoofingAmarilloPage() {

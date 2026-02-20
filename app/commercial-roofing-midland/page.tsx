@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-midland/' },
   title: 'Commercial Roofing Midland TX | 5 Star Roofing',
-  description: 'Expert commercial roofing for Midland TX oil industry. TPO, EPDM, metal roofing for energy headquarters, office buildings, industrial facilities. service. Call (806) 622-6041',
+  description: "Expert commercial roofing for Midland TX oil industry. TPO, EPDM, metal roofing for energy headquarters, office buildings. Call (806) 622-6041",
 };
 
 export default function CommercialRoofingMidlandPage() {

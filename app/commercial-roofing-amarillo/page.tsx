@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo/' },
   title: 'Commercial Roofing Amarillo TX | 5 Star Roofing',
-  description: 'Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
+  description: "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
 };
 
 export default function CommercialRoofingAmarilloPage() {

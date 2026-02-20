@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/' },
   title: 'Emergency Rain Damage Roof Repair Amarillo | 5 Star Roofing',
-  description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
+  description: "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
 };
 
 const serviceSchema = {

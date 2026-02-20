@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-texas-roofing/' },
   title: 'Amarillo Texas Roofing | 5 Star Roofing',
-  description: 'Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.',
+  description: "Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.",
 };
 
 export default function AmarilloRoofingPage() {

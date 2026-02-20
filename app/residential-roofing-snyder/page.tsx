@@ -10,7 +10,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-snyder/' },
   title: 'Residential Roofing Snyder TX | 5 Star Roofing',
-  description: "Premier residential roofing services in Snyder TX and Scurry County. Rolling Plains weather specialists, oil industry housing experts, Western Texas College area services. Licensed, bonded, insured. Free estimates, comprehensive warranties, insurance claims assistance.",
+  description: "Premier residential roofing services in Snyder TX and Scurry County. Rolling Plains weather specialists, oil industry housing experts. Call (806) 622-6041",
 };
 
 export default function ResidentialRoofingSnyderPage() {

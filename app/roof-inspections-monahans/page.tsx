@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-monahans/' },
   title: 'Roof Inspections Monahans TX | 5 Star Roofing',
-  description: "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 severe hailstorms annually. Complete insurance documentation and storm damage assessment. Free inspections for Ward County. Call (806) 622-6041",
+  description: "Professional roof inspections in Monahans TX. Permian Basin experiences 6-8 severe hailstorms annually. Call (806) 622-6041",
 };
 
 export default function RoofInspectionsMonahansPage() {
