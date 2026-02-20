@@ -9,28 +9,28 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 
 ## Current Position
 
-Phase: 1 of 10 (Compliance & Entity Fixes)
-Plan: 1 of 2 in current phase
-Status: Executing
-Last activity: 2026-02-20 — Completed 01-01 AggregateRating removal (212 pages cleaned)
+Phase: 1 of 10 (Compliance & Entity Fixes) -- COMPLETE
+Plan: 2 of 2 in current phase -- COMPLETE
+Status: Phase Complete
+Last activity: 2026-02-20 — Completed 01-02 NAP standardization (232 pages fixed)
 
-Progress: [▓░░░░░░░░░] 3%
+Progress: [▓▓░░░░░░░░] 7%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 8min
-- Total execution time: 0.13 hours
+- Total plans completed: 2
+- Average duration: 7.5min
+- Total execution time: 0.25 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-compliance-entity-fixes | 1 | 8min | 8min |
+| 01-compliance-entity-fixes | 2 | 15min | 7.5min |
 
 **Recent Trend:**
-- Last 5 plans: 8min
+- Last 5 plans: 8min, 7min
 - Trend: -
 
 *Updated after each plan completion*
@@ -47,6 +47,8 @@ Recent decisions affecting current work:
 - [Roadmap]: TECH requirements assigned to Phase 10 as final validation gate, though build verification happens informally every phase
 - [01-01]: Removed AggregateRating from reviews page too -- 500 claimed reviews vs ~12 visible testimonials is still fabricated
 - [01-01]: Cleaned fix-seo-gaps.js generator to prevent AggregateRating recontamination on future page creation
+- [01-02]: Blog/Gallery schema name fields kept as-is (describe page entities, not business entity)
+- [01-02]: Script targets only schema property contexts to avoid modifying meta titles or text content
 
 ### Pending Todos
 
@@ -61,5 +63,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 01-01-PLAN.md (AggregateRating removal)
+Stopped at: Completed 01-02-PLAN.md (NAP standardization) -- Phase 1 complete
 Resume file: None
