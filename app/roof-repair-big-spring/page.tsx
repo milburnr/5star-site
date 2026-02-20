@@ -40,9 +40,9 @@ export default function RoofRepairBigSpringPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-big-spring/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofRepairBigSpringPage() {
             "@type": "Service",
             "serviceType": "Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,62 @@ export default function RoofRepairBigSpringPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "What makes Big Spring's weather so damaging to roofs?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Big Spring sits at a unique weather intersection where dry air from the west meets moisture from the Gulf of Mexico. This collision creates supercell thunderstorms with rotating updrafts that produce large hail, tornadoes, and destructive winds. The city's elevation and open terrain amplify these effects, making it one of Texas's most challenging environments for roofing systems."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How often should Big Spring roofs be inspected?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We recommend biannual inspections for Big Spring properties - once before storm season (February) and once after (September). Given the intensity of local weather events, post-storm inspections are also crucial. Many insurance policies require prompt reporting of storm damage, so regular inspections help identify issues before they become major problems."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do you offer storm damage roof repair services in Big Spring?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, we provide prompt response throughout Howard County. Our our team typically responds within 2-3 hours for urgent calls. We understand that Big Spring storms can cause sudden, severe damage requiring immediate attention to prevent water intrusion and further structural damage to your property."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What roofing materials work best in Big Spring's climate?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "For Big Spring, we recommend Class 4 impact-resistant shingles, standing seam metal roofing with enhanced wind ratings, and modified TPO systems for commercial properties. These materials are specifically designed to withstand large hail, high winds, and extreme temperature fluctuations. We avoid materials that perform poorly in rapid freeze-thaw cycles or intense UV exposure."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you handle insurance claims for Big Spring storm damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We have extensive experience with Howard County storm damage claims and work directly with all major insurance companies. Our team documents damage thoroughly, provides detailed estimates, and can represent your interests during adjuster meetings. We understand the specific requirements for West Texas weather-related claims and help ensure fair settlements."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What warranties do you provide on Big Spring roof repairs?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We provide comprehensive warranty protection: 10-year workmanship warranty, manufacturer material warranties (typically 20-30 years), and specific storm damage guarantees. Our warranties are designed to provide confidence that repairs will withstand Big Spring's severe weather patterns, and we stand behind our work with responsive service throughout the warranty period."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

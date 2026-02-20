@@ -40,9 +40,9 @@ export default function StormDamageRepairAndrewsPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/storm-damage-repair-andrews/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function StormDamageRepairAndrewsPage() {
             "@type": "Service",
             "serviceType": "Storm Damage Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,46 @@ export default function StormDamageRepairAndrewsPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "What makes Andrews particularly vulnerable to storm damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Andrews sits in the heart of \"Hail Alley,\" where warm, moist air from the Gulf of Mexico collides with cool, dry air masses from Canada. The flat terrain provides no natural windbreaks, allowing storms to intensify rapidly. The Permian Basin's elevation and geographic position create ideal conditions for supercell thunderstorm development, particularly during spring and early summer months. Additionally, the extreme temperature variations throughout the year weaken roofing materials over time, making them more susceptible to storm damage when severe weather strikes."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How quickly should I address storm damage in Andrews?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Storm damage should be addressed immediately in Andrews due to the region's weather patterns. Even minor damage can quickly worsen during the next storm event, which typically occurs within weeks during active weather seasons. The intense summer heat can cause compromised roofing materials to deteriorate rapidly, while sudden temperature drops can cause expansion and contraction that worsens existing damage. Most insurance companies require prompt action to maintain coverage, typically within 30-60 days of the storm event. Our prompt response ensures temporary protection while permanent repairs are scheduled."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What roofing systems work best for Andrews' climate?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "For Andrews' extreme climate conditions, we recommend impact-resistant materials designed for both hail resistance and thermal stability. Modified bitumen systems with mineral surfacing provide excellent hail resistance and UV protection. Metal roofing systems with proper thermal expansion joints handle temperature extremes well while resisting wind uplift. For commercial applications, thermoplastic membranes (TPO/PVC) offer superior weatherability and energy efficiency. All systems should include enhanced fastening patterns and reinforced flashing details to withstand the high winds common in this region. We customize our recommendations based on your building's specific exposure and use requirements."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How does 5 Star Commercial Roofing handle insurance claims?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Our storm damage restoration process includes full insurance claim assistance from start to finish. We provide detailed photo documentation, written damage assessments, and meet with insurance adjusters on-site to ensure all damage is properly identified and covered. Our estimates are prepared using industry-standard pricing databases that insurance companies recognize and accept. We maintain relationships with major insurance carriers serving the Andrews area and understand their specific requirements and processes. If coverage disputes arise, we provide additional documentation and expert testimony to support legitimate claims. Our goal is to restore your property while maximizing your insurance benefits and minimizing your out-of-pocket expenses."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

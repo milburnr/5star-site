@@ -35,9 +35,9 @@ export default function CommercialRoofingMidlandPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/commercial-roofing-midland/#localbusiness",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "image": "https://5starroofingpros.com/images/CommercialRoofing.jpeg",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
@@ -87,8 +87,8 @@ export default function CommercialRoofingMidlandPage() {
             "name": "Commercial Roofing in Midland",
             "description": "Professional commercial roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

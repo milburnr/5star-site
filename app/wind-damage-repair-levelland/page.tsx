@@ -40,9 +40,9 @@ export default function WindDamageRepairLevellandPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-levelland/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function WindDamageRepairLevellandPage() {
             "@type": "Service",
             "serviceType": "Wind Damage Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,62 @@ export default function WindDamageRepairLevellandPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How quickly can you respond to wind damage emergencies in Levelland?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We maintain prompt response capabilities for Hockley County properties. Our rapid response team can typically arrive within 2-4 hours of your call to provide tarping, secure loose materials, and prevent further damage. We understand that South Plains wind events can cause widespread damage requiring immediate attention."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Does homeowner's insurance typically cover wind damage repairs?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Most property insurance policies cover wind damage as a covered peril. However, coverage details vary by policy and insurance company. We work with all major insurance carriers and help document damage to maximize your claim settlement. Our experience with local wind patterns helps ensure adjusters understand the scope of typical South Plains wind damage."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can repairs include upgrades to prevent future wind damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Absolutely. When repairing wind damage, we often recommend and can implement upgrades like enhanced fastening patterns, reinforced edge details, and improved flashing systems. These upgrades can qualify for insurance discounts and significantly improve your roof's resistance to future wind events common in the Texas Panhandle."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What temporary repairs can protect my building until permanent repairs?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Temporary repairs include professional tarping, securing loose materials, temporary flashing installation, and prompt leak repairs. These measures protect your property from further damage while insurance claims are processed and permanent repair materials are ordered. All temporary work is credited toward final repair costs."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How long do wind damage repairs typically take?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Repair timelines depend on damage extent and material availability. Minor repairs can often be completed in 1-2 days, while major wind damage requiring membrane replacement may take 1-2 weeks. We prioritize structural stabilization immediately and provide detailed timelines once the full scope of damage is assessed."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you ensure wind damage repairs will withstand future storms?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Our repairs exceed manufacturer specifications for South Plains wind conditions. We use upgraded fastening patterns, high-wind-rated materials, and enhanced attachment methods. All repairs undergo rigorous quality testing including pull tests on fasteners and comprehensive final inspections before completion."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

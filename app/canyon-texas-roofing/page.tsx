@@ -15,7 +15,7 @@ export default function CanyonRoofingPage() {
     "@context": "https://schema.org",
     "@type": ["RoofingContractor", "LocalBusiness"],
     "@id": "https://5starroofingpros.com/canyon-texas-roofing/#localBusiness",
-    "name": "5 Star Commercial Roofing",
+    "name": "5 Star Roofing",
     "alternateName": "5 Star Roofing Canyon TX",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
     "description": "Professional roofing contractor serving Canyon, Texas and Randall County with commercial, residential, emergency roofing, and specialized educational facility and museum roofing solutions.",

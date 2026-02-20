@@ -437,7 +437,7 @@ export default function DumasRoofingPage() {
         "@context": "https://schema.org",
         "@type": ["RoofingContractor", "LocalBusiness"],
         "@id": "https://5starroofingpros.com/dumas-texas-roofing/#localBusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "alternateName": "5 Star Roofing Dumas TX",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
         "description": "Professional roofing contractor serving Dumas, Texas and Moore County with agricultural, residential, commercial roofing and specialized feedlot and grain storage facility roofing solutions.",

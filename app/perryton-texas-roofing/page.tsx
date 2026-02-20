@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 export default function PerrytonRoofingPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "RoofingContractor",
+    "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-    "name": "5 Star Commercial Roofing",
+    "name": "5 Star Roofing",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
     "description": "Professional roofing contractor serving Perryton, Texas and Ochiltree County with commercial, residential, and professional roofing services.",
     "telephone": "(806) 622-6041",

@@ -27,9 +27,9 @@ export default function TPORoofingMidlandPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/tpo-roofing-midland/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/TPO1.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -53,8 +53,8 @@ export default function TPORoofingMidlandPage() {
             "name": "TPO Roofing in Midland",
             "description": "Professional tpo roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

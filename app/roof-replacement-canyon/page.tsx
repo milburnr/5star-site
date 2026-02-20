@@ -27,9 +27,9 @@ export default function RoofReplacementCanyonPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-replacement-canyon/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
         "image": "https://5starroofingpros.com/images/residential-roofing-5.jpeg",
         "telephone": "(806) 622-6041",
@@ -53,8 +53,8 @@ export default function RoofReplacementCanyonPage() {
             "name": "Roof Replacement in Canyon",
             "description": "Professional roof replacement services in Canyon, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

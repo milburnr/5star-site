@@ -14,8 +14,8 @@ export default function Page() {
     "@type": "Service",
     "serviceType": "Roofing Installation Methods",
     "provider": {
-      "@type": "RoofingContractor",
-      "name": "5 Star Commercial Roofing",
+      "@type": ["LocalBusiness", "RoofingContractor"],
+      "name": "5 Star Roofing",
       "telephone": "(806) 622-6041",
       "email": "admin@5starroofingpros.com",
       "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},

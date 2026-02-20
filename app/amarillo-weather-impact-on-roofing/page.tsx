@@ -27,9 +27,9 @@ export default function Page() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/amarillo-weather-impact-on-roofing/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -53,8 +53,8 @@ export default function Page() {
             "name": "Roofing Services in Amarillo",
             "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },
@@ -88,11 +88,11 @@ export default function Page() {
             "dateModified": "2024-01-15",
             "author": {
               "@type": "Organization",
-              "name": "5 Star Commercial Roofing"
+              "name": "5 Star Roofing"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",

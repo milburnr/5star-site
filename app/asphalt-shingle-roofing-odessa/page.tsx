@@ -27,9 +27,9 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-odessa/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/asphalt-shingles-2.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",

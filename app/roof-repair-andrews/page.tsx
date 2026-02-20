@@ -40,9 +40,9 @@ export default function RoofRepairAndrewsPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-andrews/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofRepairAndrewsPage() {
             "@type": "Service",
             "serviceType": "Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,62 @@ export default function RoofRepairAndrewsPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How quickly can you respond to roof emergencies in Andrews?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We provide prompt response for Andrews County. Our team typically arrives within 2-4 hours for service calls, with temporary repairs completed the same day when weather permits. We understand that Permian Basin storms can cause sudden, severe damage that requires immediate attention to prevent further property damage."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What types of hail damage do you repair most often in Andrews?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "In Andrews, we most commonly repair granule loss on asphalt shingles, cracked or broken tiles, damaged flashing around chimneys and vents, and dented gutters and downspouts. The Permian Basin's frequent hailstorms create impact patterns we've learned to identify and repair efficiently. We also repair damage to HVAC equipment, skylights, and other roof-mounted systems."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do you work with insurance companies for Andrews storm damage claims?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Absolutely. We have extensive experience working with all major insurance companies on Andrews County storm damage claims. Our team can document damage, provide detailed estimates, and work directly with adjusters to ensure fair settlements. We understand the specific documentation requirements for Permian Basin weather-related claims and can help navigate the process efficiently."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What makes Andrews weather particularly challenging for roofs?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Andrews' location in the Permian Basin creates a unique combination of challenges: frequent large hail from supercell thunderstorms, sustained high winds from the open terrain, extreme temperature fluctuations that stress materials, intense UV radiation at 3,176 feet elevation, and dust storms that can damage roof components. These factors combine to age roofing materials faster than in more moderate climates."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you match existing roofing materials for Andrews area homes?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We maintain extensive records of roofing materials used throughout Andrews and stock commonly used products specific to the area. For older homes, especially those built during Andrews' oil boom periods, we work with specialized suppliers to source matching materials. When exact matches aren't available, we provide options that complement existing materials while often upgrading performance characteristics."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What warranty do you provide on repairs in Andrews?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We provide comprehensive warranties on all Andrews roof repairs: 10-year warranty on workmanship, manufacturer warranties on materials (typically 20-30 years), and specific storm damage protection guarantees. Given Andrews' harsh weather conditions, our warranties are designed to provide confidence that repairs will hold up to Permian Basin weather patterns."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

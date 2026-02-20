@@ -27,9 +27,9 @@ export default function RoofInspectionsOdessaPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-odessa/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/roof-inspection-2.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -53,8 +53,8 @@ export default function RoofInspectionsOdessaPage() {
             "name": "Roof Inspections in Odessa",
             "description": "Professional roof inspections services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

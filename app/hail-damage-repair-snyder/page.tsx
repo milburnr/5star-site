@@ -27,9 +27,9 @@ export default function HailDamageRepairSnyderPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-snyder/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
         "image": "https://5starroofingpros.com/images/hail-damage-3.jpg",
         "telephone": "(806) 622-6041",
@@ -53,8 +53,8 @@ export default function HailDamageRepairSnyderPage() {
             "name": "Hail Damage Repair in Snyder",
             "description": "Professional hail damage repair services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

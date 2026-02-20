@@ -40,9 +40,9 @@ export default function StormDamageRepairMonahansPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/storm-damage-repair-monahans/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function StormDamageRepairMonahansPage() {
             "@type": "Service",
             "serviceType": "Storm Damage Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,46 @@ export default function StormDamageRepairMonahansPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "Why is Monahans particularly challenging for roofing systems?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Monahans presents a unique combination of extreme environmental stresses that few other locations experience simultaneously. The desert climate creates intense UV exposure and temperature swings of 45-60°F daily, while the Permian Basin's position in the storm track brings severe hail and wind events. Constant sand erosion from West Texas winds accelerates material degradation, while the low humidity environment causes rapid moisture cycling that stresses roofing materials. Additionally, the area's industrial activity from oil and gas operations creates additional exposure to chemicals and impacts that further challenge roofing systems."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How does the oil field environment affect roofing in Monahans?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "The Permian Basin's oil and gas activity creates several unique challenges for roofing systems. Chemical exposure from hydrocarbon vapors and processing byproducts can accelerate deterioration of certain roofing materials. Heavy industrial traffic generates vibrations that can affect roof membrane integrity over time. The presence of critical infrastructure means that roof failures can have significant operational and environmental consequences, requiring higher standards for materials and installation. Additionally, the nature of energy operations demands roofing solutions that minimize maintenance disruption and provide reliable long-term performance in this harsh environment."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What roofing materials work best in the Permian Basin climate?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "For Monahans' extreme environment, we recommend modified bitumen systems with heavy mineral surfacing for maximum UV and thermal protection. Thermoplastic membranes (TPO/PVC) with enhanced UV stabilizers and higher mil thickness provide excellent chemical resistance and durability. Metal roofing systems with specialized coatings handle thermal cycling well while resisting sand erosion. All systems require enhanced fastening for high wind resistance and specialized flashing details to handle extreme thermal movement. We also recommend regular inspection and maintenance schedules to address the accelerated aging that occurs in this challenging environment."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you handle storm repairs in remote Permian Basin locations?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We maintain strategic material stockpiles and mobile repair equipment specifically for Permian Basin operations. Our storm response protocol includes immediate temporary weatherization to protect critical operations, followed by comprehensive permanent repairs. We understand that many facilities in the Monahans area operate around the clock and cannot afford extended downtime. Our crews are experienced in working around active industrial operations while maintaining safety standards. We also coordinate with facility management to schedule repairs during planned maintenance windows when possible, minimizing operational disruption while ensuring thorough restoration of damaged roofing systems."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

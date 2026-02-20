@@ -40,9 +40,9 @@ export default function RoofRepairSnyderPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-snyder/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofRepairSnyderPage() {
             "@type": "Service",
             "serviceType": "Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
               "telephone": "(806) 622-6041",
               "address": {
@@ -103,6 +103,62 @@ export default function RoofRepairSnyderPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How do West Texas winds affect roofing in Snyder?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Snyder's open terrain creates sustained high winds that constantly test roofing systems. Unlike occasional gusts, these persistent winds gradually work fasteners loose and lift shingles over time. We use enhanced fastening patterns and wind-rated materials specifically designed for West Texas exposure to ensure long-term performance in these challenging conditions."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What makes agricultural buildings different for roofing?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Agricultural buildings face unique challenges including large spans without interior support, exposure to dust and chemicals, livestock considerations, and cost-effectiveness requirements. We specialize in practical solutions that provide durability while meeting the specific functional needs of working agricultural properties."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How does cotton farming affect nearby roof systems?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Cotton farming operations create seasonal dust during harvest, require chemical applications that can affect roofing materials, and generate agricultural traffic that impacts access roads. Properties within 1-2 miles of cotton fields need enhanced gutter protection, more frequent cleaning, and materials resistant to agricultural chemical exposure."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What permits are required for agricultural building repairs in Scurry County?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Agricultural buildings under 5,000 sq ft typically don't require permits for basic roof repairs. Larger facilities, structural modifications, or buildings housing livestock may require county permits. Commercial agricultural operations processing food products need additional health department approvals. We handle all required documentation."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "When is the best time to schedule agricultural roof work?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Fall through early spring (October-March) offers the most stable weather and doesn't interfere with planting or harvest seasons. Avoid cotton harvest period (September-October) when agricultural operations are at peak activity. storm repairs are available year-round, but planned projects should consider agricultural schedules."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do insurance claims work for agricultural properties?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Agricultural properties often have different coverage types for residential dwellings versus outbuildings and equipment storage. Livestock facilities may have special coverage requirements. We work with agricultural insurance specialists to document damage properly and ensure all covered structures are included in claims processing."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

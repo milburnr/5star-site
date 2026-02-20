@@ -40,9 +40,9 @@ export default function WindDamageRepairMonahansPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-monahans/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function WindDamageRepairMonahansPage() {
             "@type": "Service",
             "serviceType": "Wind Damage Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,62 @@ export default function WindDamageRepairMonahansPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How do you handle wind damage emergencies at industrial facilities?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Our industrial storm response team is available with specialized equipment for oil and gas facilities. We maintain safety certifications for industrial work and can coordinate with facility safety managers to provide immediate repairs while maintaining operational safety protocols."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What makes microburst wind damage different from regular storm damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Microburst damage is typically more severe and concentrated than regular storm damage. The straight-down wind flow creates unique damage patterns including crushed equipment, compressed membranes, and structural deformation. Repairs must address not only surface damage but also underlying structural impacts from intense downward pressure."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you repair damage from Permian Basin dust storms?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Dust storm repairs address both wind damage and sand infiltration. We perform thorough cleaning to remove abrasive particles, assess membrane integrity, and seal all penetration points. Special attention is paid to HVAC systems and drainage areas where sand accumulation can cause ongoing problems."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do industrial wind damage repairs qualify for business interruption coverage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Many industrial policies include business interruption coverage for wind damage. We work with commercial insurance adjusters who understand industrial operations and can document both property damage and operational impacts. Our detailed assessments help support business interruption claims when applicable."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can wind damage repairs include upgrades to prevent future damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, we often recommend and implement upgrades during repairs including enhanced fastening systems, reinforced membrane specifications, and improved edge details. These upgrades are particularly important for industrial facilities where downtime costs can exceed repair costs significantly."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can you repair wind damage at remote Permian Basin locations?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Absolutely. Our mobile repair units are equipped for remote operations throughout Ward County and the Permian Basin. We coordinate material delivery, equipment transport, and logistics for facilities in remote locations, ensuring the same quality repairs regardless of accessibility challenges."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

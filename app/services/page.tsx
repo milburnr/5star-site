@@ -79,8 +79,8 @@ export default function Page() {
       }
     ],
     "provider": {
-      "@type": "RoofingContractor",
-      "name": "5 Star Commercial Roofing",
+      "@type": ["LocalBusiness", "RoofingContractor"],
+      "name": "5 Star Roofing",
       "telephone": "(806) 622-6041",
       "address": {
         "@type": "PostalAddress",

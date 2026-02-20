@@ -40,9 +40,9 @@ export default function StormDamageRepairSnyderPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/storm-damage-repair-snyder/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function StormDamageRepairSnyderPage() {
             "@type": "Service",
             "serviceType": "Storm Damage Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -102,6 +102,46 @@ export default function StormDamageRepairSnyderPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "What makes Snyder's storm damage patterns unique in West Texas?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Snyder's position in the Colorado River valley creates unique atmospheric dynamics that intensify severe weather. The varied topography of the Rolling Plains causes air masses to converge and strengthen as they approach the city, while the river valley acts as a natural channel that focuses and accelerates wind speeds during storm events. This terrain-driven intensification means that storms often become more severe as they reach Snyder, creating damage patterns that can be more extensive than in surrounding flat areas. The combination of elevation changes and valley channeling makes Snyder particularly vulnerable to both hail formation and wind damage."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you handle the high frequency of storm events in Snyder?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Snyder's 7-9 annual hailstorms require a strategic approach to storm damage restoration. We maintain dedicated crews and material stockpiles specifically for the Scurry County area during peak storm season (April-July). Our process prioritizes structural stabilization to prevent further damage, followed by comprehensive assessment and systematic restoration. We work closely with local insurance adjusters who understand Snyder's unique storm patterns and maintain relationships with Western Texas College and other major institutions to ensure rapid response capability. Our goal is to complete most residential repairs within 2-3 weeks and commercial projects within 4-6 weeks, depending on damage severity."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What roofing systems are most effective for Snyder's varied weather challenges?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "For Snyder's combination of severe hail, high winds, and occasional flooding, we recommend Class 4 impact-resistant systems with enhanced drainage capabilities. Modified bitumen with heavy aggregate surfacing provides excellent hail protection and UV resistance. Metal roofing with impact-resistant coatings handles both hail and wind effectively while offering superior drainage performance. For commercial applications, reinforced membrane systems with enhanced fastening patterns and properly designed drainage slopes are essential. All systems should include upgraded gutters and downspouts sized for the area's potential for heavy rainfall and rapid runoff."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you coordinate with insurance companies familiar with Snyder's storm history?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We maintain strong relationships with insurance carriers who regularly handle claims in the Snyder area and understand the city's severe weather patterns. Our documentation process includes detailed photo evidence, drone surveys for large properties, and written reports that clearly identify storm-related damage versus normal wear. We provide historical weather data and expert testimony when needed to support legitimate claims. Our estimates are prepared using industry-standard databases that insurance companies recognize, and we participate in post-storm meetups with adjusters to streamline the claims process for our customers. This collaborative approach helps maximize insurance benefits while minimizing delays in the restoration process."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

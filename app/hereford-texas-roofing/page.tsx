@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
+  "@type": ["LocalBusiness", "RoofingContractor"],
   "@id": "https://5starcommercialroofing.com/hereford-texas-roofing/",
-  "name": "5 Star Commercial Roofing",
+  "name": "5 Star Roofing",
   "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
   "telephone": "(806) 622-6041",
   "address": {

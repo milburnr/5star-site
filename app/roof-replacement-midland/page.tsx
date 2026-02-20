@@ -35,9 +35,9 @@ export default function RoofReplacementMidlandPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/roof-replacement-midland/#localbusiness",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/images/residential-roofing-5.jpeg",
             "telephone": "(806) 622-6041",
@@ -87,8 +87,8 @@ export default function RoofReplacementMidlandPage() {
             "name": "Roof Replacement in Midland",
             "description": "Professional roof replacement services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

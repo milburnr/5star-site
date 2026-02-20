@@ -454,9 +454,9 @@ export default function BushlandRoofingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/bushland-tx-roofing/",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Bushland, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",

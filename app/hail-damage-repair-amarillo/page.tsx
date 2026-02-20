@@ -35,9 +35,9 @@ export default function HailDamageRepairAmarilloPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo/#localbusiness",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/images/hail-damage-3.jpg",
             "telephone": "(806) 622-6041",
@@ -87,8 +87,8 @@ export default function HailDamageRepairAmarilloPage() {
             "name": "Hail Damage Roof Repair in Amarillo",
             "description": "Professional hail damage repair services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

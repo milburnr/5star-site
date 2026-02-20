@@ -40,9 +40,9 @@ export default function WindDamageRepairSnyderPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-snyder/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function WindDamageRepairSnyderPage() {
             "@type": "Service",
             "serviceType": "Wind Damage Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -102,6 +102,62 @@ export default function WindDamageRepairSnyderPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How quickly can you respond to supercell wind damage in Snyder?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We maintain rapid response capabilities specifically for West Texas supercell events. Our our team can typically respond within 2-3 hours of storm passage to provide immediate stabilization, tarping, and damage assessment. We monitor weather radar during severe weather events to prepare for immediate deployment."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do you repair damage from rotating supercell winds?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Rotating supercell damage requires specialized repair techniques due to multi-directional stress patterns. We analyze the rotation direction and wind shear patterns to understand stress vectors, then design repairs that reinforce against future rotating winds. This often includes upgraded fastening in multiple directions and enhanced corner reinforcement."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can you repair wind damage without disrupting agricultural operations?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Absolutely. We specialize in agricultural property repairs that maintain operational continuity. Our scheduling accommodates harvest seasons, livestock care requirements, and equipment storage needs. We often work in phases to keep portions of buildings operational while repairs are completed."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Does Snyder's elevation affect wind damage repair requirements?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, Snyder's elevation on the Rolling Plains creates unique wind acceleration effects that we account for in repairs. The higher elevation also means greater temperature extremes and UV exposure, requiring enhanced material specifications. Our repairs use altitude-appropriate materials and fastening patterns."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What's the best time for wind damage repairs in West Texas?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "While storm repairs happen year-round, comprehensive repairs are best scheduled outside peak storm season (April-June) when possible. Fall and winter provide calmer conditions for major repairs. However, we maintain full repair capabilities throughout storm season with weather monitoring and flexible scheduling."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can repairs include systems to prevent future supercell damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, we implement advanced prevention systems including enhanced edge details, vortex-shedding roof modifications, and improved drainage systems designed for extreme wind events. These upgrades often qualify for insurance discounts and significantly improve your building's resistance to future supercell storms."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

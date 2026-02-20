@@ -15,11 +15,11 @@ export default function Page() {
     "headline": "Budgeting for Roof Replacement Expenses",
     "author": {
       "@type": "Organization",
-      "name": "5 Star Commercial Roofing"
+      "name": "5 Star Roofing"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "5 Star Commercial Roofing",
+      "name": "5 Star Roofing",
       "logo": {
         "@type": "ImageObject",
         "url": "https://5starroofingpros.com/5-star-with-letters-1.png"

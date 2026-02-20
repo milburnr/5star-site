@@ -714,9 +714,9 @@ export default function OdessaRoofingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/odessa-texas-roofing/",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and prompt services for residential and industrial properties.",

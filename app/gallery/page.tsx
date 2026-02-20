@@ -231,8 +231,8 @@ export default function GalleryPage() {
         "name": "5 Star Commercial Roofing Project Gallery",
         "description": "Completed roofing projects in Amarillo, Midland, Odessa, and West Texas",
         "provider": {
-          "@type": "RoofingContractor",
-          "name": "5 Star Commercial Roofing",
+          "@type": ["LocalBusiness", "RoofingContractor"],
+          "name": "5 Star Roofing",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "2909 S Western St",

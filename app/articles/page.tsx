@@ -69,8 +69,8 @@ export default function Page() {
             "name": "Roofing Articles & Local Amarillo Guide",
             "description": "Expert roofing articles and local Amarillo guides from 5 Star Commercial Roofing",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",

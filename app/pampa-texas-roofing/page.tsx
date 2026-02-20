@@ -15,7 +15,7 @@ export default function PampaRoofingPage() {
     "@context": "https://schema.org",
     "@type": ["RoofingContractor", "LocalBusiness"],
     "@id": "https://5starroofingpros.com/pampa-texas-roofing/#localBusiness",
-    "name": "5 Star Commercial Roofing",
+    "name": "5 Star Roofing",
     "alternateName": "5 Star Roofing Pampa TX",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
     "description": "Professional roofing contractor serving Pampa, Texas and Gray County with commercial, residential, emergency roofing, and specialized chemical plant and industrial facility roofing solutions.",

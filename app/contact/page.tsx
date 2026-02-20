@@ -20,8 +20,8 @@ const contactSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "mainEntity": {
-    "@type": "LocalBusiness",
-    "name": "5 Star Commercial Roofing",
+    "@type": ["LocalBusiness", "RoofingContractor"],
+    "name": "5 Star Roofing",
     "image": "https://5starroofingpros.com/images/5-star-with-letters-1.png",
     "@id": "https://5starroofingpros.com",
     "url": "https://5starroofingpros.com",

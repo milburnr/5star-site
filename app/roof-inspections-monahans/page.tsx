@@ -41,9 +41,9 @@ export default function RoofInspectionsMonahansPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-monahans/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofInspectionsMonahansPage() {
             "@type": "Service",
             "serviceType": "Roof Inspections",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,62 @@ export default function RoofInspectionsMonahansPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How do oil field conditions affect roof inspections?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Oil field environments accelerate roof aging through chemical exposure, particulate abrasion, thermal stress, and vibration. Our inspections specifically assess damage from hydrocarbon vapors, hydrogen sulfide, drilling dust, and extreme temperature cycling common in the Permian Basin. We differentiate between environmental wear and storm damage for accurate insurance claims."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What does roof inspection cost in Monahans?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We provide free comprehensive roof inspections for all Monahans and Ward County properties. Our service includes assessment of both storm damage and industrial environmental effects, complete photographic documentation, written reports, and insurance claim support at no charge."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How often does Monahans experience damaging storms?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "The Permian Basin experiences 6-8 significant hailstorms annually, with additional damage from dust storms, high winds, and extreme temperature events. Spring months (March-May) are most active for severe weather, but the harsh desert environment and industrial conditions create year-round stress on roofing systems."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What roofing materials work best in oil field environments?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Permian Basin conditions require materials resistant to chemical exposure, extreme temperatures, and abrasive particles. We recommend enhanced UV-resistant shingles, chemical-resistant flashing, upgraded ventilation systems, and protective coatings. Our inspections include material suitability assessment for harsh industrial environments."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do insurance companies handle claims in industrial areas?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Insurance claims in oil field areas require detailed documentation separating storm damage from environmental wear. We provide comprehensive reports that establish baseline conditions, correlate damage with specific weather events, and demonstrate proper maintenance despite harsh conditions. Our documentation meets industry standards for successful claim resolution."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do you inspect commercial and industrial facilities?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, we specialize in inspecting commercial buildings, industrial facilities, oil field structures, and residential properties throughout the Permian Basin. Our team understands the unique requirements of industrial roofing systems, safety protocols, and environmental compliance issues specific to oil and gas operations."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

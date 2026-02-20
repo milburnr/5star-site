@@ -31,8 +31,8 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "5 Star Commercial Roofing",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "/images/amarillo-roofing-company.jpg",
             "telephone": "(806) 622-6041",
@@ -76,8 +76,8 @@ export default function Page() {
             "name": "Roofing Services in Amarillo",
             "description": "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
             "provider": {
-              "@type": "RoofingContractor",
-              "name": "5 Star Commercial Roofing",
+              "@type": ["LocalBusiness", "RoofingContractor"],
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "@id": "https://5starroofingpros.com/#organization"
             },

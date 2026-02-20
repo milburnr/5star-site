@@ -47,9 +47,9 @@ export default function TPORoofingMonahansPage() {
             "@type": "Service",
             "serviceType": "TPO Roofing",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
               "telephone": "(806) 622-6041",
               "address": {

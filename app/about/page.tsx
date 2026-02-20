@@ -15,7 +15,7 @@ export default function Page() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "5 Star Commercial Roofing",
+    "name": "5 Star Roofing",
     "alternateName": "5 Star Roofing",
     "url": "https://5starroofingpros.com",
     "logo": "https://5starroofingpros.com/logo.png",

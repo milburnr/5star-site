@@ -736,7 +736,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "RoofingContractor",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "name": "5 Star Roofing",
             "image": "https://5starroofingpros.com/logo.png",
             "@id": "https://5starroofingpros.com/#organization",

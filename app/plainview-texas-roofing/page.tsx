@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 export default function PlainviewRoofingPage() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "RoofingContractor",
-    "name": "5 Star Commercial Roofing",
+    "@type": ["LocalBusiness", "RoofingContractor"],
+    "name": "5 Star Roofing",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
     "description": "Professional roofing contractor serving Plainview, Texas and Hale County with commercial, residential, and professional roofing services.",
     "telephone": "(806) 622-6041",

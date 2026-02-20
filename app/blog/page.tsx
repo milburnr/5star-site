@@ -263,7 +263,7 @@ export default function BlogIndexPage() {
         </FadeIn>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Blog","name":"5 Star Commercial Roofing Blog","description":"Expert roofing advice for Texas homeowners. Guides on hail damage, roof costs, materials, maintenance, and insurance claims.","publisher":{"@type":"Organization","name":"5 Star Commercial Roofing"}})}}/>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Blog","name":"5 Star Commercial Roofing Blog","description":"Expert roofing advice for Texas homeowners. Guides on hail damage, roof costs, materials, maintenance, and insurance claims.","publisher":{"@type":"Organization","name": "5 Star Roofing"}})}}/>
     </div>
   );
 }

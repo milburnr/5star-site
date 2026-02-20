@@ -24,9 +24,9 @@ export default function MetalRoofOdessaPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/metal-roof-installation-odessa-texas/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -378,7 +378,7 @@ export default function MetalRoofOdessaPage() {
         </FadeIn>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Metal Roof Installation","provider":{"@type":"LocalBusiness","name":"5 Star Commercial Roofing","telephone": "(806) 622-6041","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"}},"areaServed":{"@type":"City","name":"Odessa","containedInPlace":{"@type":"State","name":"Texas"}}})}}/>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Metal Roof Installation","provider":{"@type": ["LocalBusiness", "RoofingContractor"],"name": "5 Star Roofing","telephone": "(806) 622-6041","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"}},"areaServed":{"@type":"City","name":"Odessa","containedInPlace":{"@type":"State","name":"Texas"}}})}}/>
     </div>
   );
 }

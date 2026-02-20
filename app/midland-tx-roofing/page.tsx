@@ -826,9 +826,9 @@ export default function MidlandRoofingPage() {
             "@context": "https://schema.org",
             "@graph": [
               {
-                "@type": "RoofingContractor",
+                "@type": ["LocalBusiness", "RoofingContractor"],
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#roofingcontractor",
-                "name": "5 Star Commercial Roofing",
+                "name": "5 Star Roofing",
                 "parentOrganization": {
                   "@id": "https://5starroofingpros.com/#organization"
                 },
@@ -908,9 +908,9 @@ export default function MidlandRoofingPage() {
                 }
               },
               {
-                "@type": "LocalBusiness",
+                "@type": ["LocalBusiness", "RoofingContractor"],
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#localbusiness",
-                "name": "5 Star Commercial Roofing",
+                "name": "5 Star Roofing",
                 "image": "https://5starroofingpros.com/logo.png",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",

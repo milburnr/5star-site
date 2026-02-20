@@ -40,9 +40,9 @@ export default function RoofRepairLevellandPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-levelland/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofRepairLevellandPage() {
             "@type": "Service",
             "serviceType": "Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
               "telephone": "(806) 622-6041",
               "address": {
@@ -103,6 +103,46 @@ export default function RoofRepairLevellandPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "Why is Levelland particularly prone to hail damage?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Levelland sits in the heart of \"Hail Alley\" on the South Plains where flat topography allows storms to intensify without geographic interference. The Llano Estacado plateau's elevation and open terrain create perfect conditions for supercell development, leading to some of Texas's largest recorded hailstones. The combination of strong updrafts and minimal wind shear allows hailstones to grow to destructive sizes."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What should I do immediately after a hailstorm in Levelland?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "First, ensure your safety and check for interior leaks. Document any visible damage with photos for insurance purposes. Contact us for a professional inspection within 48-72 hours - early detection prevents secondary damage. Don't climb on your roof, but check gutters for granule accumulation and look for damaged outdoor equipment. We provide tarping if needed while insurance processes your claim."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do South Plains winds affect roofing systems?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "The open geography of the South Plains creates sustained high winds that test roofing systems differently than occasional gusts. Constant wind pressure can gradually lift shingles, loosen fasteners, and stress flashing systems. We use enhanced fastening patterns and wind-rated materials specifically designed for High Plains conditions to ensure long-term performance."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What roofing materials perform best in Levelland's climate?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "For Levelland, we recommend Class 4 impact-resistant shingles for maximum hail protection, standing seam metal with enhanced wind ratings, and TPO membrane systems for commercial properties. These materials are specifically engineered to withstand large hail impact, sustained high winds, and extreme temperature fluctuations common to the South Plains region."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

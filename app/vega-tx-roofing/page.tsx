@@ -501,9 +501,9 @@ export default function VegaRoofingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/vega-tx-roofing/",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Vega, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",

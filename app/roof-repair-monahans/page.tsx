@@ -40,9 +40,9 @@ export default function RoofRepairMonahansPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-monahans/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofRepairMonahansPage() {
             "@type": "Service",
             "serviceType": "Roof Repair",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
               "telephone": "(806) 622-6041",
               "address": {
@@ -103,6 +103,70 @@ export default function RoofRepairMonahansPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How does desert sand affect roofing systems in Monahans?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Desert sand creates abrasive conditions that gradually wear down roofing materials, especially during high-wind events. Sand infiltrates into seams, clogs drainage systems, and acts like sandpaper on surfaces. We use specialized sealants and design details to minimize sand infiltration while selecting materials with superior abrasion resistance for long-term performance."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What makes Permian Basin hailstorms particularly damaging?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Permian Basin supercells form rapidly in the desert heat and can produce some of Texas's largest hailstones. The combination of strong updrafts, minimal terrain interference, and dry air layers creates perfect conditions for hail growth. These storms often approach with little warning, making impact-resistant roofing systems essential for Ward County properties."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Why do roofing materials fail faster in Monahans compared to other Texas cities?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Monahans combines three accelerated aging factors: extreme UV radiation at 2,600+ feet elevation, thermal cycling with surface temperatures exceeding 150°F, and constant sand abrasion from desert winds. This trinity of environmental stressors can reduce typical roofing material life by 30-40% compared to moderate climates, making material selection critical for long-term performance."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do oil field operations affect nearby roofing systems?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Oil field operations introduce chemical exposure from drilling fluids and produced water, vibration from heavy equipment, and particulate contamination from industrial activities. These factors require specialized material selection including chemical-resistant membranes, enhanced fastening systems, and more frequent maintenance schedules for properties within 2-3 miles of active operations."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What permits are required for roof repairs in Ward County?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Ward County requires permits for structural modifications, complete roof replacements, and any work involving electrical or mechanical systems. Minor repairs under $500 typically don't require permits. For oil field facilities, additional environmental and safety permits may be required. We handle all permit applications and ensure compliance with county building codes and oil industry safety standards."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "When is the best time to schedule roof repairs in Monahans?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Late fall through early spring (October-March) offers the most stable weather and moderate temperatures for optimal installation conditions. Avoid summer heat that can make materials too hot to handle safely, and spring storm season when severe weather can interrupt work. storm repairs are available year-round, but planned projects should target the cooler months for best results."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How does proximity to the Monahans Sandhills affect roofing maintenance?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Properties near the Monahans Sandhills State Park experience increased sand exposure and require more frequent maintenance. Sand particles penetrate into drainage systems, accelerate granule loss on shingles, and can clog ventilation systems. We recommend quarterly inspections and annual professional cleaning for properties within 5 miles of active sand dune areas."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

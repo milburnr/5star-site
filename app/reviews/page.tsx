@@ -270,7 +270,7 @@ export default function Page() {
         </div>
       </section>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"LocalBusiness","name":"5 Star Commercial Roofing","telephone": "(806) 622-6041","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"},"address":{"@type":"PostalAddress","streetAddress":"2909 S Western St","addressLocality":"Amarillo","addressRegion":"TX","postalCode":"79109","addressCountry":"US"},"priceRange":"$$"})}}/>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type": ["LocalBusiness", "RoofingContractor"],"name": "5 Star Roofing","telephone": "(806) 622-6041","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"},"address":{"@type":"PostalAddress","streetAddress":"2909 S Western St","addressLocality":"Amarillo","addressRegion":"TX","postalCode":"79109","addressCountry":"US"},"priceRange":"$$"})}}/>
     </div>
   );
 }

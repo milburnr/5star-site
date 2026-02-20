@@ -41,9 +41,9 @@ export default function RoofInspectionsLevellandPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-levelland/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofInspectionsLevellandPage() {
             "@type": "Service",
             "serviceType": "Roof Inspections",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -103,6 +103,62 @@ export default function RoofInspectionsLevellandPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "What does a roof inspection cost in Levelland?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We provide completely free roof inspections for all Levelland and Hockley County property owners. Our comprehensive service includes detailed assessment, photography, written report, and insurance claim documentation at no charge. We believe property owners shouldn't pay to determine if they need our services."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How often should South Plains properties be inspected?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We recommend annual inspections for all Levelland properties due to the high frequency of severe weather. Additionally, schedule inspections after any significant storm event with hail, high winds, or heavy rain. Spring inspections before storm season can identify vulnerabilities, while fall inspections assess summer storm damage."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How quickly should I schedule inspection after a storm?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Contact us within 24-48 hours after any severe weather event in Levelland. Quick response is crucial for proper damage documentation and insurance claim success. We offer damage inspection services and typically schedule within 24 hours during active storm periods."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do you inspect rental properties near South Plains College?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, we provide comprehensive inspections for all property types in Levelland, including rental properties, student housing, and commercial buildings near South Plains College. Property owners and property management companies rely on our detailed reports for maintenance planning and insurance compliance."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What types of damage are common on South Plains roofs?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "South Plains roofs commonly experience hail damage (granule loss, impact marks, shingle cracking), wind damage (tab lifting, blow-off, edge damage), thermal stress (expansion/contraction damage), UV degradation, and moisture-related issues. Our inspectors are trained to identify all damage types specific to this region."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "What documentation will I receive?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "You'll receive a comprehensive package including: high-resolution damage photographs, detailed written assessment, measurement documentation, material specifications, cost estimates, insurance claim support materials, and timeline recommendations. All reports are provided digitally within 24 hours of inspection."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

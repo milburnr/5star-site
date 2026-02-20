@@ -40,9 +40,9 @@ export default function RoofInspectionsSnyderPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-snyder/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
@@ -65,9 +65,9 @@ export default function RoofInspectionsSnyderPage() {
             "@type": "Service",
             "serviceType": "Roof Inspections",
             "provider": {
-              "@type": "RoofingContractor",
+              "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Commercial Roofing",
+              "name": "5 Star Roofing",
               "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
@@ -102,6 +102,62 @@ export default function RoofInspectionsSnyderPage() {
           })
         }}
       />
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                      {
+                              "@type": "Question",
+                              "name": "How often should commercial roofs be inspected in West Texas?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "We recommend bi-annual inspections (spring and fall) for all commercial properties in West Texas, with additional post-storm inspections after severe weather events. The intense UV exposure, temperature extremes, and frequent severe weather in Scurry County accelerate roof aging and require more frequent monitoring than milder climates."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can inspections detect storm damage that's not visible from the ground?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Absolutely. Our drone surveys and thermal imaging detect membrane punctures, fastener loosening, and impact damage invisible from ground level. Hail damage, in particular, can cause micro-fractures and membrane bruising that only show up under thermal analysis or close inspection. Early detection prevents these minor issues from becoming major leaks."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do agricultural buildings require different inspection approaches?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes, agricultural buildings present unique challenges including chemical exposure from fertilizers, moisture from livestock areas, and heavy equipment loads. Our agricultural inspections evaluate ventilation adequacy, chemical resistance, and structural capacity while working around operational requirements like harvest schedules and livestock care."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Do roof inspections include energy efficiency evaluation?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Our comprehensive inspections include thermal imaging analysis that reveals energy loss patterns, insulation defects, and air leakage points. This information helps property owners reduce energy costs and improve building comfort. We often identify energy savings opportunities that pay for roof improvements over time."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do regular inspections help with insurance claims?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Regular inspection reports establish baseline roof conditions and document proper maintenance, which insurance companies value when processing claims. Our detailed documentation helps distinguish new storm damage from pre-existing conditions, often resulting in better claim settlements. Some insurers offer premium discounts for properties with regular professional inspections."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How do inspections save money in the long run?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Regular inspections identify small problems before they become expensive failures. A $200 inspection can prevent a $20,000 roof replacement by catching issues early. Our maintenance recommendations extend roof life, reduce energy costs, and prevent water damage that can cost tens of thousands in interior repairs and business interruption."
+                              }
+                      }
+              ]
+      }) }} />
+
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

@@ -501,9 +501,9 @@ export default function WildoradoRoofingPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
+            "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/wildorado-tx-roofing/",
-            "name": "5 Star Commercial Roofing",
+            "name": "5 Star Roofing",
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Wildorado, Texas from our Amarillo location. Expert hail damage repair, residential and agricultural roofing services.",
             "address": {

@@ -16,11 +16,11 @@ export default function Page() {
     "headline": "Mastering the Best Roofing Methods in Amarillo",
     "author": {
       "@type": "Organization",
-      "name": "5 Star Commercial Roofing"
+      "name": "5 Star Roofing"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "5 Star Commercial Roofing",
+      "name": "5 Star Roofing",
       "logo": {
         "@type": "ImageObject",
         "url": "https://5starroofingpros.com/5-star-with-letters-1.png"
@@ -51,9 +51,9 @@ export default function Page() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roofing-methods-in-amarillo/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",

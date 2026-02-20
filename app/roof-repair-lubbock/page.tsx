@@ -27,9 +27,9 @@ export default function RoofRepairLubbockPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-lubbock/#localbusiness",
-        "name": "5 Star Commercial Roofing",
+        "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
         "image": "https://5starroofingpros.com/images/roof-repair-3.jpg",
         "telephone": "(806) 622-6041",
@@ -51,8 +51,8 @@ export default function RoofRepairLubbockPage() {
         "@type": "Service",
         "serviceType": "Roof Repair",
         "provider": {
-          "@type": "RoofingContractor", 
-          "name": "5 Star Commercial Roofing",
+          "@type": ["LocalBusiness", "RoofingContractor"], 
+          "name": "5 Star Roofing",
           "url": "https://5starroofingpros.com"
         },
         "areaServed": [
