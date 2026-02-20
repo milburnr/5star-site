@@ -102,7 +102,6 @@ function generateLocalBusinessSchema(slug, city, service) {
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": ${cityInfo.lat}, "longitude": ${cityInfo.lon} },
         "url": "https://5starroofingpros.com/${slug}/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/${cityInfo.wiki}", "name": "${titleCase(city)}", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
         "description": "Expert ${serviceInfo.name.toLowerCase()} services in ${titleCase(city)}, TX. Free inspections, insurance claim assistance, 24/7 emergency response.",

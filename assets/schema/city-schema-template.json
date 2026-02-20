@@ -10,11 +10,6 @@
       "name": "{{CITY_NAME}}",
       "@id": "https://en.wikipedia.org/wiki/{{CITY_NAME}},_Texas"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "84"
-    },
     "parentOrganization": {
       "@id": "https://5starroofingpros.com/#organization"
     }
