@@ -70,6 +70,25 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
+      {/* Person Schema - Business Owner */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Owner",
+            "jobTitle": "Owner",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "5 Star Roofing",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "knowsAbout": ["Roofing", "Commercial Roofing", "Residential Roofing", "Storm Damage Repair"]
+          })
+        }}
+      />
+
       <FadeIn>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6 bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">About 5 Star Commercial Roofing</h1>
       </FadeIn>
