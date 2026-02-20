@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 5 of 10 (Schema Architecture)
-Plan: 1 of 4 in current phase
+Plan: 3 of 4 in current phase
 Status: In Progress
-Last activity: 2026-02-20 — Completed 05-01 LocalBusiness schema type and entity name upgrade
+Last activity: 2026-02-20 — Completed 05-03 FAQ and Service schema coverage audit
 
-Progress: [▓▓▓▓▓░░░░░] 44%
+Progress: [▓▓▓▓▓░░░░░] 48%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 11
+- Total plans completed: 13
 - Average duration: 4.5min
-- Total execution time: 0.83 hours
+- Total execution time: 0.98 hours
 
 **By Phase:**
 
@@ -31,10 +31,10 @@ Progress: [▓▓▓▓▓░░░░░] 44%
 | 02-url-canonicalization | 3 | 10min | 3.3min |
 | 03-meta-titles | 3 | 17min | 5.7min |
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
-| 05-schema-architecture | 1 | 3min | 3min |
+| 05-schema-architecture | 3 | 12min | 4min |
 
 **Recent Trend:**
-- Last 5 plans: 6min, 5min, 3min, 2min, 3min
+- Last 5 plans: 3min, 2min, 3min, 3min, 6min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -77,6 +77,9 @@ Recent decisions affecting current work:
 - [04-02]: Services hub link added inline in intro paragraph, not as standalone CTA button
 - [05-01]: Homepage standalone RoofingContractor converted to array form for consistency with all other pages
 - [05-01]: About page Organization @type left untouched — only LocalBusiness and standalone RoofingContractor targeted
+- [05-03]: 16 pages importing AccordionTrigger without JSX usage correctly skipped (no FAQ content)
+- [05-03]: 4 LocalBusiness pages with non-array @type noted for 05-04 scope
+- [05-03]: Most FAQ/Service gaps were already fixed by 05-01 -- this plan verified and closed remaining gaps
 
 ### Pending Todos
 
@@ -91,5 +94,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 05-01-PLAN.md (LocalBusiness schema type upgrade and entity name fix)
+Stopped at: Completed 05-03-PLAN.md (FAQ and Service schema coverage audit)
 Resume file: None
