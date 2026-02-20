@@ -35,11 +35,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Every page's schema uses the same canonical email address matching constants.ts
   4. Every page's schema phone, address, and hours match constants.ts exactly
   5. Copyright shows 2026 on every page
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 01-01: Audit and remove AggregateRating schema from all pages
-- [ ] 01-02: Standardize entity name, NAP, and copyright across all 268 pages
+- [ ] 01-01-PLAN.md -- Remove AggregateRating schema from all 246 page files and schema templates
+- [ ] 01-02-PLAN.md -- Standardize entity name, email, phone, hours, and copyright across all pages
 
 ### Phase 2: URL Canonicalization
 **Goal**: Eliminate self-competition by consolidating all duplicate URL variants into canonical pages via 301 redirects
