@@ -1,0 +1,25 @@
+Schema Coverage Report
+Generated: 2026-02-20
+======================
+
+FAQ Schema:
+  Pages with FAQ content (AccordionTrigger usage): 140
+  Pages with FAQPage schema: 141
+  Gaps remaining: 0
+
+Service Schema:
+  Service-city pages identified: 144
+  Pages with Service schema: 188
+  Gaps fixed this run: 1
+  Gaps remaining: 0
+
+Breadcrumb Schema:
+  Pages with Breadcrumb component: 197
+  Homepage excluded (correct): yes
+  Coverage: 197 pages
+
+LocalBusiness Schema:
+  Pages with LocalBusiness: 194
+  All use @type array: no (190/194 use array)
+
+Total pages scanned: 197
