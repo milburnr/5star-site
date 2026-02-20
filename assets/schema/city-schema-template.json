@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "RoofingContractor",
-    "name": "5 Star Commercial Roofing - {{CITY_NAME}}",
+    "name": "5 Star Commercial Roofing",
     "description": "Professional roofing and hail damage repair services in {{CITY_NAME}}, TX. Specialized in insurance claims and storm restoration.",
     "url": "https://5starroofingpros.com/{{CITY_URL}}",
     "telephone": "(806) 622-6041",

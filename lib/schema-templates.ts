@@ -21,7 +21,8 @@ export function generateLocalBusinessSchema(city: CityData, service: ServiceData
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": `5 Star Commercial Roofing - ${city.name}`,
+    "name": "5 Star Commercial Roofing",
+    "email": "admin@5starroofingpros.com",
     "@id": `https://5starroofingpros.com/${service.slug}-${city.slug}/#localbusiness`,
     "image": `https://5starroofingpros.com/images/${city.slug}-location.jpg`,
     "telephone": "(806) 622-6041",
