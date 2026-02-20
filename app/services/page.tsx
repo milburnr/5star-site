@@ -5,7 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/services/' },
-  title: 'Roofing Services Amarillo TX | 5 Star',
+  title: 'Roofing Services Amarillo TX | 5 Star Roofing',
   description: 'Complete roofing services for West Texas including residential, commercial, and industrial. Call for a free quote!',
 };
 

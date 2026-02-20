@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wildorado-tx-roofing/' },
-  title: 'Roofing in Wildorado, TX| Hail Damage Specialists | 5 Star',
+  title: 'Roofing Wildorado TX | Hail Damage | 5 Star Roofing',
   description: 'roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs.',
 };
 

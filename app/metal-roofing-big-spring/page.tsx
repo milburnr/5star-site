@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-big-spring/' },
-  title: "Metal Roofing Big Spring TX | 5 Star Commercial Roofing",
+  title: "Metal Roofing Big Spring TX | 5 Star Roofing",
   description: "Durable metal roofing systems in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
 

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/how-to-file-hail-damage-insurance-claim/' },
-  title: 'How to File a Hail Damage Insurance Claim | Step-by-Step ...',
+  title: 'How to File a Hail Damage Insurance Claim | 5 Star Roofing',
   description: 'Complete guide to filing hail damage insurance claims in Texas. Step-by-step process, what insurance covers, common mistakes to avoid.',
 };
 

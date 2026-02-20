@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/claude-tx-roofing/' },
-  title: 'Roofing in Claude, TX| Hail Damage Specialists | 5 Star',
+  title: 'Roofing Claude TX | Hail Damage Specialists | 5 Star Roofing',
   description: 'roofing services in Claude, Texas Panhandle. Just 25 miles east of Amarillo on US-287. Hail damage repair, residential & commercial roofing.',
 };
 

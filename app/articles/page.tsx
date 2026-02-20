@@ -3,10 +3,10 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/articles/' },
-  title: 'Roofing Articles & Amarillo Guide | 5 Star',
+  title: 'Roofing Articles & Amarillo Guide | 5 Star Roofing',
   description: "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage, and roofing maintenance for West Texas homes.",
   openGraph: {
-    title: "Roofing Articles & Local Amarillo Guide",
+    title: "Roofing Articles & Amarillo Guide | 5 Star Roofing",
     description: "Expert roofing tips and local Amarillo guides from 5 Star Commercial Roofing. Call (806) 622-6041",
     type: "website",
   },

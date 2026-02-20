@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-snyder/' },
-  title: "Roof Repair Snyder TX | 5 Star Commercial Roofing",
+  title: "Roof Repair Snyder TX | 5 Star Roofing",
   description: "Professional roof repair services in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
 

@@ -10,11 +10,11 @@ import {
 
 
 export const metadata: Metadata = {
-  title: 'Amarillo Hail Damage Roof Repair | 5 Star Roofing',
+  title: 'Amarillo Residential Roofing & Hail Repair | 5 Star Roofing',
   description: "West Texas's trusted hail damage roofing specialists. Serving Amarillo, Midland, Odessa & Panhandle. Free inspections + insurance claims. Call (806) 622-6041",
   keywords: "amarillo roofing, hail damage repair, roof repair amarillo, midland roofing, odessa roofing, texas panhandle roofer, storm damage roof repair, insurance claims roofing",
   openGraph: {
-    title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
+    title: "Amarillo Residential Roofing & Hail Repair | 5 Star Roofing",
     description: "West Texas's trusted roofing contractor. 10+ years experience with hail damage repair and insurance claims.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
+    title: "Amarillo Residential Roofing & Hail Repair | 5 Star Roofing",
     description: "West Texas roofing specialists. Free inspections & insurance help.",
   },
   alternates: {

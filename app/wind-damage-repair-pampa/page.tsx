@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-pampa/' },
-  title: 'Wind Damage Repair Pampa TXService | High Plains Winds',
+  title: 'Wind Damage Repair Pampa TX | 5 Star Roofing',
   description: 'wind damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041',
 };
 

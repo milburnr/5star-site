@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-amarillo/' },
-  title: "TPO Roofing Amarillo TX | Expert Service | Free Inspection",
+  title: "TPO Roofing Amarillo TX | 5 Star Roofing",
   description: "Professional tpo roofing in Amarillo TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 

@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/service-areas/' },
-  title: 'Service Areas | Amarillo, Midland, Odessa Roofing | & West',
+  title: 'Service Areas | 5 Star Roofing',
   description: 'roofing services across West Texas. Serving Amarillo, Midland, Odessa, Lubbock, and 20+ Texas Panhandle cities. Hail damage specialists. Call (806) 622-6041',
 };
 

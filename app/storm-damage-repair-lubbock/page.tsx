@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-lubbock/' },
-  title: "Storm Damage Repair Lubbock | 5 Star Commercial Roofing",
+  title: "Storm Damage Repair Lubbock | 5 Star Roofing",
   description: "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
 };
 

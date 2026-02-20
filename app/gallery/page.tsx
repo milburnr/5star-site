@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/gallery/' },
-  title: "Project Gallery | 5 Star Commercial Roofing Portfolio",
+  title: "Project Gallery | 5 Star Roofing Portfolio",
   description: 'View our completed roofing projects in Amarillo, Midland, Odessa, and Lubbock. Residential and commercial roofing photos from across West Texas.',
   keywords: "roofing gallery, roofing portfolio, Amarillo roofing projects, before after roofing, hail damage repair photos, TPO installation photos",
 };

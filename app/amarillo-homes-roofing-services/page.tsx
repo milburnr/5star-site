@@ -4,10 +4,10 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-homes-roofing-services/' },
-  title: 'Amarillo Homes Roofing| Expert Residential Services',
+  title: 'Amarillo Homes Roofing | 5 Star Roofing',
   description: 'Amarillo Homes Roofing Services is here to cater to all your roofing needs. We guarantee exceptional results. Free inspections available.',
   openGraph: {
-    title: "Amarillo Homes Roofing | Expert Residential Roofing Services",
+    title: "Amarillo Homes Roofing | 5 Star Roofing",
     description: "Professional residential roofing services in Amarillo, TX. Free inspections, hail damage repair, and complete roof replacements. Call (806) 622-6041",
     type: "website",
   },

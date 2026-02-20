@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/' },
-  title: 'Emergency Snow & Ice Damage Roof Repair in Amarillo',
+  title: 'Snow & Ice Roof Repair Amarillo | 5 Star Roofing',
   description: 'Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Same-day inspections.',
 };
 

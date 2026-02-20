@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-andrews/' },
-  title: "Roof Repair Andrews TX | 5 Star Commercial Roofing",
+  title: "Roof Repair Andrews TX | 5 Star Roofing",
   description: "Professional roof repair services in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
 

@@ -7,11 +7,11 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/odessa-tx-roofing/' },
-  title: 'Roofing Contractor Odessa TX | 5 Star',
+  title: 'Roofing Contractor Odessa TX | 5 Star Roofing',
   description: 'Commercial and industrial roofing in Odessa. Permian Basin experts. Specialized systems for manufacturing and oil & gas facilities.',
   keywords: "Odessa roofing, Odessa roofer, roofing contractor Odessa TX, hail damage Odessa, metal roofing Odessa, commercial roofing Odessa",
   openGraph: {
-    title: "Roofing in Odessa TX | Commercial & Industrial Specialists | Service",
+    title: "Roofing Contractor Odessa TX | 5 Star Roofing",
     description: "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing, .",
     type: "website",
     locale: "en_US",

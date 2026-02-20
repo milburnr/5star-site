@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/flat-roof-repair-midland-texas/' },
-  title: 'Flat Roof Repair in Midland, TX| Commercial Specialists',
+  title: 'Flat Roof Repair in Midland, TX | 5 Star Roofing',
   description: "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. prompt service available. Free inspections. Call today (806) 622-6041",
 };
 

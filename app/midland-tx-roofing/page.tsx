@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/midland-tx-roofing/' },
-  title: 'Roofing in Midland TX | Oil & Gas Industry Specialists',
+  title: 'Roofing in Midland TX | 5 Star Roofing',
   description: 'roofing in Midland including commercial and industrial. Permian Basin specialists. Chemical-resistant PVC systems for oil & gas facilities.',
   keywords: "Midland roofing, Midland TX roofer, Permian Basin roofing, hail damage Midland, commercial roofing Midland, oil industry roofing",
 };

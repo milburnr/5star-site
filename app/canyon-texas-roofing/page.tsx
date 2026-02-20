@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/canyon-texas-roofing/' },
-  title: 'Roofing in Canyon, TX| Hail Damage Specialists | 5 Star',
+  title: 'Roofing Canyon TX | Hail Damage Specialists | 5 Star Roofing',
   description: 'roofing services in Canyon, Texas Panhandle. Commercial, residential, and storm roofing. Serving Randall County. Free inspections available.',
 };
 

@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-levelland/' },
-  title: "Metal Roofing Levelland TX | 5 Star Commercial Roofing",
+  title: "Metal Roofing Levelland TX | 5 Star Roofing",
   description: "Durable metal roofing systems in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
 

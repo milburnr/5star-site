@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-odessa/' },
-  title: "Metal Roofing Odessa TX | Expert Service | Free Inspection",
+  title: "Metal Roofing Odessa TX | 5 Star Roofing",
   description: "Professional metal roofing in Odessa TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 

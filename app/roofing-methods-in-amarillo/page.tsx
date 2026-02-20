@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-methods-in-amarillo/' },
-  title: 'Roofing Methods & Materials Amarillo TX | 5 Star',
+  title: 'Roofing Methods & Materials Amarillo TX | 5 Star Roofing',
   description: 'Discover proven roofing methods and installation techniques for Amarillo homes. Impact-resistant systems, proper ventilation, and hail protection.',
 };
 

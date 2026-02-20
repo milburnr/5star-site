@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-amarillo/' },
-  title: "Roof Repair Amarillo TX | Expert Service | Free Inspection",
+  title: "Roof Repair Amarillo TX | 5 Star Roofing",
   description: "Professional roof repair in Amarillo TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 

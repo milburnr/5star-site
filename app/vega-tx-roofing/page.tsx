@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/vega-tx-roofing/' },
-  title: 'Roofing in Vega, TX| Hail Damage Specialists | 5 Star',
+  title: 'Roofing Vega, TX | Hail Damage Specialists | 5 Star Roofing',
   description: 'roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs.',
 };
 

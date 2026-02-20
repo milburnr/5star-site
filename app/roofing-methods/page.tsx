@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-methods/' },
-  title: 'Roofing Methods Amarillo | Hail-Resistant',
+  title: 'Roofing Methods Amarillo | 5 Star Roofing',
   description: 'Modern roofing methods for Texas Panhandle homes and businesses. Impact-resistant shingles, standing seam metal, TPO systems. hail damage prevention.',
 };
 

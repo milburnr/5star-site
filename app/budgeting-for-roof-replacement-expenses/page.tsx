@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/budgeting-for-roof-replacement-expenses/' },
-  title: 'Budgeting for Roof Replacement Expenses| Amarillo Roofing',
+  title: 'Budgeting for Roof Replacement Expenses | 5 Star Roofing',
   description: 'Affordable and reliable roof replacement services in Amarillo, TX. FREE inspections and estimates so you can budget exactly what it will cost you.',
 };
 

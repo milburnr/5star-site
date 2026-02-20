@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-big-spring/' },
-  title: "Wind Damage Repair Big Spring TX | 5 Star Commercial Roofing",
+  title: "Wind Damage Repair Big Spring TX | 5 Star Roofing",
   description: "Expert wind damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
 };
 

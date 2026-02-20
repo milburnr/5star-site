@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-canyon/' },
-  title: "Roof Repair Canyon TX | Same-Day Service | Free Inspection",
+  title: "Roof Repair Canyon TX | 5 Star Roofing",
   description: "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
 };
 

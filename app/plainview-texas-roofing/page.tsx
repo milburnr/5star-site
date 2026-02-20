@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/plainview-texas-roofing/' },
-  title: 'Roofing in Plainview, TX| Hail Damage Specialists | 5 Star',
+  title: 'Roofing Plainview TX | Hail Damage | 5 Star Roofing',
   description: 'roofing services in Plainview, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hale County. Free inspections available.',
 };
 

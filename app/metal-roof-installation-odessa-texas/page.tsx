@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roof-installation-odessa-texas/' },
-  title: 'Metal Roof Installation in Odessa, TX| 50+ Year Lifespan',
+  title: 'Metal Roof Installation in Odessa, TX | 5 Star Roofing',
   description: 'metal roof installation in Odessa, Texas. Standing seam, R-panel, commercial & residential. 50+ year lifespan. Free inspections available.',
 };
 

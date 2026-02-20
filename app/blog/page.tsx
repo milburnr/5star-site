@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/' },
-  title: "Roofing Blog & Resources | 5 Star Commercial Roofing",
+  title: "Roofing Blog & Resources | 5 Star Roofing",
   description: 'roofing advice for Texas homeowners. Guides on hail damage, roof costs, materials, maintenance, and insurance claims from West Texas roofing professionals.',
 };
 

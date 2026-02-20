@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-midland/' },
-  title: "Metal Roofing Midland TX | Expert Service | Free Inspection",
+  title: "Metal Roofing Midland TX | 5 Star Roofing",
   description: "Professional metal roofing in Midland TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 

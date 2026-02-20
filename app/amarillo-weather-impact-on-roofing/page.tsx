@@ -4,10 +4,10 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-weather-impact-on-roofing/' },
-  title: "Understanding Climate and Roof Longevity in Amarillo",
+  title: "Roof Longevity Amarillo | 5 Star Roofing",
   description: "Learn how Amarillo's extreme weather impacts your roof. Hail, high winds, and temperature swings cause damage. Get expert roofing advice from 5 Star Roofing. Free inspections. Call (806) 622-6041.",
   openGraph: {
-    title: "Understanding Climate and Roof Longevity in Amarillo",
+    title: "Roof Longevity Amarillo | 5 Star Roofing",
     description: "Expert guide to protecting your roof from Texas Panhandle weather. Free inspections. Call (806) 622-6041",
     type: "article",
   },

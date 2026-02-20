@@ -6,10 +6,10 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/contact/' },
-  title: "Contact Us | 5 Star Commercial Roofing | Amarillo, TX",
+  title: "Contact Us | 5 Star Roofing | Amarillo, TX",
   description: 'Contact 5 Star Commercial Roofing for roofing services in Amarillo, Midland, Odessa, and West Texas.',
   openGraph: {
-    title: "Contact Us | 5 Star Commercial Roofing",
+    title: "Contact Us | 5 Star Roofing | Amarillo, TX",
     description: "Get in touch with West Texas's trusted roofing experts. Free inspections available.",
     type: "website",
   },

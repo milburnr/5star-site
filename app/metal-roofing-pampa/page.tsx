@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-pampa/' },
-  title: "Metal Roofing Pampa TX | Standing Seam | 50+ Year Lifespan",
+  title: "Metal Roofing Pampa TX | 5 Star Roofing",
   description: "Expert metal roofing in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
 };
 

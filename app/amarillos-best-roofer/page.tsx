@@ -4,10 +4,10 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillos-best-roofer/' },
-  title: "Amarillo's Best Roofer | Free Inspection Today | Top-Rated Company",
+  title: "Amarillo's Best Roofer | 5 Star Roofing",
   description: "Looking for the best roofer in Amarillo? 5 Star Roofing provides expert residential and commercial roofing services with 10+ years experience. Free inspections. Call (806) 622-6041.",
   openGraph: {
-    title: "Amarillo's Best Roofer | 5 Star Commercial Roofing",
+    title: "Amarillo's Best Roofer | 5 Star Roofing",
     description: "Top-rated roofing contractor in Amarillo, TX. Free inspections, hail damage experts. Call (806) 622-6041",
     type: "website",
   },

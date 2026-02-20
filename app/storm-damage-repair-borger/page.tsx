@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-borger/' },
-  title: 'Storm Damage Repair Borger TXService | Free Inspection',
+  title: 'Storm Damage Repair Borger TX | 5 Star Roofing',
   description: 'storm damage roof repair in Borger TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041',
 };
 

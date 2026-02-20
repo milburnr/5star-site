@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-rot-damage-in-amarillo/' },
-  title: 'Roof Rot Damage Repair in Amarillo TX| Wood Rot Specialists',
+  title: 'Roof Rot Damage Repair in Amarillo TX | 5 Star Roofing',
   description: 'roof rot damage repair in Amarillo. Wood rot removal, deck replacement, and moisture solutions. Free inspections and insurance claims help.',
 };
 

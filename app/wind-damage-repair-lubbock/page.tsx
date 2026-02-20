@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-lubbock/' },
-  title: "Wind Damage Repair Lubbock | 5 Star Commercial Roofing",
+  title: "Wind Damage Repair Lubbock | 5 Star Roofing",
   description: "Wind damage repair in Lubbock. South Plains sustained winds with gusts over 70+ mph.  and insurance claim assistance. Call (806) 622-6041",
 };
 

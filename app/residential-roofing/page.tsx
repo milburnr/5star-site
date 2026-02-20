@@ -5,7 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing/' },
-  title: 'Residential Roofing in Amarillo | 5 Star',
+  title: 'Residential Roofing in Amarillo | 5 Star Roofing',
   description: 'residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote!',
 };
 

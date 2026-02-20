@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-canyon/' },
-  title: "Metal Roofing Canyon TX | Standing Seam | 50+ Year Lifespan",
+  title: "Metal Roofing Canyon TX | 5 Star Roofing",
   description: "Expert metal roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
 };
 

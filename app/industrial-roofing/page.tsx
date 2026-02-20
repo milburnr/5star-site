@@ -3,7 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/industrial-roofing/' },
-  title: 'Industrial Roofing Amarillo TX | 5 Star',
+  title: 'Industrial Roofing Amarillo TX | 5 Star Roofing',
   description: 'industrial roofing in Amarillo. TPO, EPDM, and metal roofing for warehouses and manufacturing facilities.',
 };
 

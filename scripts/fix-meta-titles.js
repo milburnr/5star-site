@@ -147,9 +147,14 @@ function extractTitle(metaBlock) {
     // The metadata opening { puts us at depth 1
     // openGraph: { puts us at depth 2
     if (depth === 1) {
-      const titleMatch = line.match(/title:\s*(['"])([^'"]*)\1/);
-      if (titleMatch) {
-        return { value: titleMatch[2], quote: titleMatch[1] };
+      // Try double-quoted first (handles apostrophes), then single-quoted
+      const dqMatch = line.match(/title:\s*"([^"]*)"/);
+      if (dqMatch) {
+        return { value: dqMatch[1], quote: '"' };
+      }
+      const sqMatch = line.match(/title:\s*'([^']*)'/);
+      if (sqMatch) {
+        return { value: sqMatch[1], quote: "'" };
       }
     }
   }
@@ -164,9 +169,13 @@ function extractOGTitle(metaBlock) {
   const ogMatch = metaBlock.match(/openGraph:\s*\{[\s\S]*?\}/);
   if (!ogMatch) return null;
   const ogBlock = ogMatch[0];
-  const titleMatch = ogBlock.match(/title:\s*(['"])([^'"]*)\1/);
-  if (titleMatch) {
-    return { value: titleMatch[2], quote: titleMatch[1] };
+  const dqMatch = ogBlock.match(/title:\s*"([^"]*)"/);
+  if (dqMatch) {
+    return { value: dqMatch[1], quote: '"' };
+  }
+  const sqMatch = ogBlock.match(/title:\s*'([^']*)'/);
+  if (sqMatch) {
+    return { value: sqMatch[1], quote: "'" };
   }
   return null;
 }
@@ -386,12 +395,20 @@ function replaceTitle(metaBlock, oldTitle, newTitle) {
 
     // Only replace at depth 1 (top level of metadata object)
     if (lineDepth === 1 && !replaced) {
-      const titleMatch = line.match(/title:\s*(['"])([^'"]*)\1/);
-      if (titleMatch && titleMatch[2] === oldTitle) {
+      // Try double-quoted first, then single-quoted
+      let titleValue = null;
+      let titleQuote = null;
+      const dqMatch = line.match(/title:\s*"([^"]*)"/);
+      const sqMatch = line.match(/title:\s*'([^']*)'/);
+      if (dqMatch) { titleValue = dqMatch[1]; titleQuote = '"'; }
+      else if (sqMatch) { titleValue = sqMatch[1]; titleQuote = "'"; }
+
+      if (titleValue === oldTitle) {
         // Use double quotes for the new title to handle apostrophes
-        const quote = newTitle.includes("'") ? '"' : titleMatch[1];
+        const quote = newTitle.includes("'") ? '"' : titleQuote;
+        const escapedOld = oldTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         newLine = line.replace(
-          /title:\s*(['"])([^'"]*)\1/,
+          new RegExp(`title:\\s*['"](${escapedOld})['"]`),
           `title: ${quote}${newTitle}${quote}`
         );
         replaced = true;
@@ -431,11 +448,13 @@ function replaceOGTitle(metaBlock, newTitle) {
         }
       }
 
-      const titleMatch = line.match(/title:\s*(['"])([^'"]*)\1/);
-      if (titleMatch) {
-        const quote = newTitle.includes("'") ? '"' : titleMatch[1];
+      const dqMatch = line.match(/title:\s*"([^"]*)"/);
+      const sqMatch = line.match(/title:\s*'([^']*)'/);
+      if (dqMatch || sqMatch) {
+        const quote = newTitle.includes("'") ? '"' : (dqMatch ? '"' : "'");
+        // Replace the title value regardless of quote type
         newLine = line.replace(
-          /title:\s*(['"])([^'"]*)\1/,
+          /title:\s*(['"])[^'"]*\1|title:\s*"[^"]*"|title:\s*'[^']*'/,
           `title: ${quote}${newTitle}${quote}`
         );
       }
@@ -473,11 +492,12 @@ function replaceTwitterTitle(metaBlock, newTitle) {
         }
       }
 
-      const titleMatch = line.match(/title:\s*(['"])([^'"]*)\1/);
-      if (titleMatch) {
-        const quote = newTitle.includes("'") ? '"' : titleMatch[1];
+      const dqMatch = line.match(/title:\s*"([^"]*)"/);
+      const sqMatch = line.match(/title:\s*'([^']*)'/);
+      if (dqMatch || sqMatch) {
+        const quote = newTitle.includes("'") ? '"' : (dqMatch ? '"' : "'");
         newLine = line.replace(
-          /title:\s*(['"])([^'"]*)\1/,
+          /title:\s*(['"])[^'"]*\1|title:\s*"[^"]*"|title:\s*'[^']*'/,
           `title: ${quote}${newTitle}${quote}`
         );
       }

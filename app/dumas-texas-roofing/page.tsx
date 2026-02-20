@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/dumas-texas-roofing/' },
-  title: 'Roofing in Dumas, TX| Hail Damage Specialists | 5 Star',
+  title: 'Roofing Dumas, TX | Hail Damage Specialists | 5 Star Roofing',
   description: 'roofing services in Dumas, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Moore County. Free inspections available.',
 };
 

@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-dumas/' },
-  title: "Roof Replacement Dumas TX | Expert Service | Free Inspection",
+  title: "Roof Replacement Dumas TX | 5 Star Roofing",
   description: "Professional roof replacement in Dumas TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
 };
 

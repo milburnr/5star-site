@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-dumas/' },
-  title: "TPO Roofing Dumas TX | Commercial Systems | Energy Efficient",
+  title: "TPO Roofing Dumas TX | 5 Star Roofing",
   description: "Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041",
 };
 

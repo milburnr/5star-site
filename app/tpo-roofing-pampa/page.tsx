@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-pampa/' },
-  title: "TPO Roofing Pampa TX | Commercial Systems | Energy Efficient",
+  title: "TPO Roofing Pampa TX | 5 Star Roofing",
   description: "Expert tpo roofing in Pampa TX. Texas Panhandle experiences 7-9 hailstorms annually. Ranching and oil industry. Free inspections. Call (806) 622-6041",
 };
 

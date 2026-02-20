@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-midland/' },
-  title: "Storm Damage Repair Midland | 5 Star Commercial Roofing",
+  title: "Storm Damage Repair Midland | 5 Star Roofing",
   description: "Expert storm damage repair in Midland.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
 };
 
