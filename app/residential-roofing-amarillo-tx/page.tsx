@@ -45,7 +45,6 @@ export default function ResidentialRoofingAmarilloPage() {
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
         "url": "https://5starroofingpros.com/residential-roofing-amarillo-tx/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
         "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -79,13 +78,6 @@ export default function ResidentialRoofingAmarilloPage() {
                 "@type": "GeoCoordinates",
                 "latitude": 35.1768,
                 "longitude": -101.8590
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "84",
-                "bestRating": "5",
-                "worstRating": "1"
               },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",

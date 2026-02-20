@@ -56,13 +56,6 @@ export default function CommercialRoofingLubbockPage() {
               "longitude": -101.8552
             },
             "url": "https://5starroofingpros.com/commercial-roofing-lubbock/",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "84",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
             "areaServed": {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas",

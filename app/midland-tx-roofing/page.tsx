@@ -905,11 +905,6 @@ export default function MidlandRoofingPage() {
                       }
                     }
                   ]
-                },
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": "5.0",
-                  "reviewCount": "200"
                 }
               },
               {

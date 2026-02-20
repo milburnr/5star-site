@@ -38,7 +38,6 @@ export default function HailDamageRepairPlainviewPage() {
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 34.1848, "longitude": -101.7068 },
         "url": "https://5starroofingpros.com/hail-damage-repair-plainview/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Plainview,_Texas", "name": "Plainview", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
         "description": "Expert hail damage repair services in Plainview, TX. Free inspections, insurance claim assistance, prompt response.",

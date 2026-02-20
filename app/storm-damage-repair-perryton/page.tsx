@@ -60,13 +60,6 @@ export default function StormDamageRepairPerrytonPage() {
                 "latitude": 35.1768,
                 "longitude": -101.8590
               },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "84",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

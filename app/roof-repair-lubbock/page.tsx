@@ -38,7 +38,6 @@ export default function RoofRepairLubbockPage() {
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.1768, "longitude": -101.8590 },
         "url": "https://5starroofingpros.com/roof-repair-lubbock/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "84", "bestRating": "5", "worstRating": "1" },
         "areaServed": [
           { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" }},
           { "@type": "AdministrativeArea", "name": "Lubbock County", "containedInPlace": { "@type": "State", "name": "Texas" }}

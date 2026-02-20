@@ -50,7 +50,6 @@ export default function WindDamageRepairBorgerPage() {
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.6678, "longitude": -101.3974 },
         "url": "https://5starroofingpros.com/wind-damage-repair-borger/",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Borger,_Texas", "name": "Borger", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
         "description": "Expert wind damage repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -82,13 +81,6 @@ export default function WindDamageRepairBorgerPage() {
                 "@type": "GeoCoordinates",
                 "latitude": 35.1768,
                 "longitude": -101.8590
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "84",
-                "bestRating": "5",
-                "worstRating": "1"
               },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",

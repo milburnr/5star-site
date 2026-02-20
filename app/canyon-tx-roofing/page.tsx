@@ -693,11 +693,6 @@ export default function CanyonTXRoofingPage() {
                   }
                 }
               ]
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "150"
             }
           })
         }}

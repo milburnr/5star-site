@@ -57,13 +57,6 @@ export default function HailDamageRepairAmarilloPage() {
               "longitude": -101.8590
             },
             "url": "https://5starroofingpros.com/hail-damage-repair-amarillo/",
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "84",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
             "areaServed": {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas",

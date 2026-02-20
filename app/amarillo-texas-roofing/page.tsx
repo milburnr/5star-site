@@ -671,11 +671,6 @@ export default function AmarilloRoofingPage() {
                   }
                 }
               ]
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5.0",
-              "reviewCount": "150"
             }
           })
         }}
