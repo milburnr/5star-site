@@ -136,13 +136,13 @@ Plans:
 **Quality Gate**: Build succeeds, `grep -r "LocalBusiness" out/ | wc -l` matches page count, entity name "5 Star Roofing" in all schema, zero "5 FIVE Star" variants
 **Brand Refs**: `.planning/brand/entity-guidelines.md`
 **Component Reuse**: Standard schema template pattern — LocalBusiness+RoofingContractor on every page, FAQ schema wherever FAQ content exists, Breadcrumb schema matching nav hierarchy
-**Plans**: TBD
+**Plans:** 4 plans
 
 Plans:
-- [ ] 05-01: Upgrade schema-templates.ts with RoofingContractor type and install schema-dts
-- [ ] 05-02: Add WebSite entity schema to homepage and Person schema to About page
-- [ ] 05-03: Audit and fix FAQ, Breadcrumb, and Service schema across all pages
-- [ ] 05-04: Build schema validation script and run against all 268 pages
+- [ ] 05-01-PLAN.md -- Mass update @type to ["LocalBusiness", "RoofingContractor"], fix entity name in schema, install schema-dts, update schema-templates.ts
+- [ ] 05-02-PLAN.md -- Add WebSite entity schema to homepage and Person schema to About page
+- [ ] 05-03-PLAN.md -- Audit and fix FAQ schema gaps (~34 pages), audit Breadcrumb and Service coverage
+- [ ] 05-04-PLAN.md -- Build schema validation script and run against all built pages (zero errors gate)
 
 ### Phase 6: Service Hub Pages
 **Goal**: Every service type has a dedicated hub page that collects authority from spoke pages and passes it back down, completing the hub-and-spoke topology
