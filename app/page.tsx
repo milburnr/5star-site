@@ -984,6 +984,28 @@ export default function Page() {
           })
         }}
       />
+
+      {/* WebSite Entity Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "5 Star Roofing",
+            "url": "https://5starroofingpros.com",
+            "publisher": {
+              "@type": "Organization",
+              "name": "5 Star Roofing",
+              "@id": "https://5starroofingpros.com/#organization"
+            },
+            "sameAs": [
+              "https://www.facebook.com/5starroofingpros",
+              "https://www.google.com/maps?cid=11430502439073045291"
+            ]
+          })
+        }}
+      />
     </>
   );
 }
