@@ -52,7 +52,7 @@ export default function RoofRepairLubbockPage() {
         "serviceType": "Roof Repair",
         "provider": {
           "@type": "RoofingContractor", 
-          "name": "5 Star Roofing",
+          "name": "5 Star Commercial Roofing",
           "url": "https://5starroofingpros.com"
         },
         "areaServed": [
