@@ -51,11 +51,11 @@ Plans:
   3. All commercial and residential roofing URL variants redirect to their canonical counterparts
   4. No duplicate page.tsx files remain in the app/ directory for redirected URLs
   5. No two pages on the site target the same primary keyword (verified by title/H1 audit)
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 02-01: Map all URL variants and add 301 redirects to netlify.toml
-- [ ] 02-02: Remove duplicate page.tsx files and verify no self-canonicalization remains
+- [ ] 02-01-PLAN.md — Rewrite netlify.toml redirects with correct canonical targets + update internal links in page.tsx files
+- [ ] 02-02-PLAN.md — Delete duplicate page.tsx directories, rebuild, regenerate sitemap, audit for keyword self-competition
 
 ### Phase 3: Meta & Titles
 **Goal**: Every page has a unique, correctly formatted meta title and description that drives clicks from search results
