@@ -11,11 +11,11 @@ import {
 
 export const metadata: Metadata = {
   title: 'Amarillo Residential Roofing & Hail Repair | 5 Star Roofing',
-  description: "West Texas's trusted hail damage roofing specialists. Serving Amarillo, Midland, Odessa & Panhandle. Free inspections + insurance claims. Call (806) 622-6041",
-  keywords: "amarillo roofing, hail damage repair, roof repair amarillo, midland roofing, odessa roofing, texas panhandle roofer, storm damage roof repair, insurance claims roofing",
+  description: "Amarillo's trusted residential roofer — hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
+  keywords: "amarillo roofing, residential roofing amarillo, hail damage repair amarillo, roof repair amarillo, texas panhandle roofer, storm damage roof repair, insurance claims roofing, midland roofing, odessa roofing",
   openGraph: {
     title: "Amarillo Residential Roofing & Hail Repair | 5 Star Roofing",
-    description: "West Texas's trusted roofing contractor. 10+ years experience with hail damage repair and insurance claims.",
+    description: "Amarillo's trusted residential roofer. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
     locale: "en_US",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Amarillo Residential Roofing & Hail Repair | 5 Star Roofing",
-    description: "West Texas roofing specialists. Free inspections & insurance help.",
+    description: "Amarillo residential roofing experts. Free storm inspections & insurance claim help.",
   },
   alternates: {
     canonical: "https://5starroofingpros.com",
@@ -42,13 +42,13 @@ export default function Page() {
         <div className="container-custom relative z-10">
           <div className="max-w-4xl md:backdrop-blur-sm md:bg-gradient-to-r md:from-black/40 md:to-transparent p-4 sm:p-6 md:p-8 lg:p-12 md:rounded-2xl md:border-l-4 md:border-brand-gold">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-6 text-white leading-tight" style={{textShadow: '0 2px 8px rgba(0,0,0,0.9)'}}>
-              West Texas Hail Damage <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
+              Amarillo Roofing &amp; Hail Damage <span className="text-brand-gold-light block sm:inline">Repair Experts</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light" style={{textShadow: '0 2px 6px rgba(0,0,0,0.8)'}}>
-              Amarillo • Midland • Odessa
+              Amarillo | Canyon | Texas Panhandle
             </p>
             <p className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
-              Free inspections & insurance claim assistance. 10+ years protecting West Texas homes.
+              <a href="/amarillo-texas-roofing/" className="text-white underline hover:text-brand-gold-light">Amarillo</a>&apos;s trusted residential roofer — free inspections, insurance claim help, and same-day storm response for homeowners across the Texas Panhandle.
             </p>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4">
               <a href="tel:8066226041" className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:scale-105 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] transition-all duration-300 flex items-center justify-center gap-2">
