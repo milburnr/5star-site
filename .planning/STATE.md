@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 2: URL Canonicalization (COMPLETE - all 3 plans)
+**Current focus:** Phase 3: Meta Titles (in progress)
 
 ## Current Position
 
-Phase: 2 of 10 (URL Canonicalization) -- COMPLETE
-Plan: 3 of 3 in current phase (all done)
-Status: Phase Complete
-Last activity: 2026-02-20 — Completed 02-03 gap closure (8 redundant pages redirected+deleted, 201 canonical URLs)
+Phase: 3 of 10 (Meta Titles)
+Plan: 1 of 3 in current phase
+Status: In Progress
+Last activity: 2026-02-20 — Completed 03-01 meta title standardization (111 pages fixed, zero issues remaining)
 
-Progress: [▓▓░░░░░░░░] 15%
+Progress: [▓▓▓░░░░░░░] 20%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
-- Average duration: 5min
-- Total execution time: 0.42 hours
+- Total plans completed: 6
+- Average duration: 5.2min
+- Total execution time: 0.52 hours
 
 **By Phase:**
 
@@ -29,9 +29,10 @@ Progress: [▓▓░░░░░░░░] 15%
 |-------|-------|-------|----------|
 | 01-compliance-entity-fixes | 2 | 15min | 7.5min |
 | 02-url-canonicalization | 3 | 10min | 3.3min |
+| 03-meta-titles | 1 | 6min | 6min |
 
 **Recent Trend:**
-- Last 5 plans: 8min, 7min, 4min, 2min, 4min
+- Last 5 plans: 7min, 4min, 2min, 4min, 6min
 - Trend: improving
 
 *Updated after each plan completion*
@@ -58,6 +59,9 @@ Recent decisions affecting current work:
 - [02-03]: Duplicate title audit confirmed false positives only (layout default + openGraph within same page)
 - [Quality]: DESIGN-QUALITY-STANDARDS.md integrated into ROADMAP.md — 6-check verification loop, brand refs, anti-generic patterns, component reuse added to all phases
 - [Quality]: Brand assets created: .planning/brand/entity-guidelines.md, content-voice.md, keyword-map.md
+- [03-01]: Multi-pipe titles consolidated to first segment + brand suffix (middle segments like "Free Inspection" removed)
+- [03-01]: Schema JSON-LD "name" fields intentionally left as "5 Star Commercial Roofing" (uses constants.ts, separate concern)
+- [03-01]: Title format standardized to "{Service} {City} TX | 5 Star Roofing" across all service-city pages
 
 ### Pending Todos
 
@@ -72,5 +76,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 02-03-PLAN.md (gap closure: 8 redundant pages redirected+deleted, 201 canonical URLs) -- Phase 2 fully complete
+Stopped at: Completed 03-01-PLAN.md (meta title standardization: 111 pages fixed, zero issues, build passing)
 Resume file: None
