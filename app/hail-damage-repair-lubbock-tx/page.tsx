@@ -6,7 +6,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-lubbock-tx/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-lubbock/' },
   title: 'Hail Damage Roof Repair in Lubbock | 5 Star',
   description: "Expert hail damage roof repair in Lubbock TX. , insurance claim help, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -16,7 +16,7 @@ export default function HailDamageRepairLubbockPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Lubbock", url: "/hail-damage-repair-lubbock-tx/" }
+        { name: "Lubbock", url: "/hail-damage-repair-lubbock/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -25,7 +25,7 @@ export default function HailDamageRepairLubbockPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock-tx/#localbusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -33,7 +33,7 @@ export default function HailDamageRepairLubbockPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 33.5779, "longitude": -101.8552 },
-        "url": "https://5starroofingpros.com/hail-damage-repair-lubbock-tx/",
+        "url": "https://5starroofingpros.com/hail-damage-repair-lubbock/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -775,7 +775,7 @@ export default function HailDamageRepairLubbockPage() {
                   </p>
                 </InteractiveCard>
 
-                <InteractiveCard href="/residential-roofing-lubbock-texas/">
+                <InteractiveCard href="/residential-roofing-lubbock/">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">
                     Residential Roofing Lubbock
                   </h3>
@@ -784,7 +784,7 @@ export default function HailDamageRepairLubbockPage() {
                   </p>
                 </InteractiveCard>
 
-                <InteractiveCard href="/commercial-roofing-lubbock-texas/">
+                <InteractiveCard href="/commercial-roofing-lubbock/">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">
                     Commercial Roofing Lubbock
                   </h3>
@@ -833,7 +833,7 @@ export default function HailDamageRepairLubbockPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock-tx/",
+            "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock/",
             "serviceType": "Hail Damage Roof Repair",
             "provider": {
               "@type": "RoofingContractor",

@@ -151,7 +151,7 @@ export default function BlogIndexPage() {
                     </a>
                   </li>
                   <li>
-                    <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant">
+                    <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">
                       Hail Damage Repair
                     </a>
                   </li>
@@ -168,7 +168,7 @@ export default function BlogIndexPage() {
                     </a>
                   </li>
                   <li>
-                    <a href="/residential-roofing-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant">
+                    <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">
                       Residential Roofing Costs
                     </a>
                   </li>
@@ -202,7 +202,7 @@ export default function BlogIndexPage() {
                     </a>
                   </li>
                   <li>
-                    <a href="/roof-inspection-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant">
+                    <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">
                       Roof Inspections
                     </a>
                   </li>
@@ -214,7 +214,7 @@ export default function BlogIndexPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a href="/commercial-roofing-midland-texas/" className="text-brand-gold hover:text-brand-gold-vibrant">
+                    <a href="/commercial-roofing-midland/" className="text-brand-gold hover:text-brand-gold-vibrant">
                       Commercial Systems
                     </a>
                   </li>

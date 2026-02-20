@@ -115,7 +115,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold text-brand-brown mb-4">Protecting West Texas Homes for Over 10 Years</h2>
         <p className="text-lg">
           Your home is your biggest investment. At 5 Star Commercial Roofing, we provide Amarillo, Midland, and Odessa homeowners
-          with high-quality residential roofing services, specializing in <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a> and insurance
+          with high-quality residential roofing services, specializing in <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a> and insurance
           claim assistance. The Texas Panhandle experiences 8-12 hailstorms annually—trust our expertise to protect your home with <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Class 4 impact-resistant shingles</a>.
         </p>
       </div>
@@ -302,14 +302,14 @@ export default function Page() {
           <div className="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-white font-bold">1</div>
           <div>
             <h3 className="font-bold mb-1">Free Inspection & Estimate</h3>
-            <p className="text-gray-600">We assess your roof condition and provide a detailed, no-obligation estimate. Schedule your <a href="/roof-inspections-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free roof inspection</a> today.</p>
+            <p className="text-gray-600">We assess your roof condition and provide a detailed, no-obligation estimate. Schedule your <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free roof inspection</a> today.</p>
           </div>
         </div>
         <div className="flex gap-4">
           <div className="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-white font-bold">2</div>
           <div>
             <h3 className="font-bold mb-1">Insurance Coordination</h3>
-            <p className="text-gray-600">If filing a claim, we work with your adjuster to document damage and maximize coverage. Learn more about our <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">insurance claim assistance</a> process.</p>
+            <p className="text-gray-600">If filing a claim, we work with your adjuster to document damage and maximize coverage. Learn more about our <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">insurance claim assistance</a> process.</p>
           </div>
         </div>
         <div className="flex gap-4">
@@ -355,7 +355,7 @@ export default function Page() {
         <div className="bg-white p-4 rounded-lg shadow">
           <h3 className="font-bold text-brand-brown mb-2">Nearby Cities</h3>
           <ul className="text-sm text-gray-600 space-y-1">
-            <li>• <a href="/canyon-tx-roofing/" className="hover:text-brand-gold underline">Canyon roofing</a></li>
+            <li>• <a href="/canyon-texas-roofing/" className="hover:text-brand-gold underline">Canyon roofing</a></li>
             <li>• <a href="/bushland-tx-roofing/" className="hover:text-brand-gold underline">Bushland roofing</a></li>
             <li>• <a href="/claude-tx-roofing/" className="hover:text-brand-gold underline">Claude roofing</a></li>
             <li>• <a href="/wildorado-tx-roofing/" className="hover:text-brand-gold underline">Wildorado roofing</a></li>

@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/commercial-roof-repair-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo/' },
   title: 'Commercial Roof Repair in AmarilloService | 5 Star',
   description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/commercial-roof-repair-in-amarillo/"
+                      "url": "/commercial-roofing-amarillo/"
               }
       ]} />
 
@@ -59,7 +59,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/commercial-roof-repair-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/commercial-roofing-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -67,7 +67,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/commercial-roof-repair-in-amarillo/",
+        "url": "https://5starroofingpros.com/commercial-roofing-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -95,8 +95,8 @@ export default function Page() {
       {/* Content */}
       <div className="prose max-w-none">
         <p>
-          When it comes to <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing in Amarillo</a>, it's important to choose a roofing contractor
-          who can provide a wide range of services, including <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roof repair</a>, roof leak repair, roof maintenance,
+          When it comes to <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing in Amarillo</a>, it's important to choose a roofing contractor
+          who can provide a wide range of services, including <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roof repair</a>, roof leak repair, roof maintenance,
           and flat roof repair to address any roofing issue. From <strong>roof leak repair</strong> to{" "}
           <strong>roof maintenance</strong> and <strong>flat roof repair</strong>, finding a contractor who
           can handle all of your <strong>commercial roofing</strong> needs is crucial. We also service surrounding areas including <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a> and <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>.
@@ -385,15 +385,15 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/commercial-roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/commercial-roofing-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Commercial Roofing</h3>
             <p className="text-sm text-gray-600">Complete commercial roofing solutions</p>
           </a>
-          <a href="/roof-repair-services-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/roof-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Roof Repair Services</h3>
             <p className="text-sm text-gray-600">Expert roof repairs for all roof types</p>
           </a>
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Storm Damage Repair</h3>
             <p className="text-sm text-gray-600">Insurance claims and storm damage restoration</p>
           </a>
@@ -405,7 +405,7 @@ export default function Page() {
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Amarillo Roofing</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
           <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
         </div>
       </section>

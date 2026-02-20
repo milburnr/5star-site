@@ -192,7 +192,7 @@ export default function OdessaRoofingPage() {
                       inspection within 72 hours to protect your insurance rights and prevent water infiltration.
                     </p>
                     <a
-                      href="/hail-damage-roof-repair-odessa-texas/"
+                      href="/hail-damage-repair-odessa/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2 text-lg"
                     >
                       Expert Hail Damage Services in Odessa →
@@ -234,7 +234,7 @@ export default function OdessaRoofingPage() {
                       minimal disruption.
                     </p>
                     <a
-                      href="/residential-roofing-odessa-texas/"
+                      href="/residential-roofing-odessa/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Residential Roofing Solutions →
@@ -277,7 +277,7 @@ export default function OdessaRoofingPage() {
                       before they become costly emergencies.
                     </p>
                     <a
-                      href="/commercial-roofing-odessa-texas/"
+                      href="/commercial-roofing-odessa/"
                       className="text-blue-700 font-semibold hover:text-blue-800 inline-flex items-center gap-2"
                     >
                       Commercial Roofing Services →
@@ -361,7 +361,7 @@ export default function OdessaRoofingPage() {
                       immediately for professional assistance anywhere in Odessa.
                     </p>
                     <a
-                      href="/hail-damage-repair-odessa-tx/"
+                      href="/hail-damage-repair-odessa/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2 text-lg"
                     >
                       s →

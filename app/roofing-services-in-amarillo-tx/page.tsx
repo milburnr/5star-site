@@ -82,10 +82,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Complete Roofing Solutions for Amarillo & the Texas Panhandle</h2>
         <p className="text-lg">
-          At 5 Star Commercial Roofing, we provide comprehensive <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services</a> for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo and the Texas Panhandle. From routine <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">inspections</a> to storm damage <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">storm damage repairs</a>, we handle every aspect of roofing with professional expertise and customer-first service.
+          At 5 Star Commercial Roofing, we provide comprehensive <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing services</a> for both <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo and the Texas Panhandle. From routine <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">inspections</a> to storm damage <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">storm damage repairs</a>, we handle every aspect of roofing with professional expertise and customer-first service.
         </p>
         <p className="text-lg mt-4">
-          Whether you need <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage assessment</a>, a complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, or ongoing maintenance for your commercial facility, our experienced team delivers quality workmanship backed by industry-leading warranties. We understand the unique challenges of the Texas Panhandle climate—from severe hailstorms to high winds and extreme temperature swings—and we build roofs designed to withstand them.
+          Whether you need <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage assessment</a>, a complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, or ongoing maintenance for your commercial facility, our experienced team delivers quality workmanship backed by industry-leading warranties. We understand the unique challenges of the Texas Panhandle climate—from severe hailstorms to high winds and extreme temperature swings—and we build roofs designed to withstand them.
         </p>
       </div>
 
@@ -374,7 +374,7 @@ export default function Page() {
           Professional roofing services throughout the Texas Panhandle and West Texas:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing Services</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing Services</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Commercial Roofing</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roof Repair</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>

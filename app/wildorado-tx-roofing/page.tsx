@@ -143,7 +143,7 @@ export default function WildoradoRoofingPage() {
                       and complete roof replacement when necessary. We make the insurance process easy.
                     </p>
                     <a
-                      href="/hail-damage-roof-repair-amarillo-texas/"
+                      href="/hail-damage-repair-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Learn About Hail Damage Repair →
@@ -177,7 +177,7 @@ export default function WildoradoRoofingPage() {
                       and comprehensive manufacturer warranties.
                     </p>
                     <a
-                      href="/residential-roofing-amarillo-texas/"
+                      href="/residential-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Explore Residential Roofing →
@@ -311,7 +311,7 @@ export default function WildoradoRoofingPage() {
                       {" "}anytime for immediate professional assistance. We'll be there fast.
                     </p>
                     <a
-                      href="/roof-repair-services-in-amarillo/"
+                      href="/roof-repair-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
                       s →
@@ -432,7 +432,7 @@ export default function WildoradoRoofingPage() {
                 <h3 className="font-bold text-brand-brown mb-2">Vega Roofing</h3>
                 <p className="text-gray-600 text-sm">Roofing services in Vega (20 miles west)</p>
               </a>
-              <a href="/hail-damage-roof-repair-amarillo-texas/" className="card-hover p-4 block">
+              <a href="/hail-damage-repair-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
                 <p className="text-gray-600 text-sm">Expert hail damage assessment and insurance claims</p>
               </a>

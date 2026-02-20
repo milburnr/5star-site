@@ -118,7 +118,7 @@ export default function Page() {
           <div className="bg-gradient-to-br from-brand-gold-light to-amber-100 p-10 rounded-2xl mb-12 shadow-lg border border-brand-gold/20">
             <h2 className="text-3xl font-bold text-brand-brown mb-4">West Texas Hail Damage Specialists</h2>
             <p className="text-lg mb-4 text-gray-700 leading-relaxed">
-              For over 10 years, 5 Star Commercial Roofing has been the trusted partner for <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a>
+              For over 10 years, 5 Star Commercial Roofing has been the trusted partner for <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a>
               and storm damage restoration throughout <a href="/roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline">Odessa</a>, and the entire Texas Panhandle.
               We understand the unique challenges that West Texas weather brings to your roof.
             </p>

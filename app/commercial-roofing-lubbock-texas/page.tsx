@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock-texas/' },
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock/' },
   title: 'Commercial Roofing in Lubbock TX| TPO, EPDM, Flat Roofs',
   description: 'Commercial Roofing in Lubbock, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -16,7 +16,7 @@ export default function CommercialLubbockPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Commercial Roofing", url: "/commercial-roofing/" },
-        { name: "Lubbock", url: "/commercial-roofing-lubbock-texas/" }
+        { name: "Lubbock", url: "/commercial-roofing-lubbock/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -25,7 +25,7 @@ export default function CommercialLubbockPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/commercial-roofing-lubbock-texas/#localbusiness",
+        "@id": "https://5starroofingpros.com/commercial-roofing-lubbock/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -33,7 +33,7 @@ export default function CommercialLubbockPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 33.5779, "longitude": -101.8552 },
-        "url": "https://5starroofingpros.com/commercial-roofing-lubbock-texas/",
+        "url": "https://5starroofingpros.com/commercial-roofing-lubbock/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert commercial roofing services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -362,9 +362,9 @@ export default function CommercialLubbockPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/lubbock-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Lubbock Services</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-lubbock-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-lubbock/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-lubbock-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
+              <a href="/residential-roofing-lubbock/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
               <span className="text-gray-400">•</span>
               <a href="/commercial-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing Info</a>
             </div>

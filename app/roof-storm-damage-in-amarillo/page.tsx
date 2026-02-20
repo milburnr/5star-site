@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-storm-damage-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-amarillo/' },
   title: 'Storm Damage Roof Repair in Amarillo | 5 Star',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/roof-storm-damage-in-amarillo/"
+                      "url": "/storm-damage-repair-amarillo/"
               }
       ]} />
 
@@ -59,7 +59,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/roof-storm-damage-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/storm-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -67,7 +67,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/roof-storm-damage-in-amarillo/",
+        "url": "https://5starroofingpros.com/storm-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert storm damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -82,10 +82,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Expert Storm Damage Restoration for Amarillo Roofs</h2>
         <p className="text-lg">
-          The <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences some of the nation's most severe weather—from baseball-sized <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a> to sustained winds over 70 mph, heavy rain, and even tornadoes. At 5 Star Commercial Roofing, we specialize in comprehensive storm damage assessment, <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">storm repairs</a>, and insurance claim assistance for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout Amarillo.
+          The <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences some of the nation's most severe weather—from baseball-sized <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail</a> to sustained winds over 70 mph, heavy rain, and even tornadoes. At 5 Star Commercial Roofing, we specialize in comprehensive storm damage assessment, <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">storm repairs</a>, and insurance claim assistance for both <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial</a> properties throughout Amarillo.
         </p>
         <p className="text-lg mt-4">
-          After every major storm, our phones ring constantly from homeowners discovering roof damage. Most insurance policies in the Texas Panhandle cover storm damage—and we handle all paperwork, meet with adjusters, and ensure you receive full coverage. For severe damage, complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a> may be covered at only the cost of your deductible.
+          After every major storm, our phones ring constantly from homeowners discovering roof damage. Most insurance policies in the Texas Panhandle cover storm damage—and we handle all paperwork, meet with adjusters, and ensure you receive full coverage. For severe damage, complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement</a> may be covered at only the cost of your deductible.
         </p>
       </div>
 
@@ -632,7 +632,7 @@ export default function Page() {
           Storm damage services available throughout the region. Our crews are strategically positioned to respond quickly to storm events across the entire Texas Panhandle:
         </p>
         <div className="grid md:grid-cols-4 gap-4 mb-6">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Storm Damage</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Storm Damage</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Storm Damage</a>

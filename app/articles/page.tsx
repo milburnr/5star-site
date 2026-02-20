@@ -96,10 +96,10 @@ export default function Page() {
         </p>
         <p className="text-lg text-gray-600 mb-4">
           Whether you're exploring the Texas Panhandle or need expert roofing advice, you'll find valuable
-          information here. From <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage repair</a> to
+          information here. From <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage repair</a> to
           local attractions, we cover it all. Our team serves Amarillo, Midland, Odessa, Lubbock, and all surrounding
-          West Texas communities with comprehensive <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and
-          <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline"> commercial roofing solutions</a>.
+          West Texas communities with comprehensive <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline"> commercial roofing solutions</a>.
         </p>
       </div>
 
@@ -127,10 +127,10 @@ export default function Page() {
           detailed information about our roofing solutions:
         </p>
         <div className="grid md:grid-cols-3 gap-4 mb-6">
-          <a href="/hail-damage-roof-repair-in-amarillo/" className="btn-secondary block text-center">
+          <a href="/hail-damage-repair-amarillo/" className="btn-secondary block text-center">
             Hail Damage Guide
           </a>
-          <a href="/roof-inspections-in-amarillo/" className="btn-secondary block text-center">
+          <a href="/roof-inspections-amarillo/" className="btn-secondary block text-center">
             Roof Inspections
           </a>
           <a href="/amarillo-weather-impact-on-roofing/" className="btn-secondary block text-center">

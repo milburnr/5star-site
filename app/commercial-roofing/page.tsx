@@ -267,10 +267,10 @@ export default function Page() {
 
       <p className="mb-4">
         West Texas hailstorms can devastate commercial roofs, causing leaks, membrane punctures, and
-        equipment damage. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline font-semibold">commercial hail damage specialists</a> are ready to protect your business:
+        equipment damage. Our <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">commercial hail damage specialists</a> are ready to protect your business:
       </p>
       <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
-        <li><strong>storm response:</strong> Available for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">prompt leak repairs</a> and tarping</li>
+        <li><strong>storm response:</strong> Available for <a href="/storm-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">prompt leak repairs</a> and tarping</li>
         <li><strong>Comprehensive Damage Assessment:</strong> Detailed documentation for insurance claims with drone inspections</li>
         <li><strong>Insurance Claim Assistance:</strong> We work directly with your adjuster to ensure full coverage—95% claim approval rate</li>
         <li><strong>Minimal Business Disruption:</strong> Strategic scheduling to keep your operations running during installation</li>
@@ -425,13 +425,13 @@ export default function Page() {
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-lg mb-2 text-brand-brown">What's the best commercial roofing system for West Texas?</h3>
           <p className="text-gray-700">
-            For hail-prone areas like Amarillo, Midland, and Odessa, we recommend TPO or PVC membranes for their excellent hail resistance and energy efficiency. For metal buildings or structures requiring maximum longevity, standing seam metal is ideal. Modified bitumen works well for buildings with heavy rooftop traffic. We'll assess your specific needs during a free inspection. Learn more about our <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">Amarillo commercial roofing services</a>.
+            For hail-prone areas like Amarillo, Midland, and Odessa, we recommend TPO or PVC membranes for their excellent hail resistance and energy efficiency. For metal buildings or structures requiring maximum longevity, standing seam metal is ideal. Modified bitumen works well for buildings with heavy rooftop traffic. We'll assess your specific needs during a free inspection. Learn more about our <a href="/commercial-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Amarillo commercial roofing services</a>.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-lg mb-2 text-brand-brown">Will insurance cover commercial roof hail damage?</h3>
           <p className="text-gray-700">
-            Most commercial property insurance policies cover hail damage roof replacement, minus your deductible. We provide comprehensive damage documentation including drone aerial photos, infrared moisture scans, and detailed reports that insurance adjusters require. Our team has achieved a 95%+ claim approval rate. Contact us for a <a href="/roof-inspections-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free damage assessment</a>.
+            Most commercial property insurance policies cover hail damage roof replacement, minus your deductible. We provide comprehensive damage documentation including drone aerial photos, infrared moisture scans, and detailed reports that insurance adjusters require. Our team has achieved a 95%+ claim approval rate. Contact us for a <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free damage assessment</a>.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -443,7 +443,7 @@ export default function Page() {
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-lg mb-2 text-brand-brown">Do you service Midland, Odessa, and Lubbock?</h3>
           <p className="text-gray-700">
-            Yes! We provide full commercial roofing services throughout West Texas including <a href="/hail-damage-repair-midland-tx/" className="text-brand-brown hover:text-brand-gold underline">Midland</a>, <a href="/hail-damage-repair-odessa-tx/" className="text-brand-brown hover:text-brand-gold underline">Odessa</a>, <a href="/lubbock-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline">Lubbock</a>, and surrounding areas. Our crews are familiar with local building codes and weather patterns in each city we serve.
+            Yes! We provide full commercial roofing services throughout West Texas including <a href="/hail-damage-repair-midland/" className="text-brand-brown hover:text-brand-gold underline">Midland</a>, <a href="/hail-damage-repair-odessa/" className="text-brand-brown hover:text-brand-gold underline">Odessa</a>, <a href="/lubbock-tx-roofing/" className="text-brand-brown hover:text-brand-gold underline">Lubbock</a>, and surrounding areas. Our crews are familiar with local building codes and weather patterns in each city we serve.
           </p>
         </div>
       </div>

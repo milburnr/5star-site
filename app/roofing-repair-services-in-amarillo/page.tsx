@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roofing-repair-services-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-amarillo/' },
   title: 'Roofing Repair Amarillo TX | 5 Star Roofing',
   description: 'Leading roofing repair services in Amarillo TX. Storm damage repair, hail damage restoration, leak detection, insurance claims assistance. Licensed, bonded & insured with 10+ years local experience. Free estimates & prompt response.',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/roofing-repair-services-in-amarillo/"
+                      "url": "/roof-repair-amarillo/"
               }
       ]} />
 
@@ -59,7 +59,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/roofing-repair-services-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/roof-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -67,7 +67,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/roofing-repair-services-in-amarillo/",
+        "url": "https://5starroofingpros.com/roof-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -85,7 +85,7 @@ export default function Page() {
           When it comes to <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing repair services in Amarillo</a>, finding the right contractor is crucial. Amarillo's unpredictable weather—from severe hailstorms averaging 35 days per year to high winds exceeding 58 mph and extreme temperature swings from 105°F in summer to below freezing in winter—makes it essential to maintain a well-functioning roof to protect your home or business from costly damage.
         </p>
         <p className="text-lg mt-4">
-          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've been providing prompt and scheduled <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roof repairs</a> throughout the Texas Panhandle for over 10 years. Whether you're dealing with a sudden leak, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a>, or gradual wear and tear, our experienced team responds quickly with lasting solutions that stand up to West Texas weather.
+          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've been providing prompt and scheduled <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roof repairs</a> throughout the Texas Panhandle for over 10 years. Whether you're dealing with a sudden leak, <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage</a>, or gradual wear and tear, our experienced team responds quickly with lasting solutions that stand up to West Texas weather.
         </p>
         <p className="text-lg mt-4">
           <strong>Located in Amarillo's business district at 2909 S Western St,</strong> we understand the unique challenges facing Potter and Randall County property owners. From the historic homes in the Plemons-Eakle neighborhood to modern developments in Wolflin Village, we've repaired thousands of roofs throughout our service area including Canyon, Bushland, Happy, Wildorado, and surrounding communities.
@@ -413,19 +413,19 @@ export default function Page() {
             <div>
               <h3 className="text-xl font-semibold text-brand-brown mb-3">Experience & Expertise</h3>
               <p className="mb-4">
-                With over a decade serving <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a> and the Texas Panhandle, we've seen every type of roof damage imaginable. Our crews are trained, licensed, and insured, with expertise in <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing</a> systems.
+                With over a decade serving <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a> and the Texas Panhandle, we've seen every type of roof damage imaginable. Our crews are trained, licensed, and insured, with expertise in <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a> systems.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-brand-brown mb-3">Storm Response</h3>
               <p className="mb-4">
-                We understand that roof emergencies don't wait for convenient times. We offer rapid response for <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> and urgent leaks, often providing same-day tarping and next-day permanent repairs.
+                We understand that roof emergencies don't wait for convenient times. We offer rapid response for <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage</a> and urgent leaks, often providing same-day tarping and next-day permanent repairs.
               </p>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-brand-brown mb-3">Insurance Expertise</h3>
               <p className="mb-4">
-                We work directly with all major insurance companies to ensure you receive the full coverage you deserve for <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a> and storm damage. We handle documentation, claims support, and adjuster meetings.
+                We work directly with all major insurance companies to ensure you receive the full coverage you deserve for <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail</a> and storm damage. We handle documentation, claims support, and adjuster meetings.
               </p>
             </div>
             <div>
@@ -441,15 +441,15 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Roofing Services Throughout West Texas</h2>
         <p className="text-lg mb-4">
-          Professional roof repair services for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties:
+          Professional roof repair services for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial</a> properties:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Repairs</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Repairs</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Repair Services</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa storm repairs</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roof Repairs</a>
-          <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Roof Replacement</a>
-          <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">• Free Roof Inspections</a>
+          <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">• Roof Replacement</a>
+          <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">• Free Roof Inspections</a>
         </div>
       </section>
 
@@ -608,7 +608,7 @@ export default function Page() {
       <section className="cta-section mt-12">
         <h2 className="cta-title">Need Storm Damage Roof Repairs in Amarillo?</h2>
         <p className="cta-text">
-          Don't wait for a small leak to become major water damage. Call 5 Star Commercial Roofing now for fast, professional <a href="/roof-repair-services-in-amarillo/" className="text-white hover:underline">roof repairs</a> in Amarillo. <a href="/roof-inspections-in-amarillo/" className="text-white hover:underline">Free inspections</a>, storm response, and insurance claim assistance available. Serving Amarillo and the entire Texas Panhandle since 2014.
+          Don't wait for a small leak to become major water damage. Call 5 Star Commercial Roofing now for fast, professional <a href="/roof-repair-amarillo/" className="text-white hover:underline">roof repairs</a> in Amarillo. <a href="/roof-inspections-amarillo/" className="text-white hover:underline">Free inspections</a>, storm response, and insurance claim assistance available. Serving Amarillo and the entire Texas Panhandle since 2014.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">

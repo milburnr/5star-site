@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo-tx/' },
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo/' },
   title: 'Amarillo TX Roofing | Trusted Local Roofers',
   description: "Expert residential roofing services in Amarillo TX. Roof repair, replacement, and inspections. Insurance claim assistance. Free estimates. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -26,7 +26,7 @@ export default function ResidentialRoofingAmarilloPage() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/residential-roofing-amarillo-tx/"
+                      "url": "/residential-roofing-amarillo/"
               }
       ]} />
 
@@ -36,7 +36,7 @@ export default function ResidentialRoofingAmarilloPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/residential-roofing-amarillo-tx/#localbusiness",
+        "@id": "https://5starroofingpros.com/residential-roofing-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -44,7 +44,7 @@ export default function ResidentialRoofingAmarilloPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/residential-roofing-amarillo-tx/",
+        "url": "https://5starroofingpros.com/residential-roofing-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -283,7 +283,7 @@ export default function ResidentialRoofingAmarilloPage() {
               We're not your typical residential roofer. We're <strong>insurance claim specialists</strong> who understand that most Amarillo homeowners need more than just quality installation—they need a team that can maximize insurance coverage, handle all paperwork, pull City of Amarillo permits, and deliver expert workmanship. Headquartered right here in Amarillo at 2909 S Western St, we've processed over 1,200 insurance claims with a 95%+ approval rate.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Whether your home was damaged in the June 2024, May 2024, or May 2023 hail storms—or you're planning a residential roof replacement before the next storm hits—we provide comprehensive service from <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">free hail damage inspection</a> through final installation. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a> for your free residential roof assessment today.
+              Whether your home was damaged in the June 2024, May 2024, or May 2023 hail storms—or you're planning a residential roof replacement before the next storm hits—we provide comprehensive service from <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">free hail damage inspection</a> through final installation. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a> for your free residential roof assessment today.
             </p>
           </section>
         </FadeIn>
@@ -354,7 +354,7 @@ export default function ResidentialRoofingAmarilloPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <FadeIn delay={0.1}>
-                <InteractiveCard href="/hail-damage-repair-amarillo-tx/">
+                <InteractiveCard href="/hail-damage-repair-amarillo/">
                   <div className="space-y-4">
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.jpg" alt="Residential hail damage roof repair in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🌨️ Hail Damage Insurance Claims</h3>
@@ -605,7 +605,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 Our residential roofing process starts with honest assessment: <strong>Do you have covered hail damage, or are you facing a legitimate age-related replacement?</strong> If we find covered damage (which we do in 85% of inspections after major storms), we handle 100% of the insurance claim process—documentation, adjuster meetings, negotiations, and supplement requests.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                The result? Most Amarillo homeowners get complete residential roof replacements with premium Class 4 materials for only their deductible. That's the difference between paying $1,500 versus $15,000 for the same quality roof. Our expertise in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage insurance claims</a> is what sets our residential roofing service apart.
+                The result? Most Amarillo homeowners get complete residential roof replacements with premium Class 4 materials for only their deductible. That's the difference between paying $1,500 versus $15,000 for the same quality roof. Our expertise in <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage insurance claims</a> is what sets our residential roofing service apart.
               </p>
             </div>
           </section>
@@ -981,7 +981,7 @@ export default function ResidentialRoofingAmarilloPage() {
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/hail-damage-repair-amarillo-tx/" className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <a href="/hail-damage-repair-amarillo/" className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">🌨️ Hail Damage Repair</h3>
                 <p className="text-gray-600">
                   Specialized hail damage assessment, insurance claims processing, and complete roof replacement with Class 4 materials. 95%+ approval rate.

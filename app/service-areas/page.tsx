@@ -385,7 +385,7 @@ export default function Page() {
           <div>
             <h3 className="text-lg font-bold mb-3 text-brand-gold">Amarillo Area</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/canyon-tx-roofing/" className="hover:text-brand-gold">Canyon</a></li>
+              <li><a href="/canyon-texas-roofing/" className="hover:text-brand-gold">Canyon</a></li>
               <li><a href="/bushland-tx-roofing/" className="hover:text-brand-gold">Bushland</a></li>
               <li><a href="/claude-tx-roofing/" className="hover:text-brand-gold">Claude</a></li>
               <li><a href="/vega-tx-roofing/" className="hover:text-brand-gold">Vega</a></li>
@@ -407,10 +407,10 @@ export default function Page() {
           <div>
             <h3 className="text-lg font-bold mb-3 text-brand-gold">Service Type</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/hail-damage-repair-amarillo-tx/" className="hover:text-brand-gold">Hail Damage - Amarillo</a></li>
-              <li><a href="/hail-damage-repair-midland-tx/" className="hover:text-brand-gold">Hail Damage - Midland</a></li>
-              <li><a href="/hail-damage-repair-odessa-tx/" className="hover:text-brand-gold">Hail Damage - Odessa</a></li>
-              <li><a href="/hail-damage-repair-lubbock-tx/" className="hover:text-brand-gold">Hail Damage - Lubbock</a></li>
+              <li><a href="/hail-damage-repair-amarillo/" className="hover:text-brand-gold">Hail Damage - Amarillo</a></li>
+              <li><a href="/hail-damage-repair-midland/" className="hover:text-brand-gold">Hail Damage - Midland</a></li>
+              <li><a href="/hail-damage-repair-odessa/" className="hover:text-brand-gold">Hail Damage - Odessa</a></li>
+              <li><a href="/hail-damage-repair-lubbock/" className="hover:text-brand-gold">Hail Damage - Lubbock</a></li>
             </ul>
           </div>
 

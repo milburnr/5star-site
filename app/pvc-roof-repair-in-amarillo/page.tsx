@@ -82,7 +82,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Expert PVC Membrane Repair for Amarillo's Commercial Sector</h2>
         <p className="text-lg">
-          PVC roofing systems are extremely durable, but even the best <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofs</a> can suffer damage from hailstorms, wind, or aging. When your PVC roof develops leaks or damage in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, or surrounding areas, fast professional repair is critical to prevent interior damage to your building and inventory. Amarillo's location in Hail Alley and exposure to extreme weather requires specialized PVC repair expertise.
+          PVC roofing systems are extremely durable, but even the best <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofs</a> can suffer damage from hailstorms, wind, or aging. When your PVC roof develops leaks or damage in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, or surrounding areas, fast professional repair is critical to prevent interior damage to your building and inventory. Amarillo's location in Hail Alley and exposure to extreme weather requires specialized PVC repair expertise.
         </p>
         <p className="text-lg mt-4">
           At 5 Star Commercial Roofing, we specialize in PVC membrane repair using the same heat-welding technology used for new installations. Our repairs are permanent and watertight—not temporary patches that fail after the next storm. We serve Amarillo's diverse commercial sectors including healthcare, education, retail, and industrial facilities that demand reliable PVC roofing performance.
@@ -202,7 +202,7 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Hail Punctures</h3>
             <p className="mb-3">
-              While PVC is highly hail-resistant, severe storms with baseball-sized <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail (common in West Texas)</a> can puncture membranes—especially if hail strikes edge details, seams, or areas over fasteners.
+              While PVC is highly hail-resistant, severe storms with baseball-sized <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail (common in West Texas)</a> can puncture membranes—especially if hail strikes edge details, seams, or areas over fasteners.
             </p>
             <p className="text-sm font-semibold text-gray-600">Repair Method: Heat-welded patch over damaged area</p>
           </div>

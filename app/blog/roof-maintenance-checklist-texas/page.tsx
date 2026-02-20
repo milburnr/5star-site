@@ -386,7 +386,7 @@ export default function RoofMaintenanceChecklistPage() {
               <span className="text-gray-400">•</span>
               <a href="/blog/how-to-file-hail-damage-insurance-claim/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Filing Hail Damage Claims</a>
               <span className="text-gray-400">•</span>
-              <a href="/roof-inspection-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Inspections</a>
+              <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Inspections</a>
             </div>
           </section>
         </FadeIn>

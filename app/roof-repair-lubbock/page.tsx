@@ -629,7 +629,7 @@ export default function RoofRepairLubbockPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Repair</h3>
                 <p className="text-gray-600 mb-4">Specialized restoration for South Plains hailstorm damage</p>
-                <a href="/hail-damage-roof-repair-lubbock-texas/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
+                <a href="/hail-damage-repair-lubbock/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Metal Roofing Installation</h3>

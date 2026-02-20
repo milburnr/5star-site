@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-odessa-texas/' },
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-odessa/' },
   title: 'Residential Roofing in Odessa TX| Hail Damage Specialists',
   description: 'Residential Roofing in Odessa, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -16,7 +16,7 @@ export default function ResidentialOdessaPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Residential Roofing", url: "/residential-roofing/" },
-        { name: "Odessa", url: "/residential-roofing-odessa-texas/" }
+        { name: "Odessa", url: "/residential-roofing-odessa/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -25,7 +25,7 @@ export default function ResidentialOdessaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/residential-roofing-odessa-texas/#localbusiness",
+        "@id": "https://5starroofingpros.com/residential-roofing-odessa/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -33,7 +33,7 @@ export default function ResidentialOdessaPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 31.8457, "longitude": -102.3676 },
-        "url": "https://5starroofingpros.com/residential-roofing-odessa-texas/",
+        "url": "https://5starroofingpros.com/residential-roofing-odessa/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert residential roofing services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -76,7 +76,7 @@ export default function ResidentialOdessaPage() {
               <strong>Odessa's extreme weather demands tough roofing.</strong> From downtown to West Odessa, homes face intense heat, severe hail, high winds, and the kind of weather that destroys inferior roofing in just a few years.
             </p>
             <p className="text-xl text-gray-600">
-              5 Star Commercial Roofing specializes in <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roofing</a> built for Odessa conditions. Complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacements</a>, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage repairs</a>, insurance claims, and preventive maintenance—all backed by comprehensive warranties. We also serve <a href="/residential-roofing-midland-texas/" className="text-brand-gold hover:underline">Midland</a>, <a href="/residential-roofing-lubbock-texas/" className="text-brand-gold hover:underline">Lubbock</a>, and the entire <a href="/" className="text-brand-gold hover:underline">West Texas region</a>.
+              5 Star Commercial Roofing specializes in <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roofing</a> built for Odessa conditions. Complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacements</a>, <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage repairs</a>, insurance claims, and preventive maintenance—all backed by comprehensive warranties. We also serve <a href="/residential-roofing-midland/" className="text-brand-gold hover:underline">Midland</a>, <a href="/residential-roofing-lubbock/" className="text-brand-gold hover:underline">Lubbock</a>, and the entire <a href="/" className="text-brand-gold hover:underline">West Texas region</a>.
             </p>
           </div>
         </FadeIn>
@@ -497,13 +497,13 @@ export default function ResidentialOdessaPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/odessa-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Odessa Services</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
               <a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Metal Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-midland-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Midland Residential</a>
+              <a href="/residential-roofing-midland/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Midland Residential</a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Amarillo Residential</a>
+              <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Amarillo Residential</a>
               <span className="text-gray-400">•</span>
               <a href="/contact/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Contact Us</a>
             </div>

@@ -6,7 +6,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-odessa-tx/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-odessa/' },
   title: 'Hail Damage Roof Repair in Odessa | 5 Star',
   description: "Expert hail damage roof repair in Odessa TX. , insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -101,7 +101,7 @@ export default function HailDamageRepairOdessaTXPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Odessa", url: "/hail-damage-repair-odessa-tx/" }
+        { name: "Odessa", url: "/hail-damage-repair-odessa/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -748,7 +748,7 @@ export default function HailDamageRepairOdessaTXPage() {
                 All Odessa Roofing Services
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/residential-roofing-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Residential Roofing
               </a>
               <span className="text-gray-400">•</span>
@@ -756,7 +756,7 @@ export default function HailDamageRepairOdessaTXPage() {
                 Midland Roofing (Twin City)
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-repair-odessa-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/hail-damage-repair-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 storm repairs
               </a>
               <span className="text-gray-400">•</span>

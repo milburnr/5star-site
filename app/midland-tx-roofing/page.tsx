@@ -189,7 +189,7 @@ export default function MidlandRoofingPage() {
                       roof replacement with impact-resistant materials rated for Midland&apos;s severe weather.
                     </p>
                     <a
-                      href="/hail-damage-roof-repair-midland-texas/"
+                      href="/hail-damage-repair-midland/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Complete Hail Damage Services in Midland →
@@ -231,7 +231,7 @@ export default function MidlandRoofingPage() {
                       preventive maintenance programs, prompt leak repairs, and comprehensive roof asset management.
                     </p>
                     <a
-                      href="/commercial-roofing-midland-texas/"
+                      href="/commercial-roofing-midland/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Explore Commercial Roofing in Midland →
@@ -273,7 +273,7 @@ export default function MidlandRoofingPage() {
                       inspections with detailed condition reports.
                     </p>
                     <a
-                      href="/residential-roofing-midland-texas/"
+                      href="/residential-roofing-midland/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Residential Roofing Solutions in Midland →

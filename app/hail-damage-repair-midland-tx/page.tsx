@@ -6,7 +6,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-midland-tx/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-midland/' },
   title: 'Hail Damage Roof Repair in Midland | 5 Star',
   description: "Expert hail damage roof repair in Midland TX. , insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
@@ -16,7 +16,7 @@ export default function HailDamageRepairMidlandPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Midland", url: "/hail-damage-repair-midland-tx/" }
+        { name: "Midland", url: "/hail-damage-repair-midland/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -578,11 +578,11 @@ export default function HailDamageRepairMidlandPage() {
                 All Midland Roofing Services
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-midland-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/residential-roofing-midland/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Residential Roofing Midland
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/commercial-roofing-midland-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/commercial-roofing-midland/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Commercial Roofing Midland
               </a>
               <span className="text-gray-400">•</span>

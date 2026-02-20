@@ -93,7 +93,7 @@ export default function Page() {
                 <li>Class 4 impact-resistant replacements</li>
                 <li>Manufacturers' warranties up to 50 years</li>
               </ul>
-              <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
                 Learn More About Hail Damage Repair →
               </a>
             </div>

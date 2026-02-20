@@ -172,7 +172,7 @@ export default function Page() {
           <section className="mb-12 bg-gray-50 p-8 rounded-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">Why Choose Experienced Roofers in Amarillo?</h2>
             <p className="text-lg text-gray-700 mb-6">
-              Amarillo's location in the Texas Panhandle exposes roofs to some of the most challenging weather conditions in America. From frequent <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail storms</a> to intense UV radiation, extreme temperature swings, and high winds, your roof needs expert installation and maintenance to perform properly.
+              Amarillo's location in the Texas Panhandle exposes roofs to some of the most challenging weather conditions in America. From frequent <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail storms</a> to intense UV radiation, extreme temperature swings, and high winds, your roof needs expert installation and maintenance to perform properly.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6">
@@ -217,7 +217,7 @@ export default function Page() {
               <div className="bg-gradient-to-r from-amber-50 to-yellow-50 p-6 rounded-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Residential Roofing Services</h3>
                 <p className="text-gray-700 mb-4">
-                  Complete roofing solutions for Amarillo homes including new installations, full replacements, repairs, and maintenance. We specialize in <a href="/residential-roofing-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roofing</a> for neighborhoods throughout Amarillo, from Wolflin to San Jacinto Heights.
+                  Complete roofing solutions for Amarillo homes including new installations, full replacements, repairs, and maintenance. We specialize in <a href="/residential-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roofing</a> for neighborhoods throughout Amarillo, from Wolflin to San Jacinto Heights.
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>Class 4 impact-resistant asphalt shingles</li>
@@ -231,7 +231,7 @@ export default function Page() {
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg border-l-4 border-blue-500">
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Commercial Roofing Solutions</h3>
                 <p className="text-gray-700 mb-4">
-                  Expert <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing</a> for Amarillo businesses. We handle everything from retail centers to industrial warehouses with minimal disruption to your operations.
+                  Expert <a href="/commercial-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing</a> for Amarillo businesses. We handle everything from retail centers to industrial warehouses with minimal disruption to your operations.
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>TPO and PVC single-ply membrane systems</li>
@@ -245,7 +245,7 @@ export default function Page() {
               <div className="bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-lg border-l-4 border-red-500">
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Storm Damage & Hail Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  Our #1 specialty. Amarillo roofers must be experts in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repair</a> given our location in "Hail Alley." We provide free inspections, complete insurance documentation, and work directly with adjusters.
+                  Our #1 specialty. Amarillo roofers must be experts in <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repair</a> given our location in "Hail Alley." We provide free inspections, complete insurance documentation, and work directly with adjusters.
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>Free post-storm damage inspections</li>

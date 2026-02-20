@@ -357,9 +357,9 @@ export default function BestRoofingMaterialsTexasPage() {
               <span className="text-gray-400">•</span>
               <a href="/blog/how-to-file-hail-damage-insurance-claim/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Filing Hail Damage Claims</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
+              <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
             </div>
           </section>
         </FadeIn>

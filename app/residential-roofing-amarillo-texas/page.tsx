@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo-texas/' },
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo/' },
   title: 'Residential Roofing Amarillo TX | 5 Star Roofing',
   description: "Expert residential roofing services in Amarillo, Texas. Roof replacement, repair, and upgrades for Amarillo homes. Free estimates. Call (806) 622-6041.",
 };
@@ -23,7 +23,7 @@ export default function ResidentialAmarilloPage() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/residential-roofing-amarillo-texas/"
+                      "url": "/residential-roofing-amarillo/"
               }
       ]} />
 
@@ -33,7 +33,7 @@ export default function ResidentialAmarilloPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/residential-roofing-amarillo-texas/#localbusiness",
+        "@id": "https://5starroofingpros.com/residential-roofing-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -41,7 +41,7 @@ export default function ResidentialAmarilloPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/residential-roofing-amarillo-texas/",
+        "url": "https://5starroofingpros.com/residential-roofing-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -442,7 +442,7 @@ export default function ResidentialAmarilloPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Amarillo Services</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
               <a href="/roof-inspections-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Inspections</a>
               <span className="text-gray-400">•</span>

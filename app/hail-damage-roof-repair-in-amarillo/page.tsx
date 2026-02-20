@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roof-repair-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-amarillo/' },
   title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
   description: 'Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/hail-damage-roof-repair-in-amarillo/"
+                      "url": "/hail-damage-repair-amarillo/"
               }
       ]} />
 
@@ -59,7 +59,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/hail-damage-roof-repair-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -67,7 +67,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/hail-damage-roof-repair-in-amarillo/",
+        "url": "https://5starroofingpros.com/hail-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -213,7 +213,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Amarillo's Hail Damage Roofing Specialists</h2>
         <p className="text-lg">
-          The <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> sits in America's hail belt, experiencing an average of 8-12 severe hailstorms per year. If you're reading this after a storm, you're not alone—thousands of Amarillo homeowners deal with <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a> annually. The good news? Most homeowners insurance policies in the Texas Panhandle cover hail damage. We work directly with all major insurance companies to maximize your coverage, and we handle the entire process for you. For severe damage requiring complete replacement, we provide comprehensive <a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement services</a>.
+          The <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> sits in America's hail belt, experiencing an average of 8-12 severe hailstorms per year. If you're reading this after a storm, you're not alone—thousands of Amarillo homeowners deal with <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage</a> annually. The good news? Most homeowners insurance policies in the Texas Panhandle cover hail damage. We work directly with all major insurance companies to maximize your coverage, and we handle the entire process for you. For severe damage requiring complete replacement, we provide comprehensive <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">roof replacement services</a>.
         </p>
       </div>
 
@@ -419,10 +419,10 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Amarillo & West Texas</h2>
         <p className="text-lg mb-4">
-          We provide <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roofing</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing</a> services throughout the region:
+          We provide <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roofing</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a> services throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Roofing</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roofing</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>

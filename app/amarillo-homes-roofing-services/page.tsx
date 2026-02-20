@@ -174,7 +174,7 @@ export default function Page() {
 
         <p>
           At 5 Star Roofing, we offer a wide range of services to address all your <strong>roofing needs</strong>.
-          From minor repairs to complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacements in Amarillo</a>,
+          From minor repairs to complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacements in Amarillo</a>,
           we have the expertise and equipment to handle any residential roofing project throughout West Texas.
         </p>
 
@@ -195,7 +195,7 @@ export default function Page() {
         <p>
           Customer satisfaction is our top priority. We strive to provide exceptional services to
           every homeowner we work with. Our commitment to quality has made us one of the most trusted
-          <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline"> residential roofing contractors in Amarillo</a>.
+          <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline"> residential roofing contractors in Amarillo</a>.
         </p>
 
         <p>
@@ -225,7 +225,7 @@ export default function Page() {
         <p>
           Hail damage is one of the most common roofing issues in Amarillo and the surrounding Texas Panhandle region.
           Even seemingly minor hail can cause significant damage that compromises your roof's integrity. Our expert
-          team provides thorough <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage inspections and repairs</a> to
+          team provides thorough <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage inspections and repairs</a> to
           ensure your home remains protected.
         </p>
 
@@ -239,9 +239,9 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Our Residential Roofing Services</h2>
 
         <ul className="list-disc pl-6 space-y-2">
-          <li><a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement</a></li>
-          <li><a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">Hail Damage Repair</a></li>
-          <li><a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">Free Roof Inspections</a></li>
+          <li><a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement</a></li>
+          <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Hail Damage Repair</a></li>
+          <li><a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">Free Roof Inspections</a></li>
           <li><a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold hover:underline">Asphalt Shingle Installation</a></li>
           <li><a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold hover:underline">Metal Roofing</a></li>
           <li>Insurance Claim Assistance</li>
@@ -364,11 +364,11 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/residential-roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/residential-roofing-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Residential Roofing</h3>
             <p className="text-sm text-gray-600">Complete residential roofing solutions for Amarillo homes</p>
           </a>
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
             <p className="text-sm text-gray-600">Expert hail damage assessment and insurance claims</p>
           </a>

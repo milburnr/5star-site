@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/canyon-tx-roofing/' },
+  alternates: { canonical: 'https://5starroofingpros.com/canyon-texas-roofing/' },
   title: 'Canyon TX Roofing | Professional Roofer Serving Canyon,',
   description: 'Trusted roofing contractor serving Canyon, TX from our Amarillo location. hail damage repair, residential & commercial roofing.',
 };
@@ -23,7 +23,7 @@ export default function CanyonTXRoofingPage() {
               },
               {
                       "name": "Canyon",
-                      "url": "/canyon-tx-roofing/"
+                      "url": "/canyon-texas-roofing/"
               }
       ]} />
 
@@ -161,7 +161,7 @@ export default function CanyonTXRoofingPage() {
                       with <a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">Class 4 impact-resistant shingles</a>.
                     </p>
                     <a
-                      href="/hail-damage-roof-repair-in-amarillo/"
+                      href="/hail-damage-repair-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Learn More About Our Hail Damage Services →
@@ -292,7 +292,7 @@ export default function CanyonTXRoofingPage() {
                       can use for insurance purposes. 100% free with no obligation.
                     </p>
                     <a
-                      href="/roof-inspections-in-amarillo/"
+                      href="/roof-inspections-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Schedule Your Free Canyon Inspection →
@@ -359,7 +359,7 @@ export default function CanyonTXRoofingPage() {
               <div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Same Hail Belt as Amarillo</h3>
                 <p className="text-gray-700">
-                  Canyon experiences the same severe hail storms as nearby <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">Amarillo</a>.
+                  Canyon experiences the same severe hail storms as nearby <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">Amarillo</a>.
                   The Texas Panhandle sees 8-12 significant hail events annually, with baseball-sized hail not
                   uncommon. Class 4 impact-resistant shingles are essential for protecting your investment and
                   qualifying for insurance discounts.
@@ -412,7 +412,7 @@ export default function CanyonTXRoofingPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Insurance Claims Expertise</h3>
                 <p className="text-gray-600">
-                  We&apos;ve handled hundreds of <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">insurance claims</a> in
+                  We&apos;ve handled hundreds of <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">insurance claims</a> in
                   Canyon and throughout the Panhandle. We know exactly what adjusters look for, how to document
                   damage properly, and how to advocate for full coverage. We handle all the paperwork so you don&apos;t
                   have to.
@@ -601,7 +601,7 @@ export default function CanyonTXRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "@id": "https://5starroofingpros.com/canyon-tx-roofing/",
+            "@id": "https://5starroofingpros.com/canyon-texas-roofing/",
             "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",

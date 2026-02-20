@@ -157,8 +157,8 @@ export default function Page() {
         <p>
           The Texas Panhandle experiences extreme temperature fluctuations, intense UV exposure, high winds,
           and periodic severe weather events including hailstorms. These conditions create unique challenges
-          for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and
-          <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline"> commercial roofing systems</a>.
+          for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline"> commercial roofing systems</a>.
           Understanding these weather patterns is crucial for homeowners in Amarillo, as well as surrounding
           communities like Midland, Odessa, and Lubbock.
         </p>
@@ -369,7 +369,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">The Impact of Hail on Amarillo Roofs</h2>
 
         <p>
-          <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Hail damage</a> is
+          <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Hail damage</a> is
           perhaps the most significant weather-related threat to roofs in the Amarillo area. The Texas Panhandle
           sits squarely in "Hail Alley," experiencing some of the highest rates of hail activity in the United
           States. Even small hail can cause cumulative damage over time, while large hailstones can severely
@@ -814,11 +814,11 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Roofing Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
             <p className="text-sm text-gray-600">Expert hail damage assessment and insurance claims assistance</p>
           </a>
-          <a href="/roof-replacement-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/roof-replacement-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Roof Replacement</h3>
             <p className="text-sm text-gray-600">Complete roof replacement with weather-resistant materials</p>
           </a>

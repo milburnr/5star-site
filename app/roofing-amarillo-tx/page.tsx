@@ -262,7 +262,7 @@ export default function AmarilloRoofingPage() {
               Welcome to 5 Star Commercial Roofing, Amarillo's premier roofing contractor headquartered right here in the Texas Panhandle. Since 2014, we've been protecting Amarillo homes and businesses from the harsh realities of West Texas weather—particularly the devastating hail storms that strike our region multiple times every year.
             </p>
             <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-              Located at 2909 S Western St in Amarillo, we're your local roofing experts who understand exactly what your roof faces living in "Hail Alley." From <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage assessment and insurance claims</a> to complete <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roof replacement</a> and <a href="/commercial-roofing-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing systems</a>, we've completed over 1,500 projects across every Amarillo neighborhood.
+              Located at 2909 S Western St in Amarillo, we're your local roofing experts who understand exactly what your roof faces living in "Hail Alley." From <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage assessment and insurance claims</a> to complete <a href="/residential-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roof replacement</a> and <a href="/commercial-roofing-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing systems</a>, we've completed over 1,500 projects across every Amarillo neighborhood.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed">
               When hail strikes, time is critical. We offer same-day damage inspections and work directly with your insurance company to maximize coverage—our goal is getting your claim approved and your roof replaced with minimal out-of-pocket expense. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free roof inspection today.
@@ -336,7 +336,7 @@ export default function AmarilloRoofingPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <FadeIn delay={0.1}>
-                <InteractiveCard href="/hail-damage-roof-repair-amarillo-texas/">
+                <InteractiveCard href="/hail-damage-repair-amarillo/">
                   <div className="space-y-4">
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-39-1280w.jpg" alt="Hail damage roof repair in Amarillo TX - Insurance claim assistance" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🌨️ Hail Damage Roof Repair</h3>
@@ -351,7 +351,7 @@ export default function AmarilloRoofingPage() {
               </FadeIn>
 
               <FadeIn delay={0.2}>
-                <InteractiveCard href="/residential-roofing-amarillo-texas/">
+                <InteractiveCard href="/residential-roofing-amarillo/">
                   <div className="space-y-4">
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-40-1280w.jpg" alt="Residential roofing services in Amarillo TX - New roof installation" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏠 Residential Roofing</h3>
@@ -381,7 +381,7 @@ export default function AmarilloRoofingPage() {
               </FadeIn>
 
               <FadeIn delay={0.4}>
-                <InteractiveCard href="/roof-repair-services-in-amarillo/">
+                <InteractiveCard href="/roof-repair-amarillo/">
                   <div className="space-y-4">
                     <p className="text-gray-600 leading-relaxed">
                       professional roofing services throughout Amarillo. Active leaks, storm damage, wind-blown shingles—we respond within 2-4 hours with temporary tarps and temporary repairs, then coordinate permanent solutions quickly.
@@ -394,7 +394,7 @@ export default function AmarilloRoofingPage() {
               </FadeIn>
 
               <FadeIn delay={0.5}>
-                <InteractiveCard href="/roof-inspection-amarillo-texas/">
+                <InteractiveCard href="/roof-inspections-amarillo/">
                   <div className="space-y-4">
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-43-1280w.jpg" alt="Professional roof inspection in Amarillo TX - Free assessment" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔍 Free Roof Inspections</h3>

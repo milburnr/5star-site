@@ -82,10 +82,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Flash Flood & Heavy Rain Damage in Amarillo</h2>
         <p className="text-lg">
-          While <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a> averages only 20 inches of annual rainfall, when it rains it pours—literally. The <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences sudden, intense thunderstorms that can drop 2-4 inches of rain in under an hour, overwhelming even well-maintained drainage systems. Flash flooding, wind-driven rain, and sustained downpours expose weaknesses in <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roofing systems</a> that might otherwise go unnoticed for years.
+          While <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a> averages only 20 inches of annual rainfall, when it rains it pours—literally. The <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Texas Panhandle</a> experiences sudden, intense thunderstorms that can drop 2-4 inches of rain in under an hour, overwhelming even well-maintained drainage systems. Flash flooding, wind-driven rain, and sustained downpours expose weaknesses in <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roofing systems</a> that might otherwise go unnoticed for years.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we specialize in identifying and repairing heavy rain damage for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo. From prompt leak repairs during active storms to comprehensive water damage restoration, we help property owners recover quickly and prevent future problems.
+          At 5 Star Commercial Roofing, we specialize in identifying and repairing heavy rain damage for both <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial properties</a> throughout Amarillo. From prompt leak repairs during active storms to comprehensive water damage restoration, we help property owners recover quickly and prevent future problems.
         </p>
       </div>
 
@@ -487,7 +487,7 @@ export default function Page() {
           Rain damage services throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Rain Damage</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Rain Damage</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Leak Repair</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Flash Flood Damage</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Storm Damage</a>

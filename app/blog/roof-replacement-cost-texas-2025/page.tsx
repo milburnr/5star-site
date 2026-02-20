@@ -392,8 +392,8 @@ export default function RoofReplacementCostBlogPage() {
                 <p className="font-semibold text-brand-brown mb-2">Related Services</p>
                 <ul className="space-y-2">
                   <li><a href="/blog/" className="text-brand-gold hover:underline">← Back to Blog</a></li>
-                  <li><a href="/residential-roofing-amarillo-texas/" className="text-brand-gold hover:underline">Residential Roofing in Amarillo</a></li>
-                  <li><a href="/residential-roofing-lubbock-texas/" className="text-brand-gold hover:underline">Residential Roofing in Lubbock</a></li>
+                  <li><a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">Residential Roofing in Amarillo</a></li>
+                  <li><a href="/residential-roofing-lubbock/" className="text-brand-gold hover:underline">Residential Roofing in Lubbock</a></li>
                   <li><a href="/blog/how-to-file-hail-damage-insurance-claim/" className="text-brand-gold hover:underline">How to File Hail Damage Insurance Claims</a></li>
                 </ul>
               </div>

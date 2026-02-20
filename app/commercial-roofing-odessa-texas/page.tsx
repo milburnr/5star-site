@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-odessa-texas/' },
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-odessa/' },
   title: 'Commercial Roofing Odessa TX | 5 Star Roofing',
   description: "Expert commercial roofing in Odessa, TX. TPO, EPDM, flat roof systems for Permian Basin businesses. Free estimates. Call (806) 622-6041.",
 };
@@ -16,7 +16,7 @@ export default function CommercialOdessaPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Commercial Roofing", url: "/commercial-roofing/" },
-        { name: "Odessa", url: "/commercial-roofing-odessa-texas/" }
+        { name: "Odessa", url: "/commercial-roofing-odessa/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -25,7 +25,7 @@ export default function CommercialOdessaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/commercial-roofing-odessa-texas/#localbusiness",
+        "@id": "https://5starroofingpros.com/commercial-roofing-odessa/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -33,7 +33,7 @@ export default function CommercialOdessaPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 31.8457, "longitude": -102.3676 },
-        "url": "https://5starroofingpros.com/commercial-roofing-odessa-texas/",
+        "url": "https://5starroofingpros.com/commercial-roofing-odessa/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert commercial roofing services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -192,10 +192,10 @@ export default function CommercialOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Service Area Across West Texas</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 mb-6">
-                While we specialize in commercial roofing throughout Odessa and the Permian Basin, 5 Star Commercial Roofing proudly serves the entire Texas Panhandle and West Texas region. Our team brings the same expertise and quality workmanship to businesses in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">Midland</a>, <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">Lubbock</a>, and surrounding communities.
+                While we specialize in commercial roofing throughout Odessa and the Permian Basin, 5 Star Commercial Roofing proudly serves the entire Texas Panhandle and West Texas region. Our team brings the same expertise and quality workmanship to businesses in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">Midland</a>, <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">Lubbock</a>, and surrounding communities.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                From the oil fields of the Permian Basin to the agricultural centers of the Texas Panhandle, we understand the unique challenges that commercial buildings face in this region. Our experience with <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">hail damage repairs</a>, extreme weather conditions, and industrial environments makes us the trusted choice for businesses throughout West Texas.
+                From the oil fields of the Permian Basin to the agricultural centers of the Texas Panhandle, we understand the unique challenges that commercial buildings face in this region. Our experience with <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">hail damage repairs</a>, extreme weather conditions, and industrial environments makes us the trusted choice for businesses throughout West Texas.
               </p>
             </div>
           </section>
@@ -297,9 +297,9 @@ export default function CommercialOdessaPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/odessa-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Odessa Services</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-repair-odessa-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Storm Damage Repair</a>
+              <a href="/hail-damage-repair-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Storm Damage Repair</a>
               <span className="text-gray-400">•</span>
               <a href="/commercial-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing Info</a>
             </div>

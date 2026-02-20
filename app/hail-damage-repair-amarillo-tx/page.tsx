@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
-  alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-amarillo-tx/" },
+  alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-amarillo/" },
   description: "Expert hail damage roof repair in Amarillo TX. prompt response, insurance claim help, Class 4 impact-resistant shingles. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
 
 export default function HailDamageRepairAmarilloPage() {
@@ -25,7 +25,7 @@ export default function HailDamageRepairAmarilloPage() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/hail-damage-repair-amarillo-tx/"
+                      "url": "/hail-damage-repair-amarillo/"
               }
       ]} />
 
@@ -35,7 +35,7 @@ export default function HailDamageRepairAmarilloPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo-tx/#localbusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -43,7 +43,7 @@ export default function HailDamageRepairAmarilloPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/hail-damage-repair-amarillo-tx/",
+        "url": "https://5starroofingpros.com/hail-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",

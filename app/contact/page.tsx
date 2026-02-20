@@ -279,7 +279,7 @@ export default function ContactPage() {
                 { city: 'Midland', icon: '🌆', link: '/midland-tx-roofing/' },
                 { city: 'Odessa', icon: '🏘️', link: '/odessa-tx-roofing/' },
                 { city: 'Lubbock', icon: '🌃', link: '/lubbock-tx-roofing/' },
-                { city: 'Canyon', icon: '🏞️', link: '/canyon-tx-roofing/' },
+                { city: 'Canyon', icon: '🏞️', link: '/canyon-texas-roofing/' },
                 { city: 'Pampa', icon: '🏡', link: '/service-areas/' },
                 { city: 'Borger', icon: '🏠', link: '/service-areas/' },
                 { city: 'Hereford', icon: '🌾', link: '/service-areas/' },
@@ -376,19 +376,19 @@ export default function ContactPage() {
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  Expert <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">hail damage repair</a> services with insurance claim assistance throughout the Texas Panhandle.
+                  Expert <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">hail damage repair</a> services with insurance claim assistance throughout the Texas Panhandle.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing</h3>
                 <p className="text-gray-700 mb-4">
-                  Complete <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">residential roofing</a> solutions including repairs, replacements, and new installations.
+                  Complete <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">residential roofing</a> solutions including repairs, replacements, and new installations.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
                 <p className="text-gray-700 mb-4">
-                  Specialized <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">commercial roofing</a> for businesses, warehouses, and industrial facilities.
+                  Specialized <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">commercial roofing</a> for businesses, warehouses, and industrial facilities.
                 </p>
               </div>
             </div>

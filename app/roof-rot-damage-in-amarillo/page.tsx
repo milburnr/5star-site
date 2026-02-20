@@ -83,10 +83,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Roof Rot: A Hidden Threat to Texas Panhandle Homes</h2>
         <p className="text-lg">
-          Roof rot is one of the most serious—and often overlooked—types of <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roof damage</a> in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, and surrounding areas. Unlike <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage</a> that appears immediately after a storm, roof rot develops slowly over months or years as moisture infiltrates your roof decking, rafters, and sheathing. By the time you notice sagging ceilings or visible water stains, the damage may be extensive and costly.
+          Roof rot is one of the most serious—and often overlooked—types of <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roof damage</a> in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, and surrounding areas. Unlike <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage</a> that appears immediately after a storm, roof rot develops slowly over months or years as moisture infiltrates your roof decking, rafters, and sheathing. By the time you notice sagging ceilings or visible water stains, the damage may be extensive and costly.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we specialize in identifying and repairing roof rot damage before it compromises your home's structural integrity. Our comprehensive <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">inspections</a> use moisture detection technology to find hidden rot, and we work directly with insurance companies to ensure coverage for qualifying damage—whether for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> or <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a>.
+          At 5 Star Commercial Roofing, we specialize in identifying and repairing roof rot damage before it compromises your home's structural integrity. Our comprehensive <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">inspections</a> use moisture detection technology to find hidden rot, and we work directly with insurance companies to ensure coverage for qualifying damage—whether for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> or <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial properties</a>.
         </p>
       </div>
 
@@ -367,7 +367,7 @@ export default function Page() {
           <div className="step-number">6</div>
           <div className="step-content">
             <h5 className="step-title">Complete Roof Restoration</h5>
-            <p className="step-text">Install new impact-resistant shingles or <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">metal roofing</a> designed for extreme weather conditions in the Texas Panhandle and West Texas.</p>
+            <p className="step-text">Install new impact-resistant shingles or <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">metal roofing</a> designed for extreme weather conditions in the Texas Panhandle and West Texas.</p>
           </div>
         </div>
       </div>
@@ -661,7 +661,7 @@ export default function Page() {
           Expert roof rot repair and structural restoration services throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Rot Repair</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Rot Repair</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Structural Repairs</a>
           <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
         </div>

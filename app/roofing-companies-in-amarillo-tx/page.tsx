@@ -88,7 +88,7 @@ export default function Page() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">What to Look for in Amarillo Roofing Companies</h2>
             <p className="text-lg text-gray-700 mb-6">
-              Not all roofing companies in Amarillo TX are created equal. The Texas Panhandle's extreme weather—frequent <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail storms</a>, high winds, extreme heat, and temperature swings—demands roofing contractors with specialized expertise and proven performance. Here's what separates the best from the rest:
+              Not all roofing companies in Amarillo TX are created equal. The Texas Panhandle's extreme weather—frequent <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail storms</a>, high winds, extreme heat, and temperature swings—demands roofing contractors with specialized expertise and proven performance. Here's what separates the best from the rest:
             </p>
 
             <div className="space-y-6">
@@ -134,7 +134,7 @@ export default function Page() {
                   Top roofing companies use premium materials from leading manufacturers (Owens Corning, GAF, CertainTeed for residential; Firestone, Carlisle, GAF for commercial). They should be factory-certified installers, which provides better warranties and ensures proper installation techniques.
                 </p>
                 <p className="text-gray-700">
-                  We exclusively install Class 4 impact-resistant shingles for <a href="/residential-roofing-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roofing</a> and commercial-grade TPO/PVC for <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing</a>—all backed by manufacturer warranties up to 50 years.
+                  We exclusively install Class 4 impact-resistant shingles for <a href="/residential-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">residential roofing</a> and commercial-grade TPO/PVC for <a href="/commercial-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing</a>—all backed by manufacturer warranties up to 50 years.
                 </p>
               </div>
 

@@ -156,7 +156,7 @@ export default function GalleryPage() {
               ))}
             </div>
             <div className="text-center mt-8">
-              <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold underline">
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold underline">
                 Learn More About Hail Damage Repair →
               </a>
             </div>

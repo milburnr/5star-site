@@ -83,10 +83,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Winter Storm Damage in the Texas Panhandle</h2>
         <p className="text-lg">
-          While the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> is better known for <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a> and high winds, winter storms can cause severe <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roof damage</a>—especially during freeze-thaw cycles common in Amarillo, <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">Canyon</a>, and surrounding areas. When temperatures drop below freezing for days at a time (as happened during Winter Storm Uri in 2021), snow accumulation, ice dams, and rapid temperature changes can compromise even well-maintained roofs.
+          While the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> is better known for <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail</a> and high winds, winter storms can cause severe <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roof damage</a>—especially during freeze-thaw cycles common in Amarillo, <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">Canyon</a>, and surrounding areas. When temperatures drop below freezing for days at a time (as happened during Winter Storm Uri in 2021), snow accumulation, ice dams, and rapid temperature changes can compromise even well-maintained roofs.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we specialize in identifying and repairing winter <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> across the Texas Panhandle. From ice dam removal to freeze-thaw damage repair, we help homeowners and businesses recover from winter weather events and prevent future cold-weather problems. For severe damage, we also provide <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">complete roof replacement</a> services.
+          At 5 Star Commercial Roofing, we specialize in identifying and repairing winter <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage</a> across the Texas Panhandle. From ice dam removal to freeze-thaw damage repair, we help homeowners and businesses recover from winter weather events and prevent future cold-weather problems. For severe damage, we also provide <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">complete roof replacement</a> services.
         </p>
       </div>
 
@@ -623,13 +623,13 @@ export default function Page() {
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
         <h3 className="font-bold mb-3">❄️ Post-Winter Roof Inspection</h3>
-        <p>After severe winter weather in the Texas Panhandle, schedule a professional <a href="/roof-inspections-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof inspection</a> even if you don't see obvious damage. Freeze-thaw cycling and ice dam damage may not become apparent until spring rains reveal compromised areas.</p>
+        <p>After severe winter weather in the Texas Panhandle, schedule a professional <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof inspection</a> even if you don't see obvious damage. Freeze-thaw cycling and ice dam damage may not become apparent until spring rains reveal compromised areas.</p>
       </div>
 
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Texas Panhandle</h2>
         <p className="text-lg mb-4">
-          Winter storm damage services for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties:
+          Winter storm damage services for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial</a> properties:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Winter Damage</a>

@@ -86,7 +86,7 @@ export default function Page() {
                 </a>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <a href="/hail-damage-repair-amarillo-tx/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
+                <a href="/hail-damage-repair-amarillo/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
                   <div className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-1 sm:mb-2 md:mb-3">$50M+</div>
                   <div className="text-brand-brown font-semibold text-xs sm:text-sm md:text-lg group-hover:text-brand-gold transition-colors">Claims Helped</div>
                 </a>
@@ -150,7 +150,7 @@ export default function Page() {
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1} direction="left">
-              <a href="/hail-damage-roof-repair-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
+              <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg" alt="Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Commercial Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🌨️ Hail Damage Repair</h3>
@@ -163,7 +163,7 @@ export default function Page() {
             </FadeIn>
 
             <FadeIn delay={0.2} direction="up">
-              <a href="/storm-damage-roof-repair-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
+              <a href="/storm-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg" alt="Storm Damage Restoration" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">⛈️ Storm Damage Restoration</h3>
@@ -176,7 +176,7 @@ export default function Page() {
             </FadeIn>
 
             <FadeIn delay={0.3} direction="right">
-              <a href="/roof-inspections-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
+              <a href="/roof-inspections-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-1280w.jpg" alt="Free Roof Inspections" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🔍 Free Roof Inspections</h3>
@@ -239,7 +239,7 @@ export default function Page() {
               <div className="text-3xl">✓</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Local Hail Damage Specialists</h3>
-                <p>We understand West Texas weather and know how to identify and <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">repair hail damage correctly</a>. The Texas Panhandle experiences 8-12 hailstorms annually—we've seen it all.</p>
+                <p>We understand West Texas weather and know how to identify and <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">repair hail damage correctly</a>. The Texas Panhandle experiences 8-12 hailstorms annually—we've seen it all.</p>
               </div>
             </div>
 
@@ -247,7 +247,7 @@ export default function Page() {
               <div className="text-3xl">✓</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Insurance Claim Experts</h3>
-                <p>We handle all the paperwork and work directly with adjusters to get you full coverage. From <a href="/roof-inspections-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free roof inspections</a> to claim filing, we manage the entire process.</p>
+                <p>We handle all the paperwork and work directly with adjusters to get you full coverage. From <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free roof inspections</a> to claim filing, we manage the entire process.</p>
               </div>
             </div>
 
@@ -255,7 +255,7 @@ export default function Page() {
               <div className="text-3xl">✓</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Fast storm response</h3>
-                <p>After a storm, time is critical. We offer same-day inspections and rapid <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">storm damage repair</a> scheduling to minimize interior damage.</p>
+                <p>After a storm, time is critical. We offer same-day inspections and rapid <a href="/storm-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">storm damage repair</a> scheduling to minimize interior damage.</p>
               </div>
             </div>
 
@@ -601,7 +601,7 @@ export default function Page() {
                     How do I know if my roof has hail damage in Amarillo or West Texas?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed pb-6">
-                    Look for dents or dings on metal vents, gutters, and air conditioning units—these indicate hail hit your property. On the roof itself, hail damage appears as circular cracks, bruised spots, or missing granules on shingles. However, many signs of hail damage are not visible from the ground. After any significant storm in the Texas Panhandle, schedule a <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">professional roof inspection</a> to get an accurate assessment.
+                    Look for dents or dings on metal vents, gutters, and air conditioning units—these indicate hail hit your property. On the roof itself, hail damage appears as circular cracks, bruised spots, or missing granules on shingles. However, many signs of hail damage are not visible from the ground. After any significant storm in the Texas Panhandle, schedule a <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">professional roof inspection</a> to get an accurate assessment.
                   </AccordionContent>
                 </AccordionItem>
 
@@ -637,7 +637,7 @@ export default function Page() {
                     Should I call my insurance company or a roofing contractor first?
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-700 leading-relaxed pb-6">
-                    It's generally best to contact a reputable roofing contractor first. A professional inspection provides detailed documentation of the damage, which strengthens your insurance claim. Your contractor can identify damage that may not be obvious and prepare a comprehensive report before the adjuster arrives. In West Texas, experienced <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">storm restoration contractors</a> understand local insurance processes and can help ensure nothing is overlooked.
+                    It's generally best to contact a reputable roofing contractor first. A professional inspection provides detailed documentation of the damage, which strengthens your insurance claim. Your contractor can identify damage that may not be obvious and prepare a comprehensive report before the adjuster arrives. In West Texas, experienced <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm restoration contractors</a> understand local insurance processes and can help ensure nothing is overlooked.
                   </AccordionContent>
                 </AccordionItem>
 

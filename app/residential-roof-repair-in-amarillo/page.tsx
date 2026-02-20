@@ -3,7 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/residential-roof-repair-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo/' },
   title: 'Residential Roof Repair Amarillo TX | 5 Star',
   description: 'Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -94,7 +94,7 @@ const serviceSchema = {
       }
     ]
   },
-  "url": "https://5starcommercialroofing.com/residential-roof-repair-in-amarillo"
+  "url": "https://5starcommercialroofing.com/residential-roofing-amarillo"
 };
 
 export default function Page() {
@@ -110,7 +110,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/residential-roof-repair-in-amarillo/"
+                      "url": "/residential-roofing-amarillo/"
               }
       ]} />
 
@@ -120,7 +120,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/residential-roof-repair-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/residential-roofing-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -128,7 +128,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/residential-roof-repair-in-amarillo/",
+        "url": "https://5starroofingpros.com/residential-roofing-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -149,7 +149,7 @@ export default function Page() {
             When it comes to residential roof repair in Amarillo, homeowners face unique challenges due to the extreme weather conditions in the Texas Panhandle. High winds, frequent hailstorms, intense UV exposure, and dramatic temperature swings can all cause significant damage to roofs. The region sits in America's hail belt, experiencing an average of 8-12 hailstorms per year, making roof maintenance and regular roof inspections essential for catching potential roof leaks before they become major problems.
           </p>
           <p className="text-lg mt-4">
-            At 5 Star Commercial Roofing, we provide comprehensive <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> throughout Amarillo, Midland, Odessa, and Lubbock. Our experienced team understands the specific vulnerabilities that West Texas weather creates, and we deliver prompt, reliable roof repair services to efficiently restore your roof and ensure your home is protected from the elements. Whether you need storm damage <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> or routine maintenance, we're here to help.
+            At 5 Star Commercial Roofing, we provide comprehensive <a href="/residential-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> throughout Amarillo, Midland, Odessa, and Lubbock. Our experienced team understands the specific vulnerabilities that West Texas weather creates, and we deliver prompt, reliable roof repair services to efficiently restore your roof and ensure your home is protected from the elements. Whether you need storm damage <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> or routine maintenance, we're here to help.
           </p>
         </div>
 
@@ -327,7 +327,7 @@ export default function Page() {
               <li>Repeated repair needs indicating systemic failure</li>
             </ul>
             <p className="mt-4">
-              We provide honest recommendations based on your specific situation, never pushing unnecessary services. If repair is feasible and cost-effective, we'll tell you. If replacement makes more sense long-term, we'll explain why. For more information on full replacements, visit our <a href="/residential-roof-replacement-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">residential roof replacement</a> page.
+              We provide honest recommendations based on your specific situation, never pushing unnecessary services. If repair is feasible and cost-effective, we'll tell you. If replacement makes more sense long-term, we'll explain why. For more information on full replacements, visit our <a href="/roof-replacement-amarillo/" className="text-brand-brown hover:text-brand-gold underline">residential roof replacement</a> page.
             </p>
           </div>
         </div>

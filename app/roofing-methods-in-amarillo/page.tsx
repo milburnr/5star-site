@@ -75,10 +75,10 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Modern Roofing Techniques for Texas Panhandle Durability</h2>
         <p className="text-lg">
-          When it comes to <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing in Amarillo</a>, installation method matters just as much as material selection. The <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">severe hailstorms</a>, high winds, and extreme temperature swings that define the Texas Panhandle climate demand roofing methods that go beyond standard practices used in milder regions.
+          When it comes to <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">roofing in Amarillo</a>, installation method matters just as much as material selection. The <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">severe hailstorms</a>, high winds, and extreme temperature swings that define the Texas Panhandle climate demand roofing methods that go beyond standard practices used in milder regions.
         </p>
         <p className="text-lg mt-4">
-          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've spent over a decade perfecting installation techniques specifically for Amarillo's challenging conditions. Whether you need <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> or <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing</a>, our proven methods ensure your roof stands up to whatever West Texas weather throws at it.
+          At <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">5 Star Commercial Roofing</a>, we've spent over a decade perfecting installation techniques specifically for Amarillo's challenging conditions. Whether you need <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> or <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a>, our proven methods ensure your roof stands up to whatever West Texas weather throws at it.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-4">The Science Behind Amarillo Roofing Methods</h3>
@@ -720,13 +720,13 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Professional Roofing Services Throughout West Texas</h2>
         <p className="text-lg mb-4">
-          Expert installation methods for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout the Texas Panhandle and West Texas region:
+          Expert installation methods for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial</a> properties throughout the Texas Panhandle and West Texas region:
         </p>
         <div className="grid md:grid-cols-4 gap-4">
           <div>
             <h4 className="font-bold mb-2">Panhandle Cities</h4>
             <div className="space-y-1 text-sm">
-              <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline block">• Canyon</a>
+              <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline block">• Canyon</a>
               <a href="/borger-tx-roofing/" className="text-brand-gold hover:underline block">• Borger</a>
               <a href="/pampa-tx-roofing/" className="text-brand-gold hover:underline block">• Pampa</a>
               <a href="/dumas-tx-roofing/" className="text-brand-gold hover:underline block">• Dumas</a>
@@ -753,7 +753,7 @@ export default function Page() {
           <div>
             <h4 className="font-bold mb-2">Specialized Services</h4>
             <div className="space-y-1 text-sm">
-              <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline block">• Hail Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline block">• Hail Damage Repair</a>
               <a href="/services/" className="text-brand-gold hover:underline block">• Storm Damage Services</a>
               <a href="/commercial-roofing/" className="text-brand-gold hover:underline block">• Commercial Systems</a>
               <a href="/service-areas/" className="text-brand-gold hover:underline block">• All Service Areas</a>
@@ -765,7 +765,7 @@ export default function Page() {
       <section className="cta-section mt-12">
         <h2 className="cta-title">Experience the 5 Star Installation Method</h2>
         <p className="cta-text">
-          Get a <a href="/roof-inspections-in-amarillo/" className="text-white hover:underline">free roof inspection</a> and detailed estimate. We'll explain our installation process and show you why method matters. Serving Amarillo and the Texas Panhandle for over 10 years.
+          Get a <a href="/roof-inspections-amarillo/" className="text-white hover:underline">free roof inspection</a> and detailed estimate. We'll explain our installation process and show you why method matters. Serving Amarillo and the Texas Panhandle for over 10 years.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">

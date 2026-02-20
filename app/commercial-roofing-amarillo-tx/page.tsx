@@ -8,7 +8,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo-tx/' },
+  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo/' },
   title: 'Amarillo TX Roofing | Trusted Local Roofers',
   description: 'Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -168,7 +168,7 @@ export default function CommercialRoofingAmarilloPage() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/commercial-roofing-amarillo-tx/"
+                      "url": "/commercial-roofing-amarillo/"
               }
       ]} />
 
@@ -178,7 +178,7 @@ export default function CommercialRoofingAmarilloPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/commercial-roofing-amarillo-tx/#localbusiness",
+        "@id": "https://5starroofingpros.com/commercial-roofing-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -186,7 +186,7 @@ export default function CommercialRoofingAmarilloPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/commercial-roofing-amarillo-tx/",
+        "url": "https://5starroofingpros.com/commercial-roofing-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert commercial roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -290,7 +290,7 @@ export default function CommercialRoofingAmarilloPage() {
               When your Amarillo commercial property sits in "Hail Alley," you need more than a standard flat roof—you need a roofing system engineered to withstand frequent hail bombardment, extreme temperature swings, and high winds. Since 2014, 5 Star Commercial Roofing has protected over 500 Amarillo businesses with premium TPO, PVC, EPDM, standing seam metal, and built-up roofing systems designed specifically for the harsh Texas Panhandle climate.
             </p>
             <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-              Headquartered right here in Amarillo at 2909 S Western St, we're your local <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing specialists</a> who understand the unique challenges facing downtown office buildings, retail centers along I-40, industrial warehouses, medical facilities, and multi-family properties throughout the Texas Panhandle. From storm damage <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repairs</a> to complete roof replacements, we minimize business disruption while maximizing your insurance coverage.
+              Headquartered right here in Amarillo at 2909 S Western St, we're your local <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">commercial roofing specialists</a> who understand the unique challenges facing downtown office buildings, retail centers along I-40, industrial warehouses, medical facilities, and multi-family properties throughout the Texas Panhandle. From storm damage <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">hail damage repairs</a> to complete roof replacements, we minimize business disruption while maximizing your insurance coverage.
             </p>
             <p className="text-xl text-gray-600 leading-relaxed">
               Commercial property owners choose us because we offer <strong>prompt response</strong>, work directly with insurance adjusters to ensure maximum claim approval, and install only premium roofing systems backed by comprehensive warranties. Whether you manage a small retail shop or oversee multiple industrial buildings, we'll protect your investment with roofing solutions built to last 20-30+ years. Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041)</a> for your free commercial roof inspection.
@@ -948,7 +948,7 @@ export default function CommercialRoofingAmarilloPage() {
               </FadeIn>
 
               <FadeIn delay={0.2}>
-                <InteractiveCard href="/hail-damage-repair-amarillo-tx/">
+                <InteractiveCard href="/hail-damage-repair-amarillo/">
                   <div className="space-y-4">
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-15-1280w.jpg" alt="Hail damage repair Amarillo TX - Commercial insurance claims" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Hail Damage Repair Amarillo</h3>

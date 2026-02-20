@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-hail-damage-repair-services-in-amarillo-tx/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-amarillo/' },
   title: 'Hail Damage Roof Repair Amarillo | 5 Star Roofing',
   description: 'Premier hail damage roof repair services in Amarillo TX. Hail Alley specialists with 25+ years experience. Free inspections, insurance claim assistance, Class 4 impact-resistant upgrades. Licensed, bonded, insured. storm response available throughout Potter & Randall Counties.',
 };
@@ -23,7 +23,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/roof-hail-damage-repair-services-in-amarillo-tx/"
+                      "url": "/hail-damage-repair-amarillo/"
               }
       ]} />
 
@@ -33,7 +33,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/roof-hail-damage-repair-services-in-amarillo-tx/#localbusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -41,7 +41,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/roof-hail-damage-repair-services-in-amarillo-tx/",
+        "url": "https://5starroofingpros.com/hail-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -82,10 +82,10 @@ export default function Page() {
         <FadeIn>
           <div className="max-w-4xl mx-auto mb-16">
             <p className="text-2xl text-gray-700 mb-6">
-              <strong>Amarillo sits in the heart of Hail Alley.</strong> When homeowners in Amarillo TX find themselves faced with the aftermath of a hailstorm, addressing <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">roof hail damage</a> promptly becomes their top priority. The Texas Panhandle experiences some of the most severe hail storms in the United States, with baseball to softball-sized hail damaging thousands of roofs every year.
+              <strong>Amarillo sits in the heart of Hail Alley.</strong> When homeowners in Amarillo TX find themselves faced with the aftermath of a hailstorm, addressing <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">roof hail damage</a> promptly becomes their top priority. The Texas Panhandle experiences some of the most severe hail storms in the United States, with baseball to softball-sized hail damaging thousands of roofs every year.
             </p>
             <p className="text-xl text-gray-600">
-              At 5 Star Commercial Roofing, we specialize in efficient roof hail damage repair services throughout Amarillo TX and surrounding areas. Our team provides swift and professional <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing</a> services with expert care and top-notch craftsmanship. We handle everything from free inspections to complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof restoration</a>, working directly with your insurance company to maximize your claim.
+              At 5 Star Commercial Roofing, we specialize in efficient roof hail damage repair services throughout Amarillo TX and surrounding areas. Our team provides swift and professional <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a> services with expert care and top-notch craftsmanship. We handle everything from free inspections to complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof restoration</a>, working directly with your insurance company to maximize your claim.
             </p>
           </div>
         </FadeIn>
@@ -549,15 +549,15 @@ export default function Page() {
           <section className="mt-16 pt-8 border-t border-gray-200">
             <h3 className="text-2xl font-bold text-center mb-6 text-brand-brown">Related Services</h3>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
               <span className="text-gray-400">•</span>
-              <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Replacement</a>
+              <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Replacement</a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
+              <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
+              <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Repair</a>
+              <a href="/roof-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Roof Repair</a>
               <span className="text-gray-400">•</span>
               <a href="/contact/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Contact Us</a>
             </div>

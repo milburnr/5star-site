@@ -99,7 +99,7 @@ export default function PlainviewRoofingPage() {
               As Plainview's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Hale County and the entire Texas Panhandle. Whether you need commercial roofing, residential roofing for your home, or storm damage repairs, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
-              Plainview's climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Hale County properties year after year.
+              Plainview's climate—with severe hailstorms, high winds, and extreme temperature swings—demands roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and installation techniques proven to protect Hale County properties year after year.
             </p>
           </section>
         </FadeIn>
@@ -114,7 +114,7 @@ export default function PlainviewRoofingPage() {
                 <p className="text-gray-600 mb-4">
                   We install TPO, EPDM, metal roofing, and built-up systems for businesses and facilities throughout Hale County.
                 </p>
-                <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold font-semibold">Commercial Services →</a>
+                <a href="/commercial-roofing-amarillo/" className="text-brand-gold font-semibold">Commercial Services →</a>
               </div>
             </FadeIn>
             <FadeIn delay={0.2}>
@@ -124,7 +124,7 @@ export default function PlainviewRoofingPage() {
                 <p className="text-gray-600 mb-4">
                   From asphalt shingles to metal roofing, we provide complete residential roofing services for Plainview homeowners. Our Class 4 impact-resistant shingles protect against Texas Panhandle hail.
                 </p>
-                <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold font-semibold">Residential Services →</a>
+                <a href="/residential-roofing-amarillo/" className="text-brand-gold font-semibold">Residential Services →</a>
               </div>
             </FadeIn>
             <FadeIn delay={0.3}>
@@ -134,7 +134,7 @@ export default function PlainviewRoofingPage() {
                 <p className="text-gray-700 mb-4">
                   When severe weather strikes Plainview, we respond with tarping and rapid roof repairs. Call us immediately for storm damage assessment.
                 </p>
-                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-red-700 font-semibold">Storm Damage Repair →</a>
+                <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">Storm Damage Repair →</a>
               </div>
             </FadeIn>
           </div>
@@ -150,7 +150,7 @@ export default function PlainviewRoofingPage() {
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2">✓ Insurance Claim Assistance</h3>
-                <p className="text-gray-600">We work directly with insurance adjusters on <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage claims</a>, ensuring you receive full coverage for storm repairs.</p>
+                <p className="text-gray-600">We work directly with insurance adjusters on <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage claims</a>, ensuring you receive full coverage for storm repairs.</p>
               </div>
               <div>
                 <h3 className="font-bold text-lg mb-2">✓ Local & Regional Experience</h3>

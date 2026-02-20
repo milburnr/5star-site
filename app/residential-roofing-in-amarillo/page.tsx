@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo/' },
   title: 'Residential Roofing Amarillo TX| 25+ Years Experience',
   description: 'Residential Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -58,7 +58,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/residential-roofing-in-amarillo/"
+                      "url": "/residential-roofing-amarillo/"
               }
       ]} />
 
@@ -68,7 +68,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/residential-roofing-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/residential-roofing-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -76,7 +76,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/residential-roofing-in-amarillo/",
+        "url": "https://5starroofingpros.com/residential-roofing-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert residential roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -99,7 +99,7 @@ export default function Page() {
               When it comes to protecting your Amarillo home, choosing the right <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roofing contractor</a> is one of the most important decisions you'll make. Your roof shields your family and possessions from the Texas Panhandle's notorious weather—severe hailstorms, high winds, scorching summer heat, and freezing winter temperatures. At 5 Star Commercial Roofing, we've spent over 25 years helping Amarillo homeowners protect their most valuable asset with premium roofing solutions built to last.
             </p>
             <p className="text-lg mb-4">
-              Whether you need a brand new roof installation, <a href="/residential-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">residential roof repairs</a>, complete <a href="/residential-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, or <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage restoration</a>, our experienced team delivers exceptional workmanship backed by industry-leading warranties. We understand that Amarillo's extreme climate demands roofing materials and installation techniques that go beyond the basics—which is why we exclusively use Class 4 impact-resistant shingles, premium underlayment, and proven installation methods that protect your home for decades.
+              Whether you need a brand new roof installation, <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roof repairs</a>, complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, or <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage restoration</a>, our experienced team delivers exceptional workmanship backed by industry-leading warranties. We understand that Amarillo's extreme climate demands roofing materials and installation techniques that go beyond the basics—which is why we exclusively use Class 4 impact-resistant shingles, premium underlayment, and proven installation methods that protect your home for decades.
             </p>
             <p className="text-lg mb-6">
               As a locally owned and operated company, we live in the same neighborhoods we serve. When hailstorms batter Amarillo, we're responding to our neighbors' calls. When the Texas sun beats down relentlessly, we know exactly which roofing materials provide the best energy efficiency. This local knowledge, combined with our commitment to quality and customer service, has made us the most trusted name in Amarillo residential roofing.
@@ -168,7 +168,7 @@ export default function Page() {
               <div>
                 <h3 className="text-xl font-bold mb-3">Roof Repairs</h3>
                 <p className="text-gray-700 mb-2">
-                  Not every roofing issue requires full replacement. Our <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">expert repair services</a> address leaks, missing shingles, wind damage, flashing failures, and more. We'll honestly assess whether repair or replacement is the most cost-effective solution.
+                  Not every roofing issue requires full replacement. Our <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">expert repair services</a> address leaks, missing shingles, wind damage, flashing failures, and more. We'll honestly assess whether repair or replacement is the most cost-effective solution.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
                   <li>prompt leak repair (availability)</li>
@@ -180,7 +180,7 @@ export default function Page() {
               <div>
                 <h3 className="text-xl font-bold mb-3">Complete Roof Replacement</h3>
                 <p className="text-gray-700 mb-2">
-                  When your Amarillo roof reaches the end of its lifespan or suffers extensive hail damage, full <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a> is the smart choice. We'll tear off your old roof, inspect and repair the deck, install new underlayment and shingles, and restore your home's protection.
+                  When your Amarillo roof reaches the end of its lifespan or suffers extensive hail damage, full <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement</a> is the smart choice. We'll tear off your old roof, inspect and repair the deck, install new underlayment and shingles, and restore your home's protection.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm">
                   <li>Complete tear-off and disposal</li>
@@ -287,7 +287,7 @@ export default function Page() {
           </p>
           <div className="grid md:grid-cols-3 gap-4">
             <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Amarillo Roofing</a>
-            <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
+            <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
             <a href="/bushland-tx-roofing/" className="text-brand-gold hover:underline">• Bushland Roofing</a>
             <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Roofing</a>
             <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roofing</a>

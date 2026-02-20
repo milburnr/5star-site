@@ -108,8 +108,8 @@ export default function Page() {
 
       <div className="content-block mb-12 text-center">
         <p className="text-lg">
-          See what homeowners and businesses across <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/residential-roofing-midland-texas/" className="text-brand-gold hover:underline">Midland</a>, <a href="/residential-roofing-odessa-texas/" className="text-brand-gold hover:underline">Odessa</a>, and West Texas
-          are saying about their experience with 5 Star Commercial Roofing. Specializing in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage repair</a>, <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing</a>.
+          See what homeowners and businesses across <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/residential-roofing-midland/" className="text-brand-gold hover:underline">Midland</a>, <a href="/residential-roofing-odessa/" className="text-brand-gold hover:underline">Odessa</a>, and West Texas
+          are saying about their experience with 5 Star Commercial Roofing. Specializing in <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage repair</a>, <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>, and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing</a>.
         </p>
       </div>
 

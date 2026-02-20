@@ -3,7 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-roof-repair-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-amarillo/' },
   title: 'Wind Damage Roof Repair in Amarillo | 5 Star',
   description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -21,7 +21,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/wind-damage-roof-repair-in-amarillo/"
+                      "url": "/wind-damage-repair-amarillo/"
               }
       ]} />
 
@@ -31,7 +31,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/wind-damage-roof-repair-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/wind-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -39,7 +39,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/wind-damage-roof-repair-in-amarillo/",
+        "url": "https://5starroofingpros.com/wind-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert wind damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",

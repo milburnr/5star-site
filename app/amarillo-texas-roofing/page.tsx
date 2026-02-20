@@ -156,7 +156,7 @@ export default function AmarilloRoofingPage() {
                       insurance companies.
                     </p>
                     <a
-                      href="/hail-damage-roof-repair-amarillo-texas/"
+                      href="/hail-damage-repair-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Learn More About Hail Damage Repair in Amarillo →
@@ -188,7 +188,7 @@ export default function AmarilloRoofingPage() {
                       Amarillo&apos;s extreme weather.
                     </p>
                     <a
-                      href="/residential-roofing-amarillo-texas/"
+                      href="/residential-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Explore Residential Roofing in Amarillo →
@@ -313,7 +313,7 @@ export default function AmarilloRoofingPage() {
                       {" "}now for immediate assistance anywhere in Amarillo.
                     </p>
                     <a
-                      href="/roof-repair-services-in-amarillo/"
+                      href="/roof-repair-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
                       s →

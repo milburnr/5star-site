@@ -43,7 +43,7 @@ export default function Page() {
         "item": {
           "@type": "Service",
           "name": "Hail Damage Repair",
-          "url": "https://5starroofingpros.com/hail-damage-repair-amarillo-tx/",
+          "url": "https://5starroofingpros.com/hail-damage-repair-amarillo/",
           "description": "Expert hail damage assessment, documentation, and insurance claim assistance"
         }
       },
@@ -53,7 +53,7 @@ export default function Page() {
         "item": {
           "@type": "Service",
           "name": "Storm Damage Restoration",
-          "url": "https://5starroofingpros.com/storm-damage-roof-repair-in-amarillo/",
+          "url": "https://5starroofingpros.com/storm-damage-repair-amarillo/",
           "description": "Complete storm damage repair and restoration services for West Texas"
         }
       },
@@ -63,7 +63,7 @@ export default function Page() {
         "item": {
           "@type": "Service",
           "name": "Roof Inspections",
-          "url": "https://5starroofingpros.com/roof-inspections-in-amarillo/",
+          "url": "https://5starroofingpros.com/roof-inspections-amarillo/",
           "description": "Free comprehensive roof inspections and damage assessments"
         }
       },
@@ -73,7 +73,7 @@ export default function Page() {
         "item": {
           "@type": "Service",
           "name": "Roof Replacement",
-          "url": "https://5starroofingpros.com/roof-replacement-in-amarillo/",
+          "url": "https://5starroofingpros.com/roof-replacement-amarillo/",
           "description": "Complete roof replacement services for all roofing types"
         }
       }
@@ -144,7 +144,7 @@ export default function Page() {
                   <li>Available to meet with your adjuster</li>
                   <li>Class 4 impact-resistant replacements</li>
                 </ul>
-                <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
+                <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
                   Learn More About Hail Damage Repair →
                 </a>
               </div>
@@ -166,7 +166,7 @@ export default function Page() {
                   <li>Snow load and ice dam damage</li>
                   <li>Tree and debris impact repair</li>
                 </ul>
-                <a href="/storm-damage-roof-repair-in-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
+                <a href="/storm-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
                   Learn More About Storm Restoration →
                 </a>
               </div>
@@ -188,7 +188,7 @@ export default function Page() {
                   <li>Pre-purchase home inspections</li>
                   <li>Insurance claim documentation</li>
                 </ul>
-                <a href="/roof-inspections-in-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
+                <a href="/roof-inspections-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">
                   Schedule Free Inspection →
                 </a>
               </div>
@@ -563,9 +563,9 @@ export default function Page() {
             <h3 className="text-xl font-bold mb-4 text-brand-gold">Residential Services</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="/residential-roofing/" className="hover:text-brand-gold">Residential Roofing</a></li>
-              <li><a href="/residential-roofing-amarillo-tx/" className="hover:text-brand-gold">Amarillo Residential</a></li>
-              <li><a href="/residential-roof-repair-in-amarillo/" className="hover:text-brand-gold">Roof Repair</a></li>
-              <li><a href="/residential-roof-replacement-in-amarillo/" className="hover:text-brand-gold">Roof Replacement</a></li>
+              <li><a href="/residential-roofing-amarillo/" className="hover:text-brand-gold">Amarillo Residential</a></li>
+              <li><a href="/residential-roofing-amarillo/" className="hover:text-brand-gold">Roof Repair</a></li>
+              <li><a href="/roof-replacement-amarillo/" className="hover:text-brand-gold">Roof Replacement</a></li>
               <li><a href="/asphalt-roofing-in-amarillo/" className="hover:text-brand-gold">Asphalt Shingles</a></li>
               <li><a href="/metal-roof-installation-odessa-texas/" className="hover:text-brand-gold">Metal Roofing</a></li>
             </ul>
@@ -576,8 +576,8 @@ export default function Page() {
             <h3 className="text-xl font-bold mb-4 text-brand-gold">Commercial Services</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="/commercial-roofing/" className="hover:text-brand-gold">Commercial Roofing</a></li>
-              <li><a href="/commercial-roofing-amarillo-tx/" className="hover:text-brand-gold">Amarillo Commercial</a></li>
-              <li><a href="/commercial-roof-repair-in-amarillo/" className="hover:text-brand-gold">Commercial Repair</a></li>
+              <li><a href="/commercial-roofing-amarillo/" className="hover:text-brand-gold">Amarillo Commercial</a></li>
+              <li><a href="/commercial-roofing-amarillo/" className="hover:text-brand-gold">Commercial Repair</a></li>
               <li><a href="/pvc-roofing-contractors-in-amarillo/" className="hover:text-brand-gold">PVC Roofing</a></li>
               <li><a href="/flat-roof-repair-midland-texas/" className="hover:text-brand-gold">Flat Roof Repair</a></li>
               <li><a href="/industrial-roofing/" className="hover:text-brand-gold">Industrial Roofing</a></li>
@@ -588,11 +588,11 @@ export default function Page() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-brand-gold">Storm Damage</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/hail-damage-repair-amarillo-tx/" className="hover:text-brand-gold">Hail Damage Repair</a></li>
-              <li><a href="/hail-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Hail Repair Amarillo</a></li>
-              <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="hover:text-brand-gold">Hail Replacement</a></li>
-              <li><a href="/storm-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Storm Damage</a></li>
-              <li><a href="/wind-damage-roof-repair-in-amarillo/" className="hover:text-brand-gold">Wind Damage</a></li>
+              <li><a href="/hail-damage-repair-amarillo/" className="hover:text-brand-gold">Hail Damage Repair</a></li>
+              <li><a href="/hail-damage-repair-amarillo/" className="hover:text-brand-gold">Hail Repair Amarillo</a></li>
+              <li><a href="/hail-damage-repair-amarillo/" className="hover:text-brand-gold">Hail Replacement</a></li>
+              <li><a href="/storm-damage-repair-amarillo/" className="hover:text-brand-gold">Storm Damage</a></li>
+              <li><a href="/wind-damage-repair-amarillo/" className="hover:text-brand-gold">Wind Damage</a></li>
             </ul>
           </div>
 
@@ -600,9 +600,9 @@ export default function Page() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-brand-gold">Inspections & More</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/roof-inspections-in-amarillo/" className="hover:text-brand-gold">Roof Inspections</a></li>
-              <li><a href="/roof-inspection-amarillo-texas/" className="hover:text-brand-gold">Free Inspections</a></li>
-              <li><a href="/roof-replacement-in-amarillo/" className="hover:text-brand-gold">Roof Replacement</a></li>
+              <li><a href="/roof-inspections-amarillo/" className="hover:text-brand-gold">Roof Inspections</a></li>
+              <li><a href="/roof-inspections-amarillo/" className="hover:text-brand-gold">Free Inspections</a></li>
+              <li><a href="/roof-replacement-amarillo/" className="hover:text-brand-gold">Roof Replacement</a></li>
               <li><a href="/roofing-methods/" className="hover:text-brand-gold">Installation Methods</a></li>
               <li><a href="/amarillo-weather-impact-on-roofing/" className="hover:text-brand-gold">Weather Impact Guide</a></li>
               <li><a href="/gallery/" className="hover:text-brand-gold">Project Gallery</a></li>

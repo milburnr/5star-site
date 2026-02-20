@@ -142,7 +142,7 @@ export default function Page() {
           While hail gets most of the attention in Texas Panhandle and West Texas, heavy rain can be just as destructive to your roof—especially when combined with wind-driven rain, aging roofing materials, or existing storm damage. When flash floods and severe thunderstorms dump 2-4 inches of rain in an hour (common in Amarillo, Midland, and Odessa during spring and summer), even minor roof vulnerabilities can become major leaks.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we provide prompt response for heavy rain damage across West Texas and the Texas Panhandle. Whether you're dealing with active leaks, water-damaged ceilings, or saturated insulation, our team responds fast to minimize damage and begin the insurance claim process. Our expert <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing services</a> cover all aspects of storm damage repair throughout the region.
+          At 5 Star Commercial Roofing, we provide prompt response for heavy rain damage across West Texas and the Texas Panhandle. Whether you're dealing with active leaks, water-damaged ceilings, or saturated insulation, our team responds fast to minimize damage and begin the insurance claim process. Our expert <a href="/residential-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">residential roofing</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing services</a> cover all aspects of storm damage repair throughout the region.
         </p>
       </div>
 
@@ -265,7 +265,7 @@ export default function Page() {
         <div className="card">
           <div className="card-body">
             <h3 className="font-bold mb-3">Impact-Resistant Shingles</h3>
-            <p>Upgrade to Class 4 <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">impact-resistant shingles</a> that resist <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage</a> and reduce the likelihood of granule loss that leads to water penetration.</p>
+            <p>Upgrade to Class 4 <a href="/asphalt-roofing-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">impact-resistant shingles</a> that resist <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage</a> and reduce the likelihood of granule loss that leads to water penetration.</p>
           </div>
         </div>
         <div className="card">
@@ -300,7 +300,7 @@ export default function Page() {
             When heavy rain damages your roof in Amarillo, Midland, Odessa, or Lubbock, you need a roofing contractor with proven experience in the unique challenges of West Texas weather. Our team has been serving the Texas Panhandle for years, and we understand the specific vulnerabilities that regional climate conditions create.
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Insurance Expertise:</strong> We've worked with every major insurance carrier in Texas and know exactly what documentation is needed to get your claim approved quickly. Our <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> experience translates directly to rain damage claims.</li>
+            <li><strong>Insurance Expertise:</strong> We've worked with every major insurance carrier in Texas and know exactly what documentation is needed to get your claim approved quickly. Our <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a> experience translates directly to rain damage claims.</li>
             <li><strong>Advanced Technology:</strong> Drone inspections provide detailed documentation of roof damage that insurance adjusters trust, while also keeping our team safe during inspections of steep or dangerous roofs.</li>
             <li><strong>Regional Coverage:</strong> From Amarillo to Midland, Odessa to Lubbock, we serve the entire West Texas region with the same fast, professional service.</li>
             <li><strong>Quality Materials:</strong> We only install roofing materials rated for extreme West Texas conditions—intense UV, high winds, and dramatic temperature swings.</li>

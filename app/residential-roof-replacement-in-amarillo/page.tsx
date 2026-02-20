@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/residential-roof-replacement-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-amarillo/' },
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
   description: 'Premier residential roof replacement in Amarillo TX. Specialized in hail damage claims, Class 4 impact-resistant materials, insurance coverage assistance. 25+ years experience, licensed & bonded. Free estimates, comprehensive warranties on all residential roof replacement projects.',
 };
@@ -57,7 +57,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/residential-roof-replacement-in-amarillo/"
+                      "url": "/roof-replacement-amarillo/"
               }
       ]} />
 
@@ -67,7 +67,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/residential-roof-replacement-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/roof-replacement-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -75,7 +75,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/residential-roof-replacement-in-amarillo/",
+        "url": "https://5starroofingpros.com/roof-replacement-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -95,10 +95,10 @@ export default function Page() {
           <section className="content-block">
             <h2 className="content-block-title">When It's Time to Replace Your Amarillo Roof</h2>
             <p className="text-lg mb-4">
-              Amarillo homeowners face unique roofing challenges that often necessitate complete <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>. The Texas Panhandle's severe hailstorms, high winds, and extreme temperature fluctuations can damage even the highest-quality roofing materials over time. If your roof is showing signs of significant damage or has reached the end of its service life, replacement—rather than repair—is often the most cost-effective long-term solution.
+              Amarillo homeowners face unique roofing challenges that often necessitate complete <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement</a>. The Texas Panhandle's severe hailstorms, high winds, and extreme temperature fluctuations can damage even the highest-quality roofing materials over time. If your roof is showing signs of significant damage or has reached the end of its service life, replacement—rather than repair—is often the most cost-effective long-term solution.
             </p>
             <p className="text-lg mb-6">
-              Most <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roofs in Amarillo</a> last 15-25 years depending on materials and weather exposure. However, after severe hailstorms like those common in spring and summer, insurance companies may approve full replacement even for newer roofs if damage is extensive enough. We've helped thousands of Amarillo homeowners navigate the insurance process to get brand new roofs at little to no out-of-pocket cost.
+              Most <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roofs in Amarillo</a> last 15-25 years depending on materials and weather exposure. However, after severe hailstorms like those common in spring and summer, insurance companies may approve full replacement even for newer roofs if damage is extensive enough. We've helped thousands of Amarillo homeowners navigate the insurance process to get brand new roofs at little to no out-of-pocket cost.
             </p>
           </section>
         </FadeIn>
@@ -193,7 +193,7 @@ export default function Page() {
               <div className="bg-brand-gold text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
               <div>
                 <h3 className="font-bold text-lg mb-1">Insurance Claim Filing</h3>
-                <p className="text-gray-600">We help file your <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage claim</a>, meet with the adjuster on-site, and ensure all damage is properly documented. Most Amarillo homeowners pay only their deductible ($1,000-$2,500).</p>
+                <p className="text-gray-600">We help file your <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage claim</a>, meet with the adjuster on-site, and ensure all damage is properly documented. Most Amarillo homeowners pay only their deductible ($1,000-$2,500).</p>
               </div>
             </div>
             <div className="flex gap-4 items-start bg-white p-6 rounded-lg shadow">
@@ -224,7 +224,7 @@ export default function Page() {
           <section className="content-block mb-12">
             <h2 className="text-2xl font-bold mb-4">Insurance Claims for Roof Replacement</h2>
             <p className="text-lg mb-4">
-              Most homeowners insurance policies in Amarillo and the Texas Panhandle cover <a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">storm damage roof replacement</a>. After hailstorms, insurance adjusters use the "test square method" to determine if replacement is warranted:
+              Most homeowners insurance policies in Amarillo and the Texas Panhandle cover <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage roof replacement</a>. After hailstorms, insurance adjusters use the "test square method" to determine if replacement is warranted:
             </p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-start">
@@ -583,7 +583,7 @@ export default function Page() {
               <h4 className="font-bold mb-3 text-brand-brown">Amarillo Metro</h4>
               <ul className="text-sm space-y-1">
                 <li><a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Downtown Amarillo</a></li>
-                <li><a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon</a></li>
+                <li><a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon</a></li>
                 <li><a href="/bushland-tx-roofing/" className="text-brand-gold hover:underline">• Bushland</a></li>
                 <li><a href="/happy-tx-roofing/" className="text-brand-gold hover:underline">• Happy</a></li>
               </ul>
@@ -609,7 +609,7 @@ export default function Page() {
             <div>
               <h4 className="font-bold mb-3 text-brand-brown">Service Specialties</h4>
               <ul className="text-sm space-y-1">
-                <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Hail Damage Claims</a></li>
+                <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">• Hail Damage Claims</a></li>
                 <li><a href="/metal-roofing-amarillo/" className="text-brand-gold hover:underline">• Metal Roofing</a></li>
                 <li><a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">• Free Inspections</a></li>
               </ul>

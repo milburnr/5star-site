@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roof-repair-odessa-texas/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-odessa/' },
   title: 'Hail Damage Roof Repair in Odessa | 5 Star',
   description: 'Hail Damage Repair in Odessa, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -16,7 +16,7 @@ export default function HailDamageOdessaPage() {
       <Breadcrumb items={[
         { name: "Home", url: "/" },
         { name: "Hail Damage Roof Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Odessa", url: "/hail-damage-roof-repair-odessa-texas/" }
+        { name: "Odessa", url: "/hail-damage-repair-odessa/" }
       ]} />
 
       {/* Sticky Contact Bar */}
@@ -25,7 +25,7 @@ export default function HailDamageOdessaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/hail-damage-roof-repair-odessa-texas/#localbusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-odessa/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -33,7 +33,7 @@ export default function HailDamageOdessaPage() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 31.8457, "longitude": -102.3676 },
-        "url": "https://5starroofingpros.com/hail-damage-roof-repair-odessa-texas/",
+        "url": "https://5starroofingpros.com/hail-damage-repair-odessa/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -410,7 +410,7 @@ export default function HailDamageOdessaPage() {
               <span className="text-gray-400">•</span>
               <a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Metal Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-repair-odessa-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Storm Damage Repair</a>
+              <a href="/hail-damage-repair-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Storm Damage Repair</a>
             </div>
           </section>
         </FadeIn>

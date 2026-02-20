@@ -139,7 +139,7 @@ export default function HerefordRoofingPage() {
                   Located in the heart of Deaf Smith County, Hereford faces unique roofing challenges from the Texas Panhandle's severe weather conditions. From intense hailstorms and high winds to extreme temperature swings and UV exposure, your roof takes a beating year-round. At 5 Star Commercial Roofing, we've been protecting Hereford homes and businesses with expert roofing solutions designed specifically for West Texas weather.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  Whether you need storm damage <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a>, a complete roof replacement, or routine maintenance, our experienced team delivers quality workmanship backed by industry-leading warranties. We serve all of Hereford and surrounding communities in Deaf Smith County with the same commitment to excellence.
+                  Whether you need storm damage <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">hail damage repair</a>, a complete roof replacement, or routine maintenance, our experienced team delivers quality workmanship backed by industry-leading warranties. We serve all of Hereford and surrounding communities in Deaf Smith County with the same commitment to excellence.
                 </p>
               </div>
             </section>
@@ -153,7 +153,7 @@ export default function HerefordRoofingPage() {
                   <div className="text-5xl mb-4">🌨️</div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Damage Repair</h3>
                   <p className="text-gray-600 mb-4">Hereford sits in America's hail belt, experiencing frequent severe storms. Our storm damage specialists provide storm response, comprehensive damage assessment, and insurance claim support to get your roof restored quickly. We work with all major insurance carriers and document damage thoroughly to maximize your claim.</p>
-                  <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
+                  <a href="/hail-damage-repair-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
                 </div>
               </FadeIn>
 
@@ -161,8 +161,8 @@ export default function HerefordRoofingPage() {
                 <div className="card-hover p-6">
                   <div className="text-5xl mb-4">🏠</div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing</h3>
-                  <p className="text-gray-600 mb-4">From asphalt shingle installation to complete roof replacements, we protect Hereford homes with quality materials rated for extreme Texas Panhandle weather. Our <a href="/residential-roofing-amarillo-texas/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> include impact-resistant shingles, proper ventilation, and energy-efficient solutions that reduce cooling costs.</p>
-                  <a href="/residential-roofing-in-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
+                  <p className="text-gray-600 mb-4">From asphalt shingle installation to complete roof replacements, we protect Hereford homes with quality materials rated for extreme Texas Panhandle weather. Our <a href="/residential-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">residential roofing services</a> include impact-resistant shingles, proper ventilation, and energy-efficient solutions that reduce cooling costs.</p>
+                  <a href="/residential-roofing-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
                 </div>
               </FadeIn>
 
@@ -170,7 +170,7 @@ export default function HerefordRoofingPage() {
                 <div className="card-hover p-6">
                   <div className="text-5xl mb-4">🏢</div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
-                  <p className="text-gray-600 mb-4">Hereford businesses need reliable roofing that protects valuable assets and minimizes downtime. We specialize in TPO, EPDM, and metal roofing systems designed for commercial applications. Our <a href="/commercial-roofing-amarillo-tx/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing solutions</a> feature long-lasting materials and professional installation.</p>
+                  <p className="text-gray-600 mb-4">Hereford businesses need reliable roofing that protects valuable assets and minimizes downtime. We specialize in TPO, EPDM, and metal roofing systems designed for commercial applications. Our <a href="/commercial-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing solutions</a> feature long-lasting materials and professional installation.</p>
                   <a href="/services/" className="text-brand-gold font-semibold">Learn More →</a>
                 </div>
               </FadeIn>
@@ -189,7 +189,7 @@ export default function HerefordRoofingPage() {
                   <div className="text-5xl mb-4">🛠️</div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Roof Repair Services</h3>
                   <p className="text-gray-600 mb-4">Not every problem requires a full replacement. Our expert repair services address leaks, damaged flashing, missing shingles, and storm damage. We provide honest assessments and cost-effective solutions to extend your roof's lifespan.</p>
-                  <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
+                  <a href="/roof-repair-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
                 </div>
               </FadeIn>
 
@@ -198,7 +198,7 @@ export default function HerefordRoofingPage() {
                   <div className="text-5xl mb-4">🔄</div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Roof Replacement</h3>
                   <p className="text-gray-600 mb-4">When repairs are no longer cost-effective, complete replacement is the best solution. We remove old roofing materials, inspect and repair decking, and install new roofing systems built to withstand decades of Texas weather.</p>
-                  <a href="/roof-replacement-in-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
+                  <a href="/roof-replacement-amarillo/" className="text-brand-gold font-semibold">Learn More →</a>
                 </div>
               </FadeIn>
             </div>

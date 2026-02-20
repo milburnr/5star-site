@@ -101,7 +101,7 @@ export default function Page() {
 
         <p>
           Our comprehensive services encompass <strong>roof repair</strong>, <strong>residential roofing</strong>,{" "}
-          <strong>commercial roofing</strong>, <strong>roof installation</strong>, and specialized <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">prompt services</a>. We provide <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">free roof inspections</a> and work directly with all major insurance companies to streamline <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage claims</a>, ensuring our clients receive the maximum coverage they deserve.
+          <strong>commercial roofing</strong>, <strong>roof installation</strong>, and specialized <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">prompt services</a>. We provide <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">free roof inspections</a> and work directly with all major insurance companies to streamline <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage claims</a>, ensuring our clients receive the maximum coverage they deserve.
         </p>
 
         <h2 className="text-3xl font-bold mt-12 mb-6 text-brand-brown">What Sets 5 Star Commercial Roofing Apart in Amarillo</h2>
@@ -117,7 +117,7 @@ export default function Page() {
         <h3 className="text-2xl font-bold mt-8 mb-4">Amarillo Weather Expertise</h3>
 
         <p>
-          Living and working in Amarillo for over a decade, our team understands the unique challenges posed by Texas Panhandle weather. The region experiences some of the most severe hailstorms in the United States, with hail damage occurring multiple times per year. Our expertise in hail-resistant roofing systems and <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail damage assessment</a> ensures your property receives maximum protection.
+          Living and working in Amarillo for over a decade, our team understands the unique challenges posed by Texas Panhandle weather. The region experiences some of the most severe hailstorms in the United States, with hail damage occurring multiple times per year. Our expertise in hail-resistant roofing systems and <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage assessment</a> ensures your property receives maximum protection.
         </p>
 
         <p>
@@ -139,7 +139,7 @@ export default function Page() {
         <h3 className="text-2xl font-bold mt-8 mb-4">Advanced Diagnostic and Assessment Services</h3>
 
         <p>
-          Every roofing project begins with a comprehensive assessment using advanced diagnostic tools and techniques. Our <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">certified roof inspections</a> include drone photography, thermal imaging for leak detection, and detailed documentation that satisfies insurance requirements and provides you with complete understanding of your roof's condition.
+          Every roofing project begins with a comprehensive assessment using advanced diagnostic tools and techniques. Our <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">certified roof inspections</a> include drone photography, thermal imaging for leak detection, and detailed documentation that satisfies insurance requirements and provides you with complete understanding of your roof's condition.
         </p>
 
         <p>
@@ -161,13 +161,13 @@ export default function Page() {
         <h3 className="text-xl font-bold mt-6 mb-3">Residential Roofing Excellence:</h3>
 
         <p>
-          Our <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roofing services</a> encompass every aspect of home roof protection, from minor repairs to complete system replacement. We understand that your home is your largest investment, and our roofing solutions are designed to protect that investment while enhancing your property's value and curb appeal.
+          Our <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roofing services</a> encompass every aspect of home roof protection, from minor repairs to complete system replacement. We understand that your home is your largest investment, and our roofing solutions are designed to protect that investment while enhancing your property's value and curb appeal.
         </p>
 
         <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li><strong><a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement & Installation</a>:</strong> Full system replacement using Class 4 impact-resistant shingles, premium underlayment, and enhanced ventilation systems designed for Texas climate</li>
-          <li><strong><a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">Expert Roof Repairs & Maintenance</a>:</strong> Precision repairs using matching materials and techniques that blend seamlessly with existing roofing while restoring full weather protection</li>
-          <li><strong><a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Hail & Storm Damage Restoration</a>:</strong> Comprehensive damage assessment, insurance claim assistance, and complete restoration using impact-resistant materials</li>
+          <li><strong><a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement & Installation</a>:</strong> Full system replacement using Class 4 impact-resistant shingles, premium underlayment, and enhanced ventilation systems designed for Texas climate</li>
+          <li><strong><a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">Expert Roof Repairs & Maintenance</a>:</strong> Precision repairs using matching materials and techniques that blend seamlessly with existing roofing while restoring full weather protection</li>
+          <li><strong><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Hail & Storm Damage Restoration</a>:</strong> Comprehensive damage assessment, insurance claim assistance, and complete restoration using impact-resistant materials</li>
           <li><strong>Premium Asphalt Shingle Installation:</strong> Architectural and dimensional shingles with enhanced wind resistance and hail protection ratings</li>
           <li><strong>Standing Seam Metal Roofing Systems:</strong> Ultimate durability with 50+ year lifespans, superior hail resistance, and energy-efficient cool roof technology</li>
           <li><strong>Comprehensive Roof Inspections:</strong> Annual maintenance inspections with detailed reports and preventive maintenance recommendations</li>
@@ -177,7 +177,7 @@ export default function Page() {
         <h3 className="text-xl font-bold mt-6 mb-3">Commercial Roofing Solutions:</h3>
 
         <p>
-          Our <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial roofing division</a> serves businesses throughout the Texas Panhandle with specialized systems designed for commercial and industrial applications. We understand that business operations cannot be disrupted for extended periods, so our commercial projects are planned and executed to minimize downtime while maximizing long-term performance.
+          Our <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial roofing division</a> serves businesses throughout the Texas Panhandle with specialized systems designed for commercial and industrial applications. We understand that business operations cannot be disrupted for extended periods, so our commercial projects are planned and executed to minimize downtime while maximizing long-term performance.
         </p>
 
         <ul className="list-disc pl-6 space-y-3 mb-6">
@@ -380,7 +380,7 @@ export default function Page() {
           Professional roofing services throughout the Texas Panhandle and West Texas:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing Services</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing Services</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Commercial Roofing</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roof Repair</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>
@@ -391,15 +391,15 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Popular Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/residential-roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/residential-roofing-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Residential Roofing</h3>
             <p className="text-sm text-gray-600">Complete home roofing solutions</p>
           </a>
-          <a href="/commercial-roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/commercial-roofing-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Commercial Roofing</h3>
             <p className="text-sm text-gray-600">Professional business roofing services</p>
           </a>
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Storm Damage</h3>
             <p className="text-sm text-gray-600">Expert storm and hail damage repair</p>
           </a>

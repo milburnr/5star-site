@@ -68,7 +68,7 @@ export default function DumasRoofingPage() {
               As Dumas's premier <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">professional roofing contractor</a>, 5 Star Commercial Roofing brings over a decade of experience serving Moore County and the entire Texas Panhandle. Whether you need agricultural building roofing for your feedlot operation, residential roofing for your home, or commercial roofing for your business, our expert team delivers reliable, high-quality roofing solutions.
             </p>
             <p className="text-lg mb-4">
-              Dumas's position as an agricultural powerhouse—with over 180,000 cattle in feedlots and ranches throughout Moore County—creates unique roofing demands. Combined with severe hailstorms, high winds, and extreme temperature swings, properties require roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and large agricultural building systems proven to protect Moore County properties year after year.
+              Dumas's position as an agricultural powerhouse—with over 180,000 cattle in feedlots and ranches throughout Moore County—creates unique roofing demands. Combined with severe hailstorms, high winds, and extreme temperature swings, properties require roofing systems built to withstand the harshest conditions. We specialize in <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail-resistant roofing materials</a> and large agricultural building systems proven to protect Moore County properties year after year.
             </p>
           </section>
         </FadeIn>
@@ -295,7 +295,7 @@ export default function DumasRoofingPage() {
                   <li>✓ Impact-resistant materials</li>
                   <li>✓ Tarping services</li>
                 </ul>
-                <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
+                <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
@@ -308,7 +308,7 @@ export default function DumasRoofingPage() {
                   <li>✓ Lifetime warranties available</li>
                   <li>✓ Energy-efficient options</li>
                 </ul>
-                <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
+                <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
@@ -321,7 +321,7 @@ export default function DumasRoofingPage() {
                   <li>✓ Minimal business disruption</li>
                   <li>✓ Preventive maintenance plans</li>
                 </ul>
-                <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
+                <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>
             </div>
           </section>

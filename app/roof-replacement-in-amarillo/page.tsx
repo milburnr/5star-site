@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-amarillo/' },
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
   description: 'Premier roof replacement contractor in Amarillo TX. Class 4 impact-resistant shingles, storm damage coverage, insurance claim specialists. 25+ years experience, licensed & bonded. Free estimates, premium warranties on all roof replacement projects.',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/roof-replacement-in-amarillo/"
+                      "url": "/roof-replacement-amarillo/"
               }
       ]} />
 
@@ -59,7 +59,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/roof-replacement-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/roof-replacement-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -67,7 +67,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/roof-replacement-in-amarillo/",
+        "url": "https://5starroofingpros.com/roof-replacement-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -90,7 +90,7 @@ export default function Page() {
               When your <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo roof</a> reaches the end of its lifespan or suffers extensive storm damage, complete roof replacement is the smart long-term solution. At 5 Star Commercial Roofing, we've replaced thousands of roofs across the Texas Panhandle over the past 25+ years—from small residential homes to large commercial buildings spanning 100,000+ square feet.
             </p>
             <p className="text-lg mb-4">
-              The Texas Panhandle's brutal climate—with annual <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hailstorms</a>, sustained winds over 50 mph, and temperature swings exceeding 115 degrees—demands roofing systems built to last. We exclusively install Class 4 impact-resistant materials designed to withstand baseball-sized hail, extreme UV exposure, and the freeze-thaw cycles that destroy standard roofing systems.
+              The Texas Panhandle's brutal climate—with annual <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hailstorms</a>, sustained winds over 50 mph, and temperature swings exceeding 115 degrees—demands roofing systems built to last. We exclusively install Class 4 impact-resistant materials designed to withstand baseball-sized hail, extreme UV exposure, and the freeze-thaw cycles that destroy standard roofing systems.
             </p>
             <p className="text-lg mb-6">
               Most importantly, we're insurance claim experts. After major hailstorms, we help thousands of Amarillo homeowners and businesses navigate the claims process, meet with adjusters, and secure full coverage for roof replacement—often at only the cost of your deductible. We handle all paperwork, documentation, and negotiations with insurance companies.
@@ -235,7 +235,7 @@ export default function Page() {
           <section className="content-block mb-12">
             <h2 className="text-2xl font-bold mb-4">Insurance Claims for Roof Replacement</h2>
             <p className="text-lg mb-4">
-              Most homeowners insurance policies in Amarillo and the Texas Panhandle cover <a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">storm damage roof replacement</a>. After hailstorms, insurance adjusters use the "test square method":
+              Most homeowners insurance policies in Amarillo and the Texas Panhandle cover <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage roof replacement</a>. After hailstorms, insurance adjusters use the "test square method":
             </p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-start">
@@ -529,7 +529,7 @@ export default function Page() {
             <div>
               <h4 className="font-bold mb-3 text-brand-brown">Amarillo Metro Area</h4>
               <ul className="text-sm space-y-1">
-                <li><a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon</a></li>
+                <li><a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon</a></li>
                 <li><a href="/bushland-tx-roofing/" className="text-brand-gold hover:underline">• Bushland</a></li>
                 <li><a href="/wildorado-tx-roofing/" className="text-brand-gold hover:underline">• Wildorado</a></li>
                 <li><a href="/happy-tx-roofing/" className="text-brand-gold hover:underline">• Happy</a></li>
@@ -558,7 +558,7 @@ export default function Page() {
               <ul className="text-sm space-y-1">
                 <li><a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">• Commercial Roofing</a></li>
                 <li><a href="/metal-roofing-amarillo/" className="text-brand-gold hover:underline">• Metal Roofing</a></li>
-                <li><a href="/hail-damage-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Hail Damage</a></li>
+                <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">• Hail Damage</a></li>
               </ul>
             </div>
           </div>

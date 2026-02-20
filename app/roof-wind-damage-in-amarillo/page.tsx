@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-wind-damage-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-amarillo/' },
   title: 'Wind Damage Roof Repair in Amarillo | 5 Star',
   description: 'Wind Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/roof-wind-damage-in-amarillo/"
+                      "url": "/wind-damage-repair-amarillo/"
               }
       ]} />
 
@@ -59,7 +59,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/roof-wind-damage-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/wind-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -67,7 +67,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/roof-wind-damage-in-amarillo/",
+        "url": "https://5starroofingpros.com/wind-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert wind damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -85,7 +85,7 @@ export default function Page() {
           <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a> averages 12-14 mph sustained winds year-round—one of the windiest cities in America. But it's the extreme wind events that cause roof damage: spring thunderstorm downbursts exceeding 70 mph, winter northers with sustained 50+ mph winds, and occasional tornado-force winds during severe weather. These high winds expose installation defects, aging materials, and inadequate fastening that might otherwise go unnoticed for years.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we've repaired thousands of wind-damaged roofs across the <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a>. From a few blown-off shingles to complete roof system failures, our team provides fast, comprehensive <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">wind damage repairs</a> for both <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial properties</a>. We also work directly with insurance companies to document damage and maximize your claim coverage.
+          At 5 Star Commercial Roofing, we've repaired thousands of wind-damaged roofs across the <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Texas Panhandle</a>. From a few blown-off shingles to complete roof system failures, our team provides fast, comprehensive <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">wind damage repairs</a> for both <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial properties</a>. We also work directly with insurance companies to document damage and maximize your claim coverage.
         </p>
       </div>
 
@@ -619,7 +619,7 @@ export default function Page() {
           Wind damage repair services throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Wind Damage</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Wind Damage</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Storm Repairs</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Wind Repairs</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Wind Damage</a>

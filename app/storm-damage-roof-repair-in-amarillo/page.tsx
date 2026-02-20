@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-roof-repair-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-amarillo/' },
   title: 'Storm Damage Roof Repair in Amarillo | 5 Star',
   description: 'Storm Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -49,7 +49,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/storm-damage-roof-repair-in-amarillo/"
+                      "url": "/storm-damage-repair-amarillo/"
               }
       ]} />
 
@@ -70,7 +70,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Storm Damage Response</h2>
         <p className="text-lg">
-          Severe weather strikes the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> without warning. High winds, <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail</a>, <a href="/roof-heavy-rain-damage-in-amarillo/" className="text-brand-gold hover:underline">heavy rain</a>, and even tornadoes can damage roofs across Amarillo in minutes. When <a href="/roof-storm-damage-in-amarillo/" className="text-brand-gold hover:underline">storm damage</a> occurs, fast action prevents further interior damage. We're available for tarping and <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">repairs</a>.
+          Severe weather strikes the <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Texas Panhandle</a> without warning. High winds, <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail</a>, <a href="/roof-heavy-rain-damage-in-amarillo/" className="text-brand-gold hover:underline">heavy rain</a>, and even tornadoes can damage roofs across Amarillo in minutes. When <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage</a> occurs, fast action prevents further interior damage. We're available for tarping and <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">repairs</a>.
         </p>
       </div>
 
@@ -188,10 +188,10 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Texas Panhandle & West Texas</h2>
         <p className="text-lg mb-4">
-          emergency storm damage services for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">commercial</a> properties throughout the region:
+          emergency storm damage services for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial</a> properties throughout the region:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Storm Damage</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland prompt service</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Storm Repairs</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Storm Damage</a>

@@ -58,13 +58,13 @@ export default function Page() {
       <div className="prose max-w-none">
         <p>
           As a homeowner in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, you know that wear and tear on your property is inevitable. Appliances will break
-          down, <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">roofs will leak</a>, and major components will eventually need to be replaced. These <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">replacement
+          down, <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roofs will leak</a>, and major components will eventually need to be replaced. These <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">replacement
           expenses</a> can be costly and unpredictable, so it's essential to have a plan in place to manage these
           costs proactively.
         </p>
 
         <p>
-          In this guide, we will explore the importance of budgeting for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roof</a> replacement expenses and provide
+          In this guide, we will explore the importance of budgeting for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roof</a> replacement expenses and provide
           effective strategies to help you plan for inevitable costs. By following these strategies, you can
           ensure that your home stays in good condition without breaking the bank.
         </p>
@@ -72,9 +72,9 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Understanding Roof Replacement Costs in Amarillo</h2>
 
         <p>
-          The cost of a <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">roof replacement in Amarillo</a> varies based on several factors including roof size,
+          The cost of a <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">roof replacement in Amarillo</a> varies based on several factors including roof size,
           material selection, complexity of the installation, and current roof condition. Understanding these
-          factors helps you create a realistic budget. Get a <a href="/roof-inspections-in-amarillo/" className="text-brand-gold hover:underline">free inspection</a> to assess your roof's needs.
+          factors helps you create a realistic budget. Get a <a href="/roof-inspections-amarillo/" className="text-brand-gold hover:underline">free inspection</a> to assess your roof's needs.
         </p>
 
         <h3 className="text-xl font-bold mt-6 mb-3">Key Cost Factors:</h3>
@@ -132,7 +132,7 @@ export default function Page() {
           <li><strong>Contractor Financing:</strong> Many roofing companies offer 0% APR promotional periods</li>
           <li><strong>Home Equity Line of Credit (HELOC):</strong> Use your home's equity for major repairs</li>
           <li><strong>Personal Loans:</strong> Fixed-rate loans for home improvement projects</li>
-          <li><strong>Insurance Claims:</strong> File claims for <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">storm and hail damage</a></li>
+          <li><strong>Insurance Claims:</strong> File claims for <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm and hail damage</a></li>
           <li><strong>Energy-Efficient Rebates:</strong> Some programs offer incentives for reflective roofing</li>
         </ul>
 
@@ -291,7 +291,7 @@ export default function Page() {
           Affordable roof replacement services throughout the Texas Panhandle and West Texas:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Replacement</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roof Replacement</a>
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Roofing Services</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Roof Installation</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>
@@ -303,11 +303,11 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/roof-replacement-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/roof-replacement-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Roof Replacement</h3>
             <p className="text-sm text-gray-600">Complete roof replacement services in Amarillo</p>
           </a>
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Insurance Claims</h3>
             <p className="text-sm text-gray-600">We handle storm damage insurance claims</p>
           </a>

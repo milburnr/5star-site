@@ -5,7 +5,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roof-repair-amarillo-texas/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-amarillo/' },
   title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
   description: 'Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -23,7 +23,7 @@ export default function HailDamageAmarilloPage() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/hail-damage-roof-repair-amarillo-texas/"
+                      "url": "/hail-damage-repair-amarillo/"
               }
       ]} />
 
@@ -378,7 +378,7 @@ export default function HailDamageAmarilloPage() {
                 All Amarillo Services
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-amarillo-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Residential Roofing
               </a>
               <span className="text-gray-400">•</span>
@@ -386,7 +386,7 @@ export default function HailDamageAmarilloPage() {
                 Roof Inspections
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-in-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Learn More About Hail Damage
               </a>
             </div>

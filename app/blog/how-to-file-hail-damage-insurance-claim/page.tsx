@@ -128,10 +128,10 @@ export default function HailDamageInsuranceClaimBlogPage() {
                   5 Star Commercial Roofing provides <strong>free hail damage inspections</strong> throughout West Texas. We use drones and professional photography to document all damage safely and thoroughly. No obligation.
                 </p>
                 <p className="mt-4">
-                  <a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">Amarillo Inspection</a> •
-                  <a href="/hail-damage-roof-repair-midland-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline ml-2">Midland Inspection</a> •
-                  <a href="/hail-damage-roof-repair-odessa-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline ml-2">Odessa Inspection</a> •
-                  <a href="/hail-damage-roof-repair-lubbock-texas/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline ml-2">Lubbock Inspection</a>
+                  <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline">Amarillo Inspection</a> •
+                  <a href="/hail-damage-repair-midland/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline ml-2">Midland Inspection</a> •
+                  <a href="/hail-damage-repair-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline ml-2">Odessa Inspection</a> •
+                  <a href="/hail-damage-repair-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold hover:underline ml-2">Lubbock Inspection</a>
                 </p>
               </div>
 
@@ -458,9 +458,9 @@ export default function HailDamageInsuranceClaimBlogPage() {
                 <p className="font-semibold text-brand-brown mb-2">Related Articles</p>
                 <ul className="space-y-2">
                   <li><a href="/blog/" className="text-brand-gold hover:underline">← Back to Blog</a></li>
-                  <li><a href="/hail-damage-roof-repair-amarillo-texas/" className="text-brand-gold hover:underline">Hail Damage Repair in Amarillo</a></li>
-                  <li><a href="/hail-damage-roof-repair-midland-texas/" className="text-brand-gold hover:underline">Hail Damage Repair in Midland</a></li>
-                  <li><a href="/hail-damage-roof-repair-odessa-texas/" className="text-brand-gold hover:underline">Hail Damage Repair in Odessa</a></li>
+                  <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Hail Damage Repair in Amarillo</a></li>
+                  <li><a href="/hail-damage-repair-midland/" className="text-brand-gold hover:underline">Hail Damage Repair in Midland</a></li>
+                  <li><a href="/hail-damage-repair-odessa/" className="text-brand-gold hover:underline">Hail Damage Repair in Odessa</a></li>
                 </ul>
               </div>
             </div>

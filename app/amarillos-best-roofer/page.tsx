@@ -147,8 +147,8 @@ export default function Page() {
         <p>
           Next, consider the range of services offered by the roofer. A <strong>top roofing company</strong>{" "}
           should be able to provide a wide range of services, including inspections, repairs, replacements,
-          and installations. We handle everything from <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">residential roofing</a> to
-          <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline"> commercial projects</a>,
+          and installations. We handle everything from <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential roofing</a> to
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline"> commercial projects</a>,
           ensuring comprehensive solutions for all our clients.
         </p>
 
@@ -250,7 +250,7 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow border">
             <h4 className="font-bold text-brand-brown mb-3">Roof Replacement Services</h4>
             <ul className="space-y-2 text-sm">
-              <li>• <a href="/roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement</a></li>
+              <li>• <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">Complete Roof Replacement</a></li>
               <li>• <a href="/asphalt-roofing-in-amarillo/" className="text-brand-gold hover:underline">Asphalt Shingle Installation</a></li>
               <li>• Metal Roofing Systems</li>
               <li>• <a href="/tpo-roofing-amarillo/" className="text-brand-gold hover:underline">TPO Flat Roofing</a></li>
@@ -263,8 +263,8 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow border">
             <h4 className="font-bold text-brand-brown mb-3">Repair & Maintenance</h4>
             <ul className="space-y-2 text-sm">
-              <li>• <a href="/roof-repair-services-in-amarillo/" className="text-brand-gold hover:underline">Storm Damage Roof Repairs</a></li>
-              <li>• <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">Hail Damage Restoration</a></li>
+              <li>• <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">Storm Damage Roof Repairs</a></li>
+              <li>• <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">Hail Damage Restoration</a></li>
               <li>• Wind Damage Repair</li>
               <li>• Leak Detection & Repair</li>
               <li>• Flashing Replacement</li>
@@ -276,7 +276,7 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow border">
             <h4 className="font-bold text-brand-brown mb-3">Commercial Roofing</h4>
             <ul className="space-y-2 text-sm">
-              <li>• <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">Commercial Roof Systems</a></li>
+              <li>• <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">Commercial Roof Systems</a></li>
               <li>• TPO & EPDM Installation</li>
               <li>• Modified Bitumen Roofing</li>
               <li>• Metal Commercial Roofing</li>
@@ -533,7 +533,7 @@ export default function Page() {
 
         <p>
           Living in the Texas Panhandle means dealing with frequent hailstorms. Our team specializes in
-          <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline"> hail damage repair</a> and
+          <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline"> hail damage repair</a> and
           insurance claims assistance. We'll thoroughly inspect your roof after any storm, document all
           damage with detailed reports and photographs, and work directly with your insurance adjuster
           to ensure you receive fair compensation.
@@ -762,15 +762,15 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/residential-roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/residential-roofing-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Residential Roofing</h3>
             <p className="text-sm text-gray-600">Expert home roofing services for Amarillo residents</p>
           </a>
-          <a href="/commercial-roofing-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/commercial-roofing-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Commercial Roofing</h3>
             <p className="text-sm text-gray-600">Professional roofing solutions for businesses</p>
           </a>
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
             <p className="text-sm text-gray-600">Insurance claim assistance and expert repairs</p>
           </a>

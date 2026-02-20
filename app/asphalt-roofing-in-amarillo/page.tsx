@@ -88,7 +88,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">Asphalt Shingles: The Texas Panhandle Standard</h2>
         <p className="text-lg">
-          Asphalt shingles are the most popular roofing material in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, and throughout West Texas—and for good reason. Modern impact-resistant asphalt shingles offer the best combination of <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:underline">hail protection</a>, affordability, and proven performance in our extreme climate. With 8-12 hailstorms per year, choosing the right asphalt shingle system isn't just about aesthetics—it's about survival.
+          Asphalt shingles are the most popular roofing material in <a href="/roofing-amarillo-tx/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, and throughout West Texas—and for good reason. Modern impact-resistant asphalt shingles offer the best combination of <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail protection</a>, affordability, and proven performance in our extreme climate. With 8-12 hailstorms per year, choosing the right asphalt shingle system isn't just about aesthetics—it's about survival.
         </p>
         <p className="text-lg mt-4">
           At 5 Star Commercial Roofing, we specialize in Class 4 impact-resistant asphalt shingle installations designed specifically for the Texas Panhandle and West Texas weather. Our shingles come with manufacturer warranties up to 50 years and qualify for significant insurance premium discounts.
@@ -299,11 +299,11 @@ export default function Page() {
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Related Roofing Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/residential-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• Residential Roof Replacement</a>
-          <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Residential Roofing Services</a>
-          <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:underline">• Commercial Roofing</a>
+          <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">• Residential Roof Replacement</a>
+          <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">• Residential Roofing Services</a>
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">• Commercial Roofing</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon Roofing</a>
           <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
         </div>
       </section>

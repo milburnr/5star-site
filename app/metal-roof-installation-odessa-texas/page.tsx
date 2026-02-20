@@ -370,9 +370,9 @@ export default function MetalRoofOdessaPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/odessa-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Odessa Services</a>
               <span className="text-gray-400">•</span>
-              <a href="/residential-roofing-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
+              <a href="/residential-roofing-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Residential Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/commercial-roofing-odessa-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
             </div>
           </section>
         </FadeIn>

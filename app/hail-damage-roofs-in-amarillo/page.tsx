@@ -4,7 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-roofs-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-amarillo/' },
   title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
   description: 'Hail Damage Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!',
 };
@@ -52,7 +52,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/hail-damage-roofs-in-amarillo/"
+                      "url": "/hail-damage-repair-amarillo/"
               }
       ]} />
 
@@ -62,7 +62,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/hail-damage-roofs-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -70,7 +70,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/hail-damage-roofs-in-amarillo/",
+        "url": "https://5starroofingpros.com/hail-damage-repair-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -327,7 +327,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-8 mb-4">Impact-Resistant Roofing for Hail-Prone Areas</h2>
 
         <p>
-          Consider upgrading to <a href="/residential-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">Class 4 impact-resistant shingles</a> for superior hail protection:
+          Consider upgrading to <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">Class 4 impact-resistant shingles</a> for superior hail protection:
         </p>
 
         <ul className="list-disc pl-6 space-y-2">
@@ -376,15 +376,15 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4 mb-8">
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
             <p className="text-sm text-gray-600">Expert hail damage assessment and repair</p>
           </a>
-          <a href="/storm-damage-roof-repair-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/storm-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Storm Damage</h3>
             <p className="text-sm text-gray-600">Complete storm damage restoration</p>
           </a>
-          <a href="/roof-replacement-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/roof-replacement-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Roof Replacement</h3>
             <p className="text-sm text-gray-600">Full roof replacement with impact-resistant materials</p>
           </a>
@@ -395,7 +395,7 @@ export default function Page() {
           <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland, TX</a>
           <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa, TX</a>
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock, TX</a>
-          <a href="/canyon-tx-roofing/" className="text-brand-gold hover:underline">• Canyon, TX</a>
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">• Canyon, TX</a>
         </div>
       </section>
 

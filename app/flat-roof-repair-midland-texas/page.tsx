@@ -384,9 +384,9 @@ export default function FlatRoofMidlandPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/midland-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Midland Services</a>
               <span className="text-gray-400">•</span>
-              <a href="/commercial-roofing-midland-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
+              <a href="/commercial-roofing-midland/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
               <span className="text-gray-400">•</span>
-              <a href="/hail-damage-roof-repair-midland-texas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
+              <a href="/hail-damage-repair-midland/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Hail Damage Repair</a>
             </div>
           </section>
         </FadeIn>

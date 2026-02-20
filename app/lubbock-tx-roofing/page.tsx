@@ -201,7 +201,7 @@ export default function LubbockRoofingPage() {
                       With climate change intensifying hail patterns (2023 saw 141 days with large hail - more than any year since 2003), protecting your Lubbock property with Class 4 impact-resistant shingles isn&apos;t just smart - it&apos;s essential. These premium materials can withstand future storms and often qualify for insurance discounts.
                     </p>
                     <a
-                      href="/hail-damage-roof-repair-lubbock-texas/"
+                      href="/hail-damage-repair-lubbock/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Learn More About Hail Damage Repair in Lubbock →
@@ -232,7 +232,7 @@ export default function LubbockRoofingPage() {
                       <strong>Our residential services include:</strong> Complete roof replacement with premium architectural shingles, roof repair for storm damage, attic ventilation upgrades crucial for Lubbock&apos;s 100°F+ summers, energy-efficient cool roof systems that reduce cooling costs, and gutter installation/replacement to handle occasional heavy rains. Every project includes manufacturer warranties up to 50 years plus our workmanship guarantee.
                     </p>
                     <a
-                      href="/residential-roofing-lubbock-texas/"
+                      href="/residential-roofing-lubbock/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Explore Residential Roofing in Lubbock →
@@ -263,7 +263,7 @@ export default function LubbockRoofingPage() {
                       <strong>Commercial expertise includes:</strong> TPO and EPDM flat roof systems engineered for Lubbock&apos;s extreme weather, PVC membrane systems for superior hail resistance and chemical applications, built-up roofing (BUR) providing multi-layer protection for industrial buildings, modified bitumen installations with enhanced UV resistance, metal roofing for warehouses and agricultural facilities common in the South Plains, preventive maintenance programs that extend roof life and prevent costly prompt repairs, and roof coating systems that restore aging commercial roofs at a fraction of replacement cost.
                     </p>
                     <a
-                      href="/commercial-roofing-lubbock-texas/"
+                      href="/commercial-roofing-lubbock/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       View Commercial Roofing Services in Lubbock →

@@ -3,7 +3,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/damaged-roof-replacement-in-amarillo/' },
+  alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-amarillo/' },
   title: 'Damaged Roof Replacement Amarillo TX | 5 Star',
   description: "Professional damaged roof replacement in Amarillo TX. Storm damage, hail damage, and prompt repairs. Insurance claim assistance. Free inspections. Call 5 Star Roofing (806) 622-6041.",
 };
@@ -21,7 +21,7 @@ export default function Page() {
               },
               {
                       "name": "Amarillo",
-                      "url": "/damaged-roof-replacement-in-amarillo/"
+                      "url": "/roof-replacement-amarillo/"
               }
       ]} />
 
@@ -31,7 +31,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://5starroofingpros.com/damaged-roof-replacement-in-amarillo/#localbusiness",
+        "@id": "https://5starroofingpros.com/roof-replacement-amarillo/#localbusiness",
         "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
@@ -39,7 +39,7 @@ export default function Page() {
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/damaged-roof-replacement-in-amarillo/",
+        "url": "https://5starroofingpros.com/roof-replacement-amarillo/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof replacement services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
@@ -207,7 +207,7 @@ export default function Page() {
 
         <p>
           We understand the unique challenges that damaged roofs face in this region, from intense summer heat
-          and severe <a href="/hail-damage-repair-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">hail storms</a> to
+          and severe <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">hail storms</a> to
           high winds and rapid temperature fluctuations. Our team has the local knowledge and experience to
           recommend the best roofing solutions for your specific location and climate conditions.
         </p>
@@ -237,7 +237,7 @@ export default function Page() {
 
         <h3 className="text-xl font-bold mt-6 mb-3">Asphalt Shingles</h3>
         <p>
-          The most popular choice for <a href="/residential-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">residential roofing</a> in
+          The most popular choice for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">residential roofing</a> in
           Amarillo. Modern architectural shingles offer excellent durability, impact resistance, and value.
           Impact-rated shingles qualify for insurance discounts and provide superior hail protection.
         </p>
@@ -250,7 +250,7 @@ export default function Page() {
 
         <h3 className="text-xl font-bold mt-6 mb-3">TPO and EPDM (Commercial)</h3>
         <p>
-          For <a href="/commercial-roofing-amarillo-tx/" className="text-brand-gold hover:text-brand-gold-vibrant">commercial properties</a>,
+          For <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant">commercial properties</a>,
           TPO and EPDM single-ply membranes offer superior performance on flat and low-slope roofs. These systems
           provide excellent weather resistance and energy efficiency.
         </p>
@@ -321,15 +321,15 @@ export default function Page() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/roof-replacement-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/roof-replacement-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Roof Replacement</h3>
             <p className="text-sm text-gray-600">Complete roof replacement services in Amarillo</p>
           </a>
-          <a href="/roof-repair-services-in-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/roof-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Roof Repair</h3>
             <p className="text-sm text-gray-600">Expert repairs for damaged roofs</p>
           </a>
-          <a href="/hail-damage-repair-amarillo-tx/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
+          <a href="/hail-damage-repair-amarillo/" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200">
             <h3 className="font-bold text-brand-brown mb-2">Storm Damage</h3>
             <p className="text-sm text-gray-600">Insurance claims and storm damage assessment</p>
           </a>
@@ -361,7 +361,7 @@ export default function Page() {
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://5starroofingpros.com/damaged-roof-replacement-in-amarillo/"
+              "@id": "https://5starroofingpros.com/roof-replacement-amarillo/"
             },
             "provider": {
               "@type": "RoofingContractor",
