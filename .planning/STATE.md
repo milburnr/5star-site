@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 5 of 10 (Schema Architecture)
-Plan: 3 of 4 in current phase
+Plan: 4 of 4 in current phase
 Status: In Progress
-Last activity: 2026-02-20 — Completed 05-03 FAQ and Service schema coverage audit
+Last activity: 2026-02-20 — Completed 05-02 WebSite and Person entity schemas
 
-Progress: [▓▓▓▓▓░░░░░] 48%
+Progress: [▓▓▓▓▓▓░░░░] 52%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 13
-- Average duration: 4.5min
-- Total execution time: 0.98 hours
+- Total plans completed: 14
+- Average duration: 4.2min
+- Total execution time: 1.01 hours
 
 **By Phase:**
 
@@ -31,10 +31,10 @@ Progress: [▓▓▓▓▓░░░░░] 48%
 | 02-url-canonicalization | 3 | 10min | 3.3min |
 | 03-meta-titles | 3 | 17min | 5.7min |
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
-| 05-schema-architecture | 3 | 12min | 4min |
+| 05-schema-architecture | 4 | 14min | 3.5min |
 
 **Recent Trend:**
-- Last 5 plans: 3min, 2min, 3min, 3min, 6min
+- Last 5 plans: 2min, 3min, 3min, 6min, 2min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -80,6 +80,8 @@ Recent decisions affecting current work:
 - [05-03]: 16 pages importing AccordionTrigger without JSX usage correctly skipped (no FAQ content)
 - [05-03]: 4 LocalBusiness pages with non-array @type noted for 05-04 scope
 - [05-03]: Most FAQ/Service gaps were already fixed by 05-01 -- this plan verified and closed remaining gaps
+- [05-02]: Reused existing sameAs URLs (Facebook, Google Maps CID) from LocalBusiness for WebSite schema
+- [05-02]: Person name set to "Owner" placeholder -- about page content has no specific owner name
 
 ### Pending Todos
 
@@ -94,5 +96,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 05-03-PLAN.md (FAQ and Service schema coverage audit)
+Stopped at: Completed 05-02-PLAN.md (WebSite and Person entity schemas)
 Resume file: None
