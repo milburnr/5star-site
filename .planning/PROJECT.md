@@ -27,30 +27,66 @@ Get the site ranking in top 10 for target keywords and generating 100+ organic c
 
 <!-- Current scope. Building toward these. -->
 
-- [ ] Homepage H1 and hero rewritten to be Amarillo-first (not "West Texas")
-- [ ] Unified entity name ("5 Star Roofing") across all metadata, schema, footer, headers
-- [ ] Residential-first positioning (lead with residential services, commercial secondary)
+**Entity & Positioning:**
+- [ ] Unified entity name ("5 Star Roofing") across all metadata, schema, footer, headers, OG tags
+- [ ] Residential-first positioning (lead with residential, commercial secondary)
+- [ ] Consistent brand voice across all 268 pages
+
+**Homepage:**
+- [ ] H1 and hero rewritten to be Amarillo-first (not "West Texas")
 - [ ] Homepage focused on Amarillo/Canyon/Panhandle core market
-- [ ] City hub pages strengthened (Midland, Odessa, Lubbock as standalone hubs, not homepage overflow)
-- [ ] Weak city pages improved (Canyon and similar thin pages need depth, FAQs, local data)
-- [ ] Consistent FAQ sections across all page types (6-7 per page)
-- [ ] All meta descriptions complete and optimized (fix truncated ones)
+- [ ] Midland/Odessa/Lubbock relegated to "Also Serving" — not hero-level
+
+**Content & On-Page SEO (all 268 pages):**
+- [ ] Full SEO audit: titles, H1s, meta descriptions, H2s, content quality
+- [ ] All meta descriptions complete, unique, optimized (fix truncated ones)
 - [ ] Meta title consistency with unified brand name
-- [ ] Internal linking audit and improvements
-- [ ] Full SEO audit across all 268 pages for content quality issues
-- [ ] Regression testing — site builds successfully, no visual/functional regressions
+- [ ] Hub-and-spoke topical authority: cover all keywords, prevent cannibalization
+- [ ] Rich content: tables, comparison charts, inline images where contextually relevant
+- [ ] Consistent FAQ sections across all page types (6-7 per page)
+- [ ] Inline images of hail-damaged shingles, accessories, completed work when referenced
+- [ ] City pages strengthened (Canyon and similar thin pages need depth, FAQs, local data)
+- [ ] Midland, Odessa, Lubbock as standalone hubs with unique depth
+- [ ] Cover all roofing types: asphalt shingles, metal roofs, flat membrane/TPO/EPDM
+- [ ] Residential AND commercial keywords targeted per city
+
+**Schema Markup:**
+- [ ] FAQ schema on every page with FAQ content
+- [ ] Breadcrumb schema on every page
+- [ ] LocalBusiness schema on every page (consistent NAP)
+- [ ] Service schema on all service pages
+- [ ] Verify schema renders in static HTML output (not just in React)
+
+**Images:**
+- [ ] All images served from Cloudflare R2 (NO images uploaded to GitHub)
+- [ ] No broken images across any page
+- [ ] No duplicate images on same page
+- [ ] Hero images use AI-generated images where available
+- [ ] Completed job photos used in relevant service/city pages
+- [ ] All images have descriptive, keyword-rich alt text
+- [ ] Images contextually relevant to immediate surrounding content
+
+**Internal Linking:**
+- [ ] Internal linking audit and optimization
+- [ ] Hub pages link to all spokes; spokes link back to hub and to related spokes
+- [ ] Cross-city linking for same services
+- [ ] Cross-service linking for same cities
+- [ ] No orphan pages, no dead-end pages
+
+**Technical SEO:**
+- [ ] Performance stays 95+ PageSpeed (no regressions)
+- [ ] Site builds successfully (all 268 pages)
+- [ ] Sitemap regenerated after changes
 - [ ] Resubmit to Google Indexing API after changes
 
 ### Out of Scope
 
-- Visual redesign — look/feel stays as-is
-- New page types or site architecture changes
-- Adding new cities or service areas
+- Visual redesign — look/feel, animations, layout stay as-is
+- Adding new cities or service areas beyond what exists
 - Backend/server changes (stays static export)
 - Google Business Profile changes (that's off-site)
 - Content management system changes
-- New JavaScript functionality or features
-- Aggressive/unsubstantiable claims cleanup (flag only, don't rewrite marketing copy)
+- New JavaScript features or interactive functionality
 
 ## Context
 
@@ -71,6 +107,9 @@ Get the site ranking in top 10 for target keywords and generating 100+ organic c
 - **Regression testing**: QC every change — no regressions in functionality
 - **Static export**: Must remain `output: "export"` — no server-side rendering
 - **Existing architecture**: Hub-and-spoke URL structure stays; no URL changes that would break existing index
+- **Images on Cloudflare R2**: All images are hosted on R2, NOT in the git repo. Never upload images to GitHub. Reference R2 URLs only.
+- **Performance budget**: PageSpeed score must stay 95+ on desktop, 98+ mobile
+- **No half-measures**: Fix everything found. No "good enough for now" — treat this as the only pass
 
 ## Key Decisions
 
