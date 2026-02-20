@@ -5,33 +5,33 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 2: URL Canonicalization (COMPLETE)
+**Current focus:** Phase 2: URL Canonicalization (COMPLETE - all 3 plans)
 
 ## Current Position
 
 Phase: 2 of 10 (URL Canonicalization) -- COMPLETE
-Plan: 2 of 2 in current phase (all done)
+Plan: 3 of 3 in current phase (all done)
 Status: Phase Complete
-Last activity: 2026-02-20 — Completed 02-02 duplicate page deletion (36 pages removed, sitemap regenerated)
+Last activity: 2026-02-20 — Completed 02-03 gap closure (8 redundant pages redirected+deleted, 201 canonical URLs)
 
 Progress: [▓▓░░░░░░░░] 15%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 5.3min
-- Total execution time: 0.35 hours
+- Total plans completed: 5
+- Average duration: 5min
+- Total execution time: 0.42 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-compliance-entity-fixes | 2 | 15min | 7.5min |
-| 02-url-canonicalization | 2 | 6min | 3min |
+| 02-url-canonicalization | 3 | 10min | 3.3min |
 
 **Recent Trend:**
-- Last 5 plans: 8min, 7min, 4min, 2min
+- Last 5 plans: 8min, 7min, 4min, 2min, 4min
 - Trend: improving
 
 *Updated after each plan completion*
@@ -54,6 +54,8 @@ Recent decisions affecting current work:
 - [02-01]: Variant page.tsx files updated in place (not deleted yet -- deletion is plan 02-02)
 - [02-02]: All 36 variant directories deleted after redirects confirmed working
 - [02-02]: Sitemap regenerated from out/ post-build to guarantee only built pages appear
+- [02-03]: Internal links updated to canonical targets before directory deletion to prevent PageRank loss through 301 chains
+- [02-03]: Duplicate title audit confirmed false positives only (layout default + openGraph within same page)
 - [Quality]: DESIGN-QUALITY-STANDARDS.md integrated into ROADMAP.md — 6-check verification loop, brand refs, anti-generic patterns, component reuse added to all phases
 - [Quality]: Brand assets created: .planning/brand/entity-guidelines.md, content-voice.md, keyword-map.md
 
@@ -70,5 +72,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 02-02-PLAN.md (duplicate page deletion + sitemap regeneration) -- Phase 2 complete
+Stopped at: Completed 02-03-PLAN.md (gap closure: 8 redundant pages redirected+deleted, 201 canonical URLs) -- Phase 2 fully complete
 Resume file: None
