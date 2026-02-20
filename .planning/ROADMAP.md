@@ -117,11 +117,11 @@ Plans:
 **Quality Gate**: Build succeeds, entity name consistent, PageSpeed 95+ on homepage, no visual regressions (layout/animations frozen)
 **Brand Refs**: `.planning/brand/entity-guidelines.md`, `.planning/brand/content-voice.md`
 **Anti-Generic**: No empty claims ("quality service, affordable prices") — use specific, localized content per content-voice.md
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 04-01: Rewrite homepage hero, H1, and above-the-fold content
-- [ ] 04-02: Add Also Serving section and hub page links below the fold
+- [ ] 04-01-PLAN.md -- Rewrite homepage hero, H1, metadata, and entity name for Amarillo-first residential positioning
+- [ ] 04-02-PLAN.md -- Add Also Serving section and hub page links below the fold
 
 ### Phase 5: Schema Architecture
 **Goal**: Schema markup across all pages is technically correct, type-specific, and enriched with entity signals that improve search presence
