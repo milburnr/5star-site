@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 4: Homepage Overhaul
+**Current focus:** Phase 5: Schema Architecture
 
 ## Current Position
 
-Phase: 4 of 10 (Homepage Overhaul) -- COMPLETE
-Plan: 2 of 2 in current phase
-Status: Phase Complete
-Last activity: 2026-02-20 — Completed 04-02 Also Serving section and hub page links
+Phase: 5 of 10 (Schema Architecture)
+Plan: 1 of 4 in current phase
+Status: In Progress
+Last activity: 2026-02-20 — Completed 05-01 LocalBusiness schema type and entity name upgrade
 
-Progress: [▓▓▓▓░░░░░░] 40%
+Progress: [▓▓▓▓▓░░░░░] 44%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
-- Average duration: 4.7min
-- Total execution time: 0.78 hours
+- Total plans completed: 11
+- Average duration: 4.5min
+- Total execution time: 0.83 hours
 
 **By Phase:**
 
@@ -31,9 +31,10 @@ Progress: [▓▓▓▓░░░░░░] 40%
 | 02-url-canonicalization | 3 | 10min | 3.3min |
 | 03-meta-titles | 3 | 17min | 5.7min |
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
+| 05-schema-architecture | 1 | 3min | 3min |
 
 **Recent Trend:**
-- Last 5 plans: 6min, 6min, 5min, 3min, 2min
+- Last 5 plans: 6min, 5min, 3min, 2min, 3min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -74,6 +75,8 @@ Recent decisions affecting current work:
 - [04-01]: Service areas intro reframed: Amarillo primary, Midland/Odessa as "additional coverage"
 - [04-02]: Also Serving section uses existing CSS classes with FadeIn wrapper, placed between service areas and FAQ
 - [04-02]: Services hub link added inline in intro paragraph, not as standalone CTA button
+- [05-01]: Homepage standalone RoofingContractor converted to array form for consistency with all other pages
+- [05-01]: About page Organization @type left untouched — only LocalBusiness and standalone RoofingContractor targeted
 
 ### Pending Todos
 
@@ -88,5 +91,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 04-02-PLAN.md (Also Serving section, hub page links — Phase 4 complete)
+Stopped at: Completed 05-01-PLAN.md (LocalBusiness schema type upgrade and entity name fix)
 Resume file: None
