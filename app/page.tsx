@@ -147,6 +147,9 @@ export default function Page() {
         <FadeIn direction="up">
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center">Our Specialized Services</h2>
+            <p className="text-center text-gray-text mb-8 max-w-2xl mx-auto">
+              From hail damage repair to full roof replacements, we handle every roofing need for Amarillo homeowners. <a href="/services/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium underline">View all roofing services</a>
+            </p>
 
             <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1} direction="left">
@@ -586,6 +589,25 @@ export default function Page() {
             </div>
           </div>
         </section>
+
+        {/* Also Serving - Below-fold links to West Texas city hubs */}
+        <FadeIn>
+          <section className="section pb-16">
+            <h2 className="text-2xl font-bold text-center mb-3 text-brand-brown">
+              Also Serving West Texas &amp; Beyond
+            </h2>
+            <p className="text-center text-gray-text mb-6 max-w-2xl mx-auto">
+              In addition to Amarillo and the Texas Panhandle, 5 Star Roofing provides residential and commercial roofing services to these West Texas communities:
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
+              <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Midland</a>
+              <span className="text-gray-300">|</span>
+              <a href="/odessa-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Odessa</a>
+              <span className="text-gray-300">|</span>
+              <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Lubbock</a>
+            </div>
+          </section>
+        </FadeIn>
 
         {/* Hail Damage & Insurance FAQ Section */}
         <FadeIn>
