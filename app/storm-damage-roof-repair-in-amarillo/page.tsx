@@ -19,7 +19,7 @@ export default function Page() {
               "@id": "https://5starroofingpros.com/#organization",
       "name": "5 Star Commercial Roofing",
       "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-      "telephone": "+18066226041",
+      "telephone": "(806) 622-6041",
       "email": "admin@5starroofingpros.com",
       "address": {
         "@type": "PostalAddress",

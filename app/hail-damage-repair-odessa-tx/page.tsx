@@ -79,7 +79,7 @@ export default function HailDamageRepairOdessaTXPage() {
         "addressLocality": "Odessa",
         "addressRegion": "TX"
       },
-      "telephone": "+18066226041",
+      "telephone": "(806) 622-6041",
       "areaServed": {
         "@type": "City",
         "name": "Odessa",

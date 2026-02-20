@@ -612,7 +612,7 @@ export default function HailDamageRepairMidlandPage() {
                 "addressRegion": "TX",
                 "addressCountry": "US"
               },
-              "telephone": "+18066226041"
+              "telephone": "(806) 622-6041"
             },
             "areaServed": {
               "@type": "City",

@@ -14,7 +14,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "@id": "https://5starcommercialroofing.com/hereford-texas-roofing/",
-  "name": "5 Star Commercial Roofing - Hereford",
+  "name": "5 Star Commercial Roofing",
   "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
   "telephone": "(806) 622-6041",
   "address": {

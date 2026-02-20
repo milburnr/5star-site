@@ -37,10 +37,10 @@ export default function CommercialRoofingMidlandPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/commercial-roofing-midland/#localbusiness",
-            "name": "5 Star Commercial Roofing - Midland",
+            "name": "5 Star Commercial Roofing",
             "image": "https://5starroofingpros.com/images/CommercialRoofing.jpeg",
             "telephone": "(806) 622-6041",
-            "email": "info@5starroofingpros.com",
+            "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",
@@ -68,8 +68,8 @@ export default function CommercialRoofingMidlandPage() {
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "00:00",
-              "closes": "23:59"
+              "opens": "09:00",
+              "closes": "17:00"
             },
             "description": "Expert commercial roofing for Midland's energy industry. Serving Permian Basin oil company headquarters, downtown office buildings, and industrial facilities with specialized TPO, EPDM, and metal roofing systems.",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}

@@ -42,16 +42,16 @@ export default function WindDamageRepairPerrytonPage() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://5starroofingpros.com/wind-damage-repair-perryton/#localbusiness",
-        "name": "5 Star Commercial Roofing - Perryton Wind Damage Repair",
+        "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
-        "email": "info@5starroofingpros.com",
+        "email": "admin@5starroofingpros.com",
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 36.4, "longitude": -100.8028 },
         "url": "https://5starroofingpros.com/wind-damage-repair-perryton/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas", "name": "Perryton", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert wind damage repair services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
@@ -69,7 +69,7 @@ export default function WindDamageRepairPerrytonPage() {
               "@id": "https://5starroofingpros.com/#organization",
               "name": "5 Star Commercial Roofing",
       "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-              "telephone": "+18066226041",
+              "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "2909 S Western St",

@@ -573,7 +573,7 @@ export default function AmarilloRoofingPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/amarillo-texas-roofing/",
-            "name": "5 Star Commercial Roofing - Amarillo",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Amarillo, Texas. Expert hail damage repair, residential and commercial roofing services.",
@@ -590,7 +590,7 @@ export default function AmarilloRoofingPage() {
               "latitude": "35.1859",
               "longitude": "-101.8313"
             },
-            "telephone": "+18066226041",
+            "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "url": "https://5starroofingpros.com",
             "priceRange": "$$",

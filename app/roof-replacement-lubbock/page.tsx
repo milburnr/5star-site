@@ -37,11 +37,11 @@ export default function RoofReplacementLubbockPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/roof-replacement-lubbock/#localbusiness",
-            "name": "5 Star Commercial Roofing - Lubbock Roof Replacement",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/images/residential-roofing-5.jpeg",
             "telephone": "(806) 622-6041",
-            "email": "info@5starroofingpros.com",
+            "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",

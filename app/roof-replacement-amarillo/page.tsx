@@ -37,11 +37,11 @@ export default function RoofReplacementAmarilloPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/roof-replacement-amarillo/#localbusiness",
-            "name": "5 Star Commercial Roofing - Amarillo Roof Replacement",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/images/residential-roofing-5.jpeg",
             "telephone": "(806) 622-6041",
-            "email": "info@5starroofingpros.com",
+            "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",
@@ -69,8 +69,8 @@ export default function RoofReplacementAmarilloPage() {
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "00:00",
-              "closes": "23:59"
+              "opens": "09:00",
+              "closes": "17:00"
             },
             "description": "Expert roof replacement in Amarillo TX. Class 4 impact-resistant shingles for Texas Panhandle weather. Potter County: 131 hail days since 2000, 14.3 mph avg winds. Insurance claims assistance. Call (806) 622-6041"
           })

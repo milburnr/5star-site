@@ -16,7 +16,7 @@ export default function Page() {
     "provider": {
       "@type": "RoofingContractor",
       "name": "5 Star Commercial Roofing",
-      "telephone": "+18066226041",
+      "telephone": "(806) 622-6041",
       "email": "admin@5starroofingpros.com",
       "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
       "address": {

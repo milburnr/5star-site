@@ -602,7 +602,7 @@ export default function CanyonTXRoofingPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/canyon-tx-roofing/",
-            "name": "5 Star Commercial Roofing - Serving Canyon, TX",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Canyon, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services for Canyon homes and businesses.",
@@ -619,7 +619,7 @@ export default function CanyonTXRoofingPage() {
               "latitude": "35.1859",
               "longitude": "-101.8313"
             },
-            "telephone": "+18066226041",
+            "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "url": "https://5starroofingpros.com",
             "priceRange": "$$",

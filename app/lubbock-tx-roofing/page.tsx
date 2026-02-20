@@ -656,7 +656,7 @@ export default function LubbockRoofingPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/lubbock-texas-roofing/",
-            "name": "5 Star Commercial Roofing - Lubbock",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Lubbock, Texas and the South Plains. Expert hail damage repair, residential and commercial roofing services, Texas Tech area specialist.",
@@ -671,7 +671,7 @@ export default function LubbockRoofingPage() {
               "latitude": "33.5779",
               "longitude": "-101.8552"
             },
-            "telephone": "+18066226041",
+            "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "url": "https://5starroofingpros.com",
             "priceRange": "$$",

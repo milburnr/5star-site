@@ -828,13 +828,13 @@ export default function MidlandRoofingPage() {
               {
                 "@type": "RoofingContractor",
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#roofingcontractor",
-                "name": "5 Star Commercial Roofing - Midland",
+                "name": "5 Star Commercial Roofing",
                 "parentOrganization": {
                   "@id": "https://5starroofingpros.com/#organization"
                 },
                 "image": "https://5starroofingpros.com/logo.png",
                 "description": "Premier roofing contractor serving Midland, Texas and the Permian Basin. Specialists in commercial roofing, hail damage repair, flat roof systems, and residential roofing for extreme West Texas conditions.",
-                "telephone": "+18066226041",
+                "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
                 "url": "https://5starroofingpros.com/midland-texas-roofing/",
                 "priceRange": "$$",
@@ -910,9 +910,9 @@ export default function MidlandRoofingPage() {
               {
                 "@type": "LocalBusiness",
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#localbusiness",
-                "name": "5 Star Commercial Roofing - Midland",
+                "name": "5 Star Commercial Roofing",
                 "image": "https://5starroofingpros.com/logo.png",
-                "telephone": "+18066226041",
+                "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
                 "url": "https://5starroofingpros.com",
                 "priceRange": "$$",

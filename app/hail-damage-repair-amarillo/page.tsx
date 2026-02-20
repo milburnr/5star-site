@@ -37,11 +37,11 @@ export default function HailDamageRepairAmarilloPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/hail-damage-repair-amarillo/#localbusiness",
-            "name": "5 Star Commercial Roofing - Amarillo Hail Damage Repair",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/images/hail-damage-3.jpg",
             "telephone": "(806) 622-6041",
-            "email": "info@5starroofingpros.com",
+            "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",
@@ -69,8 +69,8 @@ export default function HailDamageRepairAmarilloPage() {
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "00:00",
-              "closes": "23:59"
+              "opens": "09:00",
+              "closes": "17:00"
             },
             "description": "Expert hail damage roof repair in Amarillo. Potter County recorded 131 severe hail days since 2000. Complete insurance claim assistance. Free inspections. Call (806) 622-6041"
           })

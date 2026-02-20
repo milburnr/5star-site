@@ -34,16 +34,16 @@ export default function RoofInspectionAmarilloPage() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://5starroofingpros.com/roof-inspection-amarillo-texas/#localbusiness",
-        "name": "5 Star Commercial Roofing - Amarillo Roof Inspections",
+        "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
-        "email": "info@5starroofingpros.com",
+        "email": "admin@5starroofingpros.com",
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
         "url": "https://5starroofingpros.com/roof-inspection-amarillo-texas/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof inspections services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
@@ -742,7 +742,7 @@ export default function RoofInspectionAmarilloPage() {
         </FadeIn>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Roof Inspection","provider":{"@type":"LocalBusiness","name":"5 Star Commercial Roofing","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"},"telephone":"+18066226041"},"areaServed":{"@type":"City","name":"Amarillo","containedInPlace":{"@type":"State","name":"Texas"}},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free hail damage inspections"}})}}/>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Roof Inspection","provider":{"@type":"LocalBusiness","name":"5 Star Commercial Roofing","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"},"telephone": "(806) 622-6041"},"areaServed":{"@type":"City","name":"Amarillo","containedInPlace":{"@type":"State","name":"Texas"}},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free hail damage inspections"}})}}/>
     </div>
   );
 }

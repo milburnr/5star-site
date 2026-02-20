@@ -81,7 +81,7 @@ export default function Page() {
     "provider": {
       "@type": "RoofingContractor",
       "name": "5 Star Commercial Roofing",
-      "telephone": "+1-806-622-6041",
+      "telephone": "(806) 622-6041",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Amarillo",

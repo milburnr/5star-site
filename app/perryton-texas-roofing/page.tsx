@@ -15,10 +15,10 @@ export default function PerrytonRoofingPage() {
     "@context": "https://schema.org",
     "@type": "RoofingContractor",
               "@id": "https://5starroofingpros.com/#organization",
-    "name": "5 Star Commercial Roofing - Perryton",
+    "name": "5 Star Commercial Roofing",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
     "description": "Professional roofing contractor serving Perryton, Texas and Ochiltree County with commercial, residential, and professional roofing services.",
-    "telephone": "+18066226041",
+    "telephone": "(806) 622-6041",
     "email": "admin@5starroofingpros.com",
     "address": {
       "@type": "PostalAddress",

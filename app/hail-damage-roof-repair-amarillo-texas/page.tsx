@@ -412,7 +412,7 @@ export default function HailDamageAmarilloPage() {
                 "addressRegion": "TX",
                 "postalCode": "79109"
               },
-              "telephone": "+18066226041"
+              "telephone": "(806) 622-6041"
             },
             "areaServed": {
               "@type": "City",

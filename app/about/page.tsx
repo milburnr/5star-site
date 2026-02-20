@@ -19,8 +19,8 @@ export default function Page() {
     "alternateName": "5 Star Roofing",
     "url": "https://5starroofingpros.com",
     "logo": "https://5starroofingpros.com/logo.png",
-    "telephone": "+1-806-622-6041",
-    "email": "info@5starroofingpros.com",
+    "telephone": "(806) 622-6041",
+    "email": "admin@5starroofingpros.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Serving West Texas",

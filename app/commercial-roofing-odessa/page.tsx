@@ -37,10 +37,10 @@ export default function CommercialRoofingOdessaPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/commercial-roofing-odessa/#localbusiness",
-            "name": "5 Star Commercial Roofing - Odessa Commercial Roofing",
+            "name": "5 Star Commercial Roofing",
             "image": "https://5starroofingpros.com/images/CommercialRoofing.jpeg",
             "telephone": "(806) 622-6041",
-            "email": "info@5starroofingpros.com",
+            "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",

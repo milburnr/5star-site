@@ -39,7 +39,7 @@ export default function Page() {
             "@id": "https://5starroofingpros.com",
             "name": "5 Star Commercial Roofing",
             "image": "https://5starroofingpros.com/images/5-star-with-letters-1.png",
-            "telephone": "+18066226041",
+            "telephone": "(806) 622-6041",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",

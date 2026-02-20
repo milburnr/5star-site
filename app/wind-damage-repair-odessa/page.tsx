@@ -42,16 +42,16 @@ export default function Page() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://5starroofingpros.com/wind-damage-repair-odessa/#localbusiness",
-        "name": "5 Star Commercial Roofing - Odessa Wind Damage Repair",
+        "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
-        "email": "info@5starroofingpros.com",
+        "email": "admin@5starroofingpros.com",
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 31.8457, "longitude": -102.3676 },
         "url": "https://5starroofingpros.com/wind-damage-repair-odessa/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert wind damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
@@ -68,7 +68,7 @@ export default function Page() {
               "@type": "RoofingContractor",
               "@id": "https://5starroofingpros.com/#organization",
               "name": "5 Star Commercial Roofing",
-              "telephone": "+18066226041",
+              "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "2909 S Western St",

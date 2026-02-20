@@ -42,16 +42,16 @@ export default function RoofInspectionsDumasPage() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://5starroofingpros.com/roof-inspections-dumas/#localbusiness",
-        "name": "5 Star Commercial Roofing - Dumas Roof Inspections",
+        "name": "5 Star Commercial Roofing",
         "image": "https://5starroofingpros.com/images/5star-logo.png",
         "telephone": "(806) 622-6041",
-        "email": "info@5starroofingpros.com",
+        "email": "admin@5starroofingpros.com",
         "priceRange": "$",
         "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
         "geo": { "@type": "GeoCoordinates", "latitude": 35.8656, "longitude": -101.973 },
         "url": "https://5starroofingpros.com/roof-inspections-dumas/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" },
+        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof inspections services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
       }) }} />
@@ -68,7 +68,7 @@ export default function RoofInspectionsDumasPage() {
               "@type": "RoofingContractor",
               "@id": "https://5starroofingpros.com/#organization",
               "name": "5 Star Commercial Roofing",
-              "telephone": "+18066226041",
+              "telephone": "(806) 622-6041",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "2909 S Western St",

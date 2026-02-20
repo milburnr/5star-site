@@ -37,10 +37,10 @@ export default function ResidentialRoofingMidlandPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/residential-roofing-midland/#localbusiness",
-            "name": "5 Star Commercial Roofing - Midland Residential Services",
+            "name": "5 Star Commercial Roofing",
             "image": "https://5starroofingpros.com/images/ResidentialServices.jpeg",
             "telephone": "(806) 622-6041",
-            "email": "info@5starroofingpros.com",
+            "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",

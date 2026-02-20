@@ -14,10 +14,10 @@ export default function PlainviewRoofingPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "RoofingContractor",
-    "name": "5 Star Commercial Roofing - Plainview",
+    "name": "5 Star Commercial Roofing",
     "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
     "description": "Professional roofing contractor serving Plainview, Texas and Hale County with commercial, residential, and professional roofing services.",
-    "telephone": "+18066226041",
+    "telephone": "(806) 622-6041",
     "email": "admin@5starroofingpros.com",
     "address": {
       "@type": "PostalAddress",

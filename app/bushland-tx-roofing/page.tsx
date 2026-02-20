@@ -456,7 +456,7 @@ export default function BushlandRoofingPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://5starroofingpros.com/bushland-tx-roofing/",
-            "name": "5 Star Commercial Roofing - Serving Bushland, TX",
+            "name": "5 Star Commercial Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
             "image": "https://5starroofingpros.com/logo.png",
             "description": "Professional roofing contractor serving Bushland, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
@@ -473,7 +473,7 @@ export default function BushlandRoofingPage() {
               "latitude": "35.1859",
               "longitude": "-101.8313"
             },
-            "telephone": "+18066226041",
+            "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "url": "https://5starroofingpros.com",
             "priceRange": "$$",
