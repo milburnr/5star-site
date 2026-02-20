@@ -15,7 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-amarillo/' },
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
-  description: "Roof Replacement in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+  description: "Full roof replacement in Amarillo TX. Shingle, metal & flat roof options. Insurance claim assistance. Call (806) 622-6041 for a free estimate",
 };
 
 export default function RoofReplacementAmarilloPage() {

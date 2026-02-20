@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-odessa/' },
   title: 'Hail Damage Repair Odessa TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Odessa TX. Fast storm response, insurance assistance, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Professional hail damage roof repair in Odessa TX. Fast storm response, insurance assistance. Free inspections. Call (806) 622-6041",};
 
 export default function HailDamageRepairOdessaPage() {
   return (

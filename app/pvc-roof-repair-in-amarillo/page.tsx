@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pvc-roof-repair-in-amarillo/' },
   title: 'PVC Roof Repair Amarillo TX | 5 Star Roofing',
-  description: "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+  description: "PVC roof repair in Amarillo TX. Membrane patching, seam welding, leak detection for flat roofs. Call (806) 622-6041 for a free estimate",
 };
 
 export default function Page() {

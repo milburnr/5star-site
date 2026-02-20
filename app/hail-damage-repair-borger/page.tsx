@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-borger/' },
   title: 'Hail Damage Repair Borger TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Borger TX. Fast storm response, insurance assistance, quality materials. Serving Hutchinson County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Professional hail damage roof repair in Borger TX. Fast storm response, insurance assistance. Serving Hutchinson County. Call (806) 622-6041",};
 
 export default function HailDamageRepairBorgerPage() {
   return (

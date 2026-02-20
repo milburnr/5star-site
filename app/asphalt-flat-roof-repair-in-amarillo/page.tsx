@@ -6,7 +6,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/asphalt-flat-roof-repair-in-amarillo/' },
   title: 'Flat Roof Repair Amarillo TX | 5 Star Roofing',
-  description: "Roof Repair in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+  description: "Asphalt flat roof repair in Amarillo TX. Coating, patching & leak sealing for commercial flat roofs. Free inspections. Call (806) 622-6041",
 };
 
 export default function Page() {

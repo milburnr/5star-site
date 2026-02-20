@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-pampa/' },
   title: 'Hail Damage Repair Pampa TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Pampa TX. storm response, insurance assistance, quality materials. Serving Gray County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",};
 
 export default function HailDamageRepairPampaPage() {
   return (
