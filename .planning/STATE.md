@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 10 of 10 (Technical Validation & Relaunch)
-Plan: 1 of 3 complete
-Status: Executing Phase 10 — build validation baseline established
-Last activity: 2026-02-21 — Completed 10-01 (build validation + internal link checker)
+Plan: 2 of 3 complete
+Status: Executing Phase 10 — sitemap enhanced, awaiting internal link fixes
+Last activity: 2026-02-21 — Completed 10-02 (sitemap enhancement with differentiated priorities)
 
-Progress: [▓▓▓▓▓▓▓▓▓▓] 96%
+Progress: [▓▓▓▓▓▓▓▓▓▓] 97%
 
 ## Performance Metrics
 
@@ -46,6 +46,7 @@ Progress: [▓▓▓▓▓▓▓▓▓▓] 96%
 | Phase 09 P02 | 8min | 2 tasks | 14 files |
 | Phase 09 P03 | 3min | 1 task | 9 files |
 | Phase 10 P01 | 6min | 2 tasks | 4 files |
+| Phase 10 P02 | 2min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -134,6 +135,8 @@ Recent decisions affecting current work:
 - [Phase 09-03]: Inline image pattern: my-8 rounded-lg overflow-hidden shadow-lg wrapper, h-64 object-cover, lazy loading
 - [Phase 10-01]: LHCI performance set to warn (not error) -- hub pages with 100+ links score 86-92 locally, spoke pages and homepage hit 95+
 - [Phase 10-01]: Meta CTA fix: added phone number CTA to metal-roofing and storm-damage-repair hub descriptions
+- [Phase 10-02]: Homepage was missing from sitemap -- root page.tsx not detected by directory walker, fixed
+- [Phase 10-02]: Service hub detection uses explicit Set; city hub uses regex; spoke uses prefix array with startsWith
 
 ### Pending Todos
 
@@ -148,5 +151,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 10-01-PLAN.md (build validation + internal link checker)
+Stopped at: Completed 10-02-PLAN.md (sitemap enhancement with differentiated priorities)
 Resume file: None
