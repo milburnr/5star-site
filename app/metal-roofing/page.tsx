@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing/' },
   title: 'Metal Roofing West Texas | 5 Star Roofing',
-  description: "Metal roofing installation and repair across West Texas. Standing seam, corrugated, and metal shingle options with 40-50 year lifespans and energy savings.",
+  description: "Metal roofing installation and repair across West Texas. Standing seam, corrugated, and metal shingle options. Call (806) 622-6041 for a free estimate.",
 };
 
 export default function Page() {

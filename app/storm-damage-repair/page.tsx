@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair/' },
   title: 'Storm Damage Roof Repair Texas | 5 Star Roofing',
-  description: "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with rapid response, weatherproofing, and insurance coordination.",
+  description: "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with rapid response and insurance coordination. Call (806) 622-6041 today.",
 };
 
 export default function Page() {
