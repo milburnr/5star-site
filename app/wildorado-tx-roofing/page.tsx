@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
@@ -440,6 +446,65 @@ export default function WildoradoRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Wildorado Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does the cattle feedlot industry near Wildorado affect roof maintenance?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Wildorado sits near several large cattle feedlot operations in Oldham County. Feedlot activity generates airborne particulates including dust and ammonia that can settle on roof surfaces and accelerate material degradation. Properties downwind of feedlot operations may need more frequent gutter cleaning and roof maintenance. We recommend corrosion-resistant materials and enhanced ventilation systems for homes and buildings near cattle operations.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  With only 200 residents, does Wildorado get the same quality service as Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Absolutely. Every Wildorado project receives the same premium materials, experienced crews, manufacturer warranties, and attention to detail as our Amarillo installations. At just 15 miles from our headquarters on I-40, Wildorado is actually one of the closest communities we serve. We drive through Wildorado regularly and have long-standing relationships with property owners in the community. Small-town customers are not an afterthought -- they are the backbone of our business.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What type of roofing is best for Wildorado barns and equipment shops?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  For Wildorado&apos;s agricultural buildings, standing seam metal roofing is the clear winner. It handles the extreme wind exposure without lifting, resists hail impacts that would destroy shingles, requires virtually no maintenance over a 50+ year lifespan, and provides excellent ventilation options for livestock and equipment storage. For pole barns and shops, corrugated metal panels with galvalume coating offer the best combination of durability and value in Wildorado&apos;s harsh climate.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Wildorado&apos;s location between Amarillo and Vega affect storm exposure?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Wildorado sits on the open high plains between Amarillo and Vega along I-40 with no urban structures or terrain features to break up storm energy. Severe thunderstorms approaching from the southwest hit Wildorado at full intensity before reaching Amarillo&apos;s urban heat island. This means Wildorado often experiences the most intense phase of supercell storms, including the largest hail and strongest winds. This exposed position demands the highest-rated roofing materials available.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can you install impact-resistant shingles on older Wildorado homes?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, Class 4 impact-resistant shingles can be installed on virtually any Wildorado home regardless of age. Older homes may need minor decking repairs or added underlayment, but the shingle installation process is the same. These premium shingles provide significantly better hail protection and can reduce insurance premiums by up to 35%. Given Wildorado&apos;s extreme hail exposure, the insurance savings often cover the upgrade cost within a few years.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you offer financing for Wildorado roofing projects?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we offer financing options for all Wildorado residential and commercial projects. For hail damage replacements, most projects are covered by insurance with homeowners responsible only for their deductible. For upgrades and new installations, we provide competitive financing plans that make premium materials affordable. We also help Wildorado homeowners explore whether their existing damage qualifies for insurance coverage before recommending out-of-pocket investments.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* Final CTA */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -579,6 +644,24 @@ export default function WildoradoRoofingPage() {
                 }
               ]
             }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How does the cattle feedlot industry near Wildorado affect roof maintenance?","acceptedAnswer":{"@type":"Answer","text":"Wildorado sits near several large cattle feedlot operations in Oldham County. Feedlot activity generates airborne particulates including dust and ammonia that can settle on roof surfaces and accelerate material degradation. We recommend corrosion-resistant materials and enhanced ventilation systems for homes and buildings near cattle operations."}},
+              {"@type":"Question","name":"With only 200 residents, does Wildorado get the same quality service as Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Every Wildorado project receives the same premium materials, experienced crews, manufacturer warranties, and attention to detail as our Amarillo installations. At just 15 miles from our headquarters on I-40, Wildorado is actually one of the closest communities we serve."}},
+              {"@type":"Question","name":"What type of roofing is best for Wildorado barns and equipment shops?","acceptedAnswer":{"@type":"Answer","text":"For Wildorado's agricultural buildings, standing seam metal roofing is the clear winner. It handles the extreme wind exposure without lifting, resists hail impacts that would destroy shingles, requires virtually no maintenance over a 50+ year lifespan, and provides excellent ventilation options for livestock and equipment storage."}},
+              {"@type":"Question","name":"How does Wildorado's location between Amarillo and Vega affect storm exposure?","acceptedAnswer":{"@type":"Answer","text":"Wildorado sits on the open high plains between Amarillo and Vega along I-40 with no urban structures or terrain features to break up storm energy. Severe thunderstorms approaching from the southwest hit Wildorado at full intensity before reaching Amarillo's urban heat island. This exposed position demands the highest-rated roofing materials available."}},
+              {"@type":"Question","name":"Can you install impact-resistant shingles on older Wildorado homes?","acceptedAnswer":{"@type":"Answer","text":"Yes, Class 4 impact-resistant shingles can be installed on virtually any Wildorado home regardless of age. These premium shingles provide significantly better hail protection and can reduce insurance premiums by up to 35%. Given Wildorado's extreme hail exposure, the insurance savings often cover the upgrade cost within a few years."}},
+              {"@type":"Question","name":"Do you offer financing for Wildorado roofing projects?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer financing options for all Wildorado residential and commercial projects. For hail damage replacements, most projects are covered by insurance with homeowners responsible only for their deductible. For upgrades and new installations, we provide competitive financing plans that make premium materials affordable."}}
+            ]
           })
         }}
       />

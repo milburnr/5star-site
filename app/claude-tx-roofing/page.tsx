@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
@@ -433,6 +439,65 @@ export default function ClaudeRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Claude Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Claude&apos;s small population affect roofing contractor availability?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  With only about 1,200 residents, Claude does not have local roofing contractors. Many residents rely on companies from Amarillo, which is 25 miles west on US-287. We make the drive regularly and can typically reach Claude within 30 minutes. Our familiarity with Armstrong County means we understand the specific building styles and weather patterns that affect roofing decisions here.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What roofing challenges are unique to Claude&apos;s Armstrong County location?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Claude sits at the gateway to Palo Duro Canyon, where the landscape transitions from flat plains to rugged canyon terrain. This creates unique wind patterns as air flows between the open plains and the canyon. Armstrong County also experiences extreme isolation from major supply chains, so we bring all materials and equipment in a single trip to minimize project delays and additional travel costs.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can you roof historic buildings near Claude&apos;s downtown square?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Absolutely. Claude&apos;s historic downtown includes buildings dating back to the early 1900s, including structures around the Armstrong County Courthouse. We have experience working with older construction methods and can install modern roofing systems that respect the architectural character while providing superior weather protection. We use materials that complement historic aesthetics, including architectural shingles and stone-coated steel that mimic traditional profiles.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you handle ranch and agricultural roofing for properties along Tule Creek?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, ranch and agricultural roofing is common in Claude and Armstrong County. Properties along Tule Creek and FM 1260 often include cattle barns, equipment storage buildings, hay storage structures, and ranch headquarters. We install metal roofing systems designed for agricultural use, including corrugated panels, R-panel, and standing seam systems with enhanced corrosion resistance for livestock environments.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does the proximity to Palo Duro Canyon affect roofing in Claude?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Palo Duro Canyon, located just south of Claude, creates unique microclimate effects. The canyon acts as a channel for winds, and storms approaching from the southwest can intensify as they interact with the canyon&apos;s topography. Properties on the south side of Claude facing the canyon experience more turbulent wind patterns than those on the north side. We account for these directional wind effects when selecting materials and planning installation.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What UV protection is needed for roofs at Claude&apos;s elevation?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  At nearly 3,000 feet elevation with over 265 days of sunshine annually, Claude roofs receive intense UV radiation that accelerates shingle degradation. Standard asphalt shingles rated for 25-30 years may only last 15-20 years here. We recommend UV-stabilized architectural shingles with enhanced granule adhesion, or metal roofing with reflective coatings that resist UV damage and reduce cooling costs.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* Final CTA */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -573,6 +638,24 @@ export default function ClaudeRoofingPage() {
                 }
               ]
             }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How does Claude's small population affect roofing contractor availability?","acceptedAnswer":{"@type":"Answer","text":"With only about 1,200 residents, Claude does not have local roofing contractors. Many residents rely on companies from Amarillo, which is 25 miles west on US-287. We make the drive regularly and can typically reach Claude within 30 minutes. Our familiarity with Armstrong County means we understand the specific building styles and weather patterns that affect roofing decisions here."}},
+              {"@type":"Question","name":"What roofing challenges are unique to Claude's Armstrong County location?","acceptedAnswer":{"@type":"Answer","text":"Claude sits at the gateway to Palo Duro Canyon, where the landscape transitions from flat plains to rugged canyon terrain. This creates unique wind patterns as air flows between the open plains and the canyon. Armstrong County also experiences extreme isolation from major supply chains, so we bring all materials and equipment in a single trip to minimize project delays and additional travel costs."}},
+              {"@type":"Question","name":"Can you roof historic buildings near Claude's downtown square?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Claude's historic downtown includes buildings dating back to the early 1900s, including structures around the Armstrong County Courthouse. We have experience working with older construction methods and can install modern roofing systems that respect the architectural character while providing superior weather protection."}},
+              {"@type":"Question","name":"Do you handle ranch and agricultural roofing for properties along Tule Creek?","acceptedAnswer":{"@type":"Answer","text":"Yes, ranch and agricultural roofing is common in Claude and Armstrong County. Properties along Tule Creek and FM 1260 often include cattle barns, equipment storage buildings, hay storage structures, and ranch headquarters. We install metal roofing systems designed for agricultural use, including corrugated panels, R-panel, and standing seam systems with enhanced corrosion resistance for livestock environments."}},
+              {"@type":"Question","name":"How does the proximity to Palo Duro Canyon affect roofing in Claude?","acceptedAnswer":{"@type":"Answer","text":"Palo Duro Canyon, located just south of Claude, creates unique microclimate effects. The canyon acts as a channel for winds, and storms approaching from the southwest can intensify as they interact with the canyon's topography. Properties on the south side of Claude facing the canyon experience more turbulent wind patterns than those on the north side. We account for these directional wind effects when selecting materials and planning installation."}},
+              {"@type":"Question","name":"What UV protection is needed for roofs at Claude's elevation?","acceptedAnswer":{"@type":"Answer","text":"At nearly 3,000 feet elevation with over 265 days of sunshine annually, Claude roofs receive intense UV radiation that accelerates shingle degradation. Standard asphalt shingles rated for 25-30 years may only last 15-20 years here. We recommend UV-stabilized architectural shingles with enhanced granule adhesion, or metal roofing with reflective coatings that resist UV damage and reduce cooling costs."}}
+            ]
           })
         }}
       />

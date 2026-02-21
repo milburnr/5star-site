@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
@@ -393,6 +399,65 @@ export default function BushlandRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Bushland Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Bushland&apos;s proximity to Amarillo affect roofing service response times?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Bushland is just 10 miles west of our Amarillo headquarters on I-40, making it one of the fastest communities we can reach. We typically arrive within 15-20 minutes for scheduled appointments and can respond even faster for storm emergencies. This proximity means Bushland residents get big-city expertise with small-town convenience.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What roofing materials work best for rural Bushland properties along FM 2381?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Rural properties along FM 2381 and County Road 34 face maximum wind and hail exposure with no surrounding structures for protection. We recommend Class 4 impact-resistant shingles rated for 130+ mph winds for homes, and standing seam metal roofing for barns, shops, and agricultural buildings. Metal roofing is particularly popular in Bushland because it handles wind, hail, and UV exposure better than any other material.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you provide roofing services for agricultural buildings in the Bushland area?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, agricultural roofing is a major part of our Bushland work. We roof grain elevators, feed storage buildings, equipment shops, barns, and other agricultural structures common in the area. We use corrugated metal panels, R-panel systems, and standing seam metal specifically rated for agricultural environments, including corrosion-resistant coatings that withstand dust and chemical exposure from farming operations.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How often should Bushland homeowners inspect their roofs given the local weather?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Given Bushland&apos;s extreme exposure to hail, wind, and UV radiation, we recommend professional inspections twice annually -- once before storm season in early spring and once after in late fall. You should also request an inspection after any significant hail event. Many Bushland homeowners have hail damage they are unaware of because it is not always visible from ground level.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Does Bushland ISD have specific requirements for roofing near school properties?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  While Bushland ISD does not impose specific roofing requirements on nearby residential properties, Potter County building codes apply. We ensure all Bushland installations meet or exceed local codes, including wind uplift ratings appropriate for the area&apos;s high-wind zone classification. For properties near the school campus, we also schedule work to minimize noise and disruption during school hours.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What insurance considerations are unique to Bushland roofing claims?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Bushland properties often carry rural or agricultural insurance policies that differ from standard Amarillo homeowner coverage. We work with all major carriers serving Potter County, including agricultural-specific insurers. Many Bushland homeowners qualify for insurance premium discounts of up to 35% by upgrading to Class 4 impact-resistant shingles, which is especially valuable given the area&apos;s frequent hail exposure.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* Final CTA */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -533,6 +598,24 @@ export default function BushlandRoofingPage() {
                 }
               ]
             }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How does Bushland's proximity to Amarillo affect roofing service response times?","acceptedAnswer":{"@type":"Answer","text":"Bushland is just 10 miles west of our Amarillo headquarters on I-40, making it one of the fastest communities we can reach. We typically arrive within 15-20 minutes for scheduled appointments and can respond even faster for storm emergencies. This proximity means Bushland residents get big-city expertise with small-town convenience."}},
+              {"@type":"Question","name":"What roofing materials work best for rural Bushland properties along FM 2381?","acceptedAnswer":{"@type":"Answer","text":"Rural properties along FM 2381 and County Road 34 face maximum wind and hail exposure with no surrounding structures for protection. We recommend Class 4 impact-resistant shingles rated for 130+ mph winds for homes, and standing seam metal roofing for barns, shops, and agricultural buildings. Metal roofing is particularly popular in Bushland because it handles wind, hail, and UV exposure better than any other material."}},
+              {"@type":"Question","name":"Do you provide roofing services for agricultural buildings in the Bushland area?","acceptedAnswer":{"@type":"Answer","text":"Yes, agricultural roofing is a major part of our Bushland work. We roof grain elevators, feed storage buildings, equipment shops, barns, and other agricultural structures common in the area. We use corrugated metal panels, R-panel systems, and standing seam metal specifically rated for agricultural environments, including corrosion-resistant coatings that withstand dust and chemical exposure from farming operations."}},
+              {"@type":"Question","name":"How often should Bushland homeowners inspect their roofs given the local weather?","acceptedAnswer":{"@type":"Answer","text":"Given Bushland's extreme exposure to hail, wind, and UV radiation, we recommend professional inspections twice annually -- once before storm season in early spring and once after in late fall. You should also request an inspection after any significant hail event. Many Bushland homeowners have hail damage they are unaware of because it is not always visible from ground level."}},
+              {"@type":"Question","name":"Does Bushland ISD have specific requirements for roofing near school properties?","acceptedAnswer":{"@type":"Answer","text":"While Bushland ISD does not impose specific roofing requirements on nearby residential properties, Potter County building codes apply. We ensure all Bushland installations meet or exceed local codes, including wind uplift ratings appropriate for the area's high-wind zone classification. For properties near the school campus, we also schedule work to minimize noise and disruption during school hours."}},
+              {"@type":"Question","name":"What insurance considerations are unique to Bushland roofing claims?","acceptedAnswer":{"@type":"Answer","text":"Bushland properties often carry rural or agricultural insurance policies that differ from standard Amarillo homeowner coverage. We work with all major carriers serving Potter County, including agricultural-specific insurers. Many Bushland homeowners qualify for insurance premium discounts of up to 35% by upgrading to Class 4 impact-resistant shingles, which is especially valuable given the area's frequent hail exposure."}}
+            ]
           })
         }}
       />

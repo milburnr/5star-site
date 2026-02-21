@@ -1,5 +1,11 @@
 import { FadeIn } from "@/components/FadeIn";
 import { InteractiveCard } from "@/components/InteractiveCard";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -595,6 +601,65 @@ export default function LubbockRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Lubbock Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Lubbock&apos;s position in Hail Alley affect my insurance rates?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Lubbock&apos;s location in the heart of Hail Alley means insurance premiums are among the highest in Texas for wind and hail coverage. However, upgrading to Class 4 impact-resistant shingles can reduce your hail coverage premium by up to 35%. With 273 hail reports in the past year alone, this upgrade typically pays for itself within 5-7 years through insurance savings while providing superior protection.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you handle roofing for Texas Tech University area rental properties?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we work extensively with property owners and management companies in Tech Terrace, North and South Overton, and other university-area neighborhoods. We offer competitive pricing for multi-property portfolios, schedule work around the academic calendar to minimize tenant disruption, and install durable materials that withstand the higher traffic typical of student rental properties.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What is the average cost of a roof replacement in Lubbock?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Roof replacement costs in Lubbock vary based on size, materials, and complexity. A typical 2,000 sq ft home with architectural shingles ranges from $8,000 to $15,000, while Class 4 impact-resistant shingles run $12,000 to $20,000. However, most hail damage replacements in Lubbock are covered by insurance, with homeowners only responsible for their deductible. We provide free inspections and detailed estimates before any work begins.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Why do roofs in Lubbock fail faster than in other Texas cities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Lubbock roofs face a combination of factors that accelerate wear: intense UV radiation at 3,256 feet elevation with 260+ sunny days annually, sustained winds averaging 12+ mph that constantly stress shingle adhesion, extreme temperature swings exceeding 120 degrees annually, frequent hail impacts, and South Plains dust storms that clog gutters and trap moisture. Standard shingles rated for 25-30 years often fail in 15-20 years here. Premium UV-stabilized materials are essential.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How soon after a Lubbock hailstorm should I get my roof inspected?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  We recommend getting a professional inspection within 72 hours of any significant hail event. Texas law gives you up to 2 years to file a hail damage claim, but waiting allows hidden damage to worsen, potentially leading to leaks, mold growth, and interior damage. Early inspection also ensures your claim is documented while storm evidence is fresh. We provide free same-day inspections throughout Lubbock County after major storms.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What neighborhoods in Lubbock do you serve?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  We serve all Lubbock neighborhoods and surrounding communities including Tech Terrace, Shadow Hills, Whisperwood, Arnett Benson, Lakeridge, Monterey, North and South Overton, Clapp Park, Preston Place, Windsor Park, the Depot District, and all areas within Loop 289. We also serve Shallowater, New Deal, Wolfforth, Idalou, and all of Lubbock County.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* Final CTA */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -770,6 +835,24 @@ export default function LubbockRoofingPage() {
                 }
               ]
             }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How does Lubbock's position in Hail Alley affect my insurance rates?","acceptedAnswer":{"@type":"Answer","text":"Lubbock's location in the heart of Hail Alley means insurance premiums are among the highest in Texas for wind and hail coverage. However, upgrading to Class 4 impact-resistant shingles can reduce your hail coverage premium by up to 35%. With 273 hail reports in the past year alone, this upgrade typically pays for itself within 5-7 years through insurance savings while providing superior protection."}},
+              {"@type":"Question","name":"Do you handle roofing for Texas Tech University area rental properties?","acceptedAnswer":{"@type":"Answer","text":"Yes, we work extensively with property owners and management companies in Tech Terrace, North and South Overton, and other university-area neighborhoods. We offer competitive pricing for multi-property portfolios, schedule work around the academic calendar to minimize tenant disruption, and install durable materials that withstand the higher traffic typical of student rental properties."}},
+              {"@type":"Question","name":"What is the average cost of a roof replacement in Lubbock?","acceptedAnswer":{"@type":"Answer","text":"Roof replacement costs in Lubbock vary based on size, materials, and complexity. A typical 2,000 sq ft home with architectural shingles ranges from $8,000 to $15,000, while Class 4 impact-resistant shingles run $12,000 to $20,000. However, most hail damage replacements in Lubbock are covered by insurance, with homeowners only responsible for their deductible. We provide free inspections and detailed estimates before any work begins."}},
+              {"@type":"Question","name":"Why do roofs in Lubbock fail faster than in other Texas cities?","acceptedAnswer":{"@type":"Answer","text":"Lubbock roofs face a combination of factors that accelerate wear: intense UV radiation at 3,256 feet elevation with 260+ sunny days annually, sustained winds averaging 12+ mph that constantly stress shingle adhesion, extreme temperature swings exceeding 120 degrees annually, frequent hail impacts, and South Plains dust storms that clog gutters and trap moisture. Standard shingles rated for 25-30 years often fail in 15-20 years here."}},
+              {"@type":"Question","name":"How soon after a Lubbock hailstorm should I get my roof inspected?","acceptedAnswer":{"@type":"Answer","text":"We recommend getting a professional inspection within 72 hours of any significant hail event. Texas law gives you up to 2 years to file a hail damage claim, but waiting allows hidden damage to worsen, potentially leading to leaks, mold growth, and interior damage. Early inspection also ensures your claim is documented while storm evidence is fresh. We provide free same-day inspections throughout Lubbock County after major storms."}},
+              {"@type":"Question","name":"What neighborhoods in Lubbock do you serve?","acceptedAnswer":{"@type":"Answer","text":"We serve all Lubbock neighborhoods and surrounding communities including Tech Terrace, Shadow Hills, Whisperwood, Arnett Benson, Lakeridge, Monterey, North and South Overton, Clapp Park, Preston Place, Windsor Park, the Depot District, and all areas within Loop 289. We also serve Shallowater, New Deal, Wolfforth, Idalou, and all of Lubbock County."}}
+            ]
           })
         }}
       />

@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -493,6 +499,65 @@ export default function PerrytonRoofingPage() {
           </div>
         </section>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Perryton Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Perryton&apos;s location as the northernmost service area affect storm patterns?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Perryton sits in Ochiltree County at the northern edge of the Texas Panhandle, directly in the path of severe weather systems moving northeast from the southern Plains. This position makes Perryton one of the first communities hit by spring supercells, and the area experiences some of the most intense hail and tornado activity in the state. The combination of northerly winter fronts and spring supercells creates year-round roof stress that demands premium materials.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What special roofing considerations exist for Perryton&apos;s wheat farming facilities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Perryton&apos;s wheat farming operations create unique roofing challenges. Grain dust accumulation clogs gutters and ventilation systems, requiring specialized drainage designs. Agricultural chemicals used in wheat production can accelerate deterioration of certain roofing materials. We use chemical-resistant metal panels with enhanced corrosion coatings and design ventilation systems that resist dust clogging for grain storage and processing facilities throughout Ochiltree County.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How quickly can you respond to storm emergencies in Perryton from Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Perryton is approximately 120 miles northeast of our Amarillo headquarters, typically a 2-hour drive via US-83. For storm emergencies, we deploy rapid response crews within hours of major weather events. We also pre-position tarping materials and supplies closer to Perryton when severe weather is forecast for Ochiltree County, allowing us to respond more quickly when storms hit.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Are ice storms a significant roofing concern in Perryton?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes. As the northernmost major community in our service area, Perryton experiences more ice storms than southern Panhandle cities. Freezing rain creates heavy ice loads that can damage roof structures, particularly on older buildings. Ice dams form when heat escapes through poorly insulated attics and melts snow that refreezes at the eaves. We install proper ice and water shield underlayment and ensure adequate attic insulation and ventilation to prevent ice dam formation.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What wind ratings should Perryton homeowners look for in roofing materials?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Perryton&apos;s High Plains location produces some of the strongest sustained winds in Texas, with gusts regularly exceeding 70 mph during severe weather. We recommend shingles rated for at least 130 mph wind resistance, with enhanced nailing patterns that exceed minimum code requirements. For metal roofing, standing seam systems with concealed fasteners provide the best wind performance. Open farmland surrounding Perryton allows winds to accelerate without obstruction, so wind ratings should exceed what is standard for urban areas.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you coordinate with Ochiltree County officials on roofing permits?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes. We handle all permitting requirements for Perryton and Ochiltree County projects. Our team is familiar with local building code requirements, permit processes, and inspection schedules. For agricultural buildings, we also ensure compliance with any applicable USDA or state agricultural facility standards. We manage the entire permitting process so property owners do not need to navigate the paperwork themselves.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         <FadeIn>
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready for a New Roof in Perryton?</h2>
@@ -508,6 +573,24 @@ export default function PerrytonRoofingPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How does Perryton's location as the northernmost service area affect storm patterns?","acceptedAnswer":{"@type":"Answer","text":"Perryton sits in Ochiltree County at the northern edge of the Texas Panhandle, directly in the path of severe weather systems moving northeast from the southern Plains. This position makes Perryton one of the first communities hit by spring supercells, and the area experiences some of the most intense hail and tornado activity in the state."}},
+              {"@type":"Question","name":"What special roofing considerations exist for Perryton's wheat farming facilities?","acceptedAnswer":{"@type":"Answer","text":"Perryton's wheat farming operations create unique roofing challenges. Grain dust accumulation clogs gutters and ventilation systems, requiring specialized drainage designs. Agricultural chemicals used in wheat production can accelerate deterioration of certain roofing materials. We use chemical-resistant metal panels with enhanced corrosion coatings and design ventilation systems that resist dust clogging."}},
+              {"@type":"Question","name":"How quickly can you respond to storm emergencies in Perryton from Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Perryton is approximately 120 miles northeast of our Amarillo headquarters, typically a 2-hour drive via US-83. For storm emergencies, we deploy rapid response crews within hours of major weather events. We also pre-position tarping materials and supplies closer to Perryton when severe weather is forecast for Ochiltree County."}},
+              {"@type":"Question","name":"Are ice storms a significant roofing concern in Perryton?","acceptedAnswer":{"@type":"Answer","text":"Yes. As the northernmost major community in our service area, Perryton experiences more ice storms than southern Panhandle cities. Freezing rain creates heavy ice loads that can damage roof structures. We install proper ice and water shield underlayment and ensure adequate attic insulation and ventilation to prevent ice dam formation."}},
+              {"@type":"Question","name":"What wind ratings should Perryton homeowners look for in roofing materials?","acceptedAnswer":{"@type":"Answer","text":"Perryton's High Plains location produces some of the strongest sustained winds in Texas, with gusts regularly exceeding 70 mph during severe weather. We recommend shingles rated for at least 130 mph wind resistance, with enhanced nailing patterns that exceed minimum code requirements. For metal roofing, standing seam systems with concealed fasteners provide the best wind performance."}},
+              {"@type":"Question","name":"Do you coordinate with Ochiltree County officials on roofing permits?","acceptedAnswer":{"@type":"Answer","text":"Yes. We handle all permitting requirements for Perryton and Ochiltree County projects. Our team is familiar with local building code requirements, permit processes, and inspection schedules. For agricultural buildings, we also ensure compliance with any applicable USDA or state agricultural facility standards."}}
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

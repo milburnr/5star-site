@@ -1,5 +1,11 @@
 import { FadeIn } from "@/components/FadeIn";
 import { InteractiveCard } from "@/components/InteractiveCard";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -639,6 +645,65 @@ export default function OdessaRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Odessa Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What roofing systems do you recommend for Odessa oil and gas facilities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  For Permian Basin oil and gas facilities, we recommend PVC membrane systems for their superior chemical resistance against petroleum fumes and processing byproducts. TPO systems with reflective surfaces work well for warehouses and office buildings along the I-20 corridor, reducing cooling costs in Odessa&apos;s extreme heat. For industrial facilities with heavy equipment vibration and foot traffic, we install reinforced walkway pads and use enhanced fastening schedules that exceed standard specifications.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How did the May 2019 Odessa hailstorm change local roofing standards?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  The devastating May 2019 supercell that dropped 4.5-inch hail across Odessa caused over $100 million in property damage and destroyed thousands of roofs. Since then, many Odessa homeowners and insurance providers have shifted toward Class 4 impact-resistant materials as the standard rather than a premium option. We have seen a significant increase in metal roofing installations as well, particularly standing seam systems rated to withstand softball-sized hail.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Why do Odessa roofs age faster than roofs in more temperate climates?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Odessa roofs face a triple threat that accelerates aging: extreme heat exceeding 105 degrees Fahrenheit with roof surface temperatures reaching 170 degrees, intense UV radiation that breaks down asphalt binders and causes granule loss, and annual temperature swings exceeding 120 degrees that cause constant thermal expansion and contraction. Standard shingles rated for 25-30 years in moderate climates often fail in just 15-18 years in Odessa without premium UV-stabilized materials.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you serve the UTPB campus area and Sherwood neighborhood?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we provide comprehensive roofing services throughout all Odessa neighborhoods including Sherwood, Stonegate, Mission Dorado, Ridgemont, Parkview Estates, Woodson Heights, Dos Amigos, the UTPB campus area, and all commercial districts along East 42nd Street, Andrews Highway, and the I-20 corridor. We also serve West Odessa and surrounding Ector County communities.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can metal roofing really reduce cooling costs in Odessa&apos;s extreme heat?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Absolutely. Metal roofing with reflective coatings can reduce cooling costs by 20-30% compared to dark asphalt shingles. In Odessa, where summers regularly exceed 100 degrees and cooling accounts for a major portion of energy bills, homeowners typically see a return on investment within 10-15 years through energy savings alone. Metal roofing also lasts 50+ years compared to 15-20 years for standard shingles in Odessa&apos;s climate, making the total cost of ownership significantly lower.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Odessa&apos;s flash flooding risk affect flat commercial roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Although Odessa averages only 14 inches of annual rainfall, precipitation comes in intense bursts that can dump 2-3 inches in under an hour. Flat commercial roofs must have properly designed drainage with adequate scuppers and internal drains. Ponding water that remains for more than 48 hours accelerates membrane deterioration and can lead to premature failure. We design all commercial installations with proper slope and redundant drainage to handle these intense rainfall events.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* Final CTA */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -795,6 +860,24 @@ export default function OdessaRoofingPage() {
               ]
             },
             "openingHours": "Mo-Su 00:00-23:59"
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"What roofing systems do you recommend for Odessa oil and gas facilities?","acceptedAnswer":{"@type":"Answer","text":"For Permian Basin oil and gas facilities, we recommend PVC membrane systems for their superior chemical resistance against petroleum fumes and processing byproducts. TPO systems with reflective surfaces work well for warehouses and office buildings along the I-20 corridor, reducing cooling costs in Odessa's extreme heat. For industrial facilities with heavy equipment vibration and foot traffic, we install reinforced walkway pads and use enhanced fastening schedules."}},
+              {"@type":"Question","name":"How did the May 2019 Odessa hailstorm change local roofing standards?","acceptedAnswer":{"@type":"Answer","text":"The devastating May 2019 supercell that dropped 4.5-inch hail across Odessa caused over $100 million in property damage and destroyed thousands of roofs. Since then, many Odessa homeowners and insurance providers have shifted toward Class 4 impact-resistant materials as the standard rather than a premium option. We have seen a significant increase in metal roofing installations as well, particularly standing seam systems rated to withstand softball-sized hail."}},
+              {"@type":"Question","name":"Why do Odessa roofs age faster than roofs in more temperate climates?","acceptedAnswer":{"@type":"Answer","text":"Odessa roofs face a triple threat that accelerates aging: extreme heat exceeding 105 degrees Fahrenheit with roof surface temperatures reaching 170 degrees, intense UV radiation that breaks down asphalt binders and causes granule loss, and annual temperature swings exceeding 120 degrees that cause constant thermal expansion and contraction. Standard shingles rated for 25-30 years in moderate climates often fail in just 15-18 years in Odessa."}},
+              {"@type":"Question","name":"Do you serve the UTPB campus area and Sherwood neighborhood?","acceptedAnswer":{"@type":"Answer","text":"Yes, we provide comprehensive roofing services throughout all Odessa neighborhoods including Sherwood, Stonegate, Mission Dorado, Ridgemont, Parkview Estates, Woodson Heights, Dos Amigos, the UTPB campus area, and all commercial districts along East 42nd Street, Andrews Highway, and the I-20 corridor."}},
+              {"@type":"Question","name":"Can metal roofing really reduce cooling costs in Odessa's extreme heat?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Metal roofing with reflective coatings can reduce cooling costs by 20-30% compared to dark asphalt shingles. In Odessa, where summers regularly exceed 100 degrees and cooling accounts for a major portion of energy bills, homeowners typically see a return on investment within 10-15 years through energy savings alone. Metal roofing also lasts 50+ years compared to 15-20 years for standard shingles."}},
+              {"@type":"Question","name":"How does Odessa's flash flooding risk affect flat commercial roofs?","acceptedAnswer":{"@type":"Answer","text":"Although Odessa averages only 14 inches of annual rainfall, precipitation comes in intense bursts that can dump 2-3 inches in under an hour. Flat commercial roofs must have properly designed drainage with adequate scuppers and internal drains. Ponding water that remains for more than 48 hours accelerates membrane deterioration and can lead to premature failure. We design all commercial installations with proper slope and redundant drainage."}}
+            ]
           })
         }}
       />

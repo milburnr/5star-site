@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -413,6 +419,65 @@ export default function PlainviewRoofingPage() {
           </div>
         </section>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Plainview Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What roofing challenges does Plainview&apos;s cotton processing industry create?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Plainview&apos;s role as a major cotton processing center creates unique roofing demands. Cotton gin facilities, processing plants, and storage warehouses require roofing systems that handle dust accumulation from ginning operations, withstand vibrations from heavy processing equipment, and resist corrosion from moisture trapped in cotton storage environments. We use metal roofing with specialized ventilation and corrosion-resistant coatings for these facilities.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you provide roofing for Wayland Baptist University buildings?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we serve the Wayland Baptist University campus and surrounding area. University buildings including dormitories, academic facilities, athletic buildings, and administrative offices require commercial-grade roofing systems that minimize disruption to campus operations. We schedule installations around the academic calendar and coordinate with university facilities management to ensure all work meets institutional standards.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Plainview&apos;s 3,400-foot elevation affect roofing material selection?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  At 3,400 feet elevation, Plainview receives significantly more UV radiation than lower-elevation Texas cities. This increased UV exposure breaks down asphalt binders faster, causing premature granule loss and shingle failure. We exclusively install UV-stabilized materials in Plainview, including shingles with enhanced granule adhesion and reflective coatings. For commercial buildings, cool roof systems with high solar reflectance indices are particularly effective at reducing both UV damage and cooling costs.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What is the typical cost of residential roofing in Plainview compared to larger cities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  With Hale County&apos;s median home value around $95,000, Plainview homeowners need cost-effective roofing solutions that still withstand extreme weather. A typical residential roof replacement in Plainview ranges from $6,000 to $12,000 depending on size and materials. Most hail damage replacements are covered by insurance. We offer competitive pricing appropriate for the local housing market while never compromising on materials rated for High Plains conditions.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can you roof Covenant Health Plainview and other medical facilities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we have experience with healthcare facility roofing that requires uninterrupted patient care operations. Medical facilities like Covenant Health Plainview need roofing installations that support life-safety equipment such as HVAC systems and emergency generators, maintain sterile environments during construction, and provide long-term reliability. We use noise-reducing installation methods and schedule work to minimize disruption to patient care.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do Plainview&apos;s grain elevator complexes affect nearby residential roofing?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Grain elevators throughout Plainview create localized dust conditions that affect nearby residential properties. Grain dust accumulates on roof surfaces and in gutters, trapping moisture against roofing materials and accelerating wear. Homes near grain facilities also experience vibrations from truck traffic and processing equipment. We recommend enhanced gutter protection, more frequent maintenance schedules, and durable materials for residential properties located near Plainview&apos;s agricultural processing facilities.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
         <FadeIn>
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready for a New Roof in Plainview?</h2>
@@ -428,6 +493,24 @@ export default function PlainviewRoofingPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"What roofing challenges does Plainview's cotton processing industry create?","acceptedAnswer":{"@type":"Answer","text":"Plainview's role as a major cotton processing center creates unique roofing demands. Cotton gin facilities, processing plants, and storage warehouses require roofing systems that handle dust accumulation from ginning operations, withstand vibrations from heavy processing equipment, and resist corrosion from moisture trapped in cotton storage environments."}},
+              {"@type":"Question","name":"Do you provide roofing for Wayland Baptist University buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes, we serve the Wayland Baptist University campus and surrounding area. University buildings including dormitories, academic facilities, athletic buildings, and administrative offices require commercial-grade roofing systems that minimize disruption to campus operations. We schedule installations around the academic calendar."}},
+              {"@type":"Question","name":"How does Plainview's 3,400-foot elevation affect roofing material selection?","acceptedAnswer":{"@type":"Answer","text":"At 3,400 feet elevation, Plainview receives significantly more UV radiation than lower-elevation Texas cities. This increased UV exposure breaks down asphalt binders faster, causing premature granule loss and shingle failure. We exclusively install UV-stabilized materials in Plainview, including shingles with enhanced granule adhesion and reflective coatings."}},
+              {"@type":"Question","name":"What is the typical cost of residential roofing in Plainview compared to larger cities?","acceptedAnswer":{"@type":"Answer","text":"With Hale County's median home value around $95,000, Plainview homeowners need cost-effective roofing solutions that still withstand extreme weather. A typical residential roof replacement in Plainview ranges from $6,000 to $12,000 depending on size and materials. Most hail damage replacements are covered by insurance."}},
+              {"@type":"Question","name":"Can you roof Covenant Health Plainview and other medical facilities?","acceptedAnswer":{"@type":"Answer","text":"Yes, we have experience with healthcare facility roofing that requires uninterrupted patient care operations. Medical facilities like Covenant Health Plainview need roofing installations that support life-safety equipment, maintain sterile environments during construction, and provide long-term reliability."}},
+              {"@type":"Question","name":"How do Plainview's grain elevator complexes affect nearby residential roofing?","acceptedAnswer":{"@type":"Answer","text":"Grain elevators throughout Plainview create localized dust conditions that affect nearby residential properties. Grain dust accumulates on roof surfaces and in gutters, trapping moisture against roofing materials and accelerating wear. We recommend enhanced gutter protection, more frequent maintenance schedules, and durable materials for properties near agricultural processing facilities."}}
+            ]
+          })
+        }}
+      />
     </div>
   );
 }
