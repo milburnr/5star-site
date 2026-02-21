@@ -199,6 +199,15 @@ export default function Page() {
           Not all asphalt shingles are created equal. The right choice depends on your budget, the
           look you want, and how much protection your home needs from West Texas weather:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg"
+            alt="Asphalt shingle roofing close-up showing architectural shingle texture in Midland, Texas"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">3-Tab Shingles</h3>
@@ -380,6 +389,15 @@ export default function Page() {
           Proper installation is what separates a roof that lasts its full warranty period from one
           that fails early. Here is how we install asphalt shingle roofs:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg"
+            alt="Shingle roof installation in Perryton, Texas with new underlayment and starter strips"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="space-y-6 mb-8">
           <div className="flex gap-4">
             <div className="flex-shrink-0 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center text-white font-bold text-lg">

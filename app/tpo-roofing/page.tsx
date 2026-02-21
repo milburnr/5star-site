@@ -203,6 +203,15 @@ export default function Page() {
           welding gun. This heat-welding process fuses the overlapping membrane edges into a
           continuous, watertight bond that is actually stronger than the membrane itself.
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
+            alt="TPO membrane roofing on a commercial building in Pampa, Texas Panhandle"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Single-Ply Simplicity</h3>
@@ -371,6 +380,15 @@ export default function Page() {
           Regular maintenance extends your TPO roof&apos;s lifespan and prevents small issues from
           becoming expensive problems. Here is what ongoing TPO care involves:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-10-1280w.jpg"
+            alt="Commercial flat roof TPO installation and maintenance in Amarillo, Texas"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Seam Inspection</h3>

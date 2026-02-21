@@ -208,6 +208,15 @@ export default function Page() {
           look for can save you from expensive water damage down the road. Here
           are the most common indicators our inspectors check:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp"
+            alt="Hail damage on residential roof shingles in Canyon, Texas showing impact marks and granule loss"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">
@@ -268,6 +277,15 @@ export default function Page() {
           minimize stress and maximize your insurance recovery. Here is how we
           handle every hail damage project:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp"
+            alt="Professional hail damage roof repair in progress in Borger, Texas Panhandle"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <div className="text-3xl font-bold text-brand-gold mb-2">1</div>

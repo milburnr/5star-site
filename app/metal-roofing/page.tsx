@@ -214,6 +214,15 @@ export default function Page() {
           We install every major type of metal roofing system, each suited to different buildings, budgets, and aesthetic preferences. Here is how they compare.
         </p>
 
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.webp"
+            alt="Metal roofing panels installed on a commercial building in Wichita Falls, Texas"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <div className="p-6">
@@ -363,6 +372,15 @@ export default function Page() {
 
       <FadeIn>
         <h2 className="text-2xl font-bold mt-12 mb-4">How Do You Maintain and Repair a Metal Roof?</h2>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-22-1280w.webp"
+            alt="Standing seam metal roof installation in progress in Sanderson, West Texas"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-bold text-brand-brown mb-2">Common Repairs</h3>

@@ -204,6 +204,15 @@ export default function Page() {
           When a storm hits, the priority is stopping water from entering your home or building. Our emergency response process is designed to stabilize the situation quickly while setting up a plan for permanent repairs.
         </p>
 
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp"
+            alt="Storm damage assessment on a Canyon, Texas roof after severe hail event"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="text-3xl font-bold text-brand-gold mb-2">1</div>
@@ -269,6 +278,15 @@ export default function Page() {
 
       <FadeIn>
         <h2 className="text-2xl font-bold mt-12 mb-4">How Can You Protect Your Roof Against Future Storms?</h2>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg"
+            alt="Completed storm damage roof restoration in Perryton, Texas Panhandle"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-bold text-brand-brown mb-2">Impact-Resistant Materials</h3>

@@ -238,6 +238,15 @@ export default function Page() {
           We inspect every component of your roofing system, not just the visible surface. Here is
           what our inspection process examines:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg"
+            alt="Professional roof inspection in progress on an Amarillo residential home"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Structural Integrity</h3>

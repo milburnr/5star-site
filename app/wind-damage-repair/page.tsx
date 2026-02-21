@@ -178,6 +178,15 @@ export default function Page() {
           winds of 45 mph can compromise a roof, particularly one with pre-existing wear or
           installation defects. Here are the most common types of wind damage we repair:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-7-1280w.webp"
+            alt="Wind and storm damage on a Perryton, Texas roof with lifted shingles and exposed underlayment"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Lifted and Missing Shingles</h3>
@@ -314,6 +323,15 @@ export default function Page() {
           Proactive maintenance is far less expensive than emergency repairs. These measures
           significantly reduce your roof&apos;s vulnerability to wind:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg"
+            alt="Completed wind damage roof repair in Stinnett, Texas with new shingles secured"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Proper Nailing Patterns</h3>

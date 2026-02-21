@@ -205,6 +205,15 @@ export default function Page() {
           West Texas weather puts roofs through extreme conditions year-round.
           Here are the most common repair issues we handle:
         </p>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg"
+            alt="Completed roof repair project in Amarillo showing new shingles and restored flashing"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">
@@ -307,6 +316,15 @@ export default function Page() {
             </ul>
           </div>
         </div>
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-15-1280w.webp"
+            alt="Roof damage requiring repair in Midland, Texas with visible shingle deterioration"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <p className="mb-8 text-gray-700">
           We walk you through both options with transparent pricing. If a $400
           repair will buy you five more years of reliable service, we tell you

@@ -202,6 +202,15 @@ export default function Page() {
           Choosing the right roofing material depends on your budget, how long you plan to stay in the home, and what level of storm protection you need. We install every major roofing system available and help you weigh the trade-offs.
         </p>
 
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-12-1280w.jpg"
+            alt="Asphalt shingle roofing materials ready for installation on an Amarillo home"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <div className="p-6">
@@ -317,6 +326,15 @@ export default function Page() {
         <p className="mb-6">
           A roof replacement is one of the largest home improvement projects you can undertake. Knowing what happens at each stage helps you plan around the disruption and make informed decisions along the way.
         </p>
+
+        <div className="my-8 rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg"
+            alt="Full roof replacement completed in Amarillo with new architectural shingles installed"
+            className="w-full h-64 object-cover"
+            loading="lazy"
+          />
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           <div className="bg-white p-6 rounded-lg shadow text-center">
