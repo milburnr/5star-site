@@ -158,13 +158,13 @@ Plans:
 **Brand Refs**: `.planning/brand/content-voice.md` (hub page content quality), `.planning/brand/keyword-map.md` (hub vs spoke differentiation)
 **Component Reuse**: Standard FAQ template (6-7 service-type questions per hub), standard schema (LocalBusiness+RoofingContractor+FAQ), standard internal linking (hub links down to all spokes)
 **Anti-Generic**: Hub pages must have 800+ words of substantive content — not just link directories. Use content-voice.md patterns.
-**Plans**: TBD
+**Plans:** 4 plans
 
 Plans:
-- [ ] 06-01: Create hail-damage-repair and roof-repair hub pages (highest priority services)
-- [ ] 06-02: Create roof-replacement, storm-damage-repair, and metal-roofing hub pages
-- [ ] 06-03: Create wind-damage-repair, tpo-roofing, roof-inspections, and asphalt-shingle-roofing hub pages
-- [ ] 06-04: Add spoke links, FAQ sections, and schema to all hub pages
+- [ ] 06-01-PLAN.md — Create hail-damage-repair and roof-repair hub pages (2 pages, 16+14 spokes)
+- [ ] 06-02-PLAN.md — Create roof-replacement, storm-damage-repair, and metal-roofing hub pages (3 pages)
+- [ ] 06-03-PLAN.md — Create wind-damage-repair, tpo-roofing, roof-inspections, and asphalt-shingle-roofing hub pages (4 pages)
+- [ ] 06-04-PLAN.md — Verify all 9 hubs, update keyword-map.md, run quality gate
 
 ### Phase 7: Internal Linking
 **Goal**: Every page is reachable within 3 clicks from the homepage and links bidirectionally to its parent hubs and sibling pages
