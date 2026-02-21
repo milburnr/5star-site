@@ -294,7 +294,7 @@ export default function LubbockRoofingPage() {
                       <strong>Metal roofing options:</strong> Standing seam metal roofing (the gold standard for commercial and upscale residential), stone-coated metal shingles that look like traditional roofing, corrugated metal panels perfect for agricultural buildings, and commercial metal roofing systems with advanced coatings. All backed by industry-leading warranties and our expert installation guarantee.
                     </p>
                     <a
-                      href="/metal-roofing-lubbock-texas/"
+                      href="/metal-roofing-lubbock/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Discover Metal Roofing in Lubbock →
@@ -325,7 +325,7 @@ export default function LubbockRoofingPage() {
                       <strong>Inspection includes:</strong> Complete roof surface assessment, attic ventilation and insulation check, shingle condition and granule loss analysis, flashing and penetration inspection, gutter evaluation, and detailed photo report you can share with insurance companies. 100% free, no obligation, no pressure sales tactics.
                     </p>
                     <a
-                      href="/roof-inspections-lubbock-texas/"
+                      href="/roof-inspections-lubbock/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Schedule Your Free Lubbock Inspection →

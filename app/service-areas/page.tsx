@@ -167,31 +167,31 @@ export default function Page() {
         </p>
 
         <div className="grid md:grid-cols-4 gap-6">
-          <a href="/contact/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/canyon-texas-roofing/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">Canyon, TX</h4>
             <p className="text-sm text-gray-600 mb-2">Randall County</p>
             <p className="text-xs text-gray-500">Home to West Texas A&M University</p>
           </a>
 
-          <a href="/contact/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/borger-texas-roofing/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">Borger, TX</h4>
             <p className="text-sm text-gray-600 mb-2">Hutchinson County</p>
             <p className="text-xs text-gray-500">Oil refining & manufacturing</p>
           </a>
 
-          <a href="/contact/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/pampa-texas-roofing/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">Pampa, TX</h4>
             <p className="text-sm text-gray-600 mb-2">Gray County</p>
             <p className="text-xs text-gray-500">Industrial & residential roofing</p>
           </a>
 
-          <a href="/contact/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/dumas-texas-roofing/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">Dumas, TX</h4>
             <p className="text-sm text-gray-600 mb-2">Moore County</p>
             <p className="text-xs text-gray-500">Agricultural & commercial center</p>
           </a>
 
-          <a href="/contact/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/hereford-texas-roofing/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">Hereford, TX</h4>
             <p className="text-sm text-gray-600 mb-2">Deaf Smith County</p>
             <p className="text-xs text-gray-500">"Beef Capital of the World"</p>
@@ -209,7 +209,7 @@ export default function Page() {
             <p className="text-xs text-gray-500">Northern Panhandle</p>
           </a>
 
-          <a href="/contact/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/perryton-texas-roofing/" className="bg-white p-4 rounded-lg shadow-md text-center hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-lg mb-2 group-hover:text-brand-gold transition-colors">Perryton, TX</h4>
             <p className="text-sm text-gray-600 mb-2">Ochiltree County</p>
             <p className="text-xs text-gray-500">Oil, gas & agriculture</p>
@@ -245,7 +245,7 @@ export default function Page() {
             </p>
           </a>
 
-          <a href="/contact/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/big-spring-tx-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Big Spring, TX</h4>
             <p className="text-gray-600 mb-2">
               <strong>Population:</strong> ~28,000<br />
@@ -257,7 +257,7 @@ export default function Page() {
             </p>
           </a>
 
-          <a href="/contact/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/plainview-texas-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Plainview, TX</h4>
             <p className="text-gray-600 mb-2">
               <strong>Population:</strong> ~20,000<br />
@@ -269,7 +269,7 @@ export default function Page() {
             </p>
           </a>
 
-          <a href="/contact/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/levelland-tx-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Levelland, TX</h4>
             <p className="text-gray-600 mb-2">
               <strong>Population:</strong> ~14,000<br />
@@ -281,7 +281,7 @@ export default function Page() {
             </p>
           </a>
 
-          <a href="/contact/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+          <a href="/snyder-tx-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
             <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Snyder, TX</h4>
             <p className="text-gray-600 mb-2">
               <strong>Population:</strong> ~11,000<br />
@@ -301,6 +301,30 @@ export default function Page() {
             </p>
             <p className="text-sm text-gray-600">
               Agricultural center in Dawson County. Residential and agricultural building roofing services.
+            </p>
+          </a>
+
+          <a href="/monahans-tx-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Monahans, TX</h4>
+            <p className="text-gray-600 mb-2">
+              <strong>Population:</strong> ~8,000<br />
+              <strong>Region:</strong> Permian Basin
+            </p>
+            <p className="text-sm text-gray-600">
+              Permian Basin oil community near Monahans Sandhills State Park. Residential and commercial
+              roofing for extreme heat conditions.
+            </p>
+          </a>
+
+          <a href="/andrews-tx-roofing/" className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 cursor-pointer group">
+            <h4 className="font-bold text-xl mb-3 text-brand-brown group-hover:text-brand-gold transition-colors">Andrews, TX</h4>
+            <p className="text-gray-600 mb-2">
+              <strong>Population:</strong> ~18,000<br />
+              <strong>Region:</strong> Permian Basin
+            </p>
+            <p className="text-sm text-gray-600">
+              Top oil-producing county in Texas. Residential and commercial roofing for growing
+              Permian Basin community.
             </p>
           </a>
         </div>

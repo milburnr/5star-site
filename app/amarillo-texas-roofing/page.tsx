@@ -219,7 +219,7 @@ export default function AmarilloRoofingPage() {
                       programs, prompt repairs, and roof coating systems. Minimal disruption to your business.
                     </p>
                     <a
-                      href="/commercial-roofing-amarillo-texas/"
+                      href="/commercial-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       View Commercial Roofing Services in Amarillo →
@@ -250,7 +250,7 @@ export default function AmarilloRoofingPage() {
                       and commercial metal roofing systems. Energy-efficient and beautiful.
                     </p>
                     <a
-                      href="/metal-roofing-amarillo-texas/"
+                      href="/metal-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Discover Metal Roofing in Amarillo →
@@ -282,7 +282,7 @@ export default function AmarilloRoofingPage() {
                       no obligation.
                     </p>
                     <a
-                      href="/roof-inspections-amarillo-texas/"
+                      href="/roof-inspections-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Schedule Your Free Inspection →

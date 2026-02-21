@@ -449,6 +449,42 @@ export default function Page() {
       </div>
     
 
+      {/* Commercial Roofing by City */}
+      <section className="mb-12">
+        <h2 className="text-2xl font-bold mb-4">Commercial Roofing by City</h2>
+        <p className="text-gray-600 mb-6">
+          We provide expert commercial roofing services across 14 cities in the Texas Panhandle and Permian Basin. Select your city for local service details:
+        </p>
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {[
+            { name: "Amarillo", slug: "amarillo" },
+            { name: "Andrews", slug: "andrews" },
+            { name: "Big Spring", slug: "big-spring" },
+            { name: "Borger", slug: "borger" },
+            { name: "Canyon", slug: "canyon" },
+            { name: "Dumas", slug: "dumas" },
+            { name: "Levelland", slug: "levelland" },
+            { name: "Lubbock", slug: "lubbock" },
+            { name: "Midland", slug: "midland" },
+            { name: "Monahans", slug: "monahans" },
+            { name: "Odessa", slug: "odessa" },
+            { name: "Pampa", slug: "pampa" },
+            { name: "Perryton", slug: "perryton" },
+            { name: "Snyder", slug: "snyder" },
+          ].map((city) => (
+            <a
+              key={city.slug}
+              href={`/commercial-roofing-${city.slug}/`}
+              className="bg-white p-4 rounded-lg shadow hover:shadow-md transition-shadow border border-gray-100 hover:border-brand-gold/40"
+            >
+              <span className="font-semibold text-brand-brown">
+                Commercial Roofing in {city.name}
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+
       <section className="mt-12 bg-brand-gold text-white p-8 rounded-lg">
         <h2 className="text-2xl font-bold mb-4">Ready to Get Started?</h2>
         <p className="mb-6 text-lg">
