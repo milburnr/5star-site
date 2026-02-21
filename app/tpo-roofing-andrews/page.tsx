@@ -19,6 +19,33 @@ export const metadata: Metadata = {
 };
 
 export default function TPORoofingAndrewsPage() {
+  const faqItems = [
+      {
+          "question": "How does TPO membrane perform in Andrews' extreme Permian Basin heat?",
+          "answer": "TPO membranes excel in Andrews' extreme heat, where summer temperatures regularly exceed 110 degrees Fahrenheit. The white reflective surface keeps membrane temperatures 50-70 degrees cooler than dark roofing materials, reducing thermal stress and extending membrane life. Quality TPO installations in Andrews typically last 20-25 years because the membrane's thermoplastic composition resists the UV degradation and thermal cycling that destroys other flat roofing materials in Permian Basin conditions."
+      },
+      {
+          "question": "Why does Andrews' 280+ sunny days per year matter for TPO roofing?",
+          "answer": "Andrews receives over 280 days of direct sunshine annually, creating intense UV exposure that accelerates degradation in most roofing materials. TPO membranes contain UV stabilizers specifically engineered to resist this radiation, maintaining their reflective properties and structural integrity for decades. The reflective white surface also turns this UV intensity into an energy-saving advantage, reducing cooling costs by 20-30% for Andrews commercial buildings."
+      },
+      {
+          "question": "Is TPO roofing resistant to chemicals near Andrews oil operations?",
+          "answer": "TPO membranes offer good resistance to oils, greases, and many industrial chemicals found near Andrews' Permian Basin oil operations. However, for buildings directly adjacent to active drilling or production sites with heavy chemical exposure, we may recommend PVC membranes instead, which provide superior chemical resistance. During our assessment, we evaluate your building's specific chemical exposure profile to recommend the optimal membrane for your Andrews property."
+      },
+      {
+          "question": "How does TPO compare to PVC roofing for Andrews' climate?",
+          "answer": "Both TPO and PVC perform well in Andrews' hot, dry climate. TPO offers better cost efficiency for most commercial applications, while PVC provides superior chemical resistance ideal for oil field adjacent buildings. TPO heat-welded seams are slightly stronger than PVC seams, and TPO generally costs 10-20% less installed. For most Andrews commercial properties without direct chemical exposure, TPO delivers the best combination of performance and value."
+      },
+      {
+          "question": "What energy savings can Andrews businesses expect from TPO roofing?",
+          "answer": "Andrews commercial buildings typically see cooling cost reductions of 25-35% after TPO installation. For a 10,000 square foot building with annual cooling costs of $4,000-5,000, that translates to $1,000-1,750 in annual savings. The energy savings are even more significant for larger facilities like warehouses and industrial buildings common in Andrews' oil service sector. Most Andrews businesses recoup the TPO premium over alternative materials within 3-5 years through energy savings alone."
+      },
+      {
+          "question": "What TPO warranty coverage applies to Andrews installations?",
+          "answer": "Major TPO manufacturers offer 15, 20, and 25-year warranty options for Andrews installations, covering both material defects and workmanship when installed by certified contractors. We are certified installers for multiple TPO manufacturers, which provides Andrews property owners with full manufacturer-backed warranties. These warranties cover membrane failure, seam separation, and premature degradation from UV and weather exposure specific to Permian Basin conditions."
+      }
+  ];
+
   return (
     <>      <Breadcrumb items={[
               {
@@ -100,6 +127,21 @@ export default function TPORoofingAndrewsPage() {
               }
             },
             "description": "Expert TPO roofing installation in Andrews TX. Permian Basin experiences 6-8 hailstorms annually."
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
@@ -535,6 +577,27 @@ export default function TPORoofingAndrewsPage() {
           </section>
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="tpo-roofing" />
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              TPO Roofing in Andrews FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">

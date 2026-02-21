@@ -19,6 +19,33 @@ export const metadata: Metadata = {
 };
 
 export default function TPORoofingBigSpringPage() {
+  const faqItems = [
+      {
+          "question": "What TPO membrane thickness is best for Big Spring commercial buildings?",
+          "answer": "For Big Spring's combination of hail exposure and extreme heat, we typically recommend 60-mil TPO membrane as the standard, with 80-mil for buildings in higher hail exposure zones or those requiring maximum durability. The thicker membrane provides better impact resistance against Howard County's frequent hailstorms while also offering enhanced puncture resistance during maintenance activities. The cost difference between 60-mil and 80-mil is modest compared to the extended service life."
+      },
+      {
+          "question": "How reflective is TPO roofing in Big Spring's West Texas sun?",
+          "answer": "New TPO membranes reflect 85-90% of solar radiation in Big Spring's intense West Texas sunlight, significantly reducing heat transfer into commercial buildings. Even after years of service, quality TPO maintains over 70% reflectivity. This reflective performance is particularly valuable in Big Spring where summer temperatures regularly exceed 95 degrees and solar intensity reaches UV index 9-10 throughout the summer months."
+      },
+      {
+          "question": "How long does TPO installation take for a Big Spring commercial building?",
+          "answer": "A typical TPO installation for a 10,000-15,000 square foot Big Spring commercial building takes 5-7 working days, including tear-off of the existing roof, substrate preparation, insulation installation, and membrane application. Larger projects scale proportionally. We schedule installations to avoid Big Spring's peak storm season when possible and can work in phases to minimize business disruption for occupied buildings."
+      },
+      {
+          "question": "What Big Spring building code requirements apply to TPO roofing?",
+          "answer": "Big Spring follows the International Building Code with Texas amendments, requiring commercial roofing systems to meet specific wind uplift, fire resistance, and energy efficiency standards. TPO installations must achieve FM Global or UL wind uplift ratings appropriate for Howard County's 115 mph design wind speed. Our installations consistently exceed these minimum requirements, providing Big Spring building owners with enhanced protection and full code compliance documentation."
+      },
+      {
+          "question": "What maintenance schedule does TPO roofing need in Big Spring?",
+          "answer": "TPO roofing in Big Spring requires semi-annual inspections (spring and fall), with cleaning and minor maintenance as needed. Spring inspections identify any hail or wind damage from winter storms, while fall inspections prepare the system for winter weather. Between inspections, TPO's smooth surface naturally sheds debris and resists biological growth common in more humid climates. Our Big Spring maintenance programs typically cost $0.05-0.10 per square foot annually."
+      },
+      {
+          "question": "Can TPO roofing be installed over an existing flat roof in Big Spring?",
+          "answer": "In many cases, TPO can be installed over an existing flat roof in Big Spring if the substrate is structurally sound and dry. This recover method eliminates tear-off costs, reduces project duration by 30-40%, and keeps waste out of landfills. However, Big Spring building codes limit total roof layers, and the existing roof must pass moisture testing. We evaluate each Big Spring property individually to determine whether recover or complete replacement is the better long-term investment."
+      }
+  ];
+
   return (
     <>      <Breadcrumb items={[
               {
@@ -100,6 +127,21 @@ export default function TPORoofingBigSpringPage() {
               }
             },
             "description": "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually."
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
@@ -526,6 +568,27 @@ export default function TPORoofingBigSpringPage() {
           </section>
         </FadeIn>
         <InternalLinks currentCity="big-spring" currentService="tpo-roofing" />
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              TPO Roofing in Big Spring FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">

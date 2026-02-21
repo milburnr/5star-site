@@ -19,6 +19,33 @@ export const metadata: Metadata = {
 };
 
 export default function TPORoofingMonahansPage() {
+  const faqItems = [
+      {
+          "question": "How does Monahans sand exposure affect TPO roofing?",
+          "answer": "Monahans sits adjacent to the Monahans Sandhills, and wind-driven sand is a constant environmental factor. TPO membranes resist sand abrasion better than most flat roofing materials because the smooth, continuous surface provides no edges or seams for sand to catch and erode. However, sand accumulation in drainage areas requires regular cleaning to maintain proper water flow. Our maintenance programs for Monahans properties include sand removal as a standard service."
+      },
+      {
+          "question": "How durable is TPO in Ward County's desert climate?",
+          "answer": "TPO membranes perform exceptionally well in Ward County's hot, arid desert climate. The low humidity reduces biological growth that degrades roofing in wetter regions, while TPO's UV stabilizers protect against the intense solar radiation common at Monahans' semi-arid elevation. Properly installed TPO in Monahans' climate routinely achieves 20-25 year service life, often exceeding manufacturer warranty periods due to the favorable dry conditions."
+      },
+      {
+          "question": "How often should TPO roofs be cleaned in Monahans due to dust?",
+          "answer": "In Monahans, we recommend TPO roof cleaning every 6-12 months depending on proximity to the sandhills and oil field activity. Sand and dust accumulation reduces the membrane's reflective efficiency and can clog drains if left unchecked. A simple power washing restores full reflectivity and ensures drainage systems function properly. Our Monahans maintenance contracts include scheduled cleaning at intervals appropriate for each property's dust exposure level."
+      },
+      {
+          "question": "Is TPO suitable for oil and gas facility roofing in Monahans?",
+          "answer": "TPO works well for many oil and gas support buildings in Monahans, including offices, maintenance shops, and storage facilities. For buildings with direct exposure to petroleum products or heavy chemical environments, PVC membrane may be a better choice due to its superior chemical resistance. We assess each Monahans facility's specific chemical exposure before recommending TPO or PVC, ensuring the membrane selected provides optimal long-term performance for your particular application."
+      },
+      {
+          "question": "Do heat-welded TPO seams hold up in Monahans' extreme temperatures?",
+          "answer": "Heat-welded TPO seams create molecular bonds that are actually stronger than the membrane itself, and they perform exceptionally well in Monahans' temperature extremes. The seams expand and contract uniformly with the membrane during thermal cycling between nighttime lows and daytime highs exceeding 110 degrees. Unlike adhesive-based seams used in other systems, heat-welded TPO seams do not soften in extreme heat or become brittle in cold, making them ideal for Ward County's desert climate."
+      },
+      {
+          "question": "What warranty considerations are specific to TPO roofing in Monahans?",
+          "answer": "TPO manufacturers offer standard warranties for Monahans installations, but environmental factors like sand abrasion and extreme UV exposure make proper installation technique critical for warranty validity. We ensure all Monahans installations follow manufacturer specifications exactly, including proper seam welding temperatures, edge securement details, and drainage configurations. This attention to detail protects your warranty coverage and ensures any future claims are honored without dispute."
+      }
+  ];
+
   return (
     <>      <Breadcrumb items={[
               {
@@ -82,6 +109,21 @@ export default function TPORoofingMonahansPage() {
               }
             },
             "description": "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually."
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
@@ -181,6 +223,27 @@ export default function TPORoofingMonahansPage() {
           </section>
         </FadeIn>
         <InternalLinks currentCity="monahans" currentService="tpo-roofing" />
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              TPO Roofing in Monahans FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">

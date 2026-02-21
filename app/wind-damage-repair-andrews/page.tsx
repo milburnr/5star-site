@@ -19,6 +19,33 @@ export const metadata: Metadata = {
 };
 
 export default function WindDamageRepairAndrewsPage() {
+  const faqItems = [
+      {
+          "question": "What wind speeds cause roof damage in Andrews County?",
+          "answer": "In Andrews County, sustained winds above 45 mph can begin lifting improperly secured shingles, while gusts exceeding 70 mph cause significant damage to most roofing systems. The Permian Basin's flat terrain allows wind events to maintain full intensity across Andrews, with no natural windbreaks to reduce speeds. Our wind damage assessments document exact damage patterns to distinguish between different wind events for insurance purposes."
+      },
+      {
+          "question": "How do Permian Basin dust storms affect roofs in Andrews?",
+          "answer": "Andrews experiences frequent dust storms where wind-driven sand particles act as abrasives against roofing materials, accelerating granule loss on shingles and degrading sealant joints. Over time, this sand blasting effect can reduce a roof's lifespan by 20-30% compared to less exposed areas. We recommend impact-resistant materials with enhanced UV coatings that better withstand Andrews' combined wind and sand exposure."
+      },
+      {
+          "question": "Are oil field buildings in Andrews more vulnerable to wind damage?",
+          "answer": "Yes, many oil field buildings in Andrews County have large, flat roof profiles that create significant wind uplift forces. Equipment vibrations from nearby operations can also loosen fasteners over time, compounding wind vulnerability. We install mechanically attached systems with enhanced fastening patterns specifically designed for Andrews' industrial properties, exceeding standard wind uplift requirements by 25-40%."
+      },
+      {
+          "question": "What wind speed threshold triggers an insurance claim in Andrews?",
+          "answer": "Most insurance policies in Andrews cover wind damage when sustained winds exceed 50 mph or gusts exceed 58 mph, which the National Weather Service classifies as severe thunderstorm winds. However, cumulative damage from repeated moderate wind events may also qualify. We document all wind damage with dated photographs, weather service records, and detailed damage maps to support your Andrews insurance claim."
+      },
+      {
+          "question": "What is FORTIFIED roofing and is it worth it for Andrews properties?",
+          "answer": "FORTIFIED roofing is an IBHS certification program that uses enhanced installation techniques to resist severe weather. For Andrews properties facing frequent high-wind events, FORTIFIED designation can reduce insurance premiums by 15-30% while providing substantially better wind resistance. The upgraded edge details, sealed roof deck, and enhanced fastening patterns address the exact failure modes we see most often in Permian Basin wind damage."
+      },
+      {
+          "question": "How quickly can you tarp a wind-damaged roof in Andrews?",
+          "answer": "We provide same-day emergency tarping for wind-damaged properties throughout Andrews and Andrews County. Our crews carry commercial-grade tarps sized for both residential and commercial buildings, along with proper anchoring systems that prevent tarp blow-off in ongoing wind conditions. For active storms, we deploy as soon as conditions are safe, typically within 2-4 hours of your call."
+      }
+  ];
+
   return (
     <>      <Breadcrumb items={[
               {
@@ -100,6 +127,21 @@ export default function WindDamageRepairAndrewsPage() {
               }
             },
             "description": "Expert wind damage roof repair in Andrews TX. Permian Basin experiences 6-8 hailstorms annually."
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
@@ -386,6 +428,27 @@ export default function WindDamageRepairAndrewsPage() {
           </section>
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="wind-damage-repair" />
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Wind Damage Repair in Andrews FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">

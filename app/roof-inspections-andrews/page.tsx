@@ -19,6 +19,33 @@ export const metadata: Metadata = {
 };
 
 export default function RoofInspectionsAndrewsPage() {
+  const faqItems = [
+      {
+          "question": "How often should Andrews commercial buildings have roof inspections?",
+          "answer": "Andrews commercial buildings should be inspected at minimum twice annually—once before spring storm season in February-March and once after storm season in October-November. Properties with flat roofs, older systems, or those near oil field operations benefit from quarterly inspections. The Permian Basin's combination of hail, wind, UV, and sand exposure creates accelerated wear that can develop into serious problems between annual inspections if left unchecked."
+      },
+      {
+          "question": "What do roof inspectors specifically look for in Permian Basin conditions?",
+          "answer": "In Andrews and the Permian Basin, inspectors focus on hail impact patterns, wind uplift indicators, UV degradation signatures, sand abrasion damage, and thermal stress cracking that are characteristic of the local climate. We also check fastener integrity since temperature cycling and wind vibration progressively loosen connections over time. Our inspectors are trained to identify the cumulative effects of Andrews' multiple weather stressors that other inspectors from less extreme climates might miss."
+      },
+      {
+          "question": "What does a pre-purchase roof inspection cover in Andrews?",
+          "answer": "A pre-purchase inspection in Andrews includes complete exterior assessment of all roofing materials, flashing, penetrations, and drainage systems, plus interior attic inspection for moisture, structural integrity, and ventilation adequacy. We also research the property's storm damage history and any previous insurance claims. For Andrews properties, we pay special attention to cumulative hail damage and UV degradation that may not be immediately visible but significantly affects remaining roof life."
+      },
+      {
+          "question": "What documentation do Andrews insurance inspections require?",
+          "answer": "Andrews insurance inspections require high-resolution photographs with measurement scales, GPS-tagged damage locations, weather service correlation data linking damage to specific storm events, and professional assessment reports with certified inspector credentials. We provide comprehensive documentation packages that meet all major insurance carrier requirements, including separate damage categorization by event date when multiple storms have affected the same Andrews property."
+      },
+      {
+          "question": "How do you assess hail damage on Andrews roofs during inspections?",
+          "answer": "Our Andrews hail damage assessment uses a systematic grid pattern, examining representative samples across the entire roof surface to establish damage density and severity. We measure impact crater diameters, document granule displacement patterns, check for mat fractures beneath impact points, and compare damage patterns against known hail size data from recent storms. This methodology produces accurate damage assessments that hold up during insurance adjuster reviews."
+      },
+      {
+          "question": "When should Andrews property owners choose drone inspection over manual?",
+          "answer": "Drone inspections are ideal for Andrews properties with steep-slope roofs, multi-story buildings, or roofs with structural concerns that make walking unsafe. Drones also provide superior documentation for large commercial properties and oil field buildings where comprehensive coverage would take hours manually. For standard residential properties with walkable slopes, manual inspection remains more thorough because inspectors can physically test material conditions. We often combine both methods for Andrews properties requiring the most comprehensive assessment."
+      }
+  ];
+
   return (
     <>      <Breadcrumb items={[
               {
@@ -100,6 +127,21 @@ export default function RoofInspectionsAndrewsPage() {
               }
             },
             "description": "Professional roof inspections in Andrews TX. Permian Basin experiences 6-8 hailstorms annually."
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
@@ -642,6 +684,27 @@ export default function RoofInspectionsAndrewsPage() {
           </section>
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="roof-inspections" />
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Roof Inspections in Andrews FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">

@@ -19,6 +19,33 @@ export const metadata: Metadata = {
 };
 
 export default function WindDamageRepairBigSpringPage() {
+  const faqItems = [
+      {
+          "question": "How do Howard County wind corridors affect Big Spring roofs?",
+          "answer": "Big Spring sits where the Caprock escarpment meets the rolling plains, creating a natural wind acceleration zone. Air masses funneling through this geographic formation can increase wind speeds 15-25% above what surrounding flat areas experience. This means Big Spring properties face higher wind loads than standard building codes anticipate, making enhanced fastening and wind-rated materials essential for long-term roof performance."
+      },
+      {
+          "question": "Does the Big Spring Refinery area experience different wind loading patterns?",
+          "answer": "Yes, the industrial infrastructure around Big Spring's refinery complex can channel and redirect wind patterns, creating localized turbulence that affects nearby commercial and residential properties differently than open terrain. Buildings downwind of large industrial structures may experience vortex effects that increase uplift forces on specific roof sections. Our inspectors assess these localized patterns when designing repair and replacement solutions."
+      },
+      {
+          "question": "How does I-20 corridor weather affect roofing in Big Spring?",
+          "answer": "The Interstate 20 corridor through Big Spring serves as a pathway for severe weather systems moving across West Texas. Supercell thunderstorms frequently track along this corridor, bringing straight-line winds, hail, and tornadoes. Properties along the I-20 corridor often experience more frequent storm damage events than areas further from this weather pathway. We recommend upgraded materials for properties in this higher-exposure zone."
+      },
+      {
+          "question": "How do you tell wind damage from hail damage on a Big Spring roof?",
+          "answer": "Wind and hail damage produce distinct patterns that require different repair approaches. Wind damage typically appears as lifted, creased, or missing shingles concentrated on windward edges and ridges. Hail damage shows as circular impact marks with granule displacement scattered across the entire roof surface. Since Big Spring frequently experiences both in the same storm, accurate differentiation is critical for proper insurance documentation and ensuring all damage types are covered."
+      },
+      {
+          "question": "What commercial building wind codes apply in Big Spring?",
+          "answer": "Big Spring follows the International Building Code with Texas amendments, which requires commercial roofing systems to resist wind speeds based on the local design wind speed map. Howard County's design wind speed is 115 mph for most commercial buildings, requiring enhanced edge securement, specific fastener patterns, and tested wind uplift ratings. All our commercial installations in Big Spring meet or exceed these requirements."
+      },
+      {
+          "question": "What is your emergency response time for wind events in Big Spring?",
+          "answer": "We maintain rapid emergency response capability for Big Spring and Howard County. During major wind events, our teams deploy with tarping materials, generators, and emergency repair supplies as soon as conditions are safe. For Big Spring properties, our typical response time is 2-4 hours for emergency tarping and stabilization, with permanent repair scheduling beginning within 48 hours of initial assessment."
+      }
+  ];
+
   return (
     <>      <Breadcrumb items={[
               {
@@ -100,6 +127,21 @@ export default function WindDamageRepairBigSpringPage() {
               }
             },
             "description": "Expert wind damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually."
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
@@ -381,6 +423,27 @@ export default function WindDamageRepairBigSpringPage() {
           </section>
         </FadeIn>
         <InternalLinks currentCity="big-spring" currentService="wind-damage-repair" />
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Wind Damage Repair in Big Spring FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
