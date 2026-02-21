@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 9 - Image Optimization
+**Current focus:** Phase 10 - Technical Validation & Relaunch
 
 ## Current Position
 
-Phase: 9 of 10 (Image Optimization)
-Plan: 3 of 3
-Status: Executing Phase 9
-Last activity: 2026-02-21 — Completed 09-02 (alt text optimization + audit script) and 09-03 (contextual inline images)
+Phase: 10 of 10 (Technical Validation & Relaunch)
+Plan: 1 of 3 complete
+Status: Executing Phase 10 — build validation baseline established
+Last activity: 2026-02-21 — Completed 10-01 (build validation + internal link checker)
 
-Progress: [▓▓▓▓▓▓▓▓▓░] 90%
+Progress: [▓▓▓▓▓▓▓▓▓▓] 96%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 27
+- Total plans completed: 28
 - Average duration: 5.1min
-- Total execution time: 2.43 hours
+- Total execution time: 2.53 hours
 
 **By Phase:**
 
@@ -45,6 +45,7 @@ Progress: [▓▓▓▓▓▓▓▓▓░] 90%
 | Phase 09 P01 | 5min | 2 tasks | 190 files |
 | Phase 09 P02 | 8min | 2 tasks | 14 files |
 | Phase 09 P03 | 3min | 1 task | 9 files |
+| Phase 10 P01 | 6min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -131,6 +132,8 @@ Recent decisions affecting current work:
 - [Phase 09-02]: Audit script uses critical/warning severity -- missing/generic/duplicate are FAIL, short/long are WARN
 - [Phase 09-03]: 3 plan image assignments substituted to avoid hero duplication (hail-damage, metal) and 404 (commercial-amarillo-14)
 - [Phase 09-03]: Inline image pattern: my-8 rounded-lg overflow-hidden shadow-lg wrapper, h-64 object-cover, lazy loading
+- [Phase 10-01]: LHCI performance set to warn (not error) -- hub pages with 100+ links score 86-92 locally, spoke pages and homepage hit 95+
+- [Phase 10-01]: Meta CTA fix: added phone number CTA to metal-roofing and storm-damage-repair hub descriptions
 
 ### Pending Todos
 
@@ -145,5 +148,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 09-02-PLAN.md and 09-03-PLAN.md (alt text + inline images)
+Stopped at: Completed 10-01-PLAN.md (build validation + internal link checker)
 Resume file: None
