@@ -131,7 +131,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Hail Damage Roof Repair" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Hail-damaged roof shingles showing impact marks on Amarillo home requiring repair" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Hail Damage Roof Repair</h3>
                 <p className="mb-4">
@@ -153,7 +153,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg" alt="Storm Damage Restoration" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg" alt="Storm-damaged roof in Odessa TX with wind-blown shingles needing restoration" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="mb-4">
@@ -175,7 +175,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg" alt="Roof Inspections" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg" alt="5 Star Roofing inspector performing detailed roof assessment on Texas Panhandle home" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Free Roof Inspections</h3>
                 <p className="mb-4">
@@ -226,7 +226,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="Asphalt Shingle Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="New asphalt shingle roof installation with clean ridge line in Channing TX" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Asphalt Shingle Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -242,7 +242,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="up">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Metal Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roof with premium finish on Amarillo TX residence - 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Standing Seam Metal Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -325,7 +325,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="TPO Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="White TPO single-ply membrane being installed on commercial flat roof in West Texas" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">TPO Roofing Systems</h3>
                 <p className="mb-4">
@@ -347,7 +347,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg" alt="EPDM Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg" alt="EPDM rubber roofing membrane on commercial building in Amarillo TX - 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
                 <p className="mb-4">
@@ -369,7 +369,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg" alt="PVC commercial roofing commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg" alt="PVC commercial roofing system at sunset in West Texas - Premium flat roof by 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">PVC Roofing Systems</h3>
                 <p className="mb-4">

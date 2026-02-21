@@ -255,7 +255,7 @@ export default function CommercialRoofingLubbockPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg" alt="TPO Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg" alt="TPO commercial roof system on Lubbock business facility - Energy-efficient membrane" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs for Texas Tech buildings and healthcare facilities. Excellent hail resistance proven in Lubbock County's extreme weather conditions.
@@ -269,7 +269,7 @@ export default function CommercialRoofingLubbockPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Metal standing seam roof on Lubbock agricultural building - 50-year durability" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Standing seam and R-panel metal roofing for agriculture and industrial applications. Superior wind resistance for grain elevators, cotton warehouses, and processing facilities. Fire resistance critical for agricultural operations storing combustible materials.
@@ -283,7 +283,7 @@ export default function CommercialRoofingLubbockPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="EPDM rubber roofing on Lubbock commercial warehouse - Budget-friendly flat roof option" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance in Lubbock's high-elevation sun exposure. Budget-friendly option for agriculture warehouses and smaller commercial buildings throughout Lubbock County.

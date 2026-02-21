@@ -14,41 +14,41 @@ const R2_CDN = "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev";
 
 // Commercial project images - variety of TPO and flat roof installations
 const commercialImages = [
-  { url: `${R2_CDN}/images/commercial/commercial-pampa-1-1280w.jpg`, caption: "Commercial TPO installation - Pampa, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-pampa-2-1280w.jpg`, caption: "Large warehouse roofing - Pampa, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-pampa-3-1280w.jpg`, caption: "Industrial flat roof - Pampa, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-amarillo-5-1280w.jpg`, caption: "Commercial project - Amarillo, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-channing-8-1280w.jpg`, caption: "TPO roofing system - Channing, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-amarillo-10-1280w.jpg`, caption: "Commercial installation - Amarillo, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-amarillo-11-1280w.jpg`, caption: "Flat roof replacement - Amarillo, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-amarillo-12-1280w.jpg`, caption: "Large commercial project - Amarillo, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-pampa-4-1280w.jpg`, caption: "Commercial roofing - Pampa, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-1-1280w.jpg`, caption: "TPO membrane installation on commercial building in Pampa, TX by 5 Star Roofing" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-2-1280w.jpg`, caption: "Large warehouse flat roof replacement with TPO system in Pampa, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-3-1280w.jpg`, caption: "Industrial flat roof with white membrane roofing in Pampa, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-5-1280w.jpg`, caption: "EPDM rubber roofing on commercial flat roof project in Amarillo, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-channing-8-1280w.jpg`, caption: "TPO single-ply roofing system installed on Channing, TX commercial building" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-10-1280w.jpg`, caption: "Commercial roof installation with heat-welded membrane seams in Amarillo, TX" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-11-1280w.jpg`, caption: "Flat roof tear-off and replacement on Amarillo, TX commercial property" },
+  { url: `${R2_CDN}/images/commercial/commercial-amarillo-12-1280w.jpg`, caption: "Large-scale commercial roofing project completed in Amarillo, TX by 5 Star Roofing" },
+  { url: `${R2_CDN}/images/commercial/commercial-pampa-4-1280w.jpg`, caption: "Commercial flat roof with reflective coating system in Pampa, TX" },
 ];
 
 // Residential shingle project images
 const residentialImages = [
-  { url: `${R2_CDN}/images/shingle/shingle-midland-1-1280w.jpg`, caption: "Shingle installation - Midland, TX" },
-  { url: `${R2_CDN}/images/shingle/shingle-san-angelo-2-1280w.jpg`, caption: "Residential roofing - San Angelo, TX" },
-  { url: `${R2_CDN}/images/shingle/shingle-perryton-3-1280w.jpg`, caption: "New shingle roof - Perryton, TX" },
-  { url: `${R2_CDN}/images/shingle/shingle-perryton-4-1280w.jpg`, caption: "Shingle replacement - Perryton, TX" },
-  { url: `${R2_CDN}/images/shingle/shingle-odessa-5-1280w.jpg`, caption: "Residential project - Odessa, TX" },
-  { url: `${R2_CDN}/images/shingle/shingle-perryton-6-1280w.jpg`, caption: "Complete reroof - Perryton, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-midland-1-1280w.jpg`, caption: "Architectural shingle installation on residential home in Midland, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-san-angelo-2-1280w.jpg`, caption: "New residential asphalt shingle roof completed in San Angelo, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-perryton-3-1280w.jpg`, caption: "Impact-resistant shingle roof installation on Perryton, TX home" },
+  { url: `${R2_CDN}/images/shingle/shingle-perryton-4-1280w.jpg`, caption: "Complete shingle replacement with upgraded materials in Perryton, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-odessa-5-1280w.jpg`, caption: "Residential roof replacement with architectural shingles in Odessa, TX" },
+  { url: `${R2_CDN}/images/shingle/shingle-perryton-6-1280w.jpg`, caption: "Full residential reroof with clean ridge line finish in Perryton, TX" },
 ];
 
 // Hail damage repair projects (before photos)
 const hailDamageImages = [
-  { url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-1-1280w.jpg`, caption: "Hail damage assessment - Canyon, TX" },
-  { url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-2-1280w.jpg`, caption: "Storm damage repair - Canyon, TX" },
-  { url: `${R2_CDN}/images/hail-damage/hail-damage-levelland-3-1280w.jpg`, caption: "Hail impact damage - Levelland, TX" },
-  { url: `${R2_CDN}/images/hail-damage/hail-damage-midland-6-1280w.jpg`, caption: "Insurance claim project - Midland, TX" },
-  { url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-16-1280w.jpg`, caption: "Hail damage - Amarillo, TX" },
-  { url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-22-1280w.jpg`, caption: "Storm restoration - Amarillo, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-1-1280w.jpg`, caption: "Hail damage assessment showing impact marks on Canyon, TX roof shingles" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-canyon-2-1280w.jpg`, caption: "Storm damage documentation for insurance claim on Canyon, TX home" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-levelland-3-1280w.jpg`, caption: "Severe hail impact damage with granule loss on Levelland, TX roof" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-midland-6-1280w.jpg`, caption: "Roof damage documented for insurance claim processing in Midland, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-16-1280w.jpg`, caption: "Hail-damaged asphalt shingles requiring replacement in Amarillo, TX" },
+  { url: `${R2_CDN}/images/hail-damage/hail-damage-amarillo-22-1280w.jpg`, caption: "Storm damage restoration project with full roof replacement in Amarillo, TX" },
 ];
 
 // Completed projects - mix of types
 const completedImages = [
-  { url: `${R2_CDN}/images/completed/completed-san-angelo-1-1280w.jpg`, caption: "Completed project - San Angelo, TX" },
-  { url: `${R2_CDN}/images/completed/completed-odessa-2-1280w.jpg`, caption: "New roof installation - Odessa, TX" },
+  { url: `${R2_CDN}/images/completed/completed-san-angelo-1-1280w.jpg`, caption: "Completed roofing project with new shingles on San Angelo, TX property" },
+  { url: `${R2_CDN}/images/completed/completed-odessa-2-1280w.jpg`, caption: "Finished roof installation with architectural shingles in Odessa, TX" },
 ];
 
 export default function GalleryPage() {
