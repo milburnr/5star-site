@@ -505,6 +505,8 @@ export default function ResidentialRoofingLubbockPage() {
           </section>
         </FadeIn>
 
+        <InternalLinks currentCity="lubbock" currentService="residential-roofing" />
+
         <section className="bg-gradient-to-r from-red-700 to-red-900 text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready for a New Roof in Lubbock?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

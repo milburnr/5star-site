@@ -346,6 +346,8 @@ export default function RoofInspectionsLubbockPage() {
             </div>
           </section>
         </FadeIn>
+        <InternalLinks currentCity="lubbock" currentService="roof-inspections" />
+
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Lubbock Property?</h2>

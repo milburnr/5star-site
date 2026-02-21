@@ -534,6 +534,8 @@ export default function TPORoofingAndrewsPage() {
             </div>
           </section>
         </FadeIn>
+        <InternalLinks currentCity="andrews" currentService="tpo-roofing" />
+
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Andrews Property?</h2>
