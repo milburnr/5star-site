@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 7 (next phase after hub pages)
+**Current focus:** Phase 7 - Internal Linking
 
 ## Current Position
 
-Phase: 6 of 10 (Service Hub Pages) -- COMPLETE
-Plan: 4 of 4 in current phase -- DONE
-Status: Phase 6 Complete
-Last activity: 2026-02-21 — Completed 06-04 hub page verification, keyword map update, quality gate
+Phase: 7 of 10 (Internal Linking)
+Plan: 1 of 3 in current phase -- DONE
+Status: Executing Phase 7
+Last activity: 2026-02-21 — Completed 07-01 InternalLinks hub uplinks rebuild
 
-Progress: [▓▓▓▓▓▓▓░░░] 70%
+Progress: [▓▓▓▓▓▓▓░░░] 72%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 19
-- Average duration: 4.5min
-- Total execution time: 1.42 hours
+- Total plans completed: 20
+- Average duration: 4.3min
+- Total execution time: 1.43 hours
 
 **By Phase:**
 
@@ -33,9 +33,10 @@ Progress: [▓▓▓▓▓▓▓░░░] 70%
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
 | 05-schema-architecture | 4 | 17min | 4.3min |
 | 06-service-hub-pages | 4 | 22min | 5.5min |
+| 07-internal-linking | 1 | 1min | 1min |
 
 **Recent Trend:**
-- Last 5 plans: 3min, 7min, 10min, 5min
+- Last 5 plans: 7min, 10min, 5min, 1min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -95,6 +96,8 @@ Recent decisions affecting current work:
 - [06-03]: TPO page includes comparison table (TPO vs EPDM vs PVC vs BUR) for featured snippet targeting
 - [06-04]: Hub keywords use "west texas" or "texas" region qualifiers to avoid cannibalization with city-specific spoke keywords
 - [06-04]: Meta descriptions trimmed to 160 chars max by removing redundant phrases while preserving CTA phone number
+- [07-01]: 5 cities without hub pages (levelland, big-spring, snyder, monahans, andrews) get no hubUrl -- deferred to plan 07-02
+- [07-01]: City hub link conditionally rendered via hubUrl existence check
 
 ### Pending Todos
 
@@ -109,5 +112,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 06-04-PLAN.md (Phase 6 complete - all 9 hub pages verified, keyword map updated, quality gate passed)
+Stopped at: Completed 07-01-PLAN.md (InternalLinks hub uplinks rebuilt, emergency-roof-repair removed, hubUrl mappings added)
 Resume file: None
