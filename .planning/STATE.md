@@ -111,6 +111,9 @@ Recent decisions affecting current work:
 - [Phase 08-03]: FAQ/CTA/utility H2s excluded from answer-first conversion (structural, not SEO content)
 - [Phase 08-03]: PVC membrane mentions added to roof-repair and roof-replacement hubs for CONT-06 full roofing types coverage
 - [Phase 08-03]: Rich content elements use existing CSS classes only (grid, shadow, brand-gold) per content-only constraint
+- [Phase 08-01]: Used faqItems array + .map() pattern for 5 thin cities to guarantee schema-content match (single source of truth)
+- [Phase 08-01]: Hereford uses static AccordionItems (matching Phase 6 hub patterns), 5 thin cities use mapped faqItems array
+- [Phase 08-01]: Removed "Since 2010" from Snyder subtitle -- unverifiable founding claim
 
 ### Pending Todos
 
@@ -125,5 +128,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 08-03-PLAN.md (826+ H2s converted to answer-first format, 4 hub pages enriched with comparison tables/guides)
+Stopped at: Completed 08-01-PLAN.md (6 thin city hubs enriched with 7 FAQs each + city-specific content)
 Resume file: None
