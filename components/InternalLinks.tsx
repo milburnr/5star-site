@@ -60,7 +60,8 @@ const cityData: Record<string, CityData> = {
   'levelland': {
     name: 'Levelland',
     slug: 'levelland',
-    nearbyCities: ['lubbock', 'canyon', 'snyder', 'big-spring']
+    nearbyCities: ['lubbock', 'canyon', 'snyder', 'big-spring'],
+    hubUrl: '/levelland-tx-roofing/'
   },
   'midland': {
     name: 'Midland',
@@ -77,22 +78,26 @@ const cityData: Record<string, CityData> = {
   'big-spring': {
     name: 'Big Spring',
     slug: 'big-spring',
-    nearbyCities: ['midland', 'odessa', 'snyder', 'lubbock']
+    nearbyCities: ['midland', 'odessa', 'snyder', 'lubbock'],
+    hubUrl: '/big-spring-tx-roofing/'
   },
   'snyder': {
     name: 'Snyder',
     slug: 'snyder',
-    nearbyCities: ['big-spring', 'lubbock', 'levelland', 'midland']
+    nearbyCities: ['big-spring', 'lubbock', 'levelland', 'midland'],
+    hubUrl: '/snyder-tx-roofing/'
   },
   'monahans': {
     name: 'Monahans',
     slug: 'monahans',
-    nearbyCities: ['odessa', 'midland', 'andrews', 'big-spring']
+    nearbyCities: ['odessa', 'midland', 'andrews', 'big-spring'],
+    hubUrl: '/monahans-tx-roofing/'
   },
   'andrews': {
     name: 'Andrews',
     slug: 'andrews',
-    nearbyCities: ['odessa', 'midland', 'monahans', 'big-spring']
+    nearbyCities: ['odessa', 'midland', 'monahans', 'big-spring'],
+    hubUrl: '/andrews-tx-roofing/'
   }
 };
 
