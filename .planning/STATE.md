@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 10 of 10 (Technical Validation & Relaunch)
-Plan: 2 of 3 complete
-Status: Executing Phase 10 — sitemap enhanced, awaiting internal link fixes
-Last activity: 2026-02-21 — Completed 10-02 (sitemap enhancement with differentiated priorities)
+Plan: 3 of 3 complete
+Status: Phase 10 COMPLETE — all technical validation passed
+Last activity: 2026-02-21 — Completed 10-03 (internal link fixes + Google Indexing API)
 
-Progress: [▓▓▓▓▓▓▓▓▓▓] 97%
+Progress: [▓▓▓▓▓▓▓▓▓▓] 100%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 28
-- Average duration: 5.1min
-- Total execution time: 2.53 hours
+- Total plans completed: 30
+- Average duration: 5.0min
+- Total execution time: 2.68 hours
 
 **By Phase:**
 
@@ -47,6 +47,7 @@ Progress: [▓▓▓▓▓▓▓▓▓▓] 97%
 | Phase 09 P03 | 3min | 1 task | 9 files |
 | Phase 10 P01 | 6min | 2 tasks | 4 files |
 | Phase 10 P02 | 2min | 2 tasks | 2 files |
+| Phase 10 P03 | 7min | 2 tasks | 24 files |
 
 ## Accumulated Context
 
@@ -137,6 +138,9 @@ Recent decisions affecting current work:
 - [Phase 10-01]: Meta CTA fix: added phone number CTA to metal-roofing and storm-damage-repair hub descriptions
 - [Phase 10-02]: Homepage was missing from sitemap -- root page.tsx not detected by directory walker, fixed
 - [Phase 10-02]: Service hub detection uses explicit Set; city hub uses regex; spoke uses prefix array with startsWith
+- [Phase 10-03]: Broken article attraction URLs redirected to /amarillo-texas-roofing/ (city hub) instead of removed
+- [Phase 10-03]: Niche Amarillo breadcrumb intermediate URLs pointed to /services/ as logical parent category
+- [Phase 10-03]: Google Indexing API quota exhaustion documented as non-blocking per phase constraints
 
 ### Pending Todos
 
@@ -151,5 +155,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 10-02-PLAN.md (sitemap enhancement with differentiated priorities)
+Stopped at: Completed 10-03-PLAN.md (internal link fixes + Google Indexing API) -- Phase 10 COMPLETE
 Resume file: None
