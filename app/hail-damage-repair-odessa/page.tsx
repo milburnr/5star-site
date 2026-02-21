@@ -427,6 +427,18 @@ export default function HailDamageRepairOdessaPage() {
 
         {/* CTA Section */}
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-slate-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              How Often Does Ector County Experience Severe Hail?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Ector County records 5 to 7 severe hail events annually, placing Odessa squarely within the Permian Basin&apos;s active storm corridor. Unlike the Panhandle cities to the north, Odessa&apos;s hail season peaks slightly later&mdash;May through June&mdash;when Gulf moisture pushes deeper into West Texas and collides with dry desert air masses. Odessa&apos;s split between residential neighborhoods and industrial-commercial zones creates a distinct claims dynamic: commercial properties along the I-20 corridor, Andrews Highway, and the industrial east side often file claims through commercial carriers with different documentation requirements than residential insurers. Residential homeowners in neighborhoods like Sherwood Park, Dawn Heights, and Mission Estates file through standard homeowner policies. 5 Star Roofing understands both tracks and tailors our documentation to match whether we are working with a residential adjuster from State Farm or a commercial claims examiner from a specialty carrier. We ensure Odessa property owners receive full compensation regardless of property type.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="odessa" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">

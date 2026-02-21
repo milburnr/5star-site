@@ -431,6 +431,18 @@ export default function HailDamageRepairAmarilloPage() {
             </div>
           </section>
         </FadeIn>
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-yellow-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Which Amarillo Insurance Agencies Handle Hail Claims?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Amarillo homeowners typically carry policies from carriers with strong Panhandle presence. Filing hail claims through a local agent who understands Potter County storm patterns can speed up the process significantly. Major carriers writing homeowner policies in the Amarillo area include State Farm, Allstate, Farmers, USAA, and Texas Farm Bureau. Local independent agencies such as Bivins Insurance, Gene Messer Insurance, and Brown Graham & Company have adjusters familiar with Panhandle hail frequency and can advocate effectively for full replacement coverage. When your insurer sends an out-of-town adjuster unfamiliar with Amarillo&apos;s 131 severe hail days since 2000, having 5 Star Roofing present at the inspection ensures local storm context is communicated and nothing gets undervalued in the scope of work.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="amarillo" currentService="hail-damage-repair" />
 
 

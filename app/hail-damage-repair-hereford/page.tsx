@@ -494,6 +494,17 @@ export default function HailDamageRepairHerefordPage() {
           </section>
         </FadeIn>
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-green-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              How Does Hail Damage Affect Hereford&apos;s Agricultural Buildings and Insurance Claims?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Hereford&apos;s identity as the Beef Capital of the World means Deaf Smith County has thousands of agricultural structures&mdash;feedlot shade covers, hay barns, equipment storage buildings, and processing facilities&mdash;alongside the residential neighborhoods where the workers who run these operations live. Agricultural building hail damage often requires a different assessment approach than residential roofing. Metal panel roofs on cattle facilities and grain storage buildings sustain cosmetic denting that may not affect function but can void manufacturer warranties and accelerate corrosion at impact points. Insurance coverage for agricultural structures varies significantly: some fall under farm and ranch policies with different deductible structures than standard homeowner coverage, while others may be covered under commercial property policies. 5 Star Roofing provides hail damage assessments for both residential homes and agricultural buildings in the Hereford area, documenting damage in the format each insurance type requires. We understand the unique roofing needs of feedlot facilities where ventilation, drainage, and livestock protection are critical design factors that must be maintained during repairs.
+            </p>
+          </section>
+        </FadeIn>
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">What Protecting Hereford's Agricultural Heritage?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">From family homes to feedlot facilities, we protect the infrastructure that makes Hereford the Beef Capital of the World. Free inspections for all property types.</p>

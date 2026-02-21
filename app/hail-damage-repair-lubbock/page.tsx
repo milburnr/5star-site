@@ -427,6 +427,18 @@ export default function HailDamageRepairLubbockPage() {
 
         {/* CTA Section */}
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Why Is Lubbock&apos;s South Plains Position a Hail Hotspot?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Lubbock sits at the southern edge of the Texas hail belt where the Caprock Escarpment drops from the High Plains into the Rolling Plains below. This geographic transition zone creates atmospheric lifting that intensifies storm updrafts, producing some of the largest hailstones recorded in West Texas. Lubbock County averages 6 to 9 significant hail events per year, with the May 2023 supercell producing grapefruit-sized stones that caused over $400 million in insured losses across the metro area&mdash;one of the costliest single-city hail events in Texas history. Texas Tech University&apos;s National Wind Institute, located in Lubbock, has conducted extensive research on hail impact resistance that directly informed the development of Class 4 impact-resistant shingle standards. Their wind engineering research confirms that Lubbock&apos;s combination of hail frequency and wind intensity makes impact-resistant roofing materials not just recommended but essential for long-term property protection. 5 Star Roofing uses these research-backed material recommendations when advising Lubbock homeowners on replacement options after hail damage.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="lubbock" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">

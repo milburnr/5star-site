@@ -830,6 +830,18 @@ export default function HailDamageRepairPampaPage() {
         </FadeIn>
 
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-green-50 to-teal-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              What Makes Gray County a Storm Corridor for Hail?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Pampa&apos;s location in Gray County places it directly within a northeast Texas Panhandle storm corridor where severe weather tracks from the southwest toward the Oklahoma border. Gray County records 6 to 9 hail events annually, with storms often intensifying as they cross the open prairie between Amarillo and the Oklahoma line. Pampa&apos;s rural character presents unique damage assessment challenges that urban areas do not face. Properties outside city limits&mdash;ranch homes, agricultural buildings, and rural estates along Highway 60 and Highway 70&mdash;may sit miles from the nearest neighbor, making it difficult for insurance adjusters unfamiliar with the area to locate and assess all damaged structures on a single property. A ranch with a main home, detached garage, equipment barn, and storage buildings can have four separate roof structures requiring individual documentation on one claim. 5 Star Roofing provides comprehensive property assessments for rural Pampa homeowners, documenting every structure on the property so nothing gets missed when the adjuster reviews the claim. We serve all of Gray County, from downtown Pampa to Lefors, McLean, and the surrounding ranch properties.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="pampa" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">

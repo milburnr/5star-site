@@ -780,6 +780,18 @@ export default function HailDamageRepairDumasPage() {
         </FadeIn>
 
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-slate-50 to-gray-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              What Are Moore County&apos;s Hail Statistics and Natural Gas Facility Considerations?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Dumas sits at the heart of Moore County, where NOAA records show an average of 7 to 10 significant hail events per year&mdash;consistent with the broader Texas Panhandle pattern but intensified by the county&apos;s flat, unobstructed terrain that allows storm cells to build strength across open prairie. Moore County&apos;s largest employer, the Valero natural gas processing complex north of Dumas, anchors an industrial sector that includes helium extraction plants, feedlot operations, and grain elevators&mdash;all with large roof surfaces vulnerable to hail. When hail damages both residential neighborhoods and industrial support facilities in the same storm, local roofing demand surges overnight. Homeowners who wait too long to file claims risk competing with commercial properties for contractor availability during peak storm season. 5 Star Roofing prioritizes Dumas residential customers alongside commercial work, ensuring homeowners in neighborhoods like North Dumas, Cactus Road, and the Sunray highway corridor receive prompt inspections and insurance documentation before claim filing deadlines pass.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="dumas" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">

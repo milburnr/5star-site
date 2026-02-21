@@ -427,6 +427,18 @@ export default function HailDamageRepairMidlandPage() {
 
         {/* CTA Section */}
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              How Does Hail Affect Permian Basin Commercial Properties in Midland?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Midland&apos;s position as the financial capital of the Permian Basin means the city has a disproportionate concentration of high-value commercial properties: corporate office buildings for oil and gas operators, bank headquarters, medical facilities, and retail centers that serve the region&apos;s workforce. Midland County experiences 5 to 8 hail events annually, with stones frequently reaching quarter to golf-ball size during spring supercells. Commercial hail damage claims in Midland involve property values and deductibles significantly higher than residential claims. A single office complex can sustain $200,000 to $500,000 in roof damage from one storm. 5 Star Roofing handles Midland commercial hail claims for TPO, EPDM, and modified bitumen flat-roof systems common on Permian Basin commercial buildings. We work with commercial insurance carriers, provide drone-assisted damage documentation for large roof surfaces, and schedule repairs around business operating hours so tenants and employees experience minimal disruption.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="midland" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">

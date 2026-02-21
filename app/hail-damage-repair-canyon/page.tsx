@@ -794,6 +794,18 @@ export default function HailDamageRepairCanyonPage() {
         </FadeIn>
 
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-purple-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              How Do WTAMU Students and Landlords Handle Hail Damage Claims?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Canyon&apos;s rental market is driven by West Texas A&amp;M University&apos;s 10,000-plus student population. When hail hits the Randall County hail corridor, landlords face a unique insurance challenge: coordinating claims on multiple rental properties simultaneously while minimizing tenant disruption during the academic year. Renters insurance does not cover structural roof damage&mdash;that falls on the property owner&apos;s landlord policy. Many Canyon landlords carry portfolio policies covering multiple rental homes, which require a single claim with itemized damage across properties. 5 Star Roofing works with Canyon landlords who manage anywhere from two to fifty rental units, providing consolidated inspection reports and coordinated repair schedules that prioritize summer break windows. For student tenants, we coordinate move-in timelines with landlords to ensure roofs are restored before fall semester begins. We also assist individual homeowners in Canyon&apos;s established neighborhoods like Hunsley Hills and Lake Tanglewood, where Randall County&apos;s position along the hail corridor means claims are a regular occurrence.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="canyon" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">

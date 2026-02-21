@@ -426,6 +426,18 @@ export default function HailDamageRepairBorgerPage() {
 
         {/* CTA Section */}
         
+        
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              How Does Hail Affect Borger&apos;s Industrial and Commercial Facilities?
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Borger&apos;s economy revolves around the Phillips 66 refinery complex, Chevron-Phillips Chemical, and supporting industrial operations that collectively employ thousands of Hutchinson County residents. These facilities rely on large flat-roof systems covering warehouses, office buildings, maintenance shops, and support structures that are especially vulnerable to hail impact. A single severe storm can damage dozens of commercial roofs across Borger&apos;s industrial corridor simultaneously. Commercial hail claims in Borger follow different insurance processes than residential claims: industrial property policies often carry higher deductibles, require specialized commercial adjusters, and may involve multiple coverage layers. 5 Star Roofing has experience navigating commercial insurance claims for Borger businesses, from standalone office buildings to multi-structure industrial support facilities. We provide Xactimate estimates that commercial carriers accept and coordinate repairs around facility operating schedules to minimize downtime.
+            </p>
+          </section>
+        </FadeIn>
+
         <InternalLinks currentCity="borger" currentService="hail-damage-repair" />
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
