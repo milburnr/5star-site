@@ -219,12 +219,12 @@ Plans:
   4. Every image has a descriptive, keyword-rich alt attribute relevant to its surrounding content
   5. Inline images of roofing materials, hail damage, and completed work appear where content references them
 **Quality Gate**: Build succeeds, `grep -r "public/images" out/ | wc -l` returns ZERO (no GitHub images), `grep -r "r2.dev" out/ | wc -l` returns >0, zero broken image URLs validated against built output, PageSpeed 95+
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 09-01: Audit all image URLs for R2 compliance, broken links, and duplicates
-- [ ] 09-02: Audit and rewrite all image alt text for keyword relevance
-- [ ] 09-03: Add contextual inline images where content references materials or damage types
+- [ ] 09-01-PLAN.md — Migrate all image URLs to R2, fix schema image references, create broken URL audit script
+- [ ] 09-02-PLAN.md — Rewrite all generic/short alt text to be descriptive and keyword-rich, create alt text audit script
+- [ ] 09-03-PLAN.md — Add contextual inline images to 9 service hub pages where content references materials or damage types
 
 ### Phase 10: Technical Validation & Relaunch
 **Goal**: The entire site passes a comprehensive technical QA proving all changes work correctly, then gets resubmitted to Google for re-crawling
