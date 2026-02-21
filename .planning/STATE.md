@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 6 of 10 (Service Hub Pages)
-Plan: 1 of 4 in current phase -- DONE
+Plan: 3 of 4 in current phase -- DONE
 Status: In Progress
-Last activity: 2026-02-21 — Completed 06-01 hail-damage-repair and roof-repair hub pages
+Last activity: 2026-02-21 — Completed 06-03 wind-damage-repair, tpo-roofing, roof-inspections, asphalt-shingle-roofing hub pages
 
-Progress: [▓▓▓▓▓▓░░░░] 60%
+Progress: [▓▓▓▓▓▓▓░░░] 65%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 16
-- Average duration: 4.3min
-- Total execution time: 1.17 hours
+- Total plans completed: 18
+- Average duration: 4.5min
+- Total execution time: 1.33 hours
 
 **By Phase:**
 
@@ -32,10 +32,10 @@ Progress: [▓▓▓▓▓▓░░░░] 60%
 | 03-meta-titles | 3 | 17min | 5.7min |
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
 | 05-schema-architecture | 4 | 17min | 4.3min |
-| 06-service-hub-pages | 1 | 7min | 7min |
+| 06-service-hub-pages | 3 | 17min | 5.7min |
 
 **Recent Trend:**
-- Last 5 plans: 3min, 6min, 2min, 3min, 7min
+- Last 5 plans: 2min, 3min, 7min, 10min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -88,6 +88,11 @@ Recent decisions affecting current work:
 - [06-01]: Used Accordion component for hub FAQs (matching spoke pattern) instead of div-based FAQs in commercial-roofing reference
 - [06-01]: Hub page keywords are broad (no city names) to avoid spoke keyword cannibalization
 - [06-01]: R2 images reused from existing spoke pages for hero sections
+- [06-02]: Each hub's FAQ questions strictly non-overlapping: replacement=cost/materials/warranties, storm=emergency/insurance/prevention, metal=durability/noise/styles
+- [06-02]: Added Storm Season regional section to storm-damage-repair for geographic specificity (Panhandle, Permian Basin, South Plains)
+- [06-03]: Hub pages use inline city array + map for link grid instead of importing from constants
+- [06-03]: TPO and asphalt-shingle hubs include hasOfferCatalog in Service schema for sub-service visibility
+- [06-03]: TPO page includes comparison table (TPO vs EPDM vs PVC vs BUR) for featured snippet targeting
 
 ### Pending Todos
 
@@ -102,5 +107,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 06-01-PLAN.md (hail-damage-repair and roof-repair hub pages)
+Stopped at: Completed 06-03-PLAN.md (wind-damage-repair, tpo-roofing, roof-inspections, asphalt-shingle-roofing hub pages)
 Resume file: None
