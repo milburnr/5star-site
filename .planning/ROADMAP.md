@@ -237,12 +237,12 @@ Plans:
   4. All 268+ pages resubmitted to Google Indexing API without errors
   5. Broken link check passes across all pages (zero internal 404s)
 **Quality Gate**: ALL 6 verification checks must pass as final gate — this phase IS the comprehensive quality validation. Build, schema, meta, images, links, PageSpeed all verified.
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 10-01: Full build verification and PageSpeed regression testing
-- [ ] 10-02: Regenerate sitemap and verify R2 image URL integrity
-- [ ] 10-03: Run broken link check, fix any issues, and resubmit to Google Indexing API
+- [ ] 10-01-PLAN.md — Full build verification, run all validation scripts, PageSpeed regression testing, create internal link checker
+- [ ] 10-02-PLAN.md — Enhance sitemap generator with differentiated priorities, regenerate sitemap, rebuild
+- [ ] 10-03-PLAN.md — Run broken link check, fix any issues, resubmit to Google Indexing API
 
 ## Progress
 
