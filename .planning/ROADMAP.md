@@ -178,12 +178,12 @@ Plans:
   5. Breadcrumb navigation on every page resolves to real pages (no 404 breadcrumb parents)
 **Quality Gate**: Build succeeds, zero orphan pages, zero dead-end pages (every page has 3+ outbound links), all breadcrumb hrefs resolve to real pages in out/, internal link spot-check passes
 **Component Reuse**: Standard internal linking pattern — hub uplinks (spoke->service hub + city hub), cross-city links (same service), cross-service links (same city)
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 07-01: Update InternalLinks component with hub uplink logic
-- [ ] 07-02: Audit and fix cross-city and cross-service linking across all spoke pages
-- [ ] 07-03: Verify no orphan pages, no dead-ends, and all breadcrumbs resolve
+- [ ] 07-01-PLAN.md — Rebuild InternalLinks component with hub uplinks, remove phantom service, add hubUrl mappings
+- [ ] 07-02-PLAN.md — Create 5 missing city hub pages, add spoke grids to legacy hubs, fix service-areas and broken links
+- [ ] 07-03-PLAN.md — Render InternalLinks on 147 spoke pages and run full verification audit
 
 ### Phase 8: Content Enrichment
 **Goal**: Every page has differentiated, substantive content that demonstrates local expertise and covers the full range of roofing services
