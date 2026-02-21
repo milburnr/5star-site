@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 5: Schema Architecture
+**Current focus:** Phase 6: Service Hub Pages
 
 ## Current Position
 
-Phase: 5 of 10 (Schema Architecture) -- COMPLETE
-Plan: 4 of 4 in current phase -- DONE
-Status: Phase Complete
-Last activity: 2026-02-20 — Completed 05-04 schema validation script (Phase 5 final gate)
+Phase: 6 of 10 (Service Hub Pages)
+Plan: 1 of 4 in current phase -- DONE
+Status: In Progress
+Last activity: 2026-02-21 — Completed 06-01 hail-damage-repair and roof-repair hub pages
 
-Progress: [▓▓▓▓▓▓░░░░] 55%
+Progress: [▓▓▓▓▓▓░░░░] 60%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 15
-- Average duration: 4.1min
-- Total execution time: 1.06 hours
+- Total plans completed: 16
+- Average duration: 4.3min
+- Total execution time: 1.17 hours
 
 **By Phase:**
 
@@ -32,9 +32,10 @@ Progress: [▓▓▓▓▓▓░░░░] 55%
 | 03-meta-titles | 3 | 17min | 5.7min |
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
 | 05-schema-architecture | 4 | 17min | 4.3min |
+| 06-service-hub-pages | 1 | 7min | 7min |
 
 **Recent Trend:**
-- Last 5 plans: 3min, 3min, 6min, 2min, 3min
+- Last 5 plans: 3min, 6min, 2min, 3min, 7min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -84,6 +85,9 @@ Recent decisions affecting current work:
 - [05-02]: Person name set to "Owner" placeholder -- about page content has no specific owner name
 - [05-04]: Service-city page detection uses positive matching (known service prefixes) to avoid false positives on city hub and blog pages
 - [05-04]: 404 page excluded from BreadcrumbList warning -- no meaningful breadcrumb path for error pages
+- [06-01]: Used Accordion component for hub FAQs (matching spoke pattern) instead of div-based FAQs in commercial-roofing reference
+- [06-01]: Hub page keywords are broad (no city names) to avoid spoke keyword cannibalization
+- [06-01]: R2 images reused from existing spoke pages for hero sections
 
 ### Pending Todos
 
@@ -97,6 +101,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-02-20
-Stopped at: Completed 05-04-PLAN.md (schema validation script -- Phase 5 complete)
+Last session: 2026-02-21
+Stopped at: Completed 06-01-PLAN.md (hail-damage-repair and roof-repair hub pages)
 Resume file: None
