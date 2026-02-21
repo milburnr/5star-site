@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 7 - Internal Linking
+**Current focus:** Phase 9 - Image Optimization
 
 ## Current Position
 
-Phase: 8 of 10 (Content Enrichment) -- COMPLETE
-Plan: 5 of 5 in current phase (all complete, including gap closure)
-Status: Phase 8 Complete (including gap closure), ready for Phase 9
-Last activity: 2026-02-21 — Completed 08-05 FAQ gap closure
+Phase: 9 of 10 (Image Optimization)
+Plan: 1 of 3
+Status: Executing Phase 9
+Last activity: 2026-02-21 — Completed 09-01 (R2 image migration + audit script)
 
-Progress: [▓▓▓▓▓▓▓▓▓░] 88%
+Progress: [▓▓▓▓▓▓▓▓▓░] 90%
 
 ## Performance Metrics
 
@@ -42,6 +42,7 @@ Progress: [▓▓▓▓▓▓▓▓▓░] 88%
 
 *Updated after each plan completion*
 | Phase 08 P05 | 6min | 2 tasks | 11 files |
+| Phase 09 P01 | 5min | 2 tasks | 190 files |
 
 ## Accumulated Context
 
@@ -120,6 +121,9 @@ Recent decisions affecting current work:
 - [Phase 08-04]: 21 identical FAQ answers flagged for future Phase 9/10 city-localization improvement
 - [Phase 08-05]: Spoke pages use faqItems.map() for both Accordion rendering and FAQPage schema (single source of truth)
 - [Phase 08-05]: City hubs keep existing div/h3 FAQ format; only FAQPage schema added to match
+- [Phase 09-01]: Logo kept local (/logo.png) since R2 5star-logo.png returns 404 -- small static asset allowlisted in audit
+- [Phase 09-01]: Schema image default uses completed-amarillo-4-1280w.jpg for all pages (per-city images don't exist on R2)
+- [Phase 09-01]: 3 pre-existing broken R2 URLs fixed (commercial-amarillo-14/15, commercial-pampa-8 all 404)
 
 ### Pending Todos
 
@@ -134,5 +138,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 08-05-PLAN.md (Phase 8 gap closure - FAQ coverage on 11 pages)
+Stopped at: Completed 09-01-PLAN.md (R2 image migration + audit script)
 Resume file: None
