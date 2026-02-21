@@ -4,11 +4,13 @@ interface CityData {
   name: string;
   slug: string;
   nearbyCities: string[];
+  hubUrl?: string;
 }
 
 interface ServiceData {
   name: string;
   slug: string;
+  hubUrl: string;
 }
 
 // City data with geographic proximity relationships
@@ -16,37 +18,44 @@ const cityData: Record<string, CityData> = {
   'amarillo': {
     name: 'Amarillo',
     slug: 'amarillo',
-    nearbyCities: ['canyon', 'borger', 'dumas', 'pampa']
+    nearbyCities: ['canyon', 'borger', 'dumas', 'pampa'],
+    hubUrl: '/amarillo-texas-roofing/'
   },
   'canyon': {
     name: 'Canyon',
     slug: 'canyon',
-    nearbyCities: ['amarillo', 'lubbock', 'dumas', 'levelland']
+    nearbyCities: ['amarillo', 'lubbock', 'dumas', 'levelland'],
+    hubUrl: '/canyon-texas-roofing/'
   },
   'borger': {
     name: 'Borger',
     slug: 'borger',
-    nearbyCities: ['amarillo', 'pampa', 'dumas', 'perryton']
+    nearbyCities: ['amarillo', 'pampa', 'dumas', 'perryton'],
+    hubUrl: '/borger-texas-roofing/'
   },
   'dumas': {
     name: 'Dumas',
     slug: 'dumas',
-    nearbyCities: ['amarillo', 'borger', 'pampa', 'perryton']
+    nearbyCities: ['amarillo', 'borger', 'pampa', 'perryton'],
+    hubUrl: '/dumas-texas-roofing/'
   },
   'pampa': {
     name: 'Pampa',
     slug: 'pampa',
-    nearbyCities: ['amarillo', 'borger', 'dumas', 'perryton']
+    nearbyCities: ['amarillo', 'borger', 'dumas', 'perryton'],
+    hubUrl: '/pampa-texas-roofing/'
   },
   'perryton': {
     name: 'Perryton',
     slug: 'perryton',
-    nearbyCities: ['pampa', 'borger', 'dumas', 'amarillo']
+    nearbyCities: ['pampa', 'borger', 'dumas', 'amarillo'],
+    hubUrl: '/perryton-texas-roofing/'
   },
   'lubbock': {
     name: 'Lubbock',
     slug: 'lubbock',
-    nearbyCities: ['levelland', 'canyon', 'amarillo', 'snyder']
+    nearbyCities: ['levelland', 'canyon', 'amarillo', 'snyder'],
+    hubUrl: '/lubbock-tx-roofing/'
   },
   'levelland': {
     name: 'Levelland',
@@ -56,12 +65,14 @@ const cityData: Record<string, CityData> = {
   'midland': {
     name: 'Midland',
     slug: 'midland',
-    nearbyCities: ['odessa', 'big-spring', 'monahans', 'andrews']
+    nearbyCities: ['odessa', 'big-spring', 'monahans', 'andrews'],
+    hubUrl: '/midland-tx-roofing/'
   },
   'odessa': {
     name: 'Odessa',
     slug: 'odessa',
-    nearbyCities: ['midland', 'monahans', 'andrews', 'big-spring']
+    nearbyCities: ['midland', 'monahans', 'andrews', 'big-spring'],
+    hubUrl: '/odessa-tx-roofing/'
   },
   'big-spring': {
     name: 'Big Spring',
@@ -89,51 +100,58 @@ const cityData: Record<string, CityData> = {
 const serviceData: Record<string, ServiceData> = {
   'residential-roofing': {
     name: 'Residential Roofing',
-    slug: 'residential-roofing'
+    slug: 'residential-roofing',
+    hubUrl: '/residential-roofing/'
   },
   'commercial-roofing': {
     name: 'Commercial Roofing',
-    slug: 'commercial-roofing'
+    slug: 'commercial-roofing',
+    hubUrl: '/commercial-roofing/'
   },
   'hail-damage-repair': {
     name: 'Hail Damage Repair',
-    slug: 'hail-damage-repair'
+    slug: 'hail-damage-repair',
+    hubUrl: '/hail-damage-repair/'
   },
   'storm-damage-repair': {
     name: 'Storm Damage Repair',
-    slug: 'storm-damage-repair'
+    slug: 'storm-damage-repair',
+    hubUrl: '/storm-damage-repair/'
   },
   'wind-damage-repair': {
     name: 'Wind Damage Repair',
-    slug: 'wind-damage-repair'
-  },
-  'emergency-roof-repair': {
-    name: 'Emergency Roof Repair',
-    slug: 'emergency-roof-repair'
+    slug: 'wind-damage-repair',
+    hubUrl: '/wind-damage-repair/'
   },
   'roof-replacement': {
     name: 'Roof Replacement',
-    slug: 'roof-replacement'
+    slug: 'roof-replacement',
+    hubUrl: '/roof-replacement/'
   },
   'roof-repair': {
     name: 'Roof Repair',
-    slug: 'roof-repair'
+    slug: 'roof-repair',
+    hubUrl: '/roof-repair/'
   },
   'roof-inspections': {
     name: 'Roof Inspections',
-    slug: 'roof-inspections'
+    slug: 'roof-inspections',
+    hubUrl: '/roof-inspections/'
   },
   'tpo-roofing': {
     name: 'TPO Roofing',
-    slug: 'tpo-roofing'
+    slug: 'tpo-roofing',
+    hubUrl: '/tpo-roofing/'
   },
   'metal-roofing': {
     name: 'Metal Roofing',
-    slug: 'metal-roofing'
+    slug: 'metal-roofing',
+    hubUrl: '/metal-roofing/'
   },
   'asphalt-shingle-roofing': {
     name: 'Asphalt Shingle Roofing',
-    slug: 'asphalt-shingle-roofing'
+    slug: 'asphalt-shingle-roofing',
+    hubUrl: '/asphalt-shingle-roofing/'
   }
 };
 
@@ -162,6 +180,30 @@ export function InternalLinks({ currentCity, currentService }: InternalLinksProp
   return (
     <FadeIn>
       <section className="mt-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl border border-brand-gold/20">
+        {/* Hub Uplinks */}
+        <div className="mb-6 flex flex-wrap gap-3">
+          <a
+            href={serviceData[currentService]?.hubUrl}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-brand-brown text-white rounded-lg font-semibold hover:bg-brand-brown/90 transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+            </svg>
+            All {serviceData[currentService]?.name} Services
+          </a>
+          {cityInfo.hubUrl && (
+            <a
+              href={cityInfo.hubUrl}
+              className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold text-white rounded-lg font-semibold hover:bg-brand-gold-bright transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+              </svg>
+              All Roofing Services in {cityInfo.name}
+            </a>
+          )}
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8">
           {/* Same Service in Nearby Cities */}
           <div>
