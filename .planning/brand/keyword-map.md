@@ -242,12 +242,53 @@ Populated during Phase 3 Plan 3 from meta title audit.
 - 36 additional variant pages consolidated in Phase 2 plans 01-02
 - 8 more redundant pages consolidated in Phase 2 gap closure plan 03
 
+## Cannibalization Audit
+
+**Date:** 2026-02-21
+**Scope:** Full site (211 pages built to out/ directory)
+**Method:** Automated extraction of H1s, titles, FAQ schema questions, and H2s from built HTML
+
+### Results
+
+| Check | Result | Details |
+|-------|--------|---------|
+| Duplicate primary keywords | 0 found | All 211 pages have unique primary keywords |
+| Duplicate H1s | 0 found | Only 404 error page has repeated H1 (expected) |
+| Duplicate titles | 0 found | "Amarillo Hail Damage Roof Repair" appears on 404 pages only (layout default) |
+| Duplicate H2s (structural) | 86x "Frequently Asked Questions", 71x "Visit Our Amarillo Location" | Structural/UI headings, not content cannibalization |
+| Duplicate FAQ questions (identical answers) | 21 question-answer pairs across 73 pages | See details below |
+
+### FAQ Duplicate Details
+
+21 FAQ questions have identical answers appearing on multiple city variant pages. These are from Phase 08-02 batch FAQ generation where thin city pages received generic answers. Examples:
+
+- "What commercial roofing systems work best in Texas?" (10 commercial-roofing city pages)
+- "What are Class 4 shingles?" (10 residential-roofing city pages)
+- "How long does roof replacement take?" (10 residential-roofing city pages)
+- "What does a professional roof inspection include?" (5 roof-inspections city pages)
+
+**Assessment:** These are NOT primary keyword cannibalization -- each page targets a unique city-specific primary keyword and has a unique H1/title. The FAQ duplicates are content quality issues where generic answers should be city-localized. Each page still targets a distinct search intent (e.g., "roof inspections borger" vs "roof inspections canyon").
+
+**Recommendation:** Future Phase 9/10 work could differentiate these FAQ answers with city-specific details (local building codes, county-specific data, response times). This is content quality improvement, not cannibalization remediation.
+
+### Conclusion
+
+**Zero keyword cannibalization detected.** All 211 pages have:
+- Unique primary keywords
+- Unique H1 headings
+- Unique meta titles
+- Distinct search intent targets
+
+Hub pages use broad/regional qualifiers ("west texas", "texas"). Spoke pages use city-specific qualifiers. No two pages would compete for the same Google SERP position.
+
 ## Populated During
 
 - **Phase 3:** Full keyword map created from title/H1 audit
 - **Phase 6:** Hub page keywords added (must not overlap spoke keywords)
 - **Phase 8:** Content enrichment may shift secondary keywords
+- **Phase 8 Plan 4:** Full cannibalization audit completed (2026-02-21)
 
 ---
 *Created: 2026-02-20*
 *Populated: Phase 3 Plan 3 (2026-02-20)*
+*Audit: Phase 8 Plan 4 (2026-02-21)*
