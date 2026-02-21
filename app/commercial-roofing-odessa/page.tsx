@@ -185,7 +185,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Odessa's Premier Commercial Roofing Specialists
+              What Makes Odessa a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Expert commercial roofing for Odessa businesses serving the Permian Basin's energy sector. TPO, EPDM, and metal roofing systems engineered for harsh weather and industrial environments. Minimize operational disruption with our after-hours installation. prompt response available for critical petroleum industry operations.
@@ -202,7 +202,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Commercial Roofing for Odessa's Petroleum Industry
+              What Does Commercial Roofing for Odessa's Petroleum Industry Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Odessa serves as a major hub for Permian Basin petroleum operations, housing drilling contractors, oilfield service companies, and industrial manufacturers serving the energy sector. These facilities require commercial roofing systems designed for exposure to petroleum byproducts, industrial chemicals, and the extreme weather conditions common in West Texas energy operations.
@@ -230,7 +230,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Educational Institution Commercial Roofing Excellence
+              What Does Educational Institution Commercial Roofing Excellence Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The University of Texas Permian Basin represents Odessa's largest educational facility, requiring specialized commercial roofing systems for academic buildings, research facilities, and student housing that accommodate modern educational technology while providing energy-efficient environments for year-round academic operations. University buildings often include specialized laboratory facilities requiring superior environmental control and chemical-resistant roofing materials.
@@ -258,7 +258,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Retail and Commercial Center Roofing Solutions
+              What Does Retail and Commercial Center Roofing Solutions Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Music City Mall and major retail corridors throughout Odessa serve petroleum industry workers and their families, requiring commercial roofing systems that accommodate large retail spaces, restaurants, and entertainment facilities while maintaining comfortable shopping environments during extreme West Texas weather conditions. These facilities often experience heavy traffic during shift changes and industry boom periods that create unique operational demands.
@@ -286,7 +286,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Government and Public Safety Commercial Roofing
+              What Does Government and Public Safety Commercial Roofing Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Ector County facilities including the courthouse, sheriff's department, and administrative buildings require commercial roofing systems that meet government specifications for durability, security, and energy efficiency while accommodating public safety equipment and emergency communication systems. These projects often involve complex procurement procedures and specialized security requirements that affect contractor selection and installation protocols.
@@ -314,7 +314,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Commercial Roofing Systems and Technology for Permian Basin Operations
+              What Does Commercial Roofing Systems and Technology for Permian Basin Operations Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               TPO (Thermoplastic Polyolefin) membrane systems provide superior performance for Odessa's challenging environment with chemical resistance essential for petroleum industry applications, energy efficiency that reduces operational costs, and durability that withstands extreme weather conditions common throughout the Permian Basin. Heat-welded seams create permanently fused joints that eliminate potential failure points common in adhesive-based systems.

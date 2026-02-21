@@ -223,7 +223,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's Wind Damage Repair Specialists
+              How Does Snyder's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Snyder's location in Scurry County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -257,7 +257,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              West Texas Rolling Plains Wind Dynamics
+              West Texas Rolling Plains Wind Dynamics?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -291,7 +291,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-purple-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Supercell Wind Damage in Scurry County
+              How Does Supercell Wind Damage in Scurry County Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -343,7 +343,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Comprehensive Wind Damage Repair Methodology
+              How Does Comprehensive Wind Damage Repair Methodology Affect Your Roof?
             </h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
@@ -408,7 +408,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Snyder Wind Damage Repair Questions
+              How Does Snyder Wind Damage Repair Questions Affect Your Roof?
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="supercell-response" className="bg-white rounded-lg shadow-md">
@@ -466,7 +466,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Rolling Plains Properties We've Restored
+              Rolling Plains Properties We've Restored?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
@@ -511,7 +511,7 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl border border-orange-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-orange-700 mb-4">Supercell Season Preparedness</h2>
+              <h2 className="text-4xl font-bold text-orange-700 mb-4">Supercell Season Preparedness?</h2>
               <div className="text-6xl mb-4">⛈️</div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 West Texas supercell season runs March through June. Be prepared for sudden, devastating wind events.
@@ -546,7 +546,7 @@ export default function WindDamageRepairSnyderPage() {
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Rebuild Stronger in Snyder</h2>
+          <h2 className="text-4xl font-bold mb-6">Rebuild Stronger in Snyder?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Expert wind damage repair for West Texas Rolling Plains properties. Our team understands supercell wind patterns and provides repairs engineered for extreme weather. Trust Scurry County's supercell damage specialists.
           </p>

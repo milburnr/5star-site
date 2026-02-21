@@ -220,7 +220,7 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Borger's Metal Roofing Specialists
+              What Makes Our Borger Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Borger Properties Choose Metal Roofing
+              Why Do Borger Properties Choose Metal Roofing?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -273,7 +273,7 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Metal Roofing Systems for Borger Industrial Properties
+              What Does Metal Roofing Systems for Borger Industrial Properties Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -319,7 +319,7 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Superior Weather Protection for Borger
+              Superior Weather Protection for Borger?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-slate-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">Extreme Weather Performance</h3>
@@ -373,7 +373,7 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency & Environmental Benefits
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -409,7 +409,7 @@ export default function MetalRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Metal Roofing FAQs - Borger, TX
+              What Does Metal Roofing FAQs - Borger, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

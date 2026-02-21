@@ -115,7 +115,7 @@ export default function ResidentialRoofingDumasPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Dumas's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Dumas a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Dumas and Moore County. We understand Texas Panhandle weather challenges and install roofing systems engineered for extreme conditions including hail storms, high winds, and dramatic temperature swings that characterize the High Plains climate.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Dumas homeowners with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Our team understands the unique roofing needs of Dumas's diverse housing stock, from historic homes in the original townsite to modern developments in expanding neighborhoods.</p>
             
@@ -154,7 +154,7 @@ export default function ResidentialRoofingDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Comprehensive Residential Roofing Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Our Comprehensive Residential Roofing Services Include?</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -219,7 +219,7 @@ export default function ResidentialRoofingDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Dumas Homeowners Choose 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Do Dumas Homeowners Choose 5 Star Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -319,7 +319,7 @@ export default function ResidentialRoofingDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Storm Damage Roofing Services in Dumas</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Storm Damage Roofing Services in Dumas Look Like?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>

@@ -208,7 +208,7 @@ export default function StormDamageRepairAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Storm Damage Repair Specialists
+              What Does Andrews's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Andrews's location in Andrews County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -312,7 +312,7 @@ export default function StormDamageRepairAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Storm Damage Assessment & Repair Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">How Does the Storm Damage Assessment & Repair Process Work?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

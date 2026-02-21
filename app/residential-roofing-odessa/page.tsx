@@ -185,7 +185,7 @@ export default function ResidentialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Odessa's Residential Roofing Specialists
+              What Makes Our Odessa Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Expert residential roofing in Odessa. Class 4 impact-resistant shingles reduce future damage by 90%. Free inspections and insurance claim assistance included.
@@ -198,7 +198,7 @@ export default function ResidentialRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Complete Residential Roofing Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Complete Residential Roofing Services Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">🏠</div>
@@ -261,7 +261,7 @@ export default function ResidentialRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa Neighborhoods We Serve</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa Neighborhoods Do We Serve?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-4">🏘️ Popular Odessa Residential Areas</h3>
@@ -304,7 +304,7 @@ export default function ResidentialRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Residential Roofing Investment in Odessa</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Does Residential Roofing Investment in Odessa Involve?</h2>
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -367,7 +367,7 @@ export default function ResidentialRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa Climate & Roofing Performance</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Odessa Climate & Roofing Performance Involve?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Climate Challenges for Odessa Roofs</h3>

@@ -221,7 +221,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Pampa's Storm Damage Repair Specialists
+              What Does Pampa's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Pampa's position as Gray County's seat exposes properties to severe Panhandle storm systems. From Pampa Regional Medical Center and Recreation Park to agricultural properties throughout the county, storm damage from hail, wind, and debris threatens every building. Properties near downtown Pampa, Harvester Stadium, and Coronado Healthcare Center face 6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural debris impacts—creating comprehensive storm damage needing immediate professional response.
@@ -235,7 +235,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Understanding Pampa's Severe Weather Patterns
+              What Should You Know About Pampa's Severe Weather Patterns?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -263,7 +263,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Seasonal Storm Damage Patterns in Pampa
+              What Are the Seasonal Storm Damage Patterns in Pampa?
             </h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-6 rounded-2xl">
@@ -313,7 +313,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              storm response Protocol for Pampa Properties
+              How Does Our Storm Response Work in Pampa?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
@@ -344,7 +344,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Insurance Claims for Pampa Storm Damage
+              How Do Insurance Claims for Pampa Storm Damage Work?
             </h2>
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-3xl">
               <div className="grid md:grid-cols-2 gap-8">
@@ -505,7 +505,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Storm Damage Assessment Process
+              How Does the Storm Damage Assessment Process Work?
             </h2>
             <div className="bg-white p-8 rounded-3xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-12">

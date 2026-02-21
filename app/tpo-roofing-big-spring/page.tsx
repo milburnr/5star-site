@@ -168,7 +168,7 @@ export default function TPORoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Big Spring's TPO Roofing Specialists
+              What Makes Our Big Spring Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring's location in Howard County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your commercial roofing system must withstand these demanding conditions year after year.
@@ -181,7 +181,7 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Complete TPO Roofing Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Complete TPO Roofing Services Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <div className="text-5xl mb-4">🏢</div>
@@ -244,7 +244,7 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Commercial Market & TPO Benefits</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Commercial Market & TPO Benefits?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-4">🏢 Big Spring Commercial Real Estate Landscape</h3>
@@ -316,7 +316,7 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">TPO Roofing Investment Analysis for Big Spring</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Does TPO Roofing Investment Analysis for Big Spring Include?</h2>
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -391,7 +391,7 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">TPO Performance in Big Spring Climate</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">TPO Performance in Big Spring Climate?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Climate Optimization for Energy Efficiency</h3>

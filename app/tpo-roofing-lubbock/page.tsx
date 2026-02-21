@@ -115,7 +115,7 @@ export default function TPORoofingLubbockPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Lubbock's Premier TPO Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Lubbock a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional TPO roofing throughout Lubbock and the South Plains region. As the Hub City's trusted commercial roofing experts, we understand the unique challenges facing Lubbock's diverse commercial landscape - from the constant West Texas winds and dust storms to severe hailstorms and extreme temperature variations.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Lubbock's thriving business community with expert TPO installations, comprehensive warranties, and outstanding customer service. Our team understands Lubbock's specific building codes, the unique demands of university facilities, agricultural operations, wind energy infrastructure, and the growing technology sector that's transforming the South Plains economy.</p>
             
@@ -134,7 +134,7 @@ export default function TPORoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why TPO Roofing Excels in Lubbock's Climate</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why TPO Roofing Excels in Lubbock's Climate?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">💨 Superior Wind Resistance</h3>
@@ -172,7 +172,7 @@ export default function TPORoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Commercial Sectors We Serve</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Commercial Sectors Do We Serve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Major Industries</h3>
@@ -224,7 +224,7 @@ export default function TPORoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Our Comprehensive TPO Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Comprehensive TPO Installation Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
@@ -262,7 +262,7 @@ export default function TPORoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Weather Challenges & TPO Solutions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Weather Challenges & TPO Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4">🌪️ Constant Wind Exposure</h3>
@@ -362,7 +362,7 @@ export default function TPORoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Service Areas</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Service Areas?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-gold mb-4">Lubbock Metro</h3>

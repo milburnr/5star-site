@@ -115,7 +115,7 @@ export default function ResidentialRoofingPampaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Pampa's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Pampa a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Pampa and Gray County, serving the "Top of Texas" with pride. Located at the crossroads of energy, agriculture, and commerce, Pampa presents unique roofing challenges from its elevated position on the High Plains and proximity to severe weather corridors.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Pampa's 17,300 residents with expert installations designed for Panhandle extremes. Our team understands the diverse housing needs of this historic railroad town, from established neighborhoods near downtown to modern developments supporting the area's oil and gas operations.</p>
             
@@ -156,7 +156,7 @@ export default function ResidentialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Comprehensive Roofing Services for Top of Texas</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Our Comprehensive Roofing Services for Top of Texas Include?</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -221,7 +221,7 @@ export default function ResidentialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Top of Texas Homeowners Choose 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Top of Texas Homeowners Choose 5 Star Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -321,7 +321,7 @@ export default function ResidentialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Severe Weather Response & Preparedness</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Severe Weather Response & Preparedness?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>

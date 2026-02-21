@@ -221,7 +221,7 @@ export default function RoofInspectionsLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's Premier Roof Inspection Specialists
+              What Makes Levelland a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland, Texas, located in Hockley County on the South Plains, experiences some of the most challenging weather conditions in the Southwest. As the county seat and home to South Plains College, Levelland sits at the crossroads of major weather systems that regularly produce severe thunderstorms, damaging hail, and extreme weather events that test every roofing system to its limits.
@@ -238,7 +238,7 @@ export default function RoofInspectionsLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Complete Professional Roof Inspection Services
+              What Does Complete Professional Roof Inspection Services Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
@@ -288,7 +288,7 @@ export default function RoofInspectionsLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              South Plains Storm Damage: What to Look For
+              What Does South Plains Storm Damage: What to Look For Include?
             </h2>
             
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
@@ -360,7 +360,7 @@ export default function RoofInspectionsLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Insurance Claim Documentation & Support
+              How Does the Insurance Claims Process Work in Levelland?
             </h2>
             <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4">📋 Complete Insurance Documentation</h3>
@@ -426,7 +426,7 @@ export default function RoofInspectionsLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              South Plains Weather Patterns & Challenges
+              How Do Weather Extremes Affect Roofing in Levelland?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌪️ Levelland's Severe Weather Environment</h3>

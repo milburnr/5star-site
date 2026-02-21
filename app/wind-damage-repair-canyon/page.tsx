@@ -221,7 +221,7 @@ export default function WindDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Canyon's Wind Damage Repair Specialists
+              How Does Canyon's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon faces extraordinary wind challenges due to Palo Duro Canyon's unique geography. The 800-foot deep canyon creates wind channeling effects that can amplify normal wind speeds by 30-50%, generating unpredictable turbulence patterns. Properties on the canyon rim experience maximum exposure to these channeled winds, while the WTAMU campus and residential areas face complex wind patterns created by the interaction between canyon airflow and High Plains weather systems.
@@ -235,7 +235,7 @@ export default function WindDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Palo Duro Canyon Wind Effects
+              Palo Duro Canyon Wind Effects?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -263,7 +263,7 @@ export default function WindDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind Damage by Location
+              How Does Wind Damage by Location Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
@@ -312,7 +312,7 @@ export default function WindDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Canyon-Specific Wind Solutions
+              Canyon-Specific Wind Solutions?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

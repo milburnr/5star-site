@@ -115,7 +115,7 @@ export default function RoofReplacementPampaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Pampa's Premier Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Makes Pampa a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">As the "Top O' Texas Oil Capital," Pampa presents unique roofing challenges that require specialized expertise. This Gray County seat and major energy hub experiences some of the most severe weather in the Texas Panhandle, combined with industrial conditions that demand superior roofing solutions. Our team understands Pampa's specific environmental factors and provides roof replacement services engineered for long-term performance in this demanding climate.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -147,7 +147,7 @@ export default function RoofReplacementPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Roofing Solutions for Pampa's Energy Industry</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Roofing Solutions for Pampa's Energy Industry Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Residential Energy Worker Housing</h3>
@@ -220,7 +220,7 @@ export default function RoofReplacementPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Understanding Panhandle Weather Impact</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Should You Know About Panhandle Weather Impact?</h2>
             <div className="bg-red-50 p-8 rounded-xl border border-red-200">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">Pampa's location in the heart of the Texas Panhandle places it directly in the path of some of North America's most severe weather systems. The city's position in "Hail Alley" and "Tornado Alley" creates unique challenges that require specialized roofing approaches.</p>
               
@@ -257,7 +257,7 @@ export default function RoofReplacementPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">The Pampa Roof Replacement Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the The Pampa Roof Replacement Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Engineered for Excellence</h3>
@@ -338,7 +338,7 @@ export default function RoofReplacementPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Pampa's Energy Sector Roofing Needs</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Pampa's Energy Sector Roofing Needs Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-blue-800">Celanese Industrial Complex</h3>

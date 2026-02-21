@@ -115,7 +115,7 @@ export default function CommercialRoofingPerrytonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Perryton's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Perryton Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Perryton and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">Since 2014, we've served Perryton with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
 
@@ -136,7 +136,7 @@ export default function CommercialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Commercial Roofing Solutions for Perryton Industries</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Solutions for Perryton Industries Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Facilities</h3>
@@ -176,7 +176,7 @@ export default function CommercialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Weather Resilience for Texas Panhandle Conditions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Weather Extremes Affect Roofing in Perryton?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Perryton's position in the Texas Panhandle exposes commercial properties to severe weather events requiring specialized roofing systems designed for extreme conditions.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -209,7 +209,7 @@ export default function CommercialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Energy Efficiency Solutions for Perryton Businesses</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Reduce operating costs and improve building performance with advanced commercial roofing technologies designed for Texas climate challenges.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -242,7 +242,7 @@ export default function CommercialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Project Management and Installation Excellence</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Project Management and Installation Excellence Involve?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Our comprehensive project management approach ensures successful commercial roofing installations with minimal disruption to Perryton business operations.</p>
               <div className="grid md:grid-cols-3 gap-6">
@@ -304,7 +304,7 @@ export default function CommercialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Environmental Compliance</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Environmental Compliance?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Comprehensive safety protocols and environmental compliance standards ensure responsible commercial roofing operations in Perryton.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -336,7 +336,7 @@ export default function CommercialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Perryton Commercial Project</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Perryton Commercial Project?</h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">

@@ -108,7 +108,7 @@ export default function RoofRepairLubbockPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Lubbock Roofs Face Unique Challenges</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Lubbock Roofs Face Unique Challenges?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Lubbock's position in the heart of the South Plains creates distinct roofing challenges. With a median home construction year of 1983, the city's housing stock includes many 1980s-1990s developments that are reaching the typical roof replacement age, compounded by severe environmental stressors.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">The flat South Plains landscape offers no natural wind protection, subjecting roofs to consistent stress from prevailing winds. Notorious dust storms (haboobs) can reduce visibility to near zero and sandblast exposed surfaces with fine particulates, accelerating material degradation. Spring supercells sweep through with wind gusts of 60-77 mph, forcing rain beneath flashing and lifting shingle tabs.</p>
             
@@ -137,7 +137,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Lubbock Neighborhoods We Serve</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Lubbock Neighborhoods Do We Serve?</h2>
             <p className="text-lg text-gray-600 mb-8">Each Lubbock neighborhood presents unique roofing challenges based on construction era, proximity to Texas Tech, and exposure to South Plains weather patterns.</p>
             
             <div className="grid lg:grid-cols-3 gap-6">
@@ -177,7 +177,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Our South Plains-Specific Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the South Plains-Specific Repair Process Work?</h2>
             <div className="grid lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
                 <div className="text-4xl mb-4">🔬</div>
@@ -205,7 +205,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-gray-50 to-white p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Common Lubbock Roof Repairs</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Are the Most Common Lubbock Roof Repairs?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Environmental Damage</h3>
@@ -231,7 +231,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Lubbock Roofing Investment Guide</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">What Does Lubbock Roofing Investment Guide Involve?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">Lubbock's roofing costs reflect both university town dynamics and South Plains environmental challenges. Prices average 5-10% higher than smaller regional cities due to labor demand and material requirements.</p>
               
@@ -300,7 +300,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">South Plains Environmental Mitigation</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Do You Mitigate Environmental Roof Damage?</h2>
             <p className="text-lg text-gray-700 mb-8">Specialized techniques for protecting roofs from the unique environmental challenges of the Lubbock region.</p>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
@@ -375,7 +375,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">University District Maintenance Strategies</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Does University District Maintenance Strategies Include?</h2>
             <p className="text-lg text-gray-700 mb-8">Specialized approaches for the unique challenges of properties near Texas Tech University campus.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -428,7 +428,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Lubbock Material Selection Guide</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Do You Choose the Right Roofing Material in Lubbock?</h2>
             <p className="text-lg text-gray-700 mb-8">Optimized material choices for South Plains environmental conditions and university district requirements.</p>
             
             <div className="space-y-6">
@@ -488,7 +488,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Comprehensive Repair Process for South Plains</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does Our Comprehensive Repair Process for South Plains Work?</h2>
             <p className="text-lg text-gray-700 mb-8 text-center">Our specialized methodology for addressing Lubbock's unique environmental challenges.</p>
             
             <div className="space-y-6">
@@ -574,7 +574,7 @@ export default function RoofRepairLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Insurance Claims for Environmental Damage</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Do Insurance Claims for Environmental Damage Work?</h2>
             <p className="text-lg text-gray-700 mb-8">Specialized expertise in documenting environmental damage unique to the South Plains region for insurance purposes.</p>
             
             <div className="grid md:grid-cols-2 gap-8">

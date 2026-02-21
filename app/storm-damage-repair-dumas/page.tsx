@@ -220,7 +220,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Dumas's Storm Damage Repair Specialists
+              What Does Dumas's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas, the Moore County seat, faces extreme Panhandle weather as a major agricultural and industrial center. This northern Panhandle location experiences some of Texas's most severe storm conditions, with supercells tracking directly across the flat terrain from New Mexico. Properties from Moore County Airport to downtown Dumas and agricultural facilities throughout the county face 6-8 annual hailstorms with golf ball-sized hail and sustained winds exceeding 70 mph.
@@ -234,7 +234,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Dumas's Agricultural Storm Challenges
+              What Dumas's Agricultural Storm Challenges?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -262,7 +262,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Agricultural Building Storm Response
+              What Agricultural Building Storm Response?
             </h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
@@ -308,7 +308,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Moore County Weather Patterns & Storm Preparedness
+              How Do Weather Extremes Affect Roofing in Dumas?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

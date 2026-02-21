@@ -220,7 +220,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Perryton's Asphalt Shingle Roofing Specialists
+              What Makes Our Perryton Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat country agricultural community. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with severe Panhandle hailstorms—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Grain Community Residential Roofing for Perryton Families
+              What Does Grain Community Residential Roofing for Perryton Families Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -273,7 +273,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Agricultural Environment Roofing Solutions
+              What Agricultural Environment Roofing Solutions?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -319,7 +319,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Community-Focused Service for Perryton Families
+              Community-Focused Service for Perryton Families?
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -355,7 +355,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Long-Term Investment Protection
+              Long-Term Investment Protection?
             </h2>
             <div className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">Generational Roofing Solutions</h3>
@@ -388,7 +388,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Asphalt Shingle Roofing FAQs - Perryton, TX
+              What Does Asphalt Shingle Roofing FAQs - Perryton, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

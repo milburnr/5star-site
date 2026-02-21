@@ -168,7 +168,7 @@ export default function MetalRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Metal Roofing Specialists
+              What Makes Our Andrews Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Andrews's location in Andrews County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds reaching 70+ mph, extreme temperature fluctuations from below freezing to over 100°F, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -182,7 +182,7 @@ export default function MetalRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Superior Wind and Hail Resistance for Andrews Climate
+              Superior Wind and Hail Resistance for Andrews Climate?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
@@ -232,7 +232,7 @@ export default function MetalRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Premium Metal Roofing Materials for Andrews Properties
+              What Does Premium Metal Roofing Materials for Andrews Properties Involve?
             </h2>
             
             <div className="space-y-8">
@@ -329,7 +329,7 @@ export default function MetalRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Expert Installation Process for Maximum Durability
+              What Does Expert Installation Process for Maximum Durability Involve?
             </h2>
             
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl mb-8">
@@ -398,7 +398,7 @@ export default function MetalRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency & Cost Savings
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
@@ -471,7 +471,7 @@ export default function MetalRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Maintenance & Longevity
+              What Does Maintenance & Longevity Involve?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg">

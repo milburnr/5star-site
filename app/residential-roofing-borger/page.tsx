@@ -115,7 +115,7 @@ export default function ResidentialRoofingBorgerPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Borger's Industrial Community Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Borger Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Borger stands as Hutchinson County's industrial powerhouse, home to petrochemical facilities and energy workers who depend on reliable residential protection. Our roofing services understand the unique needs of this hardworking community in the northern Texas Panhandle.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Located just 40 miles northeast of Amarillo, Borger faces the full force of northern plains weather systems. From violent spring tornadoes to devastating hailstorms and arctic winter blasts, Borger homes require roofing systems engineered for extremes. The proximity to Canadian River bottoms creates unique microclimate challenges that demand local expertise.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've protected Borger families through every weather challenge the northern Panhandle can deliver. Our team understands shift work schedules, industrial housing needs, and the rapid response requirements when severe weather threatens this vital Texas community.</p>
@@ -124,7 +124,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-slate-50 to-gray-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Northern Panhandle Weather Extremes</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Weather Extremes Affect Roofing in Borger?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Tornado Alley Position</h3>
@@ -176,7 +176,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Industrial Community-Focused Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Industrial Community-Focused Services?</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border border-blue-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Shift Worker Accommodation</h3>
@@ -215,7 +215,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Borger-Specific Installation Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Borger-Specific Installation Expertise Do We Offer in Borger?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
@@ -247,7 +247,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Northern Panhandle Material Selection</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do You Choose the Right Roofing Material in Borger?</h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
@@ -347,7 +347,7 @@ export default function ResidentialRoofingBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & prompt services for Borger</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & prompt services for Borger?</h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-8 rounded-xl shadow-md">

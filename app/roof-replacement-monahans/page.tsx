@@ -115,7 +115,7 @@ export default function RoofReplacementMonahansPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Monahans Desert Climate Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">How Does the Desert Climate Affect Your Roof?</h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">Located in the heart of West Texas, Monahans presents unique roofing challenges that require specialized expertise. As the county seat of Ward County and home to the famous Monahans Sandhills State Park, this oil and gas industry hub experiences some of the most demanding desert climate conditions in Texas. Our team understands the specific environmental factors affecting Monahans roofs and provides solutions engineered for long-term performance.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -147,7 +147,7 @@ export default function RoofReplacementMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Monahans Roofing Materials That Perform</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Monahans Roofing Materials That Perform Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Impact-Resistant Asphalt Shingles</h3>
@@ -221,7 +221,7 @@ export default function RoofReplacementMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">The Monahans Roof Replacement Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the The Monahans Roof Replacement Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Step-by-Step Excellence</h3>
@@ -302,7 +302,7 @@ export default function RoofReplacementMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Understanding Monahans Weather Impact</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Should You Know About Monahans Weather Impact?</h2>
             <div className="bg-amber-50 p-8 rounded-xl">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">Monahans' location in the Permian Basin creates a unique microclimate that significantly impacts roofing systems. Understanding these local conditions is crucial for proper material selection and installation techniques.</p>
               
@@ -371,7 +371,7 @@ export default function RoofReplacementMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Emergency Roof Replacement in Monahans</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does Emergency Roof Replacement in Monahans Work?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-red-50 p-8 rounded-xl border border-red-200">
                 <h3 className="text-2xl font-bold mb-4 text-red-800">When You Need Emergency Replacement</h3>

@@ -112,7 +112,7 @@ export default function RoofRepairOdessaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Odessa's Premier Roof Repair Service</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Odessa's Premier Roof Repair Service Involve?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof repair specialists serving Odessa's unique environmental challenges. From storm damage restoration to industrial contamination remediation, we understand how the petroleum industry, desert climate, and West Texas weather create specific repair requirements not found elsewhere.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">Since 2014, we've completed thousands of repairs across Odessa, from historic downtown buildings affected by decades of refinery emissions to modern subdivisions dealing with escarpment wind damage. Our repair techniques address both immediate damage and long-term protection against Odessa's harsh environmental conditions.</p>
             <p className="text-lg text-gray-600 leading-relaxed">We specialize in storm repairs during industrial incidents, scheduled maintenance during refinery shutdowns, and comprehensive restoration projects that address both weather damage and industrial contamination impacts. All repairs include warranties specifically designed for Odessa's challenging environment.</p>
@@ -121,7 +121,7 @@ export default function RoofRepairOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Comprehensive Roof Repair Services for Odessa</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Our Comprehensive Roof Repair Services for Odessa Include?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Storm Damage Restoration</h3>
@@ -168,7 +168,7 @@ export default function RoofRepairOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Odessa-Specific Repair Techniques and Materials</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Odessa-Specific Repair Techniques and Materials Involve?</h2>
             <div className="bg-blue-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Industrial Environment Adaptations</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -207,7 +207,7 @@ export default function RoofRepairOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Repair Process and Project Management</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Repair Process and Project Management Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">📋 Phase 1: Assessment and Planning</h3>
@@ -281,7 +281,7 @@ export default function RoofRepairOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Common Repair Scenarios in Odessa</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Most Common Repair Scenarios in Odessa?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <div className="text-5xl mb-4 text-center">⛈️</div>
@@ -322,7 +322,7 @@ export default function RoofRepairOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Odessa Property Owners Choose Our Repair Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Odessa Property Owners Choose Our Repair Services?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏆 Local Expertise and Experience</h3>
@@ -366,7 +366,7 @@ export default function RoofRepairOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Repair Cost Guide for Odessa Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Repair Cost Guide for Odessa Properties Involve?</h2>
             <div className="bg-gray-50 p-8 rounded-2xl">
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">

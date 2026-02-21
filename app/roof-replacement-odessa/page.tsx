@@ -185,7 +185,7 @@ export default function RoofReplacementOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Odessa's Premier Roof Replacement Specialists
+              What Makes Odessa a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Complete roof replacement services for Odessa homes and businesses, featuring Class 4 impact-resistant roofing systems with comprehensive 50-year warranties. Located in the heart of the Permian Basin, Odessa presents unique roofing challenges that require specialized expertise and premium materials designed for extreme West Texas conditions.
@@ -231,7 +231,7 @@ export default function RoofReplacementOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Premium Materials for Odessa's Extreme Climate
+              What Are Premium Materials for Odessa's Extreme Climate?
             </h2>
 
             <h3 className="text-2xl font-bold mt-8 mb-4">Class 4 Impact-Resistant Shingles</h3>
@@ -281,7 +281,7 @@ export default function RoofReplacementOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Complete Roof Replacement Process for Odessa Properties
+              What Does Complete Roof Replacement Process for Odessa Properties Involve?
             </h2>
 
             <h3 className="text-2xl font-bold mt-8 mb-4">Initial Assessment and Planning</h3>

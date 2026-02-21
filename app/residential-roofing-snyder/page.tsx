@@ -115,7 +115,7 @@ export default function ResidentialRoofingSnyderPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Snyder's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Snyder a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Snyder and Scurry County, serving West Central Texas with expertise in rolling plains weather patterns. Located between the Panhandle and Hill Country, Snyder presents unique roofing challenges from diverse terrain, oil field operations, and the transition zone between different Texas climate regions.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Snyder's 10,800 residents with expert installations designed for the Rolling Plains environment. Our team understands the specific needs of this historic oil and agricultural community, from established neighborhoods to modern developments supporting the energy sector.</p>
             
@@ -156,7 +156,7 @@ export default function ResidentialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Rolling Plains Roofing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Rolling Plains Roofing Solutions Involve?</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -221,7 +221,7 @@ export default function ResidentialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Snyder Residents Choose 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Do Snyder Residents Choose 5 Star Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>

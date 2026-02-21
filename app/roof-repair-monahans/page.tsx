@@ -232,7 +232,7 @@ export default function RoofRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Monahans's Premier Roof Repair Specialists  
+              What Makes Monahans a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Monahans, Texas, positioned at 2,613 feet elevation in Ward County's oil-rich Permian Basin, faces devastating weather patterns that challenge even the most robust roofing systems. This desert community experiences 6-8 severe hailstorms annually, with spring supercells producing hail up to tennis ball-size. Combined with sustained desert winds reaching 75+ mph, temperature extremes from -5°F to 115°F, and relentless UV radiation, Monahans properties require specialized expertise.
@@ -360,7 +360,7 @@ export default function RoofRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Desert Climate Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does the Comprehensive Desert Climate Repair Process Work?</h2>
             <p className="text-lg text-gray-700 mb-8">Our specialized methodology addresses the unique intersection of desert conditions and oil industry requirements in the Monahans area.</p>
             
             <div className="grid lg:grid-cols-3 gap-6 mb-8">
@@ -463,7 +463,7 @@ export default function RoofRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-yellow-50 to-orange-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Ward County Area Coverage</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Areas Do We Cover Near Monahans?</h2>
             <p className="text-lg text-gray-700 mb-8">Comprehensive roofing services throughout Ward County's diverse residential, commercial, and industrial zones.</p>
             
             <div className="grid lg:grid-cols-4 gap-6">
@@ -513,7 +513,7 @@ export default function RoofRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Permian Basin Material Specifications</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Roofing Material Specifications Matter in Monahans?</h2>
             <p className="text-lg text-gray-700 mb-8">Advanced material systems engineered to withstand the unique combination of desert climate and oil industry environmental challenges.</p>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -577,7 +577,7 @@ export default function RoofRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Energy Efficiency in Desert Climate</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <p className="text-lg text-gray-700 mb-8">Maximizing energy performance while minimizing environmental impact in extreme desert conditions.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -654,7 +654,7 @@ export default function RoofRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Ward County Roofing Investment Guide</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">What Does Ward County Roofing Investment Guide Involve?</h2>
             <p className="text-lg text-gray-700 mb-8 text-center">Understanding repair costs in the context of Permian Basin market conditions and desert climate requirements.</p>
             
             <div className="grid lg:grid-cols-3 gap-8 mb-8">
@@ -789,7 +789,7 @@ export default function RoofRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Specialized Services</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">What Specialized Roofing Services Are Available in Monahans?</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Desert Storm Repair</h3>

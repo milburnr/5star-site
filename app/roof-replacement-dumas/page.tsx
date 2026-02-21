@@ -115,7 +115,7 @@ export default function RoofReplacementDumasPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Dumas's Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Dumas Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof replacement throughout Dumas and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings that define this thriving Panhandle community.</p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">Since 2014, we've served Dumas's 14,834 residents with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation for this rapidly growing agricultural and energy center.</p>
 
@@ -162,7 +162,7 @@ export default function RoofReplacementDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Dumas Family-Focused Roof Replacement Guide 2025</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Dumas Family-Focused Roof Replacement Guide 2025 Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Value-driven roofing solutions for Dumas families balancing protection, durability, and affordability in a growing community.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -223,7 +223,7 @@ export default function RoofReplacementDumasPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Roofing Materials for Dumas Families and Climate</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Roofing Materials for Dumas Families and Climate Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Practical material choices designed for family homes in the Texas Panhandle's challenging agricultural environment.</p>
 
             <div className="space-y-8">
@@ -319,7 +319,7 @@ export default function RoofReplacementDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-violet-50 to-purple-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-violet-800 text-center">Dumas Community Focus: Growing Together with Quality</h2>
+            <h2 className="text-4xl font-bold mb-8 text-violet-800 text-center">What Is the Dumas Community Focus?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-violet-700 mb-4">Supporting Community Growth</h3>

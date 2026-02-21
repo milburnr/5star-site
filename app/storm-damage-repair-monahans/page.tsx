@@ -208,7 +208,7 @@ export default function StormDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Monahans's Storm Damage Repair Specialists
+              What Does Monahans's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Monahans's location in Ward County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -336,7 +336,7 @@ export default function StormDamageRepairMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Permian Basin Storm Damage Solutions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Does Permian Basin Storm Damage Solutions Look Like?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

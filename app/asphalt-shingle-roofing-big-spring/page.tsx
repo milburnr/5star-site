@@ -168,7 +168,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Big Spring's Premier Residential Asphalt Shingle Specialists
+              What Makes Big Spring a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring, Texas, positioned strategically along Interstate 20 in Howard County, faces some of West Texas's most challenging weather patterns. With an elevation of 2,398 feet and exposure to high-plains wind patterns, Big Spring experiences 7-9 major hailstorms annually with stones reaching tennis ball size. Summer temperatures regularly exceed 100°F while winter lows can drop to 20°F, creating thermal stress that tests every roofing component. Annual precipitation of only 19 inches means intense, sporadic storms that dump massive amounts of water in short periods.
@@ -258,7 +258,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Big Spring Installation Excellence</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Big Spring Installation Excellence Involve?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-blue-50 to-white p-6 rounded-2xl">
@@ -298,7 +298,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Insurance & Financing Solutions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Do Financing and Insurance Work in Big Spring?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

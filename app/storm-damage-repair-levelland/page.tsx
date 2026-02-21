@@ -208,7 +208,7 @@ export default function StormDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's Storm Damage Repair Specialists
+              What Does Levelland's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland's location in Hockley County creates unique roofing challenges. The South Plains experiences 7-10 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -324,7 +324,7 @@ export default function StormDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">South Plains Storm Damage Restoration</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Does South Plains Storm Damage Restoration Look Like?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

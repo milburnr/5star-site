@@ -108,7 +108,7 @@ export default function RoofRepairMidlandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Midland Roofs Need Specialized Desert Care</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Midland Roofs Need Specialized Desert Care?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Midland's position as the Permian Basin's economic hub creates unique roofing challenges. With a median home construction year of 1986, many properties were built during oil boom periods when rapid development sometimes prioritized speed over long-term durability in desert conditions.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">The hot semi-arid climate delivers intense thermal stress with summer temperatures exceeding 110°F and over 300 days of sun annually. This creates rapid expansion and contraction cycles that stress materials, accelerated UV degradation that makes shingles brittle, and extreme heat that can cause premature failure of roofing components not rated for desert conditions.</p>
             
@@ -137,7 +137,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Midland Neighborhoods We Serve</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Midland Neighborhoods Do We Serve?</h2>
             <p className="text-lg text-gray-600 mb-8">Each Midland neighborhood reflects different oil boom periods, with distinct roofing challenges based on construction era, material quality, and exposure to desert conditions.</p>
             
             <div className="grid lg:grid-cols-3 gap-6">
@@ -177,7 +177,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Our Desert Climate-Specific Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the Desert Climate-Specific Repair Process Work?</h2>
             <div className="grid lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
                 <div className="text-4xl mb-4">🌡️</div>
@@ -205,7 +205,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-gray-50 to-white p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Common Midland Roof Repairs</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Are the Most Common Midland Roof Repairs?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Desert Climate Damage</h3>
@@ -231,7 +231,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Midland Oil Economy Roofing Costs</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">What Does Midland Oil Economy Roofing Costs Involve?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">Midland's roofing costs fluctuate with oil prices and local economic conditions. During boom periods, increased demand and higher wages drive prices above regional averages. Desert-rated materials also command premium pricing.</p>
               
@@ -300,7 +300,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Desert Climate Roof Protection Systems</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Do You Protect Roofs in Desert Climates?</h2>
             <p className="text-lg text-gray-700 mb-8">Specialized techniques for combating the intense thermal stress and UV exposure unique to the Permian Basin region.</p>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
@@ -393,7 +393,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Oil Industry Housing Specialization</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does the Energy Industry Affect Roofing in Midland?</h2>
             <p className="text-lg text-gray-700 mb-8">Understanding the unique challenges of Midland's oil boom and bust cycles on residential construction and maintenance standards.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -468,7 +468,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-blue-50 to-gray-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive Desert Climate Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does the Comprehensive Desert Climate Repair Process Work?</h2>
             <p className="text-lg text-gray-700 mb-8">Our specialized methodology addresses the unique challenges of extreme desert conditions in the Permian Basin.</p>
             
             <div className="space-y-6">
@@ -571,7 +571,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Oil Boom vs Bust Cycle Roofing Strategy</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">What Does Oil Boom vs Bust Cycle Roofing Strategy Involve?</h2>
             <p className="text-lg text-gray-700 mb-8 text-center">Strategic timing and planning considerations for roofing projects based on Midland's economic cycles.</p>
             
             <div className="grid lg:grid-cols-2 gap-8">
@@ -645,7 +645,7 @@ export default function RoofRepairMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Energy Efficiency & Cost Savings</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <p className="text-lg text-gray-700 mb-8">Desert climate roofing improvements that deliver immediate and long-term energy savings for Midland homeowners.</p>
             
             <div className="grid md:grid-cols-2 gap-8">

@@ -115,7 +115,7 @@ export default function MetalRoofingAmarilloPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Amarillo's Metal Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Amarillo Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional metal roofing throughout Amarillo and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Amarillo with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
           </section>
@@ -125,7 +125,7 @@ export default function MetalRoofingAmarilloPage() {
           <section className="mb-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6 text-brand-brown">Unmatched Durability for Amarillo Weather</h2>
+                <h2 className="text-3xl font-bold mb-6 text-brand-brown">Unmatched Durability for Amarillo Weather?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">Amarillo's extreme weather conditions demand roofing systems engineered for durability. Our metal roofing installations feature premium materials and fastening systems designed to withstand the unique challenges of the Texas Panhandle.</p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">With temperature swings from below freezing to over 100°F, Amarillo tests roofing materials like few other climates. Metal roofing's thermal expansion and contraction properties, combined with our expert installation techniques, ensure long-term performance without cracking or deterioration.</p>
                 <div className="bg-brand-gold-light p-6 rounded-xl">
@@ -161,7 +161,7 @@ export default function MetalRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Superior Wind Resistance for Amarillo</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Superior Wind Resistance for Amarillo?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Amarillo experiences some of Texas's strongest winds, with regular gusts over 50 mph and storm winds exceeding 100 mph. Our metal roofing systems are engineered to exceed these challenges.</p>
               <div className="grid md:grid-cols-3 gap-8 mb-8">
@@ -210,7 +210,7 @@ export default function MetalRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Energy Efficiency & Cost Savings</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <p className="text-lg text-gray-700 mb-6">Metal roofing offers significant energy savings in Amarillo's climate. Reflective coatings reduce cooling costs by up to 25%, while proper insulation systems maintain comfortable temperatures year-round.</p>
@@ -265,7 +265,7 @@ export default function MetalRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Our Amarillo Installation Process</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center">How Does the Amarillo Installation Process Work?</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="bg-white text-brand-brown w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
@@ -294,7 +294,7 @@ export default function MetalRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Amarillo Homeowners Choose Metal Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Do Amarillo Homeowners Choose Metal Roofing?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -334,7 +334,7 @@ export default function MetalRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Amarillo-Specific Roofing Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Amarillo-Specific Roofing Challenges Involve?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Amarillo's unique geography and climate present specific challenges that our metal roofing solutions address head-on.</p>
               <div className="grid lg:grid-cols-2 gap-12">
@@ -381,7 +381,7 @@ export default function MetalRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & Warranty Benefits</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & Warranty Benefits?</h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-6 rounded-xl shadow-sm">
@@ -413,7 +413,7 @@ export default function MetalRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Local Building Codes & Permits</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Permitting and Code Requirements Apply in Amarillo?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 mb-6 text-center">We handle all permit requirements and ensure your metal roofing installation meets Amarillo building codes and HOA guidelines.</p>
               <div className="grid md:grid-cols-3 gap-6">

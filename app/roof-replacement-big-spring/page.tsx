@@ -115,7 +115,7 @@ export default function RoofReplacementBigSpringPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Big Spring's Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Big Spring Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof replacement throughout Big Spring and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings that define West Texas living.</p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">Since 2014, we've served Big Spring's 22,541 residents with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation for this historic West Texas community.</p>
 
@@ -162,7 +162,7 @@ export default function RoofReplacementBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Big Spring Roof Replacement Investment Guide 2025</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Big Spring Roof Replacement Investment Guide 2025 Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Comprehensive pricing analysis for Big Spring's diverse housing stock, from historic railroad homes to modern construction.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -223,7 +223,7 @@ export default function RoofReplacementBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Roofing Materials Optimized for Big Spring Climate</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Roofing Materials Optimized for Big Spring Climate Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Material selection for Big Spring must account for severe weather patterns, historic home compatibility, and long-term value retention.</p>
 
             <div className="space-y-8">
@@ -319,7 +319,7 @@ export default function RoofReplacementBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-rose-800 text-center">The Big Spring Advantage: Historic Character Meets Modern Protection</h2>
+            <h2 className="text-4xl font-bold mb-8 text-rose-800 text-center">What Is The Big Spring Advantage?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-rose-700 mb-4">Preserving Architectural Heritage</h3>

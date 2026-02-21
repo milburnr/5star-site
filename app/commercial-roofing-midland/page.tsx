@@ -234,7 +234,7 @@ export default function CommercialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Midland's Commercial Roofing Specialists
+              What Makes Our Midland Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               As the undisputed capital of the Permian Basin, Midland houses more energy company headquarters than any other West Texas city. From downtown's impressive skyline featuring over 3.3 million square feet of office space to sprawling oil field industrial complexes, commercial buildings in the "Tall City" demand specialized roofing expertise engineered for both prestigious corporate facilities and harsh petroleum industry operations.
@@ -251,7 +251,7 @@ export default function CommercialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Commercial Roofing Systems for Midland's Energy Industry
+              What Does Commercial Roofing Systems for Midland's Energy Industry Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
@@ -302,7 +302,7 @@ export default function CommercialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Commercial Districts & Energy Facilities in Midland
+              What Commercial Areas Do We Serve in Midland?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We provide specialized commercial roofing throughout Midland's energy-focused business districts and industrial zones, each requiring unique expertise for oil industry operations:
@@ -355,7 +355,7 @@ export default function CommercialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding Midland Building Codes & Energy Industry Requirements
+              What Should You Know About Midland Building Codes & Energy Industry Requirements?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -396,7 +396,7 @@ export default function CommercialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Midland's Permian Basin Climate Demands Specialized Roofing
+              Why Midland's Permian Basin Climate Demands Specialized Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Midland's location in the heart of the Permian Basin creates unique challenges for commercial roofing. Energy industry facilities face not only extreme weather but also specialized operational demands that require engineered roofing solutions:
@@ -441,7 +441,7 @@ export default function CommercialRoofingMidlandPage() {
             <div className="flex gap-6 items-center">
               <div className="text-6xl">🚨</div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Commercial Roofing</h2>
+                <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Storm damage threatening your oil company operations or energy facilities? We provide prompt response for Midland's energy industry. Critical petroleum operations, corporate headquarters, and industrial facilities cannot afford downtime. tarping, temporary repairs, and rapid leak mitigation protect operations and equipment.
                 </p>

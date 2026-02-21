@@ -110,7 +110,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Why Amarillo Needs Specialized Asphalt Shingle Solutions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Why Does Amarillo Need Specialized Asphalt Shingle Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Texas Panhandle Weather Challenges</h3>
@@ -140,7 +140,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Options for Amarillo Homes</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Options for Amarillo Homes?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -218,7 +218,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Amarillo Climate Considerations</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Amarillo Climate Considerations?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div>
@@ -296,7 +296,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Installation Process for Amarillo Conditions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Does Installation Process for Amarillo Conditions Involve?</h2>
             
             <div className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8">
@@ -368,7 +368,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Warranty Protection for Amarillo Weather</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Warranty and Protection Plans Are Available?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>

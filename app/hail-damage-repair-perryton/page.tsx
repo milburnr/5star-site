@@ -115,7 +115,7 @@ export default function HailDamageRepairPerrytonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Perryton Needs Expert Hail Damage Repair</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Perryton Need Expert Hail Damage Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Perryton, with a 2020 population of 8,492 (currently estimated at 8,219), serves as the county seat of Ochiltree County in the northern Texas Panhandle near the Oklahoma border. Known as the "Wheat Capital of the World," this agricultural community sits approximately 89 miles from Amarillo, making it one of our most northern service areas in the Texas Panhandle.
             </p>
@@ -133,7 +133,7 @@ export default function HailDamageRepairPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-red-50 to-yellow-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">June 15, 2023: Perryton's Devastating Tornado</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are June 15, 2023: Perryton's Devastating Tornado?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Catastrophic Storm Impact</h3>
@@ -177,7 +177,7 @@ export default function HailDamageRepairPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Post-Tornado Reconstruction Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Post-Tornado Reconstruction Expertise?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
                 <div className="text-4xl mb-4">🏚️</div>
@@ -221,7 +221,7 @@ export default function HailDamageRepairPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ochiltree County Severe Weather Preparedness</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ochiltree County Severe Weather Preparedness?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Texas Panhandle Storm Corridor</h3>
@@ -273,7 +273,7 @@ export default function HailDamageRepairPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Agricultural & Residential Roofing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Agricultural & Residential Roofing Solutions?</h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <h3 className="text-2xl font-semibold mb-6 text-gray-800">Wheat Capital Infrastructure Protection</h3>
@@ -332,7 +332,7 @@ export default function HailDamageRepairPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Tornado Recovery Insurance Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Tornado Recovery Insurance Expertise?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Catastrophic Loss Management</h3>

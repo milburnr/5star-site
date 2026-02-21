@@ -221,7 +221,7 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Pampa's Wind Damage Repair Specialists
+              How Does Pampa's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Pampa's location in Gray County's open agricultural landscape creates extreme wind exposure. High Plains winds regularly exceed 60 mph with gusts to 80+ mph, damaging roofs from Recreation Park and Pampa Regional Medical Center to ranching properties throughout the county. Properties near downtown Pampa, Harvester Stadium, and Coronado Healthcare Center face constant wind pressure with minimal windbreaks—creating uplift damage, missing shingles, and structural stress requiring specialized High Plains wind damage repair.
@@ -235,7 +235,7 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Wind Damage Challenges in Pampa's Oil and Ranch Economy
+              How Does Wind Damage Challenges in Pampa's Oil and Ranch Economy Affect Your Roof?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Pampa's economy combines active oil and gas production with extensive cattle ranching operations across Gray County's 928 square miles of High Plains territory. This dual economy creates unique wind damage challenges as oil field operations and ranch facilities require specialized roofing systems that withstand both extreme weather and industry-specific environmental conditions.
@@ -263,7 +263,7 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Specialized Wind Damage Response for Oil and Gas Facilities
+              How Does Specialized Wind Damage Response for Oil and Gas Facilities Work?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Wind damage to oil and gas facilities in Gray County requires immediate specialized response due to safety and environmental concerns. Damaged roofing on compressor stations, storage tank facilities, and processing units can expose sensitive equipment to weather while creating potential safety hazards from compromised structural integrity around high-pressure operations.
@@ -291,7 +291,7 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Commercial Wind Damage Response in Pampa's Business District
+              How Does Commercial Wind Damage Response in Pampa's Business District Work?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Pampa's commercial district along Highway 60 and around the historic downtown area includes businesses serving both the oil industry and ranching community. Hotels, restaurants, and retail establishments experience significant wind damage during severe weather events, often requiring storm repairs to maintain operations for traveling oil field workers and local residents.
@@ -319,7 +319,7 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Enhanced Wind-Resistant Solutions for High Plains Conditions
+              Enhanced Wind-Resistant Solutions for High Plains Conditions?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Gray County's extreme wind environment demands roofing solutions that exceed standard Texas building code requirements. Sustained winds of 50-60 mph with gusts over 80 mph create uplift forces that quickly overwhelm standard residential and light commercial roofing systems not specifically designed for High Plains conditions.
@@ -347,7 +347,7 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Community storm response and Regional Coordination
+              How Does Our Storm Response Work in Pampa?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Wind damage emergencies in Gray County require coordination with multiple agencies including county emergency management, volunteer fire departments, and mutual aid partners from surrounding counties. The area's rural nature and dispersed population create challenges for rapid storm response that require advance planning and resource positioning.

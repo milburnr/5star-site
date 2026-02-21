@@ -142,7 +142,7 @@ export default function HailDamageRepairPampaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Pampa Properties Need Expert Hail Damage Repair</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Pampa Properties Need Expert Hail Damage Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Pampa, named from the Quechua word for "plain," lives up to its name—sitting at 3,238 feet elevation on the flat expanses of the Texas Panhandle. With a 2020 population of 16,867 (currently estimated at 16,400), Pampa serves as the county seat of Gray County and the economic hub for the surrounding region. This northern Panhandle location puts Pampa directly in the path of severe weather systems moving across the Great Plains.
             </p>
@@ -304,7 +304,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Gray County Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Gray County Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-red-600 mb-2">8-12</div>
@@ -332,7 +332,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Pampa's Location in the Texas Hail Belt</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Pampa's Location in the Texas Hail Belt?</h2>
             <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Pampa sits in a particularly active zone of Texas's "Hail Belt," where Gray County's position at 3,238 feet elevation creates ideal conditions for severe thunderstorm development. The northern Panhandle location places Pampa at the convergence of multiple storm tracks, including the notorious "Dryline" where dry desert air from the west meets moist Gulf air from the southeast.
@@ -393,7 +393,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Gray County Insurance Claims: Local Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Pampa?</h2>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div>
@@ -457,7 +457,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Pampa Hail Damage Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Pampa Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔍</div>
@@ -495,7 +495,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-6">Class 4 Shingles: Essential for Pampa</h2>
+            <h2 className="text-3xl font-bold mb-6">What Is the Class 4 Shingles?</h2>
             <p className="text-lg mb-6 leading-relaxed">
               For Pampa properties facing Gray County's severe weather, Class 4 impact-resistant shingles provide superior protection against the large hail common to northern Panhandle storms.
             </p>
@@ -562,7 +562,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Gray County Storm Patterns & Risk Assessment</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Gray County Storm Patterns & Risk Assessment?</h2>
             
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg mb-8">
@@ -658,7 +658,7 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Comprehensive Pampa Hail Damage FAQs</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Pampa Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do I know if my Pampa roof has hail damage?</AccordionTrigger>

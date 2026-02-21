@@ -220,7 +220,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Perryton's Tpo Roofing Specialists
+              What Makes Our Perryton Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Perryton's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural/wheat environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Perryton Agricultural & Grain Facilities Choose TPO
+              Why Perryton Agricultural & Grain Facilities Choose TPO?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -273,7 +273,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Grain Facility TPO Installation Considerations
+              What Does Grain Facility TPO Installation Considerations Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -319,7 +319,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency for Perryton Agricultural Buildings
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -360,7 +360,7 @@ export default function TpoRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              TPO Roofing FAQs - Perryton, TX
+              What Does TPO Roofing FAQs - Perryton, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

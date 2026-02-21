@@ -168,7 +168,7 @@ export default function RoofInspectionsAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Premier Roof Inspection Specialists
+              What Makes Andrews a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Professional roof inspections in Andrews, Texas are critical for protecting property investments in the Permian Basin's harsh environment. Andrews County experiences 6-8 devastating hailstorms annually, with supercell thunderstorms producing softball-size hail. Combined with sustained winds exceeding 70 mph, extreme temperature fluctuations from -5°F to 115°F, and intense UV radiation at 3,176 feet elevation, Andrews properties require specialized inspection expertise to identify vulnerabilities before they become costly problems.
@@ -239,7 +239,7 @@ export default function RoofInspectionsAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Weather Challenges?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Why Andrews Roofs Require Specialized Inspections</h3>
@@ -357,7 +357,7 @@ export default function RoofInspectionsAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Andrews Roof Inspectors Examine</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Andrews Roof Inspectors Examine?</h2>
             <div className="space-y-8">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Critical Damage Indicators Specific to Permian Basin</h3>
@@ -455,7 +455,7 @@ export default function RoofInspectionsAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Seasonal Inspection Timing for Andrews</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Seasonal Inspection Timing for Andrews?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Storm Season (March-June)</h3>
@@ -565,7 +565,7 @@ export default function RoofInspectionsAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claim Preparation for Andrews Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Andrews?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Permian Basin Insurance Challenges</h3>

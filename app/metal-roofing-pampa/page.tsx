@@ -220,7 +220,7 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Pampa's Metal Roofing Specialists
+              What Makes Our Pampa Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Pampa's location in the Texas Panhandle creates unique roofing challenges. Agricultural community in the High Plains. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural community exposure to High Plains winds and frequent hailstorms—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Oil & Gas Industry Metal Roofing for Pampa
+              What Does Oil & Gas Industry Metal Roofing for Pampa Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -272,7 +272,7 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Industrial Safety & Code Compliance
+              What Permitting and Code Requirements Apply in Pampa?
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -309,7 +309,7 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Metal Roofing FAQs - Pampa, TX
+              What Does Metal Roofing FAQs - Pampa, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

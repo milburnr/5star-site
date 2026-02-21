@@ -224,7 +224,7 @@ export default function TPORoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's TPO Roofing Specialists
+              What Makes Our Levelland Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland's location in Hockley County creates unique roofing challenges. The South Plains experiences 7-10 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -292,7 +292,7 @@ export default function TPORoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Levelland Climate Challenges
+              Levelland Climate Challenges?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -344,7 +344,7 @@ export default function TPORoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Our TPO Installation Process
+              How Does the TPO Installation Process Work?
             </h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
@@ -467,7 +467,7 @@ export default function TPORoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Commercial Properties We Serve in Levelland
+              Commercial Properties Do We Serve? in Levelland
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
@@ -512,7 +512,7 @@ export default function TPORoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              storm response & Insurance Claims
+              How Does the Insurance Claims Process Work in Levelland?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-red-50 p-8 rounded-2xl border border-red-200">

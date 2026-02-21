@@ -115,7 +115,7 @@ export default function CommercialRoofingLevellandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Levelland's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Levelland Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Levelland and surrounding areas, serving the cotton capital of Texas and home to South Plains College. As the county seat of Hockley County and a major agricultural processing hub, Levelland requires specialized roofing solutions for cotton warehouses, educational facilities, agribusiness operations, and the petroleum support industries that drive the South Plains economy.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Levelland's unique agricultural and educational sectors with expert installations and comprehensive warranties. Our 55-minute response time from Amarillo headquarters ensures rapid service for storm repairs at cotton processing facilities and college buildings. We handle all permits, insurance claims, and warranty documentation for agricultural and educational institutions.</p>
             
@@ -129,7 +129,7 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Specialized Roofing Solutions for Levelland's Key Industries</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Levelland's Key Industries Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🌾 Cotton Processing & Storage</h3>
@@ -192,7 +192,7 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-green-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Levelland Agriculture Trusts 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Levelland Agriculture Trusts 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -223,7 +223,7 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Agricultural Facility Roofing Systems</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Agricultural Facility Roofing Systems?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Cotton Warehouse Metal Roofing</h3>
@@ -320,7 +320,7 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Harvest Season storm response</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Our Storm Response Work in Levelland?</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Critical Harvest Protection</h3>
@@ -379,7 +379,7 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Levelland Agricultural Roofing Performance</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Levelland Agricultural Roofing Performance?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
@@ -409,7 +409,7 @@ export default function CommercialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Agricultural and Educational Financing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Agricultural and Educational Financing Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🌾 Agricultural Seasonal Financing</h3>

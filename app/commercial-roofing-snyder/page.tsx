@@ -115,7 +115,7 @@ export default function CommercialRoofingSnyderPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Snyder's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Snyder Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Snyder and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">Since 2014, we've served Snyder with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
 
@@ -136,7 +136,7 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Industry-Specific Commercial Roofing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Industry-Specific Commercial Roofing Solutions Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Processing Facilities</h3>
@@ -177,7 +177,7 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Advanced Roofing Technologies for West Texas Conditions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Advanced Roofing Technologies for West Texas Conditions Involve?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Cutting-edge roofing systems designed to withstand Snyder's challenging climate while delivering superior energy performance and longevity.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -210,7 +210,7 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Energy Efficiency and Cost Savings</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Maximize energy savings and reduce operational costs with advanced commercial roofing technologies designed for Texas climate conditions.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -243,7 +243,7 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Comprehensive Project Management and Quality Assurance</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Our Comprehensive Project Management and Quality Assurance Include?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Our systematic approach ensures successful commercial roofing projects with minimal disruption to Snyder business operations.</p>
               <div className="grid md:grid-cols-3 gap-6">
@@ -305,7 +305,7 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Environmental Standards</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Environmental Standards?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Comprehensive safety protocols and environmental responsibility guide all commercial roofing operations in Snyder.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -337,7 +337,7 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Snyder Commercial Project</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Snyder Commercial Project?</h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">

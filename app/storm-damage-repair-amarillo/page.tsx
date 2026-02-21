@@ -198,7 +198,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Amarillo's Storm Damage Repair Experts
+              What Does Amarillo's Storm Damage Repair Experts Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Amarillo sits on the edge of "Tornado Alley" with historically aggressive storm patterns that have produced <strong>61 documented tornadoes</strong> since tracking began in the 1950s, including six devastating EF-4 tornadoes within 50 miles of the city. Our region averages <strong>3,053 hail events and 874 damaging thunderstorm wind events</strong> according to NOAA storm data, making professional storm damage expertise essential for Amarillo property owners.
@@ -221,7 +221,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Amarillo Storm Patterns & Peak Seasons
+              Amarillo Storm Patterns & Peak Seasons?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg mb-12">
               <div className="grid md:grid-cols-2 gap-8">
@@ -251,7 +251,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Service Areas Throughout Amarillo
+              Service Areas Throughout Amarillo?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold">
@@ -291,7 +291,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Types of Storm Damage We Repair
+              What Does Types of Storm Damage We Repair Look Like?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
@@ -442,7 +442,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Our Storm Damage Process
+              How Does the Storm Damage Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500 text-center">
@@ -472,7 +472,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Recent Amarillo Storm Events
+              Recent Amarillo Storm Events?
             </h2>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-red-500">

@@ -115,7 +115,7 @@ export default function RoofInspectionsOdessaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Odessa's Comprehensive Roof Inspection Authority</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Odessa's Comprehensive Roof Inspection Authority Involve?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof inspections serving Odessa, the birthplace of Texas oil. Our expertise extends beyond standard weather damage to include the unique challenges of petroleum refining operations, chemical processing facilities, and the complex mix of industrial and residential properties that define this historic energy hub.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">Our certified inspectors understand how Odessa's petroleum refining heritage affects local air quality and building materials. From the historic downtown district to the sprawling suburban developments in West Odessa, we've assessed roofing systems impacted by everything from refinery emissions to the unique wind patterns created by the Llano Estacado escarpment.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Every inspection addresses Odessa's specific environmental challenges: petrochemical air quality impacts, limestone caliche soil effects on foundation settlement, and the interaction between industrial operations and residential neighborhoods that creates unique maintenance requirements throughout the city.</p>
@@ -124,7 +124,7 @@ export default function RoofInspectionsOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-purple-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Odessa's Unique Environmental Impact Assessment</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Odessa's Unique Environmental Impact Assessment?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Refinery and Chemical Plant Effects</h3>
@@ -172,7 +172,7 @@ export default function RoofInspectionsOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Insurance Expertise for Odessa Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Insurance Expertise for Odessa Properties?</h2>
             <div className="bg-blue-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Petroleum Industry Insurance Considerations</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -211,7 +211,7 @@ export default function RoofInspectionsOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Strategic Inspection Timing for Odessa's Climate and Industry</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Strategic Inspection Timing for Odessa's Climate and Industry Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌿 Spring Air Quality Assessment (March-May)</h3>
@@ -275,7 +275,7 @@ export default function RoofInspectionsOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Odessa's Complex Environmental Landscape</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Odessa's Complex Environmental Landscape?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Historic Petroleum Refining Center</h3>
@@ -298,7 +298,7 @@ export default function RoofInspectionsOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Environmental Monitoring for Industrial Conditions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Environmental Monitoring for Industrial Conditions?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <div className="text-5xl mb-4 text-center">🌡️</div>

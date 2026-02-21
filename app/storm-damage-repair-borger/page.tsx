@@ -220,7 +220,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Borger's Storm Damage Repair Specialists
+              What Does Borger's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger's location in the Texas Panhandle creates unique roofing challenges. This industrial petrochemical center faces both severe weather and environmental factors. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations demand superior roofing materials and expert installation. Properties near the Phillips 66 refinery, downtown Borger, and residential areas around Frank Phillips College experience extreme weather exposure.
@@ -234,7 +234,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Borger's Unique Storm Challenges
+              What Are Borger's Unique Storm Challenges?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -262,7 +262,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Storm Damage Timeline for Borger Properties
+              What Does Storm Damage Timeline for Borger Properties Look Like?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
@@ -302,7 +302,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Borger Storm Patterns & Preparedness
+              Borger Storm Patterns & Preparedness?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -452,7 +452,7 @@ export default function StormDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Material Selection for Borger's Environment
+              How Do You Choose the Right Roofing Material in Borger?
             </h2>
             <div className="bg-white p-8 rounded-3xl shadow-lg border">
               <div className="grid md:grid-cols-3 gap-8">

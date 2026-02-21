@@ -115,7 +115,7 @@ export default function RoofReplacementAndrewsPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Andrews's Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Andrews Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof replacement throughout Andrews and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings that characterize West Texas climate.</p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">Since 2014, we've served Andrews with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available for all 13,677 residents of this thriving oil community.</p>
 
@@ -161,7 +161,7 @@ export default function RoofReplacementAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Roof Replacement Cost Guide 2025</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Andrews Roof Replacement Cost Guide 2025 Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Understanding replacement costs helps Andrews homeowners make informed decisions about protecting their investment in this strong housing market.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -221,7 +221,7 @@ export default function RoofReplacementAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Roofing Materials Engineered for Andrews Climate</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Roofing Materials Engineered for Andrews Climate Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">West Texas demands roofing materials that can withstand extreme weather while delivering long-term value for Andrews homeowners.</p>
 
             <div className="space-y-8">
@@ -317,7 +317,7 @@ export default function RoofReplacementAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">The Andrews Advantage: Why Location Matters</h2>
+            <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">What Is The Andrews Advantage?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-indigo-700 mb-4">Economic Stability Creates Roofing Opportunities</h3>

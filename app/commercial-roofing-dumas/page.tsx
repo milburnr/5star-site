@@ -115,7 +115,7 @@ export default function CommercialRoofingDumasPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Dumas's Premier Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Dumas a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Dumas and surrounding areas serving Moore County's agricultural economy. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings common in the High Plains agricultural environment.</p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">Since 2014, we've served Dumas with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Dumas's role as Moore County's agricultural hub creates unique commercial roofing challenges for grain storage facilities, agricultural processing plants, livestock operations, and agricultural support businesses. Our specialized expertise addresses chemical-resistant materials, large-span applications, and compliance requirements specific to agricultural commercial properties.</p>
@@ -125,7 +125,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Commercial Roofing Solutions for Dumas' Agricultural Economy
+              What Commercial Roofing Solutions for Dumas' Agricultural Economy?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Dumas serves as the agricultural hub of Moore County, supporting extensive grain production, cattle feeding operations, and agricultural processing facilities across the Texas High Plains. This agricultural foundation creates unique commercial roofing demands requiring specialized expertise in large-span agricultural buildings, grain storage facilities, and processing plants that operate around the clock during harvest and shipping seasons.
@@ -153,7 +153,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Chemical-Resistant Systems for Agricultural Support Industries
+              What Chemical-Resistant Systems for Agricultural Support Industries?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Agricultural support businesses in Dumas handle various chemicals including fertilizers, pesticides, and livestock pharmaceuticals that create corrosive environments requiring specialized roofing materials. Standard commercial roofing systems deteriorate rapidly when exposed to ammonia-based fertilizers, sulfur compounds, and other agricultural chemicals common in farming operations.
@@ -181,7 +181,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Energy Efficiency Solutions for Agricultural Processing Operations
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Agricultural processing facilities in Moore County consume enormous amounts of energy for crop drying, grain cleaning, and refrigeration systems. Commercial roofing systems with superior insulation and reflective properties significantly reduce energy costs while maintaining consistent internal temperatures critical for product quality and equipment performance.
@@ -209,7 +209,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Healthcare and Community Service Commercial Roofing
+              What Does Healthcare and Community Service Commercial Roofing Include?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Moore County Hospital and medical facilities serving Dumas' agricultural community require specialized commercial roofing systems that support critical healthcare delivery while accommodating medical equipment and prompt services. Hospital roofing must accommodate helicopter access, medical gas systems, and backup power equipment while maintaining sterile environments.
@@ -237,7 +237,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Compliance and Safety Standards for Agricultural Commercial Roofing
+              What Compliance and Safety Standards for Agricultural Commercial Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Commercial roofing for agricultural facilities must comply with various regulatory requirements including OSHA safety standards, EPA environmental regulations, and USDA facility requirements for food and feed production. These compliance requirements affect material selection, installation procedures, and ongoing maintenance protocols for agricultural commercial buildings.
@@ -265,7 +265,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Specialized Roofing Systems for Dumas Industrial Operations
+              What Does Specialized Roofing Systems for Dumas Industrial Operations Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Dumas hosts several industrial operations beyond agriculture that require specialized commercial roofing approaches. Natural gas processing facilities, manufacturing operations, and distribution centers create unique roofing challenges requiring materials and installation methods designed for industrial environments with specific safety and operational requirements.
@@ -293,7 +293,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Moore County Economic Development and Roofing Infrastructure
+              What Does Moore County Economic Development and Roofing Infrastructure Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Economic development initiatives in Moore County focus on diversifying the economy beyond traditional agriculture through technology integration, value-added agriculture processing, and renewable energy projects. These development efforts create new commercial roofing opportunities requiring innovative solutions for modern industrial facilities and technology infrastructure.
@@ -321,7 +321,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Climate-Specific Solutions for High Plains Commercial Properties
+              What Climate-Specific Roofing Solutions Are Available in Dumas?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The High Plains climate around Dumas presents unique challenges for commercial roofing systems including extreme temperature variations, intense UV radiation, frequent hailstorms, and high wind events. Daily temperature swings of 40-50 degrees create thermal stress that accelerates material deterioration and requires specialized expansion joint design and material selection.
@@ -349,7 +349,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Local Permitting and Code Compliance for Dumas Commercial Projects
+              What Permitting and Code Requirements Apply in Dumas?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Moore County building code requirements and City of Dumas permitting processes create specific compliance requirements for commercial roofing projects. Wind load calculations, structural requirements, and fire safety provisions must meet local code standards while accommodating the unique challenges of High Plains weather conditions.
@@ -406,7 +406,7 @@ export default function CommercialRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Future-Ready Commercial Roofing for Dumas Economic Development
+              What Does Future-Ready Commercial Roofing for Dumas Economic Development Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               As Dumas continues to diversify its economic base beyond traditional agriculture, new commercial roofing opportunities emerge for technology companies, renewable energy projects, and modern manufacturing facilities. Our forward-thinking approach ensures commercial properties are equipped with roofing systems that support business growth and technological advancement.

@@ -168,7 +168,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Premier Asphalt Shingle Roofing Specialists
+              What Makes Andrews a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Andrews, Texas sits in the heart of the Permian Basin oil country, where extreme weather conditions test every roofing system. With average annual precipitation of just 14 inches but intense summer temperatures reaching 100°F+ and winter lows dropping to 20°F, your roof faces dramatic thermal cycling that can crack and deteriorate inferior materials. The Permian Basin experiences 6-8 significant hailstorms annually, with stones ranging from quarter-size to golf ball diameter, making impact-resistant asphalt shingles essential for Andrews homeowners.
@@ -258,7 +258,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Residential Roofing Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Andrews Residential Roofing Process Work?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-amber-50 to-white p-6 rounded-2xl">
@@ -298,7 +298,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Insurance Claims & Financing Options</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Do Insurance Claims & Financing Options Work?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

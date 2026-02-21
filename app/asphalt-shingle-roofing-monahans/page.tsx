@@ -168,7 +168,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Monahans's Premier Residential Asphalt Shingle Specialists
+              What Makes Monahans a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Monahans, Texas, positioned in Ward County's heart, faces unique challenges as a Permian Basin oil and gas hub. Located near the famous Monahans Sandhills, this community experiences 6-8 major hailstorms annually with severe impact damage potential. Summer temperatures consistently exceed 100°F while winter lows can drop to 25°F, creating extreme thermal cycling that stresses roofing systems. The area's low annual precipitation (14 inches) means intense, sporadic storms that dump large amounts of water quickly, testing drainage and waterproofing systems.
@@ -258,7 +258,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Monahans Professional Installation Excellence</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Monahans Professional Installation Excellence Involve?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-orange-50 to-white p-6 rounded-2xl">
@@ -298,7 +298,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Insurance Claims & Oil Field Economy Financing</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Do Insurance Claims & Oil Field Economy Financing Work?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

@@ -221,7 +221,7 @@ export default function RoofInspectionsBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Big Spring's Premier Roof Inspection Specialists
+              What Makes Big Spring a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring, Texas sits in the heart of Howard County where West Texas weather creates some of the most challenging roofing conditions in the United States. Located at the intersection of Highway 87 and Interstate 20, Big Spring experiences extreme weather patterns that demand professional roof inspections to protect your investment and ensure insurance compliance.
@@ -238,7 +238,7 @@ export default function RoofInspectionsBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Comprehensive Roof Inspection Process
+              How Does the Comprehensive Roof Inspection Process Work?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
@@ -270,7 +270,7 @@ export default function RoofInspectionsBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What to Look For: Critical Damage Indicators
+              What to Look For: Critical Damage Indicators?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌨️ Hail Damage Signs</h3>
@@ -339,7 +339,7 @@ export default function RoofInspectionsBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Insurance Claim Preparation & Documentation
+              How Does the Insurance Claims Process Work in Big Spring?
             </h2>
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4">📋 Complete Documentation Package</h3>
@@ -404,7 +404,7 @@ export default function RoofInspectionsBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Big Spring Weather Patterns & Roofing Challenges
+              What Does Big Spring Weather Patterns & Roofing Challenges Involve?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌪️ West Texas Weather Impact</h3>

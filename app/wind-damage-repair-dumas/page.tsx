@@ -221,7 +221,7 @@ export default function WindDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Dumas's Wind Damage Repair Specialists
+              How Does Dumas's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
@@ -266,7 +266,7 @@ export default function WindDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Understanding Wind Damage in Dumas</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Understanding Wind Damage in Dumas Affect Your Roof?</h2>
             <p className="text-lg text-gray-700 mb-8 text-center max-w-4xl mx-auto">
               Wind damage in Dumas follows predictable patterns based on building orientation, roof design, and material quality. Our comprehensive assessment identifies both visible damage and potential failure points.
             </p>

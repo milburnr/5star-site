@@ -224,7 +224,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's Wind Damage Repair Specialists
+              How Does Levelland's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland's location in Hockley County creates unique roofing challenges. The South Plains experiences 7-10 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -258,7 +258,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding South Plains Wind Patterns
+              What Should You Know About South Plains Wind Patterns?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -292,7 +292,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-slate-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Common Wind Damage Types in Levelland
+              What Are the Most Common Wind Damage Types in Levelland?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -344,7 +344,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Professional Wind Damage Assessment Process
+              How Does the Professional Wind Damage Assessment Process Work?
             </h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
@@ -409,7 +409,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Levelland Wind Damage Repair FAQ
+              How Does Levelland Wind Damage Repair FAQ Affect Your Roof?
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="storm-response" className="bg-white rounded-lg shadow-md">
@@ -467,7 +467,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Properties We've Restored After Wind Damage
+              How Does Properties We've Restored After Wind Damage Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
@@ -512,7 +512,7 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl border border-red-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-red-700 mb-4">Wind Damage Response</h2>
+              <h2 className="text-4xl font-bold text-red-700 mb-4">How Does Wind Damage Response Work?</h2>
               <div className="text-6xl mb-4">🚨</div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 South Plains wind storms can strike without warning. Don't wait for minor damage to become major problems.
@@ -551,7 +551,7 @@ export default function WindDamageRepairLevellandPage() {
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Restore Your Levelland Property</h2>
+          <h2 className="text-4xl font-bold mb-6">Restore Your Levelland Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Expert wind damage repair for South Plains properties. Our experienced team understands Panhandle wind patterns and provides comprehensive repairs that withstand future storms. Trust Hockley County's wind damage specialists.
           </p>

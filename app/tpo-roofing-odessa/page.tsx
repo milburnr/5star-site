@@ -115,7 +115,7 @@ export default function TPORoofingOdessaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Odessa's Premier Oil Patch Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Odessa a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional TPO roofing throughout Odessa and the core Permian Basin region. As the historic heart of America's oil patch, Odessa presents unique roofing challenges from heavy industrial operations, oilfield service facilities, and the demanding desert environment that defines West Texas. Our specialized experience in this market ensures your commercial property receives roofing solutions built for oil country.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Odessa's diverse industrial landscape with expert TPO installations engineered for extreme conditions. From oilfield service companies and manufacturing facilities to the University of Texas Permian Basin and growing healthcare networks, our team understands the unique demands of operating in the world's most productive oil field.</p>
             
@@ -134,7 +134,7 @@ export default function TPORoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">TPO Roofing Built for Odessa's Harsh Environment</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does TPO Roofing Built for Odessa's Harsh Environment Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🌵 Desert Durability</h3>
@@ -172,7 +172,7 @@ export default function TPORoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Odessa's Key Industries We Serve</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Odessa's Key Industries Do We Serve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Oil & Gas Sector</h3>
@@ -222,7 +222,7 @@ export default function TPORoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Oil Patch Specialized Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Oil Patch Specialized Installation Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
@@ -260,7 +260,7 @@ export default function TPORoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-yellow-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Odessa Climate Challenges & Solutions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Climate-Specific Roofing Solutions Are Available in Odessa?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4">🌵 Extreme Desert Heat</h3>
@@ -360,7 +360,7 @@ export default function TPORoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Odessa Service Areas</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Odessa Service Areas?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-gold mb-4">Odessa Metro</h3>

@@ -220,7 +220,7 @@ export default function RoofInspectionsCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Canyon's Roof Inspections Specialists
+              What Makes Our Canyon Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo Duro Canyon with High Plains wind exposure—demand superior roofing materials and expert installation.
@@ -233,7 +233,7 @@ export default function RoofInspectionsCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Canyon's Unique Geographic Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Canyon's Unique Geographic Challenges?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Palo Duro Canyon Microclimate Effects</h3>
@@ -296,7 +296,7 @@ export default function RoofInspectionsCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Comprehensive Canyon Inspection Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Comprehensive Canyon Inspection Process Work?</h2>
             <div className="space-y-8">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Geographic-Specific Assessment Protocol</h3>
@@ -386,7 +386,7 @@ export default function RoofInspectionsCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Canyon Roof Inspectors Examine</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Canyon Roof Inspectors Examine?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Canyon-Specific Damage Indicators</h3>
@@ -484,7 +484,7 @@ export default function RoofInspectionsCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Seasonal Inspection Timing for Canyon</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Seasonal Inspection Timing for Canyon?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Canyon Weather Assessment (March-May)</h3>
@@ -594,7 +594,7 @@ export default function RoofInspectionsCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims for Canyon Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Insurance Claims for Canyon Properties Work?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Geographic Factor Documentation</h3>

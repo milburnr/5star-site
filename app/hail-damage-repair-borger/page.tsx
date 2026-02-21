@@ -199,7 +199,7 @@ export default function HailDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Why Borger Properties Need Expert Hail Damage Repair
+              Why Does Borger Properties Need Expert Hail Damage Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger, the largest city in Hutchinson County, sits at 3,097 feet elevation in the heart of the Texas Panhandle. With a population of around 12,500, this industrial city is home to some of the world's largest inland petrochemical complexes, including Phillips 66, Chevron-Phillips Chemical, and Solvay. Both the industrial facilities and the residential neighborhoods that support them face the same roofing challenge: severe Panhandle hailstorms.
@@ -217,7 +217,7 @@ export default function HailDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Hutchinson County Weather: Understanding Your Roof's Risks
+              What Are Hutchinson County Weather: Understanding Your Roof's Risks?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -251,7 +251,7 @@ export default function HailDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Our Borger Hail Damage Repair Process
+              How Does the Borger Hail Damage Repair Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -292,7 +292,7 @@ export default function HailDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-6">
-              Class 4 Impact-Resistant Shingles: Ideal for Borger
+              What Is the Class 4 Impact-Resistant Shingles?
             </h2>
             <p className="text-lg mb-6 leading-relaxed">
               For Borger properties facing the realities of Panhandle weather, Class 4 impact-resistant shingles are an excellent investment. These premium shingles are tested to withstand 2-inch diameter steel ball impacts under UL 2218 standards—providing superior protection against the severe hail common in Hutchinson County storms.

@@ -115,7 +115,7 @@ export default function CommercialRoofingBorgerPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Borger's Premier Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Borger a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Borger and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings. Our expertise extends to industrial-grade applications serving Borger's petrochemical sector.</p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">Since 2014, we've served Borger with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Borger's proximity to Phillips 66 Borger Refinery creates unique commercial roofing challenges requiring specialized materials and installation techniques. Our certified technicians understand chemical-resistant roofing requirements, industrial safety protocols, and enhanced durability specifications for petrochemical environments.</p>
@@ -125,7 +125,7 @@ export default function CommercialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Commercial Roofing for Borger's Industrial Economy
+              What Does Commercial Roofing for Borger's Industrial Economy Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Borger's identity centers around the Phillips 66 Borger Refinery, one of Texas's largest petroleum processing facilities. This industrial foundation creates unique commercial roofing challenges requiring specialized expertise in chemical-resistant materials, thermal cycling resistance, and compliance with stringent safety regulations. Our commercial roofing solutions protect critical infrastructure supporting the refinery and associated petrochemical operations.
@@ -153,7 +153,7 @@ export default function CommercialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Safety Protocols for Refinery-Adjacent Commercial Projects
+              What Safety and Compliance Standards Do We Follow?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Commercial roofing projects near the Phillips 66 facility require extensive safety protocols and specialized equipment to prevent ignition sources and chemical exposure. Our crews complete refinery-specific safety training including confined space awareness, chemical hazard recognition, and storm evacuation procedures. All equipment undergoes inspection for spark-prevention compliance before entering refinery-adjacent areas.
@@ -181,7 +181,7 @@ export default function CommercialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Energy Efficiency and Environmental Compliance for Borger Commercial Buildings
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Borger's commercial buildings face unique energy challenges due to extreme weather conditions and proximity to industrial heat sources. Cool roofing technologies become essential for reducing HVAC loads and maintaining comfortable interior conditions. We install high-reflectance membrane systems that reduce cooling costs by 20-30% while improving interior comfort.
@@ -209,7 +209,7 @@ export default function CommercialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Commercial Roofing Solutions for Borger's Diverse Business Sectors
+              What Does Commercial Roofing Solutions for Borger's Diverse Business Sectors Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               While the Phillips 66 refinery dominates Borger's economy, the community supports diverse commercial sectors requiring specialized roofing approaches. Agricultural businesses along Highway 207 need chemical-resistant systems that withstand fertilizer exposure and grain dust accumulation. Retail centers and restaurants require energy-efficient solutions that maintain comfortable environments while controlling operating costs.

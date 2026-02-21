@@ -115,7 +115,7 @@ export default function ResidentialRoofingBigSpringPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Big Spring's Premier Residential Roofing Company</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Big Spring's Premier Residential Roofing Company Involve?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Big Spring sits at the crossroads of West Texas, where I-20 meets US-87, making it a vital regional hub for Howard County and surrounding communities. This strategic location also places Big Spring directly in the path of severe weather systems that challenge roofing integrity throughout the year.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">As Howard County's seat and largest city, Big Spring combines historic charm with modern growth. From the established neighborhoods around Big Spring High School to newer developments near the medical center, our residential roofing services protect diverse housing styles across this proud West Texas community.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've earned the trust of Big Spring families by understanding local challenges – from spring tornado season to punishing summer heat, from sudden winter storms to the persistent winds that sweep across the South Plains. Every installation meets or exceeds Texas building standards while addressing Big Spring's unique environmental demands.</p>
@@ -124,7 +124,7 @@ export default function ResidentialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-cyan-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Understanding Big Spring's Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Should You Know About Big Spring's Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Spring Severe Weather Season</h3>
@@ -154,7 +154,7 @@ export default function ResidentialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Community-Focused Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Community-Focused Services?</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg border border-green-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Historic District Preservation</h3>
@@ -191,7 +191,7 @@ export default function ResidentialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-yellow-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Local Big Spring Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Local Big Spring Expertise?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
@@ -223,7 +223,7 @@ export default function ResidentialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Premium Materials for Big Spring Climate</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Premium Roofing Materials Are Available in Big Spring?</h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
@@ -323,7 +323,7 @@ export default function ResidentialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & Financing for Big Spring Homeowners</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Financing and Insurance Work in Big Spring?</h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-8 rounded-xl shadow-md">

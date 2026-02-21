@@ -220,7 +220,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Canyon's Storm Damage Repair Specialists
+              What Does Canyon's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University, this Randall County seat faces distinctive weather patterns. The canyon's geography creates microclimates and wind channeling effects that intensify storm damage. Properties from the WTAMU campus to historic downtown Canyon and residential areas near Canyon Country Club experience amplified weather conditions requiring specialized storm damage expertise.
@@ -234,7 +234,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Palo Duro Canyon's Weather Impact on Storm Damage
+              What Does Palo Duro Canyon's Weather Impact on Storm Damage Look Like?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -262,7 +262,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Storm Damage Patterns by Canyon Area
+              What Does Storm Damage Patterns by Canyon Area Look Like?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-500">
@@ -308,7 +308,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              University and Student Housing Storm Response
+              How Does Our Storm Response Work in Canyon?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -470,7 +470,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Historic Preservation & Storm Protection
+              Historic Preservation & Storm Protection?
             </h2>
             <div className="bg-white p-8 rounded-3xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-12">

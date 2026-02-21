@@ -220,7 +220,7 @@ export default function RoofRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Borger's Roof Repair Specialists
+              What Makes Our Borger Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
@@ -297,7 +297,7 @@ export default function RoofRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Borger Roof Repair Services We Provide
+              What Does Borger Roof Repair Services We Provide Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
@@ -358,7 +358,7 @@ export default function RoofRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Understanding Borger's Unique Weather Challenges
+              What Should You Know About Borger's Unique Weather Challenges?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -406,7 +406,7 @@ export default function RoofRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Our Borger Roof Repair Process
+              How Does the Borger Roof Repair Process Work?
             </h2>
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">

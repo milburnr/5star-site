@@ -115,7 +115,7 @@ export default function CommercialRoofingAndrewsPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Andrews's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Andrews Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Andrews and surrounding areas, serving the heart of the Permian Basin's energy sector. We understand the unique challenges facing Andrews' commercial properties, from oil and gas facilities to agricultural operations, and engineer roofing systems built for extreme Texas conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Andrews with expert installations, comprehensive warranties, and outstanding customer service. Our 90-minute response time from Amarillo headquarters ensures rapid service for prompt repairs. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
             
@@ -129,7 +129,7 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Commercial Roofing Services for Andrews' Key Industries</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Services for Andrews' Key Industries Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🛢️ Oil & Gas Facilities</h3>
@@ -162,7 +162,7 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Andrews Businesses Choose 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Do Andrews Businesses Choose 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -193,7 +193,7 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Commercial Roofing Systems for Andrews Climate</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Systems for Andrews Climate Involve?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO (Thermoplastic Olefin) Roofing</h3>
@@ -287,7 +287,7 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">storm response for Andrews' Critical Operations</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Our Storm Response Work in Andrews?</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">90-Minute storm response</h3>
@@ -345,7 +345,7 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Andrews Commercial Roofing: By the Numbers</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Andrews Commercial Roofing: By the Numbers Involve?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
@@ -375,7 +375,7 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Financing and Insurance Support for Andrews Businesses</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Financing and Insurance Work in Andrews?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">💰 Flexible Financing Options</h3>

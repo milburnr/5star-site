@@ -224,7 +224,7 @@ export default function TPORoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's TPO Roofing Specialists
+              What Makes Our Snyder Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Snyder's location in Scurry County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -258,7 +258,7 @@ export default function TPORoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Advanced TPO Roofing for West Texas Commercial Properties
+              What Does Advanced TPO Roofing for West Texas Commercial Properties Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -292,7 +292,7 @@ export default function TPORoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              West Texas Rolling Plains Climate
+              West Texas Rolling Plains Climate?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -344,7 +344,7 @@ export default function TPORoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Specialized Installation for Agricultural Applications
+              What Specialized Installation for Agricultural Applications?
             </h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
@@ -409,7 +409,7 @@ export default function TPORoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Snyder TPO Roofing Questions & Answers
+              What Does Snyder TPO Roofing Questions & Answers Involve?
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="agricultural-suitability" className="bg-white rounded-lg shadow-md">
@@ -467,7 +467,7 @@ export default function TPORoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              West Texas Properties We Protect
+              West Texas Properties We Protect?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
@@ -512,7 +512,7 @@ export default function TPORoofingSnyderPage() {
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Secure Your Snyder Property Investment</h2>
+          <h2 className="text-4xl font-bold mb-6">Secure Your Snyder Property Investment?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Free inspections for Scurry County property owners. Expert TPO roofing designed for West Texas climate challenges. Protect your agricultural, commercial, or industrial investment with proven roofing solutions.
           </p>

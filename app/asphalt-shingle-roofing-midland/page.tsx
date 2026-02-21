@@ -110,7 +110,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Roofing Challenges in America's Oil Capital</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Does Roofing Challenges in America's Oil Capital Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Permian Basin Environmental Factors</h3>
@@ -140,7 +140,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Premium Asphalt Solutions for Midland's Extreme Conditions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Are Premium Asphalt Solutions for Midland's Extreme Conditions?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -218,7 +218,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Desert Climate Design Strategies</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">How Does the Desert Climate Affect Your Roof?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div>
@@ -300,7 +300,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Desert-Grade Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">How Does the Desert-Grade Installation Process Work?</h2>
             
             <div className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8">
@@ -382,7 +382,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Maintenance in the Permian Basin Environment</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Does Maintenance in the Permian Basin Environment Involve?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>

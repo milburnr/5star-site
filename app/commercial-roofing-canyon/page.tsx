@@ -115,7 +115,7 @@ export default function CommercialRoofingCanyonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Canyon's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Canyon Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Canyon and surrounding areas, serving the gateway to Palo Duro Canyon and home to West Texas A&M University. As a dynamic university town and tourism destination, Canyon requires specialized roofing solutions for educational facilities, hospitality venues, student housing, and the diverse businesses that support both academic life and the growing tourism industry.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Canyon's unique blend of educational, tourism, and agricultural sectors with expert installations and comprehensive warranties. Our 45-minute response time from Amarillo headquarters provides rapid service for storm repairs to campus facilities and tourist accommodations. We handle all permits, insurance claims, and warranty documentation for educational institutions and commercial properties.</p>
             
@@ -129,7 +129,7 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Specialized Roofing Solutions for Canyon's Key Industries</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Canyon's Key Industries Include?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-purple-500">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 Educational Facilities</h3>
@@ -192,7 +192,7 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-purple-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Canyon Chooses 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Do Canyon Chooses 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -223,7 +223,7 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Educational Facility Roofing Systems</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Educational Facility Roofing Systems Involve?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">University Campus TPO Systems</h3>
@@ -320,7 +320,7 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Tourism Season storm response</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Our Storm Response Work in Canyon?</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Peak Season Priority Service</h3>
@@ -379,7 +379,7 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Canyon Commercial Roofing Success Metrics</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Canyon Commercial Roofing Success Metrics Include?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
@@ -409,7 +409,7 @@ export default function CommercialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Educational and Municipal Financing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Educational and Municipal Financing Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 Educational Institution Financing</h3>

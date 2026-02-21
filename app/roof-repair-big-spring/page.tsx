@@ -224,7 +224,7 @@ export default function RoofRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Big Spring's Premier Roof Repair Specialists
+              What Makes Big Spring a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring, Texas, positioned at 2,398 feet elevation in Howard County, faces some of West Texas's most challenging weather conditions. This crossroads city experiences 7-9 intense hailstorms annually, with spring supercells producing hail up to golf ball-size. Combined with sustained winds reaching 70+ mph, temperature swings from freezing to 110°F, and intense UV radiation, Big Spring properties demand specialized roofing expertise.
@@ -281,7 +281,7 @@ export default function RoofRepairBigSpringPage() {
         
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Big Spring Areas We Serve</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Big Spring Areas Do We Serve?</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our comprehensive Big Spring roof repair services reach every corner of the city and surrounding Howard County areas. From the established neighborhoods near Comanche Trail Park to the growing commercial district along Gregg Street, we've earned trust through consistent quality and reliable service across all of Big Spring's diverse communities.
             </p>
@@ -474,7 +474,7 @@ export default function RoofRepairBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Why Big Spring Chooses 5 Star Commercial Roofing</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Why Do Big Spring Chooses 5 Star Commercial Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>

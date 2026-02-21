@@ -110,7 +110,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Understanding Odessa's Industrial Environment</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Should You Know About Odessa's Industrial Environment?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Petrochemical Challenges</h3>
@@ -140,7 +140,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Options for Every Odessa Family</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Options for Every Odessa Family?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-500 relative">
@@ -221,7 +221,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Chemical Resistance & Air Quality Protection</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Chemical Resistance & Air Quality Protection?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div>
@@ -299,7 +299,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Industrial Environment Installation</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Does Industrial Environment Installation Involve?</h2>
             
             <div className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8">
@@ -381,7 +381,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Maintenance in Industrial Environment</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Does Maintenance in Industrial Environment Involve?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -476,7 +476,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Protect Your Odessa Family Today</h2>
+          <h2 className="text-4xl font-bold mb-6">Protect Your Odessa Family Today?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">Chemical-resistant asphalt shingle roofing designed for Odessa's industrial environment. Family-affordable options with financing available. Quality installation protecting your home and health.</p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">Call (806) 622-6041</a>

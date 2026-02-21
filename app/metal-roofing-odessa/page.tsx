@@ -115,7 +115,7 @@ export default function MetalRoofingOdessaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Odessa's Metal Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Odessa Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional metal roofing throughout Odessa and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Odessa with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
           </section>
@@ -125,7 +125,7 @@ export default function MetalRoofingOdessaPage() {
           <section className="mb-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6 text-brand-brown">Built for Oil Country's Toughest Conditions</h2>
+                <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Are Built for Oil Country's Toughest Conditions?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">Odessa sits at the epicenter of America's oil production, creating the most challenging roofing environment in Texas. Heavy industrial activity, petrochemical processing, and constant drilling operations demand roofing systems engineered for extreme durability.</p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Our metal roofing installations are specifically designed for oil field environments. We use premium corrosion-resistant materials, enhanced fastening systems, and industrial-grade coatings that withstand chemical exposure, hydrogen sulfide emissions, and the relentless dust and debris of active drilling operations.</p>
                 <div className="bg-black text-white p-6 rounded-xl">
@@ -161,7 +161,7 @@ export default function MetalRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Extreme Wind Performance for Oil Country</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Extreme Wind Performance for Oil Country?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Odessa's position in the open plains makes it susceptible to severe wind events, while industrial activity creates additional structural challenges. Our systems exceed all requirements.</p>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -213,7 +213,7 @@ export default function MetalRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Petrochemical Environment Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Petrochemical Environment Challenges?</h2>
             <div className="max-w-6xl mx-auto">
               <p className="text-lg text-gray-700 mb-8 text-center">Odessa's massive oil production creates unique environmental stressors that standard roofing materials cannot withstand. Our specialized systems address these specific challenges.</p>
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
@@ -275,7 +275,7 @@ export default function MetalRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-yellow-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Maximum Energy Efficiency for Hot Climate</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-lg text-gray-700 mb-8 text-center">Odessa's combination of industrial heat sources and desert climate creates extreme cooling demands. Our metal roofing systems provide maximum energy efficiency.</p>
               <div className="grid lg:grid-cols-2 gap-12">
@@ -332,7 +332,7 @@ export default function MetalRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Odessa Properties Demand Metal Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Odessa Properties Demand Metal Roofing?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -413,7 +413,7 @@ export default function MetalRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 bg-black text-white p-12 rounded-3xl">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Our Odessa Installation Process</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center">How Does the Odessa Installation Process Work?</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="bg-yellow-400 text-black w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
@@ -442,7 +442,7 @@ export default function MetalRoofingOdessaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-yellow-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & Safety Benefits for Oil Country</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance & Safety Benefits for Oil Country?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 mb-8 text-center">Odessa properties face unique insurance challenges due to industrial exposure and fire risk. Metal roofing provides significant benefits.</p>
               <div className="grid md:grid-cols-2 gap-8">

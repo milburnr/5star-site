@@ -220,7 +220,7 @@ export default function RoofInspectionsDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Dumas's Roof Inspections Specialists
+              What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
@@ -233,7 +233,7 @@ export default function RoofInspectionsDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Agricultural Industry Impact on Roofing Systems</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Agricultural Industry Impact on Roofing Systems?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Feedlot and Agricultural Environmental Factors</h3>
@@ -351,7 +351,7 @@ export default function RoofInspectionsDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Dumas Agricultural Environment Inspectors Examine</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Dumas Agricultural Environment Inspectors Examine?</h2>
             <div className="space-y-8">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Agricultural-Specific Damage Indicators</h3>
@@ -448,7 +448,7 @@ export default function RoofInspectionsDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Agricultural Season Inspection Timing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Agricultural Season Inspection Timing?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">🌱 Spring Agricultural Operations (March-May)</h3>
@@ -559,7 +559,7 @@ export default function RoofInspectionsDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims for Agricultural Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Insurance Claims for Agricultural Properties Work?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Agricultural Environment Documentation</h3>

@@ -115,7 +115,7 @@ export default function RoofInspectionsAmarilloPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Amarillo's Comprehensive Roof Inspection Experts</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Amarillo's Comprehensive Roof Inspection Experts Involve?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof inspections throughout Amarillo and surrounding areas. We understand the unique challenges posed by Texas Panhandle weather, from devastating hailstorms to 80+ mph wind events, extreme temperature fluctuations, and relentless UV exposure that can destroy roofs in just a few years.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">Since 2014, we've conducted thousands of roof inspections across Amarillo, from historic downtown properties to new subdivisions in Southwest Amarillo. Our certified inspectors use advanced technology including thermal imaging, moisture meters, and high-resolution drone photography to identify problems that ground-level visual inspections might miss.</p>
             <p className="text-lg text-gray-600 leading-relaxed">We provide detailed inspection reports that satisfy insurance requirements, real estate transactions, and warranty claims. Every inspection includes digital documentation, safety assessments, and prioritized repair recommendations with cost estimates.</p>
@@ -124,7 +124,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-slate-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Our Amarillo Roof Inspectors Examine</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Our Amarillo Roof Inspectors Examine?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🔍 Structural Components</h3>
@@ -172,7 +172,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Requirements for Amarillo Roof Inspections</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Insurance Requirements for Amarillo Roof Inspections Involve?</h2>
             <div className="bg-blue-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Insurance Company Standards We Meet</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -211,7 +211,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Optimal Timing for Roof Inspections in Amarillo</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Optimal Timing for Roof Inspections in Amarillo Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌸 Spring Inspections (March-May)</h3>
@@ -263,7 +263,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Amarillo's Unique Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Amarillo's Unique Weather Challenges?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Severe Hailstorms</h3>
@@ -286,7 +286,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Inspection Technology We Use</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Advanced Inspection Technology We Use Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <div className="text-5xl mb-4 text-center">📡</div>
@@ -309,7 +309,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Step-by-Step Inspection Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Step-by-Step Inspection Process Work?</h2>
             <div className="space-y-8">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Phase 1: Exterior Assessment (30-45 minutes)</h3>
@@ -394,7 +394,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Amarillo Roof Inspectors Look For</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Amarillo Roof Inspectors Look For?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Critical Damage Indicators</h3>
@@ -492,7 +492,7 @@ export default function RoofInspectionsAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Documentation Standards</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Documentation Standards?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Professional Photography Requirements</h3>

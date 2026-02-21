@@ -220,7 +220,7 @@ export default function MetalRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Perryton's Metal Roofing Specialists
+              What Makes Our Perryton Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat country agricultural community. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with severe Panhandle hailstorms—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function MetalRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Grain Industry Metal Roofing for Perryton Agricultural Facilities
+              What Grain Industry Metal Roofing for Perryton Agricultural Facilities?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -273,7 +273,7 @@ export default function MetalRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Large-Span Agricultural Building Solutions
+              What Large-Span Agricultural Building Solutions?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
@@ -321,7 +321,7 @@ export default function MetalRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Metal Roofing FAQs - Perryton, TX
+              What Does Metal Roofing FAQs - Perryton, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

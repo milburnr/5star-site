@@ -168,7 +168,7 @@ export default function WindDamageRepairAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Premier Wind Damage Repair Specialists
+              How Does Andrews's Premier Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Andrews, Texas, positioned in the Permian Basin's open terrain, faces some of West Texas's most severe wind events. Located where multiple weather systems converge, Andrews experiences frequent derechos with sustained winds of 70-90 MPH, supercell thunderstorm complexes producing straight-line winds exceeding 100 MPH, and microbursts that can generate localized winds of 120+ MPH. The flat topography provides no natural windbreaks, allowing these powerful systems to maintain intensity as they sweep across Andrews County, causing significant structural damage to roofing systems year after year.
@@ -258,7 +258,7 @@ export default function WindDamageRepairAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Wind Damage Repair Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Andrews Wind Damage Repair Process Work?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-slate-50 to-white p-6 rounded-2xl">
@@ -298,7 +298,7 @@ export default function WindDamageRepairAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Wind Event History & Preparedness</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Andrews Wind Event History & Preparedness?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

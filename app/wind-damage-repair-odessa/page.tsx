@@ -193,7 +193,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Expert Wind Damage Repair for Odessa, Permian Basin
+              How Does Expert Wind Damage Repair for Odessa, Permian Basin Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Odessa's location in the Permian Basin creates unique roofing challenges. The area experiences 6-8 hailstorms annually, sustained winds with gusts exceeding 65+ mph, extreme temperature fluctuations, and intense desert sun and oil field operations. Your roofing system must withstand these demanding conditions year after year.
@@ -207,7 +207,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Understanding Permian Basin Wind Patterns and Roof Vulnerability
+              What Should You Know About Permian Basin Wind Patterns and Roof Vulnerability?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               The Permian Basin's geography creates some of the most challenging wind conditions in Texas. Odessa sits in an expansive, relatively flat oil field region where winds can build momentum across hundreds of miles without obstruction. This unique topography, combined with the area's extensive oil and gas infrastructure, creates complex wind patterns that significantly impact roofing systems.
@@ -235,7 +235,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              storm response for Odessa Wind Damage Events
+              How Does storm response for Odessa Wind Damage Events Work?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Odessa's location puts it in the path of severe spring storms moving northeast from Mexico and powerful cold fronts sweeping south across the High Plains. These weather systems regularly produce damaging winds, requiring immediate storm response to prevent secondary water damage to commercial and residential properties.
@@ -263,7 +263,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Wind-Resistant Roofing Solutions for Permian Basin Conditions
+              What Does Wind-Resistant Roofing Solutions for Permian Basin Conditions Include?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Selecting appropriate roofing materials for Odessa requires understanding both wind resistance and chemical exposure from oil field operations. Standard residential shingles rated for 110 mph winds prove inadequate for the sustained high-wind environment. We recommend enhanced shingle systems rated for 130+ mph winds with specialized installation techniques including six-nail patterns and high-wind starter strips.
@@ -291,7 +291,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Quality Assurance and Warranty Protection for Wind-Resistant Installations
+              What Warranty and Protection Plans Are Available?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Wind-resistant roofing installations in Odessa demand exceptional quality control due to the severe testing these systems face. Our installation protocols exceed manufacturer requirements, incorporating additional safety factors specifically for Permian Basin wind conditions. Every installation undergoes multi-point inspection including fastener pull-testing, seam integrity verification, and edge detail confirmation.
@@ -308,7 +308,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Wind Damage Repair FAQs - Odessa, TX
+              How Does Wind Damage Repair FAQs - Odessa, TX Affect Your Roof?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
@@ -362,7 +362,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Wind Damage Repair Across Odessa
+              How Does Wind Damage Repair Across Odessa Affect Your Roof?
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe

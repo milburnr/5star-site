@@ -168,7 +168,7 @@ export default function MetalRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's Metal Roofing Specialists
+              What Makes Our Levelland Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland's location in Hockley County creates unique roofing challenges. The South Plains experiences 7-10 hailstorms annually, sustained high winds reaching 75+ mph, extreme temperature fluctuations from sub-freezing to over 100°F, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -182,7 +182,7 @@ export default function MetalRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Superior Wind and Hail Resistance for South Plains Climate
+              Superior Wind and Hail Resistance for South Plains Climate?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
@@ -232,7 +232,7 @@ export default function MetalRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Premium Metal Roofing Materials for Levelland Properties
+              What Does Premium Metal Roofing Materials for Levelland Properties Involve?
             </h2>
             
             <div className="space-y-8">
@@ -329,7 +329,7 @@ export default function MetalRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Expert Installation Process for Maximum Durability
+              What Does Expert Installation Process for Maximum Durability Involve?
             </h2>
             
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl mb-8">
@@ -398,7 +398,7 @@ export default function MetalRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency & Cost Savings in High Plains Heat
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
@@ -471,7 +471,7 @@ export default function MetalRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Maintenance & Longevity in the South Plains
+              What Does Maintenance & Longevity in the South Plains Involve?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg">

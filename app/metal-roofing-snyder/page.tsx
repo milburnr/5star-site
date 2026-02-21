@@ -168,7 +168,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's Metal Roofing Specialists
+              What Makes Our Snyder Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Snyder's location in Scurry County creates unique roofing challenges. West Texas experiences 7-9 hailstorms annually, sustained high winds reaching 80+ mph, extreme temperature fluctuations from freezing to over 105°F, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -182,7 +182,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Superior Wind and Hail Resistance for West Texas Climate
+              How Does the Local Climate Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
@@ -232,7 +232,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Premium Metal Roofing Materials for Snyder Properties
+              What Does Premium Metal Roofing Materials for Snyder Properties Involve?
             </h2>
             
             <div className="space-y-8">
@@ -329,7 +329,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Expert Installation Process for Maximum Durability
+              What Does Expert Installation Process for Maximum Durability Involve?
             </h2>
             
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl mb-8">
@@ -398,7 +398,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency & Cost Savings in West Texas Heat
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
@@ -471,7 +471,7 @@ export default function MetalRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Maintenance & Longevity in West Texas
+              What Does Maintenance & Longevity in West Texas Involve?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg">

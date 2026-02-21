@@ -115,7 +115,7 @@ export default function MetalRoofingMidlandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Midland's Metal Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Midland Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional metal roofing throughout Midland and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Midland with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
           </section>
@@ -125,7 +125,7 @@ export default function MetalRoofingMidlandPage() {
           <section className="mb-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6 text-brand-brown">Engineered for Permian Basin Conditions</h2>
+                <h2 className="text-3xl font-bold mb-6 text-brand-brown">Engineered for Permian Basin Conditions?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">Midland's position in the heart of the Permian Basin creates unique roofing challenges. Between desert winds, industrial emissions, sandstorms, and extreme heat, roofing materials face conditions found nowhere else in Texas.</p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Our metal roofing systems are specifically designed for West Texas conditions. We use enhanced corrosion protection, superior fastening systems, and advanced coatings that resist the environmental stresses unique to oil country and the Chihuahuan Desert region.</p>
                 <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
@@ -161,7 +161,7 @@ export default function MetalRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-orange-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Desert Wind & Sandstorm Protection</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Desert Wind & Sandstorm Protection?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Midland's desert location means constant wind exposure and frequent sandstorms. Our metal roofing systems are engineered to withstand these abrasive conditions while maintaining structural integrity.</p>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -214,7 +214,7 @@ export default function MetalRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Industrial Environment Considerations</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Industrial Environment Considerations?</h2>
             <div className="max-w-6xl mx-auto">
               <p className="text-lg text-gray-700 mb-8 text-center">Midland's oil and gas industry creates unique environmental challenges for roofing materials. Our metal systems are engineered to resist industrial emissions and maintain performance in these demanding conditions.</p>
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
@@ -276,7 +276,7 @@ export default function MetalRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Energy Efficiency in Desert Climate</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-lg text-gray-700 mb-8 text-center">Midland's desert climate means extreme cooling costs and intense solar exposure. Our metal roofing systems maximize energy efficiency to combat these challenges.</p>
               <div className="grid lg:grid-cols-2 gap-12">
@@ -333,7 +333,7 @@ export default function MetalRoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Midland Properties Need Metal Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Does Midland Properties Need Metal Roofing?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -414,7 +414,7 @@ export default function MetalRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-orange-600 text-white p-12 rounded-3xl">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Our Midland Installation Process</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center">How Does the Midland Installation Process Work?</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="bg-white text-orange-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>

@@ -217,7 +217,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Understanding Wind Damage in Lubbock's South Plains Environment
+              How Does Understanding Wind Damage in Lubbock's South Plains Environment Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Lubbock's position at 3,256 feet elevation on the South Plains creates a unique wind environment distinct from other Texas regions. Unlike coastal areas with consistent directional winds, Lubbock experiences multi-directional wind events from various weather systems. The city averages 12.8 mph sustained winds year-round, with spring months (March-May) seeing averages exceed 15 mph. NOAA records show Lubbock experiences wind gusts over 50 mph approximately 25-30 times annually, with peak wind season occurring during late spring frontal passages and summer thunderstorm complexes.
@@ -279,7 +279,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Seasonal Wind Patterns Affecting Lubbock Roofs
+              What Are the Seasonal Wind Patterns Affecting Lubbock Roofs?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-xl shadow-lg">
@@ -331,7 +331,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind Damage Patterns Specific to South Plains Conditions
+              How Does Wind Damage Patterns Specific to South Plains Conditions Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-slate-600">
@@ -406,7 +406,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind Damage Insurance Coverage for Lubbock Properties
+              How Does Wind Damage Insurance Coverage for Lubbock Properties Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg">
@@ -465,7 +465,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind-Resistant Roofing Solutions for South Plains Conditions
+              What Does Wind-Resistant Roofing Solutions for South Plains Conditions Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg">

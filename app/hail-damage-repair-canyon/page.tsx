@@ -142,7 +142,7 @@ export default function HailDamageRepairCanyonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Canyon Properties Need Expert Hail Damage Repair</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Canyon Properties Need Expert Hail Damage Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon, the county seat of Randall County, is a vibrant college town of nearly 15,000 residents that serves as the southern anchor of the Amarillo metropolitan area. Home to West Texas A&M University—with over 10,000 students—and the stunning Panhandle-Plains Historical Museum, Canyon combines small-town charm with big-time weather challenges that affect both residential and university properties.
             </p>
@@ -304,7 +304,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Randall County Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Randall County Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-red-600 mb-2">8-12</div>
@@ -332,7 +332,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Texas Hail Belt: Canyon's Storm Profile</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Texas Hail Belt: Canyon's Storm Profile?</h2>
             <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Canyon sits squarely within the notorious "Texas Hail Belt"—a 300-mile-wide corridor stretching from the Red River Valley to Central Texas where atmospheric conditions create perfect hail-forming environments. This region experiences the highest frequency of large hail (1+ inches) anywhere in North America.
@@ -393,7 +393,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims: What Canyon Homeowners Need to Know</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Is the Insurance Claims?</h2>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div>
@@ -447,7 +447,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Canyon Hail Damage Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Canyon Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔍</div>
@@ -485,7 +485,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-6">Class 4 Shingles: Smart Choice for Canyon</h2>
+            <h2 className="text-3xl font-bold mb-6">What Is the Class 4 Shingles?</h2>
             <p className="text-lg mb-6 leading-relaxed">
               For Canyon homes facing Panhandle weather, Class 4 impact-resistant shingles provide superior protection against the severe hail common to Randall County.
             </p>
@@ -519,7 +519,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Understanding Canyon's Hail Patterns</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Should You Know About Canyon's Hail Patterns?</h2>
             
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-indigo-600 to-blue-700 text-white p-8 rounded-xl shadow-lg mb-8">
@@ -624,7 +624,7 @@ export default function HailDamageRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Comprehensive Canyon Hail Damage FAQs</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Canyon Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do I know if my Canyon roof has hail damage?</AccordionTrigger>

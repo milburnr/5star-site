@@ -220,7 +220,7 @@ export default function RoofRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Canyon's Roof Repair Specialists
+              What Makes Our Canyon Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo Duro Canyon with High Plains wind exposure—demand superior roofing materials and expert installation.
@@ -297,7 +297,7 @@ export default function RoofRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Canyon Roof Repair Services We Provide
+              What Does Canyon Roof Repair Services We Provide Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
@@ -357,7 +357,7 @@ export default function RoofRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Canyon's Unique Geographic Challenges
+              What Are Canyon's Unique Geographic Challenges?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -405,7 +405,7 @@ export default function RoofRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Our Canyon Roof Repair Process
+              How Does the Canyon Roof Repair Process Work?
             </h2>
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">

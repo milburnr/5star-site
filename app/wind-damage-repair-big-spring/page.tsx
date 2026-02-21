@@ -168,7 +168,7 @@ export default function WindDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Big Spring's Expert Wind Damage Repair Specialists
+              How Does Big Spring's Expert Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Big Spring, Texas, positioned along Interstate 20 at an elevation of 2,398 feet, sits directly in the path of some of West Texas's most destructive wind events. This strategic location where the Caprock meets the rolling plains creates a natural wind acceleration zone, producing frequent derechos with sustained winds of 75-95 MPH, supercell thunderstorms generating microbursts exceeding 110 MPH, and straight-line wind events that have recorded gusts over 120 MPH. The convergence of dry air masses from the High Plains with moist Gulf air creates explosive atmospheric conditions that generate severe convective systems throughout spring and fall seasons.
@@ -285,7 +285,7 @@ export default function WindDamageRepairBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Big Spring Wind Damage Repair Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Big Spring Wind Damage Repair Process Work?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-cyan-50 to-white p-6 rounded-2xl">

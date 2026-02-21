@@ -115,7 +115,7 @@ export default function ResidentialRoofingPerrytonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Perryton's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Perryton a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Perryton and Ochiltree County, serving the "Wheatheart of the Plains" at the Texas-Oklahoma-Kansas tri-state junction. This unique agricultural and energy hub presents distinct roofing challenges from expansive wheat fields, active wind farms, and the convergence of three state weather systems.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Perryton's 8,800 residents with expert installations designed for High Plains agricultural conditions. Our team understands the specific needs of farming families, energy workers, and the established community that has thrived here for generations.</p>
             
@@ -156,7 +156,7 @@ export default function ResidentialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Roofing for Agricultural & Energy Communities</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Specialized Roofing for Agricultural & Energy Communities?</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -221,7 +221,7 @@ export default function ResidentialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Wheatheart of the Plains Chooses 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Wheatheart of the Plains Chooses 5 Star Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -322,7 +322,7 @@ export default function ResidentialRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Agricultural Season Coordination & Planning</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Agricultural Season Coordination & Planning?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>

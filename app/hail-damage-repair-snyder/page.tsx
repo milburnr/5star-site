@@ -115,7 +115,7 @@ export default function HailDamageRepairSnyderPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Snyder's Hail Damage Repair Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Snyder's Hail Damage Repair Specialists Look Like?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional hail damage repair throughout Snyder and surrounding areas. We understand Texas weather challenges and specialize in comprehensive hail damage assessment, insurance claims, and expert repair solutions designed for West Texas conditions.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">Since 2014, we've served Snyder with expert hail damage repairs, comprehensive insurance claim support, and outstanding customer service. We handle all permits, insurance documentation, and warranty services. Free hail damage inspections available.</p>
 
@@ -136,7 +136,7 @@ export default function HailDamageRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Professional Hail Damage Assessment Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Professional Hail Damage Assessment Process Work?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                 <div className="text-4xl mb-4 text-blue-600">🔍</div>
@@ -180,7 +180,7 @@ export default function HailDamageRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Types of Hail Damage in Snyder Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Types of Hail Damage in Snyder Properties Look Like?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Understanding different types of hail damage helps property owners recognize when professional assessment and repair are necessary.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -219,7 +219,7 @@ export default function HailDamageRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance Claim Success Strategies</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Insurance Claims Process Work in Snyder?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Maximizing insurance coverage for hail damage requires professional documentation, strategic claim presentation, and experienced adjuster interaction.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -252,7 +252,7 @@ export default function HailDamageRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Impact-Resistant Roofing Upgrades</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Impact-Resistant Roofing Upgrades Include?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Post-hail damage repair presents an opportunity to upgrade to impact-resistant roofing systems that provide superior protection and insurance benefits.</p>
               <div className="grid md:grid-cols-3 gap-6">
@@ -314,7 +314,7 @@ export default function HailDamageRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Post-Storm Response and Timeline</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Our Storm Response Work in Snyder?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Understanding the post-storm timeline helps property owners take appropriate action for successful hail damage claims and repairs.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -347,7 +347,7 @@ export default function HailDamageRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Hail Damage Repair in Snyder</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Hail Damage Repair in Snyder?</h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">

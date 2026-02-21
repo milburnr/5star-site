@@ -221,7 +221,7 @@ export default function WindDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Borger's Wind Damage Repair Specialists
+              How Does Borger's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger faces some of Texas's most extreme wind conditions as an industrial city in the High Plains. Sustained winds of 25-35 mph are normal, while severe weather brings gusts exceeding 80 mph. The Phillips 66 refinery and industrial infrastructure create additional wind turbulence that can amplify damage. Properties throughout Hutchinson County experience constant wind stress that gradually weakens roofing systems, making them vulnerable to catastrophic failure during severe weather events.
@@ -235,7 +235,7 @@ export default function WindDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Industrial Wind Effects in Borger
+              Industrial Wind Effects in Borger?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -263,7 +263,7 @@ export default function WindDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind Damage Patterns in Borger Properties
+              How Does Wind Damage Patterns in Borger Properties Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-500">
@@ -312,7 +312,7 @@ export default function WindDamageRepairBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Enhanced Wind Resistance Solutions
+              Enhanced Wind Resistance Solutions?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

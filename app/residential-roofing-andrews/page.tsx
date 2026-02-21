@@ -115,7 +115,7 @@ export default function ResidentialRoofingAndrewsPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Andrews's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Andrews a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Andrews, Texas sits in the heart of the Permian Basin oil region, where hardworking families deserve reliable roofing protection from West Texas weather extremes. Our residential roofing services protect Andrews homes from intense summer heat, sudden thunderstorms, hail, and the sandstorms that sweep across Andrews County's plains.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've been the trusted roofing partner for Andrews families, oil industry workers, and retirees who call this West Texas community home. We understand the unique challenges facing Andrews homeowners – from the extreme temperature swings that cause thermal expansion stress to the sudden severe weather that can roll in from the Llano Estacado.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Located just 30 miles northwest of Midland and serving as Andrews County's seat, Andrews experiences the full force of West Texas weather. Our team specializes in roofing solutions that withstand winds exceeding 70 mph, golf ball-sized hail, and temperature variations that can swing 40 degrees in a single day during spring months.</p>
@@ -124,7 +124,7 @@ export default function ResidentialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Andrews Weather Challenges & Roofing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Andrews Weather Challenges & Roofing Solutions Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">West Texas Hail Season Protection</h3>
@@ -152,7 +152,7 @@ export default function ResidentialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Comprehensive Residential Roofing Services for Andrews</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Our Comprehensive Residential Roofing Services for Andrews Include?</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border border-blue-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Complete Roof Replacement</h3>
@@ -193,7 +193,7 @@ export default function ResidentialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Andrews Community Focus</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does 5 Star Roofing Serve the Andrews Community?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
@@ -233,7 +233,7 @@ export default function ResidentialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Premium Materials for Andrews Climate</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Premium Roofing Materials Are Available in Andrews?</h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
@@ -285,7 +285,7 @@ export default function ResidentialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Insurance Claims & Financing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Insurance Claims & Financing Solutions Work?</h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-8 rounded-xl shadow-md">

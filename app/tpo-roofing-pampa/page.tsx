@@ -219,7 +219,7 @@ export default function TpoRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Pampa's Tpo Roofing Specialists
+              What Makes Our Pampa Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Pampa's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial/ranching environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
@@ -233,7 +233,7 @@ export default function TpoRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Pampa Oil & Gas Industry Choose TPO Roofing
+              Why Pampa Oil & Gas Industry Choose TPO Roofing?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -271,7 +271,7 @@ export default function TpoRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Industrial TPO Systems for Pampa Facilities
+              Industrial TPO Systems for Pampa Facilities?
             </h2>
             <div className="grid md:grid-cols-1 gap-6 mb-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -313,7 +313,7 @@ export default function TpoRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency for Pampa Industrial Operations
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
               <div className="grid md:grid-cols-2 gap-8">
@@ -353,7 +353,7 @@ export default function TpoRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              TPO Roofing FAQs - Pampa, TX
+              What Does TPO Roofing FAQs - Pampa, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

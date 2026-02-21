@@ -206,7 +206,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Perryton's Storm Damage Repair Experts
+              What Does Perryton's Storm Damage Repair Experts Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               As the northernmost city in the Texas Panhandle, Perryton experiences severe weather—7-9 annual hailstorms with baseball-sized hail, straight-line winds exceeding 70 mph, torrential rainfall, and extreme agricultural exposure in wheat country. These storms don't just damage roofs; they can compromise your entire roofing system in minutes. Delayed repairs lead to interior water damage, mold growth, structural issues, and exponentially higher costs.
@@ -220,7 +220,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Northernmost Panhandle Storm Exposure
+              Northernmost Panhandle Storm Exposure?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -248,7 +248,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Perryton storm response Protocol
+              How Does Our Storm Response Work in Perryton?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
@@ -288,7 +288,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Agricultural Storm Damage Specialization
+              What Agricultural Storm Damage Specialization?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

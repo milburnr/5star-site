@@ -224,7 +224,7 @@ export default function RoofRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's Premier Roof Repair Specialists
+              What Makes Snyder a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Snyder, Texas, positioned at 2,316 feet elevation in Scurry County, faces severe West Texas weather that challenges even the most robust roofing systems. This historic town experiences 7-9 devastating hailstorms annually, with spring supercells producing hail up to golf ball-size. Combined with sustained winds reaching 70+ mph, temperature swings from -8°F to 112°F, and intense solar radiation, Snyder properties demand specialized roofing expertise.
@@ -328,7 +328,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">West Texas Agricultural Roofing Specialization</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What West Texas Agricultural Roofing Specialization?</h2>
             <p className="text-lg text-gray-700 mb-8">Our expertise extends beyond residential properties to serve Scurry County's vital agricultural infrastructure with specialized solutions designed for working environments.</p>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
@@ -402,7 +402,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Comprehensive West Texas Weather Analysis</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Does Our Comprehensive West Texas Weather Analysis Include?</h2>
             <p className="text-lg text-gray-700 mb-8">Understanding Snyder's position in the convergence zone where different air masses create some of Texas's most intense weather patterns.</p>
             
             <div className="grid lg:grid-cols-3 gap-6 mb-8">
@@ -473,7 +473,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Scurry County Communities & Coverage Areas</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Areas Do We Cover Near Snyder?</h2>
             <p className="text-lg text-gray-700 mb-8">Comprehensive roofing services throughout Snyder and the wider Scurry County agricultural region.</p>
             
             <div className="grid lg:grid-cols-4 gap-6 mb-8">
@@ -523,7 +523,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Agricultural Roofing Material Specifications</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Agricultural Roofing Materials Are Available?</h2>
             <p className="text-lg text-gray-700 mb-8">Specialized material systems designed for agricultural environments and West Texas weather extremes.</p>
             
             <div className="space-y-6">
@@ -608,7 +608,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Comprehensive West Texas Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the Comprehensive West Texas Repair Process Work?</h2>
             <p className="text-lg text-gray-700 mb-8 text-center">Our systematic approach addresses the full range of agricultural and residential roofing challenges in Scurry County.</p>
             
             <div className="space-y-6">
@@ -702,7 +702,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Scurry County Roofing Investment Analysis</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Does Scurry County Roofing Investment Analysis Include?</h2>
             <p className="text-lg text-gray-700 mb-8">Understanding costs and value in the context of agricultural operations and West Texas weather challenges.</p>
             
             <div className="grid lg:grid-cols-3 gap-8 mb-8">
@@ -826,7 +826,7 @@ export default function RoofRepairSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Agricultural Services</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">What Related Agricultural Services?</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Barn & Livestock Roofing</h3>

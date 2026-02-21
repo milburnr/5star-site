@@ -115,7 +115,7 @@ export default function RoofReplacementBorgerPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Borger's Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Borger Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof replacement throughout Borger and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings that define the Texas Panhandle climate.</p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">Since 2014, we've served Borger's 11,892 residents with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation for this historic petrochemical center.</p>
 
@@ -162,7 +162,7 @@ export default function RoofReplacementBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Borger Roof Replacement Value Analysis 2025</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Borger Roof Replacement Value Analysis 2025 Include?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Strategic investment guidance for Borger property owners looking to maximize value in a transitioning market.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -223,7 +223,7 @@ export default function RoofReplacementBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Roofing Materials Engineered for Panhandle Extremes</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Roofing Materials Engineered for Panhandle Extremes Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Borger's location in the Texas Panhandle demands roofing materials capable of withstanding some of the state's most extreme weather conditions.</p>
 
             <div className="space-y-8">
@@ -319,7 +319,7 @@ export default function RoofReplacementBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-amber-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-yellow-800 text-center">Borger Investment Strategy: Maximizing Value in Transition</h2>
+            <h2 className="text-4xl font-bold mb-8 text-yellow-800 text-center">What Is the Borger Investment Strategy?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-yellow-700 mb-4">Market Positioning Through Quality</h3>

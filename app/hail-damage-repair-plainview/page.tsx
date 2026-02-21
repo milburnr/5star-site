@@ -141,7 +141,7 @@ export default function HailDamageRepairPlainviewPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Plainview's Unique Weather and Economic Challenges</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Are Plainview's Unique Weather and Economic Challenges?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Plainview, with a population of 20,187 according to the 2020 census, stands as the county seat of Hale County in the heart of the Llano Estacado—the vast, flat high plains region that dominates this part of Texas. The city's name perfectly captures its geographic reality: a plain view across endless horizons where severe weather systems can be seen approaching from miles away.
             </p>
@@ -159,7 +159,7 @@ export default function HailDamageRepairPlainviewPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Llano Estacado Weather Patterns</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Weather Extremes Affect Roofing in Plainview?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-red-600 mb-2">27-91°F</div>
@@ -208,7 +208,7 @@ export default function HailDamageRepairPlainviewPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Plainview's Agricultural Heritage and Challenges</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Plainview's Agricultural Heritage and Challenges?</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               As the cotton capital of the Llano Estacado, Plainview has built its economy around agricultural production, particularly cotton farming that benefits from extensive irrigation systems. The city was once home to Jimmy Dean, the sausage king, reflecting its deep agricultural roots. However, recent decades have brought both challenges and adaptations.
             </p>
@@ -242,7 +242,7 @@ export default function HailDamageRepairPlainviewPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Plainview Hail Damage Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Plainview Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔍</div>
@@ -280,7 +280,7 @@ export default function HailDamageRepairPlainviewPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-6">Class 4 Shingles: Essential for Plainview's Climate</h2>
+            <h2 className="text-3xl font-bold mb-6">What Are Class 4 Shingles: Essential for Plainview's Climate?</h2>
             <p className="text-lg mb-6 leading-relaxed">
               Plainview's location in the heart of the Llano Estacado exposes properties to some of Texas's most severe weather. Class 4 impact-resistant shingles provide critical protection against the large hail that regularly affects this High Plains region.
             </p>
@@ -359,7 +359,7 @@ export default function HailDamageRepairPlainviewPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Plainview Hail Damage FAQs</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Plainview Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do cotton warehouses and agricultural buildings affect roofing challenges?</AccordionTrigger>
@@ -406,7 +406,7 @@ export default function HailDamageRepairPlainviewPage() {
         </FadeIn>
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Protecting Plainview's Agricultural Legacy</h2>
+          <h2 className="text-4xl font-bold mb-6">What Protecting Plainview's Agricultural Legacy?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">From family homes to cotton warehouses, from Wayland Baptist University to agricultural facilities—we protect the infrastructure that keeps Plainview thriving. Free inspections for all property types.</p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">Call (806) 622-6041</a>

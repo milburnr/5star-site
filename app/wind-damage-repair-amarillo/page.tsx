@@ -245,7 +245,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Understanding Wind Damage in the Texas Panhandle
+              How Does Understanding Wind Damage in the Texas Panhandle Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Amarillo's location at 3,605 feet above sea level on the high plains creates perfect conditions for extreme wind events. The city averages 14.1 mph sustained winds year-round—higher than 98% of cities nationwide. With zero natural windbreaks across hundreds of miles of flat terrain, wind accelerates freely from the north and west. Strong frontal systems regularly produce gusts of 50-80 mph, with recorded gusts exceeding 100 mph during severe weather outbreaks. NOAA weather data shows Amarillo experiences 170+ days annually with sustained winds above 15 mph, making it one of the windiest metropolitan areas in America.
@@ -304,7 +304,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Seasonal Wind Patterns & Roofing Impact in Amarillo
+              What Are the Seasonal Wind Patterns & Roofing Impact in Amarillo?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-xl shadow-lg">
@@ -357,7 +357,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Detailed Wind Damage Patterns on Amarillo Roofs
+              How Does Detailed Wind Damage Patterns on Amarillo Roofs Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-slate-600">
@@ -459,7 +459,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind Damage Insurance Coverage in Amarillo
+              How Does Wind Damage Insurance Coverage in Amarillo Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg">
@@ -518,7 +518,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind-Resistant Roofing Materials for Amarillo
+              What Does Wind-Resistant Roofing Materials for Amarillo Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg">
@@ -574,7 +574,7 @@ export default function WindDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-emerald-50 p-12 rounded-3xl shadow-lg border-l-4 border-green-500">
             <h2 className="text-3xl font-bold mb-6 text-green-900">
-              Our Wind Damage Repair Process
+              How Does the Wind Damage Repair Process Work?
             </h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl shadow-md">

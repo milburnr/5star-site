@@ -185,7 +185,7 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Why Midland's Permian Basin Climate Demands Expert Roof Replacement
+              Why Midland's Permian Basin Climate Demands Expert Roof Replacement?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               As the heart of America's energy industry, Midland faces unique roofing challenges in the harsh Permian Basin climate. Midland County's extreme weather patterns, combined with oil boom construction cycles, create specific roof replacement needs for both residential and commercial properties.
@@ -228,7 +228,7 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Midland's Oil Boom Housing Market & Roof Considerations
+              What Are Midland's Oil Boom Housing Market & Roof Considerations?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -299,7 +299,7 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              Comprehensive Roof Replacement Solutions for Midland
+              What Does Our Comprehensive Roof Replacement Solutions for Midland Include?
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -351,7 +351,7 @@ export default function RoofReplacementMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Roofing Systems Engineered for Permian Basin Conditions
+              What Does Roofing Systems Engineered for Permian Basin Conditions Involve?
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-8">

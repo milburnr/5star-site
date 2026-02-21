@@ -115,7 +115,7 @@ export default function ResidentialRoofingLevellandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Levelland's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Levelland a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Levelland and Hockley County. As the county seat and home to South Plains College, Levelland presents unique roofing challenges from diverse housing stock ranging from historic downtown properties to modern college housing developments and expanding suburban neighborhoods.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Levelland's 13,500 residents with expert installations, comprehensive warranties, and outstanding customer service. We understand the specific needs of college town housing, rental properties, and family homes throughout this growing community.</p>
             
@@ -156,7 +156,7 @@ export default function ResidentialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Comprehensive Roofing Services for Levelland Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Our Comprehensive Roofing Services for Levelland Properties Include?</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -221,7 +221,7 @@ export default function ResidentialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Levelland Property Owners Choose 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Levelland Property Owners Choose 5 Star Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -321,7 +321,7 @@ export default function ResidentialRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Student Housing & Rental Property Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Student Housing & Rental Property Roofing Involve?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>

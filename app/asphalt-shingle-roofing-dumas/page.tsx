@@ -220,7 +220,7 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Dumas's Asphalt Shingle Roofing Specialists
+              What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Agricultural Community Roofing Solutions for Dumas
+              What Agricultural Community Roofing Solutions for Dumas?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -273,7 +273,7 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Chemical-Resistant Shingle Technology for Agricultural Areas
+              What Chemical-Resistant Shingle Technology for Agricultural Areas?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -319,7 +319,7 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Cost-Effective Solutions for Agricultural Families
+              What Cost-Effective Solutions for Agricultural Families?
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -359,7 +359,7 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Asphalt Shingle Roofing FAQs - Dumas, TX
+              What Does Asphalt Shingle Roofing FAQs - Dumas, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

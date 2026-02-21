@@ -185,7 +185,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Amarillo's Climate Demands Expert Roof Replacement
+              Why Amarillo's Climate Demands Expert Roof Replacement?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Amarillo's location in the Texas Panhandle creates one of America's most challenging roofing environments. Potter County faces extreme conditions year-round that accelerate roof deterioration and demand premium materials designed for extreme weather resilience.
@@ -228,7 +228,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Amarillo's Unique Housing Market & Roofing Challenges
+              What Does Amarillo's Unique Housing Market & Roofing Challenges Involve?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -275,7 +275,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              Complete Roof Replacement Process in Amarillo
+              What Does Complete Roof Replacement Process in Amarillo Involve?
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -327,7 +327,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Premium Material Options for Amarillo Climate
+              What Premium Roofing Materials Are Available in Amarillo?
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-8">
@@ -415,7 +415,7 @@ export default function RoofReplacementAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              Insurance Claims & Financing in Amarillo
+              How Do Insurance Claims & Financing in Amarillo Work?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">

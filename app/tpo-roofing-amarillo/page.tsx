@@ -115,7 +115,7 @@ export default function TPORoofingAmarilloPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Amarillo's Premier TPO Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Amarillo a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional TPO roofing throughout Amarillo and the greater Texas Panhandle region. As the Panhandle's commercial roofing experts, we understand the unique weather challenges facing Amarillo businesses - from severe hailstorms and high winds to extreme temperature fluctuations and intense summer heat.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Amarillo's diverse commercial landscape with expert TPO installations, comprehensive warranties, and outstanding customer service. Our local team understands Amarillo's building codes, permitting requirements, and insurance protocols. We handle all permits, insurance claims, and warranty documentation while providing the highest quality commercial roofing solutions.</p>
             
@@ -134,7 +134,7 @@ export default function TPORoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why TPO Roofing is Perfect for Amarillo</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why TPO Roofing is Perfect for Amarillo?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">☀️ Energy Efficiency</h3>
@@ -172,7 +172,7 @@ export default function TPORoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Amarillo Commercial Roofing Applications</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Amarillo Commercial Roofing Applications Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Industries We Serve</h3>
@@ -218,7 +218,7 @@ export default function TPORoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Our Complete TPO Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Complete TPO Installation Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
@@ -296,7 +296,7 @@ export default function TPORoofingAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Areas We Serve Around Amarillo</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Areas Do We Serve? Around Amarillo</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-gold mb-4">Amarillo Metro</h3>

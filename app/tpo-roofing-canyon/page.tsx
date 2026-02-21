@@ -219,7 +219,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Canyon's Tpo Roofing Specialists
+              What Makes Our Canyon Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo Duro Canyon with High Plains wind exposure—demand superior roofing materials and expert installation.
@@ -233,7 +233,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Canyon Businesses Choose TPO Roofing
+              Why Do Canyon Businesses Choose TPO Roofing?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -272,7 +272,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Commercial TPO Systems for Canyon Properties
+              Commercial TPO Systems for Canyon Properties?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -318,7 +318,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency for Canyon Commercial Buildings
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">Cool Roof Technology</h3>
@@ -375,7 +375,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              TPO Installation Process for Canyon Commercial Properties
+              What Does TPO Installation Process for Canyon Commercial Properties Include?
             </h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
@@ -454,7 +454,7 @@ export default function TpoRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              TPO Roofing FAQs - Canyon, TX
+              What Does TPO Roofing FAQs - Canyon, TX Include?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

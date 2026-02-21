@@ -185,7 +185,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Why Lubbock's Climate Demands Expert Roof Replacement
+              Why Lubbock's Climate Demands Expert Roof Replacement?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Lubbock's position in the heart of the South Plains creates unique roofing challenges. As the economic and educational hub of West Texas, Lubbock County experiences severe weather patterns that demand premium roofing solutions designed for extreme conditions.
@@ -228,7 +228,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-10 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Lubbock Housing Market & Roof Replacement Considerations
+              What Does Lubbock Housing Market & Roof Replacement Considerations Involve?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -293,7 +293,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              Complete Roof Replacement Solutions for Lubbock
+              What Does Complete Roof Replacement Solutions for Lubbock Involve?
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -345,7 +345,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              Roofing Materials Engineered for Lubbock's Climate
+              What Does Roofing Materials Engineered for Lubbock's Climate Involve?
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-8">
@@ -433,7 +433,7 @@ export default function RoofReplacementLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              Insurance Claims & Financing in Lubbock
+              How Do Insurance Claims & Financing in Lubbock Work?
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">

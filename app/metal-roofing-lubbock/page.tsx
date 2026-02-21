@@ -115,7 +115,7 @@ export default function MetalRoofingLubbockPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Lubbock's Metal Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Lubbock Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional metal roofing throughout Lubbock and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Lubbock with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
           </section>
@@ -125,7 +125,7 @@ export default function MetalRoofingLubbockPage() {
           <section className="mb-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold mb-6 text-brand-brown">Built to Last in Lubbock's Harsh Climate</h2>
+                <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Are Built to Last in Lubbock's Harsh Climate?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">Lubbock's location on the Llano Estacado presents unique roofing challenges. Our metal roofing systems are specifically engineered to withstand the South Plains' notorious weather patterns, including severe thunderstorms, tornadoes, and dramatic temperature fluctuations.</p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">The Hub City experiences some of Texas's most extreme weather conditions. From devastating hailstorms to winds exceeding 80 mph, Lubbock demands roofing materials and installation techniques that go beyond standard specifications. Our metal roofing solutions deliver this enhanced performance.</p>
                 <div className="bg-red-50 p-6 rounded-xl border border-red-200">
@@ -161,7 +161,7 @@ export default function MetalRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Engineered for Lubbock's Wind Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Are Engineered for Lubbock's Wind Challenges?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Lubbock sits in the heart of "Tornado Alley," experiencing some of the nation's most severe wind events. Our metal roofing installations exceed local building requirements and provide superior protection.</p>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
@@ -213,7 +213,7 @@ export default function MetalRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Lubbock Weather Resistance Technology</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Lubbock Weather Resistance Technology?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8 rounded-xl">
@@ -274,7 +274,7 @@ export default function MetalRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Texas Tech & Lubbock Research Benefits</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Texas Tech & Lubbock Research Benefits?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 mb-6 text-center">Lubbock's proximity to Texas Tech University and its renowned Wind Science and Engineering Center provides us access to cutting-edge research in wind resistance and roofing performance.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -307,7 +307,7 @@ export default function MetalRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Energy Efficiency in the South Plains</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <p className="text-lg text-gray-700 mb-6">Lubbock's high plains location means intense sun exposure and significant cooling demands. Our metal roofing systems are designed to minimize energy costs through advanced reflective technology and strategic ventilation.</p>
@@ -361,7 +361,7 @@ export default function MetalRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Lubbock Homeowners Choose Metal Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Do Lubbock Homeowners Choose Metal Roofing?</h2>
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
@@ -438,7 +438,7 @@ export default function MetalRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-red-600 text-white p-12 rounded-3xl">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Our Lubbock Installation Process</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center">How Does the Lubbock Installation Process Work?</h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="bg-white text-red-600 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>

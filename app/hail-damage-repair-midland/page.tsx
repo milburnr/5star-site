@@ -199,7 +199,7 @@ export default function HailDamageRepairMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Why Midland Properties Need Expert Hail Damage Repair
+              Why Does Midland Properties Need Expert Hail Damage Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Midland sits at 2,780 feet elevation in the heart of the Permian Basin, where severe thunderstorms sweep across the West Texas plains with little warning. Midland County experiences an average of 6-8 significant hail events annually, with some storms producing hail exceeding 2 inches in diameter—large enough to cause immediate, catastrophic roof damage.
@@ -217,7 +217,7 @@ export default function HailDamageRepairMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Midland County Weather: Why Your Roof Is At Risk
+              What Is the Midland County Weather?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -251,7 +251,7 @@ export default function HailDamageRepairMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Our Midland Hail Damage Repair Process
+              How Does the Midland Hail Damage Repair Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
@@ -292,7 +292,7 @@ export default function HailDamageRepairMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-6">
-              Class 4 Impact-Resistant Shingles: The Smart Choice for Midland
+              What Is the Class 4 Impact-Resistant Shingles?
             </h2>
             <p className="text-lg mb-6 leading-relaxed">
               After experiencing hail damage, many Midland homeowners upgrade to Class 4 impact-resistant shingles. These premium shingles are tested to withstand 2-inch diameter steel ball impacts under UL 2218 standards—the same size as the largest hail commonly seen in Permian Basin storms.

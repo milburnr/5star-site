@@ -217,7 +217,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Understanding Permian Basin Wind Patterns and Roof Damage
+              What Does Understanding Permian Basin Wind Patterns and Roof Damage Involve?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Midland's location at 2,779 feet elevation in the Permian Basin creates a distinctive wind environment shaped by vast oil field expanses and minimal terrain obstacles. The city experiences an average 13.5 mph sustained wind speed year-round, with spring months (March-May) averaging 16.8 mph sustained winds. NOAA meteorological data shows Midland encounters wind gusts exceeding 50 mph approximately 20-25 times annually, with peak intensity occurring during dry line thunderstorm development and cold front passages. The flat Permian Basin terrain allows wind systems to accelerate unimpeded across hundreds of square miles of open oilfield territory.
@@ -306,7 +306,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Seasonal Wind Patterns in the Permian Basin
+              What Are the Seasonal Wind Patterns in the Permian Basin?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
               <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-xl shadow-lg">
@@ -358,7 +358,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Permian Basin Wind Damage Patterns and Industrial Influences
+              How Does Permian Basin Wind Damage Patterns and Industrial Influences Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-slate-600">
@@ -433,7 +433,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Wind Damage Insurance Coverage in the Permian Basin
+              How Does Wind Damage Insurance Coverage in the Permian Basin Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl shadow-lg">
@@ -468,7 +468,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Industrial-Grade Wind-Resistant Roofing for Midland
+              What Does Industrial-Grade Wind-Resistant Roofing for Midland Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg">
@@ -497,7 +497,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Comprehensive FAQs - Midland Permian Basin Wind Damage
+              How Does Comprehensive FAQs - Midland Permian Basin Wind Damage Affect Your Roof?
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -578,7 +578,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Wind Damage Experts in Midland
+              How Does Wind Damage Experts in Midland Affect Your Roof?
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe

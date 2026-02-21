@@ -115,7 +115,7 @@ export default function RoofReplacementCanyonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Canyon's Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Canyon Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof replacement throughout Canyon and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings that characterize this unique university community.</p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">Since 2014, we've served Canyon's 16,457 residents with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation for this growing university town that's home to West Texas A&M University.</p>
 
@@ -162,7 +162,7 @@ export default function RoofReplacementCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Canyon Roof Replacement Investment Strategy 2025</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Canyon Roof Replacement Investment Strategy 2025 Include?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Tailored pricing for Canyon's diverse property types, from student housing to executive homes in this thriving university community.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -223,7 +223,7 @@ export default function RoofReplacementCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Roofing Materials for Canyon's Academic Community</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Roofing Materials for Canyon's Academic Community Include?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Material selection optimized for university town property types, from student housing durability to executive home aesthetics.</p>
 
             <div className="space-y-8">
@@ -319,7 +319,7 @@ export default function RoofReplacementCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-indigo-50 to-blue-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">The Canyon Advantage: Academic Stability Meets Texas Growth</h2>
+            <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">What Is The Canyon Advantage?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-indigo-700 mb-4">University Town Investment Security</h3>

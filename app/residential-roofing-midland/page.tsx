@@ -242,7 +242,7 @@ export default function ResidentialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Midland's Premier Residential Roofing Experts
+              What Does Midland's Premier Residential Roofing Experts Involve?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               In the heart of the Permian Basin oil fields, Midland represents Texas energy prosperity with some of the state's most valuable residential real estate. Home to petroleum executives and energy industry leaders, our city demands roofing solutions that match the quality of life oil country provides. With 144 documented hail reports and 125 radar-detected hail occasions, standard roofing materials simply cannot protect Midland's premium homes worth $350,000+.
@@ -256,7 +256,7 @@ export default function ResidentialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Midland's Most Prestigious Neighborhoods
+              What Are Midland's Most Prestigious Neighborhoods?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We provide expert residential roofing throughout Midland's most exclusive communities, where energy industry success has created Texas's premier residential districts:
@@ -305,7 +305,7 @@ export default function ResidentialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Why Energy Industry Families Choose Us
+              Why Energy Industry Families Choose Us?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-gray-600">
@@ -342,7 +342,7 @@ export default function ResidentialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding Midland Building Requirements
+              What Should You Know About Midland Building Requirements?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -381,7 +381,7 @@ export default function ResidentialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Permian Basin Weather Demands Superior Roofing
+              Why Permian Basin Weather Demands Superior Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Midland County sits at the epicenter of America's most productive oil fields, where geographic conditions that create energy wealth also generate extreme weather patterns. Your premium home faces unique environmental challenges:

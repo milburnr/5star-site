@@ -168,7 +168,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's TPO Roofing Specialists
+              What Makes Our Andrews Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Andrews's commercial and industrial properties require roofing solutions designed for the Permian Basin's extreme conditions. The region experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions that demand superior flat roof performance.
@@ -182,7 +182,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              TPO Roofing Excellence for Andrews Commercial Properties
+              What Does TPO Roofing Excellence for Andrews Commercial Properties Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
@@ -232,7 +232,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Commercial TPO Roofing Solutions for Andrews
+              What Does Commercial TPO Roofing Solutions for Andrews Involve?
             </h2>
             
             <div className="space-y-8">
@@ -329,7 +329,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Professional TPO Installation Process
+              How Does the Professional TPO Installation Process Work?
             </h2>
             
             <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl mb-8">
@@ -398,7 +398,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Energy Efficiency & Cost Savings for Commercial Buildings
+              How Does This Roofing Improve Energy Efficiency?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
@@ -471,7 +471,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Commercial Maintenance & Building Protection
+              What Does Commercial Maintenance & Building Protection Involve?
             </h2>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg">

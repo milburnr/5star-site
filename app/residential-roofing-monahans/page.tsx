@@ -115,7 +115,7 @@ export default function ResidentialRoofingMonahansPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Monahans's Premier Residential Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Monahans a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Monahans and Ward County, serving the heart of the Permian Basin. As a key oil industry hub, Monahans presents unique roofing challenges from extreme desert climate conditions, rapid population growth, and the demanding energy sector environment.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Monahans's 6,950 residents with expert installations designed for desert extremes. Our team understands the specific needs of oil field housing, permanent family residences, and the growing number of modern developments supporting the energy boom.</p>
             
@@ -156,7 +156,7 @@ export default function ResidentialRoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Roofing Services for Permian Basin Conditions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Specialized Roofing Services for Permian Basin Conditions Involve?</h2>
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
@@ -221,7 +221,7 @@ export default function ResidentialRoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Monahans Chooses 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Do Monahans Chooses 5 Star Roofing?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -321,7 +321,7 @@ export default function ResidentialRoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Desert Climate Roofing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Desert Climate Affect Your Roof?</h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>

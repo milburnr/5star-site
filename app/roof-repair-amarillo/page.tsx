@@ -105,7 +105,7 @@ export default function RoofRepairAmarilloPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Amarillo Roofs Need Specialized Care</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Amarillo Roofs Need Specialized Care?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Amarillo's position in the Texas Panhandle creates one of the most challenging roofing environments in the state. With a median home construction year of 1972, over 40% of the city's housing stock faces age-related roofing issues compounded by extreme weather conditions.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Our climate presents unique challenges: temperature swings from -10°F to 105°F cause severe expansion and contraction stress, constant winds averaging 15+ mph accelerate material degradation, and frequent hailstorms create both visible and hidden damage. These conditions demand specialized repair techniques and materials engineered for Texas Panhandle extremes.</p>
             
@@ -134,7 +134,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Amarillo Neighborhoods We Serve</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Amarillo Neighborhoods Do We Serve?</h2>
             <p className="text-lg text-gray-600 mb-8">Each Amarillo neighborhood presents unique roofing challenges based on construction era, architectural style, and exposure to prevailing winds.</p>
             
             <div className="grid lg:grid-cols-3 gap-6">
@@ -174,7 +174,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Our Comprehensive Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the Comprehensive Repair Process Work?</h2>
             <div className="grid lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
                 <div className="text-4xl mb-4">🔍</div>
@@ -202,7 +202,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-gray-50 to-white p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Common Roof Repairs in Amarillo</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Are the Most Common Roof Repairs in Amarillo?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Weather-Related Damage</h3>
@@ -228,7 +228,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Amarillo Roofing Costs & Value</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">What Does Roofing Cost in Amarillo?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">Amarillo's roofing costs are generally 15-20% below major metropolitan areas, but frequent weather damage creates unique market conditions.</p>
               
@@ -297,7 +297,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gray-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Seasonal Roofing Considerations in Amarillo</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Are the Seasonal Roofing Considerations in Amarillo?</h2>
             <p className="text-lg text-gray-700 mb-8">Understanding Amarillo's distinct seasonal patterns is crucial for effective roof maintenance and repair timing.</p>
             
             <div className="grid lg:grid-cols-4 gap-6 mb-8">
@@ -347,7 +347,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Amarillo Roof Material Performance Analysis</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Do Roofing Materials Perform in Amarillo?</h2>
             <p className="text-lg text-gray-700 mb-8">Different roofing materials perform uniquely in the Texas Panhandle's extreme climate conditions.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -392,7 +392,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Detailed Repair Process for Amarillo Homes</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does the Detailed Repair Process for Amarillo Homes Work?</h2>
             <p className="text-lg text-gray-700 mb-8">Our systematic approach ensures lasting repairs that withstand the Texas Panhandle's demanding climate.</p>
             
             <div className="space-y-6">
@@ -468,7 +468,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">Extended Warranty & Protection Plans</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">What Warranty and Protection Plans Are Available?</h2>
             <p className="text-lg text-gray-700 mb-8 text-center">Comprehensive coverage designed for Amarillo's challenging weather conditions.</p>
             
             <div className="grid lg:grid-cols-3 gap-8">
@@ -518,7 +518,7 @@ export default function RoofRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Insurance Claims Process for Amarillo</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does the Insurance Claims Process Work in Amarillo?</h2>
             <p className="text-lg text-gray-700 mb-8">We've successfully processed over 500 insurance claims in Potter County, understanding local requirements and common issues.</p>
             
             <div className="grid md:grid-cols-2 gap-8">

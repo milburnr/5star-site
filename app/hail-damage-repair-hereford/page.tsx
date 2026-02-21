@@ -141,7 +141,7 @@ export default function HailDamageRepairHerefordPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Hereford Needs Specialized Hail Damage Repair</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Hereford Need Specialized Hail Damage Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Hereford, Texas, with a population of 14,972, stands as a unique community in the Texas Panhandle. Named after the Hereford cattle brought to the region in 1898, this city has grown to become the unquestioned Beef Capital of the World, feeding more than one million head of cattle annually in the surrounding feedlots and ranches of Deaf Smith County.
             </p>
@@ -306,7 +306,7 @@ export default function HailDamageRepairHerefordPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Hereford's Severe Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Hereford's Severe Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-red-600 mb-2">48 mi</div>
@@ -355,7 +355,7 @@ export default function HailDamageRepairHerefordPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Hereford Hail Damage Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Hereford Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔍</div>
@@ -393,7 +393,7 @@ export default function HailDamageRepairHerefordPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-6">Protecting Hereford's Agricultural Investment</h2>
+            <h2 className="text-3xl font-bold mb-6">What Protecting Hereford's Agricultural Investment?</h2>
             <p className="text-lg mb-6 leading-relaxed">
               As the Beef Capital of the World, Hereford's agricultural facilities represent massive investments that require protection from severe weather. Our specialized agricultural roofing solutions protect the infrastructure that feeds millions.
             </p>
@@ -448,7 +448,7 @@ export default function HailDamageRepairHerefordPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Hereford Hail Damage FAQs</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Hereford Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How does Hereford's cattle industry affect roof damage claims?</AccordionTrigger>
@@ -495,7 +495,7 @@ export default function HailDamageRepairHerefordPage() {
         </FadeIn>
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Protecting Hereford's Agricultural Heritage</h2>
+          <h2 className="text-4xl font-bold mb-6">What Protecting Hereford's Agricultural Heritage?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">From family homes to feedlot facilities, we protect the infrastructure that makes Hereford the Beef Capital of the World. Free inspections for all property types.</p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">Call (806) 622-6041</a>

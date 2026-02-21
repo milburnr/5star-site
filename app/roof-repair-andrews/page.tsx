@@ -224,7 +224,7 @@ export default function RoofRepairAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Andrews's Premier Roof Repair Specialists
+              What Makes Andrews a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Andrews, Texas sits in the heart of Andrews County at an elevation of 3,176 feet, creating unique roofing challenges that demand specialized expertise. The Permian Basin's harsh climate brings 6-8 devastating hailstorms annually, sustained winds exceeding 60 mph, temperature swings from -5°F to 110°F, and intense UV radiation that can deteriorate roofing materials in just a few seasons.
@@ -281,7 +281,7 @@ export default function RoofRepairAndrewsPage() {
         
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Andrews Neighborhoods We Serve</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Andrews Neighborhoods Do We Serve?</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our Andrews roof repair services extend throughout every neighborhood and district in the city. From the established residential areas near Andrews Elementary School to the growing developments along NE Avenue A, we've built a reputation for quality workmanship and reliable service throughout Andrews County.
             </p>

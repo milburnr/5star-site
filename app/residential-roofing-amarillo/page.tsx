@@ -244,7 +244,7 @@ export default function ResidentialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Amarillo's Residential Roofing Experts
+              What Does Amarillo's Residential Roofing Experts Involve?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Living in the Texas Panhandle means your home faces some of America's most severe weather. Amarillo sits in "Hail Alley" with 131 severe hail days recorded since 2000, intense UV exposure, temperature extremes from 13°F to 99°F, and sustained winds averaging 14.3 mph (highest in Texas). Standard shingles simply don't cut it here—you need roofing materials engineered for Potter County's extreme conditions.
@@ -258,7 +258,7 @@ export default function ResidentialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Amarillo Neighborhoods We Serve
+              Amarillo Neighborhoods Do We Serve?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We provide expert residential roofing throughout Amarillo's diverse neighborhoods, each with unique architectural character and roofing needs:
@@ -307,7 +307,7 @@ export default function ResidentialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Why Amarillo Homeowners Choose Us
+              Why Do Amarillo Homeowners Choose Us?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold">
@@ -344,7 +344,7 @@ export default function ResidentialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding Amarillo Building Codes
+              What Should You Know About Amarillo Building Codes?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -385,7 +385,7 @@ export default function ResidentialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Amarillo Homes Need Superior Roofing
+              Why Does Amarillo Homes Need Superior Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Potter County's location in the Texas Panhandle creates one of America's most challenging roofing environments. Your home must withstand extreme conditions year-round:

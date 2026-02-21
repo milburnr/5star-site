@@ -115,7 +115,7 @@ export default function CommercialRoofingPampaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Pampa's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Pampa Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Pampa and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">Since 2014, we've served Pampa with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
 
@@ -136,7 +136,7 @@ export default function CommercialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Commercial Roofing Systems for Pampa Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Systems for Pampa Properties Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">TPO Roofing Systems</h3>
@@ -177,7 +177,7 @@ export default function CommercialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Specialized Services for Pampa Businesses</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Specialized Roofing Services Are Available in Pampa?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
@@ -213,7 +213,7 @@ export default function CommercialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Energy Efficiency Solutions for Pampa Businesses</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Reduce energy costs and improve building performance with advanced commercial roofing technologies designed for Texas climate conditions.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -244,7 +244,7 @@ export default function CommercialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Quality Assurance and Project Management</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do We Ensure Quality on Every Project?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Our comprehensive quality assurance program ensures every Pampa commercial roofing project meets the highest standards for workmanship and performance.</p>
               <div className="grid md:grid-cols-3 gap-6">
@@ -310,7 +310,7 @@ export default function CommercialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Compliance Standards</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Compliance Standards?</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Safety is our top priority on every Pampa commercial roofing project, with comprehensive safety protocols and compliance standards.</p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -341,7 +341,7 @@ export default function CommercialRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Pampa Commercial Project</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Pampa Commercial Project?</h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">

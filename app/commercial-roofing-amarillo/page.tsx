@@ -242,7 +242,7 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Amarillo's Commercial Roofing Specialists
+              What Makes Our Amarillo Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Commercial buildings in the Texas Panhandle face relentless weather—8-12 hailstorms annually, extreme temperature swings, intense UV radiation, and sustained winds. Your roof isn't just overhead protection; it's a critical business asset protecting inventory, equipment, and operations. Downtime from roof leaks costs Amarillo businesses thousands per day in lost productivity.
@@ -256,7 +256,7 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Commercial Roofing Systems for Amarillo
+              What Does Commercial Roofing Systems for Amarillo Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
@@ -307,7 +307,7 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Commercial Service Areas in Amarillo
+              What Commercial Areas Do We Serve in Amarillo?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We provide commercial roofing services throughout Amarillo's diverse business districts, from historic downtown to modern commercial developments:
@@ -340,7 +340,7 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding Amarillo Building Codes
+              What Should You Know About Amarillo Building Codes?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -381,7 +381,7 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Amarillo's Climate Demands Superior Commercial Roofing
+              Why Amarillo's Climate Demands Superior Commercial Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Amarillo's location in the Texas Panhandle creates one of the most challenging roofing environments in the United States. Your commercial roof must withstand extreme conditions year-round:
@@ -426,7 +426,7 @@ export default function CommercialRoofingAmarilloPage() {
             <div className="flex gap-6 items-center">
               <div className="text-6xl">🚨</div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Commercial Roofing</h2>
+                <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Storm damage or active leak threatening your Amarillo business? We provide prompt response with temporary repairs, tarping, and leak mitigation. Minimize inventory damage, protect equipment, and keep operations running.
                 </p>
@@ -522,7 +522,7 @@ export default function CommercialRoofingAmarilloPage() {
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Protect Your Amarillo Business</h2>
+          <h2 className="text-4xl font-bold mb-6">Protect Your Amarillo Business?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Free commercial roofing estimates. . After-hours installation available.
           </p>

@@ -110,7 +110,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Understanding Lubbock's Unique Roofing Challenges</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Does Understanding Lubbock's Unique Roofing Challenges Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">South Plains Climate Factors</h3>
@@ -139,7 +139,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Solutions for South Plains Weather</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Solutions for South Plains Weather?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -217,7 +217,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Lubbock-Specific Design Considerations</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Lubbock-Specific Design Considerations?</h2>
             
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div>
@@ -296,7 +296,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">South Plains Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">How Does the South Plains Installation Process Work?</h2>
             
             <div className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8">
@@ -378,7 +378,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Maintenance for South Plains Conditions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Does Maintenance for South Plains Conditions Involve?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>

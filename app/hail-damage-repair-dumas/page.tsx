@@ -142,7 +142,7 @@ export default function HailDamageRepairDumasPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Dumas Properties Need Expert Hail Damage Repair</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Dumas Properties Need Expert Hail Damage Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas, named after its founder Louis Dumas (1856-1923), is the county seat of Moore County with a 2020 population of 14,501. Located approximately 49 miles north of Amarillo at 3,688 feet elevation on the high plains of the Texas Panhandle, Dumas has established itself as one of Texas's most important cattle feeding centers and agricultural hubs.
             </p>
@@ -276,7 +276,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Moore County Weather Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Moore County Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-red-600 mb-2">8-12</div>
@@ -304,7 +304,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Northern Panhandle Hail Patterns: Dumas at Risk</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Is the Northern Panhandle Hail Patterns?</h2>
             <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Dumas sits in the northern corridor of Texas's infamous "Hail Belt," where atmospheric conditions create some of the nation's most intense hailstorms. Moore County's position at 3,688 feet elevation, combined with its proximity to the Colorado and Oklahoma borders, places it at the intersection of multiple storm tracks that regularly produce significant hail.
@@ -365,7 +365,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims in Rural Texas: Dumas Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Insurance Claims in Rural Texas: Dumas Expertise Work?</h2>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div>
@@ -423,7 +423,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Our Dumas Hail Damage Repair Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Dumas Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
                 <div className="text-4xl mb-4">🔍</div>
@@ -461,7 +461,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-6">Class 4 Shingles: Ideal for Dumas</h2>
+            <h2 className="text-3xl font-bold mb-6">What Is the Class 4 Shingles?</h2>
             <p className="text-lg mb-6 leading-relaxed">
               For Dumas properties facing Moore County's severe weather, Class 4 impact-resistant shingles provide superior protection against the large hail common to northern Panhandle storms.
             </p>
@@ -495,7 +495,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Understanding Moore County Storm Patterns</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Should You Know About Moore County Storm Patterns?</h2>
             
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg mb-8">
@@ -608,7 +608,7 @@ export default function HailDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Comprehensive Dumas Hail Damage FAQs</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Dumas Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do I know if my Dumas roof has hail damage?</AccordionTrigger>

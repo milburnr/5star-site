@@ -115,7 +115,7 @@ export default function RoofReplacementPerrytonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Perryton's Premier Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Makes Perryton a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">Known as the "Wheatheart of the Nation," Perryton presents unique roofing challenges that require agricultural and weather expertise. This Ochiltree County seat sits in the heart of America's most productive wheat region, where extreme Panhandle weather meets intensive farming operations. Our team understands Perryton's specific environmental factors and provides roof replacement services engineered for both severe weather and agricultural conditions.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -147,7 +147,7 @@ export default function RoofReplacementPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Roofing for Agricultural Operations</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Specialized Roofing for Agricultural Operations?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Grain Storage Facilities</h3>
@@ -221,7 +221,7 @@ export default function RoofReplacementPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">North Panhandle Weather Extremes</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Weather Extremes Affect Roofing in Perryton?</h2>
             <div className="bg-red-50 p-8 rounded-xl border border-red-200">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">Perryton's location in the northern Texas Panhandle exposes the community to some of the most severe weather in North America. The city sits directly in the convergence zone where warm, moist air from the Gulf of Mexico meets cold, dry air from Canada, creating explosive storm development.</p>
               
@@ -258,7 +258,7 @@ export default function RoofReplacementPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">The Perryton Agricultural Roofing Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the The Perryton Agricultural Roofing Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Farm-Friendly Installation</h3>
@@ -339,7 +339,7 @@ export default function RoofReplacementPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Supporting Perryton's Agricultural Economy</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Supporting Perryton's Agricultural Economy?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-yellow-50 p-8 rounded-xl border border-yellow-200">
                 <h3 className="text-2xl font-bold mb-4 text-yellow-800">Wheat Production Support</h3>

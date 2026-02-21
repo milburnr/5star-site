@@ -115,7 +115,7 @@ export default function RoofInspectionsLubbockPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Lubbock's Premier Roof Inspection Service</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Lubbock's Premier Roof Inspection Service Involve?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof inspections serving Lubbock, the Hub City of the South Plains. Located in the heart of Hail Alley, Lubbock experiences some of Texas's most severe weather patterns, from devastating supercells to relentless dust storms that can compromise roofing systems in ways unique to West Texas.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">Our certified inspectors understand Lubbock's clay soil expansion issues, the impact of Texas Tech University's urban heat island effect, and how the Llano Estacado's flat terrain creates wind patterns that affect roofing differently than other regions. We've inspected thousands of homes from historic Overton to new developments in Southwest Lubbock.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Every inspection meets Texas Department of Insurance requirements and includes specialized assessment protocols for Lubbock's unique challenges: caliche dust infiltration, cotton-farming particulate damage, and the region's famous "blue northers" that can drop temperatures 50 degrees in hours.</p>
@@ -124,7 +124,7 @@ export default function RoofInspectionsLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Lubbock Roof Inspection Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Specialized Lubbock Roof Inspection Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏚️ Foundation & Settlement Issues</h3>
@@ -172,7 +172,7 @@ export default function RoofInspectionsLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claim Expertise for Lubbock Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Lubbock?</h2>
             <div className="bg-blue-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Lubbock Insurance Market Knowledge</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -211,7 +211,7 @@ export default function RoofInspectionsLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Strategic Inspection Timing for Lubbock Weather Patterns</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Strategic Inspection Timing for Lubbock Weather Patterns Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">⛈️ Pre-Storm Season (February-March)</h3>
@@ -274,7 +274,7 @@ export default function RoofInspectionsLubbockPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-blue-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Lubbock's Challenging Weather Environment</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Lubbock's Challenging Weather Environment?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Supercell Capital</h3>
@@ -297,7 +297,7 @@ export default function RoofInspectionsLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Diagnostic Equipment for Lubbock Conditions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Diagnostic Equipment for Lubbock Conditions?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <div className="text-5xl mb-4 text-center">📊</div>

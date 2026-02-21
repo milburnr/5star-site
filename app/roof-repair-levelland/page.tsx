@@ -208,7 +208,7 @@ export default function RoofRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's Premier Roof Repair Specialists
+              What Makes Levelland a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland, positioned at 3,514 feet elevation on the South Plains of Texas, faces some of the state's most severe weather conditions. This Hockley County seat experiences 7-10 devastating hailstorms annually, with the Llano Estacado plateau creating perfect conditions for supercell development. Combined with sustained winds often exceeding 70 mph, temperature extremes from -10°F to 115°F, and intense High Plains UV radiation, Levelland properties demand specialized roofing expertise.
@@ -265,7 +265,7 @@ export default function RoofRepairLevellandPage() {
         
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Levelland Communities We Serve</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Levelland Communities Do We Serve?</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our comprehensive Levelland roof repair services reach throughout the city and surrounding Hockley County areas. From the established neighborhoods near Mahan Elementary to the growing areas around South Plains College, we've built lasting relationships through consistent quality and dependable service across all of Levelland's diverse communities.
             </p>
@@ -372,7 +372,7 @@ export default function RoofRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Levelland Roof Repair FAQ</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Does Levelland Roof Repair FAQ Involve?</h2>
             
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">

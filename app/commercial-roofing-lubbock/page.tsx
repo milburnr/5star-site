@@ -234,7 +234,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Lubbock's Commercial Roofing Specialists
+              What Makes Our Lubbock Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Lubbock County's commercial landscape demands specialized roofing expertise. From Texas Tech University's sprawling 1,839-acre campus to University Medical Center's 412-bed healthcare facility, from Covenant Health's regional medical complex to agriculture warehouses processing cotton and beef throughout the South Plains—every commercial roof faces unique challenges in this dynamic regional hub.
@@ -251,7 +251,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Commercial Roofing Systems for Lubbock
+              What Does Commercial Roofing Systems for Lubbock Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
@@ -302,7 +302,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Lubbock Commercial Districts & Facilities
+              What Commercial Areas Do We Serve in Lubbock?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We provide specialized commercial roofing throughout Lubbock's diverse business and institutional districts, each with unique roofing requirements and operational constraints:
@@ -355,7 +355,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding Lubbock Building Codes & Permits
+              What Should You Know About Lubbock Building Codes & Permits?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -396,7 +396,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Lubbock's Climate Demands Superior Commercial Roofing
+              Why Lubbock's Climate Demands Superior Commercial Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Lubbock's location in the South Plains creates challenging roofing conditions year-round. At 3,202 feet elevation, commercial buildings face intense UV radiation, extreme temperature swings, and severe weather patterns that demand specialized roofing systems:
@@ -441,7 +441,7 @@ export default function CommercialRoofingLubbockPage() {
             <div className="flex gap-6 items-center">
               <div className="text-6xl">🚨</div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-red-800 mb-3">Emergency Commercial Roofing</h2>
+                <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Storm damage threatening your Lubbock business operations? We provide prompt response for Texas Tech facilities, healthcare institutions, and agriculture operations. Immediate temporary repairs, tarping, and leak mitigation protect critical operations and inventory.
                 </p>

@@ -115,7 +115,7 @@ export default function RoofReplacementSnyderPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Snyder's Premier Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Makes Snyder a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">As the county seat of Scurry County and a major hub in the heart of the Permian Basin, Snyder presents unique roofing challenges that demand specialized expertise. This West Texas energy capital experiences some of the most demanding climate conditions combined with industrial factors that require superior roofing solutions. Our team understands Snyder's specific environmental and economic factors, providing roof replacement services engineered for long-term performance in this vital oil and gas community.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -147,7 +147,7 @@ export default function RoofReplacementSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Energy Industry Roofing Solutions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Energy Industry Roofing Solutions Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Oil & Gas Facilities</h3>
@@ -220,7 +220,7 @@ export default function RoofReplacementSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">West Texas Climate Extremes</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Local Climate Affect Your Roof?</h2>
             <div className="bg-red-50 p-8 rounded-xl border border-red-200">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">Snyder's location in the heart of West Texas creates one of the most challenging roofing environments in North America. The combination of Permian Basin industrial conditions and extreme continental climate demands specialized roofing solutions designed for maximum durability and performance.</p>
               
@@ -257,7 +257,7 @@ export default function RoofReplacementSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">The Snyder Energy-Grade Installation Process</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the The Snyder Energy-Grade Installation Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Industrial-Grade Excellence</h3>
@@ -338,7 +338,7 @@ export default function RoofReplacementSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Supporting Snyder's Energy Economy</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Supporting Snyder's Energy Economy?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-orange-50 p-8 rounded-xl border border-orange-200">
                 <h3 className="text-2xl font-bold mb-4 text-orange-800">Permian Basin Operations</h3>

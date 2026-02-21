@@ -242,7 +242,7 @@ export default function ResidentialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Lubbock's Residential Roofing Experts
+              What Does Lubbock's Residential Roofing Experts Involve?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               In the heart of the South Plains, Lubbock faces some of Texas's most challenging weather conditions. Home to Texas Tech University and over 266,000 residents, our city experiences frequent severe hail storms with recent events producing softball-size hail up to 4.00 inches. Standard shingles simply can't withstand this punishment—you need Class 4 impact-resistant materials engineered for South Plains weather.
@@ -256,7 +256,7 @@ export default function ResidentialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Lubbock Neighborhoods We Serve
+              Lubbock Neighborhoods Do We Serve?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               We provide expert residential roofing throughout Lubbock's diverse neighborhoods, from university areas to established suburban communities:
@@ -305,7 +305,7 @@ export default function ResidentialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Why Lubbock Homeowners Choose Us
+              Why Do Lubbock Homeowners Choose Us?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-red-600">
@@ -342,7 +342,7 @@ export default function ResidentialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Understanding Lubbock Building Requirements
+              What Should You Know About Lubbock Building Requirements?
             </h2>
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -381,7 +381,7 @@ export default function ResidentialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Lubbock Homes Face Extreme Roofing Challenges
+              Why Lubbock Homes Face Extreme Roofing Challenges?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Lubbock County sits in the heart of the South Plains, where geographic and atmospheric conditions create some of America's most severe weather patterns. Your home faces unique challenges:

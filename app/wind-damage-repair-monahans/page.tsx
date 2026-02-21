@@ -224,7 +224,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Monahans's Wind Damage Repair Specialists
+              How Does Monahans's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Monahans's location in Ward County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -258,7 +258,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Permian Basin Wind Damage Challenges
+              How Does Permian Basin Wind Damage Challenges Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -292,7 +292,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-orange-50 to-red-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Wind Damage Patterns in the Permian Basin
+              How Does Wind Damage Patterns in the Permian Basin Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -344,7 +344,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Industrial Wind Damage Repair Process
+              How Does the Industrial Wind Damage Repair Process Work?
             </h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
@@ -409,7 +409,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Ward County Wind Damage Repair FAQ
+              How Does Ward County Wind Damage Repair FAQ Affect Your Roof?
             </h2>
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="industrial-response" className="bg-white rounded-lg shadow-md">
@@ -467,7 +467,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Permian Basin Properties We've Restored
+              Permian Basin Properties We've Restored?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
@@ -512,7 +512,7 @@ export default function WindDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl border border-red-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-red-700 mb-4">Industrial Wind Damage Response</h2>
+              <h2 className="text-4xl font-bold text-red-700 mb-4">How Does Industrial Wind Damage Response Work?</h2>
               <div className="text-6xl mb-4">🚨</div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 Desert microbursts and dust storms can cause catastrophic damage to industrial facilities. storm response is critical.
@@ -551,7 +551,7 @@ export default function WindDamageRepairMonahansPage() {
 
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
-          <h2 className="text-4xl font-bold mb-6">Restore Your Permian Basin Operation</h2>
+          <h2 className="text-4xl font-bold mb-6">Restore Your Permian Basin Operation?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Expert wind damage repair for Ward County industrial and commercial properties. Our specialized team understands desert wind patterns and industrial requirements. Trust the Permian Basin's wind damage experts.
           </p>

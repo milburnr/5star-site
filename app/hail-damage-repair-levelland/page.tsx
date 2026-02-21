@@ -115,7 +115,7 @@ export default function HailDamageRepairLevellandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Levelland's Hail Damage Repair Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Levelland's Hail Damage Repair Specialists Look Like?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional hail damage repair throughout Levelland and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Levelland with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
           </section>
@@ -123,7 +123,7 @@ export default function HailDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-r from-purple-50 to-blue-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Levelland's Severe Storm Corridor</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Levelland's Severe Storm Corridor?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">South Plains Weather Intensity</h3>
@@ -166,7 +166,7 @@ export default function HailDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Advanced Storm Damage Analysis</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Does Advanced Storm Damage Analysis Look Like?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
                 <div className="text-4xl mb-4">🌪️</div>
@@ -209,7 +209,7 @@ export default function HailDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">South Plains Storm Response Protocol</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does Our Storm Response Work in Levelland?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Immediate Storm Response (0-4 Hours)</h3>
@@ -277,7 +277,7 @@ export default function HailDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Bow Echo Resistant Roofing Systems</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Does Bow Echo Resistant Roofing Systems Include?</h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>
                 <h3 className="text-2xl font-semibold mb-6 text-gray-800">Wind-Driven Hail Protection</h3>
@@ -335,7 +335,7 @@ export default function HailDamageRepairLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Hockley County Insurance Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Hockley County Insurance Expertise?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Storm-Specific Claim Documentation</h3>

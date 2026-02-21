@@ -193,7 +193,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Midland Storm Damage Specialists: Permian Basin Weather Experts
+              What Does Midland Storm Damage Specialists: Permian Basin Weather Experts Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               <strong>Permian Basin Storm Profile:</strong> Midland County sits at the heart of Texas's most economically vital oil region, where severe weather creates unique challenges for both residential and industrial properties. <strong>Midland County</strong> experiences intense supercell development with golf ball to tennis ball-sized hail, straight-line winds exceeding 75 mph, and the notorious "oil field thunderstorms" that build rapidly over heated petroleum infrastructure.
@@ -216,7 +216,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Permian Basin Storm Seasons & Patterns
+              When Is Storm Season in Midland?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -244,7 +244,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Service Areas Throughout Midland County
+              Service Areas Throughout Midland County?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -284,7 +284,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Types of Storm Damage in the Permian Basin
+              What Does Types of Storm Damage in the Permian Basin Look Like?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-orange-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-orange-500">
@@ -333,7 +333,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Recent Permian Basin Storm Events
+              Recent Permian Basin Storm Events?
             </h2>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-orange-500">
@@ -358,7 +358,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Storm Damage Repair FAQs - Midland, TX
+              What Does Storm Damage Repair FAQs - Midland, TX Look Like?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -421,7 +421,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Our Permian Basin Storm Response Process
+              How Does the Permian Basin Storm Response Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-orange-50 p-6 rounded-xl border-t-4 border-orange-500 text-center">
@@ -451,7 +451,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Storm Response in Midland
+              How Does Our Storm Response Work in Midland?
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe

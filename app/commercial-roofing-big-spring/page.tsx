@@ -115,7 +115,7 @@ export default function CommercialRoofingBigSpringPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Big Spring's Commercial Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Big Spring Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Big Spring and surrounding areas, serving the crossroads of West Texas healthcare, corrections, and logistics. As a strategic I-20 corridor hub housing major healthcare facilities, correctional institutions, and energy operations, Big Spring requires specialized roofing solutions for mission-critical facilities that operate.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Big Spring's unique institutional and commercial needs with expert installations and comprehensive warranties. Our 75-minute response time from Amarillo headquarters ensures rapid service for storm repairs at healthcare facilities, correctional institutions, and critical infrastructure. We handle all permits, insurance claims, and warranty documentation.</p>
             
@@ -129,7 +129,7 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Specialized Roofing Solutions for Big Spring's Key Sectors</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Big Spring's Key Sectors Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-red-500">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🏥 Healthcare Facilities</h3>
@@ -192,7 +192,7 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Big Spring Institutions Trust 5 Star Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Big Spring Institutions Trust 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -223,7 +223,7 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Commercial Roofing Systems for Big Spring's Institutional Facilities</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Systems for Big Spring's Institutional Facilities Involve?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Healthcare Facility TPO Systems</h3>
@@ -318,7 +318,7 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">storm response for Big Spring's Critical Facilities</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Our Storm Response Work in Big Spring?</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Priority prompt service</h3>
@@ -377,7 +377,7 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Commercial Roofing: Performance Metrics</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Big Spring Commercial Roofing: Performance Metrics Involve?</h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
@@ -407,7 +407,7 @@ export default function CommercialRoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Institutional Facility Financing and Compliance</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Institutional Facility Financing and Compliance?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🏛️ Government Contract Support</h3>

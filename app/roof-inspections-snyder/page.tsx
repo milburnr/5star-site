@@ -223,7 +223,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's Roof Inspections Specialists
+              What Makes Our Snyder Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Snyder's location in Scurry County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
@@ -257,7 +257,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Comprehensive Roof Inspection Services for West Texas Properties
+              What Does Our Comprehensive Roof Inspection Services for West Texas Properties Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
@@ -291,7 +291,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-teal-50 to-blue-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Advanced Inspection Technology
+              What Does Advanced Inspection Technology Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
@@ -343,7 +343,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Detailed Inspection Process
+              How Does the Detailed Inspection Process Work?
             </h2>
             <div className="space-y-8">
               <div className="flex gap-6 items-start">
@@ -466,7 +466,7 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-2xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Properties We Inspect Throughout Scurry County
+              Properties We Inspect Throughout Scurry County?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">

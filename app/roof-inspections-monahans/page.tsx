@@ -221,7 +221,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Monahans's Premier Roof Inspection Specialists
+              What Makes Monahans a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Monahans, Texas, located in Ward County in the heart of the Permian Basin, presents unique roofing challenges that combine severe West Texas weather with the demanding conditions of America's most productive oil and gas region. This industrial environment, combined with the area's position in the path of severe storm systems, creates extraordinary stress on roofing systems.
@@ -238,7 +238,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Comprehensive Roof Inspection for Permian Basin Conditions
+              What Does Our Comprehensive Roof Inspection for Permian Basin Conditions Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
@@ -288,7 +288,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Permian Basin Damage Indicators & Assessment
+              What Does Permian Basin Damage Indicators & Assessment Involve?
             </h2>
             
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
@@ -360,7 +360,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Permian Basin Insurance Claim Documentation
+              How Does the Insurance Claims Process Work in Monahans?
             </h2>
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4">📋 Specialized Documentation for Oil Country</h3>
@@ -427,7 +427,7 @@ export default function RoofInspectionsMonahansPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Permian Basin Weather Patterns & Industrial Impact
+              How Do Weather Extremes Affect Roofing in Monahans?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">🏜️ Desert Climate & Oil Field Environment</h3>

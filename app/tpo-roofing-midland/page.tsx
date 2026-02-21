@@ -115,7 +115,7 @@ export default function TPORoofingMidlandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Midland's Premier Energy Industry Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Midland a Top Choice for Roof Repair?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional TPO roofing throughout Midland and the greater Permian Basin region. As the energy capital of America's most productive oil field, Midland demands roofing solutions that can withstand not only extreme West Texas weather but also the unique challenges of industrial environments, from chemical exposure to heavy equipment loads.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Midland's energy sector with expert TPO installations engineered for industrial demands. Our team understands the specific requirements of petroleum facilities, corporate headquarters, processing plants, and the high-rise office towers that house the world's leading energy companies. We handle complex projects with the precision and reliability that Midland's energy industry demands.</p>
             
@@ -134,7 +134,7 @@ export default function TPORoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">TPO Roofing Engineered for Midland's Demands</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does TPO Roofing Engineered for Midland's Demands Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🌡️ Extreme Heat Management</h3>
@@ -172,7 +172,7 @@ export default function TPORoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-blue-50 to-indigo-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Midland Energy Industry Applications</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Energy Industry Affect Roofing in Midland?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Energy Sector Facilities</h3>
@@ -222,7 +222,7 @@ export default function TPORoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Specialized TPO Installation for Energy Industry</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Specialized TPO Installation for Energy Industry Involve?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
@@ -260,7 +260,7 @@ export default function TPORoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-yellow-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why Energy Companies Choose Our TPO Systems</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why Do Energy Companies Choose Our TPO Systems?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4">🏭 Industrial Durability</h3>
@@ -359,7 +359,7 @@ export default function TPORoofingMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Midland Service Areas</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Midland Service Areas?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-gold mb-4">Midland Metro</h3>

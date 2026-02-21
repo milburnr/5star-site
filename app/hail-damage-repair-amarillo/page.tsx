@@ -185,7 +185,7 @@ export default function HailDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Why Amarillo's Climate Demands Expert Hail Damage Repair
+              Why Amarillo's Climate Demands Expert Hail Damage Repair?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Amarillo's location in the Texas Panhandle creates one of America's most challenging roofing environments. Potter County faces extreme conditions year-round:
@@ -227,7 +227,7 @@ export default function HailDamageRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Amarillo's Position in the Texas Hail Belt</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Amarillo's Position in the Texas Hail Belt?</h2>
             <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Amarillo sits at the epicenter of "Hail Alley"—a notorious storm corridor where Potter County leads Texas in hail frequency. Since 2000, our area has recorded 131 severe hail days, placing Amarillo among the top 10 most hail-prone cities in America.
@@ -288,7 +288,7 @@ export default function HailDamageRepairAmarilloPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Navigating Texas Insurance Claims: Amarillo Expertise</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Amarillo?</h2>
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div>

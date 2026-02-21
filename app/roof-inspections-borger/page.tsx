@@ -220,7 +220,7 @@ export default function RoofInspectionsBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Borger's Roof Inspections Specialists
+              What Makes Our Borger Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Borger's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and industrial environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
@@ -233,7 +233,7 @@ export default function RoofInspectionsBorgerPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Borger's Industrial Environment & Roof Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Borger's Industrial Environment & Roof Challenges?</h2>
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Petrochemical Industry Impact on Roofing Systems</h3>
@@ -350,7 +350,7 @@ export default function RoofInspectionsBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Borger Inspectors Look For</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Borger Inspectors Look For?</h2>
             <div className="space-y-8">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Industrial Environment Damage Signatures</h3>
@@ -448,7 +448,7 @@ export default function RoofInspectionsBorgerPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Seasonal Inspection Strategy for Borger</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Seasonal Inspection Strategy for Borger?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Industrial Assessment (March-May)</h3>
@@ -557,7 +557,7 @@ export default function RoofInspectionsBorgerPage() {
 
         <FadeIn>
           <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims for Industrial-Exposed Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Insurance Claims for Industrial-Exposed Properties Work?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Specialized Documentation for Industrial Environments</h3>

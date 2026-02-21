@@ -220,7 +220,7 @@ export default function MetalRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Dumas's Metal Roofing Specialists
+              What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
@@ -234,7 +234,7 @@ export default function MetalRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Agricultural & Industrial Metal Roofing for Dumas
+              What Agricultural & Industrial Metal Roofing for Dumas?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
@@ -295,7 +295,7 @@ export default function MetalRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Chemical & Weather Resistance for Agricultural Operations
+              What Chemical & Weather Resistance for Agricultural Operations?
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
@@ -331,7 +331,7 @@ export default function MetalRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Metal Roofing FAQs - Dumas, TX
+              What Does Metal Roofing FAQs - Dumas, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">

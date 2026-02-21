@@ -115,7 +115,7 @@ export default function RoofReplacementLevellandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Levelland's Roof Replacement Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Levelland Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof replacement throughout Levelland and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings that impact this South Plains community.</p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">Since 2014, we've served Levelland's 12,565 residents with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation for this college town and agricultural center.</p>
 
@@ -162,7 +162,7 @@ export default function RoofReplacementLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-white p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Levelland Roof Replacement Planning Guide 2025</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Levelland Roof Replacement Planning Guide 2025 Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Strategic roofing solutions for Levelland's diverse property types, from college rental investments to agricultural family homes.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -223,7 +223,7 @@ export default function RoofReplacementLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Roofing Materials for South Plains Conditions</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Roofing Materials for South Plains Conditions Involve?</h2>
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Material selection optimized for Levelland's college town needs and challenging South Plains agricultural environment.</p>
 
             <div className="space-y-8">
@@ -319,7 +319,7 @@ export default function RoofReplacementLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-emerald-800 text-center">The Levelland Advantage: College Stability Meets Agricultural Strength</h2>
+            <h2 className="text-4xl font-bold mb-8 text-emerald-800 text-center">What The Levelland Advantage: College Stability Meets Agricultural Strength?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold text-emerald-700 mb-4">Educational Institution Stability</h3>

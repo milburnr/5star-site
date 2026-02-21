@@ -193,7 +193,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Odessa Storm Damage Specialists: Ector County Weather Experts
+              What Does Odessa Storm Damage Specialists: Ector County Weather Experts Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               <strong>Ector County Storm Profile:</strong> Odessa sits in the heart of the Permian Basin's most intensive oil production area, where unique desert-petroleum microclimate creates severe storm conditions. Unlike its sister city Midland, <strong>Odessa experiences more frequent dust storm activity</strong> due to its position in the basin's lower elevation pocket, while the massive Permian Basin oil infrastructure creates heat islands that trigger explosive thunderstorm development.
@@ -216,7 +216,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Ector County Storm Patterns & Environmental Factors
+              Ector County Storm Patterns & Environmental Factors?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-yellow-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-600">
@@ -244,7 +244,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Service Areas Throughout Ector County
+              Service Areas Throughout Ector County?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
@@ -284,7 +284,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Storm Damage Types Specific to Ector County
+              What Does Storm Damage Types Specific to Ector County Look Like?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-yellow-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-yellow-600">
@@ -333,7 +333,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Recent Ector County Storm Events
+              Recent Ector County Storm Events?
             </h2>
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-purple-600">
@@ -358,7 +358,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              Storm Damage Repair FAQs - Odessa, TX
+              What Does Storm Damage Repair FAQs - Odessa, TX Look Like?
             </h2>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -421,7 +421,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              Our Ector County Storm Response Process
+              How Does the Ector County Storm Response Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-purple-50 p-6 rounded-xl border-t-4 border-purple-600 text-center">
@@ -451,7 +451,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              Storm Damage Response in Odessa
+              How Does Our Storm Damage Response Work?
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe

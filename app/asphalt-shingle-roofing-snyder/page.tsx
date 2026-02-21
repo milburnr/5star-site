@@ -168,7 +168,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Snyder's Premier Residential Asphalt Shingle Experts
+              What Makes Snyder a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Snyder, Texas, located at the crossroads of Scurry County, represents classic West Texas resilience where oil, agriculture, and wind energy converge. At an elevation of 2,316 feet, Snyder experiences 7-9 major hailstorms annually with severe damage potential from stones reaching tennis ball size. Summer temperatures routinely exceed 95°F while winter lows can drop to 20°F, creating extreme thermal cycling that challenges roofing materials. The area's 20-inch annual precipitation pattern features intense storm events that test drainage systems and structural integrity.
@@ -258,7 +258,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Snyder Professional Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Snyder Professional Installation Process Work?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-purple-50 to-white p-6 rounded-2xl">
@@ -298,7 +298,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Insurance Claims & Diverse Economy Financing</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Do Insurance Claims & Diverse Economy Financing Work?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

@@ -115,7 +115,7 @@ export default function ResidentialRoofingCanyonPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Canyon's University Community Roofing Specialists</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Canyon Roof Repair Specialists Different?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Canyon, home to West Texas A&M University and gateway to Palo Duro Canyon, combines academic excellence with natural beauty in the heart of the Texas Panhandle. This vibrant university town requires roofing solutions that serve diverse housing needs, from faculty homes to student housing, all while withstanding the intense weather conditions characteristic of the Llano Estacado region.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Located just 15 miles south of Amarillo, Canyon experiences the full intensity of Panhandle weather while maintaining its own unique character as an educational and cultural hub. The proximity to Palo Duro Canyon creates interesting microclimates and wind patterns that affect local roofing performance, requiring specialized knowledge of the area's conditions.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've been the trusted roofing partner for Canyon's diverse community – from longtime residents in established neighborhoods to university faculty requiring reliable protection for their homes. Our team understands the seasonal patterns that affect Canyon, from spring severe weather to the extreme heat that radiates from the canyon walls during summer months.</p>
@@ -124,7 +124,7 @@ export default function ResidentialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Canyon's Unique Weather & Geographic Challenges</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Are Canyon's Unique Weather & Geographic Challenges?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Palo Duro Canyon Wind Effects</h3>
@@ -176,7 +176,7 @@ export default function ResidentialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">University Community-Focused Services</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">University Community-Focused Services?</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border border-blue-100">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Faculty & Staff Programs</h3>
@@ -269,7 +269,7 @@ export default function ResidentialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Canyon Climate-Optimized Materials</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Canyon Climate-Optimized Materials?</h2>
             <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold">
@@ -369,7 +369,7 @@ export default function ResidentialRoofingCanyonPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Academic Community Insurance & Financing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Financing and Insurance Work in Canyon?</h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-8 rounded-xl shadow-md">

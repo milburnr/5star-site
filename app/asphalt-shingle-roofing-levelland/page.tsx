@@ -168,7 +168,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              Levelland's Premier Residential Asphalt Shingle Experts
+              What Makes Levelland a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
               Levelland, Texas, sits at the heart of the South Plains agricultural region, where flat terrain and elevation of 3,517 feet create unique weather challenges. This college town experiences 7-10 major hailstorms annually, with the infamous "Hail Alley" producing stones up to softball size. Summer temperatures regularly exceed 95°F while winter lows can plummet to 15°F, creating dramatic thermal cycling that stresses roofing materials. The South Plains receives intense UV radiation due to high elevation and minimal cloud cover, accelerating material degradation without proper protection.
@@ -258,7 +258,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Levelland Professional Installation Process</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Levelland Professional Installation Process Work?</h2>
             
             <div className="space-y-8">
               <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-green-50 to-white p-6 rounded-2xl">
@@ -298,7 +298,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Insurance Claims & Student-Friendly Financing</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Do Insurance Claims & Student-Friendly Financing Work?</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">

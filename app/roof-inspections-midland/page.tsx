@@ -115,7 +115,7 @@ export default function RoofInspectionsMidlandPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Permian Basin's Premier Roof Inspection Experts</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Does Permian Basin's Premier Roof Inspection Experts Involve?</h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional roof inspections serving Midland, the heart of America's most productive oil field. The Permian Basin's industrial environment creates unique roofing challenges, from hydrogen sulfide corrosion to sand abrasion, that require specialized inspection expertise and industry-specific knowledge.</p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">Our certified inspectors understand how oil and gas operations affect roofing systems, from flare emissions that accelerate material degradation to truck traffic vibrations that compromise structural integrity. We've inspected everything from executive homes in the Grassland Estates to industrial complexes in the Spraberry Trend.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Every inspection includes assessment of industrial contamination impacts, specialized ventilation requirements for oil field worker housing, and compliance with both residential and industrial safety standards required in the Permian Basin's mixed-use development patterns.</p>
@@ -124,7 +124,7 @@ export default function RoofInspectionsMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Industrial Impact Assessment</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Industrial Impact Assessment?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Chemical Exposure Analysis</h3>
@@ -172,7 +172,7 @@ export default function RoofInspectionsMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Insurance Knowledge for Midland Properties</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Insurance Knowledge for Midland Properties?</h2>
             <div className="bg-blue-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Oil Field Industry Insurance Considerations</h3>
               <div className="grid md:grid-cols-2 gap-6">
@@ -211,7 +211,7 @@ export default function RoofInspectionsMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Optimal Inspection Scheduling for Permian Basin Conditions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Optimal Inspection Scheduling for Permian Basin Conditions Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌸 Spring Evaluation (March-April)</h3>
@@ -275,7 +275,7 @@ export default function RoofInspectionsMidlandPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-12 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Unique Permian Basin Environmental Factors</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Unique Permian Basin Environmental Factors?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 World's Most Active Oil Field</h3>
@@ -298,7 +298,7 @@ export default function RoofInspectionsMidlandPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Equipment for Industrial Environment Assessment</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Equipment for Industrial Environment Assessment?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <div className="text-5xl mb-4 text-center">🔬</div>
