@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 9 of 10 (Image Optimization)
-Plan: 1 of 3
+Plan: 3 of 3
 Status: Executing Phase 9
-Last activity: 2026-02-21 — Completed 09-01 (R2 image migration + audit script)
+Last activity: 2026-02-21 — Completed 09-03 (contextual inline images on hub pages)
 
 Progress: [▓▓▓▓▓▓▓▓▓░] 90%
 
@@ -43,6 +43,7 @@ Progress: [▓▓▓▓▓▓▓▓▓░] 90%
 *Updated after each plan completion*
 | Phase 08 P05 | 6min | 2 tasks | 11 files |
 | Phase 09 P01 | 5min | 2 tasks | 190 files |
+| Phase 09 P03 | 3min | 1 task | 9 files |
 
 ## Accumulated Context
 
@@ -124,6 +125,8 @@ Recent decisions affecting current work:
 - [Phase 09-01]: Logo kept local (/logo.png) since R2 5star-logo.png returns 404 -- small static asset allowlisted in audit
 - [Phase 09-01]: Schema image default uses completed-amarillo-4-1280w.jpg for all pages (per-city images don't exist on R2)
 - [Phase 09-01]: 3 pre-existing broken R2 URLs fixed (commercial-amarillo-14/15, commercial-pampa-8 all 404)
+- [Phase 09-03]: 3 plan image assignments substituted to avoid hero duplication (hail-damage, metal) and 404 (commercial-amarillo-14)
+- [Phase 09-03]: Inline image pattern: my-8 rounded-lg overflow-hidden shadow-lg wrapper, h-64 object-cover, lazy loading
 
 ### Pending Todos
 
@@ -138,5 +141,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 09-01-PLAN.md (R2 image migration + audit script)
+Stopped at: Completed 09-03-PLAN.md (contextual inline images on 9 hub pages)
 Resume file: None
