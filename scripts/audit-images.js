@@ -16,8 +16,8 @@ const http = require('http');
 const OUT_DIR = path.join(__dirname, '..', 'out');
 const CONCURRENCY = 10;
 
-// Local files that are intentionally NOT on R2 (small static assets)
-const LOCAL_ALLOWLIST = new Set(['/logo.png']);
+// Local files that are intentionally NOT on R2 (small static assets or LCP-critical)
+const LOCAL_ALLOWLIST = new Set(['/logo.png', '/images/hero-bg.webp']);
 
 // Collect all HTML files recursively
 function getHtmlFiles(dir) {
