@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -488,7 +494,65 @@ export default function Page() {
         </section>
       </FadeIn>
 
-      <section className="bg-gray-50 rounded-lg p-6 mb-8">
+              <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              PVC Roof Replacement FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does PVC roof replacement cost compare to TPO in Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  PVC roofing typically costs 15-25% more than TPO per square foot installed. However, PVC offers superior chemical resistance, longer lifespan in extreme UV environments like Amarillo, and better performance in areas exposed to restaurant grease or petroleum chemicals. For many Amarillo commercial buildings, the higher upfront cost results in lower total cost of ownership over 25-30 years.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What is the expected lifespan of a new PVC roof in Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Premium PVC roofing systems installed in Amarillo typically last 25-30 years with proper maintenance. This exceeds TPO systems by 5-10 years in Amarillo&apos;s harsh climate because PVC has superior UV resistance at high elevations. Some PVC manufacturers offer 25-year or even 30-year warranties when installed by certified contractors like 5 Star Roofing.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can a PVC roof be installed over an existing flat roof in Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  In many cases, yes. If the existing roof substrate and insulation are dry and structurally sound, a PVC membrane can be installed over the existing system, reducing cost and construction waste. We perform moisture scans and core samples to verify substrate condition. Amarillo building codes limit the total number of roof layers, typically to two, so we verify compliance before recommending overlay.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What Amarillo building codes apply to PVC roof replacement?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Amarillo follows the International Building Code with local amendments that specify minimum wind uplift ratings, fire classification requirements, and energy code compliance for commercial roofing. PVC membranes must meet FM Global or UL standards, and installations must comply with the current Texas Energy Code for insulation values. We handle all permit applications and code compliance documentation.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How disruptive is PVC roof replacement to Amarillo business operations?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  We design PVC replacement projects to minimize business disruption. Most installations proceed in sections, allowing the building to remain operational throughout the project. Noise is moderate and primarily occurs during daytime hours. For noise-sensitive businesses like medical offices or call centers, we can adjust scheduling. A typical 10,000 square foot commercial PVC replacement takes 5-7 working days.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Does PVC roofing qualify for energy efficiency rebates in Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  White PVC membranes with high solar reflectance can qualify for energy efficiency incentives. The reflective surface can reduce cooling costs by 20-30% compared to dark roof surfaces, which is significant given Amarillo&apos;s hot summers. Some PVC systems also contribute to LEED certification points for commercial buildings seeking green building credentials.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+<section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Related PVC Roofing Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/pvc-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">• PVC Roof Repair</a>
@@ -513,6 +577,24 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How does PVC roof replacement cost compare to TPO in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"PVC roofing typically costs 15-25% more than TPO per square foot installed. However, PVC offers superior chemical resistance, longer lifespan in extreme UV environments like Amarillo, and better performance in areas exposed to restaurant grease or petroleum chemicals. For many Amarillo commercial buildings, the higher upfront cost results in lower total cost of ownership over 25-30 years."}},
+              {"@type":"Question","name":"What is the expected lifespan of a new PVC roof in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Premium PVC roofing systems installed in Amarillo typically last 25-30 years with proper maintenance. This exceeds TPO systems by 5-10 years in Amarillo's harsh climate because PVC has superior UV resistance at high elevations. Some PVC manufacturers offer 25-year or even 30-year warranties when installed by certified contractors like 5 Star Roofing."}},
+              {"@type":"Question","name":"Can a PVC roof be installed over an existing flat roof in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"In many cases, yes. If the existing roof substrate and insulation are dry and structurally sound, a PVC membrane can be installed over the existing system, reducing cost and construction waste. We perform moisture scans and core samples to verify substrate condition. Amarillo building codes limit the total number of roof layers, typically to two, so we verify compliance before recommending overlay."}},
+              {"@type":"Question","name":"What Amarillo building codes apply to PVC roof replacement?","acceptedAnswer":{"@type":"Answer","text":"Amarillo follows the International Building Code with local amendments that specify minimum wind uplift ratings, fire classification requirements, and energy code compliance for commercial roofing. PVC membranes must meet FM Global or UL standards, and installations must comply with the current Texas Energy Code for insulation values. We handle all permit applications and code compliance documentation."}},
+              {"@type":"Question","name":"How disruptive is PVC roof replacement to Amarillo business operations?","acceptedAnswer":{"@type":"Answer","text":"We design PVC replacement projects to minimize business disruption. Most installations proceed in sections, allowing the building to remain operational throughout the project. Noise is moderate and primarily occurs during daytime hours. For noise-sensitive businesses like medical offices or call centers, we can adjust scheduling. A typical 10,000 square foot commercial PVC replacement takes 5-7 working days."}},
+              {"@type":"Question","name":"Does PVC roofing qualify for energy efficiency rebates in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"White PVC membranes with high solar reflectance can qualify for energy efficiency incentives. The reflective surface can reduce cooling costs by 20-30% compared to dark roof surfaces, which is significant given Amarillo's hot summers. Some PVC systems also contribute to LEED certification points for commercial buildings seeking green building credentials."}}
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

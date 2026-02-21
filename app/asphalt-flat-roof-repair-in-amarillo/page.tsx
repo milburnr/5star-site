@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -255,7 +261,65 @@ export default function Page() {
         </p>
       </div>
 
-      <section className="bg-gray-50 rounded-lg p-6 mb-8">
+              <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Asphalt Flat Roof Repair FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What causes ponding water on Amarillo flat roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Ponding water on Amarillo flat roofs typically results from inadequate drainage design, clogged scuppers or drains, structural settling that changes roof slope, or debris accumulation from dust storms. Standing water exceeding 48 hours accelerates membrane deterioration. We redesign drainage pathways and install additional drains or scuppers to eliminate ponding.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Amarillo&apos;s hail damage asphalt flat roofing differently than shingle roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Hail impacts on asphalt flat roofs create different damage patterns than on shingle roofs. On built-up roofing, hail fractures the flood coat and exposes underlying felts to UV degradation. On modified bitumen, impacts can crack the membrane and compromise waterproofing. Damage may not leak immediately but leads to accelerated deterioration and eventual failure.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can asphalt flat roofs in Amarillo be coated instead of replaced?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  In many cases, yes. If the existing asphalt roof substrate is structurally sound with no moisture trapped in the insulation, a silicone or acrylic roof coating can extend its life by 10-15 years at a fraction of replacement cost. We perform moisture scans and core samples to determine if your Amarillo commercial roof is a candidate for coating restoration.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What is the lifespan of an asphalt flat roof in Amarillo&apos;s climate?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  In Amarillo&apos;s extreme climate with intense UV radiation, temperature swings exceeding 100 degrees annually, and frequent hail, asphalt flat roofs typically last 15-20 years with proper maintenance. Premium modified bitumen systems can last 20-25 years. Regular maintenance including annual inspections, drain cleaning, and prompt repair of damage significantly extends roof life.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do you repair blistering on Amarillo asphalt flat roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Blistering occurs when moisture trapped between roof layers expands in Amarillo&apos;s extreme heat. We cut open blisters, dry the area, apply new asphalt or adhesive, patch with compatible membrane material, and seal all edges. For widespread blistering indicating systemic moisture issues, we may recommend partial or full re-roofing rather than spot repairs.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you provide maintenance programs for Amarillo commercial flat roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we offer preventive maintenance programs specifically designed for Amarillo commercial flat roofs. Programs include biannual inspections before and after storm season, drain and scupper cleaning, minor repair of any damage found, photo documentation of roof condition, and priority scheduling for storm damage response. Regular maintenance is the most cost-effective way to maximize flat roof lifespan.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+<section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving West Texas</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Asphalt Repair</a>
@@ -280,6 +344,24 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"What causes ponding water on Amarillo flat roofs?","acceptedAnswer":{"@type":"Answer","text":"Ponding water on Amarillo flat roofs typically results from inadequate drainage design, clogged scuppers or drains, structural settling that changes roof slope, or debris accumulation from dust storms. Standing water exceeding 48 hours accelerates membrane deterioration. We redesign drainage pathways and install additional drains or scuppers to eliminate ponding."}},
+              {"@type":"Question","name":"How does Amarillo's hail damage asphalt flat roofing differently than shingle roofs?","acceptedAnswer":{"@type":"Answer","text":"Hail impacts on asphalt flat roofs create different damage patterns than on shingle roofs. On built-up roofing, hail fractures the flood coat and exposes underlying felts to UV degradation. On modified bitumen, impacts can crack the membrane and compromise waterproofing. Damage may not leak immediately but leads to accelerated deterioration and eventual failure."}},
+              {"@type":"Question","name":"Can asphalt flat roofs in Amarillo be coated instead of replaced?","acceptedAnswer":{"@type":"Answer","text":"In many cases, yes. If the existing asphalt roof substrate is structurally sound with no moisture trapped in the insulation, a silicone or acrylic roof coating can extend its life by 10-15 years at a fraction of replacement cost. We perform moisture scans and core samples to determine if your Amarillo commercial roof is a candidate for coating restoration."}},
+              {"@type":"Question","name":"What is the lifespan of an asphalt flat roof in Amarillo's climate?","acceptedAnswer":{"@type":"Answer","text":"In Amarillo's extreme climate with intense UV radiation, temperature swings exceeding 100 degrees annually, and frequent hail, asphalt flat roofs typically last 15-20 years with proper maintenance. Premium modified bitumen systems can last 20-25 years. Regular maintenance including annual inspections, drain cleaning, and prompt repair of damage significantly extends roof life."}},
+              {"@type":"Question","name":"How do you repair blistering on Amarillo asphalt flat roofs?","acceptedAnswer":{"@type":"Answer","text":"Blistering occurs when moisture trapped between roof layers expands in Amarillo's extreme heat. We cut open blisters, dry the area, apply new asphalt or adhesive, patch with compatible membrane material, and seal all edges. For widespread blistering indicating systemic moisture issues, we may recommend partial or full re-roofing rather than spot repairs."}},
+              {"@type":"Question","name":"Do you provide maintenance programs for Amarillo commercial flat roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer preventive maintenance programs specifically designed for Amarillo commercial flat roofs. Programs include biannual inspections before and after storm season, drain and scupper cleaning, minor repair of any damage found, photo documentation of roof condition, and priority scheduling for storm damage response. Regular maintenance is the most cost-effective way to maximize flat roof lifespan."}}
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

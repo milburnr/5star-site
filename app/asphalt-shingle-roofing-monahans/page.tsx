@@ -387,6 +387,66 @@ export default function AsphaltShingleRoofingMonahansPage() {
         </FadeIn>
         <InternalLinks currentCity="monahans" currentService="asphalt-shingle-roofing" />
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Monahans Asphalt Shingle Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do Monahans Sandhills affect shingle roofing in the area?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  The Monahans Sandhills State Park's dune system produces wind-blown sand that creates unique abrasive wear on roofing materials. Properties near the sandhills experience accelerated granule loss from sand blasting during high winds. We recommend shingles with enhanced granule adhesion and apply additional sealant to exposed edges for Monahans homes subject to sand exposure.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What shingle considerations are unique to Monahans' Ward County climate?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Ward County combines extreme Permian Basin heat with sand exposure and oil field particulates, creating one of the harshest roofing environments in Texas. Shingles must resist UV degradation at high temperatures, handle abrasive sand contact, and withstand petroleum-based chemical deposits from nearby oil operations. We use only premium shingles with enhanced formulations for these combined stresses.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How often do Monahans roofs need replacement compared to other cities?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Due to the combination of extreme heat, sand abrasion, and hail exposure, Monahans shingle roofs typically need replacement every 15-18 years compared to 20-25 years in moderate climates. Investing in Class 4 impact-resistant shingles with enhanced UV protection can extend this to 20-22 years. Regular maintenance including sand removal from gutters and valleys also helps extend roof life.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you provide emergency tarping for storm-damaged roofs in Monahans?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we provide emergency tarping and temporary repairs for Monahans properties after storms. Ward County is approximately 3 hours from our Amarillo headquarters, so we pre-stage materials when severe weather is forecast for the Permian Basin. After major hail events, we deploy crews to Monahans within 24 hours to prevent further damage from water infiltration.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What insurance companies serve Monahans homeowners for hail damage claims?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  We work with all major insurance carriers serving Ward County including State Farm, Allstate, Farmers, USAA, Texas Farm Bureau, and regional Permian Basin insurance providers. Our detailed damage documentation with drone photography meets the standards required by all these carriers. We handle the entire claims process from initial inspection through final payment.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Are there shingles that resist the sand abrasion unique to the Monahans area?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes. Shingles with polymer-modified asphalt formulations and ceramic-coated granules provide the best resistance to sand abrasion in the Monahans area. These premium products maintain their protective granule layer longer under abrasive conditions. We also recommend architectural style shingles over three-tab because their thicker profile and dimensional design better resist sand wear.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
+
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Monahans Property?</h2>
@@ -403,6 +463,67 @@ export default function AsphaltShingleRoofingMonahansPage() {
           </div>
         </section>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                              {
+                                        "@type": "Question",
+                                        "name": "How do Monahans Sandhills affect shingle roofing in the area?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "The Monahans Sandhills State Park's dune system produces wind-blown sand that creates unique abrasive wear on roofing materials. Properties near the sandhills experience accelerated granule loss from sand blasting during high winds. We recommend shingles with enhanced granule adhesion and apply additional sealant to exposed edges for Monahans homes subject to sand exposure."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "What shingle considerations are unique to Monahans' Ward County climate?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Ward County combines extreme Permian Basin heat with sand exposure and oil field particulates, creating one of the harshest roofing environments in Texas. Shingles must resist UV degradation at high temperatures, handle abrasive sand contact, and withstand petroleum-based chemical deposits from nearby oil operations. We use only premium shingles with enhanced formulations for these combined stresses."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "How often do Monahans roofs need replacement compared to other cities?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Due to the combination of extreme heat, sand abrasion, and hail exposure, Monahans shingle roofs typically need replacement every 15-18 years compared to 20-25 years in moderate climates. Investing in Class 4 impact-resistant shingles with enhanced UV protection can extend this to 20-22 years. Regular maintenance including sand removal from gutters and valleys also helps extend roof life."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "Do you provide emergency tarping for storm-damaged roofs in Monahans?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Yes, we provide emergency tarping and temporary repairs for Monahans properties after storms. Ward County is approximately 3 hours from our Amarillo headquarters, so we pre-stage materials when severe weather is forecast for the Permian Basin. After major hail events, we deploy crews to Monahans within 24 hours to prevent further damage from water infiltration."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "What insurance companies serve Monahans homeowners for hail damage claims?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "We work with all major insurance carriers serving Ward County including State Farm, Allstate, Farmers, USAA, Texas Farm Bureau, and regional Permian Basin insurance providers. Our detailed damage documentation with drone photography meets the standards required by all these carriers. We handle the entire claims process from initial inspection through final payment."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "Are there shingles that resist the sand abrasion unique to the Monahans area?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Yes. Shingles with polymer-modified asphalt formulations and ceramic-coated granules provide the best resistance to sand abrasion in the Monahans area. These premium products maintain their protective granule layer longer under abrasive conditions. We also recommend architectural style shingles over three-tab because their thicker profile and dimensional design better resist sand wear."
+                                        }
+                              }
+                    ]
+          })
+        }}
+      />
+
     </>
   );
 }

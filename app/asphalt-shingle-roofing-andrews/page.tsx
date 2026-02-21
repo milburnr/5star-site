@@ -387,6 +387,66 @@ export default function AsphaltShingleRoofingAndrewsPage() {
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="asphalt-shingle-roofing" />
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Andrews Asphalt Shingle Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Andrews County's oil field activity affect asphalt shingle roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Oil field operations near Andrews generate fine particulate matter and chemical emissions that can accelerate shingle degradation. Petroleum-based dust settles on roof surfaces, trapping heat and moisture against shingles. We recommend premium shingles with enhanced granule adhesion and UV stabilizers for Andrews properties near active oil fields.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What Class rating should Andrews homeowners choose for asphalt shingles?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Given Andrews County's location in Hail Alley with frequent large hail events, we strongly recommend Class 4 impact-resistant asphalt shingles. These premium shingles can withstand 2-inch hail impacts and often qualify for insurance discounts of up to 35% in Andrews, making the upgrade cost-effective within a few years.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How long do asphalt shingles typically last in Andrews' extreme heat?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  In Andrews' extreme Permian Basin heat where summer temperatures regularly exceed 105 degrees and roof surfaces reach 170 degrees, standard asphalt shingles may last only 15-18 years compared to 25-30 years in moderate climates. UV-stabilized architectural shingles extend this to 20-25 years with proper ventilation.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can asphalt shingles handle the sand and dust storms common in Andrews?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Sand and dust storms in Andrews County can cause abrasive wear on shingle surfaces, accelerating granule loss. We install shingles with enhanced granule adhesion specifically designed for high-dust environments. Proper gutter guards and regular maintenance also help prevent dust accumulation that traps moisture against roofing materials.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you offer insurance claim assistance for hail-damaged shingles in Andrews?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, we provide complete insurance claim support for Andrews homeowners. This includes free post-storm inspections, detailed photo documentation meeting adjuster requirements, direct communication with your insurance company, and supplement negotiation to ensure full coverage. We work with all major carriers serving Andrews County.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What ventilation improvements do Andrews homes typically need with new shingles?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Andrews homes often lack adequate ridge venting and soffit intake, leading to attic temperatures exceeding 150 degrees in summer. When replacing shingles, we assess and upgrade ventilation to extend shingle life. Proper ventilation can add 5-7 years to asphalt shingle lifespan in Andrews' extreme heat by reducing thermal stress on the materials.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
+
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Andrews Property?</h2>
@@ -403,6 +463,67 @@ export default function AsphaltShingleRoofingAndrewsPage() {
           </div>
         </section>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                              {
+                                        "@type": "Question",
+                                        "name": "How does Andrews County's oil field activity affect asphalt shingle roofs?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Oil field operations near Andrews generate fine particulate matter and chemical emissions that can accelerate shingle degradation. Petroleum-based dust settles on roof surfaces, trapping heat and moisture against shingles. We recommend premium shingles with enhanced granule adhesion and UV stabilizers for Andrews properties near active oil fields."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "What Class rating should Andrews homeowners choose for asphalt shingles?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Given Andrews County's location in Hail Alley with frequent large hail events, we strongly recommend Class 4 impact-resistant asphalt shingles. These premium shingles can withstand 2-inch hail impacts and often qualify for insurance discounts of up to 35% in Andrews, making the upgrade cost-effective within a few years."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "How long do asphalt shingles typically last in Andrews' extreme heat?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "In Andrews' extreme Permian Basin heat where summer temperatures regularly exceed 105 degrees and roof surfaces reach 170 degrees, standard asphalt shingles may last only 15-18 years compared to 25-30 years in moderate climates. UV-stabilized architectural shingles extend this to 20-25 years with proper ventilation."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "Can asphalt shingles handle the sand and dust storms common in Andrews?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Sand and dust storms in Andrews County can cause abrasive wear on shingle surfaces, accelerating granule loss. We install shingles with enhanced granule adhesion specifically designed for high-dust environments. Proper gutter guards and regular maintenance also help prevent dust accumulation that traps moisture against roofing materials."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "Do you offer insurance claim assistance for hail-damaged shingles in Andrews?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Yes, we provide complete insurance claim support for Andrews homeowners. This includes free post-storm inspections, detailed photo documentation meeting adjuster requirements, direct communication with your insurance company, and supplement negotiation to ensure full coverage. We work with all major carriers serving Andrews County."
+                                        }
+                              },
+                              {
+                                        "@type": "Question",
+                                        "name": "What ventilation improvements do Andrews homes typically need with new shingles?",
+                                        "acceptedAnswer": {
+                                                  "@type": "Answer",
+                                                  "text": "Andrews homes often lack adequate ridge venting and soffit intake, leading to attic temperatures exceeding 150 degrees in summer. When replacing shingles, we assess and upgrade ventilation to extend shingle life. Proper ventilation can add 5-7 years to asphalt shingle lifespan in Andrews' extreme heat by reducing thermal stress on the materials."
+                                        }
+                              }
+                    ]
+          })
+        }}
+      />
+
     </>
   );
 }

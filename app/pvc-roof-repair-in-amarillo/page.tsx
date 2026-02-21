@@ -1,4 +1,10 @@
 import { FadeIn } from "@/components/FadeIn";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -346,7 +352,65 @@ export default function Page() {
         Our team provides honest assessments—if your roof can be repaired, we'll repair it. If replacement is more cost-effective long-term, we'll explain why and provide detailed estimates for both options.
       </p>
 
-      <section className="bg-gray-50 rounded-lg p-6 mb-8">
+              <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              PVC Roof Repair FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do Amarillo&apos;s temperature extremes affect PVC roof membrane seams?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  PVC membranes are heat-welded at seams, creating bonds stronger than the membrane itself. However, Amarillo&apos;s extreme temperature cycling from summer highs above 100 degrees to winter lows below zero causes thermal expansion and contraction that can stress older weld seams over time. We inspect seam integrity during every repair and re-weld any compromised sections.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can PVC roof damage from hail be repaired or does the whole membrane need replacement?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  PVC membranes are remarkably hail-resistant, but large hail can create punctures or fractures. Individual punctures can be patched with PVC membrane and heat-welded in place. If hail damage is widespread affecting more than 25% of the membrane surface, full replacement is typically more cost-effective than extensive patching.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What chemicals does PVC roofing resist that other materials cannot?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  PVC membranes resist a wide range of chemicals including animal fats, petroleum oils, and restaurant grease that would damage TPO or EPDM membranes. This makes PVC ideal for Amarillo restaurants, food processing facilities, and any building with rooftop kitchen exhaust vents. The chemical resistance is inherent to the material and does not diminish over time.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How long do PVC roof repairs typically last in Amarillo&apos;s climate?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Properly executed PVC repairs using heat-welded patches of matching membrane material are permanent repairs that last the remaining life of the roof system. Heat-welded PVC patches create a monolithic bond that is actually stronger than the surrounding membrane. We use only manufacturer-approved repair materials to maintain warranty coverage.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What signs indicate a PVC roof in Amarillo needs repair versus replacement?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Signs favoring repair include isolated leaks, minor punctures, and localized seam separation. Signs favoring replacement include widespread membrane shrinkage, multiple areas of exposed reinforcement scrim, membrane thickness below minimum specs, and chronic ponding water. We provide honest assessments and will recommend repair over replacement whenever repair is the sound long-term choice.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does UV exposure at Amarillo&apos;s elevation affect PVC roofing differently?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  At Amarillo&apos;s elevation with over 260 sunny days annually, UV exposure is more intense than at sea level. Quality PVC membranes include UV stabilizers that resist degradation, but cheaper formulations can become brittle and crack after 10-15 years. We use only premium PVC products with enhanced UV protection rated for high-altitude installations like those found throughout the Texas Panhandle.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+<section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Related PVC Roofing Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <a href="/pvc-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• PVC Roof Replacement</a>
@@ -373,6 +437,24 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"How do Amarillo's temperature extremes affect PVC roof membrane seams?","acceptedAnswer":{"@type":"Answer","text":"PVC membranes are heat-welded at seams, creating bonds stronger than the membrane itself. However, Amarillo's extreme temperature cycling from summer highs above 100 degrees to winter lows below zero causes thermal expansion and contraction that can stress older weld seams over time. We inspect seam integrity during every repair and re-weld any compromised sections."}},
+              {"@type":"Question","name":"Can PVC roof damage from hail be repaired or does the whole membrane need replacement?","acceptedAnswer":{"@type":"Answer","text":"PVC membranes are remarkably hail-resistant, but large hail can create punctures or fractures. Individual punctures can be patched with PVC membrane and heat-welded in place. If hail damage is widespread affecting more than 25% of the membrane surface, full replacement is typically more cost-effective than extensive patching."}},
+              {"@type":"Question","name":"What chemicals does PVC roofing resist that other materials cannot?","acceptedAnswer":{"@type":"Answer","text":"PVC membranes resist a wide range of chemicals including animal fats, petroleum oils, and restaurant grease that would damage TPO or EPDM membranes. This makes PVC ideal for Amarillo restaurants, food processing facilities, and any building with rooftop kitchen exhaust vents. The chemical resistance is inherent to the material and does not diminish over time."}},
+              {"@type":"Question","name":"How long do PVC roof repairs typically last in Amarillo's climate?","acceptedAnswer":{"@type":"Answer","text":"Properly executed PVC repairs using heat-welded patches of matching membrane material are permanent repairs that last the remaining life of the roof system. Heat-welded PVC patches create a monolithic bond that is actually stronger than the surrounding membrane. We use only manufacturer-approved repair materials to maintain warranty coverage."}},
+              {"@type":"Question","name":"What signs indicate a PVC roof in Amarillo needs repair versus replacement?","acceptedAnswer":{"@type":"Answer","text":"Signs favoring repair include isolated leaks, minor punctures, and localized seam separation. Signs favoring replacement include widespread membrane shrinkage, multiple areas of exposed reinforcement scrim, membrane thickness below minimum specs, and chronic ponding water. We provide honest assessments and will recommend repair over replacement whenever repair is the sound long-term choice."}},
+              {"@type":"Question","name":"How does UV exposure at Amarillo's elevation affect PVC roofing differently?","acceptedAnswer":{"@type":"Answer","text":"At Amarillo's elevation with over 260 sunny days annually, UV exposure is more intense than at sea level. Quality PVC membranes include UV stabilizers that resist degradation, but cheaper formulations can become brittle and crack after 10-15 years. We use only premium PVC products with enhanced UV protection rated for high-altitude installations like those found throughout the Texas Panhandle."}}
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

@@ -536,6 +536,65 @@ export default function MetalRoofingBigSpringPage() {
         <InternalLinks currentCity="big-spring" currentService="metal-roofing" />
 
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Big Spring Metal Roofing Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Is metal roofing a good choice near Big Spring&apos;s refinery operations?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing is excellent near Big Spring&apos;s refinery because it resists chemical exposure from airborne industrial particulates, does not absorb petroleum-based contaminants like asphalt shingles do, and can be cleaned easily if chemical deposits accumulate. Standing seam systems with Kynar coatings provide the best long-term performance in Big Spring&apos;s industrial environment.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does Big Spring&apos;s elevation affect metal roofing panel expansion?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  At Big Spring&apos;s 2,400-foot elevation, temperature swings between day and night can exceed 40 degrees, and seasonal ranges exceed 110 degrees. Metal panels expand and contract with these changes, which is why we use standing seam systems with floating clips that allow panels to move without stressing fasteners or creating noise.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What metal gauge do you recommend for Big Spring residential homes?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  For Big Spring residential metal roofing, we typically recommend 26-gauge steel for standing seam applications and 24-gauge for exposed fastener panels. In areas with higher hail exposure or for agricultural buildings, 24-gauge provides enhanced impact resistance. Commercial and industrial buildings near the I-20 corridor may benefit from 22-gauge for maximum durability.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can metal roofing reduce cooling costs for Big Spring businesses along I-20?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Absolutely. Cool-color metal roofing with high solar reflectance can reduce cooling costs by 25-35% for Big Spring commercial buildings. Given Big Spring&apos;s extreme summer heat with 80-100 days above 100 degrees annually, the energy savings on a commercial building can reach thousands of dollars per year, providing a return on investment within 8-12 years.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does metal roofing handle Big Spring&apos;s occasional severe hailstorms?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Standing seam metal roofing handles Big Spring hailstorms exceptionally well. The steel panels can absorb impacts from hail up to 2 inches without compromising waterproofing integrity. While cosmetic denting may occur with larger hail, the roof continues to function perfectly. This is a major advantage over asphalt shingles that often require full replacement after significant hail events.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you install metal roofing on Big Spring agricultural buildings?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, agricultural metal roofing is a significant part of our Big Spring work. We install corrugated and R-panel metal systems on barns, equipment shelters, livestock facilities, and storage buildings throughout Howard County. Agricultural metal roofing handles dust accumulation, chemical exposure, and the vibration from farming equipment better than any other roofing material.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Big Spring Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
@@ -551,6 +610,24 @@ export default function MetalRoofingBigSpringPage() {
           </div>
         </section>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"Is metal roofing a good choice near Big Spring's refinery operations?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing is excellent near Big Spring's refinery because it resists chemical exposure from airborne industrial particulates, does not absorb petroleum-based contaminants like asphalt shingles do, and can be cleaned easily if chemical deposits accumulate. Standing seam systems with Kynar coatings provide the best long-term performance in Big Spring's industrial environment."}},
+              {"@type":"Question","name":"How does Big Spring's elevation affect metal roofing panel expansion?","acceptedAnswer":{"@type":"Answer","text":"At Big Spring's 2,400-foot elevation, temperature swings between day and night can exceed 40 degrees, and seasonal ranges exceed 110 degrees. Metal panels expand and contract with these changes, which is why we use standing seam systems with floating clips that allow panels to move without stressing fasteners or creating noise."}},
+              {"@type":"Question","name":"What metal gauge do you recommend for Big Spring residential homes?","acceptedAnswer":{"@type":"Answer","text":"For Big Spring residential metal roofing, we typically recommend 26-gauge steel for standing seam applications and 24-gauge for exposed fastener panels. In areas with higher hail exposure or for agricultural buildings, 24-gauge provides enhanced impact resistance. Commercial and industrial buildings near the I-20 corridor may benefit from 22-gauge for maximum durability."}},
+              {"@type":"Question","name":"Can metal roofing reduce cooling costs for Big Spring businesses along I-20?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Cool-color metal roofing with high solar reflectance can reduce cooling costs by 25-35% for Big Spring commercial buildings. Given Big Spring's extreme summer heat with 80-100 days above 100 degrees annually, the energy savings on a commercial building can reach thousands of dollars per year, providing a return on investment within 8-12 years."}},
+              {"@type":"Question","name":"How does metal roofing handle Big Spring's occasional severe hailstorms?","acceptedAnswer":{"@type":"Answer","text":"Standing seam metal roofing handles Big Spring hailstorms exceptionally well. The steel panels can absorb impacts from hail up to 2 inches without compromising waterproofing integrity. While cosmetic denting may occur with larger hail, the roof continues to function perfectly. This is a major advantage over asphalt shingles that often require full replacement after significant hail events."}},
+              {"@type":"Question","name":"Do you install metal roofing on Big Spring agricultural buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes, agricultural metal roofing is a significant part of our Big Spring work. We install corrugated and R-panel metal systems on barns, equipment shelters, livestock facilities, and storage buildings throughout Howard County. Agricultural metal roofing handles dust accumulation, chemical exposure, and the vibration from farming equipment better than any other roofing material."}}
+            ]
+          })
+        }}
+      />
     </>
   );
 }

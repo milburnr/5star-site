@@ -536,6 +536,65 @@ export default function MetalRoofingMonahansPage() {
         <InternalLinks currentCity="monahans" currentService="metal-roofing" />
 
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Monahans Metal Roofing Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Is metal roofing a better choice than shingles in Monahans&apos; sandy environment?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing is significantly more durable than asphalt shingles in Monahans&apos; sandy conditions. Metal panels resist sand abrasion far better than asphalt granules, do not degrade from petroleum particulates common near oil operations, and can last 50+ years with minimal maintenance. For properties near the Monahans Sandhills, metal roofing eliminates the accelerated granule loss that shortens shingle life.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What metal roofing coating resists Monahans&apos; combination of sand and sun?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  For Monahans&apos; unique combination of sand abrasion and intense UV exposure, Kynar 500 fluoropolymer coatings provide the best protection. These coatings resist fading, chalking, and abrasion for 30-40 years. The smooth surface also sheds sand more effectively than textured finishes, reducing accumulation and the associated moisture trapping.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does metal roofing handle the extreme heat in Monahans during summer?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Monahans regularly experiences temperatures exceeding 105 degrees with roof surface temperatures reaching 170+ degrees on dark surfaces. Metal roofing with reflective coatings keeps surface temperatures 50-60 degrees lower than dark asphalt shingles, significantly reducing cooling costs. The thermal conductivity of metal allows rapid nighttime cooling, reducing the heat load that accumulates in buildings during the day.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can metal roofing be used for Monahans oil field equipment shelters?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, metal roofing is the standard choice for Monahans oil field equipment shelters, maintenance buildings, and storage facilities. We install R-panel and corrugated metal systems designed for industrial use with enhanced corrosion resistance for petroleum environments. These systems handle the vibration from heavy equipment, resist chemical exposure, and provide decades of service with minimal maintenance.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What gauge metal is recommended for Monahans residential properties?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  For Monahans residential metal roofing, we recommend 26-gauge steel for standing seam systems and 24-gauge for areas with higher hail and sand exposure. The thicker gauge provides better impact resistance from hail and more resistance to sand abrasion over the roof&apos;s lifetime. Premium 24-gauge standing seam is our most popular Monahans residential product.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does a metal roof affect homeowner insurance rates in Monahans?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing often qualifies for insurance discounts in Monahans because of its superior hail and wind resistance. Many Ward County homeowners see insurance premium reductions of 10-25% after upgrading to metal roofing. Combined with the elimination of frequent hail damage claims, metal roofing can significantly reduce the total cost of home ownership in Monahans&apos; severe weather environment.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Monahans Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
@@ -551,6 +610,24 @@ export default function MetalRoofingMonahansPage() {
           </div>
         </section>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"Is metal roofing a better choice than shingles in Monahans' sandy environment?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing is significantly more durable than asphalt shingles in Monahans' sandy conditions. Metal panels resist sand abrasion far better than asphalt granules, do not degrade from petroleum particulates common near oil operations, and can last 50+ years with minimal maintenance. For properties near the Monahans Sandhills, metal roofing eliminates the accelerated granule loss that shortens shingle life."}},
+              {"@type":"Question","name":"What metal roofing coating resists Monahans' combination of sand and sun?","acceptedAnswer":{"@type":"Answer","text":"For Monahans' unique combination of sand abrasion and intense UV exposure, Kynar 500 fluoropolymer coatings provide the best protection. These coatings resist fading, chalking, and abrasion for 30-40 years. The smooth surface also sheds sand more effectively than textured finishes, reducing accumulation and the associated moisture trapping."}},
+              {"@type":"Question","name":"How does metal roofing handle the extreme heat in Monahans during summer?","acceptedAnswer":{"@type":"Answer","text":"Monahans regularly experiences temperatures exceeding 105 degrees with roof surface temperatures reaching 170+ degrees on dark surfaces. Metal roofing with reflective coatings keeps surface temperatures 50-60 degrees lower than dark asphalt shingles, significantly reducing cooling costs. The thermal conductivity of metal allows rapid nighttime cooling, reducing the heat load that accumulates in buildings during the day."}},
+              {"@type":"Question","name":"Can metal roofing be used for Monahans oil field equipment shelters?","acceptedAnswer":{"@type":"Answer","text":"Yes, metal roofing is the standard choice for Monahans oil field equipment shelters, maintenance buildings, and storage facilities. We install R-panel and corrugated metal systems designed for industrial use with enhanced corrosion resistance for petroleum environments. These systems handle the vibration from heavy equipment, resist chemical exposure, and provide decades of service with minimal maintenance."}},
+              {"@type":"Question","name":"What gauge metal is recommended for Monahans residential properties?","acceptedAnswer":{"@type":"Answer","text":"For Monahans residential metal roofing, we recommend 26-gauge steel for standing seam systems and 24-gauge for areas with higher hail and sand exposure. The thicker gauge provides better impact resistance from hail and more resistance to sand abrasion over the roof's lifetime. Premium 24-gauge standing seam is our most popular Monahans residential product."}},
+              {"@type":"Question","name":"How does a metal roof affect homeowner insurance rates in Monahans?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing often qualifies for insurance discounts in Monahans because of its superior hail and wind resistance. Many Ward County homeowners see insurance premium reductions of 10-25% after upgrading to metal roofing. Combined with the elimination of frequent hail damage claims, metal roofing can significantly reduce the total cost of home ownership in Monahans' severe weather environment."}}
+            ]
+          })
+        }}
+      />
     </>
   );
 }

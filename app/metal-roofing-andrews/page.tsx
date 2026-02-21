@@ -536,6 +536,65 @@ export default function MetalRoofingAndrewsPage() {
         <InternalLinks currentCity="andrews" currentService="metal-roofing" />
 
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Andrews Metal Roofing Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Why is metal roofing especially popular for Andrews oil industry buildings?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing is the preferred choice for Andrews oil field facilities because it withstands chemical exposure from petroleum products, handles extreme heat without degrading, resists fire better than any other roofing material with a Class A rating, and requires minimal maintenance in remote locations where access for repairs is difficult.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What metal roofing finish works best in Andrews&apos; intense Permian Basin sun?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Kynar 500 or Hylar 5000 fluoropolymer coatings provide the best UV resistance for Andrews&apos; intense sun exposure. These premium finishes resist fading, chalking, and degradation for 30-40 years. Cool-color metal roofing in lighter tones can also reduce cooling costs by 20-30% compared to dark roof surfaces in Andrews&apos; extreme heat.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does standing seam metal roofing perform in Andrews hailstorms?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Standing seam metal roofing provides excellent hail resistance for Andrews properties. The thick gauge steel panels can absorb impacts from golf ball-sized hail without puncturing. While cosmetic denting may occur with very large hail, the roof&apos;s waterproofing integrity remains intact. This is a significant advantage over asphalt shingles that can be destroyed by the same size hail.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can metal roofing be installed on existing Andrews homes with shingle roofs?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, metal roofing can often be installed over one layer of existing asphalt shingles on Andrews homes, reducing cost and construction waste. The existing shingles provide an additional sound-dampening layer. However, if moisture damage or multiple existing layers are present, tear-off is recommended for a proper installation with maximum longevity.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What noise level should Andrews homeowners expect with metal roofing during rain?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Modern metal roofing installed over solid decking with proper underlayment produces noise levels comparable to asphalt shingles during rain. The combination of solid plywood decking, synthetic underlayment, and attic insulation absorbs sound effectively. Andrews homeowners consistently report that rain noise is not an issue with properly installed metal roofing systems.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does metal roofing affect home resale value in Andrews?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing typically increases Andrews home values and is increasingly sought after by buyers who understand the Permian Basin climate. The 50+ year lifespan, superior hail resistance, and reduced energy costs make metal-roofed homes more attractive to buyers. Real estate agents in Andrews report that metal roofs are a significant selling point in the local market.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Andrews Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
@@ -551,6 +610,24 @@ export default function MetalRoofingAndrewsPage() {
           </div>
         </section>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"Why is metal roofing especially popular for Andrews oil industry buildings?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing is the preferred choice for Andrews oil field facilities because it withstands chemical exposure from petroleum products, handles extreme heat without degrading, resists fire better than any other roofing material with a Class A rating, and requires minimal maintenance in remote locations where access for repairs is difficult."}},
+              {"@type":"Question","name":"What metal roofing finish works best in Andrews' intense Permian Basin sun?","acceptedAnswer":{"@type":"Answer","text":"Kynar 500 or Hylar 5000 fluoropolymer coatings provide the best UV resistance for Andrews' intense sun exposure. These premium finishes resist fading, chalking, and degradation for 30-40 years. Cool-color metal roofing in lighter tones can also reduce cooling costs by 20-30% compared to dark roof surfaces in Andrews' extreme heat."}},
+              {"@type":"Question","name":"How does standing seam metal roofing perform in Andrews hailstorms?","acceptedAnswer":{"@type":"Answer","text":"Standing seam metal roofing provides excellent hail resistance for Andrews properties. The thick gauge steel panels can absorb impacts from golf ball-sized hail without puncturing. While cosmetic denting may occur with very large hail, the roof's waterproofing integrity remains intact. This is a significant advantage over asphalt shingles that can be destroyed by the same size hail."}},
+              {"@type":"Question","name":"Can metal roofing be installed on existing Andrews homes with shingle roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes, metal roofing can often be installed over one layer of existing asphalt shingles on Andrews homes, reducing cost and construction waste. The existing shingles provide an additional sound-dampening layer. However, if moisture damage or multiple existing layers are present, tear-off is recommended for a proper installation with maximum longevity."}},
+              {"@type":"Question","name":"What noise level should Andrews homeowners expect with metal roofing during rain?","acceptedAnswer":{"@type":"Answer","text":"Modern metal roofing installed over solid decking with proper underlayment produces noise levels comparable to asphalt shingles during rain. The combination of solid plywood decking, synthetic underlayment, and attic insulation absorbs sound effectively. Andrews homeowners consistently report that rain noise is not an issue with properly installed metal roofing systems."}},
+              {"@type":"Question","name":"How does metal roofing affect home resale value in Andrews?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing typically increases Andrews home values and is increasingly sought after by buyers who understand the Permian Basin climate. The 50+ year lifespan, superior hail resistance, and reduced energy costs make metal-roofed homes more attractive to buyers. Real estate agents in Andrews report that metal roofs are a significant selling point in the local market."}}
+            ]
+          })
+        }}
+      />
     </>
   );
 }

@@ -536,6 +536,65 @@ export default function MetalRoofingLevellandPage() {
         <InternalLinks currentCity="levelland" currentService="metal-roofing" />
 
 
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Levelland Metal Roofing Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Why is metal roofing gaining popularity among Levelland cotton farmers?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Levelland cotton farmers are increasingly choosing metal roofing for agricultural buildings because it handles cotton dust accumulation without degrading, requires virtually no maintenance over decades, withstands the severe hail common in Hockley County, and provides excellent ventilation options for crop storage. Metal roofs also last 3-4 times longer than asphalt alternatives, reducing long-term costs.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What metal roofing color options work best for Levelland&apos;s South Plains climate?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  For Levelland&apos;s extreme heat and intense UV exposure, we recommend light-colored metal roofing with high solar reflectance. White, light gray, and tan finishes with cool-roof technology reflect up to 70% of solar radiation. For residential homes where aesthetics matter, stone-coated metal shingles in earth tones provide traditional appearance with metal durability.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How does metal roofing perform during Levelland&apos;s severe thunderstorms?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing excels in Levelland&apos;s severe thunderstorm environment. Standing seam systems rated for 140+ mph winds remain secure during straight-line wind events. The interlocking panel design prevents wind-driven rain infiltration. Steel panels absorb hail impacts that would destroy asphalt shingles. After major storms, metal-roofed buildings in Levelland consistently show less damage than shingle-roofed structures.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Can metal roofing be installed on Levelland&apos;s older ranch-style homes?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes, metal roofing is an excellent upgrade for Levelland&apos;s older ranch-style homes. The lightweight nature of steel panels typically does not require structural reinforcement. Metal can be installed over existing shingle layers in many cases, and the improved insulation and reflectivity significantly reduce energy costs in these older homes that often lack modern insulation standards.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What maintenance does metal roofing need in Levelland&apos;s dusty environment?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Metal roofing requires minimal maintenance even in Levelland&apos;s dusty South Plains environment. An annual rinse with a garden hose removes accumulated dust and debris. We inspect exposed fastener panels for seal integrity every 3-5 years. Standing seam systems with concealed fasteners require even less attention. This minimal maintenance is a major advantage over shingle roofs that need regular inspections and repairs.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Does metal roofing affect cell phone reception in Levelland homes?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Modern metal roofing does not significantly affect cell phone reception inside Levelland homes. Cell signals penetrate through windows and walls, and the minor signal attenuation from metal roofing is offset by modern cellular network design. We have installed hundreds of metal roofs in the area with no reported cell service issues from homeowners.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Levelland Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
@@ -551,6 +610,24 @@ export default function MetalRoofingLevellandPage() {
           </div>
         </section>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"Why is metal roofing gaining popularity among Levelland cotton farmers?","acceptedAnswer":{"@type":"Answer","text":"Levelland cotton farmers are increasingly choosing metal roofing for agricultural buildings because it handles cotton dust accumulation without degrading, requires virtually no maintenance over decades, withstands the severe hail common in Hockley County, and provides excellent ventilation options for crop storage. Metal roofs also last 3-4 times longer than asphalt alternatives, reducing long-term costs."}},
+              {"@type":"Question","name":"What metal roofing color options work best for Levelland's South Plains climate?","acceptedAnswer":{"@type":"Answer","text":"For Levelland's extreme heat and intense UV exposure, we recommend light-colored metal roofing with high solar reflectance. White, light gray, and tan finishes with cool-roof technology reflect up to 70% of solar radiation. For residential homes where aesthetics matter, stone-coated metal shingles in earth tones provide traditional appearance with metal durability."}},
+              {"@type":"Question","name":"How does metal roofing perform during Levelland's severe thunderstorms?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing excels in Levelland's severe thunderstorm environment. Standing seam systems rated for 140+ mph winds remain secure during straight-line wind events. The interlocking panel design prevents wind-driven rain infiltration. Steel panels absorb hail impacts that would destroy asphalt shingles. After major storms, metal-roofed buildings in Levelland consistently show less damage than shingle-roofed structures."}},
+              {"@type":"Question","name":"Can metal roofing be installed on Levelland's older ranch-style homes?","acceptedAnswer":{"@type":"Answer","text":"Yes, metal roofing is an excellent upgrade for Levelland's older ranch-style homes. The lightweight nature of steel panels typically does not require structural reinforcement. Metal can be installed over existing shingle layers in many cases, and the improved insulation and reflectivity significantly reduce energy costs in these older homes that often lack modern insulation standards."}},
+              {"@type":"Question","name":"What maintenance does metal roofing need in Levelland's dusty environment?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing requires minimal maintenance even in Levelland's dusty South Plains environment. An annual rinse with a garden hose removes accumulated dust and debris. We inspect exposed fastener panels for seal integrity every 3-5 years. Standing seam systems with concealed fasteners require even less attention. This minimal maintenance is a major advantage over shingle roofs that need regular inspections and repairs."}},
+              {"@type":"Question","name":"Does metal roofing affect cell phone reception in Levelland homes?","acceptedAnswer":{"@type":"Answer","text":"Modern metal roofing does not significantly affect cell phone reception inside Levelland homes. Cell signals penetrate through windows and walls, and the minor signal attenuation from metal roofing is offset by modern cellular network design. We have installed hundreds of metal roofs in the area with no reported cell service issues from homeowners."}}
+            ]
+          })
+        }}
+      />
     </>
   );
 }

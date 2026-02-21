@@ -1,4 +1,11 @@
+import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
@@ -360,7 +367,65 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Related Links */}
+              <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Amarillo Residential Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What HOA roofing requirements apply to Amarillo residential neighborhoods?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Many Amarillo neighborhoods including Tascosa Office Park, Sleepy Hollow, and areas near Medi-Park have HOA requirements governing roofing materials, colors, and styles. We work with your HOA to ensure material selections meet all covenants before installation begins. We can provide material samples and specification sheets for HOA approval.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do Amarillo&apos;s neighborhood-specific weather patterns affect residential roofing?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Different Amarillo neighborhoods experience slightly different weather exposure. Properties in southwest Amarillo near the canyon rim face stronger wind uplift. Homes in older neighborhoods like Wolflin and Bivins have mature trees that can cause debris damage. We assess each property&apos;s specific exposure and recommend materials accordingly.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What impact does a new roof have on Amarillo home resale value?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  A new roof typically increases Amarillo home values by 5-10% and is consistently rated among the top home improvements for return on investment. In Amarillo&apos;s competitive housing market, a recent roof replacement with warranty documentation gives buyers confidence and eliminates a major inspection concern.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you offer energy-efficient roofing options for Amarillo homes?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes. Cool roof shingles with high solar reflectance can reduce attic temperatures by up to 30 degrees in Amarillo&apos;s hot summers, lowering cooling costs significantly. We also install radiant barrier underlayment and ensure proper attic ventilation for maximum energy efficiency. These upgrades often qualify for energy tax credits.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How long does a typical residential roof replacement take in Amarillo?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Most Amarillo residential roof replacements are completed in 1-2 days for a standard-sized home. Larger homes or those requiring decking repairs may take 2-3 days. We coordinate scheduling to minimize disruption and always clean up the property completely before leaving, including magnetic nail sweeps of the yard and driveway.
+                </AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What is the best roofing material for Amarillo homes with flat or low-slope sections?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Many Amarillo homes, particularly mid-century and ranch-style properties, have flat or low-slope sections. For these areas, we recommend modified bitumen or TPO membrane systems rather than shingles, which require a minimum slope to function properly. We often combine steep-slope shingles with flat-roof membranes on the same home for complete protection.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+        </FadeIn>
+
+{/* Related Links */}
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Related Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
@@ -378,6 +443,24 @@ export default function Page() {
           </a>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {"@type":"Question","name":"What HOA roofing requirements apply to Amarillo residential neighborhoods?","acceptedAnswer":{"@type":"Answer","text":"Many Amarillo neighborhoods including Tascosa Office Park, Sleepy Hollow, and areas near Medi-Park have HOA requirements governing roofing materials, colors, and styles. We work with your HOA to ensure material selections meet all covenants before installation begins. We can provide material samples and specification sheets for HOA approval."}},
+              {"@type":"Question","name":"How do Amarillo's neighborhood-specific weather patterns affect residential roofing?","acceptedAnswer":{"@type":"Answer","text":"Different Amarillo neighborhoods experience slightly different weather exposure. Properties in southwest Amarillo near the canyon rim face stronger wind uplift. Homes in older neighborhoods like Wolflin and Bivins have mature trees that can cause debris damage. We assess each property's specific exposure and recommend materials accordingly."}},
+              {"@type":"Question","name":"What impact does a new roof have on Amarillo home resale value?","acceptedAnswer":{"@type":"Answer","text":"A new roof typically increases Amarillo home values by 5-10% and is consistently rated among the top home improvements for return on investment. In Amarillo's competitive housing market, a recent roof replacement with warranty documentation gives buyers confidence and eliminates a major inspection concern."}},
+              {"@type":"Question","name":"Do you offer energy-efficient roofing options for Amarillo homes?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cool roof shingles with high solar reflectance can reduce attic temperatures by up to 30 degrees in Amarillo's hot summers, lowering cooling costs significantly. We also install radiant barrier underlayment and ensure proper attic ventilation for maximum energy efficiency. These upgrades often qualify for energy tax credits."}},
+              {"@type":"Question","name":"How long does a typical residential roof replacement take in Amarillo?","acceptedAnswer":{"@type":"Answer","text":"Most Amarillo residential roof replacements are completed in 1-2 days for a standard-sized home. Larger homes or those requiring decking repairs may take 2-3 days. We coordinate scheduling to minimize disruption and always clean up the property completely before leaving, including magnetic nail sweeps of the yard and driveway."}},
+              {"@type":"Question","name":"What is the best roofing material for Amarillo homes with flat or low-slope sections?","acceptedAnswer":{"@type":"Answer","text":"Many Amarillo homes, particularly mid-century and ranch-style properties, have flat or low-slope sections. For these areas, we recommend modified bitumen or TPO membrane systems rather than shingles, which require a minimum slope to function properly. We often combine steep-slope shingles with flat-roof membranes on the same home for complete protection."}}
+            ]
+          })
+        }}
+      />
     </div>
   );
 }
