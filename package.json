@@ -9,7 +9,8 @@
     "lint": "next lint",
     "install-indexing": "npm install googleapis",
     "index:dry-run": "node submit-to-indexing-api.js --dry-run",
-    "index:submit": "node submit-to-indexing-api.js"
+    "index:submit": "node submit-to-indexing-api.js",
+    "validate:schema": "node scripts/validate-schema.js"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
