@@ -520,6 +520,61 @@ export default function PampaRoofingPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Do you have experience working with Celanese Corporation and other chemical plants in Pampa?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we specialize in chemical facility roofing and have extensive experience with petrochemical plants throughout the Texas Panhandle. We understand the unique requirements including chemical resistance, environmental compliance, and safety protocols. Our crews are trained in industrial safety procedures and carry the high liability insurance required for work in chemical manufacturing environments."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What roofing systems work best for oil and gas facilities in Gray County?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "For petroleum facilities, we typically recommend metal roofing systems or specialized TPO membranes that resist hydrocarbon exposure. These materials are designed to handle the unique challenges of oil field environments including chemical exposure, temperature extremes, and potential fire hazards. We also ensure all systems meet petroleum industry safety standards and local fire codes."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How does living near chemical plants affect residential roofing choices in Pampa?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Homes near industrial facilities benefit from roofing materials that resist industrial pollutants and maintain their appearance longer. We recommend impact-resistant shingles with enhanced UV and chemical resistance, plus regular maintenance to ensure optimal performance. These systems protect your investment while providing superior weather protection compared to standard materials."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Can you handle storm repairs during industrial incidents or severe weather?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Absolutely. We maintain prompt response capability for both residential and industrial clients throughout Gray County. During severe weather events or industrial incidents, we can provide rapid tarping and temporary repairs to prevent water damage and secure facilities. Our response teams are equipped to work safely in industrial environments and coordinate with facility safety personnel."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What's involved in roof replacement for Pampa's historic downtown buildings?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Pampa's historic downtown includes buildings dating to the oil boom era that require careful restoration approaches. We work with local preservation guidelines and can install modern roofing systems designed to maintain historical appearance while providing superior protection. This often involves custom fabrication and specialty materials to match original designs while meeting current building codes."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How quickly can you complete roofing projects for businesses that can't afford downtime?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We understand that industrial operations can't afford extended shutdowns. We work with facility managers to schedule installations during planned maintenance windows, work in phases to keep operations running, or use rapid-installation systems when appropriate. Most commercial projects in Pampa are completed efficiently with minimal disruption to business operations."
+                        }
+                }
+        ]
+      })}}/>
     </div>
   );
 }

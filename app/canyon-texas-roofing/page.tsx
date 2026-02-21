@@ -517,6 +517,61 @@ export default function CanyonRoofingPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Do you work on West Texas A&M University campus buildings?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we have extensive experience with educational facility roofing and work with university procurement departments on campus roofing projects. We understand the unique requirements for dormitories, academic buildings, and research facilities, including safety codes, occupancy requirements, and environmental controls needed to protect sensitive equipment and research materials."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What roofing systems work best for Canyon's agriculture buildings?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "For Randall County agricultural operations, we typically recommend metal roofing systems for their durability, large-span capability, and cost-effectiveness. Standing seam metal roofs are ideal for barns and equipment storage, while properly ventilated systems work best for livestock facilities. We also install specialized roofing for grain storage that prevents condensation and protects valuable crops."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How do you handle roofing for historic buildings in downtown Canyon?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Canyon's historic downtown includes buildings from the early 1900s that require specialized restoration approaches. We work with local preservation guidelines and use materials that maintain historical authenticity while providing modern protection. This often includes using period-appropriate materials like slate or cedar shake alternatives, or installing modern systems designed to look historically accurate."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Can you handle the large roofing projects common in Canyon's institutional buildings?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Absolutely. We specialize in large commercial and institutional roofing projects, including university buildings, the museum complex, county government facilities, and other major structures in Canyon. Our crews are experienced with project management, coordination with multiple stakeholders, and working around active operations that can't be disrupted during roofing installation."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What's the typical timeline for residential roofing in Canyon?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Most residential roof replacements in Canyon are completed in 1-2 days, depending on the size and complexity of the home. University faculty and staff often prefer summer installations when classes aren't in session, so we recommend scheduling early for summer projects. We work efficiently to minimize disruption to families and can coordinate timing around academic schedules when needed."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How does proximity to Palo Duro Canyon affect roofing in the area?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "The canyon creates unique wind patterns and weather conditions that can affect roofing performance. We use wind-rated materials and installation techniques designed for these conditions. Additionally, the tourism industry brings many commercial properties (hotels, restaurants, visitor centers) that need attractive, durable roofing systems that can handle both heavy use and extreme weather exposure."
+                        }
+                }
+        ]
+      })}}/>
     </div>
   );
 }

@@ -517,6 +517,61 @@ export default function BorgerRoofingPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "How does working near Borger's petrochemical complex affect roofing installations?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Our crews are trained in industrial safety protocols and use chemical-resistant materials when working near Phillips 66, Chevron Phillips Chemical, and other facilities. We coordinate with plant safety personnel and follow all environmental regulations during installations. Our roofing systems are specifically chosen to resist chemical exposure that can occur from industrial emissions."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What type of roof is best for Borger's extreme hail storms?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "For Borger properties, we recommend Class 4 impact-resistant shingles or metal roofing systems. The Texas Panhandle experiences some of the most severe hailstorms in the country, often with baseball-sized hail. Our impact-resistant materials have been tested to withstand 2-inch hail impacts at high velocities, providing superior protection compared to standard shingles."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How quickly can you respond to storm damage in Hutchinson County?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We maintain prompt response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Do you work with insurance companies on hail damage claims in Borger?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Absolutely. We have extensive experience working with insurance adjusters on storm damage claims throughout the Texas Panhandle. We document all damage with detailed photos, provide written assessments, and meet with adjusters on-site to ensure you receive full coverage. Many Borger residents have saved thousands on their roofing projects through proper insurance claim management."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What makes 5 Star the best choice for Borger commercial roofing projects?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Our expertise with industrial and petrochemical facilities sets us apart. We understand the unique requirements of Borger's major employers—from chemical resistance for Phillips 66 facilities to specialized vapor barriers for chemical plants. We're licensed, bonded, and carry the high liability insurance required for industrial work, plus we have established relationships with facility managers throughout Hutchinson County."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How long does a typical residential roof replacement take in Borger?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Most residential roof replacements in Borger are completed in 1-2 days, weather permitting. We work efficiently to minimize disruption to your daily routine and protect your home from exposure. For larger or more complex roofs, or during busy storm seasons, projects may take 2-3 days. We always provide realistic timelines upfront and keep you informed throughout the process."
+                        }
+                }
+        ]
+      })}}/>
     </div>
   );
 }

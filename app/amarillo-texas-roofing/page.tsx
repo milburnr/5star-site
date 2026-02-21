@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -11,6 +12,33 @@ export const metadata: Metadata = {
 };
 
 export default function AmarilloRoofingPage() {
+  const faqItems = [
+    {
+      question: "Why is Amarillo considered 5 Star Roofing's primary service area?",
+      answer: "Amarillo is the largest city in the Texas Panhandle with a metro population exceeding 200,000, and our office is located at 2909 S Western St in Amarillo. This central location allows us to reach any Amarillo neighborhood within 30 minutes. We have more completed projects in Amarillo than any other city in our service area, giving us deep expertise with local building codes, HOA requirements, and the specific weather patterns that affect Potter and Randall County properties."
+    },
+    {
+      question: "When is hail season in Amarillo and how often does it hit?",
+      answer: "Amarillo's primary hail season runs from March through September, with peak activity in May and June. Potter and Randall Counties experience an average of 8-12 significant hail events per year, with baseball-sized hail occurring multiple times annually. The city's position in 'Hail Alley' means severe thunderstorms frequently produce damaging hail, making impact-resistant roofing materials essential for protecting Amarillo properties."
+    },
+    {
+      question: "How does the insurance claim process work for Amarillo homeowners after a hail storm?",
+      answer: "After a hail event, contact your insurance company to file a claim, then schedule a free inspection with us. We document all damage with detailed photographs, measurements, and a comprehensive written assessment. When your insurance adjuster visits, we meet them on-site to ensure all damage is identified and properly documented. We handle the entire process from initial assessment through final payment, ensuring Amarillo homeowners receive full coverage for all storm-related damage."
+    },
+    {
+      question: "What are the differences between residential and commercial roofing needs in Amarillo?",
+      answer: "Amarillo residential roofs typically use asphalt shingles or metal panels on sloped structures, requiring impact resistance and wind rating for Panhandle conditions. Commercial buildings usually have flat or low-slope roofs using TPO, EPDM, or modified bitumen membranes that must handle ponding water and large surface areas. Commercial projects also involve stricter code requirements, longer warranty expectations, and often require working around business operations. We handle both types throughout Amarillo with specialized crews for each."
+    },
+    {
+      question: "What building codes and permit requirements apply to roofing in Amarillo?",
+      answer: "Amarillo follows the International Building Code with Texas amendments. Residential re-roofing typically requires a permit from the City of Amarillo Building Safety Division. The code limits roof coverings to two layers maximum, requires proper underlayment, and mandates wind-rated installation methods appropriate for the Panhandle's high wind zone. We handle all permit applications and inspections as part of our Amarillo roofing projects, ensuring full compliance."
+    },
+    {
+      question: "How fast can 5 Star Roofing respond to emergency roof damage within Amarillo city limits?",
+      answer: "For active roof emergencies within Amarillo city limits, we typically arrive within 30-60 minutes during business hours with tarps and emergency repair materials. After hours, our emergency line connects you with our on-call team for response within 2 hours. Being headquartered in Amarillo means we do not have travel delays that contractors based in other cities face, allowing us to secure your property faster and prevent secondary water damage."
+    }
+  ];
+
   return (
     <div className="min-h-screen">      <Breadcrumb items={[
               {
@@ -510,6 +538,27 @@ export default function AmarilloRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Amarillo Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* Final CTA */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -672,6 +721,21 @@ export default function AmarilloRoofingPage() {
                 }
               ]
             }
+          })
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />

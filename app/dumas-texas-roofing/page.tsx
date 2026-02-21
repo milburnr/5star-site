@@ -533,6 +533,69 @@ export default function DumasRoofingPage() {
           "https://www.google.com/maps/place/5+Star+Commercial+Roofing"
         ]
       })}}/>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+                {
+                        "@type": "Question",
+                        "name": "Do you specialize in roofing for feedlots and cattle operations in Moore County?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Absolutely. We have extensive experience with agricultural roofing throughout Moore County's cattle operations. We understand the unique requirements for feedlot facilities, including proper ventilation, drainage, and materials that can handle the corrosive environment of cattle operations. Our metal building systems are specifically designed for the large spans required in agricultural buildings."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What type of roofing works best for grain storage facilities in Dumas?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "For grain storage buildings, we recommend metal roofing systems with advanced moisture barriers to prevent condensation that can damage stored crops. We use materials specifically designed for agricultural applications, including specialized ventilation systems that maintain proper airflow while preventing moisture intrusion. Our systems are also designed to handle the heavy snow loads that can occur on large agricultural buildings."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How do you handle the large-scale roofing projects common in Moore County agriculture?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We specialize in large agricultural projects and have the equipment and expertise to handle massive barn roofs, grain storage facilities, and feedlot buildings. Our crews are experienced with pre-engineered metal building systems and can coordinate with agricultural operations to minimize disruption to farming and livestock activities during installation."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Can you work around harvest season and cattle operations schedules?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we understand that agricultural operations can't always be shut down for roofing work. We work closely with farmers and ranchers to schedule projects during low-activity periods, or we can work in phases to keep operations running. We're experienced in working around cattle feeding schedules, grain harvest timing, and other agricultural cycles critical to Dumas area operations."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "What makes Dumas residential roofing different from other areas?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Homes in Dumas face unique challenges from both agricultural dust and severe weather. We recommend impact-resistant materials that also resist the abrasive effects of agricultural dust and maintain their appearance longer. The open terrain around Dumas also means homes are more exposed to high winds, so we use enhanced installation techniques with additional wind-rated fasteners and edge protection."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "How quickly can you respond to storm damage for agricultural buildings?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We provide prompt response for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage."
+                        }
+                },
+                {
+                        "@type": "Question",
+                        "name": "Do you provide maintenance services for agricultural roofing systems?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we offer preventive maintenance programs specifically designed for agricultural operations. Regular maintenance is critical for large metal buildings exposed to agricultural conditions including dust, moisture, and chemicals. Our maintenance programs help prevent small issues from becoming major problems that could disrupt farming or ranching operations."
+                        }
+                }
+        ]
+      })}}/>
     </div>
   );
 }
