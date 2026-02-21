@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 8 of 10 (Content Enrichment) -- COMPLETE
-Plan: 4 of 4 in current phase (all complete)
-Status: Phase 8 Complete, ready for Phase 9
-Last activity: 2026-02-21 — Completed 08-04 hail damage cluster and cannibalization audit
+Plan: 5 of 5 in current phase (all complete, including gap closure)
+Status: Phase 8 Complete (including gap closure), ready for Phase 9
+Last activity: 2026-02-21 — Completed 08-05 FAQ gap closure
 
 Progress: [▓▓▓▓▓▓▓▓▓░] 88%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 26
+- Total plans completed: 27
 - Average duration: 5.1min
-- Total execution time: 2.33 hours
+- Total execution time: 2.43 hours
 
 **By Phase:**
 
@@ -34,13 +34,14 @@ Progress: [▓▓▓▓▓▓▓▓▓░] 88%
 | 05-schema-architecture | 4 | 17min | 4.3min |
 | 06-service-hub-pages | 4 | 22min | 5.5min |
 | 07-internal-linking | 3 | 13min | 4.3min |
-| 08-content-enrichment | 4 | 58min | 14.5min |
+| 08-content-enrichment | 5 | 64min | 12.8min |
 
 **Recent Trend:**
-- Last 5 plans: 5min, 10min, 10min, 18min, 15min
-- Trend: content-heavy plans averaging 14-15min
+- Last 5 plans: 10min, 10min, 18min, 15min, 6min
+- Trend: gap closure plans faster than initial content plans
 
 *Updated after each plan completion*
+| Phase 08 P05 | 6min | 2 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -117,6 +118,8 @@ Recent decisions affecting current work:
 - [Phase 08-04]: FAQ duplicates (21 question-answer pairs across city variants) documented as content quality issue, not cannibalization -- each page targets unique primary keyword
 - [Phase 08-04]: Hub covers broad process (insurance steps, severity guide, storm types); spokes cover city-specific angles only
 - [Phase 08-04]: 21 identical FAQ answers flagged for future Phase 9/10 city-localization improvement
+- [Phase 08-05]: Spoke pages use faqItems.map() for both Accordion rendering and FAQPage schema (single source of truth)
+- [Phase 08-05]: City hubs keep existing div/h3 FAQ format; only FAQPage schema added to match
 
 ### Pending Todos
 
@@ -131,5 +134,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 08-04-PLAN.md (Phase 8 complete - hail damage cluster + cannibalization audit)
+Stopped at: Completed 08-05-PLAN.md (Phase 8 gap closure - FAQ coverage on 11 pages)
 Resume file: None
