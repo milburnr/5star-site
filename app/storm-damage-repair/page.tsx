@@ -159,7 +159,7 @@ export default function Page() {
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold text-brand-brown mb-4">Types of Storm Damage We Repair</h2>
+          <h2 className="text-2xl font-bold text-brand-brown mb-4">What Types of Storm Damage Do Texas Roofs Suffer?</h2>
           <p className="text-lg mb-4">
             Texas storms do not follow a single playbook. From marble-sized hail in the Panhandle to straight-line winds across the Permian Basin, each type of storm creates different damage patterns that require different repair strategies.
           </p>
@@ -199,7 +199,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Emergency Storm Response</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">How Does Our Emergency Storm Response Work?</h2>
         <p className="mb-6">
           When a storm hits, the priority is stopping water from entering your home or building. Our emergency response process is designed to stabilize the situation quickly while setting up a plan for permanent repairs.
         </p>
@@ -230,7 +230,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Storm Damage Insurance Claims</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">How Do You File a Storm Damage Insurance Claim?</h2>
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <p className="mb-4">
             Filing a storm damage insurance claim can feel overwhelming, especially when you are dealing with water in your home and a damaged roof overhead. We handle the documentation and coordination so you can focus on your family and property.
@@ -268,7 +268,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Protecting Your Roof Against Future Storms</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">How Can You Protect Your Roof Against Future Storms?</h2>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-bold text-brand-brown mb-2">Impact-Resistant Materials</h3>
@@ -297,7 +297,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Storm Season in West Texas</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">When Is Storm Season in West Texas?</h2>
         <div className="bg-brand-gold-light p-6 rounded-lg mb-8">
           <p className="mb-4">
             West Texas storm season runs primarily from March through September, with the highest concentration of severe hail and wind events between April and June. The Texas Panhandle, including Amarillo, Canyon, and Borger, sits in one of the most active hail corridors in the United States, averaging 3-4 significant hail events per year.

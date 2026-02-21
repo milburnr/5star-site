@@ -180,7 +180,7 @@ export default function Page() {
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
           <h2 className="text-2xl font-bold text-brand-brown mb-4">
-            West Texas Hail: A Constant Threat to Your Roof
+            How Does West Texas Hail Threaten Your Roof?
           </h2>
           <p className="text-lg mb-4">
             The Texas Panhandle and Permian Basin sit squarely in Hail Alley,
@@ -201,7 +201,7 @@ export default function Page() {
 
       <FadeIn delay={0.1}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Signs of Hail Damage on Your Roof
+          What Are the Signs of Hail Damage on Your Roof?
         </h2>
         <p className="mb-4">
           Hail damage is not always obvious from the ground. Knowing what to
@@ -261,7 +261,7 @@ export default function Page() {
 
       <FadeIn delay={0.2}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Our Hail Damage Repair Process
+          How Does the Hail Damage Repair Process Work?
         </h2>
         <p className="mb-4">
           From the first phone call to final cleanup, our process is designed to
@@ -318,7 +318,7 @@ export default function Page() {
 
       <FadeIn delay={0.3}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Insurance Claim Assistance
+          How Can We Help With Your Hail Damage Insurance Claim?
         </h2>
         <p className="mb-4">
           Filing a hail damage insurance claim can feel overwhelming, especially
@@ -370,7 +370,7 @@ export default function Page() {
 
       <FadeIn delay={0.4}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Types of Roofing Materials We Repair After Hail
+          What Roofing Materials Can Be Repaired After Hail Damage?
         </h2>
         <p className="mb-4">
           Hail damages every type of roofing material differently. Our crews are

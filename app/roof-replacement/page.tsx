@@ -197,7 +197,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Roofing Materials We Install</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">What Roofing Materials Are Available for Replacement?</h2>
         <p className="mb-6">
           Choosing the right roofing material depends on your budget, how long you plan to stay in the home, and what level of storm protection you need. We install every major roofing system available and help you weigh the trade-offs.
         </p>
@@ -235,12 +235,13 @@ export default function Page() {
 
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-brand-brown mb-3">TPO and EPDM (Flat Roofs)</h3>
+              <h3 className="text-xl font-semibold text-brand-brown mb-3">TPO, PVC, and EPDM (Flat Roofs)</h3>
               <p className="mb-3">
                 Single-ply membrane systems designed for low-slope and flat roofs common on commercial buildings and some residential additions.
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-600">
                 <li><strong>TPO:</strong> White reflective surface, heat-welded seams, energy efficient</li>
+                <li><strong>PVC:</strong> Superior chemical resistance, ideal for restaurants and industrial buildings</li>
                 <li><strong>EPDM:</strong> Proven rubber membrane, flexible in temperature extremes</li>
                 <li>15-20 year lifespan with proper maintenance</li>
                 <li>Excellent choice for patio covers, garages, and home additions</li>
@@ -263,10 +264,56 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+        <h3 className="text-xl font-bold mt-8 mb-4 text-brand-brown">Roof Replacement Material Comparison</h3>
+        <div className="overflow-x-auto mb-8">
+          <table className="w-full bg-white rounded-lg shadow">
+            <thead>
+              <tr className="bg-brand-gold text-white">
+                <th className="p-4 text-left">Material</th>
+                <th className="p-4 text-left">Lifespan</th>
+                <th className="p-4 text-left">Cost per Sq Ft</th>
+                <th className="p-4 text-left">Best Use Case</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b">
+                <td className="p-4 font-semibold">Asphalt Shingles</td>
+                <td className="p-4">20-30 years</td>
+                <td className="p-4">$4.50-$7.50</td>
+                <td className="p-4">Most residential homes, budget-friendly</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="p-4 font-semibold">Standing Seam Metal</td>
+                <td className="p-4">40-50 years</td>
+                <td className="p-4">$9-$14</td>
+                <td className="p-4">Long-term homes, maximum durability</td>
+              </tr>
+              <tr className="border-b">
+                <td className="p-4 font-semibold">TPO / PVC Membrane</td>
+                <td className="p-4">15-30 years</td>
+                <td className="p-4">$5-$10</td>
+                <td className="p-4">Flat and low-slope commercial roofs</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="p-4 font-semibold">EPDM Rubber</td>
+                <td className="p-4">15-25 years</td>
+                <td className="p-4">$4-$7</td>
+                <td className="p-4">Budget flat roofs, proven reliability</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">Built-Up (BUR)</td>
+                <td className="p-4">20-30 years</td>
+                <td className="p-4">$5-$9</td>
+                <td className="p-4">Heavy-traffic roofs, industrial buildings</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">What to Expect During Your Roof Replacement</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">What Happens During a Roof Replacement?</h2>
         <p className="mb-6">
           A roof replacement is one of the largest home improvement projects you can undertake. Knowing what happens at each stage helps you plan around the disruption and make informed decisions along the way.
         </p>
@@ -304,7 +351,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Financing and Insurance</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">How Do Financing and Insurance Work for Roof Replacement?</h2>
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <p className="mb-4">
             A roof replacement is a significant investment, and we work to make the process as manageable as possible. Whether you are paying out of pocket or filing an insurance claim, we have experience guiding homeowners through the financial side.

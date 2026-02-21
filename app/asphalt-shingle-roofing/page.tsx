@@ -178,7 +178,7 @@ export default function Page() {
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
           <h2 className="text-2xl font-bold text-brand-brown mb-4">
-            Texas&apos; Most Popular Residential Roofing Material
+            Why Are Asphalt Shingles Texas&apos; Most Popular Roofing Choice?
           </h2>
           <p className="text-lg">
             Asphalt shingles protect more Texas homes than any other roofing material, and for good
@@ -194,7 +194,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.1}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Types of Asphalt Shingles</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">What Types of Asphalt Shingles Are Available?</h2>
         <p className="mb-4">
           Not all asphalt shingles are created equal. The right choice depends on your budget, the
           look you want, and how much protection your home needs from West Texas weather:
@@ -257,11 +257,57 @@ export default function Page() {
             </ul>
           </div>
         </div>
+
+
+        <h3 className="text-xl font-bold mt-8 mb-4 text-brand-brown">Asphalt Shingle Grade Comparison</h3>
+        <div className="overflow-x-auto mb-8">
+          <table className="w-full bg-white rounded-lg shadow">
+            <thead>
+              <tr className="bg-brand-gold text-white">
+                <th className="p-4 text-left">Shingle Grade</th>
+                <th className="p-4 text-left">Lifespan</th>
+                <th className="p-4 text-left">Cost/sq ft</th>
+                <th className="p-4 text-left">Wind Rating</th>
+                <th className="p-4 text-left">Best For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b">
+                <td className="p-4 font-semibold">3-Tab</td>
+                <td className="p-4">20-25 years</td>
+                <td className="p-4">$3.50-$5.00</td>
+                <td className="p-4">60-70 mph</td>
+                <td className="p-4">Budget projects, rentals</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="p-4 font-semibold">Architectural</td>
+                <td className="p-4">30+ years</td>
+                <td className="p-4">$5.00-$7.50</td>
+                <td className="p-4">110-130 mph</td>
+                <td className="p-4">Most homes, best value</td>
+              </tr>
+              <tr className="border-b">
+                <td className="p-4 font-semibold">Designer / Luxury</td>
+                <td className="p-4">40-50 years</td>
+                <td className="p-4">$8.00-$12.00</td>
+                <td className="p-4">110-130 mph</td>
+                <td className="p-4">High-end homes, max longevity</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">Class 4 Impact-Resistant</td>
+                <td className="p-4">30+ years</td>
+                <td className="p-4">$6.00-$9.00</td>
+                <td className="p-4">110-130 mph</td>
+                <td className="p-4">Hail-prone areas, insurance savings</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </FadeIn>
 
       <FadeIn delay={0.15}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Why Asphalt Shingles Are West Texas&apos; Most Popular Roofing
+          What Makes Asphalt Shingles Ideal for West Texas Homes?
         </h2>
         <p className="mb-4">
           Asphalt shingles dominate the residential roofing market across the Panhandle and Permian
@@ -329,7 +375,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Asphalt Shingle Installation Process</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Are Asphalt Shingles Installed?</h2>
         <p className="mb-4">
           Proper installation is what separates a roof that lasts its full warranty period from one
           that fails early. Here is how we install asphalt shingle roofs:
@@ -421,7 +467,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.25}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Shingle Repair and Maintenance</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Do You Repair and Maintain Asphalt Shingles?</h2>
         <p className="mb-4">
           Prompt repairs and regular maintenance keep your shingle roof performing for its full
           expected lifespan. Here are the most common maintenance tasks:

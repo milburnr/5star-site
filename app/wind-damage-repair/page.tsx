@@ -156,7 +156,7 @@ export default function Page() {
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
           <h2 className="text-2xl font-bold text-brand-brown mb-4">
-            Fast Response When Wind Hits Your Roof
+            What Happens When Wind Hits Your Roof?
           </h2>
           <p className="text-lg">
             Texas wind does not wait, and neither do we. From the Panhandle to the Permian Basin,
@@ -172,7 +172,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.1}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">How Wind Damages Your Roof</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Does Wind Damage Your Roof?</h2>
         <p className="mb-4">
           Wind does not have to reach tornado strength to cause real damage. Even moderate sustained
           winds of 45 mph can compromise a roof, particularly one with pre-existing wear or
@@ -216,7 +216,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.15}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Wind Damage Repair Process</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Does the Wind Damage Repair Process Work?</h2>
         <p className="mb-4">
           When you call after a windstorm, here is how we handle the repair from start to finish:
         </p>
@@ -278,7 +278,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">West Texas Wind Patterns</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">What Makes West Texas Wind Patterns Unique for Roofing?</h2>
         <p className="mb-4">
           Understanding local wind conditions explains why roof maintenance matters so much in this
           region. The Texas Panhandle is one of the windiest areas in the continental United States,
@@ -309,7 +309,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.25}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Preventing Future Wind Damage</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Can You Prevent Future Wind Damage?</h2>
         <p className="mb-4">
           Proactive maintenance is far less expensive than emergency repairs. These measures
           significantly reduce your roof&apos;s vulnerability to wind:

@@ -156,7 +156,7 @@ export default function Page() {
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
           <h2 className="text-2xl font-bold text-brand-brown mb-4">
-            Know the Condition of Your Roof Before Problems Start
+            Why Should You Know Your Roof&apos;s Condition Before Problems Start?
           </h2>
           <p className="text-lg">
             Most roof problems are invisible from the ground until they cause interior damage. A
@@ -172,7 +172,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.1}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">When You Need a Roof Inspection</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">When Do You Need a Roof Inspection?</h2>
         <p className="mb-4">
           Some inspections are planned, and others are prompted by events. Here are the situations
           where a professional roof inspection makes a real difference:
@@ -233,7 +233,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.15}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">What Our Roof Inspections Cover</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">What Does a Professional Roof Inspection Cover?</h2>
         <p className="mb-4">
           We inspect every component of your roofing system, not just the visible surface. Here is
           what our inspection process examines:
@@ -295,7 +295,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Types of Roof Inspections</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">What Types of Roof Inspections Are Available?</h2>
         <p className="mb-4">
           Different situations call for different inspection approaches. We tailor the scope and
           documentation to match your specific needs:
@@ -347,7 +347,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.25}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">Free Roof Inspections</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">Are Roof Inspections Really Free?</h2>
         <p className="mb-4">
           Every roof inspection from 5 Star Roofing is free, thorough, and comes with no strings
           attached. Here is what you can expect:

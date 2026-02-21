@@ -178,7 +178,7 @@ export default function Page() {
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
           <h2 className="text-2xl font-bold text-brand-brown mb-4">
-            Protecting West Texas Homes and Businesses
+            How Does Roof Damage Threaten Your West Texas Home?
           </h2>
           <p className="text-lg mb-4">
             Roof damage rarely announces itself conveniently. A missing shingle
@@ -199,7 +199,7 @@ export default function Page() {
 
       <FadeIn delay={0.1}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Common Roof Repair Issues
+          What Are the Most Common Roof Repair Issues in West Texas?
         </h2>
         <p className="mb-4">
           West Texas weather puts roofs through extreme conditions year-round.
@@ -275,7 +275,7 @@ export default function Page() {
 
       <FadeIn delay={0.2}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Repair vs. Replace: How We Help You Decide
+          Should You Repair or Replace Your Roof?
         </h2>
         <p className="mb-4">
           Not every roof problem requires a full replacement. Here are the
@@ -324,7 +324,7 @@ export default function Page() {
 
       <FadeIn delay={0.3}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Emergency Roof Repair
+          How Does Emergency Roof Repair Work?
         </h2>
         <p className="mb-4">
           Active leaks and storm damage cannot wait for a scheduled
@@ -382,7 +382,7 @@ export default function Page() {
 
       <FadeIn delay={0.4}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Roof Repair for Every Material Type
+          What Roof Materials Can Be Repaired?
         </h2>
         <p className="mb-4">
           Different roofing materials require different repair techniques and
@@ -419,10 +419,10 @@ export default function Page() {
             </h3>
             <p className="text-gray-700">
               Single-ply membrane repairs require specialized welding equipment
-              and materials. We patch punctures with hot-air welded TPO or
-              EPDM-compatible adhesive patches, repair seam separations, and
-              address flashing failures around rooftop equipment. Our commercial
-              crews handle these systems daily.
+              and materials. We patch punctures with hot-air welded TPO or PVC
+              membrane patches, apply EPDM-compatible adhesive patches, repair seam
+              separations, and address flashing failures around rooftop equipment.
+              Our commercial crews handle these systems daily.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
@@ -434,6 +434,74 @@ export default function Page() {
               cracks, and exposed felts over time. We cut out damaged sections,
               install new membrane layers, and apply fresh flood coats or
               granule surfacing to restore full waterproofing performance.
+            </p>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* Damage Severity Guide */}
+      <FadeIn delay={0.5}>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          How Severe Is Your Roof Damage?
+        </h2>
+        <p className="mb-4">
+          Not all roof damage is equally urgent. Understanding severity levels
+          helps you prioritize repairs and communicate effectively with your
+          insurance company:
+        </p>
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
+          <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-500">
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Cosmetic Damage
+            </h3>
+            <p className="text-gray-700 mb-3">
+              Surface-level issues that do not compromise waterproofing but
+              affect appearance or long-term performance.
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
+              <li>Minor granule loss on asphalt shingles</li>
+              <li>Small dents on metal panels or gutters</li>
+              <li>Faded or discolored roofing materials</li>
+              <li>Slight moss or algae growth</li>
+            </ul>
+            <p className="mt-3 text-sm font-semibold text-green-700">
+              Urgency: Low -- monitor during next inspection
+            </p>
+          </div>
+          <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-yellow-500">
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Functional Damage
+            </h3>
+            <p className="text-gray-700 mb-3">
+              Damage that compromises one or more roofing components and will
+              lead to leaks if not addressed within weeks.
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
+              <li>Cracked or lifted shingles</li>
+              <li>Separated or corroded flashing</li>
+              <li>Worn pipe boots or vent seals</li>
+              <li>Clogged or damaged drains on flat roofs</li>
+            </ul>
+            <p className="mt-3 text-sm font-semibold text-yellow-700">
+              Urgency: Medium -- schedule repair within 2-4 weeks
+            </p>
+          </div>
+          <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-red-500">
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Critical Damage
+            </h3>
+            <p className="text-gray-700 mb-3">
+              Active water entry or structural compromise requiring immediate
+              attention to prevent interior damage.
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">
+              <li>Missing shingles exposing underlayment or deck</li>
+              <li>Active roof leaks or ceiling water stains</li>
+              <li>Sagging roof sections or rotted decking</li>
+              <li>Punctured membrane on flat or TPO roofs</li>
+            </ul>
+            <p className="mt-3 text-sm font-semibold text-red-700">
+              Urgency: High -- call for emergency repair today
             </p>
           </div>
         </div>

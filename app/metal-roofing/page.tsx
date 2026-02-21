@@ -169,7 +169,7 @@ export default function Page() {
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold text-brand-brown mb-4">Why West Texas Homeowners Choose Metal Roofing</h2>
+          <h2 className="text-2xl font-bold text-brand-brown mb-4">Why Do West Texas Homeowners Choose Metal Roofing?</h2>
           <p className="text-lg mb-4">
             Metal roofing has moved from agricultural buildings and commercial warehouses into mainstream residential use across West Texas, and the reasons are practical. In a region where hail storms, high winds, and extreme heat test every roof, metal outperforms other materials on durability, energy efficiency, and long-term cost.
           </p>
@@ -209,7 +209,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Metal Roofing Options</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">What Metal Roofing Options Are Available?</h2>
         <p className="mb-6">
           We install every major type of metal roofing system, each suited to different buildings, budgets, and aesthetic preferences. Here is how they compare.
         </p>
@@ -279,10 +279,60 @@ export default function Page() {
             </div>
           </div>
         </div>
+
+        <h3 className="text-xl font-bold mt-8 mb-4 text-brand-brown">Metal Roofing Specification Comparison</h3>
+        <div className="overflow-x-auto mb-8">
+          <table className="w-full bg-white rounded-lg shadow">
+            <thead>
+              <tr className="bg-brand-gold text-white">
+                <th className="p-4 text-left">Type</th>
+                <th className="p-4 text-left">Gauge</th>
+                <th className="p-4 text-left">Lifespan</th>
+                <th className="p-4 text-left">Cost/sq ft</th>
+                <th className="p-4 text-left">Pros</th>
+                <th className="p-4 text-left">Cons</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b">
+                <td className="p-4 font-semibold">Standing Seam</td>
+                <td className="p-4">24-26 ga</td>
+                <td className="p-4">50+ years</td>
+                <td className="p-4">$9-$14</td>
+                <td className="p-4">Concealed fasteners, best wind/hail performance, modern look</td>
+                <td className="p-4">Highest cost, requires skilled installers</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="p-4 font-semibold">Corrugated</td>
+                <td className="p-4">26-29 ga</td>
+                <td className="p-4">30-40 years</td>
+                <td className="p-4">$4-$7</td>
+                <td className="p-4">Lowest cost, proven performance, fast installation</td>
+                <td className="p-4">Exposed fasteners need periodic maintenance</td>
+              </tr>
+              <tr className="border-b">
+                <td className="p-4 font-semibold">Stone-Coated Steel</td>
+                <td className="p-4">26 ga</td>
+                <td className="p-4">40-50 years</td>
+                <td className="p-4">$8-$12</td>
+                <td className="p-4">Traditional shingle/tile look, Class 4 impact rating</td>
+                <td className="p-4">Higher cost than corrugated, heavier per panel</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-semibold">R-Panel</td>
+                <td className="p-4">26 ga</td>
+                <td className="p-4">35-45 years</td>
+                <td className="p-4">$5-$8</td>
+                <td className="p-4">Wide coverage, economical for large buildings</td>
+                <td className="p-4">Exposed fasteners, less aesthetic for homes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Metal Roofing for Commercial Buildings</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">Is Metal Roofing a Good Choice for Commercial Buildings?</h2>
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <p className="mb-4">
             Commercial metal roofing is one of our core specialties. From Permian Basin warehouses to Panhandle retail centers, metal roofing systems deliver the durability and low maintenance that building owners and facility managers need.
@@ -312,7 +362,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn>
-        <h2 className="text-2xl font-bold mt-12 mb-4">Metal Roof Repair and Maintenance</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-4">How Do You Maintain and Repair a Metal Roof?</h2>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-bold text-brand-brown mb-2">Common Repairs</h3>

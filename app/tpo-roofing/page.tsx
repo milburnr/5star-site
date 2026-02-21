@@ -178,7 +178,7 @@ export default function Page() {
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
           <h2 className="text-2xl font-bold text-brand-brown mb-4">
-            The Smart Flat Roof Choice for Texas Heat
+            Why Is TPO the Smart Flat Roof Choice for Texas Heat?
           </h2>
           <p className="text-lg">
             TPO (Thermoplastic Polyolefin) is the fastest-growing commercial roofing membrane in
@@ -227,7 +227,7 @@ export default function Page() {
 
       <FadeIn delay={0.15}>
         <h2 className="text-2xl font-bold mt-8 mb-4">
-          Benefits of TPO for West Texas Buildings
+          What Are the Benefits of TPO Roofing in West Texas?
         </h2>
         <p className="mb-4">
           TPO is particularly well-suited to the Texas climate. Here is why so many building owners
@@ -291,7 +291,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">TPO vs. Other Flat Roof Systems</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Does TPO Compare to Other Flat Roof Systems?</h2>
         <p className="mb-4">
           Choosing the right flat roof system depends on your building, budget, and priorities. Here
           is how TPO compares to the other major options:
@@ -366,7 +366,7 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.25}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">TPO Roof Maintenance and Repair</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">How Do You Maintain and Repair a TPO Roof?</h2>
         <p className="mb-4">
           Regular maintenance extends your TPO roof&apos;s lifespan and prevents small issues from
           becoming expensive problems. Here is what ongoing TPO care involves:
