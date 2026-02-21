@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing/" },
   title: "Asphalt Shingle Roofing Texas | 5 Star Roofing",
   description:
-    "Asphalt shingle roofing installation, repair, and replacement across Texas. 3-tab, architectural, and impact-resistant shingles. Call (806) 622-6041 for a free estimate.",
+    "Asphalt shingle roofing installation, repair, and replacement across Texas. 3-tab, architectural, and impact-resistant options. Call (806) 622-6041.",
 };
 
 export default function Page() {

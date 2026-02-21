@@ -20,6 +20,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /amarillos-best-roofer/ | amarillo's best roofer | Amarillo's Best Roofer | 5 Star Roofing | 39 | 143 |
 | /articles/ | roofing articles & amarillo guide | Roofing Articles & Amarillo Guide | 5 Star Roofing | 50 | 127 |
 | /asphalt-flat-roof-repair-in-amarillo/ | flat roof repair amarillo | Flat Roof Repair Amarillo TX | 5 Star Roofing | 45 | 138 |
+| /asphalt-shingle-roofing/ | asphalt shingle roofing texas | Asphalt Shingle Roofing Texas | 5 Star Roofing | 46 | 148 |
 | /asphalt-shingle-roofing-amarillo/ | asphalt shingle roofing amarillo | Asphalt Shingle Roofing Amarillo TX | 5 Star Roofing | 52 | 145 |
 | /asphalt-shingle-roofing-andrews/ | asphalt shingles andrews | Asphalt Shingles Andrews TX | 5 Star Roofing | 44 | 135 |
 | /asphalt-shingle-roofing-big-spring/ | asphalt shingles big spring | Asphalt Shingles Big Spring TX | 5 Star Roofing | 47 | 135 |
@@ -63,6 +64,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /dumas-texas-roofing/ | roofing dumas, tx | hail damage specialists | Roofing Dumas, TX | Hail Damage Specialists | 5 Star Roofing | 60 | 142 |
 | /flat-roof-repair-midland-texas/ | flat roof repair in midland, | Flat Roof Repair in Midland, TX | 5 Star Roofing | 48 | 157 |
 | /gallery/ | project gallery | 5 star roofing portfolio | Project Gallery | 5 Star Roofing Portfolio | 42 | 159 |
+| /hail-damage-repair/ | hail damage roof repair west texas | Hail Damage Roof Repair West Texas | 5 Star Roofing | 51 | 151 |
 | /hail-damage-repair-amarillo/ | hail damage roof repair amarillo | Hail Damage Roof Repair Amarillo TX | 5 Star Roofing | 52 | 148 |
 | /hail-damage-repair-andrews/ | hail damage repair andrews | Hail Damage Repair Andrews TX | 5 Star Roofing | 46 | 136 |
 | /hail-damage-repair-big-spring/ | hail damage repair big spring | Hail Damage Repair Big Spring TX | 5 Star Roofing | 49 | 139 |
@@ -84,6 +86,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /industrial-roofing/ | industrial roofing amarillo | Industrial Roofing Amarillo TX | 5 Star Roofing | 47 | 125 |
 | /lubbock-tx-roofing/ | roofing in lubbock | Roofing in Lubbock TX | 5 Star Roofing | 38 | 151 |
 | /metal-roof-installation-odessa-texas/ | metal roof installation in odessa, | Metal Roof Installation in Odessa, TX | 5 Star Roofing | 54 | 138 |
+| /metal-roofing/ | metal roofing west texas | Metal Roofing West Texas | 5 Star Roofing | 41 | 155 |
 | /metal-roofing-amarillo/ | metal roofing amarillo | Metal Roofing Amarillo TX | 5 Star Roofing | 42 | 132 |
 | /metal-roofing-andrews/ | metal roofing andrews | Metal Roofing Andrews TX | 5 Star Roofing | 41 | 133 |
 | /metal-roofing-big-spring/ | metal roofing big spring | Metal Roofing Big Spring TX | 5 Star Roofing | 44 | 133 |
@@ -122,6 +125,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /residential-roofing-snyder/ | residential roofing snyder | Residential Roofing Snyder TX | 5 Star Roofing | 46 | 154 |
 | /residential-roofing/ | residential roofing in amarillo | Residential Roofing in Amarillo | 5 Star Roofing | 48 | 112 |
 | /reviews/ | customer reviews | 5 star roofing amarillo | Customer Reviews | 5 Star Roofing Amarillo | 42 | 145 |
+| /roof-inspections/ | roof inspections west texas | Roof Inspections West Texas | 5 Star Roofing | 44 | 156 |
 | /roof-inspections-amarillo/ | roof inspections amarillo | Roof Inspections Amarillo TX | 5 Star Roofing | 45 | 135 |
 | /roof-inspections-andrews/ | roof inspections andrews | Roof Inspections Andrews TX | 5 Star Roofing | 44 | 133 |
 | /roof-inspections-big-spring/ | roof inspections big spring | Roof Inspections Big Spring TX | 5 Star Roofing | 47 | 143 |
@@ -136,6 +140,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /roof-inspections-pampa/ | roof inspections pampa | Roof Inspections Pampa TX | 5 Star Roofing | 42 | 154 |
 | /roof-inspections-perryton/ | roof inspections perryton | Roof Inspections Perryton TX | 5 Star Roofing | 45 | 157 |
 | /roof-inspections-snyder/ | roof inspections snyder | Roof Inspections Snyder TX | 5 Star Roofing | 43 | 129 |
+| /roof-repair/ | roof repair west texas | Roof Repair Services West Texas | 5 Star Roofing | 48 | 156 |
 | /roof-repair-amarillo/ | roof repair amarillo | Roof Repair Amarillo TX | 5 Star Roofing | 40 | 130 |
 | /roof-repair-andrews/ | roof repair andrews | Roof Repair Andrews TX | 5 Star Roofing | 39 | 137 |
 | /roof-repair-big-spring/ | roof repair big spring | Roof Repair Big Spring TX | 5 Star Roofing | 42 | 137 |
@@ -150,6 +155,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /roof-repair-pampa/ | roof repair pampa | Roof Repair Pampa TX | 5 Star Roofing | 37 | 149 |
 | /roof-repair-perryton/ | roof repair perryton | Roof Repair Perryton TX | 5 Star Roofing | 40 | 152 |
 | /roof-repair-snyder/ | roof repair snyder | Roof Repair Snyder TX | 5 Star Roofing | 38 | 133 |
+| /roof-replacement/ | roof replacement west texas | Roof Replacement West Texas | 5 Star Roofing | 44 | 149 |
 | /roof-replacement-amarillo/ | roof replacement amarillo | Roof Replacement Amarillo TX | 5 Star Roofing | 45 | 141 |
 | /roof-replacement-andrews/ | roof replacement andrews | Roof Replacement Andrews TX | 5 Star Roofing | 44 | 134 |
 | /roof-replacement-big-spring/ | roof replacement big spring | Roof Replacement Big Spring TX | 5 Star Roofing | 47 | 137 |
@@ -170,6 +176,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /roofing-methods/ | roofing methods amarillo | Roofing Methods Amarillo | 5 Star Roofing | 41 | 145 |
 | /service-areas/ | service areas | Service Areas | 5 Star Roofing | 30 | 156 |
 | /services/ | roofing services amarillo | Roofing Services Amarillo TX | 5 Star Roofing | 45 | 114 |
+| /storm-damage-repair/ | storm damage roof repair texas | Storm Damage Roof Repair Texas | 5 Star Roofing | 47 | 145 |
 | /storm-damage-repair-amarillo/ | storm damage roof repair amarillo | Storm Damage Roof Repair Amarillo TX | 5 Star Roofing | 53 | 135 |
 | /storm-damage-repair-andrews/ | storm damage repair andrews | Storm Damage Repair Andrews TX | 5 Star Roofing | 47 | 135 |
 | /storm-damage-repair-big-spring/ | storm damage repair big spring | Storm Damage Repair Big Spring TX | 5 Star Roofing | 50 | 135 |
@@ -184,6 +191,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /storm-damage-repair-pampa/ | storm damage repair pampa | Storm Damage Repair Pampa TX | 5 Star Roofing | 45 | 155 |
 | /storm-damage-repair-perryton/ | storm damage roof repair perryton | Storm Damage Roof Repair Perryton TX | 5 Star Roofing | 53 | 135 |
 | /storm-damage-repair-snyder/ | storm damage repair snyder | Storm Damage Repair Snyder TX | 5 Star Roofing | 46 | 131 |
+| /tpo-roofing/ | tpo roofing west texas | TPO Roofing West Texas | 5 Star Roofing | 39 | 156 |
 | /tpo-roofing-amarillo/ | tpo roofing amarillo | TPO Roofing Amarillo TX | 5 Star Roofing | 40 | 130 |
 | /tpo-roofing-andrews/ | tpo roofing andrews | TPO Roofing Andrews TX | 5 Star Roofing | 39 | 135 |
 | /tpo-roofing-big-spring/ | tpo roofing big spring | TPO Roofing Big Spring TX | 5 Star Roofing | 42 | 135 |
@@ -200,6 +208,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /tpo-roofing-snyder/ | tpo roofing snyder | TPO Roofing Snyder TX | 5 Star Roofing | 38 | 131 |
 | /vega-tx-roofing/ | roofing vega, tx | hail damage specialists | Roofing Vega, TX | Hail Damage Specialists | 5 Star Roofing | 59 | 159 |
 | /wildorado-tx-roofing/ | roofing wildorado tx | hail damage | Roofing Wildorado TX | Hail Damage | 5 Star Roofing | 51 | 127 |
+| /wind-damage-repair/ | wind damage roof repair texas | Wind Damage Roof Repair Texas | 5 Star Roofing | 46 | 156 |
 | /wind-damage-repair-amarillo/ | wind damage repair amarillo | Wind Damage Repair Amarillo TX | 5 Star Roofing | 47 | 134 |
 | /wind-damage-repair-andrews/ | wind damage repair andrews | Wind Damage Repair Andrews TX | 5 Star Roofing | 46 | 134 |
 | /wind-damage-repair-big-spring/ | wind damage repair big spring | Wind Damage Repair Big Spring TX | 5 Star Roofing | 49 | 134 |
@@ -215,7 +224,7 @@ Populated during Phase 3 Plan 3 from meta title audit.
 | /wind-damage-repair-perryton/ | wind damage repair perryton | Wind Damage Repair Perryton TX | 5 Star Roofing | 47 | 157 |
 | /wind-damage-repair-snyder/ | wind damage repair snyder | Wind Damage Repair Snyder TX | 5 Star Roofing | 45 | 130 |
 
-**Total pages:** 202
+**Total pages:** 211
 **Cannibalization warnings:** 0
 
 ## Cannibalization Prevention Rules

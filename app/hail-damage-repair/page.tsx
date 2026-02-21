@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair/" },
   title: "Hail Damage Roof Repair West Texas | 5 Star Roofing",
   description:
-    "Free hail damage roof inspections across West Texas. We handle insurance claims, emergency tarping, and full roof replacement after hail storms. Call (806) 622-6041.",
+    "Free hail damage roof inspections in West Texas. Insurance claims, emergency tarping, and full roof replacement after hail storms. Call (806) 622-6041.",
 };
 
 const cities = [

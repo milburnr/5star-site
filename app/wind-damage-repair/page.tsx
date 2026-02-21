@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair/" },
   title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
   description:
-    "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles and storm damage. Call (806) 622-6041.",
+    "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
 };
 
 export default function Page() {

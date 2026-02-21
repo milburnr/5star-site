@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair/' },
   title: 'Storm Damage Roof Repair Texas | 5 Star Roofing',
-  description: "Emergency storm damage roof repair across Texas. Hail, wind, tornado, and flooding damage with rapid response, temporary weatherproofing, and insurance coordination.",
+  description: "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with rapid response, weatherproofing, and insurance coordination.",
 };
 
 export default function Page() {

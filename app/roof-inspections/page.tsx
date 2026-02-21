@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-inspections/" },
   title: "Roof Inspections West Texas | 5 Star Roofing",
   description:
-    "Free professional roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roof types. Call (806) 622-6041.",
+    "Free roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roofs. Call (806) 622-6041.",
 };
 
 export default function Page() {

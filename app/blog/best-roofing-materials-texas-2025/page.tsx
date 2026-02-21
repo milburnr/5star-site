@@ -365,7 +365,7 @@ export default function BestRoofingMaterialsTexasPage() {
         </FadeIn>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Best Roofing Materials for Texas Climate 2025","description":"Complete guide to the best roofing materials for Texas weather. Expert comparison of asphalt shingles, metal roofing, tile, and more.","author":{"@type":"Organization","name":"5 Star Commercial Roofing"},"datePublished":"2025-01-15","dateModified":"2025-01-15"})}}/>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Best Roofing Materials for Texas Climate 2025","description":"Complete guide to the best roofing materials for Texas weather. Expert comparison of asphalt shingles, metal roofing, tile, and more.","author":{"@type":"Organization","name": "5 Star Roofing"},"datePublished":"2025-01-15","dateModified":"2025-01-15"})}}/>
     </div>
   );
 }

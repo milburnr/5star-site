@@ -392,7 +392,7 @@ export default function RoofMaintenanceChecklistPage() {
         </FadeIn>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Roof Maintenance Checklist for Texas Homeowners 2025","description":"Complete roof maintenance checklist for Texas homes. Seasonal inspections, preventive care, and expert tips to extend roof life.","author":{"@type":"Organization","name":"5 Star Commercial Roofing"},"datePublished":"2025-01-15","dateModified":"2025-01-15"})}}/>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"BlogPosting","headline":"Roof Maintenance Checklist for Texas Homeowners 2025","description":"Complete roof maintenance checklist for Texas homes. Seasonal inspections, preventive care, and expert tips to extend roof life.","author":{"@type":"Organization","name": "5 Star Roofing"},"datePublished":"2025-01-15","dateModified":"2025-01-15"})}}/>
     </div>
   );
 }
