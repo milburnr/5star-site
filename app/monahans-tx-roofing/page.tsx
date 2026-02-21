@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -21,6 +22,37 @@ const services = [
   { name: "TPO Roofing", slug: "tpo-roofing", icon: "🏗️" },
   { name: "Metal Roofing", slug: "metal-roofing", icon: "🔩" },
   { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: "🏘️" },
+];
+
+const faqItems = [
+  {
+    question: "How does Monahans' extreme heat affect roofing?",
+    answer: "Monahans regularly exceeds 105 degrees in summer, with roof surfaces reaching 170 degrees. This extreme heat softens asphalt, accelerates UV degradation, and causes thermal expansion stress on all roofing materials. Reflective metal or white membrane roofing systems significantly reduce heat absorption and last longer in Monahans' desert climate than standard products."
+  },
+  {
+    question: "Does windblown sand from the Sandhills damage roofs?",
+    answer: "Yes, Monahans' proximity to Monahans Sandhills State Park means windblown sand is a constant presence. Fine sand particles sandblast exposed roofing surfaces, erode protective granules and coatings, clog gutters and valleys, and infiltrate beneath shingle edges. Smooth-surface roofing like standing seam metal and welded membrane systems resist sand damage far better than traditional shingles. Regular maintenance and gutter cleaning are essential for all Monahans properties."
+  },
+  {
+    question: "Do you roof oil field facilities in Ward County?",
+    answer: "Yes, we provide specialized roofing for oil and gas facilities throughout Ward County including pump stations, compressor buildings, pipe yards, and maintenance shops. We install chemical-resistant PVC membranes and heavy-duty metal roofing designed for industrial environments, and we understand the safety protocols, access requirements, and scheduling constraints of oil field projects."
+  },
+  {
+    question: "What is the best roofing material for Monahans homes?",
+    answer: "Standing seam metal roofing is the top choice for Monahans residential properties due to its superior heat reflection, wind resistance, sand abrasion resistance, and 50+ year lifespan. For homeowners preferring shingles, Class 4 impact-resistant products with enhanced UV stabilization provide the best protection against Monahans' extreme heat and occasional hail."
+  },
+  {
+    question: "How do blue northers affect Monahans roofs?",
+    answer: "Blue northers bring rapid temperature drops of 40 degrees or more within hours as cold fronts sweep through Ward County. This extreme thermal shock causes roofing materials to contract suddenly, stressing seams, adhesives, and membrane welds. Roofs already weakened by Monahans' intense summer heat are particularly vulnerable to cracking and splitting during blue norther events. Materials rated for extreme thermal cycling are essential in Monahans."
+  },
+  {
+    question: "How fast can you respond to roof emergencies in Monahans?",
+    answer: "We provide same-day emergency response for roof leaks and storm damage in Monahans and throughout Ward County. Our crews carry tarps, sealants, and emergency repair materials to stop active leaks and prevent further interior damage while permanent repairs are planned. Monahans' location along I-20 provides direct access for our service crews."
+  },
+  {
+    question: "Why does Monahans need different roofing than Midland or Odessa?",
+    answer: "While all three cities share Permian Basin weather, Monahans faces unique challenges from the Sandhills. Windblown sand creates abrasion damage that Midland and Odessa properties don't experience to the same degree. Monahans also records some of the highest summer temperatures in the Permian Basin, exceeding 105 degrees regularly. These factors mean roofing systems for Monahans need enhanced sand resistance and heat tolerance beyond what standard Permian Basin specifications require."
+  }
 ];
 
 export default function MonahansRoofingPage() {
@@ -123,7 +155,7 @@ export default function MonahansRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">Windblown Sand &amp; Dust</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Sandhills Sand Abrasion</h3>
                 <p className="text-gray-700 leading-relaxed">
                   The proximity of Monahans Sandhills State Park means windblown sand is a constant presence. Fine sand particles can sandblast exposed roofing surfaces, erode protective coatings, accumulate in gutters and valleys, and infiltrate beneath shingle edges. Regular maintenance and gutter cleaning are essential for Monahans properties. Roofing systems with smooth, sealed surfaces like standing seam metal and welded membrane systems resist sand infiltration better than traditional shingle products.
                 </p>
@@ -135,6 +167,58 @@ export default function MonahansRoofingPage() {
                 </p>
               </div>
             </div>
+          </section>
+        </FadeIn>
+
+        {/* Monahans City-Specific Details */}
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Monahans: Sandhills Gateway &amp; Oil Country Hub</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">Monahans Sandhills &amp; Tourism</h3>
+                <p className="text-gray-600 mb-4">
+                  Monahans Sandhills State Park features sand dunes reaching 70 feet high, covering 3,840 acres of Shin Oak sand dunes. The park draws visitors year-round for sand surfing, hiking, and camping, supporting local hotels, restaurants, and retail businesses along I-20. These tourism-dependent commercial properties need roofing that withstands the constant sand exposure unique to Monahans -- a challenge no other city in our service area faces.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">I-20 Corridor &amp; Oil Economy</h3>
+                <p className="text-gray-600 mb-4">
+                  Monahans sits on I-20 between Odessa (40 miles east) and Pecos (30 miles west), serving as a critical logistics point for Permian Basin oil operations. The corridor features truck stops, equipment yards, industrial facilities, and commercial developments that require heavy-duty roofing. Ward County oil production supports the local economy with well-paying jobs that drive residential construction and home improvement investment.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Downtown Monahans</h4>
+                <p className="text-sm text-gray-600">Ward County Courthouse area and Main Street commercial buildings serving the local community and oil field workforce</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">I-20 Commercial Strip</h4>
+                <p className="text-sm text-gray-600">Hotels, truck stops, restaurants, and service businesses along the interstate serving travelers and oil field crews</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Residential Neighborhoods</h4>
+                <p className="text-sm text-gray-600">Established family neighborhoods and newer developments housing Ward County&apos;s oil and gas workforce</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Monahans Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`item-${index + 1}`} value={`item-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </section>
         </FadeIn>
 
@@ -224,33 +308,11 @@ export default function MonahansRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How does Monahans' extreme heat affect roofing?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Monahans regularly exceeds 105 degrees in summer, with roof surfaces reaching 170 degrees. This extreme heat softens asphalt, accelerates UV degradation, and causes thermal expansion stress on all roofing materials. Reflective metal or white membrane roofing systems significantly reduce heat absorption and last longer in Monahans' climate." }
-              },
-              {
-                "@type": "Question",
-                "name": "Does windblown sand damage roofs in Monahans?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, Monahans' proximity to the Sandhills means windblown sand can sandblast roof surfaces, erode protective granules and coatings, clog gutters and valleys, and infiltrate beneath shingle edges. Smooth-surface roofing like standing seam metal and welded membranes resist sand damage better than traditional shingles. Regular maintenance and gutter cleaning are essential." }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you roof oil field facilities in Ward County?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide specialized roofing for oil and gas facilities including pump stations, compressor buildings, pipe yards, and maintenance shops. We install chemical-resistant PVC membranes and heavy-duty metal roofing designed for industrial environments, and we understand the safety and scheduling requirements of oil field projects." }
-              },
-              {
-                "@type": "Question",
-                "name": "What is the best roofing material for Monahans homes?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Standing seam metal roofing is the top choice for Monahans residential properties due to its superior heat reflection, wind resistance, and 50+ year lifespan. For homeowners preferring shingles, Class 4 impact-resistant products with enhanced UV stabilization provide the best protection against Monahans' extreme heat and occasional hail." }
-              },
-              {
-                "@type": "Question",
-                "name": "How fast can you respond to roof emergencies in Monahans?",
-                "acceptedAnswer": { "@type": "Answer", "text": "We provide same-day emergency response for roof leaks and storm damage in Monahans and throughout Ward County. Our crews carry tarps, sealants, and emergency repair materials to stop active leaks and prevent further interior damage while permanent repairs are planned." }
-              }
-            ]
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />

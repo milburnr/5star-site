@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -21,6 +22,37 @@ const services = [
   { name: "TPO Roofing", slug: "tpo-roofing", icon: "🏗️" },
   { name: "Metal Roofing", slug: "metal-roofing", icon: "🔩" },
   { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: "🏘️" },
+];
+
+const faqItems = [
+  {
+    question: "How often does Levelland get hail damage?",
+    answer: "Levelland and Hockley County experience multiple severe hailstorms each year, typically between March and September. The South Plains region sits in Hail Alley, where warm Gulf moisture collides with dry Rockies air to produce supercell thunderstorms with large hail. The May 2024 event near Whiteface produced record-breaking stones west of Levelland."
+  },
+  {
+    question: "What roofing materials work best in Levelland's climate?",
+    answer: "For residential properties, Class 4 impact-resistant asphalt shingles or standing seam metal roofing perform best against Levelland's hail, wind, and UV exposure at 3,500 feet elevation. For commercial buildings, TPO and PVC membranes offer excellent hail resistance and energy efficiency. All materials should be rated for high wind and extreme temperature cycling common on the South Plains."
+  },
+  {
+    question: "Do you serve South Plains College campus buildings?",
+    answer: "Yes, we provide commercial roofing services for institutional buildings, student housing, and faculty residences in the South Plains College area. We understand the scheduling requirements and access considerations that campus projects demand, including working around academic calendars to minimize disruption to students and staff."
+  },
+  {
+    question: "How does cotton farming dust affect Levelland roofs?",
+    answer: "Levelland is surrounded by cotton fields, and during planting, cultivation, and harvest seasons, significant dust is generated across Hockley County. This agricultural dust accumulates on roofs, fills gutters and valleys, and can trap moisture against roofing materials. The combination of cotton dust, red clay particles, and South Plains wind creates a gritty abrasive layer that accelerates granule loss on shingles. Annual maintenance and gutter cleaning are essential for Levelland properties."
+  },
+  {
+    question: "How quickly can you respond to storm damage in Levelland?",
+    answer: "We provide same-day emergency response for storm damage in Levelland and throughout Hockley County. Levelland is just 30 miles west of Lubbock, making our crews readily accessible. After major hailstorms, we prioritize tarping and emergency waterproofing to prevent interior water damage while permanent repairs are scheduled."
+  },
+  {
+    question: "Why do Levelland roofs fail faster than the manufacturer warranty suggests?",
+    answer: "Manufacturer warranties assume average climate conditions. Levelland's combination of frequent hail impact, sustained 12-15 mph winds with 50+ mph gusts, intense UV at 3,500 feet, and temperature swings from sub-zero to over 100 degrees creates one of the most demanding roofing environments in Texas. Standard shingles rated for 25-30 years may only last 15-20 years on the South Plains. Impact-resistant and UV-stabilized products close this gap significantly."
+  },
+  {
+    question: "Will insurance cover hail damage to my Levelland roof?",
+    answer: "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has a 95%+ claim approval rate across the South Plains region."
+  }
 ];
 
 export default function LevellandRoofingPage() {
@@ -138,6 +170,58 @@ export default function LevellandRoofingPage() {
           </section>
         </FadeIn>
 
+        {/* Levelland City-Specific Details */}
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Levelland: South Plains College Town &amp; Cotton Country</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">South Plains College &amp; Community</h3>
+                <p className="text-gray-600 mb-4">
+                  South Plains College is the heart of Levelland, drawing students from across West Texas and beyond. The campus features classroom buildings, dormitories, athletic facilities, and the Texan Dome that all require commercial roofing maintenance and periodic replacement. Faculty and staff housing in the surrounding neighborhoods adds residential roofing demand. SPC&apos;s creative arts and technical programs bring a youthful energy to the community, while the college&apos;s workforce training programs support the region&apos;s agricultural and energy sectors.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Cotton Economy &amp; Agriculture</h3>
+                <p className="text-gray-600 mb-4">
+                  Hockley County is one of the state&apos;s leading cotton-producing counties, and Levelland serves as the commercial center for the surrounding agricultural operations. Cotton gins, grain elevators, equipment dealers, and agricultural supply companies line the highways leading into town. These agricultural commercial buildings require durable metal roofing that handles dust accumulation, large open spans, and the constant wind exposure of the South Plains. The annual cotton harvest creates peak dust conditions that accelerate roof deterioration across the entire city.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">US-385 Corridor</h4>
+                <p className="text-sm text-gray-600">Commercial development along US-385 connecting Levelland to Lubbock, including retail, dining, and automotive businesses</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Downtown Levelland</h4>
+                <p className="text-sm text-gray-600">The Hockley County Courthouse square and surrounding commercial district with established businesses and historic buildings</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Residential Growth Areas</h4>
+                <p className="text-sm text-gray-600">Newer residential neighborhoods on Levelland&apos;s east side closer to Lubbock, with modern construction and growing families</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Levelland Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`item-${index + 1}`} value={`item-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </section>
+        </FadeIn>
+
         {/* CTA Section */}
         <FadeIn>
           <section className="cta-section my-16">
@@ -224,33 +308,11 @@ export default function LevellandRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How often does Levelland get hail damage?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Levelland and Hockley County experience multiple severe hailstorms each year, typically between March and September. The South Plains region sits in Hail Alley, where warm Gulf moisture collides with dry Rockies air to produce supercell thunderstorms with large hail. The May 2024 event near Whiteface produced record-breaking stones west of Levelland." }
-              },
-              {
-                "@type": "Question",
-                "name": "What roofing materials work best in Levelland's climate?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For residential properties, Class 4 impact-resistant asphalt shingles or standing seam metal roofing perform best against Levelland's hail, wind, and UV exposure. For commercial buildings, TPO and PVC membranes offer excellent hail resistance and energy efficiency. All materials should be rated for high wind and extreme temperature cycling." }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you serve South Plains College campus buildings?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide commercial roofing services for institutional buildings, student housing, and faculty residences in the South Plains College area. We understand the scheduling requirements and access considerations that campus projects demand." }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can you respond to storm damage in Levelland?",
-                "acceptedAnswer": { "@type": "Answer", "text": "We provide same-day emergency response for storm damage in Levelland and throughout Hockley County. Our crews can arrive with tarps and emergency materials to prevent further water intrusion while permanent repairs are scheduled." }
-              },
-              {
-                "@type": "Question",
-                "name": "Will insurance cover hail damage to my Levelland roof?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has a 95%+ claim approval rate." }
-              }
-            ]
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />

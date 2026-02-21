@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -21,6 +22,37 @@ const services = [
   { name: "TPO Roofing", slug: "tpo-roofing", icon: "🏗️" },
   { name: "Metal Roofing", slug: "metal-roofing", icon: "🔩" },
   { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: "🏘️" },
+];
+
+const faqItems = [
+  {
+    question: "Does Andrews get severe hail damage?",
+    answer: "Yes, Andrews County sits in a severe weather corridor where spring and summer thunderstorms regularly produce golf ball-sized hail and straight-line winds exceeding 70 mph. The flat Permian Basin terrain provides no natural storm protection, making impact-resistant roofing essential for Andrews properties."
+  },
+  {
+    question: "What roofing works best for new construction in Andrews?",
+    answer: "For new residential construction in Andrews, Class 4 impact-resistant shingles or standing seam metal roofing provide the best long-term value against the Permian Basin climate. For commercial buildings, TPO or PVC membranes offer excellent heat reflection and hail resistance. Investing in premium materials from the start avoids premature replacement in Andrews' demanding weather."
+  },
+  {
+    question: "Do you work on oil field buildings in Andrews County?",
+    answer: "Yes, we provide commercial and industrial roofing for oil field facilities throughout Andrews County, including maintenance shops, office buildings, pipe yards, and equipment storage. We install chemical-resistant PVC membranes and heavy-duty metal roofing designed for industrial environments. We understand the safety protocols and access requirements of oil field properties."
+  },
+  {
+    question: "How quickly can you get to Andrews for emergency roof repairs?",
+    answer: "We provide same-day emergency response for storm damage and active roof leaks in Andrews and throughout Andrews County. Our crews arrive with tarps, sealants, and emergency materials to stop water intrusion while permanent repairs are planned and scheduled."
+  },
+  {
+    question: "Will insurance cover storm damage to my Andrews roof?",
+    answer: "Most homeowner and commercial property insurance policies cover hail and wind damage to roofs minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has achieved a 95%+ claim approval rate across the Permian Basin."
+  },
+  {
+    question: "How does Andrews' distance from Midland-Odessa affect roofing service?",
+    answer: "Andrews is 85 miles northwest of Midland-Odessa, which means many roofing contractors based in the metro area charge travel surcharges or deprioritize Andrews projects. 5 Star Commercial Roofing serves Andrews as a core part of our Permian Basin coverage area with no hidden travel fees. We stage materials locally and schedule crews to maximize efficiency for Andrews County projects."
+  },
+  {
+    question: "What causes roofs to fail faster in Andrews than in other parts of Texas?",
+    answer: "Andrews' combination of extreme summer heat above 100 degrees, intense UV radiation at semi-arid elevation, constant windblown sand from oil field operations and rangelands, and severe hailstorms creates one of the most demanding roofing environments in Texas. Standard roofing materials rated for coastal or eastern Texas degrade 30-40% faster in Andrews' climate. UV-stabilized, impact-resistant materials are essential for achieving normal roof lifespans."
+  }
 ];
 
 export default function AndrewsRoofingPage() {
@@ -75,7 +107,7 @@ export default function AndrewsRoofingPage() {
                 Andrews, the county seat of Andrews County with approximately 18,000 residents, is one of the Permian Basin&apos;s most important oil-producing communities. Located northwest of Midland-Odessa on US-385, Andrews has experienced significant growth driven by the energy sector, bringing new housing developments, commercial construction, and infrastructure investment. 5 Star Commercial Roofing provides comprehensive roofing services throughout Andrews and Andrews County.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Andrews County is one of the top oil-producing counties in Texas, and the Permian Basin boom has transformed the city over the past decade. New residential subdivisions, hotels, restaurants, and commercial facilities have expanded rapidly to support the growing workforce. The Andrews Independent School District has built new facilities, and the local hospital and medical services have expanded. All of this new construction, along with the city&apos;s established residential neighborhoods, requires quality roofing that can withstand the demanding West Texas climate.
+                Andrews County is one of the top oil-producing counties in Texas, and the Permian Basin boom has transformed the city over the past decade. New residential subdivisions, hotels, restaurants, and commercial facilities have expanded rapidly to support the growing workforce. The Andrews Independent School District has built new facilities, and the local hospital and medical services have expanded. All of this new construction, along with the city&apos;s established residential neighborhoods, requires quality roofing that can withstand the demanding climate.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Andrews sits in the severe weather corridor of the southern Permian Basin, where spring and summer thunderstorms can produce damaging hail, high winds, and dust storms. The flat, open terrain provides no protection from storm systems that sweep across the basin. Summer temperatures frequently exceed 100 degrees, and the intense UV radiation at Andrews&apos;s semi-arid elevation degrades roofing materials faster than in coastal or eastern Texas. Windblown sand and dust from the surrounding oil fields and rangelands add additional wear on roof surfaces. These challenging conditions require roofing professionals who understand the specific demands of the Permian Basin climate.
@@ -135,6 +167,58 @@ export default function AndrewsRoofingPage() {
                 </p>
               </div>
             </div>
+          </section>
+        </FadeIn>
+
+        {/* Andrews City-Specific Details */}
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Andrews: Oil Country Roofing Expertise</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">Andrews County Economy</h3>
+                <p className="text-gray-600 mb-4">
+                  Andrews County consistently ranks among the top oil-producing counties in Texas. The Permian Basin energy boom has brought thousands of workers, families, and businesses to Andrews, creating demand for everything from workforce housing to industrial facilities. Major operators maintain significant acreage positions in Andrews County, and the city serves as a logistics hub for drilling and completion operations across the northern Permian Basin.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Residential &amp; Commercial Growth</h3>
+                <p className="text-gray-600 mb-4">
+                  Andrews has seen new residential subdivisions spring up along the city&apos;s perimeter, along with hotels, restaurants, and retail developments along US-385. The Andrews ISD campus expansions, Andrews County Hospital upgrades, and new commercial construction all require roofing systems engineered for 100+ degree summers, severe hailstorms, and relentless wind. We provide roofing for both new construction and the established neighborhoods that make up Andrews&apos; core.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Oil Field Facilities</h4>
+                <p className="text-sm text-gray-600">Maintenance shops, pipe yards, compressor stations, and office buildings serving Permian Basin operations across Andrews County</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Downtown Andrews</h4>
+                <p className="text-sm text-gray-600">The Andrews County Courthouse, retail district, and established commercial buildings along NW Avenue A and Main Street</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">New Subdivisions</h4>
+                <p className="text-sm text-gray-600">Growing residential areas on Andrews&apos; east and south sides housing Permian Basin workforce families</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Andrews Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`item-${index + 1}`} value={`item-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </section>
         </FadeIn>
 
@@ -224,33 +308,11 @@ export default function AndrewsRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Does Andrews get severe hail damage?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, Andrews County sits in a severe weather corridor where spring and summer thunderstorms regularly produce golf ball-sized hail and straight-line winds exceeding 70 mph. The flat Permian Basin terrain provides no natural storm protection, making impact-resistant roofing essential for Andrews properties." }
-              },
-              {
-                "@type": "Question",
-                "name": "What roofing works best for new construction in Andrews?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For new residential construction, Class 4 impact-resistant shingles or standing seam metal roofing provide the best long-term value in Andrews' climate. For commercial buildings, TPO or PVC membranes offer excellent heat reflection and hail resistance. Investing in premium materials from the start avoids premature replacement in Andrews' demanding weather." }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you work on oil field buildings in Andrews County?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide commercial and industrial roofing for oil field facilities throughout Andrews County, including maintenance shops, office buildings, pipe yards, and equipment storage. We install chemical-resistant PVC membranes and heavy-duty metal roofing designed for industrial environments." }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can you get to Andrews for emergency roof repairs?",
-                "acceptedAnswer": { "@type": "Answer", "text": "We provide same-day emergency response for storm damage and active roof leaks in Andrews and throughout Andrews County. Our crews arrive with tarps, sealants, and emergency materials to stop water intrusion while permanent repairs are planned and scheduled." }
-              },
-              {
-                "@type": "Question",
-                "name": "Will insurance cover storm damage to my Andrews roof?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Most homeowner and commercial property insurance policies cover hail and wind damage to roofs minus your deductible. We provide comprehensive damage documentation including photographs, measurements, and detailed reports that meet insurance adjuster requirements. Our team has achieved a 95%+ claim approval rate across the Permian Basin." }
-              }
-            ]
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />

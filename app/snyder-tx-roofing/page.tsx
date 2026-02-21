@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -21,6 +22,37 @@ const services = [
   { name: "TPO Roofing", slug: "tpo-roofing", icon: "🏗️" },
   { name: "Metal Roofing", slug: "metal-roofing", icon: "🔩" },
   { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: "🏘️" },
+];
+
+const faqItems = [
+  {
+    question: "Does Snyder get a lot of wind damage to roofs?",
+    answer: "Yes, Snyder sits in a wind energy corridor with sustained winds averaging 12-15 mph and frequent gusts over 50 mph. The same wind conditions that power the Snyder Wind Farm create constant pressure on residential and commercial roofs, testing shingle adhesion and flashing integrity. Wind-rated materials and proper installation techniques are essential for Snyder roofs to prevent wind uplift damage."
+  },
+  {
+    question: "What roofing works best for Snyder's wind and hail?",
+    answer: "For residential properties, Class 4 impact-resistant shingles with enhanced wind ratings or standing seam metal roofing provide the best protection against Scurry County's weather. For commercial buildings, mechanically attached TPO or PVC membranes resist wind uplift while providing hail resistance. Metal roofing is also popular for agricultural and industrial buildings throughout the county."
+  },
+  {
+    question: "Do you work on agricultural buildings and barns near Snyder?",
+    answer: "Yes, we install and repair metal roofing on agricultural buildings, barns, equipment storage facilities, and livestock shelters throughout Scurry County. We use heavy-gauge metal panels designed for large spans and high wind loads common in agricultural applications. Ranch properties around Lake J.B. Thomas and along the county roads face full exposure to Snyder's wind corridor, making wind-rated installations essential."
+  },
+  {
+    question: "How does the Canyon Reef oil heritage affect Snyder's roofing needs?",
+    answer: "The Canyon Reef oil field discovery in the late 1940s transformed Snyder from a small ranching town into a boom city, and many commercial buildings from that era still stand in downtown Snyder. These mid-century structures require specialized roofing approaches that balance modern weather protection with the buildings' structural limitations. Additionally, ongoing oil operations create demand for industrial facility roofing across Scurry County."
+  },
+  {
+    question: "Does Western Texas College use your roofing services?",
+    answer: "We provide commercial roofing for institutional and educational facilities throughout Scurry County. Western Texas College campus buildings, dormitories, and athletic facilities require commercial-grade TPO, metal, or built-up roofing systems with proper drainage engineering. We schedule campus work to minimize disruption to students and coordinate with facility managers on access and safety requirements."
+  },
+  {
+    question: "How quickly can you get to Snyder for emergency repairs?",
+    answer: "We provide same-day emergency response for storm damage in Snyder and throughout Scurry County. After major storms, our crews prioritize tarping and temporary waterproofing to prevent further damage while permanent repairs are scheduled. Snyder's location along US-84 between Lubbock and Abilene provides direct access for our service crews."
+  },
+  {
+    question: "Does insurance cover wind damage in Snyder?",
+    answer: "Most homeowner and commercial insurance policies cover wind and hail damage to roofs minus your deductible. We provide detailed documentation including photographs, wind speed data from nearby weather stations and wind farm monitoring, and comprehensive damage reports that insurance adjusters require for claim approval. Our 95%+ approval rate reflects our thorough documentation process."
+  }
 ];
 
 export default function SnyderRoofingPage() {
@@ -49,7 +81,7 @@ export default function SnyderRoofingPage() {
               Snyder Roofing Services Built for West Texas Weather
             </h1>
             <p className="hero-subtitle">
-              Scurry County Wind &amp; Hail Damage Experts Since 2010
+              Scurry County Wind &amp; Hail Damage Experts
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
@@ -135,6 +167,58 @@ export default function SnyderRoofingPage() {
                 </p>
               </div>
             </div>
+          </section>
+        </FadeIn>
+
+        {/* Snyder City-Specific Details */}
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Snyder: Wind Energy Capital &amp; Canyon Reef Heritage</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">Wind Energy &amp; Modern Economy</h3>
+                <p className="text-gray-600 mb-4">
+                  Snyder has embraced its position in one of Texas&apos;s strongest wind corridors, hosting multiple wind farm operations across Scurry County. These installations represent hundreds of millions in infrastructure investment and create ongoing demand for skilled workers and their families. The wind energy sector has brought new residential construction and commercial development to Snyder, complementing the traditional oil and ranching economy. Western Texas College trains the next generation of energy sector workers.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Canyon Reef Oil Legacy</h3>
+                <p className="text-gray-600 mb-4">
+                  The 1948 discovery of oil in the Canyon Reef geological formation transformed Snyder overnight. The population surged from 4,000 to over 12,000 as workers flooded in. Many downtown buildings from the oil boom era still serve the community today, requiring careful roofing maintenance that preserves mid-century architecture while meeting modern weather protection standards. The oil legacy continues with active wells and service companies operating throughout the county.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Lake J.B. Thomas Area</h4>
+                <p className="text-sm text-gray-600">Lake properties and rural residences southwest of Snyder facing full wind corridor exposure with no natural windbreaks</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Downtown Snyder</h4>
+                <p className="text-sm text-gray-600">Historic Scurry County Courthouse square, White Buffalo statue area, and oil boom-era commercial buildings along the square</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Western Texas College Campus</h4>
+                <p className="text-sm text-gray-600">Educational facilities, dormitories, and the WTC golf course area with institutional commercial roofing needs</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Snyder Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`item-${index + 1}`} value={`item-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </section>
         </FadeIn>
 
@@ -224,33 +308,11 @@ export default function SnyderRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Does Snyder get a lot of wind damage to roofs?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, Snyder sits in a wind energy corridor with sustained winds averaging 12-15 mph and frequent gusts over 50 mph. This constant wind pressure tests shingle adhesion and flashing integrity. Wind-rated materials and proper installation techniques are essential for Snyder roofs to prevent wind uplift damage." }
-              },
-              {
-                "@type": "Question",
-                "name": "What roofing works best for Snyder's wind and hail?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For residential properties, Class 4 impact-resistant shingles with enhanced wind ratings or standing seam metal roofing provide the best protection. For commercial buildings, mechanically attached TPO or PVC membranes resist wind uplift while providing hail resistance. Metal roofing is also popular for agricultural and industrial buildings in Scurry County." }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you work on agricultural buildings and barns near Snyder?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, we install and repair metal roofing on agricultural buildings, barns, equipment storage facilities, and livestock shelters throughout Scurry County. We use heavy-gauge metal panels designed for large spans and high wind loads common in agricultural applications." }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can you get to Snyder for emergency repairs?",
-                "acceptedAnswer": { "@type": "Answer", "text": "We provide same-day emergency response for storm damage in Snyder and throughout Scurry County. After major storms, our crews prioritize tarping and temporary waterproofing to prevent further damage while permanent repairs are scheduled." }
-              },
-              {
-                "@type": "Question",
-                "name": "Does insurance cover wind damage in Snyder?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Most homeowner and commercial insurance policies cover wind and hail damage to roofs minus your deductible. We provide detailed documentation including photographs, wind speed data from nearby weather stations, and comprehensive damage reports that insurance adjusters require for claim approval." }
-              }
-            ]
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />

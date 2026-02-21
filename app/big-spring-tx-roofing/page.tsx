@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -21,6 +22,37 @@ const services = [
   { name: "TPO Roofing", slug: "tpo-roofing", icon: "🏗️" },
   { name: "Metal Roofing", slug: "metal-roofing", icon: "🔩" },
   { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: "🏘️" },
+];
+
+const faqItems = [
+  {
+    question: "How bad is hail damage in Big Spring?",
+    answer: "Big Spring experiences severe hailstorms multiple times per year due to its location along the Caprock Escarpment where warm Gulf air lifts rapidly to produce supercell storms. The 2019 hailstorm caused widespread damage across the city. Storms typically produce golf ball to baseball-sized hail capable of totaling residential and commercial roofs in minutes."
+  },
+  {
+    question: "Do you work on industrial and refinery buildings in Big Spring?",
+    answer: "Yes, we provide specialized commercial roofing for industrial facilities including oil field buildings, the Alon USA refinery complex, and warehouse operations throughout Howard County. We install chemical-resistant PVC membranes, heavy-duty metal roofing, and TPO systems designed for industrial applications with high-traffic roof access."
+  },
+  {
+    question: "What roofing materials handle Big Spring's heat and UV best?",
+    answer: "For residential homes, reflective metal roofing or UV-stabilized Class 4 impact-resistant shingles perform best at Big Spring's 2,400 feet elevation. For commercial buildings, white TPO or PVC membranes reflect up to 85% of solar heat, reducing cooling costs by 20-30%. Both material types handle Big Spring's extreme temperature swings and intense UV radiation year-round."
+  },
+  {
+    question: "How does Scenic Mountain's geography affect Big Spring roofing?",
+    answer: "Big Spring sits where the Caprock Escarpment meets the rolling plains at approximately 2,400 feet elevation. This geographic transition creates a corridor for severe thunderstorms as warm air lifts along the escarpment. Properties on higher ground near Scenic Mountain and Big Spring State Park face additional wind exposure. Roofing installations in these areas require enhanced wind uplift ratings and careful attention to directional wind loads."
+  },
+  {
+    question: "How quickly can you respond to storm damage in Big Spring?",
+    answer: "We provide same-day emergency response for storm damage in Big Spring and throughout Howard County. After major storms like the 2019 hail event, our crews prioritize tarping and temporary waterproofing to prevent further water intrusion while permanent repairs are planned and scheduled."
+  },
+  {
+    question: "Does the VA Medical Center or Big Spring State Hospital use your services?",
+    answer: "We serve institutional and government facilities throughout Howard County. Large campus-style buildings like hospitals and educational facilities require specialized commercial roofing with TPO or metal systems, phased installation to maintain operations, and compliance with government contracting requirements. Contact us for institutional project consultations."
+  },
+  {
+    question: "Will insurance cover my Big Spring hail damage?",
+    answer: "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation with photographs, measurements, and detailed reports that meet adjuster requirements. Our claim approval rate exceeds 95% across Howard County and the Permian Basin region."
+  }
 ];
 
 export default function BigSpringRoofingPage() {
@@ -117,7 +149,7 @@ export default function BigSpringRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">Severe Thunderstorms &amp; Hail</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">Caprock Escarpment Storm Corridor</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Big Spring&apos;s location along the Caprock Escarpment makes it a hotspot for severe thunderstorms. Warm, moist air from the Gulf lifts rapidly along the escarpment, fueling supercell storms that produce large hail and damaging winds. The 2019 Big Spring hailstorm is a prime example of how quickly widespread roof damage can occur. Class 4 impact-resistant materials are strongly recommended for all Big Spring properties.
                 </p>
@@ -135,6 +167,58 @@ export default function BigSpringRoofingPage() {
                 </p>
               </div>
             </div>
+          </section>
+        </FadeIn>
+
+        {/* Big Spring City-Specific Details */}
+        <FadeIn>
+          <section className="content-block mb-12">
+            <h2 className="text-2xl font-bold mb-6">Big Spring: Crossroads of West Texas</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              <div>
+                <h3 className="text-xl font-bold mb-3">I-20 Corridor &amp; Commerce</h3>
+                <p className="text-gray-600 mb-4">
+                  Big Spring&apos;s position along I-20 makes it a natural stopping point between Midland-Odessa and Abilene. The I-20 corridor has attracted hotels, truck stops, restaurants, and commercial developments that all require reliable commercial roofing. The historic downtown district along Main Street features buildings from the early oil boom era that need specialized roofing to maintain their architectural character while handling modern weather extremes.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-3">Major Employers &amp; Institutions</h3>
+                <p className="text-gray-600 mb-4">
+                  The VA Medical Center serves veterans across a vast West Texas region and requires institutional-grade roofing maintenance. Big Spring State Hospital is another major campus requiring ongoing commercial roofing services. Howard College provides higher education and workforce training, with campus buildings that need durable roofing solutions. The Alon USA refinery is the largest industrial employer, with specialized roofing needs for chemical-exposure environments.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Scenic Mountain &amp; State Park Area</h4>
+                <p className="text-sm text-gray-600">Elevated residential properties near Big Spring State Park facing increased wind exposure from the mesa terrain</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Historic Downtown District</h4>
+                <p className="text-sm text-gray-600">Early 20th-century commercial buildings along Main Street requiring careful restoration-quality roofing work</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded">
+                <h4 className="font-bold text-brand-brown mb-2">Industrial &amp; Refinery Zone</h4>
+                <p className="text-sm text-gray-600">Alon USA complex and surrounding oil field service facilities requiring chemical-resistant roofing systems</p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* FAQ Section */}
+        <FadeIn>
+          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Big Spring Roofing FAQs
+            </h2>
+            <Accordion type="single" collapsible className="max-w-4xl mx-auto">
+              {faqItems.map((faq, index) => (
+                <AccordionItem key={`item-${index + 1}`} value={`item-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">{faq.question}</AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </section>
         </FadeIn>
 
@@ -224,33 +308,11 @@ export default function BigSpringRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "How bad is hail damage in Big Spring?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Big Spring experiences severe hailstorms multiple times per year due to its location along the Caprock Escarpment. The 2019 hailstorm caused widespread damage across the city. Storms typically produce golf ball to baseball-sized hail capable of totaling residential and commercial roofs in minutes." }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you work on industrial and refinery buildings in Big Spring?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide specialized commercial roofing for industrial facilities including oil field buildings, refinery structures, and warehouse operations. We install chemical-resistant PVC membranes, heavy-duty metal roofing, and TPO systems designed for industrial applications." }
-              },
-              {
-                "@type": "Question",
-                "name": "What roofing materials are best for Big Spring's heat?",
-                "acceptedAnswer": { "@type": "Answer", "text": "For residential homes, reflective metal roofing or UV-stabilized Class 4 impact-resistant shingles perform best. For commercial buildings, white TPO or PVC membranes reflect up to 85% of solar heat, reducing cooling costs by 20-30%. Both material types handle Big Spring's extreme temperature swings and intense UV radiation." }
-              },
-              {
-                "@type": "Question",
-                "name": "How quickly can you respond to storm damage in Big Spring?",
-                "acceptedAnswer": { "@type": "Answer", "text": "We provide same-day emergency response for storm damage in Big Spring and throughout Howard County. Our crews carry tarps and emergency repair materials to prevent further water intrusion while permanent repairs are planned and scheduled." }
-              },
-              {
-                "@type": "Question",
-                "name": "Will insurance cover my Big Spring hail damage?",
-                "acceptedAnswer": { "@type": "Answer", "text": "Most homeowner and commercial property insurance policies cover hail damage roof replacement minus your deductible. We provide comprehensive damage documentation with photographs, measurements, and detailed reports that meet adjuster requirements. Our claim approval rate exceeds 95%." }
-              }
-            ]
+            "mainEntity": faqItems.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            }))
           })
         }}
       />
