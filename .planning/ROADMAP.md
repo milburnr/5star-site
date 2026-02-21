@@ -199,13 +199,14 @@ Plans:
 **Brand Refs**: `.planning/brand/content-voice.md` (FAQ templates, answer-first H2s, city-specific content rules), `.planning/brand/keyword-map.md` (cannibalization check)
 **Component Reuse**: Standard FAQ templates (service-type and city-type per content-voice.md), answer-first H2 structure on service pages
 **Anti-Generic**: Every city page must have 3+ genuinely city-specific elements (local weather, neighborhood names, building codes). No city-name-swapped templates.
-**Plans:** 4 plans
+**Plans:** 5 plans
 
 Plans:
 - [ ] 08-01-PLAN.md — Enrich Hereford + 5 thin city hub pages with on-page FAQs and city-specific content
 - [ ] 08-02-PLAN.md — Add FAQ sections to ~22 city hub and service spoke pages missing them
 - [ ] 08-03-PLAN.md — Restructure H2s to answer-first format on all service pages, add rich content elements to hubs
 - [ ] 08-04-PLAN.md — Strengthen hail damage cluster and run full-site cannibalization audit
+- [ ] 08-05-PLAN.md — Gap closure: add FAQ sections to 6 spoke pages and FAQPage schema to 5 city hubs
 
 ### Phase 9: Image Optimization
 **Goal**: Every image on the site is contextually relevant, properly attributed with keyword-rich alt text, and served reliably from Cloudflare R2
