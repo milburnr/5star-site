@@ -9,19 +9,19 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 
 ## Current Position
 
-Phase: 5 of 10 (Schema Architecture)
-Plan: 4 of 4 in current phase
-Status: In Progress
-Last activity: 2026-02-20 — Completed 05-02 WebSite and Person entity schemas
+Phase: 5 of 10 (Schema Architecture) -- COMPLETE
+Plan: 4 of 4 in current phase -- DONE
+Status: Phase Complete
+Last activity: 2026-02-20 — Completed 05-04 schema validation script (Phase 5 final gate)
 
-Progress: [▓▓▓▓▓▓░░░░] 52%
+Progress: [▓▓▓▓▓▓░░░░] 55%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 14
-- Average duration: 4.2min
-- Total execution time: 1.01 hours
+- Total plans completed: 15
+- Average duration: 4.1min
+- Total execution time: 1.06 hours
 
 **By Phase:**
 
@@ -31,10 +31,10 @@ Progress: [▓▓▓▓▓▓░░░░] 52%
 | 02-url-canonicalization | 3 | 10min | 3.3min |
 | 03-meta-titles | 3 | 17min | 5.7min |
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
-| 05-schema-architecture | 4 | 14min | 3.5min |
+| 05-schema-architecture | 4 | 17min | 4.3min |
 
 **Recent Trend:**
-- Last 5 plans: 2min, 3min, 3min, 6min, 2min
+- Last 5 plans: 3min, 3min, 6min, 2min, 3min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -82,6 +82,8 @@ Recent decisions affecting current work:
 - [05-03]: Most FAQ/Service gaps were already fixed by 05-01 -- this plan verified and closed remaining gaps
 - [05-02]: Reused existing sameAs URLs (Facebook, Google Maps CID) from LocalBusiness for WebSite schema
 - [05-02]: Person name set to "Owner" placeholder -- about page content has no specific owner name
+- [05-04]: Service-city page detection uses positive matching (known service prefixes) to avoid false positives on city hub and blog pages
+- [05-04]: 404 page excluded from BreadcrumbList warning -- no meaningful breadcrumb path for error pages
 
 ### Pending Todos
 
@@ -96,5 +98,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 05-02-PLAN.md (WebSite and Person entity schemas)
+Stopped at: Completed 05-04-PLAN.md (schema validation script -- Phase 5 complete)
 Resume file: None
