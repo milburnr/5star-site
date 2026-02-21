@@ -61,7 +61,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",

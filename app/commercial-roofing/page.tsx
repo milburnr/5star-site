@@ -362,7 +362,7 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Why Choose 5 Star for Commercial Roofing?</h2>
 
       <div className="mb-6">
-        <img src="/images/TPO1-1280w.jpg" alt="Professional TPO commercial roof installation in Texas" className="w-full h-64 object-cover rounded-lg" loading="lazy" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="Professional TPO commercial roof installation in Texas" className="w-full h-64 object-cover rounded-lg" loading="lazy" />
       </div>
 
       <div className="grid md:grid-cols-3 gap-4 mb-8">

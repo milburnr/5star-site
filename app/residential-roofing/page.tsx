@@ -149,7 +149,7 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/images/SteelRoofing-1280w.jpg"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp"
               alt="Standing seam metal roofing on Texas Panhandle home - Durable hail-resistant residential roof - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -172,7 +172,7 @@ export default function Page() {
         <FadeIn delay={0.3} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/images/Concretetile-1280w.jpg"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg"
               alt="Concrete tile roofing on Amarillo Mediterranean-style home - Premium residential roof - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -195,7 +195,7 @@ export default function Page() {
         <FadeIn delay={0.4} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="/images/TPO1-1280w.jpg"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp"
               alt="Modern flat roof system on contemporary Amarillo home - TPO membrane residential roofing - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />

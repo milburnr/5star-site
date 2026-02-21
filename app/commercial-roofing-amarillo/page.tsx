@@ -38,7 +38,7 @@ export default function CommercialRoofingAmarilloPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/commercial-roofing-amarillo/#localbusiness",
             "name": "5 Star Roofing",
-            "image": "https://5starroofingpros.com/images/CommercialRoofing.jpeg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
@@ -274,7 +274,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/SteelRoofing-1280w.jpg" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Metal Commercial Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Standing seam and R-panel metal roofing for commercial applications. Superior wind resistance (140+ mph), fire resistance (Class A), and longevity (50+ years). Ideal for warehouses, manufacturing facilities, and retail buildings.
@@ -288,7 +288,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="/images/EPDM1-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance and proven performance in extreme temperatures (-40°F to 300°F). Budget-friendly option with reliable 15-30 year lifespan.

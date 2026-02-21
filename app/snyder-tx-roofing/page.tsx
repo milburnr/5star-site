@@ -271,7 +271,7 @@ export default function SnyderRoofingPage() {
             "@id": "https://5starroofingpros.com/snyder-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://5starroofingpros.com/logo.png",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
             "description": "Professional roofing contractor serving Snyder, Texas and Scurry County. Wind and hail damage repair, residential and commercial roofing, wind energy corridor specialist.",
             "address": {
               "@type": "PostalAddress",

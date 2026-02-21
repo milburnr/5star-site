@@ -31,7 +31,7 @@ export default function RoofReplacementBigSpringPage() {
         "@id": "https://5starroofingpros.com/roof-replacement-big-spring/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://5starroofingpros.com/images/residential-roofing-5.jpeg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-12-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",

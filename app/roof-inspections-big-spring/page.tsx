@@ -44,7 +44,7 @@ export default function RoofInspectionsBigSpringPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-big-spring/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://5starroofingpros.com/images/5star-logo.png",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",

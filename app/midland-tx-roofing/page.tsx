@@ -204,7 +204,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-8-1280w.jpg" alt="Commercial roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="Commercial roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing Services
                     </h3>
@@ -288,7 +288,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO3.jpg" alt="Flat roof repair and replacement in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg" alt="Flat roof repair and replacement in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Flat Roof Repair & Replacement
                     </h3>
@@ -832,7 +832,7 @@ export default function MidlandRoofingPage() {
                 "parentOrganization": {
                   "@id": "https://5starroofingpros.com/#organization"
                 },
-                "image": "https://5starroofingpros.com/logo.png",
+                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
                 "description": "Premier roofing contractor serving Midland, Texas and the Permian Basin. Specialists in commercial roofing, hail damage repair, flat roof systems, and residential roofing for extreme West Texas conditions.",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
@@ -911,7 +911,7 @@ export default function MidlandRoofingPage() {
                 "@type": ["LocalBusiness", "RoofingContractor"],
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#localbusiness",
                 "name": "5 Star Roofing",
-                "image": "https://5starroofingpros.com/logo.png",
+                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
                 "url": "https://5starroofingpros.com",

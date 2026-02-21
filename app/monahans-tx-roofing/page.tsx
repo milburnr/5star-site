@@ -271,7 +271,7 @@ export default function MonahansRoofingPage() {
             "@id": "https://5starroofingpros.com/monahans-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://5starroofingpros.com/logo.png",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
             "description": "Professional roofing contractor serving Monahans, Texas and Ward County. Heat-resistant roofing, oil field facility specialist, Permian Basin residential and commercial services.",
             "address": {
               "@type": "PostalAddress",

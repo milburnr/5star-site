@@ -31,7 +31,7 @@ export default function MetalRoofingLubbockPage() {
         "@id": "https://5starroofingpros.com/metal-roofing-lubbock/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://5starroofingpros.com/images/SteelRoofing.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",

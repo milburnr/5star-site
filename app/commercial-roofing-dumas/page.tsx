@@ -30,7 +30,7 @@ export default function CommercialRoofingDumasPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-dumas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://5starroofingpros.com/images/CommercialRoofing.jpeg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",

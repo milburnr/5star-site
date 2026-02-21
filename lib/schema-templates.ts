@@ -25,7 +25,7 @@ export function generateLocalBusinessSchema(city: CityData, service: ServiceData
     "name": "5 Star Roofing",
     "email": "admin@5starroofingpros.com",
     "@id": `https://5starroofingpros.com/${service.slug}-${city.slug}/#localbusiness`,
-    "image": `https://5starroofingpros.com/images/${city.slug}-location.jpg`,
+    "image": `https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg`,
     "telephone": "(806) 622-6041",
     "priceRange": "$$",
     "address": {

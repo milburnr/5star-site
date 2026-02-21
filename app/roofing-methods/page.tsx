@@ -116,7 +116,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Standing Seam Metal Roof Installation</h2>
       <div className="card mb-8">
-        <img src="/images/SteelRoofing-1280w.jpg" alt="Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Ultimate Hail Protection</h3>
           <p className="mb-4">
@@ -168,7 +168,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">TPO & PVC Single-Ply Membrane Installation</h2>
       <div className="card mb-8">
-        <img src="/images/TPO2-1280w.jpg" alt="TPO commercial roofing installation - White membrane flat roof system - 5 Star Commercial Roofing" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg" alt="TPO commercial roofing installation - White membrane flat roof system - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Commercial Flat Roof Solutions</h3>
           <p className="mb-4">

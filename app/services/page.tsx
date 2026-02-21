@@ -242,7 +242,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="up">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/SteelRoofing-1280w.jpg" alt="Metal Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Metal Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Standing Seam Metal Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -325,7 +325,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO1-1280w.jpg" alt="TPO Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="TPO Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">TPO Roofing Systems</h3>
                 <p className="mb-4">
@@ -347,7 +347,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/EPDM1-1280w.jpg" alt="EPDM Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg" alt="EPDM Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
                 <p className="mb-4">
@@ -369,7 +369,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/PVC1-1280w.jpg" alt="PVC commercial roofing commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg" alt="PVC commercial roofing commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">PVC Roofing Systems</h3>
                 <p className="mb-4">

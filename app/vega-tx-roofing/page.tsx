@@ -198,7 +198,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/SteelRoofing-1280w.jpg" alt="Metal roof installation for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Metal roof installation for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -232,7 +232,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-15-1280w.jpg" alt="Commercial roofing services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg" alt="Commercial roofing services for Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -570,7 +570,7 @@ export default function VegaRoofingPage() {
             "@id": "https://5starroofingpros.com/vega-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://5starroofingpros.com/logo.png",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
             "description": "Professional roofing contractor serving Vega, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
             "address": {
               "@type": "PostalAddress",

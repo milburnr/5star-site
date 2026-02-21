@@ -271,7 +271,7 @@ export default function AndrewsRoofingPage() {
             "@id": "https://5starroofingpros.com/andrews-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://5starroofingpros.com/logo.png",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
             "description": "Professional roofing contractor serving Andrews, Texas and Andrews County. Permian Basin residential and commercial roofing, oil field facility specialist, hail damage repair.",
             "address": {
               "@type": "PostalAddress",

@@ -34,7 +34,7 @@ export default function Page() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "/images/amarillo-roofing-company.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
             "telephone": "(806) 622-6041",
             "address": {
               "@type": "PostalAddress",

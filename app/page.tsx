@@ -457,7 +457,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="/images/EPDM2-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">EPDM Rubber Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Cost-effective black rubber membrane for commercial and industrial applications.
@@ -738,7 +738,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
             "name": "5 Star Roofing",
-            "image": "https://5starroofingpros.com/logo.png",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
             "@id": "https://5starroofingpros.com/#organization",
             "url": "https://5starroofingpros.com",
             "telephone": "(806) 622-6041",
