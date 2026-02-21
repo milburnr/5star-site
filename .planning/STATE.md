@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-20)
 ## Current Position
 
 Phase: 7 of 10 (Internal Linking)
-Plan: 1 of 3 in current phase -- DONE
+Plan: 2 of 3 in current phase -- DONE
 Status: Executing Phase 7
-Last activity: 2026-02-21 — Completed 07-01 InternalLinks hub uplinks rebuild
+Last activity: 2026-02-21 — Completed 07-02 city hub pages and spoke grids
 
-Progress: [▓▓▓▓▓▓▓░░░] 72%
+Progress: [▓▓▓▓▓▓▓▓░░] 76%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 20
-- Average duration: 4.3min
-- Total execution time: 1.43 hours
+- Total plans completed: 21
+- Average duration: 4.5min
+- Total execution time: 1.56 hours
 
 **By Phase:**
 
@@ -33,10 +33,10 @@ Progress: [▓▓▓▓▓▓▓░░░] 72%
 | 04-homepage-overhaul | 2 | 5min | 2.5min |
 | 05-schema-architecture | 4 | 17min | 4.3min |
 | 06-service-hub-pages | 4 | 22min | 5.5min |
-| 07-internal-linking | 1 | 1min | 1min |
+| 07-internal-linking | 2 | 9min | 4.5min |
 
 **Recent Trend:**
-- Last 5 plans: 7min, 10min, 5min, 1min
+- Last 5 plans: 10min, 5min, 1min, 8min
 - Trend: stable
 
 *Updated after each plan completion*
@@ -98,6 +98,9 @@ Recent decisions affecting current work:
 - [06-04]: Meta descriptions trimmed to 160 chars max by removing redundant phrases while preserving CTA phone number
 - [07-01]: 5 cities without hub pages (levelland, big-spring, snyder, monahans, andrews) get no hubUrl -- deferred to plan 07-02
 - [07-01]: City hub link conditionally rendered via hubUrl existence check
+- [Phase 07-02]: City hub pages use inline services array + map for spoke grid (consistent with Phase 6 hub pattern)
+- [Phase 07-02]: New city hubs use -tx-roofing suffix (matching Midland, Odessa, Lubbock Permian Basin city pattern)
+- [Phase 07-02]: Childress and Dalhart still link to /contact/ on service-areas (no hub pages or spoke pages exist)
 
 ### Pending Todos
 
@@ -112,5 +115,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-21
-Stopped at: Completed 07-01-PLAN.md (InternalLinks hub uplinks rebuilt, emergency-roof-repair removed, hubUrl mappings added)
+Stopped at: Completed 07-02-PLAN.md (5 city hubs created, spoke grids added, service-areas fixed, broken links repaired)
 Resume file: None
