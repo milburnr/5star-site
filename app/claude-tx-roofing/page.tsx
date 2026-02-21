@@ -213,7 +213,7 @@ export default function ClaudeRoofingPage() {
                       extending roof life, preventive maintenance plans, and .
                     </p>
                     <a
-                      href="/commercial-roofing-amarillo-texas/"
+                      href="/commercial-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       View Commercial Roofing →
@@ -246,7 +246,7 @@ export default function ClaudeRoofingPage() {
                       custom metal fabrication. Energy-efficient colors available.
                     </p>
                     <a
-                      href="/metal-roofing-amarillo-texas/"
+                      href="/metal-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Discover Metal Roofing →
@@ -279,7 +279,7 @@ export default function ClaudeRoofingPage() {
                       detailed photo report, and written recommendations. 100% free with no pressure.
                     </p>
                     <a
-                      href="/roof-inspections-amarillo-texas/"
+                      href="/roof-inspections-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Schedule Free Inspection →

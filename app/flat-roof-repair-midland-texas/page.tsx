@@ -382,7 +382,7 @@ export default function FlatRoofMidlandPage() {
           <section className="mt-16 pt-8 border-t border-gray-200">
             <h3 className="text-2xl font-bold text-center mb-6 text-brand-brown">More Midland Services</h3>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="/midland-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Midland Services</a>
+              <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">All Midland Services</a>
               <span className="text-gray-400">•</span>
               <a href="/commercial-roofing-midland/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">Commercial Roofing</a>
               <span className="text-gray-400">•</span>

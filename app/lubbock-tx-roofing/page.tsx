@@ -689,15 +689,15 @@ export default function LubbockRoofingPage() {
                 Amarillo
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/midland-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Midland
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/odessa-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/odessa-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Odessa
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/abilene-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/service-areas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Abilene
               </a>
               <span className="text-gray-400">•</span>

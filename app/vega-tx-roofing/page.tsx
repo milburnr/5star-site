@@ -217,7 +217,7 @@ export default function VegaRoofingPage() {
                       available.
                     </p>
                     <a
-                      href="/metal-roofing-amarillo-texas/"
+                      href="/metal-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Discover Metal Roofing →
@@ -251,7 +251,7 @@ export default function VegaRoofingPage() {
                       Minimal business disruption.
                     </p>
                     <a
-                      href="/commercial-roofing-amarillo-texas/"
+                      href="/commercial-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       View Commercial Services →
@@ -285,7 +285,7 @@ export default function VegaRoofingPage() {
                       recommendations. Always free.
                     </p>
                     <a
-                      href="/roof-inspections-amarillo-texas/"
+                      href="/roof-inspections-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Schedule Free Inspection →
@@ -437,7 +437,7 @@ export default function VegaRoofingPage() {
                 <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
                 <p className="text-gray-600 text-sm">Expert hail damage assessment and insurance claims</p>
               </a>
-              <a href="/metal-roofing-amarillo-texas/" className="card-hover p-4 block">
+              <a href="/metal-roofing-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Metal Roofing Systems</h3>
                 <p className="text-gray-600 text-sm">Extreme-weather metal roofing solutions</p>
               </a>

@@ -730,7 +730,7 @@ export default function OdessaRoofingPage() {
               Also Serving Nearby Permian Basin Communities
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-              <a href="/midland-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Midland
               </a>
               <span className="text-gray-400">•</span>
@@ -738,7 +738,7 @@ export default function OdessaRoofingPage() {
                 Amarillo
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/lubbock-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Lubbock
               </a>
               <span className="text-gray-400">•</span>
@@ -756,15 +756,15 @@ export default function OdessaRoofingPage() {
               Helpful Roofing Resources for Odessa Homeowners
             </h2>
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <a href="/blog/hail-damage-roof-repair-guide/" className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all">
+              <a href="/blog/" className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all">
                 <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair Guide</h3>
                 <p className="text-sm text-gray-600">Complete guide to identifying and repairing hail damage</p>
               </a>
-              <a href="/blog/choosing-right-roofing-material/" className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all">
+              <a href="/blog/" className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all">
                 <h3 className="font-bold text-brand-brown mb-2">Choosing Roofing Materials</h3>
                 <p className="text-sm text-gray-600">Best roofing materials for West Texas climate</p>
               </a>
-              <a href="/blog/roof-insurance-claims/" className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all">
+              <a href="/blog/" className="block p-4 bg-white rounded-lg hover:shadow-lg transition-all">
                 <h3 className="font-bold text-brand-brown mb-2">Insurance Claim Process</h3>
                 <p className="text-sm text-gray-600">Navigating roof insurance claims in Texas</p>
               </a>

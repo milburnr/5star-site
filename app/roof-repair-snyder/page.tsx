@@ -831,7 +831,7 @@ export default function RoofRepairSnyderPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Barn & Livestock Roofing</h3>
                 <p className="text-gray-600 mb-4 text-sm">Specialized systems for livestock facilities and agricultural buildings</p>
-                <a href="/agricultural-roofing-snyder/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+                <a href="/services/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">storm response</h3>

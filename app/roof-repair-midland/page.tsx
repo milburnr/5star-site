@@ -721,7 +721,7 @@ export default function RoofRepairMidlandPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Cool Roof Installation</h3>
                 <p className="text-gray-600 mb-4">Energy-efficient roofing systems for desert climate conditions</p>
-                <a href="/energy-efficient-roofing-midland/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
+                <a href="/services/" className="text-brand-gold font-semibold hover:underline">Learn More →</a>
               </div>
             </div>
           </section>

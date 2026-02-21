@@ -210,7 +210,7 @@ export default function BushlandRoofingPage() {
                       Energy-efficient with Class 4 hail ratings available.
                     </p>
                     <a
-                      href="/metal-roofing-amarillo-texas/"
+                      href="/metal-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Discover Metal Roofing →
@@ -242,7 +242,7 @@ export default function BushlandRoofingPage() {
                       repairs. We minimize disruption to your operations.
                     </p>
                     <a
-                      href="/commercial-roofing-amarillo-texas/"
+                      href="/commercial-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       View Commercial Services →
@@ -391,7 +391,7 @@ export default function BushlandRoofingPage() {
                 <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
                 <p className="text-gray-600 text-sm">Expert hail damage assessment and insurance claims</p>
               </a>
-              <a href="/metal-roofing-amarillo-texas/" className="card-hover p-4 block">
+              <a href="/metal-roofing-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Metal Roofing Systems</h3>
                 <p className="text-gray-600 text-sm">Durable metal roofs for West Texas weather</p>
               </a>

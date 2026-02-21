@@ -217,7 +217,7 @@ export default function WildoradoRoofingPage() {
                       Class 4 hail ratings available.
                     </p>
                     <a
-                      href="/metal-roofing-amarillo-texas/"
+                      href="/metal-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Discover Metal Roofing →
@@ -251,7 +251,7 @@ export default function WildoradoRoofingPage() {
                       and work around your schedule.
                     </p>
                     <a
-                      href="/commercial-roofing-amarillo-texas/"
+                      href="/commercial-roofing-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       View Agricultural Roofing →
@@ -285,7 +285,7 @@ export default function WildoradoRoofingPage() {
                       recommendations. No pressure, no obligation.
                     </p>
                     <a
-                      href="/roof-inspections-amarillo-texas/"
+                      href="/roof-inspections-amarillo/"
                       className="text-brand-gold font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Schedule Free Inspection →

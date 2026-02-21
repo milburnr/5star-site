@@ -51,7 +51,7 @@ export default function Page() {
               },
               {
                       "name": "Pvc Roof Replacement",
-                      "url": "/pvc-roof-replacement/"
+                      "url": "/services/"
               },
               {
                       "name": "Amarillo",

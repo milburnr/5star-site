@@ -798,7 +798,7 @@ export default function MidlandRoofingPage() {
               Also Serving Nearby Permian Basin Communities
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
-              <a href="/odessa-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/odessa-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Odessa
               </a>
               <span className="text-gray-400">•</span>
@@ -806,7 +806,7 @@ export default function MidlandRoofingPage() {
                 Amarillo
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/lubbock-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
                 Lubbock
               </a>
               <span className="text-gray-400">•</span>

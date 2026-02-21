@@ -727,18 +727,18 @@ export default function Page() {
             <h4 className="font-bold mb-2">Panhandle Cities</h4>
             <div className="space-y-1 text-sm">
               <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline block">• Canyon</a>
-              <a href="/borger-tx-roofing/" className="text-brand-gold hover:underline block">• Borger</a>
-              <a href="/pampa-tx-roofing/" className="text-brand-gold hover:underline block">• Pampa</a>
-              <a href="/dumas-tx-roofing/" className="text-brand-gold hover:underline block">• Dumas</a>
+              <a href="/borger-texas-roofing/" className="text-brand-gold hover:underline block">• Borger</a>
+              <a href="/pampa-texas-roofing/" className="text-brand-gold hover:underline block">• Pampa</a>
+              <a href="/dumas-texas-roofing/" className="text-brand-gold hover:underline block">• Dumas</a>
             </div>
           </div>
           <div>
             <h4 className="font-bold mb-2">South Plains</h4>
             <div className="space-y-1 text-sm">
               <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline block">• Lubbock</a>
-              <a href="/plainview-tx-roofing/" className="text-brand-gold hover:underline block">• Plainview</a>
+              <a href="/plainview-texas-roofing/" className="text-brand-gold hover:underline block">• Plainview</a>
               <a href="/levelland-tx-roofing/" className="text-brand-gold hover:underline block">• Levelland</a>
-              <a href="/brownfield-tx-roofing/" className="text-brand-gold hover:underline block">• Brownfield</a>
+              <a href="/service-areas/" className="text-brand-gold hover:underline block">• Brownfield</a>
             </div>
           </div>
           <div>

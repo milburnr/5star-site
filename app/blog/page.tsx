@@ -236,12 +236,12 @@ export default function BlogIndexPage() {
                     </a>
                   </li>
                   <li>
-                    <a href="/midland-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">
+                    <a href="/midland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">
                       Midland Roofing
                     </a>
                   </li>
                   <li>
-                    <a href="/lubbock-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">
+                    <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant">
                       Lubbock Roofing
                     </a>
                   </li>

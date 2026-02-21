@@ -16,32 +16,32 @@ export default function Page() {
   const blogPosts = [
     {
       title: "Cadillac Ranch: Amarillo's Iconic Public Art Installation",
-      url: "/amarillo-cadillac-ranch/",
+      url: "/amarillo-texas-roofing/",
       excerpt: "Explore one of Amarillo's most iconic roadside attractions and public art installations.",
     },
     {
       title: "Amarillo Botanical Gardens: An Oasis in the High Plains",
-      url: "/amarillo-botanical-gardens/",
+      url: "/amarillo-texas-roofing/",
       excerpt: "Discover the beauty and tranquility of Amarillo's premier botanical gardens.",
     },
     {
       title: "Amarillo Zoo: Wildlife Adventures in the Texas Panhandle",
-      url: "/amarillo-zoo/",
+      url: "/amarillo-texas-roofing/",
       excerpt: "A family-friendly guide to the Amarillo Zoo and its amazing animal exhibits.",
     },
     {
       title: "American Quarter Horse Hall of Fame & Museum in Amarillo",
-      url: "/amarillo-quarter-horse-museum/",
+      url: "/amarillo-texas-roofing/",
       excerpt: "Learn about the rich history of the American Quarter Horse at this world-class museum.",
     },
     {
       title: "Whataburger in Amarillo: A Texas Culinary Icon",
-      url: "/amarillo-whataburger/",
+      url: "/amarillo-texas-roofing/",
       excerpt: "The story of Whataburger and its special place in Amarillo's culinary landscape.",
     },
     {
       title: "Martin Road Park: Tranquility in Nature in Amarillo",
-      url: "/amarillo-martin-road-park/",
+      url: "/amarillo-texas-roofing/",
       excerpt: "Find peace and recreation at one of Amarillo's beloved neighborhood parks.",
     },
   ];

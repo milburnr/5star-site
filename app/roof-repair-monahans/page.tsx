@@ -804,7 +804,7 @@ export default function RoofRepairMonahansPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Cool Roof Installation</h3>
                 <p className="text-gray-600 mb-4 text-sm">Energy-efficient systems reducing cooling costs in desert conditions</p>
-                <a href="/energy-efficient-roofing-monahans/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
+                <a href="/services/" className="text-brand-gold font-semibold hover:underline text-sm">Learn More →</a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Metal Roofing Systems</h3>

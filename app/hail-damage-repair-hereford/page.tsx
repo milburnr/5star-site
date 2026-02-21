@@ -478,15 +478,15 @@ export default function HailDamageRepairHerefordPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services in Hereford</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/storm-damage-repair-hereford/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a href="/storm-damage-repair/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Storm Damage Repair</h3>
                 <p className="text-gray-600">Complete storm restoration for residential and agricultural properties</p>
               </a>
-              <a href="/roof-replacement-hereford/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a href="/roof-replacement/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Agricultural Roofing</h3>
                 <p className="text-gray-600">Specialized roofing for cattle facilities and farm buildings</p>
               </a>
-              <a href="/roof-inspections-hereford/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a href="/roof-inspections/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Free Inspections</h3>
                 <p className="text-gray-600">Comprehensive assessments for homes and agricultural facilities</p>
               </a>
