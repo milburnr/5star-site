@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** Get the site ranking top 10 and generating 100+ organic clicks/month with real phone calls and leads
-**Current focus:** Phase 10 - Technical Validation & Relaunch
+**Current focus:** Phase 11 - Ahrefs Crawl Fixes
 
 ## Current Position
 
-Phase: 10 of 10 (Technical Validation & Relaunch)
-Plan: 3 of 3 complete
-Status: Phase 10 COMPLETE — all technical validation passed
-Last activity: 2026-02-21 — Completed 10-03 (internal link fixes + Google Indexing API)
+Phase: 11 (Ahrefs Crawl Fixes)
+Plan: 1 of 3 complete
+Status: Executing Phase 11
+Last activity: 2026-02-25 — Completed 11-01 (Open Graph tags for all pages)
 
-Progress: [▓▓▓▓▓▓▓▓▓▓] 100%
+Progress: [▓▓▓░░░░░░░] 33%
 
 ## Performance Metrics
 
@@ -49,6 +49,7 @@ Progress: [▓▓▓▓▓▓▓▓▓▓] 100%
 | Phase 10 P02 | 2min | 2 tasks | 2 files |
 | Phase 10 P03 | 7min | 2 tasks | 24 files |
 | Phase 11 P02 | 5min | 2 tasks | 8 files |
+| Phase 11 P01 | 8min | 3 tasks | 217 files |
 
 ## Accumulated Context
 
@@ -144,6 +145,7 @@ Recent decisions affecting current work:
 - [Phase 10-03]: Google Indexing API quota exhaustion documented as non-blocking per phase constraints
 - [Phase 11]: Links added as inline contextual anchors within existing paragraphs, not as link dumps
 - [Phase 11]: Each orphan gets exactly 2 incoming links from contextually relevant hub pages
+- [Phase 11]: Next.js page-level openGraph fully overrides layout defaults (no deep merge) -- all 7 pre-existing OG pages needed images/url/siteName added manually
 
 ### Pending Todos
 
@@ -157,6 +159,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-02-21
-Stopped at: Completed 10-03-PLAN.md (internal link fixes + Google Indexing API) -- Phase 10 COMPLETE
+Last session: 2026-02-25
+Stopped at: Completed 11-01-PLAN.md (Open Graph tags for all pages)
 Resume file: None
