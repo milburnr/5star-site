@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   title: "Roof Inspections West Texas | 5 Star Roofing",
   description:
     "Free roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roofs. Call (806) 622-6041.",
+  openGraph: {
+    title: "Roof Inspections West Texas | 5 Star Roofing",
+    description: "Free roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roofs. Call (806) 622-6041.",
+    url: "https://5starroofingpros.com/roof-inspections/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

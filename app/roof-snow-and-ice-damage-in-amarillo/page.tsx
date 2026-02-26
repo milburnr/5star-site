@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/' },
   title: 'Snow & Ice Roof Repair Amarillo | 5 Star Roofing',
   description: "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Same-day inspections.",
+  openGraph: {
+    title: "Snow & Ice Roof Repair Amarillo | 5 Star Roofing",
+    description: "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Same-day inspections.",
+    url: "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

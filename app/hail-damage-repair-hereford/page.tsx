@@ -13,7 +13,24 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-hereford/' },
   title: 'Hail Damage Repair Hereford TX | 5 Star Roofing',
-  description: "Expert hail damage roof repair in Hereford TX. , insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Hereford TX. , insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",
+  openGraph: {
+    title: "Hail Damage Repair Hereford TX | 5 Star Roofing",
+    description: "Expert hail damage roof repair in Hereford TX. , insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",
+    url: "https://5starroofingpros.com/hail-damage-repair-hereford/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
 
 export default function HailDamageRepairHerefordPage() {
   return (

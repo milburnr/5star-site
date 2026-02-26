@@ -12,6 +12,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing/' },
   title: 'Metal Roofing West Texas | 5 Star Roofing',
   description: "Metal roofing installation and repair across West Texas. Standing seam, corrugated, and metal shingle options. Call (806) 622-6041 for a free estimate.",
+  openGraph: {
+    title: "Metal Roofing West Texas | 5 Star Roofing",
+    description: "Metal roofing installation and repair across West Texas. Standing seam, corrugated, and metal shingle options. Call (806) 622-6041 for a free estimate.",
+    url: "https://5starroofingpros.com/metal-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

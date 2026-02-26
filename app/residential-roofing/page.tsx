@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing/' },
   title: 'Residential Roofing in Amarillo | 5 Star Roofing',
   description: "Residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote!",
+  openGraph: {
+    title: "Residential Roofing in Amarillo | 5 Star Roofing",
+    description: "Residential roofing in Amarillo. Asphalt shingles, metal roofing, and hail damage repair. Call for a free quote!",
+    url: "https://5starroofingpros.com/residential-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {
@@ -116,7 +132,7 @@ export default function Page() {
         <p className="text-lg">
           Your home is your biggest investment. At 5 Star Commercial Roofing, we provide Amarillo, Midland, and Odessa homeowners
           with high-quality residential roofing services, specializing in <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a> and insurance
-          claim assistance. The Texas Panhandle experiences 8-12 hailstorms annually—trust our expertise to protect your home with <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Class 4 impact-resistant shingles</a>.
+          claim assistance. The Texas Panhandle experiences 8-12 hailstorms annually—trust our expertise to protect your home with <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Class 4 impact-resistant shingles</a>. View our complete <a href="/amarillo-homes-roofing-services/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Amarillo homes roofing services</a> for local options.
         </p>
       </div>
 
@@ -446,7 +462,7 @@ export default function Page() {
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="font-bold text-lg mb-2 text-brand-brown">How much does a new residential roof cost in Amarillo?</h3>
           <p className="text-gray-700">
-            The cost varies based on roof size, pitch, material selection, and complexity. On average, Amarillo homeowners can expect to pay $8,000-$15,000 for asphalt shingle replacement on a typical 2,000 sq ft home. Metal roofing ranges from $12,000-$25,000. Check out our detailed <a href="/blog/roof-replacement-cost-texas-2025/" className="text-brand-brown hover:text-brand-gold underline">2025 roofing cost guide</a> for more information.
+            The cost varies based on roof size, pitch, material selection, and complexity. On average, Amarillo homeowners can expect to pay $8,000-$15,000 for asphalt shingle replacement on a typical 2,000 sq ft home. Metal roofing ranges from $12,000-$25,000. Read our guide on <a href="/budgeting-for-roof-replacement-expenses/" className="text-brand-brown hover:text-brand-gold underline">budgeting for roof replacement expenses</a> or check out our detailed <a href="/blog/roof-replacement-cost-texas-2025/" className="text-brand-brown hover:text-brand-gold underline">2025 roofing cost guide</a> for more information.
           </p>
         </div>
       </div>

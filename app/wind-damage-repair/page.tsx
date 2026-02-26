@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
   description:
     "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+  openGraph: {
+    title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
+    description: "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+    url: "https://5starroofingpros.com/wind-damage-repair/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

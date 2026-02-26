@@ -16,6 +16,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-odessa/' },
   title: "Wind Damage Repair Odessa | 5 Star Roofing",
   description: "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph.  and insurance claim assistance. Call (806) 622-6041",
+  openGraph: {
+    title: "Wind Damage Repair Odessa | 5 Star Roofing",
+    description: "Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph.  and insurance claim assistance. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/wind-damage-repair-odessa/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

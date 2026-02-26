@@ -16,6 +16,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-odessa/' },
   title: 'Residential Roofing Odessa TX | 5 Star Roofing',
   description: "Expert residential roofing in Odessa TX. Serving Crestview, Ridgecrest West, and all Ector County working families. Call (806) 622-6041",
+  openGraph: {
+    title: "Residential Roofing Odessa TX | 5 Star Roofing",
+    description: "Expert residential roofing in Odessa TX. Serving Crestview, Ridgecrest West, and all Ector County working families. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/residential-roofing-odessa/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function ResidentialRoofingOdessaPage() {

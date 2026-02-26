@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/gallery/' },
   title: "Project Gallery | 5 Star Roofing Portfolio",
   description: "View our completed roofing projects in Amarillo, Midland, Odessa, and Lubbock. Residential and commercial roofing photos from across West Texas. (806) 622-6041",
+  openGraph: {
+    title: "Project Gallery | 5 Star Roofing Portfolio",
+    description: "View our completed roofing projects in Amarillo, Midland, Odessa, and Lubbock. Residential and commercial roofing photos from across West Texas. (806) 622-6041",
+    url: "https://5starroofingpros.com/gallery/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
   keywords: "roofing gallery, roofing portfolio, Amarillo roofing projects, before after roofing, hail damage repair photos, TPO installation photos",
 };
 

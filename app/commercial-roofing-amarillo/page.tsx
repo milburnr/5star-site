@@ -16,6 +16,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo/' },
   title: 'Commercial Roofing Amarillo TX | 5 Star Roofing',
   description: "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+  openGraph: {
+    title: "Commercial Roofing Amarillo TX | 5 Star Roofing",
+    description: "Commercial Roofing in Amarillo, TX. Free inspections, insurance claim help, fast response. Call 5 Star Roofing for a free quote today!",
+    url: "https://5starroofingpros.com/commercial-roofing-amarillo/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function CommercialRoofingAmarilloPage() {

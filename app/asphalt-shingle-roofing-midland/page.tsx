@@ -11,6 +11,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-midland/' },
   title: 'Asphalt Shingle Roofing Midland TX | 5 Star Roofing',
   description: "Heavy-duty asphalt shingle roofing in Midland TX. Built for Permian Basin weather and industrial conditions. Desert-rated materials. Call (806) 622-6041",
+  openGraph: {
+    title: "Asphalt Shingle Roofing Midland TX | 5 Star Roofing",
+    description: "Heavy-duty asphalt shingle roofing in Midland TX. Built for Permian Basin weather and industrial conditions. Desert-rated materials. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/asphalt-shingle-roofing-midland/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function AsphaltShingleRoofingMidlandPage() {

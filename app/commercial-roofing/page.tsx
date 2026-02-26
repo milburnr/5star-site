@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing/' },
   title: 'Commercial Roof Amarillo TX | 5 Star Roofing',
   description: "Commercial roofing in Amarillo. TPO, PVC, EPDM, and built-up roofing systems. Call for a free quote!",
+  openGraph: {
+    title: "Commercial Roof Amarillo TX | 5 Star Roofing",
+    description: "Commercial roofing in Amarillo. TPO, PVC, EPDM, and built-up roofing systems. Call for a free quote!",
+    url: "https://5starroofingpros.com/commercial-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

@@ -13,6 +13,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pvc-roof-replacement-in-amarillo/' },
   title: 'PVC Roof Replacement Amarillo TX | 5 Star Roofing',
   description: "PVC roof replacement in Amarillo TX. Durable single-ply membrane systems for commercial buildings. Free inspections. Call (806) 622-6041",
+  openGraph: {
+    title: "PVC Roof Replacement Amarillo TX | 5 Star Roofing",
+    description: "PVC roof replacement in Amarillo TX. Durable single-ply membrane systems for commercial buildings. Free inspections. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/pvc-roof-replacement-in-amarillo/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

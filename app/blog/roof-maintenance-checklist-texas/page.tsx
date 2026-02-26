@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/roof-maintenance-checklist-texas/' },
   title: "Roof Maintenance Checklist Texas | 5 Star Roofing",
   description: "Complete roof maintenance checklist for Texas homes. Seasonal inspections, preventive care, and expert tips to extend roof life. Free printable checklist.",
+  openGraph: {
+    title: "Roof Maintenance Checklist Texas | 5 Star Roofing",
+    description: "Complete roof maintenance checklist for Texas homes. Seasonal inspections, preventive care, and expert tips to extend roof life. Free printable checklist.",
+    url: "https://5starroofingpros.com/blog/roof-maintenance-checklist-texas/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RoofMaintenanceChecklistPage() {

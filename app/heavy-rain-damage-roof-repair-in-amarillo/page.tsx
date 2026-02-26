@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/' },
   title: 'Emergency Rain Damage Roof Repair Amarillo | 5 Star Roofing',
   description: "Heavy rain damage roof repair in Amarillo TX. Water leak fixes, structural assessment, insurance help. Call (806) 622-6041 for a free quote",
+  openGraph: {
+    title: "Emergency Rain Damage Roof Repair Amarillo | 5 Star Roofing",
+    description: "Heavy rain damage roof repair in Amarillo TX. Water leak fixes, structural assessment, insurance help. Call (806) 622-6041 for a free quote",
+    url: "https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 const serviceSchema = {

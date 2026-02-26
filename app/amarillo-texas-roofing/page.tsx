@@ -9,6 +9,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-texas-roofing/' },
   title: 'Amarillo Texas Roofing | 5 Star Roofing',
   description: "Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.",
+  openGraph: {
+    title: "Amarillo Texas Roofing | 5 Star Roofing",
+    description: "Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.",
+    url: "https://5starroofingpros.com/amarillo-texas-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function AmarilloRoofingPage() {
@@ -115,7 +131,7 @@ export default function AmarilloRoofingPage() {
                 Located at 2909 S Western St in Amarillo, 5 Star Commercial Roofing has been protecting
                 homes and businesses throughout the Texas Panhandle for over a decade. From the historic
                 neighborhoods of Wolflin to the growing developments near Coulter Street, we understand
-                Amarillo&apos;s unique roofing challenges.
+                Amarillo&apos;s unique roofing challenges. Compare <a href="/roofing-methods-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roofing methods suited for Amarillo</a> to find the right solution for your property.
               </p>
             </div>
           </section>
@@ -214,6 +230,9 @@ export default function AmarilloRoofingPage() {
                       <strong>Services include:</strong> Roof replacement, roof repair, shingle installation,
                       ventilation upgrades, and warranty work. We use only premium materials designed for
                       Amarillo&apos;s extreme weather.
+                    </p>
+                    <p className="text-gray-600 mb-4">
+                      Explore our full range of <a href="/amarillo-homes-roofing-services/" className="text-brand-gold hover:text-brand-gold-vibrant underline">roofing services for Amarillo homes</a>, or learn why homeowners call us <a href="/amarillos-best-roofer/" className="text-brand-gold hover:text-brand-gold-vibrant underline">Amarillo&apos;s best roofer</a>.
                     </p>
                     <a
                       href="/residential-roofing-amarillo/"
@@ -381,7 +400,7 @@ export default function AmarilloRoofingPage() {
                 <p className="text-gray-700">
                   Amarillo can see 100°F summer days and below-zero winter nights, sometimes within the same week.
                   This expansion and contraction puts tremendous stress on roofing materials, accelerating wear
-                  and causing cracking.
+                  and causing cracking. Winter conditions also create risk for <a href="/roof-snow-and-ice-damage-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">snow and ice damage</a>, while moisture intrusion can lead to <a href="/roof-rot-damage-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof rot</a> if left unchecked.
                 </p>
               </div>
               <div>

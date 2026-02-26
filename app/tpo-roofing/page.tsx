@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   title: "TPO Roofing West Texas | 5 Star Roofing",
   description:
     "TPO roofing installation, repair, and maintenance for commercial and flat roof buildings across West Texas. Energy-efficient membranes. Call (806) 622-6041.",
+  openGraph: {
+    title: "TPO Roofing West Texas | 5 Star Roofing",
+    description: "TPO roofing installation, repair, and maintenance for commercial and flat roof buildings across West Texas. Energy-efficient membranes. Call (806) 622-6041.",
+    url: "https://5starroofingpros.com/tpo-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {

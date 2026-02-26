@@ -12,6 +12,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wildorado-tx-roofing/' },
   title: 'Roofing Wildorado TX | Hail Damage | 5 Star Roofing',
   description: "Roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair. Call (806) 622-6041",
+  openGraph: {
+    title: "Roofing Wildorado TX | Hail Damage | 5 Star Roofing",
+    description: "Roofing services in Wildorado, Texas Panhandle. Just 15 miles west of Amarillo on I-40. Hail damage repair. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/wildorado-tx-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function WildoradoRoofingPage() {

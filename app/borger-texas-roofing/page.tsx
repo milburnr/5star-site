@@ -8,6 +8,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/borger-texas-roofing/' },
   title: 'Roofing Borger TX | Hail Damage Specialists | 5 Star Roofing',
   description: "Roofing services in Borger, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hutchinson County. Free inspections available.",
+  openGraph: {
+    title: "Roofing Borger TX | Hail Damage Specialists | 5 Star Roofing",
+    description: "Roofing services in Borger, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hutchinson County. Free inspections available.",
+    url: "https://5starroofingpros.com/borger-texas-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function BorgerRoofingPage() {

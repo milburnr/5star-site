@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/roof-replacement-cost-texas-2025/' },
   title: "Roof Replacement Cost in Texas 2025 | 5 Star Roofing",
   description: "How much does roof replacement cost in Texas? Complete 2025 pricing guide with average costs by size, material, and location. Call (806) 622-6041",
+  openGraph: {
+    title: "Roof Replacement Cost in Texas 2025 | 5 Star Roofing",
+    description: "How much does roof replacement cost in Texas? Complete 2025 pricing guide with average costs by size, material, and location. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/blog/roof-replacement-cost-texas-2025/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RoofReplacementCostBlogPage() {

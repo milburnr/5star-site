@@ -8,6 +8,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roof-installation-odessa-texas/' },
   title: 'Metal Roof Installation in Odessa, TX | 5 Star Roofing',
   description: "Metal roof installation in Odessa, Texas. Standing seam, R-panel, commercial & residential. 50+ year lifespan. Free inspections available.",
+  openGraph: {
+    title: "Metal Roof Installation in Odessa, TX | 5 Star Roofing",
+    description: "Metal roof installation in Odessa, Texas. Standing seam, R-panel, commercial & residential. 50+ year lifespan. Free inspections available.",
+    url: "https://5starroofingpros.com/metal-roof-installation-odessa-texas/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function MetalRoofOdessaPage() {

@@ -9,6 +9,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hereford-texas-roofing/' },
   title: 'Roofing Hereford TX | Hail Damage | 5 Star Roofing',
   description: "Roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.",
+  openGraph: {
+    title: "Roofing Hereford TX | Hail Damage | 5 Star Roofing",
+    description: "Roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.",
+    url: "https://5starroofingpros.com/hereford-texas-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 const localBusinessSchema = {
