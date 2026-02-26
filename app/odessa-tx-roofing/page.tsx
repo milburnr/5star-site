@@ -19,8 +19,18 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Roofing Contractor Odessa TX | 5 Star Roofing",
     description: "Expert roofing services for Odessa homes and businesses. Hail damage specialists, oil industry facility roofing. Call (806) 622-6041",
-    type: "website",
+    url: "https://5starroofingpros.com/odessa-tx-roofing/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
     locale: "en_US",
+    type: "website",
   },
 };
 

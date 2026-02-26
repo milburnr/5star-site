@@ -16,6 +16,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Amarillo Homes Roofing | 5 Star Roofing",
     description: "Professional residential roofing services in Amarillo, TX. Free inspections, hail damage repair, and complete roof replacements. Call (806) 622-6041",
+    url: "https://5starroofingpros.com/amarillo-homes-roofing-services/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
     type: "website",
   },
 };

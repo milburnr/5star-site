@@ -9,6 +9,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Amarillo's Best Roofer | 5 Star Roofing",
     description: "Amarillo's highest-rated roofer for hail damage, storm repair, and full replacements. Insurance claim experts. Free inspection — (806) 622-6041",
+    url: "https://5starroofingpros.com/amarillos-best-roofer/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
     type: "website",
   },
 };

@@ -11,6 +11,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us | 5 Star Roofing | Amarillo, TX",
     description: "Get in touch with West Texas's trusted roofing experts. Free inspections available.",
+    url: "https://5starroofingpros.com/contact/",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
     type: "website",
   },
 };
