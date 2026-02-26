@@ -12,16 +12,17 @@ This roadmap transforms a 268-page roofing site from position ~39 average and 2-
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Compliance & Entity Fixes** - Remove AggregateRating spam risk, standardize business name/NAP across all pages
-- [ ] **Phase 2: URL Canonicalization** - Consolidate 25+ duplicate URL variants via 301 redirects, remove competing pages
-- [ ] **Phase 3: Meta & Titles** - Fix all meta descriptions and titles across 268 pages for CTR improvement
-- [ ] **Phase 4: Homepage Overhaul** - Rewrite homepage for Amarillo-first residential positioning
-- [ ] **Phase 5: Schema Architecture** - Upgrade schema types, add WebSite/Person entities, install validation tooling
-- [ ] **Phase 6: Service Hub Pages** - Create 9 missing service hub pages completing the hub-and-spoke topology
-- [ ] **Phase 7: Internal Linking** - Rebuild link architecture with hub uplinks, cross-links, and orphan elimination
-- [ ] **Phase 8: Content Enrichment** - Strengthen thin city pages, add rich content elements, eliminate cannibalization
-- [ ] **Phase 9: Image Optimization** - Audit and fix all images: alt text, contextual relevance, broken URLs, R2 compliance
-- [ ] **Phase 10: Technical Validation & Relaunch** - Full-site QA, sitemap regeneration, performance verification, Google resubmission
+- [x] **Phase 1: Compliance & Entity Fixes** - Remove AggregateRating spam risk, standardize business name/NAP across all pages
+- [x] **Phase 2: URL Canonicalization** - Consolidate 25+ duplicate URL variants via 301 redirects, remove competing pages
+- [x] **Phase 3: Meta & Titles** - Fix all meta descriptions and titles across 268 pages for CTR improvement
+- [x] **Phase 4: Homepage Overhaul** - Rewrite homepage for Amarillo-first residential positioning
+- [x] **Phase 5: Schema Architecture** - Upgrade schema types, add WebSite/Person entities, install validation tooling
+- [x] **Phase 6: Service Hub Pages** - Create 9 missing service hub pages completing the hub-and-spoke topology
+- [x] **Phase 7: Internal Linking** - Rebuild link architecture with hub uplinks, cross-links, and orphan elimination
+- [x] **Phase 8: Content Enrichment** - Strengthen thin city pages, add rich content elements, eliminate cannibalization
+- [x] **Phase 9: Image Optimization** - Audit and fix all images: alt text, contextual relevance, broken URLs, R2 compliance
+- [x] **Phase 10: Technical Validation & Relaunch** - Full-site QA, sitemap regeneration, performance verification, Google resubmission
+- [ ] **Phase 11: Ahrefs Crawl Fixes** - Fix orphan pages, add Open Graph tags, address remaining crawl errors from Ahrefs audit
 
 ## Quality Standards
 
@@ -244,20 +245,39 @@ Plans:
 - [ ] 10-02-PLAN.md — Enhance sitemap generator with differentiated priorities, regenerate sitemap, rebuild
 - [ ] 10-03-PLAN.md — Run broken link check, fix any issues, resubmit to Google Indexing API
 
+### Phase 11: Ahrefs Crawl Fixes
+**Goal**: Resolve all remaining issues from Ahrefs site crawl audit — eliminate orphan pages, add Open Graph tags to all pages, and verify zero crawl errors
+**Depends on**: Phase 10 (all prior optimization must be complete)
+**Requirements**: AHREFS-01, AHREFS-02, AHREFS-03
+**Success Criteria** (what must be TRUE):
+  1. Zero orphan pages — every page is linked from at least one other page (verified by crawling built HTML output)
+  2. Every page has complete Open Graph tags: og:title, og:description, og:image, og:url
+  3. Site builds successfully with zero errors
+  4. No regressions in existing internal links, meta descriptions, or schema markup
+  5. Sitemap regenerated with any new/changed pages
+**Quality Gate**: Build succeeds, orphan page audit returns 0, OG tag audit shows 100% coverage, regression checks pass
+**Plans:** 1/3 plans executed
+
+Plans:
+- [ ] 11-01-PLAN.md — Add internal links to 9 orphan pages from relevant hub/spoke pages
+- [ ] 11-02-PLAN.md — Add Open Graph tags (og:title, og:description, og:image, og:url) to all 210+ pages missing them
+- [ ] 11-03-PLAN.md — Build verification, orphan audit, OG tag audit, regression testing, sitemap regeneration
+
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10
+Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Compliance & Entity Fixes | 0/2 | Not started | - |
-| 2. URL Canonicalization | 0/2 | Not started | - |
-| 3. Meta & Titles | 0/3 | Not started | - |
-| 4. Homepage Overhaul | 0/2 | Not started | - |
-| 5. Schema Architecture | 0/4 | Not started | - |
-| 6. Service Hub Pages | 0/4 | Not started | - |
-| 7. Internal Linking | 0/3 | Not started | - |
-| 8. Content Enrichment | 0/4 | Not started | - |
-| 9. Image Optimization | 0/3 | Not started | - |
-| 10. Technical Validation & Relaunch | 0/3 | Not started | - |
+| 1. Compliance & Entity Fixes | 2/2 | ✓ Complete | 2026-02-20 |
+| 2. URL Canonicalization | 3/3 | ✓ Complete | 2026-02-20 |
+| 3. Meta & Titles | 3/3 | ✓ Complete | 2026-02-21 |
+| 4. Homepage Overhaul | 2/2 | ✓ Complete | 2026-02-21 |
+| 5. Schema Architecture | 4/4 | ✓ Complete | 2026-02-22 |
+| 6. Service Hub Pages | 4/4 | ✓ Complete | 2026-02-22 |
+| 7. Internal Linking | 3/3 | ✓ Complete | 2026-02-23 |
+| 8. Content Enrichment | 5/5 | ✓ Complete | 2026-02-24 |
+| 9. Image Optimization | 3/3 | ✓ Complete | 2026-02-24 |
+| 10. Technical Validation & Relaunch | 3/3 | ✓ Complete | 2026-02-25 |
+| 11. Ahrefs Crawl Fixes | 1/3 | In Progress|  |

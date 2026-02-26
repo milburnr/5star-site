@@ -48,6 +48,7 @@ Progress: [▓▓▓▓▓▓▓▓▓▓] 100%
 | Phase 10 P01 | 6min | 2 tasks | 4 files |
 | Phase 10 P02 | 2min | 2 tasks | 2 files |
 | Phase 10 P03 | 7min | 2 tasks | 24 files |
+| Phase 11 P02 | 5min | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -141,6 +142,8 @@ Recent decisions affecting current work:
 - [Phase 10-03]: Broken article attraction URLs redirected to /amarillo-texas-roofing/ (city hub) instead of removed
 - [Phase 10-03]: Niche Amarillo breadcrumb intermediate URLs pointed to /services/ as logical parent category
 - [Phase 10-03]: Google Indexing API quota exhaustion documented as non-blocking per phase constraints
+- [Phase 11]: Links added as inline contextual anchors within existing paragraphs, not as link dumps
+- [Phase 11]: Each orphan gets exactly 2 incoming links from contextually relevant hub pages
 
 ### Pending Todos
 
