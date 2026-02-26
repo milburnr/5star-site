@@ -259,9 +259,9 @@ Plans:
 **Plans:** 3/3 plans complete
 
 Plans:
-- [ ] 11-01-PLAN.md — Add internal links to 9 orphan pages from relevant hub/spoke pages
-- [ ] 11-02-PLAN.md — Add Open Graph tags (og:title, og:description, og:image, og:url) to all 210+ pages missing them
-- [ ] 11-03-PLAN.md — Build verification, orphan audit, OG tag audit, regression testing, sitemap regeneration
+- [x] 11-01-PLAN.md — Add Open Graph tags (og:title, og:description, og:image, og:url) to all 210+ pages missing them
+- [x] 11-02-PLAN.md — Add internal links to 8 orphan pages from relevant hub/spoke pages
+- [x] 11-03-PLAN.md — Build verification, orphan audit, OG tag audit, regression testing, sitemap regeneration
 
 ## Progress
 
@@ -280,4 +280,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 8. Content Enrichment | 5/5 | ✓ Complete | 2026-02-24 |
 | 9. Image Optimization | 3/3 | ✓ Complete | 2026-02-24 |
 | 10. Technical Validation & Relaunch | 3/3 | ✓ Complete | 2026-02-25 |
-| 11. Ahrefs Crawl Fixes | 3/3 | Complete   | 2026-02-26 |
+| 11. Ahrefs Crawl Fixes | 3/3 | ✓ Complete | 2026-02-25 |
