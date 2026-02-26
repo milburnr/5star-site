@@ -201,7 +201,7 @@ export default function Page() {
             <div className="bg-white p-4 rounded-lg">
               <h3 className="font-bold text-brand-brown mb-2">Flash Flooding and Ponding</h3>
               <p className="text-sm text-gray-600">
-                Standing water on flat roofs causes membrane deterioration, seam failure, and deck rot. Clogged drains during heavy rain events compound the problem by trapping water on the roof surface.
+                Standing water on flat roofs causes membrane deterioration, seam failure, and deck rot. Clogged drains during <a href="/heavy-rain-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">heavy rain events</a> compound the problem by trapping water on the roof surface.
               </p>
             </div>
             <div className="bg-white p-4 rounded-lg">
@@ -334,7 +334,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-12 mb-4">When Is Storm Season in West Texas?</h2>
         <div className="bg-brand-gold-light p-6 rounded-lg mb-8">
           <p className="mb-4">
-            West Texas storm season runs primarily from March through September, with the highest concentration of severe hail and wind events between April and June. The Texas Panhandle, including Amarillo, Canyon, and Borger, sits in one of the most active hail corridors in the United States, averaging 3-4 significant hail events per year.
+            West Texas storm season runs primarily from March through September, with the highest concentration of severe hail and wind events between April and June. Winter months bring their own risks, including <a href="/roof-snow-and-ice-damage-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">snow and ice damage</a> from freezing conditions and ice dams. The Texas Panhandle, including Amarillo, Canyon, and Borger, sits in one of the most active hail corridors in the United States, averaging 3-4 significant hail events per year.
           </p>
           <div className="grid md:grid-cols-3 gap-4">
             <div className="bg-white p-4 rounded-lg">

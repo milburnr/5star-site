@@ -368,7 +368,7 @@ export default function Page() {
               </a>{" "}
               damages a section of shingle roof, individual shingles can be replaced without
               disturbing the surrounding roofing. This makes storm damage repairs faster and more
-              affordable than with most other materials.
+              affordable than with most other materials. For flat or low-slope sections, see our <a href="/asphalt-flat-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">asphalt flat roof repair services in Amarillo</a>.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">

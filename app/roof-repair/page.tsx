@@ -241,7 +241,7 @@ export default function Page() {
               skylights, cracked pipe boots, worn valley seals, and
               wind-damaged shingles. We trace every leak to its source using
               moisture detection tools and fix the root cause, not just the
-              visible symptom.
+              visible symptom. Prolonged leaks can cause <a href="/roof-rot-damage-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof rot damage</a>, while <a href="/heavy-rain-damage-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">heavy rain damage</a> often requires emergency attention.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6">
@@ -279,7 +279,7 @@ export default function Page() {
               pools after rain. Standing water accelerates membrane
               deterioration and adds structural load. We correct ponding
               issues with tapered insulation, additional drains, or membrane
-              patches depending on the severity and roof type.
+              patches depending on the severity and roof type. See our dedicated <a href="/asphalt-flat-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">asphalt flat roof repair in Amarillo</a> page for more details.
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-md p-6 md:col-span-2">

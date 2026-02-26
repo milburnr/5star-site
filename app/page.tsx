@@ -18,6 +18,14 @@ export const metadata: Metadata = {
     description: "Amarillo's trusted residential roofer. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
     locale: "en_US",
     type: "website",
   },
@@ -274,7 +282,7 @@ export default function Page() {
               <div className="text-3xl">✓</div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Quality Workmanship</h3>
-                <p>Over 10 years of experience delivering exceptional <a href="/residential-roofing/" className="text-brand-brown hover:text-brand-gold underline">residential</a> and <a href="/commercial-roofing/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing</a> results across Amarillo and the Texas Panhandle.</p>
+                <p>Over 10 years of experience delivering exceptional <a href="/residential-roofing/" className="text-brand-brown hover:text-brand-gold underline">residential</a> and <a href="/commercial-roofing/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing</a> results across Amarillo and the Texas Panhandle. See why homeowners call us <a href="/amarillos-best-roofer/" className="text-brand-brown hover:text-brand-gold underline">Amarillo&apos;s best roofer</a>.</p>
               </div>
             </div>
 

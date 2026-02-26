@@ -620,6 +620,7 @@ export default function Page() {
               <li><a href="/roof-inspections-amarillo/" className="hover:text-brand-gold">Free Inspections</a></li>
               <li><a href="/roof-replacement-amarillo/" className="hover:text-brand-gold">Roof Replacement</a></li>
               <li><a href="/roofing-methods/" className="hover:text-brand-gold">Installation Methods</a></li>
+              <li><a href="/roofing-methods-in-amarillo/" className="hover:text-brand-gold">Amarillo Roofing Methods</a></li>
               <li><a href="/amarillo-weather-impact-on-roofing/" className="hover:text-brand-gold">Weather Impact Guide</a></li>
               <li><a href="/gallery/" className="hover:text-brand-gold">Project Gallery</a></li>
             </ul>

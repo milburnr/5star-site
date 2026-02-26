@@ -388,7 +388,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-12 mb-4">How Do Financing and Insurance Work for Roof Replacement?</h2>
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <p className="mb-4">
-            A roof replacement is a significant investment, and we work to make the process as manageable as possible. Whether you are paying out of pocket or filing an insurance claim, we have experience guiding homeowners through the financial side.
+            A roof replacement is a significant investment, and we work to make the process as manageable as possible. Read our <a href="/budgeting-for-roof-replacement-expenses/" className="text-brand-brown hover:text-brand-gold underline font-semibold">guide to budgeting for roof replacement expenses</a> to plan ahead. Whether you are paying out of pocket or filing an insurance claim, we have experience guiding homeowners through the financial side.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
             <div>
