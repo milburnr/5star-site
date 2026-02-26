@@ -8,6 +8,22 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
   description: "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
+  openGraph: {
+    title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
+    description: "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
+    url: "https://5starroofingpros.com",
+    siteName: "5 Star Roofing",
+    images: [
+      {
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        width: 1280,
+        height: 720,
+        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
