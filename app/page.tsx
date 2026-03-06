@@ -151,7 +151,7 @@ export default function Page() {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1} direction="left">
               <a href="/hail-damage-roof-repair-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/hail-damage-3" alt="Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Commercial Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/hail-damage-3.jpg" alt="Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Commercial Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🌨️ Hail Damage Repair</h3>
                 <p className="text-gray-600 mb-4">
@@ -164,7 +164,7 @@ export default function Page() {
 
             <FadeIn delay={0.2} direction="up">
               <a href="/storm-damage-roof-repair-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/Roof-Replacement-in-AmarilloTX" alt="Storm Damage Restoration" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/Roof-Replacement-in-AmarilloTX.jpg" alt="Storm Damage Restoration" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">⛈️ Storm Damage Restoration</h3>
                 <p className="text-gray-600 mb-4">
@@ -177,7 +177,7 @@ export default function Page() {
 
             <FadeIn delay={0.3} direction="right">
               <a href="/roof-inspections-in-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/Roofing-Methods" alt="Free Roof Inspections" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/Roofing-Methods.jpg" alt="Free Roof Inspections" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🔍 Free Roof Inspections</h3>
                 <p className="text-gray-600 mb-4">
@@ -190,7 +190,7 @@ export default function Page() {
 
             <FadeIn delay={0.4} direction="left">
               <a href="/residential-roofing/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/ResidentialServices" alt="Residential Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/ResidentialServices.jpeg" alt="Residential Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🏠 Residential Roofing</h3>
                 <p className="text-gray-600 mb-4">
@@ -203,7 +203,7 @@ export default function Page() {
 
             <FadeIn delay={0.5} direction="up">
               <a href="/commercial-roofing/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/CommercialRoofing" alt="Commercial Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/CommercialRoofing.jpeg" alt="Commercial Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🏢 Commercial Roofing</h3>
                 <p className="text-gray-600 mb-4">
@@ -216,7 +216,7 @@ export default function Page() {
 
             <FadeIn delay={0.6} direction="right">
               <a href="/contact/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <OptimizedImage src="/images/commercial-roof" alt="Insurance Claims Help" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
+              <OptimizedImage src="/images/commercial-roof.jpg" alt="Insurance Claims Help" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 33vw" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">📋 Insurance Claims Help</h3>
                 <p className="text-gray-600 mb-4">
@@ -319,7 +319,7 @@ export default function Page() {
                 <a href="/wind-damage-repair-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/images/hail-damage-3"
+                      src="/images/hail-damage-3.jpg"
                       alt="Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -337,7 +337,7 @@ export default function Page() {
                 <a href="/roof-replacement-odessa/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/images/ResidentialServices"
+                      src="/images/ResidentialServices.jpeg"
                       alt="Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -355,7 +355,7 @@ export default function Page() {
                 <a href="/tpo-roofing-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                     <OptimizedImage
-                      src="/images/TPO1"
+                      src="/images/TPO1.jpg"
                       alt="Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Commercial Roofing"
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -426,7 +426,7 @@ export default function Page() {
             <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">Premium Roofing Materials for West Texas</h2>
             <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <OptimizedImage src="/images/asphaltshingles" alt="Class 4 Impact Resistant Shingles" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
+              <OptimizedImage src="/images/asphaltshingles.jpg" alt="Class 4 Impact Resistant Shingles" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">Impact-Resistant Asphalt Shingles</h3>
               <p className="text-gray-600 mb-4">
                 UL 2218 Class 4 rated shingles tested to withstand 2-inch hail strikes. Perfect for residential
@@ -442,7 +442,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <OptimizedImage src="/images/SteelRoofing" alt="Standing Seam Metal Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
+              <OptimizedImage src="/images/SteelRoofing.jpg" alt="Standing Seam Metal Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">Standing Seam Metal Roofing</h3>
               <p className="text-gray-600 mb-4">
                 The ultimate hail protection. Metal roofing may dent but remains watertight even after severe
@@ -458,7 +458,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <OptimizedImage src="/images/TPO1" alt="TPO Commercial Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
+              <OptimizedImage src="/images/TPO1.jpg" alt="TPO Commercial Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">TPO Commercial Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Single-ply white membrane roofing for commercial flat roofs. Heat-welded seams create
@@ -474,7 +474,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <OptimizedImage src="/images/EPDM2" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
+              <OptimizedImage src="/images/EPDM2.jpg" alt="EPDM Rubber Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 768px) 100vw, 50vw" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">EPDM Rubber Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Cost-effective black rubber membrane for commercial and industrial applications.
@@ -562,7 +562,7 @@ export default function Page() {
             {/* Step 5 */}
             <div className="text-center">
               <OptimizedImage
-                src="/images/ResidentialServices"
+                src="/images/ResidentialServices.jpeg"
                 alt="Final roof inspection quality control in West Texas - Warranty protection - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -577,7 +577,7 @@ export default function Page() {
             {/* Step 6 */}
             <div className="text-center">
               <OptimizedImage
-                src="/images/CommercialRoofing"
+                src="/images/CommercialRoofing.jpeg"
                 alt="Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Commercial Roofing"
                 className="w-full h-64 object-cover rounded-lg mb-4"
                 sizes="(max-width: 768px) 100vw, 33vw"
