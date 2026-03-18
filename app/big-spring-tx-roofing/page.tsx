@@ -157,6 +157,82 @@ export default function BigSpringRoofingPage() {
           </div>
         </section>
 
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Big Spring Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From established neighborhoods near Comanche Trail Park to newer developments on the city&apos;s edges, we provide expert roofing services throughout Big Spring:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Established Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Kentwood Addition</li>
+                    <li>&#10003; College Park</li>
+                    <li>&#10003; Highland South</li>
+                    <li>&#10003; Coronado Hills</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Central Neighborhoods</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Monticello</li>
+                    <li>&#10003; Parkhill Terrace</li>
+                    <li>&#10003; Suburban Heights</li>
+                    <li>&#10003; Downtown Historic District</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Surrounding Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Scenic Mountain / State Park area</li>
+                    <li>&#10003; All Howard County</li>
+                    <li>&#10003; I-20 Corridor properties</li>
+                    <li>&#10003; Rural acreage &amp; ranches</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                Kentwood Addition is one of Big Spring&apos;s most established residential communities, while Coronado Hills sits adjacent to the VA Medical Center and Comanche Trail Park. Whether you&apos;re near Scenic Mountain, along the I-20 corridor, or anywhere in Howard County, we serve your area.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Hail Events in Big Spring
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">June 8, 2025 &mdash; Disaster Declaration</h3>
+                <p className="text-gray-700">
+                  Baseball-sized hail and 119 mph wind gusts struck Big Spring, prompting Mayor Robert H. Moore III to issue a Declaration of Local Disaster. The Settles Hotel had dozens of windows blown out, the Big Spring Airpark and Hangar 25 sustained significant damage, and the historic city auditorium was damaged. Widespread residential roof and vehicle damage occurred across the city.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">May 16&ndash;17, 2019 &mdash; Severe Hail</h3>
+                <p className="text-gray-700">
+                  NWS Midland documented severe hail storms across Big Spring with stones reaching 2.75 inches. Howard County recorded 10 hail reports within 10 miles of Big Spring during 2019, with this May event causing the most widespread residential damage.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">2021 &mdash; Record-Setting Hail Season</h3>
+                <p className="text-gray-700">
+                  Howard County recorded 15 hail reports within 10 miles of Big Spring during 2021, including stones measuring 4.25 inches&mdash;softball-plus size. This was the largest hail documented near Big Spring in recent history, causing extensive roof damage across residential and commercial properties.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Big Spring has been under 51 severe weather warnings in the past 12 months, with 75 on-the-ground hail reports from trained spotters on record in Howard County.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Big Spring-Specific Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
@@ -167,7 +243,7 @@ export default function BigSpringRoofingPage() {
               <div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Caprock Escarpment Storm Corridor</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Big Spring&apos;s location along the Caprock Escarpment makes it a hotspot for severe thunderstorms. Warm, moist air from the Gulf lifts rapidly along the escarpment, fueling supercell storms that produce large hail and damaging winds. The 2019 Big Spring hailstorm is a prime example of how quickly widespread roof damage can occur. Class 4 impact-resistant materials are strongly recommended for all Big Spring properties.
+                  Big Spring&apos;s location along the Caprock Escarpment makes it a hotspot for severe thunderstorms. Warm, moist air from the Gulf lifts rapidly along the escarpment, fueling supercell storms that produce large hail and damaging winds. The June 2025 disaster declaration&mdash;with baseball-sized hail and 119 mph gusts&mdash;demonstrates how quickly widespread roof damage can occur. Class 4 impact-resistant materials are strongly recommended for all Big Spring properties.
                 </p>
               </div>
               <div>

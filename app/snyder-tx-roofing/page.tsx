@@ -157,6 +157,88 @@ export default function SnyderRoofingPage() {
           </div>
         </section>
 
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Snyder Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From the historic courthouse square to lakeside properties near J.B. Thomas, we provide expert roofing services throughout Snyder and Scurry County:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Central Snyder</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Downtown / Courthouse Square</li>
+                    <li>&#10003; College Avenue corridor</li>
+                    <li>&#10003; Sunset / Avondale area</li>
+                    <li>&#10003; Avenue Grid neighborhoods</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Residential Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Eastridge / Highland</li>
+                    <li>&#10003; Cedar Creek / Dalton</li>
+                    <li>&#10003; South Snyder</li>
+                    <li>&#10003; Western Texas College area</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Greater Scurry County</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Lake J.B. Thomas properties</li>
+                    <li>&#10003; Dunn &amp; Ira communities</li>
+                    <li>&#10003; Knapp area</li>
+                    <li>&#10003; Rural ranch &amp; farm properties</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                Many of Snyder&apos;s homes date to the Canyon Reef oil boom of the late 1940s and 1950s, meaning roofs on these 70+ year-old structures need careful attention. The College Avenue corridor near Western Texas College is Snyder&apos;s most populated street with over 220 properties.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Hail Events in Scurry County
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">May 16, 2021 &mdash; Record 4.25-Inch Hail, 6 Injuries</h3>
+                <p className="text-gray-700">
+                  The largest hail ever recorded in Scurry County struck Snyder on May 16, 2021&mdash;stones measuring 4.25 inches. Six people were injured, the only hail-related injuries in the county&apos;s 25-year NOAA database. A second cell from the same storm system produced 3-inch hail just minutes later, compounding the damage.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">May 4, 2006 &mdash; $15 Million in Damage</h3>
+                <p className="text-gray-700">
+                  A severe hailstorm with 2.75-inch stones caused $15 million in property damage across Snyder&mdash;the single largest damage event in Scurry County&apos;s storm database. Widespread residential and commercial roof replacement followed in the months after.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">May 4, 2024 &mdash; Softball-Sized Hail Returns</h3>
+                <p className="text-gray-700">
+                  Softball-sized hail measuring 4.00 inches struck the Franklin Center area of Scurry County, the second-largest hail on record for the county. This event was part of a multi-day spring outbreak that also brought damaging hail on April 8, April 30, May 3, and May 16.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">March 28, 2017 &mdash; County-Wide Event</h3>
+                <p className="text-gray-700">
+                  Hail up to 1.75 inches struck four locations simultaneously across Scurry County&mdash;Dunn, Knapp, Ira, and Snyder. This early-season March event confirmed that hail season in Scurry County extends well beyond the traditional May&ndash;June window.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Scurry County has recorded 184 hail events since 2000, with $15.5 million in total property damage.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Snyder-Specific Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">

@@ -157,6 +157,79 @@ export default function MonahansRoofingPage() {
           </div>
         </section>
 
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Monahans Areas We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From downtown properties to I-20 corridor businesses, we provide roofing services throughout Monahans and Ward County:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Central Monahans</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Downtown / Ward County Courthouse</li>
+                    <li>&#10003; City Center residential</li>
+                    <li>&#10003; East Monahans</li>
+                    <li>&#10003; Main Street commercial</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">I-20 &amp; Commercial</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; I-20 corridor businesses</li>
+                    <li>&#10003; Hotels &amp; truck stops</li>
+                    <li>&#10003; Oil field service yards</li>
+                    <li>&#10003; Equipment &amp; logistics facilities</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Greater Ward County</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Sandhills State Park area</li>
+                    <li>&#10003; Pyote &amp; Barstow communities</li>
+                    <li>&#10003; Oil field facilities county-wide</li>
+                    <li>&#10003; Rural &amp; ranch properties</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                Nearly half of all Monahans homes were built between 1940 and 1969, meaning many roofs sit on 55&ndash;85 year-old structures that have endured decades of extreme Permian Basin heat. East Monahans is the city&apos;s highest-value residential area. Whether you own a downtown property, an I-20 corridor business, or an oil field facility anywhere in Ward County, we serve your area.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Severe Weather in the Monahans Region
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">May 4, 2024 &mdash; 4-Inch Hail in Kermit (30 Miles Away)</h3>
+                <p className="text-gray-700">
+                  Softball-sized hail measuring 4.00 inches struck Kermit in Winkler County on May 4, 2024&mdash;approximately 30 miles northeast of Monahans. The same storm system produced 1.25-inch hail in Loving County. Events of this magnitude in adjacent counties demonstrate the severe hail threat across the entire western Permian Basin, including Ward County.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Permian Basin Storm Corridor</h3>
+                <p className="text-gray-700">
+                  Ward County sits in the Permian Basin&apos;s severe weather corridor where spring and summer supercell thunderstorms track across the flat, open terrain. While Monahans&apos;s primary roofing challenges come from extreme heat and sand abrasion, hail events in adjacent Winkler, Loving, Pecos, and Ector Counties occur regularly&mdash;and the same storm systems threaten Monahans properties. Impact-resistant roofing is strongly recommended.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Heat as the Primary Threat</h3>
+                <p className="text-gray-700">
+                  Unlike Panhandle cities where hail is the top roofing concern, Monahans faces its greatest threat from extreme heat. Summer temperatures regularly exceed 105&deg;F, making Monahans one of the hottest cities in Texas. Roof surface temperatures reaching 170&deg;F+ cause continuous material degradation that shortens roof lifespans by 30&ndash;40% compared to manufacturer ratings. This slow, relentless damage is often more costly than a single hail event.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Monahans-Specific Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">

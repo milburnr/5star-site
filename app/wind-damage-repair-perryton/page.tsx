@@ -237,13 +237,68 @@ export default function WindDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
-              How Does Perryton's Wind Damage Repair Specialists Affect Your Roof?
+              How Perryton&apos;s High Plains Winds Damage Your Roof
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat country agricultural community. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with severe Panhandle hailstorms—demand superior roofing materials and expert installation.
+              Perryton sits at 2,938 feet elevation in the northernmost point of the Texas Panhandle, just 12 miles from the Oklahoma border. The Ochiltree County seat is one of the windiest locations in Texas&mdash;sustained winds average 14+ mph year-round with frequent gusts exceeding 60 mph during frontal passages. The flat High Plains terrain stretching hundreds of miles in every direction provides zero natural windbreaks, allowing storm systems to build momentum before striking Perryton with full force.
             </p>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Perryton Wind Patterns</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li><strong>Spring (March&ndash;May):</strong> Strongest winds averaging 16+ mph sustained, frequent 50&ndash;70 mph gusts during cold front passages</li>
+                  <li><strong>Summer:</strong> Thunderstorm downbursts produce sudden 60&ndash;80 mph microbursts across Ochiltree County</li>
+                  <li><strong>Fall &amp; Winter:</strong> Blue northers bring rapid 40-degree temperature drops with sustained 50+ mph winds</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-4">How Wind Damages Perryton Roofs</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li><strong>Shingle uplift:</strong> Sustained winds above 45 mph break shingle seal adhesive, allowing tabs to lift and crease</li>
+                  <li><strong>Flashing failure:</strong> Constant wind pressure loosens flashing around chimneys, vents, and roof edges</li>
+                  <li><strong>Cumulative stress:</strong> Daily high winds fatigue materials over months, even without a single dramatic event</li>
+                  <li><strong>Debris impact:</strong> Windborne wheat chaff, dust, and agricultural debris erode granules and clog valleys</li>
+                </ul>
+              </div>
+            </div>
+
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Perryton&apos;s wheat farming economy means properties face additional wind-related challenges during planting and harvest seasons. Windblown agricultural dust and crop residue accumulate on roofs, fill gutters, and trap moisture against roofing materials. Combined with the relentless High Plains wind, this creates accelerated granule erosion on standard asphalt shingles. Class 4 impact-resistant shingles with enhanced wind ratings, or standing seam metal roofing, provide significantly better performance in Ochiltree County&apos;s demanding conditions.
+            </p>
+
+            <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-red-500 mb-6">
+              <h3 className="text-xl font-bold text-red-900 mb-4">Wind Speed Damage Thresholds</h3>
+              <div className="grid md:grid-cols-3 gap-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-red-600">45 mph</div>
+                  <div className="text-sm text-gray-600">Shingle tabs begin lifting on older roofs</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-red-700">60 mph</div>
+                  <div className="text-sm text-gray-600">Full shingle removal on standard installations</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-red-800">70+ mph</div>
+                  <div className="text-sm text-gray-600">Structural damage and decking exposure</div>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our High-Wind Installation Approach for Perryton</h3>
+            <p className="text-lg text-gray-600 mb-4 leading-relaxed">
+              Standard roofing installation methods are inadequate for Perryton&apos;s wind exposure. We use enhanced techniques specifically designed for the High Plains:
+            </p>
+            <ul className="text-lg text-gray-600 mb-6 space-y-2 list-disc list-inside">
+              <li><strong>6-nail pattern</strong> instead of the standard 4-nail to increase wind uplift resistance</li>
+              <li><strong>Premium starter strips</strong> with enhanced adhesive rated for 130 mph winds</li>
+              <li><strong>High-grade flashing sealants</strong> that maintain flexibility through extreme temperature cycling</li>
+              <li><strong>Class 4 impact-resistant shingles</strong> with wind ratings exceeding 130 mph</li>
+              <li><strong>Enhanced ridge cap installation</strong> with additional fastening for the most wind-exposed roof component</li>
+            </ul>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 160+ Perryton properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Perryton property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              These methods reduce wind damage risk by 80&ndash;90% compared to standard installations. We also handle complete insurance claims for Perryton property owners&mdash;most wind damage repairs are covered by your homeowner&apos;s policy minus the deductible. Our documentation includes NWS wind speed data linked to specific damage patterns, which significantly improves claim approval rates.
             </p>
           </section>
         </FadeIn>

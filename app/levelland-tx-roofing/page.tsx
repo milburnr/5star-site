@@ -157,6 +157,88 @@ export default function LevellandRoofingPage() {
           </div>
         </section>
 
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Levelland Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From the historic downtown grid to residential areas near South Plains College, we provide roofing services throughout all of Levelland:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Downtown &amp; Historic Core</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Courthouse Square area</li>
+                    <li>&#10003; 8th &amp; 9th Street corridors</li>
+                    <li>&#10003; Historic numbered streets</li>
+                    <li>&#10003; Downtown commercial district</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">College &amp; Residential</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; College Avenue / SPC area</li>
+                    <li>&#10003; Brentwood</li>
+                    <li>&#10003; Tanglewood</li>
+                    <li>&#10003; Clubview</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Greater Levelland</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; East Levelland growth areas</li>
+                    <li>&#10003; South Levelland</li>
+                    <li>&#10003; All Hockley County</li>
+                    <li>&#10003; FM 300 &amp; US-385 properties</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                The College Avenue corridor near South Plains College is one of Levelland&apos;s most populated streets with over 170 properties. Whether you&apos;re in the historic downtown grid, the residential subdivisions on the city&apos;s south side, or anywhere in Hockley County, we serve your area.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Hail Events in Hockley County
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">May 28, 2024 &mdash; Record-Breaking 5-Inch Hail</h3>
+                <p className="text-gray-700">
+                  The largest hail ever recorded in Hockley County struck near Pettit on May 28, 2024&mdash;softball-sized stones measuring 5.00 inches. The same storm system produced 3-inch hail at Pep and 1.75-inch hail at Whitharral. This was part of a multi-cell outbreak across the South Plains.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">June 7, 2014 &mdash; $10 Million in Damage</h3>
+                <p className="text-gray-700">
+                  A severe hailstorm with 2.50-inch stones struck near Sundown in southern Hockley County, causing $10 million in property damage&mdash;the single largest damage event in the county&apos;s 25-year storm database.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">June 30, 2017 &mdash; Multi-Hazard Event</h3>
+                <p className="text-gray-700">
+                  A severe weather outbreak near Anton produced 2.75-inch hail alongside 80 mph straight-line winds and flash flooding. Total damage reached $4.5 million with one injury reported. This event demonstrated how Hockley County storms can combine multiple hazards simultaneously.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">April 29, 2012 &mdash; 4.5-Inch Hail at Whitharral</h3>
+                <p className="text-gray-700">
+                  Baseball-sized hail measuring 4.50 inches struck near Whitharral&mdash;the second-largest hail recorded in county history at the time. Properties along the storm&apos;s path sustained severe roof damage.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Hockley County has recorded 184 hail events since 2000, averaging 7+ events per year, with $14.6 million in property damage and $50.5 million in crop damage.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Levelland-Specific Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">

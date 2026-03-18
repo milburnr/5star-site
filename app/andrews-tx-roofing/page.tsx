@@ -157,6 +157,79 @@ export default function AndrewsRoofingPage() {
           </div>
         </section>
 
+        {/* Neighborhoods We Serve */}
+        <FadeIn>
+          <section className="section">
+            <h2 className="section-title">Andrews Neighborhoods We Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From established neighborhoods near downtown to newer oil-boom developments, we provide roofing services throughout all of Andrews:
+              </p>
+              <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Established Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; City Center / Downtown</li>
+                    <li>&#10003; Andrews North</li>
+                    <li>&#10003; McKinney Acres</li>
+                    <li>&#10003; Florey / Frankel City area</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Growth Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; East side new subdivisions</li>
+                    <li>&#10003; South side developments</li>
+                    <li>&#10003; US-385 corridor</li>
+                    <li>&#10003; Permian Basin worker housing</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Greater Andrews County</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Oil field facilities</li>
+                    <li>&#10003; Industrial properties</li>
+                    <li>&#10003; Rural ranch properties</li>
+                    <li>&#10003; All Andrews County</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="text-center text-gray-600 mt-8">
+                Over 43% of Andrews homes were built between 1940 and 1969, meaning many roofs are on 55&ndash;85 year-old structures that need specialized attention. The Permian Basin oil boom has also added significant post-2000 construction&mdash;nearly 22% of Andrews housing is newer stock. We serve both the established core and the growing edges of the city.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Hail Events in the Andrews Area
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">May 1, 2024 &mdash; Hail Strikes Andrews</h3>
+                <p className="text-gray-700">
+                  Ping-pong ball sized hail measuring 1.50 inches struck 9 miles southwest of Andrews at 9:32 PM, followed by quarter-sized hail 2 miles south-southeast of the city at 9:46 PM. The NWS Midland office documented both reports. Properties across Andrews County sustained roof damage from this spring storm system.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">May 4, 2024 &mdash; 4-Inch Hail in Adjacent Winkler County</h3>
+                <p className="text-gray-700">
+                  Just three days after the Andrews event, softball-sized hail measuring 4.00 inches struck Kermit in Winkler County&mdash;approximately 40 miles southwest of Andrews. The same storm system also produced 1.25-inch hail in Loving County. These regional events demonstrate the severe weather corridor that affects the entire northern Permian Basin.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">Regional Permian Basin Storm Corridor</h3>
+                <p className="text-gray-700">
+                  Andrews County sits in the Permian Basin&apos;s severe weather corridor, where spring and summer supercell thunderstorms regularly produce damaging hail across the region. Nearby Midland County, Ector County, and Winkler County all record multiple significant hail events annually. The flat, open terrain provides no natural storm protection, meaning storm systems strike Andrews with full force.
+                </p>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Andrews-Specific Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">

@@ -372,6 +372,69 @@ export default function AmarilloRoofingPage() {
           </div>
         </section>
 
+        {/* Understanding Amarillo Homeowners */}
+        <FadeIn>
+          <section className="section">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+                Understanding Amarillo&apos;s Roofing Landscape
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                The Amarillo metropolitan area has a population exceeding 200,000 across Potter and Randall Counties. As the largest city in the Texas Panhandle and a regional hub for healthcare, agriculture, and energy, Amarillo has diverse housing stock ranging from historic early-1900s homes near downtown to modern construction in master-planned communities along Coulter Road and Soncy Road.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                At 3,605 feet elevation with over 260 days of sunshine annually, Amarillo roofs face UV exposure significantly more intense than lower-elevation Texas cities. This is compounded by temperature swings from 100&deg;F+ summer days to below-zero winter nights&mdash;sometimes within the same week. Standard shingles rated for 25&ndash;30 year lifespans typically last 15&ndash;20 years in Amarillo&apos;s demanding climate. Proper material selection and expert installation are the difference between a roof that fails prematurely and one that delivers its full expected lifespan.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-bold text-brand-brown mb-2">Potter &amp; Randall Counties</h3>
+                  <p className="text-sm text-gray-600">200,000+ metro population spanning two counties, with Amarillo&apos;s city limits crossing both. Building codes and permit requirements differ by county&mdash;we handle both.</p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-bold text-brand-brown mb-2">Housing Age Mix</h3>
+                  <p className="text-sm text-gray-600">From historic San Jacinto Heights homes built in the 1920s to newer Sleepy Hollow and Bishopsgate developments. Each era presents different roofing challenges.</p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-bold text-brand-brown mb-2">HOA Requirements</h3>
+                  <p className="text-sm text-gray-600">Many Amarillo neighborhoods including Bishopsgate, Barrington Place, and the Colonies have HOA guidelines for roofing materials and colors. We ensure compliance.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Recent Storm Events */}
+        <FadeIn>
+          <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg mb-16">
+            <h2 className="text-3xl font-bold text-center mb-8 text-brand-brown">
+              Recent Hail Events in Potter &amp; Randall Counties
+            </h2>
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-red-700 mb-2">May 18, 2023 &mdash; 2.5-Inch Hail North of Amarillo</h3>
+                <p className="text-gray-700">
+                  Severe hail measuring 2.50 inches struck 14 miles north of Amarillo in Potter County, with additional 2-inch hail near Pantex in Carson County. NWS damage reports documented windows blown out on the north side of homes and trees stripped by the storm system. Multiple Potter County locations reported hail ranging from 1 to 2.5 inches.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">May 20, 2019 &mdash; Hail Hits Sleepy Hollow</h3>
+                <p className="text-gray-700">
+                  Quarter-sized hail struck multiple Amarillo neighborhoods on May 20, 2019, with NWS storm reports specifically documenting hail in the Sleepy Hollow neighborhood. Randall County recorded 1.27-inch hail near Timbercreek Canyon, while multiple locations across both Potter and Randall Counties reported quarter-sized stones throughout the evening.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="text-lg font-bold text-brand-brown mb-2">June 17, 2019 &mdash; Golf Ball Hail in Potter County</h3>
+                <p className="text-gray-700">
+                  Hail measuring 1.75 inches struck northern Potter County, adding to what was already a severe 2019 hail season for the Amarillo metro area. The Texas Panhandle&apos;s position in &quot;Hail Alley&quot; means these events recur regularly between March and September.
+                </p>
+              </div>
+              <p className="text-center text-gray-500 text-sm mt-4">
+                Texas leads the nation with 900+ reported hail events annually. The Panhandle&apos;s position in &quot;Hail Alley&quot; means Potter and Randall Counties experience significant hail events every 1&ndash;3 years.
+              </p>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* Amarillo-Specific Roofing Challenges */}
         <FadeIn>
           <section className="section bg-brand-gold-light p-12 rounded-lg my-16">
@@ -383,7 +446,7 @@ export default function AmarilloRoofingPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Severe Hail Storms</h3>
                 <p className="text-gray-700">
                   Amarillo sits in &quot;Hail Alley&quot; and experiences frequent severe thunderstorms from March through
-                  September. Baseball-sized hail isn&apos;t uncommon, and even small hail can cause significant granule
+                  September. The May 2023 storm brought 2.5-inch hail north of the city, while the May 2019 event hit the Sleepy Hollow neighborhood directly. Even quarter-sized hail can cause significant granule
                   loss on asphalt shingles, leading to premature aging and leaks.
                 </p>
               </div>
@@ -418,34 +481,51 @@ export default function AmarilloRoofingPage() {
         {/* Neighborhoods We Serve */}
         <FadeIn>
           <section className="section">
-            <h2 className="section-title">Amarillo Neighborhoods We Serve</h2>
-            <div className="max-w-4xl mx-auto">
-              <p className="text-center text-gray-600 mb-8">
-                We provide roofing services throughout all of Amarillo, including:
+            <h2 className="section-title">Amarillo Neighborhoods We Proudly Serve</h2>
+            <div className="max-w-5xl mx-auto">
+              <p className="text-center text-gray-600 mb-8 text-lg">
+                From historic neighborhoods near downtown to new developments along Soncy Road, we provide expert roofing services throughout Amarillo:
               </p>
-              <div className="grid md:grid-cols-3 gap-4 text-gray-700">
-                <ul className="space-y-2">
-                  <li>✓ Wolflin</li>
-                  <li>✓ Sleepy Hollow</li>
-                  <li>✓ San Jacinto Heights</li>
-                  <li>✓ Barrington Place</li>
-                </ul>
-                <ul className="space-y-2">
-                  <li>✓ Southwest Amarillo</li>
-                  <li>✓ Tascosa</li>
-                  <li>✓ Prospect Park</li>
-                  <li>✓ North Heights</li>
-                </ul>
-                <ul className="space-y-2">
-                  <li>✓ Paramount Terrace</li>
-                  <li>✓ Bishopsgate</li>
-                  <li>✓ Colonies</li>
-                  <li>✓ And all surrounding areas</li>
-                </ul>
+              <div className="grid md:grid-cols-4 gap-6 text-gray-700">
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Historic &amp; Established</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Wolflin</li>
+                    <li>&#10003; San Jacinto Heights</li>
+                    <li>&#10003; Paramount Terrace</li>
+                    <li>&#10003; North Heights</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Upscale Communities</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Sleepy Hollow</li>
+                    <li>&#10003; Bishopsgate</li>
+                    <li>&#10003; Barrington Place</li>
+                    <li>&#10003; The Colonies</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">Growing Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Southwest Amarillo</li>
+                    <li>&#10003; Soncy Road corridor</li>
+                    <li>&#10003; Coulter Road area</li>
+                    <li>&#10003; Bell Street area</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-brown mb-3">All Areas</h3>
+                  <ul className="space-y-2">
+                    <li>&#10003; Tascosa</li>
+                    <li>&#10003; Prospect Park</li>
+                    <li>&#10003; Downtown / Route 66</li>
+                    <li>&#10003; All Potter &amp; Randall County</li>
+                  </ul>
+                </div>
               </div>
               <p className="text-center text-gray-600 mt-8">
-                Whether you&apos;re near Coulter Street, Soncy Road, Western Street, or anywhere within Loop 335,
-                we serve your area with fast, professional roofing services.
+                Wolflin&apos;s tree-lined streets and mid-century homes require different roofing approaches than the newer two-story construction in Bishopsgate or Barrington Place. San Jacinto Heights features some of Amarillo&apos;s oldest homes, many with original roofing structures that demand specialized repair. We understand the unique requirements of every Amarillo neighborhood.
               </p>
             </div>
           </section>
