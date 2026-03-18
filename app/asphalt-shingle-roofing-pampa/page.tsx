@@ -379,6 +379,40 @@ export default function AsphaltShingleRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Pampa Shingle Selection Guide
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Selecting the right asphalt shingle for a Gray County home means understanding two things: how the product handles hail impact and how it performs in sustained high wind. Architectural shingles &mdash; the multi-layer laminated products that have largely replaced three-tab shingles across the industry &mdash; offer a solid baseline for Pampa. Their heavier weight per square (typically 240-300 lbs vs. 200-230 lbs for three-tab) resists wind uplift better, and their dimensional profile creates a more aerodynamic surface that sheds gusts rather than catching them. Most architectural shingles carry wind ratings of Class D (90 mph) or Class F (110 mph), with premium lines reaching Class G (120 mph) or Class H (150 mph).
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              For Pampa, we recommend a minimum wind rating of Class F (110 mph). Gray County regularly experiences thunderstorm outflow winds exceeding 70 mph, and the flat terrain around Pampa provides no windbreak between developing storms and residential neighborhoods. A Class D shingle rated for 90 mph offers limited safety margin under these conditions. Class F and above products use wider, more aggressive adhesive strips and reinforced nailing zones that maintain their bond even under prolonged high-wind exposure &mdash; the kind of stress a Panhandle roof faces not just during storms but during routine spring wind events.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Class 4 impact-resistant shingles combine the best of both worlds for Pampa homeowners. Products like Owens Corning Duration Storm and GAF Timberline HDZ RS pair Class 4 hail ratings with 130+ mph wind resistance in a single product. The SBS-modified asphalt in these shingles stays pliable across the temperature range Pampa experiences &mdash; from single digits in January to 110+ degrees on summer rooftops &mdash; preventing the thermal cracking that makes standard shingles vulnerable to wind penetration after a few years of Panhandle temperature cycling.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              How Pampa&apos;s Oil &amp; Gas Economy Affects Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Pampa&apos;s history as an oil and gas hub in Gray County has shaped the town&apos;s housing stock and creates roofing conditions that differ from purely agricultural Panhandle communities. Gas processing plants and compressor stations in and around Pampa release trace amounts of hydrogen sulfide, sulfur dioxide, and volatile organic compounds that settle on roof surfaces over time. These chemical deposits react with the petroleum-based asphalt binder in shingles, gradually breaking down the compounds that keep granules adhered to the mat. The result is accelerated granule shedding &mdash; the first visible sign that a shingle is losing its protective capability.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Dust is another factor that sets Pampa apart. Oilfield access roads, caliche pits, and well pad construction generate fine particulate matter that Panhandle winds carry across residential neighborhoods. This dust is more abrasive than typical agricultural soil because it contains higher concentrations of calcium carbonate and silica from caliche deposits. When wind-driven across a roof surface, it acts like fine sandpaper on shingle granules, wearing them down faster than weather alone would.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Homeowners in Pampa can mitigate these effects by choosing shingles with ceramic-coated granules that are mechanically embedded into the asphalt rather than simply adhered to the surface. Premium architectural and Class 4 shingles from major manufacturers use this deeper embedment process, which means the granules resist both chemical dissolution and mechanical abrasion more effectively. Combined with SBS-modified asphalt that maintains flexibility despite chemical exposure, these products deliver significantly longer service life in Pampa&apos;s industrial-adjacent environment than standard shingles can provide.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Asphalt Shingle Roofing FAQs - Pampa, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">

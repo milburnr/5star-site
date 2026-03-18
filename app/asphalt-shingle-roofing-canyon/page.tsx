@@ -359,6 +359,40 @@ export default function AsphaltShingleRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Choosing the Right Shingles for Canyon&apos;s Climate
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              At 3,500 feet elevation in Randall County, Canyon sits squarely in one of the most demanding climates for asphalt shingles anywhere in the southern Plains. The combination of intense UV radiation at altitude, temperature swings that can span 60 degrees in a single day, and Panhandle hailstorms carrying ice up to golf-ball size means that not all shingles are created equal for this area. Choosing the wrong product can mean replacing your roof years ahead of schedule.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Standard three-tab shingles &mdash; the flat, single-layer option &mdash; carry the lowest upfront cost but typically underperform in Canyon&apos;s conditions. Their thinner profile and single-layer construction leave them vulnerable to hail cracking and wind lift during High Plains gusts. Architectural shingles (also called dimensional or laminated shingles) provide a meaningful step up with their multi-layer fiberglass mat construction, stronger adhesive strips, and better wind ratings. They handle temperature cycling more gracefully and resist granule loss from UV exposure far better than three-tab options.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              For Canyon homeowners who want the longest service life and lowest total cost of ownership, Class 4 impact-resistant shingles are the clear choice. These shingles use an SBS-modified asphalt compound reinforced with polymers that absorb hail impact without cracking. They carry UL 2218 Class 4 ratings &mdash; meaning they withstand a two-inch steel ball dropped from 20 feet without fracturing. In a county where the National Weather Service issues multiple severe thunderstorm warnings each spring and summer, that durability translates directly into fewer claims, fewer tear-offs, and lower long-term expense. Most Texas insurers recognize this by offering 10-35% premium discounts when you install Class 4 shingles, which typically offsets the higher material cost within five to seven years.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Canyon Residential Shingle Replacement
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Canyon&apos;s residential neighborhoods each present their own roofing considerations. Homes near West Texas A&amp;M University &mdash; including properties along 23rd Street, the neighborhoods south of campus, and the developments off Highway 87 &mdash; range from mid-century ranch-style houses to newer construction built in the last decade. Many of these homes were originally roofed with builder-grade three-tab shingles that have reached or exceeded their useful life in Panhandle conditions. Replacing them with architectural or Class 4 shingles not only improves weather protection but also increases curb appeal and resale value in a competitive university-town housing market.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              For homeowners in Canyon&apos;s established neighborhoods and HOA-governed communities, shingle style and color selection matter as much as performance. Architectural shingles are available in a wide range of profiles &mdash; from traditional weathered wood looks to clean slate-inspired designs &mdash; that satisfy most HOA aesthetic guidelines while delivering the wind and hail resistance this area demands. We work with homeowners to select colors and profiles that complement existing streetscapes and meet any covenant requirements before materials are ordered.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Canyon&apos;s proximity to Palo Duro Canyon also exposes homes on the south and east sides of town to unique wind patterns as air funnels through the canyon system. Properties in these areas benefit from enhanced installation techniques including six-nail patterns, reinforced starter strips along eaves and rakes, and ice-and-water shield underlayment at all vulnerable points. These details cost little extra during installation but make a measurable difference in how long a roof lasts when it faces channeled Panhandle winds year after year.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Asphalt Shingle Roofing FAQs - Canyon, TX Include?
             </h2>
             <Accordion type="single" collapsible className="w-full">

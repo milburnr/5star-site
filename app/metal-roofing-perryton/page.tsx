@@ -337,6 +337,40 @@ export default function MetalRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Perryton Properties Need Metal Roofing
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Perryton occupies one of the most wind-exposed positions in Texas. Sitting in Ochiltree County &mdash; just 12 miles from the Oklahoma border &mdash; the area faces sustained winds averaging 14+ mph with some of the strongest recorded gusts anywhere in the state. Cold fronts barrel down from the north with nothing to slow them across hundreds of miles of open plains. That constant wind pressure is the primary reason asphalt shingle roofs in Perryton fail prematurely. Tab shingles lift, fasteners back out, and underlayment gets exposed to UV degradation years ahead of schedule.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Metal roofing eliminates the weak points that wind exploits. Standing seam panels interlock along their entire length, and concealed clip systems allow thermal movement without compromising the weather barrier. Rated for 140+ mph winds, these systems handle Perryton&apos;s sustained gales and sudden gusts without the maintenance cycle that comes with conventional shingles. Agricultural dust and debris &mdash; an unavoidable reality in wheat country &mdash; slides off the smooth metal surface rather than embedding in granular coatings. That self-cleaning characteristic keeps the roof performing at full capacity without periodic cleaning or debris removal.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              The 50+ year lifespan of metal roofing matters especially in Perryton, where replacing a roof means coordinating around harvest schedules, managing limited local contractor availability, and dealing with material delivery logistics in a remote Panhandle location. Installing a metal roof means property owners can focus on running their operations instead of managing recurring roof replacements. When you factor in reduced insurance premiums, lower energy costs from reflective coatings, and zero maintenance between installations, metal roofing delivers the best total cost of ownership for Ochiltree County properties.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Metal Roofing for Perryton&apos;s Agricultural Buildings
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Perryton&apos;s economy runs on wheat, and the buildings that support that industry &mdash; barns, grain storage facilities, equipment sheds, and maintenance shops &mdash; need roofing systems built for agricultural reality. Metal roofing has been the standard for agricultural construction in wheat country for good reason. R-panel and PBR (purlin-bearing rib) metal systems provide clear-span coverage over large footprints without interior supports, maximizing usable space for equipment storage and grain handling operations.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Grain storage buildings face specific challenges that metal roofing addresses directly. Dust from wheat handling coats every surface, but metal&apos;s smooth profile prevents buildup and allows rain to wash surfaces clean naturally. Moisture control is critical around stored grain, and properly ventilated metal roof assemblies manage condensation far better than other materials. For equipment sheds housing combines, tractors, and implements worth hundreds of thousands of dollars, the fire resistance of metal roofing (Class A rated) provides protection that wooden or asphalt-covered structures simply cannot match.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              We work with Perryton&apos;s agricultural operators on building schedules that respect the rhythm of farming &mdash; installing during slower periods between planting and harvest when access to buildings is easiest. Our crews understand the practical requirements of ag buildings: wide overhead door openings, ventilation integration, and drainage planning for large roof areas. Whether you&apos;re re-roofing an existing barn or building a new equipment shed, we engineer metal roofing systems sized for Perryton&apos;s specific wind loads and snow loads to meet both local code requirements and the real-world demands of Ochiltree County agriculture.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Metal Roofing FAQs - Perryton, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">

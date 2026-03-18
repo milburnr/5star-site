@@ -221,6 +221,40 @@ export default function TPORoofingMonahansPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              TPO Installation Process for Monahans&apos; Extreme Heat
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Installing TPO roofing in Monahans requires careful planning around Ward County&apos;s extreme summer temperatures. When ambient temperatures push past 105&deg;F, rooftop surface temperatures can exceed 170&deg;F &mdash; hot enough to compromise adhesive bonds and create unsafe working conditions. Our crews schedule Monahans installations to begin at first light during summer months, completing the most heat-sensitive work before midday temperatures peak.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Heat-welding TPO seams in desert conditions actually works in our favor. The hot-air welding process fuses membrane sheets at the molecular level, and Monahans&apos; dry heat helps the material reach optimal welding temperature faster than in humid climates. We calibrate welding equipment specifically for Permian Basin conditions, adjusting speed and temperature settings based on ambient readings taken throughout the installation day.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              The white reflective TPO membrane is particularly valuable in Monahans, where cooling costs dominate building operating expenses. A properly installed TPO roof reflects up to 85% of solar radiation, reducing interior cooling loads by 20&ndash;30% compared to dark-colored roofing materials. For oil field support buildings, warehouses, and commercial properties operating in Ward County&apos;s relentless heat, that energy savings compounds year after year across the membrane&apos;s 20&ndash;25 year service life.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              TPO vs Other Flat Roof Options for Ward County
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Ward County property owners choosing a flat roof membrane have three primary options: TPO, EPDM (rubber roofing), and PVC. Each performs differently under Monahans&apos; combination of extreme UV exposure, sand abrasion from the Sandhills, and temperature swings that can span 60 degrees in a single day. Understanding these differences helps you choose the right system for your building&apos;s specific needs.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              EPDM is the least expensive option, but its dark surface absorbs heat rather than reflecting it &mdash; a significant disadvantage in a climate where summer cooling costs already run high. EPDM seams rely on adhesive tape rather than heat welding, and those adhesive bonds degrade faster under Monahans&apos; intense UV radiation. PVC offers superior chemical resistance, making it the better choice for buildings with direct petroleum product exposure common around oil field operations. However, PVC costs 15&ndash;20% more than TPO and provides comparable performance in most commercial applications.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              For the majority of Monahans commercial buildings &mdash; offices, retail, warehouses, and light industrial facilities &mdash; TPO delivers the best balance of performance and value. Its reflective white surface outperforms EPDM on energy efficiency, its heat-welded seams match PVC for waterproofing reliability, and its resistance to sand abrasion and UV degradation meets the specific demands of the Permian Basin environment. We evaluate each property individually and recommend PVC only when chemical exposure warrants the premium.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               Serving Monahans, Texas
             </h2>

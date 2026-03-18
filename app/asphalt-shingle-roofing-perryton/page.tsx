@@ -404,6 +404,40 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Shingle Performance in Perryton&apos;s Wind Corridor
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Perryton occupies one of the highest-wind locations in Texas. Ochiltree County sits in the northern Panhandle where cold fronts from the Rockies collide with warm Gulf moisture across completely flat terrain, generating sustained winds that routinely exceed 25 mph and gusts that top 60-70 mph multiple times each spring. For asphalt shingle roofing, this means installation technique matters as much as the shingle product itself. A premium shingle installed with standard four-nail patterns will fail in Perryton long before a properly installed mid-grade shingle.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              We use a six-nail pattern on every Perryton installation &mdash; two additional nails per shingle compared to the manufacturer&apos;s minimum &mdash; because the extra fasteners distribute wind uplift forces across more points and prevent the progressive peeling that starts when a single nail pulls through. Along eaves and rakes, where wind uplift is strongest, we reinforce starter strip courses with additional adhesive and mechanical fastening. Ridge caps receive the same treatment: hand-sealed with roofing cement and fastened with longer nails that penetrate through the cap, through the ridge vent material, and deep into the ridge board beneath.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              These installation details are not optional extras in Perryton &mdash; they are the difference between a roof that survives its first severe wind event and one that loses shingles before the warranty period makes a dent. We also install ice-and-water shield underlayment across the entire deck on Perryton homes, not just at the eaves as code requires. This full-deck barrier means that even if wind lifts a shingle temporarily, no water reaches the decking. When you combine six-nail installation, reinforced starter and ridge details, and full-deck underlayment with a Class 4 impact-resistant shingle rated for 130+ mph, you get a roofing system engineered specifically for the conditions Ochiltree County delivers season after season.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Agricultural Dust and Shingle Longevity in Ochiltree County
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Ochiltree County is wheat country, and the agricultural cycle creates roofing challenges that are unique to grain-belt communities like Perryton. During harvest season, combines and grain trucks generate clouds of fine chaff and dust that Panhandle winds carry across town and deposit on every horizontal surface &mdash; including rooftops. This organic material traps moisture against the shingle surface, creating conditions where algae and moss can establish even in Perryton&apos;s semi-arid climate. Once biological growth takes hold, it works beneath granules and accelerates their detachment from the asphalt mat.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Feedlot operations in Ochiltree County add another layer of environmental stress. Airborne particulate from cattle operations contains ammonia compounds that react with asphalt binder over time, softening it and reducing its ability to hold granules in place. When you combine this chemical exposure with the mechanical abrasion of windblown agricultural dust &mdash; which in Ochiltree County contains fine sand and caliche particles &mdash; the cumulative effect on standard shingles is significant. Granule loss that might take 20 years in a sheltered urban environment can happen in 10-12 years on a Perryton rooftop.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              The most effective defense against these conditions is a shingle with deeply embedded ceramic-coated granules bonded to SBS-modified asphalt. The ceramic coating resists chemical attack from ammonia and hydrogen sulfide, while the modified asphalt maintains its grip on the granules despite temperature cycling and chemical exposure. We also recommend shingles with copper-containing algae-resistant granules for Perryton homes, particularly those on the east and south sides of town where prevailing winds carry the heaviest concentration of agricultural particulate. These granules release trace amounts of copper over time that prevent algae colonization without affecting the shingle&apos;s appearance or performance.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Asphalt Shingle Roofing FAQs - Perryton, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">

@@ -375,6 +375,40 @@ export default function TpoRoofingPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Wind Uplift Engineering for Perryton TPO Roofs
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Perryton sits in one of the windiest corridors in the Texas Panhandle. Ochiltree County&apos;s flat terrain offers no natural windbreaks, and sustained winds of 25&ndash;35 mph are routine conditions rather than weather events. When thunderstorms roll through &mdash; 7&ndash;9 times per year producing hail &mdash; wind gusts can exceed 80 mph. Every TPO roof we install in Perryton is engineered to handle these forces without compromise.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              The choice between mechanically attached and fully adhered TPO systems matters more in Perryton than in less wind-exposed locations. Mechanically attached systems use plates and screws fastened directly into the roof deck, providing superior wind uplift resistance at field, perimeter, and corner zones. We increase fastener density at roof edges and corners where negative wind pressure is greatest &mdash; the areas most likely to fail during severe storms. For buildings requiring FM Global approval, we design to FM 1-120 or higher wind uplift ratings based on the structure&apos;s height, exposure category, and location within Ochiltree County.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Fully adhered systems bond the membrane directly to insulation or the roof deck, eliminating membrane flutter that accelerates wear in high-wind environments. This method works well for Perryton buildings where the deck structure supports adhesive attachment and where rooftop equipment creates complex wind patterns. We often use a hybrid approach &mdash; fully adhered in the field of the roof with mechanically attached enhanced perimeter zones &mdash; to balance wind performance with installation efficiency for Perryton&apos;s larger commercial and agricultural structures.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              TPO for Perryton&apos;s Agricultural and Commercial Buildings
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Perryton&apos;s economy centers on wheat production and cattle ranching, with the infrastructure to match. Grain elevators, equipment storage buildings, feed processing facilities, and agricultural supply warehouses all rely on flat or low-slope roofs that must perform under Ochiltree County&apos;s demanding conditions. TPO roofing addresses these buildings&apos; specific needs: large-span coverage without interior supports, resistance to grain dust and agricultural chemical exposure, and energy-efficient reflectivity that reduces cooling costs in metal-sided structures that absorb summer heat.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Commercial properties along Perryton&apos;s Main Street and Highway 83 corridor face their own set of challenges. These buildings serve as the retail and service hub for a wide rural area, and roof failures cause business disruptions that ripple through the community. TPO&apos;s proven track record in small-town commercial applications &mdash; restaurants, retail shops, medical offices, and municipal buildings &mdash; makes it the default recommendation for Perryton property owners who need reliable, cost-effective flat roof protection.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Temperature control is particularly important for Perryton&apos;s grain storage facilities, where interior heat can affect stored wheat quality and increase spoilage risk. TPO&apos;s reflective surface keeps building interiors measurably cooler than dark-membrane alternatives, reducing the load on ventilation systems and helping maintain the temperature stability that grain storage demands. Combined with proper insulation, a TPO roof system turns a basic storage building into a more controlled environment without the cost of active climate systems.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does TPO Roofing FAQs - Perryton, TX Involve?
             </h2>

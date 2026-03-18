@@ -105,6 +105,36 @@ export default function Page() {
         </p>
       </div>
 
+      <FadeIn>
+        <section className="mb-8 max-w-5xl">
+          <h2 className="text-2xl font-bold mt-8 mb-4">Where PVC Roofing Excels in Amarillo</h2>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Not every commercial roof in Amarillo needs PVC &mdash; but the buildings that do need it really need it. PVC&apos;s defining advantage is chemical resistance that no other single-ply membrane can match. Restaurants with rooftop grease exhaust vents, industrial facilities handling solvents, and any building where animal fats, oils, or petrochemicals contact the roof surface will see dramatically longer service life from PVC compared to TPO or EPDM alternatives.
+          </p>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Amarillo&apos;s climate adds another factor that favors PVC for certain applications: cold-weather flexibility. While the Panhandle&apos;s brutal summers get most of the attention, winter temperatures regularly drop below 20&deg;F, and sub-zero wind chills are not uncommon. PVC membranes maintain their flexibility in cold conditions where some TPO formulations can become stiff and more vulnerable to foot traffic damage during winter maintenance visits. For buildings with rooftop HVAC equipment requiring year-round service access, PVC&apos;s cold-weather performance provides meaningful protection.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Fire rating is another area where PVC stands apart. PVC is inherently self-extinguishing and achieves Class A fire ratings without additional fire-retardant treatments. For Amarillo&apos;s restaurant rows along I-40 and Western Street, warehouse districts, and any facility where fire codes demand the highest protection level, PVC satisfies insurance requirements that can reduce commercial property premiums. The membrane&apos;s heat-welded seams also allow field repairs using the same welding equipment used during installation &mdash; a practical advantage when storm damage or mechanical punctures need fast, permanent fixes.
+          </p>
+        </section>
+      </FadeIn>
+
+      <FadeIn>
+        <section className="mb-8 max-w-5xl">
+          <h2 className="text-2xl font-bold mt-8 mb-4">PVC vs TPO for Amarillo Commercial Properties</h2>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            The PVC-versus-TPO decision comes down to what your building is exposed to and how long you plan to own it. Both use heat-welded seams, both reflect solar energy, and both handle Panhandle hailstorms well. The differences show up in specific conditions that affect a meaningful number of Amarillo commercial properties.
+          </p>
+          <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            Choose PVC when your roof is exposed to chemicals, grease, or petroleum products. Restaurant owners along Amarillo&apos;s commercial corridors should default to PVC &mdash; cooking grease exhaust degrades TPO membranes over time, causing premature failure around vent penetrations. Industrial facilities near the railroad corridor, auto repair shops, and any building adjacent to fuel storage benefit from PVC&apos;s chemical inertness. Buildings with heavy rooftop equipment traffic also favor PVC, since maintenance crews walking on the roof in cold weather are less likely to cause damage.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            TPO makes more sense when chemical exposure is minimal and budget matters. For standard office buildings, retail spaces, and warehouses in Amarillo where the roof sees nothing harsher than rain and hail, TPO delivers comparable waterproofing and energy performance at 15&ndash;20% lower installed cost. We assess each Amarillo property individually &mdash; roof condition, building use, chemical exposure, equipment access needs, and ownership timeline &mdash; before recommending one membrane over the other. The goal is matching the right system to your building&apos;s actual demands, not upselling every property to the premium option.
+          </p>
+        </section>
+      </FadeIn>
+
       <h2 className="text-2xl font-bold mt-8 mb-4">Why PVC Roofing Excels in Amarillo, Midland & Odessa</h2>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="card">

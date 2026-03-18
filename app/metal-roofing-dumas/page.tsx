@@ -347,6 +347,40 @@ export default function MetalRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Metal Roofing Performance in Moore County
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Moore County occupies a position in the northern Texas Panhandle where extreme wind is a year-round constant, not a seasonal inconvenience. Dumas sits in one of the strongest wind corridors in the state, with sustained speeds that routinely exceed 14 mph and gusts that push past 60 mph during frontal passages. That persistent wind load is the leading cause of premature roof failure on conventional shingle systems throughout the area. Metal roofing engineered for 140+ mph uplift resistance handles Moore County&apos;s wind profile without the progressive damage &mdash; lifted tabs, backed-out nails, exposed underlayment &mdash; that shortens shingle roof lifespans.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Dumas&apos;s industrial base adds environmental factors that most roofing materials aren&apos;t built to handle. Cattle feedlot operations produce ammonia and hydrogen sulfide gases that accelerate corrosion on untreated metal and degrade organic roofing materials. Petrochemical facilities release airborne compounds that attack petroleum-based shingles from the outside in. Metal roofing with Galvalume substrates and fluoropolymer finish coats resists this chemical exposure without losing structural integrity or appearance. The smooth, non-porous surface also prevents dust and particulate matter from embedding in the roofing material &mdash; a significant advantage when feedlot dust and industrial fallout are constant realities.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Debris resistance rounds out metal roofing&apos;s advantages for Dumas properties. High winds pick up sand, gravel, and agricultural debris across Moore County&apos;s open terrain and drive it against building surfaces at high velocity. Where asphalt shingles lose granules and develop bare spots under this abrasion, metal panels maintain their protective coating and structural barrier. Properties near feedlots face additional exposure to windblown organic debris that traps moisture against conventional roof surfaces and promotes premature deterioration. Metal&apos;s smooth profile sheds this debris naturally, keeping the roof performing at full capacity between inspections.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Commercial &amp; Industrial Metal Roofing for Dumas Facilities
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Dumas&apos;s feedlot and petrochemical industries require roofing systems that go beyond standard commercial specifications. Cattle feeding operations in Moore County house processing equipment, maintenance shops, and administrative buildings that all need protection from the same combination of chemical exposure, wind stress, and hail impact. Metal roofing with chemical-resistant coatings provides the necessary barrier against ammonia vapor from feedlot operations while maintaining Class A fire ratings required by safety codes. R-panel and standing seam systems deliver large clear-span coverage over processing areas where interior columns would interfere with equipment and livestock handling flow.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Petrochemical facilities around Dumas operate under strict safety requirements that metal roofing addresses inherently. Non-combustible metal panels meet fire code mandates without additional treatments. Integrated lightning protection systems ground safely through the metal roof assembly. Chemical-resistant Kynar 500 coatings stand up to hydrocarbon vapor exposure and acid rain conditions that corrode lesser materials. For facilities operating around the clock, metal roofing&apos;s low maintenance requirements mean fewer roof-related shutdowns and less disruption to production schedules.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              We work with Dumas facility managers on installation scheduling that minimizes operational disruption. Our crews are experienced with the safety protocols required on active feedlot and petrochemical sites, including hot work permits, confined space awareness, and coordination with facility safety officers. Whether you&apos;re re-roofing an existing processing building or constructing new storage facilities, we engineer metal roof assemblies that meet both Moore County building codes and the specific environmental demands of Dumas&apos;s industrial operations. Every commercial installation includes a detailed maintenance schedule tailored to the facility&apos;s chemical exposure profile.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Metal Roofing FAQs - Dumas, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">

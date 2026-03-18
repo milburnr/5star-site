@@ -343,6 +343,40 @@ export default function MetalRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Metal Roofing for Canyon&apos;s Unique Environment
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Canyon&apos;s geography creates roofing conditions unlike anywhere else in the Panhandle. The city sits at roughly 3,500 feet elevation on the edge of Palo Duro Canyon &mdash; the second-largest canyon in the United States. That proximity to the canyon rim produces gap winds as air funnels through the canyon system and accelerates across the surrounding terrain. These localized wind patterns can intensify gusts well beyond what open-plains communities experience, putting additional stress on roof systems that weren&apos;t engineered for uplift resistance.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Elevation compounds the challenge. At 3,500 feet, Canyon receives more intense UV radiation than lower-altitude cities, which accelerates the breakdown of petroleum-based roofing materials. Asphalt shingles in Canyon dry out, crack, and lose granules faster than identical products installed at lower elevations. Metal roofing with Kynar 500 or Hylar 5000 fluoropolymer coatings maintains color stability and surface integrity under intense UV exposure for decades. The coatings resist chalking and fading even after years of direct High Plains sun.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Canyon&apos;s role as home to West Texas A&amp;M University adds institutional roofing needs to the mix. University buildings, student housing, and the commercial districts that serve the campus population all benefit from metal roofing&apos;s longevity and low maintenance profile. A roof that lasts 50+ years aligns with the long planning horizons of educational institutions and reduces the disruption of periodic re-roofing projects on active campuses. For both residential and institutional properties in Randall County, metal roofing delivers the performance margin that Canyon&apos;s unique environmental conditions demand.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Metal Roofing Aesthetics for Canyon&apos;s Residential Areas
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              One of the most common concerns Canyon homeowners raise about metal roofing is how it will look on their home. That concern made sense decades ago when metal roofing meant corrugated barn panels. Today&apos;s residential metal roofing options are designed specifically for neighborhood aesthetics. Stone-coated metal shingles replicate the appearance of traditional architectural shingles, wood shake, or even clay tile &mdash; while hiding a 26-gauge steel core underneath. From the curb, neighbors see a conventional-looking roof. Underneath, you have Panhandle-grade protection.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Standing seam metal roofing takes a different aesthetic approach with clean, modern lines that complement Canyon&apos;s newer construction and ranch-style homes. Available in 25+ colors with low-gloss finishes that reduce reflectivity, standing seam profiles add architectural distinction while delivering the highest wind and water resistance available in residential roofing. The concealed fastener design means no visible screws or nail heads &mdash; just uninterrupted lines running from ridge to eave.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Both options come with color warranties backing the finish against fading, chalking, and peeling for 30&ndash;40 years. That warranty matters in Canyon, where the combination of High Plains UV intensity and blowing dust acts as a natural sandblaster on exterior surfaces. We bring physical samples to every Canyon consultation so homeowners can see and touch the actual materials, compare profiles against their existing siding and trim colors, and make confident decisions about the right look for their home. Several Canyon neighborhoods now have multiple metal roofs installed, making it easy to see real-world examples of how these systems age gracefully in the local climate.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Metal Roofing FAQs - Canyon, TX Include?
             </h2>
             <Accordion type="single" collapsible className="w-full">

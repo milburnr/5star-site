@@ -201,6 +201,40 @@ export default function Page() {
           </section>
 
           <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Lubbock&apos;s Storm Damage Timeline
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Lubbock County sits in what meteorologists and insurance adjusters alike call &ldquo;Hail Alley&rdquo; &mdash; a stretch of the South Plains that consistently ranks among the most hail-damaged regions in the country. The area recorded 273 hail reports in the past year alone, concentrated between April and August when warm Gulf moisture collides with dry Panhandle air to produce violent supercell thunderstorms. These are not minor weather events. In May 2024, hailstones measuring over 4 inches in diameter fell near Whiteface, just west of Lubbock County. In June 2023, softball-sized hail pounded the Woodrow community south of Lubbock, shredding roofs and siding across entire neighborhoods.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Wind damage compounds the hail threat throughout storm season. South Plains thunderstorms frequently produce straight-line winds exceeding 70 mph &mdash; strong enough to peel back shingle tabs, tear off ridge caps, and drive rain under flashing around chimneys, vents, and skylights. Even storms that don&apos;t produce visible shingle loss can cause hidden damage to underlayment and decking that leads to leaks weeks or months later. Properties near Texas Tech University, along the Marsha Sharp Freeway corridor, and in South Lubbock&apos;s open subdivisions face particularly high wind exposure due to limited tree cover and flat terrain.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              The frequency and severity of Lubbock&apos;s storms make timely damage assessment critical. Unrepaired storm damage deteriorates quickly under subsequent weather events, turning a manageable shingle replacement into a full deck repair. Insurance policies impose filing deadlines &mdash; typically one year from the date of loss &mdash; that homeowners sometimes miss when initial damage appears minor. Our post-storm inspections document all damage, including conditions not visible from the ground, giving property owners the information they need to make informed decisions about repair timing and insurance claims.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Storm Damage Repair Process for Lubbock Properties
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              When a storm hits Lubbock, every hour counts. Our repair process follows a proven sequence designed to prevent secondary damage, maximize insurance coverage, and restore your property to pre-storm condition as efficiently as possible. It starts with emergency tarping &mdash; our crews deploy throughout Lubbock within hours of major storm events, applying weatherproof tarps to exposed areas where shingles are missing, flashing is compromised, or structural damage has created openings in the roof envelope. This temporary protection prevents water intrusion while permanent repairs are scheduled.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              The next step is a thorough free inspection that documents every point of damage with photographs, measurements, and written descriptions keyed to your roof&apos;s layout. We check the entire system &mdash; not just the obvious damage visible from the street, but also soft spots in decking, bruised shingles that will fail prematurely, compromised pipe boots, and lifted flashing at walls and penetrations. This documentation becomes the foundation of your insurance claim. We then coordinate directly with your insurance adjuster, meeting them on-site to walk the roof together and ensure nothing is missed during their assessment.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Once the claim is approved, we schedule the repair or full replacement based on damage scope and material availability. Most Lubbock storm damage projects complete in 1&ndash;3 days for residential properties. We handle everything from tear-off through final cleanup, including replacing damaged decking, installing ice and water shield in valleys and at eaves, and applying the shingle or membrane system specified in your approved claim. A final walkthrough with the homeowner confirms every item on the scope of work is completed before we consider the job finished. Most Lubbock homeowners pay only their deductible when insurance covers the claim.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Frequently Asked Questions - Storm Damage Repair in Lubbock
             </h2>

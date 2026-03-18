@@ -325,6 +325,40 @@ export default function MetalRoofingPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Metal Roofing Excels in Pampa&apos;s Climate
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Gray County sits squarely in one of the most wind-prone corridors in North America. Sustained winds in Pampa average 14+ mph year-round, with gusts regularly exceeding 60 mph during spring and fall fronts. That relentless wind stress tears at asphalt shingle tabs, loosens fasteners, and drives rain beneath conventional roofing materials. Metal roofing systems &mdash; particularly standing seam profiles with concealed fasteners &mdash; eliminate exposed attachment points that wind can exploit. Interlocking panels rated for 140+ mph uplift resist the sustained battering that Panhandle properties endure season after season.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Hail compounds the problem. Gray County averages 6&ndash;8 significant hail events per year, and stones can exceed golf-ball size when supercell thunderstorms roll across the High Plains. While a single hailstorm can strip the granular surface off asphalt shingles &mdash; reducing their effective lifespan by years &mdash; 26-gauge steel panels with Kynar or dent-resistant coatings absorb impacts and maintain their protective barrier. That durability translates to fewer insurance claims, lower long-term costs, and uninterrupted protection for the structures underneath.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Temperature swings add another layer of stress. Pampa can see 50-degree temperature shifts in a single day, with summer highs above 100&deg;F and winter lows well below freezing. Metal roofing handles thermal cycling without cracking, curling, or losing adhesion. Reflective cool-roof coatings bounce solar radiation back into the atmosphere, reducing attic temperatures and cutting cooling costs during Pampa&apos;s brutally hot summers. For a community that deals with wind, hail, and heat in equal measure, metal roofing is the practical choice &mdash; not the premium one.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Residential Metal Roofing Options for Pampa Homeowners
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Pampa homeowners looking to upgrade from asphalt shingles have two primary metal roofing paths, each with distinct advantages. Standing seam metal roofing uses vertical panels with raised seams and concealed fasteners, delivering the highest wind and water resistance available in residential roofing. The clean, modern profile works well on ranch-style homes and newer construction throughout Pampa&apos;s residential neighborhoods. Standing seam systems typically last 50&ndash;70 years with minimal maintenance &mdash; no granule loss, no cracking, no blown tabs after spring storms.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Stone-coated metal shingles offer a different approach. These steel panels are pressed into traditional shingle, shake, or tile profiles and coated with ceramic-coated stone granules bonded to the surface. The result looks like conventional roofing from the street but performs like metal underneath. For Pampa homeowners in neighborhoods with specific aesthetic expectations, stone-coated options provide Panhandle-grade protection without changing the visual character of the home. They carry Class 4 impact ratings for hail resistance and wind ratings exceeding 120 mph.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Both options qualify for insurance premium discounts in Gray County due to their impact resistance ratings. Many Pampa homeowners find that the insurance savings, combined with eliminating the cycle of shingle replacement every 15&ndash;20 years, make metal roofing the more affordable choice over the life of the home. We help property owners evaluate both systems based on their roof geometry, neighborhood considerations, and budget to find the right fit for their specific situation.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Metal Roofing FAQs - Pampa, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">

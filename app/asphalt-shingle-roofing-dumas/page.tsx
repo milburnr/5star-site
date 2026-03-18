@@ -375,6 +375,40 @@ export default function AsphaltShingleRoofingDumasPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Standard Shingles Fail Faster in Dumas
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Dumas sits in Moore County at roughly 3,600 feet elevation in the northern Texas Panhandle &mdash; an environment that shortens the life of standard asphalt shingles well beyond what manufacturers&apos; warranties suggest. Sustained winds averaging 15 mph or higher are a daily reality here, not an occasional event. That constant wind stress works on shingle adhesive strips and edge seals month after month, gradually lifting tabs and breaking the bond that keeps shingles flat against the deck. Once edges begin to lift, wind-driven rain and dust work underneath, accelerating deterioration from both sides.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              The agricultural environment around Dumas compounds the problem. Cattle feedlot operations in Moore County produce airborne ammonia and hydrogen sulfide that settle on roof surfaces. Over time, these compounds react with the petroleum-based asphalt binder in shingles, softening it and loosening the ceramic granules that serve as the shingle&apos;s primary UV and weather barrier. Dust from farming operations &mdash; particularly during wheat harvest and field preparation &mdash; acts as an abrasive when driven across roof surfaces by Panhandle winds, scouring away granules that would otherwise last decades in a milder environment.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              The result is measurable: standard three-tab shingles rated for 25-30 years in moderate climates often show significant wear by year 15-18 in Moore County. Granule loss exposes the asphalt mat beneath to direct UV radiation at an elevation where solar intensity is already 10-15% higher than at sea level. That exposed asphalt dries out, cracks, and becomes brittle &mdash; exactly the condition where hail impact causes the most damage. Homeowners who invest in Class 4 impact-resistant shingles with SBS-modified asphalt avoid this cascade of early failure because the polymer-modified compound stays flexible through temperature extremes and resists chemical degradation from agricultural emissions.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Insurance Benefits of Impact-Resistant Shingles in Dumas
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Moore County&apos;s hail frequency makes it one of the more expensive areas in Texas to insure a home. Insurance companies know that Dumas properties face 7-9 significant hailstorms per year, and standard roofing materials generate a disproportionate number of claims. That risk is priced directly into homeowner premiums. However, Texas insurers also recognize that Class 4 impact-resistant shingles dramatically reduce claim frequency &mdash; which is why most carriers offer meaningful premium discounts when you upgrade.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              The discount range for Class 4 shingles in Texas typically falls between 10% and 35% off annual premiums, depending on your insurer and your policy structure. For a Dumas homeowner paying $3,000-$5,000 per year in property insurance, that discount translates to $300-$1,750 in annual savings. Over the life of a 30-year roof, those savings often total $9,000-$50,000 &mdash; far exceeding the $1,500-$3,000 premium you pay upfront for impact-resistant shingles over standard architectural options.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              We help Dumas homeowners maximize this benefit by providing the specific documentation insurers require: UL 2218 test certification for the installed shingle product, a detailed invoice showing the Class 4 designation, and installation photos confirming proper application. We also work with your adjuster during the claims process if storm damage does occur, ensuring your roof is evaluated fairly and that any covered repairs maintain the Class 4 rating that keeps your discount active. For many Dumas families, the insurance math alone makes impact-resistant shingles the more affordable choice over time &mdash; even before factoring in the longer service life and reduced maintenance these products deliver in Moore County&apos;s demanding conditions.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Asphalt Shingle Roofing FAQs - Dumas, TX Involve?
             </h2>
             <Accordion type="single" collapsible className="w-full">

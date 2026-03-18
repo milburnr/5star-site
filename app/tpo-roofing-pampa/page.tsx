@@ -368,6 +368,40 @@ export default function TpoRoofingPampaPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Why TPO Is Ideal for Pampa Commercial Buildings
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Pampa&apos;s position in the northern Texas Panhandle subjects commercial buildings to punishing weather extremes. Summer temperatures regularly exceed 100&deg;F, while winter cold fronts sweep south from the Oklahoma border with little terrain to slow them down. TPO&apos;s white reflective membrane addresses both ends of this spectrum &mdash; reflecting solar heat to reduce summer cooling costs by 20&ndash;30%, while maintaining flexibility in freezing temperatures that would crack rigid roofing materials.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Wind uplift is a serious concern for flat commercial roofs in Gray County, where sustained winds regularly reach 30&ndash;40 mph and thunderstorm gusts can exceed 70 mph. TPO systems installed with mechanical fastening and enhanced perimeter attachment resist these forces without the membrane peeling or ballooning. Heat-welded seams eliminate the weak points where wind-driven rain typically infiltrates other flat roof systems.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              For properties near Pampa&apos;s oil and gas operations, TPO provides meaningful chemical resistance against airborne hydrocarbons and industrial fallout. While PVC remains the better choice for buildings with direct petroleum contact, TPO handles the ambient chemical exposure common throughout Gray County&apos;s industrial corridors. The membrane also resists ozone degradation &mdash; relevant in an area where flaring and petrochemical processing elevate atmospheric ozone levels above typical rural concentrations.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Pampa TPO Maintenance in Agricultural Environment
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              The agricultural activity surrounding Pampa creates maintenance considerations specific to this part of the Panhandle. During planting and harvest seasons, wind carries topsoil, crop dust, and particulate matter that settles on flat roof surfaces. This accumulation does more than look unsightly &mdash; it reduces the membrane&apos;s solar reflectivity, diminishing the energy efficiency that makes TPO valuable in the first place. A roof that reflected 85% of solar energy when new might only reflect 60% under a layer of agricultural dust.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              We recommend cleaning TPO roofs in Pampa at least twice per year: once after spring planting season and again after fall harvest. A straightforward pressure washing restores the membrane&apos;s reflective properties and provides an opportunity to inspect drainage components. Clogged scuppers and drains are the most common maintenance issue we see on Pampa commercial roofs, as agricultural debris accumulates faster than property owners expect.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Our Pampa maintenance contracts include scheduled cleanings, drainage system inspections, and seam integrity checks at intervals calibrated to each property&apos;s dust exposure level. Buildings closer to active agricultural land or unpaved county roads need more frequent attention than those in downtown Pampa. Proactive maintenance extends TPO service life well beyond the standard 20&ndash;year warranty period and keeps energy savings at their maximum throughout the system&apos;s life.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does TPO Roofing FAQs - Pampa, TX Involve?
             </h2>

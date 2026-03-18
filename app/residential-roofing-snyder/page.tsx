@@ -236,6 +236,40 @@ export default function ResidentialRoofingSnyderPage() {
         </FadeIn>
 
         <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Snyder&apos;s Residential Roofing Challenges
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Snyder sits squarely in the wind energy corridor that stretches across West Central Texas &mdash; the same constant winds that power the turbines visible from Highway 84 also punish residential roofs year after year. Sustained winds of 20&ndash;30 mph are routine in Scurry County, with spring gusts regularly exceeding 50 mph. These winds don&apos;t just tear at shingles directly. They drive rain sideways under flashing, accelerate granule loss on asphalt shingles, and create pressure differentials that lift roofing materials away from the deck at vulnerable edges and ridge lines.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Much of Snyder&apos;s housing stock dates to the oil boom years of the 1950s through 1980s, and many of these homes are overdue for comprehensive roof replacement. Original roof systems on homes from this era were not designed for the impact-resistant standards now available, and decades of Scurry County weather have taken a toll on aging materials. Properties around Lake J.B. Thomas face additional exposure &mdash; the open terrain surrounding the reservoir offers no tree cover or neighboring structures to buffer wind, leaving roofs fully exposed to whatever the Rolling Plains weather delivers.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Hail compounds the wind damage equation. While Snyder doesn&apos;t see as many hailstorms as Lubbock or Amarillo, the storms that do reach Scurry County tend to arrive with significant wind behind them, increasing the impact force of even moderate-sized hailstones. A storm with golf-ball hail driven by 50 mph winds causes substantially more damage than the same hail falling in calm conditions. Understanding this combination drives our material recommendations for Snyder homeowners.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
+          <section className="mb-16 max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Residential Roofing Options for Scurry County Homes
+            </h2>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              For most Snyder homes, the practical choice comes down to impact-resistant asphalt shingles versus standing seam metal roofing. Both perform well in Scurry County&apos;s conditions, but each has advantages that matter depending on the home&apos;s exposure, the owner&apos;s budget, and long-term plans for the property. Class 4 impact-resistant shingles offer the best value for standard residential applications &mdash; they withstand 2-inch hail, qualify for 10&ndash;30% insurance premium discounts in Texas, and cost significantly less than metal. For homes in established Snyder neighborhoods with some wind protection from surrounding structures, Class 4 shingles provide excellent performance at a reasonable price point.
+            </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Standing seam metal roofing deserves serious consideration for exposed properties &mdash; particularly homes along the Lake J.B. Thomas corridor, rural Scurry County acreages, and elevated sites with no natural windbreaks. Metal roofs shed wind rather than resisting it, with interlocking panels rated for winds exceeding 120 mph when properly installed. Metal also reflects solar radiation, reducing cooling costs during Snyder&apos;s hot summers when afternoon temperatures regularly push past 100&deg;F. The higher upfront cost is offset by a 40&ndash;60 year service life that eliminates multiple shingle replacement cycles.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Energy efficiency matters in Snyder regardless of which material you choose. Proper attic ventilation and radiant barrier installation work alongside your roofing material to reduce cooling loads. We evaluate each home&apos;s attic configuration during our free inspection and recommend ventilation improvements when they&apos;ll make a measurable difference. For oil field workers and Western Texas College families watching utility costs, the right roofing system paired with proper ventilation can reduce summer energy bills by 15&ndash;25%.
+            </p>
+          </section>
+        </FadeIn>
+
+        <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Do Snyder Residents Choose 5 Star Roofing?</h2>
             
