@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
-import { HighLevelForm } from "@/components/HighLevelForm";
+
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -237,44 +237,35 @@ export default function RoofReplacementPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Weather Extremes Affect Roofing in Perryton?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Perryton Weather & Your Roof</h2>
             <div className="bg-red-50 p-8 rounded-xl border border-red-200">
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">Perryton's location in the northern Texas Panhandle exposes the community to some of the most severe weather in North America. The city sits directly in the convergence zone where warm, moist air from the Gulf of Mexico meets cold, dry air from Canada, creating explosive storm development.</p>
-              
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">Perryton sits in the convergence zone where Gulf moisture meets Canadian cold fronts, creating some of North America's most severe weather. Our roofing systems are built to handle it all.</p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-bold mb-4 text-red-800">Spring Storm Fury (March-June)</h3>
+                  <h3 className="text-xl font-bold mb-4 text-red-800">Storm Season (March-June)</h3>
                   <ul className="text-red-700 space-y-2">
-                    <li>• <strong>Supercell Development:</strong> Perfect conditions for severe storms</li>
-                    <li>• <strong>Giant Hail:</strong> Baseball to softball-sized hail common</li>
-                    <li>• <strong>Violent Tornadoes:</strong> F4/F5 tornado corridor</li>
-                    <li>• <strong>Devastating Winds:</strong> 80-120 mph straight-line winds</li>
-                    <li>• <strong>Flash Flooding:</strong> Rapid runoff overwhelms systems</li>
+                    <li>• Baseball to softball-sized hail</li>
+                    <li>• F4/F5 tornado corridor</li>
+                    <li>• 80-120 mph straight-line winds</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-4 text-red-800">Year-Round Extremes</h3>
                   <ul className="text-red-700 space-y-2">
-                    <li>• <strong>Arctic Invasions:</strong> Temperatures can drop to -20°F</li>
-                    <li>• <strong>Scorching Heat:</strong> Summer highs often exceed 105°F</li>
-                    <li>• <strong>Relentless Wind:</strong> 20+ mph average wind speeds</li>
-                    <li>• <strong>Ice Storms:</strong> Freezing rain devastating to structures</li>
-                    <li>• <strong>Dust Storms:</strong> Reduce visibility and damage buildings</li>
+                    <li>• Temperature swings from -20°F to 105°F+</li>
+                    <li>• 20+ mph average wind speeds</li>
+                    <li>• Ice storms and dust storms</li>
                   </ul>
                 </div>
               </div>
-              
-              <div className="mt-8 p-6 bg-white rounded-xl border border-red-300">
-                <h3 className="text-xl font-bold mb-4 text-red-800">Our Weather-Warrior Solutions</h3>
-                <p className="text-red-700 leading-relaxed">We combat these extreme conditions with the most advanced roofing materials available. Our systems feature UL 2218 Class 4 impact resistance, ASTM D3161 Class F wind ratings, and specialized coatings designed for agricultural environments. Every installation includes weather protection and rapid storm response capabilities.</p>
-              </div>
+              <p className="text-red-700 leading-relaxed mt-6">Our systems feature UL 2218 Class 4 impact resistance, ASTM D3161 Class F wind ratings, and coatings designed for agricultural environments.</p>
             </div>
           </section>
         </FadeIn>
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the The Perryton Agricultural Roofing Process Work?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">The Perryton Agricultural Roofing Process</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Farm-Friendly Installation</h3>
@@ -355,60 +346,25 @@ export default function RoofReplacementPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Supporting Perryton's Agricultural Economy?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Supporting Perryton's Agricultural Economy</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-yellow-50 p-8 rounded-xl border border-yellow-200">
-                <h3 className="text-2xl font-bold mb-4 text-yellow-800">Wheat Production Support</h3>
-                <p className="text-yellow-700 mb-4">Protecting the infrastructure that feeds America:</p>
+                <h3 className="text-2xl font-bold mb-4 text-yellow-800">Wheat & Grain Operations</h3>
                 <ul className="text-yellow-700 space-y-2">
                   <li>• Grain elevator maintenance and repairs</li>
                   <li>• Storage facility weatherization</li>
                   <li>• Equipment shed roof replacements</li>
-                  <li>• Farmhouse protection for workers</li>
                   <li>• Prompt harvest-season repairs</li>
                 </ul>
               </div>
               <div className="bg-green-50 p-8 rounded-xl border border-green-200">
-                <h3 className="text-2xl font-bold mb-4 text-green-800">Cattle Ranch Operations</h3>
-                <p className="text-green-700 mb-4">Roofing solutions for livestock operations:</p>
+                <h3 className="text-2xl font-bold mb-4 text-green-800">Cattle Ranch & Community</h3>
                 <ul className="text-green-700 space-y-2">
-                  <li>• Barn and stable roof replacements</li>
-                  <li>• Feed storage facility protection</li>
+                  <li>• Barn, stable, and feed storage roofing</li>
                   <li>• Ranch home weatherization</li>
-                  <li>• Equipment shelter upgrades</li>
-                  <li>• Corral shelter installations</li>
+                  <li>• Schools, healthcare, and public buildings</li>
+                  <li>• Agricultural supply businesses</li>
                 </ul>
-              </div>
-            </div>
-            
-            <div className="mt-8 bg-white p-8 rounded-xl shadow-lg border border-gray-200">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Community Business Support</h3>
-              <p className="text-gray-700 mb-4 leading-relaxed">Perryton's downtown and commercial district depend on reliable roofing systems to support the agricultural economy. We provide specialized services for:</p>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div>
-                  <h4 className="font-bold text-brand-brown mb-2">Agricultural Supply Businesses</h4>
-                  <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• Feed and seed stores</li>
-                    <li>• Equipment dealerships</li>
-                    <li>• Chemical supply facilities</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-bold text-brand-brown mb-2">Processing Facilities</h4>
-                  <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• Grain processing plants</li>
-                    <li>• Meat processing facilities</li>
-                    <li>• Food manufacturing</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-bold text-brand-brown mb-2">Community Services</h4>
-                  <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• Schools and public buildings</li>
-                    <li>• Healthcare facilities</li>
-                    <li>• Religious institutions</li>
-                  </ul>
-                </div>
               </div>
             </div>
           </section>

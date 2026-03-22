@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
-import { HighLevelForm } from "@/components/HighLevelForm";
+
 import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
@@ -209,93 +209,34 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Systems for Andrews Climate Involve?</h2>
-            <div className="space-y-8">
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Commercial Roofing Systems for Andrews Climate</h2>
+            <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO (Thermoplastic Olefin) Roofing</h3>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <p className="text-gray-700 leading-relaxed mb-4">TPO roofing is ideal for Andrews' commercial buildings due to its exceptional energy efficiency and chemical resistance. The white reflective surface reduces cooling costs significantly in West Texas heat, while the material's flexibility handles temperature fluctuations without cracking.</p>
-                    <h4 className="font-bold text-brand-brown mb-2">Best Applications in Andrews:</h4>
-                    <ul className="text-gray-700 space-y-1 ml-4">
-                      <li>• Office buildings and administrative facilities</li>
-                      <li>• Retail and commercial spaces</li>
-                      <li>• Light industrial facilities</li>
-                      <li>• Warehouses and distribution centers</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-brand-brown mb-2">Andrews-Specific Benefits:</h4>
-                    <ul className="text-gray-700 space-y-1 ml-4">
-                      <li>• 30% reduction in cooling costs</li>
-                      <li>• Chemical resistance for oil field environments</li>
-                      <li>• 20-25 year lifespan with minimal maintenance</li>
-                      <li>• Single-membrane installation reduces labor time</li>
-                      <li>• Energy Star qualified for tax incentives</li>
-                    </ul>
-                    <div className="mt-4 p-4 bg-green-50 rounded-lg">
-                      <p className="text-sm text-green-800"><strong>Andrews Project Example:</strong> Recently completed a 25,000 sq ft TPO installation for a local oil service company, reducing their monthly cooling costs by $1,200.</p>
-                    </div>
-                  </div>
-                </div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Energy-efficient and chemical-resistant, ideal for offices, retail spaces, and warehouses. The reflective surface cuts cooling costs by 30% in West Texas heat.</p>
+                <ul className="text-gray-700 space-y-1 ml-4">
+                  <li>• 20-25 year lifespan</li>
+                  <li>• Chemical resistance for oil field environments</li>
+                  <li>• Energy Star qualified</li>
+                </ul>
               </div>
-
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing Systems</h3>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <p className="text-gray-700 leading-relaxed mb-4">Metal roofing provides unmatched durability for Andrews' industrial applications. With proper installation and coating systems, metal roofs can withstand decades of Permian Basin weather while providing excellent protection for valuable equipment and operations.</p>
-                    <h4 className="font-bold text-brand-brown mb-2">Best Applications in Andrews:</h4>
-                    <ul className="text-gray-700 space-y-1 ml-4">
-                      <li>• Oil and gas processing facilities</li>
-                      <li>• Agricultural buildings and barns</li>
-                      <li>• Manufacturing and heavy industrial</li>
-                      <li>• Equipment storage and maintenance shops</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-brand-brown mb-2">Andrews-Specific Advantages:</h4>
-                    <ul className="text-gray-700 space-y-1 ml-4">
-                      <li>• 50+ year lifespan in proper conditions</li>
-                      <li>• Fire resistance critical for oil operations</li>
-                      <li>• Wind resistance up to 150 mph</li>
-                      <li>• Low maintenance requirements</li>
-                      <li>• Can support heavy equipment installations</li>
-                    </ul>
-                    <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                      <p className="text-sm text-blue-800"><strong>Andrews Project Example:</strong> Installed standing seam metal roofing on a 40,000 sq ft drilling equipment warehouse, providing superior protection for $2M+ in equipment.</p>
-                    </div>
-                  </div>
-                </div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Unmatched durability for industrial applications. Withstands decades of Permian Basin weather while protecting valuable equipment and operations.</p>
+                <ul className="text-gray-700 space-y-1 ml-4">
+                  <li>• 50+ year lifespan</li>
+                  <li>• Fire resistance for oil operations</li>
+                  <li>• Wind resistance up to 150 mph</li>
+                </ul>
               </div>
-
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <p className="text-gray-700 leading-relaxed mb-4">EPDM provides cost-effective protection for Andrews' commercial properties. This proven technology offers excellent weather resistance and easy repair capabilities, making it ideal for budget-conscious businesses that still need reliable protection.</p>
-                    <h4 className="font-bold text-brand-brown mb-2">Best Applications in Andrews:</h4>
-                    <ul className="text-gray-700 space-y-1 ml-4">
-                      <li>• Small to medium commercial buildings</li>
-                      <li>• Temporary or modular facilities</li>
-                      <li>• Budget-conscious applications</li>
-                      <li>• Retrofit projects over existing roofs</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-brand-brown mb-2">Cost Benefits for Andrews Businesses:</h4>
-                    <ul className="text-gray-700 space-y-1 ml-4">
-                      <li>• Lowest initial installation cost</li>
-                      <li>• Easy field repairs minimize service calls</li>
-                      <li>• 15-20 year lifespan with proper maintenance</li>
-                      <li>• Compatible with most existing roof decks</li>
-                      <li>• Quick installation reduces business disruption</li>
-                    </ul>
-                    <div className="mt-4 p-4 bg-amber-50 rounded-lg">
-                      <p className="text-sm text-amber-800"><strong>Andrews Project Example:</strong> Completed EPDM installation on a 12,000 sq ft office building for a local petroleum services company, coming in 25% under budget while meeting all performance requirements.</p>
-                    </div>
-                  </div>
-                </div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Cost-effective protection with excellent weather resistance. Perfect for budget-conscious businesses, retrofits, and modular facilities.</p>
+                <ul className="text-gray-700 space-y-1 ml-4">
+                  <li>• Lowest installation cost</li>
+                  <li>• Easy field repairs</li>
+                  <li>• 15-20 year lifespan</li>
+                </ul>
               </div>
             </div>
           </section>
@@ -303,57 +244,34 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does Our Storm Response Work in Andrews?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Storm Response in Andrews</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">90-Minute storm response</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Andrews' oil and gas operations can't afford downtime due to roof failures. Our storm response team can be on-site within 90 minutes of your call from our Amarillo headquarters, equipped with materials and expertise to provide immediate temporary protection and permanent repairs.</p>
-                
-                <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">Our storm response Process:</h4>
-                <div className="space-y-4">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">90-Minute Response Time</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Andrews' oil and gas operations can't afford downtime. Our team deploys from Amarillo headquarters with materials for immediate temporary protection and permanent repairs.</p>
+                <div className="space-y-3 mt-6">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">1</div>
-                    <div>
-                      <h5 className="font-bold text-brand-brown">Immediate Response (0-15 minutes)</h5>
-                    </div>
+                    <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0">1</div>
+                    <p className="text-gray-700"><strong>Immediate Response</strong> — Phone assessment and crew dispatch within 15 minutes</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">2</div>
-                    <div>
-                      <h5 className="font-bold text-brand-brown">On-Site Assessment (60-90 minutes)</h5>
-                      <p className="text-gray-700 text-sm">Professional evaluation and immediate temporary protection</p>
-                    </div>
+                    <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0">2</div>
+                    <p className="text-gray-700"><strong>On-Site Assessment</strong> — Professional evaluation and temporary protection within 90 minutes</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">3</div>
-                    <div>
-                      <h5 className="font-bold text-brand-brown">Permanent Solution (24-72 hours)</h5>
-                      <p className="text-gray-700 text-sm">Complete repair plan and execution with minimal business disruption</p>
-                    </div>
+                    <div className="bg-red-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0">3</div>
+                    <p className="text-gray-700"><strong>Permanent Solution</strong> — Complete repair within 24-72 hours</p>
                   </div>
                 </div>
               </div>
-              
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <h4 className="text-xl font-bold text-brand-brown mb-4">Common Emergency Scenarios in Andrews:</h4>
-                <div className="space-y-3">
-                  <div className="p-3 bg-gray-50 rounded-lg">
-                    <h5 className="font-bold text-gray-800">Hail Damage</h5>
-                    <p className="text-sm text-gray-600">West Texas hailstorms can severely damage commercial roofing. We provide immediate tarping and permanent repair solutions.</p>
-                  </div>
-                  <div className="p-3 bg-gray-50 rounded-lg">
-                    <h5 className="font-bold text-gray-800">Wind Damage</h5>
-                    <p className="text-sm text-gray-600">High winds can lift roofing materials and damage HVAC units. Prompt securing and repairs prevent further damage.</p>
-                  </div>
-                  <div className="p-3 bg-gray-50 rounded-lg">
-                    <h5 className="font-bold text-gray-800">Equipment Damage</h5>
-                    <p className="text-sm text-gray-600">Heavy industrial equipment can puncture roofing. We provide immediate patching and structural reinforcement.</p>
-                  </div>
-                  <div className="p-3 bg-gray-50 rounded-lg">
-                    <h5 className="font-bold text-gray-800">Chemical Exposure</h5>
-                    <p className="text-sm text-gray-600">Petroleum operations can compromise roofing materials. We assess chemical damage and provide resistant replacement systems.</p>
-                  </div>
-                </div>
+                <h4 className="text-xl font-bold text-brand-brown mb-4">We Handle All Emergency Types:</h4>
+                <ul className="text-gray-700 space-y-3">
+                  <li><strong>Hail Damage</strong> — Immediate tarping and permanent repair solutions</li>
+                  <li><strong>Wind Damage</strong> — Securing lifted materials and HVAC units</li>
+                  <li><strong>Equipment Damage</strong> — Patching and structural reinforcement</li>
+                  <li><strong>Chemical Exposure</strong> — Damage assessment and resistant replacements</li>
+                </ul>
               </div>
             </div>
           </section>
@@ -391,42 +309,25 @@ export default function CommercialRoofingAndrewsPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Financing and Insurance Work in Andrews?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Financing & Insurance Assistance</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">💰 Flexible Financing Options</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">We understand that commercial roofing represents a significant investment for Andrews businesses. Our financing programs help you protect your property without straining cash flow.</p>
-                
-                <h4 className="text-lg font-bold text-brand-brown mb-3">Available Financing Programs:</h4>
-                <ul className="text-gray-700 space-y-2 ml-4 mb-4">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Flexible Financing</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Protect your property without straining cash flow with financing options tailored for Andrews businesses.</p>
+                <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• 0% APR for 12 months (qualified customers)</li>
-                  <li>• Extended payment plans up to 60 months</li>
-                  <li>• Equipment financing for HVAC integration</li>
+                  <li>• Extended plans up to 60 months</li>
                   <li>• Seasonal payment programs for agriculture</li>
-                  <li>• Government contractor net terms available</li>
                 </ul>
-                
-                <div className="p-4 bg-green-50 rounded-lg">
-                  <p className="text-sm text-green-800"><strong>Andrews Business Example:</strong> A local oil service company financed their $85,000 metal roofing project with 0% APR, saving over $8,000 in interest costs.</p>
-                </div>
               </div>
-              
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🛡️ Insurance Claim Assistance</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">Andrews' location in Tornado Alley means weather-related roof damage is common. Our insurance specialists help maximize your claim settlement and ensure proper repairs.</p>
-                
-                <h4 className="text-lg font-bold text-brand-brown mb-3">Our Insurance Services:</h4>
-                <ul className="text-gray-700 space-y-2 ml-4 mb-4">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Insurance Claims</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">Our specialists help maximize your settlement and handle all documentation for weather-related damage claims.</p>
+                <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Free damage assessment and documentation</li>
                   <li>• Direct insurance company communication</li>
                   <li>• Supplemental claim preparation</li>
-                  <li>• Code upgrade assistance</li>
-                  <li>• Payment processing coordination</li>
                 </ul>
-                
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-800"><strong>Success Story:</strong> After hail damage to an Andrews manufacturing facility, we helped secure a $125,000 insurance settlement, $35,000 more than the initial offer.</p>
-                </div>
               </div>
             </div>
           </section>
