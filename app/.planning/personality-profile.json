@@ -1,0 +1,53 @@
+{
+  "tone": "professional-approachable",
+  "voice": {
+    "keywords": [
+      "roofing",
+      "texas",
+      "resistance",
+      "systems",
+      "metal",
+      "expert",
+      "conditions",
+      "insurance",
+      "panhandle",
+      "canyon",
+      "weather",
+      "installation",
+      "industrial",
+      "exposure",
+      "pampa",
+      "inspections",
+      "unique",
+      "metadata",
+      "extreme",
+      "winds"
+    ],
+    "style": "conversational, list-focused"
+  },
+  "geography": {
+    "primary": "Amarillo",
+    "secondary": [],
+    "positioning": "local"
+  },
+  "values": [
+    "quality",
+    "local expertise",
+    "reliability"
+  ],
+  "audience": "commercial businesses",
+  "brandTerms": [
+    "Star Roofing",
+    "Get Free Inspection Fast Response Time Years Experience",
+    "Permian Basin",
+    "West Texas",
+    "Texas Panhandle",
+    "Palo Duro Canyon",
+    "High Plains"
+  ],
+  "writingStyle": {
+    "avgSentenceLength": 20,
+    "formalityScore": 0.3,
+    "technicalLevel": "low"
+  }
+}
