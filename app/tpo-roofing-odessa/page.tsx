@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Factory, FlaskConical, Fuel, GraduationCap, Hospital, Landmark, Mail, MapPin, Phone, Shield, ShoppingCart, Star, Sun, Tornado, Truck, Wind, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-odessa/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function TPORoofingOdessaPage() {
         "@id": "https://5starroofingpros.com/tpo-roofing-odessa/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function TPORoofingOdessaPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Oil Patch Capital's Industrial Roofing Experts</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional TPO roofing throughout Odessa and the heart of the Permian Basin. Expert installation designed for oil field demands and harsh desert conditions, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function TPORoofingOdessaPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -137,11 +138,11 @@ export default function TPORoofingOdessaPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🛢️ Oilfield Tough</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Oilfield Tough</h3>
                 <p className="text-gray-700 leading-relaxed">Odessa's position at the heart of the Permian Basin exposes buildings to unique stresses - from constant truck traffic vibrations and chemical exposure to extreme temperature swings and sandstorms. Our TPO systems are specifically engineered to withstand the harsh realities of oil patch operations while providing superior energy efficiency.</p>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏭 Industrial Heritage</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Factory className="w-6 h-6 inline-block" /> Industrial Heritage</h3>
                 <p className="text-gray-700 leading-relaxed">From the legendary Odessa Meteorite to modern petrochemical facilities, Odessa's industrial heritage demands roofing solutions that can handle heavy equipment, chemical exposure, and operations. Our installations serve everything from massive manufacturing complexes to specialized oilfield service facilities.</p>
               </div>
             </div>
@@ -153,7 +154,7 @@ export default function TPORoofingOdessaPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does TPO Roofing Built for Odessa's Harsh Environment Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌵 Desert Durability</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Sun className="w-6 h-6 inline-block" /> Desert Durability</h3>
                 <p className="text-gray-700 mb-4">Odessa's desert climate combines extreme heat, intense UV radiation, and frequent dust storms that can quickly degrade inferior roofing materials. Our TPO systems feature the highest UV resistance ratings and smooth surfaces that shed dust and debris while maintaining peak performance throughout the harshest conditions.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Superior UV resistance ratings</li>
@@ -163,7 +164,7 @@ export default function TPORoofingOdessaPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">⚗️ Chemical Protection</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><FlaskConical className="w-6 h-6 inline-block" /> Chemical Protection</h3>
                 <p className="text-gray-700 mb-4">The petrochemical environment of Odessa exposes roofing to various industrial chemicals, petroleum vapors, and processing emissions. Our TPO membranes feature enhanced chemical resistance specifically formulated to maintain integrity in hydrocarbon-rich environments typical of oil patch operations.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Hydrocarbon-resistant formulations</li>
@@ -173,7 +174,7 @@ export default function TPORoofingOdessaPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">💪 Heavy-Duty Performance</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Shield className="w-6 h-6 inline-block" /> Heavy-Duty Performance</h3>
                 <p className="text-gray-700 mb-4">Odessa's industrial facilities often house heavy equipment, processing machinery, and high-load operations that create unique roofing stresses. Our TPO installations feature enhanced structural attachment systems and reinforced membranes designed for demanding industrial applications.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Heavy equipment load ratings</li>
@@ -194,19 +195,19 @@ export default function TPORoofingOdessaPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Oil & Gas Sector</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🛢️ Oilfield Services</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Fuel className="w-6 h-6 inline-block" /> Oilfield Services</h4>
                     <p className="text-gray-700">Serving Halliburton, Baker Hughes, Schlumberger, and hundreds of oilfield service companies with durable TPO systems designed for industrial operations.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏭 Manufacturing</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Factory className="w-6 h-6 inline-block" /> Manufacturing</h4>
                     <p className="text-gray-700">Industrial manufacturing facilities producing equipment for the oil patch, from pipe and tubing to specialized drilling equipment and processing machinery.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🔧 Fabrication Shops</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Wrench className="w-6 h-6 inline-block" /> Fabrication Shops</h4>
                     <p className="text-gray-700">Metal fabrication and welding shops serving the energy industry with roofing systems that handle high heat, sparks, and heavy equipment operations.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🚚 Transportation</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Truck className="w-6 h-6 inline-block" /> Transportation</h4>
                     <p className="text-gray-700">Trucking companies, logistics facilities, and transportation hubs that keep the Permian Basin moving with efficient, low-maintenance roofing solutions.</p>
                   </div>
                 </div>
@@ -215,19 +216,19 @@ export default function TPORoofingOdessaPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Community Infrastructure</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🎓 UTPB Campus</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><GraduationCap className="w-6 h-6 inline-block" /> UTPB Campus</h4>
                     <p className="text-gray-700">University of Texas Permian Basin facilities requiring specialized roofing that meets educational standards while handling desert climate extremes.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏥 Medical Center</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Hospital className="w-6 h-6 inline-block" /> Medical Center</h4>
                     <p className="text-gray-700">Medical Center Hospital and healthcare facilities serving the oil patch workforce with quiet, reliable roofing systems that meet healthcare standards.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🛒 Retail Centers</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><ShoppingCart className="w-6 h-6 inline-block" /> Retail Centers</h4>
                     <p className="text-gray-700">Music City Mall, strip centers, and retail facilities serving Odessa's growing population with energy-efficient roofing that reduces operational costs.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏛️ Municipal Buildings</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Landmark className="w-6 h-6 inline-block" /> Municipal Buildings</h4>
                     <p className="text-gray-700">City facilities, Ector County buildings, and public infrastructure requiring durable, cost-effective roofing solutions that serve the community long-term.</p>
                   </div>
                 </div>
@@ -279,7 +280,7 @@ export default function TPORoofingOdessaPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Climate-Specific Roofing Solutions Are Available in Odessa?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🌵 Extreme Desert Heat</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Sun className="w-6 h-6 inline-block" /> Extreme Desert Heat</h3>
                 <p className="text-gray-700 mb-4">Odessa's desert location creates summer temperatures regularly exceeding 100°F with intense solar radiation that can quickly degrade inferior roofing materials and drive cooling costs through the roof.</p>
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -292,7 +293,7 @@ export default function TPORoofingOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">💨 Dust & Sandstorms</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Wind className="w-6 h-6 inline-block" /> Dust & Sandstorms</h3>
                 <p className="text-gray-700 mb-4">West Texas dust storms can coat buildings in fine particles that accumulate on roofs, clog drains, and create long-term maintenance challenges for traditional roofing systems.</p>
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -305,7 +306,7 @@ export default function TPORoofingOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">⚗️ Industrial Emissions</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><FlaskConical className="w-6 h-6 inline-block" /> Industrial Emissions</h3>
                 <p className="text-gray-700 mb-4">The concentrated oil and gas operations around Odessa create airborne chemicals, petroleum vapors, and industrial emissions that can degrade conventional roofing materials over time.</p>
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -318,7 +319,7 @@ export default function TPORoofingOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🌪️ Severe Weather Events</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Tornado className="w-6 h-6 inline-block" /> Severe Weather Events</h3>
                 <p className="text-gray-700 mb-4">Odessa experiences severe thunderstorms with damaging hail, high winds, and flash flooding that can cause significant damage to inadequately protected commercial buildings.</p>
                 <div className="bg-orange-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -428,8 +429,8 @@ export default function TPORoofingOdessaPage() {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
             </div>
             <div className="text-center mt-6">
-              <p className="text-lg text-gray-700 mb-2">📍 2909 S Western St, Amarillo, TX 79109</p>
-              <p className="text-lg text-gray-700 mb-2">📞 (806) 622-6041 | ✉️ info@5starroofingpros.com</p>
+              <p className="text-lg text-gray-700 mb-2"><MapPin className="w-6 h-6 inline-block" /> 2909 S Western St, Amarillo, TX 79109</p>
+              <p className="text-lg text-gray-700 mb-2"><Phone className="w-5 h-5 inline-block" /> (806) 622-6041 | <Mail className="w-5 h-5 inline-block" /> info@5starroofingpros.com</p>
               <p className="text-md text-gray-600">Proudly serving the oil patch capital and entire Permian Basin region</p>
             </div>
           </section>

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Factory, Phone, Snowflake, Star, Sun, Thermometer, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-monahans/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function ResidentialRoofingMonahansPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/residential-roofing-monahans/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function ResidentialRoofingMonahansPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Monahans. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function ResidentialRoofingMonahansPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -176,7 +177,7 @@ export default function ResidentialRoofingMonahansPage() {
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🌡️</div>
+                <div className="text-4xl mb-4"><Thermometer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Desert Climate Roofing</h3>
                 <p className="text-gray-700 mb-4">Specialized systems engineered for extreme heat, UV exposure, and rapid temperature changes unique to the Chihuahuan Desert region.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -188,7 +189,7 @@ export default function ResidentialRoofingMonahansPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🏭</div>
+                <div className="text-4xl mb-4"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Energy Sector Housing</h3>
                 <p className="text-gray-700 mb-4">Comprehensive roofing services for oil field housing, workforce developments, and industrial residential properties.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -200,7 +201,7 @@ export default function ResidentialRoofingMonahansPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">💨</div>
+                <div className="text-4xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Sandstorm Protection</h3>
                 <p className="text-gray-700 mb-4">Advanced sealing and protection systems designed to withstand frequent dust storms and abrasive conditions.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -345,7 +346,7 @@ export default function ResidentialRoofingMonahansPage() {
                 <p className="text-gray-700 mb-6">In Monahans's extreme heat, cool roof technology can reduce surface temperatures by 50°F or more, dramatically reducing cooling costs and extending material lifespan. Our systems are specifically engineered for desert conditions.</p>
                 
                 <div className="bg-blue-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">❄️ Cool Roof Benefits:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><Snowflake className="w-6 h-6 inline-block" /> Cool Roof Benefits:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Reduce cooling costs by 15-30%</li>
                     <li>• Extend roof lifespan in extreme heat</li>
@@ -361,7 +362,7 @@ export default function ResidentialRoofingMonahansPage() {
                 <p className="text-gray-700 mb-6">Monahans receives intense UV radiation year-round due to high elevation and clear desert skies. Our UV protection systems prevent premature aging and maintain material integrity in harsh conditions.</p>
                 
                 <div className="bg-yellow-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">☀️ UV Protection Features:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> UV Protection Features:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• UV-resistant material formulations</li>
                     <li>• Reflective protective coatings</li>
@@ -379,19 +380,19 @@ export default function ResidentialRoofingMonahansPage() {
               
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl mb-2">🚨</div>
+                  <div className="text-3xl mb-2"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                   <h4 className="font-bold text-brand-brown mb-2">Priority Response</h4>
                   <p className="text-gray-700 text-sm">storm repairs for energy sector housing receive priority scheduling and rapid mobilization.</p>
                 </div>
                 
                 <div className="text-center">
-                  <div className="text-3xl mb-2">🏭</div>
+                  <div className="text-3xl mb-2"><Factory className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold text-brand-brown mb-2">Industrial Experience</h4>
                   <p className="text-gray-700 text-sm">Specialized knowledge of oil industry housing requirements and environmental conditions.</p>
                 </div>
                 
                 <div className="text-center">
-                  <div className="text-3xl mb-2">📞</div>
+                  <div className="text-3xl mb-2"><Phone className="w-5 h-5 inline-block" /></div>
                   <h4 className="font-bold text-brand-brown mb-2">Availability</h4>
                   <p className="text-gray-700 text-sm">Round-the-clock prompt services to match energy sector operational demands.</p>
                 </div>
@@ -400,7 +401,7 @@ export default function ResidentialRoofingMonahansPage() {
               <div className="text-center mt-6">
                 <div className="bg-red-600 text-white p-4 rounded-xl inline-block">
                   <a href="tel:8066226041" className="bg-white text-red-600 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition-all">
-                    📞 (806) 622-6041
+                    <Phone className="w-5 h-5 inline-block" /> (806) 622-6041
                   </a>
                 </div>
               </div>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Building2, Check, CloudLightning, Construction, Factory, Flame, Fuel, Home, Phone, Snowflake, Sparkles, Wind, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roof-installation-odessa-texas/' },
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -43,7 +44,7 @@ export default function MetalRoofOdessaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/metal-roof-installation-odessa-texas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -63,7 +64,7 @@ export default function MetalRoofOdessaPage() {
             <h1 className="hero-title">Metal Roof Installation in Odessa, TX</h1>
             <p className="hero-subtitle">Permian Basin Metal Roofing Specialists</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">Free Estimate</a>
             </div>
           </div>
@@ -102,54 +103,54 @@ export default function MetalRoofOdessaPage() {
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Metal Roofing Systems</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🏠</div>
+                <div className="text-5xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Standing Seam Metal Roofing</h3>
                 <p className="text-gray-700 mb-4">Premium metal roofing with concealed fasteners. Vertical seams interlock for superior waterproofing. Ideal for residential homes and commercial buildings.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Concealed fasteners (no exposed screws)</li>
-                  <li>✓ Superior wind resistance</li>
-                  <li>✓ Sleek, modern appearance</li>
-                  <li>✓ 50-70 year lifespan</li>
-                  <li>✓ Multiple color options</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Concealed fasteners (no exposed screws)</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Superior wind resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Sleek, modern appearance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />50-70 year lifespan</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Multiple color options</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🏭</div>
+                <div className="text-5xl mb-4"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">R-Panel & Corrugated Metal</h3>
                 <p className="text-gray-700 mb-4">Cost-effective metal roofing for commercial buildings, warehouses, and agricultural structures. Durable and fast to install.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Economical pricing</li>
-                  <li>✓ Fast installation</li>
-                  <li>✓ Excellent for large buildings</li>
-                  <li>✓ 40-50 year lifespan</li>
-                  <li>✓ Wide coverage panels</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Economical pricing</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fast installation</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Excellent for large buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />40-50 year lifespan</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wide coverage panels</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🏘️</div>
+                <div className="text-5xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Residential Metal Roofing</h3>
                 <p className="text-gray-700 mb-4">Metal roofs for Odessa homes. Energy-efficient, hail-resistant, and maintenance-free. Multiple styles including standing seam and metal shingle profiles.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Reduces cooling costs 20-30%</li>
-                  <li>✓ Hail resistant</li>
-                  <li>✓ Insurance discounts available</li>
-                  <li>✓ Increases home value</li>
-                  <li>✓ Maintenance-free</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Reduces cooling costs 20-30%</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Hail resistant</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance discounts available</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Increases home value</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Maintenance-free</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🏢</div>
+                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Commercial Metal Roofing</h3>
                 <p className="text-gray-700 mb-4">Metal roofing systems for Odessa businesses. Low-slope and steep-slope applications. Superior longevity and energy efficiency.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Large-format panels</li>
-                  <li>✓ Engineered wind resistance</li>
-                  <li>✓ Fire-resistant (Class A)</li>
-                  <li>✓ Low maintenance costs</li>
-                  <li>✓ Cool roof certifications</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Large-format panels</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Engineered wind resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fire-resistant (Class A)</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Low maintenance costs</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Cool roof certifications</li>
                 </ul>
               </div>
             </div>
@@ -161,17 +162,17 @@ export default function MetalRoofOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose Metal Roofing in Odessa</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4">❄️</div>
+                <div className="text-5xl mb-4"><Snowflake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Energy Efficiency</h3>
                 <p className="text-gray-700">Reflective coatings reduce heat absorption. Metal roofs can lower cooling costs by 20-30% in Odessa's scorching summers.</p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⛈️</div>
+                <div className="text-5xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Hail Resistance</h3>
                 <p className="text-gray-700">Metal roofs shed hail impacts that would destroy asphalt shingles. Dents are cosmetic—waterproofing remains intact.</p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⏱️</div>
+                <div className="text-5xl mb-4">⏱</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">50-70 Year Lifespan</h3>
                 <p className="text-gray-700">Metal roofs last 2-3 times longer than asphalt shingles. Lower lifetime cost despite higher upfront investment.</p>
               </div>
@@ -184,28 +185,28 @@ export default function MetalRoofOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Permian Basin Climate Advantages</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">🛢️ Oil Industry Environmental Challenges</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Oil Industry Environmental Challenges</h3>
                 <p className="text-gray-700 mb-4">Odessa's oil-rich environment creates unique challenges for conventional roofing materials. Chemical exposure from industrial operations, hydrogen sulfide emissions, and airborne particulates accelerate degradation of organic materials like asphalt shingles, making metal roofing the superior long-term choice.</p>
                 <p className="text-gray-700 mb-4">Metal roofing systems provide exceptional resistance to chemical exposure, industrial pollutants, and corrosive atmospheric conditions common in the Permian Basin. Specialized protective coatings available for extreme industrial environments ensure longevity even in harsh chemical exposure scenarios.</p>
                 <p className="text-gray-700">Seismic considerations from hydraulic fracturing activity require roofing systems with enhanced flexibility and attachment integrity. Metal roofing's engineered connection systems accommodate minor ground movement while maintaining structural integrity and weather protection.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">💨 Extreme Wind Performance</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Wind className="w-6 h-6 inline-block" /> Extreme Wind Performance</h3>
                 <p className="text-gray-700 mb-4">Odessa's position in the High Plains creates extreme wind conditions with sustained speeds regularly exceeding 40 mph and gusts over 70 mph. Metal roofing systems engineered for high-wind applications provide unmatched resistance to wind uplift and storm damage compared to traditional materials.</p>
                 <p className="text-gray-700 mb-4">Standing seam metal roofing with structural attachments can withstand wind speeds exceeding 180 mph when properly installed. The continuous seam design and concealed fastener system eliminate weak points that cause catastrophic failure in other roofing materials during severe weather events.</p>
                 <p className="text-gray-700">Aerodynamic panel profiles reduce wind loading and turbulence, while engineered attachment systems distribute forces across the entire roof structure. This comprehensive approach to wind resistance makes metal roofing essential for Odessa's challenging weather environment.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">🔥 Fire Protection in Arid Climate</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Flame className="w-6 h-6 inline-block" /> Fire Protection in Arid Climate</h3>
                 <p className="text-gray-700 mb-4">Odessa's arid climate with annual precipitation under 15 inches creates severe fire risk, especially during drought periods and high-wind events. Metal roofing provides Class A fire resistance—the highest rating available—protecting properties from wildfire, lightning strikes, and industrial fire hazards.</p>
                 <p className="text-gray-700 mb-4">Non-combustible metal construction prevents fire spread and protects against flying embers that can ignite traditional roofing materials. This fire resistance is particularly critical in Odessa where industrial flare operations and electrical systems create elevated fire risks.</p>
                 <p className="text-gray-700">Insurance companies recognize metal roofing's superior fire protection with significant premium discounts for properties in high-risk areas. These savings, combined with reduced fire damage risk, provide substantial financial benefits for Odessa property owners.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">❄️ Advanced Thermal Performance</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Snowflake className="w-6 h-6 inline-block" /> Advanced Thermal Performance</h3>
                 <p className="text-gray-700 mb-4">Odessa's extreme temperature environment with summer highs exceeding 110°F and winter lows below 20°F requires roofing systems engineered for thermal cycling. Metal roofing's thermal movement accommodation prevents stress failures common in rigid materials.</p>
                 <p className="text-gray-700 mb-4">Cool roof technology with reflective coatings reduces surface temperatures by 50-70°F compared to dark asphalt roofs, dramatically reducing cooling costs and extending HVAC equipment life. Energy savings of 25-40% are common in Odessa's extreme heat.</p>
                 <p className="text-gray-700">Thermal breaks and insulation systems optimize energy performance while accommodating Odessa's extreme temperature swings. Proper design prevents condensation issues and maintains consistent interior comfort despite external temperature extremes.</p>
@@ -219,7 +220,7 @@ export default function MetalRoofOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Advanced Metal Roofing Technologies</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">🏗️ Structural Standing Seam Systems</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Construction className="w-6 h-6 inline-block" /> Structural Standing Seam Systems</h3>
                 <p className="text-gray-700 mb-4">Structural standing seam metal roofing provides the ultimate in durability and performance for Odessa's challenging environment. These systems attach directly to structural members, eliminating roof deck requirements and providing superior load-bearing capacity for equipment mounting and snow loads.</p>
                 
                 <div className="grid md:grid-cols-2 gap-6 mt-6">
@@ -250,7 +251,7 @@ export default function MetalRoofOdessaPage() {
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">🌟 Premium Coating Technologies</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Sparkles className="w-6 h-6 inline-block" /> Premium Coating Technologies</h3>
                 <p className="text-gray-700 mb-4">Advanced coating systems provide exceptional protection against Odessa's harsh environmental conditions. PVDF and Kynar 500 fluoropolymer coatings offer superior UV resistance, chemical resistance, and color retention essential for long-term performance in the Permian Basin's challenging climate.</p>
                 
                 <div className="grid md:grid-cols-3 gap-4 mt-6">
@@ -290,7 +291,7 @@ export default function MetalRoofOdessaPage() {
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">⚡ Integrated Solar Solutions</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Zap className="w-6 h-6 inline-block" /> Integrated Solar Solutions</h3>
                 <p className="text-gray-700 mb-4">Metal roofing provides the ideal platform for solar energy integration in Odessa's high-solar environment. Structural capability, longevity matching solar panel life, and superior heat dissipation make metal roofs the preferred choice for solar installations.</p>
                 
                 <div className="grid md:grid-cols-2 gap-6 mt-6">
@@ -326,14 +327,14 @@ export default function MetalRoofOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Professional Installation Excellence</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">🛠️ Precision Installation Techniques</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Wrench className="w-6 h-6 inline-block" /> Precision Installation Techniques</h3>
                 <p className="text-gray-700 mb-4">Metal roof installation in Odessa's extreme environment requires specialized techniques and equipment. Our certified crews use manufacturer-approved methods, precision tools, and quality control procedures to ensure long-term performance and warranty compliance.</p>
                 <p className="text-gray-700 mb-4">Temperature-controlled installation procedures account for Odessa's extreme thermal conditions. Special considerations for expansion and contraction, material handling in extreme heat, and thermal break installation ensure optimal performance throughout the roof's service life.</p>
                 <p className="text-gray-700">Advanced fastening systems designed for high-wind environments provide superior attachment strength. Structural screws, expansion anchors, and engineered connection details ensure roof system integrity under extreme loading conditions common to the Permian Basin.</p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-4">🔧 Quality Control & Testing</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-4"><Wrench className="w-6 h-6 inline-block" /> Quality Control & Testing</h3>
                 <p className="text-gray-700 mb-4">Comprehensive quality control procedures include seam integrity testing, fastener pattern verification, and waterproofing validation. Each installation undergoes systematic inspection to ensure compliance with manufacturer specifications and building code requirements.</p>
                 <p className="text-gray-700 mb-4">Wind uplift testing capabilities verify system performance under design loads. Pull-testing of fasteners and seam strength evaluation ensure installation meets or exceeds specified wind resistance ratings essential for Odessa's challenging wind environment.</p>
                 <p className="text-gray-700">Final inspection protocols include thermal imaging to verify proper installation, moisture testing to confirm waterproof integrity, and documentation photography to support warranty registration and future service needs.</p>
@@ -374,7 +375,7 @@ export default function MetalRoofOdessaPage() {
             <h2 className="cta-title">Upgrade to Metal Roofing</h2>
             <p className="cta-text">Expert metal roof installation in Odessa. Energy-efficient, durable, and built to last 50+ years.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">Free Estimate</a>
             </div>
           </section>

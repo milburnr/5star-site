@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { DollarSign, Factory, Fuel, Home, Mountain, Phone, Shield, Sun, Thermometer, TrendingDown } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-midland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function RoofRepairMidlandPage() {
         "@id": "https://5starroofingpros.com/roof-repair-midland/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-6-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -100,7 +101,7 @@ export default function RoofRepairMidlandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Permian Basin Desert Specialists</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Expert roof repair for Midland's unique desert climate challenges. Serving oil industry communities, executive neighborhoods, and boom-cycle developments with specialized solutions for extreme heat, UV damage, and thermal stress.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -115,7 +116,7 @@ export default function RoofRepairMidlandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">38</div><div className="text-brand-brown font-semibold text-lg">Median Home Age</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">110+</div><div className="text-brand-brown font-semibold text-lg">°F Summer Heat</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">300+</div><div className="text-brand-brown font-semibold text-lg">Sun Days/Year</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">🏜️🛢️☀️</div><div className="text-brand-brown font-semibold text-lg">Desert Oil Hub</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><Mountain className="w-6 h-6 inline-block" /><Fuel className="w-6 h-6 inline-block" /><Sun className="w-6 h-6 inline-block" /></div><div className="text-brand-brown font-semibold text-lg">Desert Oil Hub</div></div>
             </div>
           </div>
         </section>
@@ -196,22 +197,22 @@ export default function RoofRepairMidlandPage() {
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the Desert Climate-Specific Repair Process Work?</h2>
             <div className="grid lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🌡️</div>
+                <div className="text-4xl mb-4"><Thermometer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Thermal Stress Analysis</h3>
                 <p className="text-gray-700">Comprehensive assessment of expansion/contraction damage, thermal shock cracking, and material fatigue specific to Midland's extreme temperature cycles.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">☀️</div>
+                <div className="text-4xl mb-4"><Sun className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">UV Damage Evaluation</h3>
                 <p className="text-gray-700">Specialized inspection for accelerated aging, granule loss, and brittleness caused by intense Permian Basin solar radiation and desert conditions.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🏭</div>
+                <div className="text-4xl mb-4"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Boom-Era Construction Expertise</h3>
                 <p className="text-gray-700">Understanding of 1970s-1990s oil boom building practices, identifying common shortcuts and quality issues from rapid development periods.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Desert-Rated Solutions</h3>
                 <p className="text-gray-700">Implementation of cool-roof technology, high-reflectance materials, and ventilation systems specifically engineered for extreme desert environments.</p>
               </div>
@@ -321,7 +322,7 @@ export default function RoofRepairMidlandPage() {
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">🌡️ Thermal Management Solutions</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Thermal Management Solutions</h3>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="bg-red-100 p-2 rounded-full mr-3 mt-1">
@@ -363,7 +364,7 @@ export default function RoofRepairMidlandPage() {
               </div>
               
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">☀️ UV Protection Strategies</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Sun className="w-6 h-6 inline-block" /> UV Protection Strategies</h3>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="bg-yellow-100 p-2 rounded-full mr-3 mt-1">
@@ -414,7 +415,7 @@ export default function RoofRepairMidlandPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-amber-800">🛢️ Boom Period Construction (1970s-2000s)</h3>
+                <h3 className="text-2xl font-bold mb-4 text-amber-800"><Fuel className="w-6 h-6 inline-block" /> Boom Period Construction (1970s-2000s)</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Rapid Development Shortcuts</h4>
@@ -447,7 +448,7 @@ export default function RoofRepairMidlandPage() {
               </div>
 
               <div className="bg-gradient-to-br from-green-50 to-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-green-800">🏡 Executive Home Challenges</h3>
+                <h3 className="text-2xl font-bold mb-4 text-green-800"><Home className="w-6 h-6 inline-block" /> Executive Home Challenges</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Complex Architectural Features</h4>
@@ -592,7 +593,7 @@ export default function RoofRepairMidlandPage() {
             
             <div className="grid lg:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-red-800">💰 Boom Period Considerations</h3>
+                <h3 className="text-2xl font-bold mb-4 text-red-800"><DollarSign className="w-6 h-6 inline-block" /> Boom Period Considerations</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-red-700">Market Conditions</h4>
@@ -624,7 +625,7 @@ export default function RoofRepairMidlandPage() {
               </div>
 
               <div className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-green-800">📉 Bust Period Opportunities</h3>
+                <h3 className="text-2xl font-bold mb-4 text-green-800"><TrendingDown className="w-6 h-6 inline-block" /> Bust Period Opportunities</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2 text-green-700">Market Advantages</h4>

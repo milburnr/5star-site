@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Building2, Check, ClipboardList, DollarSign, Lightbulb, Phone, Search, Sparkles, Star, Thermometer, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-big-spring/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -86,7 +87,7 @@ export default function TPORoofingBigSpringPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/tpo-roofing-big-spring/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -184,7 +185,7 @@ export default function TPORoofingBigSpringPage() {
                 Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -214,7 +215,7 @@ export default function TPORoofingBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -242,58 +243,58 @@ export default function TPORoofingBigSpringPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Complete TPO Roofing Services Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🏢</div>
+                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">New TPO Installation</h3>
                 <p className="text-gray-700 mb-4">Complete TPO membrane installation using premium materials designed for Big Spring's harsh climate. Energy-efficient white membranes reduce cooling costs significantly.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Energy Star qualified TPO membranes</li>
-                  <li>✓ 45, 60, and 80-mil thickness options</li>
-                  <li>✓ Mechanically attached systems</li>
-                  <li>✓ Fully adhered installations</li>
-                  <li>✓ Enhanced wind uplift resistance</li>
-                  <li>✓ 15-30 year warranties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy Star qualified TPO membranes</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />45, 60, and 80-mil thickness options</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Mechanically attached systems</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fully adhered installations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced wind uplift resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-30 year warranties</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Energy Efficiency Solutions</h3>
                 <p className="text-gray-700 mb-4">TPO's reflective white surface can reduce roof temperatures by 50-70°F compared to dark roofs, cutting cooling costs by 20-40% in Big Spring's hot climate.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ CRRC certified cool roof systems</li>
-                  <li>✓ ENERGY STAR qualified membranes</li>
-                  <li>✓ Enhanced insulation packages</li>
-                  <li>✓ Thermal bridging elimination</li>
-                  <li>✓ Green building compliance</li>
-                  <li>✓ Utility rebate assistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />CRRC certified cool roof systems</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />ENERGY STAR qualified membranes</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced insulation packages</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Thermal bridging elimination</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Green building compliance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Utility rebate assistance</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🔧</div>
+                <div className="text-5xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Repair & Maintenance</h3>
                 <p className="text-gray-700 mb-4">Expert repair services for existing TPO systems. Preventive maintenance programs extend roof life and maintain energy efficiency performance.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Membrane patching and welding</li>
-                  <li>✓ Seam repair and re-welding</li>
-                  <li>✓ Puncture and tear repair</li>
-                  <li>✓ Drain and scupper maintenance</li>
-                  <li>✓ Preventive maintenance programs</li>
-                  <li>✓ Prompt leak repairs</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Membrane patching and welding</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Seam repair and re-welding</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Puncture and tear repair</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Drain and scupper maintenance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Preventive maintenance programs</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Prompt leak repairs</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🔍</div>
+                <div className="text-5xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Assessments & Consulting</h3>
                 <p className="text-gray-700 mb-4">Comprehensive evaluations of existing flat roof systems to determine optimal TPO replacement timing and energy efficiency opportunities.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Free TPO system evaluations</li>
-                  <li>✓ Energy efficiency assessments</li>
-                  <li>✓ Roof condition reporting</li>
-                  <li>✓ Cost-benefit analysis</li>
-                  <li>✓ Warranty transfer assistance</li>
-                  <li>✓ Insurance documentation</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free TPO system evaluations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy efficiency assessments</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Roof condition reporting</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Cost-benefit analysis</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Warranty transfer assistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance documentation</li>
                 </ul>
               </div>
             </div>
@@ -305,7 +306,7 @@ export default function TPORoofingBigSpringPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Commercial Market & TPO Benefits?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">🏢 Big Spring Commercial Real Estate Landscape</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Building2 className="w-6 h-6 inline-block" /> Big Spring Commercial Real Estate Landscape</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <p className="text-gray-700 mb-4">Big Spring's economy, anchored by the Big Spring Correctional Center, Howard College, and regional healthcare services, creates steady demand for energy-efficient commercial roofing solutions. The city's 28,000+ residents support diverse businesses requiring modern flat roof systems.</p>
@@ -331,7 +332,7 @@ export default function TPORoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">🌟 TPO Energy Efficiency Benefits for Big Spring Buildings</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Sparkles className="w-6 h-6 inline-block" /> TPO Energy Efficiency Benefits for Big Spring Buildings</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700">TPO (Thermoplastic Polyolefin) membranes offer exceptional energy efficiency benefits that directly translate to cost savings for Big Spring commercial property owners. The combination of reflective properties and excellent insulation performance makes TPO ideal for West Texas climate conditions.</p>
                   <div className="grid md:grid-cols-3 gap-4">
@@ -414,7 +415,7 @@ export default function TPORoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-semibold text-brand-brown mb-4">💰 Total Cost of Ownership Benefits</h3>
+                <h3 className="font-semibold text-brand-brown mb-4"><DollarSign className="w-6 h-6 inline-block" /> Total Cost of Ownership Benefits</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-medium mb-2">Immediate Benefits</h4>
@@ -440,7 +441,7 @@ export default function TPORoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg">
-                <p className="font-semibold text-brand-brown mb-2">📋 Free Energy Efficiency Assessments</p>
+                <p className="font-semibold text-brand-brown mb-2"><ClipboardList className="w-6 h-6 inline-block" /> Free Energy Efficiency Assessments</p>
                 <p className="text-gray-700">We provide comprehensive energy analysis including current cooling costs, projected TPO savings, ROI calculations, and available rebate/incentive information. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> for your customized assessment.</p>
               </div>
             </div>
@@ -452,7 +453,7 @@ export default function TPORoofingBigSpringPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">TPO Performance in Big Spring Climate?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Climate Optimization for Energy Efficiency</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Optimization for Energy Efficiency</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">Heat Load Reduction</h4>
@@ -480,7 +481,7 @@ export default function TPORoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">💡 TPO vs. Other Commercial Roofing Systems</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Lightbulb className="w-6 h-6 inline-block" /> TPO vs. Other Commercial Roofing Systems</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700">Comparing TPO to other commercial roofing options demonstrates clear advantages for energy efficiency and long-term value in Big Spring's climate.</p>
                   <div className="overflow-x-auto">
@@ -497,31 +498,31 @@ export default function TPORoofingBigSpringPage() {
                       <tbody className="text-gray-600">
                         <tr className="border-t">
                           <td className="p-3 font-medium">TPO Membrane</td>
-                          <td className="p-3 text-center">★★★★★</td>
-                          <td className="p-3 text-center">★★★★☆</td>
-                          <td className="p-3 text-center">★★★★☆</td>
-                          <td className="p-3 text-center">★★★★☆</td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
                         </tr>
                         <tr className="border-t bg-gray-25">
                           <td className="p-3 font-medium">EPDM Rubber</td>
-                          <td className="p-3 text-center">★★☆☆☆</td>
-                          <td className="p-3 text-center">★★★★☆</td>
-                          <td className="p-3 text-center">★★★★★</td>
-                          <td className="p-3 text-center">★★★☆☆</td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
                         </tr>
                         <tr className="border-t">
                           <td className="p-3 font-medium">Modified Bitumen</td>
-                          <td className="p-3 text-center">★★☆☆☆</td>
-                          <td className="p-3 text-center">★★★☆☆</td>
-                          <td className="p-3 text-center">★★★☆☆</td>
-                          <td className="p-3 text-center">★★☆☆☆</td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
                         </tr>
                         <tr className="border-t bg-gray-25">
                           <td className="p-3 font-medium">Built-Up Roof</td>
-                          <td className="p-3 text-center">★☆☆☆☆</td>
-                          <td className="p-3 text-center">★★★☆☆</td>
-                          <td className="p-3 text-center">★★★☆☆</td>
-                          <td className="p-3 text-center">★★☆☆☆</td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 1 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
                         </tr>
                       </tbody>
                     </table>

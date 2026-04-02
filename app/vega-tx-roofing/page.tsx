@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Check, CloudLightning, Landmark, Route, Sun, Thermometer, Tornado, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/vega-tx-roofing/' },
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function VegaRoofingPage() {
             <h2 className="section-title">Why Vega Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4">🛣️</div>
+                <div className="text-5xl mb-4"><Route className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Direct I-40 Access</h3>
                 <p className="text-gray-600">
                   Just 35 miles from Vega via I-40. Straight shot from Amarillo with no backroads
@@ -115,7 +116,7 @@ export default function VegaRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🏛️</div>
+                <div className="text-5xl mb-4"><Landmark className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Historic Town Experience</h3>
                 <p className="text-gray-600">
                   We understand Vega's unique character as a Route 66 town and respect the
@@ -123,7 +124,7 @@ export default function VegaRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⛈️</div>
+                <div className="text-5xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">High Plains Specialists</h3>
                 <p className="text-gray-600">
                   Vega's exposed high plains location requires specialized roofing. We use materials
@@ -146,7 +147,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg" alt="Completed roof repair project showing new shingles after hail damage near Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg" alt="Completed roof repair project showing new shingles after hail damage near Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -180,7 +181,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg" alt="Finished residential shingle roof installation on a home near Stinnett TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Finished residential shingle roof installation on a home near Stinnett TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -214,7 +215,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roof with premium finish installed near Vega TX - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp" alt="Standing seam metal roof with premium finish installed near Vega TX - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -282,7 +283,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg" alt="Completed roofing project with clean ridge line showing quality inspection results" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Completed roofing project with clean ridge line showing quality inspection results" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -316,7 +317,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg" alt="Emergency storm damage roof repair completed on Texas Panhandle property by 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg" alt="Emergency storm damage roof repair completed on Texas Panhandle property by 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       storm repairs
                     </h3>
@@ -353,7 +354,7 @@ export default function VegaRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Severe Hail & Supercell Thunderstorms</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Hail & Supercell Thunderstorms</h3>
                 <p className="text-gray-700">
                   Vega sits at the crossroads of severe weather in Hail Alley. The high plains location
                   with no terrain protection means thunderstorms arrive with full intensity. Baseball to
@@ -362,7 +363,7 @@ export default function VegaRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 Extreme High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Extreme High Winds</h3>
                 <p className="text-gray-700">
                   At nearly 4,000 feet elevation on the exposed high plains, Vega experiences some of
                   the strongest sustained winds in Texas. 40-50 mph sustained winds are common, with
@@ -371,7 +372,7 @@ export default function VegaRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Dramatic Temperature Extremes</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Dramatic Temperature Extremes</h3>
                 <p className="text-gray-700">
                   Vega's high elevation and continental climate create extreme temperature swings.
                   Summer heat exceeds 100°F while winter nights drop well below zero - often a 100+
@@ -380,7 +381,7 @@ export default function VegaRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">☀️ Intense High-Altitude Sun</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Intense High-Altitude Sun</h3>
                 <p className="text-gray-700">
                   At 4,000 feet elevation with minimal humidity and over 270 days of sunshine annually,
                   UV radiation is intense and relentless. Standard asphalt shingles degrade quickly without
@@ -402,16 +403,16 @@ export default function VegaRoofingPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li>✓ Historic Route 66 corridor</li>
-                  <li>✓ I-40 frontage properties</li>
-                  <li>✓ Downtown Vega businesses</li>
-                  <li>✓ US Highway 385 corridor</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Historic Route 66 corridor</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />I-40 frontage properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Downtown Vega businesses</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />US Highway 385 corridor</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>✓ Vega ISD area</li>
-                  <li>✓ Residential neighborhoods</li>
-                  <li>✓ Ranch and farm properties</li>
-                  <li>✓ Oldham County rural areas</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Vega ISD area</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Residential neighborhoods</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ranch and farm properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Oldham County rural areas</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -586,7 +587,7 @@ export default function VegaRoofingPage() {
             "@id": "https://5starroofingpros.com/vega-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
             "description": "Professional roofing contractor serving Vega, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
             "address": {
               "@type": "PostalAddress",

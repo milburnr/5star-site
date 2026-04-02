@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Briefcase, ClipboardList, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/industrial-roofing/' },
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -222,28 +223,28 @@ export default function Page() {
 
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="check-item">
-          <span className="check-icon text-2xl">⚡</span>
+          <span className="check-icon text-2xl"><Zap className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2"></h3>
             <p className="text-gray-600">Available day or night for tarping and temporary repairs to protect inventory and equipment</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">📋</span>
+          <span className="check-icon text-2xl"><ClipboardList className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Insurance Documentation</h3>
             <p className="text-gray-600">Complete damage assessment with aerial drone footage and detailed reports for insurance adjusters</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🔧</span>
+          <span className="check-icon text-2xl"><Wrench className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Minimal Downtime</h3>
             <p className="text-gray-600">Strategic scheduling and efficient crews keep your operations running during roof replacement</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💼</span>
+          <span className="check-icon text-2xl"><Briefcase className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Insurance Claim Management</h3>
             <p className="text-gray-600">We handle all communication with your insurance company from initial claim through final payment</p>

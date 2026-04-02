@@ -1,6 +1,7 @@
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillos-best-roofer/' },
@@ -321,7 +322,7 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-green-50 p-6 rounded-lg">
             <div className="flex mb-3">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
+              <span className="text-yellow-500 text-lg"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></span>
             </div>
             <p className="mb-4 italic">
               "After the May 2019 hailstorm, 5 Star Roofing was the only company that showed up when they
@@ -333,7 +334,7 @@ export default function Page() {
 
           <div className="bg-blue-50 p-6 rounded-lg">
             <div className="flex mb-3">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
+              <span className="text-yellow-500 text-lg"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></span>
             </div>
             <p className="mb-4 italic">
               "We've used 5 Star for two commercial buildings and our home. Their attention to detail
@@ -345,7 +346,7 @@ export default function Page() {
 
           <div className="bg-yellow-50 p-6 rounded-lg">
             <div className="flex mb-3">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
+              <span className="text-yellow-500 text-lg"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></span>
             </div>
             <p className="mb-4 italic">
               "The team was incredible during our roof repair. They responded the same day,
@@ -357,7 +358,7 @@ export default function Page() {
 
           <div className="bg-purple-50 p-6 rounded-lg">
             <div className="flex mb-3">
-              <span className="text-yellow-500 text-lg">★★★★★</span>
+              <span className="text-yellow-500 text-lg"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></span>
             </div>
             <p className="mb-4 italic">
               "From the initial inspection to final cleanup, everything was handled professionally.
@@ -758,7 +759,7 @@ export default function Page() {
             href="tel:8066226041"
             className="btn-primary-hero"
           >
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a
             href="/contact/"

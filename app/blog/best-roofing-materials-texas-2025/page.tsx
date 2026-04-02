@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
+import { AlertTriangle, Check, CloudLightning, Lightbulb, Medal, Phone, Sun, Thermometer, Tornado, TreeDeciduous, Trophy, Wind, X } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/best-roofing-materials-texas-2025/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -40,7 +41,7 @@ export default function BestRoofingMaterialsTexasPage() {
             <h1 className="hero-title">Best Roofing Materials for Texas Climate 2025</h1>
             <p className="hero-subtitle">Expert Guide to Choosing the Right Roof for Texas Weather</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary text-lg px-8 py-4">Free Consultation</a>
             </div>
           </div>
@@ -67,19 +68,19 @@ export default function BestRoofingMaterialsTexasPage() {
             </p>
             <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-2">🌡️ Extreme Heat & UV</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Heat & UV</h3>
                 <p className="text-gray-700">Summer temps regularly exceed 100°F. Roofs absorb even more heat (150°F+ surface temps). UV radiation breaks down organic materials rapidly.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-2">⛈️ Severe Hail</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-2"><CloudLightning className="w-6 h-6 inline-block" /> Severe Hail</h3>
                 <p className="text-gray-700">West Texas sits in "Hail Alley." Golf ball to baseball-sized hail is common. Even small hail damages inferior roofing materials.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-2">💨 High Winds</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> High Winds</h3>
                 <p className="text-gray-700">Texas storms bring 60-80+ mph winds. Poorly installed or inadequate materials blow off, exposing your home to water damage.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-2">🌪️ Temperature Swings</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Temperature Swings</h3>
                 <p className="text-gray-700">Texas can be 75°F one day and 25°F the next. Thermal expansion and contraction stress roofing materials and cause premature aging.</p>
               </div>
             </div>
@@ -94,7 +95,7 @@ export default function BestRoofingMaterialsTexasPage() {
               {/* Impact-Resistant Asphalt Shingles */}
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="text-5xl">🏆</div>
+                  <div className="text-5xl"><Trophy className="w-6 h-6 inline-block" /></div>
                   <div>
                     <h3 className="text-3xl font-bold text-brand-brown">1. Impact-Resistant Asphalt Shingles</h3>
                     <p className="text-lg text-gray-600">Best Overall for Texas Homes</p>
@@ -107,7 +108,7 @@ export default function BestRoofingMaterialsTexasPage() {
 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div>
-                    <h4 className="font-bold text-brand-brown mb-3">✓ Advantages for Texas:</h4>
+                    <h4 className="font-bold text-brand-brown mb-3"><Check className="w-5 h-5 text-brand-gold inline-block" /> Advantages for Texas:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• UL 2218 Class 4 rating (highest hail resistance)</li>
                       <li>• Insurance discounts: 20-35% in hail-prone areas</li>
@@ -118,7 +119,7 @@ export default function BestRoofingMaterialsTexasPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-brand-brown mb-3">✗ Disadvantages:</h4>
+                    <h4 className="font-bold text-brand-brown mb-3"><X className="w-5 h-5 text-red-600 inline-block" /> Disadvantages:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• Still organic material (degrades over time)</li>
                       <li>• Not as long-lasting as metal or tile</li>
@@ -129,7 +130,7 @@ export default function BestRoofingMaterialsTexasPage() {
                 </div>
 
                 <div className="bg-brand-gold-light p-4 rounded-lg">
-                  <p className="font-semibold text-brand-brown mb-2">💡 Our Recommendation:</p>
+                  <p className="font-semibold text-brand-brown mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Our Recommendation:</p>
                   <p className="text-gray-700">Class 4 IR shingles are the best choice for most Texas homeowners. They balance cost, performance, and hail resistance. Brands we recommend: GAF Timberline HDZ, Owens Corning Duration Storm, CertainTeed Landmark IR.</p>
                 </div>
               </div>
@@ -137,7 +138,7 @@ export default function BestRoofingMaterialsTexasPage() {
               {/* Metal Roofing */}
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-gray-400">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="text-5xl">🥈</div>
+                  <div className="text-5xl"><Medal className="w-6 h-6 inline-block" /></div>
                   <div>
                     <h3 className="text-3xl font-bold text-brand-brown">2. Metal Roofing</h3>
                     <p className="text-lg text-gray-600">Best Long-Term Investment</p>
@@ -150,7 +151,7 @@ export default function BestRoofingMaterialsTexasPage() {
 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div>
-                    <h4 className="font-bold text-brand-brown mb-3">✓ Advantages for Texas:</h4>
+                    <h4 className="font-bold text-brand-brown mb-3"><Check className="w-5 h-5 text-brand-gold inline-block" /> Advantages for Texas:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• 50-70+ year lifespan</li>
                       <li>• Hail-resistant (dents are cosmetic)</li>
@@ -162,7 +163,7 @@ export default function BestRoofingMaterialsTexasPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-brand-brown mb-3">✗ Disadvantages:</h4>
+                    <h4 className="font-bold text-brand-brown mb-3"><X className="w-5 h-5 text-red-600 inline-block" /> Disadvantages:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• Higher upfront cost ($10-$18 per sq ft)</li>
                       <li>• Can be noisy in heavy rain/hail</li>
@@ -173,7 +174,7 @@ export default function BestRoofingMaterialsTexasPage() {
                 </div>
 
                 <div className="bg-brand-gold-light p-4 rounded-lg">
-                  <p className="font-semibold text-brand-brown mb-2">💡 Our Recommendation:</p>
+                  <p className="font-semibold text-brand-brown mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Our Recommendation:</p>
                   <p className="text-gray-700">Metal roofing is ideal if you plan to stay in your home long-term (15+ years). The higher upfront cost is offset by longevity, energy savings, and virtually no maintenance. Standing seam is best for homes; R-panel works for shops/barns.</p>
                 </div>
               </div>
@@ -181,7 +182,7 @@ export default function BestRoofingMaterialsTexasPage() {
               {/* Clay & Concrete Tile */}
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-orange-400">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="text-5xl">🥉</div>
+                  <div className="text-5xl"><Medal className="w-6 h-6 inline-block" /></div>
                   <div>
                     <h3 className="text-3xl font-bold text-brand-brown">3. Clay & Concrete Tile</h3>
                     <p className="text-lg text-gray-600">Best for South/Central Texas</p>
@@ -194,7 +195,7 @@ export default function BestRoofingMaterialsTexasPage() {
 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div>
-                    <h4 className="font-bold text-brand-brown mb-3">✓ Advantages for Texas:</h4>
+                    <h4 className="font-bold text-brand-brown mb-3"><Check className="w-5 h-5 text-brand-gold inline-block" /> Advantages for Texas:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• 50-100 year lifespan</li>
                       <li>• Excellent heat resistance</li>
@@ -205,7 +206,7 @@ export default function BestRoofingMaterialsTexasPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-brand-brown mb-3">✗ Disadvantages:</h4>
+                    <h4 className="font-bold text-brand-brown mb-3"><X className="w-5 h-5 text-red-600 inline-block" /> Disadvantages:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• Heavy (requires structural reinforcement)</li>
                       <li>• Expensive ($12-$25+ per sq ft)</li>
@@ -217,7 +218,7 @@ export default function BestRoofingMaterialsTexasPage() {
                 </div>
 
                 <div className="bg-brand-gold-light p-4 rounded-lg">
-                  <p className="font-semibold text-brand-brown mb-2">💡 Our Recommendation:</p>
+                  <p className="font-semibold text-brand-brown mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Our Recommendation:</p>
                   <p className="text-gray-700">Tile is beautiful and long-lasting, but we don't recommend it for West Texas (Amarillo, Midland, Lubbock) due to hail. It's better suited for San Antonio, Austin, Houston where hail is less severe.</p>
                 </div>
               </div>
@@ -225,7 +226,7 @@ export default function BestRoofingMaterialsTexasPage() {
               {/* Standard 3-Tab Shingles */}
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-400">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="text-5xl">⚠️</div>
+                  <div className="text-5xl"><AlertTriangle className="w-6 h-6 inline-block" /></div>
                   <div>
                     <h3 className="text-3xl font-bold text-brand-brown">4. Standard 3-Tab Asphalt Shingles</h3>
                     <p className="text-lg text-red-600">NOT Recommended for Texas</p>
@@ -249,7 +250,7 @@ export default function BestRoofingMaterialsTexasPage() {
                 </div>
 
                 <div className="bg-brand-gold-light p-4 rounded-lg">
-                  <p className="font-semibold text-brand-brown mb-2">💡 Our Recommendation:</p>
+                  <p className="font-semibold text-brand-brown mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Our Recommendation:</p>
                   <p className="text-gray-700">Don't save $2,000 upfront only to replace your roof 10 years earlier. Spend the extra $2-3 per square foot for impact-resistant architectural shingles—you'll save money in the long run.</p>
                 </div>
               </div>
@@ -264,17 +265,17 @@ export default function BestRoofingMaterialsTexasPage() {
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-bold text-brand-brown mb-3">🌪️ West Texas (Amarillo, Lubbock, Midland, Odessa - Hail Alley)</h3>
+                    <h3 className="text-xl font-bold text-brand-brown mb-3"><Tornado className="w-6 h-6 inline-block" /> West Texas (Amarillo, Lubbock, Midland, Odessa - Hail Alley)</h3>
                     <p className="text-gray-700 mb-3"><strong>Best Choice:</strong> Class 4 Impact-Resistant Shingles or Metal Roofing</p>
                     <p className="text-gray-600">Hail is the #1 concern. Class 4 shingles are essential. Metal roofs also excellent but more expensive. Avoid tile—hail will crack it.</p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-brand-brown mb-3">☀️ South Texas (San Antonio, Corpus Christi - Heat & Humidity)</h3>
+                    <h3 className="text-xl font-bold text-brand-brown mb-3"><Sun className="w-6 h-6 inline-block" /> South Texas (San Antonio, Corpus Christi - Heat & Humidity)</h3>
                     <p className="text-gray-700 mb-3"><strong>Best Choice:</strong> Metal Roofing or Tile</p>
                     <p className="text-gray-600">Heat and humidity are primary concerns. Metal reflects heat excellently. Tile also performs well. IR shingles work but opt for light colors.</p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-brand-brown mb-3">🌳 East Texas (Dallas, Houston, Austin - Humidity & Storms)</h3>
+                    <h3 className="text-xl font-bold text-brand-brown mb-3"><TreeDeciduous className="w-6 h-6 inline-block" /> East Texas (Dallas, Houston, Austin - Humidity & Storms)</h3>
                     <p className="text-gray-700 mb-3"><strong>Best Choice:</strong> Class 4 IR Shingles or Metal</p>
                     <p className="text-gray-600">High humidity and frequent storms. IR shingles with good algae resistance. Metal also excellent for longevity. Both handle wind well.</p>
                   </div>
@@ -359,7 +360,7 @@ export default function BestRoofingMaterialsTexasPage() {
             <h2 className="cta-title">Get Expert Roofing Advice</h2>
             <p className="cta-text">Need help choosing the right roofing material for your Texas home? We provide free consultations and estimates throughout West Texas.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">Free Consultation</a>
             </div>
           </section>

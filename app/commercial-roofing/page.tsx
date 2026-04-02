@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Briefcase, Shield, Zap } from "lucide-react";
 
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -383,17 +384,17 @@ export default function Page() {
 
       <div className="grid md:grid-cols-3 gap-4 mb-8">
         <div className="text-center p-4 bg-gray-50 rounded-lg">
-          <div className="text-3xl mb-2">⚡</div>
+          <div className="text-3xl mb-2"><Zap className="w-6 h-6 inline-block" /></div>
           <h3 className="font-bold mb-2">Fast Response</h3>
           <p className="text-sm text-gray-600">prompt service available when you need it most</p>
         </div>
         <div className="text-center p-4 bg-gray-50 rounded-lg">
-          <div className="text-3xl mb-2">💼</div>
+          <div className="text-3xl mb-2"><Briefcase className="w-6 h-6 inline-block" /></div>
           <h3 className="font-bold mb-2">Business-Focused</h3>
           <p className="text-sm text-gray-600">We minimize disruption to your operations</p>
         </div>
         <div className="text-center p-4 bg-gray-50 rounded-lg">
-          <div className="text-3xl mb-2">🛡️</div>
+          <div className="text-3xl mb-2"><Shield className="w-6 h-6 inline-block" /></div>
           <h3 className="font-bold mb-2">Fully Licensed & Insured</h3>
           <p className="text-sm text-gray-600">Comprehensive coverage for your protection</p>
         </div>

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { ClipboardList, Factory, Fuel, Phone, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-andrews/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function CommercialRoofingAndrewsPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Andrews. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingAndrewsPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -148,7 +149,7 @@ export default function CommercialRoofingAndrewsPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Services for Andrews' Key Industries Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🛢️ Oil & Gas Facilities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Oil & Gas Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Andrews sits at the center of the Permian Basin's oil boom, hosting numerous drilling operations, processing facilities, and support services. These industrial facilities require specialized roofing systems that can handle:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Chemical exposure from petroleum operations</li>
@@ -161,7 +162,7 @@ export default function CommercialRoofingAndrewsPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌾 Agricultural Operations</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Agricultural Operations</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Andrews' agricultural sector, centered on livestock production and cattle ranching, requires roofing solutions for barns, storage facilities, and processing buildings that can withstand:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Corrosive effects from livestock areas</li>
@@ -190,7 +191,7 @@ export default function CommercialRoofingAndrewsPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🏭</span>
+                  <span className="text-white text-2xl"><Factory className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Industrial Expertise</h3>
                 <p className="text-gray-700">Specialized experience with oil & gas, agricultural, and industrial facilities throughout the Permian Basin region.</p>
@@ -198,7 +199,7 @@ export default function CommercialRoofingAndrewsPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">📋</span>
+                  <span className="text-white text-2xl"><ClipboardList className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Complete Project Management</h3>
                 <p className="text-gray-700">We handle permits, inspections, insurance claims, and all project coordination so you can focus on your business.</p>

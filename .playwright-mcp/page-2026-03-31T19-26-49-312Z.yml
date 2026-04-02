@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "5 Star Commercial Roofing" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "5 Star Commercial Roofing" [ref=e6]
+        - generic [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services/
+            - text: Services
+            - img [ref=e11]
+          - link "Areas" [ref=e14] [cursor=pointer]:
+            - /url: /service-areas/
+            - text: Areas
+            - img [ref=e15]
+          - link "Gallery" [ref=e17] [cursor=pointer]:
+            - /url: /gallery/
+          - link "Blog" [ref=e18] [cursor=pointer]:
+            - /url: /blog/
+          - link "Reviews" [ref=e19] [cursor=pointer]:
+            - /url: /reviews/
+          - link "About" [ref=e20] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+  - main [ref=e22]:
+    - navigation "Breadcrumb" [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Home" [ref=e26] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e27]:
+          - img [ref=e28]
+          - generic [ref=e30]: Contact
+    - generic [ref=e34]:
+      - heading "Get In Touch With West Texas's Roofing Experts" [level=1] [ref=e35]
+      - paragraph [ref=e36]: Ready to protect your property? Contact us today for a free inspection and expert consultation.
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - heading "Request a Free Inspection" [level=2] [ref=e41]
+          - paragraph [ref=e42]: Fill out the form below and we'll get back to you within 24 hours. All inspections are completely free with no obligation.
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - heading "Get Your Free Roof Inspection" [level=3] [ref=e45]
+              - paragraph [ref=e46]: Fill out the form below and we'll get back to you within 24 hours.
+            - iframe [ref=e48]:
+              - generic [active] [ref=f3e1]:
+                - generic [ref=f3e3]:
+                  - alert [ref=f3e4]
+                  - generic [ref=f3e15]:
+                    - textbox "Your Full Name*" [ref=f3e22]
+                    - textbox "City" [ref=f3e29]
+                    - generic [ref=f3e37]:
+                      - 'combobox "United States: +1" [ref=f3e39]'
+                      - textbox "Phone*" [ref=f3e42]
+                    - textbox "Email*" [ref=f3e48]
+                    - textbox "I might have hail damage or need a new roof, I'd like to schedule a free roof evaluation*" [ref=f3e53]
+                    - generic [ref=f3e58]:
+                      - checkbox [ref=f3e59]
+                      - paragraph [ref=f3e62]: By providing my phone number, I agree to receive text messages and emails from the business. I understand that I may opt out at any time, and that my information will never be rented, sold, or shared.
+                    - button "Submit" [ref=f3e67] [cursor=pointer]:
+                      - paragraph [ref=f3e71]: Submit
+                - iframe [ref=f3e72]:
+                  - generic [ref=f5e2]:
+                    - generic [ref=f5e5]:
+                      - link "Privacy" [ref=f5e6] [cursor=pointer]:
+                        - /url: https://www.google.com/intl/en/policies/privacy/
+                      - text: "-"
+                      - link "Terms" [ref=f5e7] [cursor=pointer]:
+                        - /url: https://www.google.com/intl/en/policies/terms/
+                    - generic [ref=f5e8]:
+                      - generic [ref=f5e9]:
+                        - text: protected by
+                        - strong [ref=f5e10]: reCAPTCHA
+                      - generic [ref=f5e11]: "-"
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Contact Information" [level=2] [ref=e56]
+            - paragraph [ref=e57]: Reach out to us directly through any of these channels. We're here to help with all your roofing needs.
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e60]: 📞
+              - generic [ref=e61]:
+                - heading "Phone" [level=3] [ref=e62]
+                - link "(806) 622-6041" [ref=e63] [cursor=pointer]:
+                  - /url: tel:8066226041
+                - paragraph [ref=e64]: Click to call now
+            - generic [ref=e65]:
+              - generic [ref=e66]: ✉️
+              - generic [ref=e67]:
+                - heading "Email" [level=3] [ref=e68]
+                - link "admin@5starroofingpros.com" [ref=e69] [cursor=pointer]:
+                  - /url: mailto:admin@5starroofingpros.com
+            - generic [ref=e70]:
+              - generic [ref=e71]: 📍
+              - generic [ref=e72]:
+                - heading "Address" [level=3] [ref=e73]
+                - link "2909 S Western St Amarillo, TX 79109" [ref=e74] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/search/?api=1&query=2909+S+Western+St+Amarillo+TX+79109
+                  - text: 2909 S Western St
+                  - text: Amarillo, TX 79109
+                - paragraph [ref=e75]: Click for directions
+            - generic [ref=e76]:
+              - generic [ref=e77]: 🕒
+              - generic [ref=e78]:
+                - heading "Business Hours" [level=3] [ref=e79]
+                - paragraph [ref=e80]: Monday - Sunday
+                - paragraph [ref=e81]: 9:00 AM - 5:00 PM
+      - generic [ref=e83]:
+        - heading "Visit Our Location" [level=2] [ref=e84]
+        - iframe [ref=e86]:
+          
+      - generic [ref=e88]:
+        - heading "Our Service Areas" [level=2] [ref=e89]
+        - paragraph [ref=e90]: Proudly serving communities throughout West Texas and the Panhandle with expert roofing services
+        - generic [ref=e91]:
+          - link "🏙️ Amarillo" [ref=e93] [cursor=pointer]:
+            - /url: /amarillo-texas-roofing/
+            - generic [ref=e94]: 🏙️
+            - generic [ref=e95]: Amarillo
+          - link "🌆 Midland" [ref=e97] [cursor=pointer]:
+            - /url: /midland-tx-roofing/
+            - generic [ref=e98]: 🌆
+            - generic [ref=e99]: Midland
+          - link "🏘️ Odessa" [ref=e101] [cursor=pointer]:
+            - /url: /odessa-tx-roofing/
+            - generic [ref=e102]: 🏘️
+            - generic [ref=e103]: Odessa
+          - link "🌃 Lubbock" [ref=e105] [cursor=pointer]:
+            - /url: /lubbock-tx-roofing/
+            - generic [ref=e106]: 🌃
+            - generic [ref=e107]: Lubbock
+          - link "🏞️ Canyon" [ref=e109] [cursor=pointer]:
+            - /url: /canyon-texas-roofing/
+            - generic [ref=e110]: 🏞️
+            - generic [ref=e111]: Canyon
+          - link "🏡 Pampa" [ref=e113] [cursor=pointer]:
+            - /url: /service-areas/
+            - generic [ref=e114]: 🏡
+            - generic [ref=e115]: Pampa
+          - link "🏠 Borger" [ref=e117] [cursor=pointer]:
+            - /url: /service-areas/
+            - generic [ref=e118]: 🏠
+            - generic [ref=e119]: Borger
+          - link "🌾 Hereford" [ref=e121] [cursor=pointer]:
+            - /url: /service-areas/
+            - generic [ref=e122]: 🌾
+            - generic [ref=e123]: Hereford
+          - link "🌻 Plainview" [ref=e125] [cursor=pointer]:
+            - /url: /service-areas/
+            - generic [ref=e126]: 🌻
+            - generic [ref=e127]: Plainview
+          - link "⭐ Dumas" [ref=e129] [cursor=pointer]:
+            - /url: /service-areas/
+            - generic [ref=e130]: ⭐
+            - generic [ref=e131]: Dumas
+        - paragraph [ref=e132]:
+          - text: Don't see your city listed?
+          - link "Call us" [ref=e133] [cursor=pointer]:
+            - /url: tel:8066226041
+          - text: "- we may still serve your area!"
+      - generic [ref=e135]:
+        - heading "Why Choose 5 Star Commercial Roofing?" [level=2] [ref=e136]
+        - generic [ref=e137]:
+          - generic [ref=e142]:
+            - generic [ref=e143]: ✅
+            - heading "Free Inspections" [level=3] [ref=e144]
+            - paragraph [ref=e145]: Comprehensive roof evaluations at no cost to you. No obligation, no pressure.
+          - generic [ref=e150]:
+            - generic [ref=e151]: 📋
+            - heading "Insurance Experts" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Full assistance with insurance claims and documentation for hassle-free repairs.
+          - generic [ref=e158]:
+            - generic [ref=e159]: ⚡
+            - heading "Fast Response" [level=3] [ref=e160]
+            - paragraph [ref=e161]: Quick scheduling and prompt service when you need roof repairs or inspections.
+          - generic [ref=e166]:
+            - generic [ref=e167]: ⭐
+            - heading "10+ Years Experience" [level=3] [ref=e168]
+            - paragraph [ref=e169]: Trusted by West Texas homeowners and businesses for over a decade.
+      - generic [ref=e171]:
+        - heading "Our Roofing Services" [level=2] [ref=e172]
+        - paragraph [ref=e173]: From storm damage repairs to complete roof replacements, we offer comprehensive roofing solutions for residential and commercial properties across West Texas.
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - heading "Hail Damage Repair" [level=3] [ref=e176]
+            - paragraph [ref=e177]:
+              - text: Expert
+              - link "hail damage repair" [ref=e178] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+              - text: services with insurance claim assistance throughout the Texas Panhandle.
+          - generic [ref=e179]:
+            - heading "Residential Roofing" [level=3] [ref=e180]
+            - paragraph [ref=e181]:
+              - text: Complete
+              - link "residential roofing" [ref=e182] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+              - text: solutions including repairs, replacements, and new installations.
+          - generic [ref=e183]:
+            - heading "Commercial Roofing" [level=3] [ref=e184]
+            - paragraph [ref=e185]:
+              - text: Specialized
+              - link "commercial roofing" [ref=e186] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+              - text: for businesses, warehouses, and industrial facilities.
+        - link "View All Services" [ref=e188] [cursor=pointer]:
+          - /url: /services/
+      - generic [ref=e190]:
+        - heading "Ready to Get Started?" [level=2] [ref=e191]
+        - paragraph [ref=e192]: Don't wait until minor damage becomes a major problem. Contact us today for your free, no-obligation roof inspection.
+        - generic [ref=e193]:
+          - link "📞 Call (806) 622-6041" [ref=e194] [cursor=pointer]:
+            - /url: tel:8066226041
+            - generic [ref=e195]: 📞
+            - text: Call (806) 622-6041
+          - link "✉️ Email Us Today" [ref=e196] [cursor=pointer]:
+            - /url: mailto:admin@5starroofingpros.com
+            - generic [ref=e197]: ✉️
+            - text: Email Us Today
+  - contentinfo [ref=e198]:
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - heading "Contact Us" [level=3] [ref=e202]
+          - paragraph [ref=e203]: 2909 S Western St
+          - paragraph [ref=e204]: Amarillo, TX 79109
+          - paragraph [ref=e205]:
+            - link "(806) 622-6041" [ref=e206] [cursor=pointer]:
+              - /url: tel:8066226041
+          - paragraph [ref=e207]:
+            - link "admin@5starroofingpros.com" [ref=e208] [cursor=pointer]:
+              - /url: mailto:admin@5starroofingpros.com
+          - generic [ref=e209]:
+            - paragraph [ref=e210]: Hours
+            - paragraph [ref=e211]: Monday - Sunday
+            - paragraph [ref=e212]: 9:00 AM - 5:00 PM
+        - generic [ref=e213]:
+          - heading "Services" [level=3] [ref=e214]
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Residential Roofing" [ref=e217] [cursor=pointer]:
+                - /url: /residential-roofing/
+            - listitem [ref=e218]:
+              - link "Commercial Roofing" [ref=e219] [cursor=pointer]:
+                - /url: /commercial-roofing/
+            - listitem [ref=e220]:
+              - link "Hail Damage Repair" [ref=e221] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e222]:
+              - link "Roof Inspections" [ref=e223] [cursor=pointer]:
+                - /url: /roof-inspections-amarillo/
+            - listitem [ref=e224]:
+              - link "Roof Replacement" [ref=e225] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+            - listitem [ref=e226]:
+              - link "Asphalt Shingles" [ref=e227] [cursor=pointer]:
+                - /url: /asphalt-shingle-roofing-amarillo/
+            - listitem [ref=e228]:
+              - link "Metal Roofing" [ref=e229] [cursor=pointer]:
+                - /url: /metal-roof-installation-odessa-texas/
+        - generic [ref=e230]:
+          - heading "Major Cities" [level=3] [ref=e231]
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - link "Amarillo Roofing" [ref=e234] [cursor=pointer]:
+                - /url: /amarillo-texas-roofing/
+            - listitem [ref=e235]:
+              - link "Midland Roofing" [ref=e236] [cursor=pointer]:
+                - /url: /midland-tx-roofing/
+            - listitem [ref=e237]:
+              - link "Odessa Roofing" [ref=e238] [cursor=pointer]:
+                - /url: /odessa-tx-roofing/
+            - listitem [ref=e239]:
+              - link "Lubbock Roofing" [ref=e240] [cursor=pointer]:
+                - /url: /lubbock-tx-roofing/
+            - listitem [ref=e241]:
+              - link "Canyon Roofing" [ref=e242] [cursor=pointer]:
+                - /url: /canyon-texas-roofing/
+            - listitem [ref=e243]:
+              - link "Bushland" [ref=e244] [cursor=pointer]:
+                - /url: /bushland-tx-roofing/
+            - listitem [ref=e245]:
+              - link "All Service Areas →" [ref=e246] [cursor=pointer]:
+                - /url: /service-areas/
+        - generic [ref=e247]:
+          - heading "Resources" [level=3] [ref=e248]
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "Project Gallery" [ref=e251] [cursor=pointer]:
+                - /url: /gallery/
+            - listitem [ref=e252]:
+              - link "Roofing Blog" [ref=e253] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e254]:
+              - link "Customer Reviews" [ref=e255] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e256]:
+              - link "About Us" [ref=e257] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e258]:
+              - link "Contact" [ref=e259] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e260]:
+              - link "Weather Impact" [ref=e261] [cursor=pointer]:
+                - /url: /amarillo-weather-impact-on-roofing/
+            - listitem [ref=e262]:
+              - link "Installation Methods" [ref=e263] [cursor=pointer]:
+                - /url: /roofing-methods/
+        - generic [ref=e264]:
+          - heading "Specialties" [level=3] [ref=e265]
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Hail Damage" [ref=e268] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e269]:
+              - link "Storm Damage" [ref=e270] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+            - listitem [ref=e271]:
+              - link "Wind Damage" [ref=e272] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+            - listitem [ref=e273]:
+              - link "Commercial TPO" [ref=e274] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+            - listitem [ref=e275]:
+              - link "Residential Repair" [ref=e276] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+            - listitem [ref=e277]:
+              - link "PVC Roofing" [ref=e278] [cursor=pointer]:
+                - /url: /pvc-roofing-contractors-in-amarillo/
+      - generic [ref=e279]:
+        - paragraph [ref=e280]: © 2026 5 Star Commercial Roofing. All rights reserved.
+        - paragraph [ref=e281]: Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
+  - alert [ref=e282]

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Circle, CloudLightning, Home, Lightbulb, Phone, Recycle, Star, Sun, Tornado, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-lubbock/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function MetalRoofingLubbockPage() {
         "@id": "https://5starroofingpros.com/metal-roofing-lubbock/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-4-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function MetalRoofingLubbockPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional metal roofing throughout Lubbock. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function MetalRoofingLubbockPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -147,10 +148,10 @@ export default function MetalRoofingLubbockPage() {
                 <div className="bg-red-50 p-6 rounded-xl border border-red-200">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Lubbock Durability Advantages:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Tornado-zone rated construction</li>
-                    <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Class 4 hail impact resistance</li>
-                    <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> 90+ mph sustained wind ratings</li>
-                    <li className="flex items-center"><span className="text-red-600 mr-2">✓</span> Extreme temperature cycle resistance</li>
+                    <li className="flex items-center"><span className="text-red-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Tornado-zone rated construction</li>
+                    <li className="flex items-center"><span className="text-red-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Class 4 hail impact resistance</li>
+                    <li className="flex items-center"><span className="text-red-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> 90+ mph sustained wind ratings</li>
+                    <li className="flex items-center"><span className="text-red-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Extreme temperature cycle resistance</li>
                   </ul>
                 </div>
               </div>
@@ -233,7 +234,7 @@ export default function MetalRoofingLubbockPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-gradient-to-br from-gray-900 to-gray-700 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">⛈️</div>
+                  <div className="text-4xl mb-4 text-center"><CloudLightning className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Severe Thunderstorms</h3>
                   <p className="mb-4">Lubbock averages 50+ thunderstorm days annually, with frequent large hail and damaging winds.</p>
                   <ul className="space-y-1 text-sm">
@@ -243,7 +244,7 @@ export default function MetalRoofingLubbockPage() {
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-orange-600 to-red-600 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">🌪️</div>
+                  <div className="text-4xl mb-4 text-center"><Tornado className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Tornado Activity</h3>
                   <p className="mb-4">Located in Tornado Alley with documented F4/F5 tornado events requiring maximum wind resistance.</p>
                   <ul className="space-y-1 text-sm">
@@ -253,7 +254,7 @@ export default function MetalRoofingLubbockPage() {
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-yellow-500 to-orange-500 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">☀️</div>
+                  <div className="text-4xl mb-4 text-center"><Sun className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Intense UV Exposure</h3>
                   <p className="mb-4">High plains elevation and clear skies create extreme UV conditions requiring premium coatings.</p>
                   <ul className="space-y-1 text-sm">
@@ -381,32 +382,32 @@ export default function MetalRoofingLubbockPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🌪️</div>
+                  <div className="text-4xl mb-4 text-center"><Tornado className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Tornado Protection</h3>
                   <p className="text-gray-700">Superior wind uplift resistance designed for Tornado Alley conditions. Our installations exceed building codes with enhanced fastening and structural connections proven in extreme wind events.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🥎</div>
+                  <div className="text-4xl mb-4 text-center"><Circle className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Hail Resistance</h3>
                   <p className="text-gray-700">Class 4 impact rating protects against Lubbock's frequent large hail events. Many insurance companies offer significant discounts for impact-resistant metal roofing systems.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">💡</div>
+                  <div className="text-4xl mb-4 text-center"><Lightbulb className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Energy Savings</h3>
                   <p className="text-gray-700">Reflective coatings reduce cooling costs in Lubbock's intense summer heat. High plains elevation and minimal shade make energy-efficient roofing especially valuable.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🔧</div>
+                  <div className="text-4xl mb-4 text-center"><Wrench className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Low Maintenance</h3>
                   <p className="text-gray-700">Ideal for Lubbock's dusty, windy conditions. Unlike asphalt shingles, metal roofing won't lose granules, crack, or require frequent repairs from weather damage.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🏠</div>
+                  <div className="text-4xl mb-4 text-center"><Home className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Home Value</h3>
                   <p className="text-gray-700">Significant ROI in Lubbock's market. Buyers appreciate durability, energy efficiency, and protection from severe weather common in the South Plains region.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">♻️</div>
+                  <div className="text-4xl mb-4 text-center"><Recycle className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Sustainability</h3>
                   <p className="text-gray-700">Environmentally responsible choice with high recycled content and complete recyclability. Reduces landfill waste compared to frequent asphalt shingle replacement.</p>
                 </div>

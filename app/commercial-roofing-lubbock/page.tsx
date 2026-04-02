@@ -11,6 +11,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -54,7 +55,7 @@ export default function CommercialRoofingLubbockPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/commercial-roofing-lubbock/#localbusiness",
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
@@ -208,7 +209,7 @@ export default function CommercialRoofingLubbockPage() {
                 Expert commercial roofing for Lubbock's diverse business community. Impact-resistant TPO, EPDM, and metal roofing systems engineered for Lubbock County's 273 annual hail reports. Specialized service for Texas Tech University, University Medical Center, and agriculture facilities throughout the South Plains.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -238,7 +239,7 @@ export default function CommercialRoofingLubbockPage() {
                 <div className="text-brand-brown font-semibold text-lg">Tech Students Served</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -277,10 +278,10 @@ export default function CommercialRoofingLubbockPage() {
                   Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs for Texas Tech buildings and healthcare facilities. Excellent hail resistance proven in Lubbock County's extreme weather conditions.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 15-25 year warranties</li>
-                  <li>✓ Energy-efficient for large facilities</li>
-                  <li>✓ UL 2218 Class 4 hail resistance available</li>
-                  <li>✓ Ideal for flat roofs on educational buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-25 year warranties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy-efficient for large facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UL 2218 Class 4 hail resistance available</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ideal for flat roofs on educational buildings</li>
                 </ul>
               </div>
 
@@ -291,10 +292,10 @@ export default function CommercialRoofingLubbockPage() {
                   Standing seam and R-panel metal roofing for agriculture and industrial applications. Superior wind resistance for grain elevators, cotton warehouses, and processing facilities. Fire resistance critical for agricultural operations storing combustible materials.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 50+ year lifespan for agriculture facilities</li>
-                  <li>✓ Class A fire rating for grain storage</li>
-                  <li>✓ Wind resistance 140+ mph</li>
-                  <li>✓ Low maintenance for remote locations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />50+ year lifespan for agriculture facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Class A fire rating for grain storage</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance 140+ mph</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Low maintenance for remote locations</li>
                 </ul>
               </div>
 
@@ -305,10 +306,10 @@ export default function CommercialRoofingLubbockPage() {
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance in Lubbock's high-elevation sun exposure. Budget-friendly option for agriculture warehouses and smaller commercial buildings throughout Lubbock County.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 15-30 year lifespan</li>
-                  <li>✓ Excellent UV resistance</li>
-                  <li>✓ Budget-friendly for agriculture facilities</li>
-                  <li>✓ Rapid installation minimizes downtime</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-30 year lifespan</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Excellent UV resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Budget-friendly for agriculture facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Rapid installation minimizes downtime</li>
                 </ul>
               </div>
             </div>
@@ -392,12 +393,12 @@ export default function CommercialRoofingLubbockPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Key Code Requirements</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>International Residential Code (IRC)</strong></li>
-                    <li>✓ Wind resistance: 110-125 mph design standards</li>
-                    <li>✓ Energy efficiency standards for large buildings</li>
-                    <li>✓ Fire resistance requirements for agriculture facilities</li>
-                    <li>✓ Proper drainage and overflow systems</li>
-                    <li>✓ UL 2218 Class 4 hail resistance recommended</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>International Residential Code (IRC)</strong></li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance: 110-125 mph design standards</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy efficiency standards for large buildings</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fire resistance requirements for agriculture facilities</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Proper drainage and overflow systems</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UL 2218 Class 4 hail resistance recommended</li>
                   </ul>
                 </div>
               </div>
@@ -455,7 +456,7 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl">
             <div className="flex gap-6 items-center">
-              <div className="text-6xl">🚨</div>
+              <div className="text-6xl"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">

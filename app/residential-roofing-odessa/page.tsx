@@ -11,6 +11,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, ClipboardList, CloudLightning, Home, Lightbulb, Phone, Search, Star, Thermometer, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-odessa/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -54,7 +55,7 @@ export default function ResidentialRoofingOdessaPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/residential-roofing-odessa/#localbusiness",
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
@@ -159,7 +160,7 @@ export default function ResidentialRoofingOdessaPage() {
                 Expert residential roofing in Odessa. Class 4 impact-resistant shingles reduce future damage by 90%. Free inspections and insurance claim assistance included.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -189,7 +190,7 @@ export default function ResidentialRoofingOdessaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -217,58 +218,58 @@ export default function ResidentialRoofingOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Complete Residential Roofing Services Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🏠</div>
+                <div className="text-5xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">New Roof Installation</h3>
                 <p className="text-gray-700 mb-4">Complete roof replacements using premium materials built for Odessa's challenging climate. From architectural shingles to metal roofing systems.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Class 4 impact-resistant shingles</li>
-                  <li>✓ Architectural asphalt shingles</li>
-                  <li>✓ Standing seam metal roofs</li>
-                  <li>✓ Complete tear-off and replacement</li>
-                  <li>✓ Enhanced ventilation systems</li>
-                  <li>✓ Comprehensive warranties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Class 4 impact-resistant shingles</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Architectural asphalt shingles</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Standing seam metal roofs</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Complete tear-off and replacement</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced ventilation systems</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Comprehensive warranties</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">⛈️</div>
+                <div className="text-5xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Damage Restoration</h3>
                 <p className="text-gray-700 mb-4">Odessa faces frequent severe weather. We specialize in hail damage detection, wind damage repair, and complete insurance claim management.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Free storm damage inspections</li>
-                  <li>✓ Insurance documentation</li>
-                  <li>✓ Adjuster meetings and advocacy</li>
-                  <li>✓ Tarping services</li>
-                  <li>✓ Complete damage restoration</li>
-                  <li>✓ Direct insurance billing</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free storm damage inspections</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance documentation</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Adjuster meetings and advocacy</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Tarping services</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Complete damage restoration</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Direct insurance billing</li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🔧</div>
+                <div className="text-5xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Roof Repairs & Maintenance</h3>
                 <p className="text-gray-700 mb-4">Expert repair services for all types of residential roofing issues. Fast response times and quality materials ensure lasting solutions.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Leak detection and repair</li>
-                  <li>✓ Missing shingle replacement</li>
-                  <li>✓ Flashing and vent repairs</li>
-                  <li>✓ Preventive maintenance plans</li>
-                  <li>✓ Gutter installation and repair</li>
-                  <li>✓ </li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Leak detection and repair</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Missing shingle replacement</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Flashing and vent repairs</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Preventive maintenance plans</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Gutter installation and repair</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /></li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🔍</div>
+                <div className="text-5xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Professional Inspections</h3>
                 <p className="text-gray-700 mb-4">Comprehensive roof inspections for home purchases, insurance requirements, or regular maintenance assessments.</p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>✓ Free damage assessments</li>
-                  <li>✓ Pre-purchase inspections</li>
-                  <li>✓ Detailed written reports</li>
-                  <li>✓ Photo documentation</li>
-                  <li>✓ Insurance-ready assessments</li>
-                  <li>✓ Maintenance recommendations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free damage assessments</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Pre-purchase inspections</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Detailed written reports</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Photo documentation</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance-ready assessments</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Maintenance recommendations</li>
                 </ul>
               </div>
             </div>
@@ -280,7 +281,7 @@ export default function ResidentialRoofingOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Odessa Neighborhoods Do We Serve?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">🏘️ Popular Odessa Residential Areas</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Home className="w-6 h-6 inline-block" /> Popular Odessa Residential Areas</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
                     <h4 className="font-semibold text-brand-brown mb-2">Crestview</h4>
@@ -360,7 +361,7 @@ export default function ResidentialRoofingOdessaPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-semibold text-brand-brown mb-4">💡 Value-Added Services</h3>
+                <h3 className="font-semibold text-brand-brown mb-4"><Lightbulb className="w-6 h-6 inline-block" /> Value-Added Services</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-medium mb-2">Insurance Claim Optimization</h4>
@@ -374,7 +375,7 @@ export default function ResidentialRoofingOdessaPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg">
-                <p className="font-semibold text-brand-brown mb-2">📋 Transparent Pricing & Estimates</p>
+                <p className="font-semibold text-brand-brown mb-2"><ClipboardList className="w-6 h-6 inline-block" /> Transparent Pricing & Estimates</p>
                 <p className="text-gray-700">All estimates include detailed material specifications, labor breakdown, timeline, and warranty information. Most estimates provided within 24 hours. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> for your free assessment.</p>
               </div>
             </div>
@@ -386,7 +387,7 @@ export default function ResidentialRoofingOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Odessa Climate & Roofing Performance Involve?</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">🌡️ Climate Challenges for Odessa Roofs</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Challenges for Odessa Roofs</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">Heat & UV Exposure</h4>
@@ -412,7 +413,7 @@ export default function ResidentialRoofingOdessaPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4">🔧 Material Performance in Odessa</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4"><Wrench className="w-6 h-6 inline-block" /> Material Performance in Odessa</h3>
                 <div className="space-y-4">
                   <p className="text-gray-700">Understanding how different roofing materials perform in Odessa's climate helps homeowners make informed decisions about replacement timing and material selection.</p>
                   <div className="grid md:grid-cols-3 gap-4">

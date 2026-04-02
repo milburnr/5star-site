@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { BarChart3, DollarSign, Factory, Flower2, Leaf, Microscope, Phone, Snowflake, Star, Sun, Thermometer, Tornado, Truck, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-midland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function RoofInspectionsMidlandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-midland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function RoofInspectionsMidlandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional roof inspections throughout Midland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function RoofInspectionsMidlandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -143,7 +144,7 @@ export default function RoofInspectionsMidlandPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Permian Basin Industrial Impact Assessment?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Chemical Exposure Analysis</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Chemical Exposure Analysis</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Hydrogen Sulfide Corrosion:</strong> Assessment of H2S damage to metal roofing and fasteners</li>
                   <li><strong>Petrochemical Residue:</strong> Detection of hydrocarbon contamination on roofing materials</li>
@@ -153,7 +154,7 @@ export default function RoofInspectionsMidlandPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🚛 Industrial Traffic Effects</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Truck className="w-6 h-6 inline-block" /> Industrial Traffic Effects</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Vibration Damage:</strong> Structural loosening from heavy truck traffic and drilling operations</li>
                   <li><strong>Dust Load Assessment:</strong> Caliche road dust accumulation and filtration impacts</li>
@@ -163,7 +164,7 @@ export default function RoofInspectionsMidlandPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌵 Desert Environment Challenges</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Sun className="w-6 h-6 inline-block" /> Desert Environment Challenges</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Sandstorm Abrasion:</strong> Wind-driven sand damage to protective coatings and surfaces</li>
                   <li><strong>UV Intensification:</strong> High-altitude, low-humidity UV exposure acceleration</li>
@@ -173,7 +174,7 @@ export default function RoofInspectionsMidlandPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Infrastructure Stress Factors</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Zap className="w-6 h-6 inline-block" /> Infrastructure Stress Factors</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Power Grid Fluctuations:</strong> Electrical surge damage to powered roof components</li>
                   <li><strong>Water Pressure Variations:</strong> Municipal system stress affecting roof-mounted equipment</li>
@@ -230,7 +231,7 @@ export default function RoofInspectionsMidlandPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Optimal Inspection Scheduling for Permian Basin Conditions Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌸 Spring Evaluation (March-April)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Flower2 className="w-6 h-6 inline-block" /> Spring Evaluation (March-April)</h3>
                 <p className="text-gray-700 mb-4"><strong>Post-Winter Assessment:</strong> Midland's moderate winter still includes freeze-thaw cycles and occasional ice storms. Spring inspections identify winter damage before the intense summer heat begins.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Freeze-thaw cycle damage assessment on desert-adapted materials</li>
@@ -244,7 +245,7 @@ export default function RoofInspectionsMidlandPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">☀️ Summer Monitoring (May-August)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Sun className="w-6 h-6 inline-block" /> Summer Monitoring (May-August)</h3>
                 <p className="text-gray-700 mb-4"><strong>Extreme Heat Impact:</strong> Midland's summer temperatures regularly exceed 105°F with intense UV exposure accelerated by low humidity and high altitude. Critical period for thermal damage assessment.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Thermal expansion and material fatigue evaluation</li>
@@ -258,7 +259,7 @@ export default function RoofInspectionsMidlandPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🍂 Fall Assessment (September-November)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Leaf className="w-6 h-6 inline-block" /> Fall Assessment (September-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Annual Comprehensive Review:</strong> Fall provides optimal conditions for thorough inspection with moderate temperatures and reduced industrial activity before winter equipment maintenance begins.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Complete annual damage compilation and trending analysis</li>
@@ -272,7 +273,7 @@ export default function RoofInspectionsMidlandPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">❄️ Winter Planning (December-February)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Winter Planning (December-February)</h3>
                 <p className="text-gray-700 mb-4"><strong>Strategic Maintenance Period:</strong> Midland's mild winters allow for maintenance work that would be impossible in northern climates. Optimal time for major projects and preventive work.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Major repair and replacement project planning</li>
@@ -294,17 +295,17 @@ export default function RoofInspectionsMidlandPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Unique Permian Basin Environmental Factors?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 World's Most Active Oil Field</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> World's Most Active Oil Field</h3>
                 <p className="text-gray-700 mb-3">The Permian Basin produces over 5 million barrels per day, creating a unique industrial environment. Hydrogen sulfide gas, benzene vapors, and fine particulate matter from drilling operations create corrosive conditions that accelerate roofing material degradation at rates 3-4 times normal.</p>
                 <p className="text-gray-700"><strong>Specialized Assessment:</strong> We use gas detection equipment and chemical analysis to identify industrial contamination damage, ensuring proper documentation for insurance claims and environmental liability protection.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Desert Sandstorm Environment</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Desert Sandstorm Environment</h3>
                 <p className="text-gray-700 mb-3">Midland experiences frequent sandstorms known locally as "haboobs" that can reduce visibility to zero and drive sand at velocities exceeding 70 mph. The abrasive action strips protective coatings and granules from roofing materials more rapidly than typical wind damage.</p>
                 <p className="text-gray-700"><strong>Inspection Focus:</strong> We evaluate sandblasting damage patterns, granule loss acceleration, and coating degradation that's unique to desert environments, documenting the difference between normal aging and accelerated environmental damage.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💸 Boom-Bust Economic Cycles</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><DollarSign className="w-6 h-6 inline-block" /> Boom-Bust Economic Cycles</h3>
                 <p className="text-gray-700 mb-3">Midland's oil-dependent economy creates unique property maintenance challenges. During boom periods, material and labor costs skyrocket while availability plummets. During busts, property values drop but maintenance becomes more critical due to extended ownership periods.</p>
                 <p className="text-gray-700"><strong>Strategic Planning:</strong> We help property owners plan maintenance timing based on economic cycles, identifying critical repairs that can't wait and optimizing major projects for cost-effective timing within market cycles.</p>
               </div>
@@ -317,17 +318,17 @@ export default function RoofInspectionsMidlandPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Specialized Equipment for Industrial Environment Assessment?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🔬</div>
+                <div className="text-5xl mb-4 text-center"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Chemical Contamination Detection</h3>
                 <p className="text-gray-700">Advanced chemical analysis equipment detects hydrogen sulfide damage, hydrocarbon residue, and other industrial contamination that affects roofing material integrity and insurance claim validity in oil field environments.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">📊</div>
+                <div className="text-5xl mb-4 text-center"><BarChart3 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Vibration Monitoring Systems</h3>
                 <p className="text-gray-700">Seismic monitoring equipment measures vibration damage from nearby drilling, fracking operations, and heavy truck traffic. Essential for documenting industrial impact on structural integrity in Permian Basin locations.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🌡️</div>
+                <div className="text-5xl mb-4 text-center"><Thermometer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Environmental Monitoring</h3>
                 <p className="text-gray-700">Multi-parameter environmental sensors track temperature, humidity, air quality, and chemical exposure levels. Provides baseline data for correlating environmental conditions with material degradation rates.</p>
               </div>

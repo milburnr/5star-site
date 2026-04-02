@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Hospital, Landmark, Lock, Phone, Star, Truck, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-big-spring/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function CommercialRoofingBigSpringPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Big Spring. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingBigSpringPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -148,7 +149,7 @@ export default function CommercialRoofingBigSpringPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Big Spring's Key Sectors Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-red-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏥 Healthcare Facilities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Hospital className="w-6 h-6 inline-block" /> Healthcare Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Big Spring hosts major healthcare institutions including the Veterans Administration Medical Center and Big Spring State Hospital. These facilities require specialized roofing systems that ensure continuous operation, infection control, and patient safety:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Hospital-grade air filtration and ventilation support</li>
@@ -162,7 +163,7 @@ export default function CommercialRoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏛️ Correctional Facilities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Landmark className="w-6 h-6 inline-block" /> Correctional Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Big Spring's correctional institutions, including the Federal Correctional Institution and multiple private facilities, demand security-focused roofing solutions that prevent unauthorized access while maintaining structural integrity:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Anti-tamper roofing systems and fasteners</li>
@@ -178,7 +179,7 @@ export default function CommercialRoofingBigSpringPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🚛 Logistics & Distribution</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Truck className="w-6 h-6 inline-block" /> Logistics & Distribution</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Big Spring's strategic location along I-20 makes it a logistics hub for West Texas. Distribution centers, trucking facilities, and freight operations require roofing systems designed for heavy equipment and high-traffic environments:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• High-capacity structural systems for cranes and equipment</li>
@@ -191,7 +192,7 @@ export default function CommercialRoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-orange-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">⚡ Energy & Refining</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Zap className="w-6 h-6 inline-block" /> Energy & Refining</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">The Alon USA refinery and supporting energy infrastructure in Big Spring require specialized roofing for processing facilities, storage areas, and administrative buildings:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Fire-resistant materials meeting NFPA standards</li>
@@ -220,7 +221,7 @@ export default function CommercialRoofingBigSpringPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🔒</span>
+                  <span className="text-white text-2xl"><Lock className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Security Clearances</h3>
                 <p className="text-gray-700">Background-checked crews with experience in correctional and federal facility projects throughout Texas.</p>
@@ -228,7 +229,7 @@ export default function CommercialRoofingBigSpringPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🏥</span>
+                  <span className="text-white text-2xl"><Hospital className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Healthcare Compliance</h3>
                 <p className="text-gray-700">Specialized protocols for medical facility roofing that maintain sterile environments and patient safety standards.</p>
@@ -426,7 +427,7 @@ export default function CommercialRoofingBigSpringPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Institutional Facility Financing and Compliance?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏛️ Government Contract Support</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Landmark className="w-6 h-6 inline-block" /> Government Contract Support</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Our experience with federal facilities and government contracts ensures smooth project execution for Big Spring's institutional clients, including compliance with federal procurement requirements and specialized billing procedures.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Government Contract Services:</h4>
@@ -444,7 +445,7 @@ export default function CommercialRoofingBigSpringPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏥 Healthcare Facility Financing</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Hospital className="w-6 h-6 inline-block" /> Healthcare Facility Financing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Healthcare facilities often require specialized financing arrangements that accommodate budget cycles, grant funding, and multi-year capital improvement programs common in institutional settings.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Healthcare Financing Options:</h4>

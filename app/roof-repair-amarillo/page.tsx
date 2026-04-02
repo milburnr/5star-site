@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, CheckCircle, ClipboardList, Hammer, Leaf, Phone, Search, Snowflake, Sprout, Sun, Tornado, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-amarillo/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function RoofRepairAmarilloPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -97,7 +98,7 @@ export default function RoofRepairAmarilloPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Texas Panhandle Weather Specialists</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Expert roof repair for Amarillo's unique climate challenges. Serving Potter County's historic homes and modern developments with specialized solutions for extreme weather, aging housing stock, and insurance claims.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -112,7 +113,7 @@ export default function RoofRepairAmarilloPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">52</div><div className="text-brand-brown font-semibold text-lg">Median Home Age</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={115} suffix="°" /></div><div className="text-brand-brown font-semibold text-lg">Temperature Range</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">15+</div><div className="text-brand-brown font-semibold text-lg">MPH Avg Winds</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⚡🌪️❄️</div><div className="text-brand-brown font-semibold text-lg">Extreme Weather</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><Zap className="w-6 h-6 inline-block" /><Tornado className="w-6 h-6 inline-block" /><Snowflake className="w-6 h-6 inline-block" /></div><div className="text-brand-brown font-semibold text-lg">Extreme Weather</div></div>
             </div>
           </div>
         </section>
@@ -193,22 +194,22 @@ export default function RoofRepairAmarilloPage() {
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the Comprehensive Repair Process Work?</h2>
             <div className="grid lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Detailed Inspection</h3>
                 <p className="text-gray-700">Comprehensive assessment of visible and hidden damage, structural integrity, and climate-related wear patterns specific to Amarillo conditions.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Documentation</h3>
                 <p className="text-gray-700">Professional damage documentation for insurance claims, with expertise in Potter County wind and hail damage requirements.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🔨</div>
+                <div className="text-4xl mb-4"><Hammer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Expert Repairs</h3>
                 <p className="text-gray-700">Precision repairs using materials rated for Texas Panhandle extremes, with techniques adapted to Amarillo's unique climate challenges.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">✅</div>
+                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Quality Assurance</h3>
                 <p className="text-gray-700">Final inspection ensuring all repairs meet wind load requirements and provide long-term protection against future weather events.</p>
               </div>
@@ -318,7 +319,7 @@ export default function RoofRepairAmarilloPage() {
             
             <div className="grid lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-blue-700">❄️ Winter (Dec-Feb)</h3>
+                <h3 className="text-xl font-bold mb-3 text-blue-700"><Snowflake className="w-6 h-6 inline-block" /> Winter (Dec-Feb)</h3>
                 <p className="text-gray-600 mb-4">Freeze-thaw cycles and ice dam formation</p>
                 <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Ice dam prevention and removal</li>
@@ -328,7 +329,7 @@ export default function RoofRepairAmarilloPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-green-700">🌱 Spring (Mar-May)</h3>
+                <h3 className="text-xl font-bold mb-3 text-green-700"><Sprout className="w-6 h-6 inline-block" /> Spring (Mar-May)</h3>
                 <p className="text-gray-600 mb-4">Prime storm season with severe hail threats</p>
                 <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Post-storm damage assessment</li>
@@ -338,7 +339,7 @@ export default function RoofRepairAmarilloPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-red-700">☀️ Summer (Jun-Aug)</h3>
+                <h3 className="text-xl font-bold mb-3 text-red-700"><Sun className="w-6 h-6 inline-block" /> Summer (Jun-Aug)</h3>
                 <p className="text-gray-600 mb-4">Extreme heat and UV exposure stress</p>
                 <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Heat-related material expansion</li>
@@ -348,7 +349,7 @@ export default function RoofRepairAmarilloPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-orange-700">🍂 Fall (Sep-Nov)</h3>
+                <h3 className="text-xl font-bold mb-3 text-orange-700"><Leaf className="w-6 h-6 inline-block" /> Fall (Sep-Nov)</h3>
                 <p className="text-gray-600 mb-4">Ideal repair season with stable weather</p>
                 <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Major repair projects</li>
@@ -492,10 +493,10 @@ export default function RoofRepairAmarilloPage() {
                 <h3 className="text-2xl font-bold mb-4 text-green-700">Basic Protection</h3>
                 <p className="text-3xl font-bold mb-4 text-green-800">2 Years</p>
                 <ul className="space-y-3 mb-6">
-                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Workmanship warranty</li>
-                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Material defect coverage</li>
-                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>prompt leak repair</li>
-                  <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Annual inspection included</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />Workmanship warranty</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />Material defect coverage</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />prompt leak repair</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />Annual inspection included</li>
                 </ul>
                 <p className="text-gray-600">Perfect for minor repairs and maintenance work</p>
               </div>
@@ -507,11 +508,11 @@ export default function RoofRepairAmarilloPage() {
                 <h3 className="text-2xl font-bold mb-4 text-blue-700">Storm Shield</h3>
                 <p className="text-3xl font-bold mb-4 text-blue-800">5 Years</p>
                 <ul className="space-y-3 mb-6">
-                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>All Basic Protection features</li>
-                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Hail damage coverage</li>
-                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Wind damage protection</li>
-                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Priority storm response</li>
-                  <li className="flex items-start"><span className="text-blue-600 mr-2">✓</span>Insurance claim assistance</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />All Basic Protection features</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Hail damage coverage</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Wind damage protection</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Priority storm response</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Insurance claim assistance</li>
                 </ul>
                 <p className="text-gray-600">Ideal for comprehensive roof repairs and replacements</p>
               </div>
@@ -520,11 +521,11 @@ export default function RoofRepairAmarilloPage() {
                 <h3 className="text-2xl font-bold mb-4 text-purple-700">Ultimate Guard</h3>
                 <p className="text-3xl font-bold mb-4 text-purple-800">10 Years</p>
                 <ul className="space-y-3 mb-6">
-                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>All Storm Shield features</li>
-                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Extended material warranty</li>
-                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Energy efficiency guarantee</li>
-                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Bi-annual professional maintenance</li>
-                  <li className="flex items-start"><span className="text-purple-600 mr-2">✓</span>Transferable to new homeowner</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />All Storm Shield features</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Extended material warranty</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Energy efficiency guarantee</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Bi-annual professional maintenance</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Transferable to new homeowner</li>
                 </ul>
                 <p className="text-gray-600">Maximum protection for new roofing systems</p>
               </div>

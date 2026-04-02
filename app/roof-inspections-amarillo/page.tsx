@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { CloudHail, Droplets, Flower2, Home, Leaf, Phone, Plane, Radio, Search, Snowflake, Star, Sun, Thermometer, Tornado, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-amarillo/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function RoofInspectionsAmarilloPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function RoofInspectionsAmarilloPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional roof inspections throughout Amarillo. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function RoofInspectionsAmarilloPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -143,7 +144,7 @@ export default function RoofInspectionsAmarilloPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Our Amarillo Roof Inspectors Examine?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🔍 Structural Components</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Structural Components</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Roof Decking:</strong> We check for sagging, warping, or water damage in plywood or OSB sheathing</li>
                   <li><strong>Rafters & Trusses:</strong> Inspection for cracking, splitting, or deflection under load</li>
@@ -153,7 +154,7 @@ export default function RoofInspectionsAmarilloPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏠 Roofing Materials</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Roofing Materials</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Shingle Condition:</strong> Granule loss, cracking, curling, or hail impact damage</li>
                   <li><strong>Metal Roofing:</strong> Corrosion, loose fasteners, or panel separation</li>
@@ -163,7 +164,7 @@ export default function RoofInspectionsAmarilloPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💧 Water Management</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Droplets className="w-6 h-6 inline-block" /> Water Management</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Gutter Systems:</strong> Proper slope, secure attachment, and debris clearance</li>
                   <li><strong>Downspouts:</strong> Adequate sizing and proper water discharge away from foundation</li>
@@ -173,7 +174,7 @@ export default function RoofInspectionsAmarilloPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Weather Damage Assessment</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Weather Damage Assessment</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Hail Impact:</strong> Bruising, exposed mat, or granule displacement</li>
                   <li><strong>Wind Damage:</strong> Lifted shingles, exposed fasteners, or blown-off materials</li>
@@ -230,7 +231,7 @@ export default function RoofInspectionsAmarilloPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Optimal Timing for Roof Inspections in Amarillo Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌸 Spring Inspections (March-May)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Flower2 className="w-6 h-6 inline-block" /> Spring Inspections (March-May)</h3>
                 <p className="text-gray-700 mb-4"><strong>Peak Storm Season Preparation:</strong> Amarillo's severe weather season typically begins in March and peaks in April-May. Spring inspections identify winter damage and prepare your roof for the coming storm season.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Assessment of winter freeze-thaw damage</li>
@@ -241,7 +242,7 @@ export default function RoofInspectionsAmarilloPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">☀️ Summer Inspections (June-August)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Sun className="w-6 h-6 inline-block" /> Summer Inspections (June-August)</h3>
                 <p className="text-gray-700 mb-4"><strong>Heat Damage Assessment:</strong> Amarillo's intense summer sun and temperatures exceeding 100°F can cause rapid deterioration. Summer inspections focus on heat-related damage and UV degradation.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• UV damage and accelerated aging assessment</li>
@@ -252,7 +253,7 @@ export default function RoofInspectionsAmarilloPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🍂 Fall Inspections (September-November)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Leaf className="w-6 h-6 inline-block" /> Fall Inspections (September-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Storm Season Wrap-up:</strong> Fall inspections assess cumulative damage from the storm season and prepare roofs for winter weather, including potential ice events in the Texas Panhandle.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Comprehensive storm season damage assessment</li>
@@ -263,7 +264,7 @@ export default function RoofInspectionsAmarilloPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">❄️ Winter Inspections (December-February)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Winter Inspections (December-February)</h3>
                 <p className="text-gray-700 mb-4"><strong>Structural Assessment:</strong> While less common, winter inspections are crucial after ice events or when preparing for real estate transactions during the slower season.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Ice damage and freeze-thaw cycle assessment</li>
@@ -282,17 +283,17 @@ export default function RoofInspectionsAmarilloPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Amarillo's Unique Weather Challenges?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Severe Hailstorms</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Severe Hailstorms</h3>
                 <p className="text-gray-700 mb-3">Amarillo sits in the heart of "Hail Alley," experiencing an average of 9-12 significant hail events annually. The Texas Panhandle's geography creates perfect conditions for supercells that produce golf ball to softball-sized hail.</p>
                 <p className="text-gray-700"><strong>Inspection Focus:</strong> We use specialized techniques to identify subtle hail damage that may not be visible to untrained eyes, including granule loss patterns, mat exposure, and impact fractals that insurance adjusters recognize as legitimate damage.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💨 Extreme Wind Events</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Extreme Wind Events</h3>
                 <p className="text-gray-700 mb-3">Amarillo is consistently ranked among America's windiest cities, with average speeds of 14+ mph and gusts regularly exceeding 80 mph. The flat terrain provides no wind breaks, creating sustained high-velocity conditions.</p>
                 <p className="text-gray-700"><strong>Inspection Focus:</strong> We examine uplift patterns, fastener integrity, and progressive wind damage that can compromise entire roofing systems over time, even when individual events don't cause obvious damage.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌡️ Extreme Temperature Variations</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Variations</h3>
                 <p className="text-gray-700 mb-3">Amarillo experiences temperature swings of 60+ degrees within 24 hours, with summer highs above 105°F and winter lows below 0°F. This thermal cycling creates expansion and contraction stress that's unique to the region.</p>
                 <p className="text-gray-700"><strong>Inspection Focus:</strong> We assess thermal movement damage, including fastener backing-out, seam separation, and material fatigue that results from constant expansion and contraction cycles.</p>
               </div>
@@ -305,17 +306,17 @@ export default function RoofInspectionsAmarilloPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Advanced Inspection Technology We Use Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">📡</div>
+                <div className="text-5xl mb-4 text-center"><Radio className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Thermal Imaging</h3>
                 <p className="text-gray-700">FLIR cameras detect moisture intrusion, insulation gaps, and energy loss that aren't visible to the naked eye. Especially valuable for identifying leaks in Amarillo's extreme weather conditions.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🚁</div>
+                <div className="text-5xl mb-4 text-center"><Plane className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Drone Photography</h3>
                 <p className="text-gray-700">High-resolution aerial photography safely documents damage on steep or high roofs. GPS-tagged images provide precise damage location data for insurance and repair purposes.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">💧</div>
+                <div className="text-5xl mb-4 text-center"><Droplets className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Moisture Detection</h3>
                 <p className="text-gray-700">Professional moisture meters and hygrometers identify water damage and humidity issues that could lead to mold, rot, or structural problems in Amarillo's variable climate.</p>
               </div>
@@ -416,7 +417,7 @@ export default function RoofInspectionsAmarilloPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Critical Damage Indicators</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🌨️ Hail Impact Signatures</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><CloudHail className="w-6 h-6 inline-block" /> Hail Impact Signatures</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Exposed Mat:</strong> Asphalt showing through granule loss</li>
                       <li>• <strong>Circular Bruising:</strong> Rounded impact marks from ice stones</li>
@@ -427,7 +428,7 @@ export default function RoofInspectionsAmarilloPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">💨 Wind Damage Patterns</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Wind className="w-6 h-6 inline-block" /> Wind Damage Patterns</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Uplift Marks:</strong> Shingle lifting and resealing</li>
                       <li>• <strong>Fastener Exposure:</strong> Nails or screws visible</li>
@@ -438,7 +439,7 @@ export default function RoofInspectionsAmarilloPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">☀️ Heat & UV Deterioration</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Sun className="w-6 h-6 inline-block" /> Heat & UV Deterioration</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Granule Migration:</strong> UV-accelerated granule loss</li>
                       <li>• <strong>Thermal Cracking:</strong> Expansion/contraction damage</li>

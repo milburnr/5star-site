@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Building2, CloudHail, Home, Phone, Search, Star, Sun, Thermometer, Tornado, Wind, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-texas-roofing/' },
@@ -94,7 +95,7 @@ export default function AmarilloRoofingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                📞 Call (806) 622-6041
+                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
               </a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
                 Get Free Inspection
@@ -143,7 +144,7 @@ export default function AmarilloRoofingPage() {
             <h2 className="section-title">Why Amarillo Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4">🏢</div>
+                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Local Amarillo Office</h3>
                 <p className="text-gray-600">
                   Based right here in Amarillo on South Western Street. We&apos;re your neighbors,
@@ -151,7 +152,7 @@ export default function AmarilloRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Fast Response</h3>
                 <p className="text-gray-600">
                   30-minute storm response time throughout Amarillo. We know every neighborhood
@@ -159,7 +160,7 @@ export default function AmarilloRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🌪️</div>
+                <div className="text-5xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Storm Experts</h3>
                 <p className="text-gray-600">
                   Amarillo gets hit hard by hail storms. We specialize in hail damage detection,
@@ -182,7 +183,7 @@ export default function AmarilloRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🌨️</div>
+                    <div className="text-6xl mb-4"><CloudHail className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -215,7 +216,7 @@ export default function AmarilloRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🏠</div>
+                    <div className="text-6xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -250,7 +251,7 @@ export default function AmarilloRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🏢</div>
+                    <div className="text-6xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -281,7 +282,7 @@ export default function AmarilloRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🔩</div>
+                    <div className="text-6xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -312,7 +313,7 @@ export default function AmarilloRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🔍</div>
+                    <div className="text-6xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -344,7 +345,7 @@ export default function AmarilloRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🚨</div>
+                    <div className="text-6xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       Storm Damage Roof Repair
                     </h3>
@@ -443,7 +444,7 @@ export default function AmarilloRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Severe Hail Storms</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Hail Storms</h3>
                 <p className="text-gray-700">
                   Amarillo sits in &quot;Hail Alley&quot; and experiences frequent severe thunderstorms from March through
                   September. The May 2023 storm brought 2.5-inch hail north of the city, while the May 2019 event hit the Sleepy Hollow neighborhood directly. Even quarter-sized hail can cause significant granule
@@ -451,7 +452,7 @@ export default function AmarilloRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> High Winds</h3>
                 <p className="text-gray-700">
                   The Texas Panhandle is one of the windiest regions in the United States. Sustained winds of
                   30-40 mph and gusts over 60 mph can lift shingles, tear off flashing, and damage roof edges.
@@ -459,7 +460,7 @@ export default function AmarilloRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Extreme Temperature Swings</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings</h3>
                 <p className="text-gray-700">
                   Amarillo can see 100°F summer days and below-zero winter nights, sometimes within the same week.
                   This expansion and contraction puts tremendous stress on roofing materials, accelerating wear
@@ -467,7 +468,7 @@ export default function AmarilloRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">☀️ Intense UV Exposure</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Intense UV Exposure</h3>
                 <p className="text-gray-700">
                   At 3,605 feet elevation with over 260 days of sunshine annually, Amarillo roofs face intense
                   UV radiation that breaks down organic materials. This is why we recommend impact-resistant,
@@ -537,7 +538,7 @@ export default function AmarilloRoofingPage() {
             <h2 className="section-title">What Amarillo Residents Are Saying</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-3xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   &quot;After the May hail storm damaged half of Wolflin, 5 Star was at our house within hours.
                   They handled everything with our insurance company and had us back under a new roof in two weeks.
@@ -546,7 +547,7 @@ export default function AmarilloRoofingPage() {
                 <p className="font-semibold text-brand-brown">— Sarah M., Wolflin</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-3xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   &quot;Our commercial building near I-40 needed a complete flat roof replacement. 5 Star worked
                   around our business hours and finished on budget. No leaks and great warranty.&quot;
@@ -554,7 +555,7 @@ export default function AmarilloRoofingPage() {
                 <p className="font-semibold text-brand-brown">— James R., Commercial Property Owner</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-3xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   &quot;We called at 9pm with water pouring into our living room. They were here by 9:30pm with tarps
                   and stopped the leak. That&apos;s the kind of service you can&apos;t put a price on.&quot;
@@ -669,7 +670,7 @@ export default function AmarilloRoofingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                📞 Call (806) 622-6041 Now
+                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041 Now
               </a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">
                 Schedule Free Inspection

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-replacement-perryton/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function RoofReplacementPerrytonPage() {
         "@id": "https://5starroofingpros.com/roof-replacement-perryton/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-12-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function RoofReplacementPerrytonPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Agricultural Community Roofing Excellence</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional roof replacement throughout Perryton and Ochiltree County. Specializing in agricultural and residential roofing systems engineered for North Texas Panhandle weather extremes. Expert installation, comprehensive warranties, and  for America's wheat capital.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function RoofReplacementPerrytonPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={15} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -311,31 +312,31 @@ export default function RoofReplacementPerrytonPage() {
                 <h3 className="text-2xl font-bold mb-6">Why Perryton Farmers Choose Us</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>Agricultural community understanding</div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>Flexible seasonal scheduling</div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>Chemical-resistant materials</div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>Extreme weather protection</div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>Licensed and insured in Texas</div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>storm response</div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="text-brand-gold-light">✓</div>
+                    <div className="text-brand-gold-light"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>Ochiltree County expertise</div>
                   </div>
                 </div>

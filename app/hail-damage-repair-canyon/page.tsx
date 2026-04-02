@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, BarChart3, CheckCircle, ClipboardList, FileText, GraduationCap, Home, Map, Mountain, Phone, Radio, Search, Shield, Star, Tornado, TrendingUp, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-canyon/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -49,7 +50,7 @@ export default function HailDamageRepairCanyonPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-canyon/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -123,7 +124,7 @@ export default function HailDamageRepairCanyonPage() {
                 Canyon—home to West Texas A&M University and gateway to Palo Duro Canyon—deserves roofing protection that matches its significance. Just 17 miles from our Amarillo headquarters, we provide Canyon homeowners with the fastest response times in our service area. Expert repairs, insurance assistance, and Class 4 impact-resistant replacements.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -148,7 +149,7 @@ export default function HailDamageRepairCanyonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Response Time</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -165,7 +166,7 @@ export default function HailDamageRepairCanyonPage() {
             </p>
 
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl shadow-lg border border-blue-200 my-8">
-              <h3 className="text-2xl font-bold text-blue-700 mb-4">🏔️ The Palo Duro Canyon Weather Effect</h3>
+              <h3 className="text-2xl font-bold text-blue-700 mb-4"><Mountain className="w-6 h-6 inline-block" /> The Palo Duro Canyon Weather Effect</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Canyon's proximity to Palo Duro Canyon—the second-largest canyon in the United States at 120 miles long and up to 800 feet deep—creates unique meteorological phenomena that significantly impact local weather patterns. The canyon system acts as both a storm intensifier and a cold air reservoir, making Canyon's hail risk distinct from other Panhandle communities.
               </p>
@@ -196,7 +197,7 @@ export default function HailDamageRepairCanyonPage() {
             </p>
 
             <div className="bg-gradient-to-r from-green-600 to-teal-700 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">🎓 WTAMU Area: Unique Property Challenges</h3>
+              <h3 className="text-2xl font-bold mb-4"><GraduationCap className="w-6 h-6 inline-block" /> WTAMU Area: Unique Property Challenges</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 The West Texas A&M University area presents specific roofing challenges that require specialized expertise:
               </p>
@@ -233,7 +234,7 @@ export default function HailDamageRepairCanyonPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-200">
-                <h3 className="text-xl font-bold text-orange-700 mb-4">🌪️ Canyon Storm Statistics</h3>
+                <h3 className="text-xl font-bold text-orange-700 mb-4"><Tornado className="w-6 h-6 inline-block" /> Canyon Storm Statistics</h3>
                 <p className="text-gray-700 mb-4">NOAA data for Randall County (2015-2024):</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Annual Hail Events:</strong> 8-12 (above state average)</li>
@@ -245,7 +246,7 @@ export default function HailDamageRepairCanyonPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl border border-purple-200">
-                <h3 className="text-xl font-bold text-purple-700 mb-4">📊 University Area Impact</h3>
+                <h3 className="text-xl font-bold text-purple-700 mb-4"><BarChart3 className="w-6 h-6 inline-block" /> University Area Impact</h3>
                 <p className="text-gray-700 mb-4">Special considerations for WTAMU vicinity:</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Student Population:</strong> 10,000+ on-campus and nearby</li>
@@ -262,7 +263,7 @@ export default function HailDamageRepairCanyonPage() {
             </p>
 
             <div className="bg-gradient-to-r from-slate-700 to-slate-900 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">⚡ The Caprock Escarpment Effect</h3>
+              <h3 className="text-2xl font-bold mb-4"><Zap className="w-6 h-6 inline-block" /> The Caprock Escarpment Effect</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Canyon sits at the edge of the Caprock Escarpment, where the High Plains drop dramatically into the Palo Duro Canyon system. This topographical feature creates a natural "storm elevator" that enhances the development of severe weather.
               </p>
@@ -278,7 +279,7 @@ export default function HailDamageRepairCanyonPage() {
             </div>
 
             <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-8 rounded-xl border border-yellow-200 shadow-lg">
-              <h3 className="text-2xl font-bold text-amber-700 mb-4">📈 Texas Hail Belt: Canyon's Position</h3>
+              <h3 className="text-2xl font-bold text-amber-700 mb-4"><TrendingUp className="w-6 h-6 inline-block" /> Texas Hail Belt: Canyon's Position</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Canyon occupies a critical position within the Texas Hail Belt, where three major atmospheric systems regularly collide: cold, dry air from the Rocky Mountains and Canada; warm, moist air from the Gulf of Mexico; and the upper-level jet stream that provides energy and wind shear necessary for supercell development.
               </p>
@@ -467,32 +468,32 @@ export default function HailDamageRepairCanyonPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Canyon Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">Thorough inspection with photo documentation. Always free, no obligation.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
                 <p className="text-gray-600">We prepare documentation and meet with your adjuster to maximize coverage.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📝</div>
+                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">Line-item estimate using Xactimate. No surprises, no hidden costs.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛠️</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
                 <p className="text-gray-600">Premium materials suited to Canyon's climate. Most repairs complete in 1-3 days.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">✅</div>
+                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">Quality verification with complete documentation for your records.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
                 <p className="text-gray-600">Workmanship warranties plus manufacturer coverage up to 50 years.</p>
               </div>
@@ -540,7 +541,7 @@ export default function HailDamageRepairCanyonPage() {
             
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-indigo-600 to-blue-700 text-white p-8 rounded-xl shadow-lg mb-8">
-                <h3 className="text-2xl font-bold mb-4">🗺️ Canyon's Storm Convergence Zone</h3>
+                <h3 className="text-2xl font-bold mb-4"><Map className="w-6 h-6 inline-block" /> Canyon's Storm Convergence Zone</h3>
                 <p className="text-lg leading-relaxed mb-6">
                   Canyon sits at the intersection of multiple weather patterns that make it particularly susceptible to hail formation. The city's position on the Caprock Escarpment, combined with its proximity to Palo Duro Canyon, creates a natural "storm convergence zone" where atmospheric conditions regularly align for severe weather development.
                 </p>
@@ -569,7 +570,7 @@ export default function HailDamageRepairCanyonPage() {
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-red-600 mb-4">⚠️ High-Risk Locations in Canyon</h4>
+                  <h4 className="text-xl font-bold text-red-600 mb-4"><AlertTriangle className="w-6 h-6 inline-block" /> High-Risk Locations in Canyon</h4>
                   <p className="text-gray-700 mb-3">Areas with elevated hail risk:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li><strong>Caprock Rim Properties:</strong> Enhanced storm lifting</li>
@@ -579,7 +580,7 @@ export default function HailDamageRepairCanyonPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-orange-600 mb-4">📡 Local Warning Networks</h4>
+                  <h4 className="text-xl font-bold text-orange-600 mb-4"><Radio className="w-6 h-6 inline-block" /> Local Warning Networks</h4>
                   <p className="text-gray-700 mb-3">Canyon area alert systems:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li><strong>WTAMU Alert System:</strong> Campus-wide notifications</li>
@@ -589,7 +590,7 @@ export default function HailDamageRepairCanyonPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-green-600 mb-4">🏠 Property Protection Tips</h4>
+                  <h4 className="text-xl font-bold text-green-600 mb-4"><Home className="w-6 h-6 inline-block" /> Property Protection Tips</h4>
                   <p className="text-gray-700 mb-3">Reduce hail damage risk:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li><strong>Class 4 Shingles:</strong> 90% damage reduction</li>
@@ -601,7 +602,7 @@ export default function HailDamageRepairCanyonPage() {
               </div>
 
               <div className="bg-gradient-to-br from-red-50 to-pink-50 p-8 rounded-xl border border-red-200 shadow-lg">
-                <h4 className="text-2xl font-bold text-red-700 mb-4">⚡ Notable Canyon Hail Events: Historical Record</h4>
+                <h4 className="text-2xl font-bold text-red-700 mb-4"><Zap className="w-6 h-6 inline-block" /> Notable Canyon Hail Events: Historical Record</h4>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white p-4 rounded-lg shadow">
                     <h5 className="font-bold text-red-600 mb-2">May 17, 2019</h5>

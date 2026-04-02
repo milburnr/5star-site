@@ -2,6 +2,7 @@ import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { ClipboardList, CloudLightning, Flower2, Hammer, Leaf, Phone, Shield, Snowflake, Sun, Thermometer, Wind, Wrench, X } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-methods-in-amarillo/' },
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -70,7 +71,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roofing-methods-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -136,7 +137,7 @@ export default function Page() {
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <FadeIn delay={0.1}>
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-bold mb-3 text-brand-brown">🔨 High-Wind Nailing Patterns</h3>
+            <h3 className="text-xl font-bold mb-3 text-brand-brown"><Hammer className="w-6 h-6 inline-block" /> High-Wind Nailing Patterns</h3>
             <p className="text-gray-600 mb-3">
               Standard 4-nail shingle installation isn't sufficient for Amarillo's average 12-14 mph sustained winds and frequent 50+ mph gusts.
             </p>
@@ -151,7 +152,7 @@ export default function Page() {
 
         <FadeIn delay={0.2}>
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-bold mb-3 text-brand-brown">🛡️ Enhanced Underlayment Systems</h3>
+            <h3 className="text-xl font-bold mb-3 text-brand-brown"><Shield className="w-6 h-6 inline-block" /> Enhanced Underlayment Systems</h3>
             <p className="text-gray-600 mb-3">
               The barrier between your roof deck and shingles is critical for long-term protection against water infiltration.
             </p>
@@ -166,7 +167,7 @@ export default function Page() {
 
         <FadeIn delay={0.3}>
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-bold mb-3 text-brand-brown">💨 Proper Ventilation Installation</h3>
+            <h3 className="text-xl font-bold mb-3 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Proper Ventilation Installation</h3>
             <p className="text-gray-600 mb-3">
               Amarillo summer attic temperatures exceed 160°F without proper ventilation, degrading roofing materials from underneath.
             </p>
@@ -181,7 +182,7 @@ export default function Page() {
 
         <FadeIn delay={0.4}>
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-bold mb-3 text-brand-brown">🔧 Advanced Flashing Techniques</h3>
+            <h3 className="text-xl font-bold mb-3 text-brand-brown"><Wrench className="w-6 h-6 inline-block" /> Advanced Flashing Techniques</h3>
             <p className="text-gray-600 mb-3">
               Most roof leaks in Amarillo occur at flashing points—chimneys, vents, valleys—not the field of the roof.
             </p>
@@ -248,31 +249,31 @@ export default function Page() {
         </p>
         <ul className="space-y-3">
           <li className="flex items-start">
-            <span className="text-red-600 font-bold mr-3">✗</span>
+            <span className="text-red-600 font-bold mr-3"><X className="w-5 h-5 text-red-600 inline-block" /></span>
             <div>
               <strong>Under-Nailing:</strong> Using standard 4-nail pattern in high-wind zone. Shingles blow off during first major windstorm.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-red-600 font-bold mr-3">✗</span>
+            <span className="text-red-600 font-bold mr-3"><X className="w-5 h-5 text-red-600 inline-block" /></span>
             <div>
               <strong>No Starter Strip:</strong> Skipping specialized edge shingles. Edge shingles lift and blow off exposing roof deck.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-red-600 font-bold mr-3">✗</span>
+            <span className="text-red-600 font-bold mr-3"><X className="w-5 h-5 text-red-600 inline-block" /></span>
             <div>
               <strong>Inadequate Ventilation:</strong> Installing roof without proper intake/exhaust. Premature shingle aging and excessive cooling costs.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-red-600 font-bold mr-3">✗</span>
+            <span className="text-red-600 font-bold mr-3"><X className="w-5 h-5 text-red-600 inline-block" /></span>
             <div>
               <strong>Felt Paper Underlayment:</strong> Using outdated tar paper that tears in wind. Water infiltration during installation and future repairs.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-red-600 font-bold mr-3">✗</span>
+            <span className="text-red-600 font-bold mr-3"><X className="w-5 h-5 text-red-600 inline-block" /></span>
             <div>
               <strong>Over-Driving Nails:</strong> Nails driven through shingles instead of flush. Creates holes that leak and reduces wind resistance.
             </div>
@@ -317,7 +318,7 @@ export default function Page() {
       
       <div className="space-y-6 mb-8">
         <div className="bg-blue-50 p-6 rounded-lg">
-          <h4 className="font-bold mb-3">💨 Wind Resistance Engineering</h4>
+          <h4 className="font-bold mb-3"><Wind className="w-6 h-6 inline-block" /> Wind Resistance Engineering</h4>
           <p className="mb-3">
             Standard wind resistance calculations assume steady wind loads, but Amarillo experiences
             turbulent wind patterns with rapidly changing directions and velocities. Our installation
@@ -333,7 +334,7 @@ export default function Page() {
         </div>
 
         <div className="bg-yellow-50 p-6 rounded-lg">
-          <h4 className="font-bold mb-3">⛈️ Hail Impact Mitigation</h4>
+          <h4 className="font-bold mb-3"><CloudLightning className="w-6 h-6 inline-block" /> Hail Impact Mitigation</h4>
           <p className="mb-3">
             Beyond selecting Class 4 impact-resistant materials, installation method affects hail
             performance. Our enhanced installation techniques maximize hail resistance:
@@ -348,7 +349,7 @@ export default function Page() {
         </div>
 
         <div className="bg-green-50 p-6 rounded-lg">
-          <h4 className="font-bold mb-3">🌡️ Thermal Cycling Management</h4>
+          <h4 className="font-bold mb-3"><Thermometer className="w-6 h-6 inline-block" /> Thermal Cycling Management</h4>
           <p className="mb-3">
             Daily temperature swings of 40-50°F create expansion and contraction cycles that can
             fatigue roofing materials. Our thermal management approach includes:
@@ -517,7 +518,7 @@ export default function Page() {
       </div>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-        <h3 className="font-bold text-lg mb-3">📋 Questions to Ask Your Roofing Contractor</h3>
+        <h3 className="font-bold text-lg mb-3"><ClipboardList className="w-6 h-6 inline-block" /> Questions to Ask Your Roofing Contractor</h3>
         <p className="mb-3">
           Protect yourself by asking these specific questions about installation methods:
         </p>
@@ -547,7 +548,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <h4 className="font-bold mb-3">🌸 Spring Installation (March-May)</h4>
+            <h4 className="font-bold mb-3"><Flower2 className="w-6 h-6 inline-block" /> Spring Installation (March-May)</h4>
             <ul className="space-y-2 text-sm">
               <li><strong>Advantages:</strong> Moderate temperatures, accessible weather</li>
               <li><strong>Challenges:</strong> Peak storm season, high demand</li>
@@ -557,7 +558,7 @@ export default function Page() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-3">☀️ Summer Installation (June-August)</h4>
+            <h4 className="font-bold mb-3"><Sun className="w-6 h-6 inline-block" /> Summer Installation (June-August)</h4>
             <ul className="space-y-2 text-sm">
               <li><strong>Advantages:</strong> Stable weather, extended daylight</li>
               <li><strong>Challenges:</strong> Extreme heat, material thermal stress</li>
@@ -568,7 +569,7 @@ export default function Page() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-3">🍂 Fall Installation (September-November)</h4>
+            <h4 className="font-bold mb-3"><Leaf className="w-6 h-6 inline-block" /> Fall Installation (September-November)</h4>
             <ul className="space-y-2 text-sm">
               <li><strong>Advantages:</strong> Ideal temperatures, stable conditions</li>
               <li><strong>Challenges:</strong> High demand, material delivery delays</li>
@@ -579,7 +580,7 @@ export default function Page() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-3">❄️ Winter Installation (December-February)</h4>
+            <h4 className="font-bold mb-3"><Snowflake className="w-6 h-6 inline-block" /> Winter Installation (December-February)</h4>
             <ul className="space-y-2 text-sm">
               <li><strong>Advantages:</strong> Lower demand, flexible scheduling</li>
               <li><strong>Challenges:</strong> Cold weather, shortened work days</li>
@@ -785,7 +786,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

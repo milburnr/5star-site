@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { CloudLightning, Home, Phone, Search, Shield, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-pampa/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-17-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function ResidentialRoofingPampaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/residential-roofing-pampa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function ResidentialRoofingPampaPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Pampa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function ResidentialRoofingPampaPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -176,7 +177,7 @@ export default function ResidentialRoofingPampaPage() {
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🏠</div>
+                <div className="text-4xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Complete Roof Replacement</h3>
                 <p className="text-gray-700 mb-4">Full-service roof replacement designed for Panhandle weather extremes, from historic homes to modern energy sector housing.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -188,7 +189,7 @@ export default function ResidentialRoofingPampaPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">⛈️</div>
+                <div className="text-4xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="text-gray-700 mb-4">Expert restoration for severe weather damage including hail, tornadoes, and straight-line winds common in Gray County.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -200,7 +201,7 @@ export default function ResidentialRoofingPampaPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Preventive Inspections</h3>
                 <p className="text-gray-700 mb-4">Comprehensive roof evaluations to identify weather damage and prevent costly failures in Pampa's severe climate.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -345,7 +346,7 @@ export default function ResidentialRoofingPampaPage() {
                 <p className="text-gray-700 mb-6">Pampa's location at the "Top of Texas" places it directly in the path of severe Panhandle weather systems. Our comprehensive storm response program ensures rapid recovery when severe weather strikes Gray County.</p>
                 
                 <div className="bg-red-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">⚡ Storm Response Protocol:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><Zap className="w-6 h-6 inline-block" /> Storm Response Protocol:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Rapid damage assessment teams</li>
                     <li>• Priority temporary protection</li>
@@ -361,7 +362,7 @@ export default function ResidentialRoofingPampaPage() {
                 <p className="text-gray-700 mb-6">Regular maintenance is crucial in Pampa's harsh weather environment. Our programs help identify vulnerabilities before they become costly failures during severe weather events.</p>
                 
                 <div className="bg-blue-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">🛡️ Maintenance Program Benefits:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><Shield className="w-6 h-6 inline-block" /> Maintenance Program Benefits:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Bi-annual professional inspections</li>
                     <li>• Post-storm damage assessment</li>

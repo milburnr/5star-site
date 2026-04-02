@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { Check } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-perryton/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -311,28 +312,28 @@ export default function StormDamageRepairPerrytonPage() {
                 <h3 className="text-2xl font-bold mb-6 text-brand-gold">Farm Building Expertise</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-semibold">Grain Storage Facilities</h4>
                       <p className="text-gray-600 text-sm">Specialized repairs for grain bins, elevators, and storage facilities with moisture protection and structural integrity focus.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-semibold">Livestock Buildings</h4>
                       <p className="text-gray-600 text-sm">Rapid repair for cattle barns, milking facilities, and animal housing with ventilation system restoration.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-semibold">Equipment Storage</h4>
                       <p className="text-gray-600 text-sm">Protection restoration for expensive agricultural machinery and implement buildings.</p>
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-semibold">Processing Facilities</h4>
                       <p className="text-gray-600 text-sm">Specialized repairs for grain processing and agricultural production facilities with sanitation requirements.</p>

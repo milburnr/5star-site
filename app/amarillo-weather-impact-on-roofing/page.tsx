@@ -1,6 +1,7 @@
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-weather-impact-on-roofing/' },
@@ -810,7 +811,7 @@ export default function Page() {
             href="tel:8066226041"
             className="btn-primary-hero"
           >
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a
             href="/contact/"

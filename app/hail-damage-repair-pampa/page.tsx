@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { BarChart3, CheckCircle, ClipboardList, Factory, FileText, Home, Phone, Search, Shield, Star, Target, Thermometer, Tornado, TrendingUp, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-pampa/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -49,7 +50,7 @@ export default function HailDamageRepairPampaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-pampa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -123,7 +124,7 @@ export default function HailDamageRepairPampaPage() {
                 Pampa—the county seat of Gray County and heart of the northern Texas Panhandle—faces some of the region's most severe weather. Since 2014, 5 Star Roofing has helped Pampa homeowners and businesses recover from hail damage with expert repairs, insurance claim assistance, and Class 4 impact-resistant replacements.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -148,7 +149,7 @@ export default function HailDamageRepairPampaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -165,7 +166,7 @@ export default function HailDamageRepairPampaPage() {
             </p>
 
             <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-xl shadow-lg border border-red-200 my-8">
-              <h3 className="text-2xl font-bold text-red-700 mb-4">🎯 Texas Hail Belt: Pampa's Dangerous Position</h3>
+              <h3 className="text-2xl font-bold text-red-700 mb-4"><Target className="w-6 h-6 inline-block" /> Texas Hail Belt: Pampa's Dangerous Position</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Pampa sits in what meteorologists call the "Northern Texas Hail Corridor," an extremely active zone within the broader Texas Hail Belt where Gray County's position creates a perfect storm environment. The county lies at 35.5°N latitude—precisely the zone where cold Canadian air masses collide most violently with warm, moist Gulf air, creating explosive thunderstorm development.
               </p>
@@ -196,7 +197,7 @@ export default function HailDamageRepairPampaPage() {
             </p>
 
             <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">🏭 Industrial Hail Risk Assessment</h3>
+              <h3 className="text-2xl font-bold mb-4"><Factory className="w-6 h-6 inline-block" /> Industrial Hail Risk Assessment</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Pampa's industrial infrastructure faces unique hail damage challenges that extend far beyond typical residential concerns:
               </p>
@@ -233,7 +234,7 @@ export default function HailDamageRepairPampaPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-6 rounded-xl border border-amber-200">
-                <h3 className="text-xl font-bold text-amber-700 mb-4">📊 Gray County Storm Data</h3>
+                <h3 className="text-xl font-bold text-amber-700 mb-4"><BarChart3 className="w-6 h-6 inline-block" /> Gray County Storm Data</h3>
                 <p className="text-gray-700 mb-4">NOAA records for Gray County (2015-2024):</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Annual Hail Events:</strong> 8-12 (well above Texas average)</li>
@@ -245,7 +246,7 @@ export default function HailDamageRepairPampaPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl border border-purple-200">
-                <h3 className="text-xl font-bold text-purple-700 mb-4">🌡️ Climate Extremes</h3>
+                <h3 className="text-xl font-bold text-purple-700 mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Extremes</h3>
                 <p className="text-gray-700 mb-4">Pampa's harsh climate accelerates roofing wear:</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Temperature Range:</strong> 25°F to 109°F (84° swing)</li>
@@ -259,7 +260,7 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <div className="bg-gradient-to-r from-slate-700 to-slate-900 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">⚡ The Canadian River Valley Effect</h3>
+              <h3 className="text-2xl font-bold mb-4"><Zap className="w-6 h-6 inline-block" /> The Canadian River Valley Effect</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Pampa's position relative to the Canadian River valley system creates specific meteorological conditions that enhance storm development. The valley acts as a low-level wind convergence zone, where surface winds from different directions meet and force air upward, strengthening storm updrafts.
               </p>
@@ -279,7 +280,7 @@ export default function HailDamageRepairPampaPage() {
             </p>
 
             <div className="bg-gradient-to-br from-green-50 to-teal-50 p-8 rounded-xl border border-green-200 shadow-lg">
-              <h3 className="text-2xl font-bold text-green-700 mb-4">🛡️ Storm Preparedness: Industrial & Residential</h3>
+              <h3 className="text-2xl font-bold text-green-700 mb-4"><Shield className="w-6 h-6 inline-block" /> Storm Preparedness: Industrial & Residential</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Pampa's mixed urban landscape requires different protection strategies for various property types:
               </p>
@@ -477,32 +478,32 @@ export default function HailDamageRepairPampaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Pampa Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">Thorough inspection with photo documentation for your Pampa property. Always free.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
                 <p className="text-gray-600">Complete documentation and adjuster meetings to maximize your coverage.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📝</div>
+                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">Line-item Xactimate estimates. No surprises, no hidden costs.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛠️</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
                 <p className="text-gray-600">Premium materials for Pampa's climate. Most repairs complete in 1-3 days.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">✅</div>
+                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">Quality verification with complete documentation.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
                 <p className="text-gray-600">Comprehensive workmanship and manufacturer warranties up to 50 years.</p>
               </div>
@@ -583,7 +584,7 @@ export default function HailDamageRepairPampaPage() {
             
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg mb-8">
-                <h3 className="text-2xl font-bold mb-4">🌪️ The Northern Panhandle Storm Corridor</h3>
+                <h3 className="text-2xl font-bold mb-4"><Tornado className="w-6 h-6 inline-block" /> The Northern Panhandle Storm Corridor</h3>
                 <p className="text-lg leading-relaxed mb-6">
                   Pampa sits within what meteorologists term the "Northern Panhandle Storm Corridor"—a 50-mile-wide zone stretching from the New Mexico border to the Oklahoma line where atmospheric conditions regularly produce the most intense hailstorms in North America. Gray County's position at 35.5°N latitude places it at the heart of this corridor.
                 </p>
@@ -612,7 +613,7 @@ export default function HailDamageRepairPampaPage() {
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-red-600 mb-4">🎯 High-Impact Events</h4>
+                  <h4 className="text-xl font-bold text-red-600 mb-4"><Target className="w-6 h-6 inline-block" /> High-Impact Events</h4>
                   <p className="text-gray-700 mb-3">Major hailstorms affecting Pampa:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li><strong>May 2018:</strong> Baseball size, $4.8M Gray County damage</li>
@@ -622,7 +623,7 @@ export default function HailDamageRepairPampaPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-orange-600 mb-4">📈 Economic Impact Analysis</h4>
+                  <h4 className="text-xl font-bold text-orange-600 mb-4"><TrendingUp className="w-6 h-6 inline-block" /> Economic Impact Analysis</h4>
                   <p className="text-gray-700 mb-3">Annual hail damage in Pampa area:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li><strong>Residential:</strong> $2-3 million annually</li>
@@ -632,7 +633,7 @@ export default function HailDamageRepairPampaPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-green-600 mb-4">🏠 Property Vulnerability</h4>
+                  <h4 className="text-xl font-bold text-green-600 mb-4"><Home className="w-6 h-6 inline-block" /> Property Vulnerability</h4>
                   <p className="text-gray-700 mb-3">Structures at highest risk:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li><strong>Older Residential:</strong> Pre-1990 roofing systems</li>
@@ -644,7 +645,7 @@ export default function HailDamageRepairPampaPage() {
               </div>
 
               <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-8 rounded-xl border border-amber-200 shadow-lg">
-                <h4 className="text-2xl font-bold text-amber-700 mb-4">📋 Pampa Early Warning Network</h4>
+                <h4 className="text-2xl font-bold text-amber-700 mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Pampa Early Warning Network</h4>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Gray County maintains multiple alert systems to provide residents and businesses with advance warning of severe weather:
                 </p>

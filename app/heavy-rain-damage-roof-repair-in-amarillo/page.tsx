@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Droplets, Home, Phone, Search, Waves, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -130,7 +131,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -165,42 +166,42 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Signs Your Roof Has Rain Damage</h2>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="check-item">
-          <span className="check-icon text-2xl">💧</span>
+          <span className="check-icon text-2xl"><Droplets className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Water Stains on Ceilings</h3>
             <p className="text-gray-600">Brown or yellow discoloration indicates water penetration through the roof deck</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🌊</span>
+          <span className="check-icon text-2xl"><Waves className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Dripping Water During/After Storms</h3>
             <p className="text-gray-600">Active leaks during rain events require immediate storm response</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💨</span>
+          <span className="check-icon text-2xl"><Wind className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Musty Odors in Attic</h3>
             <p className="text-gray-600">Mold and mildew growth from moisture infiltration</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">⚠️</span>
+          <span className="check-icon text-2xl"><AlertTriangle className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Sagging or Bulging Ceiling</h3>
             <p className="text-gray-600">Water-saturated insulation and drywall—requires immediate attention</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🏠</span>
+          <span className="check-icon text-2xl"><Home className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Water Running Down Interior Walls</h3>
             <p className="text-gray-600">Indicates major roof penetration or flashing failure</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🔍</span>
+          <span className="check-icon text-2xl"><Search className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Visible Roof Penetrations</h3>
             <p className="text-gray-600">Missing shingles, damaged flashing, or open seams allowing water entry</p>
@@ -425,7 +426,7 @@ export default function Page() {
           Serving Amarillo and the entire Texas Panhandle, plus Midland, Odessa, and surrounding West Texas communities. Most homeowners insurance policies in Texas cover storm damage, and we work directly with all major insurance companies to ensure you receive the full coverage you deserve.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">📞 Call (806) 622-6041
+          <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

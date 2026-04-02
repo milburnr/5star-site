@@ -3,6 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { InteractiveCard } from "@/components/InteractiveCard";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { Building2, CheckCircle, ClipboardList, Clock, Flower2, Home, Mail, MapPin, Moon, Mountain, Phone, Star, Sunset, Wheat, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/contact/' },
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -33,7 +34,7 @@ const contactSchema = {
   "mainEntity": {
     "@type": ["LocalBusiness", "RoofingContractor"],
     "name": "5 Star Roofing",
-    "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+    "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg",
     "@id": "https://5starroofingpros.com",
     "url": "https://5starroofingpros.com",
     "telephone": "(806) 622-6041",
@@ -197,7 +198,7 @@ export default function ContactPage() {
 
                   <div className="space-y-4">
                     <div className="flex items-start gap-4 p-4 bg-amber-50 rounded-lg border border-brand-gold/20">
-                      <span className="text-3xl">📞</span>
+                      <Phone className="w-8 h-8" />
                       <div>
                         <h3 className="font-bold text-brand-brown mb-1">Phone</h3>
                         <a
@@ -211,7 +212,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="flex items-start gap-4 p-4 bg-amber-50 rounded-lg border border-brand-gold/20">
-                      <span className="text-3xl">✉️</span>
+                      <span className="text-3xl"><Mail className="w-5 h-5 inline-block" /></span>
                       <div>
                         <h3 className="font-bold text-brand-brown mb-1">Email</h3>
                         <a
@@ -224,7 +225,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="flex items-start gap-4 p-4 bg-amber-50 rounded-lg border border-brand-gold/20">
-                      <span className="text-3xl">📍</span>
+                      <span className="text-3xl"><MapPin className="w-6 h-6 inline-block" /></span>
                       <div>
                         <h3 className="font-bold text-brand-brown mb-1">Address</h3>
                         <a
@@ -241,7 +242,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="flex items-start gap-4 p-4 bg-amber-50 rounded-lg border border-brand-gold/20">
-                      <span className="text-3xl">🕒</span>
+                      <span className="text-3xl"><Clock className="w-6 h-6 inline-block" /></span>
                       <div>
                         <h3 className="font-bold text-brand-brown mb-1">Business Hours</h3>
                         <p className="text-gray-700">Monday - Sunday</p>
@@ -286,16 +287,16 @@ export default function ContactPage() {
 
             <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
               {[
-                { city: 'Amarillo', icon: '🏙️', link: '/amarillo-texas-roofing/' },
-                { city: 'Midland', icon: '🌆', link: '/midland-tx-roofing/' },
-                { city: 'Odessa', icon: '🏘️', link: '/odessa-tx-roofing/' },
-                { city: 'Lubbock', icon: '🌃', link: '/lubbock-tx-roofing/' },
-                { city: 'Canyon', icon: '🏞️', link: '/canyon-texas-roofing/' },
-                { city: 'Pampa', icon: '🏡', link: '/service-areas/' },
-                { city: 'Borger', icon: '🏠', link: '/service-areas/' },
-                { city: 'Hereford', icon: '🌾', link: '/service-areas/' },
-                { city: 'Plainview', icon: '🌻', link: '/service-areas/' },
-                { city: 'Dumas', icon: '⭐', link: '/service-areas/' },
+                { city: 'Amarillo', icon: '<Building2 className="w-6 h-6 inline-block" />', link: '/amarillo-texas-roofing/' },
+                { city: 'Midland', icon: '<Sunset className="w-6 h-6 inline-block" />', link: '/midland-tx-roofing/' },
+                { city: 'Odessa', icon: '<Home className="w-6 h-6 inline-block" />', link: '/odessa-tx-roofing/' },
+                { city: 'Lubbock', icon: '<Moon className="w-6 h-6 inline-block" />', link: '/lubbock-tx-roofing/' },
+                { city: 'Canyon', icon: '<Mountain className="w-6 h-6 inline-block" />', link: '/canyon-texas-roofing/' },
+                { city: 'Pampa', icon: '<Home className="w-6 h-6 inline-block" />', link: '/service-areas/' },
+                { city: 'Borger', icon: '<Home className="w-6 h-6 inline-block" />', link: '/service-areas/' },
+                { city: 'Hereford', icon: '<Wheat className="w-6 h-6 inline-block" />', link: '/service-areas/' },
+                { city: 'Plainview', icon: '<Flower2 className="w-6 h-6 inline-block" />', link: '/service-areas/' },
+                { city: 'Dumas', icon: '<Star className="w-5 h-5 fill-brand-gold text-brand-gold inline-block" />', link: '/service-areas/' },
               ].map((area, index) => (
                 <FadeIn key={area.city} delay={index * 0.05}>
                   <a
@@ -328,7 +329,7 @@ export default function ContactPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard>
                   <div className="text-center">
-                    <div className="text-5xl mb-4">✅</div>
+                    <div className="text-5xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Free Inspections</h3>
                     <p className="text-gray-700">
                       Comprehensive roof evaluations at no cost to you. No obligation, no pressure.
@@ -340,7 +341,7 @@ export default function ContactPage() {
               <FadeIn delay={0.2}>
                 <InteractiveCard>
                   <div className="text-center">
-                    <div className="text-5xl mb-4">📋</div>
+                    <div className="text-5xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Experts</h3>
                     <p className="text-gray-700">
                       Full assistance with insurance claims and documentation for hassle-free repairs.
@@ -352,7 +353,7 @@ export default function ContactPage() {
               <FadeIn delay={0.3}>
                 <InteractiveCard>
                   <div className="text-center">
-                    <div className="text-5xl mb-4">⚡</div>
+                    <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Fast Response</h3>
                     <p className="text-gray-700">
                       Quick scheduling and prompt service when you need roof repairs or inspections.
@@ -364,7 +365,7 @@ export default function ContactPage() {
               <FadeIn delay={0.4}>
                 <InteractiveCard>
                   <div className="text-center">
-                    <div className="text-5xl mb-4">⭐</div>
+                    <div className="text-5xl mb-4"><Star className="w-5 h-5 fill-brand-gold text-brand-gold inline-block" /></div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">10+ Years Experience</h3>
                     <p className="text-gray-700">
                       Trusted by West Texas homeowners and businesses for over a decade.
@@ -423,14 +424,14 @@ export default function ContactPage() {
                 href="tel:8066226041"
                 className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-xl px-12 py-5 rounded-full font-bold shadow-2xl hover:scale-110 transition-all duration-300 flex items-center gap-3"
               >
-                <span className="text-3xl">📞</span>
+                <Phone className="w-8 h-8" />
                 Call (806) 622-6041
               </a>
               <a
                 href="mailto:admin@5starroofingpros.com"
                 className="bg-white text-brand-brown hover:bg-gray-100 text-xl px-12 py-5 rounded-full font-bold shadow-2xl hover:scale-110 transition-all duration-300 border-2 border-brand-gold flex items-center gap-3"
               >
-                <span className="text-3xl">✉️</span>
+                <span className="text-3xl"><Mail className="w-5 h-5 inline-block" /></span>
                 Email Us Today
               </a>
             </div>

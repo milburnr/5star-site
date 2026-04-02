@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ClipboardList, Home, Target, Zap } from "lucide-react";
 
 
 export const metadata: Metadata = {
@@ -171,7 +172,7 @@ export default function Page() {
           <FadeIn delay={0.1} direction="left">
             <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20">
               <h3 className="text-2xl font-semibold text-brand-brown mb-4 flex items-center gap-3">
-                <span className="text-3xl">🎯</span> Hail Damage Experts
+                <span className="text-3xl"><Target className="w-6 h-6 inline-block" /></span> Hail Damage Experts
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 We specialize in identifying and repairing hail damage. Our team knows exactly what insurance adjusters
@@ -183,7 +184,7 @@ export default function Page() {
           <FadeIn delay={0.2} direction="right">
             <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20">
               <h3 className="text-2xl font-semibold text-brand-brown mb-4 flex items-center gap-3">
-                <span className="text-3xl">📋</span> Insurance Claim Help
+                <span className="text-3xl"><ClipboardList className="w-6 h-6 inline-block" /></span> Insurance Claim Help
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 We work directly with your insurance company to ensure you get the coverage you deserve.
@@ -195,7 +196,7 @@ export default function Page() {
           <FadeIn delay={0.3} direction="left">
             <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20">
               <h3 className="text-2xl font-semibold text-brand-brown mb-4 flex items-center gap-3">
-                <span className="text-3xl">⚡</span> Fast Response
+                <span className="text-3xl"><Zap className="w-6 h-6 inline-block" /></span> Fast Response
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 After a storm, time is critical. We offer free damage inspections and can typically
@@ -207,7 +208,7 @@ export default function Page() {
           <FadeIn delay={0.4} direction="right">
             <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20">
               <h3 className="text-2xl font-semibold text-brand-brown mb-4 flex items-center gap-3">
-                <span className="text-3xl">🏡</span> Local & Licensed
+                <span className="text-3xl"><Home className="w-6 h-6 inline-block" /></span> Local & Licensed
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 We're based right here in Amarillo, TX. Fully licensed, insured, and committed to

@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Building2, Factory, Hospital, Phone, School, Star, Store, Thermometer, Tornado, Wind, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-levelland/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function TPORoofingLevellandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/tpo-roofing-levelland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -198,7 +199,7 @@ export default function TPORoofingLevellandPage() {
                 Expert TPO roofing installation in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -228,7 +229,7 @@ export default function TPORoofingLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -312,21 +313,21 @@ export default function TPORoofingLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl mb-4">🌪️</div>
+                <div className="text-5xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Severe Hailstorms</h3>
                 <p className="text-gray-700">
                   The South Plains experiences 7-10 hailstorms annually, with hail sizes reaching golf ball to softball diameter. TPO's impact resistance protects against costly roof damage that plague other roofing materials.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🌡️</div>
+                <div className="text-5xl mb-4"><Thermometer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Temperature Extremes</h3>
                 <p className="text-gray-700">
                   Levelland experiences temperature swings from below 0°F in winter to over 105°F in summer. TPO's thermal stability prevents cracking, splitting, and membrane degradation from thermal cycling.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">💨</div>
+                <div className="text-5xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">High Winds</h3>
                 <p className="text-gray-700">
                   Sustained winds of 40-60 mph are common, with gusts exceeding 80 mph during storms. Our mechanically fastened TPO systems provide superior wind uplift resistance compared to fully adhered alternatives.
@@ -487,32 +488,32 @@ export default function TPORoofingLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏭</div>
+                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Manufacturing Facilities</h3>
                 <p className="text-gray-600 text-sm">Industrial buildings, warehouses, production facilities</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏢</div>
+                <div className="text-4xl mb-3"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Office Buildings</h3>
                 <p className="text-gray-600 text-sm">Professional offices, business centers, corporate facilities</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏪</div>
+                <div className="text-4xl mb-3"><Store className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Retail Centers</h3>
                 <p className="text-gray-600 text-sm">Strip malls, shopping centers, standalone retail stores</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏥</div>
+                <div className="text-4xl mb-3"><Hospital className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Healthcare Facilities</h3>
                 <p className="text-gray-600 text-sm">Medical offices, clinics, assisted living facilities</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏫</div>
+                <div className="text-4xl mb-3"><School className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Educational Buildings</h3>
                 <p className="text-gray-600 text-sm">Schools, colleges, training centers, libraries</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🛠️</div>
+                <div className="text-4xl mb-3"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Agricultural Buildings</h3>
                 <p className="text-gray-600 text-sm">Equipment storage, processing facilities, grain elevators</p>
               </div>

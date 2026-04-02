@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Check, MapPin, Mountain, Thermometer, Tornado, Wheat, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/bushland-tx-roofing/' },
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -106,7 +107,7 @@ export default function BushlandRoofingPage() {
             <h2 className="section-title">Why Bushland Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4">📍</div>
+                <div className="text-5xl mb-4"><MapPin className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Local & Close</h3>
                 <p className="text-gray-600">
                   Only 10 miles from Bushland on I-40. We can typically reach you within 20 minutes
@@ -114,7 +115,7 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🌾</div>
+                <div className="text-5xl mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Rural Expertise</h3>
                 <p className="text-gray-600">
                   We understand the unique needs of rural properties including metal buildings,
@@ -122,7 +123,7 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
                 <p className="text-gray-600">
                   Bushland's exposed location means severe weather hits hard. We provide prompt
@@ -309,7 +310,7 @@ export default function BushlandRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Severe Storm Exposure</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Storm Exposure</h3>
                 <p className="text-gray-700">
                   Bushland's location west of Amarillo along I-40 means minimal protection from severe
                   weather systems. With no urban heat island effect and surrounded by open plains, storms
@@ -318,7 +319,7 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 Constant High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Constant High Winds</h3>
                 <p className="text-gray-700">
                   The Texas Panhandle is one of America's windiest regions, and Bushland gets the full
                   brunt. Sustained 30-40 mph winds and 60+ mph gusts are common. Proper roof edge securement,
@@ -326,7 +327,7 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Temperature Extremes</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Temperature Extremes</h3>
                 <p className="text-gray-700">
                   Summer temperatures regularly exceed 100°F while winter can bring sub-zero cold. This
                   100+ degree temperature range causes expansion and contraction that stresses roofing
@@ -335,7 +336,7 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🏜️ Rural Response Times</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Mountain className="w-6 h-6 inline-block" /> Rural Response Times</h3>
                 <p className="text-gray-700">
                   As a rural community, Bushland residents need roofing contractors who can respond quickly
                   when problems arise. Our Amarillo location - just 10 miles east via I-40 - means we can
@@ -356,16 +357,16 @@ export default function BushlandRoofingPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li>✓ Bushland ISD area</li>
-                  <li>✓ Properties along FM 2381</li>
-                  <li>✓ County Road 34 corridor</li>
-                  <li>✓ I-40 frontage properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Bushland ISD area</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Properties along FM 2381</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />County Road 34 corridor</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />I-40 frontage properties</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>✓ Ranch and farm properties</li>
-                  <li>✓ Residential developments</li>
-                  <li>✓ Commercial buildings</li>
-                  <li>✓ Agricultural structures</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ranch and farm properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Residential developments</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Commercial buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Agricultural structures</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -539,7 +540,7 @@ export default function BushlandRoofingPage() {
             "@id": "https://5starroofingpros.com/bushland-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
             "description": "Professional roofing contractor serving Bushland, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
             "address": {
               "@type": "PostalAddress",

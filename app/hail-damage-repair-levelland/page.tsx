@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Construction, Microscope, Phone, Star, Tornado } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-levelland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function HailDamageRepairLevellandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Levelland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function HailDamageRepairLevellandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -185,7 +186,7 @@ export default function HailDamageRepairLevellandPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Does Advanced Storm Damage Analysis Look Like?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl mb-4">🌪️</div>
+                <div className="text-4xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Bow Echo Impact Assessment</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Wind Speed Analysis:</strong> Straight-line winds exceeding 80 mph cause structural damage patterns distinct from traditional storm damage</li>
@@ -197,7 +198,7 @@ export default function HailDamageRepairLevellandPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500">
-                <div className="text-4xl mb-4">🔬</div>
+                <div className="text-4xl mb-4"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Scientific Documentation Methods</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Meteorological Correlation:</strong> Matching damage patterns with National Weather Service storm reports and radar data</li>
@@ -209,7 +210,7 @@ export default function HailDamageRepairLevellandPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-500">
-                <div className="text-4xl mb-4">🏗️</div>
+                <div className="text-4xl mb-4"><Construction className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Levelland-Specific Solutions</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Enhanced Uplift Resistance:</strong> Upgraded fastening systems designed for 90+ mph wind events</li>
@@ -370,28 +371,28 @@ export default function HailDamageRepairLevellandPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Specialized Damage Advocacy</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Bow Echo Pattern Recognition</h4>
                       <p className="text-gray-600 text-sm">Expertise in documenting unique damage signatures from straight-line wind events</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Meteorological Correlation</h4>
                       <p className="text-gray-600 text-sm">Linking property damage to specific National Weather Service reports and radar data</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Code Upgrade Maximization</h4>
                       <p className="text-gray-600 text-sm">Ensuring coverage for enhanced wind resistance and current building standards</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Adjuster Technical Education</h4>
                       <p className="text-gray-600 text-sm">Professional presentation of complex storm dynamics and resulting damage patterns</p>

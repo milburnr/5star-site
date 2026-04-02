@@ -11,6 +11,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-amarillo/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -216,7 +217,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 Expert residential roofing in Hail Alley. Potter County has recorded 131 severe hail days since 2000—our Class 4 impact-resistant shingles reduce future damage by 90%. Free inspections and insurance claim assistance included.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -248,7 +249,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -381,12 +382,12 @@ export default function ResidentialRoofingAmarilloPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Key Requirements</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>2015 IRC compliance required</strong></li>
-                    <li>✓ Drip edge installation mandatory</li>
-                    <li>✓ Proper attic ventilation (1:150 ratio)</li>
-                    <li>✓ Wind resistance: 110-125 mph standards</li>
-                    <li>✓ UL 2218 Class 4 highly recommended</li>
-                    <li>✓ Permit display visible from street</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>2015 IRC compliance required</strong></li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Drip edge installation mandatory</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Proper attic ventilation (1:150 ratio)</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance: 110-125 mph standards</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UL 2218 Class 4 highly recommended</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Permit display visible from street</li>
                   </ul>
                 </div>
               </div>

@@ -11,6 +11,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Fuel, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-midland/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -54,7 +55,7 @@ export default function ResidentialRoofingMidlandPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/residential-roofing-midland/#localbusiness",
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
@@ -216,7 +217,7 @@ export default function ResidentialRoofingMidlandPage() {
                 Expert residential roofing for Grassland Estates, Saddle Club, and all Midland's energy executive communities. With 144 hail reports recorded, our Class 4 impact-resistant shingles protect your premium investment and maintain neighborhood aesthetics.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -246,7 +247,7 @@ export default function ResidentialRoofingMidlandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Median Home Value</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">🛢️</div>
+                <div className="text-3xl mb-3"><Fuel className="w-6 h-6 inline-block" /></div>
                 <div className="text-brand-brown font-semibold text-lg">Oil Country</div>
               </div>
             </div>
@@ -379,10 +380,10 @@ export default function ResidentialRoofingMidlandPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Our Complete Service</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>All permits handled</strong> at no extra charge</li>
-                    <li>✓ Licensed and bonded Texas contractor</li>
-                    <li>✓ City of Midland registered</li>
-                    <li>✓ All inspections coordinated</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>All permits handled</strong> at no extra charge</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Licensed and bonded Texas contractor</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />City of Midland registered</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />All inspections coordinated</li>
                   </ul>
                 </div>
               </div>

@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, GraduationCap, Phone, Search, Star, Sun, Thermometer, Tornado, Wind, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/lubbock-tx-roofing/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -73,7 +74,7 @@ export default function LubbockRoofingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero">
-                📞 Call (806) 622-6041
+                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
               </a>
               <a href="#lead-form" className="btn-secondary-hero">
                 Get Free Inspection
@@ -100,14 +101,14 @@ export default function LubbockRoofingPage() {
         <FadeIn>
           <section className="section bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 rounded-lg">
             <div className="text-center mb-8">
-              <div className="text-5xl mb-3">⭐⭐⭐⭐⭐</div>
+              <div className="text-5xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
               <h2 className="text-3xl font-bold mb-2">5.0 Rating • 150+ Happy Customers</h2>
               <p className="text-xl text-gray-600">Trusted by Lubbock Homeowners & Businesses Since 2010</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-8">
               <div className="testimonial-card-visual">
-                <div className="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div className="testimonial-rating"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="testimonial-text">
                   "After the May storm damaged roofs all over Shadow Hills, 5 Star had our property inspected within 24 hours. They handled our insurance claim perfectly and we had a beautiful new impact-resistant roof in three weeks."
                 </p>
@@ -120,7 +121,7 @@ export default function LubbockRoofingPage() {
               </div>
 
               <div className="testimonial-card-visual">
-                <div className="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div className="testimonial-rating"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="testimonial-text">
                   "We own six rental properties near Texas Tech. 5 Star has replaced roofs on four of them now, always on schedule and on budget. They understand the rental market and work around our tenants&apos; schedules."
                 </p>
@@ -133,7 +134,7 @@ export default function LubbockRoofingPage() {
               </div>
 
               <div className="testimonial-card-visual">
-                <div className="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div className="testimonial-rating"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="testimonial-text">
                   "Call at 11pm with water pouring into our Tech Terrace home. They arrived by midnight with tarps and stopped the leak immediately. Permanent repairs done within a week."
                 </p>
@@ -153,21 +154,21 @@ export default function LubbockRoofingPage() {
           <section className="section">
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="trust-badge">
-                <div className="trust-badge-icon">🎓</div>
+                <div className="trust-badge-icon"><GraduationCap className="w-6 h-6 inline-block" /></div>
                 <h3 className="trust-badge-title">Texas Tech Specialists</h3>
                 <p className="trust-badge-text">
                   Extensive experience with university area properties, student housing, and campus-adjacent buildings.
                 </p>
               </div>
               <div className="trust-badge">
-                <div className="trust-badge-icon">⚡</div>
+                <div className="trust-badge-icon"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="trust-badge-title">Same-Day Response</h3>
                 <p className="trust-badge-text">
                   After major hail events, we provide same-day inspections throughout Lubbock County.
                 </p>
               </div>
               <div className="trust-badge">
-                <div className="trust-badge-icon">🌪️</div>
+                <div className="trust-badge-icon"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="trust-badge-title">Hail Alley Experts</h3>
                 <p className="trust-badge-text">
                   Specialists in Class 4 impact-resistant systems, insurance documentation, and storm damage restoration.
@@ -300,7 +301,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🔩</div>
+                    <div className="text-6xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -331,7 +332,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <div className="text-6xl mb-4">🔍</div>
+                    <div className="text-6xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -395,31 +396,31 @@ export default function LubbockRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Severe Hail in "Hail Alley"</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Hail in "Hail Alley"</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Lubbock&apos;s location in the heart of "Hail Alley" means frequent, severe hail events. The South Plains region sees warm, moist Gulf air colliding with cooler, dry air from the Rockies - creating perfect conditions for supercell thunderstorms and large hail. In the past 12 months alone, Lubbock has had 273 hail reports. Recent devastating events include the May 2024 storm with record-breaking hailstones near Whiteface (west of Levelland), and the June 2023 event producing 4-inch softball-sized hail near Woodrow. Even quarter-sized hail can cause significant granule loss on standard asphalt shingles, leading to premature aging, compromised water resistance, and eventual leaks. Golf ball to baseball-sized hail - common in Lubbock - can total a roof in minutes.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 Relentless High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Relentless High Winds</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Lubbock ranks among America&apos;s windiest cities with sustained winds averaging 12+ mph year-round and frequent gusts exceeding 50 mph. The flat South Plains topography provides zero wind breaks, allowing unobstructed airflow across the region. These persistent winds create constant uplift pressure on roofing materials, testing shingle adhesion and flashing integrity daily. Improperly installed shingles or materials not rated for high winds will fail prematurely. Wind can also drive rain horizontally under shingles and around flashing - a unique challenge requiring expert installation techniques and premium materials with enhanced wind ratings.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Extreme Temperature Swings</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Lubbock&apos;s continental climate produces some of Texas&apos; most extreme temperature variations. Summer days routinely exceed 100°F with roof surface temperatures reaching 160°F+. Winter nights can plunge below zero. These 120+ degree annual temperature swings cause continuous expansion and contraction in roofing materials - flexing, stressing, and eventually cracking shingles, sealants, and flashing. Lubbock can experience 40-50 degree temperature drops within 24 hours as cold fronts sweep through. This thermal cycling accelerates wear dramatically compared to moderate climates. Materials must be specifically rated for extreme temperature performance to survive Lubbock&apos;s climate.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">☀️ Intense UV Radiation</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Intense UV Radiation</h3>
                 <p className="text-gray-700 leading-relaxed">
                   At 3,256 feet elevation with over 260 days of sunshine annually, Lubbock roofs face UV exposure more intense than coastal Texas cities. UV radiation breaks down the petroleum-based compounds in asphalt shingles, causing brittleness, cracking, and accelerated granule loss. This is why standard shingles rated for 25-30 year lifespans often fail in 15-20 years in Lubbock. The solution: UV-stabilized shingles with enhanced granule adhesion and Class 4 impact-resistant materials designed specifically for harsh UV environments. These premium products cost slightly more upfront but last significantly longer in Lubbock&apos;s punishing sun.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ South Plains Dust Storms</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> South Plains Dust Storms</h3>
                 <p className="text-gray-700 leading-relaxed">
                   The South Plains is notorious for dust storms that can reduce visibility to near zero and sandblast exposed surfaces with fine particulates. While less damaging than hail, persistent dust accumulation clogs gutters and valleys, traps moisture against roofing materials, and can accelerate wear on protective coatings. Dust in gutters creates weight and drainage issues, leading to overflow during Lubbock&apos;s occasional heavy rains. Proper gutter guards and regular maintenance are essential for Lubbock properties - something we emphasize with all our installations.
                 </p>
@@ -440,37 +441,37 @@ export default function LubbockRoofingPage() {
                 <div>
                   <h3 className="font-bold text-brand-brown mb-3">University Area</h3>
                   <ul className="space-y-2">
-                    <li>✓ Tech Terrace (U.N.I.T.)</li>
-                    <li>✓ North Overton</li>
-                    <li>✓ South Overton</li>
-                    <li>✓ Clapp Park</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Tech Terrace (U.N.I.T.)</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />North Overton</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />South Overton</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Clapp Park</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-bold text-brand-brown mb-3">Established Areas</h3>
                   <ul className="space-y-2">
-                    <li>✓ Arnett Benson</li>
-                    <li>✓ Whisperwood</li>
-                    <li>✓ Wheelock</li>
-                    <li>✓ Monterey</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Arnett Benson</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Whisperwood</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wheelock</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Monterey</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-bold text-brand-brown mb-3">Upscale Communities</h3>
                   <ul className="space-y-2">
-                    <li>✓ Shadow Hills</li>
-                    <li>✓ Lakeridge</li>
-                    <li>✓ Windsor Park</li>
-                    <li>✓ Preston Place</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Shadow Hills</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Lakeridge</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Windsor Park</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Preston Place</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-bold text-brand-brown mb-3">All Areas</h3>
                   <ul className="space-y-2">
-                    <li>✓ Southwest Lubbock</li>
-                    <li>✓ Northwest Lubbock</li>
-                    <li>✓ Downtown/Depot District</li>
-                    <li>✓ All Lubbock County</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Southwest Lubbock</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Northwest Lubbock</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Downtown/Depot District</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />All Lubbock County</li>
                   </ul>
                 </div>
               </div>
@@ -495,10 +496,10 @@ export default function LubbockRoofingPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Notable Campus Buildings We&apos;ve Worked Near:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>Jones AT&T Stadium</strong> - 60,000+ capacity football venue undergoing $242M renovation</li>
-                    <li>✓ <strong>Rawls College of Business</strong> - 140,000 sq ft LEED Gold certified building on Flint Avenue</li>
-                    <li>✓ <strong>Student Union Building</strong> - 15th Street &amp; Akron Avenue, heart of campus life</li>
-                    <li>✓ <strong>Whitacre College of Engineering</strong> - Including Petroleum Engineering Research facilities</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Jones AT&T Stadium</strong> - 60,000+ capacity football venue undergoing $242M renovation</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Rawls College of Business</strong> - 140,000 sq ft LEED Gold certified building on Flint Avenue</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Student Union Building</strong> - 15th Street &amp; Akron Avenue, heart of campus life</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Whitacre College of Engineering</strong> - Including Petroleum Engineering Research facilities</li>
                   </ul>
                 </div>
                 <div>
@@ -507,9 +508,9 @@ export default function LubbockRoofingPage() {
                     Tech Terrace and Overton neighborhoods contain hundreds of rental properties housing Texas Tech students. We work with property owners and management companies to provide:
                   </p>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ Competitive pricing for multi-property portfolios</li>
-                    <li>✓ Flexible scheduling around academic calendar</li>
-                    <li>✓ Durable materials that handle high-traffic properties</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Competitive pricing for multi-property portfolios</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Flexible scheduling around academic calendar</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Durable materials that handle high-traffic properties</li>
                   </ul>
                 </div>
               </div>
@@ -590,11 +591,11 @@ export default function LubbockRoofingPage() {
                       We provide comprehensive roofing services throughout Lubbock and Lubbock County, including:
                     </p>
                     <ul className="text-gray-700 space-y-2">
-                      <li>✓ <strong>All Lubbock neighborhoods</strong> - from downtown to Loop 289</li>
-                      <li>✓ <strong>Texas Tech University area</strong> - Tech Terrace, Overton, university properties</li>
-                      <li>✓ <strong>Shallowater</strong> - 15-minute response</li>
-                      <li>✓ <strong>New Deal, Wolfforth, Idalou</strong> - complete county coverage</li>
-                      <li>✓ <strong>Commercial district</strong> - Depot District, Marsha Sharp Freeway corridor</li>
+                      <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>All Lubbock neighborhoods</strong> - from downtown to Loop 289</li>
+                      <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Texas Tech University area</strong> - Tech Terrace, Overton, university properties</li>
+                      <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Shallowater</strong> - 15-minute response</li>
+                      <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>New Deal, Wolfforth, Idalou</strong> - complete county coverage</li>
+                      <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>Commercial district</strong> - Depot District, Marsha Sharp Freeway corridor</li>
                     </ul>
                   </div>
                 </div>
@@ -739,7 +740,7 @@ export default function LubbockRoofingPage() {
             "@id": "https://5starroofingpros.com/lubbock-texas-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
             "description": "Professional roofing contractor serving Lubbock, Texas and the South Plains. Expert hail damage repair, residential and commercial roofing services, Texas Tech area specialist.",
             "address": {
               "@type": "PostalAddress",

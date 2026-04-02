@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { CheckCircle, ClipboardList, FileText, Phone, Search, Shield, Star, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-lubbock/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -49,7 +50,7 @@ export default function HailDamageRepairLubbockPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -171,7 +172,7 @@ export default function HailDamageRepairLubbockPage() {
                 Lubbock sits on the southwestern edge of Tornado Alley, making hail damage an annual reality for Hub City property owners. Since 2014, 5 Star Roofing has helped Lubbock homeowners and businesses recover from storm damage with expert repairs, insurance claim assistance, and Class 4 impact-resistant replacements designed for the Llano Estacado's severe weather.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
                 </a>
@@ -203,7 +204,7 @@ export default function HailDamageRepairLubbockPage() {
                 <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -272,32 +273,32 @@ export default function HailDamageRepairLubbockPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">We thoroughly inspect your Lubbock property for hail damage, documenting every impact with photos and measurements. Our inspections are always free with no obligation.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
                 <p className="text-gray-600">We prepare comprehensive documentation for your claim and meet with your adjuster on-site. We know what Lubbock-area insurance adjusters look for and how to maximize your coverage.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📝</div>
+                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">We provide a detailed, line-item estimate using Xactimate—the same software insurance companies use. No surprises, no hidden costs.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛠️</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
                 <p className="text-gray-600">Our experienced crews install your new roof using premium materials suited to Lubbock's climate. Most residential repairs complete in 1-3 days.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">✅</div>
+                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">We conduct a thorough final inspection to ensure every detail meets our high standards. You'll receive complete documentation for your records.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
                 <p className="text-gray-600">Your Lubbock roof is protected by comprehensive workmanship warranties plus manufacturer warranties up to 50 years on qualifying materials.</p>
               </div>

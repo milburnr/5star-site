@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Home, Phone, Search, Shield, Star, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-dumas/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function ResidentialRoofingDumasPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/residential-roofing-dumas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function ResidentialRoofingDumasPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Dumas. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function ResidentialRoofingDumasPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -174,7 +175,7 @@ export default function ResidentialRoofingDumasPage() {
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🏠</div>
+                <div className="text-4xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">New Roof Installation</h3>
                 <p className="text-gray-700 mb-4">Complete roof replacement for Dumas homes using premium materials designed for Texas Panhandle conditions.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -186,7 +187,7 @@ export default function ResidentialRoofingDumasPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🔧</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">Expert restoration services for hail, wind, and severe weather damage common in Moore County.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -198,7 +199,7 @@ export default function ResidentialRoofingDumasPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Roof Inspections</h3>
                 <p className="text-gray-700 mb-4">Thorough evaluations to identify potential issues before they become costly problems.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -343,7 +344,7 @@ export default function ResidentialRoofingDumasPage() {
                 <p className="text-gray-700 mb-6">When severe weather strikes Dumas and Moore County, our storm response team is ready to protect your home and family. We understand that storm damage requires prompt attention, especially during the active storm season in the Texas Panhandle.</p>
                 
                 <div className="bg-red-50 p-6 rounded-xl mb-6">
-                  <h4 className="font-bold text-brand-brown mb-2">⚠️ When to call for service:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><AlertTriangle className="w-6 h-6 inline-block" /> When to call for service:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Visible roof damage after hail or wind storms</li>
                     <li>• Water leaks or interior damage</li>
@@ -359,7 +360,7 @@ export default function ResidentialRoofingDumasPage() {
                 <p className="text-gray-700 mb-6">Our storm response includes temporary protection measures to prevent further damage while permanent repairs are arranged. This service is often covered by insurance and can save thousands in additional damage.</p>
                 
                 <div className="bg-blue-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">🛡️ Temporary Protection Includes:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><Shield className="w-6 h-6 inline-block" /> Temporary Protection Includes:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Tarping and weatherproofing</li>
                     <li>• Board-up services for severe damage</li>
@@ -375,7 +376,7 @@ export default function ResidentialRoofingDumasPage() {
               <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-6 rounded-xl inline-block">
                 <p className="text-xl mb-3">Available for Storm Damage</p>
                 <a href="tel:8066226041" className="bg-white text-red-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-all">
-                  📞 Call (806) 622-6041 NOW
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041 NOW
                 </a>
               </div>
             </div>

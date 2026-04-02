@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-pampa/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function CommercialRoofingPampaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-pampa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function CommercialRoofingPampaPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Pampa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingPampaPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -362,21 +363,21 @@ export default function CommercialRoofingPampaPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Local Expertise</h3>
                       <p className="text-gray-700">Deep understanding of Pampa's climate challenges, building codes, and commercial property requirements gained through years of local service.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Proven Track Record</h3>
                       <p className="text-gray-700">Hundreds of successful commercial roofing projects throughout the Texas Panhandle with consistent 5-star customer reviews and referrals.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Advanced Technology</h3>
                       <p className="text-gray-700">Latest installation techniques, energy-efficient materials, and innovative roofing systems designed for optimal performance in Texas conditions.</p>
@@ -385,21 +386,21 @@ export default function CommercialRoofingPampaPage() {
                 </div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Comprehensive Service</h3>
                       <p className="text-gray-700">Complete project management from initial consultation through warranty service, including permits, inspections, and insurance coordination.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Response</h3>
                       <p className="text-gray-700"> for storm damage, leak repairs, and urgent roofing issues affecting Pampa commercial operations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Transparent Pricing</h3>
                       <p className="text-gray-700">Detailed estimates with clear pricing, no hidden costs, and competitive rates backed by quality materials and expert installation.</p>

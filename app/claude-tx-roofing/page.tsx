@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Check, Handshake, Route, Sun, Thermometer, Tornado, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/claude-tx-roofing/' },
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -106,7 +107,7 @@ export default function ClaudeRoofingPage() {
             <h2 className="section-title">Why Claude Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4">🛣️</div>
+                <div className="text-5xl mb-4"><Route className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Easy Access via US-287</h3>
                 <p className="text-gray-600">
                   Just 25 miles from Claude on US Highway 287. We make the drive regularly and can
@@ -114,7 +115,7 @@ export default function ClaudeRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🤝</div>
+                <div className="text-5xl mb-4"><Handshake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Small Town Values</h3>
                 <p className="text-gray-600">
                   We understand Claude's tight-knit community. Our reputation is built on honesty,
@@ -122,7 +123,7 @@ export default function ClaudeRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Specialists</h3>
                 <p className="text-gray-600">
                   Armstrong County sees frequent severe weather. We specialize in hail damage detection,
@@ -347,7 +348,7 @@ export default function ClaudeRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Severe Thunderstorms & Hail</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Thunderstorms & Hail</h3>
                 <p className="text-gray-700">
                   Claude sits in the heart of Hail Alley where warm, moist air from the Gulf collides
                   with cool, dry air from the Rockies. This creates explosive thunderstorms from March
@@ -356,7 +357,7 @@ export default function ClaudeRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 Powerful Straight-Line Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Powerful Straight-Line Winds</h3>
                 <p className="text-gray-700">
                   Armstrong County's open terrain allows wind to build tremendous speed. Sustained winds
                   of 40+ mph are common, with gusts exceeding 70 mph during severe weather. Proper roof
@@ -365,7 +366,7 @@ export default function ClaudeRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Extreme Temperature Variation</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Variation</h3>
                 <p className="text-gray-700">
                   Claude experiences some of Texas' most dramatic temperature swings. Summer days regularly
                   hit 100°F while winter nights can drop below zero. This 100+ degree temperature range
@@ -374,7 +375,7 @@ export default function ClaudeRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">☀️ Intense UV Radiation</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Intense UV Radiation</h3>
                 <p className="text-gray-700">
                   At nearly 3,000 feet elevation with over 265 days of sunshine annually, Claude roofs
                   face relentless UV exposure that degrades organic materials. Asphalt shingles without
@@ -396,16 +397,16 @@ export default function ClaudeRoofingPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li>✓ Downtown Claude</li>
-                  <li>✓ Claude ISD area</li>
-                  <li>✓ US Highway 287 corridor</li>
-                  <li>✓ FM 1260 properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Downtown Claude</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Claude ISD area</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />US Highway 287 corridor</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />FM 1260 properties</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>✓ Tule Creek area</li>
-                  <li>✓ Rural ranch properties</li>
-                  <li>✓ Commercial Main Street</li>
-                  <li>✓ Surrounding Armstrong County</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Tule Creek area</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Rural ranch properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Commercial Main Street</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Surrounding Armstrong County</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -579,7 +580,7 @@ export default function ClaudeRoofingPage() {
             "@id": "https://5starroofingpros.com/claude-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
             "description": "Professional roofing contractor serving Claude, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
             "address": {
               "@type": "PostalAddress",

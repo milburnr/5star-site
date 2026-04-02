@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Building2, Check, Home, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/canyon-texas-roofing/' },
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -155,7 +156,7 @@ export default function CanyonRoofingPage() {
             <h1 className="hero-title">Canyon's Professional Roofing Contractor</h1>
             <p className="hero-subtitle">Expert Roofing Services in Canyon & Randall County, Texas</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">Free Inspection</a>
             </div>
           </div>
@@ -279,7 +280,7 @@ export default function CanyonRoofingPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1}>
               <div className="card-hover p-6">
-                <div className="text-5xl mb-4">🏢</div>
+                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
                 <p className="text-gray-600 mb-4">
                   We install TPO, EPDM, metal roofing, and built-up systems for businesses and facilities throughout Randall County.
@@ -289,7 +290,7 @@ export default function CanyonRoofingPage() {
             </FadeIn>
             <FadeIn delay={0.2}>
               <div className="card-hover p-6">
-                <div className="text-5xl mb-4">🏠</div>
+                <div className="text-5xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing</h3>
                 <p className="text-gray-600 mb-4">
                   From asphalt shingles to metal roofing, we provide complete residential roofing services for Canyon homeowners. Our Class 4 impact-resistant shingles protect against Texas Panhandle hail.
@@ -299,7 +300,7 @@ export default function CanyonRoofingPage() {
             </FadeIn>
             <FadeIn delay={0.3}>
               <div className="card-hover p-6 bg-red-50">
-                <div className="text-5xl mb-4">🚨</div>
+                <div className="text-5xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
                   When severe weather strikes Canyon, we respond with tarping and rapid roof repairs. Call us immediately for storm damage assessment.
@@ -315,19 +316,19 @@ export default function CanyonRoofingPage() {
             <h2 className="text-2xl font-bold mb-6">Why Canyon Chooses 5 Star Roofing</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Randall County Experts</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Randall County Experts</h3>
                 <p className="text-gray-600">We understand Canyon's weather patterns, from spring hailstorms to winter freezes. Our roofing systems are engineered for local climate challenges.</p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Insurance Claim Assistance</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Insurance Claim Assistance</h3>
                 <p className="text-gray-600">We work directly with insurance adjusters on <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage claims</a>, ensuring you receive full coverage for storm repairs.</p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Local & Regional Experience</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Local & Regional Experience</h3>
                 <p className="text-gray-600">Serving Canyon and communities throughout the Texas Panhandle with specialized roofing designed for extreme weather conditions.</p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Free Inspections</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Free Inspections</h3>
                 <p className="text-gray-600">Every Canyon property receives a complimentary roof inspection with detailed assessments, photos, and written estimates—no obligation.</p>
               </div>
             </div>
@@ -525,7 +526,7 @@ export default function CanyonRoofingPage() {
               Serving Canyon, Randall County, and the entire Texas Panhandle. Contact us today for your free inspection.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4 border-2 border-white hover:bg-white hover:text-brand-brown">Request Free Inspection</a>
             </div>
           </section>

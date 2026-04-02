@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Factory, FlaskConical, Fuel, Gem, Mountain, Phone, Snowflake, Star, Sun, Thermometer, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-midland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function MetalRoofingMidlandPage() {
         "@id": "https://5starroofingpros.com/metal-roofing-midland/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-42-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function MetalRoofingMidlandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional metal roofing throughout Midland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function MetalRoofingMidlandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -147,10 +148,10 @@ export default function MetalRoofingMidlandPage() {
                 <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Permian Basin Durability Features:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-center"><span className="text-orange-600 mr-2">✓</span> Enhanced corrosion resistance for industrial environments</li>
-                    <li className="flex items-center"><span className="text-orange-600 mr-2">✓</span> Sand and dust abrasion-resistant coatings</li>
-                    <li className="flex items-center"><span className="text-orange-600 mr-2">✓</span> Extreme heat reflection and dissipation</li>
-                    <li className="flex items-center"><span className="text-orange-600 mr-2">✓</span> Reinforced fastening for desert wind conditions</li>
+                    <li className="flex items-center"><span className="text-orange-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Enhanced corrosion resistance for industrial environments</li>
+                    <li className="flex items-center"><span className="text-orange-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Sand and dust abrasion-resistant coatings</li>
+                    <li className="flex items-center"><span className="text-orange-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Extreme heat reflection and dissipation</li>
+                    <li className="flex items-center"><span className="text-orange-600 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Reinforced fastening for desert wind conditions</li>
                   </ul>
                 </div>
               </div>
@@ -235,7 +236,7 @@ export default function MetalRoofingMidlandPage() {
               <p className="text-lg text-gray-700 mb-8 text-center">Midland's oil and gas industry creates unique environmental challenges for roofing materials. Our metal systems are engineered to resist industrial emissions and maintain performance in these demanding conditions.</p>
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-gradient-to-br from-gray-800 to-gray-600 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">⚗️</div>
+                  <div className="text-4xl mb-4 text-center"><FlaskConical className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Chemical Resistance</h3>
                   <p className="mb-4">Oil field emissions and processing vapors require specialized coating protection.</p>
                   <ul className="space-y-1 text-sm">
@@ -245,7 +246,7 @@ export default function MetalRoofingMidlandPage() {
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-yellow-600 to-orange-600 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">🏭</div>
+                  <div className="text-4xl mb-4 text-center"><Factory className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Dust & Particulates</h3>
                   <p className="mb-4">Heavy industrial activity creates airborne particulates that can damage roofing.</p>
                   <ul className="space-y-1 text-sm">
@@ -255,7 +256,7 @@ export default function MetalRoofingMidlandPage() {
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-red-600 to-orange-600 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">🌡️</div>
+                  <div className="text-4xl mb-4 text-center"><Thermometer className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Extreme Heat</h3>
                   <p className="mb-4">Desert conditions plus industrial heat islands create severe thermal stress.</p>
                   <ul className="space-y-1 text-sm">
@@ -353,32 +354,32 @@ export default function MetalRoofingMidlandPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🏜️</div>
+                  <div className="text-4xl mb-4 text-center"><Mountain className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Desert Durability</h3>
                   <p className="text-gray-700">Engineered for Chihuahuan Desert conditions including sandstorms, extreme heat, and minimal rainfall. Metal roofing thrives where other materials deteriorate rapidly.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🛢️</div>
+                  <div className="text-4xl mb-4 text-center"><Fuel className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Industrial Resistance</h3>
                   <p className="text-gray-700">Superior protection against chemical emissions and industrial pollutants common in the Permian Basin. Coatings resist corrosion and maintain appearance.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">💨</div>
+                  <div className="text-4xl mb-4 text-center"><Wind className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Wind Performance</h3>
                   <p className="text-gray-700">Constant desert winds require superior fastening systems. Our installations exceed 120 mph wind ratings for reliable storm protection.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">☀️</div>
+                  <div className="text-4xl mb-4 text-center"><Sun className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">UV Protection</h3>
                   <p className="text-gray-700">High-altitude desert conditions create intense UV exposure. Premium coatings resist fading and chalking for decades of appearance retention.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">❄️</div>
+                  <div className="text-4xl mb-4 text-center"><Snowflake className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Temperature Extremes</h3>
                   <p className="text-gray-700">From below freezing to over 115°F, Midland tests materials severely. Metal roofing handles thermal cycling without cracking or deterioration.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">💎</div>
+                  <div className="text-4xl mb-4 text-center"><Gem className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Low Maintenance</h3>
                   <p className="text-gray-700">Ideal for busy oil industry professionals. Minimal upkeep required compared to other roofing materials in harsh desert conditions.</p>
                 </div>

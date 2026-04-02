@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/gallery/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -214,7 +215,7 @@ export default function GalleryPage() {
                 <div className="text-gray-600">Cities Served</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-brand-gold mb-2">⭐⭐⭐⭐⭐</div>
+                <div className="text-4xl font-bold text-brand-gold mb-2"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-gray-600">5-Star Rated</div>
               </div>
             </div>
@@ -230,7 +231,7 @@ export default function GalleryPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="bg-white text-brand-brown px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all text-lg">
-                📞 Call (806) 622-6041
+                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
               </a>
               <a href="/contact/" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-brand-brown transition-all text-lg">
                 Request Free Inspection

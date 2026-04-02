@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Beef, Construction, FlaskConical, Phone, Snowflake, Sprout, Star, Tornado, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-dumas/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function RoofInspectionsDumasPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-dumas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function RoofInspectionsDumasPage() {
                 Expert roof inspections in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Schedule FREE Inspection
@@ -224,7 +225,7 @@ export default function RoofInspectionsDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -255,7 +256,7 @@ export default function RoofInspectionsDumasPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Feedlot and Agricultural Environmental Factors</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🐄 Livestock Operation Effects</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><Beef className="w-6 h-6 inline-block" /> Livestock Operation Effects</h4>
                     <p className="text-gray-700 mb-4">Dumas is home to massive cattle feedlots creating unique atmospheric conditions affecting roofing materials.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Ammonia Exposure:</strong> Livestock waste produces ammonia vapors accelerating metal corrosion</li>
@@ -266,7 +267,7 @@ export default function RoofInspectionsDumasPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌾 Agricultural Processing Impact</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><Wheat className="w-6 h-6 inline-block" /> Agricultural Processing Impact</h4>
                     <p className="text-gray-700 mb-4">Grain processing and agricultural operations create additional environmental stressors.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Grain Dust:</strong> Fine particles from processing creating abrasive conditions</li>
@@ -373,7 +374,7 @@ export default function RoofInspectionsDumasPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Agricultural-Specific Damage Indicators</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🧪 Chemical Corrosion Patterns</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><FlaskConical className="w-6 h-6 inline-block" /> Chemical Corrosion Patterns</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Ammonia Corrosion:</strong> White crystalline deposits on metal surfaces</li>
                       <li>• <strong>Sulfide Blackening:</strong> Dark staining from hydrogen sulfide exposure</li>
@@ -384,7 +385,7 @@ export default function RoofInspectionsDumasPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🌪️ Enhanced Weather Damage</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Tornado className="w-6 h-6 inline-block" /> Enhanced Weather Damage</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Dust-Accelerated Abrasion:</strong> Windborne particles creating wear patterns</li>
                       <li>• <strong>Moisture Trap Damage:</strong> Organic matter holding moisture against surfaces</li>
@@ -395,7 +396,7 @@ export default function RoofInspectionsDumasPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🏗️ Structural Agricultural Stress</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Construction className="w-6 h-6 inline-block" /> Structural Agricultural Stress</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Equipment Vibration Damage:</strong> Machinery creating structural fatigue</li>
                       <li>• <strong>Heavy Load Deflection:</strong> Grain storage causing sagging</li>
@@ -467,7 +468,7 @@ export default function RoofInspectionsDumasPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Agricultural Season Inspection Timing?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🌱 Spring Agricultural Operations (March-May)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Sprout className="w-6 h-6 inline-block" /> Spring Agricultural Operations (March-May)</h3>
                 <p className="text-gray-700 mb-4"><strong>Planting Season Impact:</strong> Field preparation and planting operations create dust and chemical exposure.</p>
                 <div className="space-y-3">
                   <div>
@@ -493,7 +494,7 @@ export default function RoofInspectionsDumasPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🌾 Summer Growing Season (June-August)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Summer Growing Season (June-August)</h3>
                 <p className="text-gray-700 mb-4"><strong>Peak Agricultural Activity:</strong> Irrigation, chemical applications, and peak feedlot operations.</p>
                 <div className="space-y-3">
                   <div>
@@ -519,7 +520,7 @@ export default function RoofInspectionsDumasPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🌽 Harvest Season Assessment (September-November)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Harvest Season Assessment (September-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Harvest Operations Impact:</strong> Grain dust, equipment vibration, and storage facility loading.</p>
                 <div className="space-y-3">
                   <div>
@@ -545,7 +546,7 @@ export default function RoofInspectionsDumasPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Agricultural Dormancy (December-February)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Snowflake className="w-6 h-6 inline-block" /> Winter Agricultural Dormancy (December-February)</h3>
                 <p className="text-gray-700 mb-4"><strong>Reduced Operations:</strong> Optimal inspection timing with minimal agricultural interference.</p>
                 <div className="space-y-3">
                   <div>

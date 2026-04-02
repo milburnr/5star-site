@@ -1,0 +1,788 @@
+{
+  "/": [
+    {
+      "context": "Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Current image is acceptable"
+    },
+    {
+      "context": "Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    },
+    {
+      "context": "Professional roof inspector examining shingle condition on Amarillo home - Free assessment",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Professional roof inspector examining shingle condition on Amarillo home - Free assessment\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.jpg",
+      "reason": "Matched \"New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing\" → asphalt-shingles (Close-up view of gray asphalt shingles showing visible damage with exposed lighter substrate where granules have been knocked off, likely from hail impact.)"
+    },
+    {
+      "context": "TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-san-angelo-40-1280w.webp",
+      "reason": "Matched \"Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing\" → built-up-gravel (Close-up view of a built-up gravel roof surface showing visible cracks and deterioration in the membrane with coins placed for scale reference.)"
+    },
+    {
+      "context": "Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.webp",
+      "reason": "Matched \"Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Roofing\" → asphalt-shingles (Close-up view of asphalt shingle roof showing hail damage with multiple impact marks and exposed spots where granules have been knocked off the shingles.)"
+    },
+    {
+      "context": "Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.webp",
+      "reason": "Matched \"Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Roofing\" → asphalt-shingles (A damaged plumbing pipe jack or vent boot protruding from weathered asphalt shingles, showing wear and potential failure of the seal.)"
+    },
+    {
+      "context": "Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-6-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Roofing\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-37-640w.jpg",
+      "reason": "Matched \"Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Roofing\" → tpo (Close-up view of a deteriorating TPO roof membrane showing significant cracking, peeling, and degradation along the seam and surface.)"
+    },
+    {
+      "context": "Class 4 impact-resistant asphalt shingles installed on Odessa home for hail protection",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-4-640w.jpg",
+      "reason": "Matched \"Class 4 impact-resistant asphalt shingles installed on Odessa home for hail protection\" → asphalt-shingles (Close-up view of asphalt shingles showing visible damage with pockmarks and dents consistent with hail impact.)"
+    },
+    {
+      "context": "Standing seam metal roof panels on a home in Wichita Falls TX - Premium hail protection",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-45-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roof panels on a home in Wichita Falls TX - Premium hail protection\" → standing-seam-metal (Close-up of a deteriorating red standing seam metal roof showing peeling paint, rust spots, and exposed metal along the seams.)"
+    },
+    {
+      "context": "White TPO commercial roofing membrane on flat-roof building in Pampa TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-37-640w.webp",
+      "reason": "Matched \"White TPO commercial roofing membrane on flat-roof building in Pampa TX\" → tpo (Close-up view of a deteriorating white TPO flat roof membrane showing extensive cracking, peeling, and surface degradation along a wall transition.)"
+    },
+    {
+      "context": "EPDM rubber membrane roofing system on commercial building in Pampa TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+      "reason": "Matched \"EPDM rubber membrane roofing system on commercial building in Pampa TX - 5 Star Roofing\" → epdm (A completed EPDM rubber roof installation on a residential dormer or addition, showing the smooth black membrane surface surrounded by gray asphalt shingles.)"
+    },
+    {
+      "context": "Our Proven 6-Step Process",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.jpg",
+      "reason": "Matched \"Our Proven 6-Step Process\" → asphalt-shingles (A close-up overhead view of a gray asphalt shingle roof with a single pipe jack vent boot installed.)"
+    },
+    {
+      "context": "Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.webp",
+      "reason": "Matched \"Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing\" → asphalt-shingles (An overhead view showing a white pipe jack vent installed on brown asphalt shingle roofing.)"
+    },
+    {
+      "context": "Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.jpg",
+      "reason": "Matched \"Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Roofing\" → asphalt-shingles (Close-up view of gray asphalt shingle roofing showing the rectangular tab pattern and granular texture of installed shingles.)"
+    },
+    {
+      "context": "Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.webp",
+      "reason": "Matched \"Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Roofing\" → asphalt-shingles (Close-up view of gray asphalt shingle roofing showing the standard three-tab shingle pattern and texture in good condition.)"
+    },
+    {
+      "context": "Final roof inspection quality control in West Texas - Warranty protection - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-640w.jpg",
+      "reason": "Matched \"Final roof inspection quality control in West Texas - Warranty protection - 5 Star Roofing\" → asphalt-shingles (Close-up view of gray asphalt shingle roofing showing the textured surface and standard three-tab shingle pattern with horizontal coursing.)"
+    },
+    {
+      "context": "Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-640w.webp",
+      "reason": "Matched \"Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Roofing\" → asphalt-shingles (Close-up view of gray asphalt shingle roofing showing the standard three-tab shingle pattern and granular surface texture.)"
+    }
+  ],
+  "/about": [
+    {
+      "context": "5 Star Commercial Roofing team in Amarillo Texas - Professional roofing contractors and crew - Locally owned and operated",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-san-angelo-40-1280w.webp",
+      "reason": "Matched \"5 Star Commercial Roofing team in Amarillo Texas - Professional roofing contractors and crew - Locally owned and operated\" → built-up-gravel (Close-up view of a built-up gravel roof surface showing visible cracks and deterioration in the membrane with coins placed for scale reference.)"
+    },
+    {
+      "context": "5 Star Commercial Roofing company truck in Amarillo TX - Professional roofing equipment and materials ready for service",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-san-angelo-40-640w.jpg",
+      "reason": "Matched \"5 Star Commercial Roofing company truck in Amarillo TX - Professional roofing equipment and materials ready for service\" → built-up-gravel (Close-up view of an aged built-up gravel roof surface showing multiple linear cracks in the membrane with exposed aggregate surfacing.)"
+    },
+    {
+      "context": "Professional roofing crew installing roof in Amarillo Texas - Quality craftsmanship and safety equipment - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.webp",
+      "reason": "Matched \"Professional roofing crew installing roof in Amarillo Texas - Quality craftsmanship and safety equipment - 5 Star Commercial Roofing\" → modified-bitumen (A close-up overhead view of a pipe jack penetration on a granulated modified bitumen roof surface with visible weathering.)"
+    }
+  ],
+  "/amarillo-homes-roofing-services": [
+    {
+      "context": "Amarillo Homes Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Amarillo Homes Roofing\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    }
+  ],
+  "/amarillo-weather-impact-on-roofing": [
+    {
+      "context": "Climate and Roof Longevity in Amarillo",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Climate and Roof Longevity in Amarillo\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    }
+  ],
+  "/amarillos-best-roofer": [
+    {
+      "context": "Amarillo's Best Roofer",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Amarillo's Best Roofer\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    }
+  ],
+  "/asphalt-shingle-roofing": [
+    {
+      "context": "Asphalt shingle roofing close-up showing architectural shingle texture in Midland, Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Asphalt shingle roofing close-up showing architectural shingle texture in Midland, Texas\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Shingle roof installation in Perryton, Texas with new underlayment and starter strips",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Shingle roof installation in Perryton, Texas with new underlayment and starter strips\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    }
+  ],
+  "/budgeting-for-roof-replacement-expenses": [
+    {
+      "context": "Roof Replacement in Amarillo TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-6-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Roof Replacement in Amarillo TX\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    }
+  ],
+  "/bushland-tx-roofing": [
+    {
+      "context": "Completed hail damage roof repair with new shingles on Amarillo area home",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Completed hail damage roof repair with new shingles on Amarillo area home\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Residential roof replacement project completed in Odessa TX - Quality shingle work",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Residential roof replacement project completed in Odessa TX - Quality shingle work\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Standing seam metal roofing panels installed on Bushland area property - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roofing panels installed on Bushland area property - 5 Star Roofing\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "Commercial flat roof with TPO membrane on agricultural building near Pampa TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"Commercial flat roof with TPO membrane on agricultural building near Pampa TX\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Emergency roof repair completed after storm damage near Bushland TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Emergency roof repair completed after storm damage near Bushland TX - 5 Star Roofing\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    }
+  ],
+  "/claude-tx-roofing": [
+    {
+      "context": "Roof replacement completed after hail damage near Channing TX - New shingles installed",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-17-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Roof replacement completed after hail damage near Channing TX - New shingles installed\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Residential shingle roof replacement completed in Amarillo area - Quality craftsmanship",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Residential shingle roof replacement completed in Amarillo area - Quality craftsmanship\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Commercial flat roof project in Amarillo TX with EPDM membrane - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"Commercial flat roof project in Amarillo TX with EPDM membrane - 5 Star Roofing\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    },
+    {
+      "context": "Standing seam metal roof on Claude TX area property - Durable hail-resistant roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-45-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roof on Claude TX area property - Durable hail-resistant roofing\" → standing-seam-metal (Close-up of a deteriorating red standing seam metal roof showing peeling paint, rust spots, and exposed metal along the seams.)"
+    },
+    {
+      "context": "Completed roofing project in San Angelo TX demonstrating quality inspection standards",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.jpg",
+      "reason": "Matched \"Completed roofing project in San Angelo TX demonstrating quality inspection standards\" → asphalt-shingles (A close-up overhead view of a gray asphalt shingle roof with a single pipe jack vent boot installed.)"
+    },
+    {
+      "context": "Emergency roof repair work completed near Perryton TX after severe storm damage",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Emergency roof repair work completed near Perryton TX after severe storm damage\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    }
+  ],
+  "/commercial-roofing": [
+    {
+      "context": "Commercial Roofing Services in Amarillo",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-san-angelo-40-1280w.webp",
+      "reason": "Matched \"Commercial Roofing Services in Amarillo\" → built-up-gravel (Close-up view of a built-up gravel roof surface showing visible cracks and deterioration in the membrane with coins placed for scale reference.)"
+    },
+    {
+      "context": "TPO commercial roofing installation Midland TX - White membrane heat-welded seams - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"TPO commercial roofing installation Midland TX - White membrane heat-welded seams - 5 Star Commercial Roofing\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "PVC commercial roofing membrane Odessa TX - Chemical resistant flat roof system - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-37-640w.jpg",
+      "reason": "Matched \"PVC commercial roofing membrane Odessa TX - Chemical resistant flat roof system - 5 Star Commercial Roofing\" → tpo (Close-up view of a deteriorating TPO roof membrane showing significant cracking, peeling, and degradation along the seam and surface.)"
+    },
+    {
+      "context": "Commercial Hail Damage Services",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg",
+      "reason": "Matched \"Commercial Hail Damage Services\" → built-up-gravel (Close-up view of hail damage on a built-up gravel roof surface showing impact marks and displaced gravel with wire debris present.)"
+    },
+    {
+      "context": "Why Choose 5 Star for Commercial Roofing?",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-san-angelo-40-640w.jpg",
+      "reason": "Matched \"Why Choose 5 Star for Commercial Roofing?\" → built-up-gravel (Close-up view of an aged built-up gravel roof surface showing multiple linear cracks in the membrane with exposed aggregate surfacing.)"
+    }
+  ],
+  "/commercial-roofing-amarillo": [
+    {
+      "context": "TPO white membrane roofing installation on Amarillo commercial building - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"TPO white membrane roofing installation on Amarillo commercial building - 5 Star Roofing\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Standing seam metal roof on Amarillo commercial warehouse - Durable hail protection",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-45-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roof on Amarillo commercial warehouse - Durable hail protection\" → standing-seam-metal (Close-up of a deteriorating red standing seam metal roof showing peeling paint, rust spots, and exposed metal along the seams.)"
+    },
+    {
+      "context": "EPDM rubber membrane on Amarillo commercial flat roof - Cost-effective roofing solution",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"EPDM rubber membrane on Amarillo commercial flat roof - Cost-effective roofing solution\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    }
+  ],
+  "/commercial-roofing-lubbock": [
+    {
+      "context": "TPO commercial roof system on Lubbock business facility - Energy-efficient membrane",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"TPO commercial roof system on Lubbock business facility - Energy-efficient membrane\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Metal standing seam roof on Lubbock agricultural building - 50-year durability",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Metal standing seam roof on Lubbock agricultural building - 50-year durability\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "EPDM rubber roofing on Lubbock commercial warehouse - Budget-friendly flat roof option",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"EPDM rubber roofing on Lubbock commercial warehouse - Budget-friendly flat roof option\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    }
+  ],
+  "/commercial-roofing-midland": [
+    {
+      "context": "TPO membrane roof on Midland oil industry office building - Chemical-resistant system",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-20-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-50-640w.webp",
+      "reason": "Matched \"TPO membrane roof on Midland oil industry office building - Chemical-resistant system\" → tpo (A completed flat TPO roof installation with white membrane and metal drip edge, showing the transition area where it meets an adjacent asphalt shingle roof section.)"
+    },
+    {
+      "context": "Metal roofing on Midland industrial facility - Fire-resistant for petroleum operations",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Metal roofing on Midland industrial facility - Fire-resistant for petroleum operations\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "EPDM rubber membrane on Midland oil field support building - UV-stable flat roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"EPDM rubber membrane on Midland oil field support building - UV-stable flat roofing\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    }
+  ],
+  "/hail-damage-repair": [
+    {
+      "context": "Hail Damage Roof Repair Across West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Hail Damage Roof Repair Across West Texas\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Hail damage on residential roof shingles in Canyon, Texas showing impact marks and granule loss",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.jpg",
+      "reason": "Matched \"Hail damage on residential roof shingles in Canyon, Texas showing impact marks and granule loss\" → asphalt-shingles (Close-up view of gray asphalt shingles showing visible damage with exposed lighter substrate where granules have been knocked off, likely from hail impact.)"
+    },
+    {
+      "context": "Professional hail damage roof repair in progress in Borger, Texas Panhandle",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.webp",
+      "reason": "Matched \"Professional hail damage roof repair in progress in Borger, Texas Panhandle\" → asphalt-shingles (Close-up view of asphalt shingle roof showing hail damage with multiple impact marks and exposed spots where granules have been knocked off the shingles.)"
+    }
+  ],
+  "/lubbock-tx-roofing": [
+    {
+      "context": "New roof installed after hail damage near Channing TX - Impact-resistant shingles",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"New roof installed after hail damage near Channing TX - Impact-resistant shingles\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Completed residential shingle roof with clean finish in West Texas - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Completed residential shingle roof with clean finish in West Texas - 5 Star Roofing\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Commercial EPDM flat roof on Lubbock area business building - Professional installation",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"Commercial EPDM flat roof on Lubbock area business building - Professional installation\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    }
+  ],
+  "/metal-roofing": [
+    {
+      "context": "Metal Roofing Installation and Repair Across West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Metal Roofing Installation and Repair Across West Texas\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "Metal roofing panels installed on a commercial building in Wichita Falls, Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-42-640w.jpg",
+      "reason": "Matched \"Metal roofing panels installed on a commercial building in Wichita Falls, Texas\" → standing-seam-metal (Aerial view of a bright red standing seam metal roof showing clean vertical panel lines and ridge detail.)"
+    },
+    {
+      "context": "How Do You Maintain and Repair a Metal Roof?",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-22-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp",
+      "reason": "Matched \"How Do You Maintain and Repair a Metal Roof?\" → standing-seam-metal (Wide-angle view of a standing seam metal roof on an industrial grain facility with vertical metal panels extending across the foreground under clear blue skies.)"
+    }
+  ],
+  "/midland-tx-roofing": [
+    {
+      "context": "Roof restored with new shingles after severe hail storm damage near Midland TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Roof restored with new shingles after severe hail storm damage near Midland TX\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Commercial flat roof with EPDM membrane on Midland area industrial facility",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"Commercial flat roof with EPDM membrane on Midland area industrial facility\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    },
+    {
+      "context": "Completed residential roof replacement showing quality shingle work near Channing TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Completed residential roof replacement showing quality shingle work near Channing TX\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Commercial flat roof membrane system on Midland TX building - TPO and EPDM options",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"Commercial flat roof membrane system on Midland TX building - TPO and EPDM options\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    }
+  ],
+  "/odessa-tx-roofing": [
+    {
+      "context": "Completed roof with new shingles after hail damage repair in the Odessa TX area",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Completed roof with new shingles after hail damage repair in the Odessa TX area\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "New residential roof installation with architectural shingles near Morton TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"New residential roof installation with architectural shingles near Morton TX\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "TPO membrane installation on commercial industrial building in Pampa TX - Flat roof",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"TPO membrane installation on commercial industrial building in Pampa TX - Flat roof\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Standing seam metal roofing panels on Odessa area property - 50-year hail protection",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-45-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roofing panels on Odessa area property - 50-year hail protection\" → standing-seam-metal (Close-up of a deteriorating red standing seam metal roof showing peeling paint, rust spots, and exposed metal along the seams.)"
+    }
+  ],
+  "/residential-roofing": [
+    {
+      "context": "Residential Roofing Services in Amarillo",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-11-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Residential Roofing Services in Amarillo\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Class 4 impact-resistant asphalt shingles on Amarillo home - Architectural style residential roofing - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Class 4 impact-resistant asphalt shingles on Amarillo home - Architectural style residential roofing - 5 Star Commercial Roofing\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "Standing seam metal roofing on Texas Panhandle home - Durable hail-resistant residential roof - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-11-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roofing on Texas Panhandle home - Durable hail-resistant residential roof - 5 Star Commercial Roofing\" → other (A residential garage with significant wind damage showing missing roof sections and exposed framing, with visible corrugated metal and white siding.)"
+    },
+    {
+      "context": "Concrete tile roofing on Amarillo Mediterranean-style home - Premium residential roof - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.jpg",
+      "reason": "Matched \"Concrete tile roofing on Amarillo Mediterranean-style home - Premium residential roof - 5 Star Commercial Roofing\" → asphalt-shingles (Close-up view of gray asphalt shingles showing visible damage with exposed lighter substrate where granules have been knocked off, likely from hail impact.)"
+    },
+    {
+      "context": "Modern flat roof system on contemporary Amarillo home - TPO membrane residential roofing - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-50-640w.webp",
+      "reason": "Matched \"Modern flat roof system on contemporary Amarillo home - TPO membrane residential roofing - 5 Star Commercial Roofing\" → tpo (A completed flat TPO roof installation with white membrane and metal drip edge, showing the transition area where it meets an adjacent asphalt shingle roof section.)"
+    },
+    {
+      "context": "Residential Roof Transformations",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.webp",
+      "reason": "Matched \"Residential Roof Transformations\" → asphalt-shingles (Close-up view of asphalt shingle roof showing hail damage with multiple impact marks and exposed spots where granules have been knocked off the shingles.)"
+    },
+    {
+      "context": "Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-6-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg",
+      "reason": "Matched \"Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Commercial Roofing\" → built-up-gravel (Close-up view of hail damage on a built-up gravel roof surface showing impact marks and displaced gravel with wire debris present.)"
+    },
+    {
+      "context": "Texas home before metal roof upgrade - Transitioning from shingles to metal - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"Texas home before metal roof upgrade - Transitioning from shingles to metal - 5 Star Commercial Roofing\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    },
+    {
+      "context": "Professional Installation",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-12-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Professional Installation\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    }
+  ],
+  "/roof-inspections": [
+    {
+      "context": "Professional roof inspection in progress on an Amarillo residential home",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-6-640w.webp",
+      "reason": "Matched \"Professional roof inspection in progress on an Amarillo residential home\" → asphalt-shingles (A roof valley showing partial shingle replacement in progress, with new dark asphalt shingles installed on one section alongside older weathered shingles and exposed valley metal.)"
+    }
+  ],
+  "/roof-repair": [
+    {
+      "context": "Expert Roof Repair Services Across West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Expert Roof Repair Services Across West Texas\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Completed roof repair project in Amarillo showing new shingles and restored flashing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-9-1280w.jpg",
+      "reason": "Matched \"Completed roof repair project in Amarillo showing new shingles and restored flashing\" → asphalt-shingles (Close-up view of a brick chimney with metal flashing installed at the base where it meets an asphalt shingle roof.)"
+    },
+    {
+      "context": "Roof damage requiring repair in Midland, Texas with visible shingle deterioration",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-15-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Roof damage requiring repair in Midland, Texas with visible shingle deterioration\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    }
+  ],
+  "/roof-replacement": [
+    {
+      "context": "Roof Replacement Services Across West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-20-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Roof Replacement Services Across West Texas\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Asphalt shingle roofing materials ready for installation on an Amarillo home",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-12-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Asphalt shingle roofing materials ready for installation on an Amarillo home\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "Full roof replacement completed in Amarillo with new architectural shingles installed",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Full roof replacement completed in Amarillo with new architectural shingles installed\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    }
+  ],
+  "/roofing-methods": [
+    {
+      "context": "Impact-Resistant Asphalt Shingle Installation",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Impact-Resistant Asphalt Shingle Installation\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Standing Seam Metal Roof Installation",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-9-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Standing Seam Metal Roof Installation\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "TPO & PVC Single-Ply Membrane Installation",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-50-640w.webp",
+      "reason": "Matched \"TPO & PVC Single-Ply Membrane Installation\" → tpo (A completed flat TPO roof installation with white membrane and metal drip edge, showing the transition area where it meets an adjacent asphalt shingle roof section.)"
+    },
+    {
+      "context": "Modified Bitumen and Built-Up Roofing Systems",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Modified Bitumen and Built-Up Roofing Systems\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    }
+  ],
+  "/service-areas": [
+    {
+      "context": "Serving All of West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-14-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Serving All of West Texas\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    }
+  ],
+  "/services": [
+    {
+      "context": "Complete Roofing Services for West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-15-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Complete Roofing Services for West Texas\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Storm Damage & Insurance Services",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Storm Damage & Insurance Services\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    },
+    {
+      "context": "Storm-damaged roof in Odessa TX with wind-blown shingles needing restoration",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp",
+      "reason": "Matched \"Storm-damaged roof in Odessa TX with wind-blown shingles needing restoration\" → asphalt-shingles (A damaged asphalt shingle roof with a hole where a pipe jack vent has been torn away or damaged, exposing the roof deck underneath.)"
+    },
+    {
+      "context": "5 Star Roofing inspector performing detailed roof assessment on Texas Panhandle home",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"5 Star Roofing inspector performing detailed roof assessment on Texas Panhandle home\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "Residential Roofing Services",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.jpg",
+      "reason": "Matched \"Residential Roofing Services\" → asphalt-shingles (Close-up view of gray asphalt shingles showing visible damage with exposed lighter substrate where granules have been knocked off, likely from hail impact.)"
+    },
+    {
+      "context": "Standing seam metal roof with premium finish on Amarillo TX residence - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roof with premium finish on Amarillo TX residence - 5 Star Roofing\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "Commercial Roofing Services",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-san-angelo-40-1280w.webp",
+      "reason": "Matched \"Commercial Roofing Services\" → built-up-gravel (Close-up view of a built-up gravel roof surface showing visible cracks and deterioration in the membrane with coins placed for scale reference.)"
+    },
+    {
+      "context": "EPDM rubber roofing membrane on commercial building in Amarillo TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+      "reason": "Matched \"EPDM rubber roofing membrane on commercial building in Amarillo TX - 5 Star Roofing\" → epdm (A completed EPDM rubber roof installation on a residential dormer or addition, showing the smooth black membrane surface surrounded by gray asphalt shingles.)"
+    },
+    {
+      "context": "PVC commercial roofing system at sunset in West Texas - Premium flat roof by 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"PVC commercial roofing system at sunset in West Texas - Premium flat roof by 5 Star Roofing\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-38-1280w.webp",
+      "reason": "Matched \"Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing\" → other (An aged and deteriorating rooftop HVAC unit sitting on a commercial flat roof with visible staining and water damage around the base.)"
+    }
+  ],
+  "/storm-damage-repair": [
+    {
+      "context": "Storm Damage Roof Repair Across Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-22-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Storm Damage Roof Repair Across Texas\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    },
+    {
+      "context": "Storm damage assessment on a Canyon, Texas roof after severe hail event",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Storm damage assessment on a Canyon, Texas roof after severe hail event\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "How Can You Protect Your Roof Against Future Storms?",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp",
+      "reason": "Matched \"How Can You Protect Your Roof Against Future Storms?\" → asphalt-shingles (A damaged asphalt shingle roof with a hole where a pipe jack vent has been torn away or damaged, exposing the roof deck underneath.)"
+    }
+  ],
+  "/tpo-roofing": [
+    {
+      "context": "TPO membrane roofing on a commercial building in Pampa, Texas Panhandle",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"TPO membrane roofing on a commercial building in Pampa, Texas Panhandle\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Commercial flat roof TPO installation and maintenance in Amarillo, Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-10-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-37-640w.jpg",
+      "reason": "Matched \"Commercial flat roof TPO installation and maintenance in Amarillo, Texas\" → tpo (Close-up view of a deteriorating TPO roof membrane showing significant cracking, peeling, and degradation along the seam and surface.)"
+    }
+  ],
+  "/vega-tx-roofing": [
+    {
+      "context": "Completed roof repair project showing new shingles after hail damage near Vega TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Completed roof repair project showing new shingles after hail damage near Vega TX\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Finished residential shingle roof installation on a home near Stinnett TX",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Finished residential shingle roof installation on a home near Stinnett TX\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "Standing seam metal roof with premium finish installed near Vega TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roof with premium finish installed near Vega TX - 5 Star Roofing\" → standing-seam-metal (Wide-angle view of a standing seam metal roof installation on a large industrial facility with grain silos and storage tanks visible in the background.)"
+    },
+    {
+      "context": "Commercial flat roof with TPO membrane on Pampa TX business building",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-11-640w.webp",
+      "reason": "Matched \"Commercial flat roof with TPO membrane on Pampa TX business building\" → tpo (Close-up view of a white TPO membrane roof surface showing a puncture or penetration damage near a pipe boot.)"
+    },
+    {
+      "context": "Completed roofing project with clean ridge line showing quality inspection results",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Completed roofing project with clean ridge line showing quality inspection results\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Emergency storm damage roof repair completed on Texas Panhandle property by 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Emergency storm damage roof repair completed on Texas Panhandle property by 5 Star Roofing\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    }
+  ],
+  "/wildorado-tx-roofing": [
+    {
+      "context": "Roof restored after severe hail damage near Perryton TX - New shingle installation",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+      "reason": "Matched \"Roof restored after severe hail damage near Perryton TX - New shingle installation\" → asphalt-shingles (Close-up view of hail-damaged asphalt shingles showing multiple impact points with exposed substrate and granule loss across the roof surface.)"
+    },
+    {
+      "context": "Completed residential roof replacement with architectural shingles in West Texas",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
+      "reason": "Matched \"Completed residential roof replacement with architectural shingles in West Texas\" → asphalt-shingles (Close-up view of a black pipe jack (plumbing vent boot) with white flashing installed on an asphalt shingle roof.)"
+    },
+    {
+      "context": "Standing seam metal roof on Wildorado area home - Wind and hail resistant roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-memphis-45-1280w.jpg",
+      "reason": "Matched \"Standing seam metal roof on Wildorado area home - Wind and hail resistant roofing\" → standing-seam-metal (Close-up of a deteriorating red standing seam metal roof showing peeling paint, rust spots, and exposed metal along the seams.)"
+    },
+    {
+      "context": "Completed roofing project on agricultural building near Channing TX - Metal panels",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.jpg",
+      "reason": "Matched \"Completed roofing project on agricultural building near Channing TX - Metal panels\" → asphalt-shingles (A close-up overhead view of a gray asphalt shingle roof with a single pipe jack vent boot installed.)"
+    },
+    {
+      "context": "Finished roof showing clean installation quality near Dumas TX - 5 Star Roofing",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Finished roof showing clean installation quality near Dumas TX - 5 Star Roofing\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    },
+    {
+      "context": "Emergency storm repair on rural Texas Panhandle property by 5 Star Roofing crew",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Emergency storm repair on rural Texas Panhandle property by 5 Star Roofing crew\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    }
+  ],
+  "/wind-damage-repair": [
+    {
+      "context": "Wind and storm damage on a Perryton, Texas roof with lifted shingles and exposed underlayment",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-7-1280w.webp",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.jpg",
+      "reason": "Matched \"Wind and storm damage on a Perryton, Texas roof with lifted shingles and exposed underlayment\" → asphalt-shingles (A damaged asphalt shingle roof with a metal pipe jack flashing that has been torn or punctured, creating a hole that exposes the roof deck.)"
+    },
+    {
+      "context": "Completed wind damage roof repair in Stinnett, Texas with new shingles secured",
+      "currentImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
+      "suggestedImage": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp",
+      "reason": "Matched \"Completed wind damage roof repair in Stinnett, Texas with new shingles secured\" → asphalt-shingles (Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.)"
+    }
+  ]
+}

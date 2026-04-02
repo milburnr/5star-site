@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Flame, Mountain, Phone, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-monahans/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function HailDamageRepairMonahansPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Monahans. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function HailDamageRepairMonahansPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -185,7 +186,7 @@ export default function HailDamageRepairMonahansPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Does Permian Basin Damage Assessment Involve?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-orange-400">
-                <div className="text-4xl mb-4">🔥</div>
+                <div className="text-4xl mb-4"><Flame className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Heat-Accelerated Damage</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Thermal Expansion Assessment:</strong> Desert heat cycles accelerate hail damage deterioration requiring rapid response</li>
@@ -197,7 +198,7 @@ export default function HailDamageRepairMonahansPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-400">
-                <div className="text-4xl mb-4">⚡</div>
+                <div className="text-4xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Rapid Response Systems</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Storm Tracking Technology:</strong> Advanced radar monitoring for sudden supercell development in Ward County</li>
@@ -209,7 +210,7 @@ export default function HailDamageRepairMonahansPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-400">
-                <div className="text-4xl mb-4">🏜️</div>
+                <div className="text-4xl mb-4"><Mountain className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Desert Climate Solutions</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Heat-Resistant Materials:</strong> Roofing systems engineered for sustained 120°F+ surface temperatures</li>
@@ -371,28 +372,28 @@ export default function HailDamageRepairMonahansPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Desert Climate Documentation</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Heat-Accelerated Damage Analysis</h4>
                       <p className="text-gray-600 text-sm">Documentation of how extreme temperatures compound hail damage requiring immediate attention</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Industrial Environment Impact</h4>
                       <p className="text-gray-600 text-sm">Specialized assessment of how Permian Basin conditions affect standard damage evaluation</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Enhanced Material Justification</h4>
                       <p className="text-gray-600 text-sm">Professional documentation supporting upgraded materials for extreme climate conditions</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Expedited Processing Advocacy</h4>
                       <p className="text-gray-600 text-sm">Emphasis on time-sensitive repairs due to rapid deterioration in desert conditions</p>

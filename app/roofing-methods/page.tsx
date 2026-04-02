@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-methods/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -92,7 +93,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Impact-Resistant Asphalt Shingle Installation</h2>
       <div className="card mb-8">
-        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg" alt="Roofing services in Amarillo, TX - Class 4 impact-resistant asphalt shingles - Hail protection roofing - 5 Star Commercial Roofing" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg" alt="Roofing services in Amarillo, TX - Class 4 impact-resistant asphalt shingles - Hail protection roofing - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">The Texas Panhandle Standard</h3>
           <p className="mb-4">
@@ -132,7 +133,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Standing Seam Metal Roof Installation</h2>
       <div className="card mb-8">
-        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-9-1280w.webp" alt="Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Ultimate Hail Protection</h3>
           <p className="mb-4">
@@ -216,7 +217,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Modified Bitumen and Built-Up Roofing Systems</h2>
       <div className="card mb-8">
-        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Modified bitumen roofing installation - Commercial flat roof systems - 5 Star Commercial Roofing Amarillo" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg" alt="Modified bitumen roofing installation - Commercial flat roof systems - 5 Star Commercial Roofing Amarillo" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Heavy-Duty Commercial Solutions</h3>
           <p className="mb-4">
@@ -420,7 +421,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary bg-white text-brand-brown hover:bg-gray-100 text-lg">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

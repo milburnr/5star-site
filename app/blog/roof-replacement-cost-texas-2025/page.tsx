@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
+import { AlertTriangle, Calendar, Lightbulb, Phone, XCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/roof-replacement-cost-texas-2025/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -67,9 +68,9 @@ export default function RoofReplacementCostBlogPage() {
               Complete pricing guide for Texas roof replacement including average costs by home size, material options, factors affecting price, and how to save money on your roofing project.
             </p>
             <div className="flex items-center gap-4 mt-6 text-sm text-gray-500">
-              <span>📅 Updated January 2025</span>
+              <span><Calendar className="w-6 h-6 inline-block" /> Updated January 2025</span>
               <span>•</span>
-              <span>⏱️ 7 min read</span>
+              <span>⏱ 7 min read</span>
             </div>
           </header>
         </FadeIn>
@@ -161,7 +162,7 @@ export default function RoofReplacementCostBlogPage() {
               </ul>
 
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-                <p className="font-semibold text-gray-800 mb-2">⚠️ Important Note:</p>
+                <p className="font-semibold text-gray-800 mb-2"><AlertTriangle className="w-6 h-6 inline-block" /> Important Note:</p>
                 <p className="text-gray-700">
                   Some contractors offer to "overlay" new shingles on top of old ones to save money. <strong>We strongly recommend against this.</strong> It voids most manufacturer warranties, hides underlying damage, adds unnecessary weight, and shortens your new roof's lifespan.
                 </p>
@@ -244,15 +245,15 @@ export default function RoofReplacementCostBlogPage() {
 
               <h3>DON'T Try to Save Money By:</h3>
               <ul>
-                <li>❌ Accepting "layover" instead of tear-off</li>
-                <li>❌ Hiring unlicensed contractors</li>
-                <li>❌ Choosing the absolute cheapest materials</li>
-                <li>❌ Skipping proper ventilation</li>
-                <li>❌ Accepting a contractor who offers to "waive your deductible" (this is insurance fraud)</li>
+                <li><XCircle className="w-5 h-5 inline-block text-red-600" /> Accepting "layover" instead of tear-off</li>
+                <li><XCircle className="w-5 h-5 inline-block text-red-600" /> Hiring unlicensed contractors</li>
+                <li><XCircle className="w-5 h-5 inline-block text-red-600" /> Choosing the absolute cheapest materials</li>
+                <li><XCircle className="w-5 h-5 inline-block text-red-600" /> Skipping proper ventilation</li>
+                <li><XCircle className="w-5 h-5 inline-block text-red-600" /> Accepting a contractor who offers to "waive your deductible" (this is insurance fraud)</li>
               </ul>
 
               <div className="bg-brand-gold-light p-6 rounded-lg my-8">
-                <p className="font-semibold text-brand-brown mb-2">💡 Insurance Claims Can Save You Thousands</p>
+                <p className="font-semibold text-brand-brown mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Insurance Claims Can Save You Thousands</p>
                 <p>
                   If your Texas home has hail damage from recent storms, insurance typically covers 100% of replacement costs minus your deductible. A $16,000 roof replacement might only cost you $2,000-$4,000 out of pocket.
                 </p>
@@ -397,7 +398,7 @@ export default function RoofReplacementCostBlogPage() {
                   <strong>Serving:</strong> Amarillo, Midland, Odessa, Lubbock, Canyon, and all surrounding West Texas areas
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4 text-center">📞 Call (806) 622-6041</a>
+                  <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4 text-center"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                   <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg text-center">Request Free Estimate</a>
                 </div>
               </div>

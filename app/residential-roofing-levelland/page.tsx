@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Building2, GraduationCap, Home, Leaf, Phone, Snowflake, Star, Sun, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-levelland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function ResidentialRoofingLevellandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/residential-roofing-levelland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function ResidentialRoofingLevellandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional residential roofing throughout Levelland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function ResidentialRoofingLevellandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -176,7 +177,7 @@ export default function ResidentialRoofingLevellandPage() {
             
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🏠</div>
+                <div className="text-4xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roof Replacement</h3>
                 <p className="text-gray-700 mb-4">Complete roof replacement services for single-family homes, college housing, and rental properties throughout Levelland.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -188,7 +189,7 @@ export default function ResidentialRoofingLevellandPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">🎓</div>
+                <div className="text-4xl mb-4"><GraduationCap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">College Housing Specialists</h3>
                 <p className="text-gray-700 mb-4">Specialized services for property managers and landlords serving South Plains College student housing market.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -200,7 +201,7 @@ export default function ResidentialRoofingLevellandPage() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                <div className="text-4xl mb-4">⚡</div>
+                <div className="text-4xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="text-gray-700 mb-4">Expert restoration for South Plains severe weather damage including hail, wind, and flash flood impacts.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -345,7 +346,7 @@ export default function ResidentialRoofingLevellandPage() {
                 <p className="text-gray-700 mb-6">With over 35% of Levelland's housing serving as rental properties, we've developed specialized services for property managers and landlords. Our programs are designed to maintain property values while minimizing tenant disruption.</p>
                 
                 <div className="bg-green-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">🏢 Property Management Benefits:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><Building2 className="w-6 h-6 inline-block" /> Property Management Benefits:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Multi-property volume discounts</li>
                     <li>• Preventive maintenance programs</li>
@@ -361,7 +362,7 @@ export default function ResidentialRoofingLevellandPage() {
                 <p className="text-gray-700 mb-6">South Plains College's student population creates unique housing demands. We understand the academic calendar constraints and provide specialized scheduling for student housing providers.</p>
                 
                 <div className="bg-blue-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-brand-brown mb-2">🎓 Student Housing Features:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2"><GraduationCap className="w-6 h-6 inline-block" /> Student Housing Features:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Summer installation priority</li>
                     <li>• Academic calendar coordination</li>
@@ -378,19 +379,19 @@ export default function ResidentialRoofingLevellandPage() {
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Seasonal Scheduling & Planning</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl mb-2">🌞</div>
+                  <div className="text-3xl mb-2"><Sun className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold text-brand-brown mb-2">Summer (June-August)</h4>
                   <p className="text-gray-700 text-sm">Peak season for student housing projects. Maximum availability, minimal tenant disruption, ideal weather conditions.</p>
                 </div>
                 
                 <div className="text-center">
-                  <div className="text-3xl mb-2">🍂</div>
+                  <div className="text-3xl mb-2"><Leaf className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold text-brand-brown mb-2">Fall/Spring (Sept-May)</h4>
                   <p className="text-gray-700 text-sm">storm repairs and insurance claims. Coordinated scheduling to minimize academic disruption.</p>
                 </div>
                 
                 <div className="text-center">
-                  <div className="text-3xl mb-2">❄️</div>
+                  <div className="text-3xl mb-2"><Snowflake className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold text-brand-brown mb-2">Winter (Dec-Feb)</h4>
                   <p className="text-gray-700 text-sm">prompt services only. Planning and preparation for spring projects.</p>
                 </div>

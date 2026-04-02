@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Camera, ClipboardList, CloudHail, FileText, Handshake, Home, Microscope, Phone, Plane, Search, Star, Target, Tornado, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-levelland/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -60,7 +61,7 @@ export default function RoofInspectionsLevellandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-levelland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -198,7 +199,7 @@ export default function RoofInspectionsLevellandPage() {
                 Expert roof inspections in Levelland, Texas. The South Plains region experiences 7-10 severe hailstorms annually, making professional roof inspections essential for property protection and insurance coverage. Complete assessment with detailed documentation.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
                 </a>
@@ -225,7 +226,7 @@ export default function RoofInspectionsLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -258,7 +259,7 @@ export default function RoofInspectionsLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🔍 Exterior Roof Assessment</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Exterior Roof Assessment</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>• <strong>Shingle Condition Analysis:</strong> Granule loss, cracking, curling, thermal damage</li>
                   <li>• <strong>Hail Damage Detection:</strong> Impact patterns, bruising, exposed substrate</li>
@@ -269,7 +270,7 @@ export default function RoofInspectionsLevellandPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏠 Interior Inspection Services</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Interior Inspection Services</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>• <strong>Attic Space Analysis:</strong> Water penetration, insulation damage, ventilation adequacy</li>
                   <li>• <strong>Ceiling Examination:</strong> Staining, sagging, structural stress indicators</li>
@@ -282,7 +283,7 @@ export default function RoofInspectionsLevellandPage() {
             </div>
 
             <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4">🚁 Advanced Inspection Technology</h3>
+              <h3 className="text-2xl font-bold mb-4"><Plane className="w-6 h-6 inline-block" /> Advanced Inspection Technology</h3>
               <p className="text-lg mb-6">
                 We employ cutting-edge technology including professional drone inspections, thermal imaging cameras, and moisture detection equipment to provide the most comprehensive assessment possible. Our digital documentation meets all insurance industry requirements for claim processing.
               </p>
@@ -308,7 +309,7 @@ export default function RoofInspectionsLevellandPage() {
             </h2>
             
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌨️ Hail Damage Indicators</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Hail Damage Indicators</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h4 className="font-bold text-lg mb-3 text-gray-800">Primary Impact Damage</h4>
@@ -344,7 +345,7 @@ export default function RoofInspectionsLevellandPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">💨 Wind Damage Assessment</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Wind Damage Assessment</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="text-xl font-bold mb-4 text-gray-800">Direct Wind Damage</h4>
@@ -379,7 +380,7 @@ export default function RoofInspectionsLevellandPage() {
               How Does the Insurance Claims Process Work in Levelland?
             </h2>
             <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-2xl mb-8">
-              <h3 className="text-2xl font-bold mb-4">📋 Complete Insurance Documentation</h3>
+              <h3 className="text-2xl font-bold mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Complete Insurance Documentation</h3>
               <p className="text-lg leading-relaxed">
                 Our comprehensive inspection reports provide all necessary documentation for successful insurance claims in Levelland and throughout Hockley County. We understand Texas insurance regulations and work directly with adjusters to ensure accurate assessment and fair claim settlement.
               </p>
@@ -387,7 +388,7 @@ export default function RoofInspectionsLevellandPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">📸 Professional Documentation</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Camera className="w-6 h-6 inline-block" /> Professional Documentation</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>High-Resolution Photography:</strong> Close-up and wide shots of all damage</li>
                   <li>• <strong>Aerial Drone Imagery:</strong> Comprehensive roof overview documentation</li>
@@ -398,7 +399,7 @@ export default function RoofInspectionsLevellandPage() {
                 </ul>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">📄 Technical Reporting</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><FileText className="w-6 h-6 inline-block" /> Technical Reporting</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Detailed Damage Assessment:</strong> Professional evaluation of all damage types</li>
                   <li>• <strong>Material Specifications:</strong> Current and recommended replacement materials</li>
@@ -411,7 +412,7 @@ export default function RoofInspectionsLevellandPage() {
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold mb-4 text-amber-800">⚠️ Levelland Insurance Claim Best Practices</h3>
+              <h3 className="text-xl font-bold mb-4 text-amber-800"><AlertTriangle className="w-6 h-6 inline-block" /> Levelland Insurance Claim Best Practices</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold mb-3 text-amber-700">Immediate Storm Response</h4>
@@ -445,7 +446,7 @@ export default function RoofInspectionsLevellandPage() {
               How Do Weather Extremes Affect Roofing in Levelland?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌪️ Levelland's Severe Weather Environment</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Levelland's Severe Weather Environment</h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Levelland's position in Hockley County places it directly in one of North America's most active severe weather zones. The South Plains region sits where multiple weather systems converge, creating ideal conditions for supercell thunderstorm development. The area's flat terrain and elevation of approximately 3,500 feet contribute to atmospheric instability that fuels severe weather development.
               </p>
@@ -502,17 +503,17 @@ export default function RoofInspectionsLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🎯</div>
+                <div className="text-4xl mb-4"><Target className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">South Plains Expertise</h3>
                 <p className="text-gray-600">Over 15 years of experience in Levelland and Hockley County. Deep understanding of South Plains weather patterns and their impact on roofing systems.</p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🔬</div>
+                <div className="text-4xl mb-4"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Advanced Technology</h3>
                 <p className="text-gray-600">State-of-the-art inspection equipment including drones, thermal imaging, and moisture detection for comprehensive damage assessment.</p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🤝</div>
+                <div className="text-4xl mb-4"><Handshake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Partnership</h3>
                 <p className="text-gray-600">Established relationships with major insurance carriers. Our documentation and reporting meet industry standards for successful claims.</p>
               </div>

@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, CloudLightning, Drama, Droplets, Factory, Flame, Fuel, Landmark, Phone, Plane, School, ShoppingBag, Sun, Thermometer, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/odessa-tx-roofing/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -73,7 +74,7 @@ export default function OdessaRoofingPage() {
               Protecting Permian Basin Homes & Industrial Facilities Since 2010
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
               </a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
                 Free Roof Inspection
@@ -131,7 +132,7 @@ export default function OdessaRoofingPage() {
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <InteractiveCard>
                 <div className="text-center">
-                  <div className="text-5xl mb-4">🛢️</div>
+                  <div className="text-5xl mb-4"><Fuel className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Industry Specialists</h3>
                   <p className="text-gray-600">
                     Expert roofing for refineries, warehouses, office buildings, and industrial facilities
@@ -142,7 +143,7 @@ export default function OdessaRoofingPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <div className="text-5xl mb-4">⛈️</div>
+                  <div className="text-5xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Experts</h3>
                   <p className="text-gray-600">
                     Odessa averages 6-8 hail events annually with stones exceeding 2 inches. We specialize in
@@ -153,7 +154,7 @@ export default function OdessaRoofingPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <div className="text-5xl mb-4">🔥</div>
+                  <div className="text-5xl mb-4"><Flame className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Heat-Resistant Systems</h3>
                   <p className="text-gray-600">
                     Premium roofing materials rated for extreme temperatures. Reflective coatings and proper
@@ -308,7 +309,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roofing panels on Odessa area property - 50-year hail protection" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.webp" alt="Standing seam metal roofing panels on Odessa area property - 50-year hail protection" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -401,7 +402,7 @@ export default function OdessaRoofingPage() {
             </p>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">⛈️ Severe Hail Storms - The Primary Threat</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><CloudLightning className="w-6 h-6 inline-block" /> Severe Hail Storms - The Primary Threat</h3>
                 <p className="text-gray-700">
                   Odessa sits directly in &quot;Hail Alley,&quot; experiencing 6-8 significant hail events annually.
                   The National Weather Service documents that Ector County receives some of Texas&apos;s most
@@ -414,7 +415,7 @@ export default function OdessaRoofingPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Extreme Temperature Swings</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings</h3>
                 <p className="text-gray-700">
                   Odessa&apos;s annual temperature range exceeds 120 degrees Fahrenheit. Summer highs regularly
                   reach 105-110°F, with roof surface temperatures exceeding 170°F on dark shingles. Winter can
@@ -426,7 +427,7 @@ export default function OdessaRoofingPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">☀️ Intense UV Radiation and Heat</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Intense UV Radiation and Heat</h3>
                 <p className="text-gray-700">
                   At Odessa&apos;s elevation and latitude, UV radiation is intense year-round. Combined with
                   temperatures exceeding 100°F for 80-100 days annually, asphalt shingles age rapidly. The UV
@@ -438,7 +439,7 @@ export default function OdessaRoofingPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 Sustained High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Sustained High Winds</h3>
                 <p className="text-gray-700">
                   The Permian Basin experiences persistent winds averaging 12-15 mph, with frequent gusts exceeding
                   40 mph. During spring and fall severe weather, straight-line winds can reach 70-80 mph.
@@ -450,7 +451,7 @@ export default function OdessaRoofingPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🏭 Industrial Environment Challenges</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Factory className="w-6 h-6 inline-block" /> Industrial Environment Challenges</h3>
                 <p className="text-gray-700">
                   Odessa&apos;s oil and gas industry creates unique roofing challenges. Refineries, processing plants,
                   and industrial facilities expose roofs to chemical fumes, higher thermal loads from equipment,
@@ -462,7 +463,7 @@ export default function OdessaRoofingPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💧 Flash Flooding and Water Management</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Droplets className="w-6 h-6 inline-block" /> Flash Flooding and Water Management</h3>
                 <p className="text-gray-700">
                   While Odessa averages only 14 inches of annual rainfall, precipitation comes in intense bursts.
                   Thunderstorms can dump 2-3 inches in under an hour, overwhelming inadequate drainage systems.
@@ -488,31 +489,31 @@ export default function OdessaRoofingPage() {
                 <div>
                   <h4 className="font-bold text-brand-brown mb-3">North Odessa</h4>
                   <ul className="space-y-2">
-                    <li>✓ Sherwood</li>
-                    <li>✓ Stonegate</li>
-                    <li>✓ Parkview Estates</li>
-                    <li>✓ Mission Dorado</li>
-                    <li>✓ Ridgemont</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Sherwood</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Stonegate</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Parkview Estates</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Mission Dorado</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ridgemont</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-bold text-brand-brown mb-3">Central & West Odessa</h4>
                   <ul className="space-y-2">
-                    <li>✓ Downtown Odessa</li>
-                    <li>✓ Globe Theatre District</li>
-                    <li>✓ Woodson Heights</li>
-                    <li>✓ Dos Amigos</li>
-                    <li>✓ West Odessa</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Downtown Odessa</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Globe Theatre District</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Woodson Heights</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Dos Amigos</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />West Odessa</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-bold text-brand-brown mb-3">Commercial & Industrial</h4>
                   <ul className="space-y-2">
-                    <li>✓ UTPB Area</li>
-                    <li>✓ East 42nd Street corridor</li>
-                    <li>✓ Andrews Highway</li>
-                    <li>✓ JBS Parkway area</li>
-                    <li>✓ I-20 industrial corridor</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UTPB Area</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />East 42nd Street corridor</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Andrews Highway</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />JBS Parkway area</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />I-20 industrial corridor</li>
                   </ul>
                 </div>
               </div>
@@ -535,27 +536,27 @@ export default function OdessaRoofingPage() {
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Odessa Landmarks We Serve Near:</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">🎭</span>
+                    <span className="text-brand-gold"><Drama className="w-6 h-6 inline-block" /></span>
                     <span><strong>Globe Theatre</strong> - Historic downtown landmark and cultural center</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">🏫</span>
+                    <span className="text-brand-gold"><School className="w-6 h-6 inline-block" /></span>
                     <span><strong>University of Texas Permian Basin</strong> - Growing campus area with residential development</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">🏟️</span>
+                    <span className="text-brand-gold"><Landmark className="w-6 h-6 inline-block" /></span>
                     <span><strong>Ratliff Stadium</strong> - Home of Friday Night Lights legacy</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">🏛️</span>
+                    <span className="text-brand-gold"><Landmark className="w-6 h-6 inline-block" /></span>
                     <span><strong>Presidential Museum</strong> - Downtown museum district</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">🛍️</span>
+                    <span className="text-brand-gold"><ShoppingBag className="w-6 h-6 inline-block" /></span>
                     <span><strong>Music City Mall</strong> - Major commercial center on East 42nd Street</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-brand-gold">✈️</span>
+                    <span className="text-brand-gold"><Plane className="w-6 h-6 inline-block" /></span>
                     <span><strong>Odessa-Schlemeyer Field</strong> - Airport area business district</span>
                   </li>
                 </ul>
@@ -593,36 +594,36 @@ export default function OdessaRoofingPage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h3 className="text-lg font-bold text-brand-brown mb-3">National Insurance Providers:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ State Farm Insurance</li>
-                    <li>✓ Allstate Insurance</li>
-                    <li>✓ USAA (military families)</li>
-                    <li>✓ Farmers Insurance</li>
-                    <li>✓ Liberty Mutual</li>
-                    <li>✓ Progressive Insurance</li>
-                    <li>✓ Nationwide Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />State Farm Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Allstate Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />USAA (military families)</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Farmers Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Liberty Mutual</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Progressive Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Nationwide Insurance</li>
                   </ul>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h3 className="text-lg font-bold text-brand-brown mb-3">Local & Regional Providers:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ Permian Basin Insurance</li>
-                    <li>✓ Texas Farm Bureau</li>
-                    <li>✓ Germania Insurance</li>
-                    <li>✓ Local independent agents</li>
-                    <li>✓ Regional insurance agencies</li>
-                    <li>✓ Oil industry coverage providers</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Permian Basin Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Texas Farm Bureau</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Germania Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Local independent agents</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Regional insurance agencies</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Oil industry coverage providers</li>
                   </ul>
                 </div>
               </div>
               <div className="mt-8 bg-yellow-50 p-6 rounded-lg border-2 border-yellow-200">
                 <h3 className="text-lg font-bold text-brand-brown mb-3">Our Insurance Assistance Includes:</h3>
                 <ul className="grid md:grid-cols-2 gap-3 text-gray-700">
-                  <li>✓ Free damage assessment and documentation</li>
-                  <li>✓ Comprehensive photo evidence with drone imagery</li>
-                  <li>✓ Detailed written estimates for adjusters</li>
-                  <li>✓ Direct communication with insurance adjusters</li>
-                  <li>✓ Supplement negotiation for full coverage</li>
-                  <li>✓ Guidance through the claims process</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free damage assessment and documentation</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Comprehensive photo evidence with drone imagery</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Detailed written estimates for adjusters</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Direct communication with insurance adjusters</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Supplement negotiation for full coverage</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Guidance through the claims process</li>
                 </ul>
               </div>
             </div>
@@ -724,7 +725,7 @@ export default function OdessaRoofingPage() {
               financing available. Serving the Permian Basin since 2010.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041 Now
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041 Now
               </a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg border-2 border-brand-brown">
                 Schedule Free Inspection
@@ -793,7 +794,7 @@ export default function OdessaRoofingPage() {
             "@id": "https://5starroofingpros.com/odessa-texas-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
             "description": "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and prompt services for residential and industrial properties.",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",

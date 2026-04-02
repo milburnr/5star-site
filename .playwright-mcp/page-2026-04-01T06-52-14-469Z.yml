@@ -1,0 +1,438 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "5 Star Commercial Roofing" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "5 Star Commercial Roofing" [ref=e6]
+        - generic [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services/
+            - text: Services
+            - img [ref=e11]
+          - link "Areas" [ref=e14] [cursor=pointer]:
+            - /url: /service-areas/
+            - text: Areas
+            - img [ref=e15]
+          - link "Gallery" [ref=e17] [cursor=pointer]:
+            - /url: /gallery/
+          - link "Blog" [ref=e18] [cursor=pointer]:
+            - /url: /blog/
+          - link "Reviews" [ref=e19] [cursor=pointer]:
+            - /url: /reviews/
+          - link "About" [ref=e20] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+  - main [ref=e22]:
+    - navigation "Breadcrumb" [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Home" [ref=e26] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e27]:
+          - img [ref=e28]
+          - link "TPO Roofing" [ref=e30] [cursor=pointer]:
+            - /url: /tpo-roofing/
+        - listitem [ref=e31]:
+          - img [ref=e32]
+          - generic [ref=e34]: Amarillo
+    - generic [ref=e36]:
+      - generic [ref=e37]: Need a Roof Inspection?
+      - link "📞 Call (806) 622-6041" [ref=e38] [cursor=pointer]:
+        - /url: tel:8066226041
+        - generic [ref=e39]: 📞
+        - text: Call (806) 622-6041
+    - generic [ref=e44]:
+      - heading "TPO Roofing in Amarillo" [level=1] [ref=e45]
+      - paragraph [ref=e46]: Expert Commercial Flat Roofing for Texas Panhandle
+      - paragraph [ref=e47]: Professional TPO roofing throughout Amarillo and the Texas Panhandle. Expert installation designed for extreme Texas weather, comprehensive warranties, and . Free inspections and insurance assistance available.
+      - generic [ref=e48]:
+        - link "📞 Call (806) 622-6041" [ref=e49] [cursor=pointer]:
+          - /url: tel:8066226041
+        - link "Get Free Inspection" [ref=e50] [cursor=pointer]:
+          - /url: /contact/
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: Fast
+        - generic [ref=e57]: Response Time
+      - generic [ref=e58]:
+        - generic [ref=e60]: 1+
+        - generic [ref=e61]: Years Experience
+      - generic [ref=e62]:
+        - generic [ref=e63]: 1-3
+        - generic [ref=e64]: Days to Complete
+      - generic [ref=e65]:
+        - generic [ref=e66]: ⭐⭐⭐⭐⭐
+        - generic [ref=e67]: 5-Star Rated
+    - generic [ref=e68]:
+      - generic [ref=e70]:
+        - heading "What Makes Amarillo a Top Choice for Roof Repair?" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Professional TPO roofing throughout Amarillo and the greater Texas Panhandle region. As the Panhandle's commercial roofing experts, we understand the unique weather challenges facing Amarillo businesses - from severe hailstorms and high winds to extreme temperature fluctuations and intense summer heat.
+        - paragraph [ref=e73]: Since 2014, we've served Amarillo's diverse commercial landscape with expert TPO installations, comprehensive warranties, and outstanding customer service. Our local team understands Amarillo's building codes, permitting requirements, and insurance protocols. We handle all permits, insurance claims, and warranty documentation while providing the highest quality commercial roofing solutions.
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "🌪️ Built for Texas Weather" [level=3] [ref=e76]
+            - paragraph [ref=e77]: Amarillo faces some of Texas's most extreme weather conditions. Our TPO roofing systems are specifically designed to withstand Panhandle hailstorms, tornado-force winds, and the dramatic temperature swings that can stress roofing materials. Every installation includes enhanced wind resistance features and impact-resistant membranes.
+          - generic [ref=e78]:
+            - heading "🏢 Commercial Expertise" [level=3] [ref=e79]
+            - paragraph [ref=e80]: From Amarillo's medical district to the growing retail centers along I-40, we've protected every type of commercial building. Our team specializes in warehouses, manufacturing facilities, retail centers, office buildings, and municipal structures throughout the Amarillo metropolitan area.
+      - generic [ref=e82]:
+        - heading "Why TPO Roofing is Perfect for Amarillo?" [level=2] [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - heading "☀️ Energy Efficiency" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Amarillo's intense summer heat drives cooling costs through the roof. TPO's bright white surface reflects up to 85% of UV rays, significantly reducing heat absorption and lowering your energy bills by up to 30% during peak summer months.
+            - list [ref=e88]:
+              - listitem [ref=e89]: • Energy Star certified membranes
+              - listitem [ref=e90]: • Reduces cooling load by up to 30%
+              - listitem [ref=e91]: • Cool Roof Rating Council approved
+              - listitem [ref=e92]: • Potential utility rebates available
+          - generic [ref=e93]:
+            - heading "🧊 Hail Resistance" [level=3] [ref=e94]
+            - paragraph [ref=e95]: Amarillo's location in Hail Alley demands superior impact resistance. Our TPO systems include reinforced membranes designed to withstand Class 4 hail impacts, protecting your investment from the Panhandle's notorious spring storms.
+            - list [ref=e96]:
+              - listitem [ref=e97]: • Class 4 hail impact rating
+              - listitem [ref=e98]: • UL 2218 impact resistance certified
+              - listitem [ref=e99]: • Insurance premium discounts available
+              - listitem [ref=e100]: • Proven performance in severe weather
+          - generic [ref=e101]:
+            - heading "💨 Wind Performance" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Texas Panhandle winds demand superior attachment. Our TPO installations feature mechanically attached or fully adhered systems rated for winds up to 120 mph, exceeding Amarillo's building code requirements and providing peace of mind during severe weather events.
+            - list [ref=e104]:
+              - listitem [ref=e105]: • Wind uplift ratings to 120+ mph
+              - listitem [ref=e106]: • Factory Mutual approved systems
+              - listitem [ref=e107]: • Enhanced perimeter attachment
+              - listitem [ref=e108]: • Meets/exceeds local wind codes
+      - generic [ref=e110]:
+        - heading "What Does Amarillo Commercial Roofing Applications Involve?" [level=2] [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - heading "Industries We Serve" [level=3] [ref=e114]
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - heading "🏭 Manufacturing & Industrial" [level=4] [ref=e117]
+                - paragraph [ref=e118]: Serving Amarillo's manufacturing corridor with durable TPO systems designed for heavy industrial use, chemical resistance, and equipment loads.
+              - generic [ref=e119]:
+                - heading "🛒 Retail & Commercial" [level=4] [ref=e120]
+                - paragraph [ref=e121]: From strip malls to big-box stores along I-40 and Bell Street, our TPO roofing provides long-lasting protection for retail properties.
+              - generic [ref=e122]:
+                - heading "🏥 Healthcare Facilities" [level=4] [ref=e123]
+                - paragraph [ref=e124]: Protecting Amarillo's medical district with quiet, durable roofing solutions that meet healthcare facility requirements.
+              - generic [ref=e125]:
+                - heading "🏢 Office Buildings" [level=4] [ref=e126]
+                - paragraph [ref=e127]: Energy-efficient TPO roofing for Amarillo's growing business district, reducing operational costs and environmental impact.
+          - generic [ref=e128]:
+            - heading "Building Types" [level=3] [ref=e129]
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - generic [ref=e133]: ✓
+                - text: Warehouses and distribution centers
+              - listitem [ref=e134]:
+                - generic [ref=e135]: ✓
+                - text: Manufacturing facilities
+              - listitem [ref=e136]:
+                - generic [ref=e137]: ✓
+                - text: Shopping centers and retail stores
+              - listitem [ref=e138]:
+                - generic [ref=e139]: ✓
+                - text: Office buildings and corporate headquarters
+              - listitem [ref=e140]:
+                - generic [ref=e141]: ✓
+                - text: Medical facilities and clinics
+              - listitem [ref=e142]:
+                - generic [ref=e143]: ✓
+                - text: Educational institutions
+              - listitem [ref=e144]:
+                - generic [ref=e145]: ✓
+                - text: Government and municipal buildings
+              - listitem [ref=e146]:
+                - generic [ref=e147]: ✓
+                - text: Recreational facilities
+              - listitem [ref=e148]:
+                - generic [ref=e149]: ✓
+                - text: Multi-tenant commercial buildings
+              - listitem [ref=e150]:
+                - generic [ref=e151]: ✓
+                - text: Auto dealerships and service centers
+      - generic [ref=e153]:
+        - heading "How Does the Complete TPO Installation Process Work?" [level=2] [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]: "1"
+            - heading "Comprehensive Inspection" [level=3] [ref=e158]
+            - paragraph [ref=e159]: Thorough assessment of your existing roof structure, including moisture detection, structural evaluation, and measurement for accurate material calculations.
+          - generic [ref=e160]:
+            - generic [ref=e161]: "2"
+            - heading "Design & Engineering" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Custom roofing system design including wind uplift calculations, drainage planning, and specification of appropriate TPO membrane thickness and attachment methods.
+          - generic [ref=e164]:
+            - generic [ref=e165]: "3"
+            - heading "Permits & Approvals" [level=3] [ref=e166]
+            - paragraph [ref=e167]: We handle all City of Amarillo permitting requirements, ensuring compliance with local building codes and coordinating inspections throughout the project.
+          - generic [ref=e168]:
+            - generic [ref=e169]: "4"
+            - heading "Material Delivery" [level=3] [ref=e170]
+            - paragraph [ref=e171]: High-quality TPO membranes, insulation, and accessories delivered directly to your site with proper staging to minimize disruption to your business operations.
+          - generic [ref=e172]:
+            - generic [ref=e173]: "5"
+            - heading "Professional Installation" [level=3] [ref=e174]
+            - paragraph [ref=e175]: Expert installation by certified technicians using proper heat-welding techniques, mechanical attachment systems, and quality control procedures throughout the process.
+          - generic [ref=e176]:
+            - generic [ref=e177]: "6"
+            - heading "Final Inspection & Warranty" [level=3] [ref=e178]
+            - paragraph [ref=e179]: Comprehensive final inspection, cleanup, and delivery of all warranty documentation including manufacturer warranties and our workmanship guarantee.
+      - generic [ref=e181]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e182]
+        - generic [ref=e183]:
+          - heading "What is TPO roofing and why is it popular in Amarillo?" [level=3] [ref=e185]:
+            - button "What is TPO roofing and why is it popular in Amarillo?" [ref=e186] [cursor=pointer]:
+              - text: What is TPO roofing and why is it popular in Amarillo?
+              - img [ref=e187]
+          - heading "How much does TPO roofing cost in Amarillo?" [level=3] [ref=e190]:
+            - button "How much does TPO roofing cost in Amarillo?" [ref=e191] [cursor=pointer]:
+              - text: How much does TPO roofing cost in Amarillo?
+              - img [ref=e192]
+          - heading "How does TPO roofing perform in Amarillo's hailstorms?" [level=3] [ref=e195]:
+            - button "How does TPO roofing perform in Amarillo's hailstorms?" [ref=e196] [cursor=pointer]:
+              - text: How does TPO roofing perform in Amarillo's hailstorms?
+              - img [ref=e197]
+          - heading "What's the difference between mechanically attached and fully adhered TPO?" [level=3] [ref=e200]:
+            - button "What's the difference between mechanically attached and fully adhered TPO?" [ref=e201] [cursor=pointer]:
+              - text: What's the difference between mechanically attached and fully adhered TPO?
+              - img [ref=e202]
+          - heading "How long does TPO roofing last in Texas weather?" [level=3] [ref=e205]:
+            - button "How long does TPO roofing last in Texas weather?" [ref=e206] [cursor=pointer]:
+              - text: How long does TPO roofing last in Texas weather?
+              - img [ref=e207]
+          - heading "Do you handle insurance claims for storm damage?" [level=3] [ref=e210]:
+            - button "Do you handle insurance claims for storm damage?" [ref=e211] [cursor=pointer]:
+              - text: Do you handle insurance claims for storm damage?
+              - img [ref=e212]
+          - heading "What maintenance does TPO roofing require?" [level=3] [ref=e215]:
+            - button "What maintenance does TPO roofing require?" [ref=e216] [cursor=pointer]:
+              - text: What maintenance does TPO roofing require?
+              - img [ref=e217]
+          - heading "Can TPO be installed over existing roofing?" [level=3] [ref=e220]:
+            - button "Can TPO be installed over existing roofing?" [ref=e221] [cursor=pointer]:
+              - text: Can TPO be installed over existing roofing?
+              - img [ref=e222]
+      - generic [ref=e225]:
+        - heading "Areas Do We Serve? Around Amarillo" [level=2] [ref=e226]
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - heading "Amarillo Metro" [level=3] [ref=e229]
+            - list [ref=e230]:
+              - listitem [ref=e231]: • Downtown Amarillo
+              - listitem [ref=e232]: • Medical District
+              - listitem [ref=e233]: • West Amarillo
+              - listitem [ref=e234]: • Southeast Amarillo
+              - listitem [ref=e235]: • I-40 Corridor
+              - listitem [ref=e236]: • Bell Street Commercial
+          - generic [ref=e237]:
+            - heading "Surrounding Communities" [level=3] [ref=e238]
+            - list [ref=e239]:
+              - listitem [ref=e240]: • Canyon
+              - listitem [ref=e241]: • Claude
+              - listitem [ref=e242]: • Panhandle
+              - listitem [ref=e243]: • White Deer
+              - listitem [ref=e244]: • Wildorado
+              - listitem [ref=e245]: • Washburn
+          - generic [ref=e246]:
+            - heading "Extended Service Area" [level=3] [ref=e247]
+            - list [ref=e248]:
+              - listitem [ref=e249]: • Hereford
+              - listitem [ref=e250]: • Dumas
+              - listitem [ref=e251]: • Pampa
+              - listitem [ref=e252]: • Borger
+              - listitem [ref=e253]: • Childress
+              - listitem [ref=e254]: • Wellington
+      - generic [ref=e256]:
+        - heading "Visit Our Amarillo Location" [level=2] [ref=e257]
+        - iframe [ref=e259]
+        - generic [ref=e260]:
+          - paragraph [ref=e261]: 📍 2909 S Western St, Amarillo, TX 79109
+          - paragraph [ref=e262]: 📞 (806) 622-6041 | ✉️ info@5starroofingpros.com
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - link "All TPO Roofing Services" [ref=e266] [cursor=pointer]:
+            - /url: /tpo-roofing/
+            - img [ref=e267]
+            - text: All TPO Roofing Services
+          - link "All Roofing Services in Amarillo" [ref=e269] [cursor=pointer]:
+            - /url: /amarillo-texas-roofing/
+            - img [ref=e270]
+            - text: All Roofing Services in Amarillo
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - heading "TPO Roofing in Nearby Cities" [level=3] [ref=e274]
+            - paragraph [ref=e275]: "We also provide expert tpo roofing services in these nearby communities:"
+            - generic [ref=e276]:
+              - link "TPO Roofing in Canyon" [ref=e277] [cursor=pointer]:
+                - /url: /tpo-roofing-canyon/
+                - img [ref=e278]
+                - generic [ref=e281]: TPO Roofing in Canyon
+              - link "TPO Roofing in Borger" [ref=e282] [cursor=pointer]:
+                - /url: /tpo-roofing-borger/
+                - img [ref=e283]
+                - generic [ref=e286]: TPO Roofing in Borger
+              - link "TPO Roofing in Dumas" [ref=e287] [cursor=pointer]:
+                - /url: /tpo-roofing-dumas/
+                - img [ref=e288]
+                - generic [ref=e291]: TPO Roofing in Dumas
+              - link "TPO Roofing in Pampa" [ref=e292] [cursor=pointer]:
+                - /url: /tpo-roofing-pampa/
+                - img [ref=e293]
+                - generic [ref=e296]: TPO Roofing in Pampa
+          - generic [ref=e297]:
+            - heading "Other Roofing Services in Amarillo" [level=3] [ref=e298]
+            - paragraph [ref=e299]: "Looking for other roofing services? We offer comprehensive roofing solutions in Amarillo:"
+            - generic [ref=e300]:
+              - link "Residential Roofing" [ref=e301] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+                - img [ref=e302]
+                - generic [ref=e304]: Residential Roofing
+              - link "Commercial Roofing" [ref=e305] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+                - img [ref=e306]
+                - generic [ref=e308]: Commercial Roofing
+              - link "Hail Damage Repair" [ref=e309] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+                - img [ref=e310]
+                - generic [ref=e312]: Hail Damage Repair
+              - link "Storm Damage Repair" [ref=e313] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+                - img [ref=e314]
+                - generic [ref=e316]: Storm Damage Repair
+              - link "Wind Damage Repair" [ref=e317] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+                - img [ref=e318]
+                - generic [ref=e320]: Wind Damage Repair
+              - link "Roof Replacement" [ref=e321] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+                - img [ref=e322]
+                - generic [ref=e324]: Roof Replacement
+      - generic [ref=e325]:
+        - heading "Ready to Protect Your Amarillo Property?" [level=2] [ref=e326]
+        - paragraph [ref=e327]: Free inspections for Amarillo commercial property owners. Expert TPO roofing installation with comprehensive warranties, insurance assistance, and local expertise you can trust.
+        - generic [ref=e328]:
+          - link "Call (806) 622-6041" [ref=e329] [cursor=pointer]:
+            - /url: tel:8066226041
+          - link "Schedule Free Inspection" [ref=e330] [cursor=pointer]:
+            - /url: /contact/
+  - contentinfo [ref=e331]:
+    - generic [ref=e332]:
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - heading "Contact Us" [level=3] [ref=e335]
+          - paragraph [ref=e336]: 2909 S Western St
+          - paragraph [ref=e337]: Amarillo, TX 79109
+          - paragraph [ref=e338]:
+            - link "(806) 622-6041" [ref=e339] [cursor=pointer]:
+              - /url: tel:8066226041
+          - paragraph [ref=e340]:
+            - link "admin@5starroofingpros.com" [ref=e341] [cursor=pointer]:
+              - /url: mailto:admin@5starroofingpros.com
+          - generic [ref=e342]:
+            - paragraph [ref=e343]: Hours
+            - paragraph [ref=e344]: Monday - Sunday
+            - paragraph [ref=e345]: 9:00 AM - 5:00 PM
+        - generic [ref=e346]:
+          - heading "Services" [level=3] [ref=e347]
+          - list [ref=e348]:
+            - listitem [ref=e349]:
+              - link "Residential Roofing" [ref=e350] [cursor=pointer]:
+                - /url: /residential-roofing/
+            - listitem [ref=e351]:
+              - link "Commercial Roofing" [ref=e352] [cursor=pointer]:
+                - /url: /commercial-roofing/
+            - listitem [ref=e353]:
+              - link "Hail Damage Repair" [ref=e354] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e355]:
+              - link "Roof Inspections" [ref=e356] [cursor=pointer]:
+                - /url: /roof-inspections-amarillo/
+            - listitem [ref=e357]:
+              - link "Roof Replacement" [ref=e358] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+            - listitem [ref=e359]:
+              - link "Asphalt Shingles" [ref=e360] [cursor=pointer]:
+                - /url: /asphalt-shingle-roofing-amarillo/
+            - listitem [ref=e361]:
+              - link "Metal Roofing" [ref=e362] [cursor=pointer]:
+                - /url: /metal-roof-installation-odessa-texas/
+        - generic [ref=e363]:
+          - heading "Major Cities" [level=3] [ref=e364]
+          - list [ref=e365]:
+            - listitem [ref=e366]:
+              - link "Amarillo Roofing" [ref=e367] [cursor=pointer]:
+                - /url: /amarillo-texas-roofing/
+            - listitem [ref=e368]:
+              - link "Midland Roofing" [ref=e369] [cursor=pointer]:
+                - /url: /midland-tx-roofing/
+            - listitem [ref=e370]:
+              - link "Odessa Roofing" [ref=e371] [cursor=pointer]:
+                - /url: /odessa-tx-roofing/
+            - listitem [ref=e372]:
+              - link "Lubbock Roofing" [ref=e373] [cursor=pointer]:
+                - /url: /lubbock-tx-roofing/
+            - listitem [ref=e374]:
+              - link "Canyon Roofing" [ref=e375] [cursor=pointer]:
+                - /url: /canyon-texas-roofing/
+            - listitem [ref=e376]:
+              - link "Bushland" [ref=e377] [cursor=pointer]:
+                - /url: /bushland-tx-roofing/
+            - listitem [ref=e378]:
+              - link "All Service Areas →" [ref=e379] [cursor=pointer]:
+                - /url: /service-areas/
+        - generic [ref=e380]:
+          - heading "Resources" [level=3] [ref=e381]
+          - list [ref=e382]:
+            - listitem [ref=e383]:
+              - link "Project Gallery" [ref=e384] [cursor=pointer]:
+                - /url: /gallery/
+            - listitem [ref=e385]:
+              - link "Roofing Blog" [ref=e386] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e387]:
+              - link "Customer Reviews" [ref=e388] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e389]:
+              - link "About Us" [ref=e390] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e391]:
+              - link "Contact" [ref=e392] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e393]:
+              - link "Weather Impact" [ref=e394] [cursor=pointer]:
+                - /url: /amarillo-weather-impact-on-roofing/
+            - listitem [ref=e395]:
+              - link "Installation Methods" [ref=e396] [cursor=pointer]:
+                - /url: /roofing-methods/
+        - generic [ref=e397]:
+          - heading "Specialties" [level=3] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "Hail Damage" [ref=e401] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e402]:
+              - link "Storm Damage" [ref=e403] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+            - listitem [ref=e404]:
+              - link "Wind Damage" [ref=e405] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+            - listitem [ref=e406]:
+              - link "Commercial TPO" [ref=e407] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+            - listitem [ref=e408]:
+              - link "Residential Repair" [ref=e409] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+            - listitem [ref=e410]:
+              - link "PVC Roofing" [ref=e411] [cursor=pointer]:
+                - /url: /pvc-roofing-contractors-in-amarillo/
+      - generic [ref=e412]:
+        - paragraph [ref=e413]: © 2026 5 Star Commercial Roofing. All rights reserved.
+        - paragraph [ref=e414]: Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
+  - alert [ref=e415]

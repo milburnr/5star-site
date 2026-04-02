@@ -1,0 +1,36 @@
+{
+  "generated": "2026-04-02T01:53:34.943Z",
+  "site": "https://5starroofingpros.com",
+  "totalChecked": 3,
+  "mismatches": [],
+  "matches": [],
+  "errors": [
+    {
+      "imageUrl": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+      "alt": "TPO white membrane roofing installation on Amarillo commercial building - 5 Star Roofing",
+      "nearestHeading": "TPO Roofing Systems",
+      "context": "TPO Roofing Systems",
+      "pageUrl": "https://5starroofingpros.com/commercial-roofing-amarillo/",
+      "matches": null,
+      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "imageUrl": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+      "alt": "Standing seam metal roof on Amarillo commercial warehouse - Durable hail protection",
+      "nearestHeading": "Metal Roofing",
+      "context": "Metal Roofing",
+      "pageUrl": "https://5starroofingpros.com/commercial-roofing-amarillo/",
+      "matches": null,
+      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    },
+    {
+      "imageUrl": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg",
+      "alt": "EPDM rubber membrane on Amarillo commercial flat roof - Cost-effective roofing solution",
+      "nearestHeading": "EPDM Rubber Roofing",
+      "context": "EPDM Rubber Roofing",
+      "pageUrl": "https://5starroofingpros.com/commercial-roofing-amarillo/",
+      "matches": null,
+      "error": "Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted"
+    }
+  ]
+}

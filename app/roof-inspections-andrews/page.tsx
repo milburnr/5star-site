@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { CloudLightning, Flower2, Leaf, Phone, Snowflake, Star, Sun, Thermometer, Tornado, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-andrews/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -86,7 +87,7 @@ export default function RoofInspectionsAndrewsPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-andrews/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -184,7 +185,7 @@ export default function RoofInspectionsAndrewsPage() {
                 Professional roof inspections in Andrews TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -214,7 +215,7 @@ export default function RoofInspectionsAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -303,7 +304,7 @@ export default function RoofInspectionsAndrewsPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Why Andrews Roofs Require Specialized Inspections</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌪️ Extreme Hail Events</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><Tornado className="w-6 h-6 inline-block" /> Extreme Hail Events</h4>
                     <p className="text-gray-700 mb-4">Andrews County sits in the heart of "Hail Alley," experiencing 6-8 significant hailstorms annually. The Permian Basin's geography creates perfect supercell conditions.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Softball-size hail:</strong> Baseball to softball common</li>
@@ -314,7 +315,7 @@ export default function RoofInspectionsAndrewsPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🌬️ Persistent High Winds</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><Wind className="w-6 h-6 inline-block" /> Persistent High Winds</h4>
                     <p className="text-gray-700 mb-4">The Permian Basin's flat topography provides no wind breaks, creating sustained high-velocity conditions year-round.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Sustained speeds:</strong> 15-25 mph average daily</li>
@@ -421,7 +422,7 @@ export default function RoofInspectionsAndrewsPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Critical Damage Indicators Specific to Permian Basin</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">⛈️ Hail Damage Signatures</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><CloudLightning className="w-6 h-6 inline-block" /> Hail Damage Signatures</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Impact Craters:</strong> Circular depressions with visible depth</li>
                       <li>• <strong>Exposed Substrate:</strong> Granule loss revealing black mat</li>
@@ -432,7 +433,7 @@ export default function RoofInspectionsAndrewsPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">💨 Wind Damage Patterns</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Wind className="w-6 h-6 inline-block" /> Wind Damage Patterns</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Uplift Indicators:</strong> Shingle lifting and creasing</li>
                       <li>• <strong>Fastener Exposure:</strong> Nail heads or screw backs visible</li>
@@ -443,7 +444,7 @@ export default function RoofInspectionsAndrewsPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🌡️ Temperature Stress Damage</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Thermometer className="w-6 h-6 inline-block" /> Temperature Stress Damage</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Thermal Cracking:</strong> Expansion-contraction splits</li>
                       <li>• <strong>Fastener Backing:</strong> Cyclical movement loosening</li>
@@ -516,7 +517,7 @@ export default function RoofInspectionsAndrewsPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Seasonal Inspection Timing for Andrews?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Storm Season (March-June)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Flower2 className="w-6 h-6 inline-block" /> Spring Storm Season (March-June)</h3>
                 <p className="text-gray-700 mb-4"><strong>Peak Activity Period:</strong> Andrews experiences maximum hail and wind events during spring supercell season.</p>
                 <div className="space-y-3">
                   <div>
@@ -541,7 +542,7 @@ export default function RoofInspectionsAndrewsPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">☀️ Summer Heat Assessment (July-September)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Sun className="w-6 h-6 inline-block" /> Summer Heat Assessment (July-September)</h3>
                 <p className="text-gray-700 mb-4"><strong>Heat Stress Evaluation:</strong> Andrews' elevation intensifies UV exposure and thermal cycling stress.</p>
                 <div className="space-y-3">
                   <div>
@@ -567,7 +568,7 @@ export default function RoofInspectionsAndrewsPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🍂 Fall Preparation (October-November)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Leaf className="w-6 h-6 inline-block" /> Fall Preparation (October-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Season Wrap-up Assessment:</strong> Comprehensive evaluation after storm season and before winter.</p>
                 <div className="space-y-3">
                   <div>
@@ -593,7 +594,7 @@ export default function RoofInspectionsAndrewsPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Monitoring (December-February)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Snowflake className="w-6 h-6 inline-block" /> Winter Monitoring (December-February)</h3>
                 <p className="text-gray-700 mb-4"><strong>Limited Access Period:</strong> Emergency-only inspections due to weather and safety concerns.</p>
                 <div className="space-y-3">
                   <div>

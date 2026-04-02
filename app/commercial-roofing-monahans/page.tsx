@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Factory, Fuel, Hotel, Leaf, Palmtree, Phone, Star, Waves, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-monahans/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function CommercialRoofingMonahansPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-monahans/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-10-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function CommercialRoofingMonahansPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Monahans. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingMonahansPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -148,7 +149,7 @@ export default function CommercialRoofingMonahansPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Roofing Solutions for Monahans' Diverse Economy Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-black">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🛢️ Petroleum Marketing Center</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Petroleum Marketing Center</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">As a marketing center for 800+ square miles of oil and cattle operations, Monahans hosts numerous petroleum service companies, equipment suppliers, and support businesses requiring specialized commercial roofing:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Oil field service company offices and shops</li>
@@ -162,7 +163,7 @@ export default function CommercialRoofingMonahansPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🥬 Hydroponic Agriculture</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Leaf className="w-6 h-6 inline-block" /> Hydroponic Agriculture</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Monahans has attracted cutting-edge hydroponic greenhouse operations as part of its economic diversification strategy, requiring specialized roofing systems that support controlled-environment agriculture:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Climate-controlled greenhouse facilities</li>
@@ -191,7 +192,7 @@ export default function CommercialRoofingMonahansPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-yellow-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏖️ Sand Mining & Tourism</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Palmtree className="w-6 h-6 inline-block" /> Sand Mining & Tourism</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">The unique Monahans Sandhills support both sand mining operations and tourism businesses, creating roofing needs that span industrial operations and hospitality services:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Sand mining and processing facilities</li>
@@ -220,7 +221,7 @@ export default function CommercialRoofingMonahansPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🔧</span>
+                  <span className="text-white text-2xl"><Wrench className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Multi-Industry Expertise</h3>
                 <p className="text-gray-700">Experience across petroleum, agriculture, manufacturing, and tourism sectors supports Monahans' economic diversity.</p>
@@ -228,7 +229,7 @@ export default function CommercialRoofingMonahansPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🌊</span>
+                  <span className="text-white text-2xl"><Waves className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-Brown mb-2">Desert Durability</h3>
                 <p className="text-gray-700">Specialized materials and techniques for extreme desert conditions, sand exposure, and temperature fluctuations.</p>
@@ -428,7 +429,7 @@ export default function CommercialRoofingMonahansPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Financing Options Support Local Businesses?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏭 Economic Development Financing</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Factory className="w-6 h-6 inline-block" /> Economic Development Financing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Monahans' economic diversification creates opportunities for businesses expanding into new sectors. Our financing programs support companies transitioning from traditional oil and gas into agriculture, manufacturing, and tourism.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Development Financing Options:</h4>
@@ -446,7 +447,7 @@ export default function CommercialRoofingMonahansPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏨 Tourism Business Support</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Hotel className="w-6 h-6 inline-block" /> Tourism Business Support</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Tourism businesses serving Monahans Sandhills State Park visitors face seasonal revenue patterns. Our financing accommodates these cycles while helping businesses maintain facilities that attract tourists to this unique destination.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Tourism Industry Programs:</h4>

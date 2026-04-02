@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, CheckCircle, ClipboardList, Construction, DollarSign, Flame, Phone, Recycle, Shield, Sparkles, Star, Thermometer } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-amarillo/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function MetalRoofingAmarilloPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional metal roofing throughout Amarillo. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function MetalRoofingAmarilloPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -147,10 +148,10 @@ export default function MetalRoofingAmarilloPage() {
                 <div className="bg-brand-gold-light p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Durability Features:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> 50-70 year lifespan vs. 15-20 for asphalt</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Corrosion-resistant coatings and galvanization</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Thermal expansion joint design</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> UV-resistant finishes for Amarillo sun exposure</li>
+                    <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> 50-70 year lifespan vs. 15-20 for asphalt</li>
+                    <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Corrosion-resistant coatings and galvanization</li>
+                    <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Thermal expansion joint design</li>
+                    <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> UV-resistant finishes for Amarillo sun exposure</li>
                   </ul>
                 </div>
               </div>
@@ -314,32 +315,32 @@ export default function MetalRoofingAmarilloPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🛡️</div>
+                  <div className="text-4xl mb-4 text-center"><Shield className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Weather Protection</h3>
                   <p className="text-gray-700">Superior resistance to hail, wind, and extreme temperatures. Metal roofing withstands Amarillo's severe weather events without cracking or losing granules like asphalt shingles.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">💰</div>
+                  <div className="text-4xl mb-4 text-center"><DollarSign className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Long-term Value</h3>
                   <p className="text-gray-700">While initial investment is higher, metal roofing pays for itself through energy savings, reduced maintenance, and increased home value. Many homeowners see 85-95% return on investment.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🌡️</div>
+                  <div className="text-4xl mb-4 text-center"><Thermometer className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Energy Efficiency</h3>
                   <p className="text-gray-700">Reflective coatings and proper ventilation reduce cooling costs significantly. In Amarillo's hot summers, this can mean hundreds of dollars in annual savings.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🔥</div>
+                  <div className="text-4xl mb-4 text-center"><Flame className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Fire Resistance</h3>
                   <p className="text-gray-700">Class A fire rating provides maximum protection. Important for Amarillo area where wildfire risk and dry conditions make fire resistance a priority for homeowners.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">♻️</div>
+                  <div className="text-4xl mb-4 text-center"><Recycle className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Eco-Friendly</h3>
                   <p className="text-gray-700">Metal roofing contains 25-95% recycled content and is 100% recyclable at end of life. Reduces landfill waste compared to asphalt shingles.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">✨</div>
+                  <div className="text-4xl mb-4 text-center"><Sparkles className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Low Maintenance</h3>
                   <p className="text-gray-700">Minimal upkeep required. Occasional inspections and gutter cleaning are typically all that's needed. No replacing missing shingles or dealing with granule loss.</p>
                 </div>
@@ -376,17 +377,17 @@ export default function MetalRoofingAmarilloPage() {
                   <div className="bg-gradient-to-br from-brand-gold-light to-white p-6 rounded-xl">
                     <h4 className="font-bold text-brand-brown mb-4">Advanced Fastening Systems</h4>
                     <ul className="space-y-2 text-gray-700 mb-6">
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Pancake head fasteners with large washers</li>
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> 12" on-center fastening pattern</li>
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Reinforced perimeter and corner zones</li>
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Dual-seal tape under all end laps</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Pancake head fasteners with large washers</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> 12" on-center fastening pattern</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Reinforced perimeter and corner zones</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Dual-seal tape under all end laps</li>
                     </ul>
                     <h4 className="font-bold text-brand-brown mb-4">Material Specifications</h4>
                     <ul className="space-y-2 text-gray-700">
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Minimum 24-gauge galvanized steel substrate</li>
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> G90 galvanization for corrosion resistance</li>
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> 40-year coating warranties available</li>
-                      <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Meets or exceeds ASTM standards</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Minimum 24-gauge galvanized steel substrate</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> G90 galvanization for corrosion resistance</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> 40-year coating warranties available</li>
+                      <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Meets or exceeds ASTM standards</li>
                     </ul>
                   </div>
                 </div>
@@ -434,17 +435,17 @@ export default function MetalRoofingAmarilloPage() {
               <p className="text-lg text-gray-700 mb-6 text-center">We handle all permit requirements and ensure your metal roofing installation meets Amarillo building codes and HOA guidelines.</p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                  <div className="text-3xl mb-3">📋</div>
+                  <div className="text-3xl mb-3"><ClipboardList className="w-6 h-6 inline-block" /></div>
                   <h3 className="font-bold text-brand-brown mb-2">Permit Acquisition</h3>
                   <p className="text-gray-600">We obtain all required permits from the City of Amarillo, ensuring compliance with local building codes.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                  <div className="text-3xl mb-3">🏗️</div>
+                  <div className="text-3xl mb-3"><Construction className="w-6 h-6 inline-block" /></div>
                   <h3 className="font-bold text-brand-brown mb-2">Code Compliance</h3>
                   <p className="text-gray-600">Our installations exceed Texas building code requirements for wind uplift and structural attachment.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                  <div className="text-3xl mb-3">✅</div>
+                  <div className="text-3xl mb-3"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                   <h3 className="font-bold text-brand-brown mb-2">Final Inspection</h3>
                   <p className="text-gray-600">Coordinated final inspections ensure your project passes all city requirements before completion.</p>
                 </div>

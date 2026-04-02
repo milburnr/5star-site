@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, ClipboardList, Home, Phone, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-andrews/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function HailDamageRepairAndrewsPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Andrews. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function HailDamageRepairAndrewsPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -184,7 +185,7 @@ export default function HailDamageRepairAndrewsPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Does Comprehensive Hail Damage Assessment Look Like?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-400">
-                <div className="text-4xl mb-4">🏠</div>
+                <div className="text-4xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Roof System Evaluation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Shingle Impact Assessment:</strong> Granule loss patterns, exposed mat, cracking</li>
@@ -196,7 +197,7 @@ export default function HailDamageRepairAndrewsPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-yellow-400">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Insurance Documentation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Photographic Evidence:</strong> High-resolution damage documentation from multiple angles</li>
@@ -208,7 +209,7 @@ export default function HailDamageRepairAndrewsPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-400">
-                <div className="text-4xl mb-4">⚡</div>
+                <div className="text-4xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Mitigation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Immediate Tarping:</strong> Professional-grade tarps with secure fastening systems</li>
@@ -360,35 +361,35 @@ export default function HailDamageRepairAndrewsPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Claims Process Support</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Initial Damage Assessment</h4>
                       <p className="text-gray-600 text-sm">Professional documentation meeting insurance industry standards</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Adjuster Meeting Coordination</h4>
                       <p className="text-gray-600 text-sm">Professional representation and technical expertise during inspections</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Supplement Negotiation</h4>
                       <p className="text-gray-600 text-sm">Additional damage identification and settlement enhancement</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Code Upgrade Advocacy</h4>
                       <p className="text-gray-600 text-sm">Ensuring coverage for required building code improvements</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Final Settlement Review</h4>
                       <p className="text-gray-600 text-sm">Complete verification of claim accuracy before project completion</p>

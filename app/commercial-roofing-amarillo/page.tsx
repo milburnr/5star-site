@@ -11,6 +11,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-amarillo/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -216,7 +217,7 @@ export default function CommercialRoofingAmarilloPage() {
                 Expert commercial roofing for Amarillo businesses. TPO, EPDM, and metal roofing systems engineered for the Texas Panhandle's harsh weather. Minimize operational disruption with our after-hours installation. prompt response available.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Estimate
@@ -246,7 +247,7 @@ export default function CommercialRoofingAmarilloPage() {
                 <div className="text-brand-brown font-semibold text-lg">Avg Wind Speed (MPH)</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -282,10 +283,10 @@ export default function CommercialRoofingAmarilloPage() {
                   Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs in Amarillo's hot summers. Excellent hail resistance and proven performance in Texas Panhandle weather.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 15-25 year warranties</li>
-                  <li>✓ Energy-efficient reflective coating</li>
-                  <li>✓ Hail and puncture resistant</li>
-                  <li>✓ Low maintenance requirements</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-25 year warranties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy-efficient reflective coating</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Hail and puncture resistant</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Low maintenance requirements</li>
                 </ul>
               </div>
 
@@ -296,10 +297,10 @@ export default function CommercialRoofingAmarilloPage() {
                   Standing seam and R-panel metal roofing for commercial applications. Superior wind resistance (140+ mph), fire resistance (Class A), and longevity (50+ years). Ideal for warehouses, manufacturing facilities, and retail buildings.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 50+ year lifespan</li>
-                  <li>✓ Class A fire rating</li>
-                  <li>✓ Wind resistance 140+ mph</li>
-                  <li>✓ Hail dent-resistant options</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />50+ year lifespan</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Class A fire rating</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance 140+ mph</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Hail dent-resistant options</li>
                 </ul>
               </div>
 
@@ -310,10 +311,10 @@ export default function CommercialRoofingAmarilloPage() {
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance and proven performance in extreme temperatures (-40°F to 300°F). Budget-friendly option with reliable 15-30 year lifespan.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 15-30 year lifespan</li>
-                  <li>✓ Excellent UV resistance</li>
-                  <li>✓ Temperature stable</li>
-                  <li>✓ Budget-friendly option</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-30 year lifespan</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Excellent UV resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Temperature stable</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Budget-friendly option</li>
                 </ul>
               </div>
             </div>
@@ -377,12 +378,12 @@ export default function CommercialRoofingAmarilloPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Key Code Requirements</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>2015 International Residential Code (IRC)</strong></li>
-                    <li>✓ Permits required per IRC Section 105.1</li>
-                    <li>✓ Wind resistance: 110-125 mph design standards</li>
-                    <li>✓ Drip edge installation mandatory</li>
-                    <li>✓ Proper attic ventilation (1 sq ft per 150 sq ft)</li>
-                    <li>✓ UL 2218 Class 4 hail resistance recommended</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>2015 International Residential Code (IRC)</strong></li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Permits required per IRC Section 105.1</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance: 110-125 mph design standards</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Drip edge installation mandatory</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Proper attic ventilation (1 sq ft per 150 sq ft)</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UL 2218 Class 4 hail resistance recommended</li>
                   </ul>
                 </div>
               </div>
@@ -440,7 +441,7 @@ export default function CommercialRoofingAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl">
             <div className="flex gap-6 items-center">
-              <div className="text-6xl">🚨</div>
+              <div className="text-6xl"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">

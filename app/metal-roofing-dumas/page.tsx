@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Phone, Star, Wheat, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-dumas/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function MetalRoofingDumasPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/metal-roofing-dumas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function MetalRoofingDumasPage() {
                 Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -224,7 +225,7 @@ export default function MetalRoofingDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -254,23 +255,23 @@ export default function MetalRoofingDumasPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🌾 Agricultural Excellence</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Agricultural Excellence</h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li>✓ Large-span agricultural buildings</li>
-                  <li>✓ Chemical resistance for farm operations</li>
-                  <li>✓ Weather protection for equipment storage</li>
-                  <li>✓ Cost-effective solutions for grain facilities</li>
-                  <li>✓ Easy cleaning and maintenance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Large-span agricultural buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical resistance for farm operations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Weather protection for equipment storage</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Cost-effective solutions for grain facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Easy cleaning and maintenance</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⚡ Industrial Performance</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Zap className="w-6 h-6 inline-block" /> Industrial Performance</h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li>✓ Manufacturing facility protection</li>
-                  <li>✓ Fire resistance for safety compliance</li>
-                  <li>✓ Lightning strike protection</li>
-                  <li>✓ Extreme temperature tolerance</li>
-                  <li>✓ High wind uplift resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Manufacturing facility protection</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fire resistance for safety compliance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Lightning strike protection</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Extreme temperature tolerance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />High wind uplift resistance</li>
                 </ul>
               </div>
             </div>

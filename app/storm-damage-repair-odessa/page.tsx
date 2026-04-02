@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { FlaskConical, Phone, School, Shield, Tornado } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-odessa/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/storm-damage-repair-odessa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function Page() {
                 Expert storm damage repair in Odessa.  for hail, wind, and weather damage. Complete insurance assistance.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Estimate
@@ -441,22 +442,22 @@ export default function Page() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-purple-50 p-6 rounded-xl border-t-4 border-purple-600 text-center">
-                <div className="text-3xl mb-3">🌪️</div>
+                <div className="text-3xl mb-3"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Basin-Aware Response</h3>
                 <p className="text-sm text-gray-700">Specialized protocols for basin geography and petroleum facility safety requirements with certified crews.</p>
               </div>
               <div className="bg-yellow-50 p-6 rounded-xl border-t-4 border-yellow-600 text-center">
-                <div className="text-3xl mb-3">🧪</div>
+                <div className="text-3xl mb-3"><FlaskConical className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Chemical Assessment</h3>
                 <p className="text-sm text-gray-700">Comprehensive evaluation including petroleum exposure analysis and enhanced corrosion damage documentation.</p>
               </div>
               <div className="bg-orange-50 p-6 rounded-xl border-t-4 border-orange-500 text-center">
-                <div className="text-3xl mb-3">🏫</div>
+                <div className="text-3xl mb-3"><School className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Campus Coordination</h3>
                 <p className="text-sm text-gray-700">UTPB-compliant procedures with university administration coordination and student safety protocols.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500 text-center">
-                <div className="text-3xl mb-3">🛡️</div>
+                <div className="text-3xl mb-3"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Enhanced Protection</h3>
                 <p className="text-sm text-gray-700">Chemical-resistant materials and protective systems designed for Ector County's unique environmental challenges.</p>
               </div>

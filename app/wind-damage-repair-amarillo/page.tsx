@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-amarillo/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function WindDamageRepairAmarilloPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -199,7 +200,7 @@ export default function WindDamageRepairAmarilloPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -570,14 +571,14 @@ export default function WindDamageRepairAmarilloPage() {
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">⚡</span>
+                    <span className="text-white font-bold text-xl"><Zap className="w-6 h-6 inline-block" /></span>
                   </div>
                   <h4 className="font-bold text-indigo-800 mb-2">Impact Resistance</h4>
                   <p className="text-sm text-gray-600">Class 4 materials resist damage from wind-driven debris common in Panhandle storms—may qualify for insurance discounts.</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">🔧</span>
+                    <span className="text-white font-bold text-xl"><Wrench className="w-6 h-6 inline-block" /></span>
                   </div>
                   <h4 className="font-bold text-indigo-800 mb-2">Fastener Technology</h4>
                   <p className="text-sm text-gray-600">Ring-shank nails with enhanced holding power and corrosion resistance for long-term wind performance.</p>

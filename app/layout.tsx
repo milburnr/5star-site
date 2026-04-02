@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
+import { Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileMenu } from "@/components/MobileMenu";
 import { PhoneClickTracker } from "@/components/PhoneClickTracker";
 import Script from "next/script";
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-poppins',
+});
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-open-sans',
+});
 
 export const metadata: Metadata = {
   title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
@@ -32,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`${poppins.variable} ${openSans.variable} scroll-smooth`}>
       <head>
         {/* Preload hero background image for LCP optimization - local 97KB */}
         <link

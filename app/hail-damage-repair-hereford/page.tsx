@@ -9,6 +9,7 @@ import {
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Beef, Check, Construction, Factory, Landmark, Phone, Search, Shield, Tornado, TrendingUp, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-hereford/' },
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -48,7 +49,7 @@ export default function HailDamageRepairHerefordPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-hereford/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -122,7 +123,7 @@ export default function HailDamageRepairHerefordPage() {
                 Hereford—the only incorporated city named "Hereford" in the United States and the undisputed Beef Capital of the World—faces intense weather challenges from its high plains location. With over 1 million cattle fed annually in surrounding feedlots, 5 Star Roofing has been protecting Hereford's homes and agricultural facilities since 2014 with expert hail damage repair and storm-resistant solutions.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Free Inspection</a>
               </div>
             </div>
@@ -147,7 +148,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div className="text-brand-brown font-semibold text-lg">Cattle Fed Annually</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">🥩</div>
+                <div className="text-3xl mb-3"><Beef className="w-6 h-6 inline-block" /></div>
                 <div className="text-brand-brown font-semibold text-lg">Beef Capital of World</div>
               </div>
             </div>
@@ -164,7 +165,7 @@ export default function HailDamageRepairHerefordPage() {
             </p>
 
             <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-xl shadow-lg border border-amber-200 my-8">
-              <h3 className="text-2xl font-bold text-amber-700 mb-4">🥩 The Beef Capital's Infrastructure Challenge</h3>
+              <h3 className="text-2xl font-bold text-amber-700 mb-4"><Beef className="w-6 h-6 inline-block" /> The Beef Capital's Infrastructure Challenge</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Hereford's status as the Beef Capital of the World isn't just a slogan—it's an economic reality that drives unique roofing challenges. The city and surrounding Deaf Smith County host:
               </p>
@@ -197,7 +198,7 @@ export default function HailDamageRepairHerefordPage() {
             </p>
 
             <div className="bg-gradient-to-r from-red-600 to-orange-700 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">⚠️ Hereford's Position in the Hail Belt</h3>
+              <h3 className="text-2xl font-bold mb-4"><AlertTriangle className="w-6 h-6 inline-block" /> Hereford's Position in the Hail Belt</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Hereford occupies a particularly dangerous position within the Texas Hail Belt. Sitting at the intersection of multiple storm tracks and positioned where the Llano Estacado's elevation creates optimal atmospheric conditions for supercell development, Hereford regularly experiences some of the most intense hailstorms in North America.
               </p>
@@ -234,7 +235,7 @@ export default function HailDamageRepairHerefordPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-700 mb-4">📈 Hail Impact Statistics</h3>
+                <h3 className="text-xl font-bold text-blue-700 mb-4"><TrendingUp className="w-6 h-6 inline-block" /> Hail Impact Statistics</h3>
                 <p className="text-gray-700 mb-4">NOAA data for Deaf Smith County (2015-2024):</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Annual Hail Events:</strong> 10-14 (among highest in Texas)</li>
@@ -246,7 +247,7 @@ export default function HailDamageRepairHerefordPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-200">
-                <h3 className="text-xl font-bold text-green-700 mb-4">🏭 Agricultural Roofing Challenges</h3>
+                <h3 className="text-xl font-bold text-green-700 mb-4"><Factory className="w-6 h-6 inline-block" /> Agricultural Roofing Challenges</h3>
                 <p className="text-gray-700 mb-4">Unique requirements for cattle industry:</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Large Surface Areas:</strong> Feedlot buildings span acres</li>
@@ -260,7 +261,7 @@ export default function HailDamageRepairHerefordPage() {
             </div>
 
             <div className="bg-gradient-to-r from-slate-700 to-slate-900 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">🌪️ The Llano Estacado Storm Enhancement Effect</h3>
+              <h3 className="text-2xl font-bold mb-4"><Tornado className="w-6 h-6 inline-block" /> The Llano Estacado Storm Enhancement Effect</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Hereford's position on the Llano Estacado creates a natural "storm amplification zone." The high plains elevation, combined with the flat terrain extending for hundreds of miles, allows storms to organize and intensify to their maximum potential before reaching the city.
               </p>
@@ -280,7 +281,7 @@ export default function HailDamageRepairHerefordPage() {
             </p>
 
             <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-purple-200 shadow-lg">
-              <h3 className="text-2xl font-bold text-purple-700 mb-4">⚡ Climate Change Impact on Hereford</h3>
+              <h3 className="text-2xl font-bold text-purple-700 mb-4"><Zap className="w-6 h-6 inline-block" /> Climate Change Impact on Hereford</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Recent climate studies show that Hereford and the surrounding High Plains are experiencing intensifying storm patterns:
               </p>
@@ -375,32 +376,32 @@ export default function HailDamageRepairHerefordPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Hereford Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Comprehensive Inspection</h3>
                 <p className="text-gray-600">Detailed assessment of residential and agricultural properties with specialized documentation for cattle facilities.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🏛️</div>
+                <div className="text-4xl mb-4"><Landmark className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Advocacy</h3>
                 <p className="text-gray-600">Expert handling of standard homeowner and specialized agricultural insurance policies.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛠️</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Specialized Repair</h3>
                 <p className="text-gray-600">Expert installation using materials designed for Hereford's severe weather and agricultural needs.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🏗️</div>
+                <div className="text-4xl mb-4"><Construction className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Agricultural Expertise</h3>
                 <p className="text-gray-600">Specialized knowledge of feedlot, barn, and commercial cattle facility roofing systems.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔧</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. storm response</h3>
                 <p className="text-gray-600">service for critical agricultural facilities and residential emergencies.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Long-term Protection</h3>
                 <p className="text-gray-600">Comprehensive warranties and maintenance plans for both residential and commercial properties.</p>
               </div>
@@ -447,16 +448,16 @@ export default function HailDamageRepairHerefordPage() {
               <h3 className="text-xl font-bold text-brand-brown mb-3">Specialized Agricultural Services</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Cattle feedlot roofing</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Dairy facility repairs</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Grain storage buildings</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Equipment storage barns</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Cattle feedlot roofing</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Dairy facility repairs</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Grain storage buildings</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Equipment storage barns</li>
                 </ul>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Processing plant facilities</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Administrative buildings</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Residential ranch homes</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Commercial livestock facilities</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Processing plant facilities</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Administrative buildings</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Residential ranch homes</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Commercial livestock facilities</li>
                 </ul>
               </div>
             </div>

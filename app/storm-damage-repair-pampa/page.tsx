@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-pampa/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function StormDamageRepairPampaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/storm-damage-repair-pampa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -225,7 +226,7 @@ export default function StormDamageRepairPampaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -368,23 +369,23 @@ export default function StormDamageRepairPampaPage() {
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">What's Typically Covered</h3>
                   <ul className="text-gray-700 space-y-3">
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
                       <span><strong>Hail damage:</strong> Granule loss, exposed mat, cracked shingles</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
                       <span><strong>Wind damage:</strong> Lifted shingles, torn sections, blown-off materials</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
                       <span><strong>Debris impact:</strong> Tree branches, flying objects, agricultural debris</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
                       <span><strong>Water intrusion:</strong> Secondary damage from storm-compromised roofs</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1">✓</span>
+                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
                       <span><strong>storm repairs:</strong> Tarping and temporary protection measures</span>
                     </li>
                   </ul>
@@ -529,28 +530,28 @@ export default function StormDamageRepairPampaPage() {
                   <h3 className="text-2xl font-bold mb-6 text-brand-gold">Visual Inspection Checklist</h3>
                   <div className="space-y-4">
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                       <div>
                         <h4 className="font-semibold">Hail Impact Assessment</h4>
                         <p className="text-gray-600 text-sm">Granule loss patterns, exposed mat, circular impacts, soft metal denting</p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                       <div>
                         <h4 className="font-semibold">Wind Damage Analysis</h4>
                         <p className="text-gray-600 text-sm">Lifted shingles, torn materials, fastener failures, edge lifting</p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                       <div>
                         <h4 className="font-semibold">Structural Evaluation</h4>
                         <p className="text-gray-600 text-sm">Decking damage, rafter stress, support beam condition, foundation issues</p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">✓</div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                       <div>
                         <h4 className="font-semibold">Water Intrusion Check</h4>
                         <p className="text-gray-600 text-sm">Interior damage, insulation condition, electrical safety, mold potential</p>

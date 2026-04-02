@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Camera, ClipboardList, CloudHail, FileText, Handshake, Home, Microscope, Phone, Search, Star, Tornado, Trophy, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-big-spring/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -60,7 +61,7 @@ export default function RoofInspectionsBigSpringPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-big-spring/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -198,7 +199,7 @@ export default function RoofInspectionsBigSpringPage() {
                 Expert roof inspections in Big Spring, Texas. West Texas experiences 7-9 severe hailstorms annually, making professional roof inspections critical for property protection and insurance claims. Complete inspection reports with detailed documentation.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
                 </a>
@@ -225,7 +226,7 @@ export default function RoofInspectionsBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -258,7 +259,7 @@ export default function RoofInspectionsBigSpringPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🔍 Exterior Inspection</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Exterior Inspection</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Shingle Assessment:</strong> Granule loss, cracking, curling, missing shingles</li>
                   <li>• <strong>Hail Damage Detection:</strong> Impact marks, bruising, exposed mat</li>
@@ -269,7 +270,7 @@ export default function RoofInspectionsBigSpringPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏠 Interior Inspection</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Interior Inspection</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Attic Examination:</strong> Water stains, mold, insulation damage</li>
                   <li>• <strong>Ceiling Assessment:</strong> Discoloration, sagging, water marks</li>
@@ -289,7 +290,7 @@ export default function RoofInspectionsBigSpringPage() {
               What to Look For: Critical Damage Indicators?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌨️ Hail Damage Signs</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Hail Damage Signs</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
                   <h4 className="font-bold text-lg mb-3 text-gray-800">Shingle Damage</h4>
@@ -325,7 +326,7 @@ export default function RoofInspectionsBigSpringPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">💨 Wind Damage Indicators</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Wind Damage Indicators</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="font-bold text-lg mb-3 text-gray-800">Visible Wind Damage</h4>
@@ -358,7 +359,7 @@ export default function RoofInspectionsBigSpringPage() {
               How Does the Insurance Claims Process Work in Big Spring?
             </h2>
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl mb-8">
-              <h3 className="text-2xl font-bold mb-4">📋 Complete Documentation Package</h3>
+              <h3 className="text-2xl font-bold mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Complete Documentation Package</h3>
               <p className="text-lg leading-relaxed">
                 Our comprehensive inspection reports provide all documentation required for successful insurance claims. We work directly with insurance adjusters to ensure your claim is properly documented and fairly assessed.
               </p>
@@ -366,7 +367,7 @@ export default function RoofInspectionsBigSpringPage() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">📸 Visual Documentation</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Camera className="w-6 h-6 inline-block" /> Visual Documentation</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• High-resolution damage photographs</li>
                   <li>• Before and after storm comparisons</li>
@@ -377,7 +378,7 @@ export default function RoofInspectionsBigSpringPage() {
                 </ul>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">📄 Written Reports</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><FileText className="w-6 h-6 inline-block" /> Written Reports</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Detailed damage assessments</li>
                   <li>• Measurement documentation</li>
@@ -390,7 +391,7 @@ export default function RoofInspectionsBigSpringPage() {
             </div>
 
             <div className="mt-8 bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold mb-3 text-amber-800">⚠️ Insurance Claim Tips for Big Spring Property Owners</h3>
+              <h3 className="text-xl font-bold mb-3 text-amber-800"><AlertTriangle className="w-6 h-6 inline-block" /> Insurance Claim Tips for Big Spring Property Owners</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold mb-2 text-amber-700">Immediate Actions</h4>
@@ -423,7 +424,7 @@ export default function RoofInspectionsBigSpringPage() {
               What Does Big Spring Weather Patterns & Roofing Challenges Involve?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌪️ West Texas Weather Impact</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> West Texas Weather Impact</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="text-xl font-bold mb-4 text-gray-800">Seasonal Weather Patterns</h4>
@@ -479,17 +480,17 @@ export default function RoofInspectionsBigSpringPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🏆</div>
+                <div className="text-4xl mb-4"><Trophy className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Local Expertise</h3>
                 <p className="text-gray-600">Over 15 years serving Big Spring and Howard County. We understand local weather patterns, building codes, and insurance requirements specific to West Texas.</p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🔬</div>
+                <div className="text-4xl mb-4"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Advanced Technology</h3>
                 <p className="text-gray-600">Drone inspections, thermal imaging, moisture detection, and digital documentation ensure no damage goes undetected.</p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🤝</div>
+                <div className="text-4xl mb-4"><Handshake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Insurance Partnership</h3>
                 <p className="text-gray-600">We work directly with all major insurance companies and understand the claims process to maximize your coverage.</p>
               </div>

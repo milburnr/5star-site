@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Phone, Snowflake, Star, Tornado, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-pampa/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function RoofInspectionsPampaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-pampa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function RoofInspectionsPampaPage() {
                 Expert roof inspections in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Schedule FREE Inspection
@@ -224,7 +225,7 @@ export default function RoofInspectionsPampaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -304,21 +305,21 @@ export default function RoofInspectionsPampaPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl">
-                <div className="text-4xl mb-4">🌪️</div>
+                <div className="text-4xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">High Plains Windstorms</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Pampa experiences sustained winds exceeding 60 mph during storm events. These extreme winds create uplift forces that can damage even properly installed roofing systems. Our inspections specifically look for wind damage patterns unique to High Plains geography.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
-                <div className="text-4xl mb-4">🧊</div>
+                <div className="text-4xl mb-4"><Snowflake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Severe Hailstorms</h3>
                 <p className="text-gray-700 leading-relaxed">
                   With 6-8 significant hailstorms annually, Pampa properties face constant bombardment. Our inspectors are trained to identify subtle hail damage that may not be immediately visible but can lead to premature roof failure and water infiltration.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
-                <div className="text-4xl mb-4">🌾</div>
+                <div className="text-4xl mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Agricultural Environment</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Farming operations create unique challenges: airborne debris, chemical exposure, and equipment vibrations. Our Pampa inspections account for agricultural-specific wear patterns and contamination that urban inspectors might miss.
@@ -364,10 +365,10 @@ export default function RoofInspectionsPampaPage() {
                     Our detailed documentation and local expertise result in exceptionally high insurance claim approval rates for Pampa property owners.
                   </p>
                   <ul className="space-y-2 text-sm text-gray-600">
-                    <li>✓ Professional photography documentation</li>
-                    <li>✓ Detailed damage measurements</li>
-                    <li>✓ Weather correlation reports</li>
-                    <li>✓ Code compliance assessments</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Professional photography documentation</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Detailed damage measurements</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Weather correlation reports</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Code compliance assessments</li>
                   </ul>
                 </div>
               </div>
@@ -382,21 +383,21 @@ export default function RoofInspectionsPampaPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-brand-gold text-2xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   "After the last hailstorm, 5 Star's inspection found damage our insurance adjuster missed. Their detailed report helped us get full replacement coverage. Exceptional local knowledge."
                 </p>
                 <div className="text-brand-brown font-semibold">- Sarah M., Pampa Homeowner</div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-brand-gold text-2xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   "Quick response after the spring storm. The drone inspection revealed wind damage we couldn't see from the ground. Professional service from start to finish."
                 </p>
                 <div className="text-brand-brown font-semibold">- Mike R., Agricultural Property</div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-brand-gold text-2xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   "Free inspection before we bought our ranch. They found issues that saved us thousands in negotiation. Worth every penny of the pre-purchase fee."
                 </p>

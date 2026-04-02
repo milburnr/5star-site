@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Building2, Check, Home, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/borger-texas-roofing/' },
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -154,7 +155,7 @@ export default function BorgerRoofingPage() {
             <h1 className="hero-title">Borger's Professional Roofing Contractor</h1>
             <p className="hero-subtitle">Expert Roofing Services in Borger & Hutchinson County, Texas</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">Free Inspection</a>
             </div>
           </div>
@@ -266,7 +267,7 @@ export default function BorgerRoofingPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1}>
               <div className="card-hover p-6">
-                <div className="text-5xl mb-4">🏢</div>
+                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
                 <p className="text-gray-600 mb-4">
                   Borger's industrial sector requires specialized commercial roofing. We install TPO, EPDM, metal roofing, and built-up systems for refineries, warehouses, and manufacturing facilities throughout Hutchinson County.
@@ -277,7 +278,7 @@ export default function BorgerRoofingPage() {
 
             <FadeIn delay={0.2}>
               <div className="card-hover p-6">
-                <div className="text-5xl mb-4">🏠</div>
+                <div className="text-5xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Residential Roofing</h3>
                 <p className="text-gray-600 mb-4">
                   From asphalt shingles to metal roofing, we provide complete residential roofing services for Borger homeowners. Our Class 4 impact-resistant shingles are specifically designed for Texas Panhandle hail protection.
@@ -288,7 +289,7 @@ export default function BorgerRoofingPage() {
 
             <FadeIn delay={0.3}>
               <div className="card-hover p-6 bg-red-50">
-                <div className="text-5xl mb-4">🚨</div>
+                <div className="text-5xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
                   When severe weather strikes Borger, we respond with tarping and rapid roof repairs. Don't wait—call us immediately for storm damage assessment and temporary protection.
@@ -304,25 +305,25 @@ export default function BorgerRoofingPage() {
             <h2 className="text-2xl font-bold mb-6">Why Borger Chooses 5 Star Roofing</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Hutchinson County Experts</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Hutchinson County Experts</h3>
                 <p className="text-gray-600">
                   We understand Borger's weather patterns, from spring hailstorms to winter freezes. Our roofing systems are engineered for local climate challenges.
                 </p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Insurance Claim Assistance</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Insurance Claim Assistance</h3>
                 <p className="text-gray-600">
                   We work directly with insurance adjusters on <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage claims</a>, documenting damage and ensuring you receive full coverage for storm repairs.
                 </p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Commercial & Industrial Focus</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Commercial & Industrial Focus</h3>
                 <p className="text-gray-600">
                   Serving Borger's petrochemical plants, refineries, and industrial facilities with specialized commercial roofing designed for high-performance environments.
                 </p>
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">✓ Free Inspections</h3>
+                <h3 className="font-bold text-lg mb-2"><Check className="w-5 h-5 text-brand-gold inline-block" /> Free Inspections</h3>
                 <p className="text-gray-600">
                   Every Borger property receives a complimentary roof inspection with detailed assessments, photos, and written estimates—no obligation.
                 </p>
@@ -525,7 +526,7 @@ export default function BorgerRoofingPage() {
               Serving Borger, Hutchinson County, and the entire Texas Panhandle with professional roofing services. Contact us today for your free inspection and estimate.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4 inline-block bg-white text-brand-brown hover:bg-gray-100"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4 border-2 border-white hover:bg-white hover:text-brand-brown">Request Free Inspection</a>
             </div>
           </section>

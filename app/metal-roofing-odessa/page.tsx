@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Factory, Flame, FlaskConical, Fuel, Gem, Phone, Star, Thermometer, Tornado, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-odessa/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function MetalRoofingOdessaPage() {
         "@id": "https://5starroofingpros.com/metal-roofing-odessa/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-odessa-4-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function MetalRoofingOdessaPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional metal roofing throughout Odessa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function MetalRoofingOdessaPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -147,10 +148,10 @@ export default function MetalRoofingOdessaPage() {
                 <div className="bg-black text-white p-6 rounded-xl">
                   <h3 className="text-xl font-bold mb-3">Oil Field Durability Features:</h3>
                   <ul className="space-y-2">
-                    <li className="flex items-center"><span className="text-yellow-400 mr-2">✓</span> H2S-resistant coatings and substrates</li>
-                    <li className="flex items-center"><span className="text-yellow-400 mr-2">✓</span> Hydrocarbon emission protection</li>
-                    <li className="flex items-center"><span className="text-yellow-400 mr-2">✓</span> Enhanced vibration resistance</li>
-                    <li className="flex items-center"><span className="text-yellow-400 mr-2">✓</span> Heavy-duty structural connections</li>
+                    <li className="flex items-center"><span className="text-yellow-400 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> H2S-resistant coatings and substrates</li>
+                    <li className="flex items-center"><span className="text-yellow-400 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Hydrocarbon emission protection</li>
+                    <li className="flex items-center"><span className="text-yellow-400 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Enhanced vibration resistance</li>
+                    <li className="flex items-center"><span className="text-yellow-400 mr-2"><Check className="w-5 h-5 text-brand-gold inline-block" /></span> Heavy-duty structural connections</li>
                   </ul>
                 </div>
               </div>
@@ -234,7 +235,7 @@ export default function MetalRoofingOdessaPage() {
               <p className="text-lg text-gray-700 mb-8 text-center">Odessa's massive oil production creates unique environmental stressors that standard roofing materials cannot withstand. Our specialized systems address these specific challenges.</p>
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-gradient-to-br from-black to-gray-800 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">🛢️</div>
+                  <div className="text-4xl mb-4 text-center"><Fuel className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Chemical Exposure</h3>
                   <p className="mb-4">Hydrogen sulfide, hydrocarbon vapors, and processing chemicals require specialized protection.</p>
                   <ul className="space-y-1 text-sm">
@@ -244,7 +245,7 @@ export default function MetalRoofingOdessaPage() {
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-yellow-600 to-orange-600 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">🌪️</div>
+                  <div className="text-4xl mb-4 text-center"><Tornado className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Industrial Vibration</h3>
                   <p className="mb-4">Constant drilling, pumping, and processing equipment creates structural vibration.</p>
                   <ul className="space-y-1 text-sm">
@@ -254,7 +255,7 @@ export default function MetalRoofingOdessaPage() {
                   </ul>
                 </div>
                 <div className="bg-gradient-to-br from-orange-600 to-red-600 text-white p-8 rounded-xl">
-                  <div className="text-4xl mb-4 text-center">🔥</div>
+                  <div className="text-4xl mb-4 text-center"><Flame className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-4 text-center">Fire & Explosion Risk</h3>
                   <p className="mb-4">Enhanced fire resistance requirements for oil field proximity installations.</p>
                   <ul className="space-y-1 text-sm">
@@ -352,32 +353,32 @@ export default function MetalRoofingOdessaPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">⚗️</div>
+                  <div className="text-4xl mb-4 text-center"><FlaskConical className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Chemical Resistance</h3>
                   <p className="text-gray-700">Essential protection against H2S emissions, hydrocarbon vapors, and processing chemicals common in America's oil capital. Premium coatings resist corrosion and maintain integrity.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🔧</div>
+                  <div className="text-4xl mb-4 text-center"><Wrench className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Industrial Durability</h3>
                   <p className="text-gray-700">Built to withstand constant vibration from drilling equipment, heavy traffic, and industrial operations. Reinforced connections prevent fatigue failure.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🌡️</div>
+                  <div className="text-4xl mb-4 text-center"><Thermometer className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Extreme Heat Protection</h3>
                   <p className="text-gray-700">Superior performance in Odessa's combined natural and industrial heat. Reflective systems reduce cooling costs by 30-40% compared to dark roofing.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🔥</div>
+                  <div className="text-4xl mb-4 text-center"><Flame className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Fire Safety</h3>
                   <p className="text-gray-700">Class A fire rating crucial for oil field proximity. Non-combustible construction provides maximum protection in high-risk environments.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">💎</div>
+                  <div className="text-4xl mb-4 text-center"><Gem className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Low Maintenance</h3>
                   <p className="text-gray-700">Critical for busy oil workers and industry professionals. Minimal upkeep required despite harsh conditions. Smooth surfaces shed industrial dust and debris.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                  <div className="text-4xl mb-4 text-center">🏭</div>
+                  <div className="text-4xl mb-4 text-center"><Factory className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">Equipment Compatibility</h3>
                   <p className="text-gray-700">Designed to accommodate industrial equipment, communications gear, and safety systems required in oil field environments.</p>
                 </div>

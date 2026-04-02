@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { BarChart3, CloudLightning, Home, Leaf, Microscope, Phone, Star, Sun, Thermometer, Tornado, Wheat, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-lubbock/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function RoofInspectionsLubbockPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-lubbock/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function RoofInspectionsLubbockPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional roof inspections throughout Lubbock. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function RoofInspectionsLubbockPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -143,7 +144,7 @@ export default function RoofInspectionsLubbockPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Specialized Lubbock Roof Inspection Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏚️ Foundation & Settlement Issues</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Foundation & Settlement Issues</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Clay Soil Movement:</strong> Lubbock's expansive clay soils cause foundation shifts affecting roof structures</li>
                   <li><strong>Differential Settlement:</strong> Assessment of how foundation movement impacts roof plane integrity</li>
@@ -153,7 +154,7 @@ export default function RoofInspectionsLubbockPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌾 Agricultural Impact Assessment</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Agricultural Impact Assessment</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Cotton Fiber Buildup:</strong> Removal needs and filtration system impacts during harvest season</li>
                   <li><strong>Pesticide Residue:</strong> Chemical impact on roofing materials and protective coatings</li>
@@ -163,7 +164,7 @@ export default function RoofInspectionsLubbockPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Supercell Damage Detection</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Supercell Damage Detection</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Hail Impact Analysis:</strong> Specialized techniques for identifying softball-sized hail damage</li>
                   <li><strong>Microburst Assessment:</strong> Detection of straight-line wind damage patterns unique to the High Plains</li>
@@ -173,7 +174,7 @@ export default function RoofInspectionsLubbockPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌡️ Temperature Extreme Analysis</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Temperature Extreme Analysis</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Rapid Temperature Drops:</strong> Blue norther impact on material expansion and contraction</li>
                   <li><strong>Heat Island Effects:</strong> Urban heat concentration in central Lubbock areas</li>
@@ -230,7 +231,7 @@ export default function RoofInspectionsLubbockPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Strategic Inspection Timing for Lubbock Weather Patterns Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⛈️ Pre-Storm Season (February-March)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><CloudLightning className="w-6 h-6 inline-block" /> Pre-Storm Season (February-March)</h3>
                 <p className="text-gray-700 mb-4"><strong>Critical Preparation Period:</strong> Lubbock's severe weather season typically begins in March with peak activity April-June. Early inspections identify vulnerabilities before the most dangerous period.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Winter damage assessment and repair prioritization</li>
@@ -244,7 +245,7 @@ export default function RoofInspectionsLubbockPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌩️ Peak Storm Season (April-June)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><CloudLightning className="w-6 h-6 inline-block" /> Peak Storm Season (April-June)</h3>
                 <p className="text-gray-700 mb-4"><strong>Active Monitoring Period:</strong> This is Lubbock's most dangerous weather period, with supercells producing giant hail and violent winds. Immediate post-storm inspections are critical.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• 24-48 hour post-storm damage inspections</li>
@@ -257,7 +258,7 @@ export default function RoofInspectionsLubbockPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">☀️ Summer Assessment (July-August)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Sun className="w-6 h-6 inline-block" /> Summer Assessment (July-August)</h3>
                 <p className="text-gray-700 mb-4"><strong>Heat Damage Evaluation:</strong> Lubbock's intense summer heat and UV exposure cause accelerated aging. This period focuses on thermal damage and energy efficiency.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• UV degradation and thermal cycling damage assessment</li>
@@ -271,7 +272,7 @@ export default function RoofInspectionsLubbockPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🍂 Post-Season Analysis (September-November)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Leaf className="w-6 h-6 inline-block" /> Post-Season Analysis (September-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Comprehensive Assessment:</strong> Fall inspections evaluate the full impact of storm season and prepare for winter weather, including Lubbock's occasional ice events.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Complete storm season damage compilation</li>
@@ -293,17 +294,17 @@ export default function RoofInspectionsLubbockPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Lubbock's Challenging Weather Environment?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Supercell Capital</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Supercell Capital</h3>
                 <p className="text-gray-700 mb-3">Lubbock sits in the most active part of Hail Alley, where the dry line meets moist Gulf air creating explosive thunderstorm development. The city averages 12-15 severe hail events annually, with many producing tennis ball to softball-sized hail.</p>
                 <p className="text-gray-700"><strong>Inspection Specialty:</strong> We use meteorological data correlation to verify storm dates and intensities, providing bulletproof documentation for insurance claims that can withstand adjuster scrutiny and potential legal challenges.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💨 High Plains Wind Corridor</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> High Plains Wind Corridor</h3>
                 <p className="text-gray-700 mb-3">The Llano Estacado's flat terrain creates a natural wind corridor, with Lubbock experiencing sustained winds of 20+ mph regularly and gusts exceeding 100 mph during severe events. The lack of natural windbreaks means every structure faces maximum wind exposure.</p>
                 <p className="text-gray-700"><strong>Inspection Focus:</strong> We evaluate wind uplift patterns, edge detail failure, and progressive loosening that occurs over multiple high-wind events. Our assessments include recommendations for enhanced wind-resistance upgrades.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌾 Agricultural Environment Impact</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Agricultural Environment Impact</h3>
                 <p className="text-gray-700 mb-3">Lubbock County produces more cotton than any other county in America. Harvest season creates airborne fiber and particulate loads that can clog drainage systems, impact air filtration, and accelerate material degradation through chemical exposure.</p>
                 <p className="text-gray-700"><strong>Inspection Protocol:</strong> We assess agricultural impact damage separately from weather damage, ensuring proper insurance classification and identifying maintenance needs specific to farming community properties.</p>
               </div>
@@ -316,17 +317,17 @@ export default function RoofInspectionsLubbockPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Diagnostic Equipment for Lubbock Conditions?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">📊</div>
+                <div className="text-5xl mb-4 text-center"><BarChart3 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Weather Correlation Systems</h3>
                 <p className="text-gray-700">Real-time access to Texas Tech's weather monitoring network provides precise storm timing and intensity data, crucial for correlating damage events with specific weather occurrences in insurance documentation.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🔬</div>
+                <div className="text-5xl mb-4 text-center"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Particulate Analysis</h3>
                 <p className="text-gray-700">Specialized equipment for analyzing agricultural and dust contamination in roofing systems. Essential for distinguishing between environmental wear and storm damage in Lubbock's farming environment.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">⚡</div>
+                <div className="text-5xl mb-4 text-center"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Foundation Monitoring</h3>
                 <p className="text-gray-700">Laser level systems and GPS surveying equipment detect foundation movement and settlement patterns that affect roof structure integrity - critical in Lubbock's expansive clay soil conditions.</p>
               </div>

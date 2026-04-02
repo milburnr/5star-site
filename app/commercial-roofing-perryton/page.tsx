@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-perryton/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function CommercialRoofingPerrytonPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-perryton/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function CommercialRoofingPerrytonPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Perryton. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingPerrytonPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -357,21 +358,21 @@ export default function CommercialRoofingPerrytonPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Texas Panhandle Expertise</h3>
                       <p className="text-gray-700">Deep understanding of Perryton's unique climate challenges, agricultural industry requirements, and energy sector specifications gained through years of local experience.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Industry-Specific Solutions</h3>
                       <p className="text-gray-700">Specialized roofing systems designed for agricultural processing, energy operations, and commercial facilities with custom solutions for unique operational requirements.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown"></h3>
                       <p className="text-gray-700">Round-the-clock storm response for critical repairs and storm damage, ensuring minimal disruption to Perryton business operations.</p>
@@ -380,21 +381,21 @@ export default function CommercialRoofingPerrytonPage() {
                 </div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Comprehensive Project Management</h3>
                       <p className="text-gray-700">Complete project oversight from initial consultation through warranty service, including permits, inspections, and coordination with facility operations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Advanced Technology</h3>
                       <p className="text-gray-700">Latest installation techniques, energy-efficient materials, and innovative roofing systems designed for optimal performance in challenging Texas Panhandle conditions.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Proven Results</h3>
                       <p className="text-gray-700">Hundreds of successful commercial installations throughout the Texas Panhandle with consistent 5-star ratings and long-term customer relationships.</p>

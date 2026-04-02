@@ -1,0 +1,644 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "5 Star Commercial Roofing" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "5 Star Commercial Roofing" [ref=e6]
+        - generic [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services/
+            - text: Services
+            - img [ref=e11]
+          - link "Areas" [ref=e14] [cursor=pointer]:
+            - /url: /service-areas/
+            - text: Areas
+            - img [ref=e15]
+          - link "Gallery" [ref=e17] [cursor=pointer]:
+            - /url: /gallery/
+          - link "Blog" [ref=e18] [cursor=pointer]:
+            - /url: /blog/
+          - link "Reviews" [ref=e19] [cursor=pointer]:
+            - /url: /reviews/
+          - link "About" [ref=e20] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+  - main [ref=e22]:
+    - navigation "Breadcrumb" [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Home" [ref=e26] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e27]:
+          - img [ref=e28]
+          - link "Roof Repair" [ref=e30] [cursor=pointer]:
+            - /url: /roof-repair/
+        - listitem [ref=e31]:
+          - img [ref=e32]
+          - generic [ref=e34]: Amarillo
+    - generic [ref=e36]:
+      - generic [ref=e37]: Need a Roof Inspection?
+      - link "📞 Call (806) 622-6041" [ref=e38] [cursor=pointer]:
+        - /url: tel:8066226041
+        - generic [ref=e39]: 📞
+        - text: Call (806) 622-6041
+    - generic [ref=e44]:
+      - heading "Roof Repair in Amarillo" [level=1] [ref=e45]
+      - paragraph [ref=e46]: Texas Panhandle Weather Specialists
+      - paragraph [ref=e47]: Expert roof repair for Amarillo's unique climate challenges. Serving Potter County's historic homes and modern developments with specialized solutions for extreme weather, aging housing stock, and insurance claims.
+      - generic [ref=e48]:
+        - link "📞 Call (806) 622-6041" [ref=e49] [cursor=pointer]:
+          - /url: tel:8066226041
+        - link "Get Free Inspection" [ref=e50] [cursor=pointer]:
+          - /url: /contact/
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: "52"
+        - generic [ref=e57]: Median Home Age
+      - generic [ref=e58]:
+        - generic [ref=e60]: 21°
+        - generic [ref=e61]: Temperature Range
+      - generic [ref=e62]:
+        - generic [ref=e63]: 15+
+        - generic [ref=e64]: MPH Avg Winds
+      - generic [ref=e65]:
+        - generic [ref=e66]: ⚡🌪️❄️
+        - generic [ref=e67]: Extreme Weather
+    - generic [ref=e68]:
+      - generic [ref=e70]:
+        - heading "Why Does Amarillo Roofs Need Specialized Care?" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Amarillo's position in the Texas Panhandle creates one of the most challenging roofing environments in the state. With a median home construction year of 1972, over 40% of the city's housing stock faces age-related roofing issues compounded by extreme weather conditions.
+        - paragraph [ref=e73]: "Our climate presents unique challenges: temperature swings from -10°F to 105°F cause severe expansion and contraction stress, constant winds averaging 15+ mph accelerate material degradation, and frequent hailstorms create both visible and hidden damage. These conditions demand specialized repair techniques and materials engineered for Texas Panhandle extremes."
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Historic Housing Challenges" [level=3] [ref=e76]
+            - list [ref=e77]:
+              - listitem [ref=e78]: • 1950s-1970s homes with original wood shake and asphalt roofs
+              - listitem [ref=e79]: • Deteriorated roof decking in Potter County's older neighborhoods
+              - listitem [ref=e80]: • Inadequate attic ventilation in mid-century construction
+              - listitem [ref=e81]: • Failing flashing around brick chimneys and skylights
+          - generic [ref=e82]:
+            - heading "Climate-Related Damage" [level=3] [ref=e83]
+            - list [ref=e84]:
+              - listitem [ref=e85]: • Hail damage from Panhandle supercells
+              - listitem [ref=e86]: • Wind uplift from sustained 25+ mph gusts
+              - listitem [ref=e87]: • UV degradation accelerated by high altitude exposure
+              - listitem [ref=e88]: • Freeze-thaw cycles damaging flashing and gutters
+      - generic [ref=e90]:
+        - heading "Amarillo Neighborhoods Do We Serve?" [level=2] [ref=e91]
+        - paragraph [ref=e92]: Each Amarillo neighborhood presents unique roofing challenges based on construction era, architectural style, and exposure to prevailing winds.
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "Historic Districts" [level=3] [ref=e95]
+            - paragraph [ref=e96]: 1940s-1960s construction requiring specialized restoration
+            - list [ref=e97]:
+              - listitem [ref=e98]: • Wolflin - Historic brick homes, original wood shakes
+              - listitem [ref=e99]: • Paramount Terrace - Mid-century modern, flat roof challenges
+              - listitem [ref=e100]: • North Heights - 1950s construction, composition shingles
+              - listitem [ref=e101]: • Olsen Park - Post-war homes, gutter system upgrades
+          - generic [ref=e102]:
+            - heading "Established Areas" [level=3] [ref=e103]
+            - paragraph [ref=e104]: 1970s-1990s developments with aging roofing systems
+            - list [ref=e105]:
+              - listitem [ref=e106]: • Westover Hills - 1980s construction, architectural shingles
+              - listitem [ref=e107]: • River Road - Executive homes, complex rooflines
+              - listitem [ref=e108]: • Sleepy Hollow - Ranch-style homes, ventilation issues
+              - listitem [ref=e109]: • Tascosa - Suburban development, standard maintenance needs
+          - generic [ref=e110]:
+            - heading "Newer Communities" [level=3] [ref=e111]
+            - paragraph [ref=e112]: 2000s+ construction with modern roofing systems
+            - list [ref=e113]:
+              - listitem [ref=e114]: • The Colonies - Impact-resistant shingles, warranty repairs
+              - listitem [ref=e115]: • Ridgecrest - Modern construction, hail damage claims
+              - listitem [ref=e116]: • Quail Creek - Energy-efficient homes, proper ventilation
+              - listitem [ref=e117]: • Westcliff - Contemporary designs, metal roofing options
+      - generic [ref=e119]:
+        - heading "How Does the Comprehensive Repair Process Work?" [level=2] [ref=e120]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: 🔍
+            - heading "Detailed Inspection" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Comprehensive assessment of visible and hidden damage, structural integrity, and climate-related wear patterns specific to Amarillo conditions.
+          - generic [ref=e126]:
+            - generic [ref=e127]: 📋
+            - heading "Insurance Documentation" [level=3] [ref=e128]
+            - paragraph [ref=e129]: Professional damage documentation for insurance claims, with expertise in Potter County wind and hail damage requirements.
+          - generic [ref=e130]:
+            - generic [ref=e131]: 🔨
+            - heading "Expert Repairs" [level=3] [ref=e132]
+            - paragraph [ref=e133]: Precision repairs using materials rated for Texas Panhandle extremes, with techniques adapted to Amarillo's unique climate challenges.
+          - generic [ref=e134]:
+            - generic [ref=e135]: ✅
+            - heading "Quality Assurance" [level=3] [ref=e136]
+            - paragraph [ref=e137]: Final inspection ensuring all repairs meet wind load requirements and provide long-term protection against future weather events.
+      - generic [ref=e139]:
+        - heading "What Are the Most Common Roof Repairs in Amarillo?" [level=2] [ref=e140]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - heading "Weather-Related Damage" [level=3] [ref=e143]
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - generic [ref=e146]: •
+                - strong [ref=e147]: "Hail Damage:"
+                - text: Impact craters, granule loss, and cracked shingles from frequent Panhandle storms
+              - listitem [ref=e148]:
+                - generic [ref=e149]: •
+                - strong [ref=e150]: "Wind Uplift:"
+                - text: Loose or missing shingles from sustained high winds and gusts
+              - listitem [ref=e151]:
+                - generic [ref=e152]: •
+                - strong [ref=e153]: "Temperature Stress:"
+                - text: Expansion/contraction damage from extreme temperature swings
+              - listitem [ref=e154]:
+                - generic [ref=e155]: •
+                - strong [ref=e156]: "UV Degradation:"
+                - text: Accelerated aging from intense high-altitude sun exposure
+          - generic [ref=e157]:
+            - heading "Age-Related Issues" [level=3] [ref=e158]
+            - list [ref=e159]:
+              - listitem [ref=e160]:
+                - generic [ref=e161]: •
+                - strong [ref=e162]: "Deteriorated Decking:"
+                - text: Rotted plywood in 1970s construction lacking proper ventilation
+              - listitem [ref=e163]:
+                - generic [ref=e164]: •
+                - strong [ref=e165]: "Failed Flashing:"
+                - text: Corroded metal around chimneys and penetrations in older homes
+              - listitem [ref=e166]:
+                - generic [ref=e167]: •
+                - strong [ref=e168]: "Gutter Failure:"
+                - text: Ice damage and wind stress on aging gutter systems
+              - listitem [ref=e169]:
+                - generic [ref=e170]: •
+                - strong [ref=e171]: "Ventilation Problems:"
+                - text: Inadequate airflow in mid-century ranch designs
+      - generic [ref=e173]:
+        - heading "What Does Roofing Cost in Amarillo?" [level=2] [ref=e174]
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: Amarillo's roofing costs are generally 15-20% below major metropolitan areas, but frequent weather damage creates unique market conditions.
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - heading "Minor Repairs" [level=3] [ref=e179]
+              - paragraph [ref=e180]: $400-900
+              - paragraph [ref=e181]: Shingle replacement, flashing repair, minor leak fixes
+            - generic [ref=e182]:
+              - heading "Moderate Damage" [level=3] [ref=e183]
+              - paragraph [ref=e184]: $900-2,800
+              - paragraph [ref=e185]: Section replacement, decking repair, multi-area fixes
+            - generic [ref=e186]:
+              - heading "Extensive Repairs" [level=3] [ref=e187]
+              - paragraph [ref=e188]: $2,800-6,500
+              - paragraph [ref=e189]: Major storm damage, structural work, complex restoration
+          - generic [ref=e190]:
+            - heading "Amarillo Market Factors" [level=3] [ref=e191]
+            - list [ref=e192]:
+              - listitem [ref=e193]: • Material costs rising due to frequent hail damage creating regional shortages
+              - listitem [ref=e194]: • Labor availability affected by seasonal demand spikes after storm events
+              - listitem [ref=e195]: • Insurance claims common - most repairs covered under comprehensive policies
+              - listitem [ref=e196]: • Historic homes may require specialized materials increasing costs 20-30%
+      - generic [ref=e198]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e199]
+        - generic [ref=e200]:
+          - heading "Why do Amarillo roofs fail more often than other Texas cities?" [level=3] [ref=e202]:
+            - button "Why do Amarillo roofs fail more often than other Texas cities?" [ref=e203] [cursor=pointer]:
+              - text: Why do Amarillo roofs fail more often than other Texas cities?
+              - img [ref=e204]
+          - heading "What roof repairs are most common in historic Wolflin and Paramount Terrace?" [level=3] [ref=e207]:
+            - button "What roof repairs are most common in historic Wolflin and Paramount Terrace?" [ref=e208] [cursor=pointer]:
+              - text: What roof repairs are most common in historic Wolflin and Paramount Terrace?
+              - img [ref=e209]
+          - heading "How much does roof repair cost in Amarillo compared to Dallas or Houston?" [level=3] [ref=e212]:
+            - button "How much does roof repair cost in Amarillo compared to Dallas or Houston?" [ref=e213] [cursor=pointer]:
+              - text: How much does roof repair cost in Amarillo compared to Dallas or Houston?
+              - img [ref=e214]
+          - heading "When is the best time to schedule roof repairs in Amarillo?" [level=3] [ref=e217]:
+            - button "When is the best time to schedule roof repairs in Amarillo?" [ref=e218] [cursor=pointer]:
+              - text: When is the best time to schedule roof repairs in Amarillo?
+              - img [ref=e219]
+          - heading "Do I need special permits for roof repairs in Potter County?" [level=3] [ref=e222]:
+            - button "Do I need special permits for roof repairs in Potter County?" [ref=e223] [cursor=pointer]:
+              - text: Do I need special permits for roof repairs in Potter County?
+              - img [ref=e224]
+          - heading "What roofing materials work best in Amarillo's climate extremes?" [level=3] [ref=e227]:
+            - button "What roofing materials work best in Amarillo's climate extremes?" [ref=e228] [cursor=pointer]:
+              - text: What roofing materials work best in Amarillo's climate extremes?
+              - img [ref=e229]
+      - generic [ref=e232]:
+        - heading "What Are the Seasonal Roofing Considerations in Amarillo?" [level=2] [ref=e233]
+        - paragraph [ref=e234]: Understanding Amarillo's distinct seasonal patterns is crucial for effective roof maintenance and repair timing.
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - heading "❄️ Winter (Dec-Feb)" [level=3] [ref=e237]
+            - paragraph [ref=e238]: Freeze-thaw cycles and ice dam formation
+            - list [ref=e239]:
+              - listitem [ref=e240]: • Ice dam prevention and removal
+              - listitem [ref=e241]: • Gutter system winterization
+              - listitem [ref=e242]: • Prompt leak response
+              - listitem [ref=e243]: • Attic insulation assessment
+          - generic [ref=e244]:
+            - heading "🌱 Spring (Mar-May)" [level=3] [ref=e245]
+            - paragraph [ref=e246]: Prime storm season with severe hail threats
+            - list [ref=e247]:
+              - listitem [ref=e248]: • Post-storm damage assessment
+              - listitem [ref=e249]: • Preventive maintenance checks
+              - listitem [ref=e250]: • Hail damage documentation
+              - listitem [ref=e251]: • Insurance claim preparation
+          - generic [ref=e252]:
+            - heading "☀️ Summer (Jun-Aug)" [level=3] [ref=e253]
+            - paragraph [ref=e254]: Extreme heat and UV exposure stress
+            - list [ref=e255]:
+              - listitem [ref=e256]: • Heat-related material expansion
+              - listitem [ref=e257]: • Ventilation system optimization
+              - listitem [ref=e258]: • Energy efficiency improvements
+              - listitem [ref=e259]: • Cool roof installation options
+          - generic [ref=e260]:
+            - heading "🍂 Fall (Sep-Nov)" [level=3] [ref=e261]
+            - paragraph [ref=e262]: Ideal repair season with stable weather
+            - list [ref=e263]:
+              - listitem [ref=e264]: • Major repair projects
+              - listitem [ref=e265]: • Preparation for winter
+              - listitem [ref=e266]: • Gutter cleaning and repair
+              - listitem [ref=e267]: • Preventive maintenance work
+      - generic [ref=e269]:
+        - heading "How Do Roofing Materials Perform in Amarillo?" [level=2] [ref=e270]
+        - paragraph [ref=e271]: Different roofing materials perform uniquely in the Texas Panhandle's extreme climate conditions.
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - heading "Best Performing Materials" [level=3] [ref=e274]
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - heading "Impact-Resistant Asphalt Shingles" [level=4] [ref=e277]
+                - paragraph [ref=e278]: Class 3-4 rating, excellent hail protection, 25-30 year lifespan in Amarillo conditions
+              - generic [ref=e279]:
+                - heading "Standing Seam Metal" [level=4] [ref=e280]
+                - paragraph [ref=e281]: Superior wind resistance, excellent thermal performance, 40+ year durability
+              - generic [ref=e282]:
+                - heading "Modified Bitumen (Commercial)" [level=4] [ref=e283]
+                - paragraph [ref=e284]: Excellent flat roof option, UV resistant, handles temperature extremes well
+          - generic [ref=e285]:
+            - heading "Materials to Avoid" [level=3] [ref=e286]
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - heading "Standard 3-Tab Shingles" [level=4] [ref=e289]
+                - paragraph [ref=e290]: Poor wind resistance, rapid granule loss, frequent replacement needed
+              - generic [ref=e291]:
+                - heading "Wood Shake (without treatment)" [level=4] [ref=e292]
+                - paragraph [ref=e293]: High maintenance, fire risk, poor performance in freeze-thaw cycles
+              - generic [ref=e294]:
+                - heading "Standard Clay Tiles" [level=4] [ref=e295]
+                - paragraph [ref=e296]: Heavy weight issues, crack in freeze cycles without proper installation
+      - generic [ref=e298]:
+        - heading "How Does the Detailed Repair Process for Amarillo Homes Work?" [level=2] [ref=e299]
+        - paragraph [ref=e300]: Our systematic approach ensures lasting repairs that withstand the Texas Panhandle's demanding climate.
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - 'heading "Phase 1: Comprehensive Assessment (Day 1)" [level=3] [ref=e303]'
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - heading "Exterior Inspection" [level=4] [ref=e306]
+                - list [ref=e307]:
+                  - listitem [ref=e308]: • Drone-assisted roof surface evaluation
+                  - listitem [ref=e309]: • Wind damage pattern analysis
+                  - listitem [ref=e310]: • Hail impact crater measurement
+                  - listitem [ref=e311]: • Flashing and penetration assessment
+                  - listitem [ref=e312]: • Gutter and downspout inspection
+              - generic [ref=e313]:
+                - heading "Interior Assessment" [level=4] [ref=e314]
+                - list [ref=e315]:
+                  - listitem [ref=e316]: • Attic moisture and ventilation check
+                  - listitem [ref=e317]: • Structural beam and decking evaluation
+                  - listitem [ref=e318]: • Insulation condition assessment
+                  - listitem [ref=e319]: • Active leak detection
+                  - listitem [ref=e320]: • Historical damage documentation
+          - generic [ref=e321]:
+            - 'heading "Phase 2: Material Procurement (Days 2-3)" [level=3] [ref=e322]'
+            - paragraph [ref=e323]: "We source materials specifically rated for Texas Panhandle conditions:"
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - heading "Wind Rating Requirements" [level=4] [ref=e326]
+                - paragraph [ref=e327]: All materials must meet 110+ mph sustained wind ratings for Potter County installation
+              - generic [ref=e328]:
+                - heading "Hail Impact Standards" [level=4] [ref=e329]
+                - paragraph [ref=e330]: Class 3 minimum impact resistance, with Class 4 recommended for maximum protection
+              - generic [ref=e331]:
+                - heading "Temperature Tolerance" [level=4] [ref=e332]
+                - paragraph [ref=e333]: Materials tested for -20°F to 120°F temperature range performance
+          - generic [ref=e334]:
+            - 'heading "Phase 3: Precision Repairs (Days 4-6)" [level=3] [ref=e335]'
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - heading "Structural Reinforcement" [level=4] [ref=e338]
+                - paragraph [ref=e339]: Enhanced fastening patterns for high-wind zones, structural decking replacement where needed
+              - generic [ref=e340]:
+                - heading "Weather Barrier Installation" [level=4] [ref=e341]
+                - paragraph [ref=e342]: Premium underlayment with self-sealing properties for ice dam protection
+              - generic [ref=e343]:
+                - heading "Flashing Systems" [level=4] [ref=e344]
+                - paragraph [ref=e345]: Custom-fabricated metal flashing designed for Texas Panhandle wind patterns
+              - generic [ref=e346]:
+                - heading "Final Surface Installation" [level=4] [ref=e347]
+                - paragraph [ref=e348]: Impact-resistant shingles with upgraded fastening for maximum wind resistance
+      - generic [ref=e350]:
+        - heading "What Warranty and Protection Plans Are Available?" [level=2] [ref=e351]
+        - paragraph [ref=e352]: Comprehensive coverage designed for Amarillo's challenging weather conditions.
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - heading "Basic Protection" [level=3] [ref=e355]
+            - paragraph [ref=e356]: 2 Years
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - generic [ref=e359]: ✓
+                - text: Workmanship warranty
+              - listitem [ref=e360]:
+                - generic [ref=e361]: ✓
+                - text: Material defect coverage
+              - listitem [ref=e362]:
+                - generic [ref=e363]: ✓
+                - text: prompt leak repair
+              - listitem [ref=e364]:
+                - generic [ref=e365]: ✓
+                - text: Annual inspection included
+            - paragraph [ref=e366]: Perfect for minor repairs and maintenance work
+          - generic [ref=e367]:
+            - generic [ref=e368]: MOST POPULAR
+            - heading "Storm Shield" [level=3] [ref=e369]
+            - paragraph [ref=e370]: 5 Years
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - generic [ref=e373]: ✓
+                - text: All Basic Protection features
+              - listitem [ref=e374]:
+                - generic [ref=e375]: ✓
+                - text: Hail damage coverage
+              - listitem [ref=e376]:
+                - generic [ref=e377]: ✓
+                - text: Wind damage protection
+              - listitem [ref=e378]:
+                - generic [ref=e379]: ✓
+                - text: Priority storm response
+              - listitem [ref=e380]:
+                - generic [ref=e381]: ✓
+                - text: Insurance claim assistance
+            - paragraph [ref=e382]: Ideal for comprehensive roof repairs and replacements
+          - generic [ref=e383]:
+            - heading "Ultimate Guard" [level=3] [ref=e384]
+            - paragraph [ref=e385]: 10 Years
+            - list [ref=e386]:
+              - listitem [ref=e387]:
+                - generic [ref=e388]: ✓
+                - text: All Storm Shield features
+              - listitem [ref=e389]:
+                - generic [ref=e390]: ✓
+                - text: Extended material warranty
+              - listitem [ref=e391]:
+                - generic [ref=e392]: ✓
+                - text: Energy efficiency guarantee
+              - listitem [ref=e393]:
+                - generic [ref=e394]: ✓
+                - text: Bi-annual professional maintenance
+              - listitem [ref=e395]:
+                - generic [ref=e396]: ✓
+                - text: Transferable to new homeowner
+            - paragraph [ref=e397]: Maximum protection for new roofing systems
+      - generic [ref=e399]:
+        - heading "How Does the Insurance Claims Process Work in Amarillo?" [level=2] [ref=e400]
+        - paragraph [ref=e401]: We've successfully processed over 500 insurance claims in Potter County, understanding local requirements and common issues.
+        - generic [ref=e402]:
+          - generic [ref=e403]:
+            - heading "Common Claim Types in Amarillo" [level=3] [ref=e404]
+            - generic [ref=e405]:
+              - generic [ref=e406]:
+                - img [ref=e408]
+                - generic [ref=e410]:
+                  - heading "Hail Damage Claims (85% of claims)" [level=4] [ref=e411]
+                  - paragraph [ref=e412]: Granule loss, cracked shingles, impact damage to gutters and flashing
+              - generic [ref=e413]:
+                - img [ref=e415]
+                - generic [ref=e417]:
+                  - heading "Wind Damage Claims (12% of claims)" [level=4] [ref=e418]
+                  - paragraph [ref=e419]: Missing shingles, lifted edges, damaged ridge caps from sustained high winds
+              - generic [ref=e420]:
+                - img [ref=e422]
+                - generic [ref=e424]:
+                  - heading "Ice Dam Claims (3% of claims)" [level=4] [ref=e425]
+                  - paragraph [ref=e426]: Interior water damage from winter ice formation and backup
+          - generic [ref=e427]:
+            - heading "Our Claims Support Process" [level=3] [ref=e428]
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - heading "1. Initial Documentation" [level=4] [ref=e431]
+                - paragraph [ref=e432]: Professional photography, detailed damage assessment, and preliminary repair estimate within 24 hours
+              - generic [ref=e433]:
+                - heading "2. Insurance Company Interface" [level=4] [ref=e434]
+                - paragraph [ref=e435]: Direct communication with adjusters, supplemental documentation, and scope clarification
+              - generic [ref=e436]:
+                - heading "3. Claim Optimization" [level=4] [ref=e437]
+                - paragraph [ref=e438]: Ensure all covered damage is included, fight for appropriate repair methods and materials
+              - generic [ref=e439]:
+                - heading "4. Project Completion" [level=4] [ref=e440]
+                - paragraph [ref=e441]: Work directly with insurance payment schedules, provide final documentation and warranties
+      - generic [ref=e443]:
+        - heading "Related Services" [level=2] [ref=e444]
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - heading "Storm Damage Repair" [level=3] [ref=e447]
+            - paragraph [ref=e448]: response for hail and wind damage throughout Potter County
+            - link "Learn More →" [ref=e449] [cursor=pointer]:
+              - /url: /roof-repair-amarillo/
+          - generic [ref=e450]:
+            - heading "Hail Damage Repair" [level=3] [ref=e451]
+            - paragraph [ref=e452]: Specialized restoration for Panhandle hailstorm damage
+            - link "Learn More →" [ref=e453] [cursor=pointer]:
+              - /url: /hail-damage-repair-amarillo/
+          - generic [ref=e454]:
+            - heading "Full Roof Replacement" [level=3] [ref=e455]
+            - paragraph [ref=e456]: Complete roofing systems for Amarillo's climate challenges
+            - link "Learn More →" [ref=e457] [cursor=pointer]:
+              - /url: /roof-replacement-amarillo/
+      - generic [ref=e459]:
+        - heading "Visit Our Amarillo Location" [level=2] [ref=e460]
+        - iframe [ref=e462]
+      - generic [ref=e464]:
+        - generic [ref=e465]:
+          - link "All Roof Repair Services" [ref=e466] [cursor=pointer]:
+            - /url: /roof-repair/
+            - img [ref=e467]
+            - text: All Roof Repair Services
+          - link "All Roofing Services in Amarillo" [ref=e469] [cursor=pointer]:
+            - /url: /amarillo-texas-roofing/
+            - img [ref=e470]
+            - text: All Roofing Services in Amarillo
+        - generic [ref=e472]:
+          - generic [ref=e473]:
+            - heading "Roof Repair in Nearby Cities" [level=3] [ref=e474]
+            - paragraph [ref=e475]: "We also provide expert roof repair services in these nearby communities:"
+            - generic [ref=e476]:
+              - link "Roof Repair in Canyon" [ref=e477] [cursor=pointer]:
+                - /url: /roof-repair-canyon/
+                - img [ref=e478]
+                - generic [ref=e481]: Roof Repair in Canyon
+              - link "Roof Repair in Borger" [ref=e482] [cursor=pointer]:
+                - /url: /roof-repair-borger/
+                - img [ref=e483]
+                - generic [ref=e486]: Roof Repair in Borger
+              - link "Roof Repair in Dumas" [ref=e487] [cursor=pointer]:
+                - /url: /roof-repair-dumas/
+                - img [ref=e488]
+                - generic [ref=e491]: Roof Repair in Dumas
+              - link "Roof Repair in Pampa" [ref=e492] [cursor=pointer]:
+                - /url: /roof-repair-pampa/
+                - img [ref=e493]
+                - generic [ref=e496]: Roof Repair in Pampa
+          - generic [ref=e497]:
+            - heading "Other Roofing Services in Amarillo" [level=3] [ref=e498]
+            - paragraph [ref=e499]: "Looking for other roofing services? We offer comprehensive roofing solutions in Amarillo:"
+            - generic [ref=e500]:
+              - link "Residential Roofing" [ref=e501] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+                - img [ref=e502]
+                - generic [ref=e504]: Residential Roofing
+              - link "Commercial Roofing" [ref=e505] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+                - img [ref=e506]
+                - generic [ref=e508]: Commercial Roofing
+              - link "Hail Damage Repair" [ref=e509] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+                - img [ref=e510]
+                - generic [ref=e512]: Hail Damage Repair
+              - link "Storm Damage Repair" [ref=e513] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+                - img [ref=e514]
+                - generic [ref=e516]: Storm Damage Repair
+              - link "Wind Damage Repair" [ref=e517] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+                - img [ref=e518]
+                - generic [ref=e520]: Wind Damage Repair
+              - link "Roof Replacement" [ref=e521] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+                - img [ref=e522]
+                - generic [ref=e524]: Roof Replacement
+      - generic [ref=e525]:
+        - heading "Protect Your Amarillo Investment" [level=2] [ref=e526]
+        - paragraph [ref=e527]: Don't let Texas Panhandle weather compromise your home's protection. Expert roof repair with comprehensive warranties and insurance assistance for Potter County properties.
+        - generic [ref=e528]:
+          - link "Call (806) 622-6041" [ref=e529] [cursor=pointer]:
+            - /url: tel:8066226041
+          - link "Schedule Free Inspection" [ref=e530] [cursor=pointer]:
+            - /url: /contact/
+  - contentinfo [ref=e531]:
+    - generic [ref=e532]:
+      - generic [ref=e533]:
+        - generic [ref=e534]:
+          - heading "Contact Us" [level=3] [ref=e535]
+          - paragraph [ref=e536]: 2909 S Western St
+          - paragraph [ref=e537]: Amarillo, TX 79109
+          - paragraph [ref=e538]:
+            - link "(806) 622-6041" [ref=e539] [cursor=pointer]:
+              - /url: tel:8066226041
+          - paragraph [ref=e540]:
+            - link "admin@5starroofingpros.com" [ref=e541] [cursor=pointer]:
+              - /url: mailto:admin@5starroofingpros.com
+          - generic [ref=e542]:
+            - paragraph [ref=e543]: Hours
+            - paragraph [ref=e544]: Monday - Sunday
+            - paragraph [ref=e545]: 9:00 AM - 5:00 PM
+        - generic [ref=e546]:
+          - heading "Services" [level=3] [ref=e547]
+          - list [ref=e548]:
+            - listitem [ref=e549]:
+              - link "Residential Roofing" [ref=e550] [cursor=pointer]:
+                - /url: /residential-roofing/
+            - listitem [ref=e551]:
+              - link "Commercial Roofing" [ref=e552] [cursor=pointer]:
+                - /url: /commercial-roofing/
+            - listitem [ref=e553]:
+              - link "Hail Damage Repair" [ref=e554] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e555]:
+              - link "Roof Inspections" [ref=e556] [cursor=pointer]:
+                - /url: /roof-inspections-amarillo/
+            - listitem [ref=e557]:
+              - link "Roof Replacement" [ref=e558] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+            - listitem [ref=e559]:
+              - link "Asphalt Shingles" [ref=e560] [cursor=pointer]:
+                - /url: /asphalt-shingle-roofing-amarillo/
+            - listitem [ref=e561]:
+              - link "Metal Roofing" [ref=e562] [cursor=pointer]:
+                - /url: /metal-roof-installation-odessa-texas/
+        - generic [ref=e563]:
+          - heading "Major Cities" [level=3] [ref=e564]
+          - list [ref=e565]:
+            - listitem [ref=e566]:
+              - link "Amarillo Roofing" [ref=e567] [cursor=pointer]:
+                - /url: /amarillo-texas-roofing/
+            - listitem [ref=e568]:
+              - link "Midland Roofing" [ref=e569] [cursor=pointer]:
+                - /url: /midland-tx-roofing/
+            - listitem [ref=e570]:
+              - link "Odessa Roofing" [ref=e571] [cursor=pointer]:
+                - /url: /odessa-tx-roofing/
+            - listitem [ref=e572]:
+              - link "Lubbock Roofing" [ref=e573] [cursor=pointer]:
+                - /url: /lubbock-tx-roofing/
+            - listitem [ref=e574]:
+              - link "Canyon Roofing" [ref=e575] [cursor=pointer]:
+                - /url: /canyon-texas-roofing/
+            - listitem [ref=e576]:
+              - link "Bushland" [ref=e577] [cursor=pointer]:
+                - /url: /bushland-tx-roofing/
+            - listitem [ref=e578]:
+              - link "All Service Areas →" [ref=e579] [cursor=pointer]:
+                - /url: /service-areas/
+        - generic [ref=e580]:
+          - heading "Resources" [level=3] [ref=e581]
+          - list [ref=e582]:
+            - listitem [ref=e583]:
+              - link "Project Gallery" [ref=e584] [cursor=pointer]:
+                - /url: /gallery/
+            - listitem [ref=e585]:
+              - link "Roofing Blog" [ref=e586] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e587]:
+              - link "Customer Reviews" [ref=e588] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e589]:
+              - link "About Us" [ref=e590] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e591]:
+              - link "Contact" [ref=e592] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e593]:
+              - link "Weather Impact" [ref=e594] [cursor=pointer]:
+                - /url: /amarillo-weather-impact-on-roofing/
+            - listitem [ref=e595]:
+              - link "Installation Methods" [ref=e596] [cursor=pointer]:
+                - /url: /roofing-methods/
+        - generic [ref=e597]:
+          - heading "Specialties" [level=3] [ref=e598]
+          - list [ref=e599]:
+            - listitem [ref=e600]:
+              - link "Hail Damage" [ref=e601] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e602]:
+              - link "Storm Damage" [ref=e603] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+            - listitem [ref=e604]:
+              - link "Wind Damage" [ref=e605] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+            - listitem [ref=e606]:
+              - link "Commercial TPO" [ref=e607] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+            - listitem [ref=e608]:
+              - link "Residential Repair" [ref=e609] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+            - listitem [ref=e610]:
+              - link "PVC Roofing" [ref=e611] [cursor=pointer]:
+                - /url: /pvc-roofing-contractors-in-amarillo/
+      - generic [ref=e612]:
+        - paragraph [ref=e613]: © 2026 5 Star Commercial Roofing. All rights reserved.
+        - paragraph [ref=e614]: Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
+  - alert [ref=e615]

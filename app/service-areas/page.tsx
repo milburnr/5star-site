@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Briefcase, Building2, Car, ClipboardList, Fuel, MapPin, Phone, Settings, Tornado } from "lucide-react";
 
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-6-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -99,7 +100,7 @@ export default function Page() {
           {/* Amarillo */}
           <a href="/amarillo-texas-roofing/" className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
             <div className="card-body">
-              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🏢 Amarillo, TX</h3>
+              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Building2 className="w-6 h-6 inline-block" /> Amarillo, TX</h3>
               <p className="text-gray-600 mb-4">
                 <strong>Population:</strong> ~200,000<br />
                 <strong>Region:</strong> Texas Panhandle<br />
@@ -121,7 +122,7 @@ export default function Page() {
           {/* Midland */}
           <a href="/midland-tx-roofing/" className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
             <div className="card-body">
-              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🛢️ Midland, TX</h3>
+              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Fuel className="w-6 h-6 inline-block" /> Midland, TX</h3>
               <p className="text-gray-600 mb-4">
                 <strong>Population:</strong> ~146,000<br />
                 <strong>Region:</strong> Permian Basin<br />
@@ -143,7 +144,7 @@ export default function Page() {
           {/* Odessa */}
           <a href="/odessa-tx-roofing/" className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
             <div className="card-body">
-              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">⚙️ Odessa, TX</h3>
+              <h3 className="text-2xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Settings className="w-6 h-6 inline-block" /> Odessa, TX</h3>
               <p className="text-gray-600 mb-4">
                 <strong>Population:</strong> ~123,000<br />
                 <strong>Region:</strong> Permian Basin<br />
@@ -164,7 +165,7 @@ export default function Page() {
         </div>
 
         <div className="bg-yellow-50 border-l-4 border-brand-gold p-6">
-          <h3 className="font-bold text-lg mb-2">📍 Why These Regions Choose Us</h3>
+          <h3 className="font-bold text-lg mb-2"><MapPin className="w-6 h-6 inline-block" /> Why These Regions Choose Us</h3>
           <p className="text-gray-700">
             Amarillo, Midland, and Odessa all sit within America's hail belt, requiring specialized roofing expertise.
             We've completed hundreds of insurance claims totaling over $50 million in approved coverage across these markets.
@@ -351,28 +352,28 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-6 text-center">Why We Cover Such a Large Service Area</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h3 className="font-bold text-xl mb-3">🚗 Mobile Expertise</h3>
+            <h3 className="font-bold text-xl mb-3"><Car className="w-6 h-6 inline-block" /> Mobile Expertise</h3>
             <p className="text-gray-600 mb-4">
               West Texas's rural nature means many towns lack specialized hail damage roofing contractors.
               We travel throughout the region to bring expert service to every community, no matter the size.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-xl mb-3">🌪️ Storm Response</h3>
+            <h3 className="font-bold text-xl mb-3"><Tornado className="w-6 h-6 inline-block" /> Storm Response</h3>
             <p className="text-gray-600 mb-4">
               Hailstorms don't respect city limits. When severe weather hits multiple areas simultaneously,
               our teams mobilize across the entire region to provide rapid storm response.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-xl mb-3">📋 Insurance Networks</h3>
+            <h3 className="font-bold text-xl mb-3"><ClipboardList className="w-6 h-6 inline-block" /> Insurance Networks</h3>
             <p className="text-gray-600 mb-4">
               We work with all major insurance companies serving Texas. Our established relationships help
               clients in any location get claims processed efficiently.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-xl mb-3">💼 Commercial Clients</h3>
+            <h3 className="font-bold text-xl mb-3"><Briefcase className="w-6 h-6 inline-block" /> Commercial Clients</h3>
             <p className="text-gray-600 mb-4">
               Many of our commercial and industrial clients have facilities across multiple West Texas
               locations. We provide consistent quality service at all their properties.
@@ -495,7 +496,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary text-lg bg-white text-brand-brown hover:bg-gray-100">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary text-lg border-2 border-white hover:bg-white hover:text-brand-brown">
             Request Free Inspection

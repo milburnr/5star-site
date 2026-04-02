@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { ClipboardList, CloudLightning, DollarSign, Factory, Home, Microscope, Phone, Star, Tornado, Trophy, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-odessa/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-14-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function RoofRepairOdessaPage() {
         "@id": "https://5starroofingpros.com/roof-repair-odessa/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -104,7 +105,7 @@ export default function RoofRepairOdessaPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional roof repair throughout Odessa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -119,7 +120,7 @@ export default function RoofRepairOdessaPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -140,7 +141,7 @@ export default function RoofRepairOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Our Comprehensive Roof Repair Services for Odessa Include?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌪️ Storm Damage Restoration</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Tornado className="w-6 h-6 inline-block" /> Storm Damage Restoration</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Hail Impact Repairs:</strong> Specialized techniques for West Texas hailstorm damage patterns</li>
                   <li><strong>Wind Uplift Restoration:</strong> Escarpment wind damage repair and reinforcement</li>
@@ -150,7 +151,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Industrial Contamination Remediation</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Industrial Contamination Remediation</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Chemical Cleaning:</strong> Petrochemical residue removal and surface restoration</li>
                   <li><strong>Corrosion Treatment:</strong> Acid rain and refinery emission damage repair</li>
@@ -160,7 +161,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏠 Structural and Foundation Issues</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Structural and Foundation Issues</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Settlement Damage Repair:</strong> Foundation movement impact restoration</li>
                   <li><strong>Structural Reinforcement:</strong> Load path strengthening and support upgrades</li>
@@ -170,7 +171,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ storm response Services</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Zap className="w-6 h-6 inline-block" /> storm response Services</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Leak Stoppage:</strong> Immediate water intrusion control and containment</li>
                   <li><strong>Safety Hazard Mitigation:</strong> Dangerous condition stabilization and repair</li>
@@ -226,7 +227,7 @@ export default function RoofRepairOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Repair Process and Project Management Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">📋 Phase 1: Assessment and Planning</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><ClipboardList className="w-6 h-6 inline-block" /> Phase 1: Assessment and Planning</h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">1</div>
@@ -259,7 +260,7 @@ export default function RoofRepairOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🔧 Phase 2: Execution and Quality Control</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Wrench className="w-6 h-6 inline-block" /> Phase 2: Execution and Quality Control</h3>
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1">5</div>
@@ -300,7 +301,7 @@ export default function RoofRepairOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Most Common Repair Scenarios in Odessa?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">⛈️</div>
+                <div className="text-5xl mb-4 text-center"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Storm Damage Restoration</h3>
                 <div className="space-y-3 text-gray-700 text-sm">
                   <p><strong>Typical Timeline:</strong> 3-10 days depending on severity</p>
@@ -311,7 +312,7 @@ export default function RoofRepairOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🏭</div>
+                <div className="text-5xl mb-4 text-center"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Industrial Contamination</h3>
                 <div className="space-y-3 text-gray-700 text-sm">
                   <p><strong>Typical Timeline:</strong> 5-15 days including decontamination</p>
@@ -322,7 +323,7 @@ export default function RoofRepairOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🏠</div>
+                <div className="text-5xl mb-4 text-center"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Foundation Settlement</h3>
                 <div className="space-y-3 text-gray-700 text-sm">
                   <p><strong>Typical Timeline:</strong> 7-21 days for comprehensive repair</p>
@@ -341,7 +342,7 @@ export default function RoofRepairOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Why Odessa Property Owners Choose Our Repair Services?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏆 Local Expertise and Experience</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Trophy className="w-6 h-6 inline-block" /> Local Expertise and Experience</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Over 10 years serving Odessa's unique environmental challenges</li>
                   <li>• Deep understanding of local geology, climate, and industrial impacts</li>
@@ -350,7 +351,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">⚡ Rapid Response and prompt services</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Zap className="w-6 h-6 inline-block" /> Rapid Response and prompt services</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• prompt response within 2 hours in Odessa</li>
                   <li>• Mobile repair units equipped for immediate stabilization</li>
@@ -359,7 +360,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🔬 Advanced Materials and Technology</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Microscope className="w-6 h-6 inline-block" /> Advanced Materials and Technology</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Industrial-grade materials specifically selected for Odessa conditions</li>
                   <li>• Chemical-resistant systems designed for petroleum environment</li>
@@ -368,7 +369,7 @@ export default function RoofRepairOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">💰 Insurance and Financial Services</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><DollarSign className="w-6 h-6 inline-block" /> Insurance and Financial Services</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Expert insurance claim documentation and advocacy</li>
                   <li>• Direct billing arrangements with major insurance providers</li>

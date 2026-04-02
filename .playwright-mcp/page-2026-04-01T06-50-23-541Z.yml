@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "5 Star Commercial Roofing" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "5 Star Commercial Roofing" [ref=e6]
+        - generic [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services/
+            - text: Services
+            - img [ref=e11]
+          - link "Areas" [ref=e14] [cursor=pointer]:
+            - /url: /service-areas/
+            - text: Areas
+            - img [ref=e15]
+          - link "Gallery" [ref=e17] [cursor=pointer]:
+            - /url: /gallery/
+          - link "Blog" [ref=e18] [cursor=pointer]:
+            - /url: /blog/
+          - link "Reviews" [ref=e19] [cursor=pointer]:
+            - /url: /reviews/
+          - link "About" [ref=e20] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+  - main [ref=e22]:
+    - navigation "Breadcrumb" [ref=e23]:
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Home" [ref=e26] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e27]:
+          - img [ref=e28]
+          - link "Hail Damage Repair" [ref=e30] [cursor=pointer]:
+            - /url: /hail-damage-repair/
+        - listitem [ref=e31]:
+          - img [ref=e32]
+          - generic [ref=e34]: Amarillo
+    - generic [ref=e36]:
+      - generic [ref=e37]: Need a Roof Inspection?
+      - link "📞 Call (806) 622-6041" [ref=e38] [cursor=pointer]:
+        - /url: tel:8066226041
+        - generic [ref=e39]: 📞
+        - text: Call (806) 622-6041
+    - generic [ref=e44]:
+      - heading "Hail Damage Roof Repair in Amarillo" [level=1] [ref=e45]
+      - paragraph [ref=e46]: storm response in Hail Alley
+      - paragraph [ref=e47]: Expert hail damage repair in Potter County - one of America's most hail-prone regions. Potter County has recorded 131 severe hail days since 2000. We provide prompt response, complete insurance claim assistance, and Class 4 impact-resistant replacements.
+      - generic [ref=e48]:
+        - link "📞 Call (806) 622-6041" [ref=e49] [cursor=pointer]:
+          - /url: tel:8066226041
+        - link "Get Free Inspection" [ref=e50] [cursor=pointer]:
+          - /url: /contact/
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: 131+
+        - generic [ref=e57]: Hail Days Since 2000
+      - generic [ref=e58]:
+        - generic [ref=e59]: 24/7
+        - generic [ref=e60]: Quick Scheduling
+      - generic [ref=e61]:
+        - generic [ref=e62]: 95%+
+        - generic [ref=e63]: Insurance Approval Rate
+      - generic [ref=e64]:
+        - generic [ref=e65]: ⭐⭐⭐⭐⭐
+        - generic [ref=e66]: 5-Star Rated
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - heading "Why Amarillo's Climate Demands Expert Hail Damage Repair?" [level=2] [ref=e70]
+        - paragraph [ref=e71]: "Amarillo's location in the Texas Panhandle creates one of America's most challenging roofing environments. Potter County faces extreme conditions year-round:"
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - heading "Extreme Hail" [level=3] [ref=e74]
+            - paragraph [ref=e75]:
+              - strong [ref=e76]: 131 severe hail days since 2000
+              - text: "- Potter County leads Texas in hail frequency, ranking in America's Top 10 most hail-prone cities."
+            - paragraph [ref=e77]: 438 hail reports within 10 miles in just 12 months. Peak season March-May with secondary fall peak.
+          - generic [ref=e78]:
+            - heading "High Winds" [level=3] [ref=e79]
+            - paragraph [ref=e80]:
+              - strong [ref=e81]: 14.3 mph average winds
+              - text: "- highest in Texas, #2 in America. Extreme gusts exceed 50 mph annually."
+            - paragraph [ref=e82]: At 3,600' elevation, clashing air masses create severe wind events. Peak winds March-April.
+          - generic [ref=e83]:
+            - heading "Temperature Extremes" [level=3] [ref=e84]
+            - paragraph [ref=e85]:
+              - strong [ref=e86]: 86°F temperature range
+              - text: "- from 13°F winter lows to 99°F summer highs causes severe thermal stress."
+            - paragraph [ref=e87]: Constant expansion/contraction accelerates material degradation and shortens roof lifespan.
+      - generic [ref=e89]:
+        - heading "What Are Amarillo's Position in the Texas Hail Belt?" [level=2] [ref=e90]
+        - generic [ref=e91]:
+          - paragraph [ref=e92]: Amarillo sits at the epicenter of "Hail Alley"—a notorious storm corridor where Potter County leads Texas in hail frequency. Since 2000, our area has recorded 131 severe hail days, placing Amarillo among the top 10 most hail-prone cities in America.
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "Meteorological Perfect Storm" [level=3] [ref=e95]
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - strong [ref=e98]: "3,600-foot Elevation:"
+                  - text: High Plains create ideal atmospheric conditions
+                - listitem [ref=e99]:
+                  - strong [ref=e100]: "Dryline Position:"
+                  - text: Where dry desert air meets moist Gulf air masses
+                - listitem [ref=e101]:
+                  - strong [ref=e102]: "Jet Stream Interaction:"
+                  - text: Upper-level winds enhance rotation and updrafts
+                - listitem [ref=e103]:
+                  - strong [ref=e104]: "Temperature Contrasts:"
+                  - text: 50°F+ differences in adjacent air masses
+            - generic [ref=e105]:
+              - heading "Historical Storm Data" [level=3] [ref=e106]
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - strong [ref=e109]: "Largest Recorded:"
+                  - text: 4.25" diameter (softball size) in 2019
+                - listitem [ref=e110]:
+                  - strong [ref=e111]: "Annual Events:"
+                  - text: 8-12 hailstorms causing property damage
+                - listitem [ref=e112]:
+                  - strong [ref=e113]: "Peak Activity:"
+                  - text: 4-8 PM when atmospheric instability maximizes
+                - listitem [ref=e114]:
+                  - strong [ref=e115]: "Supercell Frequency:"
+                  - text: 25-30 rotating storms annually
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - heading "Record-Breaking Events" [level=4] [ref=e118]
+            - paragraph [ref=e119]: "Major hailstorms in Amarillo history:"
+            - list [ref=e120]:
+              - listitem [ref=e121]: "• May 17, 2019: 4.25\" hail, $50M+ damage"
+              - listitem [ref=e122]: "• April 28, 2021: Baseball size citywide"
+              - listitem [ref=e123]: "• March 13, 2023: Grapefruit size north side"
+          - generic [ref=e124]:
+            - heading "Economic Impact" [level=4] [ref=e125]
+            - paragraph [ref=e126]: "Annual hail damage in Potter County:"
+            - list [ref=e127]:
+              - listitem [ref=e128]: • $15-25 million property damage
+              - listitem [ref=e129]: • 30-45% of roofs need repair annually
+              - listitem [ref=e130]: • 75% experience some level of damage
+          - generic [ref=e131]:
+            - heading "Protection Strategy" [level=4] [ref=e132]
+            - paragraph [ref=e133]: "Essential defenses for Amarillo homes:"
+            - list [ref=e134]:
+              - listitem [ref=e135]: • Class 4 impact-resistant materials
+              - listitem [ref=e136]: • Annual professional inspections
+              - listitem [ref=e137]: • Prompt post-storm assessments
+      - generic [ref=e139]:
+        - heading "How Does the Insurance Claims Process Work in Amarillo?" [level=2] [ref=e140]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - heading "Texas-Specific Insurance Laws" [level=3] [ref=e143]
+            - generic [ref=e144]:
+              - heading "Texas Prompt Payment Act" [level=4] [ref=e145]
+              - paragraph [ref=e146]: "Insurers must:"
+              - list [ref=e147]:
+                - listitem [ref=e148]: • Acknowledge claims within 15 days
+                - listitem [ref=e149]: • Request additional info within 30 days
+                - listitem [ref=e150]: • Pay or deny within 60 days of filing
+                - listitem [ref=e151]: • Pay 18% annual interest on delayed payments
+            - generic [ref=e152]:
+              - heading "Statute of Limitations" [level=4] [ref=e153]
+              - list [ref=e154]:
+                - listitem [ref=e155]: "• Most policies: 1-2 years from loss date"
+                - listitem [ref=e156]: "• Texas Insurance Code: 2 years maximum"
+                - listitem [ref=e157]: • Earlier deadlines possible per policy terms
+                - listitem [ref=e158]: • File immediately after discovery
+          - generic [ref=e159]:
+            - heading "Our Claim Success Process" [level=3] [ref=e160]
+            - generic [ref=e161]:
+              - heading "Pre-Adjuster Preparation" [level=4] [ref=e162]
+              - list [ref=e163]:
+                - listitem [ref=e164]: • Comprehensive damage documentation
+                - listitem [ref=e165]: • Detailed Xactimate estimates
+                - listitem [ref=e166]: • Weather verification from NOAA/NWS
+                - listitem [ref=e167]: • Photo evidence of all impacts
+            - generic [ref=e168]:
+              - heading "Adjuster Meeting Strategy" [level=4] [ref=e169]
+              - list [ref=e170]:
+                - listitem [ref=e171]: • Physical evidence presentation
+                - listitem [ref=e172]: • Code compliance requirements
+                - listitem [ref=e173]: • Matching materials documentation
+                - listitem [ref=e174]: • Upgrade necessity justification
+        - generic [ref=e175]:
+          - heading "Why 95%+ of Our Claims Succeed" [level=4] [ref=e176]
+          - generic [ref=e177]:
+            - paragraph [ref=e179]: We've handled over 1,000 Amarillo hail claims since 2014. Our systematic approach ensures maximum coverage.
+            - paragraph [ref=e181]: "Average settlement: 98% of full replacement cost • Most homeowners pay deductible only"
+      - generic [ref=e183]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e184]
+        - generic [ref=e185]:
+          - heading "How do I know if my Amarillo roof has hail damage?" [level=3] [ref=e187]:
+            - button "How do I know if my Amarillo roof has hail damage?" [ref=e188] [cursor=pointer]:
+              - text: How do I know if my Amarillo roof has hail damage?
+              - img [ref=e189]
+          - heading "Will insurance cover hail damage repair in Amarillo?" [level=3] [ref=e192]:
+            - button "Will insurance cover hail damage repair in Amarillo?" [ref=e193] [cursor=pointer]:
+              - text: Will insurance cover hail damage repair in Amarillo?
+              - img [ref=e194]
+          - heading "How long do I have to file a hail damage claim in Amarillo?" [level=3] [ref=e197]:
+            - button "How long do I have to file a hail damage claim in Amarillo?" [ref=e198] [cursor=pointer]:
+              - text: How long do I have to file a hail damage claim in Amarillo?
+              - img [ref=e199]
+          - heading "Why does Amarillo get so much hail?" [level=3] [ref=e202]:
+            - button "Why does Amarillo get so much hail?" [ref=e203] [cursor=pointer]:
+              - text: Why does Amarillo get so much hail?
+              - img [ref=e204]
+          - heading "Should I get Class 4 shingles after hail damage repair?" [level=3] [ref=e207]:
+            - button "Should I get Class 4 shingles after hail damage repair?" [ref=e208] [cursor=pointer]:
+              - text: Should I get Class 4 shingles after hail damage repair?
+              - img [ref=e209]
+          - heading "How long does hail damage repair take in Amarillo?" [level=3] [ref=e212]:
+            - button "How long does hail damage repair take in Amarillo?" [ref=e213] [cursor=pointer]:
+              - text: How long does hail damage repair take in Amarillo?
+              - img [ref=e214]
+          - heading "Do you provide tarping for hail-damaged roofs?" [level=3] [ref=e217]:
+            - button "Do you provide tarping for hail-damaged roofs?" [ref=e218] [cursor=pointer]:
+              - text: Do you provide tarping for hail-damaged roofs?
+              - img [ref=e219]
+      - generic [ref=e222]:
+        - heading "Visit Our Amarillo Location" [level=2] [ref=e223]
+        - iframe [ref=e225]:
+          
+      - generic [ref=e227]:
+        - heading "Which Amarillo Insurance Agencies Handle Hail Claims?" [level=2] [ref=e228]
+        - paragraph [ref=e229]: Amarillo homeowners typically carry policies from carriers with strong Panhandle presence. Filing hail claims through a local agent who understands Potter County storm patterns can speed up the process significantly. Major carriers writing homeowner policies in the Amarillo area include State Farm, Allstate, Farmers, USAA, and Texas Farm Bureau. Local independent agencies such as Bivins Insurance, Gene Messer Insurance, and Brown Graham & Company have adjusters familiar with Panhandle hail frequency and can advocate effectively for full replacement coverage. When your insurer sends an out-of-town adjuster unfamiliar with Amarillo's 131 severe hail days since 2000, having 5 Star Roofing present at the inspection ensures local storm context is communicated and nothing gets undervalued in the scope of work.
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - link "All Hail Damage Repair Services" [ref=e233] [cursor=pointer]:
+            - /url: /hail-damage-repair/
+            - img [ref=e234]
+            - text: All Hail Damage Repair Services
+          - link "All Roofing Services in Amarillo" [ref=e236] [cursor=pointer]:
+            - /url: /amarillo-texas-roofing/
+            - img [ref=e237]
+            - text: All Roofing Services in Amarillo
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - heading "Hail Damage Repair in Nearby Cities" [level=3] [ref=e241]
+            - paragraph [ref=e242]: "We also provide expert hail damage repair services in these nearby communities:"
+            - generic [ref=e243]:
+              - link "Hail Damage Repair in Canyon" [ref=e244] [cursor=pointer]:
+                - /url: /hail-damage-repair-canyon/
+                - img [ref=e245]
+                - generic [ref=e248]: Hail Damage Repair in Canyon
+              - link "Hail Damage Repair in Borger" [ref=e249] [cursor=pointer]:
+                - /url: /hail-damage-repair-borger/
+                - img [ref=e250]
+                - generic [ref=e253]: Hail Damage Repair in Borger
+              - link "Hail Damage Repair in Dumas" [ref=e254] [cursor=pointer]:
+                - /url: /hail-damage-repair-dumas/
+                - img [ref=e255]
+                - generic [ref=e258]: Hail Damage Repair in Dumas
+              - link "Hail Damage Repair in Pampa" [ref=e259] [cursor=pointer]:
+                - /url: /hail-damage-repair-pampa/
+                - img [ref=e260]
+                - generic [ref=e263]: Hail Damage Repair in Pampa
+          - generic [ref=e264]:
+            - heading "Other Roofing Services in Amarillo" [level=3] [ref=e265]
+            - paragraph [ref=e266]: "Looking for other roofing services? We offer comprehensive roofing solutions in Amarillo:"
+            - generic [ref=e267]:
+              - link "Residential Roofing" [ref=e268] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+                - img [ref=e269]
+                - generic [ref=e271]: Residential Roofing
+              - link "Commercial Roofing" [ref=e272] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+                - img [ref=e273]
+                - generic [ref=e275]: Commercial Roofing
+              - link "Storm Damage Repair" [ref=e276] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+                - img [ref=e277]
+                - generic [ref=e279]: Storm Damage Repair
+              - link "Wind Damage Repair" [ref=e280] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+                - img [ref=e281]
+                - generic [ref=e283]: Wind Damage Repair
+              - link "Roof Replacement" [ref=e284] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+                - img [ref=e285]
+                - generic [ref=e287]: Roof Replacement
+              - link "Roof Repair" [ref=e288] [cursor=pointer]:
+                - /url: /roof-repair-amarillo/
+                - img [ref=e289]
+                - generic [ref=e291]: Roof Repair
+      - generic [ref=e292]:
+        - heading "Need Hail Damage Repair?" [level=2] [ref=e293]
+        - paragraph [ref=e294]: Free inspections for Amarillo property owners. Insurance claim assistance available. Call now for immediate service.
+        - generic [ref=e295]:
+          - link "Call (806) 622-6041" [ref=e296] [cursor=pointer]:
+            - /url: tel:8066226041
+          - link "Schedule Free Inspection" [ref=e297] [cursor=pointer]:
+            - /url: /contact/
+  - contentinfo [ref=e298]:
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - heading "Contact Us" [level=3] [ref=e302]
+          - paragraph [ref=e303]: 2909 S Western St
+          - paragraph [ref=e304]: Amarillo, TX 79109
+          - paragraph [ref=e305]:
+            - link "(806) 622-6041" [ref=e306] [cursor=pointer]:
+              - /url: tel:8066226041
+          - paragraph [ref=e307]:
+            - link "admin@5starroofingpros.com" [ref=e308] [cursor=pointer]:
+              - /url: mailto:admin@5starroofingpros.com
+          - generic [ref=e309]:
+            - paragraph [ref=e310]: Hours
+            - paragraph [ref=e311]: Monday - Sunday
+            - paragraph [ref=e312]: 9:00 AM - 5:00 PM
+        - generic [ref=e313]:
+          - heading "Services" [level=3] [ref=e314]
+          - list [ref=e315]:
+            - listitem [ref=e316]:
+              - link "Residential Roofing" [ref=e317] [cursor=pointer]:
+                - /url: /residential-roofing/
+            - listitem [ref=e318]:
+              - link "Commercial Roofing" [ref=e319] [cursor=pointer]:
+                - /url: /commercial-roofing/
+            - listitem [ref=e320]:
+              - link "Hail Damage Repair" [ref=e321] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e322]:
+              - link "Roof Inspections" [ref=e323] [cursor=pointer]:
+                - /url: /roof-inspections-amarillo/
+            - listitem [ref=e324]:
+              - link "Roof Replacement" [ref=e325] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+            - listitem [ref=e326]:
+              - link "Asphalt Shingles" [ref=e327] [cursor=pointer]:
+                - /url: /asphalt-shingle-roofing-amarillo/
+            - listitem [ref=e328]:
+              - link "Metal Roofing" [ref=e329] [cursor=pointer]:
+                - /url: /metal-roof-installation-odessa-texas/
+        - generic [ref=e330]:
+          - heading "Major Cities" [level=3] [ref=e331]
+          - list [ref=e332]:
+            - listitem [ref=e333]:
+              - link "Amarillo Roofing" [ref=e334] [cursor=pointer]:
+                - /url: /amarillo-texas-roofing/
+            - listitem [ref=e335]:
+              - link "Midland Roofing" [ref=e336] [cursor=pointer]:
+                - /url: /midland-tx-roofing/
+            - listitem [ref=e337]:
+              - link "Odessa Roofing" [ref=e338] [cursor=pointer]:
+                - /url: /odessa-tx-roofing/
+            - listitem [ref=e339]:
+              - link "Lubbock Roofing" [ref=e340] [cursor=pointer]:
+                - /url: /lubbock-tx-roofing/
+            - listitem [ref=e341]:
+              - link "Canyon Roofing" [ref=e342] [cursor=pointer]:
+                - /url: /canyon-texas-roofing/
+            - listitem [ref=e343]:
+              - link "Bushland" [ref=e344] [cursor=pointer]:
+                - /url: /bushland-tx-roofing/
+            - listitem [ref=e345]:
+              - link "All Service Areas →" [ref=e346] [cursor=pointer]:
+                - /url: /service-areas/
+        - generic [ref=e347]:
+          - heading "Resources" [level=3] [ref=e348]
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - link "Project Gallery" [ref=e351] [cursor=pointer]:
+                - /url: /gallery/
+            - listitem [ref=e352]:
+              - link "Roofing Blog" [ref=e353] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e354]:
+              - link "Customer Reviews" [ref=e355] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e356]:
+              - link "About Us" [ref=e357] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e358]:
+              - link "Contact" [ref=e359] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e360]:
+              - link "Weather Impact" [ref=e361] [cursor=pointer]:
+                - /url: /amarillo-weather-impact-on-roofing/
+            - listitem [ref=e362]:
+              - link "Installation Methods" [ref=e363] [cursor=pointer]:
+                - /url: /roofing-methods/
+        - generic [ref=e364]:
+          - heading "Specialties" [level=3] [ref=e365]
+          - list [ref=e366]:
+            - listitem [ref=e367]:
+              - link "Hail Damage" [ref=e368] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e369]:
+              - link "Storm Damage" [ref=e370] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+            - listitem [ref=e371]:
+              - link "Wind Damage" [ref=e372] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+            - listitem [ref=e373]:
+              - link "Commercial TPO" [ref=e374] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+            - listitem [ref=e375]:
+              - link "Residential Repair" [ref=e376] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+            - listitem [ref=e377]:
+              - link "PVC Roofing" [ref=e378] [cursor=pointer]:
+                - /url: /pvc-roofing-contractors-in-amarillo/
+      - generic [ref=e379]:
+        - paragraph [ref=e380]: © 2026 5 Star Commercial Roofing. All rights reserved.
+        - paragraph [ref=e381]: Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
+  - alert [ref=e382]

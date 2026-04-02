@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Building2, CloudHail, Construction, Home, RefreshCw, Search, Tornado, Wind, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/andrews-tx-roofing/' },
@@ -27,17 +28,17 @@ export const metadata: Metadata = {
 };
 
 const services = [
-  { name: "Residential Roofing", slug: "residential-roofing", icon: "🏠" },
-  { name: "Commercial Roofing", slug: "commercial-roofing", icon: "🏢" },
-  { name: "Hail Damage Repair", slug: "hail-damage-repair", icon: "🌨️" },
-  { name: "Storm Damage Repair", slug: "storm-damage-repair", icon: "🌪️" },
-  { name: "Wind Damage Repair", slug: "wind-damage-repair", icon: "💨" },
-  { name: "Roof Replacement", slug: "roof-replacement", icon: "🔄" },
-  { name: "Roof Repair", slug: "roof-repair", icon: "🔧" },
-  { name: "Roof Inspections", slug: "roof-inspections", icon: "🔍" },
-  { name: "TPO Roofing", slug: "tpo-roofing", icon: "🏗️" },
-  { name: "Metal Roofing", slug: "metal-roofing", icon: "🔩" },
-  { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: "🏘️" },
+  { name: "Residential Roofing", slug: "residential-roofing", icon: <Home className="w-6 h-6 inline-block" /> },
+  { name: "Commercial Roofing", slug: "commercial-roofing", icon: <Building2 className="w-6 h-6 inline-block" /> },
+  { name: "Hail Damage Repair", slug: "hail-damage-repair", icon: <CloudHail className="w-6 h-6 inline-block" /> },
+  { name: "Storm Damage Repair", slug: "storm-damage-repair", icon: <Tornado className="w-6 h-6 inline-block" /> },
+  { name: "Wind Damage Repair", slug: "wind-damage-repair", icon: <Wind className="w-6 h-6 inline-block" /> },
+  { name: "Roof Replacement", slug: "roof-replacement", icon: <RefreshCw className="w-6 h-6 inline-block" /> },
+  { name: "Roof Repair", slug: "roof-repair", icon: <Wrench className="w-6 h-6 inline-block" /> },
+  { name: "Roof Inspections", slug: "roof-inspections", icon: <Search className="w-6 h-6 inline-block" /> },
+  { name: "TPO Roofing", slug: "tpo-roofing", icon: <Construction className="w-6 h-6 inline-block" /> },
+  { name: "Metal Roofing", slug: "metal-roofing", icon: <Wrench className="w-6 h-6 inline-block" /> },
+  { name: "Asphalt Shingle Roofing", slug: "asphalt-shingle-roofing", icon: <Home className="w-6 h-6 inline-block" /> },
 ];
 
 const faqItems = [

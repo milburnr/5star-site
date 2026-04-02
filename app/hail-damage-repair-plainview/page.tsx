@@ -9,6 +9,7 @@ import {
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, ClipboardList, GraduationCap, Landmark, Phone, School, Search, Shield, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-plainview/' },
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -48,7 +49,7 @@ export default function HailDamageRepairPlainviewPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-plainview/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -122,7 +123,7 @@ export default function HailDamageRepairPlainviewPage() {
                 Plainview—the county seat of Hale County and cotton capital of the Llano Estacado region—sits at the heart of Texas's agricultural powerhouse. Home to Wayland Baptist University (established 1908) and a thriving agricultural economy, this city of 20,194 residents has faced unique challenges including major industrial transitions while maintaining its position as a key player in Texas cotton production. Located 45 miles south of Amarillo at 3,368 feet elevation, Plainview sits directly in the path of severe High Plains storms that regularly produce damaging hail. 5 Star Roofing has been protecting Plainview's homes, businesses, and agricultural facilities since 2014, understanding both the community's agricultural heritage and its evolving economic landscape.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Free Inspection</a>
               </div>
             </div>
@@ -147,7 +148,7 @@ export default function HailDamageRepairPlainviewPage() {
                 <div className="text-brand-brown font-semibold text-lg">Population</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">🏫</div>
+                <div className="text-3xl mb-3"><School className="w-6 h-6 inline-block" /></div>
                 <div className="text-brand-brown font-semibold text-lg">University Town</div>
               </div>
             </div>
@@ -262,32 +263,32 @@ export default function HailDamageRepairPlainviewPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Plainview Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Comprehensive Assessment</h3>
                 <p className="text-gray-600">Detailed inspections of residential, commercial, and agricultural properties including cotton warehouses and storage facilities.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🏛️</div>
+                <div className="text-4xl mb-4"><Landmark className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Expertise</h3>
                 <p className="text-gray-600">Experienced handling of residential, commercial, and specialized agricultural insurance policies.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Documentation</h3>
                 <p className="text-gray-600">Thorough damage documentation with Xactimate estimates and photographic evidence for insurance adjusters.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛠️</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Installation</h3>
                 <p className="text-gray-600">Professional repairs using materials designed for High Plains weather conditions and agricultural requirements.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🎓</div>
+                <div className="text-4xl mb-4"><GraduationCap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Educational Facilities</h3>
                 <p className="text-gray-600">Specialized experience with university and educational institution roofing systems and maintenance requirements.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Long-term Protection</h3>
                 <p className="text-gray-600">Comprehensive warranties and maintenance programs for all property types throughout Hale County.</p>
               </div>
@@ -355,19 +356,19 @@ export default function HailDamageRepairPlainviewPage() {
               <h3 className="text-xl font-bold text-brand-brown mb-3">Specialized Services for Plainview</h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Cotton storage facilities</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> University buildings</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Grain storage systems</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Cotton storage facilities</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> University buildings</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Grain storage systems</li>
                 </ul>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Agricultural warehouses</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Educational facilities</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Processing buildings</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Agricultural warehouses</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Educational facilities</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Processing buildings</li>
                 </ul>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Historic district buildings</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Commercial retail centers</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">✓</span> Healthcare facilities</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Historic district buildings</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Commercial retail centers</li>
+                  <li className="flex items-center"><Check className="w-5 h-5 text-brand-gold mr-2 flex-shrink-0 mt-0.5" /> Healthcare facilities</li>
                 </ul>
               </div>
             </div>

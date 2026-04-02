@@ -8,6 +8,7 @@ import {
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Droplets, Home, Phone, Sun, Thermometer, Tornado, Waves } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/asphalt-flat-roof-repair-in-amarillo/' },
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -83,7 +84,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/asphalt-flat-roof-repair-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -150,42 +151,42 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Common Asphalt Flat Roof Problems</h2>
       <div className="grid md:grid-cols-3 gap-4 mb-8">
         <div className="check-item">
-          <span className="check-icon text-2xl">🌡️</span>
+          <span className="check-icon text-2xl"><Thermometer className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Thermal Splitting</h3>
             <p className="text-gray-600">Temperature cycling causes asphalt to expand/contract, creating cracks—common in West Texas with extreme temperature swings</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💧</span>
+          <span className="check-icon text-2xl"><Droplets className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Blister Formation</h3>
             <p className="text-gray-600">Moisture trapped between layers creates bubbles that rupture, allowing water infiltration</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🌀</span>
+          <span className="check-icon text-2xl"><Tornado className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Hail Punctures</h3>
             <p className="text-gray-600">Baseball-sized hail can puncture asphalt membranes, especially in areas where gravel is sparse</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🏠</span>
+          <span className="check-icon text-2xl"><Home className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Flashing Failures</h3>
             <p className="text-gray-600">Metal flashing separates from membrane over time, creating leak points at parapets and penetrations</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🌊</span>
+          <span className="check-icon text-2xl"><Waves className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Ponding Water</h3>
             <p className="text-gray-600">Poor drainage causes standing water that degrades asphalt and accelerates aging</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">☀️</span>
+          <span className="check-icon text-2xl"><Sun className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">UV Degradation</h3>
             <p className="text-gray-600">Intense West Texas sun breaks down exposed asphalt, causing brittleness and cracking</p>
@@ -271,7 +272,7 @@ export default function Page() {
       </div>
 
       <div className="bg-yellow-50 border-l-4 border-brand-gold p-6 mb-8">
-        <h3 className="font-bold mb-3">⚠️ Don't Delay Asphalt Roof Repairs</h3>
+        <h3 className="font-bold mb-3"><AlertTriangle className="w-6 h-6 inline-block" /> Don't Delay Asphalt Roof Repairs</h3>
         <p>
           Small leaks in asphalt roofing systems quickly become major problems. Water infiltration saturates insulation (adding thousands of pounds to roof load), promotes mold growth, and causes structural wood rot. A $2,000 repair today can prevent a $50,000 replacement next year.
         </p>
@@ -351,7 +352,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

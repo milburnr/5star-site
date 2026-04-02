@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, Flame, Phone, Shield, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-pampa/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function MetalRoofingPampaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/metal-roofing-pampa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function MetalRoofingPampaPage() {
                 Expert metal roofing in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -224,7 +225,7 @@ export default function MetalRoofingPampaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -254,22 +255,22 @@ export default function MetalRoofingPampaPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">⚡ Energy Sector Solutions</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Zap className="w-6 h-6 inline-block" /> Energy Sector Solutions</h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li>✓ Oil & gas processing facilities</li>
-                  <li>✓ Equipment storage buildings</li>
-                  <li>✓ Administrative and office complexes</li>
-                  <li>✓ Maintenance and repair shops</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Oil & gas processing facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Equipment storage buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Administrative and office complexes</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Maintenance and repair shops</li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🔥 Safety & Performance</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Flame className="w-6 h-6 inline-block" /> Safety & Performance</h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li>✓ Class A fire resistance</li>
-                  <li>✓ Lightning protection systems</li>
-                  <li>✓ Chemical exposure resistance</li>
-                  <li>✓ High temperature tolerance</li>
-                  <li>✓ Explosion-resistant construction</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Class A fire resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Lightning protection systems</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical exposure resistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />High temperature tolerance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Explosion-resistant construction</li>
                 </ul>
               </div>
             </div>
@@ -292,7 +293,7 @@ export default function MetalRoofingPampaPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">🔥 Fire Safety</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center"><Flame className="w-6 h-6 inline-block" /> Fire Safety</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Class A fire rating</li>
                   <li>• UL listed assemblies</li>
@@ -301,7 +302,7 @@ export default function MetalRoofingPampaPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">⚡ Lightning Protection</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center"><Zap className="w-6 h-6 inline-block" /> Lightning Protection</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Integrated lightning systems</li>
                   <li>• Proper grounding design</li>
@@ -310,7 +311,7 @@ export default function MetalRoofingPampaPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center">🛡️ Chemical Resistance</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown text-center"><Shield className="w-6 h-6 inline-block" /> Chemical Resistance</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Hydrocarbon exposure protection</li>
                   <li>• Acid rain resistance</li>

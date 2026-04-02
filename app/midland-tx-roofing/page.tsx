@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, CloudLightning, Factory, Phone, Shield, Sun, Thermometer, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/midland-tx-roofing/' },
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -67,7 +68,7 @@ export default function MidlandRoofingPage() {
               Protecting the Tall City&apos;s Homes and Businesses Since 2010
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
               </a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
                 Free Roof Inspection
@@ -129,7 +130,7 @@ export default function MidlandRoofingPage() {
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <InteractiveCard>
                 <div className="text-center">
-                  <div className="text-5xl mb-4">🏭</div>
+                  <div className="text-5xl mb-4"><Factory className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Industry Specialists</h3>
                   <p className="text-gray-600">
                     Extensive experience with commercial roofing for petroleum facilities, warehouses, and
@@ -140,7 +141,7 @@ export default function MidlandRoofingPage() {
               </InteractiveCard>
               <InteractiveCard>
                 <div className="text-center">
-                  <div className="text-5xl mb-4">⛈️</div>
+                  <div className="text-5xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Alley Experts</h3>
                   <p className="text-gray-600">
                     Midland averages 144 severe weather warnings annually with documented hail reports throughout
@@ -151,7 +152,7 @@ export default function MidlandRoofingPage() {
               </InteractiveCard>
               <InteractiveCard>
                 <div className="text-center">
-                  <div className="text-5xl mb-4">🛡️</div>
+                  <div className="text-5xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Extreme Climate Engineering</h3>
                   <p className="text-gray-600">
                     Our roofing systems are engineered specifically for Midland&apos;s brutal conditions: summer
@@ -385,7 +386,7 @@ export default function MidlandRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-8">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">⛈️ Severe Hail Storms and Hail Alley</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3"><CloudLightning className="w-6 h-6 inline-block" /> Severe Hail Storms and Hail Alley</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Midland sits directly in &quot;Hail Alley,&quot; making it one of the most hail-prone locations in the
                   United States. The city experiences an average of 144 severe weather warnings annually, with documented
@@ -402,7 +403,7 @@ export default function MidlandRoofingPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">🌡️ Extreme Temperature Swings</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Midland experiences a semi-arid climate with brutal extremes. Summer temperatures routinely exceed 100°F,
                   with the mercury sometimes climbing above 105°F. In winter, hard freezes and occasional ice storms bring
@@ -417,7 +418,7 @@ export default function MidlandRoofingPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">☀️ Intense UV Exposure and Solar Radiation</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3"><Sun className="w-6 h-6 inline-block" /> Intense UV Exposure and Solar Radiation</h3>
                 <p className="text-gray-700 leading-relaxed">
                   At an elevation of 2,779 feet with over 260 days of sunshine annually, Midland roofs face relentless
                   ultraviolet radiation. The thin atmosphere at this elevation provides less UV filtering, meaning more
@@ -432,7 +433,7 @@ export default function MidlandRoofingPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">💨 High Winds Across Open Plains</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3"><Wind className="w-6 h-6 inline-block" /> High Winds Across Open Plains</h3>
                 <p className="text-gray-700 leading-relaxed">
                   The Texas Panhandle and Permian Basin are among the windiest regions in the United States. With minimal
                   topographic relief, winds sweep unobstructed across hundreds of miles of open plains. Sustained winds of
@@ -448,7 +449,7 @@ export default function MidlandRoofingPage() {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">🏭 Oil Industry and Industrial Environment</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3"><Factory className="w-6 h-6 inline-block" /> Oil Industry and Industrial Environment</h3>
                 <p className="text-gray-700 leading-relaxed">
                   As the economic heart of the Permian Basin petroleum industry, Midland presents unique roofing challenges
                   beyond weather. Industrial facilities require roofs that can withstand chemical exposure, accommodate heavy
@@ -475,25 +476,25 @@ export default function MidlandRoofingPage() {
               </p>
               <div className="grid md:grid-cols-3 gap-4 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li>✓ Grassland Estates</li>
-                  <li>✓ Green Tree Country Club Estates</li>
-                  <li>✓ Club Estates</li>
-                  <li>✓ Saddle Club South</li>
-                  <li>✓ Heritage Oaks</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Grassland Estates</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Green Tree Country Club Estates</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Club Estates</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Saddle Club South</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Heritage Oaks</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>✓ Abell-Hanger Estates</li>
-                  <li>✓ Legends Park</li>
-                  <li>✓ Fairmont Park</li>
-                  <li>✓ Trinity West</li>
-                  <li>✓ Goddard Heights</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Abell-Hanger Estates</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Legends Park</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fairmont Park</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Trinity West</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Goddard Heights</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>✓ Crestgate</li>
-                  <li>✓ Downtown Midland</li>
-                  <li>✓ North Midland</li>
-                  <li>✓ West Midland</li>
-                  <li>✓ All Midland County areas</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Crestgate</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Downtown Midland</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />North Midland</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />West Midland</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />All Midland County areas</li>
                 </ul>
               </div>
               <p className="text-center text-gray-600 mt-6">
@@ -563,27 +564,27 @@ export default function MidlandRoofingPage() {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-lg font-bold text-brand-brown mb-3">Insurance Companies We Work With:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ State Farm (multiple Midland agents)</li>
-                    <li>✓ Allstate Insurance</li>
-                    <li>✓ Farmers Insurance</li>
-                    <li>✓ USAA</li>
-                    <li>✓ Liberty Mutual</li>
-                    <li>✓ Nationwide</li>
-                    <li>✓ Progressive</li>
-                    <li>✓ All major carriers</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />State Farm (multiple Midland agents)</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Allstate Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Farmers Insurance</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />USAA</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Liberty Mutual</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Nationwide</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Progressive</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />All major carriers</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-lg font-bold text-brand-brown mb-3">Our Insurance Assistance:</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ Free damage assessments</li>
-                    <li>✓ Comprehensive documentation</li>
-                    <li>✓ Direct adjuster communication</li>
-                    <li>✓ Damage photo reports</li>
-                    <li>✓ Scope of work preparation</li>
-                    <li>✓ Supplement negotiation</li>
-                    <li>✓ Claims advocacy</li>
-                    <li>✓ Deductible assistance programs</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free damage assessments</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Comprehensive documentation</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Direct adjuster communication</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Damage photo reports</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Scope of work preparation</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Supplement negotiation</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Claims advocacy</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Deductible assistance programs</li>
                   </ul>
                 </div>
               </div>
@@ -798,7 +799,7 @@ export default function MidlandRoofingPage() {
               delivers expert craftsmanship backed by industry-leading warranties. Free inspections throughout Midland.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041 Now
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041 Now
               </a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">
                 Schedule Free Inspection
@@ -848,7 +849,7 @@ export default function MidlandRoofingPage() {
                 "parentOrganization": {
                   "@id": "https://5starroofingpros.com/#organization"
                 },
-                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
                 "description": "Premier roofing contractor serving Midland, Texas and the Permian Basin. Specialists in commercial roofing, hail damage repair, flat roof systems, and residential roofing for extreme West Texas conditions.",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
@@ -927,7 +928,7 @@ export default function MidlandRoofingPage() {
                 "@type": ["LocalBusiness", "RoofingContractor"],
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#localbusiness",
                 "name": "5 Star Roofing",
-                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
                 "url": "https://5starroofingpros.com",

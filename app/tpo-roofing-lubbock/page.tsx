@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Check, CloudFog, GraduationCap, Hospital, Mail, MapPin, Monitor, Phone, Snowflake, Star, Thermometer, Tornado, Wheat, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-lubbock/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function TPORoofingLubbockPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Hub City's Premier Commercial Roofing Specialists</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional TPO roofing throughout Lubbock and the South Plains. Expert installation designed for West Texas weather extremes, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function TPORoofingLubbockPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -137,11 +138,11 @@ export default function TPORoofingLubbockPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-gradient-to-br from-red-50 to-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌪️ West Texas Weather Ready</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Tornado className="w-6 h-6 inline-block" /> West Texas Weather Ready</h3>
                 <p className="text-gray-700 leading-relaxed">Lubbock's location on the Llano Estacado exposes buildings to constant high winds, dust storms, severe hail, and dramatic temperature swings. Our TPO systems are engineered specifically for South Plains conditions, featuring enhanced wind uplift resistance and superior membrane durability to withstand the region's challenging climate.</p>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 University & Technology Hub</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> University & Technology Hub</h3>
                 <p className="text-gray-700 leading-relaxed">From Texas Tech University facilities to the growing technology corridor, Lubbock's evolving commercial landscape demands modern roofing solutions. Our TPO installations serve everything from research facilities and student housing to high-tech manufacturing and energy infrastructure projects.</p>
               </div>
             </div>
@@ -153,7 +154,7 @@ export default function TPORoofingLubbockPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why TPO Roofing Excels in Lubbock's Climate?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">💨 Superior Wind Resistance</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wind className="w-6 h-6 inline-block" /> Superior Wind Resistance</h3>
                 <p className="text-gray-700 mb-4">Lubbock's average wind speed of 12+ mph and frequent gusts over 40 mph demand exceptional wind performance. Our TPO systems feature mechanically attached or fully adhered installation methods designed to exceed Lubbock's wind load requirements and withstand the constant stress of prairie winds.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Wind uplift resistance to 120+ mph</li>
@@ -163,7 +164,7 @@ export default function TPORoofingLubbockPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌡️ Energy Efficiency Excellence</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Energy Efficiency Excellence</h3>
                 <p className="text-gray-700 mb-4">Lubbock's hot summers with temperatures regularly over 95°F drive cooling costs sky-high. TPO's reflective white surface reduces heat absorption by up to 85%, dramatically lowering energy consumption and operational costs for Lubbock commercial properties year-round.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Up to 40% cooling cost reduction</li>
@@ -173,7 +174,7 @@ export default function TPORoofingLubbockPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🧊 Dust & Hail Protection</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Snowflake className="w-6 h-6 inline-block" /> Dust & Hail Protection</h3>
                 <p className="text-gray-700 mb-4">The South Plains' frequent dust storms and hailstorms require specialized roofing solutions. TPO's smooth, non-porous surface resists dust accumulation while maintaining superior impact resistance against hail up to 2 inches in diameter - critical protection for Lubbock properties.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• UL 2218 Class 4 impact rating</li>
@@ -194,23 +195,23 @@ export default function TPORoofingLubbockPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Major Industries</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🌾 Agriculture & Cotton</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Wheat className="w-6 h-6 inline-block" /> Agriculture & Cotton</h4>
                     <p className="text-gray-700">Serving the heart of cotton country with durable TPO systems for gins, warehouses, grain elevators, and processing facilities throughout the South Plains.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🎓 Education & Research</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><GraduationCap className="w-6 h-6 inline-block" /> Education & Research</h4>
                     <p className="text-gray-700">TPO roofing for Texas Tech University facilities, LISD buildings, South Plains College, and research institutions requiring specialized performance standards.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">⚡ Wind Energy</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Zap className="w-6 h-6 inline-block" /> Wind Energy</h4>
                     <p className="text-gray-700">Protecting wind energy infrastructure and support facilities with roofing systems designed for industrial environments and extreme weather exposure.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏥 Healthcare</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Hospital className="w-6 h-6 inline-block" /> Healthcare</h4>
                     <p className="text-gray-700">Serving UMC Health System, Covenant Health, and medical facilities with quiet, durable TPO roofing that meets healthcare industry standards.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">💻 Technology</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Monitor className="w-6 h-6 inline-block" /> Technology</h4>
                     <p className="text-gray-700">Supporting Lubbock's growing tech sector with advanced roofing solutions for data centers, manufacturing facilities, and innovation centers.</p>
                   </div>
                 </div>
@@ -219,18 +220,18 @@ export default function TPORoofingLubbockPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Commercial Buildings</h3>
                 <div className="bg-white p-8 rounded-xl shadow-sm">
                   <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>University and educational facilities</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Agricultural processing plants</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Cotton gins and warehouses</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Wind energy facilities</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Hospital and medical centers</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Retail centers and malls</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Manufacturing and industrial</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Office buildings and headquarters</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Government and municipal facilities</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Distribution and logistics centers</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Aviation and aerospace facilities</li>
-                    <li className="flex items-center"><span className="text-brand-gold mr-3">✓</span>Food processing and storage</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>University and educational facilities</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Agricultural processing plants</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Cotton gins and warehouses</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Wind energy facilities</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Hospital and medical centers</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Retail centers and malls</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Manufacturing and industrial</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Office buildings and headquarters</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Government and municipal facilities</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Distribution and logistics centers</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Aviation and aerospace facilities</li>
+                    <li className="flex items-center"><span className="text-brand-gold mr-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>Food processing and storage</li>
                   </ul>
                 </div>
               </div>
@@ -281,7 +282,7 @@ export default function TPORoofingLubbockPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Weather Challenges & TPO Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🌪️ Constant Wind Exposure</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Tornado className="w-6 h-6 inline-block" /> Constant Wind Exposure</h3>
                 <p className="text-gray-700 mb-4">Lubbock's location on the high plains creates constant wind exposure averaging 12+ mph with frequent gusts over 40 mph. This continuous stress can fatigue roofing materials over time.</p>
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -294,7 +295,7 @@ export default function TPORoofingLubbockPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🌫️ Frequent Dust Storms</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><CloudFog className="w-6 h-6 inline-block" /> Frequent Dust Storms</h3>
                 <p className="text-gray-700 mb-4">The South Plains experiences regular dust storms that can clog drains, accumulate on roofs, and create maintenance challenges for traditional roofing systems.</p>
                 <div className="bg-green-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -307,7 +308,7 @@ export default function TPORoofingLubbockPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🌡️ Extreme Temperature Swings</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings</h3>
                 <p className="text-gray-700 mb-4">Lubbock can experience temperature variations of 50+ degrees in a single day, creating thermal stress that can crack or fatigue roofing materials.</p>
                 <div className="bg-purple-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -320,7 +321,7 @@ export default function TPORoofingLubbockPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🧊 Severe Hailstorms</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Snowflake className="w-6 h-6 inline-block" /> Severe Hailstorms</h3>
                 <p className="text-gray-700 mb-4">Lubbock's location in "Hail Alley" means buildings face significant risk from severe hailstorms with stones frequently exceeding golf ball size.</p>
                 <div className="bg-orange-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
@@ -430,8 +431,8 @@ export default function TPORoofingLubbockPage() {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
             </div>
             <div className="text-center mt-6">
-              <p className="text-lg text-gray-700 mb-2">📍 2909 S Western St, Amarillo, TX 79109</p>
-              <p className="text-lg text-gray-700 mb-2">📞 (806) 622-6041 | ✉️ info@5starroofingpros.com</p>
+              <p className="text-lg text-gray-700 mb-2"><MapPin className="w-6 h-6 inline-block" /> 2909 S Western St, Amarillo, TX 79109</p>
+              <p className="text-lg text-gray-700 mb-2"><Phone className="w-5 h-5 inline-block" /> (806) 622-6041 | <Mail className="w-5 h-5 inline-block" /> info@5starroofingpros.com</p>
               <p className="text-md text-gray-600">Proudly serving Lubbock and the entire South Plains region</p>
             </div>
           </section>

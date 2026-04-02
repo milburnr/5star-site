@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Factory, Phone, Star, Tornado, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-perryton/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function RoofInspectionsPerrytonPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-perryton/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-22-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function RoofInspectionsPerrytonPage() {
                 Expert roof inspections in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Schedule FREE Inspection
@@ -224,7 +225,7 @@ export default function RoofInspectionsPerrytonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -304,21 +305,21 @@ export default function RoofInspectionsPerrytonPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-yellow-50 to-amber-50 p-8 rounded-2xl">
-                <div className="text-4xl mb-4">🌾</div>
+                <div className="text-4xl mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Wheat Country Challenges</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Perryton sits in the heart of wheat country, creating unique roofing challenges. Constant grain dust exposure, chemical drift, and agricultural equipment vibrations accelerate roof aging. Our inspections account for these agricultural-specific stress factors.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
-                <div className="text-4xl mb-4">🌪️</div>
+                <div className="text-4xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">High Plains Weather</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Perryton's position in the High Plains exposes properties to extreme weather patterns. Sudden temperature drops, intense UV exposure, and severe thunderstorms with damaging hail require specialized roofing materials and regular professional inspections.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl">
-                <div className="text-4xl mb-4">🏭</div>
+                <div className="text-4xl mb-4"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial Agriculture</h3>
                 <p className="text-gray-700 leading-relaxed">
                   Large-scale agricultural operations demand robust roofing systems. Our inspections evaluate the impact of grain elevators, equipment storage, and processing facilities on surrounding residential and commercial properties.
@@ -459,21 +460,21 @@ export default function RoofInspectionsPerrytonPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-brand-gold text-2xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   "5 Star understood our wheat storage facility needs. Their inspection caught wind damage to our grain bin roofing that could have cost us thousands in crop losses."
                 </p>
                 <div className="text-brand-brown font-semibold">- Dale F., Perryton Farmer</div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-brand-gold text-2xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   "Professional drone inspection after the April hailstorm. They documented every impact and helped us get full replacement coverage from insurance."
                 </p>
                 <div className="text-brand-brown font-semibold">- Maria S., Perryton Homeowner</div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <div className="text-brand-gold text-2xl mb-4">⭐⭐⭐⭐⭐</div>
+                <div className="text-brand-gold text-2xl mb-4"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <p className="text-gray-700 mb-4 italic">
                   "Quick response during harvest season situation. They understood we couldn't shut down operations and worked around our schedule."
                 </p>

@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Check, Smile, Sun, Thermometer, Tornado, Wheat, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wildorado-tx-roofing/' },
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -107,7 +108,7 @@ export default function WildoradoRoofingPage() {
             <h2 className="section-title">Why Wildorado Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Extremely Close</h3>
                 <p className="text-gray-600">
                   Only 15 miles from Wildorado via I-40. We can reach you in about 15-20 minutes
@@ -115,7 +116,7 @@ export default function WildoradoRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🤠</div>
+                <div className="text-5xl mb-4"><Smile className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Rural Community Focus</h3>
                 <p className="text-gray-600">
                   We understand small rural communities like Wildorado. Honest pricing, quality work,
@@ -123,7 +124,7 @@ export default function WildoradoRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">🌾</div>
+                <div className="text-5xl mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Ranch & Farm Experience</h3>
                 <p className="text-gray-600">
                   From homes to barns, shops to grain storage - we handle all types of rural roofing
@@ -146,7 +147,7 @@ export default function WildoradoRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg" alt="Roof restored after severe hail damage near Perryton TX - New shingle installation" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg" alt="Roof restored after severe hail damage near Perryton TX - New shingle installation" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Repair
                     </h3>
@@ -180,7 +181,7 @@ export default function WildoradoRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg" alt="Completed residential roof replacement with architectural shingles in West Texas" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Completed residential roof replacement with architectural shingles in West Texas" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -214,7 +215,7 @@ export default function WildoradoRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roof on Wildorado area home - Wind and hail resistant roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp" alt="Standing seam metal roof on Wildorado area home - Wind and hail resistant roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roofing Systems
                     </h3>
@@ -248,7 +249,7 @@ export default function WildoradoRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg" alt="Completed roofing project on agricultural building near Channing TX - Metal panels" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Completed roofing project on agricultural building near Channing TX - Metal panels" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Agricultural Roofing
                     </h3>
@@ -282,7 +283,7 @@ export default function WildoradoRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg" alt="Finished roof showing clean installation quality near Dumas TX - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg" alt="Finished roof showing clean installation quality near Dumas TX - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -316,7 +317,7 @@ export default function WildoradoRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg" alt="Emergency storm repair on rural Texas Panhandle property by 5 Star Roofing crew" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg" alt="Emergency storm repair on rural Texas Panhandle property by 5 Star Roofing crew" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       
                     </h3>
@@ -353,7 +354,7 @@ export default function WildoradoRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌪️ Maximum Hail Exposure</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Maximum Hail Exposure</h3>
                 <p className="text-gray-700">
                   Wildorado's location on the exposed high plains west of Amarillo means zero natural
                   protection from severe hail storms. The area regularly experiences large hail events,
@@ -363,7 +364,7 @@ export default function WildoradoRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">💨 Relentless High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Relentless High Winds</h3>
                 <p className="text-gray-700">
                   With no windbreaks and situated at nearly 4,000 feet elevation, Wildorado experiences
                   some of the strongest sustained winds in the Texas Panhandle. 40-50 mph sustained winds
@@ -372,7 +373,7 @@ export default function WildoradoRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">🌡️ Extreme Temperature Range</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Range</h3>
                 <p className="text-gray-700">
                   Wildorado sees some of the most extreme temperature swings in Texas. Summer temperatures
                   regularly exceed 100°F while winter nights drop well below zero - often a 110+ degree
@@ -381,7 +382,7 @@ export default function WildoradoRoofingPage() {
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2">☀️ Severe UV Degradation</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Severe UV Degradation</h3>
                 <p className="text-gray-700">
                   At 3,900 feet elevation with minimal humidity and over 270 sunny days annually, UV
                   radiation is intense. Asphalt shingles without proper UV inhibitors degrade rapidly,
@@ -403,16 +404,16 @@ export default function WildoradoRoofingPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li>✓ Wildorado community center</li>
-                  <li>✓ I-40 frontage properties</li>
-                  <li>✓ FM 2381 corridor</li>
-                  <li>✓ Wildorado School area</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wildorado community center</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />I-40 frontage properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />FM 2381 corridor</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wildorado School area</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>✓ Ranch properties</li>
-                  <li>✓ Agricultural facilities</li>
-                  <li>✓ Rural residences</li>
-                  <li>✓ Oldham County areas</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ranch properties</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Agricultural facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Rural residences</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Oldham County areas</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -585,7 +586,7 @@ export default function WildoradoRoofingPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/wildorado-tx-roofing/",
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
             "description": "Professional roofing contractor serving Wildorado, Texas from our Amarillo location. Expert hail damage repair, residential and agricultural roofing services.",
             "address": {
               "@type": "PostalAddress",

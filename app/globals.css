@@ -4,11 +4,11 @@
 
 @layer base {
   body {
-    @apply text-gray-text bg-gradient-to-b from-amber-50 to-white;
+    @apply text-gray-text bg-gradient-to-b from-amber-50 to-white font-body;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-gray-primary font-semibold;
+    @apply text-gray-primary font-semibold font-heading;
   }
 
   a {
@@ -87,11 +87,11 @@
 @layer components {
   /* Buttons */
   .btn-primary {
-    @apply bg-brand-gold text-white px-6 py-3 rounded-md font-semibold hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] hover:-translate-y-1 hover:scale-105 active:scale-95;
+    @apply bg-brand-gold text-[#3D2800] px-6 py-3 rounded-md font-semibold hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_15px_rgba(212,175,55,0.7)] hover:-translate-y-1 hover:scale-[1.02] active:scale-95;
   }
 
   .btn-secondary {
-    @apply bg-gray-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-700 transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.6)] hover:-translate-y-1 hover:scale-105 active:scale-95;
+    @apply bg-gray-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-700 transition-all duration-300 hover:shadow-[0_0_15px_rgba(212,175,55,0.6)] hover:-translate-y-1 hover:scale-[1.02] active:scale-95;
   }
 
   /* Container */
@@ -298,7 +298,7 @@
   }
 
   .lead-form-submit {
-    @apply w-full bg-brand-gold text-white px-6 py-4 rounded-md font-bold text-lg hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none;
+    @apply w-full bg-brand-gold text-[#3D2800] px-6 py-4 rounded-md font-bold text-lg hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_15px_rgba(212,175,55,0.7)] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none;
   }
 
   .lead-form-success {
@@ -340,7 +340,7 @@
 
   /* CTA Hierarchy - Primary CTAs stand out more */
   .btn-primary-hero {
-    @apply bg-brand-gold text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_40px_rgba(212,175,55,0.8)] hover:-translate-y-2 hover:scale-110 active:scale-95 animate-pulse-subtle;
+    @apply bg-brand-gold text-[#3D2800] px-10 py-5 rounded-lg font-bold text-xl hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.8)] hover:-translate-y-1 hover:scale-[1.03] active:scale-95;
   }
 
   .btn-secondary-hero {
@@ -514,6 +514,15 @@
 }
 
 
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 
 @layer base {
   * {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Check, Trophy, Zap } from "lucide-react";
 
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -165,7 +166,7 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp"
               alt="Standing seam metal roofing on Texas Panhandle home - Durable hail-resistant residential roof - 5 Star Commercial Roofing"
               className="w-full h-48 object-cover"
             />
@@ -423,17 +424,17 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-12 mb-4">Why Amarillo Homeowners Choose 5 Star</h2>
       <div className="grid md:grid-cols-3 gap-4 mb-8">
         <div className="text-center p-6 bg-white rounded-lg shadow">
-          <div className="text-4xl mb-3">🏆</div>
+          <div className="text-4xl mb-3"><Trophy className="w-6 h-6 inline-block" /></div>
           <h3 className="font-bold mb-2 text-brand-brown">10+ Years Experience</h3>
           <p className="text-sm text-gray-600">Hundreds of satisfied homeowners across West Texas</p>
         </div>
         <div className="text-center p-6 bg-white rounded-lg shadow">
-          <div className="text-4xl mb-3">⚡</div>
+          <div className="text-4xl mb-3"><Zap className="w-6 h-6 inline-block" /></div>
           <h3 className="font-bold mb-2 text-brand-brown"></h3>
           <p className="text-sm text-gray-600">Storm damage? We respond quickly to protect your home</p>
         </div>
         <div className="text-center p-6 bg-white rounded-lg shadow">
-          <div className="text-4xl mb-3">✓</div>
+          <div className="text-4xl mb-3"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
           <h3 className="font-bold mb-2 text-brand-brown">95%+ Insurance Approval</h3>
           <p className="text-sm text-gray-600">Expert claim documentation and adjuster coordination</p>
         </div>

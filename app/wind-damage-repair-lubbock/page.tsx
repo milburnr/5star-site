@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Home, Phone, Wheat, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-lubbock/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-lubbock/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -218,7 +219,7 @@ export default function Page() {
                 Lubbock's South Plains location at 3,256 feet elevation creates perfect conditions for destructive winds. The city averages 12.8 mph sustained winds with frequent 50-80 mph gusts from thunderstorm outflows and frontal systems. As the largest city between Dallas and Denver, Lubbock sits exposed on vast agricultural plains with minimal wind protection, making roofs vulnerable to sustained high-wind events that can strip shingles, damage flashing, and compromise entire roofing systems.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Estimate
@@ -510,21 +511,21 @@ export default function Page() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">🌾</span>
+                    <span className="text-white font-bold text-xl"><Wheat className="w-6 h-6 inline-block" /></span>
                   </div>
                   <h4 className="font-bold text-indigo-800 mb-2">Debris-Resistant Design</h4>
                   <p className="text-sm text-gray-600">Specialized materials and installation methods designed to handle South Plains agricultural debris during high-wind events.</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">💨</span>
+                    <span className="text-white font-bold text-xl"><Wind className="w-6 h-6 inline-block" /></span>
                   </div>
                   <h4 className="font-bold text-indigo-800 mb-2">Microburst Protection</h4>
                   <p className="text-sm text-gray-600">Installation techniques specifically engineered for sudden, extreme wind events common to South Plains thunderstorm activity.</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">🏠</span>
+                    <span className="text-white font-bold text-xl"><Home className="w-6 h-6 inline-block" /></span>
                   </div>
                   <h4 className="font-bold text-indigo-800 mb-2">Tech Terrace Tested</h4>
                   <p className="text-sm text-gray-600">Our installation methods are proven in Lubbock's most exposed neighborhoods, from Tech Terrace to Westwind developments.</p>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Building2, Check, CheckCircle, ClipboardList, CloudHail, CloudLightning, Home, Phone, Shield, Sun, Thermometer, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/dumas-texas-roofing/' },
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -54,7 +55,7 @@ export default function DumasRoofingPage() {
             <h1 className="hero-title">Dumas&apos;s Professional Roofing Contractor</h1>
             <p className="hero-subtitle">Expert Roofing Services in Dumas, Texas</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">Free Inspection</a>
             </div>
           </div>
@@ -302,40 +303,40 @@ export default function DumasRoofingPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Complete Roofing Services</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                <div className="text-5xl mb-4">🌨️</div>
+                <div className="text-5xl mb-4"><CloudHail className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Hail Damage Repair</h3>
                 <p className="text-gray-700 mb-4">Dumas is no stranger to severe hailstorms. We specialize in identifying and repairing hail damage, working directly with your insurance company to ensure proper coverage and quality repairs.</p>
                 <ul className="space-y-2 text-gray-700 mb-4">
-                  <li>✓ Free storm damage inspections</li>
-                  <li>✓ Insurance claim assistance</li>
-                  <li>✓ Impact-resistant materials</li>
-                  <li>✓ Tarping services</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free storm damage inspections</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance claim assistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Impact-resistant materials</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Tarping services</li>
                 </ul>
                 <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                <div className="text-5xl mb-4">🏠</div>
+                <div className="text-5xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Residential Roofing</h3>
                 <p className="text-gray-700 mb-4">Your home deserves the best protection. We offer complete residential roofing services including new installations, replacements, and repairs with materials built for Dumas weather.</p>
                 <ul className="space-y-2 text-gray-700 mb-4">
-                  <li>✓ Architectural shingles</li>
-                  <li>✓ Metal roofing systems</li>
-                  <li>✓ Lifetime warranties available</li>
-                  <li>✓ Energy-efficient options</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Architectural shingles</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Metal roofing systems</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Lifetime warranties available</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy-efficient options</li>
                 </ul>
                 <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                <div className="text-5xl mb-4">🏢</div>
+                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Commercial Roofing</h3>
                 <p className="text-gray-700 mb-4">Protect your Dumas business with professional commercial roofing. We specialize in flat roof systems, metal roofing, and TPO/EPDM membranes designed for commercial applications.</p>
                 <ul className="space-y-2 text-gray-700 mb-4">
-                  <li>✓ TPO and EPDM systems</li>
-                  <li>✓ Metal commercial roofing</li>
-                  <li>✓ Minimal business disruption</li>
-                  <li>✓ Preventive maintenance plans</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />TPO and EPDM systems</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Metal commercial roofing</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Minimal business disruption</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Preventive maintenance plans</li>
                 </ul>
                 <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:text-brand-gold-vibrant font-semibold">Learn More →</a>
               </div>
@@ -348,22 +349,22 @@ export default function DumasRoofingPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Dumas Chooses 5 Star Roofing</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center bg-white p-6 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">✅</div>
+                <div className="text-5xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Free Inspections</h3>
                 <p className="text-gray-700">Comprehensive roof evaluations at no cost. We'll identify any issues and provide honest recommendations.</p>
               </div>
               <div className="text-center bg-white p-6 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">🛡️</div>
+                <div className="text-5xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Quality Materials</h3>
                 <p className="text-gray-700">We use only premium roofing materials from trusted manufacturers, built to withstand Panhandle weather.</p>
               </div>
               <div className="text-center bg-white p-6 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">📋</div>
+                <div className="text-5xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Insurance Experts</h3>
                 <p className="text-gray-700">Full assistance with storm damage insurance claims. We handle the paperwork and communicate with adjusters.</p>
               </div>
               <div className="text-center bg-white p-6 rounded-lg shadow-md">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response</h3>
                 <p className="text-gray-700"> for storm damage. We respond quickly to protect your property from further damage.</p>
               </div>
@@ -376,19 +377,19 @@ export default function DumasRoofingPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Dumas Weather & Your Roof</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-3">⛈️ Severe Hailstorms</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-3"><CloudLightning className="w-6 h-6 inline-block" /> Severe Hailstorms</h3>
                 <p className="text-gray-700">Dumas sits in "Hail Alley" and experiences frequent severe hailstorms, particularly during spring and summer months. Golf ball to baseball-sized hail can cause significant roof damage requiring professional assessment and repair.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-3">💨 High Winds</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-3"><Wind className="w-6 h-6 inline-block" /> High Winds</h3>
                 <p className="text-gray-700">The open Panhandle terrain means Dumas faces sustained high winds and powerful gusts that can lift shingles, damage flashing, and compromise roof integrity. Impact-resistant and wind-rated materials are essential.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-3">🌡️ Temperature Extremes</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-3"><Thermometer className="w-6 h-6 inline-block" /> Temperature Extremes</h3>
                 <p className="text-gray-700">From summer heat exceeding 100°F to winter cold below zero, Dumas roofs endure extreme temperature swings. These cycles cause expansion and contraction that can lead to premature aging and material failure.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-xl text-brand-brown mb-3">☀️ Intense UV Exposure</h3>
+                <h3 className="font-bold text-xl text-brand-brown mb-3"><Sun className="w-6 h-6 inline-block" /> Intense UV Exposure</h3>
                 <p className="text-gray-700">High altitude and clear skies mean intense UV radiation that degrades roofing materials over time. UV-resistant materials and proper ventilation help extend roof life in Dumas conditions.</p>
               </div>
             </div>
@@ -442,7 +443,7 @@ export default function DumasRoofingPage() {
             <h2 className="cta-title">Protecting Dumas Properties Since 2010</h2>
             <p className="cta-text">Free inspections and expert roofing throughout Moore County. Call today for immediate service.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">Request Free Inspection</a>
             </div>
           </section>

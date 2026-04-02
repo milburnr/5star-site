@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { AlertTriangle, Building2, ClipboardList, Hammer } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-amarillo/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -356,7 +357,7 @@ export default function StormDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl shadow-lg">
             <div className="flex gap-6 items-center">
-              <div className="text-6xl">🚨</div>
+              <div className="text-6xl"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">Storm Just Hit? Call Now!</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -462,22 +463,22 @@ export default function StormDamageRepairAmarilloPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500 text-center">
-                <div className="text-3xl mb-3">🚨</div>
+                <div className="text-3xl mb-3"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Storm Response</h3>
                 <p className="text-sm text-gray-700">dispatch, 2-4 hour arrival, immediate tarping and temporary repairs to prevent interior damage.</p>
               </div>
               <div className="bg-blue-50 p-6 rounded-xl border-t-4 border-blue-500 text-center">
-                <div className="text-3xl mb-3">📋</div>
+                <div className="text-3xl mb-3"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Damage Assessment</h3>
                 <p className="text-sm text-gray-700">Comprehensive inspection using Haag Engineering protocols, drone technology, and thermal imaging for hidden damage.</p>
               </div>
               <div className="bg-green-50 p-6 rounded-xl border-t-4 border-green-500 text-center">
-                <div className="text-3xl mb-3">🏢</div>
+                <div className="text-3xl mb-3"><Building2 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Insurance Coordination</h3>
                 <p className="text-sm text-gray-700">Direct adjuster communication, supplement negotiations, and complete claim documentation ensuring maximum coverage.</p>
               </div>
               <div className="bg-amber-50 p-6 rounded-xl border-t-4 border-brand-gold text-center">
-                <div className="text-3xl mb-3">🔨</div>
+                <div className="text-3xl mb-3"><Hammer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Complete Restoration</h3>
                 <p className="text-sm text-gray-700">Full roof replacement with Class 4 materials, enhanced ventilation, and lifetime warranties on workmanship.</p>
               </div>

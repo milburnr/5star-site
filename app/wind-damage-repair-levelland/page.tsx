@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Church, Factory, Hospital, Phone, School, Star, Store, Tornado, Wind, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-levelland/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function WindDamageRepairLevellandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-levelland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -198,7 +199,7 @@ export default function WindDamageRepairLevellandPage() {
                 Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -228,7 +229,7 @@ export default function WindDamageRepairLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -312,21 +313,21 @@ export default function WindDamageRepairLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl mb-4">🌪️</div>
+                <div className="text-5xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Membrane Uplift</h3>
                 <p className="text-gray-700">
                   High winds can lift and tear roofing membranes, especially at edges and corners where wind forces concentrate. This damage often starts small but spreads rapidly if not immediately addressed with proper repair techniques.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⚡</div>
+                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fastener Failure</h3>
                 <p className="text-gray-700">
                   Sustained winds can work loose mechanical fasteners, creating weak points that lead to progressive roof failure. South Plains properties need upgraded fastening patterns and enhanced attachment systems.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">💨</div>
+                <div className="text-5xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Flashing Displacement</h3>
                 <p className="text-gray-700">
                   Wind-driven rain and lateral forces can damage flashing systems around penetrations, parapets, and roof edges, creating leak points that compromise the entire building envelope.
@@ -487,32 +488,32 @@ export default function WindDamageRepairLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏫</div>
+                <div className="text-4xl mb-3"><School className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Educational Facilities</h3>
                 <p className="text-gray-600 text-sm">Schools, colleges, training centers throughout Levelland</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏭</div>
+                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Industrial Buildings</h3>
                 <p className="text-gray-600 text-sm">Manufacturing plants, warehouses, distribution centers</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏪</div>
+                <div className="text-4xl mb-3"><Store className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Commercial Properties</h3>
                 <p className="text-gray-600 text-sm">Retail centers, office buildings, restaurants</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏥</div>
+                <div className="text-4xl mb-3"><Hospital className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Healthcare Facilities</h3>
                 <p className="text-gray-600 text-sm">Medical clinics, assisted living, care facilities</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">⛪</div>
+                <div className="text-4xl mb-3"><Church className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Religious Buildings</h3>
                 <p className="text-gray-600 text-sm">Churches, community centers, fellowship halls</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🛠️</div>
+                <div className="text-4xl mb-3"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Agricultural Buildings</h3>
                 <p className="text-gray-600 text-sm">Equipment storage, processing facilities</p>
               </div>
@@ -529,7 +530,7 @@ export default function WindDamageRepairLevellandPage() {
           <section className="mb-16 bg-red-50 p-12 rounded-3xl border border-red-200">
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bold text-red-700 mb-4">How Does Wind Damage Response Work?</h2>
-              <div className="text-6xl mb-4">🚨</div>
+              <div className="text-6xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 South Plains wind storms can strike without warning. Don't wait for minor damage to become major problems.
               </p>

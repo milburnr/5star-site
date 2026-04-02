@@ -8,6 +8,7 @@ import {
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { DollarSign, Droplets, Lightbulb, Phone, Tornado, TrendingDown, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pvc-roof-replacement-in-amarillo/' },
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -83,7 +84,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/pvc-roof-replacement-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -121,35 +122,35 @@ export default function Page() {
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💧</span>
+          <span className="check-icon text-2xl"><Droplets className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Multiple Leak Points</h3>
             <p className="text-gray-600">Widespread leaks across entire roof indicate systemic failure requiring replacement</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🌀</span>
+          <span className="check-icon text-2xl"><Tornado className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Severe Hail Damage</h3>
             <p className="text-gray-600">Extensive hail punctures or granule loss across large areas make repair impractical</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💰</span>
+          <span className="check-icon text-2xl"><DollarSign className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Frequent Repairs</h3>
             <p className="text-gray-600">If repair costs exceed 30% of replacement cost, replacement is more economical</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">📉</span>
+          <span className="check-icon text-2xl"><TrendingDown className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Membrane Shrinkage</h3>
             <p className="text-gray-600">Visible pulling away from edges, flashing, and penetrations indicates aging membrane</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💨</span>
+          <span className="check-icon text-2xl"><Wind className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Energy Bills Increasing</h3>
             <p className="text-gray-600">Poor insulation from aging roof system dramatically increases HVAC costs</p>
@@ -260,7 +261,7 @@ export default function Page() {
       </div>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-        <h3 className="font-bold mb-3">💡 Energy Savings with New PVC Roof</h3>
+        <h3 className="font-bold mb-3"><Lightbulb className="w-6 h-6 inline-block" /> Energy Savings with New PVC Roof</h3>
         <p>
           Upgrading to a white reflective PVC roof with modern insulation can reduce cooling costs by 20-30% in West Texas climate. Many building owners see $5,000-$15,000 annual savings on large facilities—making the roof investment pay for itself through energy savings alone over its 25-30 year lifespan.
         </p>
@@ -584,7 +585,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

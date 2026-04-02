@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			heading: ['var(--font-poppins)', 'system-ui', 'sans-serif'],
+  			body: ['var(--font-open-sans)', 'system-ui', 'sans-serif'],
+  		},
   		colors: {
   			brand: {
   				gold: '#E4C66E',
@@ -20,7 +24,7 @@ export default {
   			},
   			gray: {
   				primary: '#54595F',
-  				text: '#7A7A7A',
+  				text: '#525252',
   				footer: '#747474',
   				'footer-text': '#C8D5DC'
   			},

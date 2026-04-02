@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { CheckCircle, ClipboardList, CloudLightning, DollarSign, Factory, Home, MapPin, Phone, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-21-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -68,7 +69,7 @@ export default function BlogIndexPage() {
               {/* How to File Hail Damage Insurance Claim */}
               <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
-                  <div className="text-8xl">📋</div>
+                  <div className="text-8xl"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 </div>
                 <div className="p-6">
                   <div className="text-sm text-brand-gold font-semibold mb-2">INSURANCE CLAIMS</div>
@@ -89,7 +90,7 @@ export default function BlogIndexPage() {
               {/* Roof Replacement Cost */}
               <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center">
-                  <div className="text-8xl">💰</div>
+                  <div className="text-8xl"><DollarSign className="w-6 h-6 inline-block" /></div>
                 </div>
                 <div className="p-6">
                   <div className="text-sm text-brand-gold font-semibold mb-2">PRICING GUIDE</div>
@@ -110,7 +111,7 @@ export default function BlogIndexPage() {
               {/* Best Roofing Materials */}
               <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center">
-                  <div className="text-8xl">🏠</div>
+                  <div className="text-8xl"><Home className="w-6 h-6 inline-block" /></div>
                 </div>
                 <div className="p-6">
                   <div className="text-sm text-brand-gold font-semibold mb-2">MATERIALS GUIDE</div>
@@ -131,7 +132,7 @@ export default function BlogIndexPage() {
               {/* Roof Maintenance Checklist */}
               <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center">
-                  <div className="text-8xl">✅</div>
+                  <div className="text-8xl"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 </div>
                 <div className="p-6">
                   <div className="text-sm text-brand-gold font-semibold mb-2">MAINTENANCE GUIDE</div>
@@ -158,7 +159,7 @@ export default function BlogIndexPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Browse by Topic</h2>
             <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-4xl mb-3">⛈️</div>
+                <div className="text-4xl mb-3"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Hail & Storm Damage</h3>
                 <ul className="space-y-2">
                   <li>
@@ -175,7 +176,7 @@ export default function BlogIndexPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-4xl mb-3">💰</div>
+                <div className="text-4xl mb-3"><DollarSign className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Costs & Pricing</h3>
                 <ul className="space-y-2">
                   <li>
@@ -192,7 +193,7 @@ export default function BlogIndexPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-4xl mb-3">🏠</div>
+                <div className="text-4xl mb-3"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Materials & Installation</h3>
                 <ul className="space-y-2">
                   <li>
@@ -209,7 +210,7 @@ export default function BlogIndexPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-4xl mb-3">🔧</div>
+                <div className="text-4xl mb-3"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Maintenance & Repairs</h3>
                 <ul className="space-y-2">
                   <li>
@@ -226,7 +227,7 @@ export default function BlogIndexPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-4xl mb-3">🏭</div>
+                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Commercial Roofing</h3>
                 <ul className="space-y-2">
                   <li>
@@ -243,7 +244,7 @@ export default function BlogIndexPage() {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="text-4xl mb-3">📍</div>
+                <div className="text-4xl mb-3"><MapPin className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Local Services</h3>
                 <ul className="space-y-2">
                   <li>
@@ -272,7 +273,7 @@ export default function BlogIndexPage() {
             <h2 className="cta-title">Have Questions About Your Roof?</h2>
             <p className="cta-text">Talk to a roofing expert. Free consultations and inspections throughout West Texas.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">Contact Us</a>
             </div>
           </section>

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { GraduationCap, Hotel, Landmark, Phone, Star, Store, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-canyon/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function CommercialRoofingCanyonPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-canyon/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-10-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function CommercialRoofingCanyonPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Canyon. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingCanyonPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -148,7 +149,7 @@ export default function CommercialRoofingCanyonPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Canyon's Key Industries Include?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-purple-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 Educational Facilities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> Educational Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">West Texas A&M University and Canyon's K-12 educational facilities require roofing systems that support diverse academic functions while managing large building complexes efficiently:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Classroom buildings with HVAC efficiency requirements</li>
@@ -162,7 +163,7 @@ export default function CommercialRoofingCanyonPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏨 Hospitality & Tourism</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Hotel className="w-6 h-6 inline-block" /> Hospitality & Tourism</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Canyon's position as the gateway to Palo Duro Canyon creates significant demand for hospitality facilities including hotels, restaurants, gift shops, and entertainment venues that serve tourists and university visitors:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Hotels and motels with guest comfort priorities</li>
@@ -178,7 +179,7 @@ export default function CommercialRoofingCanyonPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-yellow-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏪 Downtown Commercial District</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Store className="w-6 h-6 inline-block" /> Downtown Commercial District</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Canyon's historic downtown serves both university and tourism communities with a mix of retail, dining, and service businesses requiring roofing that balances historic preservation with modern performance:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Historic building restoration and preservation</li>
@@ -191,7 +192,7 @@ export default function CommercialRoofingCanyonPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌾 Agricultural Support Services</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Agricultural Support Services</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Canyon's location in prime agricultural territory supports numerous agribusiness operations serving local ranchers and farmers throughout the Texas Panhandle region:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Feed mills and agricultural supply stores</li>
@@ -220,7 +221,7 @@ export default function CommercialRoofingCanyonPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🎓</span>
+                  <span className="text-white text-2xl"><GraduationCap className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Educational Experience</h3>
                 <p className="text-gray-700">Specialized expertise in university facilities, student housing, and educational building requirements throughout Texas.</p>
@@ -228,7 +229,7 @@ export default function CommercialRoofingCanyonPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🏛️</span>
+                  <span className="text-white text-2xl"><Landmark className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Historic Preservation</h3>
                 <p className="text-gray-700">Experience with historic building preservation and restoration projects that maintain architectural integrity.</p>
@@ -428,7 +429,7 @@ export default function CommercialRoofingCanyonPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Educational and Municipal Financing Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 Educational Institution Financing</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> Educational Institution Financing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Educational institutions often operate on unique budget cycles and funding sources. Our flexible financing accommodates semester schedules, grant funding timelines, and capital improvement budgets common in academic settings.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Educational Financing Options:</h4>
@@ -446,7 +447,7 @@ export default function CommercialRoofingCanyonPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏨 Tourism Business Support</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Hotel className="w-6 h-6 inline-block" /> Tourism Business Support</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Tourism and hospitality businesses in Canyon face seasonal revenue fluctuations. Our financing programs help these businesses manage roofing investments without disrupting cash flow during slower seasons.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Hospitality Financing Programs:</h4>

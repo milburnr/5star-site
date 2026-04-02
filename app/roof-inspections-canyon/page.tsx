@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { CloudLightning, Flower2, Home, Leaf, Mountain, Phone, School, Snowflake, Star, Sun, Tornado } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-canyon/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function RoofInspectionsCanyonPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-canyon/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -194,7 +195,7 @@ export default function RoofInspectionsCanyonPage() {
                 Expert roof inspections in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Schedule FREE Inspection
@@ -224,7 +225,7 @@ export default function RoofInspectionsCanyonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -255,7 +256,7 @@ export default function RoofInspectionsCanyonPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Palo Duro Canyon Microclimate Effects</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏔️ Canyon Wind Patterns</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><Mountain className="w-6 h-6 inline-block" /> Canyon Wind Patterns</h4>
                     <p className="text-gray-700 mb-4">The proximity to Palo Duro Canyon creates unique wind patterns and thermal effects that intensify weather conditions.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Wind Acceleration:</strong> Canyon walls create venturi effects increasing wind speeds</li>
@@ -266,7 +267,7 @@ export default function RoofInspectionsCanyonPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">⛈️ Enhanced Storm Formation</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><CloudLightning className="w-6 h-6 inline-block" /> Enhanced Storm Formation</h4>
                     <p className="text-gray-700 mb-4">The canyon's geography contributes to supercell formation and intensification over the region.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Orographic Lifting:</strong> Canyon topography enhancing storm development</li>
@@ -283,7 +284,7 @@ export default function RoofInspectionsCanyonPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">University District Considerations</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏫 West Texas A&M University Impact</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><School className="w-6 h-6 inline-block" /> West Texas A&M University Impact</h4>
                     <p className="text-gray-700 mb-4">University presence creates unique building densities and architectural challenges affecting local weather patterns.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Building Heat Islands:</strong> Campus structures affecting local temperatures</li>
@@ -294,7 +295,7 @@ export default function RoofInspectionsCanyonPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-4">🏘️ Residential Development Patterns</h4>
+                    <h4 className="text-xl font-bold text-gray-800 mb-4"><Home className="w-6 h-6 inline-block" /> Residential Development Patterns</h4>
                     <p className="text-gray-700 mb-4">Canyon's growth around the university creates diverse housing stock requiring specialized inspection approaches.</p>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Student Housing:</strong> High-occupancy rental property considerations</li>
@@ -408,7 +409,7 @@ export default function RoofInspectionsCanyonPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Canyon-Specific Damage Indicators</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🌪️ Canyon Wind Damage Signatures</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Tornado className="w-6 h-6 inline-block" /> Canyon Wind Damage Signatures</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Venturi Acceleration Damage:</strong> Enhanced wind speeds from canyon channeling</li>
                       <li>• <strong>Turbulence Fatigue:</strong> Irregular stress patterns from wind eddies</li>
@@ -419,7 +420,7 @@ export default function RoofInspectionsCanyonPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">⛈️ Orographic Storm Enhancement</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><CloudLightning className="w-6 h-6 inline-block" /> Orographic Storm Enhancement</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>Enhanced Hail Formation:</strong> Larger hail from extended updraft time</li>
                       <li>• <strong>Wind-Driven Hail:</strong> Horizontal impact from canyon wind shear</li>
@@ -430,7 +431,7 @@ export default function RoofInspectionsCanyonPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 mb-3">🏔️ Elevation and Terrain Effects</h4>
+                    <h4 className="font-bold text-gray-800 mb-3"><Mountain className="w-6 h-6 inline-block" /> Elevation and Terrain Effects</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li>• <strong>UV Intensification:</strong> Increased radiation exposure at elevation</li>
                       <li>• <strong>Temperature Cycling:</strong> Enhanced thermal stress from terrain</li>
@@ -503,7 +504,7 @@ export default function RoofInspectionsCanyonPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are the Seasonal Inspection Timing for Canyon?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🌸 Spring Canyon Weather Assessment (March-May)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Flower2 className="w-6 h-6 inline-block" /> Spring Canyon Weather Assessment (March-May)</h3>
                 <p className="text-gray-700 mb-4"><strong>Storm Season Preparation:</strong> Canyon's geography intensifies spring severe weather systems.</p>
                 <div className="space-y-3">
                   <div>
@@ -529,7 +530,7 @@ export default function RoofInspectionsCanyonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">☀️ Summer Heat and UV Assessment (June-August)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Sun className="w-6 h-6 inline-block" /> Summer Heat and UV Assessment (June-August)</h3>
                 <p className="text-gray-700 mb-4"><strong>Elevation UV Exposure:</strong> Canyon's elevation increases UV intensity and thermal stress.</p>
                 <div className="space-y-3">
                   <div>
@@ -555,7 +556,7 @@ export default function RoofInspectionsCanyonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">🍂 Fall Comprehensive Assessment (September-November)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Leaf className="w-6 h-6 inline-block" /> Fall Comprehensive Assessment (September-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Academic Year Preparation:</strong> University activity resumption requires inspection timing coordination.</p>
                 <div className="space-y-3">
                   <div>
@@ -581,7 +582,7 @@ export default function RoofInspectionsCanyonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">❄️ Winter Canyon Microclimate (December-February)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Snowflake className="w-6 h-6 inline-block" /> Winter Canyon Microclimate (December-February)</h3>
                 <p className="text-gray-700 mb-4"><strong>Canyon Cold Effects:</strong> Cold air pooling and unique winter weather patterns.</p>
                 <div className="space-y-3">
                   <div>

@@ -11,6 +11,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-midland/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-morton-35-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -54,7 +55,7 @@ export default function CommercialRoofingMidlandPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/commercial-roofing-midland/#localbusiness",
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-20-1280w.jpg",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
             "priceRange": "$$",
@@ -208,7 +209,7 @@ export default function CommercialRoofingMidlandPage() {
                 Expert commercial roofing for Midland's energy sector. Specialized TPO, EPDM, and metal roofing systems for oil company headquarters, downtown office buildings, and industrial facilities. Engineered for Midland County's 144 annual hail reports and harsh Permian Basin conditions.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -238,7 +239,7 @@ export default function CommercialRoofingMidlandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Sq Ft Office Space</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -277,10 +278,10 @@ export default function CommercialRoofingMidlandPage() {
                   Single-ply white membrane roofing ideal for corporate headquarters and office buildings. Energy Star rated reflective surface dramatically reduces cooling costs for large downtown buildings housing energy companies. Chemical-resistant properties withstand petroleum vapors and industrial environments.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 15-25 year warranties for corporate facilities</li>
-                  <li>✓ Energy-efficient cooling for large office buildings</li>
-                  <li>✓ Chemical resistance for petroleum environments</li>
-                  <li>✓ Professional appearance for headquarters buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-25 year warranties for corporate facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy-efficient cooling for large office buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical resistance for petroleum environments</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Professional appearance for headquarters buildings</li>
                 </ul>
               </div>
 
@@ -291,10 +292,10 @@ export default function CommercialRoofingMidlandPage() {
                   Standing seam and R-panel metal roofing for oil field industrial facilities. Superior fire resistance critical for petroleum operations, tank farms, and equipment yards. Wind resistance exceeding 140 mph protects against Permian Basin storms and extreme weather events.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 50+ year lifespan for industrial facilities</li>
-                  <li>✓ Class A fire rating for petroleum operations</li>
-                  <li>✓ Wind resistance 140+ mph</li>
-                  <li>✓ Low maintenance for remote oil field locations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />50+ year lifespan for industrial facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Class A fire rating for petroleum operations</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance 140+ mph</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Low maintenance for remote oil field locations</li>
                 </ul>
               </div>
 
@@ -305,10 +306,10 @@ export default function CommercialRoofingMidlandPage() {
                   Cost-effective black rubber membrane for oil field support facilities and equipment buildings. Excellent chemical resistance against petroleum products and superior UV stability in Midland's intense sun exposure. Budget-friendly option for warehouses and auxiliary buildings.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>✓ 15-30 year lifespan for support facilities</li>
-                  <li>✓ Chemical resistance against petroleum products</li>
-                  <li>✓ UV stability in extreme sun exposure</li>
-                  <li>✓ Budget-friendly for auxiliary buildings</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-30 year lifespan for support facilities</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical resistance against petroleum products</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UV stability in extreme sun exposure</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Budget-friendly for auxiliary buildings</li>
                 </ul>
               </div>
             </div>
@@ -392,12 +393,12 @@ export default function CommercialRoofingMidlandPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Key Code Requirements</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li>✓ <strong>International Building Code (IBC)</strong></li>
-                    <li>✓ Wind resistance: 130-145 mph for oil facilities</li>
-                    <li>✓ Enhanced fire ratings for petroleum operations</li>
-                    <li>✓ Chemical resistance standards</li>
-                    <li>✓ Emergency access and ventilation requirements</li>
-                    <li>✓ Energy efficiency standards for large buildings</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>International Building Code (IBC)</strong></li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance: 130-145 mph for oil facilities</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced fire ratings for petroleum operations</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical resistance standards</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Emergency access and ventilation requirements</li>
+                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy efficiency standards for large buildings</li>
                   </ul>
                 </div>
               </div>
@@ -455,7 +456,7 @@ export default function CommercialRoofingMidlandPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl">
             <div className="flex gap-6 items-center">
-              <div className="text-6xl">🚨</div>
+              <div className="text-6xl"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
               <div className="flex-1">
                 <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">

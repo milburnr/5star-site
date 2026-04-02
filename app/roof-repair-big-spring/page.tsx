@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Handshake, Lock, Phone, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-big-spring/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function RoofRepairBigSpringPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-big-spring/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -198,7 +199,7 @@ export default function RoofRepairBigSpringPage() {
                 Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -228,7 +229,7 @@ export default function RoofRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -524,17 +525,17 @@ export default function RoofRepairBigSpringPage() {
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our Big Spring Service Promise</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-4xl mb-2">⚡</div>
+                  <div className="text-4xl mb-2"><Zap className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold mb-2 text-brand-brown">Rapid Storm Response</h4>
                   <p className="text-sm text-gray-600">prompt services when Big Spring weather strikes</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl mb-2">🔒</div>
+                  <div className="text-4xl mb-2"><Lock className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold mb-2 text-brand-brown">Comprehensive Warranties</h4>
                   <p className="text-sm text-gray-600">10-year workmanship guarantee on all installations</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl mb-2">🤝</div>
+                  <div className="text-4xl mb-2"><Handshake className="w-6 h-6 inline-block" /></div>
                   <h4 className="font-bold mb-2 text-brand-brown">Insurance Partnership</h4>
                   <p className="text-sm text-gray-600">Expert guidance through the entire claims process</p>
                 </div>

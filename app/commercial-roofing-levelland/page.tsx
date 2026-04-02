@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Fuel, GraduationCap, Phone, Star, Store, Wheat, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-levelland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function CommercialRoofingLevellandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-levelland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function CommercialRoofingLevellandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Levelland. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function CommercialRoofingLevellandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -148,7 +149,7 @@ export default function CommercialRoofingLevellandPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Levelland's Key Industries Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-green-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌾 Cotton Processing & Storage</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Cotton Processing & Storage</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Levelland's cotton industry, centered around the world's largest cotton warehouse and numerous processing facilities, requires specialized roofing systems capable of protecting valuable crops while accommodating massive storage and processing operations:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Clear-span warehouses up to 400 feet wide</li>
@@ -162,7 +163,7 @@ export default function CommercialRoofingLevellandPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 Educational Facilities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> Educational Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">South Plains College and Levelland ISD serve the agricultural community with specialized programs in agriculture, petroleum technology, and trades. Educational facilities require cost-effective roofing solutions that support diverse learning environments:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Agricultural education and research buildings</li>
@@ -178,7 +179,7 @@ export default function CommercialRoofingLevellandPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-orange-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">⛽ Petroleum Support Services</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Petroleum Support Services</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Levelland's strategic location supports petroleum operations throughout the South Plains region with equipment suppliers, service companies, and logistics operations requiring specialized commercial roofing:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Oilfield equipment storage and maintenance</li>
@@ -191,7 +192,7 @@ export default function CommercialRoofingLevellandPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-purple-500">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏪 Agricultural Retail & Services</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Store className="w-6 h-6 inline-block" /> Agricultural Retail & Services</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Levelland's role as a regional agricultural center supports numerous retail and service businesses serving farmers and ranchers throughout Hockley County and the surrounding South Plains region:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
                   <li>• Farm equipment dealerships and service centers</li>
@@ -220,7 +221,7 @@ export default function CommercialRoofingLevellandPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🌾</span>
+                  <span className="text-white text-2xl"><Wheat className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Agricultural Expertise</h3>
                 <p className="text-gray-700">Specialized experience with cotton warehouses, processing facilities, and agricultural storage throughout Texas.</p>
@@ -228,7 +229,7 @@ export default function CommercialRoofingLevellandPage() {
               
               <div className="text-center">
                 <div className="bg-brand-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white text-2xl">🔧</span>
+                  <span className="text-white text-2xl"><Wrench className="w-6 h-6 inline-block" /></span>
                 </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Clear-Span Specialists</h3>
                 <p className="text-gray-700">Engineering and installation expertise for massive agricultural storage buildings and processing facilities.</p>
@@ -428,7 +429,7 @@ export default function CommercialRoofingLevellandPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Agricultural and Educational Financing Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌾 Agricultural Seasonal Financing</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Agricultural Seasonal Financing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Cotton farming and agricultural businesses operate on seasonal cycles with harvest-time revenue. Our financing programs accommodate these cycles, allowing agricultural businesses to complete roofing projects without disrupting cash flow.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Agricultural Financing Options:</h4>
@@ -446,7 +447,7 @@ export default function CommercialRoofingLevellandPage() {
               </div>
               
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🎓 Educational Budget Coordination</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> Educational Budget Coordination</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Educational institutions like South Plains College operate on strict annual budgets and grant funding cycles. Our flexible payment programs work within these constraints while ensuring quality roofing protection.</p>
                 
                 <h4 className="text-lg font-bold text-brand-brown mb-3">Educational Institution Programs:</h4>

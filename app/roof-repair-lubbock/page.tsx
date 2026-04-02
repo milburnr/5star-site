@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import type { Metadata } from "next";
+import { CheckCircle, Home, Landmark, Microscope, Mountain, Phone, School, Tornado, Wind, XCircle, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-lubbock/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function RoofRepairLubbockPage() {
         "@id": "https://5starroofingpros.com/roof-repair-lubbock/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -100,7 +101,7 @@ export default function RoofRepairLubbockPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">South Plains Dust Storm Specialists</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Expert roof repair for Lubbock's unique South Plains challenges. Serving Texas Tech area, historic neighborhoods, and modern developments with specialized solutions for dust damage, wind stress, and university district properties.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -115,7 +116,7 @@ export default function RoofRepairLubbockPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">41</div><div className="text-brand-brown font-semibold text-lg">Median Home Age</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">75+</div><div className="text-brand-brown font-semibold text-lg">MPH Wind Gusts</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">0</div><div className="text-brand-brown font-semibold text-lg">Wind Protection</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">🌪️💨🏜️</div><div className="text-brand-brown font-semibold text-lg">Dust Storms</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><Tornado className="w-6 h-6 inline-block" /><Wind className="w-6 h-6 inline-block" /><Mountain className="w-6 h-6 inline-block" /></div><div className="text-brand-brown font-semibold text-lg">Dust Storms</div></div>
             </div>
           </div>
         </section>
@@ -196,22 +197,22 @@ export default function RoofRepairLubbockPage() {
             <h2 className="text-3xl font-bold mb-6 text-brand-brown text-center">How Does the South Plains-Specific Repair Process Work?</h2>
             <div className="grid lg:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🔬</div>
+                <div className="text-4xl mb-4"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Damage Assessment</h3>
                 <p className="text-gray-700">Specialized inspection for granule loss from haboob sandblasting, gutter clogging, and accelerated UV degradation unique to South Plains conditions.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">💨</div>
+                <div className="text-4xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Wind Uplift Analysis</h3>
                 <p className="text-gray-700">Comprehensive evaluation of wind damage in areas with no terrain protection, focusing on shingle tab lifting and fastener failure patterns.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">🏠</div>
+                <div className="text-4xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">University District Expertise</h3>
                 <p className="text-gray-700">Specialized knowledge of Tech Terrace and student housing challenges, including deferred maintenance issues and rental property requirements.</p>
               </div>
               <div className="text-center p-6 bg-brand-gold-light/10 rounded-xl">
-                <div className="text-4xl mb-4">⚡</div>
+                <div className="text-4xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response Team</h3>
                 <p className="text-gray-700">Rapid deployment after supercell events, with expertise in documenting wind and hail damage for insurance claims throughout Lubbock County.</p>
               </div>
@@ -321,7 +322,7 @@ export default function RoofRepairLubbockPage() {
             
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">🏜️ Dust Storm Protection Systems</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Mountain className="w-6 h-6 inline-block" /> Dust Storm Protection Systems</h3>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="bg-yellow-100 p-2 rounded-full mr-3 mt-1">
@@ -354,7 +355,7 @@ export default function RoofRepairLubbockPage() {
               </div>
               
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">💨 Wind Resistance Upgrades</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Wind Resistance Upgrades</h3>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="bg-red-100 p-2 rounded-full mr-3 mt-1">
@@ -396,7 +397,7 @@ export default function RoofRepairLubbockPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-red-800">🏫 Student Rental Properties</h3>
+                <h3 className="text-2xl font-bold mb-4 text-red-800"><School className="w-6 h-6 inline-block" /> Student Rental Properties</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Deferred Maintenance Assessment</h4>
@@ -418,7 +419,7 @@ export default function RoofRepairLubbockPage() {
               </div>
 
               <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">🏛️ Historic Tech Terrace</h3>
+                <h3 className="text-2xl font-bold mb-4 text-blue-800"><Landmark className="w-6 h-6 inline-block" /> Historic Tech Terrace</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Period-Appropriate Materials</h4>
@@ -449,7 +450,7 @@ export default function RoofRepairLubbockPage() {
             
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-green-700">✅ Recommended Materials for Lubbock</h3>
+                <h3 className="text-xl font-bold mb-4 text-green-700"><CheckCircle className="w-5 h-5 inline-block text-green-600" /> Recommended Materials for Lubbock</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="border-l-4 border-green-500 pl-4">
                     <h4 className="font-bold text-green-800">Class 4 Impact Shingles</h4>
@@ -482,7 +483,7 @@ export default function RoofRepairLubbockPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-red-700">❌ Materials to Avoid in South Plains</h3>
+                <h3 className="text-xl font-bold mb-4 text-red-700"><XCircle className="w-5 h-5 inline-block text-red-600" /> Materials to Avoid in South Plains</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="border-l-4 border-red-500 pl-4">
                     <h4 className="font-bold text-red-800">Standard Asphalt Shingles</h4>

@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { BarChart3, Factory, FlaskConical, Home, Landmark, Leaf, Mountain, Phone, Snowflake, Star, Sun, Thermometer, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-odessa/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function RoofInspectionsOdessaPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-odessa/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function RoofInspectionsOdessaPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional roof inspections throughout Odessa. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function RoofInspectionsOdessaPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -143,7 +144,7 @@ export default function RoofInspectionsOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Odessa's Unique Environmental Impact Assessment?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Refinery and Chemical Plant Effects</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Refinery and Chemical Plant Effects</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Sulfur Compound Corrosion:</strong> Assessment of refinery emission damage to metal roofing components</li>
                   <li><strong>Petrochemical Deposition:</strong> Detection of hydrocarbon residue buildup on roofing surfaces</li>
@@ -163,7 +164,7 @@ export default function RoofInspectionsOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌬️ Air Quality and Visibility Issues</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Air Quality and Visibility Issues</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Particulate Loading:</strong> Industrial dust accumulation on roofing systems</li>
                   <li><strong>Ozone Degradation:</strong> Ground-level ozone effects on rubber and plastic components</li>
@@ -173,7 +174,7 @@ export default function RoofInspectionsOdessaPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏘️ Mixed-Use Development Impacts</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Mixed-Use Development Impacts</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Industrial-Residential Interface:</strong> Differential exposure levels within city limits</li>
                   <li><strong>Transportation Corridor Effects:</strong> Highway and rail traffic vibration and pollution</li>
@@ -230,7 +231,7 @@ export default function RoofInspectionsOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Strategic Inspection Timing for Odessa's Climate and Industry Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌿 Spring Air Quality Assessment (March-May)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Leaf className="w-6 h-6 inline-block" /> Spring Air Quality Assessment (March-May)</h3>
                 <p className="text-gray-700 mb-4"><strong>Post-Winter Industrial Restart:</strong> Many industrial facilities undergo maintenance shutdowns in winter, resuming full operations in spring. This creates unique air quality conditions as systems restart.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Winter shutdown maintenance completion verification</li>
@@ -244,7 +245,7 @@ export default function RoofInspectionsOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">☀️ Summer Heat and Ozone Season (June-August)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Sun className="w-6 h-6 inline-block" /> Summer Heat and Ozone Season (June-August)</h3>
                 <p className="text-gray-700 mb-4"><strong>Peak Environmental Stress:</strong> Odessa's summer heat combines with industrial emissions to create high ozone levels that accelerate material degradation. Critical assessment period for cumulative damage.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Heat-accelerated chemical reaction damage assessment</li>
@@ -258,7 +259,7 @@ export default function RoofInspectionsOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🍂 Fall Comprehensive Evaluation (September-November)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Leaf className="w-6 h-6 inline-block" /> Fall Comprehensive Evaluation (September-November)</h3>
                 <p className="text-gray-700 mb-4"><strong>Industrial Activity Stabilization:</strong> Fall brings more stable industrial operations and moderate weather, ideal for comprehensive annual assessments and major maintenance planning.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Annual cumulative environmental impact assessment</li>
@@ -272,7 +273,7 @@ export default function RoofInspectionsOdessaPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">❄️ Winter Industry Maintenance Period (December-February)</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Winter Industry Maintenance Period (December-February)</h3>
                 <p className="text-gray-700 mb-4"><strong>Industrial Facility Shutdowns:</strong> Many refineries and chemical plants conduct major maintenance during winter months, providing cleaner air conditions for detailed assessment work.</p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Clean air condition advantage for detailed material analysis</li>
@@ -294,17 +295,17 @@ export default function RoofInspectionsOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Odessa's Complex Environmental Landscape?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏭 Historic Petroleum Refining Center</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Historic Petroleum Refining Center</h3>
                 <p className="text-gray-700 mb-3">Odessa has been refining petroleum since 1929, creating a unique urban environment where residential neighborhoods exist alongside major industrial facilities. The legacy of decades of industrial operations has created specific air quality challenges that affect building materials differently than normal weathering.</p>
                 <p className="text-gray-700"><strong>Specialized Assessment:</strong> We use historical air quality data and industrial incident records to correlate property damage with documented environmental events, providing defensible documentation for insurance claims and environmental liability assessments.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🌋 Llano Estacado Escarpment Effects</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Mountain className="w-6 h-6 inline-block" /> Llano Estacado Escarpment Effects</h3>
                 <p className="text-gray-700 mb-3">Odessa sits on the northern edge of the Llano Estacado, creating unique topographical wind patterns and geological conditions. The escarpment creates wind acceleration zones and differential pressure areas that affect roofing systems differently than flat terrain locations.</p>
                 <p className="text-gray-700"><strong>Geographical Analysis:</strong> Our inspections include topographical wind pattern analysis and geological stability assessment specific to escarpment locations, identifying damage patterns unique to Odessa's geographic position.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-brand-brown">🏛️ Historic Downtown Mixed Development</h3>
+                <h3 className="text-xl font-semibold mb-4 text-brand-brown"><Landmark className="w-6 h-6 inline-block" /> Historic Downtown Mixed Development</h3>
                 <p className="text-gray-700 mb-3">Odessa's downtown combines historic buildings from the oil boom era with modern commercial and residential development. This creates unique challenges in material compatibility, building code compliance, and environmental exposure variations within small geographic areas.</p>
                 <p className="text-gray-700"><strong>Heritage Considerations:</strong> We specialize in historic building assessment, material compatibility analysis, and preservation-compliant repair recommendations that maintain historical integrity while addressing modern environmental challenges.</p>
               </div>
@@ -317,17 +318,17 @@ export default function RoofInspectionsOdessaPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Advanced Environmental Monitoring for Industrial Conditions?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">🌡️</div>
+                <div className="text-5xl mb-4 text-center"><Thermometer className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Air Quality Correlation Systems</h3>
                 <p className="text-gray-700">Real-time air quality monitoring equipment correlates material degradation with documented pollution events. Essential for distinguishing between normal aging and industrial exposure damage in insurance documentation.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">⚗️</div>
+                <div className="text-5xl mb-4 text-center"><FlaskConical className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Chemical Residue Analysis</h3>
                 <p className="text-gray-700">Specialized laboratory analysis identifies specific industrial contaminants on roofing materials. Provides scientific evidence for environmental damage claims and helps establish liability for contamination sources.</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <div className="text-5xl mb-4 text-center">📊</div>
+                <div className="text-5xl mb-4 text-center"><BarChart3 className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown text-center">Historical Incident Database</h3>
                 <p className="text-gray-700">Comprehensive database of industrial incidents, air quality events, and weather patterns provides timeline correlation for damage assessment. Critical for establishing causation in complex environmental cases.</p>
               </div>

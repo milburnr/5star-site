@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Camera, ClipboardList, CloudHail, Factory, FileText, Fuel, Handshake, Microscope, Mountain, Phone, Search, Star, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-monahans/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -60,7 +61,7 @@ export default function RoofInspectionsMonahansPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-inspections-monahans/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-5-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -198,7 +199,7 @@ export default function RoofInspectionsMonahansPage() {
                 Professional roof inspections in Monahans, Texas. The Permian Basin experiences 6-8 severe hailstorms annually, combined with extreme industrial conditions requiring specialized roofing expertise. Complete storm damage assessment and insurance documentation.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
                 </a>
@@ -225,7 +226,7 @@ export default function RoofInspectionsMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -258,7 +259,7 @@ export default function RoofInspectionsMonahansPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🔍 Exterior Assessment</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Exterior Assessment</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>• <strong>Industrial Contamination Analysis:</strong> Oil field dust, chemical exposure, atmospheric corrosion</li>
                   <li>• <strong>Hail Damage Documentation:</strong> Impact patterns, granule displacement, substrate exposure</li>
@@ -269,7 +270,7 @@ export default function RoofInspectionsMonahansPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">🏭 Industrial Environment Factors</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Industrial Environment Factors</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>• <strong>Chemical Exposure Effects:</strong> Hydrogen sulfide, hydrocarbon vapor, acid rain damage</li>
                   <li>• <strong>Dust Accumulation Impact:</strong> Caliche dust, sand infiltration, abrasive wear</li>
@@ -282,7 +283,7 @@ export default function RoofInspectionsMonahansPage() {
             </div>
 
             <div className="bg-gradient-to-r from-orange-600 to-red-600 text-white p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4">🛢️ Oil Field Specific Considerations</h3>
+              <h3 className="text-2xl font-bold mb-4"><Fuel className="w-6 h-6 inline-block" /> Oil Field Specific Considerations</h3>
               <p className="text-lg mb-6">
                 The Permian Basin's oil and gas operations create unique environmental stresses on roofing systems. Our inspections specifically address damage from hydrocarbon exposure, dust storms, extreme heat, chemical vapors, and the high-vibration environment common to active drilling areas.
               </p>
@@ -308,7 +309,7 @@ export default function RoofInspectionsMonahansPage() {
             </h2>
             
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">🌨️ Desert Hailstorm Damage Patterns</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Desert Hailstorm Damage Patterns</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h4 className="font-bold text-lg mb-3 text-gray-800">Hail Impact Characteristics</h4>
@@ -344,7 +345,7 @@ export default function RoofInspectionsMonahansPage() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">💨 Desert Wind & Dust Damage Assessment</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Desert Wind & Dust Damage Assessment</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="text-xl font-bold mb-4 text-gray-800">Wind-Driven Damage</h4>
@@ -379,7 +380,7 @@ export default function RoofInspectionsMonahansPage() {
               How Does the Insurance Claims Process Work in Monahans?
             </h2>
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl mb-8">
-              <h3 className="text-2xl font-bold mb-4">📋 Specialized Documentation for Oil Country</h3>
+              <h3 className="text-2xl font-bold mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Specialized Documentation for Oil Country</h3>
               <p className="text-lg leading-relaxed">
                 Insurance claims in the Permian Basin require specialized documentation that addresses both traditional storm damage and the unique environmental factors affecting roofing systems in oil and gas producing areas. Our reports provide comprehensive evidence for successful claim resolution.
               </p>
@@ -387,7 +388,7 @@ export default function RoofInspectionsMonahansPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">📸 Comprehensive Evidence Package</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Camera className="w-6 h-6 inline-block" /> Comprehensive Evidence Package</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Environmental Context Photography:</strong> Industrial conditions affecting roof</li>
                   <li>• <strong>Multi-Spectral Imaging:</strong> Standard and infrared documentation</li>
@@ -398,7 +399,7 @@ export default function RoofInspectionsMonahansPage() {
                 </ul>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">📄 Technical Analysis Reports</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><FileText className="w-6 h-6 inline-block" /> Technical Analysis Reports</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Environmental Impact Assessment:</strong> Industrial vs. storm damage differentiation</li>
                   <li>• <strong>Material Failure Analysis:</strong> Chemical compatibility, thermal stress evaluation</li>
@@ -411,7 +412,7 @@ export default function RoofInspectionsMonahansPage() {
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold mb-4 text-amber-800">⚠️ Monahans Insurance Claim Strategy</h3>
+              <h3 className="text-xl font-bold mb-4 text-amber-800"><AlertTriangle className="w-6 h-6 inline-block" /> Monahans Insurance Claim Strategy</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold mb-3 text-amber-700">Permian Basin Specific Factors</h4>
@@ -446,7 +447,7 @@ export default function RoofInspectionsMonahansPage() {
               How Do Weather Extremes Affect Roofing in Monahans?
             </h2>
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">🏜️ Desert Climate & Oil Field Environment</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown"><Mountain className="w-6 h-6 inline-block" /> Desert Climate & Oil Field Environment</h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Monahans sits in Ward County at the heart of the Permian Basin, where the Chihuahuan Desert climate combines with intensive oil and gas operations to create one of the most challenging roofing environments in North America. The region experiences extreme temperature variations, persistent high winds, low humidity, intense solar radiation, and atmospheric contamination from industrial operations.
               </p>
@@ -505,17 +506,17 @@ export default function RoofInspectionsMonahansPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🛢️</div>
+                <div className="text-4xl mb-4"><Fuel className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Field Experience</h3>
                 <p className="text-gray-600">Over 15 years working in Permian Basin conditions. Deep understanding of how industrial environments affect roofing systems and insurance considerations.</p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🔬</div>
+                <div className="text-4xl mb-4"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Specialized Analysis</h3>
                 <p className="text-gray-600">Advanced testing for chemical exposure, thermal stress, and environmental damage unique to oil and gas producing areas.</p>
               </div>
               <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-                <div className="text-4xl mb-4">🤝</div>
+                <div className="text-4xl mb-4"><Handshake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Industry Relationships</h3>
                 <p className="text-gray-600">Established connections with industrial insurers, environmental consultants, and regulatory agencies for comprehensive claim support.</p>
               </div>

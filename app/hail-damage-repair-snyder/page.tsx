@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Briefcase, Camera, Check, Circle, Droplets, Home, Phone, Search, Shield, Snowflake, Star, Tornado, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-snyder/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -47,7 +48,7 @@ export default function HailDamageRepairSnyderPage() {
         "@id": "https://5starroofingpros.com/hail-damage-repair-snyder/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-22-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function HailDamageRepairSnyderPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional hail damage repair throughout Snyder. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function HailDamageRepairSnyderPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -155,7 +156,7 @@ export default function HailDamageRepairSnyderPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Professional Hail Damage Assessment Process Work?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <div className="text-4xl mb-4 text-blue-600">🔍</div>
+                <div className="text-4xl mb-4 text-blue-600"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Comprehensive Inspection</h3>
                 <p className="text-gray-700 mb-4">Detailed roof surface examination identifying all hail impacts, granule loss patterns, exposed mat areas, and compromised shingle integrity. Professional measurement and documentation of damage severity and extent.</p>
                 <ul className="text-sm text-gray-600 space-y-2">
@@ -167,7 +168,7 @@ export default function HailDamageRepairSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <div className="text-4xl mb-4 text-green-600">📸</div>
+                <div className="text-4xl mb-4 text-green-600"><Camera className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Professional Documentation</h3>
                 <p className="text-gray-700 mb-4">High-resolution photography, detailed measurements, and comprehensive reporting designed for insurance claim submission. Professional-grade documentation ensures maximum claim approval rates.</p>
                 <ul className="text-sm text-gray-600 space-y-2">
@@ -179,7 +180,7 @@ export default function HailDamageRepairSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <div className="text-4xl mb-4 text-orange-600">💼</div>
+                <div className="text-4xl mb-4 text-orange-600"><Briefcase className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Insurance Claim Support</h3>
                 <p className="text-gray-700 mb-4">Complete insurance claim assistance including adjuster meetings, supplement negotiations, and advocacy for maximum coverage. Extensive experience with major insurance carriers.</p>
                 <ul className="text-sm text-gray-600 space-y-2">
@@ -202,29 +203,29 @@ export default function HailDamageRepairSnyderPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">🧊 Asphalt Shingle Damage</h3>
+                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center"><Snowflake className="w-6 h-6 inline-block" /> Asphalt Shingle Damage</h3>
                     <p className="text-gray-700">Hail impacts create granule loss, exposed mat areas, cracking, and bruising. Small hail may only cause granule displacement, while large hail can crack or puncture shingles completely, requiring immediate replacement to prevent water intrusion.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">⚪ Metal Roofing Impact</h3>
+                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center"><Circle className="w-6 h-6 inline-block" /> Metal Roofing Impact</h3>
                     <p className="text-gray-700">Hail creates dents and dings in metal roofing systems that may not affect functionality immediately but can compromise coatings, leading to premature corrosion and reduced lifespan requiring professional evaluation and potential replacement.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">🔧 Flashing and Accessory Damage</h3>
+                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center"><Wrench className="w-6 h-6 inline-block" /> Flashing and Accessory Damage</h3>
                     <p className="text-gray-700">Roof vents, flashing, gutters, and HVAC units often sustain visible denting from hail impacts. These components are critical for waterproofing and may require replacement even when primary roofing materials appear undamaged.</p>
                   </div>
                 </div>
                 <div className="space-y-6">
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">💧 Immediate vs. Progressive Damage</h3>
+                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center"><Droplets className="w-6 h-6 inline-block" /> Immediate vs. Progressive Damage</h3>
                     <p className="text-gray-700">Some hail damage causes immediate leaks requiring storm response, while other damage compromises long-term integrity without immediate symptoms. Professional assessment identifies both types for comprehensive repair planning.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">🌪️ Wind-Driven Hail Patterns</h3>
+                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center"><Tornado className="w-6 h-6 inline-block" /> Wind-Driven Hail Patterns</h3>
                     <p className="text-gray-700">West Texas storms often combine hail with high winds, creating unique damage patterns on vertical surfaces and roof edges. These areas require special attention during assessment to ensure comprehensive damage identification.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center">🏠 Interior Impact Assessment</h3>
+                    <h3 className="text-lg font-bold mb-3 text-brand-brown flex items-center"><Home className="w-6 h-6 inline-block" /> Interior Impact Assessment</h3>
                     <p className="text-gray-700">Hail damage may cause interior water damage, ceiling stains, insulation damage, and electrical hazards. Comprehensive assessment includes interior inspection to document all related damage for insurance claims.</p>
                   </div>
                 </div>
@@ -283,7 +284,7 @@ export default function HailDamageRepairSnyderPage() {
                   <p className="text-gray-600">Class 4 shingles qualify for insurance premium discounts up to 30% in Texas, often paying for upgrade costs through reduced premiums over the roof's lifespan.</p>
                 </div>
                 <div className="text-center">
-                  <div className="bg-orange-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">🛡️</div>
+                  <div className="bg-orange-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold"><Shield className="w-6 h-6 inline-block" /></div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Enhanced Protection</h3>
                   <p className="text-gray-600">Impact-resistant materials reduce future hail damage by up to 90%, protecting property value and minimizing future repair costs and insurance claims.</p>
                 </div>
@@ -368,21 +369,21 @@ export default function HailDamageRepairSnyderPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Hail Damage Expertise</h3>
                       <p className="text-gray-700">Extensive experience with West Texas hail patterns, damage identification, and repair techniques specific to regional weather challenges and insurance requirements.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Insurance Claim Success</h3>
                       <p className="text-gray-700">95%+ claim approval rate through professional documentation, adjuster coordination, and comprehensive damage assessment ensuring maximum coverage for Snyder property owners.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Advanced Materials</h3>
                       <p className="text-gray-700">Access to latest impact-resistant roofing technologies including Class 4 shingles, advanced metal systems, and innovative materials designed for superior hail protection.</p>
@@ -391,21 +392,21 @@ export default function HailDamageRepairSnyderPage() {
                 </div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Complete Documentation</h3>
                       <p className="text-gray-700">Professional-grade damage documentation with high-resolution photography, detailed measurements, and comprehensive reporting designed for successful insurance claim submission.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Local Availability</h3>
                       <p className="text-gray-700">Immediate response capability for post-storm assessment and prompt services throughout Snyder and surrounding areas with rapid deployment for time-sensitive situations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">✓</div>
+                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Comprehensive Warranties</h3>
                       <p className="text-gray-700">Complete warranty coverage including material warranties, workmanship guarantees, and manufacturer backing providing long-term protection and peace of mind.</p>

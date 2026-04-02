@@ -2,6 +2,7 @@ import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { BarChart3, CheckCircle, Clock, CloudHail, DollarSign, Droplets, Home, Lightbulb, Microscope, Phone, Shield, Snowflake, Thermometer, Wind, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/' },
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -77,7 +78,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -107,7 +108,7 @@ export default function Page() {
       </div>
 
       <div className="bg-cyan-50 border-l-4 border-cyan-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-cyan-800">🌨️ Texas Panhandle Winter Weather Patterns</h3>
+        <h3 className="text-xl font-bold mb-3 text-cyan-800"><CloudHail className="w-6 h-6 inline-block" /> Texas Panhandle Winter Weather Patterns</h3>
         <p className="mb-4">Understanding the unique winter climate of the Texas Panhandle is crucial for identifying and preventing cold weather roof damage:</p>
         
         <div className="grid md:grid-cols-2 gap-6">
@@ -144,7 +145,7 @@ export default function Page() {
         
         <div className="grid md:grid-cols-3 gap-4 mb-6">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🧊 Freeze-Thaw Expansion</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Freeze-Thaw Expansion</h3>
             <p className="text-sm mb-3">Water expands approximately 9% when it freezes, creating tremendous pressure inside small cracks and gaps.</p>
             <ul className="text-sm space-y-1">
               <li>• Pressure can exceed 30,000 PSI</li>
@@ -155,7 +156,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🌡️ Thermal Stress</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Thermal Stress</h3>
             <p className="text-sm mb-3">Rapid temperature changes cause materials to expand and contract at different rates, creating internal stress.</p>
             <ul className="text-sm space-y-1">
               <li>• Metal flashing contracts faster than shingles</li>
@@ -166,7 +167,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">💧 Capillary Action</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Droplets className="w-6 h-6 inline-block" /> Capillary Action</h3>
             <p className="text-sm mb-3">Water drawn into small spaces by surface tension can penetrate deep into roof assemblies.</p>
             <ul className="text-sm space-y-1">
               <li>• Water wicks under shingles</li>
@@ -249,7 +250,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-blue-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-blue-800">🔬 Thermal Imaging Analysis</h3>
+            <h3 className="text-lg font-bold mb-3 text-blue-800"><Microscope className="w-6 h-6 inline-block" /> Thermal Imaging Analysis</h3>
             <ul className="space-y-2 text-sm">
               <li>• Detect heat loss patterns indicating insulation problems</li>
               <li>• Identify moisture intrusion in roof assemblies</li>
@@ -261,7 +262,7 @@ export default function Page() {
           </div>
           
           <div className="bg-blue-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-blue-800">📊 Structural Load Assessment</h3>
+            <h3 className="text-lg font-bold mb-3 text-blue-800"><BarChart3 className="w-6 h-6 inline-block" /> Structural Load Assessment</h3>
             <ul className="space-y-2 text-sm">
               <li>• Calculate snow and ice load capacity</li>
               <li>• Evaluate structural integrity of roof deck</li>
@@ -282,7 +283,7 @@ export default function Page() {
 
         <div className="space-y-6">
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">❄️ Emergency Ice Dam Removal</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Emergency Ice Dam Removal</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Safe Removal Methods:</h4>
@@ -308,7 +309,7 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">🛠️ Cold-Weather Repair Materials</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Wrench className="w-6 h-6 inline-block" /> Cold-Weather Repair Materials</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Specialty Products:</h4>
@@ -334,7 +335,7 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">🏠 Structural Reinforcement</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Structural Reinforcement</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Load-Bearing Improvements:</h4>
@@ -364,7 +365,7 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Historical Texas Panhandle Winter Storm Events</h2>
       <div className="space-y-6 mb-8">
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-bold mb-3 text-brand-brown">🌨️ Winter Storm Uri (February 2021)</h3>
+          <h3 className="text-lg font-bold mb-3 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Winter Storm Uri (February 2021)</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-semibold mb-2">Storm Statistics:</h4>
@@ -390,7 +391,7 @@ export default function Page() {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-bold mb-3 text-brand-brown">❄️ The Christmas Blizzard (December 2015)</h3>
+          <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> The Christmas Blizzard (December 2015)</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-semibold mb-2">Event Overview:</h4>
@@ -415,7 +416,7 @@ export default function Page() {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-bold mb-3 text-brand-brown">🧊 Ice Storm of 2013</h3>
+          <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Ice Storm of 2013</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-semibold mb-2">Meteorological Conditions:</h4>
@@ -487,7 +488,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-3 gap-4 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🌡️ Thermal Envelope Optimization</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Thermal Envelope Optimization</h3>
             <ul className="space-y-2 text-sm">
               <li>• R-38 to R-49 attic insulation (Texas climate zone)</li>
               <li>• Continuous air barrier installation</li>
@@ -500,7 +501,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">💨 Advanced Ventilation Systems</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Advanced Ventilation Systems</h3>
             <ul className="space-y-2 text-sm">
               <li>• Ridge vent with external wind baffle</li>
               <li>• Soffit vents with insulation baffles</li>
@@ -513,7 +514,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🛡️ Ice Damage Prevention</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Shield className="w-6 h-6 inline-block" /> Ice Damage Prevention</h3>
             <ul className="space-y-2 text-sm">
               <li>• Ice and water shield to 36" above wall line</li>
               <li>• Enhanced underlayment in valleys</li>
@@ -528,7 +529,7 @@ export default function Page() {
       </div>
 
       <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-purple-800">💰 Insurance Considerations for Winter Damage</h3>
+        <h3 className="text-xl font-bold mb-3 text-purple-800"><DollarSign className="w-6 h-6 inline-block" /> Insurance Considerations for Winter Damage</h3>
         <p className="mb-4">Winter storm damage coverage varies significantly between insurance policies in Texas. Understanding your coverage helps ensure proper protection and claim success.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
@@ -556,7 +557,7 @@ export default function Page() {
         </div>
         
         <div className="bg-yellow-100 rounded-lg p-4 mt-4">
-          <h4 className="font-bold mb-2">💡 Pro Tip: Document Everything</h4>
+          <h4 className="font-bold mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Pro Tip: Document Everything</h4>
           <p className="text-sm">Take photos of your roof before winter weather arrives. This documentation can be crucial for proving that damage occurred during a specific storm event rather than from gradual deterioration.</p>
         </div>
       </div>
@@ -579,7 +580,7 @@ export default function Page() {
           </div>
           
           <div className="bg-green-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-green-800">✅ Safety-First Approach</h3>
+            <h3 className="text-lg font-bold mb-3 text-green-800"><CheckCircle className="w-5 h-5 inline-block text-green-600" /> Safety-First Approach</h3>
             <ul className="space-y-2 text-sm">
               <li>• Never risk personnel safety for property</li>
               <li>• Specialized equipment for icy conditions</li>
@@ -594,7 +595,7 @@ export default function Page() {
       </div>
 
       <div className="bg-orange-50 border-l-4 border-orange-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-orange-800">🕐 Seasonal Maintenance Calendar</h3>
+        <h3 className="text-xl font-bold mb-3 text-orange-800"><Clock className="w-6 h-6 inline-block" /> Seasonal Maintenance Calendar</h3>
         <p className="mb-4">Proactive maintenance is the best defense against winter roof damage. Follow this Texas Panhandle-specific schedule:</p>
         
         <div className="grid md:grid-cols-4 gap-4">
@@ -638,7 +639,7 @@ export default function Page() {
       </div>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-        <h3 className="font-bold mb-3">❄️ Post-Winter Roof Inspection</h3>
+        <h3 className="font-bold mb-3"><Snowflake className="w-6 h-6 inline-block" /> Post-Winter Roof Inspection</h3>
         <p>After severe winter weather in the Texas Panhandle, schedule a professional <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof inspection</a> even if you don't see obvious damage. Freeze-thaw cycling and ice dam damage may not become apparent until spring rains reveal compromised areas.</p>
       </div>
 
@@ -662,7 +663,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

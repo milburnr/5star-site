@@ -1,0 +1,543 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "5 Star Commercial Roofing" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "5 Star Commercial Roofing" [ref=e6]
+        - button "Open menu" [ref=e7] [cursor=pointer]
+  - main [ref=e11]:
+    - generic [ref=e15]:
+      - heading "Amarillo Roofing & Hail Damage Repair Experts" [level=1] [ref=e16]:
+        - text: Amarillo Roofing & Hail Damage
+        - generic [ref=e17]: Repair Experts
+      - paragraph [ref=e18]: Amarillo | Canyon | Texas Panhandle
+      - generic [ref=e19]:
+        - link "📞 Call (806) 622-6041" [ref=e20] [cursor=pointer]:
+          - /url: tel:8066226041
+          - generic [ref=e21]: 📞
+          - text: Call (806) 622-6041
+        - link "Free Inspection" [ref=e22] [cursor=pointer]:
+          - /url: /contact/
+    - generic [ref=e28]:
+      - link "0+ Years Experience" [ref=e30] [cursor=pointer]:
+        - /url: /about/
+        - generic [ref=e32]: 0+
+        - generic [ref=e33]: Years Experience
+      - link "4% Free Inspections" [ref=e35] [cursor=pointer]:
+        - /url: /contact/
+        - generic [ref=e37]: 4%
+        - generic [ref=e38]: Free Inspections
+      - link "$50M+ Claims Helped" [ref=e40] [cursor=pointer]:
+        - /url: /hail-damage-repair-amarillo/
+        - generic [ref=e41]: $50M+
+        - generic [ref=e42]: Claims Helped
+      - link "⭐⭐⭐⭐⭐ 5-Star Rated" [ref=e44] [cursor=pointer]:
+        - /url: /reviews/
+        - generic [ref=e45]: ⭐⭐⭐⭐⭐
+        - generic [ref=e46]: 5-Star Rated
+    - generic [ref=e49]:
+      - heading "Understanding Hail Damage Roofing in Amarillo" [level=2] [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "What Is Hail Damage Roof Repair?" [level=3] [ref=e53]
+          - paragraph [ref=e54]: Hail damage roof repair is the process of restoring a roof after hailstones have compromised shingles, flashing, or underlayment. In West Texas, where severe storms frequently produce golf ball-sized hail or larger, repairs may range from replacing individual damaged shingles to full roof replacement. A professional inspection determines the extent of damage and appropriate repair scope.
+        - generic [ref=e55]:
+          - heading "What Is a Free Roof Inspection?" [level=3] [ref=e56]
+          - paragraph [ref=e57]: A free roof inspection is a no-cost assessment performed by a licensed roofing contractor to evaluate your roof's condition after a storm. In Amarillo, Midland, and Odessa, reputable contractors document hail impacts, cracked shingles, and granule loss with photos and measurements. This documentation supports insurance claims and helps homeowners understand whether repairs are needed.
+        - generic [ref=e58]:
+          - heading "What Is a Class 4 Impact-Resistant Shingle?" [level=3] [ref=e59]
+          - paragraph [ref=e60]: A Class 4 impact-resistant shingle is a roofing material rated to withstand the highest level of impact testing under UL 2218 standards. These shingles are engineered to resist cracking and splitting from hail up to 2 inches in diameter. Many Texas insurers offer premium discounts for Class 4 roofs, making them a practical choice for West Texas homeowners.
+        - generic [ref=e61]:
+          - heading "How the Roof Insurance Claim Process Works in Texas" [level=3] [ref=e62]
+          - paragraph [ref=e63]: "The roof insurance claim process in Texas typically involves four steps: (1) document the damage with photos immediately after the storm, (2) contact your insurance company to file a claim, (3) schedule a professional roof inspection to assess full damage, and (4) meet with your insurance adjuster on-site. Your roofing contractor can provide documentation and communicate directly with your adjuster."
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - heading "Our Specialized Services" [level=2] [ref=e67]
+        - paragraph [ref=e68]:
+          - text: From hail damage repair to full roof replacements, we handle every roofing need for Amarillo homeowners.
+          - link "View all roofing services" [ref=e69] [cursor=pointer]:
+            - /url: /services/
+        - generic [ref=e70]:
+          - link "Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Roofing 🌨️ Hail Damage Repair Expert assessment and repair of hail-damaged roofs. We know exactly what insurance adjusters look for. Learn More →" [ref=e72] [cursor=pointer]:
+            - /url: /hail-damage-repair-amarillo/
+            - img "Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Roofing" [ref=e73]
+            - generic [ref=e74]:
+              - heading "🌨️ Hail Damage Repair" [level=3] [ref=e75]
+              - paragraph [ref=e76]: Expert assessment and repair of hail-damaged roofs. We know exactly what insurance adjusters look for.
+              - text: Learn More →
+          - link "Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing ⛈️ Storm Damage Restoration Wind, rain, and severe weather damage? We handle all types of storm-related roof repairs. Learn More →" [ref=e78] [cursor=pointer]:
+            - /url: /storm-damage-repair-amarillo/
+            - img "Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing" [ref=e79]
+            - generic [ref=e80]:
+              - heading "⛈️ Storm Damage Restoration" [level=3] [ref=e81]
+              - paragraph [ref=e82]: Wind, rain, and severe weather damage? We handle all types of storm-related roof repairs.
+              - text: Learn More →
+          - link "Professional roof inspector examining shingle condition on Amarillo home - Free assessment 🔍 Free Roof Inspections Comprehensive roof assessments with detailed documentation for insurance claims. Learn More →" [ref=e84] [cursor=pointer]:
+            - /url: /roof-inspections-amarillo/
+            - img "Professional roof inspector examining shingle condition on Amarillo home - Free assessment" [ref=e85]
+            - generic [ref=e86]:
+              - heading "🔍 Free Roof Inspections" [level=3] [ref=e87]
+              - paragraph [ref=e88]: Comprehensive roof assessments with detailed documentation for insurance claims.
+              - text: Learn More →
+          - link "New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing 🏠 Residential Roofing Complete roofing solutions for homeowners. New installations, replacements, and repairs. Learn More →" [ref=e90] [cursor=pointer]:
+            - /url: /residential-roofing/
+            - img "New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing" [ref=e91]
+            - generic [ref=e92]:
+              - heading "🏠 Residential Roofing" [level=3] [ref=e93]
+              - paragraph [ref=e94]: Complete roofing solutions for homeowners. New installations, replacements, and repairs.
+              - text: Learn More →
+          - link "TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing 🏢 Commercial Roofing TPO, PVC, and built-up roofing systems for businesses and commercial properties. Learn More →" [ref=e96] [cursor=pointer]:
+            - /url: /commercial-roofing/
+            - img "TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing" [ref=e97]
+            - generic [ref=e98]:
+              - heading "🏢 Commercial Roofing" [level=3] [ref=e99]
+              - paragraph [ref=e100]: TPO, PVC, and built-up roofing systems for businesses and commercial properties.
+              - text: Learn More →
+          - link "Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing 📋 Insurance Claims Help We work directly with your insurance company to maximize your coverage. Learn More →" [ref=e102] [cursor=pointer]:
+            - /url: /contact/
+            - img "Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing" [ref=e103]
+            - generic [ref=e104]:
+              - heading "📋 Insurance Claims Help" [level=3] [ref=e105]
+              - paragraph [ref=e106]: We work directly with your insurance company to maximize your coverage.
+              - text: Learn More →
+      - generic [ref=e107]:
+        - heading "Why Amarillo Chooses 5 Star Roofing" [level=2] [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: ✓
+            - generic [ref=e112]:
+              - heading "Local Hail Damage Specialists" [level=3] [ref=e113]
+              - paragraph [ref=e114]:
+                - text: We understand West Texas weather and know how to identify and
+                - link "repair hail damage correctly" [ref=e115] [cursor=pointer]:
+                  - /url: /hail-damage-repair-amarillo/
+                - text: . The Texas Panhandle experiences 8-12 hailstorms annually—we've seen it all.
+          - generic [ref=e116]:
+            - generic [ref=e117]: ✓
+            - generic [ref=e118]:
+              - heading "Insurance Claim Experts" [level=3] [ref=e119]
+              - paragraph [ref=e120]:
+                - text: We handle all the paperwork and work directly with adjusters to get you full coverage. From
+                - link "free roof inspections" [ref=e121] [cursor=pointer]:
+                  - /url: /roof-inspections-amarillo/
+                - text: to claim filing, we manage the entire process.
+          - generic [ref=e122]:
+            - generic [ref=e123]: ✓
+            - generic [ref=e124]:
+              - heading "Fast storm response" [level=3] [ref=e125]
+              - paragraph [ref=e126]:
+                - text: After a storm, time is critical. We offer same-day inspections and rapid
+                - link "storm damage repair" [ref=e127] [cursor=pointer]:
+                  - /url: /storm-damage-repair-amarillo/
+                - text: scheduling to minimize interior damage.
+          - generic [ref=e128]:
+            - generic [ref=e129]: ✓
+            - generic [ref=e130]:
+              - heading "Licensed & Insured" [level=3] [ref=e131]
+              - paragraph [ref=e132]:
+                - text: Fully licensed in Texas with comprehensive insurance coverage for your protection. Serving
+                - link "Amarillo and the Texas Panhandle" [ref=e133] [cursor=pointer]:
+                  - /url: /service-areas/
+                - text: ", with additional coverage in Midland and Odessa."
+          - generic [ref=e134]:
+            - generic [ref=e135]: ✓
+            - generic [ref=e136]:
+              - heading "Quality Workmanship" [level=3] [ref=e137]
+              - paragraph [ref=e138]:
+                - text: Over 10 years of experience delivering exceptional
+                - link "residential" [ref=e139] [cursor=pointer]:
+                  - /url: /residential-roofing/
+                - text: and
+                - link "commercial roofing" [ref=e140] [cursor=pointer]:
+                  - /url: /commercial-roofing/
+                - text: results across Amarillo and the Texas Panhandle. See why homeowners call us
+                - link "Amarillo's best roofer" [ref=e141] [cursor=pointer]:
+                  - /url: /amarillos-best-roofer/
+                - text: .
+          - generic [ref=e142]:
+            - generic [ref=e143]: ✓
+            - generic [ref=e144]:
+              - heading "Comprehensive Warranties" [level=3] [ref=e145]
+              - paragraph [ref=e146]:
+                - text: We stand behind our work with industry-leading warranty protection. All
+                - link "Class 4 impact-resistant shingles" [ref=e147] [cursor=pointer]:
+                  - /url: /asphalt-shingle-roofing-amarillo/
+                - text: include manufacturer warranties up to 50 years.
+      - generic [ref=e151]:
+        - heading "See Our Quality Work" [level=2] [ref=e152]
+        - paragraph [ref=e153]: Real results from Amarillo, Midland, and Odessa homeowners. Click any project to learn more about our services in that area.
+        - generic [ref=e154]:
+          - link "Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Roofing Hail Damage Restoration - Amarillo Complete roof replacement after severe hailstorm with Class 4 impact-resistant shingles." [ref=e156] [cursor=pointer]:
+            - /url: /hail-damage-repair-amarillo/
+            - img "Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Roofing" [ref=e158]
+            - generic [ref=e159]:
+              - heading "Hail Damage Restoration - Amarillo" [level=3] [ref=e160]
+              - paragraph [ref=e161]: Complete roof replacement after severe hailstorm with Class 4 impact-resistant shingles.
+          - link "Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Roofing Wind Damage Repair - Midland Storm damage restoration with upgraded wind-resistant materials." [ref=e163] [cursor=pointer]:
+            - /url: /wind-damage-repair-midland/
+            - img "Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Roofing" [ref=e165]
+            - generic [ref=e166]:
+              - heading "Wind Damage Repair - Midland" [level=3] [ref=e167]
+              - paragraph [ref=e168]: Storm damage restoration with upgraded wind-resistant materials.
+          - link "Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Roofing Roof Replacement - Odessa Complete upgrade with premium architectural shingles for enhanced curb appeal." [ref=e170] [cursor=pointer]:
+            - /url: /roof-replacement-odessa/
+            - img "Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Roofing" [ref=e172]
+            - generic [ref=e173]:
+              - heading "Roof Replacement - Odessa" [level=3] [ref=e174]
+              - paragraph [ref=e175]: Complete upgrade with premium architectural shingles for enhanced curb appeal.
+          - link "Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Roofing Commercial TPO Installation - Midland Modern TPO system with 20-year warranty for commercial property." [ref=e177] [cursor=pointer]:
+            - /url: /tpo-roofing-midland/
+            - img "Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Roofing" [ref=e179]
+            - generic [ref=e180]:
+              - heading "Commercial TPO Installation - Midland" [level=3] [ref=e181]
+              - paragraph [ref=e182]: Modern TPO system with 20-year warranty for commercial property.
+        - link "View Our Complete Gallery →" [ref=e184] [cursor=pointer]:
+          - /url: /gallery/
+      - generic [ref=e188]:
+        - heading "Why West Texas Needs Impact-Resistant Roofing" [level=2] [ref=e189]
+        - generic [ref=e190]:
+          - generic [ref=e192]:
+            - generic [ref=e193]: 8-12
+            - generic [ref=e194]: Hailstorms Per Year
+            - paragraph [ref=e195]: The Texas Panhandle sits in America's hail belt with frequent severe storms
+          - generic [ref=e197]:
+            - generic [ref=e198]: $10K+
+            - generic [ref=e199]: Average Claim Value
+            - paragraph [ref=e200]: Most hail damage repairs in Amarillo, Midland, and Odessa exceed $10,000
+          - generic [ref=e202]:
+            - generic [ref=e203]: 72hrs
+            - generic [ref=e204]: Inspection Window
+            - paragraph [ref=e205]: Insurance companies require documentation within 72 hours of storm damage
+        - generic [ref=e206]:
+          - heading "📍 Did You Know?" [level=3] [ref=e207]
+          - paragraph [ref=e208]: Amarillo, Midland, and Odessa are among the top 20 cities in the U.S. for hail frequency. Class 4 impact-resistant shingles can reduce hail damage by up to 90% and qualify you for 10-30% insurance premium discounts in West Texas.
+      - generic [ref=e212]:
+        - heading "Premium Roofing Materials for Amarillo Homes" [level=2] [ref=e213]
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - img "Class 4 impact-resistant asphalt shingles installed on Odessa home for hail protection" [ref=e216]
+            - heading "Impact-Resistant Asphalt Shingles" [level=3] [ref=e217]
+            - paragraph [ref=e218]: UL 2218 Class 4 rated shingles tested to withstand 2-inch hail strikes. Perfect for residential roofing in Amarillo, Midland, and Odessa. Available in architectural and luxury styles.
+            - list [ref=e219]:
+              - listitem [ref=e220]: 20-50 year warranties
+              - listitem [ref=e221]: Insurance premium discounts
+              - listitem [ref=e222]: Multiple color options
+              - listitem [ref=e223]: Wind resistance up to 130 mph
+            - link "Learn More →" [ref=e224] [cursor=pointer]:
+              - /url: /asphalt-shingle-roofing-amarillo/
+          - generic [ref=e225]:
+            - img "Standing seam metal roof panels on a home in Wichita Falls TX - Premium hail protection" [ref=e226]
+            - heading "Standing Seam Metal Roofing" [level=3] [ref=e227]
+            - paragraph [ref=e228]: The ultimate hail protection. Metal roofing may dent but remains watertight even after severe hailstorms. Increasingly popular across the Texas Panhandle.
+            - list [ref=e229]:
+              - listitem [ref=e230]: 50+ year lifespan
+              - listitem [ref=e231]: Energy-efficient reflective coating
+              - listitem [ref=e232]: Fire-resistant (Class A rating)
+              - listitem [ref=e233]: Wind resistance 140+ mph
+            - link "Learn More →" [ref=e234] [cursor=pointer]:
+              - /url: /roofing-methods/
+          - generic [ref=e235]:
+            - img "White TPO commercial roofing membrane on flat-roof building in Pampa TX" [ref=e236]
+            - heading "TPO Commercial Roofing" [level=3] [ref=e237]
+            - paragraph [ref=e238]: Single-ply white membrane roofing for commercial flat roofs. Heat-welded seams create watertight protection for Midland-Odessa industrial facilities and Amarillo businesses.
+            - list [ref=e239]:
+              - listitem [ref=e240]: 15-25 year warranties
+              - listitem [ref=e241]: Energy Star rated
+              - listitem [ref=e242]: Hail and puncture resistant
+              - listitem [ref=e243]: Low maintenance
+            - link "Learn More →" [ref=e244] [cursor=pointer]:
+              - /url: /commercial-roofing/
+          - generic [ref=e245]:
+            - img "EPDM rubber membrane roofing system on commercial building in Pampa TX - 5 Star Roofing" [ref=e246]
+            - heading "EPDM Rubber Roofing" [level=3] [ref=e247]
+            - paragraph [ref=e248]: Cost-effective black rubber membrane for commercial and industrial applications. Excellent track record in West Texas's extreme temperature swings.
+            - list [ref=e249]:
+              - listitem [ref=e250]: 15-30 year lifespan
+              - listitem [ref=e251]: Excellent UV resistance
+              - listitem [ref=e252]: Temperature stable (-40°F to 300°F)
+              - listitem [ref=e253]: Budget-friendly option
+            - link "Learn More →" [ref=e254] [cursor=pointer]:
+              - /url: /commercial-roofing/
+      - generic [ref=e258]:
+        - heading "Our Proven 6-Step Process" [level=2] [ref=e259]
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - img "Professional roof inspection in Amarillo Texas - Free hail damage assessment - 5 Star Roofing" [ref=e262]
+            - generic [ref=e263]: "1"
+            - heading "Free Inspection" [level=3] [ref=e264]
+            - paragraph [ref=e265]: We thoroughly inspect your roof for hail damage, wind damage, and other issues. Free, no-obligation assessment within 24-48 hours.
+          - generic [ref=e266]:
+            - img "Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing" [ref=e267]
+            - generic [ref=e268]: "2"
+            - heading "Documentation" [level=3] [ref=e269]
+            - paragraph [ref=e270]: We document all damage with photos and measurements for your insurance claim.
+          - generic [ref=e271]:
+            - img "Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Roofing" [ref=e272]
+            - generic [ref=e273]: "3"
+            - heading "Insurance Claim" [level=3] [ref=e274]
+            - paragraph [ref=e275]: We handle all paperwork and meet with your insurance adjuster to maximize your coverage.
+          - generic [ref=e276]:
+            - img "Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Roofing" [ref=e277]
+            - generic [ref=e278]: "4"
+            - heading "Professional Installation" [level=3] [ref=e279]
+            - paragraph [ref=e280]: Our experienced crew installs your new roof using premium materials and proven techniques.
+          - generic [ref=e281]:
+            - img "Final roof inspection quality control in West Texas - Warranty protection - 5 Star Roofing" [ref=e282]
+            - generic [ref=e283]: "5"
+            - heading "Quality Inspection" [level=3] [ref=e284]
+            - paragraph [ref=e285]: We perform a final inspection to ensure everything meets our high standards.
+          - generic [ref=e286]:
+            - img "Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Roofing" [ref=e287]
+            - generic [ref=e288]: "6"
+            - heading "Your Satisfaction" [level=3] [ref=e289]
+            - paragraph [ref=e290]: We walk you through the completed work and provide all warranty documentation.
+      - generic [ref=e291]:
+        - heading "Service Areas Across the Texas Panhandle & Beyond" [level=2] [ref=e292]
+        - paragraph [ref=e293]: We proudly serve Amarillo and the entire Texas Panhandle, with additional coverage in Midland, Odessa, and surrounding communities. Expert hail damage repair and roofing services wherever you are.
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - heading "Texas Panhandle" [level=3] [ref=e296]
+            - generic [ref=e297]:
+              - link "Amarillo" [ref=e299] [cursor=pointer]:
+                - /url: /amarillo-texas-roofing/
+              - link "Canyon" [ref=e301] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Borger" [ref=e303] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Pampa" [ref=e305] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Dumas" [ref=e307] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Hereford" [ref=e309] [cursor=pointer]:
+                - /url: /service-areas/
+          - generic [ref=e310]:
+            - heading "West Texas" [level=3] [ref=e311]
+            - generic [ref=e312]:
+              - link "Midland" [ref=e314] [cursor=pointer]:
+                - /url: /contact/
+              - link "Odessa" [ref=e316] [cursor=pointer]:
+                - /url: /contact/
+              - link "Lubbock" [ref=e318] [cursor=pointer]:
+                - /url: /lubbock-tx-roofing/
+              - link "Big Spring" [ref=e320] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Plainview" [ref=e322] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Levelland" [ref=e324] [cursor=pointer]:
+                - /url: /service-areas/
+          - generic [ref=e325]:
+            - heading "Surrounding Areas" [level=3] [ref=e326]
+            - generic [ref=e327]:
+              - link "Childress" [ref=e329] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Dalhart" [ref=e331] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Perryton" [ref=e333] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Tulia" [ref=e335] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "Friona" [ref=e337] [cursor=pointer]:
+                - /url: /service-areas/
+              - link "View All →" [ref=e339] [cursor=pointer]:
+                - /url: /service-areas/
+      - generic [ref=e341]:
+        - heading "Also Serving West Texas & Beyond" [level=2] [ref=e342]
+        - paragraph [ref=e343]: "In addition to Amarillo and the Texas Panhandle, 5 Star Roofing provides residential and commercial roofing services to these West Texas communities:"
+        - generic [ref=e344]:
+          - link "Midland" [ref=e345] [cursor=pointer]:
+            - /url: /midland-tx-roofing/
+          - generic [ref=e346]: "|"
+          - link "Odessa" [ref=e347] [cursor=pointer]:
+            - /url: /odessa-tx-roofing/
+          - generic [ref=e348]: "|"
+          - link "Lubbock" [ref=e349] [cursor=pointer]:
+            - /url: /lubbock-tx-roofing/
+      - generic [ref=e351]:
+        - heading "Hail Damage & Insurance FAQs for Amarillo & Texas Panhandle Homeowners" [level=2] [ref=e352]
+        - paragraph [ref=e353]: Common questions about hail damage roof repair and insurance claims in Amarillo, Midland, Odessa, and the Texas Panhandle.
+        - generic [ref=e355]:
+          - heading "How do I know if my roof has hail damage in Amarillo or West Texas?" [level=3] [ref=e357]:
+            - button "How do I know if my roof has hail damage in Amarillo or West Texas?" [ref=e358] [cursor=pointer]:
+              - text: How do I know if my roof has hail damage in Amarillo or West Texas?
+              - img [ref=e359]
+          - heading "How big does hail have to be to damage a roof?" [level=3] [ref=e362]:
+            - button "How big does hail have to be to damage a roof?" [ref=e363] [cursor=pointer]:
+              - text: How big does hail have to be to damage a roof?
+              - img [ref=e364]
+          - heading "What should I do right after a hailstorm hits my roof?" [level=3] [ref=e367]:
+            - button "What should I do right after a hailstorm hits my roof?" [ref=e368] [cursor=pointer]:
+              - text: What should I do right after a hailstorm hits my roof?
+              - img [ref=e369]
+          - heading "How long after a hailstorm can I file a roof insurance claim in Texas?" [level=3] [ref=e372]:
+            - button "How long after a hailstorm can I file a roof insurance claim in Texas?" [ref=e373] [cursor=pointer]:
+              - text: How long after a hailstorm can I file a roof insurance claim in Texas?
+              - img [ref=e374]
+          - heading "Should I call my insurance company or a roofing contractor first?" [level=3] [ref=e377]:
+            - button "Should I call my insurance company or a roofing contractor first?" [ref=e378] [cursor=pointer]:
+              - text: Should I call my insurance company or a roofing contractor first?
+              - img [ref=e379]
+          - heading "How much does hail damage roof repair cost in West Texas?" [level=3] [ref=e382]:
+            - button "How much does hail damage roof repair cost in West Texas?" [ref=e383] [cursor=pointer]:
+              - text: How much does hail damage roof repair cost in West Texas?
+              - img [ref=e384]
+          - heading "How long does a hail damage roof replacement take?" [level=3] [ref=e387]:
+            - button "How long does a hail damage roof replacement take?" [ref=e388] [cursor=pointer]:
+              - text: How long does a hail damage roof replacement take?
+              - img [ref=e389]
+          - heading "What is a Class 4 shingle and why is it good for West Texas?" [level=3] [ref=e392]:
+            - button "What is a Class 4 shingle and why is it good for West Texas?" [ref=e393] [cursor=pointer]:
+              - text: What is a Class 4 shingle and why is it good for West Texas?
+              - img [ref=e394]
+          - heading "Can small hail damage my roof even if I don't see leaks?" [level=3] [ref=e397]:
+            - button "Can small hail damage my roof even if I don't see leaks?" [ref=e398] [cursor=pointer]:
+              - text: Can small hail damage my roof even if I don't see leaks?
+              - img [ref=e399]
+          - heading "What if my roof insurance claim is denied or underpaid?" [level=3] [ref=e402]:
+            - button "What if my roof insurance claim is denied or underpaid?" [ref=e403] [cursor=pointer]:
+              - text: What if my roof insurance claim is denied or underpaid?
+              - img [ref=e404]
+      - generic [ref=e406]:
+        - heading "Storm Damage? Don't Wait." [level=2] [ref=e407]
+        - paragraph [ref=e408]: The sooner you address roof damage, the less costly repairs will be. Get your free inspection today and let us handle your insurance claim.
+        - generic [ref=e409]:
+          - link "📞 Call (806) 622-6041" [ref=e410] [cursor=pointer]:
+            - /url: tel:8066226041
+          - link "Request Free Inspection" [ref=e411] [cursor=pointer]:
+            - /url: /contact/
+  - contentinfo [ref=e412]:
+    - generic [ref=e413]:
+      - generic [ref=e414]:
+        - generic [ref=e415]:
+          - heading "Contact Us" [level=3] [ref=e416]
+          - paragraph [ref=e417]: 2909 S Western St
+          - paragraph [ref=e418]: Amarillo, TX 79109
+          - paragraph [ref=e419]:
+            - link "(806) 622-6041" [ref=e420] [cursor=pointer]:
+              - /url: tel:8066226041
+          - paragraph [ref=e421]:
+            - link "admin@5starroofingpros.com" [ref=e422] [cursor=pointer]:
+              - /url: mailto:admin@5starroofingpros.com
+          - generic [ref=e423]:
+            - paragraph [ref=e424]: Hours
+            - paragraph [ref=e425]: Monday - Sunday
+            - paragraph [ref=e426]: 9:00 AM - 5:00 PM
+        - generic [ref=e427]:
+          - heading "Services" [level=3] [ref=e428]
+          - list [ref=e429]:
+            - listitem [ref=e430]:
+              - link "Residential Roofing" [ref=e431] [cursor=pointer]:
+                - /url: /residential-roofing/
+            - listitem [ref=e432]:
+              - link "Commercial Roofing" [ref=e433] [cursor=pointer]:
+                - /url: /commercial-roofing/
+            - listitem [ref=e434]:
+              - link "Hail Damage Repair" [ref=e435] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e436]:
+              - link "Roof Inspections" [ref=e437] [cursor=pointer]:
+                - /url: /roof-inspections-amarillo/
+            - listitem [ref=e438]:
+              - link "Roof Replacement" [ref=e439] [cursor=pointer]:
+                - /url: /roof-replacement-amarillo/
+            - listitem [ref=e440]:
+              - link "Asphalt Shingles" [ref=e441] [cursor=pointer]:
+                - /url: /asphalt-shingle-roofing-amarillo/
+            - listitem [ref=e442]:
+              - link "Metal Roofing" [ref=e443] [cursor=pointer]:
+                - /url: /metal-roof-installation-odessa-texas/
+        - generic [ref=e444]:
+          - heading "Major Cities" [level=3] [ref=e445]
+          - list [ref=e446]:
+            - listitem [ref=e447]:
+              - link "Amarillo Roofing" [ref=e448] [cursor=pointer]:
+                - /url: /amarillo-texas-roofing/
+            - listitem [ref=e449]:
+              - link "Midland Roofing" [ref=e450] [cursor=pointer]:
+                - /url: /midland-tx-roofing/
+            - listitem [ref=e451]:
+              - link "Odessa Roofing" [ref=e452] [cursor=pointer]:
+                - /url: /odessa-tx-roofing/
+            - listitem [ref=e453]:
+              - link "Lubbock Roofing" [ref=e454] [cursor=pointer]:
+                - /url: /lubbock-tx-roofing/
+            - listitem [ref=e455]:
+              - link "Canyon Roofing" [ref=e456] [cursor=pointer]:
+                - /url: /canyon-texas-roofing/
+            - listitem [ref=e457]:
+              - link "Bushland" [ref=e458] [cursor=pointer]:
+                - /url: /bushland-tx-roofing/
+            - listitem [ref=e459]:
+              - link "All Service Areas →" [ref=e460] [cursor=pointer]:
+                - /url: /service-areas/
+        - generic [ref=e461]:
+          - heading "Resources" [level=3] [ref=e462]
+          - list [ref=e463]:
+            - listitem [ref=e464]:
+              - link "Project Gallery" [ref=e465] [cursor=pointer]:
+                - /url: /gallery/
+            - listitem [ref=e466]:
+              - link "Roofing Blog" [ref=e467] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e468]:
+              - link "Customer Reviews" [ref=e469] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e470]:
+              - link "About Us" [ref=e471] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e472]:
+              - link "Contact" [ref=e473] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e474]:
+              - link "Weather Impact" [ref=e475] [cursor=pointer]:
+                - /url: /amarillo-weather-impact-on-roofing/
+            - listitem [ref=e476]:
+              - link "Installation Methods" [ref=e477] [cursor=pointer]:
+                - /url: /roofing-methods/
+        - generic [ref=e478]:
+          - heading "Specialties" [level=3] [ref=e479]
+          - list [ref=e480]:
+            - listitem [ref=e481]:
+              - link "Hail Damage" [ref=e482] [cursor=pointer]:
+                - /url: /hail-damage-repair-amarillo/
+            - listitem [ref=e483]:
+              - link "Storm Damage" [ref=e484] [cursor=pointer]:
+                - /url: /storm-damage-repair-amarillo/
+            - listitem [ref=e485]:
+              - link "Wind Damage" [ref=e486] [cursor=pointer]:
+                - /url: /wind-damage-repair-amarillo/
+            - listitem [ref=e487]:
+              - link "Commercial TPO" [ref=e488] [cursor=pointer]:
+                - /url: /commercial-roofing-amarillo/
+            - listitem [ref=e489]:
+              - link "Residential Repair" [ref=e490] [cursor=pointer]:
+                - /url: /residential-roofing-amarillo/
+            - listitem [ref=e491]:
+              - link "PVC Roofing" [ref=e492] [cursor=pointer]:
+                - /url: /pvc-roofing-contractors-in-amarillo/
+      - generic [ref=e493]:
+        - paragraph [ref=e494]: © 2026 5 Star Commercial Roofing. All rights reserved.
+        - paragraph [ref=e495]: Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
+  - alert [ref=e496]
+  - navigation [ref=e497]:
+    - generic [ref=e499]:
+      - link "Home" [ref=e500] [cursor=pointer]:
+        - /url: /
+      - link "Services" [ref=e501] [cursor=pointer]:
+        - /url: /services/
+      - link "Service Areas" [ref=e502] [cursor=pointer]:
+        - /url: /service-areas/
+      - link "Gallery" [ref=e503] [cursor=pointer]:
+        - /url: /gallery/
+      - link "Blog" [ref=e504] [cursor=pointer]:
+        - /url: /blog/
+      - link "Reviews" [ref=e505] [cursor=pointer]:
+        - /url: /reviews/
+      - link "About" [ref=e506] [cursor=pointer]:
+        - /url: /about/
+      - link "Contact" [ref=e507] [cursor=pointer]:
+        - /url: /contact/
+      - link "📞 (806) 622-6041" [ref=e508] [cursor=pointer]:
+        - /url: tel:8066226041
+        - generic [ref=e509]: 📞
+        - text: (806) 622-6041

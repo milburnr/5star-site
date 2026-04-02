@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { Briefcase, CheckCircle, ClipboardList, Handshake, Phone, Shield, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/reviews/' },
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -159,8 +160,10 @@ export default function Page() {
                 <p className="text-sm text-gray-600">{review.location}</p>
               </div>
               <div className="text-right">
-                <div className="text-brand-gold text-xl mb-1">
-                  {"⭐".repeat(review.rating)}
+                <div className="text-brand-gold text-xl mb-1 flex gap-0.5 justify-end">
+                  {[...Array(review.rating)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                  ))}
                 </div>
                 <p className="text-xs text-gray-500">{review.date}</p>
               </div>
@@ -178,7 +181,7 @@ export default function Page() {
         <h2 className="text-2xl font-bold mb-6 text-center">What Our Customers Appreciate Most</h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="text-center">
-            <div className="text-4xl mb-3">💼</div>
+            <div className="text-4xl mb-3"><Briefcase className="w-6 h-6 inline-block" /></div>
             <h3 className="font-bold mb-2">Insurance Expertise</h3>
             <p className="text-sm text-gray-600">
               We handle the entire insurance claims process, from documentation to final approval.
@@ -186,7 +189,7 @@ export default function Page() {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl mb-3">⚡</div>
+            <div className="text-4xl mb-3"><Zap className="w-6 h-6 inline-block" /></div>
             <h3 className="font-bold mb-2">Fast Response</h3>
             <p className="text-sm text-gray-600">
               Emergency situations get immediate attention. We understand that time is critical
@@ -194,7 +197,7 @@ export default function Page() {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl mb-3">🛡️</div>
+            <div className="text-4xl mb-3"><Shield className="w-6 h-6 inline-block" /></div>
             <h3 className="font-bold mb-2">Quality Workmanship</h3>
             <p className="text-sm text-gray-600">
               Our crews take pride in their work. Clean daily job sites, attention to detail,
@@ -202,7 +205,7 @@ export default function Page() {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl mb-3">🤝</div>
+            <div className="text-4xl mb-3"><Handshake className="w-6 h-6 inline-block" /></div>
             <h3 className="font-bold mb-2">Honest Communication</h3>
             <p className="text-sm text-gray-600">
               We provide realistic timelines, transparent pricing, and won't sell you services
@@ -210,7 +213,7 @@ export default function Page() {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl mb-3">📋</div>
+            <div className="text-4xl mb-3"><ClipboardList className="w-6 h-6 inline-block" /></div>
             <h3 className="font-bold mb-2">Professional Management</h3>
             <p className="text-sm text-gray-600">
               Dedicated project managers keep customers informed throughout the process.
@@ -218,7 +221,7 @@ export default function Page() {
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl mb-3">✅</div>
+            <div className="text-4xl mb-3"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
             <h3 className="font-bold mb-2">Thorough Follow-Up</h3>
             <p className="text-sm text-gray-600">
               We don't disappear after the job is done. Follow-up inspections and warranty
@@ -278,7 +281,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary text-lg bg-white text-brand-brown hover:bg-gray-100">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary text-lg border-2 border-white hover:bg-white hover:text-brand-brown">
             Request Free Inspection

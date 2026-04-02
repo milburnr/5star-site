@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, BarChart3, CheckCircle, ClipboardList, CloudLightning, Factory, FileText, Globe, Phone, Radio, Search, Shield, Star, Target, Tornado, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-dumas/' },
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -49,7 +50,7 @@ export default function HailDamageRepairDumasPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-dumas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -123,7 +124,7 @@ export default function HailDamageRepairDumasPage() {
                 Dumas—the county seat of Moore County and a major cattle feeding hub—sits 49 miles north of Amarillo at 3,688 feet elevation. With approximately 180,000 cattle in Moore County ranches and feedlots, ranking 7th in Texas and top 15 nationally for beef production, Dumas faces unique challenges protecting both residential and agricultural infrastructure. Since 2014, 5 Star Roofing has specialized in serving this critical agricultural community's storm damage needs.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -148,7 +149,7 @@ export default function HailDamageRepairDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Cattle in County</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -171,7 +172,7 @@ export default function HailDamageRepairDumasPage() {
             </p>
             
             <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-xl shadow-lg border border-red-200 my-8">
-              <h3 className="text-2xl font-bold text-red-700 mb-4">⚠️ Texas Hail Belt: Dumas in the Danger Zone</h3>
+              <h3 className="text-2xl font-bold text-red-700 mb-4"><AlertTriangle className="w-6 h-6 inline-block" /> Texas Hail Belt: Dumas in the Danger Zone</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Dumas sits squarely within the most dangerous zone of Texas's infamous "Hail Belt," a region stretching from the Oklahoma border to San Antonio that produces 70% of the United States' most damaging hailstorms. The combination of Moore County's elevation, latitude, and position relative to the Rocky Mountains creates a perfect storm laboratory for supercell development.
               </p>
@@ -202,7 +203,7 @@ export default function HailDamageRepairDumasPage() {
             </p>
 
             <div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">🏭 Agricultural Infrastructure Vulnerability</h3>
+              <h3 className="text-2xl font-bold mb-4"><Factory className="w-6 h-6 inline-block" /> Agricultural Infrastructure Vulnerability</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Moore County's 180,000+ cattle require extensive infrastructure that's particularly vulnerable to hail damage. The county's beef production industry includes:
               </p>
@@ -243,7 +244,7 @@ export default function HailDamageRepairDumasPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl border border-green-200">
-                <h3 className="text-xl font-bold text-green-700 mb-4">🌍 Climate Change Impact on Dumas</h3>
+                <h3 className="text-xl font-bold text-green-700 mb-4"><Globe className="w-6 h-6 inline-block" /> Climate Change Impact on Dumas</h3>
                 <p className="text-gray-700 mb-4">Recent meteorological studies show intensifying storm patterns affecting Moore County:</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Larger Hail:</strong> Average hail size increased 15% since 2010</li>
@@ -253,7 +254,7 @@ export default function HailDamageRepairDumasPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-200">
-                <h3 className="text-xl font-bold text-orange-700 mb-4">📊 Moore County Hail Statistics</h3>
+                <h3 className="text-xl font-bold text-orange-700 mb-4"><BarChart3 className="w-6 h-6 inline-block" /> Moore County Hail Statistics</h3>
                 <p className="text-gray-700 mb-4">NOAA data for Moore County (2015-2024):</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Annual Hail Days:</strong> 8-12 (vs. 3-5 Texas average)</li>
@@ -270,7 +271,7 @@ export default function HailDamageRepairDumasPage() {
             </p>
             
             <div className="bg-gradient-to-r from-slate-700 to-slate-900 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4">🌪️ The Dumas "Supercell Corridor"</h3>
+              <h3 className="text-2xl font-bold mb-4"><Tornado className="w-6 h-6 inline-block" /> The Dumas "Supercell Corridor"</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Meteorologists have identified a specific track through Moore County where supercells frequently intensify, producing the region's most damaging hail. This corridor runs roughly northeast-southwest through Dumas, following the path of the Canadian River valley system.
               </p>
@@ -443,32 +444,32 @@ export default function HailDamageRepairDumasPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Dumas Hail Damage Repair Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🔍</div>
+                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
                 <p className="text-gray-600">Thorough inspection with photo documentation for your Dumas property. Always free.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📋</div>
+                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
                 <p className="text-gray-600">Complete documentation and adjuster meetings to maximize your coverage.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">📝</div>
+                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
                 <p className="text-gray-600">Line-item Xactimate estimates. No surprises, no hidden costs.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛠️</div>
+                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
                 <p className="text-gray-600">Premium materials for Dumas's climate. Most repairs complete in 1-3 days.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">✅</div>
+                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">Quality verification with complete documentation.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4">🛡️</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
                 <p className="text-gray-600">Comprehensive workmanship and manufacturer warranties up to 50 years.</p>
               </div>
@@ -516,7 +517,7 @@ export default function HailDamageRepairDumasPage() {
             
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg mb-8">
-                <h3 className="text-2xl font-bold mb-4">🌩️ Seasonal Storm Dynamics in Dumas</h3>
+                <h3 className="text-2xl font-bold mb-4"><CloudLightning className="w-6 h-6 inline-block" /> Seasonal Storm Dynamics in Dumas</h3>
                 <p className="text-lg leading-relaxed mb-6">
                   Moore County's position at 36.5°N latitude places it at the intersection of three major North American air masses, creating a natural battleground for severe weather development. The region's storms follow predictable seasonal patterns that every Dumas property owner should understand.
                 </p>
@@ -563,7 +564,7 @@ export default function HailDamageRepairDumasPage() {
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-brand-brown mb-4">🎯 High-Risk Storm Tracks</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4"><Target className="w-6 h-6 inline-block" /> High-Risk Storm Tracks</h4>
                   <p className="text-gray-700 mb-4">
                     Three primary storm tracks affect Moore County, each producing different hail characteristics:
                   </p>
@@ -574,7 +575,7 @@ export default function HailDamageRepairDumasPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-brand-brown mb-4">📡 Early Warning Systems</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4"><Radio className="w-6 h-6 inline-block" /> Early Warning Systems</h4>
                   <p className="text-gray-700 mb-4">
                     Moore County residents have access to multiple warning systems:
                   </p>
@@ -588,7 +589,7 @@ export default function HailDamageRepairDumasPage() {
               </div>
 
               <div className="bg-gradient-to-br from-red-50 to-pink-50 p-8 rounded-xl border border-red-200 shadow-lg">
-                <h4 className="text-2xl font-bold text-red-700 mb-4">⚠️ Notable Dumas Hail Events: Historical Impact</h4>
+                <h4 className="text-2xl font-bold text-red-700 mb-4"><AlertTriangle className="w-6 h-6 inline-block" /> Notable Dumas Hail Events: Historical Impact</h4>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white p-4 rounded-lg shadow">
                     <h5 className="font-bold text-red-600 mb-2">May 23, 2020</h5>

@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { CheckCircle, Fuel, Mountain, Phone, Star, XCircle, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-monahans/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function RoofRepairMonahansPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-repair-monahans/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -206,7 +207,7 @@ export default function RoofRepairMonahansPage() {
                 Professional roof repair services in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -236,7 +237,7 @@ export default function RoofRepairMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -381,17 +382,17 @@ export default function RoofRepairMonahansPage() {
             
             <div className="grid lg:grid-cols-3 gap-6 mb-8">
               <div className="text-center p-6 bg-orange-50 rounded-xl">
-                <div className="text-4xl mb-4">🏜️</div>
+                <div className="text-4xl mb-4"><Mountain className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Desert Assessment</h3>
                 <p className="text-gray-700">Comprehensive evaluation of sand abrasion, thermal stress, and UV degradation specific to Chihuahuan Desert conditions.</p>
               </div>
               <div className="text-center p-6 bg-blue-50 rounded-xl">
-                <div className="text-4xl mb-4">🛢️</div>
+                <div className="text-4xl mb-4"><Fuel className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Field Expertise</h3>
                 <p className="text-gray-700">Specialized knowledge of chemical exposure, industrial vibration, and facility-specific requirements for Permian Basin operations.</p>
               </div>
               <div className="text-center p-6 bg-green-50 rounded-xl">
-                <div className="text-4xl mb-4">⚡</div>
+                <div className="text-4xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
                 <p className="text-gray-700">Rapid mobilization for hail and wind damage with extensive experience in Ward County storm patterns and insurance requirements.</p>
               </div>
@@ -534,7 +535,7 @@ export default function RoofRepairMonahansPage() {
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-green-700">✅ Recommended Systems for Monahans</h3>
+                <h3 className="text-xl font-bold mb-4 text-green-700"><CheckCircle className="w-5 h-5 inline-block text-green-600" /> Recommended Systems for Monahans</h3>
                 <div className="space-y-4">
                   <div className="border-l-4 border-green-500 pl-4">
                     <h4 className="font-bold mb-1">Modified Bitumen Systems</h4>
@@ -567,7 +568,7 @@ export default function RoofRepairMonahansPage() {
               </div>
               
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold mb-4 text-red-700">❌ Materials to Avoid in Desert Conditions</h3>
+                <h3 className="text-xl font-bold mb-4 text-red-700"><XCircle className="w-5 h-5 inline-block text-red-600" /> Materials to Avoid in Desert Conditions</h3>
                 <div className="space-y-4">
                   <div className="border-l-4 border-red-500 pl-4">
                     <h4 className="font-bold mb-1">Standard EPDM Membranes</h4>

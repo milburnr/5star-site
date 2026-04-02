@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Check, Home, Phone, Shield, Star } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-perryton/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function HailDamageRepairPerrytonPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/hail-damage-repair-perryton/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-14-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function HailDamageRepairPerrytonPage() {
               <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">Wheat Capital of the World's Roofing Experts</p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">Perryton—the county seat of Ochiltree County and Wheat Capital of the World—sits near the Oklahoma border in the heart of Texas's agricultural powerhouse. With $250 million in annual farming revenue and critical grain storage infrastructure, this community of 8,400+ needs specialized roofing protection. 5 Star Roofing has served Perryton's agricultural and residential needs since 2014.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function HailDamageRepairPerrytonPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">$250M</div><div className="text-brand-brown font-semibold text-lg">Annual Ag Revenue</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -196,7 +197,7 @@ export default function HailDamageRepairPerrytonPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">Post-Tornado Reconstruction Expertise?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl mb-4">🏚️</div>
+                <div className="text-4xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Total Reconstruction Services</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Complete Structural Replacement:</strong> Full roof system reconstruction for tornado-damaged properties</li>
@@ -208,7 +209,7 @@ export default function HailDamageRepairPerrytonPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500">
-                <div className="text-4xl mb-4">🚨</div>
+                <div className="text-4xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Disaster Response Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Immediate Safety Assessment:</strong> Structural integrity evaluation within hours of storm impact</li>
@@ -220,7 +221,7 @@ export default function HailDamageRepairPerrytonPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-500">
-                <div className="text-4xl mb-4">💪</div>
+                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Resilient Reconstruction</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• <strong>Enhanced Wind Resistance:</strong> Upgraded fastening systems for 150+ mph wind events</li>
@@ -367,28 +368,28 @@ export default function HailDamageRepairPerrytonPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Agricultural Claims Specialization</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Farm Structure Documentation</h4>
                       <p className="text-gray-600 text-sm">Specialized assessment of grain storage, livestock facilities, and agricultural processing buildings</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Business Interruption Advocacy</h4>
                       <p className="text-gray-600 text-sm">Coordination with agricultural operations for critical harvest and livestock feeding schedules</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Enhanced Reconstruction Coverage</h4>
                       <p className="text-gray-600 text-sm">Ensuring insurance coverage for improved storm resistance in high-risk tornado areas</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</div>
+                    <div className="bg-green-100 text-green-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h4 className="font-medium text-gray-800">Restoration Priority</h4>
                       <p className="text-gray-600 text-sm">Expedited processing for time-critical agricultural infrastructure repairs</p>

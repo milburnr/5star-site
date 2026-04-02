@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
+import { AlertTriangle, Building2, Calendar, Check, Lightbulb, Phone, Search } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/how-to-file-hail-damage-insurance-claim/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-28-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -67,9 +68,9 @@ export default function HailDamageInsuranceClaimBlogPage() {
               Step-by-step guide to filing hail damage insurance claims in Texas. Learn what insurance covers, common mistakes to avoid, and how to maximize your claim approval.
             </p>
             <div className="flex items-center gap-4 mt-6 text-sm text-gray-500">
-              <span>📅 Updated January 2025</span>
+              <span><Calendar className="w-6 h-6 inline-block" /> Updated January 2025</span>
               <span>•</span>
-              <span>⏱️ 8 min read</span>
+              <span>⏱ 8 min read</span>
             </div>
           </header>
         </FadeIn>
@@ -107,7 +108,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
               </ul>
 
               <div className="bg-brand-gold-light p-6 rounded-lg my-8">
-                <p className="font-semibold text-brand-brown mb-2">💡 Important Note About Texas Hail Claims:</p>
+                <p className="font-semibold text-brand-brown mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Important Note About Texas Hail Claims:</p>
                 <p>
                   Texas law gives you <strong>up to 2 years</strong> from the date of loss to file a hail damage claim. However, we strongly recommend filing within 30-90 days. The sooner you file, the sooner you get your new roof—and if another storm hits before you file, things get complicated.
                 </p>
@@ -139,7 +140,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
               </ul>
 
               <div className="bg-gray-50 p-6 rounded-lg my-8">
-                <p className="font-semibold text-brand-brown mb-2">🔍 Need a Professional Inspection?</p>
+                <p className="font-semibold text-brand-brown mb-2"><Search className="w-6 h-6 inline-block" /> Need a Professional Inspection?</p>
                 <p>
                   5 Star Commercial Roofing provides <strong>free hail damage inspections</strong> throughout West Texas. We use drones and professional photography to document all damage safely and thoroughly. No obligation.
                 </p>
@@ -199,7 +200,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
               </ul>
 
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-                <p className="font-semibold text-gray-800 mb-2">⚠️ Common Adjuster Tactics to Watch For:</p>
+                <p className="font-semibold text-gray-800 mb-2"><AlertTriangle className="w-6 h-6 inline-block" /> Common Adjuster Tactics to Watch For:</p>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Downplaying damage as "cosmetic only"</li>
                   <li>• Claiming damage is from "wear and tear" not hail</li>
@@ -394,7 +395,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
               </ul>
 
               <div className="bg-brand-gold-light p-6 rounded-lg my-8">
-                <p className="font-semibold text-brand-brown mb-2">🏢 Choose a Local West Texas Roofing Company</p>
+                <p className="font-semibold text-brand-brown mb-2"><Building2 className="w-6 h-6 inline-block" /> Choose a Local West Texas Roofing Company</p>
                 <p>
                   5 Star Commercial Roofing has been serving West Texas since 2010. We're based in Amarillo with deep roots in the community—we'll be here for your warranty needs decades from now.
                 </p>
@@ -402,11 +403,11 @@ export default function HailDamageInsuranceClaimBlogPage() {
                   <strong>We provide:</strong>
                 </p>
                 <ul className="mt-2 space-y-1">
-                  <li>✓ Free hail damage inspections</li>
-                  <li>✓ Complete insurance claim assistance</li>
-                  <li>✓ We meet with your adjuster</li>
-                  <li>✓ Professional documentation</li>
-                  <li>✓ 10+ years handling Texas hail claims</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free hail damage inspections</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Complete insurance claim assistance</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />We meet with your adjuster</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Professional documentation</li>
+                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />10+ years handling Texas hail claims</li>
                 </ul>
                 <p className="mt-4">
                   <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline text-xl">Call (806) 622-6041</a> for your free inspection.
@@ -463,7 +464,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
                   <strong>Serving:</strong> Amarillo, Midland, Odessa, Lubbock, and all surrounding West Texas areas
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4 text-center">📞 Call (806) 622-6041</a>
+                  <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4 text-center"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                   <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg text-center">Schedule Free Inspection</a>
                 </div>
               </div>

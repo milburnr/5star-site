@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Construction, Factory, Home, Leaf, Star, Tornado, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-dumas/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function WindDamageRepairDumasPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-dumas/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -225,7 +226,7 @@ export default function WindDamageRepairDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -250,7 +251,7 @@ export default function WindDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-sky-50 border-l-4 border-sky-600 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4 text-sky-800">🌬️ Dumas High Plains Wind Environment</h3>
+            <h3 className="text-2xl font-bold mb-4 text-sky-800"><Wind className="w-6 h-6 inline-block" /> Dumas High Plains Wind Environment</h3>
             <p className="text-lg mb-6">Dumas sits on the High Plains at 3,700 feet elevation, creating one of the most wind-exposed environments in Texas. The combination of elevation, flat terrain, and weather patterns makes wind damage a year-round concern for property owners.</p>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -289,7 +290,7 @@ export default function WindDamageRepairDumasPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-                <div className="text-3xl mb-4">💨</div>
+                <div className="text-3xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Shingle Blow-Off Damage</h3>
                 <p className="text-gray-600 mb-4">Most common wind damage in Dumas. High Plains winds get under shingle edges and tear them completely off, especially at roof perimeters.</p>
                 <ul className="text-sm space-y-1">
@@ -301,7 +302,7 @@ export default function WindDamageRepairDumasPage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-                <div className="text-3xl mb-4">🌪️</div>
+                <div className="text-3xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Edge Lifting & Curling</h3>
                 <p className="text-gray-600 mb-4">Constant High Plains winds cause shingle edges to lift and curl, breaking sealant bonds and creating entry points for future wind events.</p>
                 <ul className="text-sm space-y-1">
@@ -313,7 +314,7 @@ export default function WindDamageRepairDumasPage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-                <div className="text-3xl mb-4">🏠</div>
+                <div className="text-3xl mb-4"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Flashing & Metal Work</h3>
                 <p className="text-gray-600 mb-4">Metal components are particularly vulnerable to High Plains winds. Flashing around penetrations and edges fails first.</p>
                 <ul className="text-sm space-y-1">
@@ -325,7 +326,7 @@ export default function WindDamageRepairDumasPage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-                <div className="text-3xl mb-4">🌿</div>
+                <div className="text-3xl mb-4"><Leaf className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Debris Impact</h3>
                 <p className="text-gray-600 mb-4">Dumas's agricultural setting creates unique debris hazards during windstorms—equipment, materials, and vegetation become projectiles.</p>
                 <ul className="text-sm space-y-1">
@@ -337,7 +338,7 @@ export default function WindDamageRepairDumasPage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-                <div className="text-3xl mb-4">🏗️</div>
+                <div className="text-3xl mb-4"><Construction className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Commercial Building Stress</h3>
                 <p className="text-gray-600 mb-4">Large commercial and agricultural buildings in Dumas experience concentrated wind loads that stress roof systems differently than residential properties.</p>
                 <ul className="text-sm space-y-1">
@@ -349,7 +350,7 @@ export default function WindDamageRepairDumasPage() {
               </div>
 
               <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-                <div className="text-3xl mb-4">⚡</div>
+                <div className="text-3xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Electrical & Utility Damage</h3>
                 <p className="text-gray-600 mb-4">High Plains winds often damage electrical systems and utilities, creating additional hazards and complicating roof repairs.</p>
                 <ul className="text-sm space-y-1">
@@ -365,7 +366,7 @@ export default function WindDamageRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16 bg-amber-50 border-l-4 border-amber-600 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4 text-amber-800">🏭 Dumas Industrial & Agricultural Considerations</h3>
+            <h3 className="text-2xl font-bold mb-4 text-amber-800"><Factory className="w-6 h-6 inline-block" /> Dumas Industrial & Agricultural Considerations</h3>
             <p className="text-lg mb-6">Dumas's role as a major agricultural and feedlot center creates unique roofing challenges that require specialized expertise and materials.</p>
             
             <div className="grid md:grid-cols-2 gap-6">

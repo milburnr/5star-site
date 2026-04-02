@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Briefcase, Building2, Construction, Factory, FlaskConical, Fuel, Hospital, Landmark, Mail, MapPin, Phone, Shield, ShoppingCart, Star, Thermometer, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-midland/' },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -46,7 +47,7 @@ export default function TPORoofingMidlandPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/tpo-roofing-midland/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-9-1280w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -107,7 +108,7 @@ export default function TPORoofingMidlandPage() {
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">Permian Basin's Energy Capital Roofing Experts</p>
               <p className="text-xl mb-8 text-white leading-relaxed">Professional TPO roofing throughout Midland and the Permian Basin. Expert installation designed for industrial demands and West Texas extremes, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041</a>
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
               </div>
             </div>
@@ -122,7 +123,7 @@ export default function TPORoofingMidlandPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
             </div>
           </div>
         </section>
@@ -137,11 +138,11 @@ export default function TPORoofingMidlandPage() {
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
               <div className="bg-gradient-to-br from-black/5 to-gray-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🛢️ Industrial-Grade Performance</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Industrial-Grade Performance</h3>
                 <p className="text-gray-700 leading-relaxed">Midland's energy infrastructure requires roofing systems that can handle chemical exposure, heavy equipment loads, and the demanding operational environment of the Permian Basin. Our TPO systems feature enhanced chemical resistance and structural performance designed for the world's most productive oil field.</p>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🏢 Corporate Headquarters Excellence</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Building2 className="w-6 h-6 inline-block" /> Corporate Headquarters Excellence</h3>
                 <p className="text-gray-700 leading-relaxed">From Fortune 500 energy giants to innovative technology companies, Midland's corporate district demands premium roofing solutions. Our TPO installations provide the reliability, aesthetics, and energy efficiency that reflect the quality standards of America's energy capital.</p>
               </div>
             </div>
@@ -153,7 +154,7 @@ export default function TPORoofingMidlandPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does TPO Roofing Engineered for Midland's Demands Involve?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">🌡️ Extreme Heat Management</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Extreme Heat Management</h3>
                 <p className="text-gray-700 mb-4">Midland's desert climate with summer temperatures regularly exceeding 100°F creates intense thermal stress on commercial buildings. Our TPO systems feature the industry's most reflective membranes, reducing roof surface temperatures by up to 50°F and dramatically lowering cooling costs for energy-intensive facilities.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Solar reflectance up to 87%</li>
@@ -163,7 +164,7 @@ export default function TPORoofingMidlandPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">⚗️ Chemical Resistance</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><FlaskConical className="w-6 h-6 inline-block" /> Chemical Resistance</h3>
                 <p className="text-gray-700 mb-4">The Permian Basin's industrial environment exposes roofing systems to various petroleum products, chemicals, and industrial emissions. Our TPO membranes feature enhanced chemical resistance formulations specifically designed to maintain integrity in hydrocarbon-rich environments.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Hydrocarbon-resistant formulations</li>
@@ -173,7 +174,7 @@ export default function TPORoofingMidlandPage() {
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">💨 High-Wind Performance</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wind className="w-6 h-6 inline-block" /> High-Wind Performance</h3>
                 <p className="text-gray-700 mb-4">West Texas winds and occasional severe weather events demand superior wind resistance. Our TPO installations feature enhanced attachment systems designed to exceed Midland's wind load requirements while maintaining the flexibility needed for the region's significant temperature variations.</p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Wind uplift ratings to 150+ mph</li>
@@ -194,19 +195,19 @@ export default function TPORoofingMidlandPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Energy Sector Facilities</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏢 Corporate Headquarters</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Building2 className="w-6 h-6 inline-block" /> Corporate Headquarters</h4>
                     <p className="text-gray-700">Serving Fortune 500 energy companies with premium TPO roofing that reflects their commitment to excellence and environmental stewardship.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🛢️ Processing Facilities</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Fuel className="w-6 h-6 inline-block" /> Processing Facilities</h4>
                     <p className="text-gray-700">Industrial-grade TPO systems designed for petroleum processing plants, refineries, and chemical facilities with enhanced chemical resistance.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏭 Equipment Buildings</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Factory className="w-6 h-6 inline-block" /> Equipment Buildings</h4>
                     <p className="text-gray-700">Durable roofing solutions for compressor stations, pump houses, control buildings, and other critical oil field infrastructure.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏗️ Support Services</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Construction className="w-6 h-6 inline-block" /> Support Services</h4>
                     <p className="text-gray-700">TPO roofing for oilfield service companies, equipment manufacturers, and the extensive support network that powers the Permian Basin.</p>
                   </div>
                 </div>
@@ -215,19 +216,19 @@ export default function TPORoofingMidlandPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Commercial & Municipal</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏦 Financial Centers</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Landmark className="w-6 h-6 inline-block" /> Financial Centers</h4>
                     <p className="text-gray-700">Banks, investment firms, and financial institutions serving the energy capital with energy-efficient, premium roofing solutions.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏥 Healthcare Systems</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Hospital className="w-6 h-6 inline-block" /> Healthcare Systems</h4>
                     <p className="text-gray-700">Midland Memorial Hospital and medical facilities requiring quiet, reliable roofing that meets healthcare industry standards.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🛒 Retail & Hospitality</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><ShoppingCart className="w-6 h-6 inline-block" /> Retail & Hospitality</h4>
                     <p className="text-gray-700">Shopping centers, restaurants, and hotels serving the energy industry workforce with cost-effective, durable TPO roofing.</p>
                   </div>
                   <div className="bg-white p-6 rounded-xl shadow-sm">
-                    <h4 className="text-xl font-bold text-brand-gold mb-2">🏛️ Municipal Buildings</h4>
+                    <h4 className="text-xl font-bold text-brand-gold mb-2"><Landmark className="w-6 h-6 inline-block" /> Municipal Buildings</h4>
                     <p className="text-gray-700">City facilities, schools, and public buildings throughout Midland County with energy-efficient roofing that reduces operational costs.</p>
                   </div>
                 </div>
@@ -279,7 +280,7 @@ export default function TPORoofingMidlandPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Why Do Energy Companies Choose Our TPO Systems?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🏭 Industrial Durability</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Factory className="w-6 h-6 inline-block" /> Industrial Durability</h3>
                 <p className="text-gray-700 mb-4">Midland's energy facilities operate in challenging conditions. Our TPO systems are engineered for continuous industrial exposure with enhanced chemical resistance and structural performance.</p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">Performance Features:</h4>
@@ -292,7 +293,7 @@ export default function TPORoofingMidlandPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">💼 Corporate Standards</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Briefcase className="w-6 h-6 inline-block" /> Corporate Standards</h3>
                 <p className="text-gray-700 mb-4">Fortune 500 energy companies demand roofing solutions that meet the highest standards for performance, sustainability, and corporate responsibility.</p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">Corporate Benefits:</h4>
@@ -305,7 +306,7 @@ export default function TPORoofingMidlandPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">⚡ Energy Efficiency</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Zap className="w-6 h-6 inline-block" /> Energy Efficiency</h3>
                 <p className="text-gray-700 mb-4">Energy companies understand the value of efficiency. Our TPO roofing can reduce cooling costs by up to 40%, providing significant operational savings for large industrial facilities.</p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">Efficiency Benefits:</h4>
@@ -318,7 +319,7 @@ export default function TPORoofingMidlandPage() {
                 </div>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-brand-gold mb-4">🛡️ Risk Management</h3>
+                <h3 className="text-2xl font-bold text-brand-gold mb-4"><Shield className="w-6 h-6 inline-block" /> Risk Management</h3>
                 <p className="text-gray-700 mb-4">Energy operations require reliable infrastructure. Our TPO systems provide superior weather protection and fire resistance, reducing operational risks for critical facilities.</p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">Risk Reduction:</h4>
@@ -427,8 +428,8 @@ export default function TPORoofingMidlandPage() {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
             </div>
             <div className="text-center mt-6">
-              <p className="text-lg text-gray-700 mb-2">📍 2909 S Western St, Amarillo, TX 79109</p>
-              <p className="text-lg text-gray-700 mb-2">📞 (806) 622-6041 | ✉️ info@5starroofingpros.com</p>
+              <p className="text-lg text-gray-700 mb-2"><MapPin className="w-6 h-6 inline-block" /> 2909 S Western St, Amarillo, TX 79109</p>
+              <p className="text-lg text-gray-700 mb-2"><Phone className="w-5 h-5 inline-block" /> (806) 622-6041 | <Mail className="w-5 h-5 inline-block" /> info@5starroofingpros.com</p>
               <p className="text-md text-gray-600">Proudly serving America's energy capital and the entire Permian Basin</p>
             </div>
           </section>

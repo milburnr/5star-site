@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { ArrowDown, Church, CloudLightning, Factory, Hospital, Phone, School, Star, Store, Tornado, Wheat, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-snyder/' },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -59,7 +60,7 @@ export default function WindDamageRepairSnyderPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/wind-damage-repair-snyder/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -197,7 +198,7 @@ export default function WindDamageRepairSnyderPage() {
                 Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">📞 Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
                 <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
                   Get Free Inspection
@@ -227,7 +228,7 @@ export default function WindDamageRepairSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3">⭐⭐⭐⭐⭐</div>
+                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -311,21 +312,21 @@ export default function WindDamageRepairSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl mb-4">🌪️</div>
+                <div className="text-5xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Rotating Mesocyclones</h3>
                 <p className="text-gray-700">
                   Supercell thunderstorms create rotating wind patterns that can cause multi-directional roof damage. These rotating mesocyclones stress roofing systems from multiple angles simultaneously, requiring comprehensive structural repairs.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">💨</div>
+                <div className="text-5xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Straight-Line Winds</h3>
                 <p className="text-gray-700">
                   West Texas supercells produce devastating straight-line winds exceeding 100 mph. These sustained high winds create progressive damage patterns that start at roof edges and spread across entire membrane systems.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4">⬇️</div>
+                <div className="text-5xl mb-4"><ArrowDown className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Rear Flank Downbursts</h3>
                 <p className="text-gray-700">
                   Powerful downbursts from supercell rear flanks create intense downward pressure combined with rapid wind direction changes. This combination can cause complete membrane failure and structural damage to commercial buildings.
@@ -486,32 +487,32 @@ export default function WindDamageRepairSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🌾</div>
+                <div className="text-4xl mb-3"><Wheat className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Agricultural Operations</h3>
                 <p className="text-gray-600 text-sm">Grain storage, livestock facilities, equipment barns</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏫</div>
+                <div className="text-4xl mb-3"><School className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Educational Buildings</h3>
                 <p className="text-gray-600 text-sm">Schools, community colleges, training centers</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏪</div>
+                <div className="text-4xl mb-3"><Store className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Downtown Businesses</h3>
                 <p className="text-gray-600 text-sm">Historic buildings, retail stores, restaurants</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏥</div>
+                <div className="text-4xl mb-3"><Hospital className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Healthcare Facilities</h3>
                 <p className="text-gray-600 text-sm">Medical clinics, dental offices, care centers</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">🏭</div>
+                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Industrial Buildings</h3>
                 <p className="text-gray-600 text-sm">Manufacturing, processing, distribution centers</p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3">⛪</div>
+                <div className="text-4xl mb-3"><Church className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Community Buildings</h3>
                 <p className="text-gray-600 text-sm">Churches, civic centers, community halls</p>
               </div>
@@ -528,7 +529,7 @@ export default function WindDamageRepairSnyderPage() {
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl border border-orange-200">
             <div className="text-center mb-8">
               <h2 className="text-4xl font-bold text-orange-700 mb-4">Supercell Season Preparedness?</h2>
-              <div className="text-6xl mb-4">⛈️</div>
+              <div className="text-6xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 West Texas supercell season runs March through June. Be prepared for sudden, devastating wind events.
               </p>

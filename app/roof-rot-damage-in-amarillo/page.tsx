@@ -2,6 +2,7 @@ import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { AlertTriangle, Bug, Building2, CheckCircle, Circle, Droplets, FlaskConical, Hammer, Home, Lightbulb, Microscope, Phone, Radio, Search, Snowflake, Square, TrendingDown, Wrench, XCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roof-rot-damage-in-amarillo/' },
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -77,7 +78,7 @@ export default function Page() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/roof-rot-damage-in-amarillo/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$",
@@ -107,7 +108,7 @@ export default function Page() {
       </div>
 
       <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-amber-800">🦠 The Science of Wood Rot in Texas Climate</h3>
+        <h3 className="text-xl font-bold mb-3 text-amber-800"><Bug className="w-6 h-6 inline-block" /> The Science of Wood Rot in Texas Climate</h3>
         <p className="mb-4">Understanding how wood rot develops in the Texas Panhandle's unique climate helps property owners recognize early warning signs and take preventive action:</p>
         
         <div className="grid md:grid-cols-2 gap-6">
@@ -144,7 +145,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-3 gap-4 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🍄 Brown Rot (Dry Rot)</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><AlertTriangle className="w-6 h-6 inline-block" /> Brown Rot (Dry Rot)</h3>
             <p className="text-sm mb-3">Most common in Texas. Attacks cellulose, leaving brown, crumbly wood that breaks into cube-like pieces.</p>
             <ul className="text-sm space-y-1">
               <li>• Causes: Sustained moisture exposure</li>
@@ -156,7 +157,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🟫 White Rot</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Square className="w-6 h-6 inline-block text-amber-800" /> White Rot</h3>
             <p className="text-sm mb-3">Attacks lignin, leaving white, fibrous wood. Less common but equally destructive to structural integrity.</p>
             <ul className="text-sm space-y-1">
               <li>• Causes: Higher moisture levels</li>
@@ -168,7 +169,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🔵 Soft Rot</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Circle className="w-6 h-6 inline-block text-blue-600" /> Soft Rot</h3>
             <p className="text-sm mb-3">Surface-level damage common in high-moisture environments. Often precedes deeper rot development.</p>
             <ul className="text-sm space-y-1">
               <li>• Causes: Fluctuating moisture levels</li>
@@ -189,7 +190,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-green-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-green-800">📡 Infrared Thermal Imaging</h3>
+            <h3 className="text-lg font-bold mb-3 text-green-800"><Radio className="w-6 h-6 inline-block" /> Infrared Thermal Imaging</h3>
             <ul className="space-y-2 text-sm">
               <li>• Detects temperature variations indicating moisture</li>
               <li>• Identifies thermal bridges and insulation gaps</li>
@@ -201,7 +202,7 @@ export default function Page() {
           </div>
           
           <div className="bg-green-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-green-800">🔬 Moisture Meters & Probes</h3>
+            <h3 className="text-lg font-bold mb-3 text-green-800"><Microscope className="w-6 h-6 inline-block" /> Moisture Meters & Probes</h3>
             <ul className="space-y-2 text-sm">
               <li>• Pin-type meters for surface moisture measurement</li>
               <li>• Pinless meters for sub-surface moisture detection</li>
@@ -214,7 +215,7 @@ export default function Page() {
         </div>
 
         <div className="bg-blue-50 rounded-lg p-6 mb-6">
-          <h3 className="text-lg font-bold mb-3 text-blue-800">🧪 Core Sampling Analysis</h3>
+          <h3 className="text-lg font-bold mb-3 text-blue-800"><FlaskConical className="w-6 h-6 inline-block" /> Core Sampling Analysis</h3>
           <p className="text-sm mb-3">For suspected structural damage, we perform minimal core sampling to assess internal wood condition:</p>
           <div className="grid md:grid-cols-2 gap-4">
             <ul className="space-y-1 text-sm">
@@ -299,21 +300,21 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Warning Signs of Roof Rot</h2>
       <div className="grid md:grid-cols-3 gap-4 mb-8">
         <div className="check-item">
-          <span className="check-icon text-2xl">📉</span>
+          <span className="check-icon text-2xl"><TrendingDown className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Sagging Roof Line</h3>
             <p className="text-gray-600">Visible dips or sagging in roof surface indicating structural wood failure</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">💧</span>
+          <span className="check-icon text-2xl"><Droplets className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Water Stains on Ceilings</h3>
             <p className="text-gray-600">Brown or yellow discoloration from water penetrating through rotted decking</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🦠</span>
+          <span className="check-icon text-2xl"><Bug className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Mold/Mildew Odors</h3>
             <p className="text-gray-600">Musty smell in attic or upper rooms from fungal growth on damp wood</p>
@@ -327,14 +328,14 @@ export default function Page() {
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🕷️</span>
+          <span className="check-icon text-2xl"><Bug className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Visible Wood Decay in Attic</h3>
             <p className="text-gray-600">Dark, crumbling, or powdery wood on rafters or decking when inspecting attic</p>
           </div>
         </div>
         <div className="check-item">
-          <span className="check-icon text-2xl">🐜</span>
+          <span className="check-icon text-2xl"><Bug className="w-6 h-6 inline-block" /></span>
           <div>
             <h3 className="font-bold mb-2">Pest Infestations</h3>
             <p className="text-gray-600">Carpenter ants or termites attracted to rotted wood in roof structure</p>
@@ -396,7 +397,7 @@ export default function Page() {
 
         <div className="space-y-6">
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">🔍 Phase 1: Complete Assessment & Documentation</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Phase 1: Complete Assessment & Documentation</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Structural Analysis:</h4>
@@ -422,7 +423,7 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">🛠️ Phase 2: Safe Rot Removal</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Wrench className="w-6 h-6 inline-block" /> Phase 2: Safe Rot Removal</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Containment Procedures:</h4>
@@ -448,7 +449,7 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">🔨 Phase 3: Structural Reconstruction</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Hammer className="w-6 h-6 inline-block" /> Phase 3: Structural Reconstruction</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Material Specifications:</h4>
@@ -474,7 +475,7 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown">💧 Phase 4: Moisture Prevention Systems</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Droplets className="w-6 h-6 inline-block" /> Phase 4: Moisture Prevention Systems</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Waterproofing Upgrades:</h4>
@@ -509,7 +510,7 @@ export default function Page() {
 
         <div className="space-y-6">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🏠 Case Study 1: Amarillo Hail Damage Progression</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Case Study 1: Amarillo Hail Damage Progression</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Initial Conditions:</h4>
@@ -539,7 +540,7 @@ export default function Page() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">🏢 Case Study 2: Commercial Building Flat Roof</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Building2 className="w-6 h-6 inline-block" /> Case Study 2: Commercial Building Flat Roof</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Building Profile:</h4>
@@ -569,7 +570,7 @@ export default function Page() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown">❄️ Case Study 3: Winter Storm Uri Damage</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Case Study 3: Winter Storm Uri Damage</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Storm Impact:</h4>
@@ -608,7 +609,7 @@ export default function Page() {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-4">
-            <h4 className="font-bold mb-2 text-green-700">✅ Typically Covered</h4>
+            <h4 className="font-bold mb-2 text-green-700"><CheckCircle className="w-5 h-5 inline-block text-green-600" /> Typically Covered</h4>
             <ul className="space-y-1 text-sm">
               <li>• Rot resulting from sudden storm damage</li>
               <li>• Hidden damage discovered during storm claims</li>
@@ -619,7 +620,7 @@ export default function Page() {
             </ul>
           </div>
           <div className="bg-white rounded-lg p-4">
-            <h4 className="font-bold mb-2 text-red-700">❌ Usually Not Covered</h4>
+            <h4 className="font-bold mb-2 text-red-700"><XCircle className="w-5 h-5 inline-block text-red-600" /> Usually Not Covered</h4>
             <ul className="space-y-1 text-sm">
               <li>• Gradual deterioration over time</li>
               <li>• Damage from deferred maintenance</li>
@@ -631,7 +632,7 @@ export default function Page() {
           </div>
         </div>
         <div className="bg-brand-gold-light rounded-lg p-4 mt-4">
-          <h4 className="font-bold mb-2">💡 Maximizing Coverage Success</h4>
+          <h4 className="font-bold mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Maximizing Coverage Success</h4>
           <p className="text-sm">Our documentation process includes thermal imaging, moisture mapping, and storm correlation analysis. We work directly with adjusters to demonstrate that rot resulted from covered perils rather than maintenance issues. Success rate: 87% for qualifying claims.</p>
         </div>
       </div>
@@ -665,7 +666,7 @@ export default function Page() {
       </div>
 
       <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
-        <h3 className="font-bold mb-3">⚠️ Roof Rot is a Safety Hazard</h3>
+        <h3 className="font-bold mb-3"><AlertTriangle className="w-6 h-6 inline-block" /> Roof Rot is a Safety Hazard</h3>
         <p>
           Severely rotted roof decking can collapse under the weight of roofers or during heavy snow loads. If you suspect rot, do NOT attempt to walk on your roof. Call professional roofers with proper safety equipment and experience handling structural damage.
         </p>
@@ -690,7 +691,7 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
-            📞 Call (806) 622-6041
+            <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
           <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
             Request Free Inspection

@@ -1,6 +1,7 @@
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
+import { AlertTriangle, Brush, Calendar, ClipboardList, CloudLightning, Droplets, Eye, Flower2, Home, Leaf, Mountain, Phone, Shield, Square, Thermometer, Tornado, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/blog/roof-maintenance-checklist-texas/' },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -40,7 +41,7 @@ export default function RoofMaintenanceChecklistPage() {
             <h1 className="hero-title">Roof Maintenance Checklist for Texas 2025</h1>
             <p className="hero-subtitle">Extend Your Roof's Life with Proper Maintenance</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="btn-secondary text-lg px-8 py-4">Schedule Inspection</a>
             </div>
           </div>
@@ -64,17 +65,17 @@ export default function RoofMaintenanceChecklistPage() {
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">Quick Maintenance Overview</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg">
-                <div className="text-4xl mb-3">📅</div>
+                <div className="text-4xl mb-3"><Calendar className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Twice Yearly</h3>
                 <p className="text-gray-700">Complete roof inspection and maintenance (spring and fall)</p>
               </div>
               <div className="bg-white p-6 rounded-lg">
-                <div className="text-4xl mb-3">⛈️</div>
+                <div className="text-4xl mb-3"><CloudLightning className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">After Major Storms</h3>
                 <p className="text-gray-700">Inspect for hail damage, missing shingles, or leaks</p>
               </div>
               <div className="bg-white p-6 rounded-lg">
-                <div className="text-4xl mb-3">🏠</div>
+                <div className="text-4xl mb-3"><Home className="w-6 h-6 inline-block" /></div>
                 <h3 className="font-bold text-brand-brown mb-2">Annual Professional Inspection</h3>
                 <p className="text-gray-700">Have a professional inspect your roof once a year</p>
               </div>
@@ -89,7 +90,7 @@ export default function RoofMaintenanceChecklistPage() {
             {/* Spring Maintenance */}
             <div className="mb-12 max-w-4xl mx-auto">
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-green-500">
-                <h3 className="text-3xl font-bold text-brand-brown mb-6">🌸 Spring Maintenance (March-April)</h3>
+                <h3 className="text-3xl font-bold text-brand-brown mb-6"><Flower2 className="w-6 h-6 inline-block" /> Spring Maintenance (March-April)</h3>
                 <p className="text-gray-700 mb-6">
                   Spring inspection is critical after winter weather and before summer heat. This is also when you'll discover hail damage from spring storms.
                 </p>
@@ -97,7 +98,7 @@ export default function RoofMaintenanceChecklistPage() {
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Inspect for Hail Damage
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Inspect for Hail Damage
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Look for dents, bruising, or missing granules on shingles</li>
@@ -109,7 +110,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Clean Gutters & Downspouts
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Clean Gutters & Downspouts
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Remove leaves, debris, and sediment from gutters</li>
@@ -121,7 +122,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Inspect Shingles
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Inspect Shingles
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Check for curling, cracking, or missing shingles</li>
@@ -133,7 +134,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Check Flashing
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Check Flashing
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Inspect chimney flashing for gaps or rust</li>
@@ -145,7 +146,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Trim Overhanging Branches
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Trim Overhanging Branches
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Cut branches within 6 feet of roof</li>
@@ -161,7 +162,7 @@ export default function RoofMaintenanceChecklistPage() {
             {/* Fall Maintenance */}
             <div className="mb-12 max-w-4xl mx-auto">
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-orange-500">
-                <h3 className="text-3xl font-bold text-brand-brown mb-6">🍂 Fall Maintenance (September-October)</h3>
+                <h3 className="text-3xl font-bold text-brand-brown mb-6"><Leaf className="w-6 h-6 inline-block" /> Fall Maintenance (September-October)</h3>
                 <p className="text-gray-700 mb-6">
                   Fall maintenance prepares your roof for winter and assesses damage from summer heat and storms.
                 </p>
@@ -169,7 +170,7 @@ export default function RoofMaintenanceChecklistPage() {
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Deep Clean Gutters
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Deep Clean Gutters
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Remove all leaves and debris before winter</li>
@@ -181,7 +182,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Inspect for Heat Damage
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Inspect for Heat Damage
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Check for curled or buckled shingles (heat stress)</li>
@@ -193,7 +194,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Check Attic Ventilation
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Check Attic Ventilation
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Ensure soffit vents aren't blocked by insulation</li>
@@ -205,7 +206,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Inspect Interior for Leaks
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Inspect Interior for Leaks
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Check ceilings for water stains or discoloration</li>
@@ -217,7 +218,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Professional Inspection
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Professional Inspection
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Schedule annual professional inspection</li>
@@ -233,7 +234,7 @@ export default function RoofMaintenanceChecklistPage() {
             {/* After Storm Inspection */}
             <div className="max-w-4xl mx-auto">
               <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-500">
-                <h3 className="text-3xl font-bold text-brand-brown mb-6">⛈️ After Major Storms (Year-Round)</h3>
+                <h3 className="text-3xl font-bold text-brand-brown mb-6"><CloudLightning className="w-6 h-6 inline-block" /> After Major Storms (Year-Round)</h3>
                 <p className="text-gray-700 mb-6">
                   After hail, high winds, or severe storms, inspect your roof immediately. Documenting damage quickly is critical for insurance claims.
                 </p>
@@ -241,7 +242,7 @@ export default function RoofMaintenanceChecklistPage() {
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Immediate Safety Check
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Immediate Safety Check
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Look for missing shingles or exposed decking</li>
@@ -252,7 +253,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Document Damage
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Document Damage
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Take photos of all visible damage</li>
@@ -264,7 +265,7 @@ export default function RoofMaintenanceChecklistPage() {
 
                   <div>
                     <h4 className="font-bold text-brand-brown mb-3 flex items-center gap-2">
-                      <span className="text-2xl">☐</span> Professional Storm Inspection
+                      <span className="text-2xl"><Square className="w-5 h-5 inline-block" /></span> Professional Storm Inspection
                     </h4>
                     <ul className="ml-8 space-y-2 text-gray-700">
                       <li>• Call for free storm damage inspection</li>
@@ -288,7 +289,7 @@ export default function RoofMaintenanceChecklistPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="font-bold text-brand-brown mb-3">👁️ Visual Inspection from Ground</h3>
+                  <h3 className="font-bold text-brand-brown mb-3"><Eye className="w-6 h-6 inline-block" /> Visual Inspection from Ground</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>• Look for obvious missing or damaged shingles</li>
                     <li>• Check gutters for sagging or separations</li>
@@ -297,7 +298,7 @@ export default function RoofMaintenanceChecklistPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="font-bold text-brand-brown mb-3">🏠 Interior Check</h3>
+                  <h3 className="font-bold text-brand-brown mb-3"><Home className="w-6 h-6 inline-block" /> Interior Check</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>• Walk through home looking at ceilings</li>
                     <li>• Check for new water stains or discoloration</li>
@@ -315,19 +316,19 @@ export default function RoofMaintenanceChecklistPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Warning Signs: Call a Professional Immediately</h2>
             <div className="max-w-4xl mx-auto space-y-4">
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
-                <h3 className="font-bold text-red-700 mb-2">🚨 Active Water Intrusion</h3>
+                <h3 className="font-bold text-red-700 mb-2"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /> Active Water Intrusion</h3>
                 <p className="text-gray-700">Water actively coming through ceiling or walls. Call storm repair immediately—continuing leaks cause exponential damage.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
-                <h3 className="font-bold text-red-700 mb-2">⚠️ Sagging Roof Deck</h3>
+                <h3 className="font-bold text-red-700 mb-2"><AlertTriangle className="w-6 h-6 inline-block" /> Sagging Roof Deck</h3>
                 <p className="text-gray-700">Visible sagging or dips in roof line indicate structural damage. This is a safety hazard requiring immediate professional assessment.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
-                <h3 className="font-bold text-red-700 mb-2">🌪️ Large Missing Sections</h3>
+                <h3 className="font-bold text-red-700 mb-2"><Tornado className="w-6 h-6 inline-block" /> Large Missing Sections</h3>
                 <p className="text-gray-700">Wind has blown off large sections of roofing. Exposed decking needs tarping to prevent interior damage.</p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg shadow-md border-l-4 border-red-500">
-                <h3 className="font-bold text-red-700 mb-2">💧 Multiple New Water Stains</h3>
+                <h3 className="font-bold text-red-700 mb-2"><Droplets className="w-6 h-6 inline-block" /> Multiple New Water Stains</h3>
                 <p className="text-gray-700">Multiple new water stains appearing after rain indicate serious leak(s). These will worsen rapidly—call for inspection.</p>
               </div>
             </div>
@@ -342,15 +343,15 @@ export default function RoofMaintenanceChecklistPage() {
             </p>
             <div className="space-y-4">
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-bold text-brand-brown mb-2">📋 Annual Professional Inspection ($0-$300)</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><ClipboardList className="w-6 h-6 inline-block" /> Annual Professional Inspection ($0-$300)</h3>
                 <p className="text-gray-700">Professional inspectors safely access all roof areas, use specialized equipment to detect hidden damage, and provide detailed reports. Many roofers (including us) offer free inspections.</p>
               </div>
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-bold text-brand-brown mb-2">🧹 Professional Roof Cleaning ($300-$600)</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><Brush className="w-6 h-6 inline-block" /> Professional Roof Cleaning ($300-$600)</h3>
                 <p className="text-gray-700">Removes algae, moss, and debris that accelerate aging. Especially important in humid climates. Done carefully to avoid shingle damage.</p>
               </div>
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-bold text-brand-brown mb-2">🛡️ Preventive Maintenance Plans</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><Shield className="w-6 h-6 inline-block" /> Preventive Maintenance Plans</h3>
                 <p className="text-gray-700">Annual or bi-annual maintenance contracts include inspections, minor repairs, gutter cleaning, and priority prompt service. Typical cost: $300-$600/year.</p>
               </div>
             </div>
@@ -362,19 +363,19 @@ export default function RoofMaintenanceChecklistPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Texas-Specific Maintenance Tips</h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🌡️ Extreme Heat Considerations</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Extreme Heat Considerations</h3>
                 <p className="text-gray-700">Texas heat accelerates aging. Check attic ventilation regularly—poor ventilation can shorten roof life by 10+ years. Ensure soffit and ridge vents aren't blocked.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">⛈️ Hail Damage Inspections</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><CloudLightning className="w-6 h-6 inline-block" /> Hail Damage Inspections</h3>
                 <p className="text-gray-700">After any hail event in Texas, schedule a professional inspection. Even small hail causes damage that worsens over time. Free inspections are common after major storms.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">💨 Wind Damage Checks</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Wind Damage Checks</h3>
                 <p className="text-gray-700">West Texas winds are extreme. Check that shingles are properly sealed—wind can lift unsealed edges and cause blow-offs. Look for lifted or loose shingles after wind events.</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-brand-brown mb-2">🏜️ Dust Storm Cleanup</h3>
+                <h3 className="font-bold text-brand-brown mb-2"><Mountain className="w-6 h-6 inline-block" /> Dust Storm Cleanup</h3>
                 <p className="text-gray-700">West Texas dust storms deposit debris that clogs gutters and valleys. Clean gutters more frequently (3-4 times per year) if you experience regular dust storms.</p>
               </div>
             </div>
@@ -386,7 +387,7 @@ export default function RoofMaintenanceChecklistPage() {
             <h2 className="cta-title">Professional Roof Maintenance in Texas</h2>
             <p className="cta-text">Need professional roof maintenance or inspection? We serve all of West Texas with comprehensive maintenance services.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">📞 Call (806) 622-6041</a>
+              <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
               <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">Schedule Inspection</a>
             </div>
           </section>
