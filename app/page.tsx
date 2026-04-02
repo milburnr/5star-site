@@ -7,20 +7,21 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Building2, Check, ClipboardList, CloudHail, CloudLightning, Home, MapPin, Phone, Search, Star } from "lucide-react";
 
 
 export const metadata: Metadata = {
-  title: 'Amarillo Residential Roofing & Hail Repair | 5 Star Roofing',
-  description: "Amarillo's trusted residential roofer — hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
-  keywords: "amarillo roofing, residential roofing amarillo, hail damage repair amarillo, roof repair amarillo, texas panhandle roofer, storm damage roof repair, insurance claims roofing, midland roofing, odessa roofing",
+  title: 'Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing',
+  description: "Amarillo's trusted residential & commercial roofer since 2014. Hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
+  keywords: "amarillo roofing, roofing company amarillo tx, residential roofing amarillo, commercial roofing amarillo, hail damage repair amarillo, roof repair amarillo, texas panhandle roofer, storm damage roof repair, insurance claims roofing, midland roofing, odessa roofing",
   openGraph: {
-    title: "Amarillo Residential Roofing & Hail Repair | 5 Star Roofing",
-    description: "Amarillo's trusted residential roofer. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
+    title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
+    description: "Amarillo's trusted residential & commercial roofer since 2014. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -31,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amarillo Residential Roofing & Hail Repair | 5 Star Roofing",
-    description: "Amarillo residential roofing experts. Free storm inspections & insurance claim help.",
+    title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
+    description: "Amarillo residential & commercial roofing experts. Free storm inspections & insurance claim help.",
   },
   alternates: {
     canonical: "https://5starroofingpros.com",
@@ -50,17 +51,17 @@ export default function Page() {
         <div className="container-custom relative z-10">
           <div className="max-w-4xl md:backdrop-blur-sm md:bg-gradient-to-r md:from-black/40 md:to-transparent p-4 sm:p-6 md:p-8 lg:p-12 md:rounded-2xl md:border-l-4 md:border-brand-gold">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-6 text-white leading-tight" style={{textShadow: '0 2px 8px rgba(0,0,0,0.9)'}}>
-              Amarillo Roofing &amp; Hail Damage <span className="text-brand-gold-light block sm:inline">Repair Experts</span>
+              Amarillo Residential &amp; Commercial <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light" style={{textShadow: '0 2px 6px rgba(0,0,0,0.8)'}}>
-              Amarillo | Canyon | Texas Panhandle
+              ⭐ 4.9/5.0 — 39 Google Reviews | Serving West Texas Since 2014
             </p>
             <p className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
-              <a href="/amarillo-texas-roofing/" className="text-white underline hover:text-brand-gold-light">Amarillo</a>&apos;s trusted residential roofer — free inspections, insurance claim help, and same-day storm response for homeowners across the Texas Panhandle.
+              <a href="/amarillo-texas-roofing/" className="text-white underline hover:text-brand-gold-light">Amarillo</a>&apos;s trusted roofing company — hail damage repair, roof replacement, insurance claim help, and same-day storm response for homes and businesses across the Texas Panhandle.
             </p>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4">
               <a href="tel:8066226041" className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:scale-105 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] transition-all duration-300 flex items-center justify-center gap-2">
-                <span className="text-lg sm:text-xl">📞</span> Call (806) 622-6041
+                <Phone className="w-5 h-5 sm:w-6 sm:h-6 inline-block" /> Call (806) 622-6041
               </a>
               <a href="/contact/" className="bg-white text-brand-brown px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-105 transition-all duration-300 text-sm sm:text-base md:text-lg shadow-xl border-2 border-brand-gold text-center">
                 Free Inspection
@@ -101,7 +102,7 @@ export default function Page() {
               </FadeIn>
               <FadeIn delay={0.4}>
                 <a href="/reviews/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
-                  <div className="text-xl sm:text-2xl md:text-3xl mb-1 sm:mb-2 md:mb-3">⭐⭐⭐⭐⭐</div>
+                  <div className="text-xl sm:text-2xl md:text-3xl mb-1 sm:mb-2 md:mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
                   <div className="text-brand-brown font-semibold text-xs sm:text-sm md:text-lg group-hover:text-brand-gold transition-colors">5-Star Rated</div>
                 </a>
               </FadeIn>
@@ -164,7 +165,7 @@ export default function Page() {
               <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg" alt="Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🌨️ Hail Damage Repair</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><CloudHail className="w-6 h-6 inline-block" /> Hail Damage Repair</h3>
                 <p className="text-gray-600 mb-4">
                   Expert assessment and repair of hail-damaged roofs. We know exactly what insurance adjusters look for.
                 </p>
@@ -177,7 +178,7 @@ export default function Page() {
               <a href="/storm-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg" alt="Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">⛈️ Storm Damage Restoration</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><CloudLightning className="w-6 h-6 inline-block" /> Storm Damage Restoration</h3>
                 <p className="text-gray-600 mb-4">
                   Wind, rain, and severe weather damage? We handle all types of storm-related roof repairs.
                 </p>
@@ -190,7 +191,7 @@ export default function Page() {
               <a href="/roof-inspections-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-1280w.jpg" alt="Professional roof inspector examining shingle condition on Amarillo home - Free assessment" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🔍 Free Roof Inspections</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Search className="w-6 h-6 inline-block" /> Free Roof Inspections</h3>
                 <p className="text-gray-600 mb-4">
                   Comprehensive roof assessments with detailed documentation for insurance claims.
                 </p>
@@ -203,7 +204,7 @@ export default function Page() {
               <a href="/residential-roofing/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-1280w.jpg" alt="New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🏠 Residential Roofing</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Home className="w-6 h-6 inline-block" /> Residential Roofing</h3>
                 <p className="text-gray-600 mb-4">
                   Complete roofing solutions for homeowners. New installations, replacements, and repairs.
                 </p>
@@ -216,7 +217,7 @@ export default function Page() {
               <a href="/commercial-roofing/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg" alt="TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">🏢 Commercial Roofing</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Building2 className="w-6 h-6 inline-block" /> Commercial Roofing</h3>
                 <p className="text-gray-600 mb-4">
                   TPO, PVC, and built-up roofing systems for businesses and commercial properties.
                 </p>
@@ -229,7 +230,7 @@ export default function Page() {
               <a href="/contact/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
               <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg" alt="Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">📋 Insurance Claims Help</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><ClipboardList className="w-6 h-6 inline-block" /> Insurance Claims Help</h3>
                 <p className="text-gray-600 mb-4">
                   We work directly with your insurance company to maximize your coverage.
                 </p>
@@ -247,7 +248,7 @@ export default function Page() {
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="flex gap-4">
-              <div className="text-3xl">✓</div>
+              <div><Check className="w-8 h-8 text-brand-gold" /></div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Local Hail Damage Specialists</h3>
                 <p>We understand West Texas weather and know how to identify and <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">repair hail damage correctly</a>. The Texas Panhandle experiences 8-12 hailstorms annually—we've seen it all.</p>
@@ -255,7 +256,7 @@ export default function Page() {
             </div>
 
             <div className="flex gap-4">
-              <div className="text-3xl">✓</div>
+              <div><Check className="w-8 h-8 text-brand-gold" /></div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Insurance Claim Experts</h3>
                 <p>We handle all the paperwork and work directly with adjusters to get you full coverage. From <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">free roof inspections</a> to claim filing, we manage the entire process.</p>
@@ -263,7 +264,7 @@ export default function Page() {
             </div>
 
             <div className="flex gap-4">
-              <div className="text-3xl">✓</div>
+              <div><Check className="w-8 h-8 text-brand-gold" /></div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Fast storm response</h3>
                 <p>After a storm, time is critical. We offer same-day inspections and rapid <a href="/storm-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline">storm damage repair</a> scheduling to minimize interior damage.</p>
@@ -271,7 +272,7 @@ export default function Page() {
             </div>
 
             <div className="flex gap-4">
-              <div className="text-3xl">✓</div>
+              <div><Check className="w-8 h-8 text-brand-gold" /></div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Licensed & Insured</h3>
                 <p>Fully licensed in Texas with comprehensive insurance coverage for your protection. Serving <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline">Amarillo and the Texas Panhandle</a>, with additional coverage in Midland and Odessa.</p>
@@ -279,7 +280,7 @@ export default function Page() {
             </div>
 
             <div className="flex gap-4">
-              <div className="text-3xl">✓</div>
+              <div><Check className="w-8 h-8 text-brand-gold" /></div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Quality Workmanship</h3>
                 <p>Over 10 years of experience delivering exceptional <a href="/residential-roofing/" className="text-brand-brown hover:text-brand-gold underline">residential</a> and <a href="/commercial-roofing/" className="text-brand-brown hover:text-brand-gold underline">commercial roofing</a> results across Amarillo and the Texas Panhandle. See why homeowners call us <a href="/amarillos-best-roofer/" className="text-brand-brown hover:text-brand-gold underline">Amarillo&apos;s best roofer</a>.</p>
@@ -287,7 +288,7 @@ export default function Page() {
             </div>
 
             <div className="flex gap-4">
-              <div className="text-3xl">✓</div>
+              <div><Check className="w-8 h-8 text-brand-gold" /></div>
               <div>
                 <h3 className="font-bold text-lg mb-2">Comprehensive Warranties</h3>
                 <p>We stand behind our work with industry-leading warranty protection. All <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline">Class 4 impact-resistant shingles</a> include manufacturer warranties up to 50 years.</p>
@@ -398,7 +399,7 @@ export default function Page() {
                 </FadeIn>
               </div>
               <div className="bg-gradient-to-r from-amber-50 to-yellow-50 border-l-4 border-brand-gold p-8 rounded-r-2xl shadow-md">
-                <h3 className="font-bold text-xl mb-3 text-brand-brown flex items-center gap-2">📍 Did You Know?</h3>
+                <h3 className="font-bold text-xl mb-3 text-brand-brown flex items-center gap-2"><MapPin className="w-6 h-6 inline-block" /> Did You Know?</h3>
                 <p className="text-gray-700 text-lg leading-relaxed">
                   Amarillo, Midland, and Odessa are among the top 20 cities in the U.S. for hail frequency.
                   Class 4 impact-resistant shingles can reduce hail damage by up to 90% and qualify you for
@@ -449,7 +450,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg" alt="White TPO commercial roofing membrane on flat-roof building in Pampa TX" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="White TPO commercial roofing membrane on flat-roof building in Pampa TX" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">TPO Commercial Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Single-ply white membrane roofing for commercial flat roofs. Heat-welded seams create
@@ -502,7 +503,7 @@ export default function Page() {
 
             {/* Step 2 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg" alt="Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
               <div className="text-4xl font-bold text-brand-gold mb-2">2</div>
               <h3 className="text-xl font-bold mb-2">Documentation</h3>
               <p className="text-gray-600">
@@ -729,7 +730,7 @@ export default function Page() {
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="tel:8066226041" className="btn-primary text-lg bg-white text-brand-brown hover:bg-gray-100 hover:scale-110 transition-all duration-300 hover:shadow-2xl">
-              📞 Call (806) 622-6041
+              <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
             </a>
             <a href="/contact/" className="btn-secondary text-lg border-2 border-white hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300">
               Request Free Inspection
@@ -746,7 +747,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg",
             "@id": "https://5starroofingpros.com/#organization",
             "url": "https://5starroofingpros.com",
             "telephone": "(806) 622-6041",
