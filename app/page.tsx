@@ -49,23 +49,30 @@ export default function Page() {
       >
         <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30"></div>
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl p-4 sm:p-6 md:p-8 lg:p-12">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-6 text-white leading-tight" style={{textShadow: '0 2px 8px rgba(0,0,0,0.9)'}}>
-              Amarillo Residential &amp; Commercial <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
-            </h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light" style={{textShadow: '0 2px 6px rgba(0,0,0,0.8)'}}>
-              ⭐ 4.9/5.0 — 39 Google Reviews | Serving West Texas Since 2014
-            </p>
-            <p className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
-              <a href="/amarillo-texas-roofing/" className="font-semibold text-brand-gold-light no-underline hover:underline">Amarillo</a>&apos;s trusted roofing company — hail damage repair, roof replacement, insurance claim help, and same-day storm response for homes and businesses across the Texas Panhandle.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4">
-              <a href="tel:8066226041" className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:scale-105 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] transition-all duration-300 flex items-center justify-center gap-2">
-                <Phone className="w-5 h-5 sm:w-6 sm:h-6 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="bg-white text-brand-brown px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-105 transition-all duration-300 text-sm sm:text-base md:text-lg shadow-xl border-2 border-brand-gold text-center">
-                Free Inspection
-              </a>
+          <div className="lg:grid lg:grid-cols-5 lg:gap-8 lg:items-center">
+            <div className="lg:col-span-3 p-4 sm:p-6 md:p-8 lg:p-12">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-6 text-white leading-tight" style={{textShadow: '0 2px 8px rgba(0,0,0,0.9)'}}>
+                Amarillo Residential &amp; Commercial <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
+              </h1>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light" style={{textShadow: '0 2px 6px rgba(0,0,0,0.8)'}}>
+                ⭐ 4.9/5.0 — 39 Google Reviews | Serving West Texas Since 2014
+              </p>
+              <p className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
+                <a href="/amarillo-texas-roofing/" className="font-semibold text-brand-gold-light no-underline hover:underline">Amarillo</a>&apos;s trusted roofing company — hail damage repair, roof replacement, insurance claim help, and same-day storm response for homes and businesses across the Texas Panhandle.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4">
+                <a href="tel:8066226041" className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2">
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 inline-block" /> Call (806) 622-6041
+                </a>
+                <a href="/contact/" className="bg-white text-brand-brown px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold hover:bg-gray-50 hover:-translate-y-0.5 transition-all duration-300 text-sm sm:text-base md:text-lg shadow-xl border-2 border-brand-gold text-center">
+                  Free Inspection
+                </a>
+              </div>
+            </div>
+            {/* Phase 13: insurance-carrier logo strip or crew portrait lands here.
+                Placeholder reserves aspect ratio to prevent CLS when content arrives. */}
+            <div className="hidden lg:block lg:col-span-2" aria-hidden="true">
+              <div className="aspect-[4/5] w-full"></div>
             </div>
           </div>
         </div>
