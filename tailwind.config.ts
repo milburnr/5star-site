@@ -23,8 +23,8 @@ export default {
   				'brown-dark': '#A57F0F'
   			},
   			gray: {
-  				primary: '#54595F',
-  				text: '#525252',
+  				primary: '#111827',
+  				text: '#1F2937',
   				footer: '#747474',
   				'footer-text': '#C8D5DC'
   			},
