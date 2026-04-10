@@ -534,15 +534,6 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
 /*
  * Task 12.3 — LeadConnector chat widget coexistence with sticky contact bar.
  *
