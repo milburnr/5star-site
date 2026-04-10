@@ -532,3 +532,58 @@
     @apply bg-background text-foreground;
   }
 }
+
+/*
+ * Task 12.3 — LeadConnector chat widget coexistence with sticky contact bar.
+ *
+ * The chat widget is injected by a <script src> loader in app/layout.tsx (no
+ * component file exists that we can control). LeadConnector renders its launcher
+ * inside wrappers whose class / id names vary by widget version. We target the
+ * known selectors defensively so the launcher (and any preview bubbles) never
+ * overlap the sticky-contact-bar or obscure the current viewport's H2 on small
+ * screens.
+ *
+ * NOTE: "Collapsed on load" cannot be forced from code for a script-injected
+ * LeadConnector widget — Rich must set the widget's default state in the
+ * LeadConnector dashboard (Sites -> Chat Widget -> widget 68e83a586141ff5c3b72b4a4,
+ * toggle "Open by default" = OFF). See STREAM-A-SUMMARY.md for the follow-up.
+ */
+
+/* Default (sticky bar NOT visible on this page): launcher 16px above bottom + safe area */
+#lc-chat-widget,
+.chat-widget,
+.lc-chat-widget,
+div[class*="chat-widget"],
+iframe[src*="leadconnectorhq"],
+iframe[src*="chat-widget"],
+iframe[id*="lc_"],
+div[id^="lc_"]:not([id*="prompt"]) {
+  bottom: calc(16px + env(safe-area-inset-bottom)) !important;
+  transition: bottom 200ms ease;
+}
+
+/* When the sticky-contact-bar is visible, lift the chat launcher above it.
+   Sticky bar is ~72-88px tall on mobile; 88px gives visual breathing room. */
+body:has(.sticky-contact-bar.visible) #lc-chat-widget,
+body:has(.sticky-contact-bar.visible) .chat-widget,
+body:has(.sticky-contact-bar.visible) .lc-chat-widget,
+body:has(.sticky-contact-bar.visible) div[class*="chat-widget"],
+body:has(.sticky-contact-bar.visible) iframe[src*="leadconnectorhq"],
+body:has(.sticky-contact-bar.visible) iframe[src*="chat-widget"],
+body:has(.sticky-contact-bar.visible) iframe[id*="lc_"],
+body:has(.sticky-contact-bar.visible) div[id^="lc_"]:not([id*="prompt"]) {
+  bottom: calc(88px + env(safe-area-inset-bottom)) !important;
+}
+
+/* Main content wrapper — reserve bottom padding so the sticky contact bar
+   never covers the last line of content. Only applied when a visible sticky
+   bar is actually rendered on the page. */
+body:has(.sticky-contact-bar.visible) main {
+  padding-bottom: calc(6rem + env(safe-area-inset-bottom)); /* pb-24 equivalent */
+}
+
+@media (min-width: 768px) {
+  body:has(.sticky-contact-bar.visible) main {
+    padding-bottom: calc(5rem + env(safe-area-inset-bottom)); /* md:pb-20 equivalent */
+  }
+}
