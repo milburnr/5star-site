@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { MaterialBrands } from "@/components/MaterialBrands";
 import { Check, Trophy, Zap } from "lucide-react";
 
 
@@ -135,6 +136,11 @@ export default function Page() {
           with high-quality residential roofing services, specializing in <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">hail damage repair</a> and insurance
           claim assistance. The Texas Panhandle experiences 8-12 hailstorms annually—trust our expertise to protect your home with <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Class 4 impact-resistant shingles</a>. View our complete <a href="/amarillo-homes-roofing-services/" className="text-brand-brown hover:text-brand-gold underline font-semibold">Amarillo homes roofing services</a> for local options.
         </p>
+      </div>
+
+      {/* Phase 12 Stream C (12.15): residential material brand strip */}
+      <div className="-mx-4 md:-mx-8 mb-8">
+        <MaterialBrands variant="residential" />
       </div>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Residential Roofing Systems</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { MaterialBrands } from "@/components/MaterialBrands";
 import {
   Accordion,
   AccordionContent,
@@ -223,6 +224,11 @@ export default function Page() {
           </div>
         </div>
       </FadeIn>
+
+      {/* Phase 12 Stream C (12.16): metal roofing brand strip */}
+      <div className="-mx-4 md:-mx-8 mb-8">
+        <MaterialBrands variant="metal" />
+      </div>
 
       <FadeIn>
         <h2 className="text-2xl font-bold mt-12 mb-4">What Metal Roofing Options Are Available?</h2>

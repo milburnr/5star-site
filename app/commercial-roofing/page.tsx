@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { MaterialBrands } from "@/components/MaterialBrands";
 import { Briefcase, Shield, Zap } from "lucide-react";
 
 
@@ -146,6 +147,11 @@ export default function Page() {
           we specialize in commercial roofing systems designed to withstand West Texas weather—including severe
           hail storms that can cause significant damage to your property.
         </p>
+      </div>
+
+      {/* Phase 12 Stream C (12.17): commercial roof system brand strip */}
+      <div className="-mx-4 md:-mx-8 mb-8">
+        <MaterialBrands variant="commercial" />
       </div>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Commercial Roofing Systems We Install</h2>

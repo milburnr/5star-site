@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { MaterialBrands } from "@/components/MaterialBrands";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing/" },
@@ -209,6 +210,11 @@ export default function Page() {
           </p>
         </div>
       </FadeIn>
+
+      {/* Phase 12 Stream C (12.17): commercial roof system brand strip */}
+      <div className="-mx-4 md:-mx-8 mb-8">
+        <MaterialBrands variant="commercial" />
+      </div>
 
       <FadeIn delay={0.1}>
         <h2 className="text-2xl font-bold mt-8 mb-4">What Is TPO Roofing?</h2>
