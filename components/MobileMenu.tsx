@@ -70,7 +70,7 @@ export function MobileMenu() {
             <a
               href="tel:8066226041"
               onClick={() => setIsOpen(false)}
-              className="mt-4 bg-[#3D5A70] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#2C4A5E] transition-all duration-200 shadow-lg flex items-center justify-center gap-2"
+              className="mt-4 bg-[#815D01] text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-[#3D2415] transition-all duration-200 shadow-lg flex items-center justify-center gap-2"
             >
               <span>📞</span> (806) 622-6041
             </a>

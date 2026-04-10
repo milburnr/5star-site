@@ -190,7 +190,7 @@ export default function RoofInspectionsAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Insurance Requirements for Amarillo Roof Inspections Involve?</h2>
-            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Insurance Company Standards We Meet</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -279,7 +279,7 @@ export default function RoofInspectionsAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Amarillo's Unique Weather Challenges?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
@@ -508,7 +508,7 @@ export default function RoofInspectionsAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Documentation Standards?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
@@ -567,7 +567,7 @@ export default function RoofInspectionsAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

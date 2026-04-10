@@ -275,7 +275,7 @@ export default function MetalRoofingCanyonPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Educational & Tourism Focus</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Canyon's unique position as home to West Texas A&M University and gateway to Palo Duro Canyon creates specific roofing needs. Educational facilities require long-term durability and budget-conscious solutions, while tourism-related buildings need aesthetic appeal and weather resistance.

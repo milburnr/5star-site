@@ -190,7 +190,7 @@ export default function RoofInspectionsLubbockPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Lubbock?</h2>
-            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-semibold mb-6 text-brand-brown">Lubbock Insurance Market Knowledge</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -281,8 +281,8 @@ export default function RoofInspectionsLubbockPage() {
                   <li>• Winter weather preparation and insulation assessment</li>
                   <li>• Annual maintenance planning and contractor scheduling</li>
                 </ul>
-                <div className="mt-4 p-4 bg-blue-100 rounded-lg">
-                  <p className="text-sm text-blue-800"><strong>Planning Tip:</strong> Best time to schedule major repairs - mild weather and contractor availability.</p>
+                <div className="mt-4 p-4 bg-amber-100 rounded-lg">
+                  <p className="text-sm text-brand-brown"><strong>Planning Tip:</strong> Best time to schedule major repairs - mild weather and contractor availability.</p>
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@ export default function RoofInspectionsLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-green-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-green-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Lubbock's Challenging Weather Environment?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
@@ -336,7 +336,7 @@ export default function RoofInspectionsLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

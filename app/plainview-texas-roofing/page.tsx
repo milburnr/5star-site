@@ -290,7 +290,7 @@ export default function PlainviewRoofingPage() {
               Plainview's residential communities range from historic downtown neighborhoods to modern developments around Wayland Baptist University and newer subdivisions serving the area's agricultural workforce. Each residential area presents unique roofing challenges requiring tailored solutions that protect homes while enhancing property values.
             </p>
             
-            <div className="bg-blue-50 p-6 rounded-lg mb-6">
+            <div className="bg-amber-50 p-6 rounded-lg mb-6">
               <h3 className="text-xl font-bold text-brand-brown mb-3">Plainview Housing Market Analysis</h3>
               <p className="text-gray-700 mb-4">Hale County's housing market reflects the community's agricultural foundation and educational presence. The median home value is approximately $95,000, with a housing stock that includes well-maintained historic properties, university-area residences, and modern developments serving agricultural professionals and their families.</p>
               
@@ -438,7 +438,7 @@ export default function PlainviewRoofingPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Plainview Roofing FAQs
             </h2>

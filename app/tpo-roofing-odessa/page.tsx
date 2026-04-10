@@ -141,7 +141,7 @@ export default function TPORoofingOdessaPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Oilfield Tough</h3>
                 <p className="text-gray-700 leading-relaxed">Odessa's position at the heart of the Permian Basin exposes buildings to unique stresses - from constant truck traffic vibrations and chemical exposure to extreme temperature swings and sandstorms. Our TPO systems are specifically engineered to withstand the harsh realities of oil patch operations while providing superior energy efficiency.</p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Factory className="w-6 h-6 inline-block" /> Industrial Heritage</h3>
                 <p className="text-gray-700 leading-relaxed">From the legendary Odessa Meteorite to modern petrochemical facilities, Odessa's industrial heritage demands roofing solutions that can handle heavy equipment, chemical exposure, and operations. Our installations serve everything from massive manufacturing complexes to specialized oilfield service facilities.</p>
               </div>
@@ -188,7 +188,7 @@ export default function TPORoofingOdessaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Odessa's Key Industries Do We Serve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -246,17 +246,17 @@ export default function TPORoofingOdessaPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial Site Assessment</h3>
                 <p className="text-gray-700">Comprehensive evaluation including chemical exposure analysis, vibration assessment, equipment load calculations, and safety protocol review for oilfield environments.</p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">2</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Specialized System Design</h3>
                 <p className="text-gray-700">Custom engineering for industrial applications including chemical resistance specifications, heavy load calculations, and specialized attachment methods for oil patch demands.</p>
               </div>
-              <div className="bg-gradient-to-br from-green-50 to-teal-50 p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">3</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Safety Coordination</h3>
                 <p className="text-gray-700">Full compliance with oilfield safety requirements, OSHA standards, and client-specific safety protocols with certified safety training for all installation personnel.</p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">4</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial-Grade Materials</h3>
                 <p className="text-gray-700">Premium TPO membranes with enhanced chemical resistance, thicker gauges for durability, and specialized fastening systems designed for demanding industrial applications.</p>
@@ -266,7 +266,7 @@ export default function TPORoofingOdessaPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Expert Installation</h3>
                 <p className="text-gray-700">Certified technicians with oilfield experience using specialized equipment and techniques designed for industrial environments and operational continuity.</p>
               </div>
-              <div className="bg-gradient-to-br from-cyan-50 to-blue-50 p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">6</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Performance Validation</h3>
                 <p className="text-gray-700">Rigorous testing including chemical resistance verification, structural integrity testing, and comprehensive documentation for industrial warranty compliance.</p>
@@ -282,7 +282,7 @@ export default function TPORoofingOdessaPage() {
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4"><Sun className="w-6 h-6 inline-block" /> Extreme Desert Heat</h3>
                 <p className="text-gray-700 mb-4">Odessa's desert location creates summer temperatures regularly exceeding 100°F with intense solar radiation that can quickly degrade inferior roofing materials and drive cooling costs through the roof.</p>
-                <div className="bg-blue-50 p-6 rounded-lg">
+                <div className="bg-amber-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Solar reflectance up to 87% reduces heat gain</li>
@@ -308,7 +308,7 @@ export default function TPORoofingOdessaPage() {
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4"><FlaskConical className="w-6 h-6 inline-block" /> Industrial Emissions</h3>
                 <p className="text-gray-700 mb-4">The concentrated oil and gas operations around Odessa create airborne chemicals, petroleum vapors, and industrial emissions that can degrade conventional roofing materials over time.</p>
-                <div className="bg-purple-50 p-6 rounded-lg">
+                <div className="bg-amber-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Enhanced chemical-resistant formulations</li>
@@ -336,7 +336,7 @@ export default function TPORoofingOdessaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

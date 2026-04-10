@@ -139,8 +139,8 @@ export default function RoofReplacementDumasPage() {
             <h3 className="text-3xl font-bold mb-4 text-brand-brown">Dumas's Growing Community and Housing Market</h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Dumas represents one of the Texas Panhandle's fastest-growing communities, with a 2.8% annual growth rate driven by agricultural innovation and energy sector expansion. This diverse community, with a Hispanic majority (59.1%) and young median age (29.3 years), creates unique roofing needs that combine family-focused durability with economic value considerations.</p>
             
-            <div className="bg-rose-50 border-l-4 border-rose-400 p-6 mb-8">
-              <h4 className="text-xl font-bold text-rose-800 mb-2">Dumas Community Demographics</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 mb-8">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Dumas Community Demographics</h4>
               <ul className="text-gray-700 space-y-2">
                 <li>• <strong>Population:</strong> 14,834 residents (2024) - growing rapidly at 2.8% annually</li>
                 <li>• <strong>Median Age:</strong> 29.3 years - young, family-oriented community</li>
@@ -183,10 +183,10 @@ export default function RoofReplacementDumasPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Value-driven roofing solutions for Dumas families balancing protection, durability, and affordability in a growing community.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
-                <h3 className="text-2xl font-bold text-blue-800 mb-3">Family Value</h3>
-                <div className="text-3xl font-bold text-blue-700 mb-2">$8,000-$12,500</div>
-                <p className="text-sm text-blue-600 mb-4">Average 1,300-1,700 sq ft home</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/30">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Family Value</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$8,000-$12,500</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Average 1,300-1,700 sq ft home</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Quality architectural shingles</li>
                   <li>• Standard underlayment system</li>
@@ -223,8 +223,8 @@ export default function RoofReplacementDumasPage() {
               </div>
             </div>
 
-            <div className="bg-purple-50 border-l-4 border-purple-400 p-6 rounded-r-xl">
-              <h4 className="text-xl font-bold text-purple-800 mb-2">Dumas Family Investment Factors</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 rounded-r-xl">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Dumas Family Investment Factors</h4>
               <p className="text-gray-700 mb-3">Key considerations for family-focused roofing decisions:</p>
               <ul className="text-gray-700 space-y-2 grid md:grid-cols-2 gap-x-8">
                 <li>• <strong>Family Budget Planning:</strong> Flexible payment options available</li>
@@ -244,13 +244,13 @@ export default function RoofReplacementDumasPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Practical material choices designed for family homes in the Texas Panhandle's challenging agricultural environment.</p>
 
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-cyan-50 to-blue-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-3xl font-bold text-cyan-800 mb-4">Impact-Resistant Family Shingles - Community Favorite</h3>
+              <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-3xl font-bold text-brand-brown mb-4">Impact-Resistant Family Shingles - Community Favorite</h3>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <p className="text-lg text-gray-700 mb-4 leading-relaxed">For Dumas families, Class 4 impact-resistant shingles provide the ideal combination of protection, value, and peace of mind. These shingles are specifically engineered to withstand the severe hailstorms that regularly impact the Texas Panhandle while fitting within family budgets.</p>
                     <div className="bg-white p-4 rounded-xl shadow-sm mb-4">
-                      <h4 className="text-xl font-bold text-cyan-700 mb-2">Family Protection Benefits</h4>
+                      <h4 className="text-xl font-bold text-brand-brown mb-2">Family Protection Benefits</h4>
                       <ul className="text-gray-700 space-y-1">
                         <li>• Withstands 1.75+ inch hail impacts</li>
                         <li>• Wind resistance to 130 mph gusts</li>
@@ -260,14 +260,14 @@ export default function RoofReplacementDumasPage() {
                     </div>
                   </div>
                   <div>
-                    <div className="bg-cyan-600 text-white p-6 rounded-xl">
+                    <div className="bg-brand-brown text-white p-6 rounded-xl">
                       <h4 className="text-2xl font-bold mb-3">Family Value Analysis</h4>
                       <div className="space-y-2">
                         <div className="flex justify-between"><span>Impact Shingles:</span><span>$6.50-$8.50/sq ft</span></div>
                         <div className="flex justify-between"><span>Professional Install:</span><span>$4.00-$5.50/sq ft</span></div>
-                        <div className="flex justify-between border-t border-cyan-400 pt-2 font-bold"><span>Family Investment:</span><span>$10.50-$14.00/sq ft</span></div>
+                        <div className="flex justify-between border-t border-brand-gold pt-2 font-bold"><span>Family Investment:</span><span>$10.50-$14.00/sq ft</span></div>
                       </div>
-                      <p className="text-cyan-100 text-sm mt-3">Annual insurance savings • 30-40 year lifespan • Family peace of mind</p>
+                      <p className="text-brand-gold-light text-sm mt-3">Annual insurance savings • 30-40 year lifespan • Family peace of mind</p>
                     </div>
                   </div>
                 </div>
@@ -335,14 +335,14 @@ export default function RoofReplacementDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-violet-50 to-purple-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-violet-800 text-center">What Is the Dumas Community Focus?</h2>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Is the Dumas Community Focus?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-violet-700 mb-4">Supporting Community Growth</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Supporting Community Growth</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Dumas's rapid 2.8% annual growth reflects the success of its agricultural economy and the arrival of young families seeking opportunity. Quality roofing investment supports this growth by protecting family homes and enhancing the community's appeal to new residents and businesses.</p>
                 
-                <h4 className="text-xl font-bold text-violet-700 mb-3">Community Investment Benefits</h4>
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Community Investment Benefits</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li>• <strong>Family Security:</strong> Impact-resistant roofs protect children and property</li>
                   <li>• <strong>Economic Stability:</strong> Quality housing attracts business investment</li>
@@ -351,27 +351,27 @@ export default function RoofReplacementDumasPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-purple-700 mb-4">Agricultural Climate Adaptation</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Agricultural Climate Adaptation</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Dumas's position in the heart of Texas agricultural country requires roofing systems that can handle both severe weather and the unique environmental factors of agricultural operations. Smart material selection ensures long-term protection and value.</p>
                 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="text-xl font-bold text-purple-700 mb-3">Agricultural Season Considerations</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-3">Agricultural Season Considerations</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Spring Planning:</span>
-                      <span className="text-purple-600">Pre-storm season preparation</span>
+                      <span className="text-brand-gold-vibrant">Pre-storm season preparation</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Summer Installation:</span>
-                      <span className="text-purple-600">Between planting and harvest</span>
+                      <span className="text-brand-gold-vibrant">Between planting and harvest</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Fall Projects:</span>
-                      <span className="text-purple-600">Post-harvest completion</span>
+                      <span className="text-brand-gold-vibrant">Post-harvest completion</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter Preparation:</span>
-                      <span className="text-purple-600">Next season planning</span>
+                      <span className="text-brand-gold-vibrant">Next season planning</span>
                     </div>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ export default function RoofReplacementDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

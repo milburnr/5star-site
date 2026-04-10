@@ -270,8 +270,8 @@ export default function RoofRepairLubbockPage() {
                 </div>
               </div>
               
-              <div className="bg-blue-50 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-blue-800">Lubbock Market Considerations</h3>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Lubbock Market Considerations</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• University area properties may require additional safety measures increasing costs</li>
                   <li>• Spring storm season creates high demand and potential material shortages</li>
@@ -284,7 +284,7 @@ export default function RoofRepairLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -334,8 +334,8 @@ export default function RoofRepairLubbockPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-blue-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Advanced Gutter Guards</h4>
@@ -367,8 +367,8 @@ export default function RoofRepairLubbockPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-purple-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Tab Reinforcement</h4>
@@ -418,8 +418,8 @@ export default function RoofRepairLubbockPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800"><Landmark className="w-6 h-6 inline-block" /> Historic Tech Terrace</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Landmark className="w-6 h-6 inline-block" /> Historic Tech Terrace</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Period-Appropriate Materials</h4>
@@ -444,7 +444,7 @@ export default function RoofRepairLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-gradient-to-r from-gray-50 to-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Do You Choose the Right Roofing Material in Lubbock?</h2>
             <p className="text-lg text-gray-700 mb-8">Optimized material choices for South Plains environmental conditions and university district requirements.</p>
             
@@ -461,8 +461,8 @@ export default function RoofRepairLubbockPage() {
                       <li>• CertainTeed Grand Manor</li>
                     </ul>
                   </div>
-                  <div className="border-l-4 border-blue-500 pl-4">
-                    <h4 className="font-bold text-blue-800">Standing Seam Metal</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
+                    <h4 className="font-bold text-brand-brown">Standing Seam Metal</h4>
                     <p className="text-gray-700 text-sm mb-2">Superior dust and wind resistance</p>
                     <ul className="text-xs text-gray-600 space-y-1">
                       <li>• 26-gauge galvanized steel</li>
@@ -470,8 +470,8 @@ export default function RoofRepairLubbockPage() {
                       <li>• Mechanical seam construction</li>
                     </ul>
                   </div>
-                  <div className="border-l-4 border-purple-500 pl-4">
-                    <h4 className="font-bold text-purple-800">Enhanced Underlayments</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
+                    <h4 className="font-bold text-brand-brown">Enhanced Underlayments</h4>
                     <p className="text-gray-700 text-sm mb-2">Superior moisture protection</p>
                     <ul className="text-xs text-gray-600 space-y-1">
                       <li>• Self-adhering membranes</li>
@@ -509,7 +509,7 @@ export default function RoofRepairLubbockPage() {
             <p className="text-lg text-gray-700 mb-8 text-center">Our specialized methodology for addressing Lubbock's unique environmental challenges.</p>
             
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-r from-amber-50 to-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 1: Environmental Impact Assessment</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -543,11 +543,11 @@ export default function RoofRepairLubbockPage() {
                     <p className="text-gray-600 text-sm">Enhanced granule adhesion, smooth surface finishes, and anti-static treatments</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-bold mb-2 text-blue-700">Wind-Rated Components</h4>
+                    <h4 className="font-bold mb-2 text-brand-brown">Wind-Rated Components</h4>
                     <p className="text-gray-600 text-sm">All materials tested for 90+ mph sustained winds with enhanced fastening systems</p>
                   </div>
                   <div className="bg-white p-4 rounded-lg">
-                    <h4 className="font-bold mb-2 text-purple-700">UV-Resistant Systems</h4>
+                    <h4 className="font-bold mb-2 text-brand-brown">UV-Resistant Systems</h4>
                     <p className="text-gray-600 text-sm">Premium UV inhibitors and reflective coatings for high-altitude sun exposure</p>
                   </div>
                 </div>

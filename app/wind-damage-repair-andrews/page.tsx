@@ -171,7 +171,7 @@ export default function WindDamageRepairAndrewsPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -236,7 +236,7 @@ export default function WindDamageRepairAndrewsPage() {
               Since 2014, 5 Star Commercial Roofing has specialized in wind damage repair throughout Andrews and Andrews County, understanding the unique patterns that affect this Permian Basin community. From historic properties near the Andrews County Courthouse to modern developments along Highway 385, we've documented and repaired damage from dozens of major wind events including the devastating straight-line wind storms that regularly impact this region. Our expertise covers everything from shingle blow-offs to structural damage, ensuring rapid restoration that meets Texas Building Code requirements and insurance standards.
             </p>
 
-            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-slate-50 to-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Andrews Wind Damage Patterns</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -293,7 +293,7 @@ export default function WindDamageRepairAndrewsPage() {
               </div>
             </div>
 
-            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-6">Andrews Wind Damage Expertise</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -397,7 +397,7 @@ export default function WindDamageRepairAndrewsPage() {
                 <p className="text-gray-600 text-sm">Historic properties require specialized wind damage repair techniques that maintain architectural integrity while upgrading wind resistance to modern standards for ongoing protection.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">North Andrews Residential</h4>
                 <p className="text-gray-600 text-sm">Modern subdivisions along Highway 385 benefit from enhanced wind-resistant repairs and upgrades designed for maximum protection against future Permian Basin wind events.</p>
               </div>
@@ -417,7 +417,7 @@ export default function WindDamageRepairAndrewsPage() {
                 <p className="text-gray-600 text-sm">Established neighborhoods require reliable wind damage repair that maintains property values while providing superior protection against recurring wind events.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Commercial District</h4>
                 <p className="text-gray-600 text-sm">Business properties need rapid wind damage restoration to minimize operational disruption while ensuring long-term protection against Permian Basin weather challenges.</p>
               </div>
@@ -446,7 +446,7 @@ export default function WindDamageRepairAndrewsPage() {
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="wind-damage-repair" />
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Wind Damage Repair in Andrews FAQs
             </h2>

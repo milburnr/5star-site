@@ -136,7 +136,7 @@ export default function RoofReplacementSnyderPage() {
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">As the county seat of Scurry County and a major hub in the heart of the Permian Basin, Snyder presents unique roofing challenges that demand specialized expertise. This West Texas energy capital experiences some of the most demanding climate conditions combined with industrial factors that require superior roofing solutions. Our team understands Snyder's specific environmental and economic factors, providing roof replacement services engineered for long-term performance in this vital oil and gas community.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 p-8 rounded-xl">
+              <div className="bg-amber-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Permian Basin Challenges</h3>
                 <ul className="text-gray-700 space-y-3">
                   <li>• <strong>Extreme Heat:</strong> Summer temperatures regularly exceed 105°F</li>
@@ -203,7 +203,7 @@ export default function RoofReplacementSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-gray-50 to-blue-50 p-10 rounded-xl">
+          <section className="mb-16 bg-gradient-to-r from-gray-50 to-amber-50 p-10 rounded-xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Serving Greater Snyder Area</h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">Our roof replacement services extend throughout Scurry County and the surrounding West Texas communities. We're familiar with local building codes, energy industry requirements, and the specific challenges faced by property owners in the Permian Basin region.</p>
             
@@ -367,10 +367,10 @@ export default function RoofReplacementSnyderPage() {
                   <li>• Equipment storage buildings</li>
                 </ul>
               </div>
-              <div className="bg-blue-50 p-8 rounded-xl border border-blue-200">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">Energy Service Companies</h3>
-                <p className="text-blue-700 mb-4">Supporting the service sector that keeps energy flowing:</p>
-                <ul className="text-blue-700 space-y-2">
+              <div className="bg-amber-50 p-8 rounded-xl border border-brand-gold/30">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Energy Service Companies</h3>
+                <p className="text-brand-brown mb-4">Supporting the service sector that keeps energy flowing:</p>
+                <ul className="text-brand-brown space-y-2">
                   <li>• Fleet maintenance facilities</li>
                   <li>• Parts warehouses and distribution</li>
                   <li>• Office building upgrades</li>
@@ -413,7 +413,7 @@ export default function RoofReplacementSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

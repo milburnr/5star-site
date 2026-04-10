@@ -139,8 +139,8 @@ export default function RoofReplacementBorgerPage() {
             <h3 className="text-3xl font-bold mb-4 text-brand-brown">Understanding Borger's Unique Housing Market</h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Borger represents a distinctive housing market shaped by its industrial heritage and economic transitions. As a historic petrochemical hub experiencing gradual population decline (-1.5% annually), the community presents unique roofing opportunities for property owners seeking to maintain and enhance their real estate investments.</p>
             
-            <div className="bg-purple-50 border-l-4 border-purple-400 p-6 mb-8">
-              <h4 className="text-xl font-bold text-purple-800 mb-2">Borger Community Profile</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 mb-8">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Borger Community Profile</h4>
               <ul className="text-gray-700 space-y-2">
                 <li>• <strong>Population:</strong> 11,892 residents (2024) - stabilizing community</li>
                 <li>• <strong>Median Age:</strong> 36.3 years - established workforce</li>
@@ -164,8 +164,8 @@ export default function RoofReplacementBorgerPage() {
                   <li><strong>Contemporary Updates:</strong> Opportunities for energy-efficient improvements</li>
                 </ul>
               </div>
-              <div className="bg-cyan-50 p-6 rounded-xl">
-                <h4 className="text-xl font-bold text-cyan-800 mb-3">Panhandle Climate Factors</h4>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Panhandle Climate Factors</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li><strong>Extreme Wind Events:</strong> Open prairie allows 40-70 mph sustained winds</li>
                   <li><strong>Hail Vulnerability:</strong> Located in peak hail activity zone</li>
@@ -196,10 +196,10 @@ export default function RoofReplacementBorgerPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-violet-50 to-violet-100 p-6 rounded-xl border-2 border-violet-300 transform scale-105">
-                <h3 className="text-2xl font-bold text-violet-800 mb-3">Market Leader</h3>
-                <div className="text-3xl font-bold text-violet-700 mb-2">$11,500-$17,500</div>
-                <p className="text-sm text-violet-600 mb-4">Class 4 impact-resistant upgrade</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50 transform scale-105">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Market Leader</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$11,500-$17,500</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Class 4 impact-resistant upgrade</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Class 4 architectural shingles</li>
                   <li>• Synthetic underlayment</li>
@@ -209,10 +209,10 @@ export default function RoofReplacementBorgerPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-rose-50 to-rose-100 p-6 rounded-xl border-2 border-rose-300">
-                <h3 className="text-2xl font-bold text-rose-800 mb-3">Premium Investment</h3>
-                <div className="text-3xl font-bold text-rose-700 mb-2">$17,500-$32,000</div>
-                <p className="text-sm text-rose-600 mb-4">Metal and luxury systems</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Premium Investment</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$17,500-$32,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Metal and luxury systems</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Standing seam metal roofing</li>
                   <li>• Designer shingle options</li>
@@ -223,8 +223,8 @@ export default function RoofReplacementBorgerPage() {
               </div>
             </div>
 
-            <div className="bg-indigo-50 border-l-4 border-indigo-400 p-6 rounded-r-xl">
-              <h4 className="text-xl font-bold text-indigo-800 mb-2">Borger-Specific Investment Considerations</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 rounded-r-xl">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Borger-Specific Investment Considerations</h4>
               <p className="text-gray-700 mb-3">Local market factors that affect roofing investment returns:</p>
               <ul className="text-gray-700 space-y-2 grid md:grid-cols-2 gap-x-8">
                 <li>• <strong>Property Value Protection:</strong> Quality roofing maintains equity in transitioning market</li>
@@ -244,13 +244,13 @@ export default function RoofReplacementBorgerPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Borger's location in the Texas Panhandle demands roofing materials capable of withstanding some of the state's most extreme weather conditions.</p>
 
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-3xl font-bold text-blue-800 mb-4">Wind-Resistant Architectural Shingles - Panhandle Proven</h3>
+              <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-3xl font-bold text-brand-brown mb-4">Wind-Resistant Architectural Shingles - Panhandle Proven</h3>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <p className="text-lg text-gray-700 mb-4 leading-relaxed">For Borger's wind-dominated environment, high-performance architectural shingles with enhanced fastening systems provide essential protection against the constant stress of Panhandle winds. These shingles are specifically engineered for the extreme conditions common to this region.</p>
                     <div className="bg-white p-4 rounded-xl shadow-sm mb-4">
-                      <h4 className="text-xl font-bold text-blue-700 mb-2">Panhandle Performance Features</h4>
+                      <h4 className="text-xl font-bold text-brand-brown mb-2">Panhandle Performance Features</h4>
                       <ul className="text-gray-700 space-y-1">
                         <li>• Wind resistance certified to 130+ mph</li>
                         <li>• SBS-modified asphalt for flexibility</li>
@@ -260,14 +260,14 @@ export default function RoofReplacementBorgerPage() {
                     </div>
                   </div>
                   <div>
-                    <div className="bg-blue-600 text-white p-6 rounded-xl">
+                    <div className="bg-brand-brown text-white p-6 rounded-xl">
                       <h4 className="text-2xl font-bold mb-3">Borger Investment Analysis</h4>
                       <div className="space-y-2">
                         <div className="flex justify-between"><span>High-Wind Shingles:</span><span>$6.50-$9.00/sq ft</span></div>
                         <div className="flex justify-between"><span>Expert Installation:</span><span>$4.00-$5.50/sq ft</span></div>
-                        <div className="flex justify-between border-t border-blue-400 pt-2 font-bold"><span>Total System:</span><span>$10.50-$14.50/sq ft</span></div>
+                        <div className="flex justify-between border-t border-brand-gold pt-2 font-bold"><span>Total System:</span><span>$10.50-$14.50/sq ft</span></div>
                       </div>
-                      <p className="text-blue-100 text-sm mt-3">Wind warranty • Chemical resistance • 40-50 year lifespan</p>
+                      <p className="text-brand-gold-light text-sm mt-3">Wind warranty • Chemical resistance • 40-50 year lifespan</p>
                     </div>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ export default function RoofReplacementBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

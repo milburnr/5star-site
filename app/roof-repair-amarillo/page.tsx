@@ -270,8 +270,8 @@ export default function RoofRepairAmarilloPage() {
                 </div>
               </div>
               
-              <div className="bg-blue-50 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-blue-800">Amarillo Market Factors</h3>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Amarillo Market Factors</h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Material costs rising due to frequent hail damage creating regional shortages</li>
                   <li>• Labor availability affected by seasonal demand spikes after storm events</li>
@@ -322,7 +322,7 @@ export default function RoofRepairAmarilloPage() {
             
             <div className="grid lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-blue-700"><Snowflake className="w-6 h-6 inline-block" /> Winter (Dec-Feb)</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Winter (Dec-Feb)</h3>
                 <p className="text-gray-600 mb-4">Freeze-thaw cycles and ice dam formation</p>
                 <ul className="text-sm text-gray-700 space-y-1">
                   <li>• Ice dam prevention and removal</li>
@@ -378,12 +378,12 @@ export default function RoofRepairAmarilloPage() {
                     <h4 className="font-bold text-green-700">Impact-Resistant Asphalt Shingles</h4>
                     <p className="text-gray-600">Class 3-4 rating, excellent hail protection, 25-30 year lifespan in Amarillo conditions</p>
                   </div>
-                  <div className="border-l-4 border-blue-500 pl-4">
-                    <h4 className="font-bold text-blue-700">Standing Seam Metal</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
+                    <h4 className="font-bold text-brand-brown">Standing Seam Metal</h4>
                     <p className="text-gray-600">Superior wind resistance, excellent thermal performance, 40+ year durability</p>
                   </div>
-                  <div className="border-l-4 border-purple-500 pl-4">
-                    <h4 className="font-bold text-purple-700">Modified Bitumen (Commercial)</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
+                    <h4 className="font-bold text-brand-brown">Modified Bitumen (Commercial)</h4>
                     <p className="text-gray-600">Excellent flat roof option, UV resistant, handles temperature extremes well</p>
                   </div>
                 </div>
@@ -504,31 +504,31 @@ export default function RoofRepairAmarilloPage() {
                 <p className="text-gray-600">Perfect for minor repairs and maintenance work</p>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border-4 border-blue-300">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg border-4 border-brand-gold/50">
                 <div className="text-center mb-4">
-                  <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
+                  <span className="bg-brand-brown text-white px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-blue-700">Storm Shield</h3>
-                <p className="text-3xl font-bold mb-4 text-blue-800">5 Years</p>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Storm Shield</h3>
+                <p className="text-3xl font-bold mb-4 text-brand-brown">5 Years</p>
                 <ul className="space-y-3 mb-6">
-                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />All Basic Protection features</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Hail damage coverage</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Wind damage protection</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Priority storm response</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" />Insurance claim assistance</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />All Basic Protection features</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Hail damage coverage</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Wind damage protection</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Priority storm response</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Insurance claim assistance</li>
                 </ul>
                 <p className="text-gray-600">Ideal for comprehensive roof repairs and replacements</p>
               </div>
               
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-purple-700">Ultimate Guard</h3>
-                <p className="text-3xl font-bold mb-4 text-purple-800">10 Years</p>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Ultimate Guard</h3>
+                <p className="text-3xl font-bold mb-4 text-brand-brown">10 Years</p>
                 <ul className="space-y-3 mb-6">
-                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />All Storm Shield features</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Extended material warranty</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Energy efficiency guarantee</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Bi-annual professional maintenance</li>
-                  <li className="flex items-start"><Check className="w-5 h-5 text-purple-600 mr-2 flex-shrink-0 mt-0.5" />Transferable to new homeowner</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />All Storm Shield features</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Extended material warranty</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Energy efficiency guarantee</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Bi-annual professional maintenance</li>
+                  <li className="flex items-start"><Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />Transferable to new homeowner</li>
                 </ul>
                 <p className="text-gray-600">Maximum protection for new roofing systems</p>
               </div>
@@ -546,8 +546,8 @@ export default function RoofRepairAmarilloPage() {
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Common Claim Types in Amarillo</h3>
                 <div className="space-y-3">
                   <div className="flex items-start">
-                    <div className="bg-blue-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Hail Damage Claims (85% of claims)</h4>

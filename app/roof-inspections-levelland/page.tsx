@@ -185,7 +185,7 @@ export default function RoofInspectionsLevellandPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -258,7 +258,7 @@ export default function RoofInspectionsLevellandPage() {
               What Does Complete Professional Roof Inspection Services Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Exterior Roof Assessment</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>• <strong>Shingle Condition Analysis:</strong> Granule loss, cracking, curling, thermal damage</li>
@@ -282,7 +282,7 @@ export default function RoofInspectionsLevellandPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-gold text-white p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4"><Plane className="w-6 h-6 inline-block" /> Advanced Inspection Technology</h3>
               <p className="text-lg mb-6">
                 We employ cutting-edge technology including professional drone inspections, thermal imaging cameras, and moisture detection equipment to provide the most comprehensive assessment possible. Our digital documentation meets all insurance industry requirements for claim processing.
@@ -311,7 +311,7 @@ export default function RoofInspectionsLevellandPage() {
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Hail Damage Indicators</h3>
               <div className="grid md:grid-cols-3 gap-6">
-                <div className="border-l-4 border-blue-500 pl-4">
+                <div className="border-l-4 border-brand-gold-vibrant pl-4">
                   <h4 className="font-bold text-lg mb-3 text-gray-800">Primary Impact Damage</h4>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li>• <strong>Granule Loss Patterns:</strong> Dark spots where protective granules are knocked off</li>
@@ -379,7 +379,7 @@ export default function RoofInspectionsLevellandPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               How Does the Insurance Claims Process Work in Levelland?
             </h2>
-            <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-green-600 to-brand-gold text-white p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Complete Insurance Documentation</h3>
               <p className="text-lg leading-relaxed">
                 Our comprehensive inspection reports provide all necessary documentation for successful insurance claims in Levelland and throughout Hockley County. We understand Texas insurance regulations and work directly with adjusters to ensure accurate assessment and fair claim settlement.
@@ -484,9 +484,9 @@ export default function RoofInspectionsLevellandPage() {
                 <h4 className="font-bold text-orange-700 mb-2">Summer (Jun-Aug)</h4>
                 <p className="text-orange-600 text-sm">Continued storm activity, extreme heat stress, UV degradation. Temperature extremes test materials.</p>
               </div>
-              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
-                <h4 className="font-bold text-blue-700 mb-2">Fall (Sep-Nov)</h4>
-                <p className="text-blue-600 text-sm">Transition period with continued storms, high winds, temperature fluctuations affecting roof integrity.</p>
+              <div className="bg-amber-50 p-4 rounded-lg border-l-4 border-brand-gold">
+                <h4 className="font-bold text-brand-brown mb-2">Fall (Sep-Nov)</h4>
+                <p className="text-brand-gold-vibrant text-sm">Transition period with continued storms, high winds, temperature fluctuations affecting roof integrity.</p>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-gray-400">
                 <h4 className="font-bold text-gray-700 mb-2">Winter (Dec-Feb)</h4>

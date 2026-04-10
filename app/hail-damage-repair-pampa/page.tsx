@@ -196,7 +196,7 @@ export default function HailDamageRepairPampaPage() {
               Pampa's economy has deep industrial roots, anchored by the Cabot Corporation's carbon black plant—operating since 1926 and acquired by Cabot in 1945. This facility, along with the legacy of the former Celanese Chemical Company plant (which operated from 1952-2009), established Pampa as a significant industrial center. Today, major employers include Pampa Independent School District (serving 3,312 students with 476 staff), oil and gas operations, and various service industries supporting the broader Gray County area.
             </p>
 
-            <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg my-8">
+            <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-xl shadow-lg my-8">
               <h3 className="text-2xl font-bold mb-4"><Factory className="w-6 h-6 inline-block" /> Industrial Hail Risk Assessment</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Pampa's industrial infrastructure faces unique hail damage challenges that extend far beyond typical residential concerns:
@@ -245,8 +245,8 @@ export default function HailDamageRepairPampaPage() {
                   <li><strong>Economic Impact:</strong> $4-7 million annually</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl border border-purple-200">
-                <h3 className="text-xl font-bold text-purple-700 mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Extremes</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Extremes</h3>
                 <p className="text-gray-700 mb-4">Pampa's harsh climate accelerates roofing wear:</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Temperature Range:</strong> 25°F to 109°F (84° swing)</li>
@@ -279,7 +279,7 @@ export default function HailDamageRepairPampaPage() {
               Gray County experiences a humid subtropical climate with extreme seasonal variations—temperatures ranging from 25°F to 92°F annually, with recorded highs of 109°F. The county experiences 8-12 significant hail events annually, with storms capable of producing damaging hail from March through June. The open terrain allows supercell thunderstorms to develop intensity as they move eastward, often producing their most severe hail as they pass through communities like Pampa.
             </p>
 
-            <div className="bg-gradient-to-br from-green-50 to-teal-50 p-8 rounded-xl border border-green-200 shadow-lg">
+            <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-xl border border-green-200 shadow-lg">
               <h3 className="text-2xl font-bold text-green-700 mb-4"><Shield className="w-6 h-6 inline-block" /> Storm Preparedness: Industrial & Residential</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Pampa's mixed urban landscape requires different protection strategies for various property types:
@@ -321,7 +321,7 @@ export default function HailDamageRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Gray County Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -335,12 +335,12 @@ export default function HailDamageRepairPampaPage() {
                 <p className="text-sm text-gray-500 mt-2">High UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">55 mi</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">55 mi</div>
                 <div className="font-semibold text-gray-700">From Amarillo</div>
                 <p className="text-sm text-gray-500 mt-2">~1 hour response</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Mar-Jun</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Mar-Jun</div>
                 <div className="font-semibold text-gray-700">Peak Hail Season</div>
                 <p className="text-sm text-gray-500 mt-2">Highest storm frequency</p>
               </div>
@@ -351,7 +351,7 @@ export default function HailDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Pampa's Location in the Texas Hail Belt?</h2>
-            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+            <div className="bg-gradient-to-r from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Pampa sits in a particularly active zone of Texas's "Hail Belt," where Gray County's position at 3,238 feet elevation creates ideal conditions for severe thunderstorm development. The northern Panhandle location places Pampa at the convergence of multiple storm tracks, including the notorious "Dryline" where dry desert air from the west meets moist Gulf air from the southeast.
               </p>
@@ -387,8 +387,8 @@ export default function HailDamageRepairPampaPage() {
                   <li>• March 2023: Multiple rounds, $6M losses</li>
                 </ul>
               </div>
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
-                <h4 className="text-lg font-bold text-blue-700 mb-2">Annual Impact</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Annual Impact</h4>
                 <p className="text-gray-700 mb-2">Storm damage in Gray County:</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• $4-7 million property damage</li>
@@ -555,7 +555,7 @@ export default function HailDamageRepairPampaPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-blue-50 p-6 rounded-xl">
+            <div className="bg-amber-50 p-6 rounded-xl">
               <h3 className="text-xl font-bold text-brand-brown mb-3">Major Employers & Industrial Areas</h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <ul className="space-y-2 text-gray-700">
@@ -579,11 +579,11 @@ export default function HailDamageRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Gray County Storm Patterns & Risk Assessment?</h2>
             
             <div className="max-w-5xl mx-auto mb-12">
-              <div className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg mb-8">
+              <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-xl shadow-lg mb-8">
                 <h3 className="text-2xl font-bold mb-4"><Tornado className="w-6 h-6 inline-block" /> The Northern Panhandle Storm Corridor</h3>
                 <p className="text-lg leading-relaxed mb-6">
                   Pampa sits within what meteorologists term the "Northern Panhandle Storm Corridor"—a 50-mile-wide zone stretching from the New Mexico border to the Oklahoma line where atmospheric conditions regularly produce the most intense hailstorms in North America. Gray County's position at 35.5°N latitude places it at the heart of this corridor.
@@ -675,7 +675,7 @@ export default function HailDamageRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Pampa Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -850,7 +850,7 @@ export default function HailDamageRepairPampaPage() {
         
         
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-green-50 to-teal-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-green-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               What Makes Gray County a Storm Corridor for Hail?
             </h2>

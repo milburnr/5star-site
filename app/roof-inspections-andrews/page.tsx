@@ -171,7 +171,7 @@ export default function RoofInspectionsAndrewsPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -331,7 +331,7 @@ export default function RoofInspectionsAndrewsPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-6">Detailed Inspection Process for Andrews Properties</h3>
                 <div className="space-y-6">
-                  <div className="border-l-4 border-blue-500 pl-6">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-6">
                     <h4 className="text-xl font-bold text-gray-800 mb-3">Pre-Inspection Assessment (10 minutes)</h4>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -623,7 +623,7 @@ export default function RoofInspectionsAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Andrews?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
@@ -702,7 +702,7 @@ export default function RoofInspectionsAndrewsPage() {
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="roof-inspections" />
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Roof Inspections in Andrews FAQs
             </h2>

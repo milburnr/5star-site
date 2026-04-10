@@ -197,7 +197,7 @@ export default function HailDamageRepairMonahansPage() {
                   <li>• <strong>Moisture Barrier Evaluation:</strong> Critical assessment in arid climate where minor leaks can cause disproportionate damage</li>
                 </ul>
               </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-400">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold">
                 <div className="text-4xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Rapid Response Systems</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
@@ -406,7 +406,7 @@ export default function HailDamageRepairMonahansPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

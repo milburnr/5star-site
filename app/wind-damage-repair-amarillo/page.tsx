@@ -269,7 +269,7 @@ export default function WindDamageRepairAmarilloPage() {
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Amarillo Wind Patterns</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li><strong>Winter:</strong> Northwestern winds 20-35 mph, frequent 50+ mph gusts</li>
@@ -324,10 +324,10 @@ export default function WindDamageRepairAmarilloPage() {
               What Are the Seasonal Wind Patterns & Roofing Impact in Amarillo?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-blue-900 mb-3">Winter (Dec-Feb)</h3>
-                <p className="text-sm text-blue-800 mb-3">Average: 12.8 mph sustained</p>
-                <ul className="space-y-2 text-sm text-blue-700">
+              <div className="bg-gradient-to-br from-amber-100 to-amber-50 p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Winter (Dec-Feb)</h3>
+                <p className="text-sm text-brand-brown mb-3">Average: 12.8 mph sustained</p>
+                <ul className="space-y-2 text-sm text-brand-brown">
                   <li>• Arctic fronts with 40-60 mph gusts</li>
                   <li>• Freeze-thaw cycles worsen wind damage</li>
                   <li>• Ice dams increase wind uplift risk</li>
@@ -444,14 +444,14 @@ export default function WindDamageRepairAmarilloPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg mb-8">
-              <h3 className="text-2xl font-bold text-blue-900 mb-6">Wind Uplift Physics: How Amarillo Winds Damage Roofs</h3>
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg mb-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">Wind Uplift Physics: How Amarillo Winds Damage Roofs</h3>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 When wind hits your roof, it doesn't just push—it creates complex pressure differentials that attempt to lift the entire roofing system off the structure. As wind flows over the roof peak, it accelerates and creates negative pressure (suction) on the leeward side, similar to how airplane wings generate lift. In Amarillo's flat terrain, this effect intensifies because there are no nearby structures or terrain features to disrupt wind flow.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-bold text-blue-800 mb-2">Critical Uplift Zones:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Critical Uplift Zones:</h4>
                   <ul className="text-sm text-gray-600 space-y-1">
                     <li>• Roof perimeters (highest pressure differentials)</li>
                     <li>• Corners and edges (turbulence concentration)</li>
@@ -460,7 +460,7 @@ export default function WindDamageRepairAmarilloPage() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-bold text-blue-800 mb-2">Failure Progression:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Failure Progression:</h4>
                   <ul className="text-sm text-gray-600 space-y-1">
                     <li>• Initial sealant separation (35+ mph)</li>
                     <li>• Edge lifting and tab displacement (45+ mph)</li>
@@ -492,8 +492,8 @@ export default function WindDamageRepairAmarilloPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Documentation Requirements</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Documentation Requirements</h3>
                 <p className="text-gray-700 mb-4">
                   Successful wind damage claims require linking damage to specific weather events with documented wind speeds exceeding policy thresholds (typically 50-60 mph sustained or 70+ mph gusts).
                 </p>
@@ -538,8 +538,8 @@ export default function WindDamageRepairAmarilloPage() {
               What Does Wind-Resistant Roofing Materials for Amarillo Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">High-Wind Shingle Options</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">High-Wind Shingle Options</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>GAF Timberline HDZ (130 mph rating):</strong> Enhanced adhesive strips and wider nailing zone provide superior wind resistance for Panhandle conditions</li>
                   <li><strong>Owens Corning Duration Storm (130 mph rating):</strong> SureNail technology improves fastener holding power in high-wind events</li>
@@ -548,8 +548,8 @@ export default function WindDamageRepairAmarilloPage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-teal-900 mb-4">Critical Installation Upgrades</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Critical Installation Upgrades</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>6-nail pattern:</strong> Exceeds standard 4-nail requirement—reduces blow-off risk by 40-60% in wind speeds above 70 mph</li>
                   <li><strong>Premium starter strips:</strong> Enhanced adhesive provides additional edge seal strength where wind uplift forces concentrate</li>
@@ -559,28 +559,28 @@ export default function WindDamageRepairAmarilloPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-indigo-50 to-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-indigo-900 mb-6">Advanced Wind Mitigation Technologies</h3>
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">Advanced Wind Mitigation Technologies</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <div className="w-16 h-16 bg-brand-gold-vibrant rounded-full flex items-center justify-center mx-auto mb-3">
                     <span className="text-white font-bold text-xl">UV</span>
                   </div>
-                  <h4 className="font-bold text-indigo-800 mb-2">Enhanced Underlayment</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Enhanced Underlayment</h4>
                   <p className="text-sm text-gray-600">Synthetic underlayment with increased tear strength and UV resistance for Amarillo's intense sun exposure during repairs.</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <div className="w-16 h-16 bg-brand-gold-vibrant rounded-full flex items-center justify-center mx-auto mb-3">
                     <span className="text-white font-bold text-xl"><Zap className="w-6 h-6 inline-block" /></span>
                   </div>
-                  <h4 className="font-bold text-indigo-800 mb-2">Impact Resistance</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Impact Resistance</h4>
                   <p className="text-sm text-gray-600">Class 4 materials resist damage from wind-driven debris common in Panhandle storms—may qualify for insurance discounts.</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <div className="w-16 h-16 bg-brand-gold-vibrant rounded-full flex items-center justify-center mx-auto mb-3">
                     <span className="text-white font-bold text-xl"><Wrench className="w-6 h-6 inline-block" /></span>
                   </div>
-                  <h4 className="font-bold text-indigo-800 mb-2">Fastener Technology</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Fastener Technology</h4>
                   <p className="text-sm text-gray-600">Ring-shank nails with enhanced holding power and corrosion resistance for long-term wind performance.</p>
                 </div>
               </div>
@@ -658,7 +658,7 @@ export default function WindDamageRepairAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

@@ -362,7 +362,7 @@ export default function AsphaltShingleRoofingDumasPage() {
                       <div className="text-2xl font-bold text-brand-gold">15%</div>
                       <div className="text-sm">Multi-Building Discount</div>
                     </div>
-                    <div className="p-3 bg-blue-50 rounded">
+                    <div className="p-3 bg-amber-50 rounded">
                       <div className="text-2xl font-bold text-brand-gold">3+</div>
                       <div className="text-sm">Buildings Minimum</div>
                     </div>

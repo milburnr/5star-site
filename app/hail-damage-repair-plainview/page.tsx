@@ -176,7 +176,7 @@ export default function HailDamageRepairPlainviewPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Weather Extremes Affect Roofing in Plainview?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -190,12 +190,12 @@ export default function HailDamageRepairPlainviewPage() {
                 <p className="text-sm text-gray-500 mt-2">No wind barriers</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">Cotton Belt</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Cotton Belt</div>
                 <div className="font-semibold text-gray-700">Agricultural Zone</div>
                 <p className="text-sm text-gray-500 mt-2">Irrigation-dependent</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">1887</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">1887</div>
                 <div className="font-semibold text-gray-700">Founded</div>
                 <p className="text-sm text-gray-500 mt-2">Railroad era</p>
               </div>
@@ -252,7 +252,7 @@ export default function HailDamageRepairPlainviewPage() {
                 </ul>
               </div>
             </div>
-            <div className="mt-6 bg-blue-50 p-4 rounded-lg">
+            <div className="mt-6 bg-amber-50 p-4 rounded-lg">
               <p className="text-gray-700"><strong>Historical Note:</strong> The 2013 closure of the Cargill meatpacking plant, which employed 2,000 workers, marked a significant economic transition for Plainview. The closure was attributed to drought conditions affecting cattle supplies—demonstrating how weather directly impacts local economics and building infrastructure needs.</p>
             </div>
           </section>
@@ -352,7 +352,7 @@ export default function HailDamageRepairPlainviewPage() {
               </div>
             </div>
 
-            <div className="bg-blue-50 p-6 rounded-xl">
+            <div className="bg-amber-50 p-6 rounded-xl">
               <h3 className="text-xl font-bold text-brand-brown mb-3">Specialized Services for Plainview</h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <ul className="space-y-2 text-gray-700">
@@ -376,7 +376,7 @@ export default function HailDamageRepairPlainviewPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Plainview Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

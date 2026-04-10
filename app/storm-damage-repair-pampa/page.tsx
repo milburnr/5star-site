@@ -250,7 +250,7 @@ export default function StormDamageRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               What Should You Know About Pampa's Severe Weather Patterns?
             </h2>
@@ -303,7 +303,7 @@ export default function StormDamageRepairPampaPage() {
                   <li>• UV damage acceleration</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-red-50 to-rose-100 p-6 rounded-2xl">
+              <div className="bg-gradient-to-br from-red-50 to-amber-100 p-6 rounded-2xl">
                 <h3 className="text-xl font-bold mb-3 text-red-800">Fall (Sep-Nov)</h3>
                 <ul className="text-red-700 space-y-2">
                   <li>• Secondary severe season</li>
@@ -313,9 +313,9 @@ export default function StormDamageRepairPampaPage() {
                   <li>• Debris accumulation</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-100 p-6 rounded-2xl">
-                <h3 className="text-xl font-bold mb-3 text-blue-800">Winter (Dec-Feb)</h3>
-                <ul className="text-blue-700 space-y-2">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-2xl">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Winter (Dec-Feb)</h3>
+                <ul className="text-brand-brown space-y-2">
                   <li>• Ice storms</li>
                   <li>• Blizzard conditions</li>
                   <li>• Freeze-thaw cycles</li>
@@ -363,7 +363,7 @@ export default function StormDamageRepairPampaPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               How Do Insurance Claims for Pampa Storm Damage Work?
             </h2>
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-3xl">
+            <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-3xl">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">What's Typically Covered</h3>
@@ -394,23 +394,23 @@ export default function StormDamageRepairPampaPage() {
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Maximizing Your Claim</h3>
                   <ul className="text-gray-700 space-y-3">
                     <li className="flex items-start">
-                      <span className="text-blue-500 mr-2 mt-1">•</span>
+                      <span className="text-brand-gold-vibrant mr-2 mt-1">•</span>
                       <span>Report damage within 24-48 hours of the storm</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-500 mr-2 mt-1">•</span>
+                      <span className="text-brand-gold-vibrant mr-2 mt-1">•</span>
                       <span>Document all damage with photos and measurements</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-500 mr-2 mt-1">•</span>
+                      <span className="text-brand-gold-vibrant mr-2 mt-1">•</span>
                       <span>Keep receipts for storm repairs and hotel stays</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-500 mr-2 mt-1">•</span>
+                      <span className="text-brand-gold-vibrant mr-2 mt-1">•</span>
                       <span>Work with experienced contractors who understand claims</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-500 mr-2 mt-1">•</span>
+                      <span className="text-brand-gold-vibrant mr-2 mt-1">•</span>
                       <span>Don't settle for partial repairs if full replacement is needed</span>
                     </li>
                   </ul>
@@ -421,7 +421,7 @@ export default function StormDamageRepairPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

@@ -233,7 +233,7 @@ export default function HailDamageRepairBorgerPage() {
 
         {/* Borger Weather Data Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
               What Are Hutchinson County Weather: Understanding Your Roof's Risks?
             </h2>
@@ -249,12 +249,12 @@ export default function HailDamageRepairBorgerPage() {
                 <p className="text-sm text-gray-500 mt-2">Increased UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">47 mi</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">47 mi</div>
                 <div className="font-semibold text-gray-700">From Amarillo</div>
                 <p className="text-sm text-gray-500 mt-2">~1 hour response</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Mar-Jun</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Mar-Jun</div>
                 <div className="font-semibold text-gray-700">Peak Hail Season</div>
                 <p className="text-sm text-gray-500 mt-2">Highest storm frequency</p>
               </div>
@@ -366,7 +366,7 @@ export default function HailDamageRepairBorgerPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Borger Hail Damage Repair: Frequently Asked Questions
             </h2>
@@ -446,7 +446,7 @@ export default function HailDamageRepairBorgerPage() {
         
         
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               How Does Hail Affect Borger&apos;s Industrial and Commercial Facilities?
             </h2>

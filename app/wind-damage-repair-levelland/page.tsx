@@ -185,7 +185,7 @@ export default function WindDamageRepairLevellandPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -307,7 +307,7 @@ export default function WindDamageRepairLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-slate-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-slate-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               What Are the Most Common Wind Damage Types in Levelland?
             </h2>

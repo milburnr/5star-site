@@ -307,7 +307,7 @@ export default function TPORoofingSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               West Texas Rolling Plains Climate?
             </h2>

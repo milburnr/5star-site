@@ -336,7 +336,7 @@ export default function CommercialRoofingLubbockPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Healthcare Campus Complex</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>University Medical Center</strong> - 412-bed teaching hospital requiring critical infrastructure roofing with operational demands. Specialized systems for patient safety and uninterrupted healthcare delivery.
@@ -374,7 +374,7 @@ export default function CommercialRoofingLubbockPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Should You Know About Lubbock Building Codes & Permits?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 All commercial roofing projects within Lubbock city limits require permits and must comply with local building codes. We handle all permitting and ensure your project meets or exceeds city standards for educational, healthcare, and agriculture facilities.
               </p>
@@ -440,8 +440,8 @@ export default function CommercialRoofingLubbockPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">High Elevation UV Exposure</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">High Elevation UV Exposure</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>3,202 feet elevation</strong> increases UV radiation intensity, accelerating roofing material degradation. Commercial buildings with large roof areas face significant UV damage without proper membrane protection.
                 </p>
@@ -471,7 +471,7 @@ export default function CommercialRoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

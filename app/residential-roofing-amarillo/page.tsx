@@ -363,7 +363,7 @@ export default function ResidentialRoofingAmarilloPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Should You Know About Amarillo Building Codes?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 All residential roofing projects in Amarillo must comply with local building codes and permit requirements. We handle all permitting and ensure your project meets or exceeds city standards.
               </p>
@@ -419,8 +419,8 @@ export default function ResidentialRoofingAmarilloPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">Relentless Wind</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Relentless Wind</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>14.3 mph average winds</strong> - highest in Texas, #2 in America. At 3,600 feet elevation, Amarillo is exposed to clashing air masses causing extreme gusts exceeding 50 mph annually.
                 </p>
@@ -443,7 +443,7 @@ export default function ResidentialRoofingAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

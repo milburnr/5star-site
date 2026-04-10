@@ -156,7 +156,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Options for Every Odessa Family?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -192,9 +192,9 @@ export default function AsphaltShingleRoofingOdessaPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-8 rounded-2xl shadow-lg border border-purple-500 relative">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border border-brand-gold-vibrant relative">
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-purple-500 text-white px-4 py-1 rounded-full text-sm font-bold">PREMIUM</span>
+                  <span className="bg-brand-brown text-white px-4 py-1 rounded-full text-sm font-bold">PREMIUM</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Class 4 Impact-Resistant</h3>
                 <div className="text-3xl font-bold text-brand-gold mb-4">$15,000-$21,000</div>
@@ -244,8 +244,8 @@ export default function AsphaltShingleRoofingOdessaPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Protecting Your Family's Health</h3>
                 <div className="space-y-6">
-                  <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                    <h4 className="text-xl font-bold mb-3 text-blue-800">Enhanced Air Sealing</h4>
+                  <div className="bg-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                    <h4 className="text-xl font-bold mb-3 text-brand-brown">Enhanced Air Sealing</h4>
                     <ul className="space-y-2">
                       <li><strong>Synthetic Barriers:</strong> Prevent chemical infiltration into living spaces</li>
                       <li><strong>Sealed Penetrations:</strong> All roof penetrations properly weatherproofed</li>
@@ -383,9 +383,9 @@ export default function AsphaltShingleRoofingOdessaPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200">
-                <h3 className="text-xl font-bold mb-3 text-blue-800">Odessa Installation Considerations</h3>
-                <ul className="grid md:grid-cols-2 gap-2 text-blue-700 text-sm">
+              <div className="bg-amber-50 p-6 rounded-2xl border border-brand-gold/30">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Odessa Installation Considerations</h3>
+                <ul className="grid md:grid-cols-2 gap-2 text-brand-brown text-sm">
                   <li>• Work schedule coordinated around air quality conditions</li>
                   <li>• Enhanced safety protocols for industrial environment</li>
                   <li>• Complete debris containment and removal</li>
@@ -454,7 +454,7 @@ export default function AsphaltShingleRoofingOdessaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

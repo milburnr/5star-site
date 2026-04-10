@@ -165,14 +165,14 @@ export default function HailDamageRepairCanyonPage() {
               Canyon, the county seat of Randall County, is a vibrant college town of nearly 15,000 residents that serves as the southern anchor of the Amarillo metropolitan area. Home to West Texas A&M University—with over 10,000 students—and the stunning Panhandle-Plains Historical Museum, Canyon combines small-town charm with big-time weather challenges that affect both residential and university properties.
             </p>
 
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl shadow-lg border border-blue-200 my-8">
-              <h3 className="text-2xl font-bold text-blue-700 mb-4"><Mountain className="w-6 h-6 inline-block" /> The Palo Duro Canyon Weather Effect</h3>
+            <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-xl shadow-lg border border-brand-gold/30 my-8">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4"><Mountain className="w-6 h-6 inline-block" /> The Palo Duro Canyon Weather Effect</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Canyon's proximity to Palo Duro Canyon—the second-largest canyon in the United States at 120 miles long and up to 800 feet deep—creates unique meteorological phenomena that significantly impact local weather patterns. The canyon system acts as both a storm intensifier and a cold air reservoir, making Canyon's hail risk distinct from other Panhandle communities.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-lg shadow">
-                  <h4 className="font-bold text-blue-600 mb-2">Cold Air Pooling Effects</h4>
+                  <h4 className="font-bold text-brand-gold-vibrant mb-2">Cold Air Pooling Effects</h4>
                   <ul className="text-gray-600 space-y-1 text-sm">
                     <li>• Canyon walls trap cold air, creating temperature inversions</li>
                     <li>• Cold pools enhance storm development as systems approach</li>
@@ -181,7 +181,7 @@ export default function HailDamageRepairCanyonPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow">
-                  <h4 className="font-bold text-blue-600 mb-2">Terrain Channeling</h4>
+                  <h4 className="font-bold text-brand-gold-vibrant mb-2">Terrain Channeling</h4>
                   <ul className="text-gray-600 space-y-1 text-sm">
                     <li>• Canyon walls channel and focus wind patterns</li>
                     <li>• Orographic lifting strengthens storm updrafts</li>
@@ -196,7 +196,7 @@ export default function HailDamageRepairCanyonPage() {
               Randall County experiences the same severe hail and wind events that affect the entire Texas Panhandle, with storms capable of producing damaging hail multiple times per year. However, Canyon's position on the southern rim of Palo Duro Canyon places it in a meteorologically sensitive zone where storms often intensify due to terrain effects and temperature contrasts.
             </p>
 
-            <div className="bg-gradient-to-r from-green-600 to-teal-700 text-white p-8 rounded-xl shadow-lg my-8">
+            <div className="bg-gradient-to-r from-green-600 to-brand-brown text-white p-8 rounded-xl shadow-lg my-8">
               <h3 className="text-2xl font-bold mb-4"><GraduationCap className="w-6 h-6 inline-block" /> WTAMU Area: Unique Property Challenges</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 The West Texas A&M University area presents specific roofing challenges that require specialized expertise:
@@ -245,8 +245,8 @@ export default function HailDamageRepairCanyonPage() {
                   <li><strong>Average Annual Damage:</strong> $2-4 million countywide</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl border border-purple-200">
-                <h3 className="text-xl font-bold text-purple-700 mb-4"><BarChart3 className="w-6 h-6 inline-block" /> University Area Impact</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><BarChart3 className="w-6 h-6 inline-block" /> University Area Impact</h3>
                 <p className="text-gray-700 mb-4">Special considerations for WTAMU vicinity:</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Student Population:</strong> 10,000+ on-campus and nearby</li>
@@ -321,7 +321,7 @@ export default function HailDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Randall County Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -335,12 +335,12 @@ export default function HailDamageRepairCanyonPage() {
                 <p className="text-sm text-gray-500 mt-2">High UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">17 mi</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">17 mi</div>
                 <div className="font-semibold text-gray-700">From Amarillo</div>
                 <p className="text-sm text-gray-500 mt-2">~30 min response</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Palo Duro</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Palo Duro</div>
                 <div className="font-semibold text-gray-700">Canyon Effects</div>
                 <p className="text-sm text-gray-500 mt-2">Unique weather patterns</p>
               </div>
@@ -351,7 +351,7 @@ export default function HailDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Texas Hail Belt: Canyon's Storm Profile?</h2>
-            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+            <div className="bg-gradient-to-r from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Canyon sits squarely within the notorious "Texas Hail Belt"—a 300-mile-wide corridor stretching from the Red River Valley to Central Texas where atmospheric conditions create perfect hail-forming environments. This region experiences the highest frequency of large hail (1+ inches) anywhere in North America.
               </p>
@@ -387,8 +387,8 @@ export default function HailDamageRepairCanyonPage() {
                   <li>• March 2023: Softball size recorded</li>
                 </ul>
               </div>
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
-                <h4 className="text-lg font-bold text-blue-700 mb-2">Damage Statistics</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Damage Statistics</h4>
                 <p className="text-gray-700 mb-2">Annual hail damage in Randall County:</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• $2-4 million property damage</li>
@@ -536,11 +536,11 @@ export default function HailDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Should You Know About Canyon's Hail Patterns?</h2>
             
             <div className="max-w-5xl mx-auto mb-12">
-              <div className="bg-gradient-to-r from-indigo-600 to-blue-700 text-white p-8 rounded-xl shadow-lg mb-8">
+              <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-gold text-white p-8 rounded-xl shadow-lg mb-8">
                 <h3 className="text-2xl font-bold mb-4"><Map className="w-6 h-6 inline-block" /> Canyon's Storm Convergence Zone</h3>
                 <p className="text-lg leading-relaxed mb-6">
                   Canyon sits at the intersection of multiple weather patterns that make it particularly susceptible to hail formation. The city's position on the Caprock Escarpment, combined with its proximity to Palo Duro Canyon, creates a natural "storm convergence zone" where atmospheric conditions regularly align for severe weather development.
@@ -601,7 +601,7 @@ export default function HailDamageRepairCanyonPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-red-50 to-pink-50 p-8 rounded-xl border border-red-200 shadow-lg">
+              <div className="bg-gradient-to-br from-red-50 to-amber-50 p-8 rounded-xl border border-red-200 shadow-lg">
                 <h4 className="text-2xl font-bold text-red-700 mb-4"><Zap className="w-6 h-6 inline-block" /> Notable Canyon Hail Events: Historical Record</h4>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white p-4 rounded-lg shadow">
@@ -641,7 +641,7 @@ export default function HailDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Canyon Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -814,7 +814,7 @@ export default function HailDamageRepairCanyonPage() {
         
         
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-purple-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               How Do WTAMU Students and Landlords Handle Hail Damage Claims?
             </h2>

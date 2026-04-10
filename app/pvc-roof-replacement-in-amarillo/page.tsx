@@ -260,7 +260,7 @@ export default function Page() {
         </p>
       </div>
 
-      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+      <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
         <h3 className="font-bold mb-3"><Lightbulb className="w-6 h-6 inline-block" /> Energy Savings with New PVC Roof</h3>
         <p>
           Upgrading to a white reflective PVC roof with modern insulation can reduce cooling costs by 20-30% in West Texas climate. Many building owners see $5,000-$15,000 annual savings on large facilities—making the roof investment pay for itself through energy savings alone over its 25-30 year lifespan.
@@ -355,7 +355,7 @@ export default function Page() {
               </div>
             </div>
             
-            <div className="bg-blue-50 p-6 rounded-lg">
+            <div className="bg-amber-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-brand-brown mb-3">Educational Institution Roofing</h3>
               <p className="text-gray-700 mb-4">Schools, universities, and educational facilities require cost-effective PVC roofing solutions that accommodate large spans while providing long-term durability. Projects often coordinate with academic schedules and budget constraints unique to educational institutions.</p>
               <div className="grid md:grid-cols-2 gap-6">
@@ -512,7 +512,7 @@ export default function Page() {
       </FadeIn>
 
               <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               PVC Roof Replacement FAQs
             </h2>

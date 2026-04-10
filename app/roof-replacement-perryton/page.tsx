@@ -146,7 +146,7 @@ export default function RoofReplacementPerrytonPage() {
                   <li>• <strong>Equipment Vibration:</strong> Heavy machinery causes structural stress</li>
                 </ul>
               </div>
-              <div className="bg-blue-50 p-8 rounded-xl">
+              <div className="bg-amber-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our Agricultural Expertise</h3>
                 <ul className="text-gray-700 space-y-3">
                   <li>• <strong>Chemical-Resistant Materials:</strong> Coatings designed for agricultural exposure</li>
@@ -372,7 +372,7 @@ export default function RoofReplacementPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

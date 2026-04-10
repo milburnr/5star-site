@@ -181,7 +181,7 @@ export default function RoofInspectionsBorgerPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -335,7 +335,7 @@ export default function RoofInspectionsBorgerPage() {
                     </div>
                   </div>
 
-                  <div className="border-l-4 border-blue-500 pl-6">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-6">
                     <h4 className="text-xl font-bold text-gray-800 mb-3">Air Quality & Contamination Check (10 minutes)</h4>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
@@ -573,7 +573,7 @@ export default function RoofInspectionsBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Do Insurance Claims for Industrial-Exposed Properties Work?</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-md">
@@ -632,7 +632,7 @@ export default function RoofInspectionsBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

@@ -154,8 +154,8 @@ export default function RoofReplacementAndrewsPage() {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">The housing stock in Andrews tells the story of Texas oil booms. Many homes were built during the petroleum industry expansions of the 1950s through 1980s, creating a significant population of aging roofs that now require replacement. The combination of older construction standards and decades of harsh West Texas weather has created an urgent need for modern roofing solutions.</p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-blue-50 p-6 rounded-xl">
-                <h4 className="text-xl font-bold text-blue-800 mb-3">Era-Specific Housing Challenges</h4>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Era-Specific Housing Challenges</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li><strong>1950s-1960s Homes:</strong> Original composition shingles, inadequate ventilation</li>
                   <li><strong>1970s-1980s Construction:</strong> Early asphalt shingles, storm damage accumulation</li>
@@ -182,10 +182,10 @@ export default function RoofReplacementAndrewsPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Understanding replacement costs helps Andrews homeowners make informed decisions about protecting their investment in this strong housing market.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
-                <h3 className="text-2xl font-bold text-blue-800 mb-3">Budget-Friendly Options</h3>
-                <div className="text-3xl font-bold text-blue-700 mb-2">$7,500-$12,000</div>
-                <p className="text-sm text-blue-600 mb-4">Average 1,500-2,000 sq ft home</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/30">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Budget-Friendly Options</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$7,500-$12,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Average 1,500-2,000 sq ft home</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• 3-tab asphalt shingles</li>
                   <li>• Basic underlayment</li>
@@ -258,14 +258,14 @@ export default function RoofReplacementAndrewsPage() {
                     </div>
                   </div>
                   <div>
-                    <div className="bg-blue-600 text-white p-6 rounded-xl">
+                    <div className="bg-brand-brown text-white p-6 rounded-xl">
                       <h4 className="text-2xl font-bold mb-3">Cost Analysis</h4>
                       <div className="space-y-2">
                         <div className="flex justify-between"><span>Material Cost:</span><span>$5.50-$7.50/sq ft</span></div>
                         <div className="flex justify-between"><span>Installation:</span><span>$3.00-$4.50/sq ft</span></div>
-                        <div className="flex justify-between border-t border-blue-400 pt-2 font-bold"><span>Total:</span><span>$8.50-$12.00/sq ft</span></div>
+                        <div className="flex justify-between border-t border-brand-gold pt-2 font-bold"><span>Total:</span><span>$8.50-$12.00/sq ft</span></div>
                       </div>
-                      <p className="text-blue-100 text-sm mt-3">Insurance discounts: 15-35% premium reduction</p>
+                      <p className="text-brand-gold-light text-sm mt-3">Insurance discounts: 15-35% premium reduction</p>
                     </div>
                   </div>
                 </div>
@@ -333,14 +333,14 @@ export default function RoofReplacementAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">What Is The Andrews Advantage?</h2>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Is The Andrews Advantage?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-indigo-700 mb-4">Economic Stability Creates Roofing Opportunities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Economic Stability Creates Roofing Opportunities</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Andrews' position as a key player in the Permian Basin oil industry creates unique advantages for homeowners considering roof replacement. The median household income of $78,896 - significantly above the Texas average - means residents can invest in quality roofing systems that provide long-term value.</p>
                 
-                <h4 className="text-xl font-bold text-indigo-700 mb-3">Investment Benefits for Andrews Homeowners</h4>
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Investment Benefits for Andrews Homeowners</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li>• <strong>Property Value Protection:</strong> Quality roofs maintain home values in competitive market</li>
                   <li>• <strong>Insurance Premium Reductions:</strong> Class 4 roofs qualify for significant discounts</li>
@@ -349,27 +349,27 @@ export default function RoofReplacementAndrewsPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-purple-700 mb-4">Weather Patterns Unique to Andrews</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Weather Patterns Unique to Andrews</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Located in the heart of West Texas, Andrews experiences weather patterns that demand specific roofing considerations. Understanding these patterns helps homeowners choose materials and timing that maximize their roofing investment.</p>
                 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="text-xl font-bold text-purple-700 mb-3">Seasonal Roofing Calendar</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-3">Seasonal Roofing Calendar</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Spring (Mar-May):</span>
-                      <span className="text-purple-600">Peak hail season - inspection time</span>
+                      <span className="text-brand-gold-vibrant">Peak hail season - inspection time</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Summer (Jun-Aug):</span>
-                      <span className="text-purple-600">Optimal installation weather</span>
+                      <span className="text-brand-gold-vibrant">Optimal installation weather</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Fall (Sep-Nov):</span>
-                      <span className="text-purple-600">Last chance before winter</span>
+                      <span className="text-brand-gold-vibrant">Last chance before winter</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter (Dec-Feb):</span>
-                      <span className="text-purple-600">Storm repairs only</span>
+                      <span className="text-brand-gold-vibrant">Storm repairs only</span>
                     </div>
                   </div>
                 </div>
@@ -379,7 +379,7 @@ export default function RoofReplacementAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

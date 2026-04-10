@@ -202,7 +202,7 @@ export default function HailDamageRepairDumasPage() {
               The economic impact of hail damage in Dumas extends far beyond individual property damage. When severe storms damage agricultural facilities—including cattle feeding operations that house thousands of animals, grain storage facilities, and feed processing plants—the ripple effects impact the entire regional economy. A single severe hailstorm can cause $5-10 million in property damage across Moore County, affecting not just roofing but also agricultural equipment, vehicles, and livestock facilities.
             </p>
 
-            <div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white p-8 rounded-xl shadow-lg my-8">
+            <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-xl shadow-lg my-8">
               <h3 className="text-2xl font-bold mb-4"><Factory className="w-6 h-6 inline-block" /> Agricultural Infrastructure Vulnerability</h3>
               <p className="text-lg mb-4 leading-relaxed">
                 Moore County's 180,000+ cattle require extensive infrastructure that's particularly vulnerable to hail damage. The county's beef production industry includes:
@@ -243,7 +243,7 @@ export default function HailDamageRepairDumasPage() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl border border-green-200">
+              <div className="bg-gradient-to-br from-green-50 to-amber-50 p-6 rounded-xl border border-green-200">
                 <h3 className="text-xl font-bold text-green-700 mb-4"><Globe className="w-6 h-6 inline-block" /> Climate Change Impact on Dumas</h3>
                 <p className="text-gray-700 mb-4">Recent meteorological studies show intensifying storm patterns affecting Moore County:</p>
                 <ul className="text-gray-600 space-y-2">
@@ -293,7 +293,7 @@ export default function HailDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Moore County Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -307,12 +307,12 @@ export default function HailDamageRepairDumasPage() {
                 <p className="text-sm text-gray-500 mt-2">High UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">49 mi</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">49 mi</div>
                 <div className="font-semibold text-gray-700">From Amarillo</div>
                 <p className="text-sm text-gray-500 mt-2">~1 hour response</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Mar-Jun</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Mar-Jun</div>
                 <div className="font-semibold text-gray-700">Peak Hail Season</div>
                 <p className="text-sm text-gray-500 mt-2">Highest storm frequency</p>
               </div>
@@ -323,7 +323,7 @@ export default function HailDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Is the Northern Panhandle Hail Patterns?</h2>
-            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+            <div className="bg-gradient-to-r from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Dumas sits in the northern corridor of Texas's infamous "Hail Belt," where atmospheric conditions create some of the nation's most intense hailstorms. Moore County's position at 3,688 feet elevation, combined with its proximity to the Colorado and Oklahoma borders, places it at the intersection of multiple storm tracks that regularly produce significant hail.
               </p>
@@ -359,8 +359,8 @@ export default function HailDamageRepairDumasPage() {
                   <li>• June 2023: Golf ball size, multiple rounds</li>
                 </ul>
               </div>
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
-                <h4 className="text-lg font-bold text-blue-700 mb-2">Economic Impact Analysis</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Economic Impact Analysis</h4>
                 <p className="text-gray-700 mb-2">Annual storm damage in Moore County:</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• $5-8 million property damage</li>
@@ -512,11 +512,11 @@ export default function HailDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Should You Know About Moore County Storm Patterns?</h2>
             
             <div className="max-w-5xl mx-auto mb-12">
-              <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-xl shadow-lg mb-8">
+              <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-xl shadow-lg mb-8">
                 <h3 className="text-2xl font-bold mb-4"><CloudLightning className="w-6 h-6 inline-block" /> Seasonal Storm Dynamics in Dumas</h3>
                 <p className="text-lg leading-relaxed mb-6">
                   Moore County's position at 36.5°N latitude places it at the intersection of three major North American air masses, creating a natural battleground for severe weather development. The region's storms follow predictable seasonal patterns that every Dumas property owner should understand.
@@ -571,7 +571,7 @@ export default function HailDamageRepairDumasPage() {
                   <ul className="space-y-3 text-gray-600">
                     <li><strong className="text-red-600">Northwest Track:</strong> Cold air undercuts storms, produces largest hail (baseball+)</li>
                     <li><strong className="text-orange-600">Southwest Track:</strong> Most common, moderate to large hail (quarter to golf ball)</li>
-                    <li><strong className="text-blue-600">Due West Track:</strong> Fast-moving, smaller but dense hail coverage</li>
+                    <li><strong className="text-brand-gold-vibrant">Due West Track:</strong> Fast-moving, smaller but dense hail coverage</li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
@@ -581,14 +581,14 @@ export default function HailDamageRepairDumasPage() {
                   </p>
                   <ul className="space-y-3 text-gray-600">
                     <li><strong className="text-green-600">NOAA Weather Radio:</strong> WXL43 - 162.425 MHz</li>
-                    <li><strong className="text-blue-600">Emergency Sirens:</strong> 5 locations throughout Dumas</li>
-                    <li><strong className="text-purple-600">Mobile Alerts:</strong> Wireless Emergency Alerts (WEA)</li>
+                    <li><strong className="text-brand-gold-vibrant">Emergency Sirens:</strong> 5 locations throughout Dumas</li>
+                    <li><strong className="text-brand-gold-vibrant">Mobile Alerts:</strong> Wireless Emergency Alerts (WEA)</li>
                     <li><strong className="text-orange-600">Local Media:</strong> KAMR-TV, KGNC Radio storm coverage</li>
                   </ul>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-red-50 to-pink-50 p-8 rounded-xl border border-red-200 shadow-lg">
+              <div className="bg-gradient-to-br from-red-50 to-amber-50 p-8 rounded-xl border border-red-200 shadow-lg">
                 <h4 className="text-2xl font-bold text-red-700 mb-4"><AlertTriangle className="w-6 h-6 inline-block" /> Notable Dumas Hail Events: Historical Impact</h4>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white p-4 rounded-lg shadow">
@@ -625,7 +625,7 @@ export default function HailDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Dumas Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

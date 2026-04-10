@@ -359,7 +359,7 @@ export default function CommercialRoofingAmarilloPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Should You Know About Amarillo Building Codes?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 All commercial roofing projects in Amarillo must comply with local building codes and permit requirements. We handle all permitting and ensure your project meets or exceeds city standards.
               </p>
@@ -415,8 +415,8 @@ export default function CommercialRoofingAmarilloPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">Relentless Wind</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Relentless Wind</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   Amarillo averages <strong>14.3 mph winds annually</strong> - the highest in Texas and second-highest in America. Peak winds in March-April regularly exceed 50 mph, with extreme gusts documented above that threshold each year.
                 </p>
@@ -456,7 +456,7 @@ export default function CommercialRoofingAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

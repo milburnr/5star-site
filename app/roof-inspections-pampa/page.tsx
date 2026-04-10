@@ -181,7 +181,7 @@ export default function RoofInspectionsPampaPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -311,7 +311,7 @@ export default function RoofInspectionsPampaPage() {
                   Pampa experiences sustained winds exceeding 60 mph during storm events. These extreme winds create uplift forces that can damage even properly installed roofing systems. Our inspections specifically look for wind damage patterns unique to High Plains geography.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl">
                 <div className="text-4xl mb-4"><Snowflake className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Severe Hailstorms</h3>
                 <p className="text-gray-700 leading-relaxed">
@@ -330,7 +330,7 @@ export default function RoofInspectionsPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
               Local Expertise Makes the Difference?
             </h2>
@@ -448,7 +448,7 @@ export default function RoofInspectionsPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

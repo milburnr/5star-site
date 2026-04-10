@@ -136,7 +136,7 @@ export default function CommercialRoofingBigSpringPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Big Spring and surrounding areas, serving the crossroads of West Texas healthcare, corrections, and logistics. As a strategic I-20 corridor hub housing major healthcare facilities, correctional institutions, and energy operations, Big Spring requires specialized roofing solutions for mission-critical facilities that operate.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Big Spring's unique institutional and commercial needs with expert installations and comprehensive warranties. Our 75-minute response time from Amarillo headquarters ensures rapid service for storm repairs at healthcare facilities, correctional institutions, and critical infrastructure. We handle all permits, insurance claims, and warranty documentation.</p>
             
-            <div className="mt-12 bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl border-l-4 border-brand-gold">
+            <div className="mt-12 bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Big Spring's Critical Infrastructure Needs</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Big Spring serves as a regional hub for healthcare, corrections, and logistics along the vital I-20 corridor. Home to the Veterans Administration Hospital, Big Spring State Hospital, Federal Correctional Institution, and multiple private correctional facilities, the city's commercial roofing needs are defined by security requirements, operations, and strict regulatory compliance.</p>
               <p className="text-gray-700 leading-relaxed">Our commercial roofing systems meet the stringent security, healthcare, and safety standards required by institutional facilities while providing cost-effective solutions for retail, logistics, and energy sector businesses that support the regional economy.</p>
@@ -162,7 +162,7 @@ export default function CommercialRoofingBigSpringPage() {
                 <p className="text-gray-700 mt-4 leading-relaxed">Our medical facility roofing systems feature redundant waterproofing, specialized penetration details for medical equipment, and installation protocols that maintain sterile environments during construction.</p>
               </div>
               
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Landmark className="w-6 h-6 inline-block" /> Correctional Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Big Spring's correctional institutions, including the Federal Correctional Institution and multiple private facilities, demand security-focused roofing solutions that prevent unauthorized access while maintaining structural integrity:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -208,7 +208,7 @@ export default function CommercialRoofingBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Big Spring Institutions Trust 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -293,8 +293,8 @@ export default function CommercialRoofingBigSpringPage() {
                       <li>• Concealed attachment methods</li>
                       <li>• Restricted access installation protocols</li>
                     </ul>
-                    <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                      <p className="text-sm text-blue-800"><strong>Big Spring Corrections Project:</strong> Successfully completed security roofing upgrades on a 25,000 sq ft correctional facility with full compliance with federal detention standards.</p>
+                    <div className="mt-4 p-4 bg-amber-50 rounded-lg">
+                      <p className="text-sm text-brand-brown"><strong>Big Spring Corrections Project:</strong> Successfully completed security roofing upgrades on a 25,000 sq ft correctional facility with full compliance with federal detention standards.</p>
                     </div>
                   </div>
                 </div>
@@ -382,7 +382,7 @@ export default function CommercialRoofingBigSpringPage() {
                     <h5 className="font-bold text-gray-800">Level 3: Industrial Operations</h5>
                     <p className="text-sm text-gray-600">Refinery and manufacturing facilities requiring safety-compliant prompt repairs.</p>
                   </div>
-                  <div className="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+                  <div className="p-3 bg-amber-50 rounded-lg border-l-4 border-brand-gold">
                     <h5 className="font-bold text-gray-800">Level 4: Commercial Properties</h5>
                     <p className="text-sm text-gray-600">Standard commercial properties with next-business-day storm response.</p>
                   </div>
@@ -456,8 +456,8 @@ export default function CommercialRoofingBigSpringPage() {
                   <li>• Multi-phase project payment structures</li>
                 </ul>
                 
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-800"><strong>Healthcare Success:</strong> Provided flexible financing for a $180,000 Big Spring State Hospital roof replacement, working within their annual budget constraints.</p>
+                <div className="p-4 bg-amber-50 rounded-lg">
+                  <p className="text-sm text-brand-brown"><strong>Healthcare Success:</strong> Provided flexible financing for a $180,000 Big Spring State Hospital roof replacement, working within their annual budget constraints.</p>
                 </div>
               </div>
             </div>
@@ -465,7 +465,7 @@ export default function CommercialRoofingBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

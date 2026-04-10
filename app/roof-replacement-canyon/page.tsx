@@ -155,8 +155,8 @@ export default function RoofReplacementCanyonPage() {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Canyon's housing market reflects its academic foundation with a mix of historic neighborhoods, modern family developments, and investment properties serving the university community. The presence of West Texas A&M University creates sustained housing demand, making roof replacement investments particularly valuable for property value maintenance and rental income optimization.</p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-blue-50 p-6 rounded-xl">
-                <h4 className="text-xl font-bold text-blue-800 mb-3">University-Influenced Housing Zones</h4>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h4 className="text-xl font-bold text-brand-brown mb-3">University-Influenced Housing Zones</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li><strong>Campus-Adjacent Areas:</strong> Student rental properties requiring durable roofing</li>
                   <li><strong>Faculty Neighborhoods:</strong> Professional homes with quality material preferences</li>
@@ -164,8 +164,8 @@ export default function RoofReplacementCanyonPage() {
                   <li><strong>Historic Districts:</strong> Older homes requiring architectural compatibility</li>
                 </ul>
               </div>
-              <div className="bg-teal-50 p-6 rounded-xl">
-                <h4 className="text-xl font-bold text-teal-800 mb-3">West Texas Climate Challenges</h4>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h4 className="text-xl font-bold text-brand-brown mb-3">West Texas Climate Challenges</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li><strong>Hail Events:</strong> Spring storms bring golf ball to tennis ball-sized hail</li>
                   <li><strong>Wind Patterns:</strong> Open plains create sustained 30-50 mph winds</li>
@@ -183,10 +183,10 @@ export default function RoofReplacementCanyonPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Tailored pricing for Canyon's diverse property types, from student housing to executive homes in this thriving university community.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200">
-                <h3 className="text-2xl font-bold text-blue-800 mb-3">Reliable Protection</h3>
-                <div className="text-3xl font-bold text-blue-700 mb-2">$9,000-$14,000</div>
-                <p className="text-sm text-blue-600 mb-4">Average 1,500-2,000 sq ft home</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/30">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Reliable Protection</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$9,000-$14,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Average 1,500-2,000 sq ft home</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Architectural asphalt shingles</li>
                   <li>• Standard underlayment</li>
@@ -209,10 +209,10 @@ export default function RoofReplacementCanyonPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-300">
-                <h3 className="text-2xl font-bold text-purple-800 mb-3">Executive Standard</h3>
-                <div className="text-3xl font-bold text-purple-700 mb-2">$21,000-$40,000</div>
-                <p className="text-sm text-purple-600 mb-4">Premium materials and systems</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Executive Standard</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$21,000-$40,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Premium materials and systems</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Designer architectural shingles</li>
                   <li>• Metal roofing options</li>
@@ -335,14 +335,14 @@ export default function RoofReplacementCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-indigo-50 to-blue-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">What Is The Canyon Advantage?</h2>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Is The Canyon Advantage?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-indigo-700 mb-4">University Town Investment Security</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">University Town Investment Security</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Canyon's foundation as a university community provides unusual stability in the Texas real estate market. The presence of West Texas A&M University ensures consistent demand for quality housing, making roof replacement investments particularly secure with predictable returns on both owner-occupied and rental properties.</p>
                 
-                <h4 className="text-xl font-bold text-indigo-700 mb-3">Academic Community Benefits</h4>
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Academic Community Benefits</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li>• <strong>Stable Demand:</strong> University ensures consistent housing market</li>
                   <li>• <strong>Professional Standards:</strong> Educated community values quality improvements</li>
@@ -351,27 +351,27 @@ export default function RoofReplacementCanyonPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-blue-700 mb-4">Weather Resilience Planning</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Weather Resilience Planning</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Canyon's position on the Texas High Plains requires roofing systems engineered for extreme weather variability. From spring hailstorms to winter freeze-thaw cycles, successful roofing investment depends on materials and installation designed for long-term climate resilience.</p>
                 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="text-xl font-bold text-blue-700 mb-3">Seasonal Roofing Strategy</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-3">Seasonal Roofing Strategy</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Spring Planning:</span>
-                      <span className="text-blue-600">March-April hail damage assessment</span>
+                      <span className="text-brand-gold-vibrant">March-April hail damage assessment</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Summer Installation:</span>
-                      <span className="text-blue-600">May-August optimal weather window</span>
+                      <span className="text-brand-gold-vibrant">May-August optimal weather window</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Fall Completion:</span>
-                      <span className="text-blue-600">September-October final projects</span>
+                      <span className="text-brand-gold-vibrant">September-October final projects</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter Maintenance:</span>
-                      <span className="text-blue-600">storm repairs and planning</span>
+                      <span className="text-brand-gold-vibrant">storm repairs and planning</span>
                     </div>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ export default function RoofReplacementCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

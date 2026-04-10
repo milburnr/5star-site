@@ -184,7 +184,7 @@ export default function WindDamageRepairSnyderPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -306,7 +306,7 @@ export default function WindDamageRepairSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-purple-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               How Does Supercell Wind Damage in Scurry County Affect Your Roof?
             </h2>

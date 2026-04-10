@@ -136,7 +136,7 @@ export default function RoofReplacementPampaPage() {
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">As the "Top O' Texas Oil Capital," Pampa presents unique roofing challenges that require specialized expertise. This Gray County seat and major energy hub experiences some of the most severe weather in the Texas Panhandle, combined with industrial conditions that demand superior roofing solutions. Our team understands Pampa's specific environmental factors and provides roof replacement services engineered for long-term performance in this demanding climate.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 p-8 rounded-xl">
+              <div className="bg-amber-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Unique Roofing Challenges</h3>
                 <ul className="text-gray-700 space-y-3">
                   <li>• <strong>Severe Hail Corridor:</strong> Located in "Hail Alley" with frequent large hail events</li>
@@ -204,7 +204,7 @@ export default function RoofReplacementPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-gray-50 to-blue-50 p-10 rounded-xl">
+          <section className="mb-16 bg-gradient-to-r from-gray-50 to-amber-50 p-10 rounded-xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Serving Greater Pampa Area</h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">Our roof replacement services extend throughout Gray County and the surrounding Texas Panhandle communities. We're familiar with local building codes, weather patterns, and the specific challenges faced by property owners in each area.</p>
             
@@ -357,10 +357,10 @@ export default function RoofReplacementPampaPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Does Pampa's Energy Sector Roofing Needs Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-blue-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">Celanese Industrial Complex</h3>
-                <p className="text-blue-700 mb-4">Serving one of America's largest chemical plants requires specialized expertise:</p>
-                <ul className="text-blue-700 space-y-2">
+              <div className="bg-amber-50 p-8 rounded-xl">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Celanese Industrial Complex</h3>
+                <p className="text-brand-brown mb-4">Serving one of America's largest chemical plants requires specialized expertise:</p>
+                <ul className="text-brand-brown space-y-2">
                   <li>• Chemical-resistant roofing systems</li>
                   <li>• High-temperature performance materials</li>
                   <li>• Explosion-resistant construction</li>
@@ -414,7 +414,7 @@ export default function RoofReplacementPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

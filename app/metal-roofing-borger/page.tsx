@@ -338,7 +338,7 @@ export default function MetalRoofingBorgerPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Superior Weather Protection for Borger?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-slate-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-br from-amber-50 to-slate-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">Extreme Weather Performance</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>

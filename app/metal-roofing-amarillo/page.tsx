@@ -155,7 +155,7 @@ export default function MetalRoofingAmarilloPage() {
                   </ul>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Material Options</h3>
                 <div className="space-y-4">
                   <div className="border-l-4 border-brand-gold pl-4">
@@ -450,7 +450,7 @@ export default function MetalRoofingAmarilloPage() {
                   <p className="text-gray-600">Coordinated final inspections ensure your project passes all city requirements before completion.</p>
                 </div>
               </div>
-              <div className="mt-8 bg-blue-50 p-6 rounded-xl">
+              <div className="mt-8 bg-amber-50 p-6 rounded-xl">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Amarillo Building Code Requirements:</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -478,7 +478,7 @@ export default function MetalRoofingAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

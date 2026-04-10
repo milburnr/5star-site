@@ -241,7 +241,7 @@ export default function Page() {
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Permian Basin Wind Factors</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li><strong>Oil field exposure:</strong> Minimal windbreaks across 86,000 square mile basin</li>
@@ -326,10 +326,10 @@ export default function Page() {
               What Are the Seasonal Wind Patterns in the Permian Basin?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-blue-900 mb-3">Winter (Dec-Feb)</h3>
-                <p className="text-sm text-blue-800 mb-3">Average: 12.1 mph sustained</p>
-                <ul className="space-y-2 text-sm text-blue-700">
+              <div className="bg-gradient-to-br from-amber-100 to-amber-50 p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Winter (Dec-Feb)</h3>
+                <p className="text-sm text-brand-brown mb-3">Average: 12.1 mph sustained</p>
+                <ul className="space-y-2 text-sm text-brand-brown">
                   <li>• Cold fronts with 40-60 mph gusts</li>
                   <li>• Reduced drilling activity = less industrial debris</li>
                   <li>• Thermal contrasts from heated oil operations</li>
@@ -400,45 +400,45 @@ export default function Page() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Industrial Heat Island Effects</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Industrial Heat Island Effects</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Flare stack influence:</strong> Gas flares create thermal columns that generate localized turbulence and wind acceleration</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Processing facility heat:</strong> Large oil processing plants create temperature differentials that intensify wind effects</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Thermal cycling stress:</strong> Rapid temperature changes from industrial heat sources accelerate material fatigue</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Enhanced convection:</strong> Heat islands trigger stronger localized thunderstorm development with intense downdrafts</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-teal-500">
-                <h3 className="text-2xl font-bold text-teal-900 mb-4">Basin Topography Wind Effects</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Basin Topography Wind Effects</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Channeling effects:</strong> The Permian Basin's subtle topography creates wind channeling that accelerates regional wind speeds</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Open terrain acceleration:</strong> Hundreds of miles of flat oil field allow winds to build velocity unimpeded</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Pressure gradient enhancement:</strong> Basin geography can intensify regional pressure differences driving wind systems</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Venturi effects:</strong> Structures and drilling rigs create gaps that accelerate wind speeds between installations</span>
                   </li>
                 </ul>
@@ -466,8 +466,8 @@ export default function Page() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Permian Basin Documentation Requirements</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Permian Basin Documentation Requirements</h3>
                 <p className="text-gray-700 mb-4">
                   Successful claims in Midland require distinguishing weather damage from industrial operational effects. National Weather Service Midland office provides detailed wind data, but industrial debris damage needs additional documentation proving weather versus operational causation.
                 </p>
@@ -488,8 +488,8 @@ export default function Page() {
               What Does Industrial-Grade Wind-Resistant Roofing for Midland Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Chemical-Resistant High-Wind Systems</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Chemical-Resistant High-Wind Systems</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>GAF Master Elite HDZ (130 mph + chemical resistance):</strong> Enhanced granule adhesion withstands oil field chemical exposure and wind scour</li>
                   <li><strong>CertainTeed Presidential Solaris (110 mph + Class 4):</strong> Copper-enhanced granules resist chemical degradation from industrial operations</li>
@@ -498,8 +498,8 @@ export default function Page() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-teal-900 mb-4">Permian Basin Installation Enhancements</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Permian Basin Installation Enhancements</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>Industrial-grade fastening:</strong> Corrosion-resistant fasteners handle chemical exposure and extreme wind loads</li>
                   <li><strong>Chemical-barrier underlayment:</strong> Synthetic materials resist oil field chemical penetration</li>
@@ -512,7 +512,7 @@ export default function Page() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               How Does Comprehensive FAQs - Midland Permian Basin Wind Damage Affect Your Roof?
             </h2>

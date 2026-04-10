@@ -264,7 +264,7 @@ export default function TPORoofingAndrewsPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Why TPO Roofing Excels for Andrews Commercial Buildings</h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 <li className="flex items-start space-x-3">
@@ -595,7 +595,7 @@ export default function TPORoofingAndrewsPage() {
         </FadeIn>
         <InternalLinks currentCity="andrews" currentService="tpo-roofing" />
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               TPO Roofing in Andrews FAQs
             </h2>

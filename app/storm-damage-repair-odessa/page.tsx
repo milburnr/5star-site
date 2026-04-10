@@ -181,7 +181,7 @@ export default function Page() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -245,8 +245,8 @@ export default function Page() {
                   Dust + petroleum chemicals create corrosive conditions requiring specialized protective coatings
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Thermal Storm Development</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Thermal Storm Development</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   <strong>April through August:</strong> Odessa's concentration of refineries and processing facilities creates the Permian Basin's most intense heat islands. These thermal sources trigger storm development that can increase local severity by 25+ mph over forecast conditions.
                 </p>
@@ -264,7 +264,7 @@ export default function Page() {
               Service Areas Throughout Ector County?
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">UTPB & Academic Areas</h3>
                 <ul className="text-gray-700 space-y-1 text-sm">
                   <li>• University of Texas Permian Basin</li>
@@ -274,7 +274,7 @@ export default function Page() {
                   <li>• Campus support services</li>
                 </ul>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Central Odessa</h3>
                 <ul className="text-gray-700 space-y-1 text-sm">
                   <li>• Downtown Historic District</li>
@@ -284,7 +284,7 @@ export default function Page() {
                   <li>• Presidential Museum area</li>
                 </ul>
               </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-600">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Petroleum Industrial</h3>
                 <ul className="text-gray-700 space-y-1 text-sm">
                   <li>• Refinery complexes</li>
@@ -314,8 +314,8 @@ export default function Page() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-600">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Refinery Heat Island Storms</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Refinery Heat Island Storms</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Odessa's concentration of refineries creates the most intense heat islands in the Permian Basin, generating explosive thunderstorm development with hail sizes 25-30% larger than forecast. These storms develop rapidly with minimal warning as thermal columns trigger supercell formation.
                 </p>
@@ -353,7 +353,7 @@ export default function Page() {
               Recent Ector County Storm Events?
             </h2>
             <div className="space-y-6">
-              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-purple-600">
+              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">May 2024 - Basin Bowl Storm Complex</h3>
                 <p className="text-gray-700 mb-2">A severe storm system intensified dramatically as it entered Odessa's basin geography, producing tennis ball-sized hail and 80+ mph winds. The concentration of refinery heat sources amplified the storm beyond forecast predictions, causing widespread damage across UTPB campus and downtown areas.</p>
                 <p className="text-sm text-gray-600 italic">Response: 112 service calls, 78 roof replacements, specialized UTPB campus protocols</p>
@@ -441,7 +441,7 @@ export default function Page() {
               How Does the Ector County Storm Response Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-purple-50 p-6 rounded-xl border-t-4 border-purple-600 text-center">
+              <div className="bg-amber-50 p-6 rounded-xl border-t-4 border-brand-gold-vibrant text-center">
                 <div className="text-3xl mb-3"><Tornado className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Basin-Aware Response</h3>
                 <p className="text-sm text-gray-700">Specialized protocols for basin geography and petroleum facility safety requirements with certified crews.</p>

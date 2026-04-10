@@ -288,23 +288,23 @@ export default function StormDamageRepairBigSpringPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-blue-800">Significant Wind Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Significant Wind Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">March 23, 2023 - High Wind Warning</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">March 23, 2023 - High Wind Warning</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Sustained winds of 60+ mph with gusts to 85 mph impacted Big Spring for over 4 hours during a fast-moving dry line passage. The extended duration of high winds caused widespread roof damage, particularly to older commercial buildings and manufactured structures. The Big Spring McMahon-Wrinkle Airpark recorded peak gusts of 87 mph, with significant damage to aircraft hangars and terminal buildings.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">October 4, 2020 - Derecho Impact</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">October 4, 2020 - Derecho Impact</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A rare West Texas derecho brought destructive winds exceeding 90 mph to Big Spring, causing the most widespread wind damage in the city's recent history. The straight-line winds persisted for 45 minutes, damaging hundreds of roofing systems and downing power lines throughout the city. Many buildings near Comanche Trail Lake experienced roof membrane failures and extensive HVAC damage.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">May 5, 2015 - Tornado Near-Miss</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">May 5, 2015 - Tornado Near-Miss</h5>
                     <p className="text-gray-700 leading-relaxed">
                       An EF-3 tornado passed just 2 miles north of Big Spring with winds reaching 140 mph. While the tornado itself missed the city, the associated supercell brought 80+ mph straight-line winds that caused significant roof damage to industrial facilities and the Howard County Courthouse area. The storm also produced large hail and heavy rainfall that tested the city's drainage systems.
                     </p>
@@ -312,17 +312,17 @@ export default function StormDamageRepairBigSpringPage() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border-l-4 border-purple-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-purple-800">Extreme Weather Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Extreme Weather Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">February 14-17, 2021 - Winter Storm Uri</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">February 14-17, 2021 - Winter Storm Uri</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Big Spring experienced temperatures as low as -8°F during Winter Storm Uri, with sustained sub-freezing conditions for over 120 hours. The extreme cold caused widespread roof membrane cracking, pipe bursts, and structural damage throughout the city. Snow and ice accumulation reached 6-8 inches, creating additional weight stress on older roofing systems. Many flat-roof commercial buildings experienced membrane failures that weren't discovered until spring thaw.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">July 15, 2022 - Extreme Heat Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">July 15, 2022 - Extreme Heat Event</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Big Spring recorded its highest temperature ever at 112°F during a historic heat dome event. Surface temperatures on dark roofing exceeded 160°F for multiple consecutive days, causing thermal damage to roofing membranes, HVAC failures, and accelerated aging of roofing materials throughout the city. The extreme heat combined with low humidity created exceptional fire danger and stressed building systems beyond design limits.
                     </p>

@@ -251,7 +251,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
               </div>
             </div>
 
-            <div className="bg-blue-50 p-8 rounded-2xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-6">Andrews-Specific Installation Expertise</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -350,7 +350,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Serving All Andrews Neighborhoods</h2>
             
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Historic Downtown Andrews</h4>
                 <p className="text-gray-600 text-sm">Original Andrews neighborhoods near the courthouse featuring 1920s-1950s architecture. We specialize in historically-appropriate repairs while upgrading performance to modern standards.</p>
               </div>
@@ -365,7 +365,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                 <p className="text-gray-600 text-sm">Established neighborhoods with mix of ranch-style homes and newer construction. Focus on value-oriented solutions that enhance property values and reduce energy costs.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">West Andrews Developments</h4>
                 <p className="text-gray-600 text-sm">Newer residential areas with modern building codes requiring enhanced wind resistance and energy efficiency standards. Premium material installations are popular.</p>
               </div>
@@ -405,7 +405,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
         <InternalLinks currentCity="andrews" currentService="asphalt-shingle-roofing" />
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Andrews Asphalt Shingle Roofing FAQs
             </h2>

@@ -148,7 +148,7 @@ export default function CommercialRoofingAndrewsPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Commercial Roofing Services for Andrews' Key Industries Involve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Fuel className="w-6 h-6 inline-block" /> Oil & Gas Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Andrews sits at the center of the Permian Basin's oil boom, hosting numerous drilling operations, processing facilities, and support services. These industrial facilities require specialized roofing systems that can handle:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -178,7 +178,7 @@ export default function CommercialRoofingAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Do Andrews Businesses Choose 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -335,7 +335,7 @@ export default function CommercialRoofingAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

@@ -233,7 +233,7 @@ export default function HailDamageRepairMidlandPage() {
 
         {/* Midland Weather Data Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
               What Is the Midland County Weather?
             </h2>
@@ -249,12 +249,12 @@ export default function HailDamageRepairMidlandPage() {
                 <p className="text-sm text-gray-500 mt-2">Increased UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">12-14 mph</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">12-14 mph</div>
                 <div className="font-semibold text-gray-700">Avg Wind Speed</div>
                 <p className="text-sm text-gray-500 mt-2">Year-round wind stress</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">80°F+</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">80°F+</div>
                 <div className="font-semibold text-gray-700">Temp Range</div>
                 <p className="text-sm text-gray-500 mt-2">Extreme thermal cycling</p>
               </div>
@@ -367,7 +367,7 @@ export default function HailDamageRepairMidlandPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Midland Hail Damage Repair: Frequently Asked Questions
             </h2>

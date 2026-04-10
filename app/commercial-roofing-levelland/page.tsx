@@ -162,7 +162,7 @@ export default function CommercialRoofingLevellandPage() {
                 <p className="text-gray-700 mt-4 leading-relaxed">Cotton facility roofing must provide superior weather protection while accommodating the specialized equipment and massive storage volumes that make Levelland a global cotton processing center.</p>
               </div>
               
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> Educational Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">South Plains College and Levelland ISD serve the agricultural community with specialized programs in agriculture, petroleum technology, and trades. Educational facilities require cost-effective roofing solutions that support diverse learning environments:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -191,7 +191,7 @@ export default function CommercialRoofingLevellandPage() {
                 <p className="text-gray-700 mt-4 leading-relaxed">Petroleum support roofing requires chemical resistance, fire safety compliance, and structural capacity for heavy equipment storage and maintenance operations.</p>
               </div>
               
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-purple-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Store className="w-6 h-6 inline-block" /> Agricultural Retail & Services</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Levelland's role as a regional agricultural center supports numerous retail and service businesses serving farmers and ranchers throughout Hockley County and the surrounding South Plains region:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -295,8 +295,8 @@ export default function CommercialRoofingLevellandPage() {
                       <li>• 25-year warranties matching capital improvement cycles</li>
                       <li>• Energy savings reinvested in educational programs</li>
                     </ul>
-                    <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                      <p className="text-sm text-blue-800"><strong>SPC Project:</strong> Installed TPO roofing on South Plains College's new agriculture technology center, achieving 35% energy savings and supporting hands-on agricultural education programs.</p>
+                    <div className="mt-4 p-4 bg-amber-50 rounded-lg">
+                      <p className="text-sm text-brand-brown"><strong>SPC Project:</strong> Installed TPO roofing on South Plains College's new agriculture technology center, achieving 35% energy savings and supporting hands-on agricultural education programs.</p>
                     </div>
                   </div>
                 </div>
@@ -376,11 +376,11 @@ export default function CommercialRoofingLevellandPage() {
                     <h5 className="font-bold text-gray-800">Harvest Season (September-December)</h5>
                     <p className="text-sm text-gray-600">Cotton processing and storage facilities receive highest priority during peak harvest operations.</p>
                   </div>
-                  <div className="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                  <div className="p-3 bg-amber-50 rounded-lg border-l-4 border-brand-gold-vibrant">
                     <h5 className="font-bold text-gray-800">Planting Season (March-May)</h5>
                     <p className="text-sm text-gray-600">Agricultural supply and equipment facilities prioritized during critical planting operations.</p>
                   </div>
-                  <div className="p-3 bg-purple-50 rounded-lg border-l-4 border-purple-500">
+                  <div className="p-3 bg-amber-50 rounded-lg border-l-4 border-brand-gold-vibrant">
                     <h5 className="font-bold text-gray-800">Academic Year (August-May)</h5>
                     <p className="text-sm text-gray-600">Educational facilities receive priority scheduling to minimize disruption to agricultural education programs.</p>
                   </div>
@@ -459,8 +459,8 @@ export default function CommercialRoofingLevellandPage() {
                   <li>• Grant funding timeline accommodation</li>
                 </ul>
                 
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-800"><strong>SPC Project:</strong> Coordinated a $150,000 roofing project with South Plains College's capital budget, completing work during summer with payment terms matching their fiscal year and grant funding schedule.</p>
+                <div className="p-4 bg-amber-50 rounded-lg">
+                  <p className="text-sm text-brand-brown"><strong>SPC Project:</strong> Coordinated a $150,000 roofing project with South Plains College's capital budget, completing work during summer with payment terms matching their fiscal year and grant funding schedule.</p>
                 </div>
               </div>
             </div>
@@ -468,7 +468,7 @@ export default function CommercialRoofingLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

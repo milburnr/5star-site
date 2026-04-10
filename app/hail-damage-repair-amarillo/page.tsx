@@ -219,8 +219,8 @@ export default function HailDamageRepairAmarilloPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">High Winds</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">High Winds</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
                   <strong>14.3 mph average winds</strong> - highest in Texas, #2 in America. Extreme gusts exceed 50 mph annually.
                 </p>
@@ -245,7 +245,7 @@ export default function HailDamageRepairAmarilloPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Amarillo's Position in the Texas Hail Belt?</h2>
-            <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
+            <div className="bg-gradient-to-r from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
                 Amarillo sits at the epicenter of "Hail Alley"—a notorious storm corridor where Potter County leads Texas in hail frequency. Since 2000, our area has recorded 131 severe hail days, placing Amarillo among the top 10 most hail-prone cities in America.
               </p>
@@ -281,8 +281,8 @@ export default function HailDamageRepairAmarilloPage() {
                   <li>• March 13, 2023: Grapefruit size north side</li>
                 </ul>
               </div>
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
-                <h4 className="text-lg font-bold text-blue-700 mb-2">Economic Impact</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 rounded-xl">
+                <h4 className="text-lg font-bold text-brand-brown mb-2">Economic Impact</h4>
                 <p className="text-gray-700 mb-2">Annual hail damage in Potter County:</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• $15-25 million property damage</li>
@@ -369,7 +369,7 @@ export default function HailDamageRepairAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

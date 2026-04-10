@@ -139,8 +139,8 @@ export default function RoofReplacementLevellandPage() {
             <h3 className="text-3xl font-bold mb-4 text-brand-brown">Levelland's College Town and Agricultural Heritage</h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Levelland combines the stability of a college town (home to South Plains College) with the economic strength of West Texas agriculture. This unique blend creates a diverse housing market serving students, faculty, agricultural professionals, and established families. The median household income of $51,847 reflects this economic diversity, creating varied roofing needs from budget-conscious student housing to quality family homes.</p>
             
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
-              <h4 className="text-xl font-bold text-blue-800 mb-2">Levelland Community Overview</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 mb-8">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Levelland Community Overview</h4>
               <ul className="text-gray-700 space-y-2">
                 <li>• <strong>Population:</strong> 12,565 residents (2023) - stable college and agricultural community</li>
                 <li>• <strong>Median Age:</strong> 34.2 years - mix of college students and established families</li>
@@ -183,10 +183,10 @@ export default function RoofReplacementLevellandPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Strategic roofing solutions for Levelland's diverse property types, from college rental investments to agricultural family homes.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gradient-to-br from-cyan-50 to-cyan-100 p-6 rounded-xl border-2 border-cyan-200">
-                <h3 className="text-2xl font-bold text-cyan-800 mb-3">Practical Choice</h3>
-                <div className="text-3xl font-bold text-cyan-700 mb-2">$8,500-$13,000</div>
-                <p className="text-sm text-cyan-600 mb-4">Average 1,400-1,800 sq ft home</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/30">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Practical Choice</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$8,500-$13,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Average 1,400-1,800 sq ft home</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Quality architectural shingles</li>
                   <li>• Standard synthetic underlayment</li>
@@ -196,10 +196,10 @@ export default function RoofReplacementLevellandPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-teal-50 to-teal-100 p-6 rounded-xl border-2 border-teal-300 transform scale-105">
-                <h3 className="text-2xl font-bold text-teal-800 mb-3">Smart Investment</h3>
-                <div className="text-3xl font-bold text-teal-700 mb-2">$13,000-$19,500</div>
-                <p className="text-sm text-teal-600 mb-4">Class 4 impact-resistant upgrade</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50 transform scale-105">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Smart Investment</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$13,000-$19,500</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Class 4 impact-resistant upgrade</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Class 4 impact-resistant shingles</li>
                   <li>• Premium synthetic underlayment</li>
@@ -209,10 +209,10 @@ export default function RoofReplacementLevellandPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-xl border-2 border-indigo-300">
-                <h3 className="text-2xl font-bold text-indigo-800 mb-3">Premium Protection</h3>
-                <div className="text-3xl font-bold text-indigo-700 mb-2">$19,500-$35,000</div>
-                <p className="text-sm text-indigo-600 mb-4">Metal and luxury materials</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Premium Protection</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$19,500-$35,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Metal and luxury materials</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Standing seam metal roofing</li>
                   <li>• Designer architectural options</li>
@@ -223,8 +223,8 @@ export default function RoofReplacementLevellandPage() {
               </div>
             </div>
 
-            <div className="bg-teal-50 border-l-4 border-teal-400 p-6 rounded-r-xl">
-              <h4 className="text-xl font-bold text-teal-800 mb-2">Levelland Market Considerations</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 rounded-r-xl">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Levelland Market Considerations</h4>
               <p className="text-gray-700 mb-3">College town and agricultural factors affecting roofing investment decisions:</p>
               <ul className="text-gray-700 space-y-2 grid md:grid-cols-2 gap-x-8">
                 <li>• <strong>Rental Property ROI:</strong> Durable systems reduce maintenance calls, attract tenants</li>
@@ -244,13 +244,13 @@ export default function RoofReplacementLevellandPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Material selection optimized for Levelland's college town needs and challenging South Plains agricultural environment.</p>
 
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-teal-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-3xl font-bold text-teal-800 mb-4">Class 4 Shingles - College Town Proven</h3>
+              <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-3xl font-bold text-brand-brown mb-4">Class 4 Shingles - College Town Proven</h3>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <p className="text-lg text-gray-700 mb-4 leading-relaxed">For Levelland's mix of rental properties and family homes, Class 4 impact-resistant shingles provide essential protection against the frequent hailstorms that impact the South Plains. These shingles offer the durability needed for rental property management while providing the quality expected in faculty and professional neighborhoods.</p>
                     <div className="bg-white p-4 rounded-xl shadow-sm mb-4">
-                      <h4 className="text-xl font-bold text-teal-700 mb-2">College Town Applications</h4>
+                      <h4 className="text-xl font-bold text-brand-brown mb-2">College Town Applications</h4>
                       <ul className="text-gray-700 space-y-1">
                         <li>• Rental property durability and low maintenance</li>
                         <li>• Impact resistance against frequent South Plains hail</li>
@@ -260,14 +260,14 @@ export default function RoofReplacementLevellandPage() {
                     </div>
                   </div>
                   <div>
-                    <div className="bg-teal-600 text-white p-6 rounded-xl">
+                    <div className="bg-brand-brown text-white p-6 rounded-xl">
                       <h4 className="text-2xl font-bold mb-3">Levelland Pricing Analysis</h4>
                       <div className="space-y-2">
                         <div className="flex justify-between"><span>Class 4 Shingles:</span><span>$6.75-$8.75/sq ft</span></div>
                         <div className="flex justify-between"><span>Expert Installation:</span><span>$4.25-$5.75/sq ft</span></div>
-                        <div className="flex justify-between border-t border-teal-400 pt-2 font-bold"><span>Total Investment:</span><span>$11.00-$14.50/sq ft</span></div>
+                        <div className="flex justify-between border-t border-brand-gold pt-2 font-bold"><span>Total Investment:</span><span>$11.00-$14.50/sq ft</span></div>
                       </div>
-                      <p className="text-teal-100 text-sm mt-3">30-40 year lifespan • Rental property ideal • Faculty preferred</p>
+                      <p className="text-brand-gold-light text-sm mt-3">30-40 year lifespan • Rental property ideal • Faculty preferred</p>
                     </div>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ export default function RoofReplacementLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

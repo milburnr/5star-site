@@ -275,7 +275,7 @@ export default function AsphaltShingleRoofingCanyonPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Family-Friendly Roofing Needs</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Canyon's close-knit community includes many university families, longtime residents, and newcomers attracted to the area's quality of life. These homeowners need roofing solutions that provide reliable protection, attractive curb appeal, and excellent value for their investment.

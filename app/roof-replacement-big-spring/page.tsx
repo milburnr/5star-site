@@ -139,8 +139,8 @@ export default function RoofReplacementBigSpringPage() {
             <h3 className="text-3xl font-bold mb-4 text-brand-brown">Big Spring Housing Market Analysis</h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Big Spring stands as a testament to West Texas resilience, with a housing market that reflects both its railroad heritage and modern economic diversification. With approximately 10,293 housing units serving a population of 22,541, the community offers unique roofing challenges and opportunities that homeowners must understand.</p>
             
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
-              <h4 className="text-xl font-bold text-blue-800 mb-2">Big Spring Demographics Overview</h4>
+            <div className="bg-amber-50 border-l-4 border-brand-gold p-6 mb-8">
+              <h4 className="text-xl font-bold text-brand-brown mb-2">Big Spring Demographics Overview</h4>
               <ul className="text-gray-700 space-y-2">
                 <li>• <strong>Population:</strong> 22,541 residents (2024)</li>
                 <li>• <strong>Housing Units:</strong> 10,293 total units</li>
@@ -196,10 +196,10 @@ export default function RoofReplacementBigSpringPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-300 transform scale-105">
-                <h3 className="text-2xl font-bold text-blue-800 mb-3">Smart Investment</h3>
-                <div className="text-3xl font-bold text-blue-700 mb-2">$13,500-$19,500</div>
-                <p className="text-sm text-blue-600 mb-4">Class 4 impact-resistant system</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50 transform scale-105">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Smart Investment</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$13,500-$19,500</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Class 4 impact-resistant system</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Class 4 architectural shingles</li>
                   <li>• Synthetic underlayment</li>
@@ -209,10 +209,10 @@ export default function RoofReplacementBigSpringPage() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border-2 border-purple-300">
-                <h3 className="text-2xl font-bold text-purple-800 mb-3">Premium Solutions</h3>
-                <div className="text-3xl font-bold text-purple-700 mb-2">$19,500-$38,000</div>
-                <p className="text-sm text-purple-600 mb-4">Metal and luxury materials</p>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-6 rounded-xl border-2 border-brand-gold/50">
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">Premium Solutions</h3>
+                <div className="text-3xl font-bold text-brand-brown mb-2">$19,500-$38,000</div>
+                <p className="text-sm text-brand-gold-vibrant mb-4">Metal and luxury materials</p>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Standing seam metal roofing</li>
                   <li>• Architectural slate/tile options</li>
@@ -244,13 +244,13 @@ export default function RoofReplacementBigSpringPage() {
             <p className="text-xl text-gray-700 mb-8 text-center leading-relaxed">Material selection for Big Spring must account for severe weather patterns, historic home compatibility, and long-term value retention.</p>
 
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-indigo-50 to-blue-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-3xl font-bold text-indigo-800 mb-4">Class 4 Impact-Resistant Shingles - Top Recommendation</h3>
+              <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-3xl font-bold text-brand-brown mb-4">Class 4 Impact-Resistant Shingles - Top Recommendation</h3>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <p className="text-lg text-gray-700 mb-4 leading-relaxed">For Big Spring's position in Texas's hail corridor, Class 4 shingles provide essential protection while respecting the architectural character of historic neighborhoods. These premium shingles undergo UL 2218 testing, withstanding 2-inch steel ball impacts without cracking.</p>
                     <div className="bg-white p-4 rounded-xl shadow-sm mb-4">
-                      <h4 className="text-xl font-bold text-indigo-700 mb-2">Big Spring Benefits</h4>
+                      <h4 className="text-xl font-bold text-brand-brown mb-2">Big Spring Benefits</h4>
                       <ul className="text-gray-700 space-y-1">
                         <li>• Survives quarter-to-golf ball hail</li>
                         <li>• Wind resistance to 130 mph</li>
@@ -260,14 +260,14 @@ export default function RoofReplacementBigSpringPage() {
                     </div>
                   </div>
                   <div>
-                    <div className="bg-indigo-600 text-white p-6 rounded-xl">
+                    <div className="bg-brand-brown text-white p-6 rounded-xl">
                       <h4 className="text-2xl font-bold mb-3">Investment Analysis</h4>
                       <div className="space-y-2">
                         <div className="flex justify-between"><span>Material Cost:</span><span>$6.00-$8.50/sq ft</span></div>
                         <div className="flex justify-between"><span>Professional Installation:</span><span>$3.50-$5.00/sq ft</span></div>
-                        <div className="flex justify-between border-t border-indigo-400 pt-2 font-bold"><span>Total Investment:</span><span>$9.50-$13.50/sq ft</span></div>
+                        <div className="flex justify-between border-t border-brand-gold pt-2 font-bold"><span>Total Investment:</span><span>$9.50-$13.50/sq ft</span></div>
                       </div>
-                      <p className="text-indigo-100 text-sm mt-3">Annual insurance savings: $300-800</p>
+                      <p className="text-brand-gold-light text-sm mt-3">Annual insurance savings: $300-800</p>
                     </div>
                   </div>
                 </div>
@@ -302,13 +302,13 @@ export default function RoofReplacementBigSpringPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-teal-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
-                <h3 className="text-3xl font-bold text-teal-800 mb-4">Commercial TPO Systems</h3>
+              <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
+                <h3 className="text-3xl font-bold text-brand-brown mb-4">Commercial TPO Systems</h3>
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <p className="text-lg text-gray-700 mb-4 leading-relaxed">For Big Spring's commercial and flat-roof residential properties, TPO (Thermoplastic Olefin) membrane systems provide excellent performance in extreme temperature conditions while maintaining energy efficiency through reflective surfaces.</p>
                     <div className="bg-white p-4 rounded-xl shadow-sm mb-4">
-                      <h4 className="text-xl font-bold text-teal-700 mb-2">System Advantages</h4>
+                      <h4 className="text-xl font-bold text-brand-brown mb-2">System Advantages</h4>
                       <ul className="text-gray-700 space-y-1">
                         <li>• Reflects 85%+ of solar radiation</li>
                         <li>• Maintains flexibility in temperature extremes</li>
@@ -318,14 +318,14 @@ export default function RoofReplacementBigSpringPage() {
                     </div>
                   </div>
                   <div>
-                    <div className="bg-teal-600 text-white p-6 rounded-xl">
+                    <div className="bg-brand-brown text-white p-6 rounded-xl">
                       <h4 className="text-2xl font-bold mb-3">Commercial Investment</h4>
                       <div className="space-y-2">
                         <div className="flex justify-between"><span>TPO Membrane:</span><span>$6.50-$9.50/sq ft</span></div>
                         <div className="flex justify-between"><span>EPDM Alternative:</span><span>$5.50-$8.50/sq ft</span></div>
                         <div className="flex justify-between"><span>Modified Bitumen:</span><span>$7.00-$10.00/sq ft</span></div>
                       </div>
-                      <p className="text-teal-100 text-sm mt-3">20-30 year warranties • ENERGY STAR qualified • Low maintenance</p>
+                      <p className="text-brand-gold-light text-sm mt-3">20-30 year warranties • ENERGY STAR qualified • Low maintenance</p>
                     </div>
                   </div>
                 </div>
@@ -335,14 +335,14 @@ export default function RoofReplacementBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-rose-800 text-center">What Is The Big Spring Advantage?</h2>
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Is The Big Spring Advantage?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-rose-700 mb-4">Preserving Architectural Heritage</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Preserving Architectural Heritage</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Big Spring's historic neighborhoods require roofing solutions that respect architectural integrity while providing modern protection. Our expertise in historic home roofing ensures your replacement maintains the character that makes Big Spring special while delivering contemporary performance.</p>
                 
-                <h4 className="text-xl font-bold text-rose-700 mb-3">Historic Home Considerations</h4>
+                <h4 className="text-xl font-bold text-brand-brown mb-3">Historic Home Considerations</h4>
                 <ul className="text-gray-700 space-y-2">
                   <li>• <strong>Architectural Compatibility:</strong> Materials that complement 1920s-1950s designs</li>
                   <li>• <strong>Structural Assessment:</strong> Evaluation of historic framing and decking</li>
@@ -351,27 +351,27 @@ export default function RoofReplacementBigSpringPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-pink-700 mb-4">Modern Protection Standards</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Modern Protection Standards</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">Today's roofing technology offers Big Spring homeowners protection levels unimaginable when many of these homes were built. Impact resistance, energy efficiency, and extended warranties provide peace of mind in an increasingly unpredictable climate.</p>
                 
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="text-xl font-bold text-pink-700 mb-3">Weather Protection Timeline</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-3">Weather Protection Timeline</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Spring Storm Season:</span>
-                      <span className="text-pink-600">March-May damage assessment</span>
+                      <span className="text-brand-gold-vibrant">March-May damage assessment</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Summer Installation:</span>
-                      <span className="text-pink-600">June-August optimal conditions</span>
+                      <span className="text-brand-gold-vibrant">June-August optimal conditions</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Fall Preparation:</span>
-                      <span className="text-pink-600">September-November final work</span>
+                      <span className="text-brand-gold-vibrant">September-November final work</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-700">Winter Protection:</span>
-                      <span className="text-pink-600">Storm repairs only</span>
+                      <span className="text-brand-gold-vibrant">Storm repairs only</span>
                     </div>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ export default function RoofReplacementBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

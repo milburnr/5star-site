@@ -136,7 +136,7 @@ export default function ResidentialRoofingSnyderPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Snyder and Scurry County, serving West Central Texas with expertise in rolling plains weather patterns. Located between the Panhandle and Hill Country, Snyder presents unique roofing challenges from diverse terrain, oil field operations, and the transition zone between different Texas climate regions.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Snyder's 10,800 residents with expert installations designed for the Rolling Plains environment. Our team understands the specific needs of this historic oil and agricultural community, from established neighborhoods to modern developments supporting the energy sector.</p>
             
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Snyder Housing Market Analysis</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Snyder's housing market reflects its dual identity as an oil industry center and agricultural hub. The median home value is approximately $105,000, with a diverse housing stock ranging from historic downtown properties built during early oil booms to modern subdivisions serving today's energy workers and farming families.</p>
               
@@ -315,7 +315,7 @@ export default function ResidentialRoofingSnyderPage() {
                   <li>• Hermleigh, Ira, and Fluvanna areas</li>
                 </ul>
                 
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">Flexible scheduling for oil field workers and agricultural operations. Academic calendar coordination for college community properties.</p>
                 </div>
               </div>
@@ -324,7 +324,7 @@ export default function ResidentialRoofingSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

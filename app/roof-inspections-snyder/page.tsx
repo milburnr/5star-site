@@ -184,7 +184,7 @@ export default function RoofInspectionsSnyderPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -306,7 +306,7 @@ export default function RoofInspectionsSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-teal-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               What Does Advanced Inspection Technology Involve?
             </h2>
@@ -526,13 +526,13 @@ export default function RoofInspectionsSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-blue-50 p-12 rounded-3xl border border-blue-200">
-            <h2 className="text-4xl font-bold mb-8 text-blue-700 text-center">
+          <section className="mb-16 bg-amber-50 p-12 rounded-3xl border border-brand-gold/30">
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
               Seasonal Inspection Schedule for West Texas
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-blue-700 mb-4">Spring Inspection (March-April)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Spring Inspection (March-April)</h3>
                 <p className="text-gray-700 mb-4">
                   Pre-storm season inspection to identify and repair winter damage before severe weather arrives.
                 </p>
@@ -545,7 +545,7 @@ export default function RoofInspectionsSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-blue-700 mb-4">Fall Inspection (October-November)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">Fall Inspection (October-November)</h3>
                 <p className="text-gray-700 mb-4">
                   Post-storm season inspection to assess summer weather damage and prepare for winter.
                 </p>
@@ -559,7 +559,7 @@ export default function RoofInspectionsSnyderPage() {
               </div>
             </div>
             <div className="text-center mt-8">
-              <a href="tel:8066226041" className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 inline-block">
+              <a href="tel:8066226041" className="bg-brand-gold-vibrant hover:bg-brand-gold text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 inline-block">
                 Schedule Your Seasonal Inspection
               </a>
             </div>

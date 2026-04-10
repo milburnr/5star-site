@@ -156,7 +156,7 @@ export default function HailDamageRepairSnyderPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Professional Hail Damage Assessment Process Work?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <div className="text-4xl mb-4 text-blue-600"><Search className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4 text-brand-gold-vibrant"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Comprehensive Inspection</h3>
                 <p className="text-gray-700 mb-4">Detailed roof surface examination identifying all hail impacts, granule loss patterns, exposed mat areas, and compromised shingle integrity. Professional measurement and documentation of damage severity and extent.</p>
                 <ul className="text-sm text-gray-600 space-y-2">
@@ -274,7 +274,7 @@ export default function HailDamageRepairSnyderPage() {
               <p className="text-xl text-gray-700 mb-8 text-center">Post-hail damage repair presents an opportunity to upgrade to impact-resistant roofing systems that provide superior protection and insurance benefits.</p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
+                  <div className="bg-brand-brown text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Class 4 Impact Rating</h3>
                   <p className="text-gray-600">UL 2218 Class 4 shingles withstand impacts from 2-inch steel balls, providing maximum hail protection and qualifying for significant insurance premium discounts in Texas.</p>
                 </div>
@@ -294,7 +294,7 @@ export default function HailDamageRepairSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -369,21 +369,21 @@ export default function HailDamageRepairSnyderPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-brown text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Hail Damage Expertise</h3>
                       <p className="text-gray-700">Extensive experience with West Texas hail patterns, damage identification, and repair techniques specific to regional weather challenges and insurance requirements.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-brown text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Insurance Claim Success</h3>
                       <p className="text-gray-700">95%+ claim approval rate through professional documentation, adjuster coordination, and comprehensive damage assessment ensuring maximum coverage for Snyder property owners.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-brown text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Advanced Materials</h3>
                       <p className="text-gray-700">Access to latest impact-resistant roofing technologies including Class 4 shingles, advanced metal systems, and innovative materials designed for superior hail protection.</p>
@@ -392,21 +392,21 @@ export default function HailDamageRepairSnyderPage() {
                 </div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-brown text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Complete Documentation</h3>
                       <p className="text-gray-700">Professional-grade damage documentation with high-resolution photography, detailed measurements, and comprehensive reporting designed for successful insurance claim submission.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-brown text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Local Availability</h3>
                       <p className="text-gray-700">Immediate response capability for post-storm assessment and prompt services throughout Snyder and surrounding areas with rapid deployment for time-sensitive situations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-brown text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Comprehensive Warranties</h3>
                       <p className="text-gray-700">Complete warranty coverage including material warranties, workmanship guarantees, and manufacturer backing providing long-term protection and peace of mind.</p>

@@ -263,14 +263,14 @@ export default function OdessaRoofingPage() {
 
             {/* Commercial & Industrial Roofing */}
             <FadeIn delay={0.3}>
-              <InteractiveCard className="bg-blue-50 border-2 border-blue-200">
+              <InteractiveCard className="bg-amber-50 border-2 border-brand-gold/30">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
                     <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg" alt="TPO membrane installation on commercial industrial building in Pampa TX - Flat roof" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial & Industrial Roofing
                     </h3>
-                    <p className="text-sm text-blue-700 font-semibold">OIL INDUSTRY SPECIALIST</p>
+                    <p className="text-sm text-brand-brown font-semibold">OIL INDUSTRY SPECIALIST</p>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
@@ -295,7 +295,7 @@ export default function OdessaRoofingPage() {
                     </p>
                     <a
                       href="/commercial-roofing-odessa/"
-                      className="text-blue-700 font-semibold hover:text-blue-800 inline-flex items-center gap-2"
+                      className="text-brand-brown font-semibold hover:text-brand-gold-vibrant inline-flex items-center gap-2"
                     >
                       Commercial Roofing Services →
                     </a>
@@ -591,7 +591,7 @@ export default function OdessaRoofingPage() {
                 We work directly with all major insurance companies serving Odessa and the Permian Basin:
               </p>
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-blue-50 p-6 rounded-lg">
+                <div className="bg-amber-50 p-6 rounded-lg">
                   <h3 className="text-lg font-bold text-brand-brown mb-3">National Insurance Providers:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />State Farm Insurance</li>
@@ -603,7 +603,7 @@ export default function OdessaRoofingPage() {
                     <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Nationwide Insurance</li>
                   </ul>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
+                <div className="bg-amber-50 p-6 rounded-lg">
                   <h3 className="text-lg font-bold text-brand-brown mb-3">Local & Regional Providers:</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Permian Basin Insurance</li>
@@ -658,7 +658,7 @@ export default function OdessaRoofingPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Odessa Roofing FAQs
             </h2>

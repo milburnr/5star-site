@@ -194,7 +194,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
               Since 2014, 5 Star Commercial Roofing has specialized in protecting Snyder's diverse residential neighborhoods with premium asphalt shingle systems designed for West Texas extremes. From historic homes near the Scurry County Museum to modern subdivisions around Western Texas College, we understand the unique challenges facing homeowners: oil field environmental impacts, agricultural dust, extreme UV exposure, and the need for reliable solutions that protect property values in this hardworking community.
             </p>
 
-            <div className="bg-gradient-to-r from-purple-50 to-indigo-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Why Snyder Homeowners Choose Premium Asphalt Shingles</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -217,7 +217,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
             <h3 className="text-3xl font-bold mb-6 text-brand-brown">Complete Asphalt Shingle Solutions for Snyder Homes</h3>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Standard Architectural Shingles</h4>
                 <p className="text-gray-600 mb-3">Perfect for Snyder homeowners seeking reliable protection at practical prices. Starting at $4.75 per square foot installed, these GAF Timberline or CertainTeed Landmark shingles provide 25-30 year warranties with excellent West Texas climate resistance.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -228,7 +228,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
                 </ul>
               </div>
               
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Impact-Resistant Premium</h4>
                 <p className="text-gray-600 mb-3">Snyder's most popular choice for maximum storm protection. Multi-layer construction with polymer modification provides Class 4 impact resistance at $7.50-9.50 per square foot with 30-lifetime warranties and insurance benefits.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -239,7 +239,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
                 </ul>
               </div>
               
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Designer Luxury Collections</h4>
                 <p className="text-gray-600 mb-3">Premium options for discriminating Snyder homeowners and professionals. Authentic slate, cedar shake, and tile appearances with lifetime warranties. Investment range: $10.50-15.00 per square foot for ultimate protection and aesthetics.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -251,7 +251,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
               </div>
             </div>
 
-            <div className="bg-indigo-50 p-8 rounded-2xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-6">Snyder Multi-Environment Installation Expertise</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -278,32 +278,32 @@ export default function AsphaltShingleRoofingSnyderPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Snyder Professional Installation Process Work?</h2>
             
             <div className="space-y-8">
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-purple-50 to-white p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-amber-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Comprehensive Multi-Factor Assessment</h3>
                   <p className="text-gray-600">Our thorough evaluation considers Snyder's unique multi-industry environment including oil field proximity, agricultural impacts, wind energy effects, and standard West Texas weather challenges. We use advanced detection methods to identify all types of damage and environmental stress factors affecting your roof.</p>
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-purple-50 p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-amber-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Tailored Material Selection & Design</h3>
                   <p className="text-gray-600">Every Snyder home receives customized recommendations based on environmental exposure, architectural style, and performance requirements. We provide comprehensive analysis covering storm protection, energy efficiency, and long-term value enhancement specific to West Texas conditions.</p>
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-purple-50 to-white p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-amber-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Expert Installation & Quality Assurance</h3>
                   <p className="text-gray-600">Our certified installation teams complete most Snyder residential projects in 2-3 days using industry-leading techniques and premium materials. We maintain clean worksites, respect community standards, and conduct rigorous quality inspections throughout the installation process.</p>
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-purple-50 p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-amber-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Complete Warranty & Ongoing Support</h3>
                   <p className="text-gray-600">Project completion includes thorough cleanup, comprehensive warranty documentation, and maintenance guidance for Snyder's diverse environmental challenges. We provide  throughout Scurry County with maintenance schedules adapted to local conditions.</p>
@@ -350,12 +350,12 @@ export default function AsphaltShingleRoofingSnyderPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Serving All Snyder Communities</h2>
             
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Historic Downtown Snyder</h4>
                 <p className="text-gray-600 text-sm">Original Snyder neighborhoods featuring 1920s-1950s architecture near the courthouse square. We maintain historical character while upgrading performance and durability standards.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Western Texas College Area</h4>
                 <p className="text-gray-600 text-sm">College-adjacent neighborhoods with faculty housing and student-related properties requiring reliable, cost-effective roofing solutions that enhance property values.</p>
               </div>
@@ -405,7 +405,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
         <InternalLinks currentCity="snyder" currentService="asphalt-shingle-roofing" />
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Snyder Asphalt Shingle Roofing FAQs
             </h2>

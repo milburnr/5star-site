@@ -346,7 +346,7 @@ export default function CommercialRoofingMidlandPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-md border-l-4 border-blue-600">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Airport & Logistics Hub</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>Midland International Air & Space Port</strong> - Commercial facilities, maintenance hangars, and logistics buildings supporting the energy industry's aviation needs. These facilities require large-span roofing solutions with superior wind resistance and specialized drainage systems.
@@ -374,7 +374,7 @@ export default function CommercialRoofingMidlandPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Should You Know About Midland Building Codes & Energy Industry Requirements?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Commercial roofing projects in Midland must comply with both city building codes and specialized energy industry safety standards. Oil company headquarters, industrial facilities, and petroleum operations require enhanced fire resistance, chemical compatibility, and storm access considerations.
               </p>
@@ -440,8 +440,8 @@ export default function CommercialRoofingMidlandPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">Chemical & Industrial Exposure</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Chemical & Industrial Exposure</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>Petroleum vapors and industrial chemicals</strong> create unique challenges for oil field facilities and processing plants. Roofing materials must resist chemical degradation while maintaining fire safety ratings critical for petroleum operations.
                 </p>
@@ -471,7 +471,7 @@ export default function CommercialRoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

@@ -107,13 +107,13 @@ export default function Page() {
         </p>
       </div>
 
-      <div className="bg-cyan-50 border-l-4 border-cyan-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-cyan-800"><CloudHail className="w-6 h-6 inline-block" /> Texas Panhandle Winter Weather Patterns</h3>
+      <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
+        <h3 className="text-xl font-bold mb-3 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Texas Panhandle Winter Weather Patterns</h3>
         <p className="mb-4">Understanding the unique winter climate of the Texas Panhandle is crucial for identifying and preventing cold weather roof damage:</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-4">
-            <h4 className="font-bold mb-2 text-cyan-700">Temperature Extremes</h4>
+            <h4 className="font-bold mb-2 text-brand-brown">Temperature Extremes</h4>
             <ul className="space-y-1 text-sm">
               <li>• Average winter lows: 22°F to 28°F</li>
               <li>• Extreme cold events: -10°F to -20°F</li>
@@ -124,7 +124,7 @@ export default function Page() {
             </ul>
           </div>
           <div className="bg-white rounded-lg p-4">
-            <h4 className="font-bold mb-2 text-cyan-700">Snow & Precipitation</h4>
+            <h4 className="font-bold mb-2 text-brand-brown">Snow & Precipitation</h4>
             <ul className="space-y-1 text-sm">
               <li>• Annual snowfall: 15-18 inches average</li>
               <li>• Blizzard conditions: 1-2 events per decade</li>
@@ -249,8 +249,8 @@ export default function Page() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-blue-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-blue-800"><Microscope className="w-6 h-6 inline-block" /> Thermal Imaging Analysis</h3>
+          <div className="bg-amber-50 rounded-lg p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Microscope className="w-6 h-6 inline-block" /> Thermal Imaging Analysis</h3>
             <ul className="space-y-2 text-sm">
               <li>• Detect heat loss patterns indicating insulation problems</li>
               <li>• Identify moisture intrusion in roof assemblies</li>
@@ -261,8 +261,8 @@ export default function Page() {
             </ul>
           </div>
           
-          <div className="bg-blue-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-blue-800"><BarChart3 className="w-6 h-6 inline-block" /> Structural Load Assessment</h3>
+          <div className="bg-amber-50 rounded-lg p-6">
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><BarChart3 className="w-6 h-6 inline-block" /> Structural Load Assessment</h3>
             <ul className="space-y-2 text-sm">
               <li>• Calculate snow and ice load capacity</li>
               <li>• Evaluate structural integrity of roof deck</li>
@@ -528,13 +528,13 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-purple-800"><DollarSign className="w-6 h-6 inline-block" /> Insurance Considerations for Winter Damage</h3>
+      <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
+        <h3 className="text-xl font-bold mb-3 text-brand-brown"><DollarSign className="w-6 h-6 inline-block" /> Insurance Considerations for Winter Damage</h3>
         <p className="mb-4">Winter storm damage coverage varies significantly between insurance policies in Texas. Understanding your coverage helps ensure proper protection and claim success.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-4">
-            <h4 className="font-bold mb-2 text-purple-700">Typically Covered Damage</h4>
+            <h4 className="font-bold mb-2 text-brand-brown">Typically Covered Damage</h4>
             <ul className="space-y-1 text-sm">
               <li>• Sudden ice dam formation and resulting leaks</li>
               <li>• Snow load roof collapse (if within code)</li>
@@ -544,7 +544,7 @@ export default function Page() {
             </ul>
           </div>
           <div className="bg-white rounded-lg p-4">
-            <h4 className="font-bold mb-2 text-purple-700">Often Excluded or Limited</h4>
+            <h4 className="font-bold mb-2 text-brand-brown">Often Excluded or Limited</h4>
             <ul className="space-y-1 text-sm">
               <li>• Gradual freeze-thaw deterioration</li>
               <li>• Poor maintenance leading to problems</li>
@@ -638,7 +638,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+      <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
         <h3 className="font-bold mb-3"><Snowflake className="w-6 h-6 inline-block" /> Post-Winter Roof Inspection</h3>
         <p>After severe winter weather in the Texas Panhandle, schedule a professional <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof inspection</a> even if you don't see obvious damage. Freeze-thaw cycling and ice dam damage may not become apparent until spring rains reveal compromised areas.</p>
       </div>

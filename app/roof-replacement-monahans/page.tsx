@@ -136,7 +136,7 @@ export default function RoofReplacementMonahansPage() {
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">Located in the heart of West Texas, Monahans presents unique roofing challenges that require specialized expertise. As the county seat of Ward County and home to the famous Monahans Sandhills State Park, this oil and gas industry hub experiences some of the most demanding desert climate conditions in Texas. Our team understands the specific environmental factors affecting Monahans roofs and provides solutions engineered for long-term performance.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 p-8 rounded-xl">
+              <div className="bg-amber-50 p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Why Monahans Roofs Need Special Attention</h3>
                 <ul className="text-gray-700 space-y-3">
                   <li>• <strong>Extreme Temperature Swings:</strong> Summer highs often exceed 105°F, winter lows can drop to 20°F</li>
@@ -204,7 +204,7 @@ export default function RoofReplacementMonahansPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-gray-50 to-blue-50 p-10 rounded-xl">
+          <section className="mb-16 bg-gradient-to-r from-gray-50 to-amber-50 p-10 rounded-xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Serving Greater Monahans Area</h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">Our roof replacement services extend throughout Ward County and surrounding areas. We're familiar with local building codes, permitting requirements, and the specific challenges faced by property owners in each community.</p>
             
@@ -355,7 +355,7 @@ export default function RoofReplacementMonahansPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -404,9 +404,9 @@ export default function RoofReplacementMonahansPage() {
                   <p className="text-red-800 font-bold">Call (806) 622-6041 for prompt response</p>
                 </div>
               </div>
-              <div className="bg-blue-50 p-8 rounded-xl border border-blue-200">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">Our storm response</h3>
-                <ul className="text-blue-700 space-y-3">
+              <div className="bg-amber-50 p-8 rounded-xl border border-brand-gold/30">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our storm response</h3>
+                <ul className="text-brand-brown space-y-3">
                   <li>• Immediate damage assessment</li>
                   <li>• tarping and weatherization</li>
                   <li>• Rapid material procurement</li>
@@ -414,8 +414,8 @@ export default function RoofReplacementMonahansPage() {
                   <li>• Insurance claim documentation</li>
                   <li>• Priority scheduling for replacement</li>
                 </ul>
-                <div className="mt-6 p-4 bg-blue-100 rounded-lg">
-                  <p className="text-blue-800 font-bold">Average storm response time: Under 2 hours</p>
+                <div className="mt-6 p-4 bg-amber-100 rounded-lg">
+                  <p className="text-brand-brown font-bold">Average storm response time: Under 2 hours</p>
                 </div>
               </div>
             </div>

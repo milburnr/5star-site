@@ -185,7 +185,7 @@ export default function RoofInspectionsBigSpringPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -258,7 +258,7 @@ export default function RoofInspectionsBigSpringPage() {
               How Does the Comprehensive Roof Inspection Process Work?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Exterior Inspection</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Shingle Assessment:</strong> Granule loss, cracking, curling, missing shingles</li>
@@ -358,7 +358,7 @@ export default function RoofInspectionsBigSpringPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               How Does the Insurance Claims Process Work in Big Spring?
             </h2>
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Complete Documentation Package</h3>
               <p className="text-lg leading-relaxed">
                 Our comprehensive inspection reports provide all documentation required for successful insurance claims. We work directly with insurance adjusters to ensure your claim is properly documented and fairly assessed.
@@ -433,8 +433,8 @@ export default function RoofInspectionsBigSpringPage() {
                       <strong className="text-red-600">Summer (June-August)</strong>
                       <p className="text-gray-600 text-sm mt-1">Severe hailstorms, temperatures exceeding 100°F, UV damage, thermal expansion stress</p>
                     </div>
-                    <div className="border-l-4 border-blue-400 pl-4">
-                      <strong className="text-blue-600">Fall (September-November)</strong>
+                    <div className="border-l-4 border-brand-gold pl-4">
+                      <strong className="text-brand-gold-vibrant">Fall (September-November)</strong>
                       <p className="text-gray-600 text-sm mt-1">High winds, temperature fluctuations, early freeze/thaw cycles</p>
                     </div>
                     <div className="border-l-4 border-gray-400 pl-4">
@@ -462,9 +462,9 @@ export default function RoofInspectionsBigSpringPage() {
                       <strong className="text-yellow-700">Storm Duration:</strong>
                       <p className="text-yellow-600 text-sm">Most hailstorms last 10-30 minutes but can cause severe damage</p>
                     </div>
-                    <div className="bg-purple-50 p-3 rounded">
-                      <strong className="text-purple-700">Wind Speeds:</strong>
-                      <p className="text-purple-600 text-sm">Straight-line winds of 60-80 mph common during storms</p>
+                    <div className="bg-amber-50 p-3 rounded">
+                      <strong className="text-brand-brown">Wind Speeds:</strong>
+                      <p className="text-brand-gold-vibrant text-sm">Straight-line winds of 60-80 mph common during storms</p>
                     </div>
                   </div>
                 </div>

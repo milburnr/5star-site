@@ -156,7 +156,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Options for Amarillo Homes?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -284,8 +284,8 @@ export default function AsphaltShingleRoofingAmarilloPage() {
                     </ul>
                   </div>
 
-                  <div className="bg-blue-50 p-4 rounded-xl">
-                    <p className="text-sm text-blue-700"><strong>Pro Tip:</strong> We install enhanced ice and water shield along roof edges and valleys to combat Amarillo's temperature extremes and potential ice dam formation.</p>
+                  <div className="bg-amber-50 p-4 rounded-xl">
+                    <p className="text-sm text-brand-brown"><strong>Pro Tip:</strong> We install enhanced ice and water shield along roof edges and valleys to combat Amarillo's temperature extremes and potential ice dam formation.</p>
                   </div>
                 </div>
               </div>
@@ -396,9 +396,9 @@ export default function AsphaltShingleRoofingAmarilloPage() {
                     <p className="text-green-700 text-sm">Manufacturer defects, premature granule loss, and thermal shock damage specific to Texas Panhandle conditions.</p>
                   </div>
                   
-                  <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                    <h4 className="text-lg font-bold text-blue-800 mb-2">10-Year Workmanship Guarantee</h4>
-                    <p className="text-blue-700 text-sm">Installation quality, wind uplift resistance, and fastening integrity. Covers re-installation if wind damage occurs due to installation defects.</p>
+                  <div className="bg-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                    <h4 className="text-lg font-bold text-brand-brown mb-2">10-Year Workmanship Guarantee</h4>
+                    <p className="text-brand-brown text-sm">Installation quality, wind uplift resistance, and fastening integrity. Covers re-installation if wind damage occurs due to installation defects.</p>
                   </div>
                   
                   <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
@@ -438,7 +438,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

@@ -548,13 +548,13 @@ export default function TPORoofingLevellandPage() {
                   </ul>
                 </div>
               </div>
-              <div className="bg-blue-50 p-8 rounded-2xl border border-blue-200">
-                <h3 className="text-2xl font-bold text-blue-700 mb-4">Insurance Claim Assistance</h3>
+              <div className="bg-amber-50 p-8 rounded-2xl border border-brand-gold/30">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Insurance Claim Assistance</h3>
                 <p className="text-gray-700 mb-4">
                   Navigating insurance claims can be complex. Our team works directly with insurance adjusters to ensure fair settlements and proper documentation. We've successfully handled hundreds of storm damage claims throughout Hockley County.
                 </p>
                 <div className="bg-white p-4 rounded-lg">
-                  <h4 className="font-bold text-blue-700 mb-2">Claim Services Include:</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Claim Services Include:</h4>
                   <ul className="text-sm space-y-1 text-gray-700">
                     <li>• Detailed damage documentation with photos</li>
                     <li>• Insurance adjuster meeting coordination</li>

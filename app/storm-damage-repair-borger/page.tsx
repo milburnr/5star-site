@@ -249,7 +249,7 @@ export default function StormDamageRepairBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               What Are Borger's Unique Storm Challenges?
             </h2>
@@ -325,8 +325,8 @@ export default function StormDamageRepairBorgerPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-gold">Annual Weather Cycle</h3>
                 <div className="space-y-4">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h4 className="font-semibold text-blue-700">Spring Storm Season (March-May)</h4>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-semibold text-brand-brown">Spring Storm Season (March-May)</h4>
                     <p className="text-gray-600 text-sm">Peak supercell activity with tennis ball-sized hail, 80+ mph winds, and tornado potential. Borger's industrial heat island can intensify afternoon storm development.</p>
                   </div>
                   <div className="border-l-4 border-yellow-400 pl-4">
@@ -369,7 +369,7 @@ export default function StormDamageRepairBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

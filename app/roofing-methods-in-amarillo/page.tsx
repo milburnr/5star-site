@@ -106,7 +106,7 @@ export default function Page() {
           hailstorms with stones reaching baseball size, and temperature swings of 60°F within 24 hours.
         </p>
 
-        <div className="bg-blue-50 p-6 rounded-lg mb-6">
+        <div className="bg-amber-50 p-6 rounded-lg mb-6">
           <h4 className="font-bold mb-3">Local Climate Data That Drives Our Methods:</h4>
           <div className="grid md:grid-cols-2 gap-4">
             <ul className="space-y-2">
@@ -317,7 +317,7 @@ export default function Page() {
       <h3 className="text-xl font-bold mt-6 mb-4">Enhanced Weather Resistance Protocols</h3>
       
       <div className="space-y-6 mb-8">
-        <div className="bg-blue-50 p-6 rounded-lg">
+        <div className="bg-amber-50 p-6 rounded-lg">
           <h4 className="font-bold mb-3"><Wind className="w-6 h-6 inline-block" /> Wind Resistance Engineering</h4>
           <p className="mb-3">
             Standard wind resistance calculations assume steady wind loads, but Amarillo experiences
@@ -418,7 +418,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Local Code Compliance & Enhancement</h2>
 
-      <div className="bg-blue-50 p-6 rounded-lg mb-6">
+      <div className="bg-amber-50 p-6 rounded-lg mb-6">
         <h3 className="text-xl font-bold mb-4">Amarillo Building Code Requirements</h3>
         <p className="mb-4">
           The City of Amarillo follows the 2018 International Building Code (IBC) with local amendments
@@ -517,7 +517,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+      <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
         <h3 className="font-bold text-lg mb-3"><ClipboardList className="w-6 h-6 inline-block" /> Questions to Ask Your Roofing Contractor</h3>
         <p className="mb-3">
           Protect yourself by asking these specific questions about installation methods:
@@ -647,7 +647,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Warranty Protection for Advanced Installation Methods</h2>
 
-      <div className="bg-blue-50 p-6 rounded-lg mb-6">
+      <div className="bg-amber-50 p-6 rounded-lg mb-6">
         <h3 className="text-xl font-bold mb-4">Comprehensive Warranty Coverage</h3>
         <p className="mb-4">
           Our enhanced installation methods are backed by industry-leading warranty protection that

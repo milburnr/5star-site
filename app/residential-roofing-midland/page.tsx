@@ -361,7 +361,7 @@ export default function ResidentialRoofingMidlandPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Should You Know About Midland Building Requirements?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-600">
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 All residential roofing projects in Midland require building permits and licensed contractor installation. We ensure your premium property meets all city standards and maintains insurance coverage validity.
               </p>
@@ -415,8 +415,8 @@ export default function ResidentialRoofingMidlandPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">Oil Field Wind Patterns</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Oil Field Wind Patterns</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>Intense sustained winds</strong> across open petroleum drilling areas create constant stress on roofing systems. Combined with industrial activity and dust, creates accelerated wear patterns unique to oil country environments.
                 </p>
@@ -439,7 +439,7 @@ export default function ResidentialRoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

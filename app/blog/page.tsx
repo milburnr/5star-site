@@ -68,7 +68,7 @@ export default function BlogIndexPage() {
 
               {/* How to File Hail Damage Insurance Claim */}
               <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
+                <div className="h-48 bg-gradient-to-br from-brand-gold-vibrant to-brand-gold flex items-center justify-center">
                   <div className="text-8xl"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 </div>
                 <div className="p-6">
@@ -110,7 +110,7 @@ export default function BlogIndexPage() {
 
               {/* Best Roofing Materials */}
               <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="h-48 bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center">
+                <div className="h-48 bg-gradient-to-br from-brand-gold-vibrant to-brand-brown flex items-center justify-center">
                   <div className="text-8xl"><Home className="w-6 h-6 inline-block" /></div>
                 </div>
                 <div className="p-6">

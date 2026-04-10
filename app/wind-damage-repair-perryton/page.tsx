@@ -181,7 +181,7 @@ export default function WindDamageRepairPerrytonPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -245,7 +245,7 @@ export default function WindDamageRepairPerrytonPage() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Perryton Wind Patterns</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li><strong>Spring (March&ndash;May):</strong> Strongest winds averaging 16+ mph sustained, frequent 50&ndash;70 mph gusts during cold front passages</li>
@@ -305,7 +305,7 @@ export default function WindDamageRepairPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

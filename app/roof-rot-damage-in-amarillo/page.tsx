@@ -169,7 +169,7 @@ export default function Page() {
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Circle className="w-6 h-6 inline-block text-blue-600" /> Soft Rot</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Circle className="w-6 h-6 inline-block text-brand-gold-vibrant" /> Soft Rot</h3>
             <p className="text-sm mb-3">Surface-level damage common in high-moisture environments. Often precedes deeper rot development.</p>
             <ul className="text-sm space-y-1">
               <li>• Causes: Fluctuating moisture levels</li>
@@ -214,8 +214,8 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="bg-blue-50 rounded-lg p-6 mb-6">
-          <h3 className="text-lg font-bold mb-3 text-blue-800"><FlaskConical className="w-6 h-6 inline-block" /> Core Sampling Analysis</h3>
+        <div className="bg-amber-50 rounded-lg p-6 mb-6">
+          <h3 className="text-lg font-bold mb-3 text-brand-brown"><FlaskConical className="w-6 h-6 inline-block" /> Core Sampling Analysis</h3>
           <p className="text-sm mb-3">For suspected structural damage, we perform minimal core sampling to assess internal wood condition:</p>
           <div className="grid md:grid-cols-2 gap-4">
             <ul className="space-y-1 text-sm">
@@ -563,8 +563,8 @@ export default function Page() {
                 </ul>
               </div>
             </div>
-            <div className="bg-blue-100 rounded-lg p-4 mt-4">
-              <h4 className="font-bold text-blue-800 mb-2">Engineering Solution:</h4>
+            <div className="bg-amber-100 rounded-lg p-4 mt-4">
+              <h4 className="font-bold text-brand-brown mb-2">Engineering Solution:</h4>
               <p className="text-sm">Selective deck replacement with drainage improvements. TPO membrane with enhanced insulation. Total cost: $85,000 (partial insurance coverage).</p>
             </div>
           </div>
@@ -593,8 +593,8 @@ export default function Page() {
                 </ul>
               </div>
             </div>
-            <div className="bg-purple-100 rounded-lg p-4 mt-4">
-              <h4 className="font-bold text-purple-800 mb-2">Comprehensive Restoration:</h4>
+            <div className="bg-amber-100 rounded-lg p-4 mt-4">
+              <h4 className="font-bold text-brand-brown mb-2">Comprehensive Restoration:</h4>
               <p className="text-sm">Emergency water extraction, structural drying, selective framing replacement. Insurance covered $31,200. Added ice dam prevention systems.</p>
             </div>
           </div>

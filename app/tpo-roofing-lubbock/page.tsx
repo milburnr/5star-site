@@ -141,7 +141,7 @@ export default function TPORoofingLubbockPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Tornado className="w-6 h-6 inline-block" /> West Texas Weather Ready</h3>
                 <p className="text-gray-700 leading-relaxed">Lubbock's location on the Llano Estacado exposes buildings to constant high winds, dust storms, severe hail, and dramatic temperature swings. Our TPO systems are engineered specifically for South Plains conditions, featuring enhanced wind uplift resistance and superior membrane durability to withstand the region's challenging climate.</p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> University & Technology Hub</h3>
                 <p className="text-gray-700 leading-relaxed">From Texas Tech University facilities to the growing technology corridor, Lubbock's evolving commercial landscape demands modern roofing solutions. Our TPO installations serve everything from research facilities and student housing to high-tech manufacturing and energy infrastructure projects.</p>
               </div>
@@ -188,7 +188,7 @@ export default function TPORoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Lubbock Commercial Sectors Do We Serve?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -243,7 +243,7 @@ export default function TPORoofingLubbockPage() {
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Comprehensive TPO Installation Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Detailed Site Assessment</h3>
                 <p className="text-gray-700">Comprehensive evaluation including moisture scanning, structural analysis, wind load calculations, and assessment of Lubbock-specific challenges like dust accumulation and wind exposure.</p>
@@ -253,7 +253,7 @@ export default function TPORoofingLubbockPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Custom System Design</h3>
                 <p className="text-gray-700">Engineered roofing solution tailored to your specific building requirements, local wind loads, and Lubbock building codes. Includes drainage design and energy efficiency optimization.</p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">3</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Permit Coordination</h3>
                 <p className="text-gray-700">Complete handling of City of Lubbock permits, code compliance verification, and coordination with building officials for seamless project approval and inspection scheduling.</p>
@@ -268,7 +268,7 @@ export default function TPORoofingLubbockPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Expert Installation</h3>
                 <p className="text-gray-700">Professional installation by certified technicians using advanced heat-welding equipment and proven attachment methods designed for Lubbock's demanding weather conditions.</p>
               </div>
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">6</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Final Quality Assurance</h3>
                 <p className="text-gray-700">Thorough inspection, testing, and documentation delivery including manufacturer warranties, maintenance guidelines, and our comprehensive workmanship guarantee.</p>
@@ -284,7 +284,7 @@ export default function TPORoofingLubbockPage() {
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4"><Tornado className="w-6 h-6 inline-block" /> Constant Wind Exposure</h3>
                 <p className="text-gray-700 mb-4">Lubbock's location on the high plains creates constant wind exposure averaging 12+ mph with frequent gusts over 40 mph. This continuous stress can fatigue roofing materials over time.</p>
-                <div className="bg-blue-50 p-6 rounded-lg">
+                <div className="bg-amber-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Enhanced mechanical attachment systems</li>
@@ -310,7 +310,7 @@ export default function TPORoofingLubbockPage() {
               <div className="bg-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-gold mb-4"><Thermometer className="w-6 h-6 inline-block" /> Extreme Temperature Swings</h3>
                 <p className="text-gray-700 mb-4">Lubbock can experience temperature variations of 50+ degrees in a single day, creating thermal stress that can crack or fatigue roofing materials.</p>
-                <div className="bg-purple-50 p-6 rounded-lg">
+                <div className="bg-amber-50 p-6 rounded-lg">
                   <h4 className="font-bold text-brand-brown mb-2">TPO Solution:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Flexible membrane accommodates thermal movement</li>
@@ -338,7 +338,7 @@ export default function TPORoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

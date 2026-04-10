@@ -234,8 +234,8 @@ export default function HailDamageRepairHerefordPage() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-700 mb-4"><TrendingUp className="w-6 h-6 inline-block" /> Hail Impact Statistics</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                <h3 className="text-xl font-bold text-brand-brown mb-4"><TrendingUp className="w-6 h-6 inline-block" /> Hail Impact Statistics</h3>
                 <p className="text-gray-700 mb-4">NOAA data for Deaf Smith County (2015-2024):</p>
                 <ul className="text-gray-600 space-y-2">
                   <li><strong>Annual Hail Events:</strong> 10-14 (among highest in Texas)</li>
@@ -280,14 +280,14 @@ export default function HailDamageRepairHerefordPage() {
               The city's economy, built on wheat, cotton, sorghum, grain production, and massive cattle feeding operations, requires specialized roofing expertise. From family homes to commercial feedlot facilities, Hereford's buildings face unique challenges that demand experienced professionals who understand both severe weather patterns and agricultural industry needs.
             </p>
 
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-purple-200 shadow-lg">
-              <h3 className="text-2xl font-bold text-purple-700 mb-4"><Zap className="w-6 h-6 inline-block" /> Climate Change Impact on Hereford</h3>
+            <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-xl border border-brand-gold/30 shadow-lg">
+              <h3 className="text-2xl font-bold text-brand-brown mb-4"><Zap className="w-6 h-6 inline-block" /> Climate Change Impact on Hereford</h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Recent climate studies show that Hereford and the surrounding High Plains are experiencing intensifying storm patterns:
               </p>
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-white p-4 rounded-lg shadow">
-                  <h4 className="font-bold text-purple-600 mb-2">Increased Intensity</h4>
+                  <h4 className="font-bold text-brand-gold-vibrant mb-2">Increased Intensity</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
                     <li>• 20% larger average hail size since 2010</li>
                     <li>• More frequent supercell development</li>
@@ -296,7 +296,7 @@ export default function HailDamageRepairHerefordPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow">
-                  <h4 className="font-bold text-purple-600 mb-2">Extended Season</h4>
+                  <h4 className="font-bold text-brand-gold-vibrant mb-2">Extended Season</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
                     <li>• Hail season starting earlier (February)</li>
                     <li>• Activity extending later (July-August)</li>
@@ -305,7 +305,7 @@ export default function HailDamageRepairHerefordPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow">
-                  <h4 className="font-bold text-purple-600 mb-2">Agricultural Impact</h4>
+                  <h4 className="font-bold text-brand-gold-vibrant mb-2">Agricultural Impact</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
                     <li>• Higher insurance claims</li>
                     <li>• Increased building damage</li>
@@ -323,7 +323,7 @@ export default function HailDamageRepairHerefordPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Hereford's Severe Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
@@ -337,12 +337,12 @@ export default function HailDamageRepairHerefordPage() {
                 <p className="text-sm text-gray-500 mt-2">Extreme seasonal variation</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">High Plains</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">High Plains</div>
                 <div className="font-semibold text-gray-700">Location</div>
                 <p className="text-sm text-gray-500 mt-2">Open to supercells</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">1898</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">1898</div>
                 <div className="font-semibold text-gray-700">Founded</div>
                 <p className="text-sm text-gray-500 mt-2">Cattle heritage</p>
               </div>
@@ -444,7 +444,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div key={area} className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium">{area}</div>
               ))}
             </div>
-            <div className="bg-blue-50 p-6 rounded-xl">
+            <div className="bg-amber-50 p-6 rounded-xl">
               <h3 className="text-xl font-bold text-brand-brown mb-3">Specialized Agricultural Services</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <ul className="space-y-2 text-gray-700">
@@ -465,7 +465,7 @@ export default function HailDamageRepairHerefordPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Hereford Hail Damage FAQs Look Like?</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

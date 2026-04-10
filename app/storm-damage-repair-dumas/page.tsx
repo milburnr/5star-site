@@ -249,7 +249,7 @@ export default function StormDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               What Dumas's Agricultural Storm Challenges?
             </h2>
@@ -331,8 +331,8 @@ export default function StormDamageRepairDumasPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-gold">Extreme Weather Calendar</h3>
                 <div className="space-y-4">
-                  <div className="border-l-4 border-purple-400 pl-4">
-                    <h4 className="font-semibold text-purple-700">March-May: Prime Supercell Season</h4>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-semibold text-brand-brown">March-May: Prime Supercell Season</h4>
                     <p className="text-gray-600 text-sm">Peak tornado and large hail season with 70% of annual severe weather. Supercells track northeast from New Mexico with devastating intensity.</p>
                   </div>
                   <div className="border-l-4 border-red-400 pl-4">
@@ -343,8 +343,8 @@ export default function StormDamageRepairDumasPage() {
                     <h4 className="font-semibold text-orange-700">September-November: Secondary Severe Season</h4>
                     <p className="text-gray-600 text-sm">Powerful cold fronts create violent wind shear and large temperature swings that damage heat-stressed materials.</p>
                   </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h4 className="font-semibold text-blue-700">December-February: Ice & Blizzard Season</h4>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-semibold text-brand-brown">December-February: Ice & Blizzard Season</h4>
                     <p className="text-gray-600 text-sm">Severe ice storms and blizzards with 50+ mph winds test repairs made during previous storm seasons.</p>
                   </div>
                 </div>
@@ -375,7 +375,7 @@ export default function StormDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

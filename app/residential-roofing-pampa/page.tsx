@@ -136,7 +136,7 @@ export default function ResidentialRoofingPampaPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Pampa and Gray County, serving the "Top of Texas" with pride. Located at the crossroads of energy, agriculture, and commerce, Pampa presents unique roofing challenges from its elevated position on the High Plains and proximity to severe weather corridors.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Pampa's 17,300 residents with expert installations designed for Panhandle extremes. Our team understands the diverse housing needs of this historic railroad town, from established neighborhoods near downtown to modern developments supporting the area's oil and gas operations.</p>
             
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Pampa Housing Market Characteristics</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Pampa's housing market reflects its history as a major Panhandle hub and its ongoing role in energy production. The median home value is approximately $115,000, with a housing stock that spans from historic downtown properties to modern suburban developments. The city's strategic location has attracted steady population growth despite economic fluctuations.</p>
               
@@ -281,7 +281,7 @@ export default function ResidentialRoofingPampaPage() {
                   <li>• Lefors, McLean, and surrounding areas</li>
                 </ul>
                 
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">Priority storm response for severe weather events. prompt services available during severe weather season.</p>
                 </div>
               </div>
@@ -290,7 +290,7 @@ export default function ResidentialRoofingPampaPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions About Pampa Roofing</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -361,7 +361,7 @@ export default function ResidentialRoofingPampaPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Preventive Maintenance</h3>
                 <p className="text-gray-700 mb-6">Regular maintenance is crucial in Pampa's harsh weather environment. Our programs help identify vulnerabilities before they become costly failures during severe weather events.</p>
                 
-                <div className="bg-blue-50 p-6 rounded-xl">
+                <div className="bg-amber-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2"><Shield className="w-6 h-6 inline-block" /> Maintenance Program Benefits:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Bi-annual professional inspections</li>
@@ -374,7 +374,7 @@ export default function ResidentialRoofingPampaPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Pampa's Weather Patterns</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div>

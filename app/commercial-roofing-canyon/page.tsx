@@ -136,7 +136,7 @@ export default function CommercialRoofingCanyonPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Canyon and surrounding areas, serving the gateway to Palo Duro Canyon and home to West Texas A&M University. As a dynamic university town and tourism destination, Canyon requires specialized roofing solutions for educational facilities, hospitality venues, student housing, and the diverse businesses that support both academic life and the growing tourism industry.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Canyon's unique blend of educational, tourism, and agricultural sectors with expert installations and comprehensive warranties. Our 45-minute response time from Amarillo headquarters provides rapid service for storm repairs to campus facilities and tourist accommodations. We handle all permits, insurance claims, and warranty documentation for educational institutions and commercial properties.</p>
             
-            <div className="mt-12 bg-gradient-to-r from-purple-50 to-red-50 p-8 rounded-2xl border-l-4 border-brand-gold">
+            <div className="mt-12 bg-gradient-to-r from-amber-50 to-red-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Canyon's Educational and Tourism Economy</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Canyon thrives as both a university town anchored by West Texas A&M University and as the gateway to Palo Duro Canyon State Park, America's second-largest canyon. This unique combination creates diverse commercial roofing needs ranging from academic facilities and student housing to hotels, restaurants, and tourism-related businesses that must operate efficiently year-round while maintaining aesthetic appeal.</p>
               <p className="text-gray-700 leading-relaxed">Our roofing systems balance durability with architectural aesthetics, supporting Canyon's role as an educational center while enhancing the community's appeal to tourists and prospective students visiting this historic Texas Panhandle destination.</p>
@@ -148,7 +148,7 @@ export default function CommercialRoofingCanyonPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Specialized Roofing Solutions for Canyon's Key Industries Include?</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-purple-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><GraduationCap className="w-6 h-6 inline-block" /> Educational Facilities</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">West Texas A&M University and Canyon's K-12 educational facilities require roofing systems that support diverse academic functions while managing large building complexes efficiently:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -191,7 +191,7 @@ export default function CommercialRoofingCanyonPage() {
                 <p className="text-gray-700 mt-4 leading-relaxed">Downtown commercial roofing often involves working with historic structures, requiring specialized techniques that preserve architectural character while upgrading performance and energy efficiency.</p>
               </div>
               
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Wheat className="w-6 h-6 inline-block" /> Agricultural Support Services</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Canyon's location in prime agricultural territory supports numerous agribusiness operations serving local ranchers and farmers throughout the Texas Panhandle region:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -208,7 +208,7 @@ export default function CommercialRoofingCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-purple-50 p-10 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Do Canyon Chooses 5 Star Roofing?</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -295,8 +295,8 @@ export default function CommercialRoofingCanyonPage() {
                       <li>• Acoustic properties for indoor sports</li>
                       <li>• 50+ year lifespan matching facility expectations</li>
                     </ul>
-                    <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                      <p className="text-sm text-blue-800"><strong>Athletic Success:</strong> Installed standing seam metal roofing on Canyon High School's new field house, providing superior protection for a $3M investment in athletic facilities.</p>
+                    <div className="mt-4 p-4 bg-amber-50 rounded-lg">
+                      <p className="text-sm text-brand-brown"><strong>Athletic Success:</strong> Installed standing seam metal roofing on Canyon High School's new field house, providing superior protection for a $3M investment in athletic facilities.</p>
                     </div>
                   </div>
                 </div>
@@ -384,7 +384,7 @@ export default function CommercialRoofingCanyonPage() {
                     <h5 className="font-bold text-gray-800">Fall Tourism (September-November)</h5>
                     <p className="text-sm text-gray-600">Cooler weather and outdoor drama season create second tourism peak requiring priority service.</p>
                   </div>
-                  <div className="p-3 bg-blue-50 rounded-lg">
+                  <div className="p-3 bg-amber-50 rounded-lg">
                     <h5 className="font-bold text-gray-800">Academic Year Operations</h5>
                     <p className="text-sm text-gray-600">Continuous university operations require minimal-disruption repair scheduling.</p>
                   </div>
@@ -458,8 +458,8 @@ export default function CommercialRoofingCanyonPage() {
                   <li>• Extended terms for family-owned businesses</li>
                 </ul>
                 
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-800"><strong>Tourism Project:</strong> Helped a Canyon hotel complete roof replacement during winter off-season with payment terms aligned to spring tourism revenue, saving $8,000 in peak-season labor costs.</p>
+                <div className="p-4 bg-amber-50 rounded-lg">
+                  <p className="text-sm text-brand-brown"><strong>Tourism Project:</strong> Helped a Canyon hotel complete roof replacement during winter off-season with payment terms aligned to spring tourism revenue, saving $8,000 in peak-season labor costs.</p>
                 </div>
               </div>
             </div>
@@ -467,7 +467,7 @@ export default function CommercialRoofingCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

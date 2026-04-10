@@ -155,7 +155,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">Asphalt Shingle Solutions for South Plains Weather?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -273,10 +273,10 @@ export default function AsphaltShingleRoofingLubbockPage() {
                     </ul>
                   </div>
                   
-                  <div className="bg-blue-50 p-6 rounded-xl">
-                    <h4 className="text-lg font-bold mb-3 text-blue-800">Cotton Harvest Considerations</h4>
-                    <p className="text-blue-700 mb-3">During cotton harvest (September-November), airborne particles increase dramatically. Proper ventilation prevents:</p>
-                    <ul className="space-y-1 text-blue-700 text-sm">
+                  <div className="bg-amber-50 p-6 rounded-xl">
+                    <h4 className="text-lg font-bold mb-3 text-brand-brown">Cotton Harvest Considerations</h4>
+                    <p className="text-brand-brown mb-3">During cotton harvest (September-November), airborne particles increase dramatically. Proper ventilation prevents:</p>
+                    <ul className="space-y-1 text-brand-brown text-sm">
                       <li>• Dust accumulation in attic spaces</li>
                       <li>• Moisture retention from temperature variations</li>
                       <li>• Premature aging of underlayment materials</li>
@@ -401,9 +401,9 @@ export default function AsphaltShingleRoofingLubbockPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Lubbock-Specific Maintenance Schedule</h3>
                 <div className="space-y-4">
-                  <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                    <h4 className="text-lg font-bold text-blue-800 mb-2">Seasonal Inspections</h4>
-                    <ul className="space-y-1 text-blue-700 text-sm">
+                  <div className="bg-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                    <h4 className="text-lg font-bold text-brand-brown mb-2">Seasonal Inspections</h4>
+                    <ul className="space-y-1 text-brand-brown text-sm">
                       <li><strong>Spring:</strong> Post-winter storm damage assessment</li>
                       <li><strong>Summer:</strong> Heat stress and UV damage evaluation</li>
                       <li><strong>Fall:</strong> Cotton harvest dust accumulation check</li>
@@ -451,7 +451,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

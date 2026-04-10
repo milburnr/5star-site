@@ -181,7 +181,7 @@ export default function WindDamageRepairDumasPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -250,13 +250,13 @@ export default function WindDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-sky-50 border-l-4 border-sky-600 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4 text-sky-800"><Wind className="w-6 h-6 inline-block" /> Dumas High Plains Wind Environment</h3>
+          <section className="mb-16 bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-lg">
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Dumas High Plains Wind Environment</h3>
             <p className="text-lg mb-6">Dumas sits on the High Plains at 3,700 feet elevation, creating one of the most wind-exposed environments in Texas. The combination of elevation, flat terrain, and weather patterns makes wind damage a year-round concern for property owners.</p>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white rounded-lg p-6">
-                <h4 className="text-lg font-bold mb-3 text-sky-700">Geographic Wind Factors</h4>
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Geographic Wind Factors</h4>
                 <ul className="space-y-2 text-sm">
                   <li>• <strong>Elevation:</strong> 3,700+ feet increases wind exposure</li>
                   <li>• <strong>Topography:</strong> Flat high plains allow unobstructed wind flow</li>
@@ -267,7 +267,7 @@ export default function WindDamageRepairDumasPage() {
                 </ul>
               </div>
               <div className="bg-white rounded-lg p-6">
-                <h4 className="text-lg font-bold mb-3 text-sky-700">Seasonal Wind Patterns</h4>
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">Seasonal Wind Patterns</h4>
                 <ul className="space-y-2 text-sm">
                   <li>• <strong>Spring (March-May):</strong> Severe weather season, 70-100+ mph gusts</li>
                   <li>• <strong>Summer (June-August):</strong> Daily thermal winds, isolated microbursts</li>
@@ -397,7 +397,7 @@ export default function WindDamageRepairDumasPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

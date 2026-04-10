@@ -181,7 +181,7 @@ export default function WindDamageRepairBorgerPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -250,7 +250,7 @@ export default function WindDamageRepairBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Industrial Wind Effects in Borger?
             </h2>
@@ -283,8 +283,8 @@ export default function WindDamageRepairBorgerPage() {
               How Does Wind Damage Patterns in Borger Properties Affect Your Roof?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-xl font-bold mb-3 text-blue-700">Residential Areas</h3>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Residential Areas</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
                   <li>• Shingle edge lifting and tearing</li>
                   <li>• Fascia board wind damage</li>
@@ -371,7 +371,7 @@ export default function WindDamageRepairBorgerPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

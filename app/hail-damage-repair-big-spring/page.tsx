@@ -185,7 +185,7 @@ export default function HailDamageRepairBigSpringPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">What Does Specialized Hail Damage Detection Look Like?</h2>
             <div className="grid lg:grid-cols-3 gap-8">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-400">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold">
                 <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Advanced Assessment Technology</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
@@ -208,7 +208,7 @@ export default function HailDamageRepairBigSpringPage() {
                   <li>• <strong>Communication Hub:</strong> Regular updates to property owners</li>
                 </ul>
               </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-purple-400">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold">
                 <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Big Spring Climate Solutions</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
@@ -225,7 +225,7 @@ export default function HailDamageRepairBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Post-Storm Recovery Process Work?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -262,21 +262,21 @@ export default function HailDamageRepairBigSpringPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Recovery Phase (1-30 Days)</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Comprehensive Damage Assessment</h4>
                       <p className="text-gray-600 text-sm">Detailed inspection using advanced technology and insurance industry standards</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Insurance Collaboration</h4>
                       <p className="text-gray-600 text-sm">Professional representation during adjuster meetings and claim negotiations</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Material Procurement</h4>
                       <p className="text-gray-600 text-sm">Sourcing matching materials and scheduling installation around weather windows</p>
@@ -320,7 +320,7 @@ export default function HailDamageRepairBigSpringPage() {
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-6 text-gray-800">Performance Specifications</h3>
-                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+                <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg">
                   <h4 className="text-lg font-semibold mb-4 text-gray-800">UL 2218 Class 4 Testing</h4>
                   <p className="text-gray-700 text-sm mb-4">All recommended materials pass rigorous impact testing involving 2-inch steel balls dropped from 20 feet, simulating the impact of golf ball to tennis ball-sized hail at terminal velocity.</p>
                   <div className="grid grid-cols-2 gap-4 text-center">
@@ -406,7 +406,7 @@ export default function HailDamageRepairBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

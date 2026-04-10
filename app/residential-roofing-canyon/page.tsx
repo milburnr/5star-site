@@ -195,7 +195,7 @@ export default function ResidentialRoofingCanyonPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">University Community-Focused Services?</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border border-blue-100">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Faculty & Staff Programs</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">West Texas A&M faculty and staff have unique needs including flexible scheduling for academic obligations, understanding of limited summer income periods, and coordination with university benefits programs. We provide specialized service packages for the academic community.</p>
                 <ul className="text-gray-600 space-y-2">
@@ -217,7 +217,7 @@ export default function ResidentialRoofingCanyonPage() {
                   <li>• Downtown commercial integration</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border border-purple-100">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Student & Young Family Housing</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">Canyon's growing population includes graduate students, young faculty, and families attracted by the university environment. These residents often need cost-effective roofing solutions with flexible financing that works with academic and early-career budgets.</p>
                 <ul className="text-gray-600 space-y-2">
@@ -335,7 +335,7 @@ export default function ResidentialRoofingCanyonPage() {
                 </div>
               </div>
               <div className="space-y-6">
-                <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-500">
+                <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold-vibrant">
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Wind-Enhanced Protection</h3>
                   <p className="text-gray-700 mb-3">Canyon's unique topography creates wind amplification effects that require enhanced attachment systems and impact-resistant materials specifically engineered for local conditions.</p>
                   <div className="grid grid-cols-2 gap-4 text-sm">
@@ -464,7 +464,7 @@ export default function ResidentialRoofingCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

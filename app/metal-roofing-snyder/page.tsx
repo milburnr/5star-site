@@ -349,7 +349,7 @@ export default function MetalRoofingSnyderPage() {
               What Does Expert Installation Process for Maximum Durability Involve?
             </h2>
             
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4 text-brand-gold">The 5 Star Installation Advantage</h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Our installation process is specifically designed for Snyder's extreme West Texas weather conditions. Every step follows manufacturer specifications and exceeds local building code requirements to ensure maximum wind resistance and longevity against severe hailstorms and high winds.
@@ -554,7 +554,7 @@ export default function MetalRoofingSnyderPage() {
 
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Snyder Metal Roofing Roofing FAQs
             </h2>

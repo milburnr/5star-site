@@ -275,7 +275,7 @@ export default function AsphaltShingleRoofingPampaPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-gray-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Industrial Community Needs</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Pampa's energy industry creates a unique residential environment where homes may be exposed to industrial elements while families demand quality, comfort, and protection. These homeowners often have higher income potential but also face unique environmental challenges.

@@ -233,7 +233,7 @@ export default function HailDamageRepairLubbockPage() {
 
         {/* Lubbock Weather Data Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
               What Are Lubbock Weather: Understanding Your Roof's Risks?
             </h2>
@@ -249,12 +249,12 @@ export default function HailDamageRepairLubbockPage() {
                 <p className="text-sm text-gray-500 mt-2">Intense UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">12+ mph</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">12+ mph</div>
                 <div className="font-semibold text-gray-700">Avg Wind Speed</div>
                 <p className="text-sm text-gray-500 mt-2">Constant wind stress</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Mar-Jun</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Mar-Jun</div>
                 <div className="font-semibold text-gray-700">Peak Hail Season</div>
                 <p className="text-sm text-gray-500 mt-2">Highest storm frequency</p>
               </div>
@@ -367,7 +367,7 @@ export default function HailDamageRepairLubbockPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Lubbock Hail Damage Repair: Frequently Asked Questions
             </h2>

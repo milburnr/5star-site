@@ -273,7 +273,7 @@ export default function TpoRoofingPampaPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-gray-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Industrial Roofing Demands</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Pampa's oil and gas industry creates demanding conditions for commercial roofing. Chemical exposure, extreme temperatures, high winds, and industrial operations require specialized roofing solutions that can withstand harsh environments while maintaining energy efficiency.
@@ -303,7 +303,7 @@ export default function TpoRoofingPampaPage() {
                       <li>• Retail facilities</li>
                     </ul>
                   </div>
-                  <div className="p-4 bg-blue-50 rounded-xl">
+                  <div className="p-4 bg-amber-50 rounded-xl">
                     <h4 className="font-bold mb-2">Enhanced TPO</h4>
                     <p className="text-gray-700 text-sm mb-2">Superior chemical resistance for moderate industrial exposure.</p>
                     <ul className="text-xs text-gray-600 space-y-1">

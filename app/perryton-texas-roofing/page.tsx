@@ -210,7 +210,7 @@ export default function PerrytonRoofingPage() {
         </section>
 
         <FadeIn>
-          <section className="bg-blue-50 rounded-lg p-8 mb-12">
+          <section className="bg-amber-50 rounded-lg p-8 mb-12">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Understanding Perryton's Agricultural Environment</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -349,7 +349,7 @@ export default function PerrytonRoofingPage() {
         <FadeIn>
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Insurance Claims Support for Perryton Residents</h2>
-            <div className="bg-blue-50 rounded-lg p-8">
+            <div className="bg-amber-50 rounded-lg p-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-6">Navigating Weather Damage Claims</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -416,9 +416,9 @@ export default function PerrytonRoofingPage() {
                   The best defense against storm damage is preparation. We help Perryton property owners prepare for severe weather season.
                 </p>
                 <div className="space-y-4">
-                  <div className="bg-blue-50 p-4 rounded">
-                    <h4 className="font-semibold text-blue-800 mb-2">Spring Storm Season (March-June)</h4>
-                    <p className="text-blue-700 text-sm">Pre-season inspections identify vulnerabilities before peak storm activity</p>
+                  <div className="bg-amber-50 p-4 rounded">
+                    <h4 className="font-semibold text-brand-brown mb-2">Spring Storm Season (March-June)</h4>
+                    <p className="text-brand-brown text-sm">Pre-season inspections identify vulnerabilities before peak storm activity</p>
                   </div>
                   <div className="bg-yellow-50 p-4 rounded">
                     <h4 className="font-semibold text-yellow-800 mb-2">Hail Season Preparation</h4>
@@ -518,7 +518,7 @@ export default function PerrytonRoofingPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Perryton Roofing FAQs
             </h2>

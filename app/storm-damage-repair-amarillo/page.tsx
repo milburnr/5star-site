@@ -240,7 +240,7 @@ export default function StormDamageRepairAmarilloPage() {
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
               Amarillo Storm Patterns & Peak Seasons?
             </h2>
-            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg mb-12">
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg mb-12">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-2xl font-bold text-brand-brown mb-4">Peak Storm Season</h3>
@@ -311,8 +311,8 @@ export default function StormDamageRepairAmarilloPage() {
               What Does Types of Storm Damage We Repair Look Like?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Hail Damage</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Hail Damage</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Amarillo's 8-12 annual hailstorms produce golf ball to baseball-sized hail. Impacts crack shingles, knock off protective granules, dent flashing and vents, and compromise waterproofing. Even small hail accelerates aging and creates leak vulnerability.
                 </p>
@@ -341,8 +341,8 @@ export default function StormDamageRepairAmarilloPage() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Flying Debris Impact</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Flying Debris Impact</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Severe storms launch tree branches, lawn furniture, and debris at high velocity. Impact damage punctures shingles, cracks decking, and creates immediate leak points. Even small punctures allow water infiltration that causes extensive interior damage if not addressed immediately.
                 </p>
@@ -467,7 +467,7 @@ export default function StormDamageRepairAmarilloPage() {
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Storm Response</h3>
                 <p className="text-sm text-gray-700">dispatch, 2-4 hour arrival, immediate tarping and temporary repairs to prevent interior damage.</p>
               </div>
-              <div className="bg-blue-50 p-6 rounded-xl border-t-4 border-blue-500 text-center">
+              <div className="bg-amber-50 p-6 rounded-xl border-t-4 border-brand-gold-vibrant text-center">
                 <div className="text-3xl mb-3"><ClipboardList className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Damage Assessment</h3>
                 <p className="text-sm text-gray-700">Comprehensive inspection using Haag Engineering protocols, drone technology, and thermal imaging for hidden damage.</p>
@@ -497,7 +497,7 @@ export default function StormDamageRepairAmarilloPage() {
                 <p className="text-gray-700 mb-2">Four tornadoes impacted two counties with extensive structural damage to hospitals, commercial buildings, and hundreds of homes across the region.</p>
                 <p className="text-sm text-gray-600 italic">Response: 147 damage inspections completed within 48 hours</p>
               </div>
-              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-blue-500">
+              <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-xl font-bold text-brand-brown mb-2">May 2023 Supercell Complex</h3>
                 <p className="text-gray-700 mb-2">Baseball-sized hail and 80+ mph winds caused widespread damage from Canyon to downtown Amarillo. Some areas received 4+ inches of rain in two hours.</p>
                 <p className="text-sm text-gray-600 italic">Response: 89 roofs replaced, $2.3M in insurance settlements processed</p>

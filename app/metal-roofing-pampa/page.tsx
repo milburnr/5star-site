@@ -274,7 +274,7 @@ export default function MetalRoofingPampaPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-gray-50 to-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Pampa's Oil & Gas Industry Requirements</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Pampa's oil and gas operations demand roofing systems that meet strict safety codes, resist chemical exposure, provide fire protection, and withstand extreme industrial conditions while protecting valuable equipment and personnel.

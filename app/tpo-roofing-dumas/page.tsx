@@ -395,7 +395,7 @@ export default function TpoRoofingDumasPage() {
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-blue-50 p-6 rounded-xl">
+              <div className="bg-amber-50 p-6 rounded-xl">
                 <h4 className="text-xl font-bold mb-3">Equipment Protection</h4>
                 <p className="text-gray-700 mb-3">
                   Cooler building temperatures extend equipment life and reduce maintenance costs for sensitive agricultural machinery and storage systems.

@@ -288,17 +288,17 @@ export default function StormDamageRepairAndrewsPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-blue-800">Wind Damage Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Wind Damage Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">March 21, 2022 - Derecho Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">March 21, 2022 - Derecho Event</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A rare derecho (widespread windstorm) brought sustained winds of 80+ mph to Andrews, with gusts reaching 95 mph. This straight-line wind event lasted over 30 minutes, causing extensive damage to roofing systems, HVAC units, and building facades. Unlike tornado damage, the derecho affected the entire city uniformly, overwhelming local roofing contractors for months.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">May 15, 2019 - Tornado Touchdown</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">May 15, 2019 - Tornado Touchdown</h5>
                     <p className="text-gray-700 leading-relaxed">
                       An EF-2 tornado touched down 3 miles southwest of Andrews, with peak winds of 125 mph. While the tornado itself missed the city center, the associated supercell brought 90+ mph straight-line winds to Andrews, causing significant roof damage to industrial facilities and commercial buildings near the Andrews County Airport area.
                     </p>

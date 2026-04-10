@@ -137,7 +137,7 @@ export default function TPORoofingAmarilloPage() {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Amarillo's diverse commercial landscape with expert TPO installations, comprehensive warranties, and outstanding customer service. Our local team understands Amarillo's building codes, permitting requirements, and insurance protocols. We handle all permits, insurance claims, and warranty documentation while providing the highest quality commercial roofing solutions.</p>
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4"><Tornado className="w-6 h-6 inline-block" /> Built for Texas Weather</h3>
                 <p className="text-gray-700 leading-relaxed">Amarillo faces some of Texas's most extreme weather conditions. Our TPO roofing systems are specifically designed to withstand Panhandle hailstorms, tornado-force winds, and the dramatic temperature swings that can stress roofing materials. Every installation includes enhanced wind resistance features and impact-resistant membranes.</p>
               </div>
@@ -237,7 +237,7 @@ export default function TPORoofingAmarilloPage() {
           <section className="mb-16">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Complete TPO Installation Process Work?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">1</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Comprehensive Inspection</h3>
                 <p className="text-gray-700">Thorough assessment of your existing roof structure, including moisture detection, structural evaluation, and measurement for accurate material calculations.</p>
@@ -247,7 +247,7 @@ export default function TPORoofingAmarilloPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Design & Engineering</h3>
                 <p className="text-gray-700">Custom roofing system design including wind uplift calculations, drainage planning, and specification of appropriate TPO membrane thickness and attachment methods.</p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">3</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Permits & Approvals</h3>
                 <p className="text-gray-700">We handle all City of Amarillo permitting requirements, ensuring compliance with local building codes and coordinating inspections throughout the project.</p>
@@ -262,7 +262,7 @@ export default function TPORoofingAmarilloPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Professional Installation</h3>
                 <p className="text-gray-700">Expert installation by certified technicians using proper heat-welding techniques, mechanical attachment systems, and quality control procedures throughout the process.</p>
               </div>
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">6</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Final Inspection & Warranty</h3>
                 <p className="text-gray-700">Comprehensive final inspection, cleanup, and delivery of all warranty documentation including manufacturer warranties and our workmanship guarantee.</p>
@@ -272,7 +272,7 @@ export default function TPORoofingAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

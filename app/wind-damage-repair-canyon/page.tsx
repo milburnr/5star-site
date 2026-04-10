@@ -181,7 +181,7 @@ export default function WindDamageRepairCanyonPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -250,7 +250,7 @@ export default function WindDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Palo Duro Canyon Wind Effects?
             </h2>
@@ -335,16 +335,16 @@ export default function WindDamageRepairCanyonPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-gold">Aerodynamic Design Principles</h3>
                 <div className="space-y-4">
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h4 className="font-semibold text-blue-700">Wind Flow Optimization</h4>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-semibold text-brand-brown">Wind Flow Optimization</h4>
                     <p className="text-gray-600 text-sm">We design repairs to work with canyon wind patterns rather than against them, using aerodynamic edge details and smooth transitions that reduce turbulence.</p>
                   </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h4 className="font-semibold text-blue-700">Directional Reinforcement</h4>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-semibold text-brand-brown">Directional Reinforcement</h4>
                     <p className="text-gray-600 text-sm">Enhanced fastening in areas that face prevailing canyon winds, with additional reinforcement for properties in wind channels.</p>
                   </div>
-                  <div className="border-l-4 border-blue-400 pl-4">
-                    <h4 className="font-semibold text-blue-700">Scenic Compatibility</h4>
+                  <div className="border-l-4 border-brand-gold pl-4">
+                    <h4 className="font-semibold text-brand-brown">Scenic Compatibility</h4>
                     <p className="text-gray-600 text-sm">Wind-resistant features that don't compromise the scenic views that make canyon rim properties valuable.</p>
                   </div>
                 </div>
@@ -371,7 +371,7 @@ export default function WindDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

@@ -274,7 +274,7 @@ export default function MetalRoofingMidlandPage() {
                     <p className="text-sm text-gray-600">Peak Summer Temperature</p>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-blue-600 mb-1">8°F</div>
+                    <div className="text-2xl font-bold text-brand-gold-vibrant mb-1">8°F</div>
                     <p className="text-sm text-gray-600">Winter Low Record</p>
                   </div>
                   <div>
@@ -282,7 +282,7 @@ export default function MetalRoofingMidlandPage() {
                     <p className="text-sm text-gray-600">Annual Rainfall</p>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-purple-600 mb-1">3,200</div>
+                    <div className="text-2xl font-bold text-brand-gold-vibrant mb-1">3,200</div>
                     <p className="text-sm text-gray-600">Elevation (feet)</p>
                   </div>
                 </div>
@@ -389,7 +389,7 @@ export default function MetalRoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

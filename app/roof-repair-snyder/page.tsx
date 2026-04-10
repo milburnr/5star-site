@@ -382,8 +382,8 @@ export default function RoofRepairSnyderPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-blue-800"><Factory className="w-6 h-6 inline-block" /> Commercial Agriculture Operations</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-xl">
+                <h3 className="text-xl font-bold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Commercial Agriculture Operations</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
                     <h4 className="font-bold mb-2">Processing Facilities</h4>
@@ -434,7 +434,7 @@ export default function RoofRepairSnyderPage() {
                     <h4 className="font-semibold">Summer (June-August)</h4>
                     <p className="text-gray-600 text-sm">Extreme heat, sudden microbursts, and dust storms from agricultural activities</p>
                   </div>
-                  <div className="border-l-4 border-blue-500 pl-3">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-3">
                     <h4 className="font-semibold">Winter (Dec-Feb)</h4>
                     <p className="text-gray-600 text-sm">Freeze-thaw cycles, ice storms, and extreme temperature swings up to 60°F in 24 hours</p>
                   </div>
@@ -442,7 +442,7 @@ export default function RoofRepairSnyderPage() {
               </div>
               
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-lg font-bold mb-3 text-blue-700"><Wind className="w-6 h-6 inline-block" /> Wind Pattern Analysis</h3>
+                <h3 className="text-lg font-bold mb-3 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Wind Pattern Analysis</h3>
                 <div className="space-y-3">
                   <div className="bg-gray-50 p-3 rounded">
                     <h4 className="font-semibold text-sm">Prevailing Winds</h4>
@@ -470,13 +470,13 @@ export default function RoofRepairSnyderPage() {
                     <span className="font-semibold text-red-700">Summer High</span>
                     <span className="text-red-800">112°F+</span>
                   </div>
-                  <div className="flex justify-between items-center p-2 bg-blue-50 rounded">
-                    <span className="font-semibold text-blue-700">Winter Low</span>
-                    <span className="text-blue-800">-8°F</span>
+                  <div className="flex justify-between items-center p-2 bg-amber-50 rounded">
+                    <span className="font-semibold text-brand-brown">Winter Low</span>
+                    <span className="text-brand-brown">-8°F</span>
                   </div>
-                  <div className="flex justify-between items-center p-2 bg-purple-50 rounded">
-                    <span className="font-semibold text-purple-700">Daily Swing</span>
-                    <span className="text-purple-800">50°F+</span>
+                  <div className="flex justify-between items-center p-2 bg-amber-50 rounded">
+                    <span className="font-semibold text-brand-brown">Daily Swing</span>
+                    <span className="text-brand-brown">50°F+</span>
                   </div>
                   <div className="flex justify-between items-center p-2 bg-yellow-50 rounded">
                     <span className="font-semibold text-yellow-700">Surface Temp</span>
@@ -539,7 +539,7 @@ export default function RoofRepairSnyderPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Agricultural Roofing Materials Are Available?</h2>
             <p className="text-lg text-gray-700 mb-8">Specialized material systems designed for agricultural environments and West Texas weather extremes.</p>
             
@@ -557,7 +557,7 @@ export default function RoofRepairSnyderPage() {
                       <li>• Ventilation integration capability</li>
                     </ul>
                   </div>
-                  <div className="border-l-4 border-blue-500 pl-4">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
                     <h4 className="font-bold mb-2">Modified Bitumen for Flat Roofs</h4>
                     <p className="text-gray-600 text-sm mb-2">Durable membrane systems for processing facilities</p>
                     <ul className="text-xs text-gray-600 space-y-1">
@@ -567,7 +567,7 @@ export default function RoofRepairSnyderPage() {
                       <li>• Easy maintenance access</li>
                     </ul>
                   </div>
-                  <div className="border-l-4 border-purple-500 pl-4">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
                     <h4 className="font-bold mb-2">Composite Shingles for Homes</h4>
                     <p className="text-gray-600 text-sm mb-2">Class 4 impact resistance for rural residences</p>
                     <ul className="text-xs text-gray-600 space-y-1">
@@ -603,11 +603,11 @@ export default function RoofRepairSnyderPage() {
                   <div>
                     <h4 className="font-bold mb-3 text-red-800">Environmental Considerations</h4>
                     <div className="space-y-2">
-                      <div className="border-l-4 border-pink-500 pl-3">
+                      <div className="border-l-4 border-brand-gold-vibrant pl-3">
                         <span className="font-semibold">Uncoated Metals:</span>
                         <p className="text-xs text-gray-600">Corrosion from agricultural chemicals and moisture</p>
                       </div>
-                      <div className="border-l-4 border-indigo-500 pl-3">
+                      <div className="border-l-4 border-brand-gold-vibrant pl-3">
                         <span className="font-semibold">Light Colors:</span>
                         <p className="text-xs text-gray-600">Show dust and dirt accumulation in agricultural settings</p>
                       </div>
@@ -662,11 +662,11 @@ export default function RoofRepairSnyderPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-r from-amber-50 to-green-50 p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 2: Storm Damage Documentation & Insurance</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold mb-3 text-blue-700">Agricultural Property Claims</h4>
+                    <h4 className="font-bold mb-3 text-brand-brown">Agricultural Property Claims</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
                       <li>• Commercial vs. residential coverage differences</li>
                       <li>• Livestock facility specific requirements</li>
@@ -688,11 +688,11 @@ export default function RoofRepairSnyderPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Phase 3: Agricultural-Specific Installation</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold mb-3 text-purple-700">Working Environment Protocols</h4>
+                    <h4 className="font-bold mb-3 text-brand-brown">Working Environment Protocols</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
                       <li>• Livestock safety considerations</li>
                       <li>• Equipment and machinery protection</li>
@@ -702,7 +702,7 @@ export default function RoofRepairSnyderPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold mb-3 text-pink-700">Technical Installation Standards</h4>
+                    <h4 className="font-bold mb-3 text-brand-brown">Technical Installation Standards</h4>
                     <ul className="text-gray-700 text-sm space-y-1">
                       <li>• Enhanced fastening for wind exposure</li>
                       <li>• Corrosion-resistant materials</li>
@@ -761,8 +761,8 @@ export default function RoofRepairSnyderPage() {
             </div>
             
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-blue-50 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-3 text-blue-800">Agricultural Property Considerations</h3>
+              <div className="bg-amber-50 p-6 rounded-xl">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Property Considerations</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>• Tax implications for agricultural vs. residential classification</li>
                   <li>• Multi-structure properties require coordination</li>

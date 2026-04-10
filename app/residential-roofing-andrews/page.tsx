@@ -171,7 +171,7 @@ export default function ResidentialRoofingAndrewsPage() {
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Our Comprehensive Residential Roofing Services for Andrews Include?</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border border-blue-100">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Complete Roof Replacement</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">Full roof replacement services for Andrews homes using premium materials engineered for West Texas conditions. We handle everything from permits to cleanup, ensuring your project meets all Andrews County building requirements.</p>
                 <ul className="text-gray-600 space-y-2">
@@ -193,7 +193,7 @@ export default function ResidentialRoofingAndrewsPage() {
                   <li>• Complete damage assessment</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border border-purple-100">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Preventive Maintenance</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">Regular maintenance programs designed for Andrews's harsh climate. Preventive care extends roof life significantly and helps identify potential problems before they become costly repairs.</p>
                 <ul className="text-gray-600 space-y-2">
@@ -301,7 +301,7 @@ export default function ResidentialRoofingAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Do Insurance Claims & Financing Solutions Work?</h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -338,7 +338,7 @@ export default function ResidentialRoofingAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

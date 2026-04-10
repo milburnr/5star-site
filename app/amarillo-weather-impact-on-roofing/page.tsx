@@ -276,7 +276,7 @@ export default function Page() {
 
         <h3 className="text-xl font-bold mt-6 mb-3">Material Performance in Amarillo Climate</h3>
 
-        <div className="bg-blue-50 p-6 rounded-lg mb-6">
+        <div className="bg-amber-50 p-6 rounded-lg mb-6">
           <h4 className="font-bold mb-3">Asphalt Shingles vs. West Texas Weather</h4>
           <p className="mb-3">
             Standard 3-tab asphalt shingles typically last 12-15 years in Amarillo, compared to 20-25 years
@@ -518,7 +518,7 @@ export default function Page() {
 
         <h3 className="text-xl font-bold mt-6 mb-3">5 Star Roofing Warranty Benefits:</h3>
 
-        <div className="bg-blue-50 p-6 rounded-lg mb-6">
+        <div className="bg-amber-50 p-6 rounded-lg mb-6">
           <ul className="space-y-2">
             <li><strong>Material Warranty:</strong> Up to 50 years from manufacturer (lifetime on premium products)</li>
             <li><strong>Workmanship Warranty:</strong> 10-25 years on installation quality</li>

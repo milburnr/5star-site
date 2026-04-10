@@ -139,14 +139,14 @@ export default function HailDamageRepairLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-purple-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-amber-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Levelland's Severe Storm Corridor?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">South Plains Weather Intensity</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">Levelland sits at the heart of the South Plains severe weather corridor, where Hockley County experiences some of Texas's most destructive hailstorms. The city's position in the Llano Estacado creates unique atmospheric dynamics that regularly spawn supercell thunderstorms with devastating hail production.</p>
                 <p className="text-gray-700 mb-4 leading-relaxed">Recent data shows Levelland has experienced 49 confirmed hail reports from trained spotters and been under severe weather warnings 46 times in just 12 months. Doppler radar has detected hail-producing storms at or near Levelland on 108 occasions during the same period, highlighting the area's exceptional storm frequency.</p>
-                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+                <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-brand-gold-vibrant">
                   <h4 className="font-semibold text-brand-brown mb-2">Levelland Storm Statistics</h4>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• <strong>49 confirmed hail reports</strong> from trained weather spotters</li>
@@ -197,7 +197,7 @@ export default function HailDamageRepairLevellandPage() {
                   <li>• <strong>Secondary Damage Detection:</strong> Water intrusion assessment from compromised building envelope</li>
                 </ul>
               </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold-vibrant">
                 <div className="text-4xl mb-4"><Microscope className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Scientific Documentation Methods</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
@@ -225,7 +225,7 @@ export default function HailDamageRepairLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does Our Storm Response Work in Levelland?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -262,21 +262,21 @@ export default function HailDamageRepairLevellandPage() {
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Recovery Coordination (4-48 Hours)</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">4</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Comprehensive Damage Documentation</h4>
                       <p className="text-gray-600 text-sm">Detailed assessment using advanced technology and correlation with NWS storm surveys</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">5</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Insurance Claim Initiation</h4>
                       <p className="text-gray-600 text-sm">Rapid claim filing with major carriers serving Levelland including documentation of bow echo specific damage patterns</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">6</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Material Logistics</h4>
                       <p className="text-gray-600 text-sm">Expedited sourcing and delivery of materials optimized for South Plains weather conditions</p>
@@ -320,7 +320,7 @@ export default function HailDamageRepairLevellandPage() {
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-6 text-gray-800">Levelland Climate Specifications</h3>
-                <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
+                <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg">
                   <h4 className="text-lg font-semibold mb-4 text-gray-800">Bow Echo Performance Standards</h4>
                   <p className="text-gray-700 text-sm mb-4">Our Levelland installations meet enhanced performance criteria based on analysis of the May 2024 bow echo and other extreme weather events affecting Hockley County.</p>
                   <div className="grid grid-cols-2 gap-4 text-center mb-4">
@@ -405,7 +405,7 @@ export default function HailDamageRepairLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

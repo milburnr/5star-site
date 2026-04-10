@@ -233,7 +233,7 @@ export default function HailDamageRepairOdessaPage() {
 
         {/* Odessa Weather Data Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
               What Are Ector County Weather: Understanding Your Roof's Risks?
             </h2>
@@ -249,12 +249,12 @@ export default function HailDamageRepairOdessaPage() {
                 <p className="text-sm text-gray-500 mt-2">Intense UV exposure</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">Semi-Arid</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Semi-Arid</div>
                 <div className="font-semibold text-gray-700">Climate Type</div>
                 <p className="text-sm text-gray-500 mt-2">Hot summers, mild winters</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Apr-Jun</div>
+                <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Apr-Jun</div>
                 <div className="font-semibold text-gray-700">Peak Hail Season</div>
                 <p className="text-sm text-gray-500 mt-2">Highest storm frequency</p>
               </div>
@@ -367,7 +367,7 @@ export default function HailDamageRepairOdessaPage() {
 
         {/* FAQ Section */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Odessa Hail Damage Repair: Frequently Asked Questions
             </h2>
@@ -447,7 +447,7 @@ export default function HailDamageRepairOdessaPage() {
         
         
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-slate-50 p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-slate-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               How Often Does Ector County Experience Severe Hail?
             </h2>

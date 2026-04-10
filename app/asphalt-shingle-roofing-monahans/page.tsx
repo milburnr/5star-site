@@ -370,12 +370,12 @@ export default function AsphaltShingleRoofingMonahansPage() {
                 <p className="text-gray-600 text-sm">Established neighborhoods with well-maintained homes requiring reliable, cost-effective roofing solutions that handle oil field environmental conditions.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Rural Ward County</h4>
                 <p className="text-gray-600 text-sm">Ranch properties and oil field housing requiring specialized installation for extreme weather exposure and larger structures typical of rural Permian Basin locations.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Industrial Adjacent Areas</h4>
                 <p className="text-gray-600 text-sm">Residential properties near oil and gas operations requiring enhanced protection against industrial dust, vibrations, and specialized environmental considerations.</p>
               </div>
@@ -405,7 +405,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
         <InternalLinks currentCity="monahans" currentService="asphalt-shingle-roofing" />
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Monahans Asphalt Shingle Roofing FAQs
             </h2>

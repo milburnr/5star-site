@@ -374,7 +374,7 @@ export default function AsphaltShingleRoofingPerrytonPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               Long-Term Investment Protection?
             </h2>
-            <div className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">Generational Roofing Solutions</h3>
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center">

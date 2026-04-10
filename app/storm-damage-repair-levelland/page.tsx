@@ -288,23 +288,23 @@ export default function StormDamageRepairLevellandPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-blue-800">Severe Wind Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Severe Wind Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">March 13, 2023 - Dust Bowl Redux</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">March 13, 2023 - Dust Bowl Redux</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A historic dust storm combined with 70+ mph sustained winds created conditions reminiscent of the 1930s Dust Bowl. Visibility dropped to near zero for over 2 hours while sustained winds exceeding 70 mph with gusts to 92 mph caused widespread roof damage throughout Levelland. The combination of abrasive dust and high winds stripped protective granules from asphalt shingles and damaged membrane roofing systems across the city. Interstate 27 was completely closed through Levelland due to zero visibility.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">May 11, 2020 - Derecho Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">May 11, 2020 - Derecho Event</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A rare High Plains derecho brought destructive straight-line winds exceeding 90 mph to Levelland, lasting nearly 90 minutes. The sustained high winds caused extensive roof membrane lifting, HVAC equipment damage, and structural failures throughout the city. The Levelland airport recorded peak gusts of 95 mph, with wind damage extending from the South Plains College campus through the downtown area. Power outages lasted up to a week in some areas due to extensive infrastructure damage.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">April 7, 2019 - Tornado Touchdown</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">April 7, 2019 - Tornado Touchdown</h5>
                     <p className="text-gray-700 leading-relaxed">
                       An EF-2 tornado touched down just west of Levelland with peak winds of 130 mph. While the tornado's path missed the main city, the associated supercell brought 85+ mph straight-line winds and tennis ball-sized hail to Levelland proper. The combination of wind and hail created complex damage patterns, with wind lifting roof membranes that were then punctured by subsequent hail. Many buildings required complete roof system replacement due to the combined impact damage.
                     </p>
@@ -312,23 +312,23 @@ export default function StormDamageRepairLevellandPage() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border-l-4 border-purple-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-purple-800">Winter Weather Extremes</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Winter Weather Extremes</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">February 14-18, 2021 - Winter Storm Uri</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">February 14-18, 2021 - Winter Storm Uri</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Levelland experienced its coldest temperatures on record during Winter Storm Uri, with readings as low as -17°F and sustained sub-freezing conditions for over 140 hours. The extreme cold combined with snow and ice accumulation of 8-12 inches created catastrophic damage to roofing systems throughout the city. Many membrane roofing systems suffered thermal cracking, while older buildings experienced structural damage from ice accumulation weight. South Plains College alone had over 200 roof leaks when temperatures finally rose above freezing.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">December 12-13, 2022 - Ice Storm</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">December 12-13, 2022 - Ice Storm</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A significant ice storm deposited 1-1.5 inches of ice across Levelland, creating the heaviest ice accumulation in decades. The weight of ice caused structural damage to weaker roofing systems and extensive damage to HVAC equipment throughout the city. Many flat-roof commercial buildings experienced membrane tears from ice expansion, while numerous gutters were completely destroyed by ice weight and expansion forces.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">January 12, 2017 - Blizzard Conditions</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">January 12, 2017 - Blizzard Conditions</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A rare High Plains blizzard brought 14 inches of snow with sustained winds of 45+ mph, creating snowdrifts up to 6 feet deep against buildings. The extreme wind-driven snow caused infiltration problems in many roofing systems, while the weight of accumulated snow stressed older structures beyond design limits. The storm knocked out power to 85% of Levelland for multiple days, preventing adequate heating in buildings and contributing to freeze damage.
                     </p>

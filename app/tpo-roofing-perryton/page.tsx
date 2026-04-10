@@ -360,7 +360,7 @@ export default function TpoRoofingPerrytonPage() {
                       <div className="text-2xl font-bold text-brand-gold">30%</div>
                       <div className="text-sm">Cooling Cost Reduction</div>
                     </div>
-                    <div className="p-3 bg-blue-50 rounded">
+                    <div className="p-3 bg-amber-50 rounded">
                       <div className="text-2xl font-bold text-brand-gold">$15K</div>
                       <div className="text-sm">Annual Energy Savings</div>
                     </div>

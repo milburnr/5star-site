@@ -188,7 +188,7 @@ export default function TPORoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-indigo-50 p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">How Does the Energy Industry Affect Roofing in Midland?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -246,7 +246,7 @@ export default function TPORoofingMidlandPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Hazard Assessment</h3>
                 <p className="text-gray-700">Comprehensive evaluation of potential chemical exposure, equipment loads, operational requirements, and safety protocols specific to energy industry facilities.</p>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">2</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Industrial Engineering</h3>
                 <p className="text-gray-700">Custom system design incorporating chemical resistance requirements, heavy equipment loads, and specialized attachment methods for industrial environments.</p>
@@ -256,7 +256,7 @@ export default function TPORoofingMidlandPage() {
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Safety Compliance</h3>
                 <p className="text-gray-700">Full compliance with OSHA requirements, energy industry safety protocols, and coordination with facility safety personnel throughout the installation process.</p>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-lg text-center">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-2xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-brand-gold mb-4">4</div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Premium Materials</h3>
                 <p className="text-gray-700">Industrial-grade TPO membranes with enhanced chemical resistance, thicker gauges for durability, and specialized fastening systems for demanding applications.</p>
@@ -335,7 +335,7 @@ export default function TPORoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

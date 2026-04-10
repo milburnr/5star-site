@@ -171,7 +171,7 @@ export default function HailDamageRepairPerrytonPage() {
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">Community Response & Recovery</h3>
                 <div className="space-y-4">
-                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-500">
+                  <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-brand-gold-vibrant">
                     <h4 className="font-semibold text-brand-brown">Multi-Agency Response</h4>
                     <p className="text-gray-700 text-sm">Multiple emergency agencies from throughout the Texas Panhandle responded to assist Perryton with search and rescue operations, medical care, and immediate disaster relief efforts.</p>
                   </div>
@@ -208,7 +208,7 @@ export default function HailDamageRepairPerrytonPage() {
                   <li>• <strong>Code Compliance Upgrades:</strong> Bringing damaged structures up to current building standards</li>
                 </ul>
               </div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold-vibrant">
                 <div className="text-4xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Disaster Response Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
@@ -237,7 +237,7 @@ export default function HailDamageRepairPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Ochiltree County Severe Weather Preparedness?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -272,7 +272,7 @@ export default function HailDamageRepairPerrytonPage() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-blue-100 text-blue-800 rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
+                    <div className="bg-amber-100 text-brand-brown rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs flex-shrink-0">3</div>
                     <div>
                       <h4 className="font-medium text-gray-800">Reconstruction (1-6 Months)</h4>
                       <p className="text-gray-600 text-sm">Enhanced rebuilding with improved storm resistance and code compliance</p>
@@ -402,7 +402,7 @@ export default function HailDamageRepairPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

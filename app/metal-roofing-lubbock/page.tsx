@@ -177,7 +177,7 @@ export default function MetalRoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Are Engineered for Lubbock's Wind Challenges?</h2>
             <div className="max-w-5xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">Lubbock sits in the heart of "Tornado Alley," experiencing some of the nation's most severe wind events. Our metal roofing installations exceed local building requirements and provide superior protection.</p>
@@ -272,7 +272,7 @@ export default function MetalRoofingLubbockPage() {
                     <p className="text-sm text-gray-600">Record High Temperature</p>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-blue-600 mb-1">-17°F</div>
+                    <div className="text-2xl font-bold text-brand-gold-vibrant mb-1">-17°F</div>
                     <p className="text-sm text-gray-600">Record Low Temperature</p>
                   </div>
                   <div>
@@ -280,7 +280,7 @@ export default function MetalRoofingLubbockPage() {
                     <p className="text-sm text-gray-600">Recorded Wind Gust</p>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-purple-600 mb-1">4.25"</div>
+                    <div className="text-2xl font-bold text-brand-gold-vibrant mb-1">4.25"</div>
                     <p className="text-sm text-gray-600">Largest Hailstone</p>
                   </div>
                 </div>
@@ -352,7 +352,7 @@ export default function MetalRoofingLubbockPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown text-center">Lubbock Energy Savings</h3>
                 <div className="space-y-6">
                   <div className="text-center">
@@ -417,7 +417,7 @@ export default function MetalRoofingLubbockPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

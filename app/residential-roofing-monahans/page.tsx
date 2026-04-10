@@ -136,7 +136,7 @@ export default function ResidentialRoofingMonahansPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Monahans and Ward County, serving the heart of the Permian Basin. As a key oil industry hub, Monahans presents unique roofing challenges from extreme desert climate conditions, rapid population growth, and the demanding energy sector environment.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Monahans's 6,950 residents with expert installations designed for desert extremes. Our team understands the specific needs of oil field housing, permanent family residences, and the growing number of modern developments supporting the energy boom.</p>
             
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Monahans Housing Market Analysis</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Monahans's housing market reflects its position as a major Permian Basin center. The median home value is approximately $135,000, driven by energy sector demand and rapid population growth. The housing stock ranges from historic downtown properties to modern developments built to accommodate oil industry workers and their families.</p>
               
@@ -281,7 +281,7 @@ export default function ResidentialRoofingMonahansPage() {
                   <li>• Wickett, Barstow, and Grandfalls areas</li>
                 </ul>
                 
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">Specialized services for energy sector housing projects. storm response available for critical infrastructure.</p>
                 </div>
               </div>
@@ -290,7 +290,7 @@ export default function ResidentialRoofingMonahansPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions About Monahans Roofing</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -345,7 +345,7 @@ export default function ResidentialRoofingMonahansPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Cool Roof Technology</h3>
                 <p className="text-gray-700 mb-6">In Monahans's extreme heat, cool roof technology can reduce surface temperatures by 50°F or more, dramatically reducing cooling costs and extending material lifespan. Our systems are specifically engineered for desert conditions.</p>
                 
-                <div className="bg-blue-50 p-6 rounded-xl">
+                <div className="bg-amber-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2"><Snowflake className="w-6 h-6 inline-block" /> Cool Roof Benefits:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Reduce cooling costs by 15-30%</li>

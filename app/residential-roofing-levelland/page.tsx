@@ -136,7 +136,7 @@ export default function ResidentialRoofingLevellandPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Levelland and Hockley County. As the county seat and home to South Plains College, Levelland presents unique roofing challenges from diverse housing stock ranging from historic downtown properties to modern college housing developments and expanding suburban neighborhoods.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Levelland's 13,500 residents with expert installations, comprehensive warranties, and outstanding customer service. We understand the specific needs of college town housing, rental properties, and family homes throughout this growing community.</p>
             
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Levelland Housing Market Overview</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Levelland's housing market reflects its dual identity as a college town and agricultural center. The median home value is approximately $95,000, making it one of the most affordable markets in the South Plains region. The proximity to South Plains College creates a robust rental market, with many properties serving both students and local families.</p>
               
@@ -281,7 +281,7 @@ export default function ResidentialRoofingLevellandPage() {
                   <li>• Sundown, Opdyke West, and Anton areas</li>
                 </ul>
                 
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">Special scheduling available for college housing properties. Summer installation priority for student housing providers.</p>
                 </div>
               </div>
@@ -290,7 +290,7 @@ export default function ResidentialRoofingLevellandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions About Levelland Roofing</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -361,7 +361,7 @@ export default function ResidentialRoofingLevellandPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">College Housing Specialists</h3>
                 <p className="text-gray-700 mb-6">South Plains College's student population creates unique housing demands. We understand the academic calendar constraints and provide specialized scheduling for student housing providers.</p>
                 
-                <div className="bg-blue-50 p-6 rounded-xl">
+                <div className="bg-amber-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2"><GraduationCap className="w-6 h-6 inline-block" /> Student Housing Features:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Summer installation priority</li>
@@ -375,7 +375,7 @@ export default function ResidentialRoofingLevellandPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-xl">
+            <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-xl">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Seasonal Scheduling & Planning</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">

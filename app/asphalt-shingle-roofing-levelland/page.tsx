@@ -355,7 +355,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
                 <p className="text-gray-600 text-sm">Original Levelland neighborhoods featuring 1920s-1950s architecture near the courthouse square. We maintain historical character while upgrading performance to modern standards for these charming properties.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">South Plains College Area</h4>
                 <p className="text-gray-600 text-sm">Faculty neighborhoods and student-adjacent residential areas requiring reliable roofing solutions. Popular area for college employees seeking maximum value and energy efficiency.</p>
               </div>
@@ -365,7 +365,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
                 <p className="text-gray-600 text-sm">Newer suburban developments with contemporary architectural styles requiring advanced ventilation and impact-resistant materials to handle South Plains weather exposure.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">West Side Neighborhoods</h4>
                 <p className="text-gray-600 text-sm">Established residential areas with well-maintained homes requiring cost-effective roofing solutions that enhance property values and reduce energy costs for long-term residents.</p>
               </div>
@@ -405,7 +405,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
         <InternalLinks currentCity="levelland" currentService="asphalt-shingle-roofing" />
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Levelland Asphalt Shingle Roofing FAQs
             </h2>

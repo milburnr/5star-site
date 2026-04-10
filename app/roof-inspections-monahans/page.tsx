@@ -185,7 +185,7 @@ export default function RoofInspectionsMonahansPage() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-900/85 via-cyan-900/75 to-blue-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -258,7 +258,7 @@ export default function RoofInspectionsMonahansPage() {
               What Does Our Comprehensive Roof Inspection for Permian Basin Conditions Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Search className="w-6 h-6 inline-block" /> Exterior Assessment</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>• <strong>Industrial Contamination Analysis:</strong> Oil field dust, chemical exposure, atmospheric corrosion</li>
@@ -311,7 +311,7 @@ export default function RoofInspectionsMonahansPage() {
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Desert Hailstorm Damage Patterns</h3>
               <div className="grid md:grid-cols-3 gap-6">
-                <div className="border-l-4 border-blue-500 pl-4">
+                <div className="border-l-4 border-brand-gold-vibrant pl-4">
                   <h4 className="font-bold text-lg mb-3 text-gray-800">Hail Impact Characteristics</h4>
                   <ul className="space-y-2 text-gray-600 text-sm">
                     <li>• <strong>Desert Hailstone Density:</strong> Extremely dense ice from dry atmospheric conditions</li>
@@ -379,7 +379,7 @@ export default function RoofInspectionsMonahansPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               How Does the Insurance Claims Process Work in Monahans?
             </h2>
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Specialized Documentation for Oil Country</h3>
               <p className="text-lg leading-relaxed">
                 Insurance claims in the Permian Basin require specialized documentation that addresses both traditional storm damage and the unique environmental factors affecting roofing systems in oil and gas producing areas. Our reports provide comprehensive evidence for successful claim resolution.
@@ -491,9 +491,9 @@ export default function RoofInspectionsMonahansPage() {
                 <h4 className="font-bold text-yellow-700 mb-2">Fall (Sep-Nov)</h4>
                 <p className="text-yellow-600 text-sm">Temperature moderation, continued wind stress, dust storm season. Preparation for winter conditions.</p>
               </div>
-              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
-                <h4 className="font-bold text-blue-700 mb-2">Winter (Dec-Feb)</h4>
-                <p className="text-blue-600 text-sm">Thermal contraction, freeze/thaw cycles, ice storms. Blue norther events bring rapid temperature drops.</p>
+              <div className="bg-amber-50 p-4 rounded-lg border-l-4 border-brand-gold">
+                <h4 className="font-bold text-brand-brown mb-2">Winter (Dec-Feb)</h4>
+                <p className="text-brand-gold-vibrant text-sm">Thermal contraction, freeze/thaw cycles, ice storms. Blue norther events bring rapid temperature drops.</p>
               </div>
             </div>
           </section>

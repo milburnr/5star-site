@@ -284,7 +284,7 @@ export default function RoofRepairMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -334,8 +334,8 @@ export default function RoofRepairMidlandPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-blue-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Thermal Expansion Joints</h4>
@@ -352,8 +352,8 @@ export default function RoofRepairMidlandPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-purple-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-purple-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Radiant Barriers</h4>
@@ -385,8 +385,8 @@ export default function RoofRepairMidlandPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-indigo-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-indigo-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Color Selection Optimization</h4>
@@ -394,8 +394,8 @@ export default function RoofRepairMidlandPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-pink-100 p-2 rounded-full mr-3 mt-1">
-                      <svg className="w-4 h-4 text-pink-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
+                    <div className="bg-amber-100 p-2 rounded-full mr-3 mt-1">
+                      <svg className="w-4 h-4 text-brand-gold-vibrant" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                     </div>
                     <div>
                       <h4 className="font-semibold">Enhanced Granule Systems</h4>
@@ -484,7 +484,7 @@ export default function RoofRepairMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-blue-50 to-gray-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-gradient-to-r from-amber-50 to-gray-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does the Comprehensive Desert Climate Repair Process Work?</h2>
             <p className="text-lg text-gray-700 mb-8">Our specialized methodology addresses the unique challenges of extreme desert conditions in the Permian Basin.</p>
             
@@ -548,11 +548,11 @@ export default function RoofRepairMidlandPage() {
                       <div className="bg-green-50 p-3 rounded border-l-4 border-green-500">
                         <span className="font-semibold text-green-800">Cool Roof Shingles:</span> GAF Timberline Cool Series, Owens Corning TruDefinition Cool
                       </div>
-                      <div className="bg-blue-50 p-3 rounded border-l-4 border-blue-500">
-                        <span className="font-semibold text-blue-800">Metal Systems:</span> Standing seam with PVDF coatings, high-reflectance finishes
+                      <div className="bg-amber-50 p-3 rounded border-l-4 border-brand-gold-vibrant">
+                        <span className="font-semibold text-brand-brown">Metal Systems:</span> Standing seam with PVDF coatings, high-reflectance finishes
                       </div>
-                      <div className="bg-purple-50 p-3 rounded border-l-4 border-purple-500">
-                        <span className="font-semibold text-purple-800">Tile Options:</span> Concrete tiles with thermal barrier coatings
+                      <div className="bg-amber-50 p-3 rounded border-l-4 border-brand-gold-vibrant">
+                        <span className="font-semibold text-brand-brown">Tile Options:</span> Concrete tiles with thermal barrier coatings
                       </div>
                     </div>
                   </div>
@@ -624,7 +624,7 @@ export default function RoofRepairMidlandPage() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-green-50 to-blue-50 p-8 rounded-2xl shadow-lg">
+              <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold mb-4 text-green-800"><TrendingDown className="w-6 h-6 inline-block" /> Bust Period Opportunities</h3>
                 <div className="space-y-4">
                   <div className="bg-white p-4 rounded-lg">
@@ -669,7 +669,7 @@ export default function RoofRepairMidlandPage() {
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Cool Roof Technology Benefits</h3>
                 <div className="space-y-3">
-                  <div className="bg-blue-50 p-4 rounded-lg">
+                  <div className="bg-amber-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Temperature Reduction</h4>
                     <p className="text-gray-600 text-sm">Surface temperatures reduced by 50-80°F compared to standard dark roofs, significantly lowering cooling costs</p>
                   </div>
@@ -677,7 +677,7 @@ export default function RoofRepairMidlandPage() {
                     <h4 className="font-semibold mb-2">Energy Cost Savings</h4>
                     <p className="text-gray-600 text-sm">15-40% reduction in summer cooling costs, with payback periods of 3-7 years in Midland's climate</p>
                   </div>
-                  <div className="bg-purple-50 p-4 rounded-lg">
+                  <div className="bg-amber-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">Extended Equipment Life</h4>
                     <p className="text-gray-600 text-sm">HVAC systems last longer with reduced thermal stress, lowering replacement and maintenance costs</p>
                   </div>

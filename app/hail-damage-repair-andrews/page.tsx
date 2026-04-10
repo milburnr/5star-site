@@ -139,7 +139,7 @@ export default function HailDamageRepairAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-blue-50 to-gray-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-amber-50 to-gray-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Andrews County Hail Patterns & Storm History?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -225,7 +225,7 @@ export default function HailDamageRepairAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">Andrews-Specific Hail Resistance Solutions?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -402,7 +402,7 @@ export default function HailDamageRepairAndrewsPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

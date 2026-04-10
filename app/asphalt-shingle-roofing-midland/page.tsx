@@ -156,7 +156,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center text-brand-brown">What Are Premium Asphalt Solutions for Midland's Extreme Conditions?</h2>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -189,9 +189,9 @@ export default function AsphaltShingleRoofingMidlandPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-purple-500 relative">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-brand-gold-vibrant relative">
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-purple-500 text-white px-4 py-1 rounded-full text-sm font-bold">LUXURY</span>
+                  <span className="bg-brand-brown text-white px-4 py-1 rounded-full text-sm font-bold">LUXURY</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Executive Grade Class 4</h3>
                 <div className="text-3xl font-bold text-brand-gold mb-4">$17,000-$25,000</div>
@@ -241,8 +241,8 @@ export default function AsphaltShingleRoofingMidlandPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-brand-brown">Heat-Reflective Color Selection</h3>
                 <div className="space-y-6">
-                  <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                    <h4 className="text-xl font-bold mb-3 text-blue-800">Cool Roof Colors (Recommended)</h4>
+                  <div className="bg-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                    <h4 className="text-xl font-bold mb-3 text-brand-brown">Cool Roof Colors (Recommended)</h4>
                     <ul className="space-y-2">
                       <li><strong>Cool Gray:</strong> Stays 20°F cooler than standard gray</li>
                       <li><strong>Desert Tan:</strong> Blends with West Texas landscape</li>
@@ -415,9 +415,9 @@ export default function AsphaltShingleRoofingMidlandPage() {
                     </ul>
                   </div>
                   
-                  <div className="bg-blue-50 p-6 rounded-xl border border-blue-200">
-                    <h4 className="text-lg font-bold text-blue-800 mb-2">Industrial Environment Care</h4>
-                    <ul className="space-y-1 text-blue-700 text-sm">
+                  <div className="bg-amber-50 p-6 rounded-xl border border-brand-gold/30">
+                    <h4 className="text-lg font-bold text-brand-brown mb-2">Industrial Environment Care</h4>
+                    <ul className="space-y-1 text-brand-brown text-sm">
                       <li>• Dust and particulate removal from surfaces</li>
                       <li>• Chemical residue cleaning as needed</li>
                       <li>• Fastener inspection for vibration effects</li>
@@ -456,7 +456,7 @@ export default function AsphaltShingleRoofingMidlandPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

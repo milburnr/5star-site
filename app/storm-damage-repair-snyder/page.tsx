@@ -287,23 +287,23 @@ export default function StormDamageRepairSnyderPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-blue-800">Severe Wind & Tornado Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Severe Wind & Tornado Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">May 11, 2022 - Tornado Touchdown</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">May 11, 2022 - Tornado Touchdown</h5>
                     <p className="text-gray-700 leading-relaxed">
                       An EF-2 tornado touched down 1 mile west of Snyder with peak winds of 135 mph before dissipating near the city limits. While the tornado itself narrowly missed downtown, the associated supercell brought 90+ mph straight-line winds that caused extensive roof damage throughout Snyder. The combination of tornadic circulation and straight-line winds created unusual damage patterns, with many buildings experiencing both wind uplift and rotational damage. The Scurry County Courthouse and surrounding historic buildings sustained significant roof and structural damage.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">March 18, 2020 - High Wind Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">March 18, 2020 - High Wind Event</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A powerful dry line passage brought sustained winds of 70+ mph with gusts exceeding 95 mph to Snyder for over 2 hours. The Colorado River valley's terrain channeled and intensified the winds, causing widespread roof membrane lifting and HVAC equipment damage. Many commercial buildings experienced complete membrane blow-off, while residential properties lost numerous shingles and experienced structural damage. The sustained nature of the high winds made this event particularly destructive to roofing systems throughout Scurry County.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">April 14, 2018 - Microburst Outbreak</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">April 14, 2018 - Microburst Outbreak</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Multiple microbursts produced localized wind speeds exceeding 100 mph in different areas of Snyder. These intense downdrafts created pockets of extreme damage separated by relatively undamaged areas, making assessment and restoration particularly challenging. The microbursts occurred during peak storm season when many roofing contractors were already busy with hail damage repairs from earlier events, creating extended restoration timelines for affected properties.
                     </p>
@@ -311,17 +311,17 @@ export default function StormDamageRepairSnyderPage() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border-l-4 border-purple-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-purple-800">Winter Storm & Flash Flood Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Winter Storm & Flash Flood Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">February 15-18, 2021 - Winter Storm Uri</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">February 15-18, 2021 - Winter Storm Uri</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Snyder experienced its coldest temperatures in over 30 years during Winter Storm Uri, with readings dropping to -11°F and remaining below freezing for 135+ hours. The extreme cold combined with snow and ice accumulation caused widespread roof damage throughout the city. Western Texas College experienced over 150 roof leaks when temperatures finally rose, while many commercial buildings suffered membrane cracking and structural damage. The storm highlighted the vulnerability of West Texas roofing systems to extreme winter weather events.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">September 19, 2019 - Flash Flood Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">September 19, 2019 - Flash Flood Event</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Heavy rainfall from Tropical Storm Imelda's remnants caused the worst flooding in Snyder's modern history. The Colorado River and local tributaries overflowed, while urban flooding overwhelmed drainage systems throughout the city. Many flat-roof commercial buildings experienced ponding water infiltration due to drainage systems designed for the typically drier climate. The combination of standing water and subsequent high winds created complex damage scenarios requiring specialized restoration approaches.
                     </p>

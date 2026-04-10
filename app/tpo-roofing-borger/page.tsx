@@ -274,7 +274,7 @@ export default function TpoRoofingBorgerPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-blue-50 to-white p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-amber-50 to-white p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Borger's Commercial Roofing Challenges</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Borger's unique industrial environment creates specific roofing demands. The city's petrochemical operations, combined with Texas Panhandle weather extremes, require roofing systems that can withstand chemical exposure, extreme temperature fluctuations, and severe weather events including frequent hailstorms and high winds.
@@ -366,7 +366,7 @@ export default function TpoRoofingBorgerPage() {
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6 text-brand-brown">Weather Protection & Durability</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>

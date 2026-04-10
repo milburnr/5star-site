@@ -306,23 +306,23 @@ export default function StormDamageRepairMonahansPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-blue-800">Severe Wind & Storm Events</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Severe Wind & Storm Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">October 12, 2021 - Derecho Impact</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">October 12, 2021 - Derecho Impact</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A rare Permian Basin derecho brought sustained winds of 75+ mph with gusts exceeding 95 mph to Monahans for over 90 minutes. The prolonged straight-line winds caused widespread roof damage throughout Ward County, with particular impact on large industrial buildings in the oil and gas sector. Many membrane roofing systems experienced complete blow-off, while metal roofing sustained extensive standing seam separation and panel displacement. The event caused power outages lasting several days across the region.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">May 28, 2019 - Flash Flood Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">May 28, 2019 - Flash Flood Event</h5>
                     <p className="text-gray-700 leading-relaxed">
                       An unusual slow-moving storm system dropped 4-6 inches of rain over Monahans in less than 3 hours, creating the worst flash flooding in the city's history. The desert soil's inability to absorb rapid rainfall caused extensive ponding on flat roofs throughout the city, leading to structural damage and multiple roof collapses. Many commercial buildings experienced catastrophic water infiltration due to overwhelmed drainage systems designed for the typically arid climate.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-blue-700">April 3, 2017 - Tornado Outbreak</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">April 3, 2017 - Tornado Outbreak</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Multiple tornadoes formed across Ward County, with an EF-2 tornado passing within 5 miles of Monahans. While the tornado itself missed the city, the associated supercell brought 85+ mph straight-line winds and large hail that caused significant damage to roofing systems throughout the area. The combination of wind and hail created complex damage patterns requiring specialized restoration techniques for the affected properties.
                     </p>
@@ -330,17 +330,17 @@ export default function StormDamageRepairMonahansPage() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border-l-4 border-purple-500 p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-purple-800">Winter Weather Extremes</h4>
+              <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Winter Weather Extremes</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">February 15-17, 2021 - Winter Storm Uri</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">February 15-17, 2021 - Winter Storm Uri</h5>
                     <p className="text-gray-700 leading-relaxed">
                       Monahans experienced unprecedented cold with temperatures dropping to -12°F during Winter Storm Uri. The extreme temperature contrast (from 70°F to -12°F in 24 hours) caused catastrophic thermal shock to roofing systems throughout the city. Ice accumulation combined with power outages created conditions that led to widespread pipe bursts and structural damage. Many industrial facilities experienced multiple roof membrane failures due to the extreme thermal cycling and ice expansion forces.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-purple-700">January 4, 2014 - Ice Storm</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">January 4, 2014 - Ice Storm</h5>
                     <p className="text-gray-700 leading-relaxed">
                       A significant ice storm deposited 0.75-1 inch of ice across Monahans, causing extensive damage to roofing systems unaccustomed to ice loading. The weight of ice accumulation caused multiple structural failures in older buildings, while the expansion forces of freezing water damaged numerous membrane roofing systems. The storm knocked out power to most of the city for several days, contributing to additional freeze damage in buildings.
                     </p>

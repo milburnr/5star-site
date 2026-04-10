@@ -194,7 +194,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
               Since 2014, 5 Star Commercial Roofing has specialized in protecting Big Spring's diverse residential neighborhoods with premium asphalt shingle systems engineered for West Texas extremes. From historic homes near Downtown Big Spring to modern subdivisions around Big Spring State Park, we understand the unique challenges facing homeowners: extreme UV exposure, frequent dust storms, oil field activity impacts, and the need for energy-efficient solutions that combat brutal summer heat while maintaining affordability in this hardworking community.
             </p>
 
-            <div className="bg-gradient-to-r from-blue-50 to-cyan-50 p-8 rounded-2xl mb-8">
+            <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-2xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Why Big Spring Homeowners Invest in Quality Asphalt Shingles</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -217,7 +217,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
             <h3 className="text-3xl font-bold mb-6 text-brand-brown">Complete Asphalt Shingle Solutions for Big Spring Homes</h3>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Standard Architectural Shingles</h4>
                 <p className="text-gray-600 mb-3">Ideal for Big Spring homeowners seeking dependable protection at affordable prices. Starting at $4.75 per square foot installed, these GAF Timberline or CertainTeed Landmark shingles provide 25-30 year protection with excellent hail and wind resistance.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -228,7 +228,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
                 </ul>
               </div>
               
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Impact-Resistant Premium</h4>
                 <p className="text-gray-600 mb-3">Big Spring's top choice for maximum hail protection. Multi-layer construction with advanced polymer modification provides Class 4 impact resistance at $7.50-9.50 per square foot with 30-lifetime warranties and potential insurance discounts.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -239,7 +239,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
                 </ul>
               </div>
               
-              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">Luxury Designer Collections</h4>
                 <p className="text-gray-600 mb-3">Premium options for discerning Big Spring homeowners. Authentic slate, cedar, and tile appearances with lifetime warranties and maximum performance. Investment range: $10.50-14.50 per square foot for ultimate protection and curb appeal.</p>
                 <ul className="text-sm text-gray-600 space-y-1">
@@ -278,32 +278,32 @@ export default function AsphaltShingleRoofingBigSpringPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">What Does Big Spring Installation Excellence Involve?</h2>
             
             <div className="space-y-8">
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-blue-50 to-white p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-amber-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">1</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Detailed Property Evaluation</h3>
                   <p className="text-gray-600">Our comprehensive inspection process evaluates your Big Spring home's unique challenges including wind exposure, hail damage history, UV deterioration, and structural conditions. We use advanced moisture detection, thermal imaging, and drone photography to document current conditions and identify potential issues before they become expensive problems.</p>
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-blue-50 p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-amber-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">2</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Customized Material Selection & Design</h3>
                   <p className="text-gray-600">Every Big Spring home receives a tailored proposal featuring shingle options matched to your home's architecture, neighborhood standards, and performance requirements. We consider factors like directional wind exposure, solar heat gain, and long-term maintenance needs while providing detailed cost-benefit analysis for each option.</p>
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-blue-50 to-white p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-amber-50 to-white p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">3</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Professional Installation & Protection</h3>
                   <p className="text-gray-600">Our certified installation teams complete most Big Spring residential projects in 2-3 days using manufacturer-certified techniques and premium materials. We protect landscaping, maintain clean worksites, and conduct quality inspections at every stage to ensure your investment delivers decades of reliable performance.</p>
                 </div>
               </div>
 
-              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-blue-50 p-6 rounded-2xl">
-                <div className="md:w-16 w-12 h-16 md:h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
+              <div className="flex md:flex-row flex-col items-center gap-8 bg-gradient-to-r from-white to-amber-50 p-6 rounded-2xl">
+                <div className="md:w-16 w-12 h-16 md:h-16 bg-brand-brown text-white rounded-full flex items-center justify-center text-2xl font-bold flex-shrink-0">4</div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">Comprehensive Warranty & Support</h3>
                   <p className="text-gray-600">Final project completion includes thorough cleanup, detailed warranty documentation, and ongoing support for Big Spring's unique climate challenges. We provide  throughout Howard County and maintain detailed maintenance schedules tailored to West Texas weather patterns.</p>
@@ -350,7 +350,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">Serving All Big Spring Communities</h2>
             
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-gradient-to-b from-blue-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">Historic Downtown Big Spring</h4>
                 <p className="text-gray-600 text-sm">Original Big Spring neighborhoods featuring 1920s-1940s architecture including Craftsman bungalows and early ranch homes. We specialize in maintaining historical character while upgrading to modern performance standards.</p>
               </div>
@@ -365,7 +365,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
                 <p className="text-gray-600 text-sm">Newer residential developments with contemporary architectural styles requiring advanced ventilation systems and energy-efficient roofing solutions to handle West Texas heat.</p>
               </div>
               
-              <div className="bg-gradient-to-b from-purple-50 to-white p-6 rounded-xl">
+              <div className="bg-gradient-to-b from-amber-50 to-white p-6 rounded-xl">
                 <h4 className="text-lg font-semibold text-brand-brown mb-3">State Park Area</h4>
                 <p className="text-gray-600 text-sm">Properties near Big Spring State Park with enhanced wind exposure requiring specialized fastening techniques and impact-resistant materials for optimal storm protection.</p>
               </div>
@@ -406,7 +406,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
 
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Big Spring Asphalt Shingle Roofing FAQs
             </h2>

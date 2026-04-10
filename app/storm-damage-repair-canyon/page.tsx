@@ -249,7 +249,7 @@ export default function StormDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-r from-slate-50 to-blue-50 p-12 rounded-3xl">
+          <section className="mb-16 bg-gradient-to-r from-slate-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               What Does Palo Duro Canyon's Weather Impact on Storm Damage Look Like?
             </h2>
@@ -282,8 +282,8 @@ export default function StormDamageRepairCanyonPage() {
               What Does Storm Damage Patterns by Canyon Area Look Like?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-xl font-bold mb-3 text-blue-700">WTAMU Campus Area</h3>
+              <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">WTAMU Campus Area</h3>
                 <ul className="text-gray-700 space-y-2 mb-4">
                   <li>• Elevated exposure to wind shear</li>
                   <li>• Large flat roof areas catch more hail</li>
@@ -387,7 +387,7 @@ export default function StormDamageRepairCanyonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

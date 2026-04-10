@@ -136,7 +136,7 @@ export default function ResidentialRoofingPerrytonPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional residential roofing throughout Perryton and Ochiltree County, serving the "Wheatheart of the Plains" at the Texas-Oklahoma-Kansas tri-state junction. This unique agricultural and energy hub presents distinct roofing challenges from expansive wheat fields, active wind farms, and the convergence of three state weather systems.</p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">Since 2014, we've served Perryton's 8,800 residents with expert installations designed for High Plains agricultural conditions. Our team understands the specific needs of farming families, energy workers, and the established community that has thrived here for generations.</p>
             
-            <div className="bg-blue-50 p-8 rounded-xl mb-8">
+            <div className="bg-amber-50 p-8 rounded-xl mb-8">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Perryton Housing Market Profile</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Perryton's housing market reflects its agricultural heritage and modern energy development. The median home value is approximately $125,000, with a housing stock that includes historic farmhouses, established neighborhoods, and modern developments serving the expanding wind energy sector. The city's strategic tri-state location has attracted steady growth despite agricultural cycles.</p>
               
@@ -282,7 +282,7 @@ export default function ResidentialRoofingPerrytonPage() {
                   <li>• Cross-border Oklahoma communities</li>
                 </ul>
                 
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">Flexible scheduling for agricultural seasons. Priority service for storm damage during wheat harvest and planting seasons.</p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function ResidentialRoofingPerrytonPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions About Perryton Roofing</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
@@ -361,7 +361,7 @@ export default function ResidentialRoofingPerrytonPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Wind Energy Considerations</h3>
                 <p className="text-gray-700 mb-6">Ochiltree County's expanding wind energy sector creates new considerations for residential roofing, from worker housing needs to environmental factors affecting nearby properties.</p>
                 
-                <div className="bg-blue-50 p-6 rounded-xl">
+                <div className="bg-amber-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Wind Energy Impact Areas:</h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Enhanced wind exposure considerations</li>

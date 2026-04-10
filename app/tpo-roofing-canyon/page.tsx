@@ -274,7 +274,7 @@ export default function TpoRoofingCanyonPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Unique Weather Challenges</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Canyon's proximity to Palo Duro Canyon creates unique microclimatic conditions. The area experiences intense wind patterns, rapid temperature changes, and increased hail activity due to its position on the High Plains. These conditions require specialized roofing systems.

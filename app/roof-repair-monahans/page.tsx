@@ -386,7 +386,7 @@ export default function RoofRepairMonahansPage() {
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Desert Assessment</h3>
                 <p className="text-gray-700">Comprehensive evaluation of sand abrasion, thermal stress, and UV degradation specific to Chihuahuan Desert conditions.</p>
               </div>
-              <div className="text-center p-6 bg-blue-50 rounded-xl">
+              <div className="text-center p-6 bg-amber-50 rounded-xl">
                 <div className="text-4xl mb-4"><Fuel className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Oil Field Expertise</h3>
                 <p className="text-gray-700">Specialized knowledge of chemical exposure, industrial vibration, and facility-specific requirements for Permian Basin operations.</p>
@@ -426,8 +426,8 @@ export default function RoofRepairMonahansPage() {
                   </div>
                 </div>
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h4 className="text-xl font-bold mb-3 text-blue-700">Phase 2: Storm Damage Documentation</h4>
+                <div className="border-l-4 border-brand-gold-vibrant pl-6">
+                  <h4 className="text-xl font-bold mb-3 text-brand-brown">Phase 2: Storm Damage Documentation</h4>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <h5 className="font-semibold mb-2">Hail Impact Analysis</h5>
@@ -546,7 +546,7 @@ export default function RoofRepairMonahansPage() {
                       <li>• Heat-welded seams for durability</li>
                     </ul>
                   </div>
-                  <div className="border-l-4 border-blue-500 pl-4">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
                     <h4 className="font-bold mb-1">TPO Cool Roof Membranes</h4>
                     <p className="text-gray-600 text-sm mb-2">Energy-efficient white membranes reflecting desert heat</p>
                     <ul className="text-xs text-gray-600 space-y-1">
@@ -555,7 +555,7 @@ export default function RoofRepairMonahansPage() {
                       <li>• Heat-welded seam integrity</li>
                     </ul>
                   </div>
-                  <div className="border-l-4 border-purple-500 pl-4">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
                     <h4 className="font-bold mb-1">Metal Roofing Systems</h4>
                     <p className="text-gray-600 text-sm mb-2">Standing seam systems for maximum durability and efficiency</p>
                     <ul className="text-xs text-gray-600 space-y-1">
@@ -582,7 +582,7 @@ export default function RoofRepairMonahansPage() {
                     <h4 className="font-bold mb-1">Dark-Colored Materials</h4>
                     <p className="text-gray-600 text-sm">Excessive heat absorption accelerates deterioration</p>
                   </div>
-                  <div className="border-l-4 border-pink-500 pl-4">
+                  <div className="border-l-4 border-brand-gold-vibrant pl-4">
                     <h4 className="font-bold mb-1">Spray Foam Applications</h4>
                     <p className="text-gray-600 text-sm">Sand infiltration and UV degradation issues</p>
                   </div>
@@ -593,13 +593,13 @@ export default function RoofRepairMonahansPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-blue-50 p-8 rounded-2xl">
+          <section className="mb-16 bg-amber-50 p-8 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
             <p className="text-lg text-gray-700 mb-8">Maximizing energy performance while minimizing environmental impact in extreme desert conditions.</p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-lg font-bold mb-3 text-blue-700">Cool Roof Benefits</h3>
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Cool Roof Benefits</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• 30-50% cooling cost reduction</li>
                   <li>• Surface temperature reduction up to 80°F</li>
@@ -617,7 +617,7 @@ export default function RoofRepairMonahansPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl">
-                <h3 className="text-lg font-bold mb-3 text-purple-700">Ventilation Solutions</h3>
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">Ventilation Solutions</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Powered ventilation systems</li>
                   <li>• Solar-powered exhaust fans</li>

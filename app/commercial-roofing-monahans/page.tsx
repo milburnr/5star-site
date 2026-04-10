@@ -136,7 +136,7 @@ export default function CommercialRoofingMonahansPage() {
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Monahans and surrounding areas, serving the gateway to the Monahans Sandhills and a diversifying West Texas economy. As a traditional oil marketing center for over 800 square miles of petroleum and cattle country, Monahans is strategically diversifying into hydroponic agriculture, military gear manufacturing, and sand mining while maintaining its tourism appeal as home to one of Texas's most unique natural attractions.</p>
             <p className="text-lg text-gray-600 leading-relaxed">Since 2014, we've served Monahans' evolving economy with expert installations and comprehensive warranties for oil and gas facilities, emerging industries, and tourism-related businesses. Our 65-minute response time from Amarillo headquarters ensures rapid service for storm repairs across diverse facility types. We handle all permits, insurance claims, and warranty documentation.</p>
             
-            <div className="mt-12 bg-gradient-to-r from-orange-50 to-blue-50 p-8 rounded-2xl border-l-4 border-brand-gold">
+            <div className="mt-12 bg-gradient-to-r from-orange-50 to-amber-50 p-8 rounded-2xl border-l-4 border-brand-gold">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">Understanding Monahans' Economic Diversification</h3>
               <p className="text-gray-700 leading-relaxed mb-4">Monahans represents a West Texas success story of economic diversification. While maintaining its foundation as an oil marketing center serving the Permian Basin, the city has strategically attracted hydroponic agriculture, military equipment manufacturing, and sand mining operations. Combined with tourism from the famous Monahans Sandhills State Park, this diversity creates unique commercial roofing needs spanning industrial, agricultural, manufacturing, and hospitality sectors.</p>
               <p className="text-gray-700 leading-relaxed">Our roofing solutions support Monahans' economic transformation while meeting the demanding requirements of petroleum operations, the specialized needs of emerging industries, and the aesthetic standards expected by tourists visiting this distinctive desert landscape.</p>
@@ -178,7 +178,7 @@ export default function CommercialRoofingMonahansPage() {
             </div>
             
             <div className="grid md:grid-cols-2 gap-8 mt-8">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🪖 Military Manufacturing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">Monahans hosts military gear manufacturing operations, requiring specialized roofing systems that meet security requirements and support precision manufacturing processes:</p>
                 <ul className="text-gray-700 space-y-2 ml-4">
@@ -325,8 +325,8 @@ export default function CommercialRoofingMonahansPage() {
                       <li>• Static-free environments for electronics</li>
                       <li>• Restricted access during installation</li>
                     </ul>
-                    <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                      <p className="text-sm text-blue-800"><strong>Manufacturing Project:</strong> Completed security-compliant roofing installation on military gear manufacturing facility with full background checks and restricted access protocols.</p>
+                    <div className="mt-4 p-4 bg-amber-50 rounded-lg">
+                      <p className="text-sm text-brand-brown"><strong>Manufacturing Project:</strong> Completed security-compliant roofing installation on military gear manufacturing facility with full background checks and restricted access protocols.</p>
                     </div>
                   </div>
                 </div>
@@ -384,7 +384,7 @@ export default function CommercialRoofingMonahansPage() {
                     <h5 className="font-bold text-gray-800">UV Exposure</h5>
                     <p className="text-sm text-gray-600">Intense desert sun degrades standard materials requiring UV-resistant coatings and membranes.</p>
                   </div>
-                  <div className="p-3 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+                  <div className="p-3 bg-amber-50 rounded-lg border-l-4 border-brand-gold">
                     <h5 className="font-bold text-gray-800">Wind Events</h5>
                     <p className="text-sm text-gray-600">Desert wind storms can exceed 80 mph requiring enhanced attachment and wind resistance.</p>
                   </div>
@@ -459,8 +459,8 @@ export default function CommercialRoofingMonahansPage() {
                   <li>• Family business extended payment terms</li>
                 </ul>
                 
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-800"><strong>Tourism Project:</strong> Helped a Monahans hotel complete roof replacement during winter off-season with payment terms aligned to spring and summer tourist revenue, maintaining guest satisfaction.</p>
+                <div className="p-4 bg-amber-50 rounded-lg">
+                  <p className="text-sm text-brand-brown"><strong>Tourism Project:</strong> Helped a Monahans hotel complete roof replacement during winter off-season with payment terms aligned to spring and summer tourist revenue, maintaining guest satisfaction.</p>
                 </div>
               </div>
             </div>
@@ -468,7 +468,7 @@ export default function CommercialRoofingMonahansPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

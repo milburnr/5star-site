@@ -275,7 +275,7 @@ export default function AsphaltShingleRoofingBorgerPage() {
                 </ul>
               </div>
             </div>
-            <div className="bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-2xl">
+            <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4 text-brand-brown">Borger Residential Roofing Challenges</h3>
               <p className="text-lg text-gray-700 mb-4">
                 Borger homeowners face unique challenges from the Texas Panhandle's severe weather patterns. With 7-9 hailstorms annually, high winds exceeding 60 mph, and extreme temperature fluctuations, residential properties need roofing systems that provide both affordability and exceptional protection.
@@ -362,7 +362,7 @@ export default function AsphaltShingleRoofingBorgerPage() {
                       <div className="text-2xl font-bold text-brand-gold">95%</div>
                       <div className="text-sm">Claim Success Rate</div>
                     </div>
-                    <div className="p-3 bg-blue-50 rounded">
+                    <div className="p-3 bg-amber-50 rounded">
                       <div className="text-2xl font-bold text-brand-gold">$500-1K</div>
                       <div className="text-sm">Typical Deductible</div>
                     </div>

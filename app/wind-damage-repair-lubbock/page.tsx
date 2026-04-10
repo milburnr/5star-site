@@ -241,7 +241,7 @@ export default function Page() {
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Lubbock Wind Characteristics</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li><strong>Elevation factor:</strong> 3,256 ft elevation intensifies wind effects</li>
@@ -299,10 +299,10 @@ export default function Page() {
               What Are the Seasonal Wind Patterns Affecting Lubbock Roofs?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-blue-900 mb-3">Winter (Dec-Feb)</h3>
-                <p className="text-sm text-blue-800 mb-3">Average: 11.4 mph sustained</p>
-                <ul className="space-y-2 text-sm text-blue-700">
+              <div className="bg-gradient-to-br from-amber-100 to-amber-50 p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">Winter (Dec-Feb)</h3>
+                <p className="text-sm text-brand-brown mb-3">Average: 11.4 mph sustained</p>
+                <ul className="space-y-2 text-sm text-brand-brown">
                   <li>• Blue norther arctic fronts with 40-55 mph gusts</li>
                   <li>• Dry, cold air increases material brittleness</li>
                   <li>• Temperature cycling stresses roof systems</li>
@@ -373,45 +373,45 @@ export default function Page() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-purple-500">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Thunderstorm Microburst Damage</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Thunderstorm Microburst Damage</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Concentrated downdrafts:</strong> Supercell thunderstorms produce focused 80-120 mph winds in areas as small as 1-2 miles</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Radial wind patterns:</strong> Microbursts create outflow in all directions, stressing roofs from multiple angles simultaneously</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Rapid onset/cessation:</strong> Damage occurs in 2-5 minutes with little warning—often catches roofs unprepared</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-purple-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Wet microburst saturation:</strong> Heavy rain saturates roofing materials before high winds hit, reducing adhesion strength</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-teal-500">
-                <h3 className="text-2xl font-bold text-teal-900 mb-4">Dry Line Wind Effects</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Dry Line Wind Effects</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Sharp wind shear boundaries:</strong> Rapid wind direction changes create complex stress patterns on roof structures</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Sustained high winds:</strong> Dry line events maintain 40-60 mph winds for hours, causing fatigue failures</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Pressure fluctuations:</strong> Atmospheric pressure changes create additional uplift stress beyond standard wind forces</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold">•</span>
+                    <span className="text-brand-gold-vibrant font-bold">•</span>
                     <span><strong>Dust loading:</strong> High dust concentrations increase effective wind density, multiplying force on roof surfaces</span>
                   </li>
                 </ul>
@@ -439,8 +439,8 @@ export default function Page() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Documentation for South Plains Claims</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Documentation for South Plains Claims</h3>
                 <p className="text-gray-700 mb-4">
                   Successful wind damage claims in Lubbock require correlating damage to specific meteorological events. The National Weather Service office provides detailed wind speed data, but agricultural debris damage may need additional documentation to prove wind causation.
                 </p>
@@ -485,8 +485,8 @@ export default function Page() {
               What Does Wind-Resistant Roofing Solutions for South Plains Conditions Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-purple-900 mb-4">Enhanced Shingle Systems</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Enhanced Shingle Systems</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>GAF Timberline HDZ (130 mph rating):</strong> Laydown adhesive and wider nail zone handle South Plains thermal cycling and sustained winds</li>
                   <li><strong>CertainTeed Landmark Solaris (110 mph + Class 4):</strong> Dual protection against wind and agricultural debris impact</li>
@@ -495,8 +495,8 @@ export default function Page() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-teal-50 to-white p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold text-teal-900 mb-4">South Plains Installation Upgrades</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">South Plains Installation Upgrades</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li><strong>8-nail high-wind pattern:</strong> Exceeds standard 6-nail for extreme exposure areas—reduces blow-off risk by 70% in 80+ mph winds</li>
                   <li><strong>Enhanced edge sealing:</strong> Additional sealant along perimeter edges where South Plains winds create maximum uplift</li>
@@ -506,28 +506,28 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-indigo-50 to-white p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold text-indigo-900 mb-6">Advanced Wind Mitigation for Agricultural Environments</h3>
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-bold text-brand-brown mb-6">Advanced Wind Mitigation for Agricultural Environments</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <div className="w-16 h-16 bg-brand-gold-vibrant rounded-full flex items-center justify-center mx-auto mb-3">
                     <span className="text-white font-bold text-xl"><Wheat className="w-6 h-6 inline-block" /></span>
                   </div>
-                  <h4 className="font-bold text-indigo-800 mb-2">Debris-Resistant Design</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Debris-Resistant Design</h4>
                   <p className="text-sm text-gray-600">Specialized materials and installation methods designed to handle South Plains agricultural debris during high-wind events.</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <div className="w-16 h-16 bg-brand-gold-vibrant rounded-full flex items-center justify-center mx-auto mb-3">
                     <span className="text-white font-bold text-xl"><Wind className="w-6 h-6 inline-block" /></span>
                   </div>
-                  <h4 className="font-bold text-indigo-800 mb-2">Microburst Protection</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Microburst Protection</h4>
                   <p className="text-sm text-gray-600">Installation techniques specifically engineered for sudden, extreme wind events common to South Plains thunderstorm activity.</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <div className="w-16 h-16 bg-brand-gold-vibrant rounded-full flex items-center justify-center mx-auto mb-3">
                     <span className="text-white font-bold text-xl"><Home className="w-6 h-6 inline-block" /></span>
                   </div>
-                  <h4 className="font-bold text-indigo-800 mb-2">Tech Terrace Tested</h4>
+                  <h4 className="font-bold text-brand-brown mb-2">Tech Terrace Tested</h4>
                   <p className="text-sm text-gray-600">Our installation methods are proven in Lubbock's most exposed neighborhoods, from Tech Terrace to Westwind developments.</p>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function Page() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions - Lubbock Wind Damage
             </h2>

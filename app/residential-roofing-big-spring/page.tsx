@@ -140,7 +140,7 @@ export default function ResidentialRoofingBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-cyan-50 p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-amber-50 p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Should You Know About Big Spring's Weather Challenges?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md">
@@ -183,7 +183,7 @@ export default function ResidentialRoofingBigSpringPage() {
                   <li>• Restoration-quality craftsmanship</li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl shadow-lg border border-purple-100">
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
                 <h3 className="text-xl font-bold mb-4 text-brand-brown">Medical Center Area Homes</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">The expanding medical district has attracted new residential development with modern homes requiring contemporary roofing solutions. We provide energy-efficient systems that reduce costs for growing families.</p>
                 <ul className="text-gray-600 space-y-2">
@@ -289,7 +289,7 @@ export default function ResidentialRoofingBigSpringPage() {
                 </div>
               </div>
               <div className="space-y-6">
-                <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-500">
+                <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold-vibrant">
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Metal Roofing Systems</h3>
                   <p className="text-gray-700 mb-3">Standing seam and panel systems ideal for Big Spring's wind exposure and extreme temperature variations. Excellent for both energy efficiency and longevity.</p>
                   <div className="grid grid-cols-2 gap-4 text-sm">
@@ -418,7 +418,7 @@ export default function ResidentialRoofingBigSpringPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">

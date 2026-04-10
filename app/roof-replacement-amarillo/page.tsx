@@ -219,8 +219,8 @@ export default function RoofReplacementAmarilloPage() {
                 </p>
               </div>
 
-              <div className="bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
-                <h3 className="text-xl font-bold text-blue-800 mb-3">High Winds</h3>
+              <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-xl font-bold text-brand-brown mb-3">High Winds</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
                   <strong>14.3 mph average winds</strong> - highest in Texas, #2 in America. Extreme gusts exceed 50 mph annually.
                 </p>
@@ -296,8 +296,8 @@ export default function RoofReplacementAmarilloPage() {
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-blue-50 p-8 rounded-2xl shadow-lg">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
+              <div className="bg-amber-50 p-8 rounded-2xl shadow-lg">
+                <div className="w-12 h-12 bg-brand-brown text-white rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
                 <h3 className="text-xl font-bold mb-4">Comprehensive Inspection</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Our certified inspectors assess your current roof condition, identifying hail damage, wind damage, and age-related deterioration. We document all findings with high-resolution photos and detailed reports for insurance claims.
@@ -342,7 +342,7 @@ export default function RoofReplacementAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 to-blue-50 p-10 rounded-2xl">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-10 rounded-2xl">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               What Premium Roofing Materials Are Available in Amarillo?
             </h2>
@@ -352,8 +352,8 @@ export default function RoofReplacementAmarilloPage() {
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">Residential Solutions</h3>
                 
                 <div className="space-y-6">
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <h4 className="text-lg font-bold text-blue-800 mb-2">Class 4 Architectural Shingles</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-6">
+                    <h4 className="text-lg font-bold text-brand-brown mb-2">Class 4 Architectural Shingles</h4>
                     <p className="text-gray-700 mb-2">
                       <strong>Premium choice:</strong> GAF Timberline HDZ, Owens Corning Duration Storm
                     </p>
@@ -374,8 +374,8 @@ export default function RoofReplacementAmarilloPage() {
                     <p className="text-lg font-bold text-green-600 mt-2">$18,000 - $35,000 (average home)</p>
                   </div>
 
-                  <div className="border-l-4 border-purple-500 pl-6">
-                    <h4 className="text-lg font-bold text-purple-800 mb-2">Synthetic Composite</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-6">
+                    <h4 className="text-lg font-bold text-brand-brown mb-2">Synthetic Composite</h4>
                     <p className="text-gray-700 mb-2">
                       <strong>Premium choice:</strong> DaVinci Roofscapes, CertainTeed Northgate
                     </p>
@@ -402,8 +402,8 @@ export default function RoofReplacementAmarilloPage() {
                     <p className="text-lg font-bold text-green-600 mt-2">$7.50 - $12.50 per sq ft</p>
                   </div>
 
-                  <div className="border-l-4 border-blue-500 pl-6">
-                    <h4 className="text-lg font-bold text-blue-800 mb-2">Modified Bitumen</h4>
+                  <div className="border-l-4 border-brand-gold-vibrant pl-6">
+                    <h4 className="text-lg font-bold text-brand-brown mb-2">Modified Bitumen</h4>
                     <p className="text-gray-700 mb-2">
                       <strong>Traditional choice:</strong> Multi-layer built-up systems
                     </p>
@@ -436,15 +436,15 @@ export default function RoofReplacementAmarilloPage() {
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-600">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">Insurance Claim Process</h3>
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insurance Claim Process</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">
                   85% of Amarillo roof replacements are covered by insurance due to hail damage. We work directly with all major insurance companies to streamline your claim process and ensure maximum coverage.
                 </p>
                 
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
+                    <div className="w-6 h-6 bg-brand-brown text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
                     <div>
                       <h4 className="font-bold">Free Storm Damage Assessment</h4>
                       <p className="text-sm text-gray-600">Complete documentation with high-resolution photos</p>
@@ -452,7 +452,7 @@ export default function RoofReplacementAmarilloPage() {
                   </div>
                   
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
+                    <div className="w-6 h-6 bg-brand-brown text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
                     <div>
                       <h4 className="font-bold">Insurance Company Meeting</h4>
                       <p className="text-sm text-gray-600">We meet with adjusters to ensure complete coverage</p>
@@ -460,7 +460,7 @@ export default function RoofReplacementAmarilloPage() {
                   </div>
                   
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
+                    <div className="w-6 h-6 bg-brand-brown text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
                     <div>
                       <h4 className="font-bold">Claim Approval & Scheduling</h4>
                       <p className="text-sm text-gray-600">Fast-track approval with immediate project scheduling</p>
@@ -468,8 +468,8 @@ export default function RoofReplacementAmarilloPage() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-sm text-blue-800 font-semibold">
+                <div className="mt-6 p-4 bg-amber-50 rounded-lg">
+                  <p className="text-sm text-brand-brown font-semibold">
                     Average deductible: $1,000 - $2,500. We offer deductible assistance programs for qualifying homeowners.
                   </p>
                 </div>
@@ -509,7 +509,7 @@ export default function RoofReplacementAmarilloPage() {
         </FadeIn>
 
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-blue-50 to-white p-12 rounded-3xl shadow-lg">
+          <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Frequently Asked Questions
             </h2>

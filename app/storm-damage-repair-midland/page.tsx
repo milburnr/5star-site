@@ -181,7 +181,7 @@ export default function Page() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-blue-900/75 to-slate-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
@@ -334,8 +334,8 @@ export default function Page() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-blue-500">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Flash Flood Damage</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Flash Flood Damage</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Midland's relatively flat terrain combined with impermeable petroleum-contaminated soils creates rapid runoff during intense rainfall events. Flash flooding can overwhelm roof drainage systems quickly, leading to membrane stress and catastrophic water infiltration.
                 </p>
@@ -456,7 +456,7 @@ export default function Page() {
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Safety Compliance</h3>
                 <p className="text-sm text-gray-700">Full petroleum industry safety protocol compliance with certified crews trained for hazardous area operations.</p>
               </div>
-              <div className="bg-blue-50 p-6 rounded-xl border-t-4 border-blue-500 text-center">
+              <div className="bg-amber-50 p-6 rounded-xl border-t-4 border-brand-gold-vibrant text-center">
                 <div className="text-3xl mb-3"><Wrench className="w-6 h-6 inline-block" /></div>
                 <h3 className="text-lg font-bold text-brand-brown mb-2">Enhanced Restoration</h3>
                 <p className="text-sm text-gray-700">Complete restoration with industrial-grade materials designed for petroleum environment exposure and enhanced weather resistance.</p>

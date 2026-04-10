@@ -175,7 +175,7 @@ export default function Page() {
 
         <h3 className="text-xl font-bold mt-6 mb-3">Unmatched Local Experience & Expertise</h3>
 
-        <div className="bg-blue-50 p-6 rounded-lg mb-6">
+        <div className="bg-amber-50 p-6 rounded-lg mb-6">
           <ul className="space-y-3">
             <li><strong>15+ Years Serving West Texas:</strong> Since 2008, we've completed over 3,500 roofing projects across the Texas Panhandle</li>
             <li><strong>Weather-Tested Knowledge:</strong> We've weathered every major storm system, from the 2019 Amarillo hailstorm to the 2021 freeze</li>
@@ -332,7 +332,7 @@ export default function Page() {
             <div className="font-bold">- Sarah M., West Amarillo</div>
           </div>
 
-          <div className="bg-blue-50 p-6 rounded-lg">
+          <div className="bg-amber-50 p-6 rounded-lg">
             <div className="flex mb-3">
               <span className="text-yellow-500 text-lg"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></span>
             </div>
@@ -356,7 +356,7 @@ export default function Page() {
             <div className="font-bold">- Jennifer L., Canyon Area</div>
           </div>
 
-          <div className="bg-purple-50 p-6 rounded-lg">
+          <div className="bg-amber-50 p-6 rounded-lg">
             <div className="flex mb-3">
               <span className="text-yellow-500 text-lg"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></span>
             </div>
@@ -394,7 +394,7 @@ export default function Page() {
         <h3 className="text-xl font-bold mt-6 mb-3">Flexible Financing Options</h3>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-blue-50 p-6 rounded-lg">
+          <div className="bg-amber-50 p-6 rounded-lg">
             <h4 className="font-bold mb-3">0% Interest Programs</h4>
             <ul className="space-y-2">
               <li>• 12 months same as cash</li>
@@ -592,7 +592,7 @@ export default function Page() {
             </ul>
           </div>
 
-          <div className="bg-blue-50 p-6 rounded-lg">
+          <div className="bg-amber-50 p-6 rounded-lg">
             <h4 className="font-bold mb-3">Storm Response Protocol</h4>
             <ul className="space-y-2">
               <li>• Pre-positioned materials</li>
