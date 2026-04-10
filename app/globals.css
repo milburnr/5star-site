@@ -87,11 +87,11 @@
 @layer components {
   /* Buttons */
   .btn-primary {
-    @apply bg-brand-gold text-[#3D2800] px-6 py-3 rounded-md font-semibold hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_15px_rgba(212,175,55,0.7)] hover:-translate-y-1 hover:scale-[1.02] active:scale-95;
+    @apply bg-brand-gold text-[#3D2800] px-6 py-3 rounded-md font-semibold hover:bg-brand-gold-vibrant transition-all duration-300 hover:-translate-y-0.5;
   }
 
   .btn-secondary {
-    @apply bg-gray-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-700 transition-all duration-300 hover:shadow-[0_0_15px_rgba(212,175,55,0.6)] hover:-translate-y-1 hover:scale-[1.02] active:scale-95;
+    @apply bg-gray-primary text-white px-6 py-3 rounded-md font-semibold hover:bg-gray-700 transition-all duration-300 hover:-translate-y-0.5;
   }
 
   /* Container */
@@ -334,7 +334,7 @@
   }
 
   .lead-form-submit {
-    @apply w-full bg-brand-gold text-[#3D2800] px-6 py-4 rounded-md font-bold text-lg hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_15px_rgba(212,175,55,0.7)] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none;
+    @apply w-full bg-brand-gold text-[#3D2800] px-6 py-4 rounded-md font-bold text-lg hover:bg-brand-gold-vibrant transition-all duration-300 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none;
   }
 
   .lead-form-success {
@@ -376,11 +376,11 @@
 
   /* CTA Hierarchy - Primary CTAs stand out more */
   .btn-primary-hero {
-    @apply bg-brand-gold text-[#3D2800] px-10 py-5 rounded-lg font-bold text-xl hover:bg-brand-gold-vibrant transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.8)] hover:-translate-y-1 hover:scale-[1.03] active:scale-95;
+    @apply bg-brand-gold text-[#3D2800] px-10 py-5 rounded-lg font-bold text-xl hover:bg-brand-gold-vibrant transition-all duration-300 hover:-translate-y-0.5;
   }
 
   .btn-secondary-hero {
-    @apply bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-white hover:text-brand-brown transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:-translate-y-2 hover:scale-105 active:scale-95;
+    @apply bg-white/10 backdrop-blur-sm border-2 border-white text-white px-10 py-5 rounded-lg font-bold text-xl hover:bg-white hover:text-brand-brown transition-all duration-300 hover:-translate-y-0.5;
   }
 
   /* Trust Badge Styles */
