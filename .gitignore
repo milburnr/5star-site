@@ -37,3 +37,6 @@ public/images/jobs/
 *.avif
 !public/images/*.jpg
 !public/images/*.webp
+# Phase 12 Stream C: trust-signal logos shipped in-repo (not R2)
+!public/images/trust/**/*.png
+!public/images/trust/**/*.svg
