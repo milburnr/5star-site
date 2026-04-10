@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { CheckCircle, Construction, DollarSign, Factory, Package, Phone, Settings, Shield, Sparkles, Target, Zap } from "lucide-react";
+import { CheckCircle, Construction, DollarSign, Factory, Package, Phone, Settings, Shield, Sparkles, Star, Target, Zap } from "lucide-react";
 
 
 export const metadata: Metadata = {
@@ -109,29 +109,74 @@ export default function Page() {
   };
 
   return (
-    <div className="container-custom py-12">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Services",
-                      "url": "/services/"
-              }
-      ]} />
-
-
+    <>
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Complete Roofing Services for West Texas</h1>
+      {/* Hero Section — mirrors /contact/ treatment (task 12.1) */}
+      {/* Background placeholder uses a wide residential completed roof from image-db.json (visualQuality=hero). Phase 13 will swap in `images/heroes/services-hero.jpg`. */}
+      <section
+        className="hero-services relative bg-cover bg-center text-white section-major min-h-[400px] flex items-center"
+        style={{
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/75 via-orange-900/55 to-yellow-900/45"></div>
+        <div className="container-custom relative z-10">
+          <div className="max-w-3xl">
+            <Breadcrumb items={[
+              { name: "Home", url: "/" },
+              { name: "Services", url: "/services/" }
+            ]} />
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mt-4 mb-6 text-white leading-tight" style={{textShadow: '0 4px 12px rgba(0,0,0,0.9)'}}>
+              Complete Roofing Services for <span className="text-brand-gold-light">West Texas</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-white leading-relaxed mb-8" style={{textShadow: '0 2px 4px rgba(0,0,0,0.8)'}}>
+              Residential, commercial, and industrial roofing specialists — hail damage repair, storm restoration, insurance claim help, and full replacements across Amarillo, Midland, Odessa, and the Texas Panhandle.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 mb-8">
+              <a
+                href="tel:8066226041"
+                className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-lg px-8 py-4 rounded-full font-bold shadow-xl hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+              >
+                <Phone className="w-6 h-6" /> Call (806) 622-6041
+              </a>
+              <a
+                href="/contact/"
+                className="bg-white text-brand-brown px-8 py-4 rounded-full font-bold hover:bg-gray-50 hover:scale-105 transition-all duration-300 text-lg shadow-xl border-2 border-brand-gold text-center"
+              >
+                Free Inspection
+              </a>
+            </div>
+            {/* Trust row — 4 compact badges matching the home hero signal set */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-sm sm:text-base">
+              <div className="flex items-center gap-2 text-white/95" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
+                <Star className="w-5 h-5 fill-brand-gold-light text-brand-gold-light shrink-0" />
+                <span className="font-semibold">4.9/5 Google</span>
+              </div>
+              <div className="flex items-center gap-2 text-white/95" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
+                <Shield className="w-5 h-5 text-brand-gold-light shrink-0" />
+                <span className="font-semibold">10+ Years</span>
+              </div>
+              <div className="flex items-center gap-2 text-white/95" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
+                <CheckCircle className="w-5 h-5 text-brand-gold-light shrink-0" />
+                <span className="font-semibold">Free Inspections</span>
+              </div>
+              <div className="flex items-center gap-2 text-white/95" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
+                <Sparkles className="w-5 h-5 text-brand-gold-light shrink-0" />
+                <span className="font-semibold">Insurance Experts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      {/* Hero Image */}
-      <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-15-1280w.jpg" alt="Professional roofing services in Amarillo Texas - Expert crew installing quality roofing - 5 Star Commercial Roofing" className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8" loading="lazy" />
-
+      <div className="container-custom py-12">
       <div className="content-block mb-12">
         <p className="text-lg">
           At 5 Star Commercial Roofing, we provide comprehensive roofing solutions for homes, businesses, and
@@ -645,6 +690,7 @@ export default function Page() {
           </a>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }
