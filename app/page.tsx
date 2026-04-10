@@ -57,7 +57,7 @@ export default function Page() {
               ⭐ 4.9/5.0 — 39 Google Reviews | Serving West Texas Since 2014
             </p>
             <p className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
-              <a href="/amarillo-texas-roofing/" className="text-white underline hover:text-brand-gold-light">Amarillo</a>&apos;s trusted roofing company — hail damage repair, roof replacement, insurance claim help, and same-day storm response for homes and businesses across the Texas Panhandle.
+              <a href="/amarillo-texas-roofing/" className="font-semibold text-brand-gold-light no-underline hover:underline">Amarillo</a>&apos;s trusted roofing company — hail damage repair, roof replacement, insurance claim help, and same-day storm response for homes and businesses across the Texas Panhandle.
             </p>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4">
               <a href="tel:8066226041" className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:scale-105 hover:shadow-[0_0_30px_rgba(212,175,55,0.7)] transition-all duration-300 flex items-center justify-center gap-2">
