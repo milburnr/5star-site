@@ -405,9 +405,9 @@ export default function Page() {
                   </div>
                 </FadeIn>
               </div>
-              <div className="bg-gradient-to-r from-amber-50 to-yellow-50 border-l-4 border-brand-gold p-8 rounded-r-2xl shadow-md">
-                <h3 className="font-bold text-xl mb-3 text-brand-brown flex items-center gap-2"><MapPin className="w-6 h-6 inline-block" /> Did You Know?</h3>
-                <p className="text-gray-700 text-lg leading-relaxed">
+              <div className="bg-gradient-to-r from-amber-50 to-yellow-50 border-l-4 border-brand-gold-vibrant pl-6 pr-8 py-8 rounded-r-2xl shadow-md">
+                <h3 className="font-bold text-xl md:text-2xl mb-3 text-brand-brown flex items-center gap-2"><MapPin className="w-6 h-6 inline-block text-brand-gold-vibrant" /> Did You Know?</h3>
+                <p className="text-gray-700 text-lg md:text-xl leading-relaxed font-medium">
                   Amarillo, Midland, and Odessa are among the top 20 cities in the U.S. for hail frequency.
                   Class 4 impact-resistant shingles can reduce hail damage by up to 90% and qualify you for
                   10-30% insurance premium discounts in West Texas.
