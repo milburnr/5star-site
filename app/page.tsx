@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import { InsuranceLogos } from "@/components/InsuranceLogos";
+import { MaterialBrands } from "@/components/MaterialBrands";
 import {
   Accordion,
   AccordionContent,
@@ -117,6 +119,9 @@ export default function Page() {
           </div>
         </section>
       </FadeIn>
+
+      {/* Phase 12 Stream C (12.14): insurance carrier trust strip */}
+      <InsuranceLogos />
 
       {/* Definition Blocks - AI Overview / Featured Snippet Optimized */}
       <FadeIn>
@@ -490,6 +495,9 @@ export default function Page() {
             </div>
           </div>
         </section>
+
+        {/* Phase 12 Stream C (12.15): residential material brand strip */}
+        <MaterialBrands variant="residential" />
 
         {/* Our Process Section - Visual Timeline */}
         <FadeIn>
