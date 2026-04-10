@@ -79,31 +79,31 @@ export default function Page() {
           <div className="container-custom relative z-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-8 text-center">
               <FadeIn delay={0.1}>
-                <a href="/about/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-1 sm:mb-2 md:mb-3">
+                <a href="/about/" className="block bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer after:content-[''] after:block after:w-12 after:h-0.5 after:bg-brand-gold-vibrant after:mx-auto after:mt-3">
+                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3">
                     <AnimatedCounter to={10} suffix="+" />
                   </div>
-                  <div className="text-brand-brown font-semibold text-xs sm:text-sm md:text-lg group-hover:text-brand-gold transition-colors">Years Experience</div>
+                  <div className="text-gray-primary font-semibold text-sm md:text-lg">Years Experience</div>
                 </a>
               </FadeIn>
               <FadeIn delay={0.2}>
-                <a href="/contact/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-1 sm:mb-2 md:mb-3">
+                <a href="/contact/" className="block bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer after:content-[''] after:block after:w-12 after:h-0.5 after:bg-brand-gold-vibrant after:mx-auto after:mt-3">
+                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3">
                     <AnimatedCounter to={100} suffix="%" />
                   </div>
-                  <div className="text-brand-brown font-semibold text-xs sm:text-sm md:text-lg group-hover:text-brand-gold transition-colors">Free Inspections</div>
+                  <div className="text-gray-primary font-semibold text-sm md:text-lg">Free Inspections</div>
                 </a>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <a href="/hail-damage-repair-amarillo/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent mb-1 sm:mb-2 md:mb-3">$50M+</div>
-                  <div className="text-brand-brown font-semibold text-xs sm:text-sm md:text-lg group-hover:text-brand-gold transition-colors">Claims Helped</div>
+                <a href="/hail-damage-repair-amarillo/" className="block bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer after:content-[''] after:block after:w-12 after:h-0.5 after:bg-brand-gold-vibrant after:mx-auto after:mt-3">
+                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3">$50M+</div>
+                  <div className="text-gray-primary font-semibold text-sm md:text-lg">Claims Helped</div>
                 </a>
               </FadeIn>
               <FadeIn delay={0.4}>
-                <a href="/reviews/" className="block bg-gradient-to-br from-white to-amber-50 p-4 sm:p-6 md:p-8 rounded-xl md:rounded-2xl shadow-md md:shadow-lg hover:shadow-xl md:hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-brand-gold/20 cursor-pointer group">
-                  <div className="text-xl sm:text-2xl md:text-3xl mb-1 sm:mb-2 md:mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
-                  <div className="text-brand-brown font-semibold text-xs sm:text-sm md:text-lg group-hover:text-brand-gold transition-colors">5-Star Rated</div>
+                <a href="/reviews/" className="block bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer after:content-[''] after:block after:w-12 after:h-0.5 after:bg-brand-gold-vibrant after:mx-auto after:mt-3">
+                  <div className="text-brand-brown font-heading font-bold text-4xl md:text-5xl mb-1 sm:mb-2 md:mb-3"><span className="flex gap-0.5 justify-center">{[...Array(5)].map((_, i) => (<Star key={i} className="w-8 h-8 fill-brand-gold-vibrant text-brand-gold-vibrant" />))}</span></div>
+                  <div className="text-gray-primary font-semibold text-sm md:text-lg">5-Star Rated</div>
                 </a>
               </FadeIn>
             </div>
