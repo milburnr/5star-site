@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InsuranceLogos } from "@/components/InsuranceLogos";
+import { MaterialBrands } from "@/components/MaterialBrands";
 import { CheckCircle, Construction, DollarSign, Factory, Package, Phone, Settings, Shield, Sparkles, Star, Target, Zap } from "lucide-react";
 
 
@@ -175,6 +177,9 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
+      <InsuranceLogos />
 
       <div className="container-custom py-12">
       <div className="content-block mb-12">
@@ -379,6 +384,9 @@ export default function Page() {
           </FadeIn>
         </div>
       </section>
+
+      {/* Phase 12 Stream C (12.15): residential material brand strip */}
+      <MaterialBrands variant="residential" />
 
       {/* Commercial Services */}
       <section className="mb-16">
