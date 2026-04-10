@@ -159,9 +159,29 @@ export default function RootLayout({
                     style={{ border: 0 }}
                   ></iframe>
                 </div>
-                {/* Phase 12 Stream C: accreditation row (BBB / GAF / OC / cert badges)
-                    will be inserted here once Rich confirms which certifications are
-                    currently held. Skip by default per plan 12.18. */}
+                {/* Phase 12 Stream C (12.18): trademark disclaimer + cert badge placeholder.
+                    Cert badges are intentionally NOT rendered — per plan 12.18 the default
+                    is "skip" until Rich confirms which certifications 5 Star currently holds.
+                    When confirmed, uncomment the accreditation block below and drop the
+                    relevant badge SVGs into public/images/trust/accreditation/. */}
+                <p className="mt-4 text-xs text-gray-300/80 leading-relaxed">
+                  Carrier and manufacturer logos are trademarks of their respective owners.
+                  5 Star Commercial Roofing is independent and is not affiliated with or
+                  endorsed by any listed carrier or manufacturer.
+                </p>
+                {/*
+                <div className="mt-4">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-brand-gold-bright mb-2">
+                    Accredited &amp; Certified
+                  </p>
+                  <div className="flex flex-wrap gap-3 items-center">
+                    <img src="/images/trust/accreditation/bbb-a-plus.svg" alt="BBB A+ Accredited" width="80" height="32" className="h-8 w-auto opacity-80 hover:opacity-100 grayscale hover:grayscale-0 transition" />
+                    <img src="/images/trust/accreditation/gaf-master-elite.svg" alt="GAF Master Elite" width="80" height="32" className="h-8 w-auto opacity-80 hover:opacity-100 grayscale hover:grayscale-0 transition" />
+                    <img src="/images/trust/accreditation/oc-platinum.svg" alt="Owens Corning Platinum Preferred" width="80" height="32" className="h-8 w-auto opacity-80 hover:opacity-100 grayscale hover:grayscale-0 transition" />
+                    <img src="/images/trust/accreditation/ct-select.svg" alt="CertainTeed SELECT ShingleMaster" width="80" height="32" className="h-8 w-auto opacity-80 hover:opacity-100 grayscale hover:grayscale-0 transition" />
+                  </div>
+                </div>
+                */}
               </div>
 
               <div>
