@@ -305,16 +305,16 @@ export default function Page() {
         </section>
 
         {/* Before/After Transformations */}
-        <section className="mb-16 section-major bg-gradient-to-b from-white via-amber-50/30 to-white relative overflow-hidden">
+        <section className="section-sub bg-gradient-to-b from-white via-amber-50/30 to-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(251,191,36,0.08),transparent_40%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_70%,rgba(249,115,22,0.08),transparent_40%)]"></div>
           <div className="relative z-10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">See Our Quality Work</h2>
-            <p className="text-center text-lg mb-12 max-w-3xl mx-auto text-gray-600">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">See Our Quality Work</h2>
+            <p className="text-center text-base md:text-lg mb-8 max-w-3xl mx-auto text-gray-600">
               Real results from Amarillo, Midland, and Odessa homeowners. Click any project to learn more about our services in that area.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-8">
               {/* Project 1 - Hail Damage */}
               <FadeIn delay={0.1}>
                 <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
@@ -378,7 +378,7 @@ export default function Page() {
 
         {/* Texas Panhandle Hail Statistics */}
         <FadeIn>
-          <section className="mb-16 section-major bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl relative overflow-hidden">
+          <section className="section-sub bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl relative overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.1),transparent_60%)]"></div>
             <div className="relative z-10">
               <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">Why West Texas Needs Impact-Resistant Roofing</h2>
@@ -418,7 +418,7 @@ export default function Page() {
         </FadeIn>
 
         {/* Roofing Materials Section */}
-        <section className="mb-16 section-major bg-gradient-to-b from-white via-orange-50/20 to-white relative overflow-hidden">
+        <section className="section-sub bg-gradient-to-b from-white via-orange-50/20 to-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(249,115,22,0.06),transparent_50%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(251,191,36,0.06),transparent_50%)]"></div>
           <div className="relative z-10">
