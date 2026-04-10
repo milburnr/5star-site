@@ -114,7 +114,7 @@ export default function RootLayout({
                 <a href="/blog/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Blog</a>
                 <a href="/reviews/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Reviews</a>
                 <a href="/about/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">About</a>
-                <a href="/contact/" className="bg-[#3D5A70] text-white px-6 py-2 rounded-full font-semibold hover:bg-[#2C4A5E] transition-all duration-200 text-sm hover:scale-105 shadow-lg">Contact</a>
+                <a href="/contact/" className="bg-brand-brown text-white px-6 py-2 rounded-full font-semibold hover:bg-brand-brown-dark transition-all duration-200 text-sm hover:scale-105 shadow-lg">Contact</a>
               </div>
 
               <MobileMenu />
