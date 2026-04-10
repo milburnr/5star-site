@@ -55,6 +55,13 @@
     --shadow-md: 0 4px 6px -1px hsl(var(--shadow-dark) / 0.1), 0 2px 4px -2px hsl(var(--shadow-light) / 0.1);
     --shadow-lg: 0 10px 15px -3px hsl(var(--shadow-dark) / 0.15), 0 4px 6px -4px hsl(var(--shadow-light) / 0.15);
     --shadow-xl: 0 20px 25px -5px hsl(var(--shadow-dark) / 0.2), 0 8px 10px -6px hsl(var(--shadow-light) / 0.2);
+
+    /* Animation duration token scale (task 12.24).
+       Follow-up codemod can replace scattered `duration-200|300|500|700`
+       Tailwind utilities with these tokens for consistency. */
+    --duration-fast: 150ms;
+    --duration-base: 250ms;
+    --duration-slow: 400ms;
   }
 }
 
