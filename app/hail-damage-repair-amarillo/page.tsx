@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InsuranceLogos } from "@/components/InsuranceLogos";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -170,6 +171,9 @@ export default function HailDamageRepairAmarilloPage() {
           </FadeIn>
         </div>
       </section>
+
+      {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
+      <InsuranceLogos />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

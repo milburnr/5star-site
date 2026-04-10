@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { AlertTriangle, Building2, ClipboardList, Hammer } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -183,6 +184,9 @@ export default function StormDamageRepairAmarilloPage() {
           </FadeIn>
         </div>
       </section>
+
+      {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
+      <InsuranceLogos />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-red-50 to-white">
