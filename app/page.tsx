@@ -49,7 +49,7 @@ export default function Page() {
       >
         <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30"></div>
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl md:backdrop-blur-sm md:bg-gradient-to-r md:from-black/40 md:to-transparent p-4 sm:p-6 md:p-8 lg:p-12 md:rounded-2xl md:border-l-4 md:border-brand-gold">
+          <div className="max-w-4xl p-4 sm:p-6 md:p-8 lg:p-12">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 md:mb-6 text-white leading-tight" style={{textShadow: '0 2px 8px rgba(0,0,0,0.9)'}}>
               Amarillo Residential &amp; Commercial <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
             </h1>
