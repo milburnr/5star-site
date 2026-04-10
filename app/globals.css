@@ -188,6 +188,12 @@
     @apply relative bg-cover bg-center text-white py-16 md:py-24 lg:py-32;
   }
 
+  /* Task 12.25: kept — actively used by 26+ location/blog hero sections
+     (amarillo, lubbock, midland, odessa, canyon, pampa, borger, hereford,
+     perryton, big-spring, snyder, levelland, dumas, monahans, andrews,
+     plainview, vega, claude, bushland, wildorado, flat-roof-repair-midland,
+     metal-roof-installation-odessa, blog hub, and blog posts). Stream A/B
+     notes marking this "dead" were incorrect. */
   .hero-overlay {
     @apply absolute inset-0 bg-gradient-to-r from-black/70 to-black/50;
   }
