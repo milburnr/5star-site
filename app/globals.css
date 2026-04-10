@@ -212,7 +212,7 @@
   }
 
   .feature-icon {
-    @apply text-3xl mb-2;
+    @apply w-8 h-8 mb-2 text-brand-gold-vibrant;
   }
 
   .feature-title {
