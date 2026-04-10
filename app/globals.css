@@ -154,6 +154,33 @@
     @apply py-12 md:py-16;
   }
 
+  /*
+   * Task 12.6 — temporary warm overlay for location hero backgrounds.
+   *
+   * Current bundled hero images on city pages are close-ups of shingles that
+   * read as flat gray. Until Phase 13 ships wide establishing shots via the
+   * IMAGE-PROMPTS.md queue, this class applies a warm brand-brown -> gold
+   * gradient over the underlying image so heroes feel on-brand instead of
+   * gray.
+   *
+   * Usage:
+   *   <section
+   *     className="hero-location ..."
+   *     style={{ '--hero-bg': "url(https://.../hero.webp)" }}>
+   */
+  .hero-location {
+    background-image:
+      linear-gradient(
+        to bottom right,
+        rgba(129, 93, 1, 0.85),
+        rgba(129, 93, 1, 0.6) 50%,
+        rgba(228, 198, 110, 0.4)
+      ),
+      var(--hero-bg);
+    background-size: cover;
+    background-position: center;
+  }
+
   .section-title {
     @apply text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center;
   }
