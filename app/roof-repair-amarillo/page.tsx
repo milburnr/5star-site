@@ -107,7 +107,7 @@ export default function RoofRepairAmarilloPage() {
       </section>
 
       <FadeIn>
-        <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
+        <section className="section-major bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">52</div><div className="text-brand-brown font-semibold text-lg">Median Home Age</div></div>

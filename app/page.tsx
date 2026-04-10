@@ -45,7 +45,7 @@ export default function Page() {
     <>
       {/* Hero Section - Mobile optimized for above-the-fold CTA */}
       <section
-        className="hero-home relative text-white py-8 sm:py-12 md:py-20 lg:py-28 min-h-0 md:min-h-[500px] lg:min-h-[600px] flex items-center"
+        className="hero-home section-major relative text-white min-h-0 md:min-h-[500px] lg:min-h-[600px] flex items-center"
       >
         <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30"></div>
         <div className="container-custom relative z-10">
@@ -73,7 +73,7 @@ export default function Page() {
 
       {/* Trust Signals - Compact on mobile */}
       <FadeIn>
-        <section className="py-6 sm:py-10 md:py-16 bg-gradient-to-b from-amber-50 via-orange-50 to-amber-50 relative overflow-hidden">
+        <section className="section-major bg-gradient-to-b from-amber-50 via-orange-50 to-amber-50 relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(251,191,36,0.1),transparent_50%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(249,115,22,0.1),transparent_50%)]"></div>
           <div className="container-custom relative z-10">
@@ -113,7 +113,7 @@ export default function Page() {
 
       {/* Definition Blocks - AI Overview / Featured Snippet Optimized */}
       <FadeIn>
-        <section id="hail-damage-definitions" className="py-16 bg-white">
+        <section id="hail-damage-definitions" className="section-sub bg-white">
           <div className="container-custom">
             <h2 className="text-3xl font-bold mb-10 text-center">Understanding Hail Damage Roofing in Amarillo</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -298,7 +298,7 @@ export default function Page() {
         </section>
 
         {/* Before/After Transformations */}
-        <section className="mb-16 py-16 bg-gradient-to-b from-white via-amber-50/30 to-white relative overflow-hidden">
+        <section className="mb-16 section-major bg-gradient-to-b from-white via-amber-50/30 to-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(251,191,36,0.08),transparent_40%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_70%,rgba(249,115,22,0.08),transparent_40%)]"></div>
           <div className="relative z-10">
@@ -371,7 +371,7 @@ export default function Page() {
 
         {/* Texas Panhandle Hail Statistics */}
         <FadeIn>
-          <section className="mb-16 py-16 bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl relative overflow-hidden">
+          <section className="mb-16 section-major bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl relative overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.1),transparent_60%)]"></div>
             <div className="relative z-10">
               <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">Why West Texas Needs Impact-Resistant Roofing</h2>
@@ -411,7 +411,7 @@ export default function Page() {
         </FadeIn>
 
         {/* Roofing Materials Section */}
-        <section className="mb-16 py-16 bg-gradient-to-b from-white via-orange-50/20 to-white relative overflow-hidden">
+        <section className="mb-16 section-major bg-gradient-to-b from-white via-orange-50/20 to-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(249,115,22,0.06),transparent_50%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(251,191,36,0.06),transparent_50%)]"></div>
           <div className="relative z-10">
@@ -601,7 +601,7 @@ export default function Page() {
 
         {/* Also Serving - Below-fold links to West Texas city hubs */}
         <FadeIn>
-          <section className="section pb-16">
+          <section className="section-sub">
             <h2 className="text-2xl font-bold text-center mb-3 text-brand-brown">
               Also Serving West Texas &amp; Beyond
             </h2>
@@ -620,7 +620,7 @@ export default function Page() {
 
         {/* Hail Damage & Insurance FAQ Section */}
         <FadeIn>
-          <section id="hail-damage-faq" className="mb-16 py-12 bg-gradient-to-b from-gray-50 to-white rounded-3xl">
+          <section id="hail-damage-faq" className="mb-16 section-sub bg-gradient-to-b from-gray-50 to-white rounded-3xl">
             <h2 className="text-3xl font-bold mb-4 text-center">Hail Damage &amp; Insurance FAQs for Amarillo &amp; Texas Panhandle Homeowners</h2>
             <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
               Common questions about hail damage roof repair and insurance claims in Amarillo, Midland, Odessa, and the Texas Panhandle.

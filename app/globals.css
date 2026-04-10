@@ -140,9 +140,18 @@
     @apply text-brand-gold font-semibold hover:text-brand-gold-vibrant transition-colors;
   }
 
-  /* Sections */
+  /* Section rhythm tokens (task 12.5) — use these instead of ad-hoc py-* on <section>. */
+  .section-major {
+    @apply py-16 md:py-24;
+  }
+
+  .section-sub {
+    @apply py-12 md:py-16;
+  }
+
+  /* Legacy .section alias — kept for backward compatibility, equals .section-sub. */
   .section {
-    @apply py-8 md:py-12;
+    @apply py-12 md:py-16;
   }
 
   .section-title {
