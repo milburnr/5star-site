@@ -129,10 +129,12 @@ export default function RootLayout({
             <div className="grid md:grid-cols-5 gap-8">
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-gold-bright">Contact Us</h3>
-                <p>2909 S Western St</p>
-                <p>Amarillo, TX 79109</p>
+                <address className="not-italic">
+                  <p>2909 S Western St</p>
+                  <p>Amarillo, TX 79109</p>
+                </address>
                 <p className="mt-2">
-                  <a href="tel:8066226041" className="text-white hover:text-brand-gold-bright font-medium">
+                  <a href="tel:8066226041" className="text-white hover:text-brand-gold-bright font-bold text-lg">
                     (806) 622-6041
                   </a>
                 </p>
@@ -143,9 +145,23 @@ export default function RootLayout({
                 </p>
                 <div className="mt-4">
                   <p className="font-semibold text-white">Hours</p>
-                  <p className="text-sm">Monday - Sunday</p>
-                  <p className="text-sm">9:00 AM - 5:00 PM</p>
+                  <p className="text-sm">Mon–Sun · 9:00 AM – 5:00 PM</p>
                 </div>
+                {/* Lazy Google Maps embed for NAP/local SEO — 5 Star Roofing HQ */}
+                <div className="mt-4 rounded-lg overflow-hidden border border-brand-gold/30 shadow-md">
+                  <iframe
+                    title="5 Star Commercial Roofing — 2909 S Western St, Amarillo, TX 79109"
+                    src="https://www.google.com/maps?q=2909+S+Western+St,+Amarillo,+TX+79109&output=embed"
+                    width="100%"
+                    height="180"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    style={{ border: 0 }}
+                  ></iframe>
+                </div>
+                {/* Phase 12 Stream C: accreditation row (BBB / GAF / OC / cert badges)
+                    will be inserted here once Rich confirms which certifications are
+                    currently held. Skip by default per plan 12.18. */}
               </div>
 
               <div>
