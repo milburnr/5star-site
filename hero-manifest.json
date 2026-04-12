@@ -2,277 +2,254 @@
   {
     "city": "amarillo-tx",
     "baseName": "amarillo",
-    "heroName": "amarillo-hero-1",
-    "original": "/Users/bo/Photos/5-star/amarillo-tx/sleepy-hollow-boulevard/sleepy-hollow-boulevard-after-2.webp",
-    "r2Path": "images/heroes/amarillo-hero-1",
+    "heroName": "amarillo-hero",
+    "r2Path": "images/heroes/amarillo-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.avif"
     }
   },
   {
     "city": "borger-tx",
     "baseName": "borger",
-    "heroName": "borger-hero-1",
-    "original": "/Users/bo/Photos/5-star/borger-tx/westhaven-drive/westhaven-drive-before-38.webp",
-    "r2Path": "images/heroes/borger-hero-1",
+    "heroName": "borger-hero",
+    "r2Path": "images/heroes/borger-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.avif"
     }
   },
   {
     "city": "canyon-tx",
     "baseName": "canyon",
-    "heroName": "canyon-hero-1",
-    "original": "/Users/bo/Photos/5-star/canyon-tx/conner/conner-before-51.webp",
-    "r2Path": "images/heroes/canyon-hero-1",
+    "heroName": "canyon-hero",
+    "r2Path": "images/heroes/canyon-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.avif"
     }
   },
   {
     "city": "channing-tx",
     "baseName": "channing",
-    "heroName": "channing-hero-1",
-    "original": "/Users/bo/Photos/5-star/channing-tx/santa-fe-avenue/santa-fe-avenue-after-14.webp",
-    "r2Path": "images/heroes/channing-hero-1",
+    "heroName": "channing-hero",
+    "r2Path": "images/heroes/channing-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/channing-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/channing-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/channing-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/channing-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/channing-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/channing-hero.avif"
     }
   },
   {
     "city": "clarendon-tx",
     "baseName": "clarendon",
-    "heroName": "clarendon-hero-1",
-    "original": "/Users/bo/Photos/5-star/clarendon-tx/south-kearney-street/south-kearney-street-before-9.webp",
-    "r2Path": "images/heroes/clarendon-hero-1",
+    "heroName": "clarendon-hero",
+    "r2Path": "images/heroes/clarendon-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/clarendon-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/clarendon-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/clarendon-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/clarendon-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/clarendon-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/clarendon-hero.avif"
     }
   },
   {
     "city": "dalhart-tx",
     "baseName": "dalhart",
-    "heroName": "dalhart-hero-1",
-    "original": "/Users/bo/Photos/5-star/dalhart-tx/wagon-trail-rd/wagon-trail-rd-before-9.webp",
-    "r2Path": "images/heroes/dalhart-hero-1",
+    "heroName": "dalhart-hero",
+    "r2Path": "images/heroes/dalhart-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dalhart-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dalhart-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dalhart-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dalhart-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dalhart-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dalhart-hero.avif"
     }
   },
   {
     "city": "dumas-tx",
     "baseName": "dumas",
-    "heroName": "dumas-hero-1",
-    "original": "/Users/bo/Photos/5-star/dumas-tx/bruce-avenue/bruce-avenue-after-9.webp",
-    "r2Path": "images/heroes/dumas-hero-1",
+    "heroName": "dumas-hero",
+    "r2Path": "images/heroes/dumas-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.avif"
     }
   },
   {
     "city": "earth-tx",
     "baseName": "earth",
-    "heroName": "earth-hero-1",
-    "original": "/Users/bo/Photos/5-star/earth-tx/ne-1st/ne-1st-before-101.webp",
-    "r2Path": "images/heroes/earth-hero-1",
+    "heroName": "earth-hero",
+    "r2Path": "images/heroes/earth-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/earth-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/earth-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/earth-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/earth-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/earth-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/earth-hero.avif"
     }
   },
   {
     "city": "hereford-tx",
     "baseName": "hereford",
-    "heroName": "hereford-hero-1",
-    "original": "/Users/bo/Photos/5-star/hereford-tx/ranger-street/ranger-street-before-17.webp",
-    "r2Path": "images/heroes/hereford-hero-1",
+    "heroName": "hereford-hero",
+    "r2Path": "images/heroes/hereford-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hereford-hero.avif"
     }
   },
   {
     "city": "levelland-tx",
     "baseName": "levelland",
-    "heroName": "levelland-hero-1",
-    "original": "/Users/bo/Photos/5-star/levelland-tx/cherry-street/cherry-street-before-9.webp",
-    "r2Path": "images/heroes/levelland-hero-1",
+    "heroName": "levelland-hero",
+    "r2Path": "images/heroes/levelland-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.avif"
     }
   },
   {
     "city": "lubbock-tx",
     "baseName": "lubbock",
-    "heroName": "lubbock-hero-1",
-    "original": "/Users/bo/Photos/5-star/lubbock-tx/35th-street/35th-street-before-16.webp",
-    "r2Path": "images/heroes/lubbock-hero-1",
+    "heroName": "lubbock-hero",
+    "r2Path": "images/heroes/lubbock-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.avif"
     }
   },
   {
     "city": "memphis-tx",
     "baseName": "memphis",
-    "heroName": "memphis-hero-1",
-    "original": "/Users/bo/Photos/5-star/memphis-tx/n-18th/n-18th-before-11.webp",
-    "r2Path": "images/heroes/memphis-hero-1",
+    "heroName": "memphis-hero",
+    "r2Path": "images/heroes/memphis-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/memphis-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/memphis-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/memphis-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/memphis-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/memphis-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/memphis-hero.avif"
     }
   },
   {
     "city": "midland-tx",
     "baseName": "midland",
-    "heroName": "midland-hero-1",
-    "original": "/Users/bo/Photos/5-star/midland-tx/hall-of-fame/hall-of-fame-before-25.webp",
-    "r2Path": "images/heroes/midland-hero-1",
+    "heroName": "midland-hero",
+    "r2Path": "images/heroes/midland-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.avif"
     }
   },
   {
     "city": "morton-tx",
     "baseName": "morton",
-    "heroName": "morton-hero-1",
-    "original": "/Users/bo/Photos/5-star/morton-tx/east-lincoln-avenue/east-lincoln-avenue-after-51.webp",
-    "r2Path": "images/heroes/morton-hero-1",
+    "heroName": "morton-hero",
+    "r2Path": "images/heroes/morton-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/morton-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/morton-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/morton-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/morton-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/morton-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/morton-hero.avif"
     }
   },
   {
     "city": "odessa-tx",
     "baseName": "odessa",
-    "heroName": "odessa-hero-1",
-    "original": "/Users/bo/Photos/5-star/odessa-tx/east-96th-street/east-96th-street-after-15.webp",
-    "r2Path": "images/heroes/odessa-hero-1",
+    "heroName": "odessa-hero",
+    "r2Path": "images/heroes/odessa-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.avif"
     }
   },
   {
     "city": "pampa-tx",
     "baseName": "pampa",
-    "heroName": "pampa-hero-1",
-    "original": "/Users/bo/Photos/5-star/pampa-tx/north-dogwood-lane/north-dogwood-lane-before-44.webp",
-    "r2Path": "images/heroes/pampa-hero-1",
+    "heroName": "pampa-hero",
+    "r2Path": "images/heroes/pampa-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.avif"
     }
   },
   {
     "city": "perryton-tx",
     "baseName": "perryton",
-    "heroName": "perryton-hero-1",
-    "original": "/Users/bo/Photos/5-star/perryton-tx/utah-street/utah-street-before-12.webp",
-    "r2Path": "images/heroes/perryton-hero-1",
+    "heroName": "perryton-hero",
+    "r2Path": "images/heroes/perryton-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.avif"
     }
   },
   {
     "city": "plainview-tx",
     "baseName": "plainview",
-    "heroName": "plainview-hero-1",
-    "original": "/Users/bo/Photos/5-star/plainview-tx/county-road-u/county-road-u-before-15.webp",
-    "r2Path": "images/heroes/plainview-hero-1",
+    "heroName": "plainview-hero",
+    "r2Path": "images/heroes/plainview-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/plainview-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/plainview-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/plainview-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/plainview-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/plainview-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/plainview-hero.avif"
     }
   },
   {
     "city": "quitaque-tx",
     "baseName": "quitaque",
-    "heroName": "quitaque-hero-1",
-    "original": "/Users/bo/Photos/5-star/quitaque-tx/fourth-street/fourth-street-before-7.webp",
-    "r2Path": "images/heroes/quitaque-hero-1",
+    "heroName": "quitaque-hero",
+    "r2Path": "images/heroes/quitaque-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/quitaque-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/quitaque-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/quitaque-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/quitaque-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/quitaque-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/quitaque-hero.avif"
     }
   },
   {
     "city": "san-angelo-tx",
     "baseName": "san-angelo",
-    "heroName": "san-angelo-hero-1",
-    "original": "/Users/bo/Photos/5-star/san-angelo-tx/willowbrook-dr/willowbrook-dr-after-72.webp",
-    "r2Path": "images/heroes/san-angelo-hero-1",
+    "heroName": "san-angelo-hero",
+    "r2Path": "images/heroes/san-angelo-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/san-angelo-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/san-angelo-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/san-angelo-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/san-angelo-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/san-angelo-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/san-angelo-hero.avif"
     }
   },
   {
     "city": "sanderson-tx",
     "baseName": "sanderson",
-    "heroName": "sanderson-hero-1",
-    "original": "/Users/bo/Photos/5-star/sanderson-tx/n-1st/n-1st-before-79.webp",
-    "r2Path": "images/heroes/sanderson-hero-1",
+    "heroName": "sanderson-hero",
+    "r2Path": "images/heroes/sanderson-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/sanderson-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/sanderson-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/sanderson-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/sanderson-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/sanderson-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/sanderson-hero.avif"
     }
   },
   {
     "city": "stinnett-tx",
     "baseName": "stinnett",
-    "heroName": "stinnett-hero-1",
-    "original": "/Users/bo/Photos/5-star/stinnett-tx/east-2nd-street/east-2nd-street-after-5.webp",
-    "r2Path": "images/heroes/stinnett-hero-1",
+    "heroName": "stinnett-hero",
+    "r2Path": "images/heroes/stinnett-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/stinnett-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/stinnett-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/stinnett-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/stinnett-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/stinnett-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/stinnett-hero.avif"
     }
   },
   {
     "city": "wichita-falls-tx",
     "baseName": "wichita-falls",
-    "heroName": "wichita-falls-hero-1",
-    "original": "/Users/bo/Photos/5-star/wichita-falls-tx/sand-beach-road/sand-beach-road-before-25.webp",
-    "r2Path": "images/heroes/wichita-falls-hero-1",
+    "heroName": "wichita-falls-hero",
+    "r2Path": "images/heroes/wichita-falls-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wichita-falls-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wichita-falls-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wichita-falls-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wichita-falls-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wichita-falls-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wichita-falls-hero.avif"
     }
   },
   {
