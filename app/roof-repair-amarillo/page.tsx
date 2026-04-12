@@ -91,7 +91,7 @@ export default function RoofRepairAmarilloPage() {
 
       <section
         className="hero-location relative text-white py-32 min-h-[700px] flex items-center"
-        style={{ ['--hero-bg' as any]: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp)' }}
+        style={{ ['--hero-bg' as any]: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg)' }}
       >
         {/* Warm gradient overlay is baked into .hero-location (task 12.6) — no inner overlay needed until Phase 13 ships real hero imagery. */}
         <div className="container-custom relative z-10">
