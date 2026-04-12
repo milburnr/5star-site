@@ -133,11 +133,13 @@ export default function Page() {
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Commercial Roofing Services in Amarillo</h1>
 
-      {/* Hero Image */}
+      {/* Hero Image — AI-generated commercial roofing hero */}
       <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg"
-        alt="Commercial roofing services Midland Odessa Texas - Flat roof TPO installation on business building - 5 Star Commercial Roofing"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial.jpg"
+        alt="Commercial roofing crew working on a flat roof system at golden hour across West Texas"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
+        width={2560}
+        height={1440}
       />
 
       <div className="bg-brand-gold-light p-8 rounded-lg mb-8">

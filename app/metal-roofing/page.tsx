@@ -178,10 +178,13 @@ export default function Page() {
         Metal Roofing Installation and Repair Across West Texas
       </h1>
 
+      {/* Hero Image — AI-generated metal roofing hero */}
       <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp"
-        alt="Metal roofing installation in West Texas - standing seam panels on residential and commercial buildings"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg"
+        alt="Standing seam metal roof on a West Texas building gleaming at golden hour"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
+        width={2560}
+        height={1440}
       />
 
       <FadeIn>

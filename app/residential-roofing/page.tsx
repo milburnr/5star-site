@@ -126,8 +126,8 @@ export default function Page() {
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Residential Roofing Services in Amarillo</h1>
 
-      {/* Hero Image */}
-      <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-11-1280w.jpg" alt="Residential roofing services Amarillo Texas - Professional crew installing architectural shingles at sunset - 5 Star Commercial Roofing" className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8" loading="lazy" />
+      {/* Hero Image — AI-generated residential roofing hero */}
+      <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg" alt="Residential roofing crew installing shingles on a West Texas home at sunset" className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8" width={2560} height={1440} />
 
       <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold text-brand-brown mb-4">Protecting West Texas Homes for Over 10 Years</h2>
