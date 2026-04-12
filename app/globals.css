@@ -80,11 +80,11 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  /* Optimized Hero Background - Homepage - Local for fastest LCP */
+  /* Optimized Hero Background - Homepage — AI-generated sunset hero from R2 */
   .hero-home {
     background-size: cover;
     background-position: center;
-    background-image: url(/images/hero-bg.webp);
+    background-image: url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/home-hero.jpg);
   }
 
   /* Cards */
