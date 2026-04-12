@@ -149,13 +149,17 @@
    *     className="hero-location ..."
    *     style={{ '--hero-bg': "url(https://.../hero.webp)" }}>
    */
+  /* Warm overlay reduced for Phase 13 AI sunset-themed hero images.
+     Previous opacity 0.85/0.6/0.4 was needed for flat gray shingle photos;
+     new AI images are warm enough — lighter overlay preserves image detail
+     while keeping text legible. */
   .hero-location {
     background-image:
       linear-gradient(
         to bottom right,
-        rgba(129, 93, 1, 0.85),
-        rgba(129, 93, 1, 0.6) 50%,
-        rgba(228, 198, 110, 0.4)
+        rgba(129, 93, 1, 0.4),
+        rgba(129, 93, 1, 0.25) 50%,
+        rgba(228, 198, 110, 0.15)
       ),
       var(--hero-bg);
     background-size: cover;
