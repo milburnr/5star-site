@@ -119,11 +119,10 @@ export default function Page() {
       />
 
       {/* Hero Section — mirrors /contact/ treatment (task 12.1) */}
-      {/* Background placeholder uses a wide residential completed roof from image-db.json (visualQuality=hero). Phase 13 will swap in `images/heroes/services-hero.jpg`. */}
       <section
         className="hero-services relative bg-cover bg-center text-white section-major min-h-[400px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/services-hero.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

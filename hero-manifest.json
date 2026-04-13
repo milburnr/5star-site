@@ -255,13 +255,13 @@
   {
     "city": "wolfforth-tx",
     "baseName": "wolfforth",
-    "heroName": "wolfforth-hero-1",
-    "original": "/Users/bo/Photos/5-star/wolfforth-tx/8th-street/8th-street-before-13.webp",
-    "r2Path": "images/heroes/wolfforth-hero-1",
+    "heroName": "wolfforth-hero",
+    "original": "/Volumes/External-2TB/Photos/5-star/ai/wolfforth-hero.png",
+    "r2Path": "images/heroes/wolfforth-hero",
     "urls": {
-      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wolfforth-hero-1.jpg",
-      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wolfforth-hero-1.webp",
-      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wolfforth-hero-1.avif"
+      "jpg": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wolfforth-hero.jpg",
+      "webp": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wolfforth-hero.webp",
+      "avif": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/wolfforth-hero.avif"
     }
   }
 ]
