@@ -57,7 +57,7 @@ export default function Page() {
                 Amarillo Residential &amp; Commercial <span className="text-brand-gold-light block sm:inline">Roofing Experts</span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light" style={{textShadow: '0 2px 6px rgba(0,0,0,0.8)'}}>
-                ⭐ 4.9/5.0 — 39 Google Reviews | Serving West Texas Since 2014
+                ⭐ 5.0/5.0 — 25 Google Reviews | Serving West Texas Since 2014
               </p>
               <p className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
                 <a href="/amarillo-texas-roofing/" className="font-semibold text-brand-gold-light no-underline hover:underline">Amarillo</a>&apos;s trusted roofing company — hail damage repair, roof replacement, insurance claim help, and same-day storm response for homes and businesses across the Texas Panhandle.

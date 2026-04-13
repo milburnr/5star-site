@@ -158,7 +158,7 @@ export default function Page() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-sm sm:text-base">
               <div className="flex items-center gap-2 text-white/95" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
                 <Star className="w-5 h-5 fill-brand-gold-light text-brand-gold-light shrink-0" />
-                <span className="font-semibold">4.9/5 Google</span>
+                <span className="font-semibold">5.0/5 Google</span>
               </div>
               <div className="flex items-center gap-2 text-white/95" style={{textShadow: '0 1px 3px rgba(0,0,0,0.8)'}}>
                 <Shield className="w-5 h-5 text-brand-gold-light shrink-0" />
