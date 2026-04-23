@@ -4,7 +4,11 @@
 
 @layer base {
   body {
-    @apply text-gray-text bg-gradient-to-b from-amber-50 to-white font-body;
+    /* Solid background instead of a full-page gradient. The gradient paints
+       across the entire document height (~22,000px tall on home) on every
+       scroll/resize, which is expensive on mobile GPU. The visible content
+       almost entirely covers the body bg anyway. */
+    @apply text-gray-text bg-amber-50 font-body;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -80,11 +84,56 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  /* Optimized Hero Background - Homepage — AI-generated sunset hero from R2 */
+  /* Below-the-fold sections: tell the browser to skip layout/paint/style work
+     for these until they scroll near the viewport. This is exactly what the
+     CSS spec designed content-visibility for — deferring rendering of
+     off-screen sections so the initial paint doesn't have to process the
+     whole long page.
+
+     content-visibility: auto  → browser renders only when near viewport
+     contain-intrinsic-size    → reserves space so scroll doesn't jump; the
+                                  browser uses this as a height estimate
+                                  before the section is fully rendered.
+
+     Effect on mobile PSI (throttled 4x CPU): cuts the "element render delay"
+     LCP phase dramatically because the browser only has to lay out the hero
+     + first trust strip, not the entire 22,000-pixel-tall homepage.
+
+     Desktop keeps the full design — on a fast machine the browser renders
+     everything immediately anyway; content-visibility just lets slow devices
+     opt into lazy rendering. */
+  .below-fold {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 1200px;
+  }
+
+  /* Homepage hero — same-origin WebP via CSS background. The actual fetch is
+     triggered by <link rel="preload" imageSrcSet=...> in app/page.tsx so the
+     browser has the image in memory by the time CSS is parsed. This matches
+     the pre-regression Feb-Mar pattern (PSI 96-97 mobile) but with the new
+     AI hero served locally (not R2) to avoid cross-origin DNS+TLS overhead.
+
+     image-set() lets the browser pick the right size for the viewport's DPR
+     without downloading multiple images. Falls back to 1200w on browsers
+     without image-set support. */
   .hero-home {
+    background-color: #1f1511;
     background-size: cover;
     background-position: center;
-    background-image: url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/home-hero.jpg);
+    background-image: url(/images/home-hero-900w.webp);
+    background-image: image-set(
+      url(/images/home-hero-600w.webp) 1x,
+      url(/images/home-hero-900w.webp) 2x
+    );
+  }
+  @media (min-width: 640px) {
+    .hero-home {
+      background-image: url(/images/home-hero-1200w.webp);
+      background-image: image-set(
+        url(/images/home-hero-1200w.webp) 1x,
+        url(/images/home-hero-1920w.webp) 2x
+      );
+    }
   }
 
   /* Cards */

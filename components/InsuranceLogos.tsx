@@ -19,7 +19,7 @@ type Carrier = {
 // Progressive) which cover the majority of Amarillo/panhandle claims.
 const carriers: Carrier[] = [
   { slug: 'state-farm', name: 'State Farm', ext: 'svg', width: 131, height: 18 },
-  { slug: 'allstate', name: 'Allstate', ext: 'png', width: 4000, height: 2250 },
+  { slug: 'allstate', name: 'Allstate', ext: 'png', width: 171, height: 96 },
   { slug: 'travelers', name: 'Travelers', ext: 'svg', width: 147, height: 30 },
   { slug: 'progressive', name: 'Progressive', ext: 'svg', width: 456, height: 54 },
 ];

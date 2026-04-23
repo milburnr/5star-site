@@ -1,6 +1,5 @@
 'use client';
 
-import { motion, useMotionValue, useTransform, animate, useInView } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
 interface AnimatedCounterProps {
@@ -12,6 +11,13 @@ interface AnimatedCounterProps {
   className?: string;
 }
 
+/**
+ * Count-up animation using requestAnimationFrame + IntersectionObserver.
+ * Replaces a framer-motion version that shipped ~40KB of JS for a number tick.
+ *
+ * SSR renders the final value so content is correct in HTML for crawlers.
+ * Client mounts: if element is visible, runs animation from `from` → `to`.
+ */
 export function AnimatedCounter({
   from = 0,
   to,
@@ -20,40 +26,50 @@ export function AnimatedCounter({
   suffix = '',
   className = '',
 }: AnimatedCounterProps) {
-  const [isMounted, setIsMounted] = useState(false);
-  const [displayValue, setDisplayValue] = useState(to);
-  const count = useMotionValue(to); // Start at 'to' value for SSR
-  const rounded = useTransform(count, (latest) => Math.round(latest));
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const [value, setValue] = useState(to);
+  const ref = useRef<HTMLSpanElement>(null);
+  const hasRun = useRef(false);
 
   useEffect(() => {
-    setIsMounted(true);
-  }, []);
+    if (typeof window === 'undefined') return;
 
-  useEffect(() => {
-    if (isInView && isMounted) {
-      count.set(from); // Reset to 'from' value before animating
-      const controls = animate(count, to, {
-        duration,
-        ease: 'easeOut',
-      });
-      return controls.stop;
-    }
-  }, [isInView, isMounted, count, to, from, duration]);
+    // Respect motion prefs: show final value, no animation.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  // Subscribe to rounded value changes
-  useEffect(() => {
-    const unsubscribe = rounded.on('change', (latest) => {
-      setDisplayValue(latest);
-    });
-    return unsubscribe;
-  }, [rounded]);
+    const el = ref.current;
+    if (!el) return;
 
-  // Always render the same HTML structure
+    const run = () => {
+      if (hasRun.current) return;
+      hasRun.current = true;
+      const start = performance.now();
+      const tick = (now: number) => {
+        const t = Math.min(1, (now - start) / (duration * 1000));
+        // ease-out cubic
+        const eased = 1 - Math.pow(1 - t, 3);
+        setValue(Math.round(from + (to - from) * eased));
+        if (t < 1) requestAnimationFrame(tick);
+      };
+      setValue(from);
+      requestAnimationFrame(tick);
+    };
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          run();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1, rootMargin: '-100px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [from, to, duration]);
+
   return (
     <span ref={ref} className={className}>
-      {prefix}{displayValue}{suffix}
+      {prefix}{value}{suffix}
     </span>
   );
 }

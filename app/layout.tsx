@@ -1,24 +1,21 @@
 import type { Metadata } from "next";
-import { Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileMenu } from "@/components/MobileMenu";
 import { PhoneClickTracker } from "@/components/PhoneClickTracker";
 import Script from "next/script";
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-  variable: '--font-poppins',
-});
-
-const openSans = Open_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  display: 'swap',
-  variable: '--font-open-sans',
-});
+// Webfonts removed entirely — matches the pre-April-1 state when the site
+// scored 96-97 mobile on PSI. Google Fonts (Poppins + Open Sans) were
+// introduced on 2026-04-01 in commit 3f6034e and dropped the score to 89
+// because display:swap triggers a repaint after the LCP element, pushing
+// LCP from ~2.5s to ~4.5s on throttled mobile.
+//
+// CSS vars kept as no-op identifiers so tailwind classes using
+// var(--font-poppins) / var(--font-open-sans) still resolve via the fallback
+// `system-ui, sans-serif` chain defined in tailwind.config.ts.
+const poppins = { variable: '--font-poppins' };
+const openSans = { variable: '--font-open-sans' };
 
 export const metadata: Metadata = {
   title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
@@ -49,18 +46,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.variable} ${openSans.variable} scroll-smooth`}>
       <head>
-        {/* Preload hero background image for LCP optimization - local 97KB */}
-        <link
-          rel="preload"
-          href="/images/hero-bg.webp"
-          as="image"
-          type="image/webp"
-        />
+        {/* Preconnect to R2 so the hero image can be fetched in parallel
+            with the HTML without an extra DNS/TLS round-trip.
+            Per-page hero preload lives in each page.tsx. */}
+        <link rel="preconnect" href="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev" crossOrigin="anonymous" />
       </head>
       <body>
         <PhoneClickTracker />
         <ScrollProgress />
-        <header className="bg-gradient-to-r from-[#2C1810]/80 via-[#3D2415]/80 to-[#2C1810]/80 shadow-lg sticky top-0 z-50 backdrop-blur-sm">
+        {/* backdrop-blur is GPU-heavy on mobile — enable only at md+ where
+            devices have the headroom. Mobile gets a solid (non-translucent)
+            header for the same look without the paint cost. */}
+        <header className="bg-gradient-to-r from-[#2C1810] via-[#3D2415] to-[#2C1810] md:from-[#2C1810]/80 md:via-[#3D2415]/80 md:to-[#2C1810]/80 shadow-lg sticky top-0 z-50 md:backdrop-blur-sm">
           <nav className="container-custom py-4">
             <div className="flex justify-between items-center">
               <a href="/" className="flex items-center group">

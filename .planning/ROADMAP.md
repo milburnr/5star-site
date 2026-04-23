@@ -23,6 +23,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 9: Image Optimization** - Audit and fix all images: alt text, contextual relevance, broken URLs, R2 compliance
 - [x] **Phase 10: Technical Validation & Relaunch** - Full-site QA, sitemap regeneration, performance verification, Google resubmission
 - [x] **Phase 11: Ahrefs Crawl Fixes** - Fix orphan pages, add Open Graph tags, address remaining crawl errors from Ahrefs audit (completed 2026-02-26)
+- [ ] **Phase 12: UI/UX Remediation & Trust-Signal Upgrade** - Fix broken /services/ hero, strip dated homepage hero chrome, resolve chat/sticky-bar collisions, charcoal body text, real insurance + material-brand logos, and new AI-generated sunset-theme hero imagery across 24 city pages (planned 2026-04-10 — see .planning/phases/phase-12-ui-ux-remediation/PLAN.md)
+- [ ] **Phase 13: Hero Image Generation** - Consume .planning/phases/phase-12-ui-ux-remediation/IMAGE-PROMPTS.md (32 Nano Banana 2 prompts) and IMAGE-MANIFEST.md, run generation, cull, upload to R2, wire slugs into homepage + services + commercial + residential + metal + hail + storm + inspection templates and 24 city hero manifest entries (planned 2026-04-10 — depends on Phase 12 Stream A completion)
 
 ## Quality Standards
 

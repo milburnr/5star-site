@@ -10,7 +10,8 @@ export default {
   	extend: {
   		fontFamily: {
   			heading: ['var(--font-poppins)', 'system-ui', 'sans-serif'],
-  			body: ['var(--font-open-sans)', 'system-ui', 'sans-serif'],
+  			// Body uses system font stack — instant render, no network round-trip.
+  			body: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', 'sans-serif'],
   		},
   		colors: {
   			brand: {

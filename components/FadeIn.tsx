@@ -1,7 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { ReactNode, useState, useEffect } from 'react';
+import { useRef, useState, useEffect, ReactNode } from 'react';
 
 interface FadeInProps {
   children: ReactNode;
@@ -11,6 +10,15 @@ interface FadeInProps {
   className?: string;
 }
 
+/**
+ * Pure CSS + IntersectionObserver fade-in.
+ * Project rule (CLAUDE.md): no framer-motion. This was 40KB+ of JS that
+ * shipped to every page just to fade cards in — now ~500 bytes.
+ *
+ * SSR renders with no inline style → content is visible to crawlers.
+ * On client mount, element hides, then IO shows it on intersect.
+ * Elements already in viewport on mount skip the animation entirely.
+ */
 export function FadeIn({
   children,
   delay = 0,
@@ -18,45 +26,73 @@ export function FadeIn({
   direction = 'up',
   className = '',
 }: FadeInProps) {
-  const [isMounted, setIsMounted] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+  const [state, setState] = useState<'ssr' | 'hidden' | 'visible'>('ssr');
 
   useEffect(() => {
-    setIsMounted(true);
+    if (typeof window === 'undefined') return;
+
+    // Respect user motion prefs — skip animation entirely.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setState('visible');
+      return;
+    }
+
+    const el = ref.current;
+    if (!el) {
+      setState('visible');
+      return;
+    }
+
+    // Above-fold: element already near/in viewport on mount — show immediately,
+    // no animation, no observer. Keeps LCP region interaction-ready.
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight + 40) {
+      setState('visible');
+      return;
+    }
+
+    setState('hidden');
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setState('visible');
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
   }, []);
 
-  const directionOffset = {
-    up: { y: 40 },
-    down: { y: -40 },
-    left: { x: 40 },
-    right: { x: -40 },
-    none: {},
-  };
+  const offset =
+    direction === 'up' ? '0, 40px' :
+    direction === 'down' ? '0, -40px' :
+    direction === 'left' ? '40px, 0' :
+    direction === 'right' ? '-40px, 0' :
+    '0, 0';
 
-  // Render plain div on server to prevent hydration mismatch
-  if (!isMounted) {
-    return <div className={className}>{children}</div>;
-  }
+  // state === 'ssr' → no inline style (content in HTML for crawlers + no FOUC).
+  // state === 'hidden' → faded out, waiting for intersection.
+  // state === 'visible' → animated in.
+  const style: React.CSSProperties =
+    state === 'ssr'
+      ? {}
+      : state === 'visible'
+        ? {
+            opacity: 1,
+            transform: 'translate(0, 0)',
+            transition: `opacity ${duration}s cubic-bezier(0.21, 0.47, 0.32, 0.98) ${delay}s, transform ${duration}s cubic-bezier(0.21, 0.47, 0.32, 0.98) ${delay}s`,
+          }
+        : {
+            opacity: 0,
+            transform: `translate(${offset})`,
+          };
 
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-        ...directionOffset[direction],
-      }}
-      whileInView={{
-        opacity: 1,
-        x: 0,
-        y: 0,
-      }}
-      viewport={{ once: true, margin: '-100px' }}
-      transition={{
-        duration,
-        delay,
-        ease: [0.21, 0.47, 0.32, 0.98],
-      }}
-      className={className}
-    >
+    <div ref={ref} className={className} style={style}>
       {children}
-    </motion.div>
+    </div>
   );
 }

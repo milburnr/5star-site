@@ -45,9 +45,32 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      {/* Hero Section - Mobile optimized for above-the-fold CTA */}
+      {/*
+        Same-origin hero preload — avoids the R2 cross-origin DNS+TLS round-trip
+        that was costing ~300ms on mobile. Pre-regression (Feb-Mar, PSI 96-97)
+        served the hero from /public same-origin. The image is now the new AI
+        hero, copied to /public/images so we get both the visual + the speed.
+      */}
+      <link
+        rel="preload"
+        as="image"
+        imageSrcSet="/images/home-hero-600w.webp 600w, /images/home-hero-900w.webp 900w, /images/home-hero-1200w.webp 1200w, /images/home-hero-1920w.webp 1920w"
+        imageSizes="100vw"
+        type="image/webp"
+        fetchPriority="high"
+      />
+
+      {/*
+        Hero — image served as a CSS background-image via the .hero-home class
+        (defined in globals.css with image-set() for responsive WebP). Pre-
+        regression Feb/Mar (PSI 96-97) used this exact pattern with a local
+        image. The browser's preload scanner picks up the <link rel="preload">
+        above with imageSrcSet and fetches the right size before CSS even
+        parses — so we get the "discoverable in initial document" benefit
+        without needing an <img> tag that triggers layout repaint on decode.
+      */}
       <section
-        className="hero-home section-major relative text-white min-h-0 md:min-h-[500px] lg:min-h-[600px] flex items-center"
+        className="hero-home section-major relative text-white min-h-[320px] md:min-h-[500px] lg:min-h-[600px] flex items-center overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30"></div>
         <div className="container-custom relative z-10">
@@ -82,9 +105,11 @@ export default function Page() {
 
       {/* Trust Signals - Compact on mobile */}
       <FadeIn>
-        <section className="section-major bg-gradient-to-b from-amber-50 via-orange-50 to-amber-50 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(251,191,36,0.1),transparent_50%)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(249,115,22,0.1),transparent_50%)]"></div>
+        {/* Trust Signals: simplified background. Original used a bg-gradient
+            + two radial-gradient overlays which paint expensively on mobile
+            GPU (each radial = separate composite layer). Solid amber-50 looks
+            nearly identical and saves ~300ms on throttled mobile. */}
+        <section className="section-major bg-amber-50 relative overflow-hidden below-fold">
           <div className="container-custom relative z-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-8 text-center">
               <FadeIn delay={0.1}>
@@ -125,7 +150,7 @@ export default function Page() {
 
       {/* Definition Blocks - AI Overview / Featured Snippet Optimized */}
       <FadeIn>
-        <section id="hail-damage-definitions" className="section-sub bg-white">
+        <section id="hail-damage-definitions" className="section-sub bg-white below-fold">
           <div className="container-custom">
             <h2 className="text-3xl font-bold mb-10 text-center">Understanding Hail Damage Roofing in Amarillo</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -166,7 +191,7 @@ export default function Page() {
 
         {/* Services Grid */}
         <FadeIn direction="up">
-          <section className="mb-16">
+          <section className="mb-16 below-fold">
             <h2 className="text-3xl font-bold mb-8 text-center">Our Specialized Services</h2>
             <p className="text-center text-gray-text mb-8 max-w-2xl mx-auto">
               From hail damage repair to full roof replacements, we handle every roofing need for Amarillo homeowners. <a href="/services/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium underline">View all roofing services</a>
@@ -175,7 +200,7 @@ export default function Page() {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1} direction="left">
               <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg" alt="Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Roofing services in Amarillo, TX - Severe hail damage on roof - Insurance claim documentation - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><CloudHail className="w-6 h-6 inline-block" /> Hail Damage Repair</h3>
                 <p className="text-gray-600 mb-4">
@@ -188,7 +213,7 @@ export default function Page() {
 
             <FadeIn delay={0.2} direction="up">
               <a href="/storm-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg" alt="Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Completed shingle roof restoration after storm damage in Perryton TX - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><CloudLightning className="w-6 h-6 inline-block" /> Storm Damage Restoration</h3>
                 <p className="text-gray-600 mb-4">
@@ -201,7 +226,7 @@ export default function Page() {
 
             <FadeIn delay={0.3} direction="right">
               <a href="/roof-inspections-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-1280w.jpg" alt="Professional roof inspector examining shingle condition on Amarillo home - Free assessment" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-4-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Professional roof inspector examining shingle condition on Amarillo home - Free assessment" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Search className="w-6 h-6 inline-block" /> Free Roof Inspections</h3>
                 <p className="text-gray-600 mb-4">
@@ -214,7 +239,7 @@ export default function Page() {
 
             <FadeIn delay={0.4} direction="left">
               <a href="/residential-roofing/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-1280w.jpg" alt="New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-5-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="New architectural shingle roof on residential home in Odessa TX by 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Home className="w-6 h-6 inline-block" /> Residential Roofing</h3>
                 <p className="text-gray-600 mb-4">
@@ -227,7 +252,7 @@ export default function Page() {
 
             <FadeIn delay={0.5} direction="up">
               <a href="/commercial-roofing/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg" alt="TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="TPO membrane installation on commercial flat roof in Pampa TX - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><Building2 className="w-6 h-6 inline-block" /> Commercial Roofing</h3>
                 <p className="text-gray-600 mb-4">
@@ -240,7 +265,7 @@ export default function Page() {
 
             <FadeIn delay={0.6} direction="right">
               <a href="/contact/" className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.jpg" alt="Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-2-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Commercial roof requiring insurance claim documentation in West Texas - 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><ClipboardList className="w-6 h-6 inline-block" /> Insurance Claims Help</h3>
                 <p className="text-gray-600 mb-4">
@@ -255,7 +280,7 @@ export default function Page() {
       </FadeIn>
 
         {/* Why Choose Us */}
-        <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
+        <section className="mb-16 bg-brand-gold-light p-8 rounded-lg below-fold">
           <h2 className="text-3xl font-bold mb-6 text-center">Why Amarillo Chooses 5 Star Roofing</h2>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -309,10 +334,9 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Before/After Transformations */}
-        <section className="section-sub bg-gradient-to-b from-white via-amber-50/30 to-white relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(251,191,36,0.08),transparent_40%)]"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_70%,rgba(249,115,22,0.08),transparent_40%)]"></div>
+        {/* Before/After Transformations — simplified background (see trust
+            signals section above for rationale on removing radial gradients). */}
+        <section className="section-sub bg-white relative overflow-hidden below-fold">
           <div className="relative z-10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">See Our Quality Work</h2>
             <p className="text-center text-base md:text-lg mb-8 max-w-3xl mx-auto text-gray-600">
@@ -324,7 +348,7 @@ export default function Page() {
               <FadeIn delay={0.1}>
                 <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg" alt="Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Amarillo home roof before hail damage repair - Insurance claim documentation - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-brand-brown group-hover:text-brand-gold transition-colors">Hail Damage Restoration - Amarillo</h3>
@@ -337,7 +361,7 @@ export default function Page() {
               <FadeIn delay={0.2}>
                 <a href="/wind-damage-repair-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.jpg" alt="Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Midland commercial roof before storm wind damage repair - Blown off shingles - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-brand-brown group-hover:text-brand-gold transition-colors">Wind Damage Repair - Midland</h3>
@@ -350,7 +374,7 @@ export default function Page() {
               <FadeIn delay={0.3}>
                 <a href="/roof-replacement-odessa/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-6-1280w.jpg" alt="Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-6-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-6-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-6-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Odessa home after roof replacement - Beautiful new architectural shingles - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-brand-brown group-hover:text-brand-gold transition-colors">Roof Replacement - Odessa</h3>
@@ -363,7 +387,7 @@ export default function Page() {
               <FadeIn delay={0.4}>
                 <a href="/tpo-roofing-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg" alt="Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Midland commercial building after TPO roof installation - Energy-efficient white membrane roofing - 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-brand-brown group-hover:text-brand-gold transition-colors">Commercial TPO Installation - Midland</h3>
@@ -383,7 +407,7 @@ export default function Page() {
 
         {/* Texas Panhandle Hail Statistics */}
         <FadeIn>
-          <section className="section-sub bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl relative overflow-hidden">
+          <section className="section-sub bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl relative overflow-hidden below-fold">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.1),transparent_60%)]"></div>
             <div className="relative z-10">
               <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">Why West Texas Needs Impact-Resistant Roofing</h2>
@@ -423,14 +447,14 @@ export default function Page() {
         </FadeIn>
 
         {/* Roofing Materials Section */}
-        <section className="section-sub bg-gradient-to-b from-white via-orange-50/20 to-white relative overflow-hidden">
+        <section className="section-sub bg-gradient-to-b from-white via-orange-50/20 to-white relative overflow-hidden below-fold">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(249,115,22,0.06),transparent_50%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(251,191,36,0.06),transparent_50%)]"></div>
           <div className="relative z-10">
             <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-brand-brown to-brand-gold bg-clip-text text-transparent">Premium Roofing Materials for Amarillo Homes</h2>
             <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-1280w.jpg" alt="Class 4 impact-resistant asphalt shingles installed on Odessa home for hail protection" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-7-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Class 4 impact-resistant asphalt shingles installed on Odessa home for hail protection" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">Impact-Resistant Asphalt Shingles</h3>
               <p className="text-gray-600 mb-4">
                 UL 2218 Class 4 rated shingles tested to withstand 2-inch hail strikes. Perfect for residential
@@ -446,7 +470,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.jpg" alt="Standing seam metal roof panels on a home in Wichita Falls TX - Premium hail protection" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Standing seam metal roof panels on a home in Wichita Falls TX - Premium hail protection" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">Standing Seam Metal Roofing</h3>
               <p className="text-gray-600 mb-4">
                 The ultimate hail protection. Metal roofing may dent but remains watertight even after severe
@@ -462,7 +486,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.jpg" alt="White TPO commercial roofing membrane on flat-roof building in Pampa TX" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-16-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="White TPO commercial roofing membrane on flat-roof building in Pampa TX" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">TPO Commercial Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Single-ply white membrane roofing for commercial flat roofs. Heat-welded seams create
@@ -478,7 +502,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="EPDM rubber membrane roofing system on commercial building in Pampa TX - 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="EPDM rubber membrane roofing system on commercial building in Pampa TX - 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy"  fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">EPDM Rubber Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Cost-effective black rubber membrane for commercial and industrial applications.
@@ -501,14 +525,14 @@ export default function Page() {
 
         {/* Our Process Section - Visual Timeline */}
         <FadeIn>
-          <section className="mb-16 bg-gradient-to-br from-gray-50 via-slate-50 to-gray-50 p-12 rounded-3xl shadow-lg relative overflow-hidden">
+          <section className="mb-16 bg-gradient-to-br from-gray-50 via-slate-50 to-gray-50 p-12 rounded-3xl shadow-lg relative overflow-hidden below-fold">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(203,213,225,0.3),transparent_50%)]"></div>
             <div className="relative z-10">
               <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">Our Proven 6-Step Process</h2>
               <div className="grid md:grid-cols-3 gap-8">
             {/* Step 1 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.jpg" alt="Professional roof inspection in Amarillo Texas - Free hail damage assessment - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Professional roof inspection in Amarillo Texas - Free hail damage assessment - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">1</div>
               <h3 className="text-xl font-bold mb-2">Free Inspection</h3>
               <p className="text-gray-600">
@@ -518,7 +542,7 @@ export default function Page() {
 
             {/* Step 2 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">2</div>
               <h3 className="text-xl font-bold mb-2">Documentation</h3>
               <p className="text-gray-600">
@@ -528,7 +552,7 @@ export default function Page() {
 
             {/* Step 3 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-1280w.jpg" alt="Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">3</div>
               <h3 className="text-xl font-bold mb-2">Insurance Claim</h3>
               <p className="text-gray-600">
@@ -538,7 +562,7 @@ export default function Page() {
 
             {/* Step 4 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.jpg" alt="Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">4</div>
               <h3 className="text-xl font-bold mb-2">Professional Installation</h3>
               <p className="text-gray-600">
@@ -548,7 +572,7 @@ export default function Page() {
 
             {/* Step 5 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.jpg" alt="Final roof inspection quality control in West Texas - Warranty protection - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Final roof inspection quality control in West Texas - Warranty protection - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">5</div>
               <h3 className="text-xl font-bold mb-2">Quality Inspection</h3>
               <p className="text-gray-600">
@@ -558,7 +582,7 @@ export default function Page() {
 
             {/* Step 6 */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg" alt="Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">6</div>
               <h3 className="text-xl font-bold mb-2">Your Satisfaction</h3>
               <p className="text-gray-600">
@@ -571,7 +595,7 @@ export default function Page() {
         </FadeIn>
 
         {/* Service Areas */}
-        <section className="mb-16">
+        <section className="mb-16 below-fold">
           <h2 className="text-3xl font-bold mb-6 text-center">Service Areas Across the Texas Panhandle &amp; Beyond</h2>
           <p className="text-center text-lg mb-8 max-w-3xl mx-auto">
             We proudly serve Amarillo and the entire Texas Panhandle, with additional coverage in Midland, Odessa, and surrounding
@@ -616,7 +640,7 @@ export default function Page() {
 
         {/* Also Serving - Below-fold links to West Texas city hubs */}
         <FadeIn>
-          <section className="section-sub">
+          <section className="section-sub below-fold">
             <h2 className="text-2xl font-bold text-center mb-3 text-brand-brown">
               Also Serving West Texas &amp; Beyond
             </h2>
@@ -635,7 +659,7 @@ export default function Page() {
 
         {/* Hail Damage & Insurance FAQ Section */}
         <FadeIn>
-          <section id="hail-damage-faq" className="mb-16 section-sub bg-gradient-to-b from-gray-50 to-white rounded-3xl">
+          <section id="hail-damage-faq" className="mb-16 section-sub bg-gradient-to-b from-gray-50 to-white rounded-3xl below-fold">
             <h2 className="text-3xl font-bold mb-4 text-center">Hail Damage &amp; Insurance FAQs for Amarillo &amp; Texas Panhandle Homeowners</h2>
             <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
               Common questions about hail damage roof repair and insurance claims in Amarillo, Midland, Odessa, and the Texas Panhandle.
@@ -737,7 +761,7 @@ export default function Page() {
         </FadeIn>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-lg text-center">
+        <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-lg text-center below-fold">
           <h2 className="text-3xl font-bold mb-4">Storm Damage? Don't Wait.</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             The sooner you address roof damage, the less costly repairs will be.
