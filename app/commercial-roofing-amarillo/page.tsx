@@ -89,7 +89,8 @@ export default function CommercialRoofingAmarilloPage() {
               "closes": "17:00"
             },
             "description": "Expert commercial roofing services in Amarillo, TX. Serving Potter County Courthouse, Route 66 Historic District, and businesses throughout the Texas Panhandle.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

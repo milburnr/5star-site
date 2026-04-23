@@ -604,7 +604,8 @@ export default function PerrytonRoofingPage() {
               {"@type":"Question","name":"Are ice storms a significant roofing concern in Perryton?","acceptedAnswer":{"@type":"Answer","text":"Yes. As the northernmost major community in our service area, Perryton experiences more ice storms than southern Panhandle cities. Freezing rain creates heavy ice loads that can damage roof structures. We install proper ice and water shield underlayment and ensure adequate attic insulation and ventilation to prevent ice dam formation."}},
               {"@type":"Question","name":"What wind ratings should Perryton homeowners look for in roofing materials?","acceptedAnswer":{"@type":"Answer","text":"Perryton's High Plains location produces some of the strongest sustained winds in Texas, with gusts regularly exceeding 70 mph during severe weather. We recommend shingles rated for at least 130 mph wind resistance, with enhanced nailing patterns that exceed minimum code requirements. For metal roofing, standing seam systems with concealed fasteners provide the best wind performance."}},
               {"@type":"Question","name":"Do you coordinate with Ochiltree County officials on roofing permits?","acceptedAnswer":{"@type":"Answer","text":"Yes. We handle all permitting requirements for Perryton and Ochiltree County projects. Our team is familiar with local building code requirements, permit processes, and inspection schedules. For agricultural buildings, we also ensure compliance with any applicable USDA or state agricultural facility standards."}}
-            ]
+            ],
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

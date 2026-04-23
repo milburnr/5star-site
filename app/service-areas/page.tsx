@@ -57,7 +57,8 @@ export default function Page() {
       { "@type": "City", "name": "Wildorado", "address": { "@type": "PostalAddress", "addressRegion": "TX" } }
     ],
     "description": "Professional roofing services across West Texas including Amarillo, Midland, Odessa, Lubbock and the entire Texas Panhandle. Hail damage repair specialists.",
-    "serviceType": ["Residential Roofing", "Commercial Roofing", "Hail Damage Repair", "Storm Damage Restoration", "Roof Replacement"]
+    "serviceType": ["Residential Roofing", "Commercial Roofing", "Hail Damage Repair", "Storm Damage Restoration", "Roof Replacement"],
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
   };
 
   return (

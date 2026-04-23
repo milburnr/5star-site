@@ -89,7 +89,8 @@ export default function RoofReplacementLubbockPage() {
               "opens": "09:00",
               "closes": "17:00"
             },
-            "description": "Expert roof replacement in Lubbock TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041"
+            "description": "Expert roof replacement in Lubbock TX. Class 4 impact-resistant shingles. Insurance claims assistance. Call (806) 622-6041",
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

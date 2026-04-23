@@ -70,7 +70,8 @@ export default function RoofInspectionsDumasPage() {
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof inspections services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
 

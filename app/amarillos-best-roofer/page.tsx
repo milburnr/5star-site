@@ -73,7 +73,8 @@ export default function Page() {
               {"@type": "City", "name": "Midland"},
               {"@type": "City", "name": "Odessa"},
               {"@type": "City", "name": "Lubbock"}
-            ]
+            ],
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

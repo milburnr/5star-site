@@ -57,7 +57,8 @@ export default function RoofRepairOdessaPage() {
         "url": "https://5starroofingpros.com/roof-repair-odessa/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Odessa,_Texas", "name": "Odessa", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional roof repair in Odessa TX. Expert installation, warranties, and insurance assistance."
+        "description": "Professional roof repair in Odessa TX. Expert installation, warranties, and insurance assistance.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

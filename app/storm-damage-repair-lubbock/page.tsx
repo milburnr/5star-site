@@ -98,7 +98,8 @@ export default function Page() {
                 "name": "Texas"
               }
             },
-            "description": "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance."
+            "description": "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance.",
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

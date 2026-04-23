@@ -89,7 +89,8 @@ export default function CommercialRoofingOdessaPage() {
               "closes": "17:00"
             },
             "description": "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. . Free inspections. Call (806) 622-6041",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

@@ -524,7 +524,8 @@ export default function PlainviewRoofingPage() {
               {"@type":"Question","name":"What is the typical cost of residential roofing in Plainview compared to larger cities?","acceptedAnswer":{"@type":"Answer","text":"With Hale County's median home value around $95,000, Plainview homeowners need cost-effective roofing solutions that still withstand extreme weather. A typical residential roof replacement in Plainview ranges from $6,000 to $12,000 depending on size and materials. Most hail damage replacements are covered by insurance."}},
               {"@type":"Question","name":"Can you roof Covenant Health Plainview and other medical facilities?","acceptedAnswer":{"@type":"Answer","text":"Yes, we have experience with healthcare facility roofing that requires uninterrupted patient care operations. Medical facilities like Covenant Health Plainview need roofing installations that support life-safety equipment, maintain sterile environments during construction, and provide long-term reliability."}},
               {"@type":"Question","name":"How do Plainview's grain elevator complexes affect nearby residential roofing?","acceptedAnswer":{"@type":"Answer","text":"Grain elevators throughout Plainview create localized dust conditions that affect nearby residential properties. Grain dust accumulates on roof surfaces and in gutters, trapping moisture against roofing materials and accelerating wear. We recommend enhanced gutter protection, more frequent maintenance schedules, and durable materials for properties near agricultural processing facilities."}}
-            ]
+            ],
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

@@ -58,7 +58,8 @@ export default function AsphaltShingleRoofingOdessaPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Industrial-grade asphalt shingle roofing in Odessa TX. Chemical-resistant materials for petrochemical environment.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "serviceArea": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 31.8457, "longitude": -102.3676}, "geoRadius": "50000"}
+        "serviceArea": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 31.8457, "longitude": -102.3676}, "geoRadius": "50000"},
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

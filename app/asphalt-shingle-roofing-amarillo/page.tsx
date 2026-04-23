@@ -58,7 +58,8 @@ export default function AsphaltShingleRoofingAmarilloPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert asphalt shingle roofing in Amarillo TX. Specializing in Class 4 impact-resistant shingles for Texas Panhandle weather conditions.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "serviceArea": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 35.1768, "longitude": -101.8590}, "geoRadius": "50000"}
+        "serviceArea": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 35.1768, "longitude": -101.8590}, "geoRadius": "50000"},
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

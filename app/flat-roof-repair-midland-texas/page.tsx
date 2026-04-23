@@ -54,7 +54,8 @@ export default function FlatRoofMidlandPage() {
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)', backgroundPosition: 'center'}}>

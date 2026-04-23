@@ -935,7 +935,8 @@ export default function Page() {
             "sameAs": [
               "https://www.facebook.com/5starroofingpros",
               "https://www.google.com/maps?cid=11430502439073045291"
-            ]
+            ],
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

@@ -89,7 +89,8 @@ export default function ResidentialRoofingAmarilloPage() {
               "closes": "17:00"
             },
             "description": "Expert residential roofing services in Amarillo neighborhoods including Wolflin Historic District, Westcliff, and Vineyards-Hastings. Specializing in Class 4 impact-resistant shingles and hail damage insurance claims.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

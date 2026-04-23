@@ -57,7 +57,8 @@ export default function RoofInspectionsLubbockPage() {
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "description": "Professional roof inspections in Lubbock TX. Expert installation, warranties, and insurance assistance."
+        "description": "Professional roof inspections in Lubbock TX. Expert installation, warranties, and insurance assistance.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script

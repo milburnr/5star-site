@@ -89,7 +89,8 @@ export default function CommercialRoofingMidlandPage() {
               "closes": "17:00"
             },
             "description": "Expert commercial roofing for Midland's energy industry. Serving Permian Basin oil company headquarters, downtown office buildings, and industrial facilities with specialized TPO, EPDM, and metal roofing systems.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

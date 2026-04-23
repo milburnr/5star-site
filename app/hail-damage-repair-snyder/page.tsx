@@ -57,7 +57,8 @@ export default function HailDamageRepairSnyderPage() {
         "url": "https://5starroofingpros.com/hail-damage-repair-snyder/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas", "name": "Snyder", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional hail damage repair in Snyder TX. Expert installation, warranties, and insurance assistance."
+        "description": "Professional hail damage repair in Snyder TX. Expert installation, warranties, and insurance assistance.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script

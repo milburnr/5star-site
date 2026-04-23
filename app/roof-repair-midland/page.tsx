@@ -60,7 +60,8 @@ export default function RoofRepairMidlandPage() {
           { "@type": "AdministrativeArea", "name": "Midland County", "containedInPlace": { "@type": "State", "name": "Texas" }}
         ],
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional roof repair in Midland TX serving Permian Basin oil industry communities with desert climate expertise and boom-cycle housing specialists."
+        "description": "Professional roof repair in Midland TX serving Permian Basin oil industry communities with desert climate expertise and boom-cycle housing specialists.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

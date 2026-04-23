@@ -58,7 +58,8 @@ export default function AsphaltShingleRoofingMidlandPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Heavy-duty asphalt shingle roofing in Midland TX. Built for Permian Basin weather and industrial conditions.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "serviceArea": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 32.0174, "longitude": -102.0779}, "geoRadius": "50000"}
+        "serviceArea": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 32.0174, "longitude": -102.0779}, "geoRadius": "50000"},
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

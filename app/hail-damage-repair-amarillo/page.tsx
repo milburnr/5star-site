@@ -90,7 +90,8 @@ export default function HailDamageRepairAmarilloPage() {
               "opens": "09:00",
               "closes": "17:00"
             },
-            "description": "Expert hail damage roof repair in Amarillo. Potter County recorded 131 severe hail days since 2000. Complete insurance claim assistance. Free inspections. Call (806) 622-6041"
+            "description": "Expert hail damage roof repair in Amarillo. Potter County recorded 131 severe hail days since 2000. Complete insurance claim assistance. Free inspections. Call (806) 622-6041",
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

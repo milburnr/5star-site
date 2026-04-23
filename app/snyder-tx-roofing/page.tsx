@@ -397,7 +397,8 @@ export default function SnyderRoofingPage() {
               "@type": "City",
               "name": "Snyder",
               "containedInPlace": { "@type": "State", "name": "Texas" }
-            }]
+            }],
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

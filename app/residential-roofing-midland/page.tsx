@@ -89,7 +89,8 @@ export default function ResidentialRoofingMidlandPage() {
               "closes": "17:00"
             },
             "description": "Expert residential roofing services in Midland neighborhoods including Grassland Estates, Saddle Club, and energy executive communities. Specializing in premium Class 4 impact-resistant shingles for Permian Basin weather conditions.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

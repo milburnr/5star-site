@@ -60,7 +60,8 @@ export default function RoofRepairLubbockPage() {
           { "@type": "AdministrativeArea", "name": "Lubbock County", "containedInPlace": { "@type": "State", "name": "Texas" }}
         ],
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional roof repair in Lubbock TX serving South Plains communities with dust storm damage expertise and Tech Terrace specialists."
+        "description": "Professional roof repair in Lubbock TX serving South Plains communities with dust storm damage expertise and Tech Terrace specialists.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

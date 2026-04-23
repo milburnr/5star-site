@@ -89,7 +89,8 @@ export default function ResidentialRoofingOdessaPage() {
               "closes": "17:00"
             },
             "description": "Expert residential roofing services in Odessa neighborhoods including Crestview, Ridgecrest West, and Sherwood Park. Specializing in affordable Class 4 impact-resistant shingles for established brick ranch homes and working families.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

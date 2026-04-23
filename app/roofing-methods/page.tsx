@@ -42,7 +42,8 @@ export default function Page() {
         "addressLocality": "Amarillo",
         "addressRegion": "TX",
         "postalCode": "79109"
-      }
+      },
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
     },
     "areaServed": [
       {"@type": "City", "name": "Amarillo"},

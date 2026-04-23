@@ -870,7 +870,8 @@ export default function OdessaRoofingPage() {
                 }
               ]
             },
-            "openingHours": "Mo-Su 00:00-23:59"
+            "openingHours": "Mo-Su 00:00-23:59",
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

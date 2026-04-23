@@ -549,6 +549,8 @@ export default function DumasRoofingPage() {
           "https://www.facebook.com/5StarRoofingPros",
           "https://www.google.com/maps/place/5+Star+Commercial+Roofing"
         ]
+      ,
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       })}}/>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({

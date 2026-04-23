@@ -46,6 +46,7 @@ export default function Page() {
       parentOrganization: {
         "@id": "https://5starroofingpros.com/#organization",
       },
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
     },
     areaServed: [
       { "@type": "City", name: "Amarillo", address: { "@type": "PostalAddress", addressRegion: "TX" } },

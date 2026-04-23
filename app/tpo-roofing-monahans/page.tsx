@@ -125,7 +125,8 @@ export default function TPORoofingMonahansPage() {
                 "name": "Texas"
               }
             },
-            "description": "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually."
+            "description": "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually.",
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

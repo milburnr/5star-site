@@ -94,7 +94,8 @@ export default function StormDamageRepairPerrytonPage() {
                 "name": "Texas"
               }
             },
-            "description": "storm damage roof repair in Perryton, TX. Wind, hail, and severe weather damage specialists with complete insurance assistance."
+            "description": "storm damage roof repair in Perryton, TX. Wind, hail, and severe weather damage specialists with complete insurance assistance.",
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

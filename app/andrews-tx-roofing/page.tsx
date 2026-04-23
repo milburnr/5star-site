@@ -388,7 +388,8 @@ export default function AndrewsRoofingPage() {
               "@type": "City",
               "name": "Andrews",
               "containedInPlace": { "@type": "State", "name": "Texas" }
-            }]
+            }],
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

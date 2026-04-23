@@ -57,7 +57,8 @@ export default function RoofReplacementCanyonPage() {
         "url": "https://5starroofingpros.com/roof-replacement-canyon/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas", "name": "Canyon", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional roof replacement in Canyon TX. Expert installation, warranties, and insurance assistance."
+        "description": "Professional roof replacement in Canyon TX. Expert installation, warranties, and insurance assistance.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script

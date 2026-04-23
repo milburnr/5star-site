@@ -89,7 +89,8 @@ export default function ResidentialRoofingLubbockPage() {
               "closes": "17:00"
             },
             "description": "Expert residential roofing services in Lubbock neighborhoods including Tech Terrace, Raider Ranch, and university area homes. Specializing in Class 4 impact-resistant shingles for South Plains hail and wind resistance.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

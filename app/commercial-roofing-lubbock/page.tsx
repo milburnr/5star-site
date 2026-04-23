@@ -89,7 +89,8 @@ export default function CommercialRoofingLubbockPage() {
               "closes": "17:00"
             },
             "description": "Expert commercial roofing for Lubbock businesses including Texas Tech University, University Medical Center, and agriculture facilities. Serving Lubbock County with TPO, EPDM, and metal roofing systems.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
+            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
           })
         }}
       />

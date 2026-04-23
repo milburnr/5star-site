@@ -57,7 +57,8 @@ export default function TPORoofingMidlandPage() {
         "url": "https://5starroofingpros.com/tpo-roofing-midland/",
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional tpo roofing in Midland TX. Expert installation, warranties, and insurance assistance."
+        "description": "Professional tpo roofing in Midland TX. Expert installation, warranties, and insurance assistance.",
+        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
       <script
