@@ -27,6 +27,11 @@ Thumbs.db
 .lighthouseci/
 google-service-account-key.json
 
+# Local build / session state
+.netlify/
+.wrangler/
+.playwright-mcp/
+
 # Images (served from R2, not git)
 processed-categories/
 public/images/jobs/
