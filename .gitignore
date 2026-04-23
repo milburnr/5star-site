@@ -33,15 +33,17 @@ google-service-account-key.json
 .playwright-mcp/
 
 # Images (served from R2, not git)
+processed-images/
 processed-categories/
+processed-heroes/
 public/images/jobs/
 *.jpg
 *.jpeg
 *.png
 *.webp
 *.avif
-!public/images/*.jpg
-!public/images/*.webp
 # Phase 12 Stream C: trust-signal logos shipped in-repo (not R2)
 !public/images/trust/**/*.png
 !public/images/trust/**/*.svg
+!public/images/trust/**/*.jpg
+!public/images/trust/**/*.webp
