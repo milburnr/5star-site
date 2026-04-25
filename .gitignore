@@ -47,3 +47,8 @@ public/images/jobs/
 !public/images/trust/**/*.svg
 !public/images/trust/**/*.jpg
 !public/images/trust/**/*.webp
+# Content-ops: pricing reference images embedded in blog articles
+!public/assets/**/*.png
+!public/assets/**/*.jpg
+!public/assets/**/*.jpeg
+!public/assets/**/*.webp
