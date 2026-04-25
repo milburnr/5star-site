@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Building2, Check, Factory, Hospital, Mail, MapPin, Phone, ShoppingCart, Snowflake, Star, Sun, Tornado, Wind } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-amarillo/' },
@@ -376,6 +377,7 @@ export default function TPORoofingAmarilloPage() {
             <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">Schedule Free Inspection</a>
           </div>
         </section>
+      <RelatedArticles pageSlug="tpo-roofing-amarillo" />
       </div>
     </>
   );

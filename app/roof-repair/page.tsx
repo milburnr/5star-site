@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -605,6 +606,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+    <RelatedArticles pageSlug="roof-repair" />
     </div>
   );
 }

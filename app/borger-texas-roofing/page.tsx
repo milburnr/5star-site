@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Building2, Check, Home, Phone } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/borger-texas-roofing/' },
@@ -591,6 +592,7 @@ export default function BorgerRoofingPage() {
                 }
         ]
       })}}/>
+    <RelatedArticles pageSlug="borger-texas-roofing" />
     </div>
   );
 }

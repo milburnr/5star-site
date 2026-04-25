@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -683,6 +684,7 @@ export default function WildoradoRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="wildorado-tx-roofing" />
     </div>
   );
 }

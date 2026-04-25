@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -508,6 +509,7 @@ export default function StormDamageRepairMonahansPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="storm-damage-repair-monahans" />
       </div>
     </>
   );

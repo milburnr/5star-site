@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -479,6 +480,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="asphalt-shingle-roofing-big-spring" />
       </div>
 
       <script

@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Building2, Check, CloudLightning, Construction, Factory, Flame, Fuel, Home, Phone, Snowflake, Sparkles, Wind, Wrench, Zap } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/metal-roof-installation-odessa-texas/' },
@@ -397,6 +398,7 @@ export default function MetalRoofOdessaPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Metal Roof Installation","provider":{"@type": ["LocalBusiness", "RoofingContractor"],"name": "5 Star Roofing","telephone": "(806) 622-6041","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"}},"areaServed":{"@type":"City","name":"Odessa","containedInPlace":{"@type":"State","name":"Texas"}}})}}/>
+    <RelatedArticles pageSlug="metal-roof-installation-odessa-texas" />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { Phone } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/budgeting-for-roof-replacement-expenses/' },
@@ -336,6 +337,7 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+    <RelatedArticles pageSlug="budgeting-for-roof-replacement-expenses" />
     </div>
   );
 }

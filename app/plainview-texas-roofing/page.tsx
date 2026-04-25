@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -529,6 +530,7 @@ export default function PlainviewRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="plainview-texas-roofing" />
     </div>
   );
 }

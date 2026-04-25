@@ -2,6 +2,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-weather-impact-on-roofing/' },
@@ -841,6 +842,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+    <RelatedArticles pageSlug="amarillo-weather-impact-on-roofing" />
     </div>
   );
 }

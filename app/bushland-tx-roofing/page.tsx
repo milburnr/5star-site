@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -637,6 +638,7 @@ export default function BushlandRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="bushland-tx-roofing" />
     </div>
   );
 }

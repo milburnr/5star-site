@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Droplets, Home, Phone, Search, Waves, Wind } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/' },
@@ -434,6 +435,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+      <RelatedArticles pageSlug="heavy-rain-damage-roof-repair-in-amarillo" />
       </div>
     </>
   );

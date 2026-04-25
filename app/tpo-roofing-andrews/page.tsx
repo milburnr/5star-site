@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -632,6 +633,7 @@ export default function TPORoofingAndrewsPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="tpo-roofing-andrews" />
       </div>
     </>
   );

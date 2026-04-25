@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Building2, CloudHail, Home, Phone, Search, Star, Sun, Thermometer, Tornado, Wind, Wrench, Zap } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-texas-roofing/' },
@@ -840,6 +841,7 @@ export default function AmarilloRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="amarillo-texas-roofing" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -764,6 +765,7 @@ export default function WindDamageRepairAmarilloPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="wind-damage-repair-amarillo" />
       </div>
     </>
   );

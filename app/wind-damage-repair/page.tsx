@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair/" },
@@ -520,6 +521,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+    <RelatedArticles pageSlug="wind-damage-repair" />
     </div>
   );
 }

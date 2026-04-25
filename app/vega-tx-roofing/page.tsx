@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -684,6 +685,7 @@ export default function VegaRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="vega-tx-roofing" />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { Briefcase, Shield, Zap } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 
 export const metadata: Metadata = {
@@ -526,6 +527,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+    <RelatedArticles pageSlug="commercial-roofing" />
     </div>
   );
 }

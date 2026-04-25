@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Check, ClipboardList, CloudLightning, Droplets, Factory, Flame, Link, Phone, Search, Shield, TrendingUp, Wrench, Zap } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/flat-roof-repair-midland-texas/' },
@@ -411,6 +412,7 @@ export default function FlatRoofMidlandPage() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"Service","serviceType":"Flat Roof Repair","provider":{"@type": ["LocalBusiness", "RoofingContractor"],"name": "5 Star Roofing","telephone": "(806) 622-6041","parentOrganization":{"@id":"https://5starroofingpros.com/#organization"}},"areaServed":{"@type":"City","name":"Midland","containedInPlace":{"@type":"State","name":"Texas"}}})}}/>
+    <RelatedArticles pageSlug="flat-roof-repair-midland-texas" />
     </div>
   );
 }

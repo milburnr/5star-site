@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { ClipboardList, CloudLightning, Flower2, Hammer, Leaf, Phone, Shield, Snowflake, Sun, Thermometer, Wind, Wrench, X } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/roofing-methods-in-amarillo/' },
@@ -796,6 +797,7 @@ export default function Page() {
       </section>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
+    <RelatedArticles pageSlug="roofing-methods-in-amarillo" />
     </div>
   );
 }

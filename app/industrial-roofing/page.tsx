@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { Briefcase, ClipboardList, Wrench, Zap } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/industrial-roofing/' },
@@ -438,6 +439,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+      <RelatedArticles pageSlug="industrial-roofing" />
       </div>
     </>
   );

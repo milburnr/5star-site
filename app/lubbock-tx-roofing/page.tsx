@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { InteractiveCard } from "@/components/InteractiveCard";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -874,6 +875,7 @@ export default function LubbockRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="lubbock-tx-roofing" />
     </div>
   );
 }

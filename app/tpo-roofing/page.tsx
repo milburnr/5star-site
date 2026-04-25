@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { MaterialBrands } from "@/components/MaterialBrands";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing/" },
@@ -578,6 +579,7 @@ export default function Page() {
           </a>
         </div>
       </section>
+    <RelatedArticles pageSlug="tpo-roofing" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -514,6 +515,7 @@ export default function MetalRoofingBorgerPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="metal-roofing-borger" />
       </div>
     </>
   );

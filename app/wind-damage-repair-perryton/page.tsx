@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -385,6 +386,7 @@ export default function WindDamageRepairPerrytonPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="wind-damage-repair-perryton" />
       </div>
     </>
   );

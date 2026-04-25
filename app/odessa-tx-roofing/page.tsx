@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { InteractiveCard } from "@/components/InteractiveCard";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -893,6 +894,7 @@ export default function OdessaRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="odessa-tx-roofing" />
     </div>
   );
 }

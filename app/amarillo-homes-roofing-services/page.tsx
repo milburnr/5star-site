@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -474,6 +475,7 @@ export default function Page() {
           })
         }}
       />
+    <RelatedArticles pageSlug="amarillo-homes-roofing-services" />
     </div>
   );
 }

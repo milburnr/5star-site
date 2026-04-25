@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Building2, CloudHail, Home, RefreshCw, Wrench } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/hereford-texas-roofing/' },
@@ -512,6 +513,7 @@ export default function HerefordRoofingPage() {
             </section>
           </FadeIn>
         </div>
+      <RelatedArticles pageSlug="hereford-texas-roofing" />
       </div>
     </>
   );

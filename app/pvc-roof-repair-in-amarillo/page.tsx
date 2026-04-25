@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -473,6 +474,7 @@ export default function Page() {
           })
         }}
       />
+    <RelatedArticles pageSlug="pvc-roof-repair-in-amarillo" />
     </div>
   );
 }

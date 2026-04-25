@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -564,6 +565,7 @@ export default function RoofInspectionsPerrytonPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="roof-inspections-perryton" />
       </div>
     </>
   );

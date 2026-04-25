@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -621,6 +622,7 @@ export default function StormDamageRepairPampaPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="storm-damage-repair-pampa" />
       </div>
     </>
   );

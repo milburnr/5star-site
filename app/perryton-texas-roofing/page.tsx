@@ -1,4 +1,5 @@
 import { FadeIn } from "@/components/FadeIn";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -609,6 +610,7 @@ export default function PerrytonRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="perryton-texas-roofing" />
     </div>
   );
 }

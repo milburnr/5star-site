@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Building2, CloudHail, Construction, Home, RefreshCw, Search, Tornado, Wind, Wrench } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/big-spring-tx-roofing/' },
@@ -410,6 +411,7 @@ export default function BigSpringRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="big-spring-tx-roofing" />
     </div>
   );
 }

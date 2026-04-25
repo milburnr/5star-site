@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Factory, FlaskConical, Fuel, GraduationCap, Hospital, Landmark, Mail, MapPin, Phone, Shield, ShoppingCart, Star, Sun, Tornado, Truck, Wind, Wrench } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-odessa/' },
@@ -447,6 +448,7 @@ export default function TPORoofingOdessaPage() {
             <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">Schedule Free Inspection</a>
           </div>
         </section>
+      <RelatedArticles pageSlug="tpo-roofing-odessa" />
       </div>
     </>
   );

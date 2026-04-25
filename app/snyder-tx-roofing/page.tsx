@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Building2, CloudHail, Construction, Home, RefreshCw, Search, Tornado, Wind, Wrench } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/snyder-tx-roofing/' },
@@ -416,6 +417,7 @@ export default function SnyderRoofingPage() {
           })
         }}
       />
+    <RelatedArticles pageSlug="snyder-tx-roofing" />
     </div>
   );
 }

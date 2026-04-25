@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -540,6 +541,7 @@ export default function ResidentialRoofingAmarilloPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="residential-roofing-amarillo" />
       </div>
     </>
   );

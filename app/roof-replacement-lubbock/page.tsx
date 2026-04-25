@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -615,6 +616,7 @@ export default function RoofReplacementLubbockPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="roof-replacement-lubbock" />
       </div>
     </>
   );

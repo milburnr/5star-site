@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Building2, Check, CheckCircle, ClipboardList, CloudHail, CloudLightning, Home, Phone, Shield, Sun, Thermometer, Wind, Zap } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/dumas-texas-roofing/' },
@@ -615,6 +616,7 @@ export default function DumasRoofingPage() {
                 }
         ]
       })}}/>
+    <RelatedArticles pageSlug="dumas-texas-roofing" />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -633,6 +634,7 @@ export default function RoofRepairCanyonPage() {
             </a>
           </div>
         </section>
+      <RelatedArticles pageSlug="roof-repair-canyon" />
       </div>
     </>
   );
