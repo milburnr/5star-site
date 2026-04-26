@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 
-const WIDGET_ID = "68e83a586141ff5c3b72b4a4";
+const WIDGET_ID = "69ee85bc52e6158bcd0c9b81";
 const WIDGET_LOADER = "https://widgets.leadconnectorhq.com/loader.js";
 const WIDGET_RESOURCES = "https://widgets.leadconnectorhq.com/chat-widget/loader.js";
 
