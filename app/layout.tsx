@@ -3,6 +3,7 @@ import "./globals.css";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileMenu } from "@/components/MobileMenu";
 import { PhoneClickTracker } from "@/components/PhoneClickTracker";
+import { ChatWidget } from "@/components/ChatWidget";
 import Script from "next/script";
 
 // Webfonts removed entirely — matches the pre-April-1 state when the site
@@ -266,41 +267,9 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* HighLevel Chat Widget - load after user shows intent */}
-        <Script id="highlevel-loader" strategy="lazyOnload">
-          {`
-            function loadHighLevel() {
-              if (window.hlLoaded) return;
-              window.hlLoaded = true;
-              var s = document.createElement('script');
-              s.src = 'https://widgets.leadconnectorhq.com/loader.js';
-              s.setAttribute('data-resources-url', 'https://widgets.leadconnectorhq.com/chat-widget/loader.js');
-              s.setAttribute('data-widget-id', '68e83a586141ff5c3b72b4a4');
-              document.body.appendChild(s);
-            }
-            // Load after 5 seconds or on user interaction
-            setTimeout(loadHighLevel, 5000);
-            ['scroll', 'click', 'touchstart'].forEach(e =>
-              document.addEventListener(e, loadHighLevel, {once: true, passive: true})
-            );
-          `}
-        </Script>
-
-        {/* Fix HighLevel widget accessibility - runs once widget loads */}
-        <Script id="highlevel-a11y-fix" strategy="lazyOnload">
-          {`
-            setTimeout(function() {
-              var observer = new MutationObserver(function(mutations, obs) {
-                var btn = document.querySelector('button.lc_text-widget_prompt--prompt-close');
-                if (btn) {
-                  btn.setAttribute('aria-label', 'Close chat prompt');
-                  obs.disconnect();
-                }
-              });
-              observer.observe(document.body, {childList: true, subtree: true});
-            }, 5000);
-          `}
-        </Script>
+        {/* HighLevel Chat Widget - suppressed on pages with contact forms
+            for A2P/SMS opt-in compliance. See components/ChatWidget.tsx */}
+        <ChatWidget />
       </body>
     </html>
   );

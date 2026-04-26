@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Script from "next/script";
+import { useMarkContactForm } from "./useMarkContactForm";
 
 interface HighLevelFormProps {
   title?: string;
@@ -24,6 +25,8 @@ export function HighLevelForm({
   subtitle = "Fill out the form below and we'll get back to you within 24 hours.",
   className = ""
 }: HighLevelFormProps) {
+  useMarkContactForm();
+
   const FORM_ID = "03sa3ZregoVFawfNEbpc";
   const FORM_URL = `https://link.trustbasedseo.com/widget/form/${FORM_ID}`;
   const FORM_SCRIPT = "https://link.trustbasedseo.com/js/form_embed.js";

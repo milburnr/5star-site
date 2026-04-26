@@ -616,6 +616,22 @@
  * toggle "Open by default" = OFF). See STREAM-A-SUMMARY.md for the follow-up.
  */
 
+/* A2P/SMS compliance: hide the LeadConnector chat widget on pages that
+   already have a contact-form opt-in. The `data-chat-hidden` attribute is
+   toggled on <html> by components/ChatWidget.tsx based on whether any
+   ContactForm is mounted (via useMarkContactForm). */
+html[data-chat-hidden="1"] #lc-chat-widget,
+html[data-chat-hidden="1"] .chat-widget,
+html[data-chat-hidden="1"] .lc-chat-widget,
+html[data-chat-hidden="1"] div[class*="chat-widget"],
+html[data-chat-hidden="1"] [class*="lc_text-widget"],
+html[data-chat-hidden="1"] iframe[src*="leadconnectorhq"],
+html[data-chat-hidden="1"] iframe[src*="chat-widget"],
+html[data-chat-hidden="1"] iframe[id*="lc_"],
+html[data-chat-hidden="1"] div[id^="lc_"] {
+  display: none !important;
+}
+
 /* Default (sticky bar NOT visible on this page): launcher 16px above bottom + safe area */
 #lc-chat-widget,
 .chat-widget,
