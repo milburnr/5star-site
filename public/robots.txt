@@ -1,4 +1,6 @@
+# robots.txt
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://5starroofingpros.com/sitemap.xml

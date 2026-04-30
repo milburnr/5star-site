@@ -338,7 +338,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard href="/hail-damage-roof-repair-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair in Amarillo TX - Insurance claim assistance" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage roof repair in Amarillo TX - Insurance claim assistance" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🌨️ Hail Damage Roof Repair</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Our #1 specialty. Free storm damage inspections, complete insurance documentation, adjuster meetings, and full roof replacement with Class 4 impact-resistant materials. Most Amarillo hail damage is covered by insurance.
@@ -353,7 +353,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.2}>
                 <InteractiveCard href="/residential-roofing-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Amarillo TX - New roof installation" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Amarillo TX - New roof installation" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏠 Residential Roofing</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Complete roofing solutions for Amarillo homes—new installations, full replacements, repairs, and maintenance. We work with asphalt shingles, metal roofing, and specialty systems tailored to your home's architecture and your budget.
@@ -368,7 +368,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.3}>
                 <InteractiveCard href="/commercial-roofing-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services in Amarillo TX - TPO and flat roof systems" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services in Amarillo TX - TPO and flat roof systems" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏢 Commercial Roofing</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Expert commercial roofing for Amarillo businesses—TPO, PVC, EPDM, modified bitumen, and built-up roofing systems. We handle everything from retail centers to industrial facilities with minimal disruption to your operations.
@@ -383,7 +383,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.4}>
                 <InteractiveCard href="/emergency-roof-repair-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair in Amarillo TX - 24/7 storm damage response" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair in Amarillo TX - 24/7 storm damage response" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
                     <p className="text-gray-600 leading-relaxed">
                       24/7 emergency roofing services throughout Amarillo. Active leaks, storm damage, wind-blown shingles—we respond within 2-4 hours with emergency tarps and temporary repairs, then coordinate permanent solutions quickly.
@@ -398,7 +398,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.5}>
                 <InteractiveCard href="/roof-inspection-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Professional roof inspection in Amarillo TX - Free assessment" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Professional roof inspection in Amarillo TX - Free assessment" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔍 Free Roof Inspections</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive roof inspections using drone technology and professional photography. Storm damage assessments, pre-purchase inspections, routine maintenance checks—all completely free with detailed written reports.
@@ -413,7 +413,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.6}>
                 <InteractiveCard href="/roof-replacement-amarillo-texas/">
                   <div className="space-y-4">
-                    <img src="/images/asphaltshingles.jpg" alt="Complete roof replacement in Amarillo TX - Impact resistant shingles" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Complete roof replacement in Amarillo TX - Impact resistant shingles" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔄 Complete Roof Replacement</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Full roof tear-off and replacement with upgraded materials. We remove old shingles, inspect decking for damage, replace as needed, and install new roofing systems built to withstand decades of Amarillo weather.
@@ -837,7 +837,7 @@ export default function AmarilloRoofingPage() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <img src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant asphalt shingles for Amarillo hail protection" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant asphalt shingles for Amarillo hail protection" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🛡️ Class 4 Impact-Resistant Shingles</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Our #1 recommended material for Amarillo homes. Class 4 shingles pass UL 2218 testing, meaning they withstand 2-inch steel ball drops from 20 feet—simulating large hail impacts. Available from Owens Corning, GAF, and CertainTeed.
@@ -870,7 +870,7 @@ export default function AmarilloRoofingPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <img src="/images/SteelRoofing.jpg" alt="Standing seam metal roofing for maximum Amarillo hail protection" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/SteelRoofing.jpg" alt="Standing seam metal roofing for maximum Amarillo hail protection" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🏔️ Standing Seam Metal Roofing</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   The ultimate hail protection. Metal roofs may dent from severe hail but remain completely watertight. Increasingly popular in Amarillo for homeowners tired of replacing roofs every 10-15 years after hailstorms.
@@ -903,7 +903,7 @@ export default function AmarilloRoofingPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <img src="/images/TPO1.jpg" alt="TPO commercial roofing system for Amarillo businesses" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/TPO1.jpg" alt="TPO commercial roofing system for Amarillo businesses" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🏢 TPO Commercial Roofing</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Thermoplastic Polyolefin (TPO) is the most popular commercial roofing system for Amarillo businesses. White reflective membrane reduces cooling costs while heat-welded seams create watertight protection.
@@ -932,7 +932,7 @@ export default function AmarilloRoofingPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <img src="/images/EPDM2.jpg" alt="EPDM rubber roofing for Amarillo commercial properties" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/EPDM2.jpg" alt="EPDM rubber roofing for Amarillo commercial properties" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">⚫ EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Ethylene Propylene Diene Monomer (EPDM) rubber roofing is a cost-effective commercial solution with excellent performance in Amarillo's extreme temperature swings.
@@ -1147,7 +1147,7 @@ export default function AmarilloRoofingPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
               <FadeIn delay={0.1}>
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                  <img src="/images/ResidentialServices.jpg" alt="Completed roof replacement in Sleepy Hollow neighborhood Amarillo TX" className="w-full h-64 object-cover" />
+                  <img loading="lazy" src="/images/ResidentialServices.jpg" alt="Completed roof replacement in Sleepy Hollow neighborhood Amarillo TX" className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-brand-brown mb-2">Sleepy Hollow Roof Replacement</h3>
                     <p className="text-gray-600">Complete architectural shingle roof replacement after hail damage.</p>
@@ -1157,7 +1157,7 @@ export default function AmarilloRoofingPage() {
 
               <FadeIn delay={0.2}>
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                  <img src="/images/ResidentialServices.jpg" alt="High-quality residential roofing installation Amarillo Texas" className="w-full h-64 object-cover" />
+                  <img loading="lazy" src="/images/ResidentialServices.jpg" alt="High-quality residential roofing installation Amarillo Texas" className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-brand-brown mb-2">Quality Residential Installation</h3>
                     <p className="text-gray-600">Impact-resistant shingles with enhanced warranty protection.</p>
@@ -1167,7 +1167,7 @@ export default function AmarilloRoofingPage() {
 
               <FadeIn delay={0.3}>
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-                  <img src="/images/Aerialview.jpg" alt="Professional roofing services Amarillo neighborhood" className="w-full h-64 object-cover" />
+                  <img loading="lazy" src="/images/Aerialview.jpg" alt="Professional roofing services Amarillo neighborhood" className="w-full h-64 object-cover" />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-brand-brown mb-2">Expert Craftsmanship</h3>
                     <p className="text-gray-600">Meticulous attention to detail on every installation.</p>
@@ -1180,7 +1180,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.4}>
                 <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl shadow-lg overflow-hidden p-6">
                   <h3 className="text-2xl font-bold text-brand-brown mb-4 text-center">Before Repair</h3>
-                  <img src="/images/danage.jpg" alt="Hail damaged roof before repair in Amarillo TX" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
+                  <img loading="lazy" src="/images/danage.jpg" alt="Hail damaged roof before repair in Amarillo TX" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
                   <p className="text-center text-gray-700 font-semibold">Severe hail damage requiring full replacement</p>
                 </div>
               </FadeIn>
@@ -1188,7 +1188,7 @@ export default function AmarilloRoofingPage() {
               <FadeIn delay={0.5}>
                 <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl shadow-lg overflow-hidden p-6">
                   <h3 className="text-2xl font-bold text-brand-brown mb-4 text-center">After Installation</h3>
-                  <img src="/images/ResidentialServices.jpg" alt="Beautiful new roof after professional installation Amarillo" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
+                  <img loading="lazy" src="/images/ResidentialServices.jpg" alt="Beautiful new roof after professional installation Amarillo" className="w-full h-80 object-cover rounded-lg mb-4 shadow-md" />
                   <p className="text-center text-gray-700 font-semibold">Restored with Class 4 impact-resistant shingles</p>
                 </div>
               </FadeIn>

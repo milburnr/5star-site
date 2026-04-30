@@ -13,7 +13,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Repair Canyon TX | 5 Star Roofing',
-  description: "Expert hail damage roof repair in Canyon TX. 24/7 emergency service, insurance claim help, Class 4 shingles. Serving Randall County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Canyon TX. 24/7 emergency service, insurance claim help, Class 4 shingles. Serving Randall County.",};
 
 export default function HailDamageRepairCanyonPage() {
   return (

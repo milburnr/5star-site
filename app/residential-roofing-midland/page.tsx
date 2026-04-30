@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Residential Roofing Midland TX | 5 Star Roofing',
-  description: 'Expert residential roofing in Midland TX. Serving Grassland Estates, Saddle Club, and all Permian Basin neighborhoods. Premium Class 4 shingles for energy executive homes. Free inspections.',
+  description: "Expert residential roofing in Midland TX. Serving Grassland Estates, Saddle Club, and all Permian Basin neighborhoods.",
 };
 
 export default function ResidentialRoofingMidlandPage() {

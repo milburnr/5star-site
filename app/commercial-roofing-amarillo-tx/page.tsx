@@ -385,7 +385,7 @@ export default function CommercialRoofingAmarilloPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <FadeIn delay={0.1}>
                 <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <img src="/images/TPO1.jpg" alt="TPO commercial roofing Amarillo TX - Heat-welded white membrane" className="w-full h-56 object-cover rounded-lg mb-6" />
+                  <img loading="lazy" src="/images/TPO1.jpg" alt="TPO commercial roofing Amarillo TX - Heat-welded white membrane" className="w-full h-56 object-cover rounded-lg mb-6" />
                   <h3 className="text-3xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                   <p className="text-gray-700 mb-4 leading-relaxed text-lg">
                     Thermoplastic Polyolefin (TPO) is the #1 choice for Amarillo commercial properties. White reflective membranes reduce cooling costs by 20-30% while heat-welded seams create watertight bonds stronger than the membrane itself. Available in Class 4 impact-resistant formulations.
@@ -476,7 +476,7 @@ export default function CommercialRoofingAmarilloPage() {
 
               <FadeIn delay={0.3}>
                 <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <img src="/images/EPDM2.jpg" alt="EPDM rubber roofing Amarillo TX - Commercial membrane system" className="w-full h-56 object-cover rounded-lg mb-6" />
+                  <img loading="lazy" src="/images/EPDM2.jpg" alt="EPDM rubber roofing Amarillo TX - Commercial membrane system" className="w-full h-56 object-cover rounded-lg mb-6" />
                   <h3 className="text-3xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                   <p className="text-gray-700 mb-4 leading-relaxed text-lg">
                     Ethylene Propylene Diene Monomer (EPDM) rubber roofing has protected commercial buildings for over 50 years. This proven system offers excellent performance in Amarillo's extreme temperature swings at a lower cost than TPO or PVC—ideal for warehouses and budget-conscious properties.
@@ -522,7 +522,7 @@ export default function CommercialRoofingAmarilloPage() {
 
               <FadeIn delay={0.4}>
                 <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                  <img src="/images/ai-generated/services/built-up-roofing-bur.jpg" alt="Modified bitumen roofing Amarillo TX - Multi-layer system" className="w-full h-56 object-cover rounded-lg mb-6" />
+                  <img loading="lazy" src="/images/ai-generated/services/built-up-roofing-bur.jpg" alt="Modified bitumen roofing Amarillo TX - Multi-layer system" className="w-full h-56 object-cover rounded-lg mb-6" />
                   <h3 className="text-3xl font-bold text-brand-brown mb-4">Modified Bitumen & Built-Up Roofing</h3>
                   <p className="text-gray-700 mb-4 leading-relaxed text-lg">
                     Multi-layer bitumen systems (modified bitumen and built-up roofing) create exceptionally durable, puncture-resistant roofs ideal for heavy foot traffic and equipment installations. Multiple waterproofing layers provide redundancy—if one layer fails, others continue protecting.
@@ -581,7 +581,7 @@ export default function CommercialRoofingAmarilloPage() {
 
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/images/commercial-roof-1024x575-panorama.png" alt="Large commercial flat roof installation in Amarillo TX - Multi-story downtown office building" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/commercial-roof-1024x575-panorama.png" alt="Large commercial flat roof installation in Amarillo TX - Multi-story downtown office building" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Downtown Office Buildings</h3>
                 <p className="text-gray-600 text-sm">
                   Multi-story commercial buildings in downtown Amarillo requiring minimal tenant disruption during installation.
@@ -589,7 +589,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/images/TPO3.jpg" alt="TPO commercial roofing at sunset in Amarillo TX - Retail center flat roof system" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/TPO3.jpg" alt="TPO commercial roofing at sunset in Amarillo TX - Retail center flat roof system" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Retail Centers & Strip Malls</h3>
                 <p className="text-gray-600 text-sm">
                   Shopping centers along I-40 and Soncy Road requiring phased installations to keep stores operational.
@@ -597,7 +597,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-                <img src="/images/TPO2.jpg" alt="Amarillo TX commercial roofing - Industrial warehouse TPO membrane installation at sunset" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/TPO2.jpg" alt="Amarillo TX commercial roofing - Industrial warehouse TPO membrane installation at sunset" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-lg font-bold text-brand-brown mb-2 text-center">Industrial Warehouses</h3>
                 <p className="text-gray-600 text-sm">
                   Large-scale industrial facilities in east Amarillo requiring cost-effective, durable roofing solutions.
@@ -935,7 +935,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard href="/roofing-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Amarillo roofing services - Residential and commercial" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Amarillo roofing services - Residential and commercial" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Complete Amarillo Roofing Services</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive roofing services for all Amarillo properties—residential, commercial, emergency repairs, inspections, and insurance claims assistance.
@@ -950,7 +950,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.2}>
                 <InteractiveCard href="/hail-damage-repair-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage repair Amarillo TX - Commercial insurance claims" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage repair Amarillo TX - Commercial insurance claims" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Hail Damage Repair Amarillo</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Expert hail damage assessment and repair for Amarillo commercial and residential properties. Free inspections and full insurance claim assistance.
@@ -965,7 +965,7 @@ export default function CommercialRoofingAmarilloPage() {
               <FadeIn delay={0.3}>
                 <InteractiveCard href="/commercial-roofing/">
                   <div className="space-y-4">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services - TPO PVC EPDM systems" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services - TPO PVC EPDM systems" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Commercial Roofing Services</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Learn more about our commercial roofing services, systems, and expertise serving businesses throughout West Texas and the Panhandle.

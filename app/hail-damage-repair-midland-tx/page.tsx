@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Midland | 5 Star',
-  description: "Expert hail damage roof repair in Midland TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Midland TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections.",};
 
 export default function HailDamageRepairMidlandPage() {
   return (
@@ -85,7 +85,7 @@ export default function HailDamageRepairMidlandPage() {
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <InteractiveCard>
-                <img src="/images/hail-damage-3.jpg" alt="Record hail damage in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Record hail damage in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Record-Breaking Hailstone Sizes</h3>
                 <p className="text-gray-700 mb-4">
                   <strong>May 2024:</strong> 7.25-inch diameter hailstone - nearly the size of a volleyball. This ranks among the largest hailstones ever recorded in Texas history. Standard roofing shingles are tested to withstand 2-inch hail. At 7.25 inches, these hailstones weren't just damaging roofs - they were punching through them entirely.
@@ -96,7 +96,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/storm-damage-roof-repair.jpg" alt="Storm damage to roof in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="Storm damage to roof in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Terminal Velocity Impact Forces</h3>
                 <p className="text-gray-700">
                   When a 7.25-inch hailstone falls from thunderstorm heights (often 30,000+ feet), it reaches terminal velocity of 100+ mph before impact. The kinetic energy from a softball-sized ice ball traveling at highway speeds is enough to:
@@ -110,7 +110,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/roof-inspection-texas.jpg" alt="Roof inspection in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Roof inspection in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">Midland's Extreme Temperature Cycling</h3>
                 <p className="text-gray-700">
                   Midland experiences temperature extremes that accelerate hail damage deterioration. Summer temperatures routinely exceed 100°F, while winter nights can drop below 20°F. Hail-damaged shingles expand and contract in these cycles, causing:
@@ -124,7 +124,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/asphaltshingles.jpg" alt="Quality roofing shingles for Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Quality roofing shingles for Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-3">High Wind Exposure in the Permian Basin</h3>
                 <p className="text-gray-700">
                   Midland's open Permian Basin geography offers zero wind protection. After hail loosens adhesive strips and compromises shingle integrity, Midland's frequent 40-50 mph winds (and occasional 60-70 mph gusts) tear off damaged shingles that would survive in calmer climates. One hailstorm followed by one windstorm = catastrophic roof failure.
@@ -264,7 +264,7 @@ export default function HailDamageRepairMidlandPage() {
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <InteractiveCard>
-                <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Licensed Midland Contractor - Not Storm Chasers</h3>
                 <p className="text-gray-700">
                   We're a licensed contractor serving Midland for over 10 years. We're not out-of-state storm chasers who disappear after the insurance check clears. We're here for your warranty needs 10, 20, 30 years from now. Our reputation in Midland County matters - we earn it one roof at a time.
@@ -272,7 +272,7 @@ export default function HailDamageRepairMidlandPage() {
               </InteractiveCard>
 
               <InteractiveCard>
-                <img src="/images/insurance-claims-roofing.jpg" alt="Insurance claims assistance in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img loading="lazy" src="/images/insurance-claims-roofing.jpg" alt="Insurance claims assistance in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold text-brand-brown mb-3">200+ Midland Insurance Claims Handled</h3>
                 <p className="text-gray-700">
                   We've successfully managed over 200 insurance claims for Midland homeowners and businesses. We know how State Farm, Farmers, Allstate, USAA, and every other carrier operates. We work with all major Midland insurance adjusters and agents. Our expertise often gets homeowners MORE coverage than they expected.

@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Roof Replacement Amarillo TX | 5 Star Roofing',
-  description: 'Premier residential roof replacement in Amarillo TX. Specialized in hail damage claims, Class 4 impact-resistant materials, insurance coverage assistance. 25+ years experience, licensed & bonded. Free estimates, comprehensive warranties on all residential roof replacement projects.',
+  description: "Premier residential roof replacement in Amarillo TX. Specialized in hail damage claims, Class 4 impact-resistant materials, insurance coverage assistance.",
 };
 
 export default function Page() {

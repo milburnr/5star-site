@@ -12,7 +12,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Repair Plainview TX | 5 Star Roofing',
-  description: "Expert hail damage roof repair in Plainview TX. 24/7 emergency service, insurance claim help, quality roofing. Serving Hale County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Plainview TX. 24/7 emergency service, insurance claim help, quality roofing. Serving Hale County.",};
 
 export default function HailDamageRepairPlainviewPage() {
   return (

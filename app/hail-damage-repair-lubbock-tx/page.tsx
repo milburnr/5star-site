@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Lubbock | 5 Star',
-  description: "Expert hail damage roof repair in Lubbock TX. 24/7 emergency service, insurance claim help, quality roofing materials. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Lubbock TX. 24/7 emergency service, insurance claim help, quality roofing materials. Free inspections.",};
 
 export default function HailDamageRepairLubbockPage() {
   return (

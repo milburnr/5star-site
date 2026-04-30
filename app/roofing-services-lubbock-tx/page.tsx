@@ -78,7 +78,7 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-8">
 
           <div className="card">
-            <img src="/images/hail-damage-3.jpg" alt="Hail Damage Repair in Lubbock TX" className="card-image" />
+            <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail Damage Repair in Lubbock TX" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">Hail Damage Roof Repair</h3>
               <p className="mb-4">
@@ -99,7 +99,7 @@ export default function Page() {
           </div>
 
           <div className="card">
-            <img src="/images/asphaltshingles.jpg" alt="Class 4 Impact Resistant Shingles Lubbock" className="card-image" />
+            <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Class 4 Impact Resistant Shingles Lubbock" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">Class 4 Impact-Resistant Shingles</h3>
               <p className="mb-4">
@@ -120,7 +120,7 @@ export default function Page() {
           </div>
 
           <div className="card">
-            <img src="/images/SteelRoofing.jpg" alt="Metal Roofing Lubbock TX" className="card-image" />
+            <img loading="lazy" src="/images/SteelRoofing.jpg" alt="Metal Roofing Lubbock TX" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">Standing Seam Metal Roofing</h3>
               <p className="mb-4">
@@ -172,7 +172,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="card">
-            <img src="/images/TPO1.jpg" alt="TPO Commercial Roofing Lubbock" className="card-image" />
+            <img loading="lazy" src="/images/TPO1.jpg" alt="TPO Commercial Roofing Lubbock" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">TPO Roofing Systems</h3>
               <p className="mb-4">
@@ -189,7 +189,7 @@ export default function Page() {
           </div>
 
           <div className="card">
-            <img src="/images/EPDM2.jpg" alt="EPDM Commercial Roofing Lubbock" className="card-image" />
+            <img loading="lazy" src="/images/EPDM2.jpg" alt="EPDM Commercial Roofing Lubbock" className="card-image" />
             <div className="card-body">
               <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
               <p className="mb-4">

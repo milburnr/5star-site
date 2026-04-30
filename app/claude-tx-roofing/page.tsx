@@ -122,7 +122,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage repair services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage repair services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Repair
                     </h3>
@@ -156,7 +156,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -189,7 +189,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -221,7 +221,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Metal roofing systems for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Metal roofing systems for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roofing Systems
                     </h3>
@@ -254,7 +254,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free roof inspections for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Free roof inspections for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -287,7 +287,7 @@ export default function ClaudeRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roofing service for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roofing service for Claude TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       24/7 Emergency Service
                     </h3>

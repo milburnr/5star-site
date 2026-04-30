@@ -164,7 +164,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard className="border-l-4 border-red-500">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -206,7 +206,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -248,7 +248,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard className="bg-blue-50 border-2 border-blue-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO1.jpg" alt="Commercial and industrial roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/TPO1.jpg" alt="Commercial and industrial roofing services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial & Industrial Roofing
                     </h3>
@@ -291,7 +291,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO1.jpg" alt="Metal roof installation services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/TPO1.jpg" alt="Metal roof installation services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -332,7 +332,7 @@ export default function OdessaRoofingPage() {
               <InteractiveCard className="bg-red-50 border-2 border-red-300">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roof repair services in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       24/7 Emergency Roof Repair
                     </h3>

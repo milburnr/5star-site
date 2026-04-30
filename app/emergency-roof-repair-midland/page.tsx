@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Midland TX | 24/7 Service',
-  description: '24/7 emergency roof repair in Midland TX. 3.5-hour response from Amarillo HQ. Record 127°F temperature swings, severe hail, oil field wind damage. Call (806) 622-6041',
+  description: "24/7 emergency roof repair in Midland TX. 3.5-hour response from Amarillo HQ. Record 127°F temperature swings, severe hail, oil field wind damage.",
 };
 
 export default function EmergencyRoofRepairMidlandPage() {

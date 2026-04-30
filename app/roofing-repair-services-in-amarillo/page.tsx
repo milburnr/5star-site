@@ -5,7 +5,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Roofing Repair Amarillo TX | 5 Star Roofing',
-  description: 'Leading roofing repair services in Amarillo TX. Emergency storm damage repair, hail damage restoration, leak detection, insurance claims assistance. Licensed, bonded & insured with 10+ years local experience. Free estimates & 24/7 emergency response.',
+  description: "Leading roofing repair services in Amarillo TX. Emergency storm damage repair, hail damage restoration, leak detection, insurance claims assistance.",
 };
 
 export default function Page() {

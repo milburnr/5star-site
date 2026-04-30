@@ -4,7 +4,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Damaged Roof Replacement Amarillo TX | 5 Star',
-  description: "Professional damaged roof replacement in Amarillo TX. Storm damage, hail damage, and emergency repairs. Insurance claim assistance. Free inspections. Call 5 Star Roofing (806) 622-6041.",
+  description: "Professional damaged roof replacement in Amarillo TX. Storm damage, hail damage, and emergency repairs. Insurance claim assistance. Free inspections.",
 };
 
 export default function Page() {

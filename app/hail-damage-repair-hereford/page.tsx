@@ -12,7 +12,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Repair Hereford TX | 5 Star Roofing',
-  description: "Expert hail damage roof repair in Hereford TX. 24/7 emergency service, insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Hereford TX. 24/7 emergency service, insurance claim help, quality materials. Serving Deaf Smith County.",};
 
 export default function HailDamageRepairHerefordPage() {
   return (

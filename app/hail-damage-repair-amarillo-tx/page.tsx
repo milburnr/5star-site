@@ -9,7 +9,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Amarillo | 5 Star',
-  description: "Expert hail damage roof repair in Amarillo TX. 24/7 emergency response, insurance claim help, Class 4 impact-resistant shingles. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Amarillo TX. 24/7 emergency response, insurance claim help, Class 4 impact-resistant shingles. Free inspections.",};
 
 export default function HailDamageRepairAmarilloPage() {
   return (
@@ -864,7 +864,7 @@ export default function HailDamageRepairAmarilloPage() {
             </h2>
 
             <div className="mb-8">
-              <img
+              <img loading="lazy"
                 src="/images/TPO3.jpg"
                 alt="Professional commercial roof installation in Amarillo TX meeting building code requirements - TPO flat roof system by 5 Star Commercial Roofing"
                 className="w-full h-80 object-cover rounded-2xl shadow-lg"
@@ -1043,7 +1043,7 @@ export default function HailDamageRepairAmarilloPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <img src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant shingles for Amarillo hail protection" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant shingles for Amarillo hail protection" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-blue-900 mb-4">What is Class 4 Rating?</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Class 4 is the highest impact-resistance rating awarded by Underwriters Laboratories (UL 2218 test). To earn this rating, shingles must withstand repeated impacts from a 2-inch steel ball dropped from 20 feet—simulating large hail strikes.
@@ -1445,7 +1445,7 @@ export default function HailDamageRepairAmarilloPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard href="/roofing-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Complete roofing services in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="Complete roofing services in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Complete Roofing Services</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Full range of residential and commercial roofing services in Amarillo. From new construction to complete replacements, we're your local roofing experts.
@@ -1460,7 +1460,7 @@ export default function HailDamageRepairAmarilloPage() {
               <FadeIn delay={0.2}>
                 <InteractiveCard href="/residential-roofing/">
                   <div className="space-y-4">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Residential Roofing</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Expert residential roofing for Amarillo homes. Specializing in asphalt shingles, metal roofing, and impact-resistant materials designed for Texas Panhandle weather.
@@ -1475,7 +1475,7 @@ export default function HailDamageRepairAmarilloPage() {
               <FadeIn delay={0.3}>
                 <InteractiveCard href="/contact/">
                   <div className="space-y-4">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free roof inspection Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Free roof inspection Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">Free Roof Inspection</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Not sure if you have hail damage? We offer free professional inspections with drone photography and detailed documentation. No obligation, no pressure.

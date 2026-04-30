@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Roof Inspections Amarillo TX | 5 Star Roofing',
-  description: "Professional roof inspections in Amarillo TX. Texas Panhandle hail belt experts with complete insurance documentation. Free inspections after storms. Storm damage assessment specialists. Call (806) 622-6041",
+  description: "Professional roof inspections in Amarillo TX. Texas Panhandle hail belt experts with complete insurance documentation. Free inspections after storms.",
 };
 
 export default function RoofInspectionsAmarilloPage() {

@@ -10,7 +10,7 @@ import { OptimizedImage } from "@/components/OptimizedImage";
 
 export const metadata: Metadata = {
   title: 'Amarillo TX Roofing | Trusted Local Roofers',
-  description: "Expert residential roofing services in Amarillo TX. Roof repair, replacement, and inspections. Insurance claim assistance. Free estimates. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert residential roofing services in Amarillo TX. Roof repair, replacement, and inspections. Insurance claim assistance. Free estimates.",};
 
 export default function ResidentialRoofingAmarilloPage() {
   return (
@@ -363,7 +363,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.1}>
                 <InteractiveCard href="/hail-damage-repair-amarillo-tx/">
                   <div className="space-y-4">
-                    <img src="/images/hail-damage-3.jpg" alt="Residential hail damage roof repair in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Residential hail damage roof repair in Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🌨️ Hail Damage Insurance Claims</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Our #1 residential specialty. 85% of Amarillo home roof replacements are hail damage claims. Free inspections, complete insurance documentation, adjuster meetings, and guaranteed approval process. Most homeowners pay only their deductible.
@@ -378,7 +378,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.2}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/asphaltshingles.jpg" alt="Complete residential roof replacement Amarillo Texas" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Complete residential roof replacement Amarillo Texas" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔄 Complete Roof Replacement</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Full residential roof tear-off and replacement with upgraded Class 4 materials. Complete removal of old shingles, decking inspection and repair, proper ventilation, quality underlayment, and precise installation. 1-3 day completion for most homes.
@@ -393,7 +393,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.3}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="Emergency residential roof repair Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🚨 Emergency Roof Repairs</h3>
                     <p className="text-gray-600 leading-relaxed">
                       24/7 emergency service for Amarillo homes. Storm damage, active leaks, wind-blown shingles—we respond within 2-4 hours with emergency tarp installation and temporary repairs. Prevents interior water damage while coordinating insurance claims and permanent replacement.
@@ -408,7 +408,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.4}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/SteelRoofing.jpg" alt="Metal roofing installation for Amarillo homes" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/SteelRoofing.jpg" alt="Metal roofing installation for Amarillo homes" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏔️ Metal Roofing Installation</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Standing seam metal roofing for Amarillo homes seeking maximum longevity and hail protection. 50+ year lifespan, superior energy efficiency, complete hail resistance (dents may occur but roofs remain watertight), and premium curb appeal.
@@ -423,7 +423,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.5}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/roof-inspection-texas.jpg" alt="Free residential roof inspection Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Free residential roof inspection Amarillo TX" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🔍 Free Roof Inspections</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Comprehensive residential roof inspections using drone photography. Storm damage assessments, pre-purchase home inspections, routine maintenance checks—all completely free. Detailed written reports with honest recommendations and insurance claim guidance.
@@ -438,7 +438,7 @@ export default function ResidentialRoofingAmarilloPage() {
               <FadeIn delay={0.6}>
                 <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200">
                   <div className="space-y-4">
-                    <img src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="New construction residential roofing Amarillo" className="w-full h-48 object-cover rounded-lg" />
+                    <img loading="lazy" src="/images/cover-background-roofing-sunset-1024x683.jpg" alt="New construction residential roofing Amarillo" className="w-full h-48 object-cover rounded-lg" />
                     <h3 className="text-2xl font-bold text-brand-brown">🏗️ New Construction Roofing</h3>
                     <p className="text-gray-600 leading-relaxed">
                       Residential roofing for new home construction throughout Amarillo. We work with custom builders and homeowners to install premium roofing systems—Class 4 shingles or metal roofing—engineered for Texas Panhandle weather. Proper ventilation, quality materials, expert installation.
@@ -631,7 +631,7 @@ export default function ResidentialRoofingAmarilloPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-slate-50 to-gray-100 p-8 rounded-xl shadow-lg border-l-4 border-gray-500">
-                <img src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant shingles for Amarillo homes" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Class 4 impact resistant shingles for Amarillo homes" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">🛡️ What Are Class 4 Shingles?</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   Class 4 shingles pass UL 2218 impact resistance testing—the highest rating available. They withstand 2-inch steel balls dropped from 20 feet, simulating large hail strikes. Available from premium manufacturers like Owens Corning, GAF, and CertainTeed.

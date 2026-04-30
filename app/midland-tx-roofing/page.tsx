@@ -163,7 +163,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage roof repair in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -203,7 +203,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/CommercialRoofing.jpeg" alt="Commercial roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing Services
                     </h3>
@@ -245,7 +245,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -287,7 +287,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/commercial-roof-1024x575-panorama.png" alt="Flat roof repair and replacement in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/commercial-roof-1024x575-panorama.png" alt="Flat roof repair and replacement in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Flat Roof Repair & Replacement
                     </h3>
@@ -328,7 +328,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roof repair in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="24/7 emergency roof repair in Midland TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       24/7 Emergency Roof Repair
                     </h3>

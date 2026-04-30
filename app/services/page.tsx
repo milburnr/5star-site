@@ -159,7 +159,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/hail-damage-3.jpg" alt="Hail Damage Roof Repair" className="card-image" />
+              <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail Damage Roof Repair" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Hail Damage Roof Repair</h3>
                 <p className="mb-4">
@@ -181,7 +181,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/storm-damage-roof-repair.jpg" alt="Storm Damage Restoration" className="card-image" />
+              <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="Storm Damage Restoration" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="mb-4">
@@ -203,7 +203,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/roof-inspection-texas.jpg" alt="Roof Inspections" className="card-image" />
+              <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Roof Inspections" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Free Roof Inspections</h3>
                 <p className="mb-4">
@@ -254,7 +254,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/asphaltshingles.jpg" alt="Asphalt Shingle Roofing" className="card-image" />
+              <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Asphalt Shingle Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Asphalt Shingle Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -270,7 +270,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="up">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/SteelRoofing.jpg" alt="Metal Roofing" className="card-image" />
+              <img loading="lazy" src="/images/SteelRoofing.jpg" alt="Metal Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-xl font-semibold text-brand-brown mb-3">Standing Seam Metal Roofing</h3>
                 <p className="text-gray-600 mb-3">
@@ -353,7 +353,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO1.jpg" alt="TPO Commercial Roofing" className="card-image" />
+              <img loading="lazy" src="/images/TPO1.jpg" alt="TPO Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">TPO Roofing Systems</h3>
                 <p className="mb-4">
@@ -375,7 +375,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/EPDM2.jpg" alt="EPDM Commercial Roofing" className="card-image" />
+              <img loading="lazy" src="/images/EPDM2.jpg" alt="EPDM Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
                 <p className="mb-4">
@@ -397,7 +397,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO1.jpg" alt="PVC and TPO commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
+              <img loading="lazy" src="/images/TPO1.jpg" alt="PVC and TPO commercial roofing system at sunset in West Texas - Premium flat roof installation - 5 Star Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">PVC Roofing Systems</h3>
                 <p className="mb-4">
@@ -419,7 +419,7 @@ export default function Page() {
 
           <FadeIn delay={0.4} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="/images/TPO2.jpg" alt="Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing" className="card-image" />
+              <img loading="lazy" src="/images/TPO2.jpg" alt="Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Built-Up Roofing (BUR)</h3>
                 <p className="mb-4">

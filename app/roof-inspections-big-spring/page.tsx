@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Roof Inspections Big Spring TX | 5 Star Roofing',
-  description: "Expert roof inspections in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Complete insurance documentation, storm damage assessment, and preventive maintenance. Free inspections. Call (806) 622-6041",
+  description: "Expert roof inspections in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Complete insurance documentation, storm damage assessment, and...",
 };
 
 export default function RoofInspectionsBigSpringPage() {

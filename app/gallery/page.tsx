@@ -183,7 +183,7 @@ export default function GalleryPage() {
                   <div className="grid md:grid-cols-3 gap-6 mb-8">
                     {project.beforeImages.map((img, i) => (
                       <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src={img} alt={`${project.title} before ${i + 1}`} className="w-full h-64 object-cover" />
+                        <img loading="lazy" src={img} alt={`${project.title} before ${i + 1}`} className="w-full h-64 object-cover" />
                       </div>
                     ))}
                   </div>
@@ -194,7 +194,7 @@ export default function GalleryPage() {
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 {project.afterImages.map((img, i) => (
                   <div key={i} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src={img} alt={`${project.title} after ${i + 1}`} className="w-full h-64 object-cover" />
+                    <img loading="lazy" src={img} alt={`${project.title} after ${i + 1}`} className="w-full h-64 object-cover" />
                   </div>
                 ))}
               </div>
@@ -209,7 +209,7 @@ export default function GalleryPage() {
             <div className="grid md:grid-cols-2 gap-8">
               {actionPhotos.map((photo, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                  <img src={photo.image} alt={photo.caption} className="w-full h-80 object-cover" />
+                  <img loading="lazy" src={photo.image} alt={photo.caption} className="w-full h-80 object-cover" />
                   <div className="p-4">
                     <p className="text-center text-gray-700 font-medium">{photo.caption}</p>
                   </div>
@@ -229,7 +229,7 @@ export default function GalleryPage() {
             <div className="grid md:grid-cols-3 gap-6">
               {sunsetPhotos.map((photo, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                  <img src={photo.image} alt={photo.caption} className="w-full h-64 object-cover" />
+                  <img loading="lazy" src={photo.image} alt={photo.caption} className="w-full h-64 object-cover" />
                   <div className="p-4">
                     <p className="text-sm text-gray-600 text-center">{photo.caption}</p>
                   </div>
@@ -245,28 +245,28 @@ export default function GalleryPage() {
             <h2 className="text-3xl font-bold text-brand-brown mb-8 text-center">Featured Commercial Projects</h2>
             <div className="space-y-8">
               <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
+                <img loading="lazy"
                   src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Commercial TPO flat roof installation Amarillo TX - White membrane roofing system for warehouse and industrial buildings - 5 Star Commercial Roofing"
                   className="w-full h-96 object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
+                <img loading="lazy"
                   src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Large commercial warehouse roof installation Midland TX - Professional roofing crew installing TPO membrane system - Texas Panhandle roofing contractor"
                   className="w-full h-96 object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
+                <img loading="lazy"
                   src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Industrial building TPO roofing project Odessa TX - Flat roof installation for oil and gas facilities - Permian Basin commercial roofing"
                   className="w-full h-96 object-cover"
                 />
               </div>
               <div className="rounded-lg overflow-hidden shadow-2xl">
-                <img
+                <img loading="lazy"
                   src="/images/commercial-roof-1024x575-panorama.png"
                   alt="Professional commercial roofing crew installing flat roof system West Texas - Expert TPO and PVC membrane installation Amarillo Midland Odessa"
                   className="w-full h-96 object-cover"

@@ -14,7 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Emergency Roof Repair Odessa TX | 24/7 Service',
-  description: '24/7 emergency roof repair in Odessa TX. 4-hour response from Amarillo. Petrochemical plant expertise, extreme climate damage, industrial chemical resistance. Call (806) 622-6041',
+  description: "24/7 emergency roof repair in Odessa TX. 4-hour response from Amarillo. Petrochemical plant expertise, extreme climate damage, industrial chemical resistance.",
 };
 
 export default function EmergencyRoofRepairOdessaPage() {

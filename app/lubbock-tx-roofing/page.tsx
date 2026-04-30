@@ -184,7 +184,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -215,7 +215,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Residential roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -246,7 +246,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard>
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/TPO3.jpg" alt="Commercial roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/TPO3.jpg" alt="Commercial roofing services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>
@@ -339,7 +339,7 @@ export default function LubbockRoofingPage() {
               <InteractiveCard className="bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="Emergency roof repair services in Lubbock TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       Emergency Roof Repair
                     </h3>

@@ -7,7 +7,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 
 export const metadata: Metadata = {
   title: 'Hail Damage Roof Repair in Odessa | 5 Star',
-  description: "Expert hail damage roof repair in Odessa TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections. Call 5 Star Roofing (806) 622-6041.",};
+  description: "Expert hail damage roof repair in Odessa TX. 24/7 emergency service, insurance claim help, Permian Basin specialists. Free inspections.",};
 
 export default function HailDamageRepairOdessaTXPage() {
   const faqSchema = {
@@ -312,7 +312,7 @@ export default function HailDamageRepairOdessaTXPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/ResidentialServices.jpeg" alt="Licensed roofing contractor in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img loading="lazy" src="/images/ResidentialServices.jpeg" alt="Licensed roofing contractor in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Odessa Licensed Contractor</h3>
                   <p className="text-gray-700">
                     Fully licensed for work in Odessa and Ector County. We understand local building codes, wind rating requirements, and city inspection procedures. Not storm chasers - we're here for the long term.
@@ -322,7 +322,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/hail-damage-3.jpg" alt="Hail damage repair expertise in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img loading="lazy" src="/images/hail-damage-3.jpg" alt="Hail damage repair expertise in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">2019 Storm Veterans</h3>
                   <p className="text-gray-700">
                     Served over 150 Odessa families after the May 2019 supercell. We know the unique damage patterns from Permian Basin hailstorms and what it takes to fully restore your roof.
@@ -332,7 +332,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/storm-damage-roof-repair.jpg" alt="Emergency storm response in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img loading="lazy" src="/images/storm-damage-roof-repair.jpg" alt="Emergency storm response in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Fast Response Times</h3>
                   <p className="text-gray-700">
                     Same-day inspections available after storms. Early morning and evening appointments for working families. We know many Odessa residents commute to Midland - we work around your schedule.
@@ -342,7 +342,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/insurance-claims-roofing.jpg" alt="Insurance claims expertise in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img loading="lazy" src="/images/insurance-claims-roofing.jpg" alt="Insurance claims expertise in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Insurance Claim Experts</h3>
                   <p className="text-gray-700">
                     We've handled hundreds of claims with Permian Basin Insurance and all major carriers. We fight to maximize your coverage - many clients receive more than initial estimates.
@@ -352,7 +352,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/roof-inspection-texas.jpg" alt="Professional roof inspection in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img loading="lazy" src="/images/roof-inspection-texas.jpg" alt="Professional roof inspection in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">We Pull All Permits</h3>
                   <p className="text-gray-700">
                     No hassle for you - we handle all City of Odessa permit applications, inspections, and code compliance. You never have to visit 411 W. 8th St or worry about building department requirements.
@@ -362,7 +362,7 @@ export default function HailDamageRepairOdessaTXPage() {
 
               <InteractiveCard>
                 <div className="text-center">
-                  <img src="/images/asphaltshingles.jpg" alt="Impact-resistant shingles in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                  <img loading="lazy" src="/images/asphaltshingles.jpg" alt="Impact-resistant shingles in Odessa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Impact-Resistant Materials</h3>
                   <p className="text-gray-700">
                     Class 4 hail-resistant shingles that withstand future Odessa storms. These premium materials qualify for insurance discounts (10-20% typical) and come with enhanced 50-year warranties.

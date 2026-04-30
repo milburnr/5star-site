@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-02-27T15:52:57.767Z",
+  "modules": {
+    "technical": {
+      "fixed": [
+        "robots.txt created",
+        "sitemap.xml generated",
+        "viewport tags added to 0 pages",
+        "lazy loading added to 0 images"
+      ],
+      "skipped": [
+        {
+          "issue": "image-optimization",
+          "reason": "Requires manual review of <img> → <Image> conversion",
+          "count": 34
+        }
+      ],
+      "failed": []
+    },
+    "on-page": {
+      "fixed": [],
+      "skipped": [],
+      "failed": []
+    },
+    "schema": {
+      "fixed": [],
+      "skipped": [
+        {
+          "issue": "service-schema",
+          "reason": "Requires per-page service name/description generation",
+          "count": 241
+        },
+        {
+          "issue": "breadcrumb-schema",
+          "reason": "Best implemented via reusable breadcrumb component",
+          "count": 261
+        }
+      ],
+      "failed": []
+    },
+    "links": {
+      "fixed": [
+        "Fixed 0 broken links"
+      ],
+      "skipped": [
+        {
+          "issue": "orphan-pages",
+          "reason": "Requires context analysis to determine best linking strategy",
+          "count": 145,
+          "pages": [
+            "metal-roofing-midland/page.tsx",
+            "tpo-roofing-canyon/page.tsx",
+            "tpo-roofing-odessa/page.tsx",
+            "metal-roofing-pampa/page.tsx",
+            "roof-replacement-levelland/page.tsx",
+            "hail-damage-repair-levelland/page.tsx",
+            "hail-damage-repair-perryton/page.tsx",
+            "asphalt-shingle-roofing-monahans/page.tsx",
+            "metal-roofing-andrews/page.tsx",
+            "roof-replacement-big-spring/page.tsx"
+          ]
+        },
+        {
+          "issue": "weak-linking",
+          "reason": "Requires topical analysis to add contextual links",
+          "count": 46
+        }
+      ],
+      "failed": []
+    },
+    "content": {
+      "fixed": [],
+      "skipped": [
+        {
+          "issue": "thin-content",
+          "reason": "Requires AI content generation or manual expansion",
+          "count": 1
+        },
+        {
+          "issue": "eeat-signals",
+          "reason": "Best added via reusable trust badge component",
+          "count": 159
+        },
+        {
+          "issue": "duplicate-content",
+          "reason": "Requires rewrite with unique angles per page",
+          "count": 232
+        },
+        {
+          "issue": "keyword-stuffing",
+          "reason": "Requires manual rewrite with natural language",
+          "count": 40
+        }
+      ],
+      "failed": []
+    },
+    "local": {
+      "fixed": [],
+      "skipped": [
+        {
+          "issue": "nap-consistency",
+          "reason": "Requires site-wide find/replace with correct NAP format",
+          "count": 1
+        },
+        {
+          "issue": "location-titles",
+          "reason": "Requires per-page title rewrite with location",
+          "count": 12
+        },
+        {
+          "issue": "local-schema",
+          "reason": "Add Service schema with areaServed property",
+          "count": 246
+        },
+        {
+          "issue": "google-maps",
+          "reason": "Add Google Maps iframe showing service area",
+          "count": 86
+        }
+      ],
+      "failed": []
+    },
+    "conversion": {
+      "fixed": [],
+      "skipped": [
+        {
+          "issue": "missing-ctas",
+          "reason": "Best added via reusable CTA component",
+          "count": 153
+        },
+        {
+          "issue": "late-cta",
+          "reason": "Move CTA component to top of page (after H1)",
+          "count": 211
+        },
+        {
+          "issue": "trust-signals",
+          "reason": "Add trust badge component (Licensed, Insured, Years in Business, Rating)",
+          "count": 56
+        }
+      ],
+      "failed": []
+    }
+  },
+  "summary": {
+    "total_fixed": 5,
+    "total_skipped": 16,
+    "total_failed": 0
+  }
+}
