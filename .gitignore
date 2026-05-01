@@ -47,6 +47,9 @@ public/images/jobs/
 !public/images/trust/**/*.svg
 !public/images/trust/**/*.jpg
 !public/images/trust/**/*.webp
+# Homepage hero — same-origin WebP (preloaded, ~55-395K per variant)
+# Kept in repo so CI deploys them (CSS in globals.css points at /images/home-hero-*.webp)
+!public/images/home-hero-*.webp
 # Content-ops: pricing reference images embedded in blog articles
 !public/assets/**/*.png
 !public/assets/**/*.jpg

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-17-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -49,7 +49,7 @@ export default function RoofReplacementPampaPage() {
         "@id": "https://5starroofingpros.com/roof-replacement-pampa/#localbusiness",
         "name": "5 Star Roofing",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-25-1280w.jpg",
+        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",
@@ -101,7 +101,7 @@ export default function RoofReplacementPampaPage() {
         "mainEntity": [{"@type":"Question","name":"When should I replace my Pampa roof?","acceptedAnswer":{"@type":"Answer","text":"Replace for widespread hail damage (10+ impacts per 100 sq ft), age over 20 years, multiple leaks, extensive granule loss, or failed repairs."}},{"@type":"Question","name":"What roofing materials work best in Texas Panhandle?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles, metal roofing, and TPO handle Pampa's extreme hail, wind, and temperature swings best."}},{"@type":"Question","name":"How do Pampa oil field conditions affect roofing?","acceptedAnswer":{"@type":"Answer","text":"Industrial emissions, dust, and vibrations from energy operations can accelerate roof deterioration. Regular inspections and quality materials are essential."}},{"@type":"Question","name":"Will a new roof increase my home value in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Yes. New roofs provide 60-70% ROI and are especially valuable in Pampa's stable energy-driven economy. Class 4 roofs add premium value."}}]
       }) }} />
 
-      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>

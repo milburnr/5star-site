@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -850,7 +850,7 @@ export default function MidlandRoofingPage() {
                 "parentOrganization": {
                   "@id": "https://5starroofingpros.com/#organization"
                 },
-                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
+                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
                 "description": "Premier roofing contractor serving Midland, Texas and the Permian Basin. Specialists in commercial roofing, hail damage repair, flat roof systems, and residential roofing for extreme West Texas conditions.",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
@@ -929,7 +929,7 @@ export default function MidlandRoofingPage() {
                 "@type": ["LocalBusiness", "RoofingContractor"],
                 "@id": "https://5starroofingpros.com/midland-texas-roofing/#localbusiness",
                 "name": "5 Star Roofing",
-                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg",
+                "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
                 "telephone": "(806) 622-6041",
                 "email": "admin@5starroofingpros.com",
                 "url": "https://5starroofingpros.com",
