@@ -531,9 +531,9 @@ export default function Page() {
             <div className="relative z-10">
               <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">Our Proven 6-Step Process</h2>
               <div className="grid md:grid-cols-3 gap-8">
-            {/* Step 1 */}
+            {/* Step 1 — real 5 Star crew inspecting a roof in Canyon, TX */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-borger-8-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Professional roof inspection in Amarillo Texas - Free hail damage assessment - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
+              <img src="/images/process/01-inspection.webp" width={768} height={355} alt="5 Star Roofing crew inspecting a residential shingle roof in Canyon, Texas — free hail damage assessment" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">1</div>
               <h3 className="text-xl font-bold mb-2">Free Inspection</h3>
               <p className="text-gray-600">
@@ -541,9 +541,9 @@ export default function Page() {
               </p>
             </div>
 
-            {/* Step 2 */}
+            {/* Step 2 — measuring core sample on a flat roof */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Insurance claim documentation for roof damage in Midland Texas - Professional photo evidence - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
+              <img src="/images/process/02-documentation.webp" width={768} height={1024} alt="Roofing technician taking measurements with a tape measure during damage documentation — 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">2</div>
               <h3 className="text-xl font-bold mb-2">Documentation</h3>
               <p className="text-gray-600">
@@ -551,9 +551,10 @@ export default function Page() {
               </p>
             </div>
 
-            {/* Step 3 */}
+            {/* Step 3 — chalk-marked hail impacts (the documentation packet
+                that goes to the insurance adjuster) */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-2-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Insurance adjuster meeting for roof claim in Odessa Texas - Expert representation - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Hail impact damage chalk-marked on a residential shingle roof — documentation prepared for insurance adjuster review" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">3</div>
               <h3 className="text-xl font-bold mb-2">Insurance Claim</h3>
               <p className="text-gray-600">
@@ -561,9 +562,9 @@ export default function Page() {
               </p>
             </div>
 
-            {/* Step 4 */}
+            {/* Step 4 — full crew on a tearoff/install jobsite */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-odessa-9-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Professional roof installation in Amarillo Texas - Quality craftsmanship - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
+              <img src="/images/process/04-installation.webp" width={768} height={576} alt="5 Star Roofing crew installing a new shingle roof during a residential tearoff in West Texas" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">4</div>
               <h3 className="text-xl font-bold mb-2">Professional Installation</h3>
               <p className="text-gray-600">
@@ -571,9 +572,9 @@ export default function Page() {
               </p>
             </div>
 
-            {/* Step 5 */}
+            {/* Step 5 — close-up of finished chimney flashing & cricket */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-10-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Final roof inspection quality control in West Texas - Warranty protection - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
+              <img src="/images/process/05-quality.webp" width={768} height={576} alt="Finished chimney flashing and cricket detail on a completed shingle roof — 5 Star Roofing quality inspection" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">5</div>
               <h3 className="text-xl font-bold mb-2">Quality Inspection</h3>
               <p className="text-gray-600">
@@ -581,9 +582,9 @@ export default function Page() {
               </p>
             </div>
 
-            {/* Step 6 */}
+            {/* Step 6 — beautiful curb-appeal exterior of a finished home */}
             <div className="text-center">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Satisfied roofing customer in Texas Panhandle - Completed project - 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy"  fetchPriority="low" />
+              <img src="/images/process/06-satisfaction.webp" width={768} height={576} alt="Completed residential home in Borger, Texas with a brand-new shingle roof from 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">6</div>
               <h3 className="text-xl font-bold mb-2">Your Satisfaction</h3>
               <p className="text-gray-600">

@@ -10,23 +10,25 @@ type Variant = 'residential' | 'metal' | 'commercial';
 type Brand = {
   slug: string;
   name: string;
-  ext: 'svg' | 'png';
+  ext: 'svg' | 'png' | 'webp';
   width: number;
   height: number;
 };
 
-// Brands sourced from each manufacturer's own CDN or press kit.
-// Skipped brands (bot-blocked CDNs): GAF, Owens Corning, ATAS International,
-// GAF EverGuard. These will be added in a follow-up phase once interactive
-// browser fetch is available.
+// Brands sourced from each manufacturer's own press kit / SVG.
+// Residential lineup is the actual tier-1 premium asphalt-shingle market:
+// GAF (Timberline HDZ), Owens Corning (Duration), CertainTeed (Landmark),
+// TAMKO (Heritage). Atlas + Malarkey were dropped — neither is positioned
+// as premium in the West Texas storm-restoration market.
 const brandsByVariant: Record<Variant, Brand[]> = {
   residential: [
+    { slug: 'gaf', name: 'GAF', ext: 'svg', width: 2500, height: 2052 },
+    { slug: 'owens-corning', name: 'Owens Corning', ext: 'svg', width: 2500, height: 2500 },
     { slug: 'certainteed', name: 'CertainTeed', ext: 'svg', width: 286, height: 66 },
-    { slug: 'malarkey', name: 'Malarkey Roofing Products', ext: 'png', width: 1500, height: 467 },
-    { slug: 'atlas', name: 'Atlas Roofing', ext: 'png', width: 393, height: 262 },
-    { slug: 'tamko', name: 'TAMKO', ext: 'png', width: 135, height: 89 },
+    { slug: 'tamko', name: 'TAMKO', ext: 'svg', width: 2500, height: 2500 },
   ],
   metal: [
+    { slug: 'decra', name: 'DECRA Metal Roofing', ext: 'webp', width: 600, height: 600 },
     { slug: 'mcelroy-metal', name: 'McElroy Metal', ext: 'png', width: 217, height: 145 },
     { slug: 'metal-sales', name: 'Metal Sales Manufacturing', ext: 'png', width: 247, height: 27 },
     { slug: 'englert', name: 'Englert', ext: 'svg', width: 1584, height: 280 },
@@ -38,6 +40,7 @@ const brandsByVariant: Record<Variant, Brand[]> = {
     { slug: 'johns-manville', name: 'Johns Manville', ext: 'svg', width: 712, height: 158 },
     { slug: 'sika-sarnafil', name: 'Sika Sarnafil', ext: 'svg', width: 209, height: 229 },
     { slug: 'duro-last', name: 'Duro-Last', ext: 'svg', width: 504, height: 72 },
+    { slug: 'duro-tech', name: 'Duro-Tech TPO', ext: 'png', width: 600, height: 200 },
     { slug: 'versico', name: 'Versico', ext: 'png', width: 2382, height: 1077 },
     { slug: 'mule-hide', name: 'Mule-Hide', ext: 'png', width: 124, height: 121 },
     { slug: 'elevate', name: 'Elevate', ext: 'png', width: 189, height: 45 },
@@ -52,8 +55,8 @@ const headings: Record<Variant, string> = {
 
 const gridCols: Record<Variant, string> = {
   residential: 'grid-cols-2 sm:grid-cols-4',
-  metal: 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-5',
-  commercial: 'grid-cols-2 sm:grid-cols-4 lg:grid-cols-7',
+  metal: 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-6',
+  commercial: 'grid-cols-2 sm:grid-cols-4 lg:grid-cols-8',
 };
 
 interface Props {
@@ -67,9 +70,9 @@ export function MaterialBrands({ variant }: Props) {
   return (
     <section className="section-sub bg-white border-y border-brand-gold/20">
       <div className="container-custom">
-        <h3 className="text-center text-lg md:text-xl font-semibold text-gray-primary mb-8">
+        <h2 className="text-center text-lg md:text-xl font-semibold text-gray-primary mb-8">
           {heading}
-        </h3>
+        </h2>
         <div
           className={`grid ${gridCols[variant]} gap-6 md:gap-8 items-center justify-items-center max-w-5xl mx-auto`}
         >
