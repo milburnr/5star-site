@@ -28,9 +28,9 @@ export function InsuranceLogos() {
   return (
     <section className="section-sub bg-white border-y border-brand-gold/20">
       <div className="container-custom">
-        <h3 className="text-center text-lg md:text-xl font-semibold text-gray-primary mb-8">
+        <h2 className="text-center text-lg md:text-xl font-semibold text-gray-primary mb-8">
           We work directly with your insurance carrier
-        </h3>
+        </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 md:gap-8 items-center justify-items-center max-w-4xl mx-auto">
           {carriers.map((c) => (
             <img

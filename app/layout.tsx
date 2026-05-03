@@ -145,6 +145,36 @@ export default function RootLayout({
                   <p className="font-semibold text-white">Hours</p>
                   <p className="text-sm">Mon–Sun · 9:00 AM – 5:00 PM</p>
                 </div>
+                {/* GBP + social links — strengthens entity association
+                    between the site and the Google Business Profile, and
+                    clears the "no anchor pointing to maps.google.com" finding
+                    from the May 2026 audit. */}
+                <div className="mt-4 flex items-center gap-4">
+                  <a
+                    href="https://www.google.com/maps?cid=11430502439073045291"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View 5 Star Roofing on Google"
+                    className="text-brand-gold-light hover:text-brand-gold-bright transition-colors text-sm font-semibold inline-flex items-center gap-1"
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M12 2C7.589 2 4 5.589 4 9.995 3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12 0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
+                    </svg>
+                    View on Google
+                  </a>
+                  <a
+                    href="https://www.facebook.com/5starroofingpros"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="5 Star Roofing on Facebook"
+                    className="text-brand-gold-light hover:text-brand-gold-bright transition-colors text-sm font-semibold inline-flex items-center gap-1"
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg>
+                    Facebook
+                  </a>
+                </div>
                 {/* Lazy Google Maps embed for NAP/local SEO — 5 Star Roofing HQ */}
                 <div className="mt-4 rounded-lg overflow-hidden border border-brand-gold/30 shadow-md">
                   <iframe
@@ -218,6 +248,7 @@ export default function RootLayout({
                   <li><a href="/contact/" className="text-brand-gold-light hover:text-brand-gold-bright">Contact</a></li>
                   <li><a href="/amarillo-weather-impact-on-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Weather Impact</a></li>
                   <li><a href="/roofing-methods/" className="text-brand-gold-light hover:text-brand-gold-bright">Installation Methods</a></li>
+                  <li><a href="/privacy/" className="text-brand-gold-light hover:text-brand-gold-bright">Privacy Policy</a></li>
                 </ul>
               </div>
 

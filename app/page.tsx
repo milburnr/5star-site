@@ -3,6 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { MaterialBrands } from "@/components/MaterialBrands";
+import { ContactForm } from "@/components/ContactForm";
 import {
   Accordion,
   AccordionContent,
@@ -89,7 +90,7 @@ export default function Page() {
                 <a href="tel:8066226041" className="bg-gradient-to-r from-brand-gold to-brand-gold-vibrant text-brand-brown hover:text-white text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5 sm:w-6 sm:h-6 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold hover:bg-gray-50 hover:-translate-y-0.5 transition-all duration-300 text-sm sm:text-base md:text-lg shadow-xl border-2 border-brand-gold text-center">
+                <a href="#get-quote" className="bg-white text-brand-brown px-5 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 rounded-full font-bold hover:bg-gray-50 hover:-translate-y-0.5 transition-all duration-300 text-sm sm:text-base md:text-lg shadow-xl border-2 border-brand-gold text-center">
                   Free Inspection
                 </a>
               </div>
@@ -760,6 +761,42 @@ export default function Page() {
           </section>
         </FadeIn>
 
+        {/* Inline Contact Form — converts visitors who won't dial.
+            Posts JSON to /.netlify/functions/contact-submit which forwards
+            to the GHL webhook. Replaces the heavy iframe form embed. */}
+        <FadeIn>
+          <section id="get-quote" className="mb-16 below-fold scroll-mt-24">
+            <div className="grid md:grid-cols-5 gap-8 items-start bg-gradient-to-br from-amber-50 to-white p-6 md:p-10 rounded-2xl border border-brand-gold/20 shadow-md">
+              <div className="md:col-span-2">
+                <h2 className="text-3xl font-bold mb-4 text-brand-brown">
+                  Request a Free Inspection
+                </h2>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Send us a few details and we'll respond within 2 business hours.
+                  No obligation, no high-pressure sales — just a thorough roof
+                  assessment from a licensed Texas Panhandle roofing crew.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Prefer to talk? Call{" "}
+                  <a
+                    href="tel:8066226041"
+                    className="text-brand-gold font-semibold hover:underline"
+                  >
+                    (806) 622-6041
+                  </a>{" "}
+                  for same-day storm response.
+                </p>
+              </div>
+              <div className="md:col-span-3">
+                <ContactForm
+                  title=""
+                  subtitle=""
+                />
+              </div>
+            </div>
+          </section>
+        </FadeIn>
+
         {/* CTA Section */}
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-lg text-center below-fold">
           <h2 className="text-3xl font-bold mb-4">Storm Damage? Don't Wait.</h2>
@@ -771,7 +808,7 @@ export default function Page() {
             <a href="tel:8066226041" className="btn-primary text-lg bg-white text-brand-brown hover:bg-gray-100 hover:scale-110 transition-all duration-300 hover:shadow-2xl">
               <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
             </a>
-            <a href="/contact/" className="btn-secondary text-lg border-2 border-white hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300">
+            <a href="#get-quote" className="btn-secondary text-lg border-2 border-white hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300">
               Request Free Inspection
             </a>
           </div>
