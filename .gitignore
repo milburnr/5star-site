@@ -50,6 +50,12 @@ public/images/jobs/
 # Homepage hero — same-origin WebP (preloaded, ~55-395K per variant)
 # Kept in repo so CI deploys them (CSS in globals.css points at /images/home-hero-*.webp)
 !public/images/home-hero-*.webp
+# Curated card photography (material/process/service hero shots) — same-origin
+!public/images/materials/**/*.webp
+!public/images/materials/**/*.png
+!public/images/materials/**/*.jpg
+!public/images/process/**/*.webp
+!public/images/services/**/*.webp
 # Content-ops: pricing reference images embedded in blog articles
 !public/assets/**/*.png
 !public/assets/**/*.jpg

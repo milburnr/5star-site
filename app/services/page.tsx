@@ -417,7 +417,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg" alt="EPDM rubber roofing membrane on commercial building in Amarillo TX - 5 Star Roofing" className="card-image" />
+              <img src="/images/materials/epdm-commercial.webp" width={1280} height={720} alt="EPDM rubber membrane installation on a commercial flat roof — illustrative example of black single-ply rubber roofing — 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">EPDM Rubber Roofing</h3>
                 <p className="mb-4">

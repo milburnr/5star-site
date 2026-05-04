@@ -503,7 +503,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Completed EPDM rubber roof membrane on a residential dormer/addition in Amarillo — 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" fetchPriority="low" />
+              <img src="/images/materials/epdm-commercial.webp" width={1280} height={720} alt="EPDM rubber membrane installation on a commercial flat roof — illustrative example of black single-ply rubber roofing — 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">EPDM Rubber Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Cost-effective black rubber membrane for commercial and industrial applications.

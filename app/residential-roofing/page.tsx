@@ -194,30 +194,7 @@ export default function Page() {
           </div>
         </FadeIn>
 
-        <FadeIn delay={0.3} direction="left">
-          <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
-            <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
-              alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-brand-brown mb-3">Tile Roofing</h3>
-              <p className="mb-3">
-                Concrete and clay tiles offer distinctive style and exceptional durability.
-                Perfect for Mediterranean and Spanish-style homes.
-              </p>
-              <ul className="list-disc list-inside space-y-1 text-gray-600">
-                <li>Concrete and clay options</li>
-                <li>Superior hail resistance</li>
-                <li>Fire-resistant</li>
-                <li>50+ year lifespan</li>
-              </ul>
-            </div>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.4} direction="right">
+        <FadeIn delay={0.3} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
               src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp"
