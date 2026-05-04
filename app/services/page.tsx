@@ -198,7 +198,7 @@ export default function Page() {
 
           <FadeIn delay={0.1} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-san-angelo-1-1280w.jpg" alt="Hail-damaged roof shingles showing impact marks on Amarillo home requiring repair" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg" alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Hail Damage Roof Repair</h3>
                 <p className="mb-4">
@@ -220,7 +220,7 @@ export default function Page() {
 
           <FadeIn delay={0.2} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg" alt="Storm-damaged roof in Odessa TX with wind-blown shingles needing restoration" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg" alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Storm Damage Restoration</h3>
                 <p className="mb-4">
@@ -242,7 +242,7 @@ export default function Page() {
 
           <FadeIn delay={0.3} direction="left">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.jpg" alt="5 Star Roofing inspector performing detailed roof assessment on Texas Panhandle home" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg" alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Free Roof Inspections</h3>
                 <p className="mb-4">
@@ -461,7 +461,7 @@ export default function Page() {
 
           <FadeIn delay={0.4} direction="right">
             <div className="card hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-29-1280w.jpg" alt="Built-up roofing and TPO commercial installation in Amarillo Texas - Multi-layer flat roof system - 5 Star Commercial Roofing" className="card-image" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg" alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing" className="card-image" />
               <div className="card-body">
                 <h3 className="text-2xl font-semibold text-brand-brown mb-3">Built-Up Roofing (BUR)</h3>
                 <p className="mb-4">

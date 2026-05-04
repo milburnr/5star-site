@@ -219,8 +219,8 @@ export default function Page() {
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-midland-1-1280w.jpg"
-            alt="Asphalt shingle roofing close-up showing architectural shingle texture in Midland, Texas"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg"
+            alt="Strong hero: finished gray shingle roof with attic vent, branded dump trailer + work truck in driveway — implies job context — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />
@@ -409,8 +409,8 @@ export default function Page() {
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-perryton-3-1280w.jpg"
-            alt="Shingle roof installation in Perryton, Texas with new underlayment and starter strips"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg"
+            alt="Strong hero: finished gray shingle roof with attic vent, branded dump trailer + work truck in driveway — implies job context — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />

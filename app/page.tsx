@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -201,7 +201,7 @@ export default function Page() {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
             <FadeIn delay={0.1} direction="left">
               <a href="/hail-damage-repair-amarillo/" className="flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold">
-              <img src="/images/services/hail-damage-repair.webp" width={768} height={576} alt="Hail-damaged residential shingle roof showing impact marks and chalk-circled damage points — 5 Star Roofing inspection" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" fetchPriority="low" />
+              <img src="/images/services/hail-damage-repair.webp" width={768} height={576} alt="Wide aerial of a gray architectural shingle roof with numerous hail strikes circled in chalk plus vents and skylight — strong hail-inspec... — 5 Star Roofing" className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" fetchPriority="low" />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors"><CloudHail className="w-6 h-6 inline-block" /> Hail Damage Repair</h3>
                 <p className="text-gray-600 mb-4">
@@ -362,7 +362,7 @@ export default function Page() {
               <FadeIn delay={0.2}>
                 <a href="/wind-damage-repair-midland/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-23-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Completed gray dimensional asphalt shingle roof with prominent ridge venting after wind damage repair — 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" fetchPriority="low" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-640w.jpg 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" fetchPriority="low" />
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-brand-brown group-hover:text-brand-gold transition-colors">Wind Damage Repair - Midland</h3>
@@ -375,7 +375,7 @@ export default function Page() {
               <FadeIn delay={0.3}>
                 <a href="/roof-replacement-odessa/" className="flex flex-col h-full bg-gradient-to-br from-white to-amber-50 rounded-2xl shadow-lg overflow-hidden card-blur-bounce border border-brand-gold/20 group cursor-pointer">
                   <div className="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-24-1280w.webp" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-24-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-perryton-24-1280w.webp 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Completed brown dimensional architectural shingle roof replacement showing clean ridge lines and professional installation — 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" fetchPriority="low" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg" srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-640w.jpg 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg 1280w" sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy" fetchPriority="low" />
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-xl mb-2 text-brand-brown group-hover:text-brand-gold transition-colors">Roof Replacement - Odessa</h3>
@@ -471,7 +471,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="/images/materials/standing-seam-metal.jpg" width={768} height={576} alt="Clean gray standing seam metal roof panels with sky background — 5 Star Roofing premium hail protection" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" fetchPriority="low" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg" width={768} height={576} alt="Strong hero: finished gray shingle roof with attic vent, branded dump trailer + work truck in driveway — implies job context — 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">Standing Seam Metal Roofing</h3>
               <p className="text-gray-600 mb-4">
                 The ultimate hail protection. Metal roofing may dent but remains watertight even after severe
@@ -487,7 +487,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
-              <img src="/images/materials/tpo-commercial.webp" width={1280} height={717} alt="Crew installing white TPO single-ply membrane on a large commercial flat roof — 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" fetchPriority="low" />
+              <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg" width={1280} height={717} alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing" className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300" loading="lazy" fetchPriority="low" />
               <h3 className="text-xl font-bold text-brand-brown mb-3 group-hover:text-brand-gold transition-colors">TPO Commercial Roofing</h3>
               <p className="text-gray-600 mb-4">
                 Single-ply white membrane roofing for commercial flat roofs. Heat-welded seams create
@@ -584,7 +584,7 @@ export default function Page() {
 
             {/* Step 6 — beautiful curb-appeal exterior of a finished home */}
             <div className="text-center">
-              <img src="/images/process/06-satisfaction.webp" width={768} height={576} alt="Completed residential home in Borger, Texas with a brand-new shingle roof from 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
+              <img src="/images/services/hail-damage-repair.webp" width={768} height={576} alt="Wide aerial of a gray architectural shingle roof with numerous hail strikes circled in chalk plus vents and skylight — strong hail-inspec... — 5 Star Roofing" className="w-full h-64 object-cover rounded-lg mb-4" loading="lazy" fetchPriority="low" />
               <div className="text-4xl font-bold text-brand-gold mb-2">6</div>
               <h3 className="text-xl font-bold mb-2">Your Satisfaction</h3>
               <p className="text-gray-600">
@@ -824,7 +824,7 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg",
             "@id": "https://5starroofingpros.com/#organization",
             "url": "https://5starroofingpros.com",
             "telephone": "(806) 622-6041",

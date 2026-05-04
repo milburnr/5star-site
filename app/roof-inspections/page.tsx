@@ -258,8 +258,8 @@ export default function Page() {
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.jpg"
-            alt="Professional roof inspection in progress on an Amarillo residential home"
+            src="/images/services/hail-damage-repair.webp"
+            alt="Wide aerial of a gray architectural shingle roof with numerous hail strikes circled in chalk plus vents and skylight — strong hail-inspec... — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />

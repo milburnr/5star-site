@@ -222,7 +222,7 @@ export default function MidlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg" alt="Commercial flat roof with EPDM membrane on Midland area industrial facility" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg" alt="Modern stone/stucco home with dark standing-seam metal roof, oil pumpjack in background. AI-stylized Midland hero — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing Services
                     </h3>

@@ -135,7 +135,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Standing Seam Metal Roof Installation</h2>
       <div className="card mb-8">
-        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-9-1280w.webp" alt="Standing seam metal roof - Ultimate hail protection - 5 Star Commercial Roofing" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg" alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Ultimate Hail Protection</h3>
           <p className="mb-4">
@@ -219,7 +219,7 @@ export default function Page() {
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Modified Bitumen and Built-Up Roofing Systems</h2>
       <div className="card mb-8">
-        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-33-1280w.jpg" alt="Modified bitumen roofing installation - Commercial flat roof systems - 5 Star Commercial Roofing Amarillo" className="card-image" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg" alt="SCARCE CANDIDATE: low-slope smooth modified-bitumen panel meeting steep architectural shingle roof — clear residential mod-bit example — 5 Star Roofing" className="card-image" />
         <div className="card-body">
           <h3 className="text-xl font-semibold text-brand-brown mb-3">Heavy-Duty Commercial Solutions</h3>
           <p className="mb-4">

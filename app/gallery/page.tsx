@@ -35,7 +35,7 @@ const commercialImages = [
   { url: `${R2_CDN}/images/commercial/commercial-pampa-2-1280w.jpg`, caption: "Large warehouse flat roof replacement with TPO system in Pampa, TX" },
   { url: `${R2_CDN}/images/commercial/commercial-pampa-3-1280w.jpg`, caption: "Industrial flat roof with white membrane roofing in Pampa, TX" },
   { url: `${R2_CDN}/images/commercial/commercial-amarillo-5-1280w.jpg`, caption: "EPDM rubber roofing on commercial flat roof project in Amarillo, TX" },
-  { url: `${R2_CDN}/images/commercial/commercial-channing-8-1280w.jpg`, caption: "TPO single-ply roofing system installed on Channing, TX commercial building" },
+  { url: `${R2_CDN}/images/home-hero-1200w.webp`, caption: "TPO single-ply roofing system installed on Channing, TX commercial building" },
   { url: `${R2_CDN}/images/commercial/commercial-amarillo-10-1280w.jpg`, caption: "Commercial roof installation with heat-welded membrane seams in Amarillo, TX" },
   { url: `${R2_CDN}/images/commercial/commercial-amarillo-11-1280w.jpg`, caption: "Flat roof tear-off and replacement on Amarillo, TX commercial property" },
   { url: `${R2_CDN}/images/commercial/commercial-amarillo-12-1280w.jpg`, caption: "Large-scale commercial roofing project completed in Amarillo, TX by 5 Star Roofing" },

@@ -187,8 +187,8 @@ export default function Page() {
         <FadeIn delay={0.2} direction="right">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg"
-              alt="PVC commercial roofing membrane Odessa TX - Chemical resistant flat roof system - 5 Star Commercial Roofing"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp"
+              alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing"
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
@@ -286,8 +286,8 @@ export default function Page() {
 
       <div className="mb-6">
         <img
-          src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg"
-          alt="Large commercial flat roof installation in Amarillo TX - TPO membrane system for warehouse and industrial buildings - 5 Star Commercial Roofing"
+          src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
+          alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
           className="w-full h-64 object-cover rounded-lg"
         />
       </div>
@@ -389,7 +389,7 @@ export default function Page() {
       <h2 className="text-2xl font-bold mt-8 mb-4">Why Choose 5 Star for Commercial Roofing?</h2>
 
       <div className="mb-6">
-        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="Professional TPO commercial roof installation in Texas" className="w-full h-64 object-cover rounded-lg" loading="lazy" />
+        <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing" className="w-full h-64 object-cover rounded-lg" loading="lazy" />
       </div>
 
       <div className="grid md:grid-cols-3 gap-4 mb-8">

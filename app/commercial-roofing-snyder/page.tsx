@@ -48,7 +48,7 @@ export default function CommercialRoofingSnyderPage() {
         "@type": ["LocalBusiness", "RoofingContractor"],
         "@id": "https://5starroofingpros.com/commercial-roofing-snyder/#localbusiness",
         "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg",
+        "image": "/images/home-hero-1200w.webp",
         "telephone": "(806) 622-6041",
         "email": "admin@5starroofingpros.com",
         "priceRange": "$$",

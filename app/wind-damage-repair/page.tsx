@@ -198,8 +198,8 @@ export default function Page() {
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-7-1280w.webp"
-            alt="Wind and storm damage on a Perryton, Texas roof with lifted shingles and exposed underlayment"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
+            alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />
@@ -343,8 +343,8 @@ export default function Page() {
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-34-1280w.jpg"
-            alt="Completed wind damage roof repair in Stinnett, Texas with new shingles secured"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
+            alt="Two chalked hail strikes on gray 3-tab shingles — strong inspection/hail-damage hero. Filename 'completed' is a mismatch — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />

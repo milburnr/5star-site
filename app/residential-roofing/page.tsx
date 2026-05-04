@@ -197,8 +197,8 @@ export default function Page() {
         <FadeIn delay={0.3} direction="left">
           <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
             <img
-              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg"
-              alt="Concrete tile roofing on Amarillo Mediterranean-style home - Premium residential roof - 5 Star Commercial Roofing"
+              src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
+              alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
               className="w-full h-48 object-cover"
             />
             <div className="p-6">

@@ -250,7 +250,7 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-6-1280w.jpg" alt="Commercial flat roof with TPO membrane on Pampa TX business building" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img src="/images/home-hero-1200w.webp" alt="Hill-Country stone home at sunset with copper standing-seam accents over shingle main roof — current homepage hero — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial Roofing
                     </h3>

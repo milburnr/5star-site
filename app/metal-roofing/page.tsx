@@ -243,8 +243,8 @@ export default function Page() {
 
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-wichita-falls-1-1280w.webp"
-            alt="Metal roofing panels installed on a commercial building in Wichita Falls, Texas"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
+            alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />
@@ -401,8 +401,8 @@ export default function Page() {
         <h2 className="text-2xl font-bold mt-12 mb-4">How Do You Maintain and Repair a Metal Roof?</h2>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-22-1280w.webp"
-            alt="Standing seam metal roof installation in progress in Sanderson, West Texas"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
+            alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />

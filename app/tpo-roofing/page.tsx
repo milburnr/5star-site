@@ -406,8 +406,8 @@ export default function Page() {
         </p>
         <div className="my-8 rounded-lg overflow-hidden shadow-lg">
           <img
-            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-10-1280w.jpg"
-            alt="Commercial flat roof TPO installation and maintenance in Amarillo, Texas"
+            src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp"
+            alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing"
             className="w-full h-64 object-cover"
             loading="lazy"
           />

@@ -279,7 +279,7 @@ export default function CommercialRoofingAmarilloPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="TPO white membrane roofing installation on Amarillo commercial building - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs in Amarillo's hot summers. Excellent hail resistance and proven performance in Texas Panhandle weather.
@@ -293,7 +293,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roof on Amarillo commercial warehouse - Durable hail protection" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Standing seam and R-panel metal roofing for commercial applications. Superior wind resistance (140+ mph), fire resistance (Class A), and longevity (50+ years). Ideal for warehouses, manufacturing facilities, and retail buildings.
@@ -307,7 +307,7 @@ export default function CommercialRoofingAmarilloPage() {
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-5-1280w.jpg" alt="EPDM rubber membrane on Amarillo commercial flat roof - Cost-effective roofing solution" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg" alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance and proven performance in extreme temperatures (-40°F to 300°F). Budget-friendly option with reliable 15-30 year lifespan.
