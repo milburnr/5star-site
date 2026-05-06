@@ -61,7 +61,7 @@ export default function HailDamageRepairPlainviewPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert hail damage repair services in Plainview, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
       <script
@@ -90,22 +90,7 @@ export default function HailDamageRepairPlainviewPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"How do cotton warehouses and agricultural buildings affect roofing in Plainview?","acceptedAnswer":{"@type":"Answer","text":"Plainview's cotton industry creates unique roofing challenges with large warehouse facilities and grain elevators. We specialize in agricultural roofing systems designed for high-capacity storage and processing facilities throughout Hale County."}},
-              {"@type":"Question","name":"What makes Plainview's location challenging for severe weather?","acceptedAnswer":{"@type":"Answer","text":"Plainview sits in the Llano Estacado region where storms intensify crossing the High Plains. The flat terrain provides no barriers to severe weather, allowing hail-producing supercells to develop maximum intensity as they approach the city."}},
-              {"@type":"Question","name":"Do you service Wayland Baptist University buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes, we work with educational institutions and understand the specialized requirements for university facilities. Wayland Baptist University has been part of Plainview since 1908, and we're experienced with academic building roofing needs."}},
-              {"@type":"Question","name":"How has the closure of Cargill affected insurance in Plainview?","acceptedAnswer":{"@type":"Answer","text":"While Cargill's 2013 closure impacted the economy, Plainview's diversified agricultural base remains strong. We work with all insurance carriers and understand the evolving needs of the community's agricultural and educational sectors."}},
-              {"@type":"Question","name":"What's the best roofing solution for Plainview's cotton storage facilities?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing systems are ideal for cotton storage and processing facilities in Plainview's climate. We design solutions that withstand severe weather while providing the durability needed for agricultural operations."}}
-            ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"

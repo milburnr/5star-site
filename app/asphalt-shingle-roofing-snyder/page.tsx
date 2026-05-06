@@ -72,7 +72,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert asphalt shingle roofing services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -484,65 +484,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
       <RelatedArticles pageSlug="asphalt-shingle-roofing-snyder" />
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                              {
-                                        "@type": "Question",
-                                        "name": "How does Snyder's Scurry County location affect shingle performance?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Snyder's position in Scurry County at the southern edge of the Rolling Plains creates a unique microclimate where Permian Basin heat combines with moisture patterns from the south. This creates conditions that accelerate shingle aging through both UV degradation and moisture-related issues. We use shingles with both UV stabilizers and algae-resistant technology for Snyder installations."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "What shingle options do you recommend for Snyder ranch properties?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "For Snyder ranch properties, we recommend Class 4 impact-resistant architectural shingles for residential structures and metal roofing for barns and outbuildings. Ranch homes in Scurry County face full weather exposure with no surrounding structures for protection, so the highest wind and impact ratings are essential. We also ensure proper ventilation for ranch homes that may lack modern attic ventilation standards."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "How do oil field operations near Snyder affect residential roofing?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Snyder's active SACROC oil field unit and surrounding production operations release airborne particulates that settle on residential rooftops. These deposits can interact with shingle materials over time, particularly in areas downwind of active drilling or production sites. Premium shingles with chemical-resistant granule coatings perform best in these conditions."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "What is the average timeline for a shingle roof replacement in Snyder?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Most Snyder residential roof replacements are completed in 1-2 days for a standard-sized home. We coordinate material delivery from our suppliers to arrive on-site the morning of installation, minimizing the time your home is exposed. For insurance-funded replacements, we begin work within 1-2 weeks of claim approval, weather permitting."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "Do Snyder homeowners need special underlayment for asphalt shingles?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Yes, we recommend synthetic underlayment for all Snyder installations rather than traditional felt paper. Synthetic underlayment provides superior UV resistance during installation, better waterproofing if wind lifts a shingle, and improved tear resistance during Scurry County's high winds. For areas prone to ice damming during winter storms, we install ice and water shield at eaves and valleys."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "How do you handle Snyder roofing projects during peak oil activity periods?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "During peak oil activity in the Snyder area, increased truck traffic and industrial activity can affect scheduling and access. We coordinate with property owners to schedule installations during lower-traffic periods when possible and ensure our crews have proper access routes. Our experience working throughout the Permian Basin means we understand how to work efficiently around oil field activity."
-                                        }
-                              }
-                    ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
 
     </>
   );

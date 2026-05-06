@@ -72,7 +72,7 @@ export default function MetalRoofingBigSpringPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert metal roofing services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -631,23 +631,7 @@ export default function MetalRoofingBigSpringPage() {
       <RelatedArticles pageSlug="metal-roofing-big-spring" />
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"Is metal roofing a good choice near Big Spring's refinery operations?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing is excellent near Big Spring's refinery because it resists chemical exposure from airborne industrial particulates, does not absorb petroleum-based contaminants like asphalt shingles do, and can be cleaned easily if chemical deposits accumulate. Standing seam systems with Kynar coatings provide the best long-term performance in Big Spring's industrial environment."}},
-              {"@type":"Question","name":"How does Big Spring's elevation affect metal roofing panel expansion?","acceptedAnswer":{"@type":"Answer","text":"At Big Spring's 2,400-foot elevation, temperature swings between day and night can exceed 40 degrees, and seasonal ranges exceed 110 degrees. Metal panels expand and contract with these changes, which is why we use standing seam systems with floating clips that allow panels to move without stressing fasteners or creating noise."}},
-              {"@type":"Question","name":"What metal gauge do you recommend for Big Spring residential homes?","acceptedAnswer":{"@type":"Answer","text":"For Big Spring residential metal roofing, we typically recommend 26-gauge steel for standing seam applications and 24-gauge for exposed fastener panels. In areas with higher hail exposure or for agricultural buildings, 24-gauge provides enhanced impact resistance. Commercial and industrial buildings near the I-20 corridor may benefit from 22-gauge for maximum durability."}},
-              {"@type":"Question","name":"Can metal roofing reduce cooling costs for Big Spring businesses along I-20?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Cool-color metal roofing with high solar reflectance can reduce cooling costs by 25-35% for Big Spring commercial buildings. Given Big Spring's extreme summer heat with 80-100 days above 100 degrees annually, the energy savings on a commercial building can reach thousands of dollars per year, providing a return on investment within 8-12 years."}},
-              {"@type":"Question","name":"How does metal roofing handle Big Spring's occasional severe hailstorms?","acceptedAnswer":{"@type":"Answer","text":"Standing seam metal roofing handles Big Spring hailstorms exceptionally well. The steel panels can absorb impacts from hail up to 2 inches without compromising waterproofing integrity. While cosmetic denting may occur with larger hail, the roof continues to function perfectly. This is a major advantage over asphalt shingles that often require full replacement after significant hail events."}},
-              {"@type":"Question","name":"Do you install metal roofing on Big Spring agricultural buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes, agricultural metal roofing is a significant part of our Big Spring work. We install corrugated and R-panel metal systems on barns, equipment shelters, livestock facilities, and storage buildings throughout Howard County. Agricultural metal roofing handles dust accumulation, chemical exposure, and the vibration from farming equipment better than any other roofing material."}}
-            ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
     </>
   );
 }

@@ -656,28 +656,12 @@ export default function ClaudeRoofingPage() {
                 }
               ]
             },
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
           })
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"How does Claude's small population affect roofing contractor availability?","acceptedAnswer":{"@type":"Answer","text":"With only about 1,200 residents, Claude does not have local roofing contractors. Many residents rely on companies from Amarillo, which is 25 miles west on US-287. We make the drive regularly and can typically reach Claude within 30 minutes. Our familiarity with Armstrong County means we understand the specific building styles and weather patterns that affect roofing decisions here."}},
-              {"@type":"Question","name":"What roofing challenges are unique to Claude's Armstrong County location?","acceptedAnswer":{"@type":"Answer","text":"Claude sits at the gateway to Palo Duro Canyon, where the landscape transitions from flat plains to rugged canyon terrain. This creates unique wind patterns as air flows between the open plains and the canyon. Armstrong County also experiences extreme isolation from major supply chains, so we bring all materials and equipment in a single trip to minimize project delays and additional travel costs."}},
-              {"@type":"Question","name":"Can you roof historic buildings near Claude's downtown square?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Claude's historic downtown includes buildings dating back to the early 1900s, including structures around the Armstrong County Courthouse. We have experience working with older construction methods and can install modern roofing systems that respect the architectural character while providing superior weather protection."}},
-              {"@type":"Question","name":"Do you handle ranch and agricultural roofing for properties along Tule Creek?","acceptedAnswer":{"@type":"Answer","text":"Yes, ranch and agricultural roofing is common in Claude and Armstrong County. Properties along Tule Creek and FM 1260 often include cattle barns, equipment storage buildings, hay storage structures, and ranch headquarters. We install metal roofing systems designed for agricultural use, including corrugated panels, R-panel, and standing seam systems with enhanced corrosion resistance for livestock environments."}},
-              {"@type":"Question","name":"How does the proximity to Palo Duro Canyon affect roofing in Claude?","acceptedAnswer":{"@type":"Answer","text":"Palo Duro Canyon, located just south of Claude, creates unique microclimate effects. The canyon acts as a channel for winds, and storms approaching from the southwest can intensify as they interact with the canyon's topography. Properties on the south side of Claude facing the canyon experience more turbulent wind patterns than those on the north side. We account for these directional wind effects when selecting materials and planning installation."}},
-              {"@type":"Question","name":"What UV protection is needed for roofs at Claude's elevation?","acceptedAnswer":{"@type":"Answer","text":"At nearly 3,000 feet elevation with over 265 days of sunshine annually, Claude roofs receive intense UV radiation that accelerates shingle degradation. Standard asphalt shingles rated for 25-30 years may only last 15-20 years here. We recommend UV-stabilized architectural shingles with enhanced granule adhesion, or metal roofing with reflective coatings that resist UV damage and reduce cooling costs."}}
-            ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
     <RelatedArticles pageSlug="claude-tx-roofing" />
     </div>
   );

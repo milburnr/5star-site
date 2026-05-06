@@ -72,7 +72,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert asphalt shingle roofing services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -484,65 +484,7 @@ export default function AsphaltShingleRoofingLevellandPage() {
       <RelatedArticles pageSlug="asphalt-shingle-roofing-levelland" />
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": [
-                              {
-                                        "@type": "Question",
-                                        "name": "How does Levelland's cotton dust affect asphalt shingle roofs?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Cotton ginning operations throughout Hockley County produce fine fiber dust that accumulates on roof surfaces and in gutters. This organic material traps moisture against shingles, promoting algae growth and accelerating granule loss. We recommend shingles with algae-resistant technology and install enhanced gutter guards for Levelland homes near cotton processing facilities."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "What asphalt shingle upgrades do Levelland homeowners benefit from most?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "The most impactful upgrade for Levelland homeowners is Class 4 impact-resistant shingles. Hockley County experiences frequent severe hail, and these premium shingles can reduce insurance premiums by up to 35%. Combined with proper attic ventilation for Levelland's extreme heat, impact-resistant shingles provide the best combination of protection and cost savings."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "How does South Plains College campus proximity affect residential roofing in Levelland?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Residential properties near South Plains College experience higher traffic and rental turnover common in college-area neighborhoods. We install durable shingle systems designed for rental properties, with enhanced wind ratings and impact resistance that withstand the higher wear typical of student housing areas. Multi-property pricing is available for landlords with multiple Levelland rental homes."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "What is the average roof replacement cost for Levelland homes?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Levelland residential roof replacements typically range from $5,500 to $11,000 depending on home size and material selection. Standard architectural shingles are at the lower end, while Class 4 impact-resistant shingles cost 15-20% more. Most hail damage replacements in Levelland are covered by insurance, with homeowners responsible only for their deductible."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "How do Levelland's spring dust storms affect roof inspections?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Heavy dust storms in Hockley County can deposit significant debris on roof surfaces, making visual inspection from ground level unreliable. We use drone photography to inspect Levelland roofs after dust storm season, identifying damage hidden beneath dust accumulation. Post-dust-storm inspections also check that gutters and downspouts are clear of debris buildup."
-                                        }
-                              },
-                              {
-                                        "@type": "Question",
-                                        "name": "Are there specific Levelland building codes for shingle installation?",
-                                        "acceptedAnswer": {
-                                                  "@type": "Answer",
-                                                  "text": "Levelland follows Texas residential building codes that specify minimum wind uplift ratings, fire classification, and ice and water shield requirements. For Hockley County's high-wind zone, we exceed minimum code requirements with enhanced nailing patterns and starter strip adhesion. Our installations comply with all local permit requirements, and we handle the permitting process."
-                                        }
-                              }
-                    ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
 
     </>
   );

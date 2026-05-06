@@ -663,28 +663,12 @@ export default function VegaRoofingPage() {
                 }
               ]
             },
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
           })
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"How does Vega's Route 66 heritage affect roofing for historic buildings?","acceptedAnswer":{"@type":"Answer","text":"Vega's historic Route 66 buildings require roofing that preserves their mid-century character while providing modern weather protection. We use materials that complement historic aesthetics, including stone-coated metal shingles and architectural shingles that mimic period-appropriate profiles."}},
-              {"@type":"Question","name":"Why is Vega's 4,000-foot elevation a roofing concern?","acceptedAnswer":{"@type":"Answer","text":"At nearly 4,000 feet elevation, Vega receives significantly more intense UV radiation than lower-elevation communities. Combined with over 270 days of sunshine annually and minimal humidity to filter UV rays, roofing materials degrade faster here than almost anywhere in Texas. We recommend UV-stabilized shingles or reflective metal roofing for maximum longevity."}},
-              {"@type":"Question","name":"Do you roof ranching properties in Oldham County outside of Vega?","acceptedAnswer":{"@type":"Answer","text":"Yes, we serve ranch properties throughout Oldham County, including those along US-385 and the rural areas north and south of Vega. Metal roofing is the preferred choice for ranch buildings because of its 50+ year lifespan and virtually zero maintenance requirements."}},
-              {"@type":"Question","name":"How do I-40 corridor winds affect Vega roofs differently than inland areas?","acceptedAnswer":{"@type":"Answer","text":"The I-40 corridor through Vega creates a wind channeling effect where the flat highway alignment and open terrain allow winds to accelerate to higher speeds. We use enhanced fastening schedules and wind-rated materials exceeding 130 mph for I-40 corridor properties, and recommend standing seam metal roofing with concealed fasteners for maximum wind resistance."}},
-              {"@type":"Question","name":"What is the best time of year to replace a roof in Vega?","acceptedAnswer":{"@type":"Answer","text":"The ideal window for roof replacement in Vega is late September through November and March through early May, when temperatures are moderate and severe storm risk is lower. Summer installations are possible but require careful scheduling around afternoon thunderstorms and extreme heat."}},
-              {"@type":"Question","name":"How does Vega's small population of 900 affect roofing material availability?","acceptedAnswer":{"@type":"Answer","text":"As a community of about 900 residents, Vega does not have local roofing supply stores. We bring all materials directly from our Amarillo suppliers, 35 miles east on I-40. This means no delays waiting for material deliveries from distant locations."}}
-            ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
     <RelatedArticles pageSlug="vega-tx-roofing" />
     </div>
   );

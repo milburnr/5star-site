@@ -72,7 +72,7 @@ export default function StormDamageRepairBigSpringPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert storm damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -123,44 +123,7 @@ export default function StormDamageRepairBigSpringPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                      {
-                              "@type": "Question",
-                              "name": "Why is Big Spring particularly susceptible to severe weather?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Big Spring's location along the Caprock Escarpment creates a natural weather intensification zone. The elevation change and terrain features cause air masses to converge and strengthen, particularly during spring and early summer months. The city sits directly in the path of the \"Hail Highway\" where warm, moist Gulf air collides with cool, dry air from the Rocky Mountains. Additionally, the lack of natural windbreaks on the high plains allows storms to maintain intensity as they approach the city, while the elevation amplifies both wind speeds and UV exposure that damages roofing materials."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What makes storm damage worse in Big Spring compared to other cities?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Several factors amplify storm damage in Big Spring. The 2,400-foot elevation increases both wind speeds and UV intensity, accelerating material degradation. The extreme temperature variations (often 40-50°F daily swings) create thermal stress that weakens roofing systems before storms hit. Flash flooding is common due to the hard-packed clay soil that doesn't absorb water well, and the surrounding terrain funnels water toward the city during heavy rains. The combination of these factors means that even moderate storms can cause significant damage to roofing systems that might survive similar conditions elsewhere."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What roofing materials perform best in Big Spring's climate?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "For Big Spring's challenging climate, we recommend materials specifically designed for high UV exposure and extreme temperature variations. Modified bitumen with mineral surfacing provides excellent durability and hail resistance. Thermoplastic membranes (TPO/PVC) with enhanced UV stabilizers perform well in the intense West Texas sun. Metal roofing systems with thermal expansion joints handle the temperature swings effectively while resisting wind uplift. All systems require enhanced fastening patterns and reinforced details to withstand the frequent high winds. We also recommend impact-resistant materials and proper drainage design to handle the area's flash flooding potential."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How quickly can you respond to storm damage in Big Spring?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "We maintain prompt response capability for Big Spring and Howard County. During major storm events, we pre-position crews and materials in the area to ensure rapid response. Our goal is same-day prompt service for critical damage and comprehensive assessment within 24-48 hours of initial contact. We understand that Big Spring's weather patterns often produce multiple storm events in short periods, so quick temporary repairs are essential to prevent cascading damage. Our local relationships with material suppliers ensure we can obtain necessary repair materials even when demand is high throughout West Texas."
-                              }
-                      }
-              ]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
 
       <section

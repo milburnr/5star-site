@@ -512,24 +512,7 @@ export default function PlainviewRoofingPage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"What roofing challenges does Plainview's cotton processing industry create?","acceptedAnswer":{"@type":"Answer","text":"Plainview's role as a major cotton processing center creates unique roofing demands. Cotton gin facilities, processing plants, and storage warehouses require roofing systems that handle dust accumulation from ginning operations, withstand vibrations from heavy processing equipment, and resist corrosion from moisture trapped in cotton storage environments."}},
-              {"@type":"Question","name":"Do you provide roofing for Wayland Baptist University buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes, we serve the Wayland Baptist University campus and surrounding area. University buildings including dormitories, academic facilities, athletic buildings, and administrative offices require commercial-grade roofing systems that minimize disruption to campus operations. We schedule installations around the academic calendar."}},
-              {"@type":"Question","name":"How does Plainview's 3,400-foot elevation affect roofing material selection?","acceptedAnswer":{"@type":"Answer","text":"At 3,400 feet elevation, Plainview receives significantly more UV radiation than lower-elevation Texas cities. This increased UV exposure breaks down asphalt binders faster, causing premature granule loss and shingle failure. We exclusively install UV-stabilized materials in Plainview, including shingles with enhanced granule adhesion and reflective coatings."}},
-              {"@type":"Question","name":"What is the typical cost of residential roofing in Plainview compared to larger cities?","acceptedAnswer":{"@type":"Answer","text":"With Hale County's median home value around $95,000, Plainview homeowners need cost-effective roofing solutions that still withstand extreme weather. A typical residential roof replacement in Plainview ranges from $6,000 to $12,000 depending on size and materials. Most hail damage replacements are covered by insurance."}},
-              {"@type":"Question","name":"Can you roof Covenant Health Plainview and other medical facilities?","acceptedAnswer":{"@type":"Answer","text":"Yes, we have experience with healthcare facility roofing that requires uninterrupted patient care operations. Medical facilities like Covenant Health Plainview need roofing installations that support life-safety equipment, maintain sterile environments during construction, and provide long-term reliability."}},
-              {"@type":"Question","name":"How do Plainview's grain elevator complexes affect nearby residential roofing?","acceptedAnswer":{"@type":"Answer","text":"Grain elevators throughout Plainview create localized dust conditions that affect nearby residential properties. Grain dust accumulates on roof surfaces and in gutters, trapping moisture against roofing materials and accelerating wear. We recommend enhanced gutter protection, more frequent maintenance schedules, and durable materials for properties near agricultural processing facilities."}}
-            ],
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
     <RelatedArticles pageSlug="plainview-texas-roofing" />
     </div>
   );

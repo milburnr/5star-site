@@ -72,7 +72,7 @@ export default function TPORoofingSnyderPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert tpo roofing services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -123,60 +123,7 @@ export default function TPORoofingSnyderPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                      {
-                              "@type": "Question",
-                              "name": "Is TPO roofing suitable for agricultural buildings in Scurry County?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Absolutely. TPO excels in agricultural applications due to its chemical resistance, easy cleaning, and durability. The membrane resists ammonia from livestock areas, fertilizer exposure, and can be power-washed for sanitary requirements. Many dairy operations, grain storage facilities, and livestock barns throughout West Texas use TPO successfully."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How does TPO perform against West Texas supercell storms?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "TPO provides excellent protection against supercell storms common in West Texas. Class 4 impact-resistant membranes withstand hail up to softball size, while mechanically fastened systems resist wind uplift exceeding 120 mph. The membrane's flexibility prevents cracking from thermal shock during rapid temperature changes associated with severe storms."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "Does Snyder's elevation affect TPO roofing performance?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Snyder's 2,400+ foot elevation actually benefits TPO performance. Higher elevation means lower air density and reduced thermal stress on the membrane. The intense UV exposure at elevation is easily handled by TPO's advanced UV stabilizers. Cool winter temperatures at elevation don't affect TPO's flexibility like they do with other materials."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How does TPO handle West Texas dust storms?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "TPO's smooth, non-granulated surface sheds dust and debris much better than asphalt-based systems. The membrane won't degrade from sand abrasion, and dust can be easily removed with pressure washing. Regular cleaning maintains the membrane's reflective properties and prevents drain blockages from accumulated dust."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "Can TPO be installed on rural properties outside Snyder city limits?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Yes, we regularly install TPO roofing on rural properties throughout Scurry County. Our mobile equipment allows us to work efficiently on remote agricultural and commercial buildings. We coordinate material delivery and equipment access for properties with limited accessibility, ensuring quality installation regardless of location."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "Do rural buildings benefit from TPO's energy efficiency?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Rural buildings often benefit more than urban properties from TPO's energy efficiency. Many rural properties rely on propane or electric heat pumps, making cooling cost savings more significant. Agricultural buildings with cooling needs for livestock or grain storage see substantial operational savings from TPO's reflective properties."
-                              }
-                      }
-              ]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
 
       <section

@@ -59,7 +59,7 @@ export default function RoofReplacementMonahansPage() {
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Monahans,_Texas", "name": "Monahans", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Professional roof replacement in Monahans TX. Expert installation, warranties, and insurance assistance.",
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
       <script
@@ -95,11 +95,7 @@ export default function RoofReplacementMonahansPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{"@type":"Question","name":"When should I replace my Monahans roof?","acceptedAnswer":{"@type":"Answer","text":"Replace for widespread hail damage (10+ impacts per 100 sq ft), age over 20 years, multiple leaks, extensive granule loss, or failed repairs."}},{"@type":"Question","name":"What roofing materials work best in West Texas?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles, metal roofing, and TPO are ideal for Monahans' desert climate, handling extreme heat, wind, and occasional hail."}},{"@type":"Question","name":"How does Monahans climate affect roof lifespan?","acceptedAnswer":{"@type":"Answer","text":"Desert conditions with temperature swings, UV exposure, and windblown sand reduce roof lifespan. Quality materials and proper installation are critical."}},{"@type":"Question","name":"Will a new roof increase my home value?","acceptedAnswer":{"@type":"Answer","text":"Yes. New roofs provide 60-70% ROI. Class 4 roofs add premium value with insurance discounts and reduced maintenance."}}]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
       <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>

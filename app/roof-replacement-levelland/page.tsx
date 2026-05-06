@@ -59,7 +59,7 @@ export default function RoofReplacementLevellandPage() {
         "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas", "name": "Levelland", "containedInPlace": { "@type": "State", "name": "Texas" } },
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Professional roof replacement in Levelland TX. Expert installation, warranties, and insurance assistance.",
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
       <script
@@ -95,11 +95,7 @@ export default function RoofReplacementLevellandPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{"@type":"Question","name":"When should I replace my Levelland roof?","acceptedAnswer":{"@type":"Answer","text":"Replace for widespread hail damage (10+ impacts per 100 sq ft), age over 20 years, multiple leaks, extensive granule loss, or failed repairs."}},{"@type":"Question","name":"What roofing materials work best in Texas?","acceptedAnswer":{"@type":"Answer","text":"Class 4 impact-resistant shingles (residential) and TPO or metal (commercial) handle Texas hail, wind, and temperature extremes best."}},{"@type":"Question","name":"Will a new roof increase my home value?","acceptedAnswer":{"@type":"Answer","text":"Yes. New roofs provide 60-70% ROI. Class 4 roofs add premium value with insurance discounts and reduced maintenance."}}]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
       <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>

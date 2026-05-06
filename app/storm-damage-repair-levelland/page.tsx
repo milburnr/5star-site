@@ -72,7 +72,7 @@ export default function StormDamageRepairLevellandPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert storm damage repair services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -123,44 +123,7 @@ export default function StormDamageRepairLevellandPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                      {
-                              "@type": "Question",
-                              "name": "Why does Levelland experience more severe hailstorms than other Texas cities?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Levelland sits in the heart of \"Hail Alley\" on the High Plains at over 3,500 feet elevation. This unique geography creates perfect conditions for supercell thunderstorm development. The flat terrain extending for hundreds of miles allows storms to organize and intensify without disruption, while the elevation provides the atmospheric instability needed for severe hail formation. The convergence of warm, moist air from the Gulf of Mexico with cool, dry air from the Rocky Mountains regularly occurs directly over the South Plains during spring and early summer months, making Levelland one of the most hail-prone cities in the United States."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How does the high elevation affect roofing systems in Levelland?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "The 3,500+ foot elevation significantly impacts roofing systems in several ways. UV radiation is approximately 20% more intense than at sea level, accelerating material degradation and reducing roof lifespan. The thin air provides less wind resistance, allowing hailstones to maintain higher velocities and impact energy when they strike roofs. Extreme temperature variations (often 40-50°F daily swings) create severe thermal stress that causes premature cracking and failure in roofing materials. Additionally, the high elevation increases wind speeds during storms, with less atmospheric resistance meaning sustained winds and gusts are typically 10-15% stronger than they would be at lower elevations."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What roofing systems are most effective for South Plains conditions?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "For Levelland's extreme conditions, we recommend Class 4 impact-resistant systems as the minimum standard. Modified bitumen with heavy mineral surfacing provides excellent hail and UV resistance. Metal roofing systems with impact-resistant coatings and proper expansion joints handle both hail and temperature extremes well. For commercial applications, reinforced thermoplastic membranes (TPO/PVC) with enhanced UV stabilizers and higher mil thickness offer superior durability. All systems require enhanced fastening patterns designed for sustained high winds, reinforced penetration details, and regular maintenance schedules to address the accelerated aging caused by South Plains weather conditions."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How do you handle the high volume of claims after major storm events?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "We maintain strategic relationships with material suppliers and additional crews throughout Texas to ensure rapid response capability during major storm events that affect the entire South Plains region. Our process includes immediate prompt services to prevent further damage, comprehensive documentation for insurance purposes, and phased restoration that prioritizes critical repairs first. We utilize drone technology for rapid assessment of large commercial properties and maintain detailed databases of local building specifications to expedite the estimation process. During major events like the 2022 hailstorm marathon, we coordinate with regional contractors while maintaining our quality standards to ensure all customers receive proper restoration services."
-                              }
-                      }
-              ]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
 
       <section

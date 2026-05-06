@@ -72,7 +72,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert asphalt shingle roofing services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -483,23 +483,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
       <RelatedArticles pageSlug="asphalt-shingle-roofing-big-spring" />
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"How does Big Spring's refinery environment affect asphalt shingle selection?","acceptedAnswer":{"@type":"Answer","text":"Big Spring's Delek US refinery operations release airborne particulates that can settle on roof surfaces and interact with shingle materials. We recommend shingles with enhanced chemical resistance and UV-stabilized granules for Big Spring properties, particularly those downwind of industrial operations along I-20. Regular cleaning of accumulated particulates helps extend shingle life."}},
-              {"@type":"Question","name":"What wind ratings are recommended for asphalt shingles in Big Spring?","acceptedAnswer":{"@type":"Answer","text":"Big Spring's location on the Llano Estacado at 2,400 feet elevation produces sustained winds averaging 12 mph with frequent gusts exceeding 50 mph. We recommend asphalt shingles rated for at least 130 mph wind resistance with six-nail installation patterns that exceed standard four-nail minimums. Enhanced starter strip adhesion is also critical for Big Spring installations."}},
-              {"@type":"Question","name":"Are there specific shingle colors that perform better in Big Spring's heat?","acceptedAnswer":{"@type":"Answer","text":"Lighter-colored shingles reflect more solar radiation and can reduce attic temperatures by 10-15 degrees in Big Spring's extreme summer heat. However, darker colors better hide the red-brown dust common in Howard County. We typically recommend medium-toned architectural shingles with cool-roof technology that provides UV reflectance regardless of color."}},
-              {"@type":"Question","name":"How often should Big Spring homeowners have their shingle roofs inspected?","acceptedAnswer":{"@type":"Answer","text":"We recommend professional inspections twice annually for Big Spring properties: once in early spring before severe storm season and once in late fall. Additionally, request an inspection after any hailstorm producing quarter-sized or larger hail. Big Spring's combination of hail, wind, UV exposure, and industrial particulates means damage can accumulate quickly if not addressed."}},
-              {"@type":"Question","name":"Does Big Spring's hard water affect roof maintenance?","acceptedAnswer":{"@type":"Answer","text":"Big Spring's notoriously hard water with high mineral content can leave calcium deposits on roof surfaces and in gutters when sprinkler systems overshoot or during rare heavy rains. These mineral deposits trap moisture and create conditions for algae growth. We can install zinc or copper strips along ridge lines that naturally inhibit algae and mineral buildup."}},
-              {"@type":"Question","name":"What warranty coverage is most important for Big Spring asphalt shingles?","acceptedAnswer":{"@type":"Answer","text":"In Big Spring's demanding climate, look for manufacturer warranties that specifically cover wind damage above 110 mph, algae resistance, and thermal cycling performance. Our preferred manufacturers offer 50-year limited lifetime warranties with 10-15 year full coverage periods. We also provide our own workmanship warranty that covers installation quality regardless of manufacturer terms."}}
-            ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
     </>
   );
 }

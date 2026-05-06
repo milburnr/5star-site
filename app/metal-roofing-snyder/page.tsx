@@ -72,7 +72,7 @@ export default function MetalRoofingSnyderPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert metal roofing services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -631,23 +631,7 @@ export default function MetalRoofingSnyderPage() {
       <RelatedArticles pageSlug="metal-roofing-snyder" />
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"Why are Snyder ranchers increasingly choosing metal roofing?","acceptedAnswer":{"@type":"Answer","text":"Snyder ranchers are choosing metal roofing for its exceptional longevity of 50+ years, zero maintenance requirements ideal for remote ranch properties, superior performance during Scurry County's severe hail and wind events, and its ability to handle the dust and particulates from both ranching and oil operations without degrading. Metal roofing eliminates the need for frequent shingle replacement on properties where access for repairs is difficult."}},
-              {"@type":"Question","name":"What metal roofing systems work best for Snyder's rolling terrain?","acceptedAnswer":{"@type":"Answer","text":"Snyder's Rolling Plains terrain creates variable wind patterns as air flows over hills and ridges. Standing seam metal roofing with concealed clips provides the best performance in these conditions because it allows thermal movement while maintaining a secure connection. The continuous panel design eliminates the horizontal seam vulnerabilities that can fail in turbulent wind conditions common in Scurry County's terrain."}},
-              {"@type":"Question","name":"How does metal roofing compare to shingles for Snyder homes near the SACROC field?","acceptedAnswer":{"@type":"Answer","text":"Metal roofing significantly outperforms asphalt shingles near Snyder's SACROC oil field unit. Metal panels resist petroleum-based airborne contaminants that degrade asphalt shingle binders, do not absorb chemical deposits like porous shingle materials do, and can be cleaned easily if needed. For properties within a few miles of active production areas, metal is the clear superior choice."}},
-              {"@type":"Question","name":"Can you install metal roofing on Snyder's historic downtown buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes, we install metal roofing on Snyder's historic downtown properties using profiles that complement the architectural character of older commercial buildings. Standing seam and corrugated metal were actually common roofing materials when many of these buildings were originally constructed, so metal roofing often restores historical accuracy while providing modern weather protection."}},
-              {"@type":"Question","name":"What is the expected return on investment for metal roofing in Snyder?","acceptedAnswer":{"@type":"Answer","text":"Snyder homeowners typically see a full return on their metal roofing investment within 15-20 years through combined energy savings, eliminated maintenance costs, and insurance premium reductions. With a 50+ year expected lifespan compared to 15-18 years for shingles in Scurry County, metal roofing eliminates 2-3 shingle replacements over the same period, making the total cost of ownership significantly lower."}},
-              {"@type":"Question","name":"Do you offer financing for metal roofing projects in Snyder?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer flexible financing options for Snyder metal roofing projects. Monthly payments can often be structured so that the combined payment is offset by energy savings and insurance premium reductions, making the upgrade effectively cash-flow neutral. For hail damage situations, insurance coverage may fund a significant portion of the metal roofing upgrade when combined with the homeowner's out-of-pocket investment."}}
-            ]
-          })
-        }}
-      />
+      {/* schema-cleanup:faqpage:removed */}
     </>
   );
 }

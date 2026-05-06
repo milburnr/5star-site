@@ -73,7 +73,7 @@ export default function RoofInspectionsBigSpringPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert roof inspections services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
       <script
@@ -123,60 +123,7 @@ export default function RoofInspectionsBigSpringPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                      {
-                              "@type": "Question",
-                              "name": "How much does a roof inspection cost in Big Spring?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "We provide free roof inspections for Big Spring property owners, especially after severe weather events. Our comprehensive inspection includes detailed documentation, photography, and a written report. If repairs are needed, the inspection cost is waived when you choose us for the work."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How often should I have my roof inspected in West Texas?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "We recommend annual inspections for Big Spring properties due to severe weather frequency. Additionally, schedule inspections after any major storm event (hail, high winds, or severe thunderstorms). Spring inspections before storm season can identify vulnerabilities, while fall inspections assess summer storm damage."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "Will my insurance company accept your inspection report?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Yes, our certified inspectors provide detailed reports that meet all insurance company requirements. We're approved by all major insurance carriers and regularly work with adjusters throughout Howard County. Our reports include photographic evidence, damage measurements, and cost estimates that support successful claims."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How soon after a storm should I schedule an inspection?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Contact us within 24-48 hours after any severe weather event. Early inspection documentation is crucial for insurance claims and prevents further damage. We offer damage inspection services and can usually schedule within 24 hours of your call during storm seasons."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What are signs I need a roof inspection immediately?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Schedule immediate inspection if you notice: water stains on ceilings, missing or damaged shingles, granules in gutters, dents on metal surfaces after storms, cracked or curling shingles, damaged flashing around chimneys or vents, or any interior leaks during rain. Don't wait—early detection prevents costly damage."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What documentation will I receive from the inspection?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "You'll receive a comprehensive inspection report including: high-resolution photographs of all damage, detailed written assessment, measurements and specifications, cost estimates for repairs/replacement, material recommendations, timeline for necessary work, and insurance claim support documentation. All reports are digital and available within 24 hours."
-                              }
-                      }
-              ]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
 
       <section

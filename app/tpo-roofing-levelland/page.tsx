@@ -72,7 +72,7 @@ export default function TPORoofingLevellandPage() {
         "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
         "description": "Expert tpo roofing services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
         "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
+
       }) }} />
 
 
@@ -123,60 +123,7 @@ export default function TPORoofingLevellandPage() {
         }}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                      {
-                              "@type": "Question",
-                              "name": "How long does TPO roofing last in Levelland's climate?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Quality TPO roofing systems typically last 20-30 years in Levelland's climate when properly installed and maintained. The membrane's UV resistance and thermal stability make it ideal for the South Plains' intense sun exposure and temperature extremes. With regular inspections and minor maintenance, many TPO roofs exceed their expected lifespan."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "Can TPO roofing withstand Hockley County hailstorms?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Yes, TPO roofing offers excellent hail resistance. Premium TPO membranes meet UL 2218 Class 4 impact resistance standards, protecting against hail up to 2 inches in diameter. The membrane's flexibility allows it to absorb impact without cracking, unlike brittle roofing materials. Many insurance companies offer discounts for Class 4 impact-resistant roofing."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How much can I save on energy costs with TPO roofing?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "TPO roofing can reduce cooling costs by 20-30% compared to traditional dark roofing materials. The highly reflective white surface reflects 80-85% of solar radiation, significantly reducing heat transfer into the building. In Levelland's hot summers, property owners typically see substantial savings on HVAC costs, often paying for the roof upgrade within 5-7 years."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What maintenance does TPO roofing require?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "TPO roofing requires minimal maintenance. Bi-annual inspections, keeping drains clear of debris, and occasional cleaning to maintain reflectivity are the primary requirements. We recommend professional inspections after severe weather events common in Hockley County. Unlike modified bitumen systems, TPO doesn't require recoating or extensive maintenance programs."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "What warranties are available for TPO roofing in Levelland?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "We offer comprehensive warranty packages including 15-30 year manufacturer material warranties and our exclusive 10-year labor warranty. Many TPO systems qualify for extended warranties up to 30 years when installed by certified contractors. Our warranty covers wind uplift up to 120 mph and includes hail damage coverage in most cases."
-                              }
-                      },
-                      {
-                              "@type": "Question",
-                              "name": "How does TPO roofing cost compare to other commercial roofing options?",
-                              "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "TPO offers the best value in commercial roofing. Initial installation costs are 15-25% lower than modified bitumen and significantly less than metal roofing. When factoring in energy savings, minimal maintenance requirements, and extended lifespan, TPO provides the lowest total cost of ownership. Many Levelland properties see positive ROI within the first decade."
-                              }
-                      }
-              ]
-      }) }} />
+      {/* schema-cleanup:faqpage:removed */}
 
 
       <section
