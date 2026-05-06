@@ -58,6 +58,10 @@ export default function RoofReplacementAmarilloPage() {
           <li><a href="/blog/parts-of-a-roof/" className="text-blue-700 underline">parts of a roof</a></li>
           {/* auto-link:roof-types */}
           <li><a href="/blog/roof-types/" className="text-blue-700 underline">What Are the Different Roof Types</a></li>
+                  {/* auto-link:what-mansard-roof */}
+          <li><a href="/blog/what-mansard-roof/" className="text-blue-700 underline">What Is a Mansard Roof</a></li>
+          {/* auto-link:what-roof-sheathing */}
+          <li><a href="/blog/what-roof-sheathing/" className="text-blue-700 underline">roof sheathing overview</a></li>
         </ul>
       </section>
       {/* auto-linker:end */}
