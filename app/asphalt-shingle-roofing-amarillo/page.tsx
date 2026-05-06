@@ -43,6 +43,16 @@ export default function AsphaltShingleRoofingAmarilloPage() {
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
+      {/* auto-linker:start */}
+      <section className="auto-linked-related my-8">
+        <h2 className="text-2xl font-semibold mb-4">Related Resources</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          {/* auto-link:asphalt-shingles */}
+          <li><a href="/blog/asphalt-shingles/" className="text-blue-700 underline">What Are Asphalt Shingles? A Homeowner's Guide</a></li>
+        </ul>
+      </section>
+      {/* auto-linker:end */}
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "RoofingContractor"],

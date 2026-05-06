@@ -48,6 +48,20 @@ export default function RoofReplacementAmarilloPage() {
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
+      {/* auto-linker:start */}
+      <section className="auto-linked-related my-8">
+        <h2 className="text-2xl font-semibold mb-4">Related Resources</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          {/* auto-link:tpo-roof */}
+          <li><a href="/blog/tpo-roof/" className="text-blue-700 underline">What Is a TPO Roof</a></li>
+          {/* auto-link:parts-of-a-roof */}
+          <li><a href="/blog/parts-of-a-roof/" className="text-blue-700 underline">parts of a roof</a></li>
+          {/* auto-link:roof-types */}
+          <li><a href="/blog/roof-types/" className="text-blue-700 underline">What Are the Different Roof Types</a></li>
+        </ul>
+      </section>
+      {/* auto-linker:end */}
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
