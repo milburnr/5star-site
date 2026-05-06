@@ -274,27 +274,20 @@ export default function RootLayout({
           </div>
         </footer>
 
-        {/* Google Analytics - load only after user interaction to not block TTI */}
-        <Script id="google-analytics-loader" strategy="lazyOnload">
+        {/* Google Analytics — eager load via afterInteractive so every
+            pageview is recorded. Earlier 8s setTimeout / interaction-only
+            loader caused mobile bouncers to never fire GA. */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-BHH34LVX73"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
           {`
-            function loadGA() {
-              if (window.gaLoaded) return;
-              window.gaLoaded = true;
-              var s = document.createElement('script');
-              s.src = 'https://www.googletagmanager.com/gtag/js?id=G-BHH34LVX73';
-              s.async = true;
-              document.head.appendChild(s);
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              window.gtag = gtag;
-              gtag('js', new Date());
-              gtag('config', 'G-BHH34LVX73');
-            }
-            // Load after user interaction or 8 seconds
-            setTimeout(loadGA, 8000);
-            ['scroll', 'click', 'touchstart', 'keydown'].forEach(function(e) {
-              document.addEventListener(e, loadGA, {once: true, passive: true});
-            });
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-BHH34LVX73');
           `}
         </Script>
 
