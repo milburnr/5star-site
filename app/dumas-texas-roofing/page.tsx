@@ -8,8 +8,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/dumas-texas-roofing/' },
-  title: 'Roofing Dumas, TX | Hail Damage Specialists | 5 Star Roofing',
-  description: "Roofing services in Dumas, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Moore County. Free inspections available.",
+  title: "Roofing Dumas, TX | Agricultural & Commercial Roofing | 5 Star",
+  description: "Expert roofing in Dumas, TX for agricultural buildings, feedlots, commercial facilities, and homes. Serving Moore County. Free inspections available.",
   openGraph: {
     title: "Roofing Dumas, TX | Hail Damage Specialists | 5 Star Roofing",
     description: "Roofing services in Dumas, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Moore County. Free inspections available.",
@@ -53,7 +53,7 @@ export default function DumasRoofingPage() {
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">Dumas&apos;s Professional Roofing Contractor</h1>
+            <h1 className="hero-title">Dumas Roofing Contractor — Agricultural, Commercial & Residential</h1>
             <p className="hero-subtitle">Expert Roofing Services in Dumas, Texas</p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
