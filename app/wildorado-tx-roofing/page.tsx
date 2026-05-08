@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -54,7 +54,7 @@ export default function WildoradoRoofingPage() {
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
           backgroundPosition: 'center',
         }}
       >
@@ -587,7 +587,7 @@ export default function WildoradoRoofingPage() {
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/wildorado-tx-roofing/",
             "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/amarillo-hero.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
             "description": "Professional roofing contractor serving Wildorado, Texas from our Amarillo location. Expert hail damage repair, residential and agricultural roofing services.",
             "address": {
               "@type": "PostalAddress",
