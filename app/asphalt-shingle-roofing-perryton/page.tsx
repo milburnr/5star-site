@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Shield, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-perryton/' },
   title: 'Asphalt Shingles Perryton TX | 5 Star Roofing',
   description: "Asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",

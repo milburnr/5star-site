@@ -10,6 +10,7 @@ import { AlertTriangle, Check, Home, Phone, Shield, Star } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-perryton/' },
   title: 'Hail Damage Repair Perryton TX | 5 Star Roofing',
   description: "Professional hail damage repair in Perryton TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",

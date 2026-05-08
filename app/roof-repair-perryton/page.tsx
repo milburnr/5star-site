@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { CloudHail, Landmark, Phone, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/roof-repair-perryton/' },
   title: "Roof Repair Perryton TX | 5 Star Roofing",
   description: "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",

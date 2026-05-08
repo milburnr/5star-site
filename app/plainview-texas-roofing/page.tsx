@@ -13,6 +13,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Building2, Check, Home, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/plainview-texas-roofing/' },
   title: 'Roofing Plainview TX | Hail Damage | 5 Star Roofing',
   description: "Roofing services in Plainview, Texas Panhandle. Commercial, residential, and storm roofing. Serving Hale County. Free inspections available.",

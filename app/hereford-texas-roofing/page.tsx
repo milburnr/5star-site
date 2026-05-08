@@ -8,6 +8,7 @@ import { Building2, CloudHail, Home, RefreshCw, Wrench } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/hereford-texas-roofing/' },
   title: 'Roofing Hereford TX | Hail Damage | 5 Star Roofing',
   description: "Roofing services in Hereford, Texas Panhandle. Residential, commercial, and hail damage repair. Serving Deaf Smith County. Free inspections available.",

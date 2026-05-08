@@ -13,6 +13,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Beef, Check, Construction, Factory, Landmark, Phone, Search, Shield, Tornado, TrendingUp, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-hereford/' },
   title: 'Hail Damage Repair Hereford TX | 5 Star Roofing',
   description: "Expert hail damage roof repair in Hereford TX. , insurance claim help, quality materials. Serving Deaf Smith County. Call 5 Star Roofing (806) 622-6041.",

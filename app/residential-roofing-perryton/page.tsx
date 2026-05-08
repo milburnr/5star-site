@@ -10,6 +10,7 @@ import { CloudLightning, Landmark, Phone, Snowflake, Star, Tornado, Wheat, Wind 
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/residential-roofing-perryton/' },
   title: 'Residential Roofing Perryton TX | 5 Star Roofing',
   description: "Professional residential roofing in Perryton TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",

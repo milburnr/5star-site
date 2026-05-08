@@ -3,6 +3,20 @@ import fs from "node:fs";
 import path from "node:path";
 import { getAllArticles } from "@/lib/articles";
 
+
+// noindex-filter:start (auto-managed by content-ops/engine/noindex_flush.py)
+const __noindexSet: Set<string> = (() => {
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const fs = require('fs') as typeof import('fs');
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const path = require('path') as typeof import('path');
+    const raw = fs.readFileSync(path.join(process.cwd(), '.noindex-state.json'), 'utf-8');
+    const parsed = JSON.parse(raw) as { noindex_urls?: string[] };
+    return new Set<string>(parsed.noindex_urls || []);
+  } catch { return new Set<string>(); }
+})();
+// noindex-filter:end
 export const dynamic = "force-static";
 
 const BASE_URL = "https://5starroofingpros.com";
@@ -104,5 +118,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/`, lastModified: now, priority: 0.7 },
   ];
 
-  return [...fixedPages, ...routePages, ...blogPages];
+  return ([...fixedPages, ...routePages, ...blogPages]).filter((__e) => !__noindexSet.has(__e.url)) /* noindex-filter:return */;
 }

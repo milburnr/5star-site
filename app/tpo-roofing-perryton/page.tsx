@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Shield, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-perryton/' },
   title: 'TPO Roofing Perryton TX | 5 Star Roofing',
   description: "Expert tpo roofing in Perryton TX. Texas Panhandle experiences 7-9 hailstorms annually. Wheat country. Free inspections. Call (806) 622-6041",

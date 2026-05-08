@@ -13,6 +13,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Building2, Check, Factory, Home, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/perryton-texas-roofing/' },
   title: 'Roofing Perryton TX | Hail Damage | 5 Star Roofing',
   description: "Roofing services in Perryton, Texas Panhandle. Commercial, residential, and storm roofing. Serving Ochiltree County. Free inspections available.",

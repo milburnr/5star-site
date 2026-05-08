@@ -13,6 +13,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, ClipboardList, GraduationCap, Landmark, Phone, School, Search, Shield, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-plainview/' },
   title: 'Hail Damage Repair Plainview TX | 5 Star Roofing',
   description: "Expert hail damage roof repair in Plainview TX. , insurance claim help, quality roofing. Serving Hale County. Call 5 Star Roofing (806) 622-6041.",
