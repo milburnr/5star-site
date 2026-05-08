@@ -6,8 +6,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/amarillo-weather-impact-on-roofing/' },
-  title: "Roof Longevity Amarillo | 5 Star Roofing",
-  description: "Learn how Amarillo's extreme weather impacts your roof. Hail, high winds, and temperature swings cause damage. Call (806) 622-6041",
+  title: "How Amarillo Weather Impacts Your Roof | 5 Star Roofing",
+  description: "Amarillo averages 3–5 hail events and 80 mph gusts yearly. Learn which materials survive the weather and how to protect your roof long-term. (806) 622-6041",
   openGraph: {
     title: "Roof Longevity Amarillo | 5 Star Roofing",
     description: "Learn how Amarillo's extreme weather impacts your roof. Hail, high winds, and temperature swings cause damage. Call (806) 622-6041",
