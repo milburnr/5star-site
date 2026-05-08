@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -151,7 +151,7 @@ export default function PampaRoofingPage() {
       <StickyContactBar />
 
 
-      <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/pampa-hero.jpg)', backgroundPosition: 'center'}}>
+      <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)', backgroundPosition: 'center'}}>
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
