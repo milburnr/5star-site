@@ -168,7 +168,7 @@ export default function WindDamageRepairBigSpringPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-7-1280w.webp)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-27-1280w.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
