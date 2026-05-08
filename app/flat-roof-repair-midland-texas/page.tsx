@@ -59,7 +59,7 @@ export default function FlatRoofMidlandPage() {
         "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
       }) }} />
 
-      <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)', backgroundPosition: 'center'}}>
+      <section className="hero" style={{backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg)', backgroundPosition: 'center'}}>
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
