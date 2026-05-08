@@ -5,7 +5,7 @@ import { Briefcase, Building2, Car, ClipboardList, Fuel, MapPin, Phone, Settings
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/service-areas/' },
-  title: 'Service Areas | 5 Star Roofing',
+  title: "Roofing Service Areas in West Texas | 5 Star Roofing",
   description: "Roofing services across West Texas. Serving Amarillo, Midland, Odessa, Lubbock, and 20+ Texas Panhandle cities. Hail damage specialists. Call (806) 622-6041",
   openGraph: {
     title: "Service Areas | 5 Star Roofing",
