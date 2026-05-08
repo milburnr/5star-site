@@ -88,7 +88,7 @@ export default function MonahansRoofingPage() {
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(/images/home-hero-1200w.webp)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
           backgroundPosition: 'center',
         }}
       >
