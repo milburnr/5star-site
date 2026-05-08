@@ -13,7 +13,7 @@ import { DollarSign, Droplets, Lightbulb, Phone, Tornado, TrendingDown, Wind } f
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/pvc-roof-replacement-in-amarillo/' },
-  title: 'PVC Roof Replacement Amarillo TX | 5 Star Roofing',
+  title: "Commercial PVC Roof Replacement Amarillo TX | 5 Star Roofing",
   description: "PVC roof replacement in Amarillo TX. Durable single-ply membrane systems for commercial buildings. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "PVC Roof Replacement Amarillo TX | 5 Star Roofing",
@@ -101,7 +101,7 @@ export default function Page() {
 
 
       <FadeIn>
-        <h1 className="text-4xl font-bold mb-6">PVC Roof Replacement in Amarillo, Midland & Odessa</h1>
+        <h1 className="text-4xl font-bold mb-6">Commercial PVC Roof Replacement in Amarillo, Midland & Odessa</h1>
       </FadeIn>
 
       <div className="content-block">
