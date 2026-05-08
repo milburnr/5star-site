@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -61,7 +61,7 @@ export default function OdessaRoofingPage() {
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
           backgroundPosition: 'center',
         }}
       >
@@ -795,7 +795,7 @@ export default function OdessaRoofingPage() {
             "@id": "https://5starroofingpros.com/odessa-texas-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
             "description": "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and prompt services for residential and industrial properties.",
             "telephone": "(806) 622-6041",
             "email": "admin@5starroofingpros.com",
