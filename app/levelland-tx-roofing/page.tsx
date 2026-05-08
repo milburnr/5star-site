@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
         width: 1280,
         height: 720,
         alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
@@ -88,7 +88,7 @@ export default function LevellandRoofingPage() {
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg)',
+          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
           backgroundPosition: 'center',
         }}
       >
@@ -371,7 +371,7 @@ export default function LevellandRoofingPage() {
             "@id": "https://5starroofingpros.com/levelland-tx-roofing/",
             "name": "5 Star Roofing",
             "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg",
+            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
             "description": "Professional roofing contractor serving Levelland, Texas and Hockley County. Hail damage repair, residential and commercial roofing, South Plains College area specialist.",
             "address": {
               "@type": "PostalAddress",
