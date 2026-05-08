@@ -9,7 +9,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/midland-tx-roofing/' },
-  title: 'Roofing in Midland TX | 5 Star Roofing',
+  title: "Midland TX Roofing Contractor | 5 Star Roofing",
   description: "Roofing in Midland including commercial and industrial. Permian Basin specialists. Chemical-resistant PVC systems for oil & gas facilities. Call (806) 622-6041",
   openGraph: {
     title: "Roofing in Midland TX | 5 Star Roofing",
