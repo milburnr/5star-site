@@ -15,7 +15,7 @@ import { Check, GraduationCap, Phone, Search, Star, Sun, Thermometer, Tornado, W
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/lubbock-tx-roofing/' },
-  title: 'Roofing in Lubbock TX | 5 Star Roofing',
+  title: "Lubbock TX Roofing | Storm Damage & Hail Repair | 5 Star",
   description: "Roofing in Lubbock. South Plains weather experts. Residential and commercial services. Lubbock experiences 6-8 hailstorms annually. Call (806) 622-6041",
   openGraph: {
     title: "Roofing in Lubbock TX | 5 Star Roofing",
