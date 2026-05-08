@@ -16,7 +16,7 @@ import { Check, CloudLightning, Drama, Droplets, Factory, Flame, Fuel, Landmark,
 export const metadata: Metadata = {
   alternates: { canonical: 'https://5starroofingpros.com/odessa-tx-roofing/' },
   title: 'Roofing Contractor Odessa TX | 5 Star Roofing',
-  description: 'Commercial and industrial roofing in Odessa. Permian Basin experts. Specialized systems for manufacturing and oil & gas facilities.',
+  description: "Residential and commercial roofing in Odessa TX. Hail Alley experts with post-storm inspections, insurance claim support, and industrial facility roofing.",
   keywords: "Odessa roofing, Odessa roofer, roofing contractor Odessa TX, hail damage Odessa, metal roofing Odessa, commercial roofing Odessa",
   openGraph: {
     title: "Roofing Contractor Odessa TX | 5 Star Roofing",
