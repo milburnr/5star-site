@@ -71,9 +71,10 @@ export default function AmarilloRoofingPage() {
         body={
           <>
             <HeroLocalityAccent>Amarillo</HeroLocalityAccent>&apos;s
-            trusted roofing contractor — same-day storm response, hail
-            damage repair, and insurance-claim help across the Texas
-            Panhandle. 30-60 minute emergency response within city limits.
+            trusted roofing contractor for hail damage repair, roof
+            replacement, and insurance-claim help across the Texas
+            Panhandle. Free inspections, no sales pressure, locally
+            headquartered.
           </>
         }
         primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}

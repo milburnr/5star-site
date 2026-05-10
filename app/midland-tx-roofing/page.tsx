@@ -45,9 +45,9 @@ export default function MidlandRoofingPage() {
         body={
           <>
             <HeroLocalityAccent>Midland</HeroLocalityAccent>&apos;s
-            premier roofing contractor — Permian Basin storm response,
-            hail damage repair, and insurance-claim help for homes and
-            businesses across the Tall City.
+            premier roofing contractor for hail damage repair, roof
+            replacement, and insurance-claim help — serving homes and
+            businesses across the Tall City and the Permian Basin.
           </>
         }
         primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}

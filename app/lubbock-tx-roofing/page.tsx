@@ -61,9 +61,9 @@ export default function LubbockRoofingPage() {
         body={
           <>
             <HeroLocalityAccent href="/service-areas/">Lubbock</HeroLocalityAccent>
-            &apos;s trusted roofing company — same-day storm response, hail
-            damage repair, and insurance-claim help across the South Plains.
-            Free inspections, no sales pressure, local storm experts.
+            &apos;s trusted roofing company for hail damage repair, roof
+            replacement, and insurance-claim help across the South Plains.
+            Free inspections, no sales pressure.
           </>
         }
         primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
