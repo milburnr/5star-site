@@ -73,7 +73,7 @@ export default function Page() {
       <section
         className="hero-home section-major relative text-white min-h-[320px] md:min-h-[500px] lg:min-h-[600px] flex items-center overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-br from-black/70 via-black/50 to-black/40 md:from-amber-900/75 md:via-orange-900/55 md:to-yellow-900/45"></div>
         <div className="container-custom relative z-10">
           <div className="lg:grid lg:grid-cols-5 lg:gap-8 lg:items-center">
             <div className="lg:col-span-3 p-4 sm:p-6 md:p-8 lg:p-12">
