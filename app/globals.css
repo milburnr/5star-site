@@ -246,9 +246,14 @@
      perryton, big-spring, snyder, levelland, dumas, monahans, andrews,
      plainview, vega, claude, bushland, wildorado, flat-roof-repair-midland,
      metal-roof-installation-odessa, blog hub, and blog posts). Stream A/B
-     notes marking this "dead" were incorrect. */
+     notes marking this "dead" were incorrect.
+
+     2026-05-09 (Block 4 Phase 3): mobile keeps near-black scrim for hero-text
+     legibility on photo backgrounds; md+ shifts to a warm amber/orange/yellow
+     gradient so the hero feels Texas-warm rather than generic-corporate per
+     design-system/MASTER.md §2 ("Hero overlay scrim"). */
   .hero-overlay {
-    @apply absolute inset-0 bg-gradient-to-r from-black/70 to-black/50;
+    @apply absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/40 md:bg-gradient-to-br md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30;
   }
 
   .hero-content {
