@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
 import { AlertTriangle, Building2, CloudHail, Home, Phone, Search, Star, Sun, Thermometer, Tornado, Wind, Wrench, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -58,53 +59,37 @@ export default function AmarilloRoofingPage() {
   ];
 
   return (
-    <div className="min-h-screen">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Service Areas",
-                      "url": "/service-areas/"
-              },
-              {
-                      "name": "Amarillo",
-                      "url": "/amarillo-texas-roofing/"
-              }
-      ]} />
-
+    <div className="min-h-screen">
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">
-              Amarillo&apos;s Trusted Roofing Contractor
-            </h1>
-            <p className="hero-subtitle">
-              Professional Roofing Services Throughout Amarillo, Texas
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
+      <Hero
+        bgClassName="hero-home"
+        photoTone="aspirational"
+        titleLead="Amarillo"
+        titleAccent="Roofing Experts"
+        body={
+          <>
+            <HeroLocalityAccent>Amarillo</HeroLocalityAccent>&apos;s
+            trusted roofing contractor — same-day storm response, hail
+            damage repair, and insurance-claim help across the Texas
+            Panhandle. 30-60 minute emergency response within city limits.
+          </>
+        }
+        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
+        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
+        breadcrumb={
+          <Breadcrumb
+            bare
+            tone="on-photo"
+            items={[
+              { name: "Home", url: "/" },
+              { name: "Service Areas", url: "/service-areas/" },
+              { name: "Amarillo", url: "/amarillo-texas-roofing/" },
+            ]}
+          />
+        }
+      />
 
       {/* Lead Form - Above the Fold */}
       <div className="container-custom">

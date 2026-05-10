@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
 import { Check, CloudLightning, Factory, Phone, Shield, Sun, Thermometer, Wind } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -32,52 +33,37 @@ export const metadata: Metadata = {
 
 export default function MidlandRoofingPage() {
   return (
-    <div className="min-h-screen">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Service Areas",
-                      "url": "/service-areas/"
-              },
-              {
-                      "name": "Midland",
-                      "url": "/midland-tx-roofing/"
-              }
-      ]} />
-
+    <div className="min-h-screen">
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-
-      {/* Hero Section */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg)',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">
-              Midland&apos;s Premier Roofing Contractor
-            </h1>
-            <p className="hero-subtitle">
-              Protecting the Tall City&apos;s Homes and Businesses Since 2010
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="/contact/" className="btn-secondary-hero text-lg px-8 py-4">
-                Free Roof Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
+      <Hero
+        bgClassName="hero-home"
+        photoTone="aspirational"
+        titleLead="Midland"
+        titleAccent="Roofing Experts"
+        body={
+          <>
+            <HeroLocalityAccent>Midland</HeroLocalityAccent>&apos;s
+            premier roofing contractor — Permian Basin storm response,
+            hail damage repair, and insurance-claim help for homes and
+            businesses across the Tall City.
+          </>
+        }
+        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
+        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
+        breadcrumb={
+          <Breadcrumb
+            bare
+            tone="on-photo"
+            items={[
+              { name: "Home", url: "/" },
+              { name: "Service Areas", url: "/service-areas/" },
+              { name: "Midland", url: "/midland-tx-roofing/" },
+            ]}
+          />
+        }
+      />
 
       {/* Lead Form - Above the Fold */}
       <div className="container-custom">
