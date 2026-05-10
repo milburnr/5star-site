@@ -11,6 +11,8 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
+import { PageHeaderStrip } from "@/components/page-sections/PageHeaderStrip";
 import { Check, GraduationCap, Phone, Search, Star, Sun, Thermometer, Tornado, Wind, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -37,53 +39,45 @@ export const metadata: Metadata = {
 
 export default function LubbockRoofingPage() {
   return (
-    <div className="min-h-screen">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Service Areas",
-                      "url": "/service-areas/"
-              },
-              {
-                      "name": "Lubbock",
-                      "url": "/lubbock-tx-roofing/"
-              }
-      ]} />
-
+    <div className="min-h-screen">
+      <PageHeaderStrip>
+        <Breadcrumb
+          bare
+          items={[
+            { name: "Home", url: "/" },
+            { name: "Service Areas", url: "/service-areas/" },
+            { name: "Lubbock", url: "/lubbock-tx-roofing/" },
+          ]}
+        />
+      </PageHeaderStrip>
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-      {/* Hero Section - Conversion-Optimized */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="hero-overlay"></div>
-        <FadeIn>
-          <div className="hero-content">
-            <h1 className="hero-title">
-              Free Same-Day Lubbock Roof Inspections After Severe Hail
-            </h1>
-            <p className="hero-subtitle">
-              We Handle Hail Damage &amp; Insurance Claims – No Sales Pressure. Local Storm Experts.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center">
-              <a href="tel:8066226041" className="btn-primary-hero">
-                <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-              </a>
-              <a href="#lead-form" className="btn-secondary-hero">
-                Get Free Inspection
-              </a>
-            </div>
-          </div>
-        </FadeIn>
-      </section>
+      {/*
+        Hero — calibrated to homepage per Block 4 Phase 3 design-quality bar.
+        Image is currently a placeholder reusing the homepage hero asset for
+        side-by-side calibration purposes; the image_agent's hero-uniqueness
+        reassignment pass (deferred to Block 1e) will replace it with a
+        Lubbock-specific aspirational shot. Tone declared as 'aspirational'
+        so the agent can detect violations during reassignment.
+      */}
+      <Hero
+        bgClassName="hero-home"
+        photoTone="aspirational"
+        titleLead="Lubbock"
+        titleAccent="Roofing Experts"
+        body={
+          <>
+            <HeroLocalityAccent href="/service-areas/">Lubbock</HeroLocalityAccent>
+            &apos;s trusted roofing company — same-day storm response, hail
+            damage repair, and insurance-claim help across the South Plains.
+            Free inspections, no sales pressure, local storm experts.
+          </>
+        }
+        primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
+        secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
+      />
 
       <div className="container-custom">
         {/* Lead Form - Above the Fold */}
