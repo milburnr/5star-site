@@ -71,7 +71,11 @@ export default function RootLayout({
                 />
               </a>
 
-              <div className="hidden md:flex gap-6 items-center">
+              {/* gap scales with viewport so the 7 nav items + Contact pill
+                  don't push the Contact pill off the right edge at md/lg.
+                  Bug pre-2026-05-09: fixed gap-6 caused Contact to clip at
+                  ~1024px wide (within container-custom max-w-7xl + lg:px-8). */}
+              <div className="hidden md:flex gap-3 lg:gap-4 xl:gap-6 items-center">
                 <a href="/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Home</a>
                 
                 {/* Services Dropdown */}
