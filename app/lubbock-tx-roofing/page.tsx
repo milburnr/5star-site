@@ -12,7 +12,6 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Hero, HeroLocalityAccent } from "@/components/page-sections/Hero";
-import { PageHeaderStrip } from "@/components/page-sections/PageHeaderStrip";
 import { Check, GraduationCap, Phone, Search, Star, Sun, Thermometer, Tornado, Wind, Wrench, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -40,17 +39,6 @@ export const metadata: Metadata = {
 export default function LubbockRoofingPage() {
   return (
     <div className="min-h-screen">
-      <PageHeaderStrip>
-        <Breadcrumb
-          bare
-          items={[
-            { name: "Home", url: "/" },
-            { name: "Service Areas", url: "/service-areas/" },
-            { name: "Lubbock", url: "/lubbock-tx-roofing/" },
-          ]}
-        />
-      </PageHeaderStrip>
-
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
@@ -61,6 +49,9 @@ export default function LubbockRoofingPage() {
         reassignment pass (deferred to Block 1e) will replace it with a
         Lubbock-specific aspirational shot. Tone declared as 'aspirational'
         so the agent can detect violations during reassignment.
+
+        Breadcrumb floats over the hero (top-left absolute) with white-on-
+        photo treatment, replacing the deprecated <PageHeaderStrip> band.
       */}
       <Hero
         bgClassName="hero-home"
@@ -77,6 +68,17 @@ export default function LubbockRoofingPage() {
         }
         primaryCTA={{ tel: "8066226041", display: "(806) 622-6041" }}
         secondaryCTA={{ href: "#lead-form", label: "Free Inspection" }}
+        breadcrumb={
+          <Breadcrumb
+            bare
+            tone="on-photo"
+            items={[
+              { name: "Home", url: "/" },
+              { name: "Service Areas", url: "/service-areas/" },
+              { name: "Lubbock", url: "/lubbock-tx-roofing/" },
+            ]}
+          />
+        }
       />
 
       <div className="container-custom">
