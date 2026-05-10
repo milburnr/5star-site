@@ -253,7 +253,7 @@
      gradient so the hero feels Texas-warm rather than generic-corporate per
      design-system/MASTER.md §2 ("Hero overlay scrim"). */
   .hero-overlay {
-    @apply absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/40 md:bg-gradient-to-br md:from-amber-900/60 md:via-orange-900/40 md:to-yellow-900/30;
+    @apply absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/40 md:bg-gradient-to-br md:from-amber-900/75 md:via-orange-900/55 md:to-yellow-900/45;
   }
 
   .hero-content {
@@ -390,9 +390,18 @@
     @apply text-red-600 font-semibold text-center p-3 bg-red-50 rounded-md border border-red-200;
   }
 
-  /* Sticky Contact Bar */
+  /* Sticky Contact Bar — 2026-05-09 (Block 4 Phase 3): the original
+     brown→gold heat gradient renders as muddy olive at its midpoint
+     when stretched horizontally across a thin 64-72px strip — the
+     midpoint of #815D01 → #E4C66E sits in low-sat yellow territory
+     where chroma drops out. Routing through orange-700 keeps the
+     transition warm and saturated end-to-end without crossing the
+     desaturated yellow zone. The homepage final-CTA section uses the
+     same conceptual gradient inline; it doesn't suffer because the
+     section is much taller than the gradient is wide and the
+     midpoint occupies less of the visible band. */
   .sticky-contact-bar {
-    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-brand-brown to-brand-gold text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
+    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-brand-brown via-orange-700 to-brand-gold-vibrant text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
   }
 
   .sticky-contact-bar.hidden {
