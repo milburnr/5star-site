@@ -64,8 +64,8 @@ const faqItems = [
     answer: "We provide commercial roofing for institutional and educational facilities throughout Scurry County. Western Texas College campus buildings, dormitories, and athletic facilities require commercial-grade TPO, metal, or built-up roofing systems with proper drainage engineering. We schedule campus work to minimize disruption to students and coordinate with facility managers on access and safety requirements."
   },
   {
-    question: "How quickly can you get to Snyder for emergency repairs?",
-    answer: "We provide same-day emergency response for storm damage in Snyder and throughout Scurry County. After major storms, our crews prioritize tarping and temporary waterproofing to prevent further damage while permanent repairs are scheduled. Snyder's location along US-84 between Lubbock and Abilene provides direct access for our service crews."
+    question: "How do you handle storm damage in Snyder?",
+    answer: "After a storm in Snyder or Scurry County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier and help homeowners navigate the Texas Prompt Payment Act timeline. Snyder's location along US-84 between Lubbock and Abilene puts our service area within easy reach for routine roofing projects and post-storm inspections."
   },
   {
     question: "Does insurance cover wind damage in Snyder?",

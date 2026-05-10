@@ -59,8 +59,8 @@ export default function WindDamageRepairAndrewsPage() {
           "answer": "FORTIFIED roofing is an IBHS certification program that uses enhanced installation techniques to resist severe weather. For Andrews properties facing frequent high-wind events, FORTIFIED designation can reduce insurance premiums by 15-30% while providing substantially better wind resistance. The upgraded edge details, sealed roof deck, and enhanced fastening patterns address the exact failure modes we see most often in Permian Basin wind damage."
       },
       {
-          "question": "How quickly can you tarp a wind-damaged roof in Andrews?",
-          "answer": "We provide same-day emergency tarping for wind-damaged properties throughout Andrews and Andrews County. Our crews carry commercial-grade tarps sized for both residential and commercial buildings, along with proper anchoring systems that prevent tarp blow-off in ongoing wind conditions. For active storms, we deploy as soon as conditions are safe, typically within 2-4 hours of your call."
+          "question": "How do you handle wind-damaged roofs in Andrews?",
+          "answer": "After a wind event in Andrews or Andrews County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier and help homeowners navigate the Texas Prompt Payment Act timeline. Where temporary protection makes sense and conditions are safe, we coordinate that as part of the repair plan — but we are not an emergency-dispatch service."
       }
   ];
 

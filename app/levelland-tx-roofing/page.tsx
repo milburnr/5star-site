@@ -60,8 +60,8 @@ const faqItems = [
     answer: "Levelland is surrounded by cotton fields, and during planting, cultivation, and harvest seasons, significant dust is generated across Hockley County. This agricultural dust accumulates on roofs, fills gutters and valleys, and can trap moisture against roofing materials. The combination of cotton dust, red clay particles, and South Plains wind creates a gritty abrasive layer that accelerates granule loss on shingles. Annual maintenance and gutter cleaning are essential for Levelland properties."
   },
   {
-    question: "How quickly can you respond to storm damage in Levelland?",
-    answer: "We provide same-day emergency response for storm damage in Levelland and throughout Hockley County. Levelland is just 30 miles west of Lubbock, making our crews readily accessible. After major hailstorms, we prioritize tarping and emergency waterproofing to prevent interior water damage while permanent repairs are scheduled."
+    question: "How do you handle storm damage in Levelland?",
+    answer: "After a storm in Levelland or Hockley County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier and help homeowners navigate the Texas Prompt Payment Act timeline. Levelland is just 30 miles west of Lubbock, putting our service area within easy reach for routine roofing projects and post-storm inspections."
   },
   {
     question: "Why do Levelland roofs fail faster than the manufacturer warranty suggests?",

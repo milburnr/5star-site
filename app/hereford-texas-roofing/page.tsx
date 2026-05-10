@@ -112,13 +112,13 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "How quickly can you respond to storm damage repairs in Hereford?",
-      "acceptedAnswer": { "@type": "Answer", "text": "We provide same-day emergency response for active leaks and storm damage in Hereford and throughout Deaf Smith County. Call (806) 622-6041 anytime, and we'll dispatch crews to your location as quickly as possible. During major storm events affecting the Hereford area, we can typically provide tarping within hours to prevent further water damage." }
+      "name": "How do you handle storm damage in Hereford?",
+      "acceptedAnswer": { "@type": "Answer", "text": "After a storm in Hereford or Deaf Smith County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability and weather; we are not an emergency-dispatch service." }
     },
     {
       "@type": "Question",
       "name": "What areas do you serve besides Hereford?",
-      "acceptedAnswer": { "@type": "Answer", "text": "We serve the entire Texas Panhandle region, including Amarillo, Canyon, Dumas, Borger, Plainview, Midland, Odessa, and Lubbock. Our Amarillo base puts us within easy reach of Hereford and all of Deaf Smith County for both routine projects and emergency storm response." }
+      "acceptedAnswer": { "@type": "Answer", "text": "We serve the entire Texas Panhandle region, including Amarillo, Canyon, Dumas, Borger, Plainview, Midland, Odessa, and Lubbock. Our Amarillo base puts us within easy reach of Hereford and all of Deaf Smith County for routine roofing projects and post-storm inspections." }
     },
     {
       "@type": "Question",
@@ -478,12 +478,12 @@ export default function HerefordRoofingPage() {
                   <AccordionContent className="text-gray-700 leading-relaxed">Yes, we work with financing partners to offer flexible payment options for qualified Hereford customers. Many insurance claims also cover storm damage, which can significantly reduce out-of-pocket costs. We help Deaf Smith County homeowners navigate both financing and insurance options to find the most affordable path to a new roof.</AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to storm damage repairs in Hereford?</AccordionTrigger>
-                  <AccordionContent className="text-gray-700 leading-relaxed">We provide same-day emergency response for active leaks and storm damage in Hereford and throughout Deaf Smith County. Call (806) 622-6041 anytime, and we&apos;ll dispatch crews to your location as quickly as possible. During major storm events affecting the Hereford area, we can typically provide tarping within hours to prevent further water damage.</AccordionContent>
+                  <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle storm damage in Hereford?</AccordionTrigger>
+                  <AccordionContent className="text-gray-700 leading-relaxed">After a storm in Hereford or Deaf Smith County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability and weather; we are not an emergency-dispatch service.</AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                   <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What areas do you serve besides Hereford?</AccordionTrigger>
-                  <AccordionContent className="text-gray-700 leading-relaxed">We serve the entire Texas Panhandle region, including <a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a>, Canyon, Dumas, Borger, Plainview, Midland, Odessa, and Lubbock. Our Amarillo base puts us within easy reach of Hereford and all of Deaf Smith County for both routine projects and emergency storm response.</AccordionContent>
+                  <AccordionContent className="text-gray-700 leading-relaxed">We serve the entire Texas Panhandle region, including <a href="/amarillo-texas-roofing/" className="text-brand-brown hover:text-brand-gold underline">Amarillo</a>, Canyon, Dumas, Borger, Plainview, Midland, Odessa, and Lubbock. Our Amarillo base puts us within easy reach of Hereford and all of Deaf Smith County for routine roofing projects and post-storm inspections.</AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
                   <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do feedlot dust and debris affect Hereford roofs?</AccordionTrigger>

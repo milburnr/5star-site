@@ -53,8 +53,8 @@ export default function AmarilloRoofingPage() {
       answer: "Amarillo follows the International Building Code with Texas amendments. Residential re-roofing typically requires a permit from the City of Amarillo Building Safety Division. The code limits roof coverings to two layers maximum, requires proper underlayment, and mandates wind-rated installation methods appropriate for the Panhandle's high wind zone. We handle all permit applications and inspections as part of our Amarillo roofing projects, ensuring full compliance."
     },
     {
-      question: "How fast can 5 Star Roofing respond to emergency roof damage within Amarillo city limits?",
-      answer: "For active roof emergencies within Amarillo city limits, we typically arrive within 30-60 minutes during business hours with tarps and emergency repair materials. After hours, our emergency line connects you with our on-call team for response within 2 hours. Being headquartered in Amarillo means we do not have travel delays that contractors based in other cities face, allowing us to secure your property faster and prevent secondary water damage."
+      question: "How does 5 Star Roofing handle storm damage in Amarillo?",
+      answer: "After a storm in Amarillo, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier — photos, measurements, and adjuster-ready reports — and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability and weather conditions. We are headquartered in Amarillo, so there are no travel delays from out-of-state contractors, but we are not an emergency-dispatch service."
     }
   ];
 
@@ -140,10 +140,10 @@ export default function AmarilloRoofingPage() {
               </div>
               <div className="text-center">
                 <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Fast Response</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Local Coverage</h3>
                 <p className="text-gray-600">
-                  30-minute storm response time throughout Amarillo. We know every neighborhood
-                  from Soncy Road to Loop 335.
+                  Headquartered in Amarillo with deep familiarity in every neighborhood
+                  from Soncy Road to Loop 335. No travel delays from out-of-state crews.
                 </p>
               </div>
               <div className="text-center">
@@ -596,9 +596,9 @@ export default function AmarilloRoofingPage() {
                   <div>
                     <h3 className="text-xl font-bold text-brand-brown mb-4">Serving All of Amarillo</h3>
                     <p className="text-gray-700 mb-4">
-                      Located on South Western Street, we&apos;re centrally positioned to serve all of Amarillo
-                      quickly. From the northern neighborhoods near Tascosa to South Amarillo near I-27,
-                      we typically arrive within 30 minutes.
+                      Located on South Western Street, we&apos;re centrally positioned to serve all of Amarillo —
+                      from the northern neighborhoods near Tascosa to South Amarillo near I-27.
+                      Local crews, no out-of-state contractors.
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Our service radius includes:</strong> All of Amarillo proper, Canyon,

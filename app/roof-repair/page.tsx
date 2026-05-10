@@ -62,9 +62,9 @@ const faqItems = [
       "The top causes are wind-lifted shingles that expose the underlayment, failed flashing around chimneys and vents, cracked pipe boots, and ponding water on flat roofs. West Texas weather accelerates these issues: daily temperature swings of 30 to 40 degrees cause materials to expand and contract, and sustained winds above 40 mph loosen fasteners over time. Regular inspections catch these problems before they become active leaks.",
   },
   {
-    question: "How quickly can you respond to emergency roof repairs?",
+    question: "How do you handle a leaking roof?",
     answer:
-      "We offer same-day emergency response for active leaks and storm damage across our service area. For tarping and temporary waterproofing, our crews can typically arrive within hours of your call. Permanent repairs are scheduled based on material availability and weather conditions, but we prioritize emergencies to prevent further interior damage to your home.",
+      "When you have an active leak, call (806) 622-6041 to schedule an inspection. For most West Texas leaks, the right first move is interior containment (buckets, towels, plastic sheeting) and then a professional inspection to scope the repair properly. Permanent repairs are scheduled based on material availability and weather conditions; we are not an emergency-dispatch service, and we will tell you honestly when a repair can wait versus when it shouldn't.",
   },
   {
     question: "How much does a typical roof repair cost?",

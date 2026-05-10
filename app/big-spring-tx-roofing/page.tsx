@@ -60,8 +60,8 @@ const faqItems = [
     answer: "Big Spring sits where the Caprock Escarpment meets the rolling plains at approximately 2,400 feet elevation. This geographic transition creates a corridor for severe thunderstorms as warm air lifts along the escarpment. Properties on higher ground near Scenic Mountain and Big Spring State Park face additional wind exposure. Roofing installations in these areas require enhanced wind uplift ratings and careful attention to directional wind loads."
   },
   {
-    question: "How quickly can you respond to storm damage in Big Spring?",
-    answer: "We provide same-day emergency response for storm damage in Big Spring and throughout Howard County. After major storms like the 2019 hail event, our crews prioritize tarping and temporary waterproofing to prevent further water intrusion while permanent repairs are planned and scheduled."
+    question: "How do you handle storm damage in Big Spring?",
+    answer: "After a storm in Big Spring or Howard County, call (806) 622-6041 to schedule a free roof inspection. We document damage thoroughly for your insurance carrier — photos, measurements, and adjuster-ready reports — and help homeowners navigate the Texas Prompt Payment Act timeline. Permanent repairs and replacements are scheduled around material availability; we are not an emergency-dispatch service."
   },
   {
     question: "Does the VA Medical Center or Big Spring State Hospital use your services?",
