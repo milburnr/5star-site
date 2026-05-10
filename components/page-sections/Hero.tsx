@@ -13,11 +13,14 @@ import { cn } from '@/lib/utils';
 export type HeroPhotoTone = 'aspirational' | 'damage_demonstrative' | 'process';
 
 export interface HeroTrustData {
-  rating: string;        // "5.0/5.0"
-  reviewCount: number;   // 25
-  reviewSource?: string; // "Google Reviews"
+  /** Star rating display, e.g. "5.0 on Google". The component renders a brand
+   *  Lucide Star + this label inline. */
+  ratingLabel: string;
   scope: string;         // "West Texas"
-  since: number;         // 2014
+  /** Display string for the longevity claim. Pass a {{VERIFY: ...}} placeholder
+   *  per the verify protocol when the founding year is contested — see
+   *  clients/5star/claims-allowlist.md "Pending verification" section. */
+  sinceLabel: string;    // "Since 2014" or "Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}"
 }
 
 export interface HeroPrimaryCTA {
@@ -55,15 +58,29 @@ interface HeroProps {
   secondaryCTA?: HeroSecondaryCTA;
   /** Optional right-rail content (occupies lg:col-span-2). When omitted, an empty aspect-[4/5] placeholder reserves the space (matches homepage). */
   rightSlot?: ReactNode;
+  /** Breadcrumb slot. Renders absolutely-positioned at the top-left of the
+   *  hero, above the photo with white-on-photo text styling. Replaces the
+   *  prior <PageHeaderStrip> approach which orphaned a bright cream strip
+   *  between the dark nav and the warm hero. Pass <Breadcrumb tone="on-photo"
+   *  bare items={...} />. */
+  breadcrumb?: ReactNode;
   className?: string;
 }
 
+/**
+ * 2026-05-09: review count dropped per Rich's design review — "25 Google
+ * Reviews" undersells when the count is small (draws eye to a non-flex).
+ * Star + rating + longevity is the higher-leverage trust composition.
+ *
+ * "Since 2014" is on the PENDING VERIFICATION list — local-context.json
+ * + homepage say 2014, /amarillos-best-roofer/ says 2008. Treat as a
+ * verify placeholder; do not ship to live until Rich confirms. Marked
+ * via {{VERIFY: ...}} per clients/5star/claims-allowlist.md protocol.
+ */
 const DEFAULT_TRUST: HeroTrustData = {
-  rating: '5.0/5.0',
-  reviewCount: 25,
-  reviewSource: 'Google Reviews',
+  ratingLabel: '5.0 on Google',
   scope: 'West Texas',
-  since: 2014,
+  sinceLabel: 'Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}',
 };
 
 /**
@@ -107,6 +124,7 @@ export function Hero({
   primaryCTA,
   secondaryCTA = { href: '#get-quote', label: 'Free Inspection' },
   rightSlot,
+  breadcrumb,
   className,
 }: HeroProps) {
   const resolvedTrust = trust === null ? null : (trust ?? DEFAULT_TRUST);
@@ -140,6 +158,12 @@ export function Hero({
       {/* Scrim — uses the .hero-overlay utility for the calibrated mobile-black + desktop-warm gradient. */}
       <div className="hero-overlay" aria-hidden="true"></div>
 
+      {breadcrumb && (
+        <div className="absolute top-3 sm:top-4 md:top-5 left-0 right-0 z-20">
+          <div className="container-custom">{breadcrumb}</div>
+        </div>
+      )}
+
       <div className="container-custom relative z-10">
         <div className={cn(!isArticle && 'lg:grid lg:grid-cols-5 lg:gap-8 lg:items-center')}>
           <div className={cn('p-4 sm:p-6 md:p-8 lg:p-12', !isArticle && 'lg:col-span-3')}>
@@ -152,8 +176,8 @@ export function Hero({
             >
               {titleLead}{' '}
               <span
-                className="bg-gradient-to-r from-brand-gold-light via-brand-gold to-brand-gold-vibrant bg-clip-text text-transparent block sm:inline"
-                style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.7))' }}
+                className="text-brand-gold-light block sm:inline"
+                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.9)' }}
               >
                 {titleAccent}
               </span>
@@ -206,12 +230,10 @@ function HeroTrustBlock({ data }: { data: HeroTrustData }) {
       style={{ textShadow: '0 2px 6px rgba(0,0,0,0.8)' }}
     >
       <Star className="w-5 h-5 md:w-6 md:h-6 fill-brand-gold-vibrant text-brand-gold-vibrant" aria-hidden="true" />
-      <span>
-        {data.rating} — {data.reviewCount} {data.reviewSource ?? 'Google Reviews'}
-      </span>
+      <span>{data.ratingLabel}</span>
       <span aria-hidden="true">|</span>
       <span>
-        Serving {data.scope} Since {data.since}
+        Serving {data.scope} {data.sinceLabel}
       </span>
     </p>
   );

@@ -390,18 +390,17 @@
     @apply text-red-600 font-semibold text-center p-3 bg-red-50 rounded-md border border-red-200;
   }
 
-  /* Sticky Contact Bar — 2026-05-09 (Block 4 Phase 3): the original
-     brown→gold heat gradient renders as muddy olive at its midpoint
-     when stretched horizontally across a thin 64-72px strip — the
-     midpoint of #815D01 → #E4C66E sits in low-sat yellow territory
-     where chroma drops out. Routing through orange-700 keeps the
-     transition warm and saturated end-to-end without crossing the
-     desaturated yellow zone. The homepage final-CTA section uses the
-     same conceptual gradient inline; it doesn't suffer because the
-     section is much taller than the gradient is wide and the
-     midpoint occupies less of the visible band. */
+  /* Sticky Contact Bar — 2026-05-09 Block 4 Phase 3 design review pass 2:
+     pass 1 routed brown→orange-700→gold-vibrant to escape the muddy
+     yellow-olive midpoint of the original brown→gold gradient, but the
+     dark brand-brown anchor on the left edge still rendered as
+     desaturated muddy in the strip's compressed vertical context.
+     Dropping the dark anchor: amber-500 → orange-500 reads as warm
+     and saturated end-to-end across the full bar width without any
+     low-sat midpoint. Two-stop is sufficient here — the strip is too
+     thin to need a via-stop. */
   .sticky-contact-bar {
-    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-brand-brown via-orange-700 to-brand-gold-vibrant text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
+    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
   }
 
   .sticky-contact-bar.hidden {
