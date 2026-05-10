@@ -5,9 +5,23 @@ interface BreadcrumbItem {
 
 interface BreadcrumbProps {
   items: BreadcrumbItem[];
+  /** When true, omits the container-custom + py-4 wrapper. Use when this is rendered
+   *  inside <PageHeaderStrip> which already provides the strip layout. */
+  bare?: boolean;
 }
 
-export function Breadcrumb({ items }: BreadcrumbProps) {
+/**
+ * Breadcrumb nav with BreadcrumbList JSON-LD schema.
+ *
+ * 2026-05-09: link color changed from text-brand-gold (#E4C66E) to
+ * text-brand-brown (#815D01). Gold-on-white = ~1.5:1 (fails WCAG AA);
+ * brown-on-white = ~6.7:1 (passes). The same fix-class applies to the
+ * gold-on-amber-50 contrast bug flagged in visual-design-rules.md Rule 4.
+ *
+ * For pages that wrap this in <PageHeaderStrip>, pass bare so the strip
+ * controls the spacing.
+ */
+export function Breadcrumb({ items, bare = false }: BreadcrumbProps) {
   return (
     <>
       {/* Breadcrumb Schema */}
@@ -28,15 +42,16 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
       />
 
       {/* Visual Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="container-custom py-4">
+      <nav aria-label="Breadcrumb" className={bare ? "" : "container-custom py-4"}>
         <ol className="flex items-center space-x-2 text-sm">
           {items.map((item, index) => (
             <li key={index} className="flex items-center">
               {index > 0 && (
                 <svg
-                  className="w-4 h-4 mx-2 text-gray-400"
+                  className="w-4 h-4 mx-2 text-brand-brown/50"
                   fill="currentColor"
                   viewBox="0 0 20 20"
+                  aria-hidden="true"
                 >
                   <path
                     fillRule="evenodd"
@@ -46,11 +61,11 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
                 </svg>
               )}
               {index === items.length - 1 ? (
-                <span className="text-gray-600 font-medium">{item.name}</span>
+                <span className="text-brand-brown font-semibold" aria-current="page">{item.name}</span>
               ) : (
                 <a
                   href={item.url}
-                  className="text-brand-gold hover:text-brand-gold-vibrant transition-colors"
+                  className="text-brand-brown hover:text-brand-gold-vibrant hover:underline transition-colors font-medium"
                 >
                   {item.name}
                 </a>
