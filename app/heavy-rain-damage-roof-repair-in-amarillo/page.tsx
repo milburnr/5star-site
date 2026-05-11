@@ -5,6 +5,7 @@ import { AlertTriangle, Droplets, Home, Phone, Search, Waves, Wind } from "lucid
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: {
     canonical: "https://5starroofingpros.com/heavy-rain-damage-roof-repair-in-amarillo/",
   },
@@ -178,7 +179,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -203,7 +204,7 @@ export default function Page() {
             leaks.
           </p>
           <p className="text-lg mt-4">
-            At 5 Star Commercial Roofing, we provide prompt response for heavy rain damage across
+            At 5 Star Commercial Roofing, we address heavy rain damage across
             West Texas and the Texas Panhandle. Whether you're dealing with active leaks,
             water-damaged ceilings, or saturated insulation, our team responds fast to minimize
             damage and begin the insurance claim process. Our expert{" "}
@@ -503,7 +504,7 @@ export default function Page() {
           <div className="card-body">
             <p className="mb-4">
               our rain damage repair services are available throughout the Texas Panhandle and West
-              Texas region. We maintain rapid response teams ready to deploy to:
+              Texas region. We maintain crews ready to deploy to:
             </p>
             <div className="grid md:grid-cols-3 gap-4">
               <div>

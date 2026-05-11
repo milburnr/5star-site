@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-big-spring/" },
   title: "Asphalt Shingles Big Spring TX | 5 Star Roofing",
   description:
@@ -104,7 +105,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
               closes: "17:00",
             },
             description:
-              "Expert asphalt shingle roofing services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert asphalt shingle roofing services in Big Spring, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

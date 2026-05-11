@@ -5,6 +5,7 @@ import { Phone } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: {
     canonical: "https://5starroofingpros.com/budgeting-for-roof-replacement-expenses/",
   },

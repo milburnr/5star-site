@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-andrews/" },
   title: "Asphalt Shingles Andrews TX | 5 Star Roofing",
   description:
@@ -104,7 +105,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
               closes: "17:00",
             },
             description:
-              "Expert asphalt shingle roofing services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert asphalt shingle roofing services in Andrews, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -539,7 +540,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                   <li>• 0% interest financing (qualified buyers)</li>
                   <li>• Extended payment plans up to 60 months</li>
                   <li>• No prepayment penalties</li>
-                  <li>• Same-day approval process</li>
+                  <li>• Fast approval process</li>
                   <li>• Cash discounts for full payment</li>
                 </ul>
               </div>

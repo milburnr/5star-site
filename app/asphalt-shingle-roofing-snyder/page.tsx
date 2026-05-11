@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-snyder/" },
   title: "Asphalt Shingles Snyder TX | 5 Star Roofing",
   description:
@@ -104,7 +105,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
               closes: "17:00",
             },
             description:
-              "Expert asphalt shingle roofing services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert asphalt shingle roofing services in Snyder, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -536,7 +537,7 @@ export default function AsphaltShingleRoofingSnyderPage() {
                   <li>• 0% interest financing available</li>
                   <li>• Extended payment terms up to 60 months</li>
                   <li>• No prepayment penalties</li>
-                  <li>• Same-day approval process</li>
+                  <li>• Fast approval process</li>
                   <li>• Industry-specific payment options</li>
                 </ul>
               </div>
