@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-11-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-21-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Commercial metal roof installation on industrial facility in West Texas — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -152,47 +152,12 @@ export default function CommercialRoofingOdessaPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How much does commercial roof replacement cost in Odessa?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Commercial roofing costs vary by building size, roof type, and complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square foot. We provide free detailed estimates with transparent pricing and financing options for qualified businesses.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can you work after hours to minimize business disruption?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. We schedule commercial installations during evenings, weekends, or planned closure periods to minimize operational impact. Many Odessa businesses prefer after-hours work for retail locations or facilities that cannot shut down during business hours.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What makes TPO roofing ideal for Odessa's commercial buildings?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO's white reflective membrane is Energy Star rated and dramatically reduces cooling costs. The heat-welded seams create watertight bonds that withstand high winds and hail. TPO offers excellent durability (15-25 year warranties) at a competitive price point.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-21-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -231,8 +196,8 @@ export default function CommercialRoofingOdessaPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Flex</div>
+                <div className="text-brand-brown font-semibold text-lg">After-Hours Available</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
@@ -258,6 +223,36 @@ export default function CommercialRoofingOdessaPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing serves Odessa's commercial and industrial market with TPO, EPDM, metal, and PVC
+              systems designed for the Permian Basin's chemical exposure, extreme heat, and high-wind environment.
+              Free inspections. After-hours scheduling available to minimize operational disruption.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← Commercial Roofing Hub</a>
+              <a href="/commercial-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland</a>
+              <a href="/tpo-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">TPO Roofing Odessa</a>
+              <a href="/odessa-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Odessa Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Reviewed {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long" })}
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -326,7 +321,7 @@ export default function CommercialRoofingOdessaPage() {
               Chemical processing and storage facilities require roofing systems that meet EPA and
               OSHA requirements for hazardous material handling while providing containment
               capabilities that prevent environmental contamination. These installations often
-              require specialized ventilation integration and storm response access that affects
+              require specialized ventilation integration and drainage access that affects
               roofing design and material selection for industrial safety compliance.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -469,8 +464,7 @@ export default function CommercialRoofingOdessaPage() {
               Emergency services facilities including fire stations and EMS facilities require
               roofing systems that support emergency communication equipment, vehicle storage, and
               rapid deployment capabilities while providing reliable weather protection during
-              severe weather events when prompt services become most critical for community safety
-              during petroleum industry emergencies.
+              severe weather events and critical petroleum industry operations in the region.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Federal facilities including border patrol and homeland security installations require
@@ -496,7 +490,7 @@ export default function CommercialRoofingOdessaPage() {
               material selection, installation procedures, and waste management protocols. Storm
               water management, chemical containment, and air quality protection require specialized
               construction practices that exceed standard commercial building requirements while
-              ensuring full compliance with EPA and state environmental regulations affecting
+              ensuring full compliance with EPA and state environmental regulations for
               petroleum industry operations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -548,14 +542,13 @@ export default function CommercialRoofingOdessaPage() {
             </p>
 
             <h3 className="text-2xl font-bold mb-4 text-brand-brown">
-              storm response and Maintenance Services for Critical Operations
+              Weather Protection and Maintenance Services for Critical Operations
             </h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              dedicated service  petroleum industry environments
-              include specialized safety equipment and coordination with industrial storm response
-              protocols. our roofing service times minimize business interruption for facilities that
-              cannot tolerate weather-related operational disruptions during critical petroleum
-              industry activities including drilling, completion, and production operations.
+              Petroleum industry environments require specialized safety equipment and coordination
+              with facility protocols. Our commercial roofing crews are experienced working near
+              active industrial sites and schedule installations to minimize operational disruption
+              during drilling, completion, and production activities.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Preventive maintenance programs designed for Odessa's industrial environment include
