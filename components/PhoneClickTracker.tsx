@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { usePhoneClickTracking } from '@/hooks/usePhoneClickTracking';
+import { usePhoneClickTracking } from "@/hooks/usePhoneClickTracking";
 
 /**
  * Component that tracks phone link clicks and sends them to Google Analytics

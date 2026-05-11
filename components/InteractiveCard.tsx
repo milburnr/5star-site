@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { ReactNode } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
+import { ReactNode } from "react";
+import { Card, CardContent } from "@/components/ui/card";
 
 interface InteractiveCardProps {
   children: ReactNode;
@@ -22,19 +22,17 @@ interface InteractiveCardProps {
 export function InteractiveCard({
   children,
   href,
-  className = '',
+  className = "",
   tiltEffect = true,
   glowEffect = true,
 }: InteractiveCardProps) {
-  const scaleClass = tiltEffect ? 'hover:scale-[1.03]' : 'hover:scale-[1.02]';
+  const scaleClass = tiltEffect ? "hover:scale-[1.03]" : "hover:scale-[1.02]";
   const glowClass = glowEffect
-    ? 'border-border hover:border-primary/50 hover:shadow-[0_0_30px_rgba(228,198,110,0.3)]'
-    : 'border-border';
+    ? "border-border hover:border-primary/50 hover:shadow-[0_0_30px_rgba(228,198,110,0.3)]"
+    : "border-border";
 
   const content = (
-    <div
-      className={`relative transition-transform duration-300 ${scaleClass} ${className}`}
-    >
+    <div className={`relative transition-transform duration-300 ${scaleClass} ${className}`}>
       <Card
         className={`overflow-hidden transition-all duration-300 shadow-dual-md hover:shadow-dual-xl bg-depth-3 border-2 ${glowClass}`}
       >

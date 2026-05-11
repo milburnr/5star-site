@@ -1,5 +1,5 @@
 // Schema template utilities for SEO enhancement
-import type { WithContext, LocalBusiness, FAQPage } from 'schema-dts';
+import type { WithContext, LocalBusiness, FAQPage } from "schema-dts";
 
 interface CityData {
   name: string;
@@ -22,62 +22,59 @@ export function generateLocalBusinessSchema(city: CityData, service: ServiceData
   return {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "RoofingContractor"],
-    "name": "5 Star Roofing",
-    "email": "admin@5starroofingpros.com",
+    name: "5 Star Roofing",
+    email: "admin@5starroofingpros.com",
     "@id": `https://5starroofingpros.com/${service.slug}-${city.slug}/#localbusiness`,
-    "image": `https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg`,
-    "telephone": "(806) 622-6041",
-    "priceRange": "$$",
-    "address": {
+    image: `https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg`,
+    telephone: "(806) 622-6041",
+    priceRange: "$$",
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "2909 S Western St",
-      "addressLocality": "Amarillo",
-      "addressRegion": "TX",
-      "postalCode": "79109",
-      "addressCountry": "US"
+      streetAddress: "2909 S Western St",
+      addressLocality: "Amarillo",
+      addressRegion: "TX",
+      postalCode: "79109",
+      addressCountry: "US",
     },
-    "geo": {
+    geo: {
       "@type": "GeoCoordinates",
-      "latitude": city.latitude || 35.1768,
-      "longitude": city.longitude || -101.8590
+      latitude: city.latitude || 35.1768,
+      longitude: city.longitude || -101.859,
     },
-    "url": `https://5starroofingpros.com/${service.slug}-${city.slug}/`,
-    "openingHoursSpecification": {
+    url: `https://5starroofingpros.com/${service.slug}-${city.slug}/`,
+    openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "09:00",
-      "closes": "17:00"
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "09:00",
+      closes: "17:00",
     },
-    "areaServed": {
+    areaServed: {
       "@type": "City",
-      "name": city.name,
-      "@id": city.wikipedia
+      name: city.name,
+      "@id": city.wikipedia,
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "25",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
   };
 }
 
 /**
  * Generate FAQPage schema with local FAQs
  */
-export function generateFAQPageSchema(city: CityData, service: ServiceData, faqs: Array<{question: string, answer: string}>) {
+export function generateFAQPageSchema(
+  city: CityData,
+  service: ServiceData,
+  faqs: Array<{ question: string; answer: string }>,
+) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": faqs.map(faq => ({
+    mainEntity: faqs.map((faq) => ({
       "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
+      name: faq.question,
+      acceptedAnswer: {
         "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
+        text: faq.answer,
+      },
+    })),
   };
 }
 
@@ -88,15 +85,15 @@ export function generateServiceAreaSchema(city: CityData, neighborhoods: string[
   return {
     "@context": "https://schema.org",
     "@type": "ServiceArea",
-    "name": `${city.name} Service Area`,
-    "areaServed": neighborhoods.map(neighborhood => ({
+    name: `${city.name} Service Area`,
+    areaServed: neighborhoods.map((neighborhood) => ({
       "@type": "Place",
-      "name": neighborhood,
-      "containedInPlace": {
+      name: neighborhood,
+      containedInPlace: {
         "@type": "City",
-        "name": city.name
-      }
-    }))
+        name: city.name,
+      },
+    })),
   };
 }
 
@@ -106,12 +103,12 @@ export function generateServiceAreaSchema(city: CityData, neighborhoods: string[
 export function generatePageSchemas(
   city: CityData,
   service: ServiceData,
-  faqs: Array<{question: string, answer: string}>,
-  neighborhoods: string[]
+  faqs: Array<{ question: string; answer: string }>,
+  neighborhoods: string[],
 ) {
   return {
     localBusiness: generateLocalBusinessSchema(city, service),
     faqPage: generateFAQPageSchema(city, service, faqs),
-    serviceArea: generateServiceAreaSchema(city, neighborhoods)
+    serviceArea: generateServiceAreaSchema(city, neighborhoods),
   };
 }

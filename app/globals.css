@@ -11,7 +11,12 @@
     @apply text-gray-text bg-amber-50 font-body;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-gray-primary font-semibold font-heading;
   }
 
@@ -56,9 +61,13 @@
     --shadow-light: 43 40% 85%;
     --shadow-dark: 43 60% 40%;
     --shadow-sm: 0 1px 2px 0 hsl(var(--shadow-dark) / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(var(--shadow-dark) / 0.1), 0 2px 4px -2px hsl(var(--shadow-light) / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(var(--shadow-dark) / 0.15), 0 4px 6px -4px hsl(var(--shadow-light) / 0.15);
-    --shadow-xl: 0 20px 25px -5px hsl(var(--shadow-dark) / 0.2), 0 8px 10px -6px hsl(var(--shadow-light) / 0.2);
+    --shadow-md:
+      0 4px 6px -1px hsl(var(--shadow-dark) / 0.1), 0 2px 4px -2px hsl(var(--shadow-light) / 0.1);
+    --shadow-lg:
+      0 10px 15px -3px hsl(var(--shadow-dark) / 0.15),
+      0 4px 6px -4px hsl(var(--shadow-light) / 0.15);
+    --shadow-xl:
+      0 20px 25px -5px hsl(var(--shadow-dark) / 0.2), 0 8px 10px -6px hsl(var(--shadow-light) / 0.2);
 
     /* Animation duration token scale (task 12.24).
        Follow-up codemod can replace scattered `duration-200|300|500|700`
@@ -527,7 +536,8 @@
 
   /* Subtle pulse animation for CTAs */
   @keyframes pulse-subtle {
-    0%, 100% {
+    0%,
+    100% {
       opacity: 1;
       transform: scale(1);
     }
@@ -543,7 +553,8 @@
 
   /* Bounce animation for hover states */
   @keyframes bounce-subtle {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {
@@ -560,7 +571,7 @@
     position: relative;
   }
   .gradient-overlay::after {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, transparent 0%, hsl(var(--primary) / 0.05) 100%);
@@ -602,10 +613,10 @@
   }
 }
 
-
-
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;

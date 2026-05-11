@@ -38,9 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: date,
       modifiedTime: lastmod || date,
       tags,
-      images: ogImage
-        ? [{ url: ogImage, width: 1280, height: 720, alt: title }]
-        : undefined,
+      images: ogImage ? [{ url: ogImage, width: 1280, height: 720, alt: title }] : undefined,
     },
     twitter: {
       card: "summary_large_image",

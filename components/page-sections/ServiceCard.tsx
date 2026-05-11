@@ -1,5 +1,5 @@
-import type { LucideIcon } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import type { LucideIcon } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface ServiceCardProps {
   href: string;
@@ -44,14 +44,14 @@ export function ServiceCard({
   imageSizes,
   imageAlt,
   icon: Icon,
-  ctaLabel = 'Learn More →',
+  ctaLabel = "Learn More →",
   className,
 }: ServiceCardProps) {
   return (
     <a
       href={href}
       className={cn(
-        'flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold',
+        "flex flex-col h-full bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold",
         className,
       )}
     >

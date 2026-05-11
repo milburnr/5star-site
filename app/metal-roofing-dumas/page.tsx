@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Star, Wheat, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-dumas/' },
+  alternates: { canonical: "https://5starroofingpros.com/metal-roofing-dumas/" },
   title: "Metal Roofing Dumas TX | 5 Star Roofing",
-  description: "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Metal Roofing Dumas TX | 5 Star Roofing",
-    description: "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/metal-roofing-dumas/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,149 +40,188 @@ export const metadata: Metadata = {
 
 export default function MetalRoofingDumasPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Metal Roofing",
-                      "url": "/metal-roofing/"
-              },
-              {
-                      "name": "Dumas",
-                      "url": "/metal-roofing-dumas/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Metal Roofing",
+            url: "/metal-roofing/",
+          },
+          {
+            name: "Dumas",
+            url: "/metal-roofing-dumas/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/metal-roofing-dumas/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.8656, "longitude": -101.973 },
-        "url": "https://5starroofingpros.com/metal-roofing-dumas/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert metal roofing services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/metal-roofing-dumas/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.8656, longitude: -101.973 },
+            url: "https://5starroofingpros.com/metal-roofing-dumas/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
+              name: "Dumas",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert metal roofing services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Metal Roofing",
-            "provider": {
+            serviceType: "Metal Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
-              "name": "Dumas",
-              "containedInPlace": {
+              name: "Dumas",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "Why is metal roofing ideal for Dumas properties?",
-                "acceptedAnswer": {
+                name: "Why is metal roofing ideal for Dumas properties?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Metal roofing excels in Dumas's Texas Panhandle climate due to superior wind resistance (140+ mph ratings), Class A fire resistance, exceptional hail resistance with dent-resistant coatings, 50+ year lifespan, and energy efficiency from reflective coatings. Metal roofs withstand Dumas's 7-9 annual hailstorms, extreme temperature swings, and sustained high winds better than any other roofing material."
-                }
+                  text: "Metal roofing excels in Dumas's Texas Panhandle climate due to superior wind resistance (140+ mph ratings), Class A fire resistance, exceptional hail resistance with dent-resistant coatings, 50+ year lifespan, and energy efficiency from reflective coatings. Metal roofs withstand Dumas's 7-9 annual hailstorms, extreme temperature swings, and sustained high winds better than any other roofing material.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How long does metal roofing last in Dumas?",
-                "acceptedAnswer": {
+                name: "How long does metal roofing last in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Metal roofing systems typically last 50-70 years in Dumas when properly installed. Standing seam metal roofs often outlast the buildings they protect. Unlike asphalt shingles that deteriorate in Texas Panhandle UV exposure, metal roofing maintains performance decade after decade. Many metal roofs installed in the 1970s-80s still perform excellently today."
-                }
+                  text: "Metal roofing systems typically last 50-70 years in Dumas when properly installed. Standing seam metal roofs often outlast the buildings they protect. Unlike asphalt shingles that deteriorate in Texas Panhandle UV exposure, metal roofing maintains performance decade after decade. Many metal roofs installed in the 1970s-80s still perform excellently today.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Is metal roofing energy-efficient for Dumas homes?",
-                "acceptedAnswer": {
+                name: "Is metal roofing energy-efficient for Dumas homes?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, metal roofing with reflective coatings significantly reduces cooling costs in Dumas's hot climate. Cool-roof metal systems reflect solar radiation and re-emit absorbed heat, keeping buildings 10-15 degrees cooler. Dumas property owners typically see 20-40% reductions in summer cooling expenses. Metal roofing qualifies for energy efficiency tax credits."
-                }
+                  text: "Yes, metal roofing with reflective coatings significantly reduces cooling costs in Dumas's hot climate. Cool-roof metal systems reflect solar radiation and re-emit absorbed heat, keeping buildings 10-15 degrees cooler. Dumas property owners typically see 20-40% reductions in summer cooling expenses. Metal roofing qualifies for energy efficiency tax credits.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does metal roofing cost in Dumas?",
-                "acceptedAnswer": {
+                name: "How much does metal roofing cost in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Metal roofing in Dumas typically costs $7-15 per square foot installed, depending on metal type, profile, coating, and roof complexity. Standing seam metal is premium ($12-15/sq ft), while R-panel and corrugated options are more economical ($7-10/sq ft). While initial costs exceed asphalt shingles, metal roofing's 50+ year lifespan and low maintenance provide superior long-term value."
-                }
+                  text: "Metal roofing in Dumas typically costs $7-15 per square foot installed, depending on metal type, profile, coating, and roof complexity. Standing seam metal is premium ($12-15/sq ft), while R-panel and corrugated options are more economical ($7-10/sq ft). While initial costs exceed asphalt shingles, metal roofing's 50+ year lifespan and low maintenance provide superior long-term value.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can metal roofing withstand Dumas's hailstorms?",
-                "acceptedAnswer": {
+                name: "Can metal roofing withstand Dumas's hailstorms?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, metal roofing with proper gauge thickness and dent-resistant coatings provides excellent hail protection for Dumas's 7-9 annual hailstorms. 26-gauge steel with Kynar coatings resists denting from golf ball-sized hail. Stone-coated metal shingles offer additional impact protection. Many insurance companies offer premium discounts for impact-resistant metal roofing installations."
-                }
-              }
-            ]
-          })
+                  text: "Yes, metal roofing with proper gauge thickness and dent-resistant coatings provides excellent hail protection for Dumas's 7-9 annual hailstorms. 26-gauge steel with Kynar coatings resists denting from golf ball-sized hail. Stone-coated metal shingles offer additional impact protection. Many insurance companies offer premium discounts for impact-resistant metal roofing installations.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-channing-38-1280w.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-channing-38-1280w.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-zinc-900/75 to-gray-900/70"></div>
@@ -194,12 +235,17 @@ export default function MetalRoofingDumasPage() {
                 Premium Metal Systems | 50+ Year Lifespan
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert metal roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms
+                annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -207,7 +253,6 @@ export default function MetalRoofingDumasPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -227,14 +272,19 @@ export default function MetalRoofingDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -242,10 +292,17 @@ export default function MetalRoofingDumasPage() {
               What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
+              Dumas's location in the Texas Panhandle creates unique roofing challenges.
+              Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual
+              hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands
+              with extreme Panhandle weather—demand superior roofing materials and expert
+              installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Dumas property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with Dumas
+              property owners, and handle complete insurance claims. Most homeowners pay only their
+              deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -257,33 +314,73 @@ export default function MetalRoofingDumasPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Agricultural Excellence</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Wheat className="w-6 h-6 inline-block" /> Agricultural Excellence
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Large-span agricultural buildings</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical resistance for farm operations</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Weather protection for equipment storage</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Cost-effective solutions for grain facilities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Easy cleaning and maintenance</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Large-span agricultural buildings
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Chemical resistance for farm operations
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Weather protection for equipment storage
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Cost-effective solutions for grain facilities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Easy cleaning and maintenance
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Zap className="w-6 h-6 inline-block" /> Industrial Performance</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Zap className="w-6 h-6 inline-block" /> Industrial Performance
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Manufacturing facility protection</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fire resistance for safety compliance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Lightning strike protection</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Extreme temperature tolerance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />High wind uplift resistance</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Manufacturing facility protection
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Fire resistance for safety compliance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Lightning strike protection
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Extreme temperature tolerance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    High wind uplift resistance
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl mb-8">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Dumas Agricultural & Industrial Demands</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Dumas Agricultural & Industrial Demands
+              </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Dumas's agricultural and industrial operations require roofing systems that can withstand chemical exposure, support heavy equipment loads, span large areas without internal supports, and resist the harsh Texas Panhandle climate.
+                Dumas's agricultural and industrial operations require roofing systems that can
+                withstand chemical exposure, support heavy equipment loads, span large areas without
+                internal supports, and resist the harsh Texas Panhandle climate.
               </p>
               <p className="text-lg text-gray-700">
-                Metal roofing excels in these demanding applications with superior strength-to-weight ratios, chemical resistance, and the ability to span large agricultural and industrial spaces cost-effectively.
+                Metal roofing excels in these demanding applications with superior
+                strength-to-weight ratios, chemical resistance, and the ability to span large
+                agricultural and industrial spaces cost-effectively.
               </p>
             </div>
             <div className="grid md:grid-cols-4 gap-6">
@@ -319,9 +416,12 @@ export default function MetalRoofingDumasPage() {
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Chemical Protection</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Agricultural Chemical Protection
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    Specialized coatings and galvanized steel substrates resist fertilizers, pesticides, and other agricultural chemicals common in Dumas farming operations.
+                    Specialized coatings and galvanized steel substrates resist fertilizers,
+                    pesticides, and other agricultural chemicals common in Dumas farming operations.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Kynar 500® PVDF coating systems</li>
@@ -331,9 +431,12 @@ export default function MetalRoofingDumasPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Extreme Weather Durability</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Extreme Weather Durability
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    Engineered to withstand Dumas's severe weather including hailstorms, high winds, temperature extremes, and rapid weather changes.
+                    Engineered to withstand Dumas's severe weather including hailstorms, high winds,
+                    temperature extremes, and rapid weather changes.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• UL 2218 Class 4 hail rating</li>
@@ -353,13 +456,36 @@ export default function MetalRoofingDumasPage() {
               Metal Roofing Performance in Moore County
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Moore County occupies a position in the northern Texas Panhandle where extreme wind is a year-round constant, not a seasonal inconvenience. Dumas sits in one of the strongest wind corridors in the state, with sustained speeds that routinely exceed 14 mph and gusts that push past 60 mph during frontal passages. That persistent wind load is the leading cause of premature roof failure on conventional shingle systems throughout the area. Metal roofing engineered for 140+ mph uplift resistance handles Moore County&apos;s wind profile without the progressive damage &mdash; lifted tabs, backed-out nails, exposed underlayment &mdash; that shortens shingle roof lifespans.
+              Moore County occupies a position in the northern Texas Panhandle where extreme wind is
+              a year-round constant, not a seasonal inconvenience. Dumas sits in one of the
+              strongest wind corridors in the state, with sustained speeds that routinely exceed 14
+              mph and gusts that push past 60 mph during frontal passages. That persistent wind load
+              is the leading cause of premature roof failure on conventional shingle systems
+              throughout the area. Metal roofing engineered for 140+ mph uplift resistance handles
+              Moore County&apos;s wind profile without the progressive damage &mdash; lifted tabs,
+              backed-out nails, exposed underlayment &mdash; that shortens shingle roof lifespans.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Dumas&apos;s industrial base adds environmental factors that most roofing materials aren&apos;t built to handle. Cattle feedlot operations produce ammonia and hydrogen sulfide gases that accelerate corrosion on untreated metal and degrade organic roofing materials. Petrochemical facilities release airborne compounds that attack petroleum-based shingles from the outside in. Metal roofing with Galvalume substrates and fluoropolymer finish coats resists this chemical exposure without losing structural integrity or appearance. The smooth, non-porous surface also prevents dust and particulate matter from embedding in the roofing material &mdash; a significant advantage when feedlot dust and industrial fallout are constant realities.
+              Dumas&apos;s industrial base adds environmental factors that most roofing materials
+              aren&apos;t built to handle. Cattle feedlot operations produce ammonia and hydrogen
+              sulfide gases that accelerate corrosion on untreated metal and degrade organic roofing
+              materials. Petrochemical facilities release airborne compounds that attack
+              petroleum-based shingles from the outside in. Metal roofing with Galvalume substrates
+              and fluoropolymer finish coats resists this chemical exposure without losing
+              structural integrity or appearance. The smooth, non-porous surface also prevents dust
+              and particulate matter from embedding in the roofing material &mdash; a significant
+              advantage when feedlot dust and industrial fallout are constant realities.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Debris resistance rounds out metal roofing&apos;s advantages for Dumas properties. High winds pick up sand, gravel, and agricultural debris across Moore County&apos;s open terrain and drive it against building surfaces at high velocity. Where asphalt shingles lose granules and develop bare spots under this abrasion, metal panels maintain their protective coating and structural barrier. Properties near feedlots face additional exposure to windblown organic debris that traps moisture against conventional roof surfaces and promotes premature deterioration. Metal&apos;s smooth profile sheds this debris naturally, keeping the roof performing at full capacity between inspections.
+              Debris resistance rounds out metal roofing&apos;s advantages for Dumas properties.
+              High winds pick up sand, gravel, and agricultural debris across Moore County&apos;s
+              open terrain and drive it against building surfaces at high velocity. Where asphalt
+              shingles lose granules and develop bare spots under this abrasion, metal panels
+              maintain their protective coating and structural barrier. Properties near feedlots
+              face additional exposure to windblown organic debris that traps moisture against
+              conventional roof surfaces and promotes premature deterioration. Metal&apos;s smooth
+              profile sheds this debris naturally, keeping the roof performing at full capacity
+              between inspections.
             </p>
           </section>
         </FadeIn>
@@ -370,13 +496,36 @@ export default function MetalRoofingDumasPage() {
               Commercial &amp; Industrial Metal Roofing for Dumas Facilities
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Dumas&apos;s feedlot and petrochemical industries require roofing systems that go beyond standard commercial specifications. Cattle feeding operations in Moore County house processing equipment, maintenance shops, and administrative buildings that all need protection from the same combination of chemical exposure, wind stress, and hail impact. Metal roofing with chemical-resistant coatings provides the necessary barrier against ammonia vapor from feedlot operations while maintaining Class A fire ratings required by safety codes. R-panel and standing seam systems deliver large clear-span coverage over processing areas where interior columns would interfere with equipment and livestock handling flow.
+              Dumas&apos;s feedlot and petrochemical industries require roofing systems that go
+              beyond standard commercial specifications. Cattle feeding operations in Moore County
+              house processing equipment, maintenance shops, and administrative buildings that all
+              need protection from the same combination of chemical exposure, wind stress, and hail
+              impact. Metal roofing with chemical-resistant coatings provides the necessary barrier
+              against ammonia vapor from feedlot operations while maintaining Class A fire ratings
+              required by safety codes. R-panel and standing seam systems deliver large clear-span
+              coverage over processing areas where interior columns would interfere with equipment
+              and livestock handling flow.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Petrochemical facilities around Dumas operate under strict safety requirements that metal roofing addresses inherently. Non-combustible metal panels meet fire code mandates without additional treatments. Integrated lightning protection systems ground safely through the metal roof assembly. Chemical-resistant Kynar 500 coatings stand up to hydrocarbon vapor exposure and acid rain conditions that corrode lesser materials. For facilities operating around the clock, metal roofing&apos;s low maintenance requirements mean fewer roof-related shutdowns and less disruption to production schedules.
+              Petrochemical facilities around Dumas operate under strict safety requirements that
+              metal roofing addresses inherently. Non-combustible metal panels meet fire code
+              mandates without additional treatments. Integrated lightning protection systems ground
+              safely through the metal roof assembly. Chemical-resistant Kynar 500 coatings stand up
+              to hydrocarbon vapor exposure and acid rain conditions that corrode lesser materials.
+              For facilities operating around the clock, metal roofing&apos;s low maintenance
+              requirements mean fewer roof-related shutdowns and less disruption to production
+              schedules.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              We work with Dumas facility managers on installation scheduling that minimizes operational disruption. Our crews are experienced with the safety protocols required on active feedlot and petrochemical sites, including hot work permits, confined space awareness, and coordination with facility safety officers. Whether you&apos;re re-roofing an existing processing building or constructing new storage facilities, we engineer metal roof assemblies that meet both Moore County building codes and the specific environmental demands of Dumas&apos;s industrial operations. Every commercial installation includes a detailed maintenance schedule tailored to the facility&apos;s chemical exposure profile.
+              We work with Dumas facility managers on installation scheduling that minimizes
+              operational disruption. Our crews are experienced with the safety protocols required
+              on active feedlot and petrochemical sites, including hot work permits, confined space
+              awareness, and coordination with facility safety officers. Whether you&apos;re
+              re-roofing an existing processing building or constructing new storage facilities, we
+              engineer metal roof assemblies that meet both Moore County building codes and the
+              specific environmental demands of Dumas&apos;s industrial operations. Every commercial
+              installation includes a detailed maintenance schedule tailored to the facility&apos;s
+              chemical exposure profile.
             </p>
           </section>
         </FadeIn>
@@ -392,7 +541,12 @@ export default function MetalRoofingDumasPage() {
                   Why is metal roofing ideal for Dumas properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Metal roofing excels in Dumas's Texas Panhandle climate due to superior wind resistance (140+ mph ratings), Class A fire resistance, exceptional hail resistance with dent-resistant coatings, 50+ year lifespan, and energy efficiency from reflective coatings. Metal roofs withstand Dumas's 7-9 annual hailstorms, extreme temperature swings, and sustained high winds better than any other roofing material.
+                  Metal roofing excels in Dumas's Texas Panhandle climate due to superior wind
+                  resistance (140+ mph ratings), Class A fire resistance, exceptional hail
+                  resistance with dent-resistant coatings, 50+ year lifespan, and energy efficiency
+                  from reflective coatings. Metal roofs withstand Dumas's 7-9 annual hailstorms,
+                  extreme temperature swings, and sustained high winds better than any other roofing
+                  material.
                 </AccordionContent>
               </AccordionItem>
 
@@ -401,7 +555,11 @@ export default function MetalRoofingDumasPage() {
                   How long does metal roofing last in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Metal roofing systems typically last 50-70 years in Dumas when properly installed. Standing seam metal roofs often outlast the buildings they protect. Unlike asphalt shingles that deteriorate in Texas Panhandle UV exposure, metal roofing maintains performance decade after decade. Many metal roofs installed in the 1970s-80s still perform excellently today.
+                  Metal roofing systems typically last 50-70 years in Dumas when properly installed.
+                  Standing seam metal roofs often outlast the buildings they protect. Unlike asphalt
+                  shingles that deteriorate in Texas Panhandle UV exposure, metal roofing maintains
+                  performance decade after decade. Many metal roofs installed in the 1970s-80s still
+                  perform excellently today.
                 </AccordionContent>
               </AccordionItem>
 
@@ -410,7 +568,11 @@ export default function MetalRoofingDumasPage() {
                   Is metal roofing energy-efficient for Dumas homes?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, metal roofing with reflective coatings significantly reduces cooling costs in Dumas's hot climate. Cool-roof metal systems reflect solar radiation and re-emit absorbed heat, keeping buildings 10-15 degrees cooler. Dumas property owners typically see 20-40% reductions in summer cooling expenses. Metal roofing qualifies for energy efficiency tax credits.
+                  Yes, metal roofing with reflective coatings significantly reduces cooling costs in
+                  Dumas's hot climate. Cool-roof metal systems reflect solar radiation and re-emit
+                  absorbed heat, keeping buildings 10-15 degrees cooler. Dumas property owners
+                  typically see 20-40% reductions in summer cooling expenses. Metal roofing
+                  qualifies for energy efficiency tax credits.
                 </AccordionContent>
               </AccordionItem>
 
@@ -419,7 +581,11 @@ export default function MetalRoofingDumasPage() {
                   How much does metal roofing cost in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Metal roofing in Dumas typically costs $7-15 per square foot installed, depending on metal type, profile, coating, and roof complexity. Standing seam metal is premium ($12-15/sq ft), while R-panel and corrugated options are more economical ($7-10/sq ft). While initial costs exceed asphalt shingles, metal roofing's 50+ year lifespan and low maintenance provide superior long-term value.
+                  Metal roofing in Dumas typically costs $7-15 per square foot installed, depending
+                  on metal type, profile, coating, and roof complexity. Standing seam metal is
+                  premium ($12-15/sq ft), while R-panel and corrugated options are more economical
+                  ($7-10/sq ft). While initial costs exceed asphalt shingles, metal roofing's 50+
+                  year lifespan and low maintenance provide superior long-term value.
                 </AccordionContent>
               </AccordionItem>
 
@@ -428,7 +594,11 @@ export default function MetalRoofingDumasPage() {
                   Can metal roofing withstand Dumas's hailstorms?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, metal roofing with proper gauge thickness and dent-resistant coatings provides excellent hail protection for Dumas's 7-9 annual hailstorms. 26-gauge steel with Kynar coatings resists denting from golf ball-sized hail. Stone-coated metal shingles offer additional impact protection. Many insurance companies offer premium discounts for impact-resistant metal roofing installations.
+                  Yes, metal roofing with proper gauge thickness and dent-resistant coatings
+                  provides excellent hail protection for Dumas's 7-9 annual hailstorms. 26-gauge
+                  steel with Kynar coatings resists denting from golf ball-sized hail. Stone-coated
+                  metal shingles offer additional impact protection. Many insurance companies offer
+                  premium discounts for impact-resistant metal roofing installations.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -456,22 +626,28 @@ export default function MetalRoofingDumasPage() {
         </FadeIn>
         <InternalLinks currentCity="dumas" currentService="metal-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Dumas Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Dumas property owners. Expert metal roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Dumas property owners. Expert metal roofing with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="metal-roofing-dumas" />
+        <RelatedArticles pageSlug="metal-roofing-dumas" />
       </div>
     </>
   );

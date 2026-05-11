@@ -1,12 +1,12 @@
-import type { ElementType, ReactNode } from 'react';
-import { cn } from '@/lib/utils';
+import type { ElementType, ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 interface GradientH2Props {
   children: ReactNode;
   /** Override the heading level when this is used for a marquee H1 or H3. Default h2. */
-  as?: 'h1' | 'h2' | 'h3';
+  as?: "h1" | "h2" | "h3";
   /** brown-gold = the canonical brown→gold gradient. gold-vibrant = saturated stat-number gradient. */
-  variant?: 'brown-gold' | 'gold-vibrant';
+  variant?: "brown-gold" | "gold-vibrant";
   className?: string;
   centered?: boolean;
   id?: string;
@@ -25,33 +25,33 @@ interface GradientH2Props {
  */
 export function GradientH2({
   children,
-  as = 'h2',
-  variant = 'brown-gold',
+  as = "h2",
+  variant = "brown-gold",
   className,
   centered = true,
   id,
 }: GradientH2Props) {
   const Tag = as as ElementType;
   const sizeClass =
-    as === 'h1'
-      ? 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl'
-      : as === 'h3'
-        ? 'text-xl sm:text-2xl md:text-3xl'
-        : 'text-2xl sm:text-3xl md:text-4xl';
+    as === "h1"
+      ? "text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
+      : as === "h3"
+        ? "text-xl sm:text-2xl md:text-3xl"
+        : "text-2xl sm:text-3xl md:text-4xl";
 
   const gradient =
-    variant === 'gold-vibrant'
-      ? 'bg-gradient-to-r from-brand-gold to-brand-gold-vibrant'
-      : 'bg-gradient-to-r from-brand-brown to-brand-gold';
+    variant === "gold-vibrant"
+      ? "bg-gradient-to-r from-brand-gold to-brand-gold-vibrant"
+      : "bg-gradient-to-r from-brand-brown to-brand-gold";
 
   return (
     <Tag
       id={id}
       className={cn(
-        'font-bold leading-tight bg-clip-text text-transparent',
+        "font-bold leading-tight bg-clip-text text-transparent",
         gradient,
         sizeClass,
-        centered && 'text-center',
+        centered && "text-center",
         className,
       )}
     >

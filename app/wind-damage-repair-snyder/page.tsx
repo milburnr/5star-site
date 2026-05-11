@@ -12,15 +12,30 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { ArrowDown, Church, CloudLightning, Factory, Hospital, Phone, School, Star, Store, Tornado, Wheat, Wind } from "lucide-react";
+import {
+  ArrowDown,
+  Church,
+  CloudLightning,
+  Factory,
+  Hospital,
+  Phone,
+  School,
+  Star,
+  Store,
+  Tornado,
+  Wheat,
+  Wind,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-snyder/' },
+  alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-snyder/" },
   title: "Wind Damage Repair Snyder TX | 5 Star Roofing",
-  description: "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Wind Damage Repair Snyder TX | 5 Star Roofing",
-    description: "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/wind-damage-repair-snyder/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,99 +53,137 @@ export const metadata: Metadata = {
 
 export default function WindDamageRepairSnyderPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Wind Damage Repair",
-                      "url": "/wind-damage-repair/"
-              },
-              {
-                      "name": "Snyder",
-                      "url": "/wind-damage-repair-snyder/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Wind Damage Repair",
+            url: "/wind-damage-repair/",
+          },
+          {
+            name: "Snyder",
+            url: "/wind-damage-repair-snyder/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/wind-damage-repair-snyder/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 32.7179, "longitude": -100.9176 },
-        "url": "https://5starroofingpros.com/wind-damage-repair-snyder/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas", "name": "Snyder", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert wind damage repair services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/wind-damage-repair-snyder/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 32.7179, longitude: -100.9176 },
+            url: "https://5starroofingpros.com/wind-damage-repair-snyder/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
+              name: "Snyder",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert wind damage repair services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Wind Damage Roof Repair",
-            "provider": {
+            serviceType: "Wind Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Snyder",
+              name: "Snyder",
               "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually."
-          })
+            description:
+              "Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually.",
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-41-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-41-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
@@ -144,12 +197,17 @@ export default function WindDamageRepairSnyderPage() {
                 West Texas Wind Damage Repair Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
+                Expert wind damage roof repair in Snyder TX. West Texas experiences 7-9 hailstorms
+                annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -157,16 +215,13 @@ export default function WindDamageRepairSnyderPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-9</div>
@@ -177,14 +232,19 @@ export default function WindDamageRepairSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -192,10 +252,17 @@ export default function WindDamageRepairSnyderPage() {
               How Does Snyder's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Snyder's location in Scurry County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Snyder's location in Scurry County creates unique roofing challenges. The West Texas
+              experiences 7-9 hailstorms annually, sustained high winds, extreme temperature
+              fluctuations, and severe weather conditions. Your roofing system must withstand these
+              demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and Scurry County with premium materials and expert installation. From properties near Scurry County Museum to buildings throughout Snyder, we understand West Texas weather patterns, local building codes, and the specific needs of Scurry County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and
+              Scurry County with premium materials and expert installation. From properties near
+              Scurry County Museum to buildings throughout Snyder, we understand West Texas weather
+              patterns, local building codes, and the specific needs of Scurry County property
+              owners.
             </p>
           </section>
         </FadeIn>
@@ -227,27 +294,47 @@ export default function WindDamageRepairSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Supercell Wind Patterns</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Supercell Wind Patterns
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Snyder sits in prime supercell territory where rotating thunderstorms create complex wind patterns including straight-line winds, downbursts, and rotating mesocyclones. These multi-directional forces require sophisticated repair techniques that address various stress vectors simultaneously.
+                  Snyder sits in prime supercell territory where rotating thunderstorms create
+                  complex wind patterns including straight-line winds, downbursts, and rotating
+                  mesocyclones. These multi-directional forces require sophisticated repair
+                  techniques that address various stress vectors simultaneously.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Cap Rock Wind Acceleration</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Cap Rock Wind Acceleration
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  The Caprock Escarpment near Snyder creates wind acceleration zones where storms intensify rapidly. Properties in Scurry County experience amplified wind speeds as air masses compress and accelerate over the terrain changes, creating unique damage patterns.
+                  The Caprock Escarpment near Snyder creates wind acceleration zones where storms
+                  intensify rapidly. Properties in Scurry County experience amplified wind speeds as
+                  air masses compress and accelerate over the terrain changes, creating unique
+                  damage patterns.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Dryline Convergence Zones</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Dryline Convergence Zones
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  West Texas drylines create convergence zones that trigger intense thunderstorms with powerful wind shear. These atmospheric boundaries produce rapid wind direction changes and speed variations that stress roofing systems beyond normal design parameters.
+                  West Texas drylines create convergence zones that trigger intense thunderstorms
+                  with powerful wind shear. These atmospheric boundaries produce rapid wind
+                  direction changes and speed variations that stress roofing systems beyond normal
+                  design parameters.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Seasonal Wind Variations</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Seasonal Wind Variations
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Scurry County experiences distinct seasonal wind patterns from arctic northers in winter to desert thermal winds in summer. Each season brings different wind challenges requiring year-round maintenance strategies and seasonal damage prevention measures.
+                  Scurry County experiences distinct seasonal wind patterns from arctic northers in
+                  winter to desert thermal winds in summer. Each season brings different wind
+                  challenges requiring year-round maintenance strategies and seasonal damage
+                  prevention measures.
                 </p>
               </div>
             </div>
@@ -261,29 +348,43 @@ export default function WindDamageRepairSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Tornado className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Rotating Mesocyclones</h3>
                 <p className="text-gray-700">
-                  Supercell thunderstorms create rotating wind patterns that can cause multi-directional roof damage. These rotating mesocyclones stress roofing systems from multiple angles simultaneously, requiring comprehensive structural repairs.
+                  Supercell thunderstorms create rotating wind patterns that can cause
+                  multi-directional roof damage. These rotating mesocyclones stress roofing systems
+                  from multiple angles simultaneously, requiring comprehensive structural repairs.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Wind className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Straight-Line Winds</h3>
                 <p className="text-gray-700">
-                  West Texas supercells produce devastating straight-line winds exceeding 100 mph. These sustained high winds create progressive damage patterns that start at roof edges and spread across entire membrane systems.
+                  West Texas supercells produce devastating straight-line winds exceeding 100 mph.
+                  These sustained high winds create progressive damage patterns that start at roof
+                  edges and spread across entire membrane systems.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><ArrowDown className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <ArrowDown className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Rear Flank Downbursts</h3>
                 <p className="text-gray-700">
-                  Powerful downbursts from supercell rear flanks create intense downward pressure combined with rapid wind direction changes. This combination can cause complete membrane failure and structural damage to commercial buildings.
+                  Powerful downbursts from supercell rear flanks create intense downward pressure
+                  combined with rapid wind direction changes. This combination can cause complete
+                  membrane failure and structural damage to commercial buildings.
                 </p>
               </div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-brand-brown mb-4">Rolling Plains Storm Data</h3>
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                Rolling Plains Storm Data
+              </h3>
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2">100+</div>
@@ -317,9 +418,14 @@ export default function WindDamageRepairSnyderPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Storm Pattern Analysis</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Storm Pattern Analysis
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our meteorologically-trained assessors analyze local weather radar data and storm reports to understand the specific wind forces that affected your property. This scientific approach ensures repairs address the actual damage mechanisms rather than just visible symptoms.
+                    Our meteorologically-trained assessors analyze local weather radar data and
+                    storm reports to understand the specific wind forces that affected your
+                    property. This scientific approach ensures repairs address the actual damage
+                    mechanisms rather than just visible symptoms.
                   </p>
                 </div>
               </div>
@@ -328,9 +434,14 @@ export default function WindDamageRepairSnyderPage() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Multi-Vector Damage Assessment</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Multi-Vector Damage Assessment
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Supercell damage requires assessment from multiple directions and angles. We use 360-degree documentation including drone surveys, ground-level inspection, and internal structural evaluation to identify all damage vectors from complex wind patterns.
+                    Supercell damage requires assessment from multiple directions and angles. We use
+                    360-degree documentation including drone surveys, ground-level inspection, and
+                    internal structural evaluation to identify all damage vectors from complex wind
+                    patterns.
                   </p>
                 </div>
               </div>
@@ -339,9 +450,14 @@ export default function WindDamageRepairSnyderPage() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Agricultural Coordination</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Agricultural Coordination
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Many Scurry County properties combine commercial buildings with agricultural operations. We coordinate repairs around harvest schedules, livestock needs, and agricultural equipment requirements to minimize disruption to farming operations.
+                    Many Scurry County properties combine commercial buildings with agricultural
+                    operations. We coordinate repairs around harvest schedules, livestock needs, and
+                    agricultural equipment requirements to minimize disruption to farming
+                    operations.
                   </p>
                 </div>
               </div>
@@ -350,9 +466,13 @@ export default function WindDamageRepairSnyderPage() {
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Enhanced Wind Resistance Installation</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Enhanced Wind Resistance Installation
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our repairs exceed standard specifications to withstand future supercell events. We install enhanced fastening patterns, reinforced edge details, and improved membrane specifications based on local wind modeling and storm history analysis.
+                    Our repairs exceed standard specifications to withstand future supercell events.
+                    We install enhanced fastening patterns, reinforced edge details, and improved
+                    membrane specifications based on local wind modeling and storm history analysis.
                   </p>
                 </div>
               </div>
@@ -361,9 +481,13 @@ export default function WindDamageRepairSnyderPage() {
                   5
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Long-Term Monitoring Strategy</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Long-Term Monitoring Strategy
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    West Texas properties need ongoing monitoring for wind damage prevention. We provide maintenance schedules, seasonal inspection protocols, and early warning systems to identify potential problems before they become major failures.
+                    West Texas properties need ongoing monitoring for wind damage prevention. We
+                    provide maintenance schedules, seasonal inspection protocols, and early warning
+                    systems to identify potential problems before they become major failures.
                   </p>
                 </div>
               </div>
@@ -382,7 +506,10 @@ export default function WindDamageRepairSnyderPage() {
                   How quickly can you respond to supercell wind damage in Snyder?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We maintain rapid response capabilities specifically for West Texas supercell events. Our our team can typically respond within 2-3 hours of storm passage to provide immediate stabilization, tarping, and damage assessment. We monitor weather radar during severe weather events to prepare for immediate deployment.
+                  We maintain rapid response capabilities specifically for West Texas supercell
+                  events. Our our team can typically respond within 2-3 hours of storm passage to
+                  provide immediate stabilization, tarping, and damage assessment. We monitor
+                  weather radar during severe weather events to prepare for immediate deployment.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="complex-damage" className="bg-white rounded-lg shadow-md">
@@ -390,15 +517,25 @@ export default function WindDamageRepairSnyderPage() {
                   How do you repair damage from rotating supercell winds?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Rotating supercell damage requires specialized repair techniques due to multi-directional stress patterns. We analyze the rotation direction and wind shear patterns to understand stress vectors, then design repairs that reinforce against future rotating winds. This often includes upgraded fastening in multiple directions and enhanced corner reinforcement.
+                  Rotating supercell damage requires specialized repair techniques due to
+                  multi-directional stress patterns. We analyze the rotation direction and wind
+                  shear patterns to understand stress vectors, then design repairs that reinforce
+                  against future rotating winds. This often includes upgraded fastening in multiple
+                  directions and enhanced corner reinforcement.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="agricultural-properties" className="bg-white rounded-lg shadow-md">
+              <AccordionItem
+                value="agricultural-properties"
+                className="bg-white rounded-lg shadow-md"
+              >
                 <AccordionTrigger className="px-6 py-4 text-left text-lg font-semibold text-brand-brown">
                   Can you repair wind damage without disrupting agricultural operations?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Absolutely. We specialize in agricultural property repairs that maintain operational continuity. Our scheduling accommodates harvest seasons, livestock care requirements, and equipment storage needs. We often work in phases to keep portions of buildings operational while repairs are completed.
+                  Absolutely. We specialize in agricultural property repairs that maintain
+                  operational continuity. Our scheduling accommodates harvest seasons, livestock
+                  care requirements, and equipment storage needs. We often work in phases to keep
+                  portions of buildings operational while repairs are completed.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="elevation-factors" className="bg-white rounded-lg shadow-md">
@@ -406,7 +543,10 @@ export default function WindDamageRepairSnyderPage() {
                   Does Snyder's elevation affect wind damage repair requirements?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Yes, Snyder's elevation on the Rolling Plains creates unique wind acceleration effects that we account for in repairs. The higher elevation also means greater temperature extremes and UV exposure, requiring enhanced material specifications. Our repairs use altitude-appropriate materials and fastening patterns.
+                  Yes, Snyder's elevation on the Rolling Plains creates unique wind acceleration
+                  effects that we account for in repairs. The higher elevation also means greater
+                  temperature extremes and UV exposure, requiring enhanced material specifications.
+                  Our repairs use altitude-appropriate materials and fastening patterns.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="storm-season" className="bg-white rounded-lg shadow-md">
@@ -414,7 +554,10 @@ export default function WindDamageRepairSnyderPage() {
                   What's the best time for wind damage repairs in West Texas?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  While storm repairs happen year-round, comprehensive repairs are best scheduled outside peak storm season (April-June) when possible. Fall and winter provide calmer conditions for major repairs. However, we maintain full repair capabilities throughout storm season with weather monitoring and flexible scheduling.
+                  While storm repairs happen year-round, comprehensive repairs are best scheduled
+                  outside peak storm season (April-June) when possible. Fall and winter provide
+                  calmer conditions for major repairs. However, we maintain full repair capabilities
+                  throughout storm season with weather monitoring and flexible scheduling.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="prevention-systems" className="bg-white rounded-lg shadow-md">
@@ -422,7 +565,10 @@ export default function WindDamageRepairSnyderPage() {
                   Can repairs include systems to prevent future supercell damage?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Yes, we implement advanced prevention systems including enhanced edge details, vortex-shedding roof modifications, and improved drainage systems designed for extreme wind events. These upgrades often qualify for insurance discounts and significantly improve your building's resistance to future supercell storms.
+                  Yes, we implement advanced prevention systems including enhanced edge details,
+                  vortex-shedding roof modifications, and improved drainage systems designed for
+                  extreme wind events. These upgrades often qualify for insurance discounts and
+                  significantly improve your building's resistance to future supercell storms.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -436,39 +582,64 @@ export default function WindDamageRepairSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Wheat className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Wheat className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Agricultural Operations</h3>
-                <p className="text-gray-600 text-sm">Grain storage, livestock facilities, equipment barns</p>
+                <p className="text-gray-600 text-sm">
+                  Grain storage, livestock facilities, equipment barns
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><School className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <School className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Educational Buildings</h3>
-                <p className="text-gray-600 text-sm">Schools, community colleges, training centers</p>
+                <p className="text-gray-600 text-sm">
+                  Schools, community colleges, training centers
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Store className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Store className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Downtown Businesses</h3>
-                <p className="text-gray-600 text-sm">Historic buildings, retail stores, restaurants</p>
+                <p className="text-gray-600 text-sm">
+                  Historic buildings, retail stores, restaurants
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Hospital className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Hospital className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Healthcare Facilities</h3>
-                <p className="text-gray-600 text-sm">Medical clinics, dental offices, care centers</p>
+                <p className="text-gray-600 text-sm">
+                  Medical clinics, dental offices, care centers
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Factory className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Industrial Buildings</h3>
-                <p className="text-gray-600 text-sm">Manufacturing, processing, distribution centers</p>
+                <p className="text-gray-600 text-sm">
+                  Manufacturing, processing, distribution centers
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Church className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Church className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Community Buildings</h3>
                 <p className="text-gray-600 text-sm">Churches, civic centers, community halls</p>
               </div>
             </div>
             <div className="mt-8 text-center">
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                From the historic Scurry County Courthouse to modern agricultural facilities throughout the Rolling Plains, we've helped hundreds of Snyder-area property owners recover from supercell wind damage and strengthen their buildings against future storms.
+                From the historic Scurry County Courthouse to modern agricultural facilities
+                throughout the Rolling Plains, we've helped hundreds of Snyder-area property owners
+                recover from supercell wind damage and strengthen their buildings against future
+                storms.
               </p>
             </div>
           </section>
@@ -477,10 +648,15 @@ export default function WindDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16 bg-orange-50 p-12 rounded-3xl border border-orange-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-orange-700 mb-4">Supercell Season Preparedness?</h2>
-              <div className="text-6xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
+              <h2 className="text-4xl font-bold text-orange-700 mb-4">
+                Supercell Season Preparedness?
+              </h2>
+              <div className="text-6xl mb-4">
+                <CloudLightning className="w-6 h-6 inline-block" />
+              </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                West Texas supercell season runs March through June. Be prepared for sudden, devastating wind events.
+                West Texas supercell season runs March through June. Be prepared for sudden,
+                devastating wind events.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -495,7 +671,9 @@ export default function WindDamageRepairSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-orange-700 mb-4">During Supercell Warnings</h3>
+                <h3 className="text-xl font-bold text-orange-700 mb-4">
+                  During Supercell Warnings
+                </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Monitor weather radar and warnings</li>
                   <li>• Move vehicles away from buildings</li>
@@ -510,22 +688,29 @@ export default function WindDamageRepairSnyderPage() {
         </FadeIn>
         <InternalLinks currentCity="snyder" currentService="wind-damage-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Rebuild Stronger in Snyder?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Expert wind damage repair for West Texas Rolling Plains properties. Our team understands supercell wind patterns and provides repairs engineered for extreme weather. Trust Scurry County's supercell damage specialists.
+            Expert wind damage repair for West Texas Rolling Plains properties. Our team understands
+            supercell wind patterns and provides repairs engineered for extreme weather. Trust
+            Scurry County's supercell damage specialists.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Assessment
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="wind-damage-repair-snyder" />
+        <RelatedArticles pageSlug="wind-damage-repair-snyder" />
       </div>
     </>
   );

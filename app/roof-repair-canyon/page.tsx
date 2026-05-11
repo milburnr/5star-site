@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { GraduationCap, Mountain, Phone, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-canyon/' },
+  alternates: { canonical: "https://5starroofingpros.com/roof-repair-canyon/" },
   title: "Roof Repair Canyon TX | 5 Star Roofing",
-  description: "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Roof Repair Canyon TX | 5 Star Roofing",
-    description: "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/roof-repair-canyon/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,149 +40,188 @@ export const metadata: Metadata = {
 
 export default function RoofRepairCanyonPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Roof Repair",
-                      "url": "/roof-repair/"
-              },
-              {
-                      "name": "Canyon",
-                      "url": "/roof-repair-canyon/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Canyon",
+            url: "/roof-repair-canyon/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/roof-repair-canyon/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 34.9803, "longitude": -101.9188 },
-        "url": "https://5starroofingpros.com/roof-repair-canyon/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas", "name": "Canyon", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roof repair services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/roof-repair-canyon/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 34.9803, longitude: -101.9188 },
+            url: "https://5starroofingpros.com/roof-repair-canyon/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas",
+              name: "Canyon",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roof repair services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Roof Repair",
-            "provider": {
+            serviceType: "Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas",
-              "name": "Canyon",
-              "containedInPlace": {
+              name: "Canyon",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "How much does roof repair cost in Canyon?",
-                "acceptedAnswer": {
+                name: "How much does roof repair cost in Canyon?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage."
-                }
+                  text: "Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly can you repair my leaking roof in Canyon?",
-                "acceptedAnswer": {
+                name: "How quickly can you repair my leaking roof in Canyon?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
-                }
+                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Should I repair or replace my roof?",
-                "acceptedAnswer": {
+                name: "Should I repair or replace my roof?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation."
-                }
+                  text: "Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do you warranty your roof repairs?",
-                "acceptedAnswer": {
+                name: "Do you warranty your roof repairs?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last."
-                }
+                  text: "Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What are the most common roof repairs in Canyon?",
-                "acceptedAnswer": {
+                name: "What are the most common roof repairs in Canyon?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "In Canyon, the most common repairs include hail-damaged shingles from the area's 8-10 annual hailstorms, wind-lifted shingles from High Plains winds near Palo Duro Canyon, failed flashing around chimneys and vents, and leak repairs. The unique weather patterns near the canyon create specific damage we repair regularly."
-                }
-              }
-            ]
-          })
+                  text: "In Canyon, the most common repairs include hail-damaged shingles from the area's 8-10 annual hailstorms, wind-lifted shingles from High Plains winds near Palo Duro Canyon, failed flashing around chimneys and vents, and leak repairs. The unique weather patterns near the canyon create specific damage we repair regularly.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-orange-900/85 via-red-900/75 to-orange-900/70"></div>
@@ -194,12 +235,17 @@ export default function RoofRepairCanyonPage() {
                 Fast, Professional Repairs | Same-Day Service Available
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert roof repair in Canyon TX. Texas Panhandle experiences 6-8 hailstorms
+                annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -207,7 +253,6 @@ export default function RoofRepairCanyonPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -227,14 +272,19 @@ export default function RoofRepairCanyonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -242,10 +292,17 @@ export default function RoofRepairCanyonPage() {
               What Makes Our Canyon Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo Duro Canyon with High Plains wind exposure—demand superior roofing materials and expert installation.
+              Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo
+              Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8
+              annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo
+              Duro Canyon with High Plains wind exposure—demand superior roofing materials and
+              expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 350+ Canyon properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Canyon property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 350+ Canyon properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with Canyon
+              property owners, and handle complete insurance claims. Most homeowners pay only their
+              deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -256,48 +313,80 @@ export default function RoofRepairCanyonPage() {
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How much does roof repair cost in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage.
+                  Repair costs vary widely based on damage extent and accessibility. Simple shingle
+                  replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex
+                  structural repairs range from $1,500-$5,000. We provide free inspections with
+                  detailed written estimates before any work begins. Many repairs are
+                  insurance-covered, especially storm damage.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How quickly can you repair my leaking roof in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days.
+                  Standard repairs are typically scheduled within 3-5 business days. Most repairs
+                  complete in 2-4 hours depending on complexity. We understand roof leaks cause
+                  stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Should I repair or replace my roof?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation.
+                  Repair makes sense for roofs under 15 years old with localized damage affecting
+                  less than 30% of surface area. Replacement is recommended when roofs exceed 20
+                  years, show widespread damage, or require multiple repair areas. Our free
+                  inspections provide honest assessments—we recommend the most cost-effective
+                  solution for your situation.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you warranty your roof repairs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last.
+                  Yes, all our repairs include workmanship warranties ranging from 1-5 years
+                  depending on repair type. Materials carry manufacturer warranties. We stand behind
+                  our work—if a repair fails due to installation error, we fix it at no charge. This
+                  warranty protection gives you peace of mind that repairs will last.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What are the most common roof repairs in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  In Canyon, the most common repairs include hail-damaged shingles from the area's 8-10 annual hailstorms, wind-lifted shingles from High Plains winds near Palo Duro Canyon, failed flashing around chimneys and vents, and leak repairs. The unique weather patterns near the canyon create specific damage we repair regularly.
+                  In Canyon, the most common repairs include hail-damaged shingles from the area's
+                  8-10 annual hailstorms, wind-lifted shingles from High Plains winds near Palo Duro
+                  Canyon, failed flashing around chimneys and vents, and leak repairs. The unique
+                  weather patterns near the canyon create specific damage we repair regularly.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -306,9 +395,20 @@ export default function RoofRepairCanyonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Visit Our Amarillo Location</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Visit Our Amarillo Location
+            </h2>
             <div className="flex justify-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl shadow-lg"
+              ></iframe>
             </div>
           </section>
         </FadeIn>
@@ -320,9 +420,14 @@ export default function RoofRepairCanyonPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">University District Specialist</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  University District Specialist
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon is home to West Texas A&M University, creating unique roofing needs for student housing, faculty residences, and university facilities. We specialize in both residential and institutional roofing projects throughout the university district.
+                  Canyon is home to West Texas A&M University, creating unique roofing needs for
+                  student housing, faculty residences, and university facilities. We specialize in
+                  both residential and institutional roofing projects throughout the university
+                  district.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Student housing roof repairs</li>
@@ -332,9 +437,13 @@ export default function RoofRepairCanyonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Palo Duro Canyon Wind Patterns</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Palo Duro Canyon Wind Patterns
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon's proximity to Palo Duro Canyon creates unique wind patterns and microclimates that affect roofing systems. Our team understands how canyon geography influences weather damage and material selection.
+                  Canyon's proximity to Palo Duro Canyon creates unique wind patterns and
+                  microclimates that affect roofing systems. Our team understands how canyon
+                  geography influences weather damage and material selection.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Wind-channel damage assessment</li>
@@ -345,9 +454,13 @@ export default function RoofRepairCanyonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Historic Downtown Preservation</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Historic Downtown Preservation
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon's historic downtown district requires specialized attention to preserve architectural integrity while upgrading roofing systems. We balance historical preservation with modern performance standards.
+                  Canyon's historic downtown district requires specialized attention to preserve
+                  architectural integrity while upgrading roofing systems. We balance historical
+                  preservation with modern performance standards.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Historical building compliance</li>
@@ -358,9 +471,13 @@ export default function RoofRepairCanyonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Community Support</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Agricultural Community Support
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon serves the surrounding agricultural community with ranching and farming operations. We provide specialized roofing services for agricultural buildings, barns, and rural residential properties.
+                  Canyon serves the surrounding agricultural community with ranching and farming
+                  operations. We provide specialized roofing services for agricultural buildings,
+                  barns, and rural residential properties.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Agricultural building repairs</li>
@@ -380,24 +497,36 @@ export default function RoofRepairCanyonPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Mountain className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Mountain className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Canyon Geography</h3>
                 <p className="text-gray-700">
-                  Located near Palo Duro Canyon, America's second-largest canyon, creating unique wind funneling effects and microclimate variations that impact roofing system performance and longevity.
+                  Located near Palo Duro Canyon, America's second-largest canyon, creating unique
+                  wind funneling effects and microclimate variations that impact roofing system
+                  performance and longevity.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><GraduationCap className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <GraduationCap className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">University Environment</h3>
                 <p className="text-gray-700">
-                  West Texas A&M University brings diverse architectural styles and high-density housing that requires specialized roofing approaches for both historic and modern campus buildings.
+                  West Texas A&M University brings diverse architectural styles and high-density
+                  housing that requires specialized roofing approaches for both historic and modern
+                  campus buildings.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Wheat className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Hub</h3>
                 <p className="text-gray-700">
-                  Canyon serves as a regional agricultural center, requiring roofing solutions for diverse building types from residential homes to large agricultural facilities and grain storage structures.
+                  Canyon serves as a regional agricultural center, requiring roofing solutions for
+                  diverse building types from residential homes to large agricultural facilities and
+                  grain storage structures.
                 </p>
               </div>
             </div>
@@ -407,13 +536,18 @@ export default function RoofRepairCanyonPage() {
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Canyon Wind Effects</h4>
                   <p className="text-gray-700 mb-4">
-                    Palo Duro Canyon creates wind-tunneling effects that can amplify High Plains winds from 60+ mph to even higher velocities. These concentrated wind patterns create unique stress on roofing systems not found in other Panhandle communities.
+                    Palo Duro Canyon creates wind-tunneling effects that can amplify High Plains
+                    winds from 60+ mph to even higher velocities. These concentrated wind patterns
+                    create unique stress on roofing systems not found in other Panhandle
+                    communities.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Hail Concentration</h4>
                   <p className="text-gray-700 mb-4">
-                    Canyon's location in "Hail Alley" means 8-10 significant hailstorms annually, with the canyon geography sometimes creating hail size variations across the city. Our damage assessment accounts for these local patterns.
+                    Canyon's location in "Hail Alley" means 8-10 significant hailstorms annually,
+                    with the canyon geography sometimes creating hail size variations across the
+                    city. Our damage assessment accounts for these local patterns.
                   </p>
                 </div>
               </div>
@@ -429,11 +563,18 @@ export default function RoofRepairCanyonPage() {
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    1
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Rapid Response Assessment</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Rapid Response Assessment
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our Canyon service team provides rapid response to service calls, understanding that university district timing is critical for students and faculty. We prioritize same-day storm response and work around academic schedules when possible.
+                      Our Canyon service team provides rapid response to service calls,
+                      understanding that university district timing is critical for students and
+                      faculty. We prioritize same-day storm response and work around academic
+                      schedules when possible.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• University district priority response</li>
@@ -447,11 +588,17 @@ export default function RoofRepairCanyonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    2
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Geographic-Specific Inspection</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Geographic-Specific Inspection
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our inspectors understand how Canyon's proximity to Palo Duro Canyon affects wind patterns and weather damage. We evaluate not just current damage but also geographic risk factors unique to this location.
+                      Our inspectors understand how Canyon's proximity to Palo Duro Canyon affects
+                      wind patterns and weather damage. We evaluate not just current damage but also
+                      geographic risk factors unique to this location.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Canyon wind pattern analysis</li>
@@ -465,11 +612,17 @@ export default function RoofRepairCanyonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    3
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Customized Material Selection</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Customized Material Selection
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Based on Canyon's unique geographic challenges, we recommend materials specifically rated for canyon wind effects and high-velocity impact zones. Historical district projects may require special architectural considerations.
+                      Based on Canyon's unique geographic challenges, we recommend materials
+                      specifically rated for canyon wind effects and high-velocity impact zones.
+                      Historical district projects may require special architectural considerations.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• High-wind zone materials</li>
@@ -483,11 +636,17 @@ export default function RoofRepairCanyonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    4
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Community-Focused Installation</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Community-Focused Installation
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our installation teams work with Canyon's community character in mind, minimizing disruption to university activities and respecting the needs of both residential and agricultural properties throughout the area.
+                      Our installation teams work with Canyon's community character in mind,
+                      minimizing disruption to university activities and respecting the needs of
+                      both residential and agricultural properties throughout the area.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Academic schedule coordination</li>
@@ -501,11 +660,17 @@ export default function RoofRepairCanyonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    5
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Long-Term Performance Monitoring</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Long-Term Performance Monitoring
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Given Canyon's unique weather patterns, we provide extended monitoring services to ensure repairs perform as expected under local conditions. Our warranty service includes regular check-ins during severe weather seasons.
+                      Given Canyon's unique weather patterns, we provide extended monitoring
+                      services to ensure repairs perform as expected under local conditions. Our
+                      warranty service includes regular check-ins during severe weather seasons.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Seasonal performance monitoring</li>
@@ -527,9 +692,13 @@ export default function RoofRepairCanyonPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">University District Experience</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  University District Experience
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  We've served West Texas A&M University area properties for over a decade, understanding the unique needs of university housing, faculty residences, and campus-adjacent commercial properties.
+                  We've served West Texas A&M University area properties for over a decade,
+                  understanding the unique needs of university housing, faculty residences, and
+                  campus-adjacent commercial properties.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• 350+ Canyon area projects completed</li>
@@ -540,9 +709,13 @@ export default function RoofRepairCanyonPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Canyon Geographic Expertise</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Canyon Geographic Expertise
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Our team understands how Palo Duro Canyon geography affects local weather patterns and building performance. We factor these unique conditions into every repair recommendation and material selection.
+                  Our team understands how Palo Duro Canyon geography affects local weather patterns
+                  and building performance. We factor these unique conditions into every repair
+                  recommendation and material selection.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Canyon wind pattern expertise</li>
@@ -555,7 +728,9 @@ export default function RoofRepairCanyonPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Historical Preservation</h3>
                 <p className="text-gray-700 mb-4">
-                  Canyon's historic downtown district requires specialized knowledge of preservation standards and period-appropriate materials. We balance historical integrity with modern performance requirements.
+                  Canyon's historic downtown district requires specialized knowledge of preservation
+                  standards and period-appropriate materials. We balance historical integrity with
+                  modern performance requirements.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Historic building compliance</li>
@@ -566,9 +741,13 @@ export default function RoofRepairCanyonPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Community Support</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Agricultural Community Support
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  We serve Canyon's broader agricultural community with specialized services for farming and ranching operations, understanding the unique requirements of agricultural buildings and rural properties.
+                  We serve Canyon's broader agricultural community with specialized services for
+                  farming and ranching operations, understanding the unique requirements of
+                  agricultural buildings and rural properties.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Agricultural building expertise</li>
@@ -588,7 +767,9 @@ export default function RoofRepairCanyonPage() {
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">
-                From our Amarillo headquarters, we serve Canyon and the broader Randall County area, including West Texas A&M University district, historic downtown, and surrounding agricultural communities:
+                From our Amarillo headquarters, we serve Canyon and the broader Randall County area,
+                including West Texas A&M University district, historic downtown, and surrounding
+                agricultural communities:
               </p>
               <div className="grid md:grid-cols-4 gap-4 text-center">
                 <div className="p-4 bg-gray-50 rounded-lg">
@@ -609,9 +790,13 @@ export default function RoofRepairCanyonPage() {
                 </div>
               </div>
               <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
-                <h4 className="text-lg font-bold text-brand-brown mb-2">Palo Duro Canyon State Park Area</h4>
+                <h4 className="text-lg font-bold text-brand-brown mb-2">
+                  Palo Duro Canyon State Park Area
+                </h4>
                 <p className="text-gray-700">
-                  We also serve properties near Palo Duro Canyon State Park, understanding the unique environmental challenges and building requirements for this scenic but challenging geographic area.
+                  We also serve properties near Palo Duro Canyon State Park, understanding the
+                  unique environmental challenges and building requirements for this scenic but
+                  challenging geographic area.
                 </p>
               </div>
             </div>
@@ -619,22 +804,28 @@ export default function RoofRepairCanyonPage() {
         </FadeIn>
         <InternalLinks currentCity="canyon" currentService="roof-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Canyon Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Canyon property owners. Expert roof repair with comprehensive warranties and insurance claim assistance.
+            Free inspections for Canyon property owners. Expert roof repair with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="roof-repair-canyon" />
+        <RelatedArticles pageSlug="roof-repair-canyon" />
       </div>
     </>
   );

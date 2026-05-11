@@ -70,9 +70,7 @@ export default function RelatedArticles({
                 href={`/blog/${fm.slug}/`}
                 className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
               >
-                <h3 className="text-xl font-semibold mb-2 text-brand-brown">
-                  {fm.title}
-                </h3>
+                <h3 className="text-xl font-semibold mb-2 text-brand-brown">{fm.title}</h3>
                 <p
                   className="text-gray-600 mb-3"
                   style={{

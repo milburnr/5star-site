@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 interface AnimatedCounterProps {
   from?: number;
@@ -22,19 +22,19 @@ export function AnimatedCounter({
   from = 0,
   to,
   duration = 2,
-  prefix = '',
-  suffix = '',
-  className = '',
+  prefix = "",
+  suffix = "",
+  className = "",
 }: AnimatedCounterProps) {
   const [value, setValue] = useState(to);
   const ref = useRef<HTMLSpanElement>(null);
   const hasRun = useRef(false);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === "undefined") return;
 
     // Respect motion prefs: show final value, no animation.
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const el = ref.current;
     if (!el) return;
@@ -61,7 +61,7 @@ export function AnimatedCounter({
           observer.disconnect();
         }
       },
-      { threshold: 0.1, rootMargin: '-100px' }
+      { threshold: 0.1, rootMargin: "-100px" },
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -69,7 +69,9 @@ export function AnimatedCounter({
 
   return (
     <span ref={ref} className={className}>
-      {prefix}{value}{suffix}
+      {prefix}
+      {value}
+      {suffix}
     </span>
   );
 }

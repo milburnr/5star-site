@@ -8,15 +8,26 @@ import {
 } from "@/components/ui/accordion";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { Check, CloudLightning, Landmark, Route, Sun, Thermometer, Tornado, Wind } from "lucide-react";
+import {
+  Check,
+  CloudLightning,
+  Landmark,
+  Route,
+  Sun,
+  Thermometer,
+  Tornado,
+  Wind,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/vega-tx-roofing/' },
-  title: 'Roofing Vega, TX | Hail Damage Specialists | 5 Star Roofing',
-  description: "Roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/vega-tx-roofing/" },
+  title: "Roofing Vega, TX | Hail Damage Specialists | 5 Star Roofing",
+  description:
+    "Roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
   openGraph: {
     title: "Roofing Vega, TX | Hail Damage Specialists | 5 Star Roofing",
-    description: "Roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
+    description:
+      "Roofing services in Vega, Texas Panhandle. 35 miles west of Amarillo on I-40. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
     url: "https://5starroofingpros.com/vega-tx-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -34,36 +45,37 @@ export const metadata: Metadata = {
 
 export default function VegaRoofingPage() {
   return (
-    <div className="min-h-screen">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Service Areas",
-                      "url": "/service-areas/"
-              },
-              {
-                      "name": "Vega",
-                      "url": "/vega-tx-roofing/"
-              }
-      ]} />
-
-
+    <div className="min-h-screen">
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Service Areas",
+            url: "/service-areas/",
+          },
+          {
+            name: "Vega",
+            url: "/vega-tx-roofing/",
+          },
+        ]}
+      />
       {/* Hero Section */}
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
-          backgroundPosition: 'center',
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+          backgroundPosition: "center",
         }}
       >
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">
-              Professional Roofing Services in Vega, Texas
-            </h1>
+            <h1 className="hero-title">Professional Roofing Services in Vega, Texas</h1>
             <p className="hero-subtitle">
               Proudly Serving Vega from Our Amarillo Location - 35 Miles East on I-40
             </p>
@@ -78,26 +90,24 @@ export default function VegaRoofingPage() {
           </div>
         </FadeIn>
       </section>
-
       <div className="container-custom">
         {/* Introduction */}
         <FadeIn>
           <section className="section">
             <div className="max-w-4xl mx-auto text-center mb-12">
-              <h2 className="text-3xl font-bold mb-6">
-                Your Trusted Roofing Partner in Vega, TX
-              </h2>
+              <h2 className="text-3xl font-bold mb-6">Your Trusted Roofing Partner in Vega, TX</h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
                 From our Amarillo headquarters, 5 Star Commercial Roofing serves Vega, Texas - the
-                "Crossroads of the Nation" where Route 66 meets the modern I-40 corridor. This historic
-                Oldham County community of 900 residents sits 35 miles west of Amarillo, and we're proud
-                to provide fast, professional roofing services to this classic Texas town.
+                "Crossroads of the Nation" where Route 66 meets the modern I-40 corridor. This
+                historic Oldham County community of 900 residents sits 35 miles west of Amarillo,
+                and we're proud to provide fast, professional roofing services to this classic Texas
+                town.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Vega's location on the high plains of West Texas means extreme weather exposure. With no
-                natural windbreaks and sitting at nearly 4,000 feet elevation, your roof faces severe hail,
-                powerful winds, dramatic temperature swings, and intense sunshine. We specialize in roofing
-                systems engineered for these harsh conditions.
+                Vega's location on the high plains of West Texas means extreme weather exposure.
+                With no natural windbreaks and sitting at nearly 4,000 feet elevation, your roof
+                faces severe hail, powerful winds, dramatic temperature swings, and intense
+                sunshine. We specialize in roofing systems engineered for these harsh conditions.
               </p>
             </div>
           </section>
@@ -109,7 +119,9 @@ export default function VegaRoofingPage() {
             <h2 className="section-title">Why Vega Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4"><Route className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Route className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Direct I-40 Access</h3>
                 <p className="text-gray-600">
                   Just 35 miles from Vega via I-40. Straight shot from Amarillo with no backroads
@@ -117,15 +129,21 @@ export default function VegaRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Landmark className="w-6 h-6 inline-block" /></div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Historic Town Experience</h3>
+                <div className="text-5xl mb-4">
+                  <Landmark className="w-6 h-6 inline-block" />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                  Historic Town Experience
+                </h3>
                 <p className="text-gray-600">
                   We understand Vega's unique character as a Route 66 town and respect the
                   architectural heritage while providing modern roofing solutions.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><CloudLightning className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <CloudLightning className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">High Plains Specialists</h3>
                 <p className="text-gray-600">
                   Vega's exposed high plains location requires specialized roofing. We use materials
@@ -148,7 +166,11 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg" alt="Completed roof repair project showing new shingles after hail damage near Vega TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg"
+                      alt="Completed roof repair project showing new shingles after hail damage near Vega TX"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Hail Damage Roof Repair
                     </h3>
@@ -156,15 +178,15 @@ export default function VegaRoofingPage() {
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
                       Vega sits squarely in Hail Alley on the exposed high plains. With no natural
-                      protection from severe thunderstorms, the area regularly experiences large hail
-                      events. From historic downtown buildings to homes along US-385, we've helped
-                      countless Vega property owners recover from hail damage.
+                      protection from severe thunderstorms, the area regularly experiences large
+                      hail events. From historic downtown buildings to homes along US-385, we've
+                      helped countless Vega property owners recover from hail damage.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Comprehensive hail services:</strong> Free post-storm inspections, detailed
-                      damage documentation with drone photography, granule loss analysis, impact point
-                      mapping for insurance adjusters, full claim assistance, and complete roof replacement
-                      when necessary. We handle everything.
+                      <strong>Comprehensive hail services:</strong> Free post-storm inspections,
+                      detailed damage documentation with drone photography, granule loss analysis,
+                      impact point mapping for insurance adjusters, full claim assistance, and
+                      complete roof replacement when necessary. We handle everything.
                     </p>
                     <a
                       href="/hail-damage-repair-amarillo/"
@@ -182,23 +204,27 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Finished residential shingle roof installation on a home near Stinnett TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg"
+                      alt="Finished residential shingle roof installation on a home near Stinnett TX"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      Whether you own a historic home near the old Route 66 downtown, a ranch property
-                      on the outskirts, or a residence near Vega ISD, we provide complete residential
-                      roofing services. We work with materials appropriate for Vega's extreme climate
-                      while respecting the town's architectural character.
+                      Whether you own a historic home near the old Route 66 downtown, a ranch
+                      property on the outskirts, or a residence near Vega ISD, we provide complete
+                      residential roofing services. We work with materials appropriate for Vega's
+                      extreme climate while respecting the town's architectural character.
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Residential services:</strong> Complete roof replacement, Class 4
-                      impact-resistant shingle installation, architectural shingle systems, wind-rated
-                      materials for high-wind zones, roof repair and maintenance, attic ventilation
-                      solutions, and comprehensive material warranties.
+                      impact-resistant shingle installation, architectural shingle systems,
+                      wind-rated materials for high-wind zones, roof repair and maintenance, attic
+                      ventilation solutions, and comprehensive material warranties.
                     </p>
                     <a
                       href="/residential-roofing-amarillo/"
@@ -216,7 +242,11 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp" alt="Standing seam metal roof with premium finish installed near Vega TX - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp"
+                      alt="Standing seam metal roof with premium finish installed near Vega TX - 5 Star Roofing"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Metal Roof Installation
                     </h3>
@@ -225,14 +255,15 @@ export default function VegaRoofingPage() {
                     <p className="text-gray-600 mb-4 leading-relaxed">
                       Metal roofing is ideal for Vega's extreme weather conditions. It withstands
                       high winds that would lift shingles, resists hail impact better than any other
-                      material, handles temperature extremes without degrading, and can last 50+ years
-                      with minimal maintenance. Popular for both residential and commercial properties.
+                      material, handles temperature extremes without degrading, and can last 50+
+                      years with minimal maintenance. Popular for both residential and commercial
+                      properties.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Metal roofing options:</strong> Standing seam metal roofs (residential and
-                      commercial), corrugated metal panels for shops and barns, stone-coated steel shingles,
-                      R-panel systems, U-panel systems, and custom metal fabrication. Class 4 hail rating
-                      available.
+                      <strong>Metal roofing options:</strong> Standing seam metal roofs (residential
+                      and commercial), corrugated metal panels for shops and barns, stone-coated
+                      steel shingles, R-panel systems, U-panel systems, and custom metal
+                      fabrication. Class 4 hail rating available.
                     </p>
                     <a
                       href="/metal-roofing-amarillo/"
@@ -250,10 +281,12 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="/images/home-hero-1200w.webp" alt="Hill-Country stone home at sunset with copper standing-seam accents over shingle main roof — current homepage hero — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Commercial Roofing
-                    </h3>
+                    <img
+                      src="/images/home-hero-1200w.webp"
+                      alt="Hill-Country stone home at sunset with copper standing-seam accents over shingle main roof — current homepage hero — 5 Star Roofing"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h3 className="text-2xl font-bold text-brand-brown mb-2">Commercial Roofing</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
@@ -263,10 +296,10 @@ export default function VegaRoofingPage() {
                       roofs common in commercial construction.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Commercial services:</strong> TPO single-ply membrane roofing, EPDM rubber
-                      roofing systems, modified bitumen installation, metal roof systems, roof coating
-                      for extended life, preventive maintenance programs, and storm repair service.
-                      Minimal business disruption.
+                      <strong>Commercial services:</strong> TPO single-ply membrane roofing, EPDM
+                      rubber roofing systems, modified bitumen installation, metal roof systems,
+                      roof coating for extended life, preventive maintenance programs, and storm
+                      repair service. Minimal business disruption.
                     </p>
                     <a
                       href="/commercial-roofing-amarillo/"
@@ -284,7 +317,11 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg" alt="Completed roofing project with clean ridge line showing quality inspection results" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.jpg"
+                      alt="Completed roofing project with clean ridge line showing quality inspection results"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Free Roof Inspections
                     </h3>
@@ -297,10 +334,10 @@ export default function VegaRoofingPage() {
                       of your roof's condition.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Complete inspection includes:</strong> Exterior roof surface examination,
-                      shingle condition analysis, wind damage assessment, flashing and penetration check,
-                      ventilation evaluation, gutter condition, detailed photo documentation, and written
-                      recommendations. Always free.
+                      <strong>Complete inspection includes:</strong> Exterior roof surface
+                      examination, shingle condition analysis, wind damage assessment, flashing and
+                      penetration check, ventilation evaluation, gutter condition, detailed photo
+                      documentation, and written recommendations. Always free.
                     </p>
                     <a
                       href="/roof-inspections-amarillo/"
@@ -318,21 +355,31 @@ export default function VegaRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg" alt="Emergency storm damage roof repair completed on Texas Panhandle property by 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
-                    <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      storm repairs
-                    </h3>
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.jpg"
+                      alt="Emergency storm damage roof repair completed on Texas Panhandle property by 5 Star Roofing"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h3 className="text-2xl font-bold text-red-700 mb-2">storm repairs</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage requires immediate response.</strong> When severe weather
-                      hits Vega, we provide professional roofing services. tarping to
-                      prevent water damage, urgent leak repairs, temporary storm damage mitigation,
-                      and same-day response available.
+                      hits Vega, we provide professional roofing services. tarping to We document
+                      damage to support your insurance claim, schedule repairs once conditions are
+                      safe, and coordinate Class 4 impact-resistant restoration tailored to West
+                      Texas storm exposure.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}anytime for immediate professional assistance. We'll head west on I-40 immediately.
+                      Call{" "}
+                      <a
+                        href="tel:8066226041"
+                        className="text-brand-gold font-bold hover:underline"
+                      >
+                        (806) 622-6041
+                      </a>{" "}
+                      anytime for immediate professional assistance. We'll head west on I-40
+                      immediately.
                     </p>
                     <a
                       href="/roof-repair-amarillo/"
@@ -355,39 +402,49 @@ export default function VegaRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Hail & Supercell Thunderstorms</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Tornado className="w-6 h-6 inline-block" /> Severe Hail & Supercell Thunderstorms
+                </h3>
                 <p className="text-gray-700">
-                  Vega sits at the crossroads of severe weather in Hail Alley. The high plains location
-                  with no terrain protection means thunderstorms arrive with full intensity. Baseball to
-                  softball-sized hail is documented almost annually. Impact-resistant Class 4 shingles
-                  or metal roofing are essential for long-term protection.
+                  Vega sits at the crossroads of severe weather in Hail Alley. The high plains
+                  location with no terrain protection means thunderstorms arrive with full
+                  intensity. Baseball to softball-sized hail is documented almost annually.
+                  Impact-resistant Class 4 shingles or metal roofing are essential for long-term
+                  protection.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Extreme High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Wind className="w-6 h-6 inline-block" /> Extreme High Winds
+                </h3>
                 <p className="text-gray-700">
-                  At nearly 4,000 feet elevation on the exposed high plains, Vega experiences some of
-                  the strongest sustained winds in Texas. 40-50 mph sustained winds are common, with
-                  gusts exceeding 80 mph during severe weather. Standard roof installation simply won't
-                  hold - we use high-wind rated materials and enhanced fastening systems.
+                  At nearly 4,000 feet elevation on the exposed high plains, Vega experiences some
+                  of the strongest sustained winds in Texas. 40-50 mph sustained winds are common,
+                  with gusts exceeding 80 mph during severe weather. Standard roof installation
+                  simply won't hold - we use high-wind rated materials and enhanced fastening
+                  systems.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Dramatic Temperature Extremes</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Thermometer className="w-6 h-6 inline-block" /> Dramatic Temperature Extremes
+                </h3>
                 <p className="text-gray-700">
                   Vega's high elevation and continental climate create extreme temperature swings.
                   Summer heat exceeds 100°F while winter nights drop well below zero - often a 100+
-                  degree annual range. This constant expansion and contraction stresses roofing materials.
-                  We use systems engineered for thermal cycling with proper ventilation.
+                  degree annual range. This constant expansion and contraction stresses roofing
+                  materials. We use systems engineered for thermal cycling with proper ventilation.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Sun className="w-6 h-6 inline-block" /> Intense High-Altitude Sun</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Sun className="w-6 h-6 inline-block" /> Intense High-Altitude Sun
+                </h3>
                 <p className="text-gray-700">
-                  At 4,000 feet elevation with minimal humidity and over 270 days of sunshine annually,
-                  UV radiation is intense and relentless. Standard asphalt shingles degrade quickly without
-                  UV inhibitors. We recommend UV-stabilized materials or reflective metal roofing for
-                  maximum lifespan and energy efficiency.
+                  At 4,000 feet elevation with minimal humidity and over 270 days of sunshine
+                  annually, UV radiation is intense and relentless. Standard asphalt shingles
+                  degrade quickly without UV inhibitors. We recommend UV-stabilized materials or
+                  reflective metal roofing for maximum lifespan and energy efficiency.
                 </p>
               </div>
             </div>
@@ -404,16 +461,40 @@ export default function VegaRoofingPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Historic Route 66 corridor</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />I-40 frontage properties</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Downtown Vega businesses</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />US Highway 385 corridor</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Historic Route 66 corridor
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    I-40 frontage properties
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Downtown Vega businesses
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    US Highway 385 corridor
+                  </li>
                 </ul>
                 <ul className="space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Vega ISD area</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Residential neighborhoods</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ranch and farm properties</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Oldham County rural areas</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Vega ISD area
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Residential neighborhoods
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Ranch and farm properties
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Oldham County rural areas
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -421,13 +502,18 @@ export default function VegaRoofingPage() {
                   Fast Service from Amarillo
                 </h3>
                 <p className="text-gray-700 text-center mb-4">
-                  <strong>5 Star Commercial Roofing</strong><br />
-                  2909 S Western St, Amarillo, TX 79109<br />
+                  <strong>5 Star Commercial Roofing</strong>
+                  <br />
+                  2909 S Western St, Amarillo, TX 79109
+                  <br />
                   35 miles east of Vega via I-40 (35-minute drive)
                 </p>
                 <p className="text-gray-700 text-center">
                   <strong>Call anytime:</strong>{" "}
-                  <a href="tel:8066226041" className="text-brand-gold font-bold hover:text-brand-gold-vibrant">
+                  <a
+                    href="tel:8066226041"
+                    className="text-brand-gold font-bold hover:text-brand-gold-vibrant"
+                  >
                     (806) 622-6041
                   </a>
                 </p>
@@ -445,15 +531,21 @@ export default function VegaRoofingPage() {
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
               <a href="/amarillo-texas-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
-                <p className="text-gray-600 text-sm">Complete roofing services in Amarillo (35 miles east)</p>
+                <p className="text-gray-600 text-sm">
+                  Complete roofing services in Amarillo (35 miles east)
+                </p>
               </a>
               <a href="/wildorado-tx-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Wildorado Roofing</h3>
-                <p className="text-gray-600 text-sm">Roofing services in Wildorado (20 miles east)</p>
+                <p className="text-gray-600 text-sm">
+                  Roofing services in Wildorado (20 miles east)
+                </p>
               </a>
               <a href="/hail-damage-repair-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
-                <p className="text-gray-600 text-sm">Expert hail damage assessment and insurance claims</p>
+                <p className="text-gray-600 text-sm">
+                  Expert hail damage assessment and insurance claims
+                </p>
               </a>
               <a href="/metal-roofing-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Metal Roofing Systems</h3>
@@ -470,52 +562,102 @@ export default function VegaRoofingPage() {
               Vega Roofing FAQs
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How does Vega&apos;s Route 66 heritage affect roofing for historic buildings?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Vega&apos;s historic Route 66 buildings, including the famous Vega Motel and Dot&apos;s Mini Museum, require roofing that preserves their mid-century character while providing modern weather protection. We use materials that complement historic aesthetics, including stone-coated metal shingles and architectural shingles that mimic period-appropriate profiles. For commercial Route 66 properties, we install flat roof systems that maintain original building lines while upgrading weather resistance.
+                  Vega&apos;s historic Route 66 buildings, including the famous Vega Motel and
+                  Dot&apos;s Mini Museum, require roofing that preserves their mid-century character
+                  while providing modern weather protection. We use materials that complement
+                  historic aesthetics, including stone-coated metal shingles and architectural
+                  shingles that mimic period-appropriate profiles. For commercial Route 66
+                  properties, we install flat roof systems that maintain original building lines
+                  while upgrading weather resistance.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Why is Vega&apos;s 4,000-foot elevation a roofing concern?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  At nearly 4,000 feet elevation, Vega receives significantly more intense UV radiation than lower-elevation communities. Combined with over 270 days of sunshine annually and minimal humidity to filter UV rays, roofing materials degrade faster here than almost anywhere in Texas. Standard asphalt shingles can fail years ahead of schedule. We recommend UV-stabilized shingles with enhanced granule adhesion or reflective metal roofing for maximum longevity at this elevation.
+                  At nearly 4,000 feet elevation, Vega receives significantly more intense UV
+                  radiation than lower-elevation communities. Combined with over 270 days of
+                  sunshine annually and minimal humidity to filter UV rays, roofing materials
+                  degrade faster here than almost anywhere in Texas. Standard asphalt shingles can
+                  fail years ahead of schedule. We recommend UV-stabilized shingles with enhanced
+                  granule adhesion or reflective metal roofing for maximum longevity at this
+                  elevation.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you roof ranching properties in Oldham County outside of Vega?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we serve ranch properties throughout Oldham County, including those along US-385 and the rural areas north and south of Vega. Ranch buildings including cattle shelters, equipment barns, hay storage structures, and ranch headquarters all need roofing designed for isolated locations where maintenance access is limited. Metal roofing is the preferred choice for ranch buildings because of its 50+ year lifespan and virtually zero maintenance requirements.
+                  Yes, we serve ranch properties throughout Oldham County, including those along
+                  US-385 and the rural areas north and south of Vega. Ranch buildings including
+                  cattle shelters, equipment barns, hay storage structures, and ranch headquarters
+                  all need roofing designed for isolated locations where maintenance access is
+                  limited. Metal roofing is the preferred choice for ranch buildings because of its
+                  50+ year lifespan and virtually zero maintenance requirements.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How do I-40 corridor winds affect Vega roofs differently than inland areas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  The I-40 corridor through Vega creates a wind channeling effect where the flat highway alignment and open terrain allow winds to accelerate to higher speeds. Properties along the I-40 frontage experience stronger sustained winds than properties sheltered by other buildings. We use enhanced fastening schedules and wind-rated materials exceeding 130 mph for I-40 corridor properties, and recommend standing seam metal roofing with concealed fasteners for maximum wind resistance.
+                  The I-40 corridor through Vega creates a wind channeling effect where the flat
+                  highway alignment and open terrain allow winds to accelerate to higher speeds.
+                  Properties along the I-40 frontage experience stronger sustained winds than
+                  properties sheltered by other buildings. We use enhanced fastening schedules and
+                  wind-rated materials exceeding 130 mph for I-40 corridor properties, and recommend
+                  standing seam metal roofing with concealed fasteners for maximum wind resistance.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What is the best time of year to replace a roof in Vega?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  The ideal window for roof replacement in Vega is late September through November and March through early May, when temperatures are moderate and severe storm risk is lower. Summer installations are possible but require careful scheduling around afternoon thunderstorms and extreme heat that can affect shingle adhesion during installation. We avoid winter installations when temperatures drop below 40 degrees, which prevents proper shingle sealing.
+                  The ideal window for roof replacement in Vega is late September through November
+                  and March through early May, when temperatures are moderate and severe storm risk
+                  is lower. Summer installations are possible but require careful scheduling around
+                  afternoon thunderstorms and extreme heat that can affect shingle adhesion during
+                  installation. We avoid winter installations when temperatures drop below 40
+                  degrees, which prevents proper shingle sealing.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How does Vega&apos;s small population of 900 affect roofing material availability?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  As a community of about 900 residents, Vega does not have local roofing supply stores. We bring all materials directly from our Amarillo suppliers, 35 miles east on I-40. This means no delays waiting for material deliveries from distant locations. We stock common materials and can typically begin Vega projects within days of approval. For specialty materials or custom orders, we coordinate delivery to align with project schedules.
+                  As a community of about 900 residents, Vega does not have local roofing supply
+                  stores. We bring all materials directly from our Amarillo suppliers, 35 miles east
+                  on I-40. This means no delays waiting for material deliveries from distant
+                  locations. We stock common materials and can typically begin Vega projects within
+                  days of approval. For specialty materials or custom orders, we coordinate delivery
+                  to align with project schedules.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -536,7 +678,10 @@ export default function VegaRoofingPage() {
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
                 Call (806) 622-6041 Now
               </a>
-              <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">
+              <a
+                href="/contact/"
+                className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg"
+              >
                 Schedule Free Inspection
               </a>
             </div>
@@ -550,34 +695,51 @@ export default function VegaRoofingPage() {
               Serving the Entire Texas Panhandle
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/amarillo-texas-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Amarillo
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/wildorado-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/wildorado-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Wildorado
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/bushland-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/bushland-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Bushland
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/canyon-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/canyon-texas-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Canyon
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/hereford-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/hereford-texas-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Hereford
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/service-areas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/service-areas/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 View All Areas
               </a>
             </div>
           </section>
         </FadeIn>
       </div>
-
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -586,90 +748,90 @@ export default function VegaRoofingPage() {
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/vega-tx-roofing/",
-            "name": "5 Star Roofing",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
-            "description": "Professional roofing contractor serving Vega, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
-            "address": {
+            name: "5 Star Roofing",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+            description:
+              "Professional roofing contractor serving Vega, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "2909 S Western St",
-              "addressLocality": "Amarillo",
-              "addressRegion": "TX",
-              "postalCode": "79109",
-              "addressCountry": "US"
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": "35.1859",
-              "longitude": "-101.8313"
+              latitude: "35.1859",
+              longitude: "-101.8313",
             },
-            "telephone": "(806) 622-6041",
-            "email": "admin@5starroofingpros.com",
-            "url": "https://5starroofingpros.com",
-            "priceRange": "$$",
-            "areaServed": [
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            url: "https://5starroofingpros.com",
+            priceRange: "$$",
+            areaServed: [
               {
                 "@type": "City",
-                "name": "Vega",
-                "containedInPlace": {
+                name: "Vega",
+                containedInPlace: {
                   "@type": "State",
-                  "name": "Texas"
-                }
+                  name: "Texas",
+                },
               },
               {
                 "@type": "City",
-                "name": "Amarillo",
-                "containedInPlace": {
+                name: "Amarillo",
+                containedInPlace: {
                   "@type": "State",
-                  "name": "Texas"
-                }
-              }
+                  name: "Texas",
+                },
+              },
             ],
-            "hasOfferCatalog": {
+            hasOfferCatalog: {
               "@type": "OfferCatalog",
-              "name": "Roofing Services",
-              "itemListElement": [
+              name: "Roofing Services",
+              itemListElement: [
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Hail Damage Roof Repair",
-                    "description": "Expert hail damage repair for Vega properties"
-                  }
+                    name: "Hail Damage Roof Repair",
+                    description: "Expert hail damage repair for Vega properties",
+                  },
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Residential Roofing",
-                    "description": "Complete residential roofing services in Vega"
-                  }
+                    name: "Residential Roofing",
+                    description: "Complete residential roofing services in Vega",
+                  },
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Metal Roof Installation",
-                    "description": "Durable metal roofing for high plains weather"
-                  }
+                    name: "Metal Roof Installation",
+                    description: "Durable metal roofing for high plains weather",
+                  },
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Commercial Roofing",
-                    "description": "Commercial roofing for I-40 corridor businesses"
-                  }
-                }
-              ]
+                    name: "Commercial Roofing",
+                    description: "Commercial roofing for I-40 corridor businesses",
+                  },
+                },
+              ],
             },
-
-          })
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-    <RelatedArticles pageSlug="vega-tx-roofing" />
+      <RelatedArticles pageSlug="vega-tx-roofing" />
     </div>
   );
 }

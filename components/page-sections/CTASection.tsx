@@ -1,6 +1,6 @@
-import { Phone } from 'lucide-react';
-import type { ReactNode } from 'react';
-import { cn } from '@/lib/utils';
+import { Phone } from "lucide-react";
+import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 interface CTASectionProps {
   /** Section heading. Default "Ready to Get Started?". */
@@ -33,18 +33,18 @@ interface CTASectionProps {
  * don't ship "Ready to Get Started?" repeated 16 times.
  */
 export function CTASection({
-  heading = 'Ready to Get Started?',
+  heading = "Ready to Get Started?",
   body,
   primaryCTA,
-  secondaryCTA = { href: '#get-quote', label: 'Free Inspection' },
+  secondaryCTA = { href: "#get-quote", label: "Free Inspection" },
   flush = false,
   className,
 }: CTASectionProps) {
   return (
     <section
       className={cn(
-        'bg-gradient-to-r from-brand-brown to-brand-gold text-white text-center',
-        flush ? 'py-12 md:py-16' : 'section-major',
+        "bg-gradient-to-r from-brand-brown to-brand-gold text-white text-center",
+        flush ? "py-12 md:py-16" : "section-major",
         className,
       )}
     >

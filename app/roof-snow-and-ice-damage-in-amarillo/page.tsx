@@ -2,16 +2,34 @@ import { FadeIn } from "@/components/FadeIn";
 import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { BarChart3, CheckCircle, Clock, CloudHail, DollarSign, Droplets, Home, Lightbulb, Microscope, Phone, Shield, Snowflake, Thermometer, Wind, Wrench } from "lucide-react";
+import {
+  BarChart3,
+  CheckCircle,
+  Clock,
+  CloudHail,
+  DollarSign,
+  Droplets,
+  Home,
+  Lightbulb,
+  Microscope,
+  Phone,
+  Shield,
+  Snowflake,
+  Thermometer,
+  Wind,
+  Wrench,
+} from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/' },
-  title: 'Snow & Ice Roof Repair Amarillo | 5 Star Roofing',
-  description: "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Same-day inspections.",
+  alternates: { canonical: "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/" },
+  title: "Snow & Ice Roof Repair Amarillo | 5 Star Roofing",
+  description:
+    "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Free post-storm inspections.",
   openGraph: {
     title: "Snow & Ice Roof Repair Amarillo | 5 Star Roofing",
-    description: "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Same-day inspections.",
+    description:
+      "Snow and ice damage roof situation in Amarillo? We respond. Ice dam removal, freeze-thaw damage repair, and tarping. Free post-storm inspections.",
     url: "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -31,88 +49,153 @@ export default function Page() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "Snow and Ice Damage Roof Repair",
-    "provider": {
+    serviceType: "Snow and Ice Damage Roof Repair",
+    provider: {
       "@type": ["LocalBusiness", "RoofingContractor"],
-              "@id": "https://5starroofingpros.com/#organization",
-      "name": "5 Star Roofing",
-      "telephone": "(806) 622-6041",
-      "email": "admin@5starroofingpros.com",
-      "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-      "address": {
+      "@id": "https://5starroofingpros.com/#organization",
+      name: "5 Star Roofing",
+      telephone: "(806) 622-6041",
+      email: "admin@5starroofingpros.com",
+      parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+      address: {
         "@type": "PostalAddress",
-        "streetAddress": "2909 S Western St",
-        "addressLocality": "Amarillo",
-        "addressRegion": "TX",
-        "postalCode": "79109"
-      }
+        streetAddress: "2909 S Western St",
+        addressLocality: "Amarillo",
+        addressRegion: "TX",
+        postalCode: "79109",
+      },
     },
-    "areaServed": [
-      {"@type": "City", "name": "Amarillo"},
-      {"@type": "City", "name": "Canyon"},
-      {"@type": "City", "name": "Bushland"}
+    areaServed: [
+      { "@type": "City", name: "Amarillo" },
+      { "@type": "City", name: "Canyon" },
+      { "@type": "City", name: "Bushland" },
     ],
-    "description": "Professional snow and ice damage roof repair in Amarillo and Texas Panhandle. Ice dam removal, freeze-thaw damage repair, winter storm restoration."
+    description:
+      "Professional snow and ice damage roof repair in Amarillo and Texas Panhandle. Ice dam removal, freeze-thaw damage repair, winter storm restoration.",
   };
 
   return (
-    <div className="container-custom py-12">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Roof Snow And Ice Damage",
-                      "url": "/services/"
-              },
-              {
-                      "name": "Amarillo",
-                      "url": "/roof-snow-and-ice-damage-in-amarillo/"
-              }
-      ]} />
-
+    <div className="container-custom py-12">
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Snow And Ice Damage",
+            url: "/services/",
+          },
+          {
+            name: "Amarillo",
+            url: "/roof-snow-and-ice-damage-in-amarillo/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id":
+              "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.222, longitude: -101.8313 },
+            url: "https://5starroofingpros.com/roof-snow-and-ice-damage-in-amarillo/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas",
+              name: "Amarillo",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <FadeIn>
-        <h1 className="text-4xl font-bold mb-6">Roof Snow and Ice Damage Repair in Amarillo & the Texas Panhandle</h1>
+        <h1 className="text-4xl font-bold mb-6">
+          Roof Snow and Ice Damage Repair in Amarillo & the Texas Panhandle
+        </h1>
       </FadeIn>
-
-
       <div className="content-block">
         <h2 className="content-block-title">Winter Storm Damage in the Texas Panhandle</h2>
         <p className="text-lg">
-          While the <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">Texas Panhandle</a> is better known for <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail</a> and high winds, winter storms can cause severe <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">roof damage</a>—especially during freeze-thaw cycles common in Amarillo, <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">Canyon</a>, and surrounding areas. When temperatures drop below freezing for days at a time (as happened during Winter Storm Uri in 2021), snow accumulation, ice dams, and rapid temperature changes can compromise even well-maintained roofs.
+          While the{" "}
+          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+            Texas Panhandle
+          </a>{" "}
+          is better known for{" "}
+          <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">
+            hail
+          </a>{" "}
+          and high winds, winter storms can cause severe{" "}
+          <a href="/roof-repair-amarillo/" className="text-brand-gold hover:underline">
+            roof damage
+          </a>
+          —especially during freeze-thaw cycles common in Amarillo,{" "}
+          <a href="/canyon-texas-roofing/" className="text-brand-gold hover:underline">
+            Canyon
+          </a>
+          , and surrounding areas. When temperatures drop below freezing for days at a time (as
+          happened during Winter Storm Uri in 2021), snow accumulation, ice dams, and rapid
+          temperature changes can compromise even well-maintained roofs.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we specialize in identifying and repairing winter <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">storm damage</a> across the Texas Panhandle. From ice dam removal to freeze-thaw damage repair, we help homeowners and businesses recover from winter weather events and prevent future cold-weather problems. For severe damage, we also provide <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">complete roof replacement</a> services.
+          At 5 Star Commercial Roofing, we specialize in identifying and repairing winter{" "}
+          <a href="/storm-damage-repair-amarillo/" className="text-brand-gold hover:underline">
+            storm damage
+          </a>{" "}
+          across the Texas Panhandle. From ice dam removal to freeze-thaw damage repair, we help
+          homeowners and businesses recover from winter weather events and prevent future
+          cold-weather problems. For severe damage, we also provide{" "}
+          <a href="/roof-replacement-amarillo/" className="text-brand-gold hover:underline">
+            complete roof replacement
+          </a>{" "}
+          services.
         </p>
       </div>
-
       <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Texas Panhandle Winter Weather Patterns</h3>
-        <p className="mb-4">Understanding the unique winter climate of the Texas Panhandle is crucial for identifying and preventing cold weather roof damage:</p>
-        
+        <h3 className="text-xl font-bold mb-3 text-brand-brown">
+          <CloudHail className="w-6 h-6 inline-block" /> Texas Panhandle Winter Weather Patterns
+        </h3>
+        <p className="mb-4">
+          Understanding the unique winter climate of the Texas Panhandle is crucial for identifying
+          and preventing cold weather roof damage:
+        </p>
+
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-4">
             <h4 className="font-bold mb-2 text-brand-brown">Temperature Extremes</h4>
@@ -138,17 +221,23 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <div className="content-block">
         <h2 className="content-block-title">The Physics of Winter Roof Damage</h2>
         <p className="text-lg mb-4">
-          Winter roof damage in the Texas Panhandle results from several interconnected physical processes that stress roofing materials beyond their design limits. Understanding these mechanisms helps property owners recognize early warning signs and take preventive action.
+          Winter roof damage in the Texas Panhandle results from several interconnected physical
+          processes that stress roofing materials beyond their design limits. Understanding these
+          mechanisms helps property owners recognize early warning signs and take preventive action.
         </p>
-        
+
         <div className="grid md:grid-cols-3 gap-4 mb-6">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Freeze-Thaw Expansion</h3>
-            <p className="text-sm mb-3">Water expands approximately 9% when it freezes, creating tremendous pressure inside small cracks and gaps.</p>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Snowflake className="w-6 h-6 inline-block" /> Freeze-Thaw Expansion
+            </h3>
+            <p className="text-sm mb-3">
+              Water expands approximately 9% when it freezes, creating tremendous pressure inside
+              small cracks and gaps.
+            </p>
             <ul className="text-sm space-y-1">
               <li>• Pressure can exceed 30,000 PSI</li>
               <li>• Widens existing micro-cracks</li>
@@ -156,10 +245,15 @@ export default function Page() {
               <li>• Accelerates aging of all roof components</li>
             </ul>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Thermal Stress</h3>
-            <p className="text-sm mb-3">Rapid temperature changes cause materials to expand and contract at different rates, creating internal stress.</p>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Thermometer className="w-6 h-6 inline-block" /> Thermal Stress
+            </h3>
+            <p className="text-sm mb-3">
+              Rapid temperature changes cause materials to expand and contract at different rates,
+              creating internal stress.
+            </p>
             <ul className="text-sm space-y-1">
               <li>• Metal flashing contracts faster than shingles</li>
               <li>• Creates gaps at critical seal points</li>
@@ -167,10 +261,15 @@ export default function Page() {
               <li>• Sealants lose adhesion and crack</li>
             </ul>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Droplets className="w-6 h-6 inline-block" /> Capillary Action</h3>
-            <p className="text-sm mb-3">Water drawn into small spaces by surface tension can penetrate deep into roof assemblies.</p>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Droplets className="w-6 h-6 inline-block" /> Capillary Action
+            </h3>
+            <p className="text-sm mb-3">
+              Water drawn into small spaces by surface tension can penetrate deep into roof
+              assemblies.
+            </p>
             <ul className="text-sm space-y-1">
               <li>• Water wicks under shingles</li>
               <li>• Penetrates nail holes and seams</li>
@@ -180,16 +279,20 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <h2 className="text-2xl font-bold mt-8 mb-4">Common Types of Snow & Ice Damage</h2>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="card">
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Ice Dam Formation</h3>
             <p className="mb-3">
-              When attic heat melts snow on the upper roof, water runs down and refreezes at the colder eaves, creating an ice dam. This dam traps water behind it, forcing it under shingles and into the home.
+              When attic heat melts snow on the upper roof, water runs down and refreezes at the
+              colder eaves, creating an ice dam. This dam traps water behind it, forcing it under
+              shingles and into the home.
             </p>
-            <p className="text-sm text-gray-600"><strong>Signs:</strong> Icicles along gutters, water stains on exterior walls, interior leaks near roof edges</p>
+            <p className="text-sm text-gray-600">
+              <strong>Signs:</strong> Icicles along gutters, water stains on exterior walls,
+              interior leaks near roof edges
+            </p>
           </div>
         </div>
 
@@ -197,9 +300,14 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Freeze-Thaw Cycling</h3>
             <p className="mb-3">
-              Amarillo experiences frequent temperature swings from below freezing at night to above freezing during the day. Water enters small roof gaps, freezes and expands, then thaws and penetrates deeper—gradually widening cracks.
+              Amarillo experiences frequent temperature swings from below freezing at night to above
+              freezing during the day. Water enters small roof gaps, freezes and expands, then thaws
+              and penetrates deeper—gradually widening cracks.
             </p>
-            <p className="text-sm text-gray-600"><strong>Signs:</strong> Cracked or lifted shingles, damaged flashing, separated roof seams</p>
+            <p className="text-sm text-gray-600">
+              <strong>Signs:</strong> Cracked or lifted shingles, damaged flashing, separated roof
+              seams
+            </p>
           </div>
         </div>
 
@@ -207,19 +315,31 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Heavy Snow Load</h3>
             <p className="mb-3">
-              While rare, heavy wet snow can accumulate on flat or low-slope commercial roofs. Snow weighs 10-20 pounds per cubic foot when wet, potentially exceeding roof load capacity on older structures.
+              While rare, heavy wet snow can accumulate on flat or low-slope commercial roofs. Snow
+              weighs 10-20 pounds per cubic foot when wet, potentially exceeding roof load capacity
+              on older structures.
             </p>
-            <p className="text-sm text-gray-600"><strong>Signs:</strong> Sagging roof deck, cracking sounds, doors/windows that suddenly stick</p>
+            <p className="text-sm text-gray-600">
+              <strong>Signs:</strong> Sagging roof deck, cracking sounds, doors/windows that
+              suddenly stick
+            </p>
           </div>
         </div>
 
         <div className="card">
           <div className="card-body">
-            <h3 className="text-xl font-semibold text-brand-brown mb-3">Gutter and Downspout Damage</h3>
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Gutter and Downspout Damage
+            </h3>
             <p className="mb-3">
-              Ice accumulation in gutters can weigh hundreds of pounds, tearing gutters away from the roofline and damaging fascia boards. Frozen downspouts prevent drainage, causing water backup.
+              Ice accumulation in gutters can weigh hundreds of pounds, tearing gutters away from
+              the roofline and damaging fascia boards. Frozen downspouts prevent drainage, causing
+              water backup.
             </p>
-            <p className="text-sm text-gray-600"><strong>Signs:</strong> Sagging gutters, separated downspouts, ice formations on exterior walls</p>
+            <p className="text-sm text-gray-600">
+              <strong>Signs:</strong> Sagging gutters, separated downspouts, ice formations on
+              exterior walls
+            </p>
           </div>
         </div>
 
@@ -227,9 +347,14 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Flashing Contraction</h3>
             <p className="mb-3">
-              Metal flashing contracts in extreme cold, potentially pulling away from roof penetrations (chimneys, vents, skylights) and creating gaps where water can enter when snow melts.
+              Metal flashing contracts in extreme cold, potentially pulling away from roof
+              penetrations (chimneys, vents, skylights) and creating gaps where water can enter when
+              snow melts.
             </p>
-            <p className="text-sm text-gray-600"><strong>Signs:</strong> Gaps around chimneys/vents, lifted flashing edges, interior leaks near roof penetrations</p>
+            <p className="text-sm text-gray-600">
+              <strong>Signs:</strong> Gaps around chimneys/vents, lifted flashing edges, interior
+              leaks near roof penetrations
+            </p>
           </div>
         </div>
 
@@ -237,22 +362,30 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Condensation Damage</h3>
             <p className="mb-3">
-              Poor attic ventilation combined with cold exterior temperatures causes warm indoor air to condense on cold roof decking, leading to moisture damage, mold growth, and wood rot.
+              Poor attic ventilation combined with cold exterior temperatures causes warm indoor air
+              to condense on cold roof decking, leading to moisture damage, mold growth, and wood
+              rot.
             </p>
-            <p className="text-sm text-gray-600"><strong>Signs:</strong> Frost on attic rafters, musty odors, water stains on attic decking</p>
+            <p className="text-sm text-gray-600">
+              <strong>Signs:</strong> Frost on attic rafters, musty odors, water stains on attic
+              decking
+            </p>
           </div>
         </div>
       </div>
-
       <div className="content-block">
         <h2 className="content-block-title">Advanced Winter Damage Detection & Assessment</h2>
         <p className="text-lg mb-4">
-          Winter roof damage often develops gradually and may not be immediately visible. Our comprehensive assessment process identifies both obvious damage and hidden problems that could lead to expensive repairs if left untreated.
+          Winter roof damage often develops gradually and may not be immediately visible. Our
+          comprehensive assessment process identifies both obvious damage and hidden problems that
+          could lead to expensive repairs if left untreated.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-amber-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Microscope className="w-6 h-6 inline-block" /> Thermal Imaging Analysis</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Microscope className="w-6 h-6 inline-block" /> Thermal Imaging Analysis
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>• Detect heat loss patterns indicating insulation problems</li>
               <li>• Identify moisture intrusion in roof assemblies</li>
@@ -262,9 +395,11 @@ export default function Page() {
               <li>• Create baseline for insurance documentation</li>
             </ul>
           </div>
-          
+
           <div className="bg-amber-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><BarChart3 className="w-6 h-6 inline-block" /> Structural Load Assessment</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <BarChart3 className="w-6 h-6 inline-block" /> Structural Load Assessment
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>• Calculate snow and ice load capacity</li>
               <li>• Evaluate structural integrity of roof deck</li>
@@ -276,16 +411,19 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <div className="content-block">
         <h2 className="content-block-title">Specialized Winter Damage Repair Techniques</h2>
         <p className="text-lg mb-6">
-          Repairing winter storm damage requires specialized knowledge of cold-weather materials and techniques. Standard summer repair methods often fail during Texas Panhandle winters, making professional expertise essential for lasting repairs.
+          Repairing winter storm damage requires specialized knowledge of cold-weather materials and
+          techniques. Standard summer repair methods often fail during Texas Panhandle winters,
+          making professional expertise essential for lasting repairs.
         </p>
 
         <div className="space-y-6">
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Emergency Ice Dam Removal</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">
+              <Snowflake className="w-6 h-6 inline-block" /> Emergency Ice Dam Removal
+            </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Safe Removal Methods:</h4>
@@ -311,7 +449,9 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Wrench className="w-6 h-6 inline-block" /> Cold-Weather Repair Materials</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">
+              <Wrench className="w-6 h-6 inline-block" /> Cold-Weather Repair Materials
+            </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Specialty Products:</h4>
@@ -337,7 +477,9 @@ export default function Page() {
           </div>
 
           <div className="bg-gray-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Structural Reinforcement</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-brown">
+              <Home className="w-6 h-6 inline-block" /> Structural Reinforcement
+            </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <h4 className="font-semibold mb-2">Load-Bearing Improvements:</h4>
@@ -363,11 +505,14 @@ export default function Page() {
           </div>
         </div>
       </div>
-
-      <h2 className="text-2xl font-bold mt-8 mb-4">Historical Texas Panhandle Winter Storm Events</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">
+        Historical Texas Panhandle Winter Storm Events
+      </h2>
       <div className="space-y-6 mb-8">
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-bold mb-3 text-brand-brown"><CloudHail className="w-6 h-6 inline-block" /> Winter Storm Uri (February 2021)</h3>
+          <h3 className="text-lg font-bold mb-3 text-brand-brown">
+            <CloudHail className="w-6 h-6 inline-block" /> Winter Storm Uri (February 2021)
+          </h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-semibold mb-2">Storm Statistics:</h4>
@@ -393,7 +538,9 @@ export default function Page() {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> The Christmas Blizzard (December 2015)</h3>
+          <h3 className="text-lg font-bold mb-3 text-brand-brown">
+            <Snowflake className="w-6 h-6 inline-block" /> The Christmas Blizzard (December 2015)
+          </h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-semibold mb-2">Event Overview:</h4>
@@ -418,7 +565,9 @@ export default function Page() {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-bold mb-3 text-brand-brown"><Snowflake className="w-6 h-6 inline-block" /> Ice Storm of 2013</h3>
+          <h3 className="text-lg font-bold mb-3 text-brand-brown">
+            <Snowflake className="w-6 h-6 inline-block" /> Ice Storm of 2013
+          </h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-semibold mb-2">Meteorological Conditions:</h4>
@@ -442,55 +591,72 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <h2 className="text-2xl font-bold mt-8 mb-4">Our Winter Damage Repair Process</h2>
       <div className="space-y-3 mb-8">
         <div className="process-step">
           <div className="step-number">1</div>
           <div className="step-content">
             <h5 className="step-title">Emergency Ice Dam Removal</h5>
-            <p className="step-text">Safe removal of ice dams using specialized equipment—never hammers or picks that can damage shingles. We create drainage channels to relieve water backup.</p>
+            <p className="step-text">
+              Safe removal of ice dams using specialized equipment—never hammers or picks that can
+              damage shingles. We create drainage channels to relieve water backup.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">2</div>
           <div className="step-content">
             <h5 className="step-title">Interior Damage Assessment</h5>
-            <p className="step-text">Inspect attic and interior spaces for water damage, insulation saturation, and structural issues caused by leaks or condensation.</p>
+            <p className="step-text">
+              Inspect attic and interior spaces for water damage, insulation saturation, and
+              structural issues caused by leaks or condensation.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">3</div>
           <div className="step-content">
             <h5 className="step-title">Exterior Roof Inspection</h5>
-            <p className="step-text">Complete evaluation of shingles, flashing, vents, and roof deck for freeze-thaw damage, ice dam damage, and structural integrity issues.</p>
+            <p className="step-text">
+              Complete evaluation of shingles, flashing, vents, and roof deck for freeze-thaw
+              damage, ice dam damage, and structural integrity issues.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">4</div>
           <div className="step-content">
             <h5 className="step-title">Ventilation & Insulation Evaluation</h5>
-            <p className="step-text">Assess attic ventilation and insulation to identify the root cause of ice dam formation and prevent future winter damage.</p>
+            <p className="step-text">
+              Assess attic ventilation and insulation to identify the root cause of ice dam
+              formation and prevent future winter damage.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">5</div>
           <div className="step-content">
             <h5 className="step-title">Permanent Repairs & Prevention</h5>
-            <p className="step-text">Fix all winter storm damage and implement preventive measures including improved ventilation, additional insulation, and ice/water shield installation at eaves.</p>
+            <p className="step-text">
+              Fix all winter storm damage and implement preventive measures including improved
+              ventilation, additional insulation, and ice/water shield installation at eaves.
+            </p>
           </div>
         </div>
       </div>
-
       <div className="content-block">
         <h2 className="content-block-title">Comprehensive Winter Roof Protection Strategy</h2>
         <p className="text-lg mb-6">
-          Preventing winter roof damage requires a systematic approach that addresses the root causes of ice dams, freeze-thaw damage, and structural stress. Our prevention program combines building science principles with Texas Panhandle-specific climate considerations.
+          Preventing winter roof damage requires a systematic approach that addresses the root
+          causes of ice dams, freeze-thaw damage, and structural stress. Our prevention program
+          combines building science principles with Texas Panhandle-specific climate considerations.
         </p>
 
         <div className="grid md:grid-cols-3 gap-4 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Thermometer className="w-6 h-6 inline-block" /> Thermal Envelope Optimization</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Thermometer className="w-6 h-6 inline-block" /> Thermal Envelope Optimization
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>• R-38 to R-49 attic insulation (Texas climate zone)</li>
               <li>• Continuous air barrier installation</li>
@@ -501,9 +667,11 @@ export default function Page() {
               <li>• Attic hatch insulation and sealing</li>
             </ul>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Wind className="w-6 h-6 inline-block" /> Advanced Ventilation Systems</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Wind className="w-6 h-6 inline-block" /> Advanced Ventilation Systems
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>• Ridge vent with external wind baffle</li>
               <li>• Soffit vents with insulation baffles</li>
@@ -514,9 +682,11 @@ export default function Page() {
               <li>• Seasonal ventilation adjustment protocols</li>
             </ul>
           </div>
-          
+
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-lg font-bold mb-3 text-brand-brown"><Shield className="w-6 h-6 inline-block" /> Ice Damage Prevention</h3>
+            <h3 className="text-lg font-bold mb-3 text-brand-brown">
+              <Shield className="w-6 h-6 inline-block" /> Ice Damage Prevention
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>• Ice and water shield to 36" above wall line</li>
               <li>• Enhanced underlayment in valleys</li>
@@ -529,11 +699,15 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-brand-brown"><DollarSign className="w-6 h-6 inline-block" /> Insurance Considerations for Winter Damage</h3>
-        <p className="mb-4">Winter storm damage coverage varies significantly between insurance policies in Texas. Understanding your coverage helps ensure proper protection and claim success.</p>
-        
+        <h3 className="text-xl font-bold mb-3 text-brand-brown">
+          <DollarSign className="w-6 h-6 inline-block" /> Insurance Considerations for Winter Damage
+        </h3>
+        <p className="mb-4">
+          Winter storm damage coverage varies significantly between insurance policies in Texas.
+          Understanding your coverage helps ensure proper protection and claim success.
+        </p>
+
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg p-4">
             <h4 className="font-bold mb-2 text-brand-brown">Typically Covered Damage</h4>
@@ -557,17 +731,24 @@ export default function Page() {
             </ul>
           </div>
         </div>
-        
+
         <div className="bg-yellow-100 rounded-lg p-4 mt-4">
-          <h4 className="font-bold mb-2"><Lightbulb className="w-6 h-6 inline-block" /> Pro Tip: Document Everything</h4>
-          <p className="text-sm">Take photos of your roof before winter weather arrives. This documentation can be crucial for proving that damage occurred during a specific storm event rather than from gradual deterioration.</p>
+          <h4 className="font-bold mb-2">
+            <Lightbulb className="w-6 h-6 inline-block" /> Pro Tip: Document Everything
+          </h4>
+          <p className="text-sm">
+            Take photos of your roof before winter weather arrives. This documentation can be
+            crucial for proving that damage occurred during a specific storm event rather than from
+            gradual deterioration.
+          </p>
         </div>
       </div>
-
       <div className="content-block">
         <h2 className="content-block-title">storm response Protocols</h2>
         <p className="text-lg mb-4">
-          When winter storms strike the Texas Panhandle, rapid response can mean the difference between minor repairs and major structural damage. our protocols ensure immediate stabilization and damage mitigation.
+          When winter storms strike the Texas Panhandle, rapid response can mean the difference
+          between minor repairs and major structural damage. our protocols ensure immediate
+          stabilization and damage mitigation.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
@@ -580,9 +761,11 @@ export default function Page() {
               <li>• Temporary structural reinforcement</li>
             </ul>
           </div>
-          
+
           <div className="bg-green-50 rounded-lg p-6">
-            <h3 className="text-lg font-bold mb-3 text-green-800"><CheckCircle className="w-5 h-5 inline-block text-green-600" /> Safety-First Approach</h3>
+            <h3 className="text-lg font-bold mb-3 text-green-800">
+              <CheckCircle className="w-5 h-5 inline-block text-green-600" /> Safety-First Approach
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>• Never risk personnel safety for property</li>
               <li>• Specialized equipment for icy conditions</li>
@@ -595,11 +778,15 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <div className="bg-orange-50 border-l-4 border-orange-600 p-6 mb-8">
-        <h3 className="text-xl font-bold mb-3 text-orange-800"><Clock className="w-6 h-6 inline-block" /> Seasonal Maintenance Calendar</h3>
-        <p className="mb-4">Proactive maintenance is the best defense against winter roof damage. Follow this Texas Panhandle-specific schedule:</p>
-        
+        <h3 className="text-xl font-bold mb-3 text-orange-800">
+          <Clock className="w-6 h-6 inline-block" /> Seasonal Maintenance Calendar
+        </h3>
+        <p className="mb-4">
+          Proactive maintenance is the best defense against winter roof damage. Follow this Texas
+          Panhandle-specific schedule:
+        </p>
+
         <div className="grid md:grid-cols-4 gap-4">
           <div className="bg-white rounded-lg p-4">
             <h4 className="font-bold mb-2 text-orange-700">September</h4>
@@ -639,42 +826,78 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-6 mb-8">
-        <h3 className="font-bold mb-3"><Snowflake className="w-6 h-6 inline-block" /> Post-Winter Roof Inspection</h3>
-        <p>After severe winter weather in the Texas Panhandle, schedule a professional <a href="/roof-inspections-amarillo/" className="text-brand-brown hover:text-brand-gold underline">roof inspection</a> even if you don't see obvious damage. Freeze-thaw cycling and ice dam damage may not become apparent until spring rains reveal compromised areas.</p>
+        <h3 className="font-bold mb-3">
+          <Snowflake className="w-6 h-6 inline-block" /> Post-Winter Roof Inspection
+        </h3>
+        <p>
+          After severe winter weather in the Texas Panhandle, schedule a professional{" "}
+          <a
+            href="/roof-inspections-amarillo/"
+            className="text-brand-brown hover:text-brand-gold underline"
+          >
+            roof inspection
+          </a>{" "}
+          even if you don't see obvious damage. Freeze-thaw cycling and ice dam damage may not
+          become apparent until spring rains reveal compromised areas.
+        </p>
       </div>
-
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Serving Texas Panhandle</h2>
         <p className="text-lg mb-4">
-          Winter storm damage services for <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial</a> properties:
+          Winter storm damage services for{" "}
+          <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">
+            residential
+          </a>{" "}
+          and{" "}
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">
+            commercial
+          </a>{" "}
+          properties:
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">• Midland Winter Damage</a>
-          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">• Odessa Ice Damage</a>
-          <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Snow Damage</a>
-          <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
+          <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">
+            • Midland Winter Damage
+          </a>
+          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">
+            • Odessa Ice Damage
+          </a>
+          <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">
+            • Lubbock Snow Damage
+          </a>
+          <a href="/service-areas/" className="text-brand-gold hover:underline">
+            • All Service Areas
+          </a>
         </div>
       </section>
-
       <section className="cta-section mt-12">
         <h2 className="cta-title">Get Your Free Roof Assessment Today</h2>
         <p className="cta-text">
-          Serving Amarillo and the entire Texas Panhandle, plus Midland, Odessa, and surrounding West Texas communities. Most homeowners insurance policies in Texas cover storm damage, and we work directly with all major insurance companies to ensure you receive the full coverage you deserve.
+          Serving Amarillo and the entire Texas Panhandle, plus Midland, Odessa, and surrounding
+          West Texas communities. Most homeowners insurance policies in Texas cover storm damage,
+          and we work directly with all major insurance companies to ensure you receive the full
+          coverage you deserve.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
+          <a
+            href="tel:8066226041"
+            className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg"
+          >
             <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
-          <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
+          <a
+            href="/contact/"
+            className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg"
+          >
             Request Free Inspection
           </a>
         </div>
       </section>
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
-    <RelatedArticles pageSlug="roof-snow-and-ice-damage-in-amarillo" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <RelatedArticles pageSlug="roof-snow-and-ice-damage-in-amarillo" />
     </div>
   );
 }

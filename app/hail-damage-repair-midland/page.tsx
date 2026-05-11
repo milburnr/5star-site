@@ -11,15 +11,26 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { CheckCircle, ClipboardList, FileText, Phone, Search, Shield, Star, Wrench } from "lucide-react";
+import {
+  CheckCircle,
+  ClipboardList,
+  FileText,
+  Phone,
+  Search,
+  Shield,
+  Star,
+  Wrench,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-midland/' },
-  title: 'Hail Damage Repair Midland TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Midland TX. storm response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
+  alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-midland/" },
+  title: "Hail Damage Repair Midland TX | 5 Star Roofing",
+  description:
+    "Professional hail damage roof repair in Midland TX. storm response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
   openGraph: {
     title: "Hail Damage Repair Midland TX | 5 Star Roofing",
-    description: "Professional hail damage roof repair in Midland TX. storm response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
+    description:
+      "Professional hail damage roof repair in Midland TX. storm response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
     url: "https://5starroofingpros.com/hail-damage-repair-midland/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,32 +49,65 @@ export const metadata: Metadata = {
 export default function HailDamageRepairMidlandPage() {
   return (
     <>
-      <Breadcrumb items={[
-        { name: "Home", url: "/" },
-        { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Midland", url: "/hail-damage-repair-midland/" }
-      ]} />
+      <Breadcrumb
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Midland", url: "/hail-damage-repair-midland/" },
+        ]}
+      />
 
       <StickyContactBar />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/hail-damage-repair-midland/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 31.9973, "longitude": -102.0779 },
-        "url": "https://5starroofingpros.com/hail-damage-repair-midland/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Midland,_Texas", "name": "Midland", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert hail damage repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/hail-damage-repair-midland/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 31.9973, longitude: -102.0779 },
+            url: "https://5starroofingpros.com/hail-damage-repair-midland/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Midland,_Texas",
+              name: "Midland",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert hail damage repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
 
       {/* Schema: Service */}
       <script
@@ -72,29 +116,30 @@ export default function HailDamageRepairMidlandPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Hail Damage Roof Repair",
-            "provider": {
+            serviceType: "Hail Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "url": "https://5starroofingpros.com",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              url: "https://5starroofingpros.com",
+              address: {
                 "@type": "PostalAddress",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "addressCountry": "US"
-              }
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                addressCountry: "US",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Midland",
-              "containedInPlace": {
+              name: "Midland",
+              containedInPlace: {
                 "@type": "AdministrativeArea",
-                "name": "Midland County, Texas"
-              }
+                name: "Midland County, Texas",
+              },
             },
-            "description": "Expert hail damage roof repair services in Midland, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Midland County properties."
-          })
+            description:
+              "Expert hail damage roof repair services in Midland, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Midland County properties.",
+          }),
         }}
       />
 
@@ -105,49 +150,49 @@ export default function HailDamageRepairMidlandPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "How do I know if my Midland roof has hail damage?",
-                "acceptedAnswer": {
+                name: "How do I know if my Midland roof has hail damage?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Signs of hail damage on Midland roofs include granule loss (shiny spots on shingles), dents on metal vents, flashing, and gutters, cracked or missing shingles, and bruised areas that feel soft when pressed. Midland's position in the Permian Basin means we see frequent severe storms—schedule a free inspection after any hail event."
-                }
+                  text: "Signs of hail damage on Midland roofs include granule loss (shiny spots on shingles), dents on metal vents, flashing, and gutters, cracked or missing shingles, and bruised areas that feel soft when pressed. Midland's position in the Permian Basin means we see frequent severe storms—schedule a free inspection after any hail event.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Will insurance cover hail damage repair in Midland?",
-                "acceptedAnswer": {
+                name: "Will insurance cover hail damage repair in Midland?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, most Texas homeowners insurance policies cover hail damage if it occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact with photos and measurements, meet adjusters on-site, and advocate for maximum coverage on your behalf."
-                }
+                  text: "Yes, most Texas homeowners insurance policies cover hail damage if it occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact with photos and measurements, meet adjusters on-site, and advocate for maximum coverage on your behalf.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does hail damage repair cost in Midland?",
-                "acceptedAnswer": {
+                name: "How much does hail damage repair cost in Midland?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Hail damage repair costs in Midland vary based on roof size, material, and damage extent. Most storm-related repairs are covered by insurance, with homeowners typically paying only their deductible. Full roof replacements in Midland County average $8,000-$15,000 for residential properties, though insurance often covers most or all of this cost."
-                }
+                  text: "Hail damage repair costs in Midland vary based on roof size, material, and damage extent. Most storm-related repairs are covered by insurance, with homeowners typically paying only their deductible. Full roof replacements in Midland County average $8,000-$15,000 for residential properties, though insurance often covers most or all of this cost.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What are Class 4 impact-resistant shingles?",
-                "acceptedAnswer": {
+                name: "What are Class 4 impact-resistant shingles?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing standards. For Midland properties facing frequent Permian Basin storms, Class 4 shingles reduce future hail damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, often paying for the upgrade over time."
-                }
+                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing standards. For Midland properties facing frequent Permian Basin storms, Class 4 shingles reduce future hail damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, often paying for the upgrade over time.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly can you respond to hail damage in Midland?",
-                "acceptedAnswer": {
+                name: "How do you handle hail damage work in Midland?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We offer prompt response for Midland properties. Our crews can typically reach Midland from our Amarillo headquarters within 3-4 hours for urgent situations. After major storms, we prioritize tarping to prevent further water damage before permanent repairs."
-                }
-              }
-            ]
-          })
+                  text: "We schedule storm-damage documentation and inspections for Midland properties once conditions are safe for crews to be on a roof. Our headquarters is in Amarillo (about 263 miles away) and we maintain crew relationships throughout West Texas. We are not an emergency-dispatch service — our value is thorough documentation, adjuster-ready reports, and Class 4 restoration for Midland Basin properties.",
+                },
+              },
+            ],
+          }),
         }}
       />
 
@@ -155,9 +200,10 @@ export default function HailDamageRepairMidlandPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-30-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-30-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
@@ -171,11 +217,19 @@ export default function HailDamageRepairMidlandPage() {
                 Midland County's Trusted Storm Restoration Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                When Permian Basin storms strike your Midland property, you need a roofing contractor who understands West Texas weather. Since 2014, 5 Star Roofing has helped Midland homeowners and businesses recover from hail damage with expert repairs, insurance claim assistance, and Class 4 impact-resistant replacements.
+                When Permian Basin storms strike your Midland property, you need a roofing
+                contractor who understands West Texas weather. Since 2014, 5 Star Roofing has helped
+                Midland homeowners and businesses recover from hail damage with expert repairs,
+                insurance claim assistance, and Class 4 impact-resistant replacements.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                </a>
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -200,13 +254,17 @@ export default function HailDamageRepairMidlandPage() {
                 <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={10} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -222,13 +280,25 @@ export default function HailDamageRepairMidlandPage() {
               Why Does Midland Properties Need Expert Hail Damage Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Midland sits at 2,780 feet elevation in the heart of the Permian Basin, where severe thunderstorms sweep across the West Texas plains with little warning. Midland County experiences an average of 6-8 significant hail events annually, with some storms producing hail exceeding 2 inches in diameter—large enough to cause immediate, catastrophic roof damage.
+              Midland sits at 2,780 feet elevation in the heart of the Permian Basin, where severe
+              thunderstorms sweep across the West Texas plains with little warning. Midland County
+              experiences an average of 6-8 significant hail events annually, with some storms
+              producing hail exceeding 2 inches in diameter—large enough to cause immediate,
+              catastrophic roof damage.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              The combination of Midland's semi-arid climate, extreme temperature swings (from below freezing in winter to over 100°F in summer), and frequent severe weather creates unique challenges for roofing systems. After a hailstorm, damage may not be immediately visible to the untrained eye—but granule loss, micro-fractures, and compromised seals can lead to leaks, mold, and structural damage if left unaddressed.
+              The combination of Midland's semi-arid climate, extreme temperature swings (from below
+              freezing in winter to over 100°F in summer), and frequent severe weather creates
+              unique challenges for roofing systems. After a hailstorm, damage may not be
+              immediately visible to the untrained eye—but granule loss, micro-fractures, and
+              compromised seals can lead to leaks, mold, and structural damage if left unaddressed.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Midland and the Permian Basin since 2014. We understand the specific roofing challenges that come with West Texas weather, and we know how to document damage for insurance claims effectively. Our team has helped hundreds of Midland property owners recover from storm damage with expert repairs and comprehensive warranty protection.
+              5 Star Roofing has been serving Midland and the Permian Basin since 2014. We
+              understand the specific roofing challenges that come with West Texas weather, and we
+              know how to document damage for insurance claims effectively. Our team has helped
+              hundreds of Midland property owners recover from storm damage with expert repairs and
+              comprehensive warranty protection.
             </p>
           </section>
         </FadeIn>
@@ -262,7 +332,11 @@ export default function HailDamageRepairMidlandPage() {
               </div>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              The National Weather Service Midland office tracks severe weather events across the Permian Basin. Midland's location makes it particularly susceptible to supercell thunderstorms that develop over the Llano Estacado. These storms frequently produce damaging hail, high winds, and occasionally tornadoes. After major hail events, we see a surge in roof damage claims across Midland, Odessa, and surrounding communities.
+              The National Weather Service Midland office tracks severe weather events across the
+              Permian Basin. Midland's location makes it particularly susceptible to supercell
+              thunderstorms that develop over the Llano Estacado. These storms frequently produce
+              damaging hail, high winds, and occasionally tornadoes. After major hail events, we see
+              a surge in roof damage claims across Midland, Odessa, and surrounding communities.
             </p>
           </section>
         </FadeIn>
@@ -275,34 +349,66 @@ export default function HailDamageRepairMidlandPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Search className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
-                <p className="text-gray-600">We thoroughly inspect your Midland property for hail damage, documenting every impact with photos and measurements. Our inspections are always free with no obligation.</p>
+                <p className="text-gray-600">
+                  We thoroughly inspect your Midland property for hail damage, documenting every
+                  impact with photos and measurements. Our inspections are always free with no
+                  obligation.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <ClipboardList className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
-                <p className="text-gray-600">We prepare comprehensive documentation for your insurance claim and meet with your adjuster on-site. We know what Midland-area adjusters look for and how to maximize your coverage.</p>
+                <p className="text-gray-600">
+                  We prepare comprehensive documentation for your insurance claim and meet with your
+                  adjuster on-site. We know what Midland-area adjusters look for and how to maximize
+                  your coverage.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <FileText className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
-                <p className="text-gray-600">We provide a detailed, line-item estimate using Xactimate—the same software insurance companies use. No surprises, no hidden costs.</p>
+                <p className="text-gray-600">
+                  We provide a detailed, line-item estimate using Xactimate—the same software
+                  insurance companies use. No surprises, no hidden costs.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Wrench className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
-                <p className="text-gray-600">Our experienced crews install your new roof using premium materials suited to Midland's climate. Most residential repairs complete in 1-3 days.</p>
+                <p className="text-gray-600">
+                  Our experienced crews install your new roof using premium materials suited to
+                  Midland's climate. Most residential repairs complete in 1-3 days.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
+                <div className="text-4xl mb-4">
+                  <CheckCircle className="w-5 h-5 inline-block text-green-600" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
-                <p className="text-gray-600">We conduct a thorough final inspection to ensure every detail meets our high standards. You'll receive complete documentation for your records.</p>
+                <p className="text-gray-600">
+                  We conduct a thorough final inspection to ensure every detail meets our high
+                  standards. You'll receive complete documentation for your records.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Shield className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
-                <p className="text-gray-600">Your Midland roof is protected by comprehensive workmanship warranties plus manufacturer warranties up to 50 years on qualifying materials.</p>
+                <p className="text-gray-600">
+                  Your Midland roof is protected by comprehensive workmanship warranties plus
+                  manufacturer warranties up to 50 years on qualifying materials.
+                </p>
               </div>
             </div>
           </section>
@@ -315,7 +421,10 @@ export default function HailDamageRepairMidlandPage() {
               What Is the Class 4 Impact-Resistant Shingles?
             </h2>
             <p className="text-lg mb-6 leading-relaxed">
-              After experiencing hail damage, many Midland homeowners upgrade to Class 4 impact-resistant shingles. These premium shingles are tested to withstand 2-inch diameter steel ball impacts under UL 2218 standards—the same size as the largest hail commonly seen in Permian Basin storms.
+              After experiencing hail damage, many Midland homeowners upgrade to Class 4
+              impact-resistant shingles. These premium shingles are tested to withstand 2-inch
+              diameter steel ball impacts under UL 2218 standards—the same size as the largest hail
+              commonly seen in Permian Basin storms.
             </p>
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white/10 p-6 rounded-xl">
@@ -335,7 +444,9 @@ export default function HailDamageRepairMidlandPage() {
               </div>
             </div>
             <p className="text-lg leading-relaxed">
-              The insurance premium savings from Class 4 shingles often pay for the upgrade within just a few years. For Midland properties in hail-prone areas, it's one of the smartest investments you can make in your home.
+              The insurance premium savings from Class 4 shingles often pay for the upgrade within
+              just a few years. For Midland properties in hail-prone areas, it's one of the smartest
+              investments you can make in your home.
             </p>
           </section>
         </FadeIn>
@@ -347,22 +458,40 @@ export default function HailDamageRepairMidlandPage() {
               Serving All Midland Neighborhoods
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              From established neighborhoods near downtown to newer developments on the outskirts, we provide hail damage repair services throughout Midland County:
+              From established neighborhoods near downtown to newer developments on the outskirts,
+              we provide hail damage repair services throughout Midland County:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
               {[
-                "Grassland Estates", "Saddle Club", "Fairmont Park", "Westridge Park",
-                "Briarwood", "Windwood Park", "Camelot", "Brookshire Village",
-                "Lincoln Park", "Lynside", "Chalmers", "Chandler Heights",
-                "West End", "Midkiff", "Greenwood", "Cotton Flat"
+                "Grassland Estates",
+                "Saddle Club",
+                "Fairmont Park",
+                "Westridge Park",
+                "Briarwood",
+                "Windwood Park",
+                "Camelot",
+                "Brookshire Village",
+                "Lincoln Park",
+                "Lynside",
+                "Chalmers",
+                "Chandler Heights",
+                "West End",
+                "Midkiff",
+                "Greenwood",
+                "Cotton Flat",
               ].map((neighborhood) => (
-                <div key={neighborhood} className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium">
+                <div
+                  key={neighborhood}
+                  className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium"
+                >
                   {neighborhood}
                 </div>
               ))}
             </div>
             <p className="text-gray-600">
-              Don't see your neighborhood? We serve all of Midland County and surrounding areas including Greenwood, Stanton, and beyond. Call (806) 622-6041 to confirm service availability.
+              Don't see your neighborhood? We serve all of Midland County and surrounding areas
+              including Greenwood, Stanton, and beyond. Call (806) 622-6041 to confirm service
+              availability.
             </p>
           </section>
         </FadeIn>
@@ -374,48 +503,84 @@ export default function HailDamageRepairMidlandPage() {
               Midland Hail Damage Repair: Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How do I know if my Midland roof has hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Signs of hail damage include: granule loss (look for dark, shiny spots on shingles), dents on metal vents and flashing, cracked or fractured shingles, dented gutters and downspouts, and damage to outdoor AC units or vehicles. Midland's severe storms can cause damage that isn't visible from the ground—we recommend a professional inspection after any significant hail event.
+                  Signs of hail damage include: granule loss (look for dark, shiny spots on
+                  shingles), dents on metal vents and flashing, cracked or fractured shingles,
+                  dented gutters and downspouts, and damage to outdoor AC units or vehicles.
+                  Midland's severe storms can cause damage that isn't visible from the ground—we
+                  recommend a professional inspection after any significant hail event.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Will my insurance cover hail damage repair in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Most Texas homeowners policies cover hail damage. Key requirements: the damage must have occurred during your policy period, and you typically need to file within 1-2 years of the event. We document every impact with high-resolution photos, meet with your adjuster on-site, and advocate for full coverage. Most Midland homeowners pay only their deductible for storm-related repairs.
+                  Most Texas homeowners policies cover hail damage. Key requirements: the damage
+                  must have occurred during your policy period, and you typically need to file
+                  within 1-2 years of the event. We document every impact with high-resolution
+                  photos, meet with your adjuster on-site, and advocate for full coverage. Most
+                  Midland homeowners pay only their deductible for storm-related repairs.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How much does hail damage repair cost in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Costs vary based on roof size, pitch, materials, and damage extent. For insurance claims, most homeowners pay only their deductible. Full roof replacements in Midland typically range from $8,000-$15,000 for average-sized homes, though costs can be higher for larger or more complex roofs. We provide detailed estimates using Xactimate—the same software insurance companies use.
+                  Costs vary based on roof size, pitch, materials, and damage extent. For insurance
+                  claims, most homeowners pay only their deductible. Full roof replacements in
+                  Midland typically range from $8,000-$15,000 for average-sized homes, though costs
+                  can be higher for larger or more complex roofs. We provide detailed estimates
+                  using Xactimate—the same software insurance companies use.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Should I upgrade to Class 4 shingles in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For Midland properties, Class 4 impact-resistant shingles are often worth the investment. They're rated to withstand 2-inch hail impacts and reduce future damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs, which can offset the higher upfront cost within a few years. We can help you evaluate whether the upgrade makes sense for your situation.
+                  For Midland properties, Class 4 impact-resistant shingles are often worth the
+                  investment. They're rated to withstand 2-inch hail impacts and reduce future
+                  damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class
+                  4 roofs, which can offset the higher upfront cost within a few years. We can help
+                  you evaluate whether the upgrade makes sense for your situation.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How quickly can you respond to hail damage in Midland?
+                  How do you handle hail damage work in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer prompt response for Midland properties. While our headquarters is in Amarillo (about 263 miles away), we maintain crews throughout West Texas and can typically reach Midland within 3-4 hours for emergencies. After major storms, we prioritize tarping to prevent water damage before permanent repairs begin.
+                  We schedule storm-damage documentation and inspections for Midland properties once
+                  conditions are safe for crews to be on a roof. Our headquarters is in Amarillo
+                  (about 263 miles away) and we maintain crew relationships throughout West Texas.
+                  We are not an emergency-dispatch service — our value is thorough photo
+                  documentation, adjuster-ready reports, and Class 4 impact-resistant restoration
+                  for Midland Basin properties.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -429,15 +594,24 @@ export default function HailDamageRepairMidlandPage() {
               Related Services in Midland
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/storm-damage-repair-midland/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/storm-damage-repair-midland/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Storm Damage Repair</h3>
                 <p className="text-gray-600">Wind, rain, and debris damage restoration</p>
               </a>
-              <a href="/roof-replacement-midland/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/roof-replacement-midland/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Roof Replacement</h3>
                 <p className="text-gray-600">Complete roof replacement services</p>
               </a>
-              <a href="/roof-inspections-midland/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/roof-inspections-midland/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Free Inspections</h3>
                 <p className="text-gray-600">No-obligation damage assessments</p>
               </a>
@@ -446,15 +620,26 @@ export default function HailDamageRepairMidlandPage() {
         </FadeIn>
 
         {/* CTA Section */}
-        
-        
+
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               How Does Hail Affect Permian Basin Commercial Properties in Midland?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Midland&apos;s position as the financial capital of the Permian Basin means the city has a disproportionate concentration of high-value commercial properties: corporate office buildings for oil and gas operators, bank headquarters, medical facilities, and retail centers that serve the region&apos;s workforce. Midland County experiences 5 to 8 hail events annually, with stones frequently reaching quarter to golf-ball size during spring supercells. Commercial hail damage claims in Midland involve property values and deductibles significantly higher than residential claims. A single office complex can sustain $200,000 to $500,000 in roof damage from one storm. 5 Star Roofing handles Midland commercial hail claims for TPO, EPDM, and modified bitumen flat-roof systems common on Permian Basin commercial buildings. We work with commercial insurance carriers, provide drone-assisted damage documentation for large roof surfaces, and schedule repairs around business operating hours so tenants and employees experience minimal disruption.
+              Midland&apos;s position as the financial capital of the Permian Basin means the city
+              has a disproportionate concentration of high-value commercial properties: corporate
+              office buildings for oil and gas operators, bank headquarters, medical facilities, and
+              retail centers that serve the region&apos;s workforce. Midland County experiences 5 to
+              8 hail events annually, with stones frequently reaching quarter to golf-ball size
+              during spring supercells. Commercial hail damage claims in Midland involve property
+              values and deductibles significantly higher than residential claims. A single office
+              complex can sustain $200,000 to $500,000 in roof damage from one storm. 5 Star Roofing
+              handles Midland commercial hail claims for TPO, EPDM, and modified bitumen flat-roof
+              systems common on Permian Basin commercial buildings. We work with commercial
+              insurance carriers, provide drone-assisted damage documentation for large roof
+              surfaces, and schedule repairs around business operating hours so tenants and
+              employees experience minimal disruption.
             </p>
           </section>
         </FadeIn>
@@ -464,18 +649,25 @@ export default function HailDamageRepairMidlandPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Hail Damage in Midland? We're Here to Help.</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Midland property owners. Expert hail damage repair with comprehensive warranties. Insurance claim assistance from start to finish.
+            Free inspections for Midland property owners. Expert hail damage repair with
+            comprehensive warranties. Insurance claim assistance from start to finish.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="hail-damage-repair-midland" />
+        <RelatedArticles pageSlug="hail-damage-repair-midland" />
       </div>
     </>
   );

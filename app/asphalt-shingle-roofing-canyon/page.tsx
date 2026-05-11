@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, DollarSign, Home, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-canyon/' },
-  title: 'Asphalt Shingles Canyon TX | 5 Star Roofing',
-  description: "Asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-canyon/" },
+  title: "Asphalt Shingles Canyon TX | 5 Star Roofing",
+  description:
+    "Asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Asphalt Shingles Canyon TX | 5 Star Roofing",
-    description: "Asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/asphalt-shingle-roofing-canyon/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,149 +40,188 @@ export const metadata: Metadata = {
 
 export default function AsphaltShingleRoofingCanyonPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Asphalt Shingle Roofing",
-                      "url": "/asphalt-shingle-roofing/"
-              },
-              {
-                      "name": "Canyon",
-                      "url": "/asphalt-shingle-roofing-canyon/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Canyon",
+            url: "/asphalt-shingle-roofing-canyon/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-canyon/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 34.9803, "longitude": -101.9188 },
-        "url": "https://5starroofingpros.com/asphalt-shingle-roofing-canyon/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas", "name": "Canyon", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert asphalt shingle roofing services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-canyon/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/canyon-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 34.9803, longitude: -101.9188 },
+            url: "https://5starroofingpros.com/asphalt-shingle-roofing-canyon/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas",
+              name: "Canyon",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert asphalt shingle roofing services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Asphalt Shingle Roofing",
-            "provider": {
+            serviceType: "Asphalt Shingle Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Canyon,_Texas",
-              "name": "Canyon",
-              "containedInPlace": {
+              name: "Canyon",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "What are the best asphalt shingles for Canyon's climate?",
-                "acceptedAnswer": {
+                name: "What are the best asphalt shingles for Canyon's climate?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Class 4 impact-resistant architectural shingles are essential for Canyon's 8-10 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties."
-                }
+                  text: "Class 4 impact-resistant architectural shingles are essential for Canyon's 8-10 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How long do asphalt shingles last in Canyon?",
-                "acceptedAnswer": {
+                name: "How long do asphalt shingles last in Canyon?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Quality architectural shingles typically last 20-30 years in Canyon when properly installed and maintained. Palo Duro Canyon area's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Canyon's climate."
-                }
+                  text: "Quality architectural shingles typically last 20-30 years in Canyon when properly installed and maintained. Palo Duro Canyon area's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Canyon's climate.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do Class 4 shingles qualify for insurance discounts in Canyon?",
-                "acceptedAnswer": {
+                name: "Do Class 4 shingles qualify for insurance discounts in Canyon?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Canyon. Given the area's severe hail risk with 8-10 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount."
-                }
+                  text: "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Canyon. Given the area's severe hail risk with 8-10 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does asphalt shingle roofing cost in Canyon?",
-                "acceptedAnswer": {
+                name: "How much does asphalt shingle roofing cost in Canyon?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Asphalt shingle roofing in Canyon typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Canyon homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates."
-                }
+                  text: "Asphalt shingle roofing in Canyon typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Canyon homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can asphalt shingles withstand Canyon's wind and hail?",
-                "acceptedAnswer": {
+                name: "Can asphalt shingles withstand Canyon's wind and hail?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Canyon's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection."
-                }
-              }
-            ]
-          })
+                  text: "Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Canyon's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-brown-900/75 to-orange-900/70"></div>
@@ -194,12 +235,18 @@ export default function AsphaltShingleRoofingCanyonPage() {
                 Class 4 Impact-Resistant Shingles | Premium Brands
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert asphalt shingle roofing in Canyon TX. Texas Panhandle experiences 6-8
+                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
+                622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -207,7 +254,6 @@ export default function AsphaltShingleRoofingCanyonPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -227,14 +273,19 @@ export default function AsphaltShingleRoofingCanyonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -242,10 +293,17 @@ export default function AsphaltShingleRoofingCanyonPage() {
               What Makes Our Canyon Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo Duro Canyon with High Plains wind exposure—demand superior roofing materials and expert installation.
+              Canyon's location in the Texas Panhandle creates unique roofing challenges. Near Palo
+              Duro Canyon, home to West Texas A&M University. Texas Panhandle weather extremes—6-8
+              annual hailstorms, High Plains winds 60+ mph, and unique weather patterns near Palo
+              Duro Canyon with High Plains wind exposure—demand superior roofing materials and
+              expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 350+ Canyon properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Canyon property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 350+ Canyon properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with Canyon
+              property owners, and handle complete insurance claims. Most homeowners pay only their
+              deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -257,33 +315,74 @@ export default function AsphaltShingleRoofingCanyonPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Home className="w-6 h-6 inline-block" /> Family Home Protection</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Home className="w-6 h-6 inline-block" /> Family Home Protection
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />WTAMU faculty and staff homes</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Growing family neighborhoods</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Historic district preservation</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />New construction communities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ranch and rural properties</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    WTAMU faculty and staff homes
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Growing family neighborhoods
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Historic district preservation
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    New construction communities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Ranch and rural properties
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><DollarSign className="w-6 h-6 inline-block" /> Value & Affordability</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <DollarSign className="w-6 h-6 inline-block" /> Value & Affordability
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Budget-friendly installation costs</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Excellent return on investment</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Flexible financing options</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance claim assistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Comprehensive warranties</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Budget-friendly installation costs
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Excellent return on investment
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Flexible financing options
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Insurance claim assistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Comprehensive warranties
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Canyon's Family-Friendly Roofing Needs</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Canyon's Family-Friendly Roofing Needs
+              </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Canyon's close-knit community includes many university families, longtime residents, and newcomers attracted to the area's quality of life. These homeowners need roofing solutions that provide reliable protection, attractive curb appeal, and excellent value for their investment.
+                Canyon's close-knit community includes many university families, longtime residents,
+                and newcomers attracted to the area's quality of life. These homeowners need roofing
+                solutions that provide reliable protection, attractive curb appeal, and excellent
+                value for their investment.
               </p>
               <p className="text-lg text-gray-700">
-                Our asphalt shingle systems deliver the perfect combination of affordability, durability, and aesthetic appeal that Canyon families deserve, with proven performance in the challenging Panhandle climate.
+                Our asphalt shingle systems deliver the perfect combination of affordability,
+                durability, and aesthetic appeal that Canyon families deserve, with proven
+                performance in the challenging Panhandle climate.
               </p>
             </div>
           </section>
@@ -297,25 +396,33 @@ export default function AsphaltShingleRoofingCanyonPage() {
             <div className="grid md:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Traditional</h3>
-                <p className="text-gray-700 text-sm mb-3">Classic three-tab and architectural shingles for timeless appeal</p>
+                <p className="text-gray-700 text-sm mb-3">
+                  Classic three-tab and architectural shingles for timeless appeal
+                </p>
                 <div className="text-2xl font-bold text-brand-gold">$3-6</div>
                 <div className="text-gray-600 text-sm">per sq ft</div>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Designer</h3>
-                <p className="text-gray-700 text-sm mb-3">Premium dimensional shingles with enhanced curb appeal</p>
+                <p className="text-gray-700 text-sm mb-3">
+                  Premium dimensional shingles with enhanced curb appeal
+                </p>
                 <div className="text-2xl font-bold text-brand-gold">$5-9</div>
                 <div className="text-gray-600 text-sm">per sq ft</div>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Luxury</h3>
-                <p className="text-gray-700 text-sm mb-3">High-end shingles mimicking slate or wood shake</p>
+                <p className="text-gray-700 text-sm mb-3">
+                  High-end shingles mimicking slate or wood shake
+                </p>
                 <div className="text-2xl font-bold text-brand-gold">$7-12</div>
                 <div className="text-gray-600 text-sm">per sq ft</div>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Impact</h3>
-                <p className="text-gray-700 text-sm mb-3">Class 4 hail-resistant options with insurance benefits</p>
+                <p className="text-gray-700 text-sm mb-3">
+                  Class 4 hail-resistant options with insurance benefits
+                </p>
                 <div className="text-2xl font-bold text-brand-gold">$6-10</div>
                 <div className="text-gray-600 text-sm">per sq ft</div>
               </div>
@@ -331,9 +438,12 @@ export default function AsphaltShingleRoofingCanyonPage() {
             <div className="bg-white p-8 rounded-2xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Flexible Payment Solutions</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Flexible Payment Solutions
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    We understand that a new roof is a significant investment for Canyon families. Our flexible financing options make quality roofing accessible and affordable.
+                    We understand that a new roof is a significant investment for Canyon families.
+                    Our flexible financing options make quality roofing accessible and affordable.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• 0% interest financing available</li>
@@ -343,9 +453,12 @@ export default function AsphaltShingleRoofingCanyonPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insurance Claim Support</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Insurance Claim Support
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    Many Canyon homeowners are surprised to learn their insurance covers storm damage. We help navigate the claims process from start to finish.
+                    Many Canyon homeowners are surprised to learn their insurance covers storm
+                    damage. We help navigate the claims process from start to finish.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Free damage assessments</li>
@@ -365,13 +478,34 @@ export default function AsphaltShingleRoofingCanyonPage() {
               Choosing the Right Shingles for Canyon&apos;s Climate
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              At 3,500 feet elevation in Randall County, Canyon sits squarely in one of the most demanding climates for asphalt shingles anywhere in the southern Plains. The combination of intense UV radiation at altitude, temperature swings that can span 60 degrees in a single day, and Panhandle hailstorms carrying ice up to golf-ball size means that not all shingles are created equal for this area. Choosing the wrong product can mean replacing your roof years ahead of schedule.
+              At 3,500 feet elevation in Randall County, Canyon sits squarely in one of the most
+              demanding climates for asphalt shingles anywhere in the southern Plains. The
+              combination of intense UV radiation at altitude, temperature swings that can span 60
+              degrees in a single day, and Panhandle hailstorms carrying ice up to golf-ball size
+              means that not all shingles are created equal for this area. Choosing the wrong
+              product can mean replacing your roof years ahead of schedule.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Standard three-tab shingles &mdash; the flat, single-layer option &mdash; carry the lowest upfront cost but typically underperform in Canyon&apos;s conditions. Their thinner profile and single-layer construction leave them vulnerable to hail cracking and wind lift during High Plains gusts. Architectural shingles (also called dimensional or laminated shingles) provide a meaningful step up with their multi-layer fiberglass mat construction, stronger adhesive strips, and better wind ratings. They handle temperature cycling more gracefully and resist granule loss from UV exposure far better than three-tab options.
+              Standard three-tab shingles &mdash; the flat, single-layer option &mdash; carry the
+              lowest upfront cost but typically underperform in Canyon&apos;s conditions. Their
+              thinner profile and single-layer construction leave them vulnerable to hail cracking
+              and wind lift during High Plains gusts. Architectural shingles (also called
+              dimensional or laminated shingles) provide a meaningful step up with their multi-layer
+              fiberglass mat construction, stronger adhesive strips, and better wind ratings. They
+              handle temperature cycling more gracefully and resist granule loss from UV exposure
+              far better than three-tab options.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              For Canyon homeowners who want the longest service life and lowest total cost of ownership, Class 4 impact-resistant shingles are the clear choice. These shingles use an SBS-modified asphalt compound reinforced with polymers that absorb hail impact without cracking. They carry UL 2218 Class 4 ratings &mdash; meaning they withstand a two-inch steel ball dropped from 20 feet without fracturing. In a county where the National Weather Service issues multiple severe thunderstorm warnings each spring and summer, that durability translates directly into fewer claims, fewer tear-offs, and lower long-term expense. Most Texas insurers recognize this by offering 10-35% premium discounts when you install Class 4 shingles, which typically offsets the higher material cost within five to seven years.
+              For Canyon homeowners who want the longest service life and lowest total cost of
+              ownership, Class 4 impact-resistant shingles are the clear choice. These shingles use
+              an SBS-modified asphalt compound reinforced with polymers that absorb hail impact
+              without cracking. They carry UL 2218 Class 4 ratings &mdash; meaning they withstand a
+              two-inch steel ball dropped from 20 feet without fracturing. In a county where the
+              National Weather Service issues multiple severe thunderstorm warnings each spring and
+              summer, that durability translates directly into fewer claims, fewer tear-offs, and
+              lower long-term expense. Most Texas insurers recognize this by offering 10-35% premium
+              discounts when you install Class 4 shingles, which typically offsets the higher
+              material cost within five to seven years.
             </p>
           </section>
         </FadeIn>
@@ -382,13 +516,33 @@ export default function AsphaltShingleRoofingCanyonPage() {
               Canyon Residential Shingle Replacement
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Canyon&apos;s residential neighborhoods each present their own roofing considerations. Homes near West Texas A&amp;M University &mdash; including properties along 23rd Street, the neighborhoods south of campus, and the developments off Highway 87 &mdash; range from mid-century ranch-style houses to newer construction built in the last decade. Many of these homes were originally roofed with builder-grade three-tab shingles that have reached or exceeded their useful life in Panhandle conditions. Replacing them with architectural or Class 4 shingles not only improves weather protection but also increases curb appeal and resale value in a competitive university-town housing market.
+              Canyon&apos;s residential neighborhoods each present their own roofing considerations.
+              Homes near West Texas A&amp;M University &mdash; including properties along 23rd
+              Street, the neighborhoods south of campus, and the developments off Highway 87 &mdash;
+              range from mid-century ranch-style houses to newer construction built in the last
+              decade. Many of these homes were originally roofed with builder-grade three-tab
+              shingles that have reached or exceeded their useful life in Panhandle conditions.
+              Replacing them with architectural or Class 4 shingles not only improves weather
+              protection but also increases curb appeal and resale value in a competitive
+              university-town housing market.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              For homeowners in Canyon&apos;s established neighborhoods and HOA-governed communities, shingle style and color selection matter as much as performance. Architectural shingles are available in a wide range of profiles &mdash; from traditional weathered wood looks to clean slate-inspired designs &mdash; that satisfy most HOA aesthetic guidelines while delivering the wind and hail resistance this area demands. We work with homeowners to select colors and profiles that complement existing streetscapes and meet any covenant requirements before materials are ordered.
+              For homeowners in Canyon&apos;s established neighborhoods and HOA-governed
+              communities, shingle style and color selection matter as much as performance.
+              Architectural shingles are available in a wide range of profiles &mdash; from
+              traditional weathered wood looks to clean slate-inspired designs &mdash; that satisfy
+              most HOA aesthetic guidelines while delivering the wind and hail resistance this area
+              demands. We work with homeowners to select colors and profiles that complement
+              existing streetscapes and meet any covenant requirements before materials are ordered.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Canyon&apos;s proximity to Palo Duro Canyon also exposes homes on the south and east sides of town to unique wind patterns as air funnels through the canyon system. Properties in these areas benefit from enhanced installation techniques including six-nail patterns, reinforced starter strips along eaves and rakes, and ice-and-water shield underlayment at all vulnerable points. These details cost little extra during installation but make a measurable difference in how long a roof lasts when it faces channeled Panhandle winds year after year.
+              Canyon&apos;s proximity to Palo Duro Canyon also exposes homes on the south and east
+              sides of town to unique wind patterns as air funnels through the canyon system.
+              Properties in these areas benefit from enhanced installation techniques including
+              six-nail patterns, reinforced starter strips along eaves and rakes, and ice-and-water
+              shield underlayment at all vulnerable points. These details cost little extra during
+              installation but make a measurable difference in how long a roof lasts when it faces
+              channeled Panhandle winds year after year.
             </p>
           </section>
         </FadeIn>
@@ -404,7 +558,12 @@ export default function AsphaltShingleRoofingCanyonPage() {
                   What are the best asphalt shingles for Canyon's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Class 4 impact-resistant architectural shingles are essential for Canyon's 8-10 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties.
+                  Class 4 impact-resistant architectural shingles are essential for Canyon's 8-10
+                  annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ
+                  RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles
+                  feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind
+                  resistance, and algae-resistant granules. They qualify for insurance discounts and
+                  carry 30-50 year warranties.
                 </AccordionContent>
               </AccordionItem>
 
@@ -413,7 +572,12 @@ export default function AsphaltShingleRoofingCanyonPage() {
                   How long do asphalt shingles last in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Quality architectural shingles typically last 20-30 years in Canyon when properly installed and maintained. Palo Duro Canyon area's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Canyon's climate.
+                  Quality architectural shingles typically last 20-30 years in Canyon when properly
+                  installed and maintained. Palo Duro Canyon area's intense UV exposure, temperature
+                  extremes, and hailstorms stress roofing materials. Class 4 impact-resistant
+                  shingles last longer than standard shingles. Regular inspections after storms and
+                  prompt repairs extend lifespan. Premium shingles with enhanced UV protection
+                  perform better in Canyon's climate.
                 </AccordionContent>
               </AccordionItem>
 
@@ -422,7 +586,11 @@ export default function AsphaltShingleRoofingCanyonPage() {
                   Do Class 4 shingles qualify for insurance discounts in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Canyon. Given the area's severe hail risk with 8-10 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount.
+                  Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4
+                  impact-resistant shingles in Canyon. Given the area's severe hail risk with 8-10
+                  storms annually, these discounts typically pay for the shingle upgrade within 5-7
+                  years. We provide all documentation needed for your insurance company to approve
+                  the discount.
                 </AccordionContent>
               </AccordionItem>
 
@@ -431,7 +599,11 @@ export default function AsphaltShingleRoofingCanyonPage() {
                   How much does asphalt shingle roofing cost in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Asphalt shingle roofing in Canyon typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Canyon homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.
+                  Asphalt shingle roofing in Canyon typically costs $4.50-$8 per square foot
+                  installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4
+                  impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch,
+                  complexity, and shingle quality. Most 2,000 sq ft Canyon homes need $9,000-$16,000
+                  for complete re-roofing. We provide free detailed estimates.
                 </AccordionContent>
               </AccordionItem>
 
@@ -440,7 +612,11 @@ export default function AsphaltShingleRoofingCanyonPage() {
                   Can asphalt shingles withstand Canyon's wind and hail?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Canyon's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection.
+                  Yes, when properly installed with proper nailing patterns and starter strips.
+                  Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking.
+                  Architectural shingles rated for 130+ mph wind resistance handle Canyon's
+                  sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water
+                  shield, and reinforced starter courses for maximum wind and hail protection.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -468,22 +644,28 @@ export default function AsphaltShingleRoofingCanyonPage() {
         </FadeIn>
         <InternalLinks currentCity="canyon" currentService="asphalt-shingle-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Canyon Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Canyon property owners. Expert asphalt shingle roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Canyon property owners. Expert asphalt shingle roofing with
+            comprehensive warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="asphalt-shingle-roofing-canyon" />
+        <RelatedArticles pageSlug="asphalt-shingle-roofing-canyon" />
       </div>
     </>
   );

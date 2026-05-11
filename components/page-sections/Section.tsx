@@ -1,20 +1,20 @@
-import type { ReactNode } from 'react';
-import { cn } from '@/lib/utils';
+import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 export type SectionRecipe =
-  | 'amber-50'
-  | 'white'
-  | 'gold-light'
-  | 'brown-gold'
-  | 'gradient-radial'
-  | 'process-gray'
-  | 'card-warm'
-  | 'page-gradient';
+  | "amber-50"
+  | "white"
+  | "gold-light"
+  | "brown-gold"
+  | "gradient-radial"
+  | "process-gray"
+  | "card-warm"
+  | "page-gradient";
 
 interface SectionProps {
   children: ReactNode;
   recipe?: SectionRecipe;
-  rhythm?: 'major' | 'sub';
+  rhythm?: "major" | "sub";
   belowFold?: boolean;
   id?: string;
   className?: string;
@@ -43,8 +43,8 @@ interface SectionProps {
  */
 export function Section({
   children,
-  recipe = 'amber-50',
-  rhythm = 'sub',
+  recipe = "amber-50",
+  rhythm = "sub",
   belowFold = false,
   id,
   className,
@@ -52,12 +52,12 @@ export function Section({
   fullWidth = false,
 }: SectionProps) {
   const bg = RECIPES[recipe];
-  const rhythmClass = rhythm === 'major' ? 'section-major' : 'section-sub';
+  const rhythmClass = rhythm === "major" ? "section-major" : "section-sub";
 
   const inner = fullWidth ? (
     children
   ) : (
-    <div className={cn('container-custom relative', containerClassName)}>{children}</div>
+    <div className={cn("container-custom relative", containerClassName)}>{children}</div>
   );
 
   return (
@@ -66,8 +66,8 @@ export function Section({
       className={cn(
         rhythmClass,
         bg,
-        belowFold && 'below-fold',
-        'relative overflow-hidden',
+        belowFold && "below-fold",
+        "relative overflow-hidden",
         className,
       )}
     >
@@ -77,14 +77,14 @@ export function Section({
 }
 
 const RECIPES: Record<SectionRecipe, string> = {
-  'amber-50': 'bg-amber-50',
-  'white': 'bg-white',
-  'gold-light': 'bg-brand-gold-light',
-  'brown-gold': 'bg-gradient-to-r from-brand-brown to-brand-gold text-white',
-  'gradient-radial':
-    'bg-gradient-to-b from-white via-orange-50/20 to-white before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_30%_20%,rgba(249,115,22,0.06),transparent_50%)] before:pointer-events-none',
-  'process-gray': 'bg-gradient-to-br from-gray-50 via-slate-50 to-gray-50',
-  'card-warm': 'bg-gradient-to-br from-white to-amber-50',
-  'page-gradient':
-    'bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl mx-4 sm:mx-6 lg:mx-8',
+  "amber-50": "bg-amber-50",
+  white: "bg-white",
+  "gold-light": "bg-brand-gold-light",
+  "brown-gold": "bg-gradient-to-r from-brand-brown to-brand-gold text-white",
+  "gradient-radial":
+    "bg-gradient-to-b from-white via-orange-50/20 to-white before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_30%_20%,rgba(249,115,22,0.06),transparent_50%)] before:pointer-events-none",
+  "process-gray": "bg-gradient-to-br from-gray-50 via-slate-50 to-gray-50",
+  "card-warm": "bg-gradient-to-br from-white to-amber-50",
+  "page-gradient":
+    "bg-gradient-to-br from-gray-50 via-amber-50/40 to-gray-50 rounded-3xl mx-4 sm:mx-6 lg:mx-8",
 };

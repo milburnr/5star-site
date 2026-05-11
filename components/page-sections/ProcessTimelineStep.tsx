@@ -1,4 +1,4 @@
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 interface ProcessTimelineStepProps {
   /** Step number (1-indexed). */
@@ -39,7 +39,7 @@ export function ProcessTimelineStep({
   className,
 }: ProcessTimelineStepProps) {
   return (
-    <div className={cn('flex flex-col', className)}>
+    <div className={cn("flex flex-col", className)}>
       <img
         src={imageSrc}
         srcSet={imageSrcSet}
@@ -52,10 +52,7 @@ export function ProcessTimelineStep({
         fetchPriority="low"
       />
       <div className="flex items-baseline gap-3 mb-2">
-        <span
-          className="text-4xl font-bold text-brand-gold-vibrant"
-          aria-hidden="true"
-        >
+        <span className="text-4xl font-bold text-brand-gold-vibrant" aria-hidden="true">
           {number}
         </span>
         <h3 className="text-xl font-bold text-brand-brown">{title}</h3>

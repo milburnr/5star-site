@@ -16,12 +16,14 @@ import { CloudHail, Landmark, Phone, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
-  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-perryton/' },
+  alternates: { canonical: "https://5starroofingpros.com/roof-repair-perryton/" },
   title: "Roof Repair Perryton TX | 5 Star Roofing",
-  description: "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Roof Repair Perryton TX | 5 Star Roofing",
-    description: "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/roof-repair-perryton/",
     siteName: "5 Star Roofing",
     images: [
@@ -39,149 +41,188 @@ export const metadata: Metadata = {
 
 export default function RoofRepairPerrytonPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Roof Repair",
-                      "url": "/roof-repair/"
-              },
-              {
-                      "name": "Perryton",
-                      "url": "/roof-repair-perryton/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Perryton",
+            url: "/roof-repair-perryton/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/roof-repair-perryton/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 36.4, "longitude": -100.8028 },
-        "url": "https://5starroofingpros.com/roof-repair-perryton/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas", "name": "Perryton", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roof repair services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/roof-repair-perryton/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 36.4, longitude: -100.8028 },
+            url: "https://5starroofingpros.com/roof-repair-perryton/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas",
+              name: "Perryton",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roof repair services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Roof Repair",
-            "provider": {
+            serviceType: "Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas",
-              "name": "Perryton",
-              "containedInPlace": {
+              name: "Perryton",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "How much does roof repair cost in Perryton?",
-                "acceptedAnswer": {
+                name: "How much does roof repair cost in Perryton?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage."
-                }
+                  text: "Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly can you repair my leaking roof in Perryton?",
-                "acceptedAnswer": {
+                name: "How quickly can you repair my leaking roof in Perryton?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
-                }
+                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Should I repair or replace my roof?",
-                "acceptedAnswer": {
+                name: "Should I repair or replace my roof?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation."
-                }
+                  text: "Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do you warranty your roof repairs?",
-                "acceptedAnswer": {
+                name: "Do you warranty your roof repairs?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last."
-                }
+                  text: "Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What are the most common roof repairs in Perryton?",
-                "acceptedAnswer": {
+                name: "What are the most common roof repairs in Perryton?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "In Perryton, the most common repairs include hail-damaged shingles from the area's 7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed flashing around chimneys and vents, and leak repairs. The wheat country agricultural environment with severe Panhandle hailstorms creates specific damage patterns we repair regularly."
-                }
-              }
-            ]
-          })
+                  text: "In Perryton, the most common repairs include hail-damaged shingles from the area's 7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed flashing around chimneys and vents, and leak repairs. The wheat country agricultural environment with severe Panhandle hailstorms creates specific damage patterns we repair regularly.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-orange-900/85 via-red-900/75 to-orange-900/70"></div>
@@ -195,12 +236,17 @@ export default function RoofRepairPerrytonPage() {
                 Fast, Professional Repairs | Same-Day Service Available
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert roof repair in Perryton TX. Texas Panhandle experiences 6-8 hailstorms
+                annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -208,7 +254,6 @@ export default function RoofRepairPerrytonPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -228,14 +273,19 @@ export default function RoofRepairPerrytonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -243,10 +293,16 @@ export default function RoofRepairPerrytonPage() {
               What Makes Our Perryton Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat country agricultural community. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with severe Panhandle hailstorms—demand superior roofing materials and expert installation.
+              Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat
+              country agricultural community. Texas Panhandle weather extremes—6-8 annual
+              hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with
+              severe Panhandle hailstorms—demand superior roofing materials and expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 160+ Perryton properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Perryton property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 160+ Perryton properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with
+              Perryton property owners, and handle complete insurance claims. Most homeowners pay
+              only their deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -257,48 +313,81 @@ export default function RoofRepairPerrytonPage() {
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How much does roof repair cost in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage.
+                  Repair costs vary widely based on damage extent and accessibility. Simple shingle
+                  replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex
+                  structural repairs range from $1,500-$5,000. We provide free inspections with
+                  detailed written estimates before any work begins. Many repairs are
+                  insurance-covered, especially storm damage.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How quickly can you repair my leaking roof in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days.
+                  Standard repairs are typically scheduled within 3-5 business days. Most repairs
+                  complete in 2-4 hours depending on complexity. We understand roof leaks cause
+                  stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Should I repair or replace my roof?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation.
+                  Repair makes sense for roofs under 15 years old with localized damage affecting
+                  less than 30% of surface area. Replacement is recommended when roofs exceed 20
+                  years, show widespread damage, or require multiple repair areas. Our free
+                  inspections provide honest assessments—we recommend the most cost-effective
+                  solution for your situation.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you warranty your roof repairs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last.
+                  Yes, all our repairs include workmanship warranties ranging from 1-5 years
+                  depending on repair type. Materials carry manufacturer warranties. We stand behind
+                  our work—if a repair fails due to installation error, we fix it at no charge. This
+                  warranty protection gives you peace of mind that repairs will last.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What are the most common roof repairs in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  In Perryton, the most common repairs include hail-damaged shingles from the area's 7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed flashing around chimneys and vents, and leak repairs. The wheat country agricultural environment with severe Panhandle hailstorms creates specific damage patterns we repair regularly.
+                  In Perryton, the most common repairs include hail-damaged shingles from the area's
+                  7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed
+                  flashing around chimneys and vents, and leak repairs. The wheat country
+                  agricultural environment with severe Panhandle hailstorms creates specific damage
+                  patterns we repair regularly.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -307,9 +396,20 @@ export default function RoofRepairPerrytonPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Visit Our Amarillo Location</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Visit Our Amarillo Location
+            </h2>
             <div className="flex justify-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl shadow-lg"
+              ></iframe>
             </div>
           </section>
         </FadeIn>
@@ -321,9 +421,13 @@ export default function RoofRepairPerrytonPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Wheat Country Agricultural Specialist</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Wheat Country Agricultural Specialist
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Perryton sits in the heart of Texas wheat country, with vast grain operations and storage facilities throughout Ochiltree County. We specialize in agricultural building roofing designed for grain storage and farm operations.
+                  Perryton sits in the heart of Texas wheat country, with vast grain operations and
+                  storage facilities throughout Ochiltree County. We specialize in agricultural
+                  building roofing designed for grain storage and farm operations.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Grain elevator roofing systems</li>
@@ -334,9 +438,13 @@ export default function RoofRepairPerrytonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Ochiltree County Seat Services</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Ochiltree County Seat Services
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  As Ochiltree County's county seat, Perryton hosts government buildings, courthouse facilities, and municipal structures requiring specialized expertise for public buildings and institutional requirements.
+                  As Ochiltree County's county seat, Perryton hosts government buildings, courthouse
+                  facilities, and municipal structures requiring specialized expertise for public
+                  buildings and institutional requirements.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• County courthouse maintenance</li>
@@ -347,9 +455,13 @@ export default function RoofRepairPerrytonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Extreme Hail Zone Protection</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Extreme Hail Zone Protection
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Perryton experiences some of the most severe hailstorms in the Texas Panhandle, with 8-10 significant events annually. We specialize in hail-resistant roofing systems and rapid storm damage response.
+                  Perryton experiences some of the most severe hailstorms in the Texas Panhandle,
+                  with 8-10 significant events annually. We specialize in hail-resistant roofing
+                  systems and rapid storm damage response.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Impact-resistant roofing systems</li>
@@ -359,9 +471,13 @@ export default function RoofRepairPerrytonPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Rural Community Support</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Rural Community Support
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Perryton serves the broader rural community of Ochiltree County, including ranch properties, farm residences, and rural commercial buildings that require specialized roofing approaches.
+                  Perryton serves the broader rural community of Ochiltree County, including ranch
+                  properties, farm residences, and rural commercial buildings that require
+                  specialized roofing approaches.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Rural residential services</li>
@@ -381,40 +497,60 @@ export default function RoofRepairPerrytonPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Wheat className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Wheat Production</h3>
                 <p className="text-gray-700">
-                  Perryton serves as a major wheat production center with massive grain elevators and storage facilities requiring specialized roofing systems capable of handling structural loads and moisture control.
+                  Perryton serves as a major wheat production center with massive grain elevators
+                  and storage facilities requiring specialized roofing systems capable of handling
+                  structural loads and moisture control.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><CloudHail className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <CloudHail className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Extreme Hail Events</h3>
                 <p className="text-gray-700">
-                  Perryton sits directly in "Hail Alley," experiencing 8-10 severe hailstorms annually with hail sizes frequently exceeding baseball diameter, creating unique roofing challenges.
+                  Perryton sits directly in "Hail Alley," experiencing 8-10 severe hailstorms
+                  annually with hail sizes frequently exceeding baseball diameter, creating unique
+                  roofing challenges.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Landmark className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Landmark className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">County Services</h3>
                 <p className="text-gray-700">
-                  As Ochiltree County's seat, Perryton maintains essential government services and facilities requiring specialized roofing knowledge for public buildings and institutional structures.
+                  As Ochiltree County's seat, Perryton maintains essential government services and
+                  facilities requiring specialized roofing knowledge for public buildings and
+                  institutional structures.
                 </p>
               </div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Environment Impact</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Agricultural Environment Impact
+              </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Grain Dust Exposure</h4>
                   <p className="text-gray-700 mb-4">
-                    Wheat processing and storage operations create significant airborne grain dust that can accumulate on roof surfaces and clog drainage systems, requiring specialized maintenance approaches.
+                    Wheat processing and storage operations create significant airborne grain dust
+                    that can accumulate on roof surfaces and clog drainage systems, requiring
+                    specialized maintenance approaches.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg mb-2 text-brand-gold">Agricultural Chemical Exposure</h4>
+                  <h4 className="font-bold text-lg mb-2 text-brand-gold">
+                    Agricultural Chemical Exposure
+                  </h4>
                   <p className="text-gray-700 mb-4">
-                    Farming operations use herbicides, pesticides, and fertilizers that can create airborne chemicals affecting roofing material longevity and requiring resistant material selection.
+                    Farming operations use herbicides, pesticides, and fertilizers that can create
+                    airborne chemicals affecting roofing material longevity and requiring resistant
+                    material selection.
                   </p>
                 </div>
               </div>
@@ -430,11 +566,17 @@ export default function RoofRepairPerrytonPage() {
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    1
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Schedule Coordination</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Agricultural Schedule Coordination
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Understanding that Perryton's wheat operations follow strict seasonal schedules tied to planting, harvest, and storage, we coordinate our storm response around critical agricultural timing.
+                      Understanding that Perryton's wheat operations follow strict seasonal
+                      schedules tied to planting, harvest, and storage, we coordinate our storm
+                      response around critical agricultural timing.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Harvest season priority scheduling</li>
@@ -448,11 +590,17 @@ export default function RoofRepairPerrytonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    2
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Severe Weather Damage Assessment</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Severe Weather Damage Assessment
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our inspectors specialize in evaluating hail damage patterns specific to Perryton's severe weather zone, understanding how extreme hailstorms affect different roofing materials and building types.
+                      Our inspectors specialize in evaluating hail damage patterns specific to
+                      Perryton's severe weather zone, understanding how extreme hailstorms affect
+                      different roofing materials and building types.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Extreme hail damage evaluation</li>
@@ -466,11 +614,17 @@ export default function RoofRepairPerrytonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    3
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Impact-Resistant Material Selection</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Impact-Resistant Material Selection
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Given Perryton's location in extreme hail territory, we specify the highest impact-resistance rated materials available, designed specifically for severe weather zones like Ochiltree County.
+                      Given Perryton's location in extreme hail territory, we specify the highest
+                      impact-resistance rated materials available, designed specifically for severe
+                      weather zones like Ochiltree County.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Class 4 impact-resistant shingles</li>
@@ -484,11 +638,17 @@ export default function RoofRepairPerrytonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    4
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Weather-Resistant Installation</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Weather-Resistant Installation
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our installation teams use enhanced attachment methods and sealing techniques designed for extreme weather zones, ensuring repairs can withstand future hailstorms and High Plains winds.
+                      Our installation teams use enhanced attachment methods and sealing techniques
+                      designed for extreme weather zones, ensuring repairs can withstand future
+                      hailstorms and High Plains winds.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Enhanced attachment systems</li>
@@ -502,11 +662,17 @@ export default function RoofRepairPerrytonPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    5
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Severe Weather Zone Monitoring</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Severe Weather Zone Monitoring
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Given Perryton's extreme weather exposure, we provide enhanced post-repair monitoring and proactive storm damage assessment to ensure continued protection through severe weather seasons.
+                      Given Perryton's extreme weather exposure, we provide enhanced post-repair
+                      monitoring and proactive storm damage assessment to ensure continued
+                      protection through severe weather seasons.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Storm season monitoring</li>
@@ -530,7 +696,9 @@ export default function RoofRepairPerrytonPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Wheat Country Expertise</h3>
                 <p className="text-gray-700 mb-4">
-                  We understand the unique demands of agricultural buildings in wheat country, from massive grain storage facilities to farm equipment shelters that require specialized roofing approaches.
+                  We understand the unique demands of agricultural buildings in wheat country, from
+                  massive grain storage facilities to farm equipment shelters that require
+                  specialized roofing approaches.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• 200+ Perryton area projects completed</li>
@@ -541,9 +709,13 @@ export default function RoofRepairPerrytonPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Extreme Weather Specialists</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Extreme Weather Specialists
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Perryton's location in the most severe hail zone of the Texas Panhandle demands specialized expertise in impact-resistant materials and extreme weather damage assessment.
+                  Perryton's location in the most severe hail zone of the Texas Panhandle demands
+                  specialized expertise in impact-resistant materials and extreme weather damage
+                  assessment.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Extreme hail damage expertise</li>
@@ -554,9 +726,13 @@ export default function RoofRepairPerrytonPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Schedule Accommodation</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Agricultural Schedule Accommodation
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  We understand that agricultural operations in wheat country follow critical seasonal schedules. Our storm response and scheduling accommodate the demands of farming cycles.
+                  We understand that agricultural operations in wheat country follow critical
+                  seasonal schedules. Our storm response and scheduling accommodate the demands of
+                  farming cycles.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Harvest season scheduling</li>
@@ -567,9 +743,13 @@ export default function RoofRepairPerrytonPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Ochiltree County Compliance</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Ochiltree County Compliance
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  As the county seat, Perryton requires specialized knowledge of local building codes, government building requirements, and rural property considerations throughout Ochiltree County.
+                  As the county seat, Perryton requires specialized knowledge of local building
+                  codes, government building requirements, and rural property considerations
+                  throughout Ochiltree County.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• County building code expertise</li>
@@ -589,7 +769,9 @@ export default function RoofRepairPerrytonPage() {
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">
-                From our Amarillo headquarters, we serve Perryton and the broader Ochiltree County wheat production region, including agricultural, residential, and government properties:
+                From our Amarillo headquarters, we serve Perryton and the broader Ochiltree County
+                wheat production region, including agricultural, residential, and government
+                properties:
               </p>
               <div className="grid md:grid-cols-4 gap-4 text-center">
                 <div className="p-4 bg-gray-50 rounded-lg">
@@ -610,9 +792,13 @@ export default function RoofRepairPerrytonPage() {
                 </div>
               </div>
               <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
-                <h4 className="text-lg font-bold text-brand-brown mb-2">Ochiltree County Wheat District</h4>
+                <h4 className="text-lg font-bold text-brand-brown mb-2">
+                  Ochiltree County Wheat District
+                </h4>
                 <p className="text-gray-700">
-                  We serve the extensive wheat production operations throughout Ochiltree County, including grain elevators, storage facilities, and farm buildings that support the region's agricultural economy.
+                  We serve the extensive wheat production operations throughout Ochiltree County,
+                  including grain elevators, storage facilities, and farm buildings that support the
+                  region's agricultural economy.
                 </p>
               </div>
             </div>
@@ -620,22 +806,28 @@ export default function RoofRepairPerrytonPage() {
         </FadeIn>
         <InternalLinks currentCity="perryton" currentService="roof-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Perryton Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Perryton property owners. Expert roof repair with comprehensive warranties and insurance claim assistance.
+            Free inspections for Perryton property owners. Expert roof repair with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="roof-repair-perryton" />
+        <RelatedArticles pageSlug="roof-repair-perryton" />
       </div>
     </>
   );

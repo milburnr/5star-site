@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Factory, Phone, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-dumas/' },
+  alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-dumas/" },
   title: "TPO Roofing Dumas TX | 5 Star Roofing",
-  description: "Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "TPO Roofing Dumas TX | 5 Star Roofing",
-    description: "Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/tpo-roofing-dumas/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,148 +40,187 @@ export const metadata: Metadata = {
 
 export default function TpoRoofingDumasPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "TPO Roofing",
-                      "url": "/tpo-roofing/"
-              },
-              {
-                      "name": "Dumas",
-                      "url": "/tpo-roofing-dumas/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Dumas",
+            url: "/tpo-roofing-dumas/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/tpo-roofing-dumas/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.8656, "longitude": -101.973 },
-        "url": "https://5starroofingpros.com/tpo-roofing-dumas/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert tpo roofing services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/tpo-roofing-dumas/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.8656, longitude: -101.973 },
+            url: "https://5starroofingpros.com/tpo-roofing-dumas/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
+              name: "Dumas",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert tpo roofing services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "TPO Roofing",
-            "provider": {
+            serviceType: "TPO Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
-              "name": "Dumas",
-              "containedInPlace": {
+              name: "Dumas",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert TPO roofing in Dumas TX. Texas Panhandle agricultural center experiences 7-9 hailstorms annually. Energy-efficient commercial systems."
-          })
+            description:
+              "Expert TPO roofing in Dumas TX. Texas Panhandle agricultural center experiences 7-9 hailstorms annually. Energy-efficient commercial systems.",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "Why is TPO roofing ideal for Dumas commercial buildings?",
-                "acceptedAnswer": {
+                name: "Why is TPO roofing ideal for Dumas commercial buildings?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "TPO roofing excels in Dumas's Texas Panhandle climate due to its white reflective surface that reduces cooling costs in extreme heat, superior resistance to UV degradation, excellent performance against hail damage from 7-9 annual storms, and strong wind uplift resistance for High Plains winds 60+ mph. TPO's heat-welded seams create watertight bonds critical for Dumas's severe weather and agricultural environment."
-                }
+                  text: "TPO roofing excels in Dumas's Texas Panhandle climate due to its white reflective surface that reduces cooling costs in extreme heat, superior resistance to UV degradation, excellent performance against hail damage from 7-9 annual storms, and strong wind uplift resistance for High Plains winds 60+ mph. TPO's heat-welded seams create watertight bonds critical for Dumas's severe weather and agricultural environment.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How long does TPO roofing last in Dumas's climate?",
-                "acceptedAnswer": {
+                name: "How long does TPO roofing last in Dumas's climate?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Quality TPO roofing systems typically last 20-30 years in Dumas when properly installed and maintained. The Texas Panhandle's intense sun, temperature fluctuations, and agricultural environment can stress roofing materials, but TPO's UV resistance and flexibility help it withstand these conditions. Regular inspections after hailstorms extend system lifespan."
-                }
+                  text: "Quality TPO roofing systems typically last 20-30 years in Dumas when properly installed and maintained. The Texas Panhandle's intense sun, temperature fluctuations, and agricultural environment can stress roofing materials, but TPO's UV resistance and flexibility help it withstand these conditions. Regular inspections after hailstorms extend system lifespan.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Is TPO roofing energy-efficient for Dumas businesses?",
-                "acceptedAnswer": {
+                name: "Is TPO roofing energy-efficient for Dumas businesses?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, TPO's white reflective surface significantly reduces cooling costs in Dumas's hot climate. The membrane reflects sunlight and heat, keeping building interiors cooler. Many Dumas commercial property owners see 20-30% reductions in summer cooling expenses. TPO roofing often qualifies for energy efficiency tax credits and utility rebates."
-                }
+                  text: "Yes, TPO's white reflective surface significantly reduces cooling costs in Dumas's hot climate. The membrane reflects sunlight and heat, keeping building interiors cooler. Many Dumas commercial property owners see 20-30% reductions in summer cooling expenses. TPO roofing often qualifies for energy efficiency tax credits and utility rebates.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does TPO roofing cost in Dumas?",
-                "acceptedAnswer": {
+                name: "How much does TPO roofing cost in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "TPO roofing in Dumas typically costs $4-8 per square foot installed, depending on building size, roof complexity, insulation requirements, and membrane thickness. While initial costs are moderate, TPO provides excellent long-term value through energy savings, durability, and low maintenance requirements. We provide free estimates for Dumas commercial properties."
-                }
+                  text: "TPO roofing in Dumas typically costs $4-8 per square foot installed, depending on building size, roof complexity, insulation requirements, and membrane thickness. While initial costs are moderate, TPO provides excellent long-term value through energy savings, durability, and low maintenance requirements. We provide free estimates for Dumas commercial properties.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can TPO roofing withstand Dumas's hailstorms?",
-                "acceptedAnswer": {
+                name: "Can TPO roofing withstand Dumas's hailstorms?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, properly installed TPO roofing with adequate membrane thickness (60-80 mil) provides excellent hail resistance for Dumas's 7-9 annual hailstorms. TPO's flexibility allows it to absorb impacts without puncturing. We recommend reinforced TPO systems for Texas Panhandle properties in high-risk hail zones. Many insurance companies offer premium discounts for impact-resistant TPO installations."
-                }
-              }
-            ]
-          })
+                  text: "Yes, properly installed TPO roofing with adequate membrane thickness (60-80 mil) provides excellent hail resistance for Dumas's 7-9 annual hailstorms. TPO's flexibility allows it to absorb impacts without puncturing. We recommend reinforced TPO systems for Texas Panhandle properties in high-risk hail zones. Many insurance companies offer premium discounts for impact-resistant TPO installations.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
@@ -193,12 +234,17 @@ export default function TpoRoofingDumasPage() {
                 Energy-Efficient TPO Systems | Commercial Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually. Agricultural center. Free inspections. Call (806) 622-6041
+                Expert tpo roofing in Dumas TX. Texas Panhandle experiences 7-9 hailstorms annually.
+                Agricultural center. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -206,7 +252,6 @@ export default function TpoRoofingDumasPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -226,14 +271,19 @@ export default function TpoRoofingDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -241,10 +291,16 @@ export default function TpoRoofingDumasPage() {
               What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Dumas's location in the Texas Panhandle creates unique roofing challenges. Industrial petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural environment with petrochemical operations and Panhandle weather extremes—demand superior roofing materials and expert installation.
+              Dumas's location in the Texas Panhandle creates unique roofing challenges. Industrial
+              petrochemical center. Texas Panhandle weather extremes—6-8 annual hailstorms, High
+              Plains winds 60+ mph, and agricultural environment with petrochemical operations and
+              Panhandle weather extremes—demand superior roofing materials and expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Dumas properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Dumas agricultural property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 180+ Dumas properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with Dumas
+              agricultural property owners, and handle complete insurance claims. Most homeowners
+              pay only their deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -256,33 +312,74 @@ export default function TpoRoofingDumasPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Agricultural Applications</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Wheat className="w-6 h-6 inline-block" /> Agricultural Applications
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Grain storage facilities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Equipment buildings and barns</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Feed mills and processing plants</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Agricultural supply warehouses</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Administrative farm offices</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Grain storage facilities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Equipment buildings and barns
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Feed mills and processing plants
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Agricultural supply warehouses
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Administrative farm offices
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Factory className="w-6 h-6 inline-block" /> Industrial Solutions</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Factory className="w-6 h-6 inline-block" /> Industrial Solutions
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Manufacturing and processing facilities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical resistant membranes</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />High-temperature performance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Easy maintenance and cleaning</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Long-term durability guarantees</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Manufacturing and processing facilities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Chemical resistant membranes
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    High-temperature performance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Easy maintenance and cleaning
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Long-term durability guarantees
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="bg-gradient-to-r from-green-50 to-amber-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Dumas's Agricultural Climate Challenges</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Dumas's Agricultural Climate Challenges
+              </h3>
               <p className="text-lg text-gray-700 mb-4">
-                As a major agricultural center in the Texas Panhandle, Dumas faces unique roofing challenges from dust, chemicals, extreme temperature variations, and frequent severe weather. Agricultural facilities require roofing systems that can withstand chemical exposure from fertilizers and pesticides while maintaining energy efficiency.
+                As a major agricultural center in the Texas Panhandle, Dumas faces unique roofing
+                challenges from dust, chemicals, extreme temperature variations, and frequent severe
+                weather. Agricultural facilities require roofing systems that can withstand chemical
+                exposure from fertilizers and pesticides while maintaining energy efficiency.
               </p>
               <p className="text-lg text-gray-700">
-                TPO roofing provides exceptional chemical resistance, easy cleaning capabilities, and excellent thermal performance - making it ideal for Dumas's agricultural and industrial applications.
+                TPO roofing provides exceptional chemical resistance, easy cleaning capabilities,
+                and excellent thermal performance - making it ideal for Dumas's agricultural and
+                industrial applications.
               </p>
             </div>
           </section>
@@ -295,9 +392,12 @@ export default function TpoRoofingDumasPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Standard TPO (45-60 mil)</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                  Standard TPO (45-60 mil)
+                </h3>
                 <p className="text-gray-700 mb-3">
-                  Cost-effective solution for basic commercial applications with moderate weather exposure.
+                  Cost-effective solution for basic commercial applications with moderate weather
+                  exposure.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Excellent for office buildings</li>
@@ -307,9 +407,12 @@ export default function TpoRoofingDumasPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg border">
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Reinforced TPO (60-80 mil)</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                  Reinforced TPO (60-80 mil)
+                </h3>
                 <p className="text-gray-700 mb-3">
-                  Enhanced thickness for superior hail resistance and extended lifespan in Dumas's challenging climate.
+                  Enhanced thickness for superior hail resistance and extended lifespan in Dumas's
+                  challenging climate.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Superior hail impact resistance</li>
@@ -321,7 +424,8 @@ export default function TpoRoofingDumasPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Premium TPO (80+ mil)</h3>
                 <p className="text-gray-700 mb-3">
-                  Maximum performance for critical applications requiring ultimate durability and chemical resistance.
+                  Maximum performance for critical applications requiring ultimate durability and
+                  chemical resistance.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Maximum chemical resistance</li>
@@ -340,12 +444,16 @@ export default function TpoRoofingDumasPage() {
               What Agricultural Facility Roofing Considerations?
             </h2>
             <div className="bg-gradient-to-br from-amber-50 to-green-50 p-8 rounded-2xl mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Chemical Resistance & Durability</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">
+                Chemical Resistance & Durability
+              </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="text-xl font-bold mb-3">Chemical Exposure Protection</h4>
                   <p className="text-gray-700 mb-4">
-                    Agricultural operations often involve exposure to fertilizers, pesticides, and other chemicals. TPO membranes provide excellent resistance to chemical degradation.
+                    Agricultural operations often involve exposure to fertilizers, pesticides, and
+                    other chemicals. TPO membranes provide excellent resistance to chemical
+                    degradation.
                   </p>
                   <ul className="text-gray-600 space-y-1">
                     <li>• Resistant to fertilizer runoff</li>
@@ -357,7 +465,8 @@ export default function TpoRoofingDumasPage() {
                 <div>
                   <h4 className="text-xl font-bold mb-3">Agricultural Building Requirements</h4>
                   <p className="text-gray-700 mb-4">
-                    Farm buildings require specialized roofing considerations for optimal performance and code compliance in agricultural applications.
+                    Farm buildings require specialized roofing considerations for optimal
+                    performance and code compliance in agricultural applications.
                   </p>
                   <ul className="text-gray-600 space-y-1">
                     <li>• Large span capability</li>
@@ -377,12 +486,16 @@ export default function TpoRoofingDumasPage() {
               How Does This Roofing Improve Energy Efficiency?
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg border mb-8">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Cost Savings for Agricultural Operations</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">
+                Cost Savings for Agricultural Operations
+              </h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center p-4">
                   <div className="text-3xl font-bold text-brand-gold mb-2">35%</div>
                   <div className="font-semibold mb-1">Cooling Reduction</div>
-                  <div className="text-gray-600 text-sm">Summer energy savings for grain storage</div>
+                  <div className="text-gray-600 text-sm">
+                    Summer energy savings for grain storage
+                  </div>
                 </div>
                 <div className="text-center p-4">
                   <div className="text-3xl font-bold text-brand-gold mb-2">$12K</div>
@@ -400,7 +513,8 @@ export default function TpoRoofingDumasPage() {
               <div className="bg-amber-50 p-6 rounded-xl">
                 <h4 className="text-xl font-bold mb-3">Equipment Protection</h4>
                 <p className="text-gray-700 mb-3">
-                  Cooler building temperatures extend equipment life and reduce maintenance costs for sensitive agricultural machinery and storage systems.
+                  Cooler building temperatures extend equipment life and reduce maintenance costs
+                  for sensitive agricultural machinery and storage systems.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Reduced HVAC strain</li>
@@ -412,7 +526,8 @@ export default function TpoRoofingDumasPage() {
               <div className="bg-green-50 p-6 rounded-xl">
                 <h4 className="text-xl font-bold mb-3">Environmental Benefits</h4>
                 <p className="text-gray-700 mb-3">
-                  Energy-efficient roofing reduces environmental impact while qualifying for agricultural tax incentives and sustainability programs.
+                  Energy-efficient roofing reduces environmental impact while qualifying for
+                  agricultural tax incentives and sustainability programs.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Reduced carbon footprint</li>
@@ -436,7 +551,12 @@ export default function TpoRoofingDumasPage() {
                   Why is TPO roofing ideal for Dumas commercial buildings?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  TPO roofing excels in Dumas's Texas Panhandle climate due to its white reflective surface that reduces cooling costs in extreme heat, superior resistance to UV degradation, excellent performance against hail damage from 7-9 annual storms, and strong wind uplift resistance for High Plains winds 60+ mph. TPO's heat-welded seams create watertight bonds critical for Dumas's severe weather and agricultural environment.
+                  TPO roofing excels in Dumas's Texas Panhandle climate due to its white reflective
+                  surface that reduces cooling costs in extreme heat, superior resistance to UV
+                  degradation, excellent performance against hail damage from 7-9 annual storms, and
+                  strong wind uplift resistance for High Plains winds 60+ mph. TPO's heat-welded
+                  seams create watertight bonds critical for Dumas's severe weather and agricultural
+                  environment.
                 </AccordionContent>
               </AccordionItem>
 
@@ -445,7 +565,11 @@ export default function TpoRoofingDumasPage() {
                   How long does TPO roofing last in Dumas's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Quality TPO roofing systems typically last 20-30 years in Dumas when properly installed and maintained. The Texas Panhandle's intense sun, temperature fluctuations, and agricultural environment can stress roofing materials, but TPO's UV resistance and flexibility help it withstand these conditions. Regular inspections after hailstorms extend system lifespan.
+                  Quality TPO roofing systems typically last 20-30 years in Dumas when properly
+                  installed and maintained. The Texas Panhandle's intense sun, temperature
+                  fluctuations, and agricultural environment can stress roofing materials, but TPO's
+                  UV resistance and flexibility help it withstand these conditions. Regular
+                  inspections after hailstorms extend system lifespan.
                 </AccordionContent>
               </AccordionItem>
 
@@ -454,7 +578,11 @@ export default function TpoRoofingDumasPage() {
                   Is TPO roofing energy-efficient for Dumas businesses?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, TPO's white reflective surface significantly reduces cooling costs in Dumas's hot climate. The membrane reflects sunlight and heat, keeping building interiors cooler. Many Dumas commercial property owners see 20-30% reductions in summer cooling expenses. TPO roofing often qualifies for energy efficiency tax credits and utility rebates.
+                  Yes, TPO's white reflective surface significantly reduces cooling costs in Dumas's
+                  hot climate. The membrane reflects sunlight and heat, keeping building interiors
+                  cooler. Many Dumas commercial property owners see 20-30% reductions in summer
+                  cooling expenses. TPO roofing often qualifies for energy efficiency tax credits
+                  and utility rebates.
                 </AccordionContent>
               </AccordionItem>
 
@@ -463,7 +591,11 @@ export default function TpoRoofingDumasPage() {
                   How much does TPO roofing cost in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  TPO roofing in Dumas typically costs $4-8 per square foot installed, depending on building size, roof complexity, insulation requirements, and membrane thickness. While initial costs are moderate, TPO provides excellent long-term value through energy savings, durability, and low maintenance requirements. We provide free estimates for Dumas commercial properties.
+                  TPO roofing in Dumas typically costs $4-8 per square foot installed, depending on
+                  building size, roof complexity, insulation requirements, and membrane thickness.
+                  While initial costs are moderate, TPO provides excellent long-term value through
+                  energy savings, durability, and low maintenance requirements. We provide free
+                  estimates for Dumas commercial properties.
                 </AccordionContent>
               </AccordionItem>
 
@@ -472,7 +604,12 @@ export default function TpoRoofingDumasPage() {
                   Can TPO roofing withstand Dumas's hailstorms?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, properly installed TPO roofing with adequate membrane thickness (60-80 mil) provides excellent hail resistance for Dumas's 7-9 annual hailstorms. TPO's flexibility allows it to absorb impacts without puncturing. We recommend reinforced TPO systems for Texas Panhandle properties in high-risk hail zones. Many insurance companies offer premium discounts for impact-resistant TPO installations.
+                  Yes, properly installed TPO roofing with adequate membrane thickness (60-80 mil)
+                  provides excellent hail resistance for Dumas's 7-9 annual hailstorms. TPO's
+                  flexibility allows it to absorb impacts without puncturing. We recommend
+                  reinforced TPO systems for Texas Panhandle properties in high-risk hail zones.
+                  Many insurance companies offer premium discounts for impact-resistant TPO
+                  installations.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -500,22 +637,28 @@ export default function TpoRoofingDumasPage() {
         </FadeIn>
         <InternalLinks currentCity="dumas" currentService="tpo-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Dumas Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Dumas agricultural property owners. Expert tpo roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Dumas agricultural property owners. Expert tpo roofing with
+            comprehensive warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="tpo-roofing-dumas" />
+        <RelatedArticles pageSlug="tpo-roofing-dumas" />
       </div>
     </>
   );

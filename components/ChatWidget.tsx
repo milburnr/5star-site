@@ -25,20 +25,14 @@ export function ChatWidget() {
     let timeoutId: ReturnType<typeof setTimeout> | undefined;
     let interactionListeners: Array<[string, EventListener]> = [];
 
-    const hasContactForm = () =>
-      document.body.hasAttribute("data-has-contact-form");
+    const hasContactForm = () => document.body.hasAttribute("data-has-contact-form");
 
     const setVisible = (visible: boolean) => {
-      document.documentElement.setAttribute(
-        "data-chat-hidden",
-        visible ? "0" : "1"
-      );
+      document.documentElement.setAttribute("data-chat-hidden", visible ? "0" : "1");
     };
 
     const cleanupListeners = () => {
-      interactionListeners.forEach(([e, h]) =>
-        document.removeEventListener(e, h)
-      );
+      interactionListeners.forEach(([e, h]) => document.removeEventListener(e, h));
       interactionListeners = [];
     };
 
@@ -62,9 +56,7 @@ export function ChatWidget() {
 
       // a11y: label the close-prompt button once the widget renders
       const observer = new MutationObserver((_, obs) => {
-        const btn = document.querySelector(
-          "button.lc_text-widget_prompt--prompt-close"
-        );
+        const btn = document.querySelector("button.lc_text-widget_prompt--prompt-close");
         if (btn) {
           btn.setAttribute("aria-label", "Close chat prompt");
           obs.disconnect();

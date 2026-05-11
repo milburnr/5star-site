@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Shield, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-dumas/' },
+  alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/" },
   title: "Asphalt Shingle Roofing Dumas TX | 5 Star Roofing",
-  description: "Asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  description:
+    "Asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Asphalt Shingle Roofing Dumas TX | 5 Star Roofing",
-    description: "Asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,149 +40,188 @@ export const metadata: Metadata = {
 
 export default function AsphaltShingleRoofingDumasPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Asphalt Shingle Roofing",
-                      "url": "/asphalt-shingle-roofing/"
-              },
-              {
-                      "name": "Dumas",
-                      "url": "/asphalt-shingle-roofing-dumas/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Dumas",
+            url: "/asphalt-shingle-roofing-dumas/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.8656, "longitude": -101.973 },
-        "url": "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert asphalt shingle roofing services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.8656, longitude: -101.973 },
+            url: "https://5starroofingpros.com/asphalt-shingle-roofing-dumas/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
+              name: "Dumas",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert asphalt shingle roofing services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Asphalt Shingle Roofing",
-            "provider": {
+            serviceType: "Asphalt Shingle Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
-              "name": "Dumas",
-              "containedInPlace": {
+              name: "Dumas",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "What are the best asphalt shingles for Dumas's climate?",
-                "acceptedAnswer": {
+                name: "What are the best asphalt shingles for Dumas's climate?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Class 4 impact-resistant architectural shingles are essential for Dumas's 7-9 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties."
-                }
+                  text: "Class 4 impact-resistant architectural shingles are essential for Dumas's 7-9 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How long do asphalt shingles last in Dumas?",
-                "acceptedAnswer": {
+                name: "How long do asphalt shingles last in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate."
-                }
+                  text: "Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do Class 4 shingles qualify for insurance discounts in Dumas?",
-                "acceptedAnswer": {
+                name: "Do Class 4 shingles qualify for insurance discounts in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Dumas. Given the area's severe hail risk with 7-9 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount."
-                }
+                  text: "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Dumas. Given the area's severe hail risk with 7-9 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does asphalt shingle roofing cost in Dumas?",
-                "acceptedAnswer": {
+                name: "How much does asphalt shingle roofing cost in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Asphalt shingle roofing in Dumas typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Dumas homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates."
-                }
+                  text: "Asphalt shingle roofing in Dumas typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Dumas homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can asphalt shingles withstand Dumas's wind and hail?",
-                "acceptedAnswer": {
+                name: "Can asphalt shingles withstand Dumas's wind and hail?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Dumas's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection."
-                }
-              }
-            ]
-          })
+                  text: "Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Dumas's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-brown-900/75 to-orange-900/70"></div>
@@ -194,12 +235,18 @@ export default function AsphaltShingleRoofingDumasPage() {
                 Class 4 Impact-Resistant Shingles | Premium Brands
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert asphalt shingle roofing in Dumas TX. Texas Panhandle experiences 6-8
+                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
+                622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -207,7 +254,6 @@ export default function AsphaltShingleRoofingDumasPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -227,14 +273,19 @@ export default function AsphaltShingleRoofingDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -242,10 +293,17 @@ export default function AsphaltShingleRoofingDumasPage() {
               What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
+              Dumas's location in the Texas Panhandle creates unique roofing challenges.
+              Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual
+              hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands
+              with extreme Panhandle weather—demand superior roofing materials and expert
+              installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Dumas property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with Dumas
+              property owners, and handle complete insurance claims. Most homeowners pay only their
+              deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -257,33 +315,74 @@ export default function AsphaltShingleRoofingDumasPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Rural & Agricultural Homes</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Wheat className="w-6 h-6 inline-block" /> Rural & Agricultural Homes
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Farm and ranch properties</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Rural residential communities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Agricultural worker housing</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Large acreage homes</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Multi-building properties</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Farm and ranch properties
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Rural residential communities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Agricultural worker housing
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Large acreage homes
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Multi-building properties
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Shield className="w-6 h-6 inline-block" /> Durability Features</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Shield className="w-6 h-6 inline-block" /> Durability Features
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical-resistant formulations</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced wind uplift resistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Algae and moss resistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Extended warranty coverage</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Easy maintenance requirements</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Chemical-resistant formulations
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Enhanced wind uplift resistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Algae and moss resistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Extended warranty coverage
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Easy maintenance requirements
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Dumas Agricultural Environment Considerations</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Dumas Agricultural Environment Considerations
+              </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Dumas-area homes face unique challenges from agricultural operations including dust exposure, chemical drift from farming activities, and the need for roofing systems that can withstand rural environmental conditions while remaining cost-effective for farm families.
+                Dumas-area homes face unique challenges from agricultural operations including dust
+                exposure, chemical drift from farming activities, and the need for roofing systems
+                that can withstand rural environmental conditions while remaining cost-effective for
+                farm families.
               </p>
               <p className="text-lg text-gray-700">
-                Our specially selected asphalt shingle systems are designed to resist agricultural contaminants, provide superior weather protection, and offer the value that farming families need for their residential roofing investments.
+                Our specially selected asphalt shingle systems are designed to resist agricultural
+                contaminants, provide superior weather protection, and offer the value that farming
+                families need for their residential roofing investments.
               </p>
             </div>
           </section>
@@ -298,7 +397,8 @@ export default function AsphaltShingleRoofingDumasPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Enhanced Granules</h3>
                 <p className="text-gray-700 mb-3">
-                  Ceramic-coated granules resist chemical degradation from agricultural operations near Dumas homes.
+                  Ceramic-coated granules resist chemical degradation from agricultural operations
+                  near Dumas homes.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Fertilizer exposure resistance</li>
@@ -310,7 +410,8 @@ export default function AsphaltShingleRoofingDumasPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Modified Asphalt</h3>
                 <p className="text-gray-700 mb-3">
-                  SBS modified asphalt base provides enhanced flexibility and chemical resistance for rural applications.
+                  SBS modified asphalt base provides enhanced flexibility and chemical resistance
+                  for rural applications.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Superior flexibility</li>
@@ -322,7 +423,8 @@ export default function AsphaltShingleRoofingDumasPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Algae Resistance</h3>
                 <p className="text-gray-700 mb-3">
-                  Copper-containing granules prevent algae growth common in agricultural environments with high humidity.
+                  Copper-containing granules prevent algae growth common in agricultural
+                  environments with high humidity.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Algae growth prevention</li>
@@ -345,7 +447,9 @@ export default function AsphaltShingleRoofingDumasPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Farm Family Value</h3>
                   <p className="text-gray-700 mb-4">
-                    We understand agricultural families need maximum value from their roofing investment. Our solutions provide excellent protection at prices that fit farm budgets.
+                    We understand agricultural families need maximum value from their roofing
+                    investment. Our solutions provide excellent protection at prices that fit farm
+                    budgets.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Competitive agricultural pricing</li>
@@ -355,9 +459,12 @@ export default function AsphaltShingleRoofingDumasPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Multi-Building Projects</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Multi-Building Projects
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    Many Dumas properties include multiple buildings. We offer package pricing for homes, barns, and outbuildings on the same property.
+                    Many Dumas properties include multiple buildings. We offer package pricing for
+                    homes, barns, and outbuildings on the same property.
                   </p>
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div className="p-3 bg-green-50 rounded">
@@ -381,13 +488,35 @@ export default function AsphaltShingleRoofingDumasPage() {
               Why Standard Shingles Fail Faster in Dumas
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Dumas sits in Moore County at roughly 3,600 feet elevation in the northern Texas Panhandle &mdash; an environment that shortens the life of standard asphalt shingles well beyond what manufacturers&apos; warranties suggest. Sustained winds averaging 15 mph or higher are a daily reality here, not an occasional event. That constant wind stress works on shingle adhesive strips and edge seals month after month, gradually lifting tabs and breaking the bond that keeps shingles flat against the deck. Once edges begin to lift, wind-driven rain and dust work underneath, accelerating deterioration from both sides.
+              Dumas sits in Moore County at roughly 3,600 feet elevation in the northern Texas
+              Panhandle &mdash; an environment that shortens the life of standard asphalt shingles
+              well beyond what manufacturers&apos; warranties suggest. Sustained winds averaging 15
+              mph or higher are a daily reality here, not an occasional event. That constant wind
+              stress works on shingle adhesive strips and edge seals month after month, gradually
+              lifting tabs and breaking the bond that keeps shingles flat against the deck. Once
+              edges begin to lift, wind-driven rain and dust work underneath, accelerating
+              deterioration from both sides.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              The agricultural environment around Dumas compounds the problem. Cattle feedlot operations in Moore County produce airborne ammonia and hydrogen sulfide that settle on roof surfaces. Over time, these compounds react with the petroleum-based asphalt binder in shingles, softening it and loosening the ceramic granules that serve as the shingle&apos;s primary UV and weather barrier. Dust from farming operations &mdash; particularly during wheat harvest and field preparation &mdash; acts as an abrasive when driven across roof surfaces by Panhandle winds, scouring away granules that would otherwise last decades in a milder environment.
+              The agricultural environment around Dumas compounds the problem. Cattle feedlot
+              operations in Moore County produce airborne ammonia and hydrogen sulfide that settle
+              on roof surfaces. Over time, these compounds react with the petroleum-based asphalt
+              binder in shingles, softening it and loosening the ceramic granules that serve as the
+              shingle&apos;s primary UV and weather barrier. Dust from farming operations &mdash;
+              particularly during wheat harvest and field preparation &mdash; acts as an abrasive
+              when driven across roof surfaces by Panhandle winds, scouring away granules that would
+              otherwise last decades in a milder environment.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              The result is measurable: standard three-tab shingles rated for 25-30 years in moderate climates often show significant wear by year 15-18 in Moore County. Granule loss exposes the asphalt mat beneath to direct UV radiation at an elevation where solar intensity is already 10-15% higher than at sea level. That exposed asphalt dries out, cracks, and becomes brittle &mdash; exactly the condition where hail impact causes the most damage. Homeowners who invest in Class 4 impact-resistant shingles with SBS-modified asphalt avoid this cascade of early failure because the polymer-modified compound stays flexible through temperature extremes and resists chemical degradation from agricultural emissions.
+              The result is measurable: standard three-tab shingles rated for 25-30 years in
+              moderate climates often show significant wear by year 15-18 in Moore County. Granule
+              loss exposes the asphalt mat beneath to direct UV radiation at an elevation where
+              solar intensity is already 10-15% higher than at sea level. That exposed asphalt dries
+              out, cracks, and becomes brittle &mdash; exactly the condition where hail impact
+              causes the most damage. Homeowners who invest in Class 4 impact-resistant shingles
+              with SBS-modified asphalt avoid this cascade of early failure because the
+              polymer-modified compound stays flexible through temperature extremes and resists
+              chemical degradation from agricultural emissions.
             </p>
           </section>
         </FadeIn>
@@ -398,13 +527,32 @@ export default function AsphaltShingleRoofingDumasPage() {
               Insurance Benefits of Impact-Resistant Shingles in Dumas
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Moore County&apos;s hail frequency makes it one of the more expensive areas in Texas to insure a home. Insurance companies know that Dumas properties face 7-9 significant hailstorms per year, and standard roofing materials generate a disproportionate number of claims. That risk is priced directly into homeowner premiums. However, Texas insurers also recognize that Class 4 impact-resistant shingles dramatically reduce claim frequency &mdash; which is why most carriers offer meaningful premium discounts when you upgrade.
+              Moore County&apos;s hail frequency makes it one of the more expensive areas in Texas
+              to insure a home. Insurance companies know that Dumas properties face 7-9 significant
+              hailstorms per year, and standard roofing materials generate a disproportionate number
+              of claims. That risk is priced directly into homeowner premiums. However, Texas
+              insurers also recognize that Class 4 impact-resistant shingles dramatically reduce
+              claim frequency &mdash; which is why most carriers offer meaningful premium discounts
+              when you upgrade.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              The discount range for Class 4 shingles in Texas typically falls between 10% and 35% off annual premiums, depending on your insurer and your policy structure. For a Dumas homeowner paying $3,000-$5,000 per year in property insurance, that discount translates to $300-$1,750 in annual savings. Over the life of a 30-year roof, those savings often total $9,000-$50,000 &mdash; far exceeding the $1,500-$3,000 premium you pay upfront for impact-resistant shingles over standard architectural options.
+              The discount range for Class 4 shingles in Texas typically falls between 10% and 35%
+              off annual premiums, depending on your insurer and your policy structure. For a Dumas
+              homeowner paying $3,000-$5,000 per year in property insurance, that discount
+              translates to $300-$1,750 in annual savings. Over the life of a 30-year roof, those
+              savings often total $9,000-$50,000 &mdash; far exceeding the $1,500-$3,000 premium you
+              pay upfront for impact-resistant shingles over standard architectural options.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              We help Dumas homeowners maximize this benefit by providing the specific documentation insurers require: UL 2218 test certification for the installed shingle product, a detailed invoice showing the Class 4 designation, and installation photos confirming proper application. We also work with your adjuster during the claims process if storm damage does occur, ensuring your roof is evaluated fairly and that any covered repairs maintain the Class 4 rating that keeps your discount active. For many Dumas families, the insurance math alone makes impact-resistant shingles the more affordable choice over time &mdash; even before factoring in the longer service life and reduced maintenance these products deliver in Moore County&apos;s demanding conditions.
+              We help Dumas homeowners maximize this benefit by providing the specific documentation
+              insurers require: UL 2218 test certification for the installed shingle product, a
+              detailed invoice showing the Class 4 designation, and installation photos confirming
+              proper application. We also work with your adjuster during the claims process if storm
+              damage does occur, ensuring your roof is evaluated fairly and that any covered repairs
+              maintain the Class 4 rating that keeps your discount active. For many Dumas families,
+              the insurance math alone makes impact-resistant shingles the more affordable choice
+              over time &mdash; even before factoring in the longer service life and reduced
+              maintenance these products deliver in Moore County&apos;s demanding conditions.
             </p>
           </section>
         </FadeIn>
@@ -420,7 +568,12 @@ export default function AsphaltShingleRoofingDumasPage() {
                   What are the best asphalt shingles for Dumas's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Class 4 impact-resistant architectural shingles are essential for Dumas's 7-9 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties.
+                  Class 4 impact-resistant architectural shingles are essential for Dumas's 7-9
+                  annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ
+                  RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles
+                  feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind
+                  resistance, and algae-resistant granules. They qualify for insurance discounts and
+                  carry 30-50 year warranties.
                 </AccordionContent>
               </AccordionItem>
 
@@ -429,7 +582,12 @@ export default function AsphaltShingleRoofingDumasPage() {
                   How long do asphalt shingles last in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate.
+                  Quality architectural shingles typically last 20-30 years in Dumas when properly
+                  installed and maintained. Texas Panhandle's intense UV exposure, temperature
+                  extremes, and hailstorms stress roofing materials. Class 4 impact-resistant
+                  shingles last longer than standard shingles. Regular inspections after storms and
+                  prompt repairs extend lifespan. Premium shingles with enhanced UV protection
+                  perform better in Dumas's climate.
                 </AccordionContent>
               </AccordionItem>
 
@@ -438,7 +596,11 @@ export default function AsphaltShingleRoofingDumasPage() {
                   Do Class 4 shingles qualify for insurance discounts in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Dumas. Given the area's severe hail risk with 7-9 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount.
+                  Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4
+                  impact-resistant shingles in Dumas. Given the area's severe hail risk with 7-9
+                  storms annually, these discounts typically pay for the shingle upgrade within 5-7
+                  years. We provide all documentation needed for your insurance company to approve
+                  the discount.
                 </AccordionContent>
               </AccordionItem>
 
@@ -447,7 +609,11 @@ export default function AsphaltShingleRoofingDumasPage() {
                   How much does asphalt shingle roofing cost in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Asphalt shingle roofing in Dumas typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Dumas homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.
+                  Asphalt shingle roofing in Dumas typically costs $4.50-$8 per square foot
+                  installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4
+                  impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch,
+                  complexity, and shingle quality. Most 2,000 sq ft Dumas homes need $9,000-$16,000
+                  for complete re-roofing. We provide free detailed estimates.
                 </AccordionContent>
               </AccordionItem>
 
@@ -456,7 +622,11 @@ export default function AsphaltShingleRoofingDumasPage() {
                   Can asphalt shingles withstand Dumas's wind and hail?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Dumas's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection.
+                  Yes, when properly installed with proper nailing patterns and starter strips.
+                  Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking.
+                  Architectural shingles rated for 130+ mph wind resistance handle Dumas's sustained
+                  winds and gusts. Proper installation includes 6-nail pattern, ice/water shield,
+                  and reinforced starter courses for maximum wind and hail protection.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -484,22 +654,28 @@ export default function AsphaltShingleRoofingDumasPage() {
         </FadeIn>
         <InternalLinks currentCity="dumas" currentService="asphalt-shingle-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Dumas Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Dumas property owners. Expert asphalt shingle roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Dumas property owners. Expert asphalt shingle roofing with
+            comprehensive warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="asphalt-shingle-roofing-dumas" />
+        <RelatedArticles pageSlug="asphalt-shingle-roofing-dumas" />
       </div>
     </>
   );

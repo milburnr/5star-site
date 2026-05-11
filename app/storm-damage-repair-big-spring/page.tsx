@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-big-spring/' },
-  title: 'Storm Damage Repair Big Spring TX | 5 Star Roofing',
-  description: "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-big-spring/" },
+  title: "Storm Damage Repair Big Spring TX | 5 Star Roofing",
+  description:
+    "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Storm Damage Repair Big Spring TX | 5 Star Roofing",
-    description: "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/storm-damage-repair-big-spring/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,100 +40,138 @@ export const metadata: Metadata = {
 
 export default function StormDamageRepairBigSpringPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Storm Damage Repair",
-                      "url": "/storm-damage-repair/"
-              },
-              {
-                      "name": "Big Spring",
-                      "url": "/storm-damage-repair-big-spring/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Big Spring",
+            url: "/storm-damage-repair-big-spring/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/storm-damage-repair-big-spring/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 32.2504, "longitude": -101.4787 },
-        "url": "https://5starroofingpros.com/storm-damage-repair-big-spring/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas", "name": "Big Spring", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert storm damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/storm-damage-repair-big-spring/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 32.2504, longitude: -101.4787 },
+            url: "https://5starroofingpros.com/storm-damage-repair-big-spring/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas",
+              name: "Big Spring",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert storm damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Storm Damage Roof Repair",
-            "provider": {
+            serviceType: "Storm Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": { "@id": "https://5starroofingpros.com/#organization" }
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Big Spring",
+              name: "Big Spring",
               "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually."
-          })
+            description:
+              "Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually.",
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-34-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-34-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
@@ -145,12 +185,17 @@ export default function StormDamageRepairBigSpringPage() {
                 West Texas Storm Damage Repair Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
+                Expert storm damage roof repair in Big Spring TX. West Texas experiences 7-9
+                hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -158,16 +203,13 @@ export default function StormDamageRepairBigSpringPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-9</div>
@@ -178,14 +220,19 @@ export default function StormDamageRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -193,30 +240,55 @@ export default function StormDamageRepairBigSpringPage() {
               What Does Big Spring's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Big Spring's location in Howard County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Big Spring's location in Howard County creates unique roofing challenges. The West
+              Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature
+              fluctuations, and severe weather conditions. Your roofing system must withstand these
+              demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring and Howard County with premium materials and expert installation. From properties near Big Spring State Park to buildings throughout Big Spring, we understand West Texas weather patterns, local building codes, and the specific needs of Howard County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring
+              and Howard County with premium materials and expert installation. From properties near
+              Big Spring State Park to buildings throughout Big Spring, we understand West Texas
+              weather patterns, local building codes, and the specific needs of Howard County
+              property owners.
             </p>
 
-            <h3 className="text-3xl font-bold mb-6 text-brand-brown">Big Spring Weather Patterns & Climate Challenges</h3>
+            <h3 className="text-3xl font-bold mb-6 text-brand-brown">
+              Big Spring Weather Patterns & Climate Challenges
+            </h3>
             <div className="bg-amber-50 p-8 rounded-2xl mb-8">
               <h4 className="text-2xl font-bold mb-4 text-brand-brown">Regional Climate Profile</h4>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Big Spring sits at 2,400 feet elevation on the Llano Estacado edge, experiencing a semi-arid climate with dramatic weather swings. The city's position along the Caprock Escarpment creates unique atmospheric conditions that intensify storm development. Summer temperatures routinely exceed 100°F while winter can bring sudden freezing temperatures, creating extreme thermal stress on roofing systems.
+                Big Spring sits at 2,400 feet elevation on the Llano Estacado edge, experiencing a
+                semi-arid climate with dramatic weather swings. The city's position along the
+                Caprock Escarpment creates unique atmospheric conditions that intensify storm
+                development. Summer temperatures routinely exceed 100°F while winter can bring
+                sudden freezing temperatures, creating extreme thermal stress on roofing systems.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h5 className="text-xl font-semibold mb-3 text-brand-brown">Elevation Impact on Weather</h5>
+                  <h5 className="text-xl font-semibold mb-3 text-brand-brown">
+                    Elevation Impact on Weather
+                  </h5>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• <strong>Elevation:</strong> 2,400+ feet above sea level</li>
-                    <li>• <strong>UV Intensity:</strong> 15% higher than coastal areas</li>
-                    <li>• <strong>Wind Exposure:</strong> Minimal natural windbreaks</li>
-                    <li>• <strong>Temperature Swings:</strong> 40-50°F daily variations</li>
+                    <li>
+                      • <strong>Elevation:</strong> 2,400+ feet above sea level
+                    </li>
+                    <li>
+                      • <strong>UV Intensity:</strong> 15% higher than coastal areas
+                    </li>
+                    <li>
+                      • <strong>Wind Exposure:</strong> Minimal natural windbreaks
+                    </li>
+                    <li>
+                      • <strong>Temperature Swings:</strong> 40-50°F daily variations
+                    </li>
                   </ul>
                 </div>
                 <div>
-                  <h5 className="text-xl font-semibold mb-3 text-brand-brown">Severe Weather Statistics</h5>
+                  <h5 className="text-xl font-semibold mb-3 text-brand-brown">
+                    Severe Weather Statistics
+                  </h5>
                   <ul className="text-gray-700 space-y-2">
                     <li>• 7-9 hailstorms annually (April-June peak)</li>
                     <li>• Average wind speeds: 13-15 mph year-round</li>
@@ -227,51 +299,98 @@ export default function StormDamageRepairBigSpringPage() {
               </div>
             </div>
 
-            <h3 className="text-3xl font-bold mb-6 text-brand-brown">Historical Storm Events in Big Spring</h3>
+            <h3 className="text-3xl font-bold mb-6 text-brand-brown">
+              Historical Storm Events in Big Spring
+            </h3>
             <div className="space-y-8">
               <div className="bg-red-50 border-l-4 border-red-500 p-8 rounded-r-2xl">
                 <h4 className="text-2xl font-bold mb-4 text-red-800">Major Hailstorm Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-red-700">May 28, 2019 - Memorial Day Supercell</h5>
+                    <h5 className="text-xl font-semibold text-red-700">
+                      May 28, 2019 - Memorial Day Supercell
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      A devastating supercell produced softball-sized hail (3+ inches) across Big Spring, creating the most expensive single-day insurance event in Howard County history. The storm formed rapidly along the Caprock Escarpment and intensified as it moved over the city. Continuous hail fell for over 20 minutes, with the largest stones causing catastrophic damage to roofs, vehicles, and HVAC equipment. Total insurance claims exceeded $35 million citywide.
+                      A devastating supercell produced softball-sized hail (3+ inches) across Big
+                      Spring, creating the most expensive single-day insurance event in Howard
+                      County history. The storm formed rapidly along the Caprock Escarpment and
+                      intensified as it moved over the city. Continuous hail fell for over 20
+                      minutes, with the largest stones causing catastrophic damage to roofs,
+                      vehicles, and HVAC equipment. Total insurance claims exceeded $35 million
+                      citywide.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-red-700">April 11, 2016 - Spring Outbreak</h5>
+                    <h5 className="text-xl font-semibold text-red-700">
+                      April 11, 2016 - Spring Outbreak
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      Multiple supercells tracked across Howard County, with Big Spring experiencing three separate hail events in one afternoon. The first wave brought golf ball-sized hail, followed by tennis ball-sized stones, and finally baseball-sized hail that lasted 15 minutes. This unprecedented triple-hit event overwhelmed local roofing contractors and created a six-month backlog for storm damage repairs throughout the city.
+                      Multiple supercells tracked across Howard County, with Big Spring experiencing
+                      three separate hail events in one afternoon. The first wave brought golf
+                      ball-sized hail, followed by tennis ball-sized stones, and finally
+                      baseball-sized hail that lasted 15 minutes. This unprecedented triple-hit
+                      event overwhelmed local roofing contractors and created a six-month backlog
+                      for storm damage repairs throughout the city.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-red-700">June 13, 2012 - Nocturnal Supercell</h5>
+                    <h5 className="text-xl font-semibold text-red-700">
+                      June 13, 2012 - Nocturnal Supercell
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      An unusual nighttime supercell caught Big Spring residents sleeping, producing tennis ball to baseball-sized hail from 2:00-3:30 AM. The storm's timing amplified damage as many residents were unaware of the severity until morning. The hail created extensive granule loss on composition roofing and punctured numerous membrane roofing systems on commercial buildings throughout the downtown area and near McMahon-Wrinkle Airpark.
+                      An unusual nighttime supercell caught Big Spring residents sleeping, producing
+                      tennis ball to baseball-sized hail from 2:00-3:30 AM. The storm's timing
+                      amplified damage as many residents were unaware of the severity until morning.
+                      The hail created extensive granule loss on composition roofing and punctured
+                      numerous membrane roofing systems on commercial buildings throughout the
+                      downtown area and near McMahon-Wrinkle Airpark.
                     </p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-amber-50 border-l-4 border-brand-gold-vibrant p-8 rounded-r-2xl">
-                <h4 className="text-2xl font-bold mb-4 text-brand-brown">Significant Wind Events</h4>
+                <h4 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Significant Wind Events
+                </h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-brand-brown">March 23, 2023 - High Wind Warning</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">
+                      March 23, 2023 - High Wind Warning
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      Sustained winds of 60+ mph with gusts to 85 mph impacted Big Spring for over 4 hours during a fast-moving dry line passage. The extended duration of high winds caused widespread roof damage, particularly to older commercial buildings and manufactured structures. The Big Spring McMahon-Wrinkle Airpark recorded peak gusts of 87 mph, with significant damage to aircraft hangars and terminal buildings.
+                      Sustained winds of 60+ mph with gusts to 85 mph impacted Big Spring for over 4
+                      hours during a fast-moving dry line passage. The extended duration of high
+                      winds caused widespread roof damage, particularly to older commercial
+                      buildings and manufactured structures. The Big Spring McMahon-Wrinkle Airpark
+                      recorded peak gusts of 87 mph, with significant damage to aircraft hangars and
+                      terminal buildings.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-brand-brown">October 4, 2020 - Derecho Impact</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">
+                      October 4, 2020 - Derecho Impact
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      A rare West Texas derecho brought destructive winds exceeding 90 mph to Big Spring, causing the most widespread wind damage in the city's recent history. The straight-line winds persisted for 45 minutes, damaging hundreds of roofing systems and downing power lines throughout the city. Many buildings near Comanche Trail Lake experienced roof membrane failures and extensive HVAC damage.
+                      A rare West Texas derecho brought destructive winds exceeding 90 mph to Big
+                      Spring, causing the most widespread wind damage in the city's recent history.
+                      The straight-line winds persisted for 45 minutes, damaging hundreds of roofing
+                      systems and downing power lines throughout the city. Many buildings near
+                      Comanche Trail Lake experienced roof membrane failures and extensive HVAC
+                      damage.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-brand-brown">May 5, 2015 - Tornado Near-Miss</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">
+                      May 5, 2015 - Tornado Near-Miss
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      An EF-3 tornado passed just 2 miles north of Big Spring with winds reaching 140 mph. While the tornado itself missed the city, the associated supercell brought 80+ mph straight-line winds that caused significant roof damage to industrial facilities and the Howard County Courthouse area. The storm also produced large hail and heavy rainfall that tested the city's drainage systems.
+                      An EF-3 tornado passed just 2 miles north of Big Spring with winds reaching
+                      140 mph. While the tornado itself missed the city, the associated supercell
+                      brought 80+ mph straight-line winds that caused significant roof damage to
+                      industrial facilities and the Howard County Courthouse area. The storm also
+                      produced large hail and heavy rainfall that tested the city's drainage
+                      systems.
                     </p>
                   </div>
                 </div>
@@ -281,15 +400,30 @@ export default function StormDamageRepairBigSpringPage() {
                 <h4 className="text-2xl font-bold mb-4 text-brand-brown">Extreme Weather Events</h4>
                 <div className="space-y-4">
                   <div>
-                    <h5 className="text-xl font-semibold text-brand-brown">February 14-17, 2021 - Winter Storm Uri</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">
+                      February 14-17, 2021 - Winter Storm Uri
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      Big Spring experienced temperatures as low as -8°F during Winter Storm Uri, with sustained sub-freezing conditions for over 120 hours. The extreme cold caused widespread roof membrane cracking, pipe bursts, and structural damage throughout the city. Snow and ice accumulation reached 6-8 inches, creating additional weight stress on older roofing systems. Many flat-roof commercial buildings experienced membrane failures that weren't discovered until spring thaw.
+                      Big Spring experienced temperatures as low as -8°F during Winter Storm Uri,
+                      with sustained sub-freezing conditions for over 120 hours. The extreme cold
+                      caused widespread roof membrane cracking, pipe bursts, and structural damage
+                      throughout the city. Snow and ice accumulation reached 6-8 inches, creating
+                      additional weight stress on older roofing systems. Many flat-roof commercial
+                      buildings experienced membrane failures that weren't discovered until spring
+                      thaw.
                     </p>
                   </div>
                   <div>
-                    <h5 className="text-xl font-semibold text-brand-brown">July 15, 2022 - Extreme Heat Event</h5>
+                    <h5 className="text-xl font-semibold text-brand-brown">
+                      July 15, 2022 - Extreme Heat Event
+                    </h5>
                     <p className="text-gray-700 leading-relaxed">
-                      Big Spring recorded its highest temperature ever at 112°F during a historic heat dome event. Surface temperatures on dark roofing exceeded 160°F for multiple consecutive days, causing thermal damage to roofing membranes, HVAC failures, and accelerated aging of roofing materials throughout the city. The extreme heat combined with low humidity created exceptional fire danger and stressed building systems beyond design limits.
+                      Big Spring recorded its highest temperature ever at 112°F during a historic
+                      heat dome event. Surface temperatures on dark roofing exceeded 160°F for
+                      multiple consecutive days, causing thermal damage to roofing membranes, HVAC
+                      failures, and accelerated aging of roofing materials throughout the city. The
+                      extreme heat combined with low humidity created exceptional fire danger and
+                      stressed building systems beyond design limits.
                     </p>
                   </div>
                 </div>
@@ -300,14 +434,20 @@ export default function StormDamageRepairBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">What Does Storm Damage Restoration in Big Spring Look Like?</h2>
-            
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              What Does Storm Damage Restoration in Big Spring Look Like?
+            </h2>
+
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-brand-brown">Climate-Specific Damage Patterns</h3>
+                <h3 className="text-2xl font-bold mb-6 text-brand-brown">
+                  Climate-Specific Damage Patterns
+                </h3>
                 <div className="space-y-4">
                   <div className="border-l-4 border-brand-gold pl-4">
-                    <h4 className="text-lg font-semibold text-brand-brown mb-2">High Elevation Effects</h4>
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">
+                      High Elevation Effects
+                    </h4>
                     <ul className="text-gray-700 space-y-1">
                       <li>• Accelerated UV degradation of materials</li>
                       <li>• Thermal expansion stress cracking</li>
@@ -316,7 +456,9 @@ export default function StormDamageRepairBigSpringPage() {
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
-                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Extreme Temperature Damage</h4>
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">
+                      Extreme Temperature Damage
+                    </h4>
                     <ul className="text-gray-700 space-y-1">
                       <li>• Membrane shrinkage and splitting</li>
                       <li>• Joint and seam failures</li>
@@ -325,7 +467,9 @@ export default function StormDamageRepairBigSpringPage() {
                     </ul>
                   </div>
                   <div className="border-l-4 border-brand-gold pl-4">
-                    <h4 className="text-lg font-semibold text-brand-brown mb-2">Flash Flooding Impact</h4>
+                    <h4 className="text-lg font-semibold text-brand-brown mb-2">
+                      Flash Flooding Impact
+                    </h4>
                     <ul className="text-gray-700 space-y-1">
                       <li>• Drainage system overwhelm</li>
                       <li>• Ponding water infiltration</li>
@@ -340,38 +484,58 @@ export default function StormDamageRepairBigSpringPage() {
                 <h3 className="text-2xl font-bold mb-6">Our Big Spring Service Approach</h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">1</div>
+                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">
+                      1
+                    </div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Rapid Response</h4>
-                      <p className="text-sm opacity-90">Priority service for Big Spring's unique weather challenges</p>
+                      <p className="text-sm opacity-90">
+                        Priority service for Big Spring's unique weather challenges
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">2</div>
+                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">
+                      2
+                    </div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Climate-Specific Assessment</h4>
-                      <p className="text-sm opacity-90">Evaluation considering Big Spring's elevation and exposure factors</p>
+                      <p className="text-sm opacity-90">
+                        Evaluation considering Big Spring's elevation and exposure factors
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">3</div>
+                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">
+                      3
+                    </div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Weather-Resistant Repairs</h4>
-                      <p className="text-sm opacity-90">Materials and techniques proven in West Texas conditions</p>
+                      <p className="text-sm opacity-90">
+                        Materials and techniques proven in West Texas conditions
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">4</div>
+                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">
+                      4
+                    </div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Preventive Enhancement</h4>
-                      <p className="text-sm opacity-90">Upgrades to prevent future damage from similar events</p>
+                      <p className="text-sm opacity-90">
+                        Upgrades to prevent future damage from similar events
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">5</div>
+                    <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">
+                      5
+                    </div>
                     <div>
                       <h4 className="font-semibold text-lg mb-1">Ongoing Monitoring</h4>
-                      <p className="text-sm opacity-90">Regular inspections to ensure system performance</p>
+                      <p className="text-sm opacity-90">
+                        Regular inspections to ensure system performance
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -384,34 +548,61 @@ export default function StormDamageRepairBigSpringPage() {
                   Why is Big Spring particularly susceptible to severe weather?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  Big Spring's location along the Caprock Escarpment creates a natural weather intensification zone. The elevation change and terrain features cause air masses to converge and strengthen, particularly during spring and early summer months. The city sits directly in the path of the "Hail Highway" where warm, moist Gulf air collides with cool, dry air from the Rocky Mountains. Additionally, the lack of natural windbreaks on the high plains allows storms to maintain intensity as they approach the city, while the elevation amplifies both wind speeds and UV exposure that damages roofing materials.
+                  Big Spring's location along the Caprock Escarpment creates a natural weather
+                  intensification zone. The elevation change and terrain features cause air masses
+                  to converge and strengthen, particularly during spring and early summer months.
+                  The city sits directly in the path of the "Hail Highway" where warm, moist Gulf
+                  air collides with cool, dry air from the Rocky Mountains. Additionally, the lack
+                  of natural windbreaks on the high plains allows storms to maintain intensity as
+                  they approach the city, while the elevation amplifies both wind speeds and UV
+                  exposure that damages roofing materials.
                 </AccordionContent>
               </AccordionItem>
-              
+
               <AccordionItem value="item-2" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-xl font-semibold text-brand-brown">
                   What makes storm damage worse in Big Spring compared to other cities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  Several factors amplify storm damage in Big Spring. The 2,400-foot elevation increases both wind speeds and UV intensity, accelerating material degradation. The extreme temperature variations (often 40-50°F daily swings) create thermal stress that weakens roofing systems before storms hit. Flash flooding is common due to the hard-packed clay soil that doesn't absorb water well, and the surrounding terrain funnels water toward the city during heavy rains. The combination of these factors means that even moderate storms can cause significant damage to roofing systems that might survive similar conditions elsewhere.
+                  Several factors amplify storm damage in Big Spring. The 2,400-foot elevation
+                  increases both wind speeds and UV intensity, accelerating material degradation.
+                  The extreme temperature variations (often 40-50°F daily swings) create thermal
+                  stress that weakens roofing systems before storms hit. Flash flooding is common
+                  due to the hard-packed clay soil that doesn't absorb water well, and the
+                  surrounding terrain funnels water toward the city during heavy rains. The
+                  combination of these factors means that even moderate storms can cause significant
+                  damage to roofing systems that might survive similar conditions elsewhere.
                 </AccordionContent>
               </AccordionItem>
-              
+
               <AccordionItem value="item-3" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-xl font-semibold text-brand-brown">
                   What roofing materials perform best in Big Spring's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  For Big Spring's challenging climate, we recommend materials specifically designed for high UV exposure and extreme temperature variations. Modified bitumen with mineral surfacing provides excellent durability and hail resistance. Thermoplastic membranes (TPO/PVC) with enhanced UV stabilizers perform well in the intense West Texas sun. Metal roofing systems with thermal expansion joints handle the temperature swings effectively while resisting wind uplift. All systems require enhanced fastening patterns and reinforced details to withstand the frequent high winds. We also recommend impact-resistant materials and proper drainage design to handle the area's flash flooding potential.
+                  For Big Spring's challenging climate, we recommend materials specifically designed
+                  for high UV exposure and extreme temperature variations. Modified bitumen with
+                  mineral surfacing provides excellent durability and hail resistance. Thermoplastic
+                  membranes (TPO/PVC) with enhanced UV stabilizers perform well in the intense West
+                  Texas sun. Metal roofing systems with thermal expansion joints handle the
+                  temperature swings effectively while resisting wind uplift. All systems require
+                  enhanced fastening patterns and reinforced details to withstand the frequent high
+                  winds. We also recommend impact-resistant materials and proper drainage design to
+                  handle the area's flash flooding potential.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-xl font-semibold text-brand-brown">
-                  How quickly can you respond to storm damage in Big Spring?
+                  How do you handle storm damage work in Big Spring?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
-                  We maintain prompt response capability for Big Spring and Howard County. During major storm events, we pre-position crews and materials in the area to ensure rapid response. Our goal is same-day prompt service for critical damage and comprehensive assessment within 24-48 hours of initial contact. We understand that Big Spring's weather patterns often produce multiple storm events in short periods, so quick temporary repairs are essential to prevent cascading damage. Our local relationships with material suppliers ensure we can obtain necessary repair materials even when demand is high throughout West Texas.
+                  We schedule storm-damage documentation and inspections for Big Spring and Howard
+                  County once conditions are safe for crews to be on a roof. We are not an
+                  emergency-dispatch service — our value is thorough photo documentation,
+                  adjuster-ready reports, and Class 4 impact-resistant restoration. Our
+                  relationships with West Texas material suppliers help ensure faster sourcing when
+                  demand is high after regional storm events.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -439,22 +630,28 @@ export default function StormDamageRepairBigSpringPage() {
         </FadeIn>
         <InternalLinks currentCity="big-spring" currentService="storm-damage-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Big Spring Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Big Spring property owners. Expert storm damage repair with comprehensive warranties and insurance claim assistance.
+            Free inspections for Big Spring property owners. Expert storm damage repair with
+            comprehensive warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="storm-damage-repair-big-spring" />
+        <RelatedArticles pageSlug="storm-damage-repair-big-spring" />
       </div>
     </>
   );

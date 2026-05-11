@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-monahans/' },
+  alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-monahans/" },
   title: "TPO Roofing Monahans TX | 5 Star Roofing",
-  description: "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "TPO Roofing Monahans TX | 5 Star Roofing",
-    description: "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/tpo-roofing-monahans/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,121 +40,135 @@ export const metadata: Metadata = {
 
 export default function TPORoofingMonahansPage() {
   const faqItems = [
-      {
-          "question": "How does Monahans sand exposure affect TPO roofing?",
-          "answer": "Monahans sits adjacent to the Monahans Sandhills, and wind-driven sand is a constant environmental factor. TPO membranes resist sand abrasion better than most flat roofing materials because the smooth, continuous surface provides no edges or seams for sand to catch and erode. However, sand accumulation in drainage areas requires regular cleaning to maintain proper water flow. Our maintenance programs for Monahans properties include sand removal as a standard service."
-      },
-      {
-          "question": "How durable is TPO in Ward County's desert climate?",
-          "answer": "TPO membranes perform exceptionally well in Ward County's hot, arid desert climate. The low humidity reduces biological growth that degrades roofing in wetter regions, while TPO's UV stabilizers protect against the intense solar radiation common at Monahans' semi-arid elevation. Properly installed TPO in Monahans' climate routinely achieves 20-25 year service life, often exceeding manufacturer warranty periods due to the favorable dry conditions."
-      },
-      {
-          "question": "How often should TPO roofs be cleaned in Monahans due to dust?",
-          "answer": "In Monahans, we recommend TPO roof cleaning every 6-12 months depending on proximity to the sandhills and oil field activity. Sand and dust accumulation reduces the membrane's reflective efficiency and can clog drains if left unchecked. A simple power washing restores full reflectivity and ensures drainage systems function properly. Our Monahans maintenance contracts include scheduled cleaning at intervals appropriate for each property's dust exposure level."
-      },
-      {
-          "question": "Is TPO suitable for oil and gas facility roofing in Monahans?",
-          "answer": "TPO works well for many oil and gas support buildings in Monahans, including offices, maintenance shops, and storage facilities. For buildings with direct exposure to petroleum products or heavy chemical environments, PVC membrane may be a better choice due to its superior chemical resistance. We assess each Monahans facility's specific chemical exposure before recommending TPO or PVC, ensuring the membrane selected provides optimal long-term performance for your particular application."
-      },
-      {
-          "question": "Do heat-welded TPO seams hold up in Monahans' extreme temperatures?",
-          "answer": "Heat-welded TPO seams create molecular bonds that are actually stronger than the membrane itself, and they perform exceptionally well in Monahans' temperature extremes. The seams expand and contract uniformly with the membrane during thermal cycling between nighttime lows and daytime highs exceeding 110 degrees. Unlike adhesive-based seams used in other systems, heat-welded TPO seams do not soften in extreme heat or become brittle in cold, making them ideal for Ward County's desert climate."
-      },
-      {
-          "question": "What warranty considerations are specific to TPO roofing in Monahans?",
-          "answer": "TPO manufacturers offer standard warranties for Monahans installations, but environmental factors like sand abrasion and extreme UV exposure make proper installation technique critical for warranty validity. We ensure all Monahans installations follow manufacturer specifications exactly, including proper seam welding temperatures, edge securement details, and drainage configurations. This attention to detail protects your warranty coverage and ensures any future claims are honored without dispute."
-      }
+    {
+      question: "How does Monahans sand exposure affect TPO roofing?",
+      answer:
+        "Monahans sits adjacent to the Monahans Sandhills, and wind-driven sand is a constant environmental factor. TPO membranes resist sand abrasion better than most flat roofing materials because the smooth, continuous surface provides no edges or seams for sand to catch and erode. However, sand accumulation in drainage areas requires regular cleaning to maintain proper water flow. Our maintenance programs for Monahans properties include sand removal as a standard service.",
+    },
+    {
+      question: "How durable is TPO in Ward County's desert climate?",
+      answer:
+        "TPO membranes perform exceptionally well in Ward County's hot, arid desert climate. The low humidity reduces biological growth that degrades roofing in wetter regions, while TPO's UV stabilizers protect against the intense solar radiation common at Monahans' semi-arid elevation. Properly installed TPO in Monahans' climate routinely achieves 20-25 year service life, often exceeding manufacturer warranty periods due to the favorable dry conditions.",
+    },
+    {
+      question: "How often should TPO roofs be cleaned in Monahans due to dust?",
+      answer:
+        "In Monahans, we recommend TPO roof cleaning every 6-12 months depending on proximity to the sandhills and oil field activity. Sand and dust accumulation reduces the membrane's reflective efficiency and can clog drains if left unchecked. A simple power washing restores full reflectivity and ensures drainage systems function properly. Our Monahans maintenance contracts include scheduled cleaning at intervals appropriate for each property's dust exposure level.",
+    },
+    {
+      question: "Is TPO suitable for oil and gas facility roofing in Monahans?",
+      answer:
+        "TPO works well for many oil and gas support buildings in Monahans, including offices, maintenance shops, and storage facilities. For buildings with direct exposure to petroleum products or heavy chemical environments, PVC membrane may be a better choice due to its superior chemical resistance. We assess each Monahans facility's specific chemical exposure before recommending TPO or PVC, ensuring the membrane selected provides optimal long-term performance for your particular application.",
+    },
+    {
+      question: "Do heat-welded TPO seams hold up in Monahans' extreme temperatures?",
+      answer:
+        "Heat-welded TPO seams create molecular bonds that are actually stronger than the membrane itself, and they perform exceptionally well in Monahans' temperature extremes. The seams expand and contract uniformly with the membrane during thermal cycling between nighttime lows and daytime highs exceeding 110 degrees. Unlike adhesive-based seams used in other systems, heat-welded TPO seams do not soften in extreme heat or become brittle in cold, making them ideal for Ward County's desert climate.",
+    },
+    {
+      question: "What warranty considerations are specific to TPO roofing in Monahans?",
+      answer:
+        "TPO manufacturers offer standard warranties for Monahans installations, but environmental factors like sand abrasion and extreme UV exposure make proper installation technique critical for warranty validity. We ensure all Monahans installations follow manufacturer specifications exactly, including proper seam welding temperatures, edge securement details, and drainage configurations. This attention to detail protects your warranty coverage and ensures any future claims are honored without dispute.",
+    },
   ];
 
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "TPO Roofing",
-                      "url": "/tpo-roofing/"
-              },
-              {
-                      "name": "Monahans",
-                      "url": "/tpo-roofing-monahans/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Monahans",
+            url: "/tpo-roofing-monahans/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "TPO Roofing",
-            "provider": {
+            serviceType: "TPO Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Monahans",
+              name: "Monahans",
               "@id": "https://en.wikipedia.org/wiki/Monahans,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually.",
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-          })
+            description:
+              "Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually.",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": faqItems.map(faq => ({
+            mainEntity: faqItems.map((faq) => ({
               "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
-            }))
-          })
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
@@ -166,12 +182,17 @@ export default function TPORoofingMonahansPage() {
                 Permian Basin TPO Roofing Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8 hailstorms annually. Free inspections. Call (806) 622-6041
+                Expert TPO roofing installation in Monahans TX. Permian Basin experiences 6-8
+                hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -179,16 +200,13 @@ export default function TPORoofingMonahansPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">6-8</div>
@@ -199,14 +217,19 @@ export default function TPORoofingMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -214,10 +237,17 @@ export default function TPORoofingMonahansPage() {
               What Makes Our Monahans Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Monahans's location in Ward County creates unique roofing challenges. The Permian Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Monahans's location in Ward County creates unique roofing challenges. The Permian
+              Basin experiences 6-8 hailstorms annually, sustained high winds, extreme temperature
+              fluctuations, and severe weather conditions. Your roofing system must withstand these
+              demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Monahans and Ward County with premium materials and expert installation. From properties near Monahans Sandhills State Park to buildings throughout Monahans, we understand Permian Basin weather patterns, local building codes, and the specific needs of Ward County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Monahans and
+              Ward County with premium materials and expert installation. From properties near
+              Monahans Sandhills State Park to buildings throughout Monahans, we understand Permian
+              Basin weather patterns, local building codes, and the specific needs of Ward County
+              property owners.
             </p>
           </section>
         </FadeIn>
@@ -228,13 +258,29 @@ export default function TPORoofingMonahansPage() {
               TPO Installation Process for Monahans&apos; Extreme Heat
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Installing TPO roofing in Monahans requires careful planning around Ward County&apos;s extreme summer temperatures. When ambient temperatures push past 105&deg;F, rooftop surface temperatures can exceed 170&deg;F &mdash; hot enough to compromise adhesive bonds and create unsafe working conditions. Our crews schedule Monahans installations to begin at first light during summer months, completing the most heat-sensitive work before midday temperatures peak.
+              Installing TPO roofing in Monahans requires careful planning around Ward County&apos;s
+              extreme summer temperatures. When ambient temperatures push past 105&deg;F, rooftop
+              surface temperatures can exceed 170&deg;F &mdash; hot enough to compromise adhesive
+              bonds and create unsafe working conditions. Our crews schedule Monahans installations
+              to begin at first light during summer months, completing the most heat-sensitive work
+              before midday temperatures peak.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Heat-welding TPO seams in desert conditions actually works in our favor. The hot-air welding process fuses membrane sheets at the molecular level, and Monahans&apos; dry heat helps the material reach optimal welding temperature faster than in humid climates. We calibrate welding equipment specifically for Permian Basin conditions, adjusting speed and temperature settings based on ambient readings taken throughout the installation day.
+              Heat-welding TPO seams in desert conditions actually works in our favor. The hot-air
+              welding process fuses membrane sheets at the molecular level, and Monahans&apos; dry
+              heat helps the material reach optimal welding temperature faster than in humid
+              climates. We calibrate welding equipment specifically for Permian Basin conditions,
+              adjusting speed and temperature settings based on ambient readings taken throughout
+              the installation day.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              The white reflective TPO membrane is particularly valuable in Monahans, where cooling costs dominate building operating expenses. A properly installed TPO roof reflects up to 85% of solar radiation, reducing interior cooling loads by 20&ndash;30% compared to dark-colored roofing materials. For oil field support buildings, warehouses, and commercial properties operating in Ward County&apos;s relentless heat, that energy savings compounds year after year across the membrane&apos;s 20&ndash;25 year service life.
+              The white reflective TPO membrane is particularly valuable in Monahans, where cooling
+              costs dominate building operating expenses. A properly installed TPO roof reflects up
+              to 85% of solar radiation, reducing interior cooling loads by 20&ndash;30% compared to
+              dark-colored roofing materials. For oil field support buildings, warehouses, and
+              commercial properties operating in Ward County&apos;s relentless heat, that energy
+              savings compounds year after year across the membrane&apos;s 20&ndash;25 year service
+              life.
             </p>
           </section>
         </FadeIn>
@@ -245,13 +291,30 @@ export default function TPORoofingMonahansPage() {
               TPO vs Other Flat Roof Options for Ward County
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Ward County property owners choosing a flat roof membrane have three primary options: TPO, EPDM (rubber roofing), and PVC. Each performs differently under Monahans&apos; combination of extreme UV exposure, sand abrasion from the Sandhills, and temperature swings that can span 60 degrees in a single day. Understanding these differences helps you choose the right system for your building&apos;s specific needs.
+              Ward County property owners choosing a flat roof membrane have three primary options:
+              TPO, EPDM (rubber roofing), and PVC. Each performs differently under Monahans&apos;
+              combination of extreme UV exposure, sand abrasion from the Sandhills, and temperature
+              swings that can span 60 degrees in a single day. Understanding these differences helps
+              you choose the right system for your building&apos;s specific needs.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              EPDM is the least expensive option, but its dark surface absorbs heat rather than reflecting it &mdash; a significant disadvantage in a climate where summer cooling costs already run high. EPDM seams rely on adhesive tape rather than heat welding, and those adhesive bonds degrade faster under Monahans&apos; intense UV radiation. PVC offers superior chemical resistance, making it the better choice for buildings with direct petroleum product exposure common around oil field operations. However, PVC costs 15&ndash;20% more than TPO and provides comparable performance in most commercial applications.
+              EPDM is the least expensive option, but its dark surface absorbs heat rather than
+              reflecting it &mdash; a significant disadvantage in a climate where summer cooling
+              costs already run high. EPDM seams rely on adhesive tape rather than heat welding, and
+              those adhesive bonds degrade faster under Monahans&apos; intense UV radiation. PVC
+              offers superior chemical resistance, making it the better choice for buildings with
+              direct petroleum product exposure common around oil field operations. However, PVC
+              costs 15&ndash;20% more than TPO and provides comparable performance in most
+              commercial applications.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              For the majority of Monahans commercial buildings &mdash; offices, retail, warehouses, and light industrial facilities &mdash; TPO delivers the best balance of performance and value. Its reflective white surface outperforms EPDM on energy efficiency, its heat-welded seams match PVC for waterproofing reliability, and its resistance to sand abrasion and UV degradation meets the specific demands of the Permian Basin environment. We evaluate each property individually and recommend PVC only when chemical exposure warrants the premium.
+              For the majority of Monahans commercial buildings &mdash; offices, retail, warehouses,
+              and light industrial facilities &mdash; TPO delivers the best balance of performance
+              and value. Its reflective white surface outperforms EPDM on energy efficiency, its
+              heat-welded seams match PVC for waterproofing reliability, and its resistance to sand
+              abrasion and UV degradation meets the specific demands of the Permian Basin
+              environment. We evaluate each property individually and recommend PVC only when
+              chemical exposure warrants the premium.
             </p>
           </section>
         </FadeIn>
@@ -283,7 +346,11 @@ export default function TPORoofingMonahansPage() {
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               {faqItems.map((faq, index) => (
-                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionItem
+                  key={`faq-${index + 1}`}
+                  value={`faq-${index + 1}`}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+                >
                   <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                     {faq.question}
                   </AccordionTrigger>
@@ -296,24 +363,28 @@ export default function TPORoofingMonahansPage() {
           </section>
         </FadeIn>
 
-
-
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Monahans Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Monahans property owners. Expert tpo roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Monahans property owners. Expert tpo roofing with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="tpo-roofing-monahans" />
+        <RelatedArticles pageSlug="tpo-roofing-monahans" />
       </div>
     </>
   );

@@ -3,8 +3,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion';
-import { cn } from '@/lib/utils';
+} from "@/components/ui/accordion";
+import { cn } from "@/lib/utils";
 
 export interface FAQItem {
   q: string;
@@ -42,7 +42,12 @@ interface FAQAccordionProps {
  * schema=true only when you've confirmed Google still treats this domain's
  * FAQ markup as eligible.
  */
-export function FAQAccordion({ items, schema = false, multi = false, className }: FAQAccordionProps) {
+export function FAQAccordion({
+  items,
+  schema = false,
+  multi = false,
+  className,
+}: FAQAccordionProps) {
   const accordionRender = multi ? (
     <Accordion type="multiple" className={className}>
       {items.map((item, i) => (
@@ -88,33 +93,30 @@ function FAQItemRow({ index, item }: { index: number; item: FAQItem }) {
  * via the `schema` prop in the future if needed.
  */
 function nodeToText(node: React.ReactNode): string {
-  if (node == null || typeof node === 'boolean') return '';
-  if (typeof node === 'string' || typeof node === 'number') return String(node);
-  if (Array.isArray(node)) return node.map(nodeToText).join('');
-  if (typeof node === 'object' && 'props' in (node as object)) {
+  if (node == null || typeof node === "boolean") return "";
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(nodeToText).join("");
+  if (typeof node === "object" && "props" in (node as object)) {
     // @ts-expect-error — runtime object inspection
     return nodeToText(node.props.children);
   }
-  return '';
+  return "";
 }
 
 function FAQPageSchema({ items }: { items: FAQItem[] }) {
   const json = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
     mainEntity: items.map((item) => ({
-      '@type': 'Question',
+      "@type": "Question",
       name: item.q,
       acceptedAnswer: {
-        '@type': 'Answer',
+        "@type": "Answer",
         text: nodeToText(item.a).trim(),
       },
     })),
   };
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
-    />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }} />
   );
 }

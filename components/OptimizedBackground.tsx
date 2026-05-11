@@ -13,10 +13,10 @@
  *   </OptimizedBackground>
  */
 
-import { ReactNode, CSSProperties } from 'react';
+import { ReactNode, CSSProperties } from "react";
 
 interface OptimizedBackgroundProps {
-  image: string;  // Original path like "/images/hero.jpg"
+  image: string; // Original path like "/images/hero.jpg"
   children: ReactNode;
   className?: string;
   style?: CSSProperties;
@@ -26,9 +26,9 @@ export function OptimizedBackground({
   image,
   children,
   className = "",
-  style = {}
+  style = {},
 }: OptimizedBackgroundProps) {
-  const basePath = image.replace(/\.(jpg|jpeg|png)$/i, '');
+  const basePath = image.replace(/\.(jpg|jpeg|png)$/i, "");
 
   // Generate responsive background image CSS
   const backgroundStyle: CSSProperties = {
@@ -42,16 +42,13 @@ export function OptimizedBackground({
         url(${basePath}-1920w.jpg) 1x
       )
     `,
-    backgroundSize: style.backgroundSize || 'cover',
-    backgroundPosition: style.backgroundPosition || 'center',
-    backgroundRepeat: style.backgroundRepeat || 'no-repeat'
+    backgroundSize: style.backgroundSize || "cover",
+    backgroundPosition: style.backgroundPosition || "center",
+    backgroundRepeat: style.backgroundRepeat || "no-repeat",
   };
 
   return (
-    <div
-      className={className}
-      style={backgroundStyle}
-    >
+    <div className={className} style={backgroundStyle}>
       {children}
     </div>
   );
@@ -64,9 +61,9 @@ export function OptimizedBackgroundAdvanced({
   image,
   children,
   className = "",
-  style = {}
+  style = {},
 }: OptimizedBackgroundProps) {
-  const basePath = image.replace(/\.(jpg|jpeg|png)$/i, '');
+  const basePath = image.replace(/\.(jpg|jpeg|png)$/i, "");
 
   return (
     <div className={className} style={style}>
@@ -141,9 +138,7 @@ export function OptimizedBackgroundAdvanced({
         }
       `}</style>
 
-      <div className="bg-container">
-        {children}
-      </div>
+      <div className="bg-container">{children}</div>
     </div>
   );
 }

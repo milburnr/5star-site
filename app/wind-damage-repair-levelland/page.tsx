@@ -12,15 +12,30 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { AlertTriangle, Church, Factory, Hospital, Phone, School, Star, Store, Tornado, Wind, Wrench, Zap } from "lucide-react";
+import {
+  AlertTriangle,
+  Church,
+  Factory,
+  Hospital,
+  Phone,
+  School,
+  Star,
+  Store,
+  Tornado,
+  Wind,
+  Wrench,
+  Zap,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/wind-damage-repair-levelland/' },
+  alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-levelland/" },
   title: "Wind Damage Repair Levelland TX | 5 Star Roofing",
-  description: "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Wind Damage Repair Levelland TX | 5 Star Roofing",
-    description: "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/wind-damage-repair-levelland/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,100 +53,138 @@ export const metadata: Metadata = {
 
 export default function WindDamageRepairLevellandPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Wind Damage Repair",
-                      "url": "/wind-damage-repair/"
-              },
-              {
-                      "name": "Levelland",
-                      "url": "/wind-damage-repair-levelland/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Wind Damage Repair",
+            url: "/wind-damage-repair/",
+          },
+          {
+            name: "Levelland",
+            url: "/wind-damage-repair-levelland/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/wind-damage-repair-levelland/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 33.5873, "longitude": -102.3779 },
-        "url": "https://5starroofingpros.com/wind-damage-repair-levelland/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas", "name": "Levelland", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert wind damage repair services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/wind-damage-repair-levelland/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 33.5873, longitude: -102.3779 },
+            url: "https://5starroofingpros.com/wind-damage-repair-levelland/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas",
+              name: "Levelland",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert wind damage repair services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Wind Damage Roof Repair",
-            "provider": {
+            serviceType: "Wind Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": { "@id": "https://5starroofingpros.com/#organization" }
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Levelland",
+              name: "Levelland",
               "@id": "https://en.wikipedia.org/wiki/Levelland,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually."
-          })
+            description:
+              "Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually.",
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-18-1280w.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-18-1280w.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
@@ -145,12 +198,17 @@ export default function WindDamageRepairLevellandPage() {
                 South Plains Wind Damage Repair Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10 hailstorms annually. Free inspections. Call (806) 622-6041
+                Expert wind damage roof repair in Levelland TX. South Plains experiences 7-10
+                hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -158,16 +216,13 @@ export default function WindDamageRepairLevellandPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-10</div>
@@ -178,14 +233,19 @@ export default function WindDamageRepairLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -193,10 +253,17 @@ export default function WindDamageRepairLevellandPage() {
               How Does Levelland's Wind Damage Repair Specialists Affect Your Roof?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Levelland's location in Hockley County creates unique roofing challenges. The South Plains experiences 7-10 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Levelland's location in Hockley County creates unique roofing challenges. The South
+              Plains experiences 7-10 hailstorms annually, sustained high winds, extreme temperature
+              fluctuations, and severe weather conditions. Your roofing system must withstand these
+              demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Levelland and Hockley County with premium materials and expert installation. From properties near South Plains College to buildings throughout Levelland, we understand South Plains weather patterns, local building codes, and the specific needs of Hockley County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Levelland
+              and Hockley County with premium materials and expert installation. From properties
+              near South Plains College to buildings throughout Levelland, we understand South
+              Plains weather patterns, local building codes, and the specific needs of Hockley
+              County property owners.
             </p>
           </section>
         </FadeIn>
@@ -228,27 +295,47 @@ export default function WindDamageRepairLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Panhandle Wind Corridors</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Panhandle Wind Corridors
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Levelland sits directly in the path of powerful wind corridors that sweep across the Texas Panhandle. These sustained winds of 25-45 mph, combined with gusts reaching 70-90 mph during storms, create unique structural stresses that require specialized repair techniques and reinforcement strategies.
+                  Levelland sits directly in the path of powerful wind corridors that sweep across
+                  the Texas Panhandle. These sustained winds of 25-45 mph, combined with gusts
+                  reaching 70-90 mph during storms, create unique structural stresses that require
+                  specialized repair techniques and reinforcement strategies.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Straight-Line Wind Damage</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Straight-Line Wind Damage
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Unlike tornado damage, straight-line winds create consistent directional forces that can lift entire roof sections, tear membranes, and damage flashing systems. The South Plains' flat topography allows these winds to maintain intensity over vast distances, affecting multiple properties simultaneously.
+                  Unlike tornado damage, straight-line winds create consistent directional forces
+                  that can lift entire roof sections, tear membranes, and damage flashing systems.
+                  The South Plains' flat topography allows these winds to maintain intensity over
+                  vast distances, affecting multiple properties simultaneously.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Seasonal Wind Variations</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Seasonal Wind Variations
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Hockley County experiences different wind patterns throughout the year. Spring brings severe thunderstorms with microbursts, summer has sustained thermal winds, fall features powerful cold fronts, and winter brings arctic blasts. Each requires specific repair and reinforcement approaches.
+                  Hockley County experiences different wind patterns throughout the year. Spring
+                  brings severe thunderstorms with microbursts, summer has sustained thermal winds,
+                  fall features powerful cold fronts, and winter brings arctic blasts. Each requires
+                  specific repair and reinforcement approaches.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Uplift vs. Lateral Forces</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Uplift vs. Lateral Forces
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Panhandle winds create both uplift forces that try to pull roofing materials off and lateral forces that push against vertical surfaces. Our repair techniques address both force vectors, ensuring comprehensive protection against future wind events common in the region.
+                  Panhandle winds create both uplift forces that try to pull roofing materials off
+                  and lateral forces that push against vertical surfaces. Our repair techniques
+                  address both force vectors, ensuring comprehensive protection against future wind
+                  events common in the region.
                 </p>
               </div>
             </div>
@@ -262,29 +349,43 @@ export default function WindDamageRepairLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl mb-4"><Tornado className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Tornado className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Membrane Uplift</h3>
                 <p className="text-gray-700">
-                  High winds can lift and tear roofing membranes, especially at edges and corners where wind forces concentrate. This damage often starts small but spreads rapidly if not immediately addressed with proper repair techniques.
+                  High winds can lift and tear roofing membranes, especially at edges and corners
+                  where wind forces concentrate. This damage often starts small but spreads rapidly
+                  if not immediately addressed with proper repair techniques.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Zap className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Fastener Failure</h3>
                 <p className="text-gray-700">
-                  Sustained winds can work loose mechanical fasteners, creating weak points that lead to progressive roof failure. South Plains properties need upgraded fastening patterns and enhanced attachment systems.
+                  Sustained winds can work loose mechanical fasteners, creating weak points that
+                  lead to progressive roof failure. South Plains properties need upgraded fastening
+                  patterns and enhanced attachment systems.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Wind className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Wind className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Flashing Displacement</h3>
                 <p className="text-gray-700">
-                  Wind-driven rain and lateral forces can damage flashing systems around penetrations, parapets, and roof edges, creating leak points that compromise the entire building envelope.
+                  Wind-driven rain and lateral forces can damage flashing systems around
+                  penetrations, parapets, and roof edges, creating leak points that compromise the
+                  entire building envelope.
                 </p>
               </div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-brand-brown mb-4">South Plains Wind Statistics</h3>
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                South Plains Wind Statistics
+              </h3>
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2">25-45</div>
@@ -318,9 +419,14 @@ export default function WindDamageRepairLevellandPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Comprehensive Safety Inspection</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Comprehensive Safety Inspection
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our certified inspectors conduct thorough safety assessments to identify structural integrity issues, loose materials, and immediate hazards. We secure dangerous areas and provide prompt stabilization to prevent further damage while planning comprehensive repairs.
+                    Our certified inspectors conduct thorough safety assessments to identify
+                    structural integrity issues, loose materials, and immediate hazards. We secure
+                    dangerous areas and provide prompt stabilization to prevent further damage while
+                    planning comprehensive repairs.
                   </p>
                 </div>
               </div>
@@ -329,9 +435,14 @@ export default function WindDamageRepairLevellandPage() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Detailed Damage Documentation</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Detailed Damage Documentation
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Using advanced technology including drone photography and thermal imaging, we document all wind damage with precise measurements, high-resolution photos, and detailed reports. This documentation is crucial for insurance claims and ensures nothing is overlooked in repairs.
+                    Using advanced technology including drone photography and thermal imaging, we
+                    document all wind damage with precise measurements, high-resolution photos, and
+                    detailed reports. This documentation is crucial for insurance claims and ensures
+                    nothing is overlooked in repairs.
                   </p>
                 </div>
               </div>
@@ -342,7 +453,10 @@ export default function WindDamageRepairLevellandPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Structural Evaluation</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our engineers evaluate the roof's structural components to identify compromised decking, damaged insulation, and stressed structural members. We assess the roof's ability to withstand future wind events and recommend reinforcement upgrades where needed.
+                    Our engineers evaluate the roof's structural components to identify compromised
+                    decking, damaged insulation, and stressed structural members. We assess the
+                    roof's ability to withstand future wind events and recommend reinforcement
+                    upgrades where needed.
                   </p>
                 </div>
               </div>
@@ -351,9 +465,14 @@ export default function WindDamageRepairLevellandPage() {
                   4
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Repair Strategy Development</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Repair Strategy Development
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Based on damage assessment and local wind patterns, we develop customized repair strategies that not only restore the roof but enhance its wind resistance. This includes upgraded fastening patterns, reinforced edge details, and improved drainage systems.
+                    Based on damage assessment and local wind patterns, we develop customized repair
+                    strategies that not only restore the roof but enhance its wind resistance. This
+                    includes upgraded fastening patterns, reinforced edge details, and improved
+                    drainage systems.
                   </p>
                 </div>
               </div>
@@ -362,9 +481,14 @@ export default function WindDamageRepairLevellandPage() {
                   5
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Insurance Coordination</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Insurance Coordination
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We work directly with insurance adjusters to ensure fair settlements and complete coverage of wind damage repairs. Our detailed documentation and local expertise help maximize claim settlements while minimizing property owner out-of-pocket expenses.
+                    We work directly with insurance adjusters to ensure fair settlements and
+                    complete coverage of wind damage repairs. Our detailed documentation and local
+                    expertise help maximize claim settlements while minimizing property owner
+                    out-of-pocket expenses.
                   </p>
                 </div>
               </div>
@@ -380,10 +504,13 @@ export default function WindDamageRepairLevellandPage() {
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="storm-response" className="bg-white rounded-lg shadow-md">
                 <AccordionTrigger className="px-6 py-4 text-left text-lg font-semibold text-brand-brown">
-                  How quickly can you respond to wind damage emergencies in Levelland?
+                  How do you handle wind damage work in Levelland?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We maintain prompt response capabilities for Hockley County properties. Our rapid response team can typically arrive within 2-4 hours of your call to provide tarping, secure loose materials, and prevent further damage. We understand that South Plains wind events can cause widespread damage requiring immediate attention.
+                  We schedule storm-damage documentation and inspections across Hockley County once
+                  conditions are safe for crews to be on a roof. We are not an emergency-dispatch
+                  service — our value is thorough photo documentation, adjuster-ready reports, and
+                  Class 4 or wind-rated restoration built for South Plains weather exposure.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="insurance-coverage" className="bg-white rounded-lg shadow-md">
@@ -391,7 +518,11 @@ export default function WindDamageRepairLevellandPage() {
                   Does homeowner's insurance typically cover wind damage repairs?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Most property insurance policies cover wind damage as a covered peril. However, coverage details vary by policy and insurance company. We work with all major insurance carriers and help document damage to maximize your claim settlement. Our experience with local wind patterns helps ensure adjusters understand the scope of typical South Plains wind damage.
+                  Most property insurance policies cover wind damage as a covered peril. However,
+                  coverage details vary by policy and insurance company. We work with all major
+                  insurance carriers and help document damage to maximize your claim settlement. Our
+                  experience with local wind patterns helps ensure adjusters understand the scope of
+                  typical South Plains wind damage.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="prevention-upgrades" className="bg-white rounded-lg shadow-md">
@@ -399,7 +530,11 @@ export default function WindDamageRepairLevellandPage() {
                   Can repairs include upgrades to prevent future wind damage?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Absolutely. When repairing wind damage, we often recommend and can implement upgrades like enhanced fastening patterns, reinforced edge details, and improved flashing systems. These upgrades can qualify for insurance discounts and significantly improve your roof's resistance to future wind events common in the Texas Panhandle.
+                  Absolutely. When repairing wind damage, we often recommend and can implement
+                  upgrades like enhanced fastening patterns, reinforced edge details, and improved
+                  flashing systems. These upgrades can qualify for insurance discounts and
+                  significantly improve your roof's resistance to future wind events common in the
+                  Texas Panhandle.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="temporary-repairs" className="bg-white rounded-lg shadow-md">
@@ -407,7 +542,11 @@ export default function WindDamageRepairLevellandPage() {
                   What temporary repairs can protect my building until permanent repairs?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Temporary repairs include professional tarping, securing loose materials, temporary flashing installation, and prompt leak repairs. These measures protect your property from further damage while insurance claims are processed and permanent repair materials are ordered. All temporary work is credited toward final repair costs.
+                  Temporary repairs include professional tarping, securing loose materials,
+                  temporary flashing installation, and prompt leak repairs. These measures protect
+                  your property from further damage while insurance claims are processed and
+                  permanent repair materials are ordered. All temporary work is credited toward
+                  final repair costs.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="repair-timeline" className="bg-white rounded-lg shadow-md">
@@ -415,7 +554,10 @@ export default function WindDamageRepairLevellandPage() {
                   How long do wind damage repairs typically take?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Repair timelines depend on damage extent and material availability. Minor repairs can often be completed in 1-2 days, while major wind damage requiring membrane replacement may take 1-2 weeks. We prioritize structural stabilization immediately and provide detailed timelines once the full scope of damage is assessed.
+                  Repair timelines depend on damage extent and material availability. Minor repairs
+                  can often be completed in 1-2 days, while major wind damage requiring membrane
+                  replacement may take 1-2 weeks. We prioritize structural stabilization immediately
+                  and provide detailed timelines once the full scope of damage is assessed.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="quality-assurance" className="bg-white rounded-lg shadow-md">
@@ -423,7 +565,10 @@ export default function WindDamageRepairLevellandPage() {
                   How do you ensure wind damage repairs will withstand future storms?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Our repairs exceed manufacturer specifications for South Plains wind conditions. We use upgraded fastening patterns, high-wind-rated materials, and enhanced attachment methods. All repairs undergo rigorous quality testing including pull tests on fasteners and comprehensive final inspections before completion.
+                  Our repairs exceed manufacturer specifications for South Plains wind conditions.
+                  We use upgraded fastening patterns, high-wind-rated materials, and enhanced
+                  attachment methods. All repairs undergo rigorous quality testing including pull
+                  tests on fasteners and comprehensive final inspections before completion.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -437,39 +582,63 @@ export default function WindDamageRepairLevellandPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><School className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <School className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Educational Facilities</h3>
-                <p className="text-gray-600 text-sm">Schools, colleges, training centers throughout Levelland</p>
+                <p className="text-gray-600 text-sm">
+                  Schools, colleges, training centers throughout Levelland
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Factory className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Industrial Buildings</h3>
-                <p className="text-gray-600 text-sm">Manufacturing plants, warehouses, distribution centers</p>
+                <p className="text-gray-600 text-sm">
+                  Manufacturing plants, warehouses, distribution centers
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Store className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Store className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Commercial Properties</h3>
-                <p className="text-gray-600 text-sm">Retail centers, office buildings, restaurants</p>
+                <p className="text-gray-600 text-sm">
+                  Retail centers, office buildings, restaurants
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Hospital className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Hospital className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Healthcare Facilities</h3>
-                <p className="text-gray-600 text-sm">Medical clinics, assisted living, care facilities</p>
+                <p className="text-gray-600 text-sm">
+                  Medical clinics, assisted living, care facilities
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Church className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Church className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Religious Buildings</h3>
-                <p className="text-gray-600 text-sm">Churches, community centers, fellowship halls</p>
+                <p className="text-gray-600 text-sm">
+                  Churches, community centers, fellowship halls
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Wrench className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Wrench className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Agricultural Buildings</h3>
                 <p className="text-gray-600 text-sm">Equipment storage, processing facilities</p>
               </div>
             </div>
             <div className="mt-8 text-center">
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                From South Plains College buildings to agricultural facilities throughout Hockley County, we've helped hundreds of Levelland property owners recover from wind damage and protect against future storms.
+                From South Plains College buildings to agricultural facilities throughout Hockley
+                County, we've helped hundreds of Levelland property owners recover from wind damage
+                and protect against future storms.
               </p>
             </div>
           </section>
@@ -478,15 +647,22 @@ export default function WindDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 p-12 rounded-3xl border border-red-200">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-red-700 mb-4">How Does Wind Damage Response Work?</h2>
-              <div className="text-6xl mb-4"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
+              <h2 className="text-4xl font-bold text-red-700 mb-4">
+                How Does Wind Damage Response Work?
+              </h2>
+              <div className="text-6xl mb-4">
+                <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
+              </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                South Plains wind storms can strike without warning. Don't wait for minor damage to become major problems.
+                South Plains wind storms can strike without warning. Don't wait for minor damage to
+                become major problems.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-red-700 mb-4">Immediate Actions After Wind Damage</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-4">
+                  Immediate Actions After Wind Damage
+                </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Ensure personal safety - stay away from damaged areas</li>
                   <li>• Document damage with photos from ground level</li>
@@ -500,7 +676,7 @@ export default function WindDamageRepairLevellandPage() {
                 <ul className="space-y-2 text-gray-700">
                   <li>• prompt response team</li>
                   <li>• Professional tarping and securing</li>
-                  <li>• Immediate leak repairs</li>
+                  <li>• Active-leak weatherproofing</li>
                   <li>• Structural safety assessment</li>
                   <li>• Insurance documentation assistance</li>
                   <li>• Board-up services if needed</li>
@@ -508,29 +684,38 @@ export default function WindDamageRepairLevellandPage() {
               </div>
             </div>
             <div className="text-center mt-8">
-              <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 inline-block">
-              </a>
+              <a
+                href="tel:8066226041"
+                className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 inline-block"
+              ></a>
             </div>
           </section>
         </FadeIn>
         <InternalLinks currentCity="levelland" currentService="wind-damage-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Restore Your Levelland Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Expert wind damage repair for South Plains properties. Our experienced team understands Panhandle wind patterns and provides comprehensive repairs that withstand future storms. Trust Hockley County's wind damage specialists.
+            Expert wind damage repair for South Plains properties. Our experienced team understands
+            Panhandle wind patterns and provides comprehensive repairs that withstand future storms.
+            Trust Hockley County's wind damage specialists.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Assessment
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="wind-damage-repair-levelland" />
+        <RelatedArticles pageSlug="wind-damage-repair-levelland" />
       </div>
     </>
   );

@@ -1,6 +1,11 @@
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
@@ -10,12 +15,14 @@ import { Check, Phone, Star } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-snyder/' },
-  title: 'Commercial Roofing Snyder TX | 5 Star Roofing',
-  description: "Professional commercial roofing in Snyder TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-snyder/" },
+  title: "Commercial Roofing Snyder TX | 5 Star Roofing",
+  description:
+    "Professional commercial roofing in Snyder TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Commercial Roofing Snyder TX | 5 Star Roofing",
-    description: "Professional commercial roofing in Snyder TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
+    description:
+      "Professional commercial roofing in Snyder TX. Expert installation, repair & insurance assistance. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/commercial-roofing-snyder/",
     siteName: "5 Star Roofing",
     images: [
@@ -34,33 +41,65 @@ export const metadata: Metadata = {
 export default function CommercialRoofingSnyderPage() {
   return (
     <>
-      <Breadcrumb items={[
-        { name: "Home", url: "/" },
-        { name: "Commercial Roofing", url: "/commercial-roofing/" },
-        { name: "Snyder", url: "/commercial-roofing-snyder/" }
-      ]} />
+      <Breadcrumb
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Snyder", url: "/commercial-roofing-snyder/" },
+        ]}
+      />
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/commercial-roofing-snyder/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "/images/home-hero-1200w.webp",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.1768, "longitude": -101.8590 },
-        "url": "https://5starroofingpros.com/commercial-roofing-snyder/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas", "name": "Snyder", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Professional commercial roofing in Snyder TX. Expert installation, warranties, and insurance assistance.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/commercial-roofing-snyder/#localbusiness",
+            name: "5 Star Roofing",
+            image: "/images/home-hero-1200w.webp",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.1768, longitude: -101.859 },
+            url: "https://5starroofingpros.com/commercial-roofing-snyder/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
+              name: "Snyder",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Professional commercial roofing in Snyder TX. Expert installation, warranties, and insurance assistance.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
 
       <script
         type="application/ld+json"
@@ -68,46 +107,78 @@ export default function CommercialRoofingSnyderPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Commercial Roofing Services",
-            "name": "Commercial Roofing in Snyder",
-            "description": "Professional commercial roofing services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
-            "provider": {
+            serviceType: "Commercial Roofing Services",
+            name: "Commercial Roofing in Snyder",
+            description:
+              "Professional commercial roofing services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "@id": "https://5starroofingpros.com/#organization"
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization",
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Snyder",
-              "containedInPlace": { "@type": "State", "name": "Texas" }
+              name: "Snyder",
+              containedInPlace: { "@type": "State", name: "Texas" },
             },
-            "hasOfferCatalog": {
+            hasOfferCatalog: {
               "@type": "OfferCatalog",
-              "name": "Commercial Roofing Services",
-              "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Repair" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
-              ]
-            }
-          })
+              name: "Commercial Roofing Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: "Commercial Roofing Installation" },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: "Commercial Roofing Repair" },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: "Free Roof Inspection" },
+                },
+              ],
+            },
+          }),
         }}
       />
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center" style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section
+        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
+        style={{
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">Commercial Roofing in <span className="text-brand-gold-light">Snyder</span></h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">Expert Service for Texas Properties</p>
-              <p className="text-xl mb-8 text-white leading-relaxed">Professional commercial roofing throughout Snyder. Expert installation, comprehensive warranties, and . Free inspections and insurance assistance available.</p>
+              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
+                Commercial Roofing in <span className="text-brand-gold-light">Snyder</span>
+              </h1>
+              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
+                Expert Service for Texas Properties
+              </p>
+              <p className="text-xl mb-8 text-white leading-relaxed">
+                Professional commercial roofing throughout Snyder. Expert installation,
+                comprehensive warranties, and . Free inspections and insurance assistance available.
+              </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                </a>
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
+                  Get Free Inspection
+                </a>
               </div>
             </div>
           </FadeIn>
@@ -118,10 +189,28 @@ export default function CommercialRoofingSnyderPage() {
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">Fast</div><div className="text-brand-brown font-semibold text-lg">Response Time</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div><div className="text-brand-brown font-semibold text-lg">Years Experience</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-4xl font-bold text-brand-gold mb-3">1-3</div><div className="text-brand-brown font-semibold text-lg">Days to Complete</div></div>
-              <div className="bg-white p-8 rounded-2xl shadow-lg"><div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div><div className="text-brand-brown font-semibold text-lg">5-Star Rated</div></div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <div className="text-4xl font-bold text-brand-gold mb-3">Fast</div>
+                <div className="text-brand-brown font-semibold text-lg">Response Time</div>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <div className="text-4xl font-bold text-brand-gold mb-3">1-3</div>
+                <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
+              </div>
+              <div className="bg-white p-8 rounded-2xl shadow-lg">
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
+                <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
+              </div>
             </div>
           </div>
         </section>
@@ -130,20 +219,57 @@ export default function CommercialRoofingSnyderPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">What Makes Our Snyder Roof Repair Specialists Different?</h2>
-            <p className="text-xl text-gray-700 mb-6 leading-relaxed">Professional commercial roofing throughout Snyder and surrounding areas. We understand Texas weather challenges and install roofing systems engineered for extreme conditions including hail, high winds, and temperature swings.</p>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">Since 2014, we've served Snyder with expert installations, comprehensive warranties, and outstanding customer service. We handle all permits, insurance claims, and warranty documentation. Free inspections and estimates available.</p>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              What Makes Our Snyder Roof Repair Specialists Different?
+            </h2>
+            <p className="text-xl text-gray-700 mb-6 leading-relaxed">
+              Professional commercial roofing throughout Snyder and surrounding areas. We understand
+              Texas weather challenges and install roofing systems engineered for extreme conditions
+              including hail, high winds, and temperature swings.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+              Since 2014, we've served Snyder with expert installations, comprehensive warranties,
+              and outstanding customer service. We handle all permits, insurance claims, and
+              warranty documentation. Free inspections and estimates available.
+            </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Snyder's Diverse Commercial Economy</h3>
-                <p className="text-gray-700 mb-4">Located in Scurry County, Snyder serves as a regional hub for agriculture, energy production, and manufacturing operations. The city's diverse commercial landscape includes cotton processing facilities, oil refining operations, wind energy projects, and retail establishments, each requiring specialized roofing solutions tailored to specific operational demands.</p>
-                <p className="text-gray-700 mb-4">Snyder's strategic location in West Texas places commercial properties at the intersection of major weather systems, creating unique challenges for roofing systems. Annual precipitation averaging 20 inches, combined with extreme temperature variations and severe storm activity, demands robust roofing solutions designed for harsh environmental conditions.</p>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Snyder's Diverse Commercial Economy
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Located in Scurry County, Snyder serves as a regional hub for agriculture, energy
+                  production, and manufacturing operations. The city's diverse commercial landscape
+                  includes cotton processing facilities, oil refining operations, wind energy
+                  projects, and retail establishments, each requiring specialized roofing solutions
+                  tailored to specific operational demands.
+                </p>
+                <p className="text-gray-700 mb-4">
+                  Snyder's strategic location in West Texas places commercial properties at the
+                  intersection of major weather systems, creating unique challenges for roofing
+                  systems. Annual precipitation averaging 20 inches, combined with extreme
+                  temperature variations and severe storm activity, demands robust roofing solutions
+                  designed for harsh environmental conditions.
+                </p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Climate Considerations for Commercial Properties</h3>
-                <p className="text-gray-700 mb-4">Snyder's semi-arid climate features intense summer heat exceeding 100°F and winter lows dropping below 25°F, creating significant thermal stress on commercial roofing systems. The region's exposure to severe thunderstorms, hail events, and high winds requires enhanced protection strategies beyond standard roofing applications.</p>
-                <p className="text-gray-700 mb-4">West Texas wind patterns regularly exceed 20 mph throughout the year, with severe weather events producing sustained winds over 60 mph. This consistent wind exposure, combined with UV radiation and thermal cycling, necessitates specialized roofing materials and installation techniques for optimal long-term performance.</p>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Climate Considerations for Commercial Properties
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Snyder's semi-arid climate features intense summer heat exceeding 100°F and winter
+                  lows dropping below 25°F, creating significant thermal stress on commercial
+                  roofing systems. The region's exposure to severe thunderstorms, hail events, and
+                  high winds requires enhanced protection strategies beyond standard roofing
+                  applications.
+                </p>
+                <p className="text-gray-700 mb-4">
+                  West Texas wind patterns regularly exceed 20 mph throughout the year, with severe
+                  weather events producing sustained winds over 60 mph. This consistent wind
+                  exposure, combined with UV radiation and thermal cycling, necessitates specialized
+                  roofing materials and installation techniques for optimal long-term performance.
+                </p>
               </div>
             </div>
           </section>
@@ -151,11 +277,19 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Industry-Specific Commercial Roofing Solutions Involve?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              What Does Industry-Specific Commercial Roofing Solutions Involve?
+            </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">Agricultural Processing Facilities</h3>
-                <p className="text-gray-700 mb-4">Specialized roofing systems for cotton gins, grain storage, and processing facilities requiring superior moisture control, dust resistance, and accommodation for heavy equipment loads and conveyor systems.</p>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">
+                  Agricultural Processing Facilities
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Specialized roofing systems for cotton gins, grain storage, and processing
+                  facilities requiring superior moisture control, dust resistance, and accommodation
+                  for heavy equipment loads and conveyor systems.
+                </p>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Moisture and humidity control systems</li>
                   <li>• Dust and debris resistant materials</li>
@@ -165,8 +299,14 @@ export default function CommercialRoofingSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">Energy and Manufacturing</h3>
-                <p className="text-gray-700 mb-4">High-performance roofing for oil and gas operations, wind energy facilities, and manufacturing plants requiring chemical resistance, specialized equipment mounting, and enhanced safety features.</p>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">
+                  Energy and Manufacturing
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  High-performance roofing for oil and gas operations, wind energy facilities, and
+                  manufacturing plants requiring chemical resistance, specialized equipment
+                  mounting, and enhanced safety features.
+                </p>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Chemical and hydrocarbon resistant systems</li>
                   <li>• Class A fire-rated assemblies</li>
@@ -176,8 +316,14 @@ export default function CommercialRoofingSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">Commercial and Healthcare</h3>
-                <p className="text-gray-700 mb-4">Energy-efficient roofing solutions for retail centers, office buildings, and healthcare facilities focusing on interior comfort, noise reduction, and operational continuity during installation.</p>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">
+                  Commercial and Healthcare
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Energy-efficient roofing solutions for retail centers, office buildings, and
+                  healthcare facilities focusing on interior comfort, noise reduction, and
+                  operational continuity during installation.
+                </p>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li>• Energy-efficient cool roofing systems</li>
                   <li>• Superior insulation and air sealing</li>
@@ -192,13 +338,24 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Advanced Roofing Technologies for West Texas Conditions Involve?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              What Does Advanced Roofing Technologies for West Texas Conditions Involve?
+            </h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-gray-700 mb-8 text-center">Cutting-edge roofing systems designed to withstand Snyder's challenging climate while delivering superior energy performance and longevity.</p>
+              <p className="text-xl text-gray-700 mb-8 text-center">
+                Cutting-edge roofing systems designed to withstand Snyder's challenging climate
+                while delivering superior energy performance and longevity.
+              </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                  <h3 className="text-xl font-bold mb-4 text-brand-brown">TPO and PVC Membrane Systems</h3>
-                  <p className="text-gray-700 mb-4">Single-ply membrane roofing systems offering exceptional performance in West Texas conditions with superior heat reflection, chemical resistance, and welded seam integrity for long-term waterproof protection.</p>
+                  <h3 className="text-xl font-bold mb-4 text-brand-brown">
+                    TPO and PVC Membrane Systems
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Single-ply membrane roofing systems offering exceptional performance in West
+                    Texas conditions with superior heat reflection, chemical resistance, and welded
+                    seam integrity for long-term waterproof protection.
+                  </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Heat-welded seam technology for superior waterproofing</li>
                     <li>• Solar reflective surfaces reducing cooling costs up to 40%</li>
@@ -209,7 +366,11 @@ export default function CommercialRoofingSnyderPage() {
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4 text-brand-brown">Metal Roofing Systems</h3>
-                  <p className="text-gray-700 mb-4">Standing seam and architectural metal roofing providing unmatched durability and longevity for Snyder commercial properties with advanced coating systems for enhanced performance in extreme conditions.</p>
+                  <p className="text-gray-700 mb-4">
+                    Standing seam and architectural metal roofing providing unmatched durability and
+                    longevity for Snyder commercial properties with advanced coating systems for
+                    enhanced performance in extreme conditions.
+                  </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• 50+ year service life with proper maintenance</li>
                     <li>• Wind uplift resistance up to 165 mph</li>
@@ -225,13 +386,25 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does This Roofing Improve Energy Efficiency?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              How Does This Roofing Improve Energy Efficiency?
+            </h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-gray-700 mb-8 text-center">Maximize energy savings and reduce operational costs with advanced commercial roofing technologies designed for Texas climate conditions.</p>
+              <p className="text-xl text-gray-700 mb-8 text-center">
+                Maximize energy savings and reduce operational costs with advanced commercial
+                roofing technologies designed for Texas climate conditions.
+              </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Cool Roofing Technology</h3>
-                  <p className="text-gray-700 mb-4">Reflective roofing systems significantly reduce heat absorption and lower building temperatures, providing substantial energy savings during Snyder's intense summer months while improving interior comfort for employees and customers.</p>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Cool Roofing Technology
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Reflective roofing systems significantly reduce heat absorption and lower
+                    building temperatures, providing substantial energy savings during Snyder's
+                    intense summer months while improving interior comfort for employees and
+                    customers.
+                  </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Solar reflectance index (SRI) ratings up to 115</li>
                     <li>• 25-45% reduction in cooling energy consumption</li>
@@ -241,8 +414,14 @@ export default function CommercialRoofingSnyderPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Insulation and Air Barrier Systems</h3>
-                  <p className="text-gray-700 mb-4">Advanced insulation technologies and air sealing systems create comprehensive thermal barriers that maintain consistent interior temperatures year-round, reducing energy consumption and improving building performance.</p>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Insulation and Air Barrier Systems
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Advanced insulation technologies and air sealing systems create comprehensive
+                    thermal barriers that maintain consistent interior temperatures year-round,
+                    reducing energy consumption and improving building performance.
+                  </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Continuous insulation systems eliminating thermal bridging</li>
                     <li>• Air barrier integration for enhanced performance</li>
@@ -258,24 +437,48 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Our Comprehensive Project Management and Quality Assurance Include?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              What Does Our Comprehensive Project Management and Quality Assurance Include?
+            </h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-gray-700 mb-8 text-center">Our systematic approach ensures successful commercial roofing projects with minimal disruption to Snyder business operations.</p>
+              <p className="text-xl text-gray-700 mb-8 text-center">
+                Our systematic approach ensures successful commercial roofing projects with minimal
+                disruption to Snyder business operations.
+              </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="bg-brand-gold text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
+                  <div className="bg-brand-gold text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    1
+                  </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Detailed Assessment</h3>
-                  <p className="text-gray-600">Comprehensive building evaluation including structural analysis, moisture surveys, and code compliance review to ensure optimal system design and performance.</p>
+                  <p className="text-gray-600">
+                    Comprehensive building evaluation including structural analysis, moisture
+                    surveys, and code compliance review to ensure optimal system design and
+                    performance.
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="bg-brand-gold text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
-                  <h3 className="text-lg font-bold mb-3 text-brand-brown">Professional Installation</h3>
-                  <p className="text-gray-600">Certified installation teams following manufacturer specifications and industry best practices while maintaining strict safety protocols and quality control standards.</p>
+                  <div className="bg-brand-gold text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    2
+                  </div>
+                  <h3 className="text-lg font-bold mb-3 text-brand-brown">
+                    Professional Installation
+                  </h3>
+                  <p className="text-gray-600">
+                    Certified installation teams following manufacturer specifications and industry
+                    best practices while maintaining strict safety protocols and quality control
+                    standards.
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="bg-brand-gold text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
+                  <div className="bg-brand-gold text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                    3
+                  </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Quality Verification</h3>
-                  <p className="text-gray-600">Comprehensive final inspections, performance testing, and complete documentation to ensure system integrity and warranty compliance.</p>
+                  <p className="text-gray-600">
+                    Comprehensive final inspections, performance testing, and complete documentation
+                    to ensure system integrity and warranty compliance.
+                  </p>
                 </div>
               </div>
             </div>
@@ -284,35 +487,107 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Frequently Asked Questions
+            </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How much does commercial roofing cost in Snyder?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Commercial roofing costs in Snyder vary by size, type, and complexity. TPO: $4-$8/sq ft, Metal: $7-$12/sq ft, EPDM: $3-$6/sq ft. Industrial and agricultural facilities may require specialized systems affecting pricing. We provide detailed estimates with transparent breakdowns and no hidden costs.</AccordionContent>
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How much does commercial roofing cost in Snyder?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Commercial roofing costs in Snyder vary by size, type, and complexity. TPO:
+                  $4-$8/sq ft, Metal: $7-$12/sq ft, EPDM: $3-$6/sq ft. Industrial and agricultural
+                  facilities may require specialized systems affecting pricing. We provide detailed
+                  estimates with transparent breakdowns and no hidden costs.
+                </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you work after hours in Snyder?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes. We schedule installations during evenings, weekends, or planned shutdowns to minimize business disruption in Snyder. This is especially important for manufacturing facilities, processing plants, and retail operations that require continuous operation.</AccordionContent>
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you work after hours in Snyder?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Yes. We schedule installations during evenings, weekends, or planned shutdowns to
+                  minimize business disruption in Snyder. This is especially important for
+                  manufacturing facilities, processing plants, and retail operations that require
+                  continuous operation.
+                </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What commercial roofing systems work best in Texas?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">TPO (energy efficient, reflective), Metal (durable, 50+ year lifespan), and EPDM (cost-effective) perform excellently in Texas climate. For Snyder's specific conditions, we recommend enhanced wind resistance and hail protection due to severe weather exposure.</AccordionContent>
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What commercial roofing systems work best in Texas?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  TPO (energy efficient, reflective), Metal (durable, 50+ year lifespan), and EPDM
+                  (cost-effective) perform excellently in Texas climate. For Snyder's specific
+                  conditions, we recommend enhanced wind resistance and hail protection due to
+                  severe weather exposure.
+                </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle agricultural facility requirements?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Agricultural facilities in Snyder require specialized solutions including moisture control for grain storage, chemical resistance for fertilizers, enhanced ventilation systems, and accommodation for heavy equipment. We design custom solutions for each facility's specific operational needs.</AccordionContent>
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do you handle agricultural facility requirements?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Agricultural facilities in Snyder require specialized solutions including moisture
+                  control for grain storage, chemical resistance for fertilizers, enhanced
+                  ventilation systems, and accommodation for heavy equipment. We design custom
+                  solutions for each facility's specific operational needs.
+                </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What energy savings can I expect from a new commercial roof?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Cool roofing systems in Snyder typically reduce cooling costs by 25-45% during summer months. Combined with enhanced insulation, total energy savings often range from 15-30% annually. We provide energy performance estimates based on your specific building and usage patterns.</AccordionContent>
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What energy savings can I expect from a new commercial roof?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  Cool roofing systems in Snyder typically reduce cooling costs by 25-45% during
+                  summer months. Combined with enhanced insulation, total energy savings often range
+                  from 15-30% annually. We provide energy performance estimates based on your
+                  specific building and usage patterns.
+                </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you provide storm damage response?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">Yes, we provide prompt response for storm damage, leak repairs, and urgent roofing issues throughout Snyder and surrounding areas. Our our teams typically respond within 2-4 hours for critical situations to minimize business disruption and property damage.</AccordionContent>
+              <AccordionItem
+                value="item-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do you handle storm damage for Snyder commercial properties?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  We schedule storm-damage documentation and inspections throughout Snyder and
+                  Scurry County once conditions are safe for crews to be on a roof. We are not an
+                  emergency-dispatch service — our value is thorough documentation, adjuster-ready
+                  reports, and commercial restoration that minimizes long-term business disruption.
+                </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">What maintenance programs do you offer?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 leading-relaxed">We offer comprehensive maintenance programs including bi-annual inspections, preventive repairs, drainage system maintenance, and detailed condition reporting. Programs are customized based on roofing system type, building use, and local environmental conditions.</AccordionContent>
+              <AccordionItem
+                value="item-7"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  What maintenance programs do you offer?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-700 leading-relaxed">
+                  We offer comprehensive maintenance programs including bi-annual inspections,
+                  preventive repairs, drainage system maintenance, and detailed condition reporting.
+                  Programs are customized based on roofing system type, building use, and local
+                  environmental conditions.
+                </AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>
@@ -320,13 +595,24 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Safety and Environmental Standards?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Safety and Environmental Standards?
+            </h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl text-gray-700 mb-8 text-center">Comprehensive safety protocols and environmental responsibility guide all commercial roofing operations in Snyder.</p>
+              <p className="text-xl text-gray-700 mb-8 text-center">
+                Comprehensive safety protocols and environmental responsibility guide all commercial
+                roofing operations in Snyder.
+              </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                  <h3 className="text-xl font-bold mb-4 text-brand-brown">Comprehensive Safety Program</h3>
-                  <p className="text-gray-700 mb-4">All team members receive extensive safety training with regular updates on OSHA standards and industry best practices. We maintain strict safety protocols including fall protection, hazard recognition, and safety response procedures.</p>
+                  <h3 className="text-xl font-bold mb-4 text-brand-brown">
+                    Comprehensive Safety Program
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    All team members receive extensive safety training with regular updates on OSHA
+                    standards and industry best practices. We maintain strict safety protocols
+                    including fall protection, hazard recognition, and safety response procedures.
+                  </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• OSHA 10 and 30-hour certified personnel</li>
                     <li>• Daily safety briefings and job hazard analysis</li>
@@ -335,8 +621,14 @@ export default function CommercialRoofingSnyderPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
-                  <h3 className="text-xl font-bold mb-4 text-brand-brown">Environmental Responsibility</h3>
-                  <p className="text-gray-700 mb-4">We implement sustainable practices throughout our operations including proper waste management, material recycling, and environmentally responsible product selection for Snyder commercial projects.</p>
+                  <h3 className="text-xl font-bold mb-4 text-brand-brown">
+                    Environmental Responsibility
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    We implement sustainable practices throughout our operations including proper
+                    waste management, material recycling, and environmentally responsible product
+                    selection for Snyder commercial projects.
+                  </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Comprehensive material recycling programs</li>
                     <li>• Sustainable product selection and specification</li>
@@ -352,52 +644,96 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Why Choose 5 Star Roofing for Your Snyder Commercial Project?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Why Choose 5 Star Roofing for Your Snyder Commercial Project?
+            </h2>
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Check className="w-5 h-5 text-brand-gold inline-block" />
+                    </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown">West Texas Expertise</h3>
-                      <p className="text-gray-700">Deep understanding of Snyder's climate challenges, local building requirements, and industry-specific needs gained through extensive regional experience.</p>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">
+                        West Texas Expertise
+                      </h3>
+                      <p className="text-gray-700">
+                        Deep understanding of Snyder's climate challenges, local building
+                        requirements, and industry-specific needs gained through extensive regional
+                        experience.
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Check className="w-5 h-5 text-brand-gold inline-block" />
+                    </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Proven Performance</h3>
-                      <p className="text-gray-700">Hundreds of successful commercial roofing installations throughout West Texas with consistent 5-star customer reviews and long-term performance records.</p>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">
+                        Proven Performance
+                      </h3>
+                      <p className="text-gray-700">
+                        Hundreds of successful commercial roofing installations throughout West
+                        Texas with consistent 5-star customer reviews and long-term performance
+                        records.
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Check className="w-5 h-5 text-brand-gold inline-block" />
+                    </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Advanced Technology</h3>
-                      <p className="text-gray-700">Latest installation techniques, energy-efficient materials, and innovative roofing systems designed for optimal performance in challenging Texas conditions.</p>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">
+                        Advanced Technology
+                      </h3>
+                      <p className="text-gray-700">
+                        Latest installation techniques, energy-efficient materials, and innovative
+                        roofing systems designed for optimal performance in challenging Texas
+                        conditions.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Check className="w-5 h-5 text-brand-gold inline-block" />
+                    </div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Complete Service</h3>
-                      <p className="text-gray-700">Comprehensive project management from initial consultation through long-term warranty service, including permits, inspections, and insurance coordination.</p>
+                      <p className="text-gray-700">
+                        Comprehensive project management from initial consultation through long-term
+                        warranty service, including permits, inspections, and insurance
+                        coordination.
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Check className="w-5 h-5 text-brand-gold inline-block" />
+                    </div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Response</h3>
-                      <p className="text-gray-700"> for storm damage, leak repairs, and urgent roofing issues affecting Snyder commercial operations and property protection.</p>
+                      <p className="text-gray-700">
+                        {" "}
+                        for storm damage, leak repairs, and urgent roofing issues affecting Snyder
+                        commercial operations and property protection.
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                    <div className="bg-brand-gold text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <Check className="w-5 h-5 text-brand-gold inline-block" />
+                    </div>
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown">Competitive Value</h3>
-                      <p className="text-gray-700">Transparent pricing, detailed estimates, and competitive rates backed by superior materials, expert installation, and comprehensive warranty protection.</p>
+                      <p className="text-gray-700">
+                        Transparent pricing, detailed estimates, and competitive rates backed by
+                        superior materials, expert installation, and comprehensive warranty
+                        protection.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -408,24 +744,47 @@ export default function CommercialRoofingSnyderPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Visit Our Amarillo Location</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Visit Our Amarillo Location
+            </h2>
             <div className="flex justify-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl shadow-lg"
+              ></iframe>
             </div>
           </section>
         </FadeIn>
         <InternalLinks currentCity="snyder" currentService="commercial-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Snyder Property?</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">Free inspections for Snyder property owners. Expert commercial roofing with comprehensive warranties and insurance assistance.</p>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Free inspections for Snyder property owners. Expert commercial roofing with
+            comprehensive warranties and insurance assistance.
+          </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">Call (806) 622-6041</a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">Schedule Free Inspection</a>
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
+              Call (806) 622-6041
+            </a>
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
+              Schedule Free Inspection
+            </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="commercial-roofing-snyder" />
+        <RelatedArticles pageSlug="commercial-roofing-snyder" />
       </div>
     </>
   );

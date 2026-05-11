@@ -16,12 +16,14 @@ import { Check, Phone, Shield, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
-  alternates: { canonical: 'https://5starroofingpros.com/asphalt-shingle-roofing-perryton/' },
-  title: 'Asphalt Shingles Perryton TX | 5 Star Roofing',
-  description: "Asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-perryton/" },
+  title: "Asphalt Shingles Perryton TX | 5 Star Roofing",
+  description:
+    "Asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Asphalt Shingles Perryton TX | 5 Star Roofing",
-    description: "Asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/asphalt-shingle-roofing-perryton/",
     siteName: "5 Star Roofing",
     images: [
@@ -39,149 +41,188 @@ export const metadata: Metadata = {
 
 export default function AsphaltShingleRoofingPerrytonPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Asphalt Shingle Roofing",
-                      "url": "/asphalt-shingle-roofing/"
-              },
-              {
-                      "name": "Perryton",
-                      "url": "/asphalt-shingle-roofing-perryton/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Asphalt Shingle Roofing",
+            url: "/asphalt-shingle-roofing/",
+          },
+          {
+            name: "Perryton",
+            url: "/asphalt-shingle-roofing-perryton/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-perryton/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 36.4, "longitude": -100.8028 },
-        "url": "https://5starroofingpros.com/asphalt-shingle-roofing-perryton/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas", "name": "Perryton", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert asphalt shingle roofing services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/asphalt-shingle-roofing-perryton/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 36.4, longitude: -100.8028 },
+            url: "https://5starroofingpros.com/asphalt-shingle-roofing-perryton/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas",
+              name: "Perryton",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert asphalt shingle roofing services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Asphalt Shingle Roofing",
-            "provider": {
+            serviceType: "Asphalt Shingle Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Perryton,_Texas",
-              "name": "Perryton",
-              "containedInPlace": {
+              name: "Perryton",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "What are the best asphalt shingles for Perryton's climate?",
-                "acceptedAnswer": {
+                name: "What are the best asphalt shingles for Perryton's climate?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Class 4 impact-resistant architectural shingles are essential for Perryton's 7-9 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties."
-                }
+                  text: "Class 4 impact-resistant architectural shingles are essential for Perryton's 7-9 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How long do asphalt shingles last in Perryton?",
-                "acceptedAnswer": {
+                name: "How long do asphalt shingles last in Perryton?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Quality architectural shingles typically last 20-30 years in Perryton when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Perryton's climate."
-                }
+                  text: "Quality architectural shingles typically last 20-30 years in Perryton when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Perryton's climate.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do Class 4 shingles qualify for insurance discounts in Perryton?",
-                "acceptedAnswer": {
+                name: "Do Class 4 shingles qualify for insurance discounts in Perryton?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Perryton. Given the area's severe hail risk with 7-9 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount."
-                }
+                  text: "Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Perryton. Given the area's severe hail risk with 7-9 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does asphalt shingle roofing cost in Perryton?",
-                "acceptedAnswer": {
+                name: "How much does asphalt shingle roofing cost in Perryton?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Asphalt shingle roofing in Perryton typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Perryton homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates."
-                }
+                  text: "Asphalt shingle roofing in Perryton typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Perryton homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can asphalt shingles withstand Perryton's wind and hail?",
-                "acceptedAnswer": {
+                name: "Can asphalt shingles withstand Perryton's wind and hail?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Perryton's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection."
-                }
-              }
-            ]
-          })
+                  text: "Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Perryton's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-3-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-brown-900/75 to-orange-900/70"></div>
@@ -195,12 +236,18 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                 Class 4 Impact-Resistant Shingles | Premium Brands
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert asphalt shingle roofing in Perryton TX. Texas Panhandle experiences 6-8
+                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
+                622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -208,7 +255,6 @@ export default function AsphaltShingleRoofingPerrytonPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -228,14 +274,19 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -243,10 +294,16 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               What Makes Our Perryton Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat country agricultural community. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with severe Panhandle hailstorms—demand superior roofing materials and expert installation.
+              Perryton's location in the Texas Panhandle creates unique roofing challenges. Wheat
+              country agricultural community. Texas Panhandle weather extremes—6-8 annual
+              hailstorms, High Plains winds 60+ mph, and wheat country agricultural exposure with
+              severe Panhandle hailstorms—demand superior roofing materials and expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 160+ Perryton properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Perryton property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 160+ Perryton properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with
+              Perryton property owners, and handle complete insurance claims. Most homeowners pay
+              only their deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -258,33 +315,74 @@ export default function AsphaltShingleRoofingPerrytonPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Wheat className="w-6 h-6 inline-block" /> Agricultural Community</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Wheat className="w-6 h-6 inline-block" /> Agricultural Community
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Farm and grain industry families</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Small-town residential charm</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Multi-generational homesteads</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Rural-suburban developments</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Agricultural professional housing</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Farm and grain industry families
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Small-town residential charm
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Multi-generational homesteads
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Rural-suburban developments
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Agricultural professional housing
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown"><Shield className="w-6 h-6 inline-block" /> Agricultural Durability</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  <Shield className="w-6 h-6 inline-block" /> Agricultural Durability
+                </h3>
                 <ul className="text-lg text-gray-700 space-y-3">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Dust and debris resistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Grain dust protection</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Chemical exposure resistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />High wind performance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Long-term value focus</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Dust and debris resistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Grain dust protection
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Chemical exposure resistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    High wind performance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Long-term value focus
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="bg-gradient-to-r from-amber-50 to-green-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Perryton's Agricultural Community Values</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Perryton's Agricultural Community Values
+              </h3>
               <p className="text-lg text-gray-700 mb-4">
-                Perryton's grain industry creates a close-knit community where families value quality, durability, and value for their investments. These homeowners understand the importance of protection against harsh weather while maintaining budgets that work for agricultural families.
+                Perryton's grain industry creates a close-knit community where families value
+                quality, durability, and value for their investments. These homeowners understand
+                the importance of protection against harsh weather while maintaining budgets that
+                work for agricultural families.
               </p>
               <p className="text-lg text-gray-700">
-                Our asphalt shingle solutions provide the perfect balance of agricultural-grade durability, family-friendly pricing, and the aesthetic appeal that reflects Perryton's community pride and agricultural heritage.
+                Our asphalt shingle solutions provide the perfect balance of agricultural-grade
+                durability, family-friendly pricing, and the aesthetic appeal that reflects
+                Perryton's community pride and agricultural heritage.
               </p>
             </div>
           </section>
@@ -299,7 +397,8 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Dust Resistance</h3>
                 <p className="text-gray-700 mb-3">
-                  Specially formulated granules and smooth surfaces resist grain dust accumulation common near elevators and processing facilities.
+                  Specially formulated granules and smooth surfaces resist grain dust accumulation
+                  common near elevators and processing facilities.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Self-cleaning granule surfaces</li>
@@ -311,7 +410,8 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Chemical Protection</h3>
                 <p className="text-gray-700 mb-3">
-                  Enhanced resistance to agricultural chemicals including fertilizers, herbicides, and grain treatment products.
+                  Enhanced resistance to agricultural chemicals including fertilizers, herbicides,
+                  and grain treatment products.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Chemical-resistant granules</li>
@@ -323,7 +423,8 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border">
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Value Engineering</h3>
                 <p className="text-gray-700 mb-3">
-                  Cost-effective solutions that provide maximum protection and longevity for agricultural family budgets.
+                  Cost-effective solutions that provide maximum protection and longevity for
+                  agricultural family budgets.
                 </p>
                 <ul className="text-gray-600 space-y-1">
                   <li>• Competitive agricultural pricing</li>
@@ -346,7 +447,9 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-brand-brown">Small Town Values</h3>
                   <p className="text-gray-700 mb-4">
-                    We understand Perryton's small-town community values and provide personalized service that reflects the trust and relationships important to agricultural families.
+                    We understand Perryton's small-town community values and provide personalized
+                    service that reflects the trust and relationships important to agricultural
+                    families.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Local community involvement</li>
@@ -356,9 +459,12 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Scheduling</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Agricultural Scheduling
+                  </h3>
                   <p className="text-gray-700 mb-4">
-                    Flexible scheduling that works around harvest times, planting seasons, and the unique demands of agricultural operations.
+                    Flexible scheduling that works around harvest times, planting seasons, and the
+                    unique demands of agricultural operations.
                   </p>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Off-season project scheduling</li>
@@ -378,7 +484,9 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               Long-Term Investment Protection?
             </h2>
             <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-6 text-brand-brown">Generational Roofing Solutions</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-brown">
+                Generational Roofing Solutions
+              </h3>
               <div className="grid md:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-brand-gold mb-2">25-50</div>
@@ -411,13 +519,34 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               Shingle Performance in Perryton&apos;s Wind Corridor
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Perryton occupies one of the highest-wind locations in Texas. Ochiltree County sits in the northern Panhandle where cold fronts from the Rockies collide with warm Gulf moisture across completely flat terrain, generating sustained winds that routinely exceed 25 mph and gusts that top 60-70 mph multiple times each spring. For asphalt shingle roofing, this means installation technique matters as much as the shingle product itself. A premium shingle installed with standard four-nail patterns will fail in Perryton long before a properly installed mid-grade shingle.
+              Perryton occupies one of the highest-wind locations in Texas. Ochiltree County sits in
+              the northern Panhandle where cold fronts from the Rockies collide with warm Gulf
+              moisture across completely flat terrain, generating sustained winds that routinely
+              exceed 25 mph and gusts that top 60-70 mph multiple times each spring. For asphalt
+              shingle roofing, this means installation technique matters as much as the shingle
+              product itself. A premium shingle installed with standard four-nail patterns will fail
+              in Perryton long before a properly installed mid-grade shingle.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              We use a six-nail pattern on every Perryton installation &mdash; two additional nails per shingle compared to the manufacturer&apos;s minimum &mdash; because the extra fasteners distribute wind uplift forces across more points and prevent the progressive peeling that starts when a single nail pulls through. Along eaves and rakes, where wind uplift is strongest, we reinforce starter strip courses with additional adhesive and mechanical fastening. Ridge caps receive the same treatment: hand-sealed with roofing cement and fastened with longer nails that penetrate through the cap, through the ridge vent material, and deep into the ridge board beneath.
+              We use a six-nail pattern on every Perryton installation &mdash; two additional nails
+              per shingle compared to the manufacturer&apos;s minimum &mdash; because the extra
+              fasteners distribute wind uplift forces across more points and prevent the progressive
+              peeling that starts when a single nail pulls through. Along eaves and rakes, where
+              wind uplift is strongest, we reinforce starter strip courses with additional adhesive
+              and mechanical fastening. Ridge caps receive the same treatment: hand-sealed with
+              roofing cement and fastened with longer nails that penetrate through the cap, through
+              the ridge vent material, and deep into the ridge board beneath.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              These installation details are not optional extras in Perryton &mdash; they are the difference between a roof that survives its first severe wind event and one that loses shingles before the warranty period makes a dent. We also install ice-and-water shield underlayment across the entire deck on Perryton homes, not just at the eaves as code requires. This full-deck barrier means that even if wind lifts a shingle temporarily, no water reaches the decking. When you combine six-nail installation, reinforced starter and ridge details, and full-deck underlayment with a Class 4 impact-resistant shingle rated for 130+ mph, you get a roofing system engineered specifically for the conditions Ochiltree County delivers season after season.
+              These installation details are not optional extras in Perryton &mdash; they are the
+              difference between a roof that survives its first severe wind event and one that loses
+              shingles before the warranty period makes a dent. We also install ice-and-water shield
+              underlayment across the entire deck on Perryton homes, not just at the eaves as code
+              requires. This full-deck barrier means that even if wind lifts a shingle temporarily,
+              no water reaches the decking. When you combine six-nail installation, reinforced
+              starter and ridge details, and full-deck underlayment with a Class 4 impact-resistant
+              shingle rated for 130+ mph, you get a roofing system engineered specifically for the
+              conditions Ochiltree County delivers season after season.
             </p>
           </section>
         </FadeIn>
@@ -428,13 +557,35 @@ export default function AsphaltShingleRoofingPerrytonPage() {
               Agricultural Dust and Shingle Longevity in Ochiltree County
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Ochiltree County is wheat country, and the agricultural cycle creates roofing challenges that are unique to grain-belt communities like Perryton. During harvest season, combines and grain trucks generate clouds of fine chaff and dust that Panhandle winds carry across town and deposit on every horizontal surface &mdash; including rooftops. This organic material traps moisture against the shingle surface, creating conditions where algae and moss can establish even in Perryton&apos;s semi-arid climate. Once biological growth takes hold, it works beneath granules and accelerates their detachment from the asphalt mat.
+              Ochiltree County is wheat country, and the agricultural cycle creates roofing
+              challenges that are unique to grain-belt communities like Perryton. During harvest
+              season, combines and grain trucks generate clouds of fine chaff and dust that
+              Panhandle winds carry across town and deposit on every horizontal surface &mdash;
+              including rooftops. This organic material traps moisture against the shingle surface,
+              creating conditions where algae and moss can establish even in Perryton&apos;s
+              semi-arid climate. Once biological growth takes hold, it works beneath granules and
+              accelerates their detachment from the asphalt mat.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Feedlot operations in Ochiltree County add another layer of environmental stress. Airborne particulate from cattle operations contains ammonia compounds that react with asphalt binder over time, softening it and reducing its ability to hold granules in place. When you combine this chemical exposure with the mechanical abrasion of windblown agricultural dust &mdash; which in Ochiltree County contains fine sand and caliche particles &mdash; the cumulative effect on standard shingles is significant. Granule loss that might take 20 years in a sheltered urban environment can happen in 10-12 years on a Perryton rooftop.
+              Feedlot operations in Ochiltree County add another layer of environmental stress.
+              Airborne particulate from cattle operations contains ammonia compounds that react with
+              asphalt binder over time, softening it and reducing its ability to hold granules in
+              place. When you combine this chemical exposure with the mechanical abrasion of
+              windblown agricultural dust &mdash; which in Ochiltree County contains fine sand and
+              caliche particles &mdash; the cumulative effect on standard shingles is significant.
+              Granule loss that might take 20 years in a sheltered urban environment can happen in
+              10-12 years on a Perryton rooftop.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              The most effective defense against these conditions is a shingle with deeply embedded ceramic-coated granules bonded to SBS-modified asphalt. The ceramic coating resists chemical attack from ammonia and hydrogen sulfide, while the modified asphalt maintains its grip on the granules despite temperature cycling and chemical exposure. We also recommend shingles with copper-containing algae-resistant granules for Perryton homes, particularly those on the east and south sides of town where prevailing winds carry the heaviest concentration of agricultural particulate. These granules release trace amounts of copper over time that prevent algae colonization without affecting the shingle&apos;s appearance or performance.
+              The most effective defense against these conditions is a shingle with deeply embedded
+              ceramic-coated granules bonded to SBS-modified asphalt. The ceramic coating resists
+              chemical attack from ammonia and hydrogen sulfide, while the modified asphalt
+              maintains its grip on the granules despite temperature cycling and chemical exposure.
+              We also recommend shingles with copper-containing algae-resistant granules for
+              Perryton homes, particularly those on the east and south sides of town where
+              prevailing winds carry the heaviest concentration of agricultural particulate. These
+              granules release trace amounts of copper over time that prevent algae colonization
+              without affecting the shingle&apos;s appearance or performance.
             </p>
           </section>
         </FadeIn>
@@ -450,7 +601,12 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                   What are the best asphalt shingles for Perryton's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Class 4 impact-resistant architectural shingles are essential for Perryton's 7-9 annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind resistance, and algae-resistant granules. They qualify for insurance discounts and carry 30-50 year warranties.
+                  Class 4 impact-resistant architectural shingles are essential for Perryton's 7-9
+                  annual hailstorms. We recommend Owens Corning Duration Storm, GAF Timberline HDZ
+                  RS, or CertainTeed Landmark Impact Resistant shingles. These premium shingles
+                  feature reinforced construction, Class 4 (UL 2218) impact ratings, 130+ mph wind
+                  resistance, and algae-resistant granules. They qualify for insurance discounts and
+                  carry 30-50 year warranties.
                 </AccordionContent>
               </AccordionItem>
 
@@ -459,7 +615,12 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                   How long do asphalt shingles last in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Quality architectural shingles typically last 20-30 years in Perryton when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Perryton's climate.
+                  Quality architectural shingles typically last 20-30 years in Perryton when
+                  properly installed and maintained. Texas Panhandle's intense UV exposure,
+                  temperature extremes, and hailstorms stress roofing materials. Class 4
+                  impact-resistant shingles last longer than standard shingles. Regular inspections
+                  after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV
+                  protection perform better in Perryton's climate.
                 </AccordionContent>
               </AccordionItem>
 
@@ -468,7 +629,11 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                   Do Class 4 shingles qualify for insurance discounts in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4 impact-resistant shingles in Perryton. Given the area's severe hail risk with 7-9 storms annually, these discounts typically pay for the shingle upgrade within 5-7 years. We provide all documentation needed for your insurance company to approve the discount.
+                  Yes, most Texas insurance companies offer 10-35% premium discounts for Class 4
+                  impact-resistant shingles in Perryton. Given the area's severe hail risk with 7-9
+                  storms annually, these discounts typically pay for the shingle upgrade within 5-7
+                  years. We provide all documentation needed for your insurance company to approve
+                  the discount.
                 </AccordionContent>
               </AccordionItem>
 
@@ -477,7 +642,11 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                   How much does asphalt shingle roofing cost in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Asphalt shingle roofing in Perryton typically costs $4.50-$8 per square foot installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4 impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch, complexity, and shingle quality. Most 2,000 sq ft Perryton homes need $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.
+                  Asphalt shingle roofing in Perryton typically costs $4.50-$8 per square foot
+                  installed. Standard architectural shingles run $4.50-$6/sq ft, while Class 4
+                  impact-resistant shingles cost $6-$8/sq ft. Costs vary by roof size, pitch,
+                  complexity, and shingle quality. Most 2,000 sq ft Perryton homes need
+                  $9,000-$16,000 for complete re-roofing. We provide free detailed estimates.
                 </AccordionContent>
               </AccordionItem>
 
@@ -486,7 +655,11 @@ export default function AsphaltShingleRoofingPerrytonPage() {
                   Can asphalt shingles withstand Perryton's wind and hail?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700 leading-relaxed">
-                  Yes, when properly installed with proper nailing patterns and starter strips. Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking. Architectural shingles rated for 130+ mph wind resistance handle Perryton's sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water shield, and reinforced starter courses for maximum wind and hail protection.
+                  Yes, when properly installed with proper nailing patterns and starter strips.
+                  Class 4 impact-resistant shingles withstand golf ball-sized hail without cracking.
+                  Architectural shingles rated for 130+ mph wind resistance handle Perryton's
+                  sustained winds and gusts. Proper installation includes 6-nail pattern, ice/water
+                  shield, and reinforced starter courses for maximum wind and hail protection.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -514,22 +687,28 @@ export default function AsphaltShingleRoofingPerrytonPage() {
         </FadeIn>
         <InternalLinks currentCity="perryton" currentService="asphalt-shingle-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Perryton Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Perryton property owners. Expert asphalt shingle roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Perryton property owners. Expert asphalt shingle roofing with
+            comprehensive warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="asphalt-shingle-roofing-perryton" />
+        <RelatedArticles pageSlug="asphalt-shingle-roofing-perryton" />
       </div>
     </>
   );

@@ -3,18 +3,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { getAllArticles } from "@/lib/articles";
 
-
 // noindex-filter:start (auto-managed by content-ops/engine/noindex_flush.py)
 const __noindexSet: Set<string> = (() => {
   try {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const fs = require('fs') as typeof import('fs');
+    const fs = require("fs") as typeof import("fs");
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const path = require('path') as typeof import('path');
-    const raw = fs.readFileSync(path.join(process.cwd(), '.noindex-state.json'), 'utf-8');
+    const path = require("path") as typeof import("path");
+    const raw = fs.readFileSync(path.join(process.cwd(), ".noindex-state.json"), "utf-8");
     const parsed = JSON.parse(raw) as { noindex_urls?: string[] };
     return new Set<string>(parsed.noindex_urls || []);
-  } catch { return new Set<string>(); }
+  } catch {
+    return new Set<string>();
+  }
 })();
 // noindex-filter:end
 export const dynamic = "force-static";
@@ -33,9 +34,7 @@ function getRouteDirs(): string[] {
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name)
     .filter((name) => !name.startsWith("[") && !name.startsWith("("))
-    .filter((name) =>
-      fs.existsSync(path.join(appDir, name, "page.tsx")),
-    );
+    .filter((name) => fs.existsSync(path.join(appDir, name, "page.tsx")));
 }
 
 /**
@@ -50,9 +49,7 @@ function getLegacyBlogSlugs(): string[] {
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name)
     .filter((name) => !name.startsWith("[") && !name.startsWith("("))
-    .filter((name) =>
-      fs.existsSync(path.join(blogDir, name, "page.tsx")),
-    );
+    .filter((name) => fs.existsSync(path.join(blogDir, name, "page.tsx")));
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -87,13 +84,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // live as their own folders under app/blog/. These are NOT in
   // content/blog/*.mdx, so include them explicitly.
   const legacyBlogSlugs = getLegacyBlogSlugs();
-  const legacyBlogPages: MetadataRoute.Sitemap = legacyBlogSlugs.map(
-    (slug) => ({
-      url: `${BASE_URL}/blog/${slug}/`,
-      lastModified: now,
-      priority: 0.5,
-    }),
-  );
+  const legacyBlogPages: MetadataRoute.Sitemap = legacyBlogSlugs.map((slug) => ({
+    url: `${BASE_URL}/blog/${slug}/`,
+    lastModified: now,
+    priority: 0.5,
+  }));
 
   // Dynamic MDX articles from content/blog/*.mdx
   const articles = getAllArticles();
@@ -118,5 +113,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/`, lastModified: now, priority: 0.7 },
   ];
 
-  return ([...fixedPages, ...routePages, ...blogPages]).filter((__e) => !__noindexSet.has(__e.url)) /* noindex-filter:return */;
+  return [...fixedPages, ...routePages, ...blogPages].filter(
+    (__e) => !__noindexSet.has(__e.url),
+  ) /* noindex-filter:return */;
 }

@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { AlertTriangle, Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/commercial-roofing-lubbock/' },
-  title: 'Commercial Roofing Lubbock TX | 5 Star Roofing',
-  description: "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-lubbock/" },
+  title: "Commercial Roofing Lubbock TX | 5 Star Roofing",
+  description:
+    "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
   openGraph: {
     title: "Commercial Roofing Lubbock TX | 5 Star Roofing",
-    description: "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
+    description:
+      "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
     url: "https://5starroofingpros.com/commercial-roofing-lubbock/",
     siteName: "5 Star Roofing",
     images: [
@@ -39,11 +41,13 @@ export const metadata: Metadata = {
 export default function CommercialRoofingLubbockPage() {
   return (
     <>
-      <Breadcrumb items={[
-        { name: "Home", url: "/" },
-        { name: "Commercial Roofing", url: "/commercial-roofing/" },
-        { name: "Lubbock", url: "/commercial-roofing-lubbock/" }
-      ]} />
+      <Breadcrumb
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Lubbock", url: "/commercial-roofing-lubbock/" },
+        ]}
+      />
 
       {/* Sticky Contact Bar */}
       <StickyContactBar />
@@ -55,44 +59,53 @@ export default function CommercialRoofingLubbockPage() {
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/commercial-roofing-lubbock/#localbusiness",
-            "name": "5 Star Roofing",
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
-            "telephone": "(806) 622-6041",
-            "email": "admin@5starroofingpros.com",
-            "priceRange": "$$",
-            "address": {
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$$",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "2909 S Western St",
-              "addressLocality": "Amarillo",
-              "addressRegion": "TX",
-              "postalCode": "79109",
-              "addressCountry": "US"
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": 33.5779,
-              "longitude": -101.8552
+              latitude: 33.5779,
+              longitude: -101.8552,
             },
-            "url": "https://5starroofingpros.com/commercial-roofing-lubbock/",
-            "areaServed": {
+            url: "https://5starroofingpros.com/commercial-roofing-lubbock/",
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas",
-              "name": "Lubbock",
-              "containedInPlace": {
+              name: "Lubbock",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "openingHoursSpecification": {
+            openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "09:00",
-              "closes": "17:00"
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
             },
-            "description": "Expert commercial roofing for Lubbock businesses including Texas Tech University, University Medical Center, and agriculture facilities. Serving Lubbock County with TPO, EPDM, and metal roofing systems.",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-          })
+            description:
+              "Expert commercial roofing for Lubbock businesses including Texas Tech University, University Medical Center, and agriculture facilities. Serving Lubbock County with TPO, EPDM, and metal roofing systems.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
         }}
       />
 
@@ -102,30 +115,40 @@ export default function CommercialRoofingLubbockPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Commercial Roofing Services",
-            "name": "Commercial Roofing in Lubbock",
-            "description": "Professional commercial roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with prompt response.",
-            "provider": {
+            serviceType: "Commercial Roofing Services",
+            name: "Commercial Roofing in Lubbock",
+            description:
+              "Professional commercial roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with prompt response.",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "@id": "https://5starroofingpros.com/#organization"
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              "@id": "https://5starroofingpros.com/#organization",
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Lubbock",
-              "containedInPlace": { "@type": "State", "name": "Texas" }
+              name: "Lubbock",
+              containedInPlace: { "@type": "State", name: "Texas" },
             },
-            "hasOfferCatalog": {
+            hasOfferCatalog: {
               "@type": "OfferCatalog",
-              "name": "Commercial Roofing Services",
-              "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Installation" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Roofing Repair" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Free Roof Inspection" } }
-              ]
-            }
-          })
+              name: "Commercial Roofing Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: "Commercial Roofing Installation" },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: "Commercial Roofing Repair" },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: { "@type": "Service", name: "Free Roof Inspection" },
+                },
+              ],
+            },
+          }),
         }}
       />
 
@@ -135,66 +158,67 @@ export default function CommercialRoofingLubbockPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "How much does commercial roof replacement cost in Lubbock?",
-                "acceptedAnswer": {
+                name: "How much does commercial roof replacement cost in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Commercial roofing costs in Lubbock vary by building size, roof type, and complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square foot. Texas Tech University buildings and healthcare facilities often require specialized systems. We provide free detailed estimates with transparent pricing and financing options for qualified businesses."
-                }
+                  text: "Commercial roofing costs in Lubbock vary by building size, roof type, and complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square foot. Texas Tech University buildings and healthcare facilities often require specialized systems. We provide free detailed estimates with transparent pricing and financing options for qualified businesses.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Why does Lubbock's hail activity require impact-resistant commercial roofing?",
-                "acceptedAnswer": {
+                name: "Why does Lubbock's hail activity require impact-resistant commercial roofing?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Lubbock County has recorded 273 hail reports within 12 months from trained weather spotters - making it one of Texas's most hail-prone regions. Commercial buildings like Texas Tech facilities, University Medical Center, and agriculture warehouses require UL 2218 Class 4 impact-resistant roofing to withstand 2-inch hailstones. Many insurers offer premium discounts for impact-resistant systems."
-                }
+                  text: "Lubbock County has recorded 273 hail reports within 12 months from trained weather spotters - making it one of Texas's most hail-prone regions. Commercial buildings like Texas Tech facilities, University Medical Center, and agriculture warehouses require UL 2218 Class 4 impact-resistant roofing to withstand 2-inch hailstones. Many insurers offer premium discounts for impact-resistant systems.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What permits are required for commercial roofing in Lubbock?",
-                "acceptedAnswer": {
+                name: "What permits are required for commercial roofing in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "All commercial roofing projects within Lubbock city limits require permits from the Building Safety Department (806) 775-2687. Projects must meet International Residential Code standards including wind resistance ratings, proper drainage, and energy efficiency requirements. We handle all permit applications and ensure your project meets Lubbock's building code requirements."
-                }
+                  text: "All commercial roofing projects within Lubbock city limits require permits from the Building Safety Department (806) 775-2687. Projects must meet International Residential Code standards including wind resistance ratings, proper drainage, and energy efficiency requirements. We handle all permit applications and ensure your project meets Lubbock's building code requirements.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can you work around Texas Tech University and healthcare facility schedules?",
-                "acceptedAnswer": {
+                name: "Can you work around Texas Tech University and healthcare facility schedules?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes. We specialize in educational and healthcare facility roofing, scheduling work during breaks, planned shutdowns, or after-hours to minimize disruption. Texas Tech University buildings, University Medical Center (412 beds), and Covenant Health facilities require careful coordination. We work closely with facility managers to meet operational requirements."
-                }
+                  text: "Yes. We specialize in educational and healthcare facility roofing, scheduling work during breaks, planned shutdowns, or after-hours to minimize disruption. Texas Tech University buildings, University Medical Center (412 beds), and Covenant Health facilities require careful coordination. We work closely with facility managers to meet operational requirements.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What commercial roofing is best for Lubbock's agriculture facilities?",
-                "acceptedAnswer": {
+                name: "What commercial roofing is best for Lubbock's agriculture facilities?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Agriculture warehouses, grain elevators, and processing facilities in Lubbock benefit from metal roofing systems with superior wind resistance and durability. Standing seam metal roofs withstand 140+ mph winds and offer 50+ year lifespans. For budget-conscious agricultural operations, EPDM rubber roofing provides reliable 15-30 year performance at competitive pricing."
-                }
+                  text: "Agriculture warehouses, grain elevators, and processing facilities in Lubbock benefit from metal roofing systems with superior wind resistance and durability. Standing seam metal roofs withstand 140+ mph winds and offer 50+ year lifespans. For budget-conscious agricultural operations, EPDM rubber roofing provides reliable 15-30 year performance at competitive pricing.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do you provide prompt roofing for Lubbock's severe weather events?",
-                "acceptedAnswer": {
+                name: "Do you provide prompt roofing for Lubbock's severe weather events?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled."
-                }
-              }
-            ]
-          })
+                  text: "Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.",
+                },
+              },
+            ],
+          }),
         }}
       />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
@@ -208,12 +232,19 @@ export default function CommercialRoofingLubbockPage() {
                 Serving Texas Tech, Healthcare & Agriculture Facilities
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert commercial roofing for Lubbock's diverse business community. Impact-resistant TPO, EPDM, and metal roofing systems engineered for Lubbock County's 273 annual hail reports. Specialized service for Texas Tech University, University Medical Center, and agriculture facilities throughout the South Plains.
+                Expert commercial roofing for Lubbock's diverse business community. Impact-resistant
+                TPO, EPDM, and metal roofing systems engineered for Lubbock County's 273 annual hail
+                reports. Specialized service for Texas Tech University, University Medical Center,
+                and agriculture facilities throughout the South Plains.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -234,14 +265,22 @@ export default function CommercialRoofingLubbockPage() {
                 <div className="text-4xl font-bold text-brand-gold mb-3">
                   <AnimatedCounter to={273} suffix="" />
                 </div>
-                <div className="text-brand-brown font-semibold text-lg">Hail Reports (12 Months)</div>
+                <div className="text-brand-brown font-semibold text-lg">
+                  Hail Reports (12 Months)
+                </div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">55K+</div>
                 <div className="text-brand-brown font-semibold text-lg">Tech Students Served</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -256,13 +295,26 @@ export default function CommercialRoofingLubbockPage() {
               What Makes Our Lubbock Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Lubbock County's commercial landscape demands specialized roofing expertise. From Texas Tech University's sprawling 1,839-acre campus to University Medical Center's 412-bed healthcare facility, from Covenant Health's regional medical complex to agriculture warehouses processing cotton and beef throughout the South Plains—every commercial roof faces unique challenges in this dynamic regional hub.
+              Lubbock County's commercial landscape demands specialized roofing expertise. From
+              Texas Tech University's sprawling 1,839-acre campus to University Medical Center's
+              412-bed healthcare facility, from Covenant Health's regional medical complex to
+              agriculture warehouses processing cotton and beef throughout the South Plains—every
+              commercial roof faces unique challenges in this dynamic regional hub.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              With 273 hail reports documented by trained weather spotters in just 12 months, Lubbock ranks among Texas's most severe weather regions. Commercial buildings serving 55,000+ college students, major healthcare systems, and agriculture operations require impact-resistant roofing systems engineered for the South Plains climate. Our specialized commercial roofing protects critical infrastructure while minimizing operational disruption through careful scheduling and prompt response.
+              With 273 hail reports documented by trained weather spotters in just 12 months,
+              Lubbock ranks among Texas's most severe weather regions. Commercial buildings serving
+              55,000+ college students, major healthcare systems, and agriculture operations require
+              impact-resistant roofing systems engineered for the South Plains climate. Our
+              specialized commercial roofing protects critical infrastructure while minimizing
+              operational disruption through careful scheduling and prompt response.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We coordinate with facility managers at Texas Tech, healthcare administrators at UMC and Covenant Health, and agriculture facility operators to ensure roofing installations meet stringent institutional requirements while maintaining operations. Every project includes comprehensive permitting through the City of Lubbock Building Safety Department and full warranty documentation.
+              We coordinate with facility managers at Texas Tech, healthcare administrators at UMC
+              and Covenant Health, and agriculture facility operators to ensure roofing
+              installations meet stringent institutional requirements while maintaining operations.
+              Every project includes comprehensive permitting through the City of Lubbock Building
+              Safety Department and full warranty documentation.
             </p>
           </section>
         </FadeIn>
@@ -274,44 +326,100 @@ export default function CommercialRoofingLubbockPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg" alt="TPO commercial roof system on Lubbock business facility - Energy-efficient membrane" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-amarillo-17-1280w.jpg"
+                  alt="TPO commercial roof system on Lubbock business facility - Energy-efficient membrane"
+                  className="w-full h-48 object-cover rounded-lg mb-6"
+                />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Roofing Systems</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Single-ply white membrane roofing with heat-welded seams. Energy Star rated reflective surface reduces cooling costs for Texas Tech buildings and healthcare facilities. Excellent hail resistance proven in Lubbock County's extreme weather conditions.
+                  Single-ply white membrane roofing with heat-welded seams. Energy Star rated
+                  reflective surface reduces cooling costs for Texas Tech buildings and healthcare
+                  facilities. Excellent hail resistance proven in Lubbock County's extreme weather
+                  conditions.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-25 year warranties</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy-efficient for large facilities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UL 2218 Class 4 hail resistance available</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ideal for flat roofs on educational buildings</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    15-25 year warranties
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Energy-efficient for large facilities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    UL 2218 Class 4 hail resistance available
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Ideal for flat roofs on educational buildings
+                  </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp" alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/TPO1-1280w.webp"
+                  alt="Massive white single-ply membrane roof with rows of dome skylights under blue sky — strong real TPO/PVC reference. Top scarce-category ca... — 5 Star Roofing"
+                  className="w-full h-48 object-cover rounded-lg mb-6"
+                />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Metal Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Standing seam and R-panel metal roofing for agriculture and industrial applications. Superior wind resistance for grain elevators, cotton warehouses, and processing facilities. Fire resistance critical for agricultural operations storing combustible materials.
+                  Standing seam and R-panel metal roofing for agriculture and industrial
+                  applications. Superior wind resistance for grain elevators, cotton warehouses, and
+                  processing facilities. Fire resistance critical for agricultural operations
+                  storing combustible materials.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />50+ year lifespan for agriculture facilities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Class A fire rating for grain storage</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance 140+ mph</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Low maintenance for remote locations</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    50+ year lifespan for agriculture facilities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Class A fire rating for grain storage
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Wind resistance 140+ mph
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Low maintenance for remote locations
+                  </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-gold">
-                <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg" alt="Two-story brick home with dark shingle roof at sunset, framed by trees. AI-stylized location hero — 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                <img
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg"
+                  alt="Two-story brick home with dark shingle roof at sunset, framed by trees. AI-stylized location hero — 5 Star Roofing"
+                  className="w-full h-48 object-cover rounded-lg mb-6"
+                />
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">EPDM Rubber Roofing</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Cost-effective black rubber membrane for commercial flat roofs. Excellent UV resistance in Lubbock's high-elevation sun exposure. Budget-friendly option for agriculture warehouses and smaller commercial buildings throughout Lubbock County.
+                  Cost-effective black rubber membrane for commercial flat roofs. Excellent UV
+                  resistance in Lubbock's high-elevation sun exposure. Budget-friendly option for
+                  agriculture warehouses and smaller commercial buildings throughout Lubbock County.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-30 year lifespan</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Excellent UV resistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Budget-friendly for agriculture facilities</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Rapid installation minimizes downtime</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    15-30 year lifespan
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Excellent UV resistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Budget-friendly for agriculture facilities
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Rapid installation minimizes downtime
+                  </li>
                 </ul>
               </div>
             </div>
@@ -324,47 +432,75 @@ export default function CommercialRoofingLubbockPage() {
               What Commercial Areas Do We Serve in Lubbock?
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              We provide specialized commercial roofing throughout Lubbock's diverse business and institutional districts, each with unique roofing requirements and operational constraints:
+              We provide specialized commercial roofing throughout Lubbock's diverse business and
+              institutional districts, each with unique roofing requirements and operational
+              constraints:
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-md border-l-4 border-red-600">
-                <h3 className="text-2xl font-bold text-brand-brown mb-3">Texas Tech University Campus</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">
+                  Texas Tech University Campus
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>1,839-acre campus</strong> with 55,000+ students requiring specialized educational facility roofing. Multiple academic buildings, residence halls, research facilities, and the Jones AT&T Stadium complex. Roofing projects must coordinate with academic calendars and student housing operations.
+                  <strong>1,839-acre campus</strong> with 55,000+ students requiring specialized
+                  educational facility roofing. Multiple academic buildings, residence halls,
+                  research facilities, and the Jones AT&T Stadium complex. Roofing projects must
+                  coordinate with academic calendars and student housing operations.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Texas Tech Health Sciences Center</strong> - Medical school facilities requiring hospital-grade roofing systems with emergency backup considerations and infection control protocols during construction.
+                  <strong>Texas Tech Health Sciences Center</strong> - Medical school facilities
+                  requiring hospital-grade roofing systems with emergency backup considerations and
+                  infection control protocols during construction.
                 </p>
               </div>
 
               <div className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-md border-l-4 border-brand-gold-vibrant">
-                <h3 className="text-2xl font-bold text-brand-brown mb-3">Healthcare Campus Complex</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">
+                  Healthcare Campus Complex
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>University Medical Center</strong> - 412-bed teaching hospital requiring critical infrastructure roofing with operational demands. Specialized systems for patient safety and uninterrupted healthcare delivery.
+                  <strong>University Medical Center</strong> - 412-bed teaching hospital requiring
+                  critical infrastructure roofing with operational demands. Specialized systems for
+                  patient safety and uninterrupted healthcare delivery.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Covenant Health System</strong> - Region's largest healthcare institution with multiple specialty centers including Covenant Children's Hospital, cardiac facilities, and cancer treatment centers requiring precision roofing coordination.
+                  <strong>Covenant Health System</strong> - Region's largest healthcare institution
+                  with multiple specialty centers including Covenant Children's Hospital, cardiac
+                  facilities, and cancer treatment centers requiring precision roofing coordination.
                 </p>
               </div>
 
               <div className="bg-gradient-to-br from-yellow-50 to-white p-6 rounded-xl shadow-md border-l-4 border-yellow-600">
-                <h3 className="text-2xl font-bold text-brand-brown mb-3">Agriculture & Industrial Facilities</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">
+                  Agriculture & Industrial Facilities
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Cotton Processing Centers</strong> - Lubbock County produces 25% of Texas cotton, requiring fire-resistant metal roofing for ginning facilities, warehouses, and processing equipment buildings.
+                  <strong>Cotton Processing Centers</strong> - Lubbock County produces 25% of Texas
+                  cotton, requiring fire-resistant metal roofing for ginning facilities, warehouses,
+                  and processing equipment buildings.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Grain Elevators & Feed Operations</strong> - Tall structures requiring specialized wind-resistant roofing systems. Cattle feeding operations and beef processing facilities demanding durable, low-maintenance commercial roofing solutions.
+                  <strong>Grain Elevators & Feed Operations</strong> - Tall structures requiring
+                  specialized wind-resistant roofing systems. Cattle feeding operations and beef
+                  processing facilities demanding durable, low-maintenance commercial roofing
+                  solutions.
                 </p>
               </div>
 
               <div className="bg-gradient-to-br from-green-50 to-white p-6 rounded-xl shadow-md border-l-4 border-green-600">
-                <h3 className="text-2xl font-bold text-brand-brown mb-3">Downtown & Business Districts</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-3">
+                  Downtown & Business Districts
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Lubbock Business Park</strong> - 586-acre commercial development requiring modern TPO and metal roofing systems for office buildings, warehouses, and light industrial facilities.
+                  <strong>Lubbock Business Park</strong> - 586-acre commercial development requiring
+                  modern TPO and metal roofing systems for office buildings, warehouses, and light
+                  industrial facilities.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Downtown Lubbock</strong> - Historic and modern commercial buildings including government facilities, professional offices, and retail centers requiring specialized urban commercial roofing expertise.
+                  <strong>Downtown Lubbock</strong> - Historic and modern commercial buildings
+                  including government facilities, professional offices, and retail centers
+                  requiring specialized urban commercial roofing expertise.
                 </p>
               </div>
             </div>
@@ -378,35 +514,69 @@ export default function CommercialRoofingLubbockPage() {
             </h2>
             <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                All commercial roofing projects within Lubbock city limits require permits and must comply with local building codes. We handle all permitting and ensure your project meets or exceeds city standards for educational, healthcare, and agriculture facilities.
+                All commercial roofing projects within Lubbock city limits require permits and must
+                comply with local building codes. We handle all permitting and ensure your project
+                meets or exceeds city standards for educational, healthcare, and agriculture
+                facilities.
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Building Safety Department</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Building Safety Department
+                  </h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li><strong>Phone:</strong> (806) 775-2687</li>
-                    <li><strong>Location:</strong> 1625 13th Street</li>
-                    <li><strong>Hours:</strong> Monday-Friday, 8:00 AM - 5:00 PM</li>
-                    <li><strong>Online Portal:</strong> ci.lubbock.tx.us</li>
+                    <li>
+                      <strong>Phone:</strong> (806) 775-2687
+                    </li>
+                    <li>
+                      <strong>Location:</strong> 1625 13th Street
+                    </li>
+                    <li>
+                      <strong>Hours:</strong> Monday-Friday, 8:00 AM - 5:00 PM
+                    </li>
+                    <li>
+                      <strong>Online Portal:</strong> ci.lubbock.tx.us
+                    </li>
                   </ul>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Key Code Requirements</h3>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" /><strong>International Residential Code (IRC)</strong></li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Wind resistance: 110-125 mph design standards</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy efficiency standards for large buildings</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fire resistance requirements for agriculture facilities</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Proper drainage and overflow systems</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />UL 2218 Class 4 hail resistance recommended</li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      <strong>International Residential Code (IRC)</strong>
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Wind resistance: 110-125 mph design standards
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Energy efficiency standards for large buildings
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Fire resistance requirements for agriculture facilities
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Proper drainage and overflow systems
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      UL 2218 Class 4 hail resistance recommended
+                    </li>
                   </ul>
                 </div>
               </div>
 
               <p className="text-gray-600 italic">
-                Special considerations apply to Texas Tech University buildings, healthcare facilities, and agriculture operations. We coordinate with institutional facility managers and ensure all projects meet specialized requirements for educational and medical facilities.
+                Special considerations apply to Texas Tech University buildings, healthcare
+                facilities, and agriculture operations. We coordinate with institutional facility
+                managers and ensure all projects meet specialized requirements for educational and
+                medical facilities.
               </p>
             </div>
           </section>
@@ -418,37 +588,55 @@ export default function CommercialRoofingLubbockPage() {
               Why Lubbock's Climate Demands Superior Commercial Roofing?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Lubbock's location in the South Plains creates challenging roofing conditions year-round. At 3,202 feet elevation, commercial buildings face intense UV radiation, extreme temperature swings, and severe weather patterns that demand specialized roofing systems:
+              Lubbock's location in the South Plains creates challenging roofing conditions
+              year-round. At 3,202 feet elevation, commercial buildings face intense UV radiation,
+              extreme temperature swings, and severe weather patterns that demand specialized
+              roofing systems:
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-red-50 p-6 rounded-xl shadow-md border-t-4 border-red-600">
                 <h3 className="text-xl font-bold text-red-800 mb-3">Severe Hail Activity</h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>273 hail reports in 12 months</strong> from trained weather spotters make Lubbock County one of Texas's most hail-prone regions. Commercial buildings require UL 2218 Class 4 impact-resistant roofing to withstand 2-inch hailstones.
+                  <strong>273 hail reports in 12 months</strong> from trained weather spotters make
+                  Lubbock County one of Texas's most hail-prone regions. Commercial buildings
+                  require UL 2218 Class 4 impact-resistant roofing to withstand 2-inch hailstones.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Texas Tech facilities, healthcare buildings, and agriculture warehouses have suffered significant hail damage. Many insurers now require or incentivize impact-resistant commercial roofing systems.
+                  Texas Tech facilities, healthcare buildings, and agriculture warehouses have
+                  suffered significant hail damage. Many insurers now require or incentivize
+                  impact-resistant commercial roofing systems.
                 </p>
               </div>
 
               <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-amber-600">
-                <h3 className="text-xl font-bold text-amber-800 mb-3">Extreme Temperature Swings</h3>
+                <h3 className="text-xl font-bold text-amber-800 mb-3">
+                  Extreme Temperature Swings
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>Temperature range from 15°F to 105°F</strong> creates severe thermal stress on roofing materials. Commercial buildings with large flat roof areas experience significant expansion and contraction cycles throughout the year.
+                  <strong>Temperature range from 15°F to 105°F</strong> creates severe thermal
+                  stress on roofing materials. Commercial buildings with large flat roof areas
+                  experience significant expansion and contraction cycles throughout the year.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Educational buildings like Texas Tech dormitories and healthcare facilities require roofing systems engineered to handle this 90-degree temperature variance without membrane failure.
+                  Educational buildings like Texas Tech dormitories and healthcare facilities
+                  require roofing systems engineered to handle this 90-degree temperature variance
+                  without membrane failure.
                 </p>
               </div>
 
               <div className="bg-amber-50 p-6 rounded-xl shadow-md border-t-4 border-brand-gold-vibrant">
-                <h3 className="text-xl font-bold text-brand-brown mb-3">High Elevation UV Exposure</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">
+                  High Elevation UV Exposure
+                </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  <strong>3,202 feet elevation</strong> increases UV radiation intensity, accelerating roofing material degradation. Commercial buildings with large roof areas face significant UV damage without proper membrane protection.
+                  <strong>3,202 feet elevation</strong> increases UV radiation intensity,
+                  accelerating roofing material degradation. Commercial buildings with large roof
+                  areas face significant UV damage without proper membrane protection.
                 </p>
                 <p className="text-gray-600 text-sm">
-                  Agriculture facilities and warehouse complexes require UV-resistant roofing systems with reflective coatings to extend lifespan and reduce cooling costs.
+                  Agriculture facilities and warehouse complexes require UV-resistant roofing
+                  systems with reflective coatings to extend lifespan and reduce cooling costs.
                 </p>
               </div>
             </div>
@@ -458,13 +646,23 @@ export default function CommercialRoofingLubbockPage() {
         <FadeIn>
           <section className="mb-16 bg-red-50 border-l-4 border-red-500 p-8 rounded-xl">
             <div className="flex gap-6 items-center">
-              <div className="text-6xl"><AlertTriangle className="w-6 h-6 inline-block text-red-600" /></div>
+              <div className="text-6xl">
+                <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
+              </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold text-red-800 mb-3">How Does Emergency Commercial Roofing Work?</h2>
+                <h2 className="text-3xl font-bold text-red-800 mb-3">
+                  How Does Emergency Commercial Roofing Work?
+                </h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Storm damage threatening your Lubbock business operations? We provide prompt response for Texas Tech facilities, healthcare institutions, and agriculture operations. Immediate temporary repairs, tarping, and leak mitigation protect critical operations and inventory.
+                  Storm damage threatening your Lubbock business operations? We provide prompt
+                  response for Texas Tech facilities, healthcare institutions, and agriculture
+                  operations. Immediate temporary repairs, tarping, and leak mitigation protect
+                  critical operations and inventory.
                 </p>
-                <a href="tel:8066226041" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300">
+                <a
+                  href="tel:8066226041"
+                  className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold inline-block hover:scale-110 transition-all duration-300"
+                >
                   urgent: (806) 622-6041
                 </a>
               </div>
@@ -478,57 +676,99 @@ export default function CommercialRoofingLubbockPage() {
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How much does commercial roof replacement cost in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Commercial roofing costs in Lubbock vary by building size, roof type, and complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square foot. Texas Tech University buildings and healthcare facilities often require specialized systems. We provide free detailed estimates with transparent pricing and financing options for qualified businesses.
+                  Commercial roofing costs in Lubbock vary by building size, roof type, and
+                  complexity. Typical TPO installations range $4-$8 per square foot. Metal roofing
+                  runs $7-$12 per square foot. EPDM is most budget-friendly at $3-$6 per square
+                  foot. Texas Tech University buildings and healthcare facilities often require
+                  specialized systems. We provide free detailed estimates with transparent pricing
+                  and financing options for qualified businesses.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Why does Lubbock's hail activity require impact-resistant commercial roofing?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Lubbock County has recorded 273 hail reports within 12 months from trained weather spotters - making it one of Texas's most hail-prone regions. Commercial buildings like Texas Tech facilities, University Medical Center, and agriculture warehouses require UL 2218 Class 4 impact-resistant roofing to withstand 2-inch hailstones. Many insurers offer premium discounts for impact-resistant systems.
+                  Lubbock County has recorded 273 hail reports within 12 months from trained weather
+                  spotters - making it one of Texas's most hail-prone regions. Commercial buildings
+                  like Texas Tech facilities, University Medical Center, and agriculture warehouses
+                  require UL 2218 Class 4 impact-resistant roofing to withstand 2-inch hailstones.
+                  Many insurers offer premium discounts for impact-resistant systems.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What permits are required for commercial roofing in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  All commercial roofing projects within Lubbock city limits require permits from the Building Safety Department (806) 775-2687. Projects must meet International Residential Code standards including wind resistance ratings, proper drainage, and energy efficiency requirements. We handle all permit applications and ensure your project meets Lubbock's building code requirements.
+                  All commercial roofing projects within Lubbock city limits require permits from
+                  the Building Safety Department (806) 775-2687. Projects must meet International
+                  Residential Code standards including wind resistance ratings, proper drainage, and
+                  energy efficiency requirements. We handle all permit applications and ensure your
+                  project meets Lubbock's building code requirements.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Can you work around Texas Tech University and healthcare facility schedules?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes. We specialize in educational and healthcare facility roofing, scheduling work during breaks, planned shutdowns, or after-hours to minimize disruption. Texas Tech University buildings, University Medical Center (412 beds), and Covenant Health facilities require careful coordination. We work closely with facility managers to meet operational requirements.
+                  Yes. We specialize in educational and healthcare facility roofing, scheduling work
+                  during breaks, planned shutdowns, or after-hours to minimize disruption. Texas
+                  Tech University buildings, University Medical Center (412 beds), and Covenant
+                  Health facilities require careful coordination. We work closely with facility
+                  managers to meet operational requirements.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What commercial roofing is best for Lubbock's agriculture facilities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Agriculture warehouses, grain elevators, and processing facilities in Lubbock benefit from metal roofing systems with superior wind resistance and durability. Standing seam metal roofs withstand 140+ mph winds and offer 50+ year lifespans. For budget-conscious agricultural operations, EPDM rubber roofing provides reliable 15-30 year performance at competitive pricing.
+                  Agriculture warehouses, grain elevators, and processing facilities in Lubbock
+                  benefit from metal roofing systems with superior wind resistance and durability.
+                  Standing seam metal roofs withstand 140+ mph winds and offer 50+ year lifespans.
+                  For budget-conscious agricultural operations, EPDM rubber roofing provides
+                  reliable 15-30 year performance at competitive pricing.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you provide prompt roofing for Lubbock's severe weather events?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.
+                  Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail
+                  reports in 12 months and frequent severe weather, rapid response is critical for
+                  businesses. We offer tarping, temporary repairs, and leak mitigation to protect
+                  inventory and equipment while permanent repairs are scheduled.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -537,30 +777,47 @@ export default function CommercialRoofingLubbockPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Visit Our Amarillo Location</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Visit Our Amarillo Location
+            </h2>
             <div className="flex justify-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl shadow-lg"
+              ></iframe>
             </div>
           </section>
         </FadeIn>
         <InternalLinks currentCity="lubbock" currentService="commercial-roofing" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Lubbock Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Lubbock property owners. Expert commercial roofing with comprehensive warranties.
+            Free inspections for Lubbock property owners. Expert commercial roofing with
+            comprehensive warranties.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="commercial-roofing-lubbock" />
+        <RelatedArticles pageSlug="commercial-roofing-lubbock" />
       </div>
     </>
   );

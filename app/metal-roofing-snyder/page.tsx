@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/metal-roofing-snyder/' },
+  alternates: { canonical: "https://5starroofingpros.com/metal-roofing-snyder/" },
   title: "Metal Roofing Snyder TX | 5 Star Roofing",
-  description: "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Metal Roofing Snyder TX | 5 Star Roofing",
-    description: "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/metal-roofing-snyder/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,97 +40,137 @@ export const metadata: Metadata = {
 
 export default function MetalRoofingSnyderPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Metal Roofing",
-                      "url": "/metal-roofing/"
-              },
-              {
-                      "name": "Snyder",
-                      "url": "/metal-roofing-snyder/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Metal Roofing",
+            url: "/metal-roofing/",
+          },
+          {
+            name: "Snyder",
+            url: "/metal-roofing-snyder/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/metal-roofing-snyder/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 32.7179, "longitude": -100.9176 },
-        "url": "https://5starroofingpros.com/metal-roofing-snyder/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas", "name": "Snyder", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert metal roofing services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/metal-roofing-snyder/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 32.7179, longitude: -100.9176 },
+            url: "https://5starroofingpros.com/metal-roofing-snyder/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
+              name: "Snyder",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert metal roofing services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Metal Roofing",
-            "provider": {
+            serviceType: "Metal Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Snyder",
+              name: "Snyder",
               "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually."
-          })
+            description:
+              "Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually.",
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-25-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-sanderson-25-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
@@ -142,12 +184,17 @@ export default function MetalRoofingSnyderPage() {
                 West Texas Metal Roofing Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
+                Durable metal roofing systems in Snyder TX. West Texas experiences 7-9 hailstorms
+                annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -155,16 +202,13 @@ export default function MetalRoofingSnyderPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-9</div>
@@ -175,14 +219,19 @@ export default function MetalRoofingSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -190,10 +239,17 @@ export default function MetalRoofingSnyderPage() {
               What Makes Our Snyder Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Snyder's location in Scurry County creates unique roofing challenges. West Texas experiences 7-9 hailstorms annually, sustained high winds reaching 80+ mph, extreme temperature fluctuations from freezing to over 105°F, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Snyder's location in Scurry County creates unique roofing challenges. West Texas
+              experiences 7-9 hailstorms annually, sustained high winds reaching 80+ mph, extreme
+              temperature fluctuations from freezing to over 105°F, and severe weather conditions.
+              Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and Scurry County with premium materials and expert installation. From properties near Scurry County Museum to buildings throughout the city, we understand West Texas weather patterns, local building codes, and the specific needs of Scurry County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and
+              Scurry County with premium materials and expert installation. From properties near
+              Scurry County Museum to buildings throughout the city, we understand West Texas
+              weather patterns, local building codes, and the specific needs of Scurry County
+              property owners.
             </p>
           </section>
         </FadeIn>
@@ -205,43 +261,73 @@ export default function MetalRoofingSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Engineered for Extreme Weather</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Engineered for Extreme Weather
+                </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Metal roofing systems installed by 5 Star Commercial Roofing are specifically engineered to withstand Snyder's harsh West Texas climate conditions. Our standing seam metal roofing can resist wind speeds up to 140 mph, far exceeding the typical 80-90 mph winds experienced during severe thunderstorms that regularly impact Scurry County.
+                  Metal roofing systems installed by 5 Star Commercial Roofing are specifically
+                  engineered to withstand Snyder's harsh West Texas climate conditions. Our standing
+                  seam metal roofing can resist wind speeds up to 140 mph, far exceeding the typical
+                  80-90 mph winds experienced during severe thunderstorms that regularly impact
+                  Scurry County.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  The mechanical attachment system we use creates fortress-like protection that remains intact even during the most severe weather events that sweep across the West Texas landscape.
+                  The mechanical attachment system we use creates fortress-like protection that
+                  remains intact even during the most severe weather events that sweep across the
+                  West Texas landscape.
                 </p>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Hail Impact Protection</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  With Snyder experiencing 7-9 hailstorms annually, your roof faces constant bombardment from ice projectiles. Our metal roofing systems feature Class 4 impact resistance, the highest rating available, protecting against hailstones up to 2 inches in diameter that are common in West Texas supercells.
+                  With Snyder experiencing 7-9 hailstorms annually, your roof faces constant
+                  bombardment from ice projectiles. Our metal roofing systems feature Class 4 impact
+                  resistance, the highest rating available, protecting against hailstones up to 2
+                  inches in diameter that are common in West Texas supercells.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Unlike asphalt shingles that crack and lose granules from hail impact, metal roofing maintains its structural integrity and weather-sealing properties even after multiple severe hail events.
+                  Unlike asphalt shingles that crack and lose granules from hail impact, metal
+                  roofing maintains its structural integrity and weather-sealing properties even
+                  after multiple severe hail events.
                 </p>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Why Metal Roofing Excels in Snyder</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Why Metal Roofing Excels in Snyder
+              </h3>
               <ul className="grid md:grid-cols-2 gap-4">
                 <li className="flex items-start space-x-3">
                   <span className="text-brand-gold font-bold text-xl">•</span>
-                  <span className="text-gray-700"><strong>Temperature Stability:</strong> Metal roofing expands and contracts uniformly, preventing the thermal shock damage common with other materials in Snyder's extreme temperature swings.</span>
+                  <span className="text-gray-700">
+                    <strong>Temperature Stability:</strong> Metal roofing expands and contracts
+                    uniformly, preventing the thermal shock damage common with other materials in
+                    Snyder's extreme temperature swings.
+                  </span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-brand-gold font-bold text-xl">•</span>
-                  <span className="text-gray-700"><strong>Lightning Protection:</strong> Metal roofing safely conducts electrical energy, reducing fire risk during the frequent thunderstorms that develop over West Texas.</span>
+                  <span className="text-gray-700">
+                    <strong>Lightning Protection:</strong> Metal roofing safely conducts electrical
+                    energy, reducing fire risk during the frequent thunderstorms that develop over
+                    West Texas.
+                  </span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-brand-gold font-bold text-xl">•</span>
-                  <span className="text-gray-700"><strong>UV Resistance:</strong> Advanced coating systems reflect up to 70% of solar radiation, preventing degradation from Snyder's intense West Texas sun exposure.</span>
+                  <span className="text-gray-700">
+                    <strong>UV Resistance:</strong> Advanced coating systems reflect up to 70% of
+                    solar radiation, preventing degradation from Snyder's intense West Texas sun
+                    exposure.
+                  </span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-brand-gold font-bold text-xl">•</span>
-                  <span className="text-gray-700"><strong>Longevity:</strong> While asphalt shingles last 15-20 years in Snyder's climate, our metal roofing systems provide 40-50+ years of reliable protection.</span>
+                  <span className="text-gray-700">
+                    <strong>Longevity:</strong> While asphalt shingles last 15-20 years in Snyder's
+                    climate, our metal roofing systems provide 40-50+ years of reliable protection.
+                  </span>
                 </li>
               </ul>
             </div>
@@ -253,12 +339,17 @@ export default function MetalRoofingSnyderPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Premium Metal Roofing Materials for Snyder Properties Involve?
             </h2>
-            
+
             <div className="space-y-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Standing Seam Steel Roofing</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Standing Seam Steel Roofing
+                </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Our flagship standing seam steel roofing system represents the pinnacle of durability and performance for Snyder properties. Featuring concealed fasteners and interlocking panels, this system creates an impenetrable barrier against West Texas wind-driven rain and devastating hail storms.
+                  Our flagship standing seam steel roofing system represents the pinnacle of
+                  durability and performance for Snyder properties. Featuring concealed fasteners
+                  and interlocking panels, this system creates an impenetrable barrier against West
+                  Texas wind-driven rain and devastating hail storms.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -285,9 +376,14 @@ export default function MetalRoofingSnyderPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Aluminum Roofing Systems</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Aluminum Roofing Systems
+                </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  For Snyder properties requiring superior corrosion resistance, our aluminum roofing systems provide exceptional durability in West Texas's challenging environment. Aluminum's natural corrosion resistance makes it ideal for properties exposed to agricultural chemicals or extreme weather conditions.
+                  For Snyder properties requiring superior corrosion resistance, our aluminum
+                  roofing systems provide exceptional durability in West Texas's challenging
+                  environment. Aluminum's natural corrosion resistance makes it ideal for properties
+                  exposed to agricultural chemicals or extreme weather conditions.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -314,9 +410,14 @@ export default function MetalRoofingSnyderPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Copper Roofing Excellence</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Copper Roofing Excellence
+                </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  For Snyder properties seeking unmatched longevity and distinctive appearance, copper roofing represents the ultimate investment. With proper installation, copper roofing can last over 100 years while developing a beautiful patina that enhances protection against West Texas weather.
+                  For Snyder properties seeking unmatched longevity and distinctive appearance,
+                  copper roofing represents the ultimate investment. With proper installation,
+                  copper roofing can last over 100 years while developing a beautiful patina that
+                  enhances protection against West Texas weather.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -350,62 +451,102 @@ export default function MetalRoofingSnyderPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Expert Installation Process for Maximum Durability Involve?
             </h2>
-            
+
             <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-8 rounded-2xl mb-8">
-              <h3 className="text-2xl font-bold mb-4 text-brand-gold">The 5 Star Installation Advantage</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                The 5 Star Installation Advantage
+              </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Our installation process is specifically designed for Snyder's extreme West Texas weather conditions. Every step follows manufacturer specifications and exceeds local building code requirements to ensure maximum wind resistance and longevity against severe hailstorms and high winds.
+                Our installation process is specifically designed for Snyder's extreme West Texas
+                weather conditions. Every step follows manufacturer specifications and exceeds local
+                building code requirements to ensure maximum wind resistance and longevity against
+                severe hailstorms and high winds.
               </p>
             </div>
 
             <div className="grid md:grid-cols-1 gap-8">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">1</div>
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                    1
+                  </div>
                   <div>
-                    <h4 className="text-xl font-bold text-brand-brown mb-2">Structural Assessment & Reinforcement</h4>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">
+                      Structural Assessment & Reinforcement
+                    </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      Before installation begins, our team conducts a comprehensive structural analysis to ensure your building can support the metal roofing system and withstand Snyder's severe wind loads. We reinforce structural elements as needed and verify proper load distribution for West Texas conditions.
+                      Before installation begins, our team conducts a comprehensive structural
+                      analysis to ensure your building can support the metal roofing system and
+                      withstand Snyder's severe wind loads. We reinforce structural elements as
+                      needed and verify proper load distribution for West Texas conditions.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">2</div>
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                    2
+                  </div>
                   <div>
-                    <h4 className="text-xl font-bold text-brand-brown mb-2">Advanced Underlayment Systems</h4>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">
+                      Advanced Underlayment Systems
+                    </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We install high-performance synthetic underlayment that provides secondary weather protection and vapor barriers. This critical layer prevents wind-driven moisture infiltration during the severe thunderstorms and hailstorms common in Scurry County.
+                      We install high-performance synthetic underlayment that provides secondary
+                      weather protection and vapor barriers. This critical layer prevents
+                      wind-driven moisture infiltration during the severe thunderstorms and
+                      hailstorms common in Scurry County.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">3</div>
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                    3
+                  </div>
                   <div>
-                    <h4 className="text-xl font-bold text-brand-brown mb-2">Precision Panel Installation</h4>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">
+                      Precision Panel Installation
+                    </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      Each panel is precisely measured, cut, and installed with mechanical fasteners rated for extreme wind conditions. Our concealed fastening system prevents thermal movement stress while maintaining superior wind uplift resistance against Snyder's high winds.
+                      Each panel is precisely measured, cut, and installed with mechanical fasteners
+                      rated for extreme wind conditions. Our concealed fastening system prevents
+                      thermal movement stress while maintaining superior wind uplift resistance
+                      against Snyder's high winds.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">4</div>
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                    4
+                  </div>
                   <div>
-                    <h4 className="text-xl font-bold text-brand-brown mb-2">Wind-Resistant Edge Details</h4>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">
+                      Wind-Resistant Edge Details
+                    </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      Critical edge areas receive reinforced fastening and specialized flashing systems designed to prevent wind uplift. These details are engineered specifically for Snyder's high-wind environment and frequent severe weather events that impact West Texas.
+                      Critical edge areas receive reinforced fastening and specialized flashing
+                      systems designed to prevent wind uplift. These details are engineered
+                      specifically for Snyder's high-wind environment and frequent severe weather
+                      events that impact West Texas.
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">5</div>
+                  <div className="bg-brand-gold text-white font-bold text-xl w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+                    5
+                  </div>
                   <div>
-                    <h4 className="text-xl font-bold text-brand-brown mb-2">Comprehensive Quality Inspection</h4>
+                    <h4 className="text-xl font-bold text-brand-brown mb-2">
+                      Comprehensive Quality Inspection
+                    </h4>
                     <p className="text-gray-700 leading-relaxed">
-                      Every installation undergoes rigorous quality control inspection, including fastener torque verification, seam integrity testing, and weather-tightness confirmation. We provide detailed documentation for warranty and insurance purposes specific to West Texas requirements.
+                      Every installation undergoes rigorous quality control inspection, including
+                      fastener torque verification, seam integrity testing, and weather-tightness
+                      confirmation. We provide detailed documentation for warranty and insurance
+                      purposes specific to West Texas requirements.
                     </p>
                   </div>
                 </div>
@@ -419,28 +560,43 @@ export default function MetalRoofingSnyderPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               How Does This Roofing Improve Energy Efficiency?
             </h2>
-            
+
             <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
-              <h3 className="text-2xl font-bold mb-4 text-brand-gold">Reducing Energy Costs in Snyder's Extreme Climate</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                Reducing Energy Costs in Snyder's Extreme Climate
+              </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Metal roofing's reflective properties provide significant energy savings for Snyder properties. During summer months when temperatures frequently exceed 105°F and the West Texas sun beats down relentlessly, metal roofing can reduce cooling costs by 10-25% compared to traditional roofing materials.
+                Metal roofing's reflective properties provide significant energy savings for Snyder
+                properties. During summer months when temperatures frequently exceed 105°F and the
+                West Texas sun beats down relentlessly, metal roofing can reduce cooling costs by
+                10-25% compared to traditional roofing materials.
               </p>
-              
+
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="text-xl font-bold text-brand-brown mb-4">Summer Benefits</h4>
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start space-x-3">
                       <span className="text-brand-gold font-bold">•</span>
-                      <span><strong>Solar Reflectance:</strong> Cool roof coatings reflect up to 70% of solar energy, crucial during Snyder's intense summer heat</span>
+                      <span>
+                        <strong>Solar Reflectance:</strong> Cool roof coatings reflect up to 70% of
+                        solar energy, crucial during Snyder's intense summer heat
+                      </span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <span className="text-brand-gold font-bold">•</span>
-                      <span><strong>Thermal Emittance:</strong> Metal roofing rapidly releases absorbed heat, preventing the heat buildup common in West Texas conditions</span>
+                      <span>
+                        <strong>Thermal Emittance:</strong> Metal roofing rapidly releases absorbed
+                        heat, preventing the heat buildup common in West Texas conditions
+                      </span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <span className="text-brand-gold font-bold">•</span>
-                      <span><strong>Air Gap Ventilation:</strong> Proper installation creates ventilation space that further reduces heat transfer in high-temperature conditions</span>
+                      <span>
+                        <strong>Air Gap Ventilation:</strong> Proper installation creates
+                        ventilation space that further reduces heat transfer in high-temperature
+                        conditions
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -449,15 +605,24 @@ export default function MetalRoofingSnyderPage() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start space-x-3">
                       <span className="text-brand-gold font-bold">•</span>
-                      <span><strong>Snow Shedding:</strong> Smooth metal surface prevents ice dam formation during Snyder's occasional winter storms</span>
+                      <span>
+                        <strong>Snow Shedding:</strong> Smooth metal surface prevents ice dam
+                        formation during Snyder's occasional winter storms
+                      </span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <span className="text-brand-gold font-bold">•</span>
-                      <span><strong>Thermal Bridging:</strong> Continuous insulation systems prevent heat loss through structural elements</span>
+                      <span>
+                        <strong>Thermal Bridging:</strong> Continuous insulation systems prevent
+                        heat loss through structural elements
+                      </span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <span className="text-brand-gold font-bold">•</span>
-                      <span><strong>Condensation Control:</strong> Vapor barriers prevent moisture-related efficiency losses during temperature fluctuations</span>
+                      <span>
+                        <strong>Condensation Control:</strong> Vapor barriers prevent
+                        moisture-related efficiency losses during temperature fluctuations
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -465,7 +630,9 @@ export default function MetalRoofingSnyderPage() {
             </div>
 
             <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Long-Term Value Proposition</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Long-Term Value Proposition
+              </h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-brand-gold mb-2">40-50</div>
@@ -492,27 +659,54 @@ export default function MetalRoofingSnyderPage() {
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
               What Does Maintenance & Longevity in West Texas Involve?
             </h2>
-            
+
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-brand-gold">Minimal Maintenance, Maximum Protection</h3>
+              <h3 className="text-2xl font-bold mb-6 text-brand-gold">
+                Minimal Maintenance, Maximum Protection
+              </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                One of metal roofing's greatest advantages in Snyder's harsh West Texas climate is its minimal maintenance requirements. While traditional roofing materials require frequent repairs and replacements due to hail damage and extreme weather exposure, metal roofing maintains its protective properties with minimal intervention.
+                One of metal roofing's greatest advantages in Snyder's harsh West Texas climate is
+                its minimal maintenance requirements. While traditional roofing materials require
+                frequent repairs and replacements due to hail damage and extreme weather exposure,
+                metal roofing maintains its protective properties with minimal intervention.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="text-xl font-bold text-brand-brown mb-4">Annual Inspection Checklist</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4">
+                    Annual Inspection Checklist
+                  </h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Visual panel condition assessment</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fastener tightness verification</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Flashing and trim inspection</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Gutter and drainage systems</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Sealant condition evaluation</li>
-                    <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Storm damage assessment</li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Visual panel condition assessment
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Fastener tightness verification
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Flashing and trim inspection
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Gutter and drainage systems
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Sealant condition evaluation
+                    </li>
+                    <li className="flex items-start gap-1">
+                      <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                      Storm damage assessment
+                    </li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-brand-brown mb-4">Professional Maintenance Services</h4>
+                  <h4 className="text-xl font-bold text-brand-brown mb-4">
+                    Professional Maintenance Services
+                  </h4>
                   <ul className="space-y-2 text-gray-700">
                     <li>• Post-hailstorm damage assessment</li>
                     <li>• Preventive maintenance programs</li>
@@ -524,9 +718,15 @@ export default function MetalRoofingSnyderPage() {
               </div>
 
               <div className="mt-8 p-6 bg-amber-50 rounded-xl">
-                <h4 className="text-lg font-bold text-brand-brown mb-3">5 Star Maintenance Program</h4>
+                <h4 className="text-lg font-bold text-brand-brown mb-3">
+                  5 Star Maintenance Program
+                </h4>
                 <p className="text-gray-700">
-                  Our comprehensive maintenance program ensures your metal roofing investment continues to protect your Snyder property for decades. We provide annual inspections, preventive maintenance, and priority response to keep your roofing system performing at peak efficiency through all of West Texas's weather challenges.
+                  Our comprehensive maintenance program ensures your metal roofing investment
+                  continues to protect your Snyder property for decades. We provide annual
+                  inspections, preventive maintenance, and priority response to keep your roofing
+                  system performing at peak efficiency through all of West Texas's weather
+                  challenges.
                 </p>
               </div>
             </div>
@@ -554,83 +754,134 @@ export default function MetalRoofingSnyderPage() {
         </FadeIn>
         <InternalLinks currentCity="snyder" currentService="metal-roofing" />
 
-
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
               Snyder Metal Roofing Roofing FAQs
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Why are Snyder ranchers increasingly choosing metal roofing?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Snyder ranchers are choosing metal roofing for its exceptional longevity of 50+ years, zero maintenance requirements ideal for remote ranch properties, superior performance during Scurry County&apos;s severe hail and wind events, and its ability to handle the dust and particulates from both ranching and oil operations without degrading. Metal roofing eliminates the need for frequent shingle replacement on properties where access for repairs is difficult.
+                  Snyder ranchers are choosing metal roofing for its exceptional longevity of 50+
+                  years, zero maintenance requirements ideal for remote ranch properties, superior
+                  performance during Scurry County&apos;s severe hail and wind events, and its
+                  ability to handle the dust and particulates from both ranching and oil operations
+                  without degrading. Metal roofing eliminates the need for frequent shingle
+                  replacement on properties where access for repairs is difficult.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What metal roofing systems work best for Snyder&apos;s rolling terrain?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Snyder&apos;s Rolling Plains terrain creates variable wind patterns as air flows over hills and ridges. Standing seam metal roofing with concealed clips provides the best performance in these conditions because it allows thermal movement while maintaining a secure connection. The continuous panel design eliminates the horizontal seam vulnerabilities that can fail in turbulent wind conditions common in Scurry County&apos;s terrain.
+                  Snyder&apos;s Rolling Plains terrain creates variable wind patterns as air flows
+                  over hills and ridges. Standing seam metal roofing with concealed clips provides
+                  the best performance in these conditions because it allows thermal movement while
+                  maintaining a secure connection. The continuous panel design eliminates the
+                  horizontal seam vulnerabilities that can fail in turbulent wind conditions common
+                  in Scurry County&apos;s terrain.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How does metal roofing compare to shingles for Snyder homes near the SACROC field?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Metal roofing significantly outperforms asphalt shingles near Snyder&apos;s SACROC oil field unit. Metal panels resist petroleum-based airborne contaminants that degrade asphalt shingle binders, do not absorb chemical deposits like porous shingle materials do, and can be cleaned easily if needed. For properties within a few miles of active production areas, metal is the clear superior choice.
+                  Metal roofing significantly outperforms asphalt shingles near Snyder&apos;s SACROC
+                  oil field unit. Metal panels resist petroleum-based airborne contaminants that
+                  degrade asphalt shingle binders, do not absorb chemical deposits like porous
+                  shingle materials do, and can be cleaned easily if needed. For properties within a
+                  few miles of active production areas, metal is the clear superior choice.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Can you install metal roofing on Snyder&apos;s historic downtown buildings?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we install metal roofing on Snyder&apos;s historic downtown properties using profiles that complement the architectural character of older commercial buildings. Standing seam and corrugated metal were actually common roofing materials when many of these buildings were originally constructed, so metal roofing often restores historical accuracy while providing modern weather protection.
+                  Yes, we install metal roofing on Snyder&apos;s historic downtown properties using
+                  profiles that complement the architectural character of older commercial
+                  buildings. Standing seam and corrugated metal were actually common roofing
+                  materials when many of these buildings were originally constructed, so metal
+                  roofing often restores historical accuracy while providing modern weather
+                  protection.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What is the expected return on investment for metal roofing in Snyder?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Snyder homeowners typically see a full return on their metal roofing investment within 15-20 years through combined energy savings, eliminated maintenance costs, and insurance premium reductions. With a 50+ year expected lifespan compared to 15-18 years for shingles in Scurry County, metal roofing eliminates 2-3 shingle replacements over the same period, making the total cost of ownership significantly lower.
+                  Snyder homeowners typically see a full return on their metal roofing investment
+                  within 15-20 years through combined energy savings, eliminated maintenance costs,
+                  and insurance premium reductions. With a 50+ year expected lifespan compared to
+                  15-18 years for shingles in Scurry County, metal roofing eliminates 2-3 shingle
+                  replacements over the same period, making the total cost of ownership
+                  significantly lower.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you offer financing for metal roofing projects in Snyder?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we offer flexible financing options for Snyder metal roofing projects. Monthly payments can often be structured so that the combined payment is offset by energy savings and insurance premium reductions, making the upgrade effectively cash-flow neutral. For hail damage situations, insurance coverage may fund a significant portion of the metal roofing upgrade when combined with the homeowner&apos;s out-of-pocket investment.
+                  Yes, we offer flexible financing options for Snyder metal roofing projects.
+                  Monthly payments can often be structured so that the combined payment is offset by
+                  energy savings and insurance premium reductions, making the upgrade effectively
+                  cash-flow neutral. For hail damage situations, insurance coverage may fund a
+                  significant portion of the metal roofing upgrade when combined with the
+                  homeowner&apos;s out-of-pocket investment.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
           </section>
         </FadeIn>
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Snyder Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Snyder property owners. Expert metal roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Snyder property owners. Expert metal roofing with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="metal-roofing-snyder" />
+        <RelatedArticles pageSlug="metal-roofing-snyder" />
       </div>
-
       {/* schema-cleanup:faqpage:removed */}
     </>
   );

@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/articles/' },
-  title: 'Roofing Articles & Amarillo Guide | 5 Star Roofing',
-  description: "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/articles/" },
+  title: "Roofing Articles & Amarillo Guide | 5 Star Roofing",
+  description:
+    "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage. Call (806) 622-6041",
   openGraph: {
     title: "Roofing Articles & Amarillo Guide | 5 Star Roofing",
-    description: "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage. Call (806) 622-6041",
+    description:
+      "Read our roofing articles and explore local Amarillo attractions. Expert tips on hail damage, storm damage. Call (806) 622-6041",
     url: "https://5starroofingpros.com/articles/",
     siteName: "5 Star Roofing",
     images: [
@@ -28,7 +30,8 @@ export default function Page() {
     {
       title: "Cadillac Ranch: Amarillo's Iconic Public Art Installation",
       url: "/amarillo-texas-roofing/",
-      excerpt: "Explore one of Amarillo's most iconic roadside attractions and public art installations.",
+      excerpt:
+        "Explore one of Amarillo's most iconic roadside attractions and public art installations.",
     },
     {
       title: "Amarillo Botanical Gardens: An Oasis in the High Plains",
@@ -43,7 +46,8 @@ export default function Page() {
     {
       title: "American Quarter Horse Hall of Fame & Museum in Amarillo",
       url: "/amarillo-texas-roofing/",
-      excerpt: "Learn about the rich history of the American Quarter Horse at this world-class museum.",
+      excerpt:
+        "Learn about the rich history of the American Quarter Horse at this world-class museum.",
     },
     {
       title: "Whataburger in Amarillo: A Texas Culinary Icon",
@@ -58,18 +62,20 @@ export default function Page() {
   ];
 
   return (
-    <div className="container-custom py-12">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Articles",
-                      "url": "/articles/"
-              }
-      ]} />
-
-
+    <div className="container-custom py-12">
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Articles",
+            url: "/articles/",
+          },
+        ]}
+      />
       {/* Schema Markup */}
       <script
         type="application/ld+json"
@@ -77,44 +83,55 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": "Roofing Articles & Local Amarillo Guide",
-            "description": "Expert roofing articles and local Amarillo guides from 5 Star Commercial Roofing",
-            "provider": {
+            name: "Roofing Articles & Local Amarillo Guide",
+            description:
+              "Expert roofing articles and local Amarillo guides from 5 Star Commercial Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
-              }
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
+              },
             },
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-          })
+          }),
         }}
       />
-
       <h1 className="text-4xl font-bold mb-6">Articles & Local Amarillo Guide</h1>
-
       <div className="mb-12">
         <p className="text-lg text-gray-600 mb-4">
-          Welcome to our collection of articles featuring local Amarillo attractions and roofing insights.
-          As a locally-owned business, we're proud to serve Amarillo and showcase the best our community has to offer.
-          For professional <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing services in Amarillo</a>,
-          call us at <strong>(806) 622-6041</strong> for a free inspection.
+          Welcome to our collection of articles featuring local Amarillo attractions and roofing
+          insights. As a locally-owned business, we're proud to serve Amarillo and showcase the best
+          our community has to offer. For professional{" "}
+          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+            roofing services in Amarillo
+          </a>
+          , call us at <strong>(806) 622-6041</strong> for a free inspection.
         </p>
         <p className="text-lg text-gray-600 mb-4">
-          Whether you're exploring the Texas Panhandle or need expert roofing advice, you'll find valuable
-          information here. From <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail damage repair</a> to
-          local attractions, we cover it all. Our team serves Amarillo, Midland, Odessa, Lubbock, and all surrounding
-          West Texas communities with comprehensive <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">residential</a> and
-          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline"> commercial roofing solutions</a>.
+          Whether you're exploring the Texas Panhandle or need expert roofing advice, you'll find
+          valuable information here. From{" "}
+          <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">
+            hail damage repair
+          </a>{" "}
+          to local attractions, we cover it all. Our team serves Amarillo, Midland, Odessa, Lubbock,
+          and all surrounding West Texas communities with comprehensive{" "}
+          <a href="/residential-roofing-amarillo/" className="text-brand-gold hover:underline">
+            residential
+          </a>{" "}
+          and
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">
+            {" "}
+            commercial roofing solutions
+          </a>
+          .
         </p>
       </div>
-
       {/* Blog Posts Grid */}
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         {blogPosts.map((post, index) => (
@@ -129,14 +146,13 @@ export default function Page() {
           </a>
         ))}
       </div>
-
       {/* Roofing Resources Section */}
       <section className="bg-brand-gold-light p-8 rounded-lg mb-12">
         <h2 className="text-2xl font-bold mb-4">Professional Roofing Resources for West Texas</h2>
         <p className="mb-6">
-          Looking for expert roofing information? At 5 Star Commercial Roofing, we provide comprehensive
-          roofing services throughout the Texas Panhandle. Check out our specialized service pages for
-          detailed information about our roofing solutions:
+          Looking for expert roofing information? At 5 Star Commercial Roofing, we provide
+          comprehensive roofing services throughout the Texas Panhandle. Check out our specialized
+          service pages for detailed information about our roofing solutions:
         </p>
         <div className="grid md:grid-cols-3 gap-4 mb-6">
           <a href="/hail-damage-repair-amarillo/" className="btn-secondary block text-center">
@@ -145,18 +161,30 @@ export default function Page() {
           <a href="/roof-inspections-amarillo/" className="btn-secondary block text-center">
             Roof Inspections
           </a>
-          <a href="/amarillo-weather-impact-on-roofing/" className="btn-secondary block text-center">
+          <a
+            href="/amarillo-weather-impact-on-roofing/"
+            className="btn-secondary block text-center"
+          >
             Weather & Roof Longevity
           </a>
         </div>
         <p className="text-gray-700">
-          Our services extend beyond Amarillo to include <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>,
-          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline"> Odessa</a>, and Lubbock.
-          We offer free inspections, prompt services, and work directly with your insurance company
-          for hail and storm damage claims. Call <strong>(806) 622-6041</strong> today for immediate assistance.
+          Our services extend beyond Amarillo to include{" "}
+          <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">
+            Midland
+          </a>
+          ,
+          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">
+            {" "}
+            Odessa
+          </a>
+          , and Lubbock. We offer free inspections, prompt services, and work directly with your
+          insurance company for hail and storm damage claims. Call <strong>
+            (806) 622-6041
+          </strong>{" "}
+          today for immediate assistance.
         </p>
       </section>
-
       {/* Additional Content Section */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Why Choose 5 Star Commercial Roofing?</h2>
@@ -165,30 +193,35 @@ export default function Page() {
             <h3 className="text-xl font-bold mb-3">Expert Roofing Services</h3>
             <p className="text-gray-700 mb-4">
               With over 10 years of experience serving the Texas Panhandle, we understand the unique
-              roofing challenges of our region. From severe hailstorms to extreme temperature fluctuations,
-              we've seen it all and know how to protect your home or business.
+              roofing challenges of our region. From severe hailstorms to extreme temperature
+              fluctuations, we've seen it all and know how to protect your home or business.
             </p>
             <p className="text-gray-700">
-              Visit our <a href="/contact/" className="text-brand-gold hover:underline">contact page</a> to
-              schedule your free roof inspection today.
+              Visit our{" "}
+              <a href="/contact/" className="text-brand-gold hover:underline">
+                contact page
+              </a>{" "}
+              to schedule your free roof inspection today.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-3">Local Knowledge, Quality Results</h3>
             <p className="text-gray-700 mb-4">
-              As Amarillo locals, we're not just your roofing contractor—we're your neighbors. We take
-              pride in our community and are committed to providing the highest quality roofing services
-              at fair, competitive prices. Every project is completed with the same attention to detail
-              we'd expect for our own homes.
+              As Amarillo locals, we're not just your roofing contractor—we're your neighbors. We
+              take pride in our community and are committed to providing the highest quality roofing
+              services at fair, competitive prices. Every project is completed with the same
+              attention to detail we'd expect for our own homes.
             </p>
             <p className="text-gray-700">
-              Explore our comprehensive <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">roofing services</a> to
-              learn more about what we can do for you.
+              Explore our comprehensive{" "}
+              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+                roofing services
+              </a>{" "}
+              to learn more about what we can do for you.
             </p>
           </div>
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="bg-brand-gold text-white p-8 rounded-lg text-center">
         <h2 className="text-2xl font-bold mb-4">Need Roofing Help in Amarillo?</h2>
@@ -196,10 +229,16 @@ export default function Page() {
           Free inspections, expert repairs, and insurance claim assistance. Contact us today!
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <a href="tel:8066226041" className="btn-primary bg-white text-brand-brown hover:bg-gray-100">
+          <a
+            href="tel:8066226041"
+            className="btn-primary bg-white text-brand-brown hover:bg-gray-100"
+          >
             Call (806) 622-6041
           </a>
-          <a href="/contact/" className="btn-secondary border-2 border-white hover:bg-white hover:text-brand-brown">
+          <a
+            href="/contact/"
+            className="btn-secondary border-2 border-white hover:bg-white hover:text-brand-brown"
+          >
             Request Free Inspection
           </a>
         </div>

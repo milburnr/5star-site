@@ -11,15 +11,34 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { BarChart3, CheckCircle, ClipboardList, Factory, FileText, Home, Phone, Search, Shield, Star, Target, Thermometer, Tornado, TrendingUp, Wrench, Zap } from "lucide-react";
+import {
+  BarChart3,
+  CheckCircle,
+  ClipboardList,
+  Factory,
+  FileText,
+  Home,
+  Phone,
+  Search,
+  Shield,
+  Star,
+  Target,
+  Thermometer,
+  Tornado,
+  TrendingUp,
+  Wrench,
+  Zap,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-pampa/' },
-  title: 'Hail Damage Repair Pampa TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-pampa/" },
+  title: "Hail Damage Repair Pampa TX | 5 Star Roofing",
+  description:
+    "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Pampa TX | 5 Star Roofing",
-    description: "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
+    description:
+      "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-pampa/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,32 +57,65 @@ export const metadata: Metadata = {
 export default function HailDamageRepairPampaPage() {
   return (
     <>
-      <Breadcrumb items={[
-        { name: "Home", url: "/" },
-        { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Pampa", url: "/hail-damage-repair-pampa/" }
-      ]} />
+      <Breadcrumb
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Pampa", url: "/hail-damage-repair-pampa/" },
+        ]}
+      />
 
       <StickyContactBar />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/hail-damage-repair-pampa/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.5364, "longitude": -100.9599 },
-        "url": "https://5starroofingpros.com/hail-damage-repair-pampa/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas", "name": "Pampa", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert hail damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/hail-damage-repair-pampa/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.5364, longitude: -100.9599 },
+            url: "https://5starroofingpros.com/hail-damage-repair-pampa/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas",
+              name: "Pampa",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert hail damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
 
       <script
         type="application/ld+json"
@@ -71,23 +123,24 @@ export default function HailDamageRepairPampaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Hail Damage Roof Repair",
-            "provider": {
+            serviceType: "Hail Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "url": "https://5starroofingpros.com"
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              url: "https://5starroofingpros.com",
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Pampa",
-              "containedInPlace": {
+              name: "Pampa",
+              containedInPlace: {
                 "@type": "AdministrativeArea",
-                "name": "Gray County, Texas"
-              }
+                name: "Gray County, Texas",
+              },
             },
-            "description": "Expert hail damage roof repair in Pampa, TX. Serving Gray County with prompt response and insurance claim assistance."
-          })
+            description:
+              "Expert hail damage roof repair in Pampa, TX. Serving Gray County with prompt response and insurance claim assistance.",
+          }),
         }}
       />
 
@@ -97,20 +150,60 @@ export default function HailDamageRepairPampaPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {"@type":"Question","name":"How do I know if my Pampa roof has hail damage?","acceptedAnswer":{"@type":"Answer","text":"Look for granule loss, dents on metal vents/flashing, cracked shingles, and dented gutters. Gray County's Panhandle location means severe storms are common. Schedule a free inspection after any hail event."}},
-              {"@type":"Question","name":"Will insurance cover hail damage in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Yes, most Texas policies cover hail damage if it occurred during your policy period. File within 1-2 years. We document impacts and advocate for maximum coverage."}},
-              {"@type":"Question","name":"How much does hail damage repair cost in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Costs vary by roof size and damage. Most pay only their deductible for storm repairs. Full replacements in Pampa typically range $7,000-$14,000."}},
-              {"@type":"Question","name":"How quickly can you respond to Pampa?","acceptedAnswer":{"@type":"Answer","text":"Pampa is about 55 miles from our Amarillo headquarters. We offer prompt response and can typically reach Pampa within 1 hour for urgent situations."}},
-              {"@type":"Question","name":"Should I get Class 4 shingles in Pampa?","acceptedAnswer":{"@type":"Answer","text":"Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance premium discounts. Excellent investment for Gray County's hail-prone climate."}}
-            ]
-          })
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How do I know if my Pampa roof has hail damage?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Look for granule loss, dents on metal vents/flashing, cracked shingles, and dented gutters. Gray County's Panhandle location means severe storms are common. Schedule a free inspection after any hail event.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Will insurance cover hail damage in Pampa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, most Texas policies cover hail damage if it occurred during your policy period. File within 1-2 years. We document impacts and advocate for maximum coverage.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does hail damage repair cost in Pampa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Costs vary by roof size and damage. Most pay only their deductible for storm repairs. Full replacements in Pampa typically range $7,000-$14,000.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do you handle storm damage work in Pampa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Pampa is about 55 miles from our Amarillo headquarters. We schedule storm-damage documentation and inspections once conditions are safe for crews to be on a roof — we are not an emergency-dispatch service. Our value is thorough photo documentation, adjuster-ready reports, and Class 4 impact-resistant restoration for Gray County properties.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Should I get Class 4 shingles in Pampa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, Class 4 shingles reduce future hail damage by 90% and often qualify for 10-30% insurance premium discounts. Excellent investment for Gray County's hail-prone climate.",
+                },
+              },
+            ],
+          }),
         }}
       />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{ backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+        style={{
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
         <div className="container-custom relative z-10">
@@ -123,11 +216,21 @@ export default function HailDamageRepairPampaPage() {
                 Gray County's Trusted Storm Restoration Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Pampa—the county seat of Gray County and heart of the northern Texas Panhandle—faces some of the region's most severe weather. Since 2014, 5 Star Roofing has helped Pampa homeowners and businesses recover from hail damage with expert repairs, insurance claim assistance, and Class 4 impact-resistant replacements.
+                Pampa—the county seat of Gray County and heart of the northern Texas Panhandle—faces
+                some of the region's most severe weather. Since 2014, 5 Star Roofing has helped
+                Pampa homeowners and businesses recover from hail damage with expert repairs,
+                insurance claim assistance, and Class 4 impact-resistant replacements.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">Get Free Inspection</a>
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                </a>
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
+                  Get Free Inspection
+                </a>
               </div>
             </div>
           </FadeIn>
@@ -143,15 +246,23 @@ export default function HailDamageRepairPampaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={55} suffix=" mi" /></div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">
+                  <AnimatedCounter to={55} suffix=" mi" />
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3"><AnimatedCounter to={10} suffix="+" /></div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -162,15 +273,28 @@ export default function HailDamageRepairPampaPage() {
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-brand-brown">Why Does Pampa Properties Need Expert Hail Damage Repair?</h2>
+            <h2 className="text-4xl font-bold mb-6 text-brand-brown">
+              Why Does Pampa Properties Need Expert Hail Damage Repair?
+            </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Pampa, named from the Quechua word for "plain," lives up to its name—sitting at 3,238 feet elevation on the flat expanses of the Texas Panhandle. With a 2020 population of 16,867 (currently estimated at 16,400), Pampa serves as the county seat of Gray County and the economic hub for the surrounding region. This northern Panhandle location puts Pampa directly in the path of severe weather systems moving across the Great Plains.
+              Pampa, named from the Quechua word for "plain," lives up to its name—sitting at 3,238
+              feet elevation on the flat expanses of the Texas Panhandle. With a 2020 population of
+              16,867 (currently estimated at 16,400), Pampa serves as the county seat of Gray County
+              and the economic hub for the surrounding region. This northern Panhandle location puts
+              Pampa directly in the path of severe weather systems moving across the Great Plains.
             </p>
 
             <div className="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-xl shadow-lg border border-red-200 my-8">
-              <h3 className="text-2xl font-bold text-red-700 mb-4"><Target className="w-6 h-6 inline-block" /> Texas Hail Belt: Pampa's Dangerous Position</h3>
+              <h3 className="text-2xl font-bold text-red-700 mb-4">
+                <Target className="w-6 h-6 inline-block" /> Texas Hail Belt: Pampa's Dangerous
+                Position
+              </h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Pampa sits in what meteorologists call the "Northern Texas Hail Corridor," an extremely active zone within the broader Texas Hail Belt where Gray County's position creates a perfect storm environment. The county lies at 35.5°N latitude—precisely the zone where cold Canadian air masses collide most violently with warm, moist Gulf air, creating explosive thunderstorm development.
+                Pampa sits in what meteorologists call the "Northern Texas Hail Corridor," an
+                extremely active zone within the broader Texas Hail Belt where Gray County's
+                position creates a perfect storm environment. The county lies at 35.5°N
+                latitude—precisely the zone where cold Canadian air masses collide most violently
+                with warm, moist Gulf air, creating explosive thunderstorm development.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-lg shadow">
@@ -195,13 +319,22 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Pampa's economy has deep industrial roots, anchored by the Cabot Corporation's carbon black plant—operating since 1926 and acquired by Cabot in 1945. This facility, along with the legacy of the former Celanese Chemical Company plant (which operated from 1952-2009), established Pampa as a significant industrial center. Today, major employers include Pampa Independent School District (serving 3,312 students with 476 staff), oil and gas operations, and various service industries supporting the broader Gray County area.
+              Pampa's economy has deep industrial roots, anchored by the Cabot Corporation's carbon
+              black plant—operating since 1926 and acquired by Cabot in 1945. This facility, along
+              with the legacy of the former Celanese Chemical Company plant (which operated from
+              1952-2009), established Pampa as a significant industrial center. Today, major
+              employers include Pampa Independent School District (serving 3,312 students with 476
+              staff), oil and gas operations, and various service industries supporting the broader
+              Gray County area.
             </p>
 
             <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4"><Factory className="w-6 h-6 inline-block" /> Industrial Hail Risk Assessment</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <Factory className="w-6 h-6 inline-block" /> Industrial Hail Risk Assessment
+              </h3>
               <p className="text-lg mb-4 leading-relaxed">
-                Pampa's industrial infrastructure faces unique hail damage challenges that extend far beyond typical residential concerns:
+                Pampa's industrial infrastructure faces unique hail damage challenges that extend
+                far beyond typical residential concerns:
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
@@ -236,35 +369,70 @@ export default function HailDamageRepairPampaPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-6 rounded-xl border border-amber-200">
-                <h3 className="text-xl font-bold text-amber-700 mb-4"><BarChart3 className="w-6 h-6 inline-block" /> Gray County Storm Data</h3>
+                <h3 className="text-xl font-bold text-amber-700 mb-4">
+                  <BarChart3 className="w-6 h-6 inline-block" /> Gray County Storm Data
+                </h3>
                 <p className="text-gray-700 mb-4">NOAA records for Gray County (2015-2024):</p>
                 <ul className="text-gray-600 space-y-2">
-                  <li><strong>Annual Hail Events:</strong> 8-12 (well above Texas average)</li>
-                  <li><strong>Quarter-Size+ Hail:</strong> 6-8 events annually</li>
-                  <li><strong>Golf Ball+ Hail:</strong> 3-4 events annually</li>
-                  <li><strong>Baseball+ Hail:</strong> 1-2 events every 3 years</li>
-                  <li><strong>Peak Damage Month:</strong> May (50% of annual damage)</li>
-                  <li><strong>Economic Impact:</strong> $4-7 million annually</li>
+                  <li>
+                    <strong>Annual Hail Events:</strong> 8-12 (well above Texas average)
+                  </li>
+                  <li>
+                    <strong>Quarter-Size+ Hail:</strong> 6-8 events annually
+                  </li>
+                  <li>
+                    <strong>Golf Ball+ Hail:</strong> 3-4 events annually
+                  </li>
+                  <li>
+                    <strong>Baseball+ Hail:</strong> 1-2 events every 3 years
+                  </li>
+                  <li>
+                    <strong>Peak Damage Month:</strong> May (50% of annual damage)
+                  </li>
+                  <li>
+                    <strong>Economic Impact:</strong> $4-7 million annually
+                  </li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-amber-50 p-6 rounded-xl border border-brand-gold/30">
-                <h3 className="text-xl font-bold text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Extremes</h3>
-                <p className="text-gray-700 mb-4">Pampa's harsh climate accelerates roofing wear:</p>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">
+                  <Thermometer className="w-6 h-6 inline-block" /> Climate Extremes
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Pampa's harsh climate accelerates roofing wear:
+                </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li><strong>Temperature Range:</strong> 25°F to 109°F (84° swing)</li>
-                  <li><strong>UV Exposure:</strong> High at 3,238 ft elevation</li>
-                  <li><strong>Wind Stress:</strong> Open plains create constant exposure</li>
-                  <li><strong>Freeze-Thaw Cycles:</strong> 30-40 annually</li>
-                  <li><strong>Thermal Shock:</strong> Rapid temperature changes</li>
-                  <li><strong>Storm Season:</strong> March-June most active</li>
+                  <li>
+                    <strong>Temperature Range:</strong> 25°F to 109°F (84° swing)
+                  </li>
+                  <li>
+                    <strong>UV Exposure:</strong> High at 3,238 ft elevation
+                  </li>
+                  <li>
+                    <strong>Wind Stress:</strong> Open plains create constant exposure
+                  </li>
+                  <li>
+                    <strong>Freeze-Thaw Cycles:</strong> 30-40 annually
+                  </li>
+                  <li>
+                    <strong>Thermal Shock:</strong> Rapid temperature changes
+                  </li>
+                  <li>
+                    <strong>Storm Season:</strong> March-June most active
+                  </li>
                 </ul>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-slate-700 to-slate-900 text-white p-8 rounded-xl shadow-lg my-8">
-              <h3 className="text-2xl font-bold mb-4"><Zap className="w-6 h-6 inline-block" /> The Canadian River Valley Effect</h3>
+              <h3 className="text-2xl font-bold mb-4">
+                <Zap className="w-6 h-6 inline-block" /> The Canadian River Valley Effect
+              </h3>
               <p className="text-lg mb-4 leading-relaxed">
-                Pampa's position relative to the Canadian River valley system creates specific meteorological conditions that enhance storm development. The valley acts as a low-level wind convergence zone, where surface winds from different directions meet and force air upward, strengthening storm updrafts.
+                Pampa's position relative to the Canadian River valley system creates specific
+                meteorological conditions that enhance storm development. The valley acts as a
+                low-level wind convergence zone, where surface winds from different directions meet
+                and force air upward, strengthening storm updrafts.
               </p>
               <div className="bg-white/10 p-4 rounded-lg">
                 <p className="text-yellow-300 font-semibold mb-2">Impact on Hail Formation:</p>
@@ -278,13 +446,22 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Gray County experiences a humid subtropical climate with extreme seasonal variations—temperatures ranging from 25°F to 92°F annually, with recorded highs of 109°F. The county experiences 8-12 significant hail events annually, with storms capable of producing damaging hail from March through June. The open terrain allows supercell thunderstorms to develop intensity as they move eastward, often producing their most severe hail as they pass through communities like Pampa.
+              Gray County experiences a humid subtropical climate with extreme seasonal
+              variations—temperatures ranging from 25°F to 92°F annually, with recorded highs of
+              109°F. The county experiences 8-12 significant hail events annually, with storms
+              capable of producing damaging hail from March through June. The open terrain allows
+              supercell thunderstorms to develop intensity as they move eastward, often producing
+              their most severe hail as they pass through communities like Pampa.
             </p>
 
             <div className="bg-gradient-to-br from-green-50 to-amber-50 p-8 rounded-xl border border-green-200 shadow-lg">
-              <h3 className="text-2xl font-bold text-green-700 mb-4"><Shield className="w-6 h-6 inline-block" /> Storm Preparedness: Industrial & Residential</h3>
+              <h3 className="text-2xl font-bold text-green-700 mb-4">
+                <Shield className="w-6 h-6 inline-block" /> Storm Preparedness: Industrial &
+                Residential
+              </h3>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Pampa's mixed urban landscape requires different protection strategies for various property types:
+                Pampa's mixed urban landscape requires different protection strategies for various
+                property types:
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white p-4 rounded-lg shadow">
@@ -317,14 +494,22 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55 miles from our Amarillo headquarters, we can reach Pampa within approximately one hour for prompt situations. We understand Pampa's unique combination of industrial, residential, and agricultural properties, having helped hundreds of property owners protect their investments with expert repairs and storm-resistant materials. Our experience includes work on everything from historic downtown buildings to modern industrial facilities to rural residential properties throughout Gray County.
+              5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55
+              miles from our Amarillo headquarters, we can reach Pampa within approximately one hour
+              for prompt situations. We understand Pampa's unique combination of industrial,
+              residential, and agricultural properties, having helped hundreds of property owners
+              protect their investments with expert repairs and storm-resistant materials. Our
+              experience includes work on everything from historic downtown buildings to modern
+              industrial facilities to rural residential properties throughout Gray County.
             </p>
           </section>
         </FadeIn>
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">Gray County Weather Challenges?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              Gray County Weather Challenges?
+            </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-red-600 mb-2">8-12</div>
@@ -339,7 +524,7 @@ export default function HailDamageRepairPampaPage() {
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">55 mi</div>
                 <div className="font-semibold text-gray-700">From Amarillo</div>
-                <p className="text-sm text-gray-500 mt-2">~1 hour response</p>
+                <p className="text-sm text-gray-500 mt-2">Gray County service area</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-3xl font-bold text-brand-gold-vibrant mb-2">Mar-Jun</div>
@@ -352,28 +537,57 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">What Are Pampa's Location in the Texas Hail Belt?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              What Are Pampa's Location in the Texas Hail Belt?
+            </h2>
             <div className="bg-gradient-to-r from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg mb-8">
               <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-                Pampa sits in a particularly active zone of Texas's "Hail Belt," where Gray County's position at 3,238 feet elevation creates ideal conditions for severe thunderstorm development. The northern Panhandle location places Pampa at the convergence of multiple storm tracks, including the notorious "Dryline" where dry desert air from the west meets moist Gulf air from the southeast.
+                Pampa sits in a particularly active zone of Texas's "Hail Belt," where Gray County's
+                position at 3,238 feet elevation creates ideal conditions for severe thunderstorm
+                development. The northern Panhandle location places Pampa at the convergence of
+                multiple storm tracks, including the notorious "Dryline" where dry desert air from
+                the west meets moist Gulf air from the southeast.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-2xl font-bold text-brand-brown mb-4">Atmospheric Dynamics</h3>
                   <ul className="space-y-3 text-gray-700">
-                    <li><strong>Canadian River Valley:</strong> Enhances low-level wind shear and convergence</li>
-                    <li><strong>Caprock Proximity:</strong> Terrain features strengthen storm updrafts</li>
-                    <li><strong>High Plains Position:</strong> Extreme temperature contrasts fuel supercells</li>
-                    <li><strong>Jet Stream Interaction:</strong> Upper-level winds enhance storm rotation</li>
+                    <li>
+                      <strong>Canadian River Valley:</strong> Enhances low-level wind shear and
+                      convergence
+                    </li>
+                    <li>
+                      <strong>Caprock Proximity:</strong> Terrain features strengthen storm updrafts
+                    </li>
+                    <li>
+                      <strong>High Plains Position:</strong> Extreme temperature contrasts fuel
+                      supercells
+                    </li>
+                    <li>
+                      <strong>Jet Stream Interaction:</strong> Upper-level winds enhance storm
+                      rotation
+                    </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-brand-brown mb-4">Industrial Weather Risks</h3>
+                  <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                    Industrial Weather Risks
+                  </h3>
                   <ul className="space-y-3 text-gray-700">
-                    <li><strong>Cabot Corporation:</strong> Critical carbon black production facilities</li>
-                    <li><strong>PISD Properties:</strong> 3,312 students across multiple buildings</li>
-                    <li><strong>Oil & Gas Infrastructure:</strong> Wells, processing, and storage facilities</li>
-                    <li><strong>Historic Celanese Site:</strong> Environmental monitoring continues</li>
+                    <li>
+                      <strong>Cabot Corporation:</strong> Critical carbon black production
+                      facilities
+                    </li>
+                    <li>
+                      <strong>PISD Properties:</strong> 3,312 students across multiple buildings
+                    </li>
+                    <li>
+                      <strong>Oil & Gas Infrastructure:</strong> Wells, processing, and storage
+                      facilities
+                    </li>
+                    <li>
+                      <strong>Historic Celanese Site:</strong> Environmental monitoring continues
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -413,13 +627,19 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-brand-brown">How Does the Insurance Claims Process Work in Pampa?</h2>
-            
+            <h2 className="text-3xl font-bold mb-8 text-brand-brown">
+              How Does the Insurance Claims Process Work in Pampa?
+            </h2>
+
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Industrial vs. Residential Coverage</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Industrial vs. Residential Coverage
+                </h3>
                 <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Residential Properties</h4>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                    Residential Properties
+                  </h4>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Standard homeowner's policies</li>
                     <li>• Typical deductibles: $1,000-$2,500</li>
@@ -428,7 +648,9 @@ export default function HailDamageRepairPampaPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Commercial/Industrial</h4>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                    Commercial/Industrial
+                  </h4>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Commercial property policies required</li>
                     <li>• Higher deductibles: $10,000-$50,000</li>
@@ -437,11 +659,15 @@ export default function HailDamageRepairPampaPage() {
                   </ul>
                 </div>
               </div>
-              
+
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Pampa-Specific Challenges</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Pampa-Specific Challenges
+                </h3>
                 <div className="bg-white p-6 rounded-xl shadow-sm mb-4">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Distance Considerations</h4>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                    Distance Considerations
+                  </h4>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Adjuster travel affects timing</li>
                     <li>• Weather verification crucial</li>
@@ -450,7 +676,9 @@ export default function HailDamageRepairPampaPage() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm">
-                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Industrial Complexities</h4>
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                    Industrial Complexities
+                  </h4>
                   <ul className="text-gray-600 space-y-2">
                     <li>• Environmental compliance requirements</li>
                     <li>• Production downtime considerations</li>
@@ -465,10 +693,17 @@ export default function HailDamageRepairPampaPage() {
               <h4 className="text-xl font-bold mb-3">Our Gray County Track Record</h4>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <p className="text-lg mb-2">Serving Pampa since 2014 with both residential and commercial expertise. We understand the unique challenges of Gray County's industrial and residential mix.</p>
+                  <p className="text-lg mb-2">
+                    Serving Pampa since 2014 with both residential and commercial expertise. We
+                    understand the unique challenges of Gray County's industrial and residential
+                    mix.
+                  </p>
                 </div>
                 <div>
-                  <p className="text-brand-gold-light font-semibold">96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour storm response</p>
+                  <p className="text-brand-gold-light font-semibold">
+                    96%+ approval rate on claims • Average: 98% of replacement cost • 72-hour storm
+                    response
+                  </p>
                 </div>
               </div>
             </div>
@@ -477,37 +712,61 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">How Does the Pampa Hail Damage Repair Process Work?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              How Does the Pampa Hail Damage Repair Process Work?
+            </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Search className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
-                <p className="text-gray-600">Thorough inspection with photo documentation for your Pampa property. Always free.</p>
+                <p className="text-gray-600">
+                  Thorough inspection with photo documentation for your Pampa property. Always free.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <ClipboardList className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
-                <p className="text-gray-600">Complete documentation and adjuster meetings to maximize your coverage.</p>
+                <p className="text-gray-600">
+                  Complete documentation and adjuster meetings to maximize your coverage.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <FileText className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
-                <p className="text-gray-600">Line-item Xactimate estimates. No surprises, no hidden costs.</p>
+                <p className="text-gray-600">
+                  Line-item Xactimate estimates. No surprises, no hidden costs.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Wrench className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
-                <p className="text-gray-600">Premium materials for Pampa's climate. Most repairs complete in 1-3 days.</p>
+                <p className="text-gray-600">
+                  Premium materials for Pampa's climate. Most repairs complete in 1-3 days.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
+                <div className="text-4xl mb-4">
+                  <CheckCircle className="w-5 h-5 inline-block text-green-600" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
                 <p className="text-gray-600">Quality verification with complete documentation.</p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Shield className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
-                <p className="text-gray-600">Comprehensive workmanship and manufacturer warranties up to 50 years.</p>
+                <p className="text-gray-600">
+                  Comprehensive workmanship and manufacturer warranties up to 50 years.
+                </p>
               </div>
             </div>
           </section>
@@ -517,7 +776,9 @@ export default function HailDamageRepairPampaPage() {
           <section className="mb-16 bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-6">What Is the Class 4 Shingles?</h2>
             <p className="text-lg mb-6 leading-relaxed">
-              For Pampa properties facing Gray County's severe weather, Class 4 impact-resistant shingles provide superior protection against the large hail common to northern Panhandle storms.
+              For Pampa properties facing Gray County's severe weather, Class 4 impact-resistant
+              shingles provide superior protection against the large hail common to northern
+              Panhandle storms.
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white/10 p-6 rounded-xl">
@@ -538,42 +799,93 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">Serving All of Pampa & Gray County</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              Serving All of Pampa & Gray County
+            </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-6">
               <div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Pampa Residential Areas</h3>
                 <div className="grid grid-cols-2 gap-3">
-                  {["Downtown Pampa", "North Pampa", "South Pampa", "East Pampa", "West Pampa", "Industrial District", "PISD Area", "Highway 60 Corridor"].map((area) => (
-                    <div key={area} className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium text-sm">{area}</div>
+                  {[
+                    "Downtown Pampa",
+                    "North Pampa",
+                    "South Pampa",
+                    "East Pampa",
+                    "West Pampa",
+                    "Industrial District",
+                    "PISD Area",
+                    "Highway 60 Corridor",
+                  ].map((area) => (
+                    <div
+                      key={area}
+                      className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium text-sm"
+                    >
+                      {area}
+                    </div>
                   ))}
                 </div>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-brand-brown mb-4">Gray County Communities</h3>
                 <div className="grid grid-cols-2 gap-3">
-                  {["Lefors", "McLean", "Alanreed", "Kingsmill", "Hoover", "Laketon", "Mobeetie", "Roberts County"].map((area) => (
-                    <div key={area} className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium text-sm">{area}</div>
+                  {[
+                    "Lefors",
+                    "McLean",
+                    "Alanreed",
+                    "Kingsmill",
+                    "Hoover",
+                    "Laketon",
+                    "Mobeetie",
+                    "Roberts County",
+                  ].map((area) => (
+                    <div
+                      key={area}
+                      className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium text-sm"
+                    >
+                      {area}
+                    </div>
                   ))}
                 </div>
               </div>
             </div>
             <div className="bg-amber-50 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-brand-brown mb-3">Major Employers & Industrial Areas</h3>
+              <h3 className="text-xl font-bold text-brand-brown mb-3">
+                Major Employers & Industrial Areas
+              </h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Cabot Corporation (Carbon Black)</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Pampa Independent School District</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Oil & gas operations</li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Cabot Corporation (Carbon Black)
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Pampa Independent School
+                    District
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Oil & gas operations
+                  </li>
                 </ul>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Former Celanese plant site</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Industrial manufacturing</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Healthcare facilities</li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Former Celanese plant site
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Industrial manufacturing
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Healthcare facilities
+                  </li>
                 </ul>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Government services</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Retail & commercial</li>
-                  <li className="flex items-center"><span className="text-brand-gold mr-2">•</span> Agricultural support</li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Government services
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Retail & commercial
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-brand-gold mr-2">•</span> Agricultural support
+                  </li>
                 </ul>
               </div>
             </div>
@@ -582,32 +894,64 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-slate-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Gray County Storm Patterns & Risk Assessment?</h2>
-            
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Gray County Storm Patterns & Risk Assessment?
+            </h2>
+
             <div className="max-w-5xl mx-auto mb-12">
               <div className="bg-gradient-to-r from-brand-gold-vibrant to-brand-brown text-white p-8 rounded-xl shadow-lg mb-8">
-                <h3 className="text-2xl font-bold mb-4"><Tornado className="w-6 h-6 inline-block" /> The Northern Panhandle Storm Corridor</h3>
+                <h3 className="text-2xl font-bold mb-4">
+                  <Tornado className="w-6 h-6 inline-block" /> The Northern Panhandle Storm Corridor
+                </h3>
                 <p className="text-lg leading-relaxed mb-6">
-                  Pampa sits within what meteorologists term the "Northern Panhandle Storm Corridor"—a 50-mile-wide zone stretching from the New Mexico border to the Oklahoma line where atmospheric conditions regularly produce the most intense hailstorms in North America. Gray County's position at 35.5°N latitude places it at the heart of this corridor.
+                  Pampa sits within what meteorologists term the "Northern Panhandle Storm
+                  Corridor"—a 50-mile-wide zone stretching from the New Mexico border to the
+                  Oklahoma line where atmospheric conditions regularly produce the most intense
+                  hailstorms in North America. Gray County's position at 35.5°N latitude places it
+                  at the heart of this corridor.
                 </p>
-                
+
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-bold text-yellow-300 mb-3">Storm Development Factors</h4>
                     <ul className="text-white/90 space-y-2">
-                      <li><strong className="text-yellow-300">Dryline Activity:</strong> Moisture boundary frequently positioned over Gray County</li>
-                      <li><strong className="text-yellow-300">Jet Stream Position:</strong> Upper-level winds provide optimal wind shear</li>
-                      <li><strong className="text-yellow-300">Surface Convergence:</strong> Canadian River valley enhances low-level convergence</li>
-                      <li><strong className="text-yellow-300">Temperature Contrasts:</strong> Extreme gradients fuel explosive development</li>
+                      <li>
+                        <strong className="text-yellow-300">Dryline Activity:</strong> Moisture
+                        boundary frequently positioned over Gray County
+                      </li>
+                      <li>
+                        <strong className="text-yellow-300">Jet Stream Position:</strong>{" "}
+                        Upper-level winds provide optimal wind shear
+                      </li>
+                      <li>
+                        <strong className="text-yellow-300">Surface Convergence:</strong> Canadian
+                        River valley enhances low-level convergence
+                      </li>
+                      <li>
+                        <strong className="text-yellow-300">Temperature Contrasts:</strong> Extreme
+                        gradients fuel explosive development
+                      </li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-yellow-300 mb-3">Peak Risk Periods</h4>
                     <ul className="text-white/90 space-y-2">
-                      <li><strong className="text-yellow-300">April-May:</strong> Peak supercell season, largest hail</li>
-                      <li><strong className="text-yellow-300">Late Afternoon:</strong> 4-7 PM maximum instability</li>
-                      <li><strong className="text-yellow-300">Multi-Day Events:</strong> Extended severe weather episodes</li>
-                      <li><strong className="text-yellow-300">Rapid Intensification:</strong> Storms strengthen quickly over Pampa area</li>
+                      <li>
+                        <strong className="text-yellow-300">April-May:</strong> Peak supercell
+                        season, largest hail
+                      </li>
+                      <li>
+                        <strong className="text-yellow-300">Late Afternoon:</strong> 4-7 PM maximum
+                        instability
+                      </li>
+                      <li>
+                        <strong className="text-yellow-300">Multi-Day Events:</strong> Extended
+                        severe weather episodes
+                      </li>
+                      <li>
+                        <strong className="text-yellow-300">Rapid Intensification:</strong> Storms
+                        strengthen quickly over Pampa area
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -615,41 +959,74 @@ export default function HailDamageRepairPampaPage() {
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-red-600 mb-4"><Target className="w-6 h-6 inline-block" /> High-Impact Events</h4>
+                  <h4 className="text-xl font-bold text-red-600 mb-4">
+                    <Target className="w-6 h-6 inline-block" /> High-Impact Events
+                  </h4>
                   <p className="text-gray-700 mb-3">Major hailstorms affecting Pampa:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
-                    <li><strong>May 2018:</strong> Baseball size, $4.8M Gray County damage</li>
-                    <li><strong>April 2020:</strong> Tennis ball size, PISD buildings damaged</li>
-                    <li><strong>March 2023:</strong> Multiple rounds, industrial facilities hit</li>
-                    <li><strong>May 2024:</strong> Softball size, historic downtown affected</li>
+                    <li>
+                      <strong>May 2018:</strong> Baseball size, $4.8M Gray County damage
+                    </li>
+                    <li>
+                      <strong>April 2020:</strong> Tennis ball size, PISD buildings damaged
+                    </li>
+                    <li>
+                      <strong>March 2023:</strong> Multiple rounds, industrial facilities hit
+                    </li>
+                    <li>
+                      <strong>May 2024:</strong> Softball size, historic downtown affected
+                    </li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-orange-600 mb-4"><TrendingUp className="w-6 h-6 inline-block" /> Economic Impact Analysis</h4>
+                  <h4 className="text-xl font-bold text-orange-600 mb-4">
+                    <TrendingUp className="w-6 h-6 inline-block" /> Economic Impact Analysis
+                  </h4>
                   <p className="text-gray-700 mb-3">Annual hail damage in Pampa area:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
-                    <li><strong>Residential:</strong> $2-3 million annually</li>
-                    <li><strong>Commercial/Industrial:</strong> $1-2 million annually</li>
-                    <li><strong>Public Buildings:</strong> $500K-1M annually</li>
-                    <li><strong>Total Economic Impact:</strong> $4-7 million annually</li>
+                    <li>
+                      <strong>Residential:</strong> $2-3 million annually
+                    </li>
+                    <li>
+                      <strong>Commercial/Industrial:</strong> $1-2 million annually
+                    </li>
+                    <li>
+                      <strong>Public Buildings:</strong> $500K-1M annually
+                    </li>
+                    <li>
+                      <strong>Total Economic Impact:</strong> $4-7 million annually
+                    </li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <h4 className="text-xl font-bold text-green-600 mb-4"><Home className="w-6 h-6 inline-block" /> Property Vulnerability</h4>
+                  <h4 className="text-xl font-bold text-green-600 mb-4">
+                    <Home className="w-6 h-6 inline-block" /> Property Vulnerability
+                  </h4>
                   <p className="text-gray-700 mb-3">Structures at highest risk:</p>
                   <ul className="space-y-2 text-gray-600 text-sm">
-                    <li><strong>Older Residential:</strong> Pre-1990 roofing systems</li>
-                    <li><strong>Industrial Buildings:</strong> Large, flat membrane roofs</li>
-                    <li><strong>School Buildings:</strong> PISD complex exposed locations</li>
-                    <li><strong>Agricultural:</strong> Rural outbuildings and equipment</li>
+                    <li>
+                      <strong>Older Residential:</strong> Pre-1990 roofing systems
+                    </li>
+                    <li>
+                      <strong>Industrial Buildings:</strong> Large, flat membrane roofs
+                    </li>
+                    <li>
+                      <strong>School Buildings:</strong> PISD complex exposed locations
+                    </li>
+                    <li>
+                      <strong>Agricultural:</strong> Rural outbuildings and equipment
+                    </li>
                   </ul>
                 </div>
               </div>
 
               <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-8 rounded-xl border border-amber-200 shadow-lg">
-                <h4 className="text-2xl font-bold text-amber-700 mb-4"><ClipboardList className="w-6 h-6 inline-block" /> Pampa Early Warning Network</h4>
+                <h4 className="text-2xl font-bold text-amber-700 mb-4">
+                  <ClipboardList className="w-6 h-6 inline-block" /> Pampa Early Warning Network
+                </h4>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Gray County maintains multiple alert systems to provide residents and businesses with advance warning of severe weather:
+                  Gray County maintains multiple alert systems to provide residents and businesses
+                  with advance warning of severe weather:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white p-4 rounded-lg shadow">
@@ -678,10 +1055,17 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-amber-50 to-white p-8 md:p-12 rounded-3xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Comprehensive Pampa Hail Damage FAQs Look Like?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              What Does Comprehensive Pampa Hail Damage FAQs Look Like?
+            </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do I know if my Pampa roof has hail damage?</AccordionTrigger>
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do I know if my Pampa roof has hail damage?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   <p className="mb-3">Hail damage in Pampa can manifest in several ways:</p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
@@ -692,26 +1076,60 @@ export default function HailDamageRepairPampaPage() {
                     <li>Damaged or dented gutters and downspouts</li>
                     <li>Bruising on wood shakes or tile roofing</li>
                   </ul>
-                  <p>Gray County's hailstorms often produce wind-driven hail that can impact roofs from multiple angles. Given Pampa's position in the storm corridor, we recommend professional inspection after any hail event over 0.75 inches reported in the area. Our inspections are comprehensive and always free.</p>
+                  <p>
+                    Gray County's hailstorms often produce wind-driven hail that can impact roofs
+                    from multiple angles. Given Pampa's position in the storm corridor, we recommend
+                    professional inspection after any hail event over 0.75 inches reported in the
+                    area. Our inspections are comprehensive and always free.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Will insurance cover hail damage in Pampa?</AccordionTrigger>
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Will insurance cover hail damage in Pampa?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">Yes, Texas insurance law provides strong protection for hail damage claims:</p>
+                  <p className="mb-3">
+                    Yes, Texas insurance law provides strong protection for hail damage claims:
+                  </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
-                    <li><strong>Coverage Requirement:</strong> Most policies include hail as a covered peril</li>
-                    <li><strong>Filing Deadline:</strong> Must report within 1-2 years of the loss date</li>
-                    <li><strong>Industrial Properties:</strong> Commercial policies include business interruption coverage</li>
-                    <li><strong>Public Buildings:</strong> PISD and city properties follow different procedures</li>
+                    <li>
+                      <strong>Coverage Requirement:</strong> Most policies include hail as a covered
+                      peril
+                    </li>
+                    <li>
+                      <strong>Filing Deadline:</strong> Must report within 1-2 years of the loss
+                      date
+                    </li>
+                    <li>
+                      <strong>Industrial Properties:</strong> Commercial policies include business
+                      interruption coverage
+                    </li>
+                    <li>
+                      <strong>Public Buildings:</strong> PISD and city properties follow different
+                      procedures
+                    </li>
                   </ul>
-                  <p>We document every impact with detailed photography and measurements, meet with adjusters on-site, and advocate for maximum coverage. Our Gray County success rate is 96%+ with average settlements at 98% of replacement cost. Most homeowners pay only their deductible ($1,000-$2,500).</p>
+                  <p>
+                    We document every impact with detailed photography and measurements, meet with
+                    adjusters on-site, and advocate for maximum coverage. Our Gray County success
+                    rate is 96%+ with average settlements at 98% of replacement cost. Most
+                    homeowners pay only their deductible ($1,000-$2,500).
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How much does roof repair cost in Pampa?</AccordionTrigger>
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How much does roof repair cost in Pampa?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   <p className="mb-3">Repair costs vary by property type and damage severity:</p>
                   <div className="grid md:grid-cols-2 gap-4 mb-3">
@@ -734,43 +1152,101 @@ export default function HailDamageRepairPampaPage() {
                       </ul>
                     </div>
                   </div>
-                  <p>For insured storm damage, most property owners pay only their deductible. We provide detailed Xactimate estimates that insurance companies recognize. Commercial and industrial projects may include specialized coatings or systems to meet environmental compliance requirements.</p>
+                  <p>
+                    For insured storm damage, most property owners pay only their deductible. We
+                    provide detailed Xactimate estimates that insurance companies recognize.
+                    Commercial and industrial projects may include specialized coatings or systems
+                    to meet environmental compliance requirements.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How quickly can you respond to Pampa emergencies?</AccordionTrigger>
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do you handle storm damage work in Pampa?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">Our storm response for Pampa area:</p>
+                  <p className="mb-3">
+                    How we handle storm-damage work for Gray County properties:
+                  </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
-                    <li><strong>Distance:</strong> 55 miles from our Amarillo headquarters</li>
-                    <li><strong>Normal Service:</strong> Same-day or next-day scheduling</li>
-                    <li><strong>Availability:</strong> tarping and leak stopping</li>
-                    <li><strong>Storm Season:</strong> Mobile response teams during active weather</li>
+                    <li>
+                      <strong>Distance:</strong> 55 miles from our Amarillo headquarters
+                    </li>
+                    <li>
+                      <strong>Inspections:</strong> Free post-storm damage assessments scheduled
+                      once conditions are safe
+                    </li>
+                    <li>
+                      <strong>Documentation:</strong> Photos and adjuster-ready reports for your
+                      insurance claim
+                    </li>
+                    <li>
+                      <strong>Restoration:</strong> Class 4 impact-resistant replacements built for
+                      Panhandle weather
+                    </li>
                   </ul>
-                  <p>During major hail events affecting Gray County, we often establish temporary operations in Pampa to reduce response times. Our office (806) 622-6041 connects directly to our dispatch center. Industrial and commercial properties receive priority scheduling due to production and business continuity concerns.</p>
+                  <p>
+                    We are not an emergency-dispatch service — our value is documentation quality,
+                    insurance-claim follow-through, and lasting Class 4 restoration. Call (806)
+                    622-6041 to schedule a free inspection.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Should I upgrade to Class 4 shingles in Pampa?</AccordionTrigger>
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Should I upgrade to Class 4 shingles in Pampa?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">For Pampa's high-risk hail environment, Class 4 shingles are an excellent investment:</p>
+                  <p className="mb-3">
+                    For Pampa's high-risk hail environment, Class 4 shingles are an excellent
+                    investment:
+                  </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
-                    <li><strong>Damage Reduction:</strong> 85-95% reduction in hail damage</li>
-                    <li><strong>Insurance Benefits:</strong> 10-30% premium discounts available</li>
-                    <li><strong>ROI Timeline:</strong> Discounts typically pay for upgrade within 6-9 years</li>
-                    <li><strong>Property Value:</strong> Increases resale value and marketability</li>
-                    <li><strong>Warranty Protection:</strong> Enhanced coverage up to 50 years</li>
+                    <li>
+                      <strong>Damage Reduction:</strong> 85-95% reduction in hail damage
+                    </li>
+                    <li>
+                      <strong>Insurance Benefits:</strong> 10-30% premium discounts available
+                    </li>
+                    <li>
+                      <strong>ROI Timeline:</strong> Discounts typically pay for upgrade within 6-9
+                      years
+                    </li>
+                    <li>
+                      <strong>Property Value:</strong> Increases resale value and marketability
+                    </li>
+                    <li>
+                      <strong>Warranty Protection:</strong> Enhanced coverage up to 50 years
+                    </li>
                   </ul>
-                  <p>Given Gray County's position in the most hail-active region of North America, Class 4 shingles are among the smartest investments a Pampa property owner can make. We'll help you understand available options, insurance discounts, and financing for your specific situation.</p>
+                  <p>
+                    Given Gray County's position in the most hail-active region of North America,
+                    Class 4 shingles are among the smartest investments a Pampa property owner can
+                    make. We'll help you understand available options, insurance discounts, and
+                    financing for your specific situation.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Do you work on industrial and commercial facilities in Pampa?</AccordionTrigger>
+              <AccordionItem
+                value="item-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Do you work on industrial and commercial facilities in Pampa?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">Yes, we specialize in both residential and commercial/industrial projects:</p>
+                  <p className="mb-3">
+                    Yes, we specialize in both residential and commercial/industrial projects:
+                  </p>
                   <div className="grid md:grid-cols-2 gap-4 mb-3">
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Industrial Experience:</h4>
@@ -791,38 +1267,97 @@ export default function HailDamageRepairPampaPage() {
                       </ul>
                     </div>
                   </div>
-                  <p>We understand the unique requirements of Pampa's industrial sector, including environmental compliance, production continuity needs, and specialized roofing systems. Our crews are certified for work in industrial environments and follow all safety protocols.</p>
+                  <p>
+                    We understand the unique requirements of Pampa's industrial sector, including
+                    environmental compliance, production continuity needs, and specialized roofing
+                    systems. Our crews are certified for work in industrial environments and follow
+                    all safety protocols.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">Why is Pampa particularly vulnerable to severe hail?</AccordionTrigger>
+              <AccordionItem
+                value="item-7"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  Why is Pampa particularly vulnerable to severe hail?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">Several geographic and atmospheric factors make Pampa especially susceptible:</p>
+                  <p className="mb-3">
+                    Several geographic and atmospheric factors make Pampa especially susceptible:
+                  </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
-                    <li><strong>Latitude Position:</strong> 35.5°N sits in optimal supercell development zone</li>
-                    <li><strong>Flat Terrain:</strong> No upstream barriers to weaken approaching storms</li>
-                    <li><strong>Elevation:</strong> 3,238 feet creates strong temperature gradients</li>
-                    <li><strong>Canadian River Valley:</strong> Enhances low-level convergence and wind shear</li>
-                    <li><strong>Dryline Position:</strong> Moisture boundary frequently positioned over Gray County</li>
-                    <li><strong>Air Mass Collision:</strong> Cold Canadian air meets warm Gulf moisture</li>
+                    <li>
+                      <strong>Latitude Position:</strong> 35.5°N sits in optimal supercell
+                      development zone
+                    </li>
+                    <li>
+                      <strong>Flat Terrain:</strong> No upstream barriers to weaken approaching
+                      storms
+                    </li>
+                    <li>
+                      <strong>Elevation:</strong> 3,238 feet creates strong temperature gradients
+                    </li>
+                    <li>
+                      <strong>Canadian River Valley:</strong> Enhances low-level convergence and
+                      wind shear
+                    </li>
+                    <li>
+                      <strong>Dryline Position:</strong> Moisture boundary frequently positioned
+                      over Gray County
+                    </li>
+                    <li>
+                      <strong>Air Mass Collision:</strong> Cold Canadian air meets warm Gulf
+                      moisture
+                    </li>
                   </ul>
-                  <p>These combined factors place Pampa in the most hail-active corridor in North America. Studies show Gray County experiences 40-50% more severe hail events than the Texas average, with storms often reaching peak intensity directly over the Pampa area.</p>
+                  <p>
+                    These combined factors place Pampa in the most hail-active corridor in North
+                    America. Studies show Gray County experiences 40-50% more severe hail events
+                    than the Texas average, with storms often reaching peak intensity directly over
+                    the Pampa area.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
-                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">How do you handle the logistics of rural Gray County properties?</AccordionTrigger>
+              <AccordionItem
+                value="item-8"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
+                <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
+                  How do you handle the logistics of rural Gray County properties?
+                </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  <p className="mb-3">Rural properties require special planning and coordination:</p>
+                  <p className="mb-3">
+                    Rural properties require special planning and coordination:
+                  </p>
                   <ul className="list-disc pl-6 space-y-1 mb-3">
-                    <li><strong>Access Planning:</strong> Coordinate with landowners for private road access</li>
-                    <li><strong>Materials Delivery:</strong> Plan staging areas for remote locations</li>
-                    <li><strong>Timing Coordination:</strong> Work around agricultural schedules and operations</li>
-                    <li><strong>Weather Dependencies:</strong> Account for rural road conditions</li>
-                    <li><strong>Equipment Transport:</strong> Specialized vehicles for difficult terrain</li>
+                    <li>
+                      <strong>Access Planning:</strong> Coordinate with landowners for private road
+                      access
+                    </li>
+                    <li>
+                      <strong>Materials Delivery:</strong> Plan staging areas for remote locations
+                    </li>
+                    <li>
+                      <strong>Timing Coordination:</strong> Work around agricultural schedules and
+                      operations
+                    </li>
+                    <li>
+                      <strong>Weather Dependencies:</strong> Account for rural road conditions
+                    </li>
+                    <li>
+                      <strong>Equipment Transport:</strong> Specialized vehicles for difficult
+                      terrain
+                    </li>
                   </ul>
-                  <p>Our decade of experience in Gray County includes extensive work on rural properties throughout the area. We maintain excellent relationships with local landowners and understand the unique challenges of serving remote locations while respecting agricultural operations and property boundaries.</p>
+                  <p>
+                    Our decade of experience in Gray County includes extensive work on rural
+                    properties throughout the area. We maintain excellent relationships with local
+                    landowners and understand the unique challenges of serving remote locations
+                    while respecting agricultural operations and property boundaries.
+                  </p>
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -831,17 +1366,28 @@ export default function HailDamageRepairPampaPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Related Services in Pampa</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Related Services in Pampa
+            </h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/storm-damage-repair-pampa/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/storm-damage-repair-pampa/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Storm Damage Repair</h3>
                 <p className="text-gray-600">Wind, rain, and debris damage restoration</p>
               </a>
-              <a href="/roof-replacement-pampa/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/roof-replacement-pampa/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Roof Replacement</h3>
                 <p className="text-gray-600">Complete roof replacement services</p>
               </a>
-              <a href="/roof-inspections-pampa/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/roof-inspections-pampa/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Free Inspections</h3>
                 <p className="text-gray-600">No-obligation damage assessments</p>
               </a>
@@ -849,15 +1395,27 @@ export default function HailDamageRepairPampaPage() {
           </section>
         </FadeIn>
 
-        
-        
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-green-50 to-amber-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               What Makes Gray County a Storm Corridor for Hail?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Pampa&apos;s location in Gray County places it directly within a northeast Texas Panhandle storm corridor where severe weather tracks from the southwest toward the Oklahoma border. Gray County records 6 to 9 hail events annually, with storms often intensifying as they cross the open prairie between Amarillo and the Oklahoma line. Pampa&apos;s rural character presents unique damage assessment challenges that urban areas do not face. Properties outside city limits&mdash;ranch homes, agricultural buildings, and rural estates along Highway 60 and Highway 70&mdash;may sit miles from the nearest neighbor, making it difficult for insurance adjusters unfamiliar with the area to locate and assess all damaged structures on a single property. A ranch with a main home, detached garage, equipment barn, and storage buildings can have four separate roof structures requiring individual documentation on one claim. 5 Star Roofing provides comprehensive property assessments for rural Pampa homeowners, documenting every structure on the property so nothing gets missed when the adjuster reviews the claim. We serve all of Gray County, from downtown Pampa to Lefors, McLean, and the surrounding ranch properties.
+              Pampa&apos;s location in Gray County places it directly within a northeast Texas
+              Panhandle storm corridor where severe weather tracks from the southwest toward the
+              Oklahoma border. Gray County records 6 to 9 hail events annually, with storms often
+              intensifying as they cross the open prairie between Amarillo and the Oklahoma line.
+              Pampa&apos;s rural character presents unique damage assessment challenges that urban
+              areas do not face. Properties outside city limits&mdash;ranch homes, agricultural
+              buildings, and rural estates along Highway 60 and Highway 70&mdash;may sit miles from
+              the nearest neighbor, making it difficult for insurance adjusters unfamiliar with the
+              area to locate and assess all damaged structures on a single property. A ranch with a
+              main home, detached garage, equipment barn, and storage buildings can have four
+              separate roof structures requiring individual documentation on one claim. 5 Star
+              Roofing provides comprehensive property assessments for rural Pampa homeowners,
+              documenting every structure on the property so nothing gets missed when the adjuster
+              reviews the claim. We serve all of Gray County, from downtown Pampa to Lefors, McLean,
+              and the surrounding ranch properties.
             </p>
           </section>
         </FadeIn>
@@ -866,13 +1424,26 @@ export default function HailDamageRepairPampaPage() {
 
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Hail Damage in Pampa? We're Here to Help.</h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">Free inspections for Pampa property owners. Expert repairs with comprehensive warranties. Insurance claim assistance from start to finish.</p>
+          <p className="text-xl mb-8 max-w-3xl mx-auto">
+            Free inspections for Pampa property owners. Expert repairs with comprehensive
+            warranties. Insurance claim assistance from start to finish.
+          </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">Call (806) 622-6041</a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">Schedule Free Inspection</a>
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
+              Call (806) 622-6041
+            </a>
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
+              Schedule Free Inspection
+            </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="hail-damage-repair-pampa" />
+        <RelatedArticles pageSlug="hail-damage-repair-pampa" />
       </div>
     </>
   );

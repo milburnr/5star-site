@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 /**
  * Top-of-page scroll-progress bar. Pure CSS transform + rAF-throttled
@@ -13,7 +13,7 @@ export function ScrollProgress() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === "undefined") return;
     let raf = 0;
 
     const update = () => {
@@ -32,11 +32,11 @@ export function ScrollProgress() {
     };
 
     update();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll, { passive: true });
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll, { passive: true });
     return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
@@ -45,7 +45,7 @@ export function ScrollProgress() {
     <div
       ref={ref}
       className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-gold via-brand-gold-vibrant to-brand-gold z-50 origin-left pointer-events-none"
-      style={{ transform: 'scaleX(0)' }}
+      style={{ transform: "scaleX(0)" }}
       aria-hidden="true"
     />
   );

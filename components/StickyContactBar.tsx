@@ -11,7 +11,7 @@ interface StickyContactBarProps {
 export function StickyContactBar({
   phoneNumber = "8066226041",
   displayNumber = "(806) 622-6041",
-  hideOnScroll = 0
+  hideOnScroll = 0,
 }: StickyContactBarProps) {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -30,9 +30,7 @@ export function StickyContactBar({
   return (
     <div className={`sticky-contact-bar ${isVisible ? "visible" : "hidden"}`}>
       <div className="sticky-contact-content">
-        <span className="sticky-contact-text">
-          Need a Roof Inspection?
-        </span>
+        <span className="sticky-contact-text">Need a Roof Inspection?</span>
         <a
           href={`tel:${phoneNumber}`}
           className="sticky-contact-button"
@@ -42,7 +40,7 @@ export function StickyContactBar({
               (window as any).gtag("event", "phone_click", {
                 phone_number: displayNumber,
                 page_path: window.location.pathname,
-                element_text: "Sticky Bar"
+                element_text: "Sticky Bar",
               });
             }
           }}

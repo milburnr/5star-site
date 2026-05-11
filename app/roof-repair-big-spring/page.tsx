@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Handshake, Lock, Phone, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-big-spring/' },
+  alternates: { canonical: "https://5starroofingpros.com/roof-repair-big-spring/" },
   title: "Roof Repair Big Spring TX | 5 Star Roofing",
-  description: "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Roof Repair Big Spring TX | 5 Star Roofing",
-    description: "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/roof-repair-big-spring/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,100 +40,138 @@ export const metadata: Metadata = {
 
 export default function RoofRepairBigSpringPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Roof Repair",
-                      "url": "/roof-repair/"
-              },
-              {
-                      "name": "Big Spring",
-                      "url": "/roof-repair-big-spring/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Big Spring",
+            url: "/roof-repair-big-spring/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/roof-repair-big-spring/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 32.2504, "longitude": -101.4787 },
-        "url": "https://5starroofingpros.com/roof-repair-big-spring/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas", "name": "Big Spring", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roof repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/roof-repair-big-spring/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 32.2504, longitude: -101.4787 },
+            url: "https://5starroofingpros.com/roof-repair-big-spring/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas",
+              name: "Big Spring",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roof repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Roof Repair",
-            "provider": {
+            serviceType: "Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Big Spring",
+              name: "Big Spring",
               "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually."
-          })
+            description:
+              "Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually.",
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-amber-900/70"></div>
@@ -145,12 +185,17 @@ export default function RoofRepairBigSpringPage() {
                 West Texas Roof Repair Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof repair services in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
+                Professional roof repair services in Big Spring TX. West Texas experiences 7-9
+                hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -158,16 +203,13 @@ export default function RoofRepairBigSpringPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-9</div>
@@ -178,14 +220,19 @@ export default function RoofRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -193,37 +240,73 @@ export default function RoofRepairBigSpringPage() {
               What Makes Big Spring a Top Choice for Roof Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Big Spring, Texas, positioned at 2,398 feet elevation in Howard County, faces some of West Texas's most challenging weather conditions. This crossroads city experiences 7-9 intense hailstorms annually, with spring supercells producing hail up to golf ball-size. Combined with sustained winds reaching 70+ mph, temperature swings from freezing to 110°F, and intense UV radiation, Big Spring properties demand specialized roofing expertise.
+              Big Spring, Texas, positioned at 2,398 feet elevation in Howard County, faces some of
+              West Texas's most challenging weather conditions. This crossroads city experiences 7-9
+              intense hailstorms annually, with spring supercells producing hail up to golf
+              ball-size. Combined with sustained winds reaching 70+ mph, temperature swings from
+              freezing to 110°F, and intense UV radiation, Big Spring properties demand specialized
+              roofing expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 400 properties throughout Big Spring and Howard County with premium materials and expert craftsmanship. From historic downtown buildings near the Howard County Courthouse to modern facilities along Interstate 20, we understand the unique intersection of weather patterns that make Big Spring one of Texas's most challenging roofing environments.
+              Since 2014, 5 Star Commercial Roofing has protected over 400 properties throughout Big
+              Spring and Howard County with premium materials and expert craftsmanship. From
+              historic downtown buildings near the Howard County Courthouse to modern facilities
+              along Interstate 20, we understand the unique intersection of weather patterns that
+              make Big Spring one of Texas's most challenging roofing environments.
             </p>
-            
-            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Big Spring's Unique Weather Challenges</h3>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+              Big Spring's Unique Weather Challenges
+            </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Big Spring sits at a critical weather intersection where multiple storm systems converge. The city's location between the Llano Estacado plateau and the Edwards Plateau creates unique atmospheric conditions. Dryline storms frequently form here, producing some of Texas's most violent weather, including rotating supercells that spawn tornadoes and deposit devastating hail.
+              Big Spring sits at a critical weather intersection where multiple storm systems
+              converge. The city's location between the Llano Estacado plateau and the Edwards
+              Plateau creates unique atmospheric conditions. Dryline storms frequently form here,
+              producing some of Texas's most violent weather, including rotating supercells that
+              spawn tornadoes and deposit devastating hail.
             </p>
-            
+
             <div className="bg-amber-50 p-8 rounded-xl mb-8">
-              <h4 className="text-xl font-bold mb-4 text-brand-brown">Big Spring Weather Statistics:</h4>
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">
+                Big Spring Weather Statistics:
+              </h4>
               <ul className="text-lg text-gray-700 space-y-2">
-                <li>• <strong>Annual Hailstorms:</strong> 7-9 severe events, typically March-June</li>
-                <li>• <strong>Wind Patterns:</strong> Average 14 mph, gusts regularly exceed 60 mph</li>
-                <li>• <strong>Temperature Range:</strong> -8°F to 110°F recorded extremes</li>
-                <li>• <strong>Precipitation:</strong> 20.4 inches annually, mostly from intense storms</li>
-                <li>• <strong>Tornado Activity:</strong> EF2+ tornadoes within 25 miles since 2000</li>
+                <li>
+                  • <strong>Annual Hailstorms:</strong> 7-9 severe events, typically March-June
+                </li>
+                <li>
+                  • <strong>Wind Patterns:</strong> Average 14 mph, gusts regularly exceed 60 mph
+                </li>
+                <li>
+                  • <strong>Temperature Range:</strong> -8°F to 110°F recorded extremes
+                </li>
+                <li>
+                  • <strong>Precipitation:</strong> 20.4 inches annually, mostly from intense storms
+                </li>
+                <li>
+                  • <strong>Tornado Activity:</strong> EF2+ tornadoes within 25 miles since 2000
+                </li>
               </ul>
             </div>
-            
-            <h3 className="text-2xl font-bold mb-4 text-brand-brown">Comprehensive Roof Repair Services</h3>
+
+            <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+              Comprehensive Roof Repair Services
+            </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Our Big Spring roof repair team addresses the full spectrum of weather damage common to this region. Whether dealing with hail impact damage, wind uplift from High Plains gusts, thermal stress from extreme temperature swings, or storm debris impact, we have the expertise to restore your roof's protective integrity.
+              Our Big Spring roof repair team addresses the full spectrum of weather damage common
+              to this region. Whether dealing with hail impact damage, wind uplift from High Plains
+              gusts, thermal stress from extreme temperature swings, or storm debris impact, we have
+              the expertise to restore your roof's protective integrity.
             </p>
-            
+
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Restoration</h4>
-                <p className="text-gray-600 mb-3">Specialized repairs for Big Spring's severe weather patterns and their aftermath.</p>
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">
+                  Storm Damage Restoration
+                </h4>
+                <p className="text-gray-600 mb-3">
+                  Specialized repairs for Big Spring's severe weather patterns and their aftermath.
+                </p>
                 <ul className="text-sm text-gray-600">
                   <li>• Hail impact assessment and repair</li>
                   <li>• Wind damage structural analysis</li>
@@ -233,10 +316,12 @@ export default function RoofRepairBigSpringPage() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h4 className="text-xl font-bold mb-3 text-brand-brown">storm response Services</h4>
-                <p className="text-gray-600 mb-3">availability for urgent repairs protecting Big Spring properties.</p>
+                <p className="text-gray-600 mb-3">
+                  availability for urgent repairs protecting Big Spring properties.
+                </p>
                 <ul className="text-sm text-gray-600">
-                  <li>• Immediate leak containment</li>
-                  <li>• tarping and protection</li>
+                  <li>• Active-leak weatherproofing</li>
+                  <li>• Documentation and weather protection</li>
                   <li>• Structural stabilization</li>
                   <li>• Insurance documentation support</li>
                 </ul>
@@ -244,18 +329,28 @@ export default function RoofRepairBigSpringPage() {
             </div>
           </section>
         </FadeIn>
-        
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Big Spring Areas Do We Serve?</h2>
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Big Spring Areas Do We Serve?
+            </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our comprehensive Big Spring roof repair services reach every corner of the city and surrounding Howard County areas. From the established neighborhoods near Comanche Trail Park to the growing commercial district along Gregg Street, we've earned trust through consistent quality and reliable service across all of Big Spring's diverse communities.
+              Our comprehensive Big Spring roof repair services reach every corner of the city and
+              surrounding Howard County areas. From the established neighborhoods near Comanche
+              Trail Park to the growing commercial district along Gregg Street, we've earned trust
+              through consistent quality and reliable service across all of Big Spring's diverse
+              communities.
             </p>
-            
+
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
-                <h4 className="text-lg font-bold mb-3 text-brand-brown">Downtown Historic District</h4>
-                <p className="text-gray-600 text-sm mb-3">Heritage buildings requiring specialized restoration and preservation techniques.</p>
+                <h4 className="text-lg font-bold mb-3 text-brand-brown">
+                  Downtown Historic District
+                </h4>
+                <p className="text-gray-600 text-sm mb-3">
+                  Heritage buildings requiring specialized restoration and preservation techniques.
+                </p>
                 <ul className="text-xs text-gray-600">
                   <li>• Historical integrity preservation</li>
                   <li>• Original material sourcing</li>
@@ -264,7 +359,9 @@ export default function RoofRepairBigSpringPage() {
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
                 <h4 className="text-lg font-bold mb-3 text-brand-brown">Suburban Neighborhoods</h4>
-                <p className="text-gray-600 text-sm mb-3">Family homes throughout Big Spring's residential developments.</p>
+                <p className="text-gray-600 text-sm mb-3">
+                  Family homes throughout Big Spring's residential developments.
+                </p>
                 <ul className="text-xs text-gray-600">
                   <li>• Single-family repair services</li>
                   <li>• Neighborhood-matched materials</li>
@@ -273,7 +370,9 @@ export default function RoofRepairBigSpringPage() {
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
                 <h4 className="text-lg font-bold mb-3 text-brand-brown">Industrial Corridor</h4>
-                <p className="text-gray-600 text-sm mb-3">Commercial and industrial facilities along major transportation routes.</p>
+                <p className="text-gray-600 text-sm mb-3">
+                  Commercial and industrial facilities along major transportation routes.
+                </p>
                 <ul className="text-xs text-gray-600">
                   <li>• Large-format roof systems</li>
                   <li>• Minimal disruption scheduling</li>
@@ -281,18 +380,30 @@ export default function RoofRepairBigSpringPage() {
                 </ul>
               </div>
             </div>
-            
-            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Big Spring Weather Patterns & Roof Impact</h3>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">
+              Big Spring Weather Patterns & Roof Impact
+            </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Big Spring's position at the intersection of multiple climate zones creates a complex weather environment. The city experiences continental arid climate with strong seasonal variations. Spring brings the most dangerous weather as Pacific cold fronts collide with warm, moist air from the Gulf of Mexico, creating the perfect conditions for supercell development and severe weather outbreaks.
+              Big Spring's position at the intersection of multiple climate zones creates a complex
+              weather environment. The city experiences continental arid climate with strong
+              seasonal variations. Spring brings the most dangerous weather as Pacific cold fronts
+              collide with warm, moist air from the Gulf of Mexico, creating the perfect conditions
+              for supercell development and severe weather outbreaks.
             </p>
-            
+
             <div className="bg-white p-8 rounded-xl shadow-lg mb-8">
-              <h4 className="text-xl font-bold mb-4 text-brand-brown">Seasonal Roofing Challenges in Big Spring</h4>
+              <h4 className="text-xl font-bold mb-4 text-brand-brown">
+                Seasonal Roofing Challenges in Big Spring
+              </h4>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h5 className="font-bold mb-2 text-brand-gold">Spring Storm Season (March-June)</h5>
-                  <p className="text-sm text-gray-600 mb-3">Peak severe weather period with supercells, tornadoes, and large hail.</p>
+                  <h5 className="font-bold mb-2 text-brand-gold">
+                    Spring Storm Season (March-June)
+                  </h5>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Peak severe weather period with supercells, tornadoes, and large hail.
+                  </p>
                   <ul className="text-xs text-gray-600">
                     <li>• Hail damage assessment and repair</li>
                     <li>• Tornado debris cleanup</li>
@@ -301,7 +412,9 @@ export default function RoofRepairBigSpringPage() {
                 </div>
                 <div>
                   <h5 className="font-bold mb-2 text-brand-gold">Summer Heat (July-September)</h5>
-                  <p className="text-sm text-gray-600 mb-3">Extreme temperatures and UV exposure stress roofing materials.</p>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Extreme temperatures and UV exposure stress roofing materials.
+                  </p>
                   <ul className="text-xs text-gray-600">
                     <li>• Thermal expansion compensation</li>
                     <li>• UV damage prevention</li>
@@ -309,8 +422,12 @@ export default function RoofRepairBigSpringPage() {
                   </ul>
                 </div>
                 <div>
-                  <h5 className="font-bold mb-2 text-brand-gold">Fall Transition (October-November)</h5>
-                  <p className="text-sm text-gray-600 mb-3">Temperature fluctuations cause material stress and sealant issues.</p>
+                  <h5 className="font-bold mb-2 text-brand-gold">
+                    Fall Transition (October-November)
+                  </h5>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Temperature fluctuations cause material stress and sealant issues.
+                  </p>
                   <ul className="text-xs text-gray-600">
                     <li>• Thermal stress analysis</li>
                     <li>• Sealant inspection and replacement</li>
@@ -318,8 +435,12 @@ export default function RoofRepairBigSpringPage() {
                   </ul>
                 </div>
                 <div>
-                  <h5 className="font-bold mb-2 text-brand-gold">Winter Conditions (December-February)</h5>
-                  <p className="text-sm text-gray-600 mb-3">Freeze-thaw cycles and occasional ice storms create unique challenges.</p>
+                  <h5 className="font-bold mb-2 text-brand-gold">
+                    Winter Conditions (December-February)
+                  </h5>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Freeze-thaw cycles and occasional ice storms create unique challenges.
+                  </p>
                   <ul className="text-xs text-gray-600">
                     <li>• Ice damage prevention</li>
                     <li>• Freeze-thaw cycle management</li>
@@ -328,29 +449,53 @@ export default function RoofRepairBigSpringPage() {
                 </div>
               </div>
             </div>
-            
-            <h3 className="text-2xl font-bold mb-6 text-brand-brown">Big Spring-Specific Roofing Solutions</h3>
+
+            <h3 className="text-2xl font-bold mb-6 text-brand-brown">
+              Big Spring-Specific Roofing Solutions
+            </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Not all roofing materials can withstand Big Spring's extreme weather patterns. Our decade of experience in Howard County has taught us which products and installation methods deliver long-term performance. We've refined our material selection and techniques specifically for Big Spring's unique environmental stresses.
+              Not all roofing materials can withstand Big Spring's extreme weather patterns. Our
+              decade of experience in Howard County has taught us which products and installation
+              methods deliver long-term performance. We've refined our material selection and
+              techniques specifically for Big Spring's unique environmental stresses.
             </p>
-            
+
             <div className="space-y-6">
               <div className="border-l-4 border-brand-gold pl-6">
-                <h4 className="text-lg font-bold mb-2 text-brand-brown">Impact-Resistant Roofing Systems</h4>
-                <p className="text-gray-600 mb-2">Class 4 impact-rated materials specifically chosen for Big Spring's frequent large hail events, with proven resistance to golf ball-size impacts.</p>
-                <p className="text-sm text-gray-500">Qualify for significant insurance discounts in Howard County.</p>
+                <h4 className="text-lg font-bold mb-2 text-brand-brown">
+                  Impact-Resistant Roofing Systems
+                </h4>
+                <p className="text-gray-600 mb-2">
+                  Class 4 impact-rated materials specifically chosen for Big Spring's frequent large
+                  hail events, with proven resistance to golf ball-size impacts.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Qualify for significant insurance discounts in Howard County.
+                </p>
               </div>
-              
+
               <div className="border-l-4 border-brand-gold pl-6">
-                <h4 className="text-lg font-bold mb-2 text-brand-brown">Wind-Resistant Installation Methods</h4>
-                <p className="text-gray-600 mb-2">Enhanced fastening systems and wind-rated materials designed to withstand Big Spring's High Plains wind patterns and sudden storm gusts.</p>
+                <h4 className="text-lg font-bold mb-2 text-brand-brown">
+                  Wind-Resistant Installation Methods
+                </h4>
+                <p className="text-gray-600 mb-2">
+                  Enhanced fastening systems and wind-rated materials designed to withstand Big
+                  Spring's High Plains wind patterns and sudden storm gusts.
+                </p>
                 <p className="text-sm text-gray-500">Tested to withstand winds up to 130 mph.</p>
               </div>
-              
+
               <div className="border-l-4 border-brand-gold pl-6">
-                <h4 className="text-lg font-bold mb-2 text-brand-brown">Energy-Efficient Cool Roofing</h4>
-                <p className="text-gray-600 mb-2">Reflective roofing systems that reduce cooling costs during Big Spring's intense summer heat while maintaining durability in severe weather.</p>
-                <p className="text-sm text-gray-500">Reduce energy costs by up to 25% during peak summer months.</p>
+                <h4 className="text-lg font-bold mb-2 text-brand-brown">
+                  Energy-Efficient Cool Roofing
+                </h4>
+                <p className="text-gray-600 mb-2">
+                  Reflective roofing systems that reduce cooling costs during Big Spring's intense
+                  summer heat while maintaining durability in severe weather.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Reduce energy costs by up to 25% during peak summer months.
+                </p>
               </div>
             </div>
           </section>
@@ -378,15 +523,21 @@ export default function RoofRepairBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Frequently Asked Questions - Big Spring Roof Repair</h2>
-            
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Frequently Asked Questions - Big Spring Roof Repair
+            </h2>
+
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="item-1" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
                   What makes Big Spring's weather so damaging to roofs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  Big Spring sits at a unique weather intersection where dry air from the west meets moisture from the Gulf of Mexico. This collision creates supercell thunderstorms with rotating updrafts that produce large hail, tornadoes, and destructive winds. The city's elevation and open terrain amplify these effects, making it one of Texas's most challenging environments for roofing systems.
+                  Big Spring sits at a unique weather intersection where dry air from the west meets
+                  moisture from the Gulf of Mexico. This collision creates supercell thunderstorms
+                  with rotating updrafts that produce large hail, tornadoes, and destructive winds.
+                  The city's elevation and open terrain amplify these effects, making it one of
+                  Texas's most challenging environments for roofing systems.
                 </AccordionContent>
               </AccordionItem>
 
@@ -395,16 +546,24 @@ export default function RoofRepairBigSpringPage() {
                   How often should Big Spring roofs be inspected?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  We recommend biannual inspections for Big Spring properties - once before storm season (February) and once after (September). Given the intensity of local weather events, post-storm inspections are also crucial. Many insurance policies require prompt reporting of storm damage, so regular inspections help identify issues before they become major problems.
+                  We recommend biannual inspections for Big Spring properties - once before storm
+                  season (February) and once after (September). Given the intensity of local weather
+                  events, post-storm inspections are also crucial. Many insurance policies require
+                  prompt reporting of storm damage, so regular inspections help identify issues
+                  before they become major problems.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-3" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold text-brand-brown">
-                  Do you offer storm damage roof repair services in Big Spring?
+                  How do you handle storm damage roof repair in Big Spring?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  Yes, we provide prompt response throughout Howard County. Our our team typically responds within 2-3 hours for urgent calls. We understand that Big Spring storms can cause sudden, severe damage requiring immediate attention to prevent water intrusion and further structural damage to your property.
+                  We schedule storm-damage documentation and inspections throughout Howard County
+                  once conditions are safe for crews to be on a roof. We are not an
+                  emergency-dispatch service — our value is thorough photo documentation,
+                  adjuster-ready reports, and Class 4 or asphalt restoration that prevents further
+                  water intrusion and structural damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -413,7 +572,11 @@ export default function RoofRepairBigSpringPage() {
                   What roofing materials work best in Big Spring's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  For Big Spring, we recommend Class 4 impact-resistant shingles, standing seam metal roofing with enhanced wind ratings, and modified TPO systems for commercial properties. These materials are specifically designed to withstand large hail, high winds, and extreme temperature fluctuations. We avoid materials that perform poorly in rapid freeze-thaw cycles or intense UV exposure.
+                  For Big Spring, we recommend Class 4 impact-resistant shingles, standing seam
+                  metal roofing with enhanced wind ratings, and modified TPO systems for commercial
+                  properties. These materials are specifically designed to withstand large hail,
+                  high winds, and extreme temperature fluctuations. We avoid materials that perform
+                  poorly in rapid freeze-thaw cycles or intense UV exposure.
                 </AccordionContent>
               </AccordionItem>
 
@@ -422,7 +585,11 @@ export default function RoofRepairBigSpringPage() {
                   How do you handle insurance claims for Big Spring storm damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  We have extensive experience with Howard County storm damage claims and work directly with all major insurance companies. Our team documents damage thoroughly, provides detailed estimates, and can represent your interests during adjuster meetings. We understand the specific requirements for West Texas weather-related claims and help ensure fair settlements.
+                  We have extensive experience with Howard County storm damage claims and work
+                  directly with all major insurance companies. Our team documents damage thoroughly,
+                  provides detailed estimates, and can represent your interests during adjuster
+                  meetings. We understand the specific requirements for West Texas weather-related
+                  claims and help ensure fair settlements.
                 </AccordionContent>
               </AccordionItem>
 
@@ -431,7 +598,11 @@ export default function RoofRepairBigSpringPage() {
                   What warranties do you provide on Big Spring roof repairs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  We provide comprehensive warranty protection: 10-year workmanship warranty, manufacturer material warranties (typically 20-30 years), and specific storm damage guarantees. Our warranties are designed to provide confidence that repairs will withstand Big Spring's severe weather patterns, and we stand behind our work with responsive service throughout the warranty period.
+                  We provide comprehensive warranty protection: 10-year workmanship warranty,
+                  manufacturer material warranties (typically 20-30 years), and specific storm
+                  damage guarantees. Our warranties are designed to provide confidence that repairs
+                  will withstand Big Spring's severe weather patterns, and we stand behind our work
+                  with responsive service throughout the warranty period.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -440,13 +611,20 @@ export default function RoofRepairBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-brand-brown">Why Do Big Spring Chooses 5 Star Commercial Roofing?</h2>
-            
+            <h2 className="text-4xl font-bold mb-8 text-brand-brown">
+              Why Do Big Spring Chooses 5 Star Commercial Roofing?
+            </h2>
+
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Proven Local Performance</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Proven Local Performance
+                </h3>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                  Our decade of service in Big Spring and Howard County has given us unique insights into local weather patterns and building challenges. We've weathered multiple severe storm seasons alongside our customers, refining our techniques and building lasting relationships throughout the community.
+                  Our decade of service in Big Spring and Howard County has given us unique insights
+                  into local weather patterns and building challenges. We've weathered multiple
+                  severe storm seasons alongside our customers, refining our techniques and building
+                  lasting relationships throughout the community.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• 400+ Big Spring projects completed</li>
@@ -455,11 +633,16 @@ export default function RoofRepairBigSpringPage() {
                   <li>• Storm season preparedness programs</li>
                 </ul>
               </div>
-              
+
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Advanced Materials & Methods</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Advanced Materials & Methods
+                </h3>
                 <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-                  We continuously research and test the latest materials and installation methods designed for extreme weather regions. Our partnerships with leading manufacturers ensure access to the most advanced products suited for Big Spring's challenging environment.
+                  We continuously research and test the latest materials and installation methods
+                  designed for extreme weather regions. Our partnerships with leading manufacturers
+                  ensure access to the most advanced products suited for Big Spring's challenging
+                  environment.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Climate-tested material selection</li>
@@ -469,24 +652,38 @@ export default function RoofRepairBigSpringPage() {
                 </ul>
               </div>
             </div>
-            
+
             <div className="bg-amber-50 p-8 rounded-xl">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our Big Spring Service Promise</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Our Big Spring Service Promise
+              </h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-4xl mb-2"><Zap className="w-6 h-6 inline-block" /></div>
+                  <div className="text-4xl mb-2">
+                    <Zap className="w-6 h-6 inline-block" />
+                  </div>
                   <h4 className="font-bold mb-2 text-brand-brown">Rapid Storm Response</h4>
-                  <p className="text-sm text-gray-600">prompt services when Big Spring weather strikes</p>
+                  <p className="text-sm text-gray-600">
+                    prompt services when Big Spring weather strikes
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl mb-2"><Lock className="w-6 h-6 inline-block" /></div>
+                  <div className="text-4xl mb-2">
+                    <Lock className="w-6 h-6 inline-block" />
+                  </div>
                   <h4 className="font-bold mb-2 text-brand-brown">Comprehensive Warranties</h4>
-                  <p className="text-sm text-gray-600">10-year workmanship guarantee on all installations</p>
+                  <p className="text-sm text-gray-600">
+                    10-year workmanship guarantee on all installations
+                  </p>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl mb-2"><Handshake className="w-6 h-6 inline-block" /></div>
+                  <div className="text-4xl mb-2">
+                    <Handshake className="w-6 h-6 inline-block" />
+                  </div>
                   <h4 className="font-bold mb-2 text-brand-brown">Insurance Partnership</h4>
-                  <p className="text-sm text-gray-600">Expert guidance through the entire claims process</p>
+                  <p className="text-sm text-gray-600">
+                    Expert guidance through the entire claims process
+                  </p>
                 </div>
               </div>
             </div>
@@ -494,22 +691,29 @@ export default function RoofRepairBigSpringPage() {
         </FadeIn>
         <InternalLinks currentCity="big-spring" currentService="roof-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Big Spring Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free comprehensive inspections for Big Spring property owners. Expert roof repair with extensive warranties and complete insurance claim assistance. Don't let West Texas weather compromise your investment.
+            Free comprehensive inspections for Big Spring property owners. Expert roof repair with
+            extensive warranties and complete insurance claim assistance. Don't let West Texas
+            weather compromise your investment.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="roof-repair-big-spring" />
+        <RelatedArticles pageSlug="roof-repair-big-spring" />
       </div>
     </>
   );

@@ -12,15 +12,30 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Building2, Check, ClipboardList, DollarSign, Lightbulb, Phone, Search, Sparkles, Star, Thermometer, Wrench, Zap } from "lucide-react";
+import {
+  Building2,
+  Check,
+  ClipboardList,
+  DollarSign,
+  Lightbulb,
+  Phone,
+  Search,
+  Sparkles,
+  Star,
+  Thermometer,
+  Wrench,
+  Zap,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/tpo-roofing-big-spring/' },
+  alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-big-spring/" },
   title: "TPO Roofing Big Spring TX | 5 Star Roofing",
-  description: "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "TPO Roofing Big Spring TX | 5 Star Roofing",
-    description: "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/tpo-roofing-big-spring/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,139 +53,184 @@ export const metadata: Metadata = {
 
 export default function TPORoofingBigSpringPage() {
   const faqItems = [
-      {
-          "question": "What TPO membrane thickness is best for Big Spring commercial buildings?",
-          "answer": "For Big Spring's combination of hail exposure and extreme heat, we typically recommend 60-mil TPO membrane as the standard, with 80-mil for buildings in higher hail exposure zones or those requiring maximum durability. The thicker membrane provides better impact resistance against Howard County's frequent hailstorms while also offering enhanced puncture resistance during maintenance activities. The cost difference between 60-mil and 80-mil is modest compared to the extended service life."
-      },
-      {
-          "question": "How reflective is TPO roofing in Big Spring's West Texas sun?",
-          "answer": "New TPO membranes reflect 85-90% of solar radiation in Big Spring's intense West Texas sunlight, significantly reducing heat transfer into commercial buildings. Even after years of service, quality TPO maintains over 70% reflectivity. This reflective performance is particularly valuable in Big Spring where summer temperatures regularly exceed 95 degrees and solar intensity reaches UV index 9-10 throughout the summer months."
-      },
-      {
-          "question": "How long does TPO installation take for a Big Spring commercial building?",
-          "answer": "A typical TPO installation for a 10,000-15,000 square foot Big Spring commercial building takes 5-7 working days, including tear-off of the existing roof, substrate preparation, insulation installation, and membrane application. Larger projects scale proportionally. We schedule installations to avoid Big Spring's peak storm season when possible and can work in phases to minimize business disruption for occupied buildings."
-      },
-      {
-          "question": "What Big Spring building code requirements apply to TPO roofing?",
-          "answer": "Big Spring follows the International Building Code with Texas amendments, requiring commercial roofing systems to meet specific wind uplift, fire resistance, and energy efficiency standards. TPO installations must achieve FM Global or UL wind uplift ratings appropriate for Howard County's 115 mph design wind speed. Our installations consistently exceed these minimum requirements, providing Big Spring building owners with enhanced protection and full code compliance documentation."
-      },
-      {
-          "question": "What maintenance schedule does TPO roofing need in Big Spring?",
-          "answer": "TPO roofing in Big Spring requires semi-annual inspections (spring and fall), with cleaning and minor maintenance as needed. Spring inspections identify any hail or wind damage from winter storms, while fall inspections prepare the system for winter weather. Between inspections, TPO's smooth surface naturally sheds debris and resists biological growth common in more humid climates. Our Big Spring maintenance programs typically cost $0.05-0.10 per square foot annually."
-      },
-      {
-          "question": "Can TPO roofing be installed over an existing flat roof in Big Spring?",
-          "answer": "In many cases, TPO can be installed over an existing flat roof in Big Spring if the substrate is structurally sound and dry. This recover method eliminates tear-off costs, reduces project duration by 30-40%, and keeps waste out of landfills. However, Big Spring building codes limit total roof layers, and the existing roof must pass moisture testing. We evaluate each Big Spring property individually to determine whether recover or complete replacement is the better long-term investment."
-      }
+    {
+      question: "What TPO membrane thickness is best for Big Spring commercial buildings?",
+      answer:
+        "For Big Spring's combination of hail exposure and extreme heat, we typically recommend 60-mil TPO membrane as the standard, with 80-mil for buildings in higher hail exposure zones or those requiring maximum durability. The thicker membrane provides better impact resistance against Howard County's frequent hailstorms while also offering enhanced puncture resistance during maintenance activities. The cost difference between 60-mil and 80-mil is modest compared to the extended service life.",
+    },
+    {
+      question: "How reflective is TPO roofing in Big Spring's West Texas sun?",
+      answer:
+        "New TPO membranes reflect 85-90% of solar radiation in Big Spring's intense West Texas sunlight, significantly reducing heat transfer into commercial buildings. Even after years of service, quality TPO maintains over 70% reflectivity. This reflective performance is particularly valuable in Big Spring where summer temperatures regularly exceed 95 degrees and solar intensity reaches UV index 9-10 throughout the summer months.",
+    },
+    {
+      question: "How long does TPO installation take for a Big Spring commercial building?",
+      answer:
+        "A typical TPO installation for a 10,000-15,000 square foot Big Spring commercial building takes 5-7 working days, including tear-off of the existing roof, substrate preparation, insulation installation, and membrane application. Larger projects scale proportionally. We schedule installations to avoid Big Spring's peak storm season when possible and can work in phases to minimize business disruption for occupied buildings.",
+    },
+    {
+      question: "What Big Spring building code requirements apply to TPO roofing?",
+      answer:
+        "Big Spring follows the International Building Code with Texas amendments, requiring commercial roofing systems to meet specific wind uplift, fire resistance, and energy efficiency standards. TPO installations must achieve FM Global or UL wind uplift ratings appropriate for Howard County's 115 mph design wind speed. Our installations consistently exceed these minimum requirements, providing Big Spring building owners with enhanced protection and full code compliance documentation.",
+    },
+    {
+      question: "What maintenance schedule does TPO roofing need in Big Spring?",
+      answer:
+        "TPO roofing in Big Spring requires semi-annual inspections (spring and fall), with cleaning and minor maintenance as needed. Spring inspections identify any hail or wind damage from winter storms, while fall inspections prepare the system for winter weather. Between inspections, TPO's smooth surface naturally sheds debris and resists biological growth common in more humid climates. Our Big Spring maintenance programs typically cost $0.05-0.10 per square foot annually.",
+    },
+    {
+      question: "Can TPO roofing be installed over an existing flat roof in Big Spring?",
+      answer:
+        "In many cases, TPO can be installed over an existing flat roof in Big Spring if the substrate is structurally sound and dry. This recover method eliminates tear-off costs, reduces project duration by 30-40%, and keeps waste out of landfills. However, Big Spring building codes limit total roof layers, and the existing roof must pass moisture testing. We evaluate each Big Spring property individually to determine whether recover or complete replacement is the better long-term investment.",
+    },
   ];
 
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "TPO Roofing",
-                      "url": "/tpo-roofing/"
-              },
-              {
-                      "name": "Big Spring",
-                      "url": "/tpo-roofing-big-spring/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Big Spring",
+            url: "/tpo-roofing-big-spring/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/tpo-roofing-big-spring/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 32.2504, "longitude": -101.4787 },
-        "url": "https://5starroofingpros.com/tpo-roofing-big-spring/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas", "name": "Big Spring", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert tpo roofing services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/tpo-roofing-big-spring/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-6-1920w.webp",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 32.2504, longitude: -101.4787 },
+            url: "https://5starroofingpros.com/tpo-roofing-big-spring/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas",
+              name: "Big Spring",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert tpo roofing services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "TPO Roofing",
-            "provider": {
+            serviceType: "TPO Roofing",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Big Spring",
+              name: "Big Spring",
               "@id": "https://en.wikipedia.org/wiki/Big_Spring,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually."
-          })
+            description:
+              "Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually.",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": faqItems.map(faq => ({
+            mainEntity: faqItems.map((faq) => ({
               "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
-            }))
-          })
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
@@ -184,12 +244,17 @@ export default function TPORoofingBigSpringPage() {
                 West Texas TPO Roofing Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
+                Expert TPO roofing installation in Big Spring TX. West Texas experiences 7-9
+                hailstorms annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -197,16 +262,13 @@ export default function TPORoofingBigSpringPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-9</div>
@@ -217,14 +279,19 @@ export default function TPORoofingBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -232,71 +299,179 @@ export default function TPORoofingBigSpringPage() {
               What Makes Our Big Spring Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Big Spring's location in Howard County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your commercial roofing system must withstand these demanding conditions year after year.
+              Big Spring's location in Howard County creates unique roofing challenges. The West
+              Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature
+              fluctuations, and severe weather conditions. Your commercial roofing system must
+              withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring and Howard County with premium TPO membrane systems and expert installation. From properties near Big Spring State Park to buildings throughout Big Spring, we understand West Texas weather patterns, local building codes, and the specific energy efficiency needs of Howard County commercial property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring
+              and Howard County with premium TPO membrane systems and expert installation. From
+              properties near Big Spring State Park to buildings throughout Big Spring, we
+              understand West Texas weather patterns, local building codes, and the specific energy
+              efficiency needs of Howard County commercial property owners.
             </p>
           </section>
         </FadeIn>
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">What Does Complete TPO Roofing Services Involve?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              What Does Complete TPO Roofing Services Involve?
+            </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4"><Building2 className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Building2 className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">New TPO Installation</h3>
-                <p className="text-gray-700 mb-4">Complete TPO membrane installation using premium materials designed for Big Spring's harsh climate. Energy-efficient white membranes reduce cooling costs significantly.</p>
+                <p className="text-gray-700 mb-4">
+                  Complete TPO membrane installation using premium materials designed for Big
+                  Spring's harsh climate. Energy-efficient white membranes reduce cooling costs
+                  significantly.
+                </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy Star qualified TPO membranes</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />45, 60, and 80-mil thickness options</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Mechanically attached systems</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Fully adhered installations</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced wind uplift resistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />15-30 year warranties</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Energy Star qualified TPO membranes
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    45, 60, and 80-mil thickness options
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Mechanically attached systems
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Fully adhered installations
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Enhanced wind uplift resistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    15-30 year warranties
+                  </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Energy Efficiency Solutions</h3>
-                <p className="text-gray-700 mb-4">TPO's reflective white surface can reduce roof temperatures by 50-70°F compared to dark roofs, cutting cooling costs by 20-40% in Big Spring's hot climate.</p>
+                <div className="text-5xl mb-4">
+                  <Zap className="w-6 h-6 inline-block" />
+                </div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Energy Efficiency Solutions
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  TPO's reflective white surface can reduce roof temperatures by 50-70°F compared to
+                  dark roofs, cutting cooling costs by 20-40% in Big Spring's hot climate.
+                </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />CRRC certified cool roof systems</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />ENERGY STAR qualified membranes</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Enhanced insulation packages</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Thermal bridging elimination</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Green building compliance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Utility rebate assistance</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    CRRC certified cool roof systems
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    ENERGY STAR qualified membranes
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Enhanced insulation packages
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Thermal bridging elimination
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Green building compliance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Utility rebate assistance
+                  </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Repair & Maintenance</h3>
-                <p className="text-gray-700 mb-4">Expert repair services for existing TPO systems. Preventive maintenance programs extend roof life and maintain energy efficiency performance.</p>
+                <div className="text-5xl mb-4">
+                  <Wrench className="w-6 h-6 inline-block" />
+                </div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  TPO Repair & Maintenance
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Expert repair services for existing TPO systems. Preventive maintenance programs
+                  extend roof life and maintain energy efficiency performance.
+                </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Membrane patching and welding</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Seam repair and re-welding</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Puncture and tear repair</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Drain and scupper maintenance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Preventive maintenance programs</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Prompt leak repairs</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Membrane patching and welding
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Seam repair and re-welding
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Puncture and tear repair
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Drain and scupper maintenance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Preventive maintenance programs
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Prompt leak repairs
+                  </li>
                 </ul>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <div className="text-5xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">TPO Assessments & Consulting</h3>
-                <p className="text-gray-700 mb-4">Comprehensive evaluations of existing flat roof systems to determine optimal TPO replacement timing and energy efficiency opportunities.</p>
+                <div className="text-5xl mb-4">
+                  <Search className="w-6 h-6 inline-block" />
+                </div>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  TPO Assessments & Consulting
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Comprehensive evaluations of existing flat roof systems to determine optimal TPO
+                  replacement timing and energy efficiency opportunities.
+                </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Free TPO system evaluations</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Energy efficiency assessments</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Roof condition reporting</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Cost-benefit analysis</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Warranty transfer assistance</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Insurance documentation</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Free TPO system evaluations
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Energy efficiency assessments
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Roof condition reporting
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Cost-benefit analysis
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Warranty transfer assistance
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Insurance documentation
+                  </li>
                 </ul>
               </div>
             </div>
@@ -305,41 +480,86 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Big Spring Commercial Market & TPO Benefits?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Big Spring Commercial Market & TPO Benefits?
+            </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4"><Building2 className="w-6 h-6 inline-block" /> Big Spring Commercial Real Estate Landscape</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4">
+                  <Building2 className="w-6 h-6 inline-block" /> Big Spring Commercial Real Estate
+                  Landscape
+                </h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <p className="text-gray-700 mb-4">Big Spring's economy, anchored by the Big Spring Correctional Center, Howard College, and regional healthcare services, creates steady demand for energy-efficient commercial roofing solutions. The city's 28,000+ residents support diverse businesses requiring modern flat roof systems.</p>
+                    <p className="text-gray-700 mb-4">
+                      Big Spring's economy, anchored by the Big Spring Correctional Center, Howard
+                      College, and regional healthcare services, creates steady demand for
+                      energy-efficient commercial roofing solutions. The city's 28,000+ residents
+                      support diverse businesses requiring modern flat roof systems.
+                    </p>
                     <ul className="space-y-2 text-gray-700 text-sm">
-                      <li>• <strong>Commercial properties:</strong> 850+ buildings</li>
-                      <li>• <strong>Average building age:</strong> 35 years</li>
-                      <li>• <strong>Flat roof percentage:</strong> 65% of commercial</li>
-                      <li>• <strong>Energy cost per sq ft:</strong> $2.40 annually</li>
-                      <li>• <strong>TPO adoption rate:</strong> 40% of new installs</li>
+                      <li>
+                        • <strong>Commercial properties:</strong> 850+ buildings
+                      </li>
+                      <li>
+                        • <strong>Average building age:</strong> 35 years
+                      </li>
+                      <li>
+                        • <strong>Flat roof percentage:</strong> 65% of commercial
+                      </li>
+                      <li>
+                        • <strong>Energy cost per sq ft:</strong> $2.40 annually
+                      </li>
+                      <li>
+                        • <strong>TPO adoption rate:</strong> 40% of new installs
+                      </li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-gray-700 mb-4">Big Spring's climate creates significant opportunities for energy savings through reflective roofing systems. TPO installations can reduce building cooling loads by 25-40%, providing substantial utility cost savings for local businesses.</p>
+                    <p className="text-gray-700 mb-4">
+                      Big Spring's climate creates significant opportunities for energy savings
+                      through reflective roofing systems. TPO installations can reduce building
+                      cooling loads by 25-40%, providing substantial utility cost savings for local
+                      businesses.
+                    </p>
                     <ul className="space-y-2 text-gray-700 text-sm">
-                      <li>• <strong>Cooling degree days:</strong> 2,850 annually</li>
-                      <li>• <strong>Peak summer temps:</strong> 96°F average</li>
-                      <li>• <strong>Solar intensity:</strong> High (UV index 9-10)</li>
-                      <li>• <strong>Potential TPO savings:</strong> 20-40% cooling</li>
-                      <li>• <strong>Average payback period:</strong> 4-7 years</li>
+                      <li>
+                        • <strong>Cooling degree days:</strong> 2,850 annually
+                      </li>
+                      <li>
+                        • <strong>Peak summer temps:</strong> 96°F average
+                      </li>
+                      <li>
+                        • <strong>Solar intensity:</strong> High (UV index 9-10)
+                      </li>
+                      <li>
+                        • <strong>Potential TPO savings:</strong> 20-40% cooling
+                      </li>
+                      <li>
+                        • <strong>Average payback period:</strong> 4-7 years
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4"><Sparkles className="w-6 h-6 inline-block" /> TPO Energy Efficiency Benefits for Big Spring Buildings</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4">
+                  <Sparkles className="w-6 h-6 inline-block" /> TPO Energy Efficiency Benefits for
+                  Big Spring Buildings
+                </h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">TPO (Thermoplastic Polyolefin) membranes offer exceptional energy efficiency benefits that directly translate to cost savings for Big Spring commercial property owners. The combination of reflective properties and excellent insulation performance makes TPO ideal for West Texas climate conditions.</p>
+                  <p className="text-gray-700">
+                    TPO (Thermoplastic Polyolefin) membranes offer exceptional energy efficiency
+                    benefits that directly translate to cost savings for Big Spring commercial
+                    property owners. The combination of reflective properties and excellent
+                    insulation performance makes TPO ideal for West Texas climate conditions.
+                  </p>
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="bg-gray-50 p-4 rounded">
-                      <h5 className="font-semibold text-brand-brown mb-2">Reflective Performance</h5>
+                      <h5 className="font-semibold text-brand-brown mb-2">
+                        Reflective Performance
+                      </h5>
                       <ul className="text-sm text-gray-600 space-y-1">
                         <li>• Solar reflectance: 80-87%</li>
                         <li>• Thermal emittance: 87-92%</li>
@@ -377,51 +597,95 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16 bg-brand-gold-light p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-6 text-brand-brown">What Does TPO Roofing Investment Analysis for Big Spring Include?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-brand-brown">
+              What Does TPO Roofing Investment Analysis for Big Spring Include?
+            </h2>
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-bold text-lg text-brand-brown mb-4">2025 TPO Installation Costs</h3>
+                  <h3 className="font-bold text-lg text-brand-brown mb-4">
+                    2025 TPO Installation Costs
+                  </h3>
                   <ul className="space-y-3">
-                    <li><strong>Small commercial (2,000-5,000 sq ft):</strong> $8-12/sq ft
-                      <br /><span className="text-sm text-gray-600">Retail, small offices, basic installations</span>
+                    <li>
+                      <strong>Small commercial (2,000-5,000 sq ft):</strong> $8-12/sq ft
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        Retail, small offices, basic installations
+                      </span>
                     </li>
-                    <li><strong>Medium commercial (5,000-15,000 sq ft):</strong> $7-10/sq ft
-                      <br /><span className="text-sm text-gray-600">Warehouses, larger retail, economies of scale</span>
+                    <li>
+                      <strong>Medium commercial (5,000-15,000 sq ft):</strong> $7-10/sq ft
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        Warehouses, larger retail, economies of scale
+                      </span>
                     </li>
-                    <li><strong>Large commercial (15,000-50,000 sq ft):</strong> $6-9/sq ft
-                      <br /><span className="text-sm text-gray-600">Industrial, big box, maximum efficiency</span>
+                    <li>
+                      <strong>Large commercial (15,000-50,000 sq ft):</strong> $6-9/sq ft
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        Industrial, big box, maximum efficiency
+                      </span>
                     </li>
-                    <li><strong>Complex installations:</strong> $9-15/sq ft
-                      <br /><span className="text-sm text-gray-600">Multiple levels, equipment, specialty features</span>
+                    <li>
+                      <strong>Complex installations:</strong> $9-15/sq ft
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        Multiple levels, equipment, specialty features
+                      </span>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg text-brand-brown mb-4">Energy Savings Projections</h3>
+                  <h3 className="font-bold text-lg text-brand-brown mb-4">
+                    Energy Savings Projections
+                  </h3>
                   <ul className="space-y-3">
-                    <li><strong>10,000 sq ft building example:</strong>
-                      <br /><span className="text-sm text-gray-600">Annual cooling cost: $3,600 typical</span>
-                      <br /><span className="text-sm text-gray-600">TPO savings: $900-1,440 annually</span>
+                    <li>
+                      <strong>10,000 sq ft building example:</strong>
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        Annual cooling cost: $3,600 typical
+                      </span>
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        TPO savings: $900-1,440 annually
+                      </span>
                     </li>
-                    <li><strong>25,000 sq ft warehouse:</strong>
-                      <br /><span className="text-sm text-gray-600">Annual cooling cost: $8,500 typical</span>
-                      <br /><span className="text-sm text-gray-600">TPO savings: $2,125-3,400 annually</span>
+                    <li>
+                      <strong>25,000 sq ft warehouse:</strong>
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        Annual cooling cost: $8,500 typical
+                      </span>
+                      <br />
+                      <span className="text-sm text-gray-600">
+                        TPO savings: $2,125-3,400 annually
+                      </span>
                     </li>
-                    <li><strong>Return on investment:</strong>
-                      <br /><span className="text-sm text-gray-600">Typical payback: 4-7 years</span>
-                      <br /><span className="text-sm text-gray-600">With rebates: 3-5 years</span>
+                    <li>
+                      <strong>Return on investment:</strong>
+                      <br />
+                      <span className="text-sm text-gray-600">Typical payback: 4-7 years</span>
+                      <br />
+                      <span className="text-sm text-gray-600">With rebates: 3-5 years</span>
                     </li>
                   </ul>
                 </div>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-semibold text-brand-brown mb-4"><DollarSign className="w-6 h-6 inline-block" /> Total Cost of Ownership Benefits</h3>
+                <h3 className="font-semibold text-brand-brown mb-4">
+                  <DollarSign className="w-6 h-6 inline-block" /> Total Cost of Ownership Benefits
+                </h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-medium mb-2">Immediate Benefits</h4>
-                    <p className="text-sm text-gray-600 mb-3">TPO installations provide immediate energy cost reductions, often noticeable in the first utility bill after installation.</p>
+                    <p className="text-sm text-gray-600 mb-3">
+                      TPO installations provide immediate energy cost reductions, often noticeable
+                      in the first utility bill after installation.
+                    </p>
                     <ul className="text-xs text-gray-500 space-y-1">
                       <li>• First-month cooling reduction: 20-35%</li>
                       <li>• Peak demand charge savings</li>
@@ -431,7 +695,10 @@ export default function TPORoofingBigSpringPage() {
                   </div>
                   <div>
                     <h4 className="font-medium mb-2">Long-term Value</h4>
-                    <p className="text-sm text-gray-600 mb-3">TPO systems maintain energy efficiency throughout their 20+ year service life while providing excellent durability.</p>
+                    <p className="text-sm text-gray-600 mb-3">
+                      TPO systems maintain energy efficiency throughout their 20+ year service life
+                      while providing excellent durability.
+                    </p>
                     <ul className="text-xs text-gray-500 space-y-1">
                       <li>• 20-30 year service life</li>
                       <li>• Maintained reflectivity</li>
@@ -441,10 +708,21 @@ export default function TPORoofingBigSpringPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg">
-                <p className="font-semibold text-brand-brown mb-2"><ClipboardList className="w-6 h-6 inline-block" /> Free Energy Efficiency Assessments</p>
-                <p className="text-gray-700">We provide comprehensive energy analysis including current cooling costs, projected TPO savings, ROI calculations, and available rebate/incentive information. Call <a href="tel:8066226041" className="text-brand-gold font-bold">(806) 622-6041</a> for your customized assessment.</p>
+                <p className="font-semibold text-brand-brown mb-2">
+                  <ClipboardList className="w-6 h-6 inline-block" /> Free Energy Efficiency
+                  Assessments
+                </p>
+                <p className="text-gray-700">
+                  We provide comprehensive energy analysis including current cooling costs,
+                  projected TPO savings, ROI calculations, and available rebate/incentive
+                  information. Call{" "}
+                  <a href="tel:8066226041" className="text-brand-gold font-bold">
+                    (806) 622-6041
+                  </a>{" "}
+                  for your customized assessment.
+                </p>
               </div>
             </div>
           </section>
@@ -452,14 +730,23 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">TPO Performance in Big Spring Climate?</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              TPO Performance in Big Spring Climate?
+            </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4"><Thermometer className="w-6 h-6 inline-block" /> Climate Optimization for Energy Efficiency</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4">
+                  <Thermometer className="w-6 h-6 inline-block" /> Climate Optimization for Energy
+                  Efficiency
+                </h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold mb-3">Heat Load Reduction</h4>
-                    <p className="text-gray-700 mb-3">Big Spring's intense summer heat creates significant cooling loads. TPO's reflective white surface dramatically reduces heat transfer into buildings, lowering HVAC energy consumption.</p>
+                    <p className="text-gray-700 mb-3">
+                      Big Spring's intense summer heat creates significant cooling loads. TPO's
+                      reflective white surface dramatically reduces heat transfer into buildings,
+                      lowering HVAC energy consumption.
+                    </p>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• Average summer high: 94°F</li>
                       <li>• Traditional roof surface: 160°F+</li>
@@ -470,7 +757,10 @@ export default function TPORoofingBigSpringPage() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-3">Durability in Harsh Conditions</h4>
-                    <p className="text-gray-700 mb-3">TPO membranes resist UV degradation, thermal cycling, and weather damage that commonly affect other flat roof systems in West Texas conditions.</p>
+                    <p className="text-gray-700 mb-3">
+                      TPO membranes resist UV degradation, thermal cycling, and weather damage that
+                      commonly affect other flat roof systems in West Texas conditions.
+                    </p>
                     <ul className="text-sm text-gray-600 space-y-1">
                       <li>• UV resistance: Excellent</li>
                       <li>• Thermal cycling tolerance: High</li>
@@ -481,11 +771,17 @@ export default function TPORoofingBigSpringPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-4"><Lightbulb className="w-6 h-6 inline-block" /> TPO vs. Other Commercial Roofing Systems</h3>
+                <h3 className="font-bold text-lg text-brand-brown mb-4">
+                  <Lightbulb className="w-6 h-6 inline-block" /> TPO vs. Other Commercial Roofing
+                  Systems
+                </h3>
                 <div className="space-y-4">
-                  <p className="text-gray-700">Comparing TPO to other commercial roofing options demonstrates clear advantages for energy efficiency and long-term value in Big Spring's climate.</p>
+                  <p className="text-gray-700">
+                    Comparing TPO to other commercial roofing options demonstrates clear advantages
+                    for energy efficiency and long-term value in Big Spring's climate.
+                  </p>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead className="bg-gray-50">
@@ -500,31 +796,169 @@ export default function TPORoofingBigSpringPage() {
                       <tbody className="text-gray-600">
                         <tr className="border-t">
                           <td className="p-3 font-medium">TPO Membrane</td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 4 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 4 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 4 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
                         </tr>
                         <tr className="border-t bg-gray-25">
                           <td className="p-3 font-medium">EPDM Rubber</td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 2 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 4 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 3 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
                         </tr>
                         <tr className="border-t">
                           <td className="p-3 font-medium">Modified Bitumen</td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 2 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 3 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 3 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 2 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
                         </tr>
                         <tr className="border-t bg-gray-25">
                           <td className="p-3 font-medium">Built-Up Roof</td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 1 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 3 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
-                          <td className="p-3 text-center"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className={`w-5 h-5 ${i < 2 ? 'fill-brand-gold text-brand-gold' : 'text-gray-300'}`} />))}</span></td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 1 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 3 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 3 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
+                          <td className="p-3 text-center">
+                            <span className="flex gap-0.5">
+                              {[...Array(5)].map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-5 h-5 ${i < 2 ? "fill-brand-gold text-brand-gold" : "text-gray-300"}`}
+                                />
+                              ))}
+                            </span>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -537,31 +971,63 @@ export default function TPORoofingBigSpringPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">Frequently Asked Questions - TPO Roofing</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
+              Frequently Asked Questions - TPO Roofing
+            </h2>
             <div className="max-w-4xl mx-auto space-y-4">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-3">How much can TPO roofing save on energy costs in Big Spring?</h3>
-                <p className="text-gray-700">TPO can reduce cooling costs by 20-40% compared to traditional dark roofs. For a typical 10,000 sq ft building with $3,600 annual cooling costs, TPO saves $900-1,440 yearly. Larger buildings see proportionally greater savings.</p>
+                <h3 className="font-bold text-lg text-brand-brown mb-3">
+                  How much can TPO roofing save on energy costs in Big Spring?
+                </h3>
+                <p className="text-gray-700">
+                  TPO can reduce cooling costs by 20-40% compared to traditional dark roofs. For a
+                  typical 10,000 sq ft building with $3,600 annual cooling costs, TPO saves
+                  $900-1,440 yearly. Larger buildings see proportionally greater savings.
+                </p>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-3">What is the expected lifespan of TPO in Big Spring's climate?</h3>
-                <p className="text-gray-700">Quality TPO systems typically last 20-30 years in Big Spring's climate when properly installed and maintained. The membrane's resistance to UV degradation and thermal cycling makes it ideal for West Texas conditions.</p>
+                <h3 className="font-bold text-lg text-brand-brown mb-3">
+                  What is the expected lifespan of TPO in Big Spring's climate?
+                </h3>
+                <p className="text-gray-700">
+                  Quality TPO systems typically last 20-30 years in Big Spring's climate when
+                  properly installed and maintained. The membrane's resistance to UV degradation and
+                  thermal cycling makes it ideal for West Texas conditions.
+                </p>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-3">Are there utility rebates available for TPO installation?</h3>
-                <p className="text-gray-700">Many utility companies offer rebates for cool roof installations. We help identify and apply for available rebates, which can range from $0.25-0.75 per square foot for qualifying TPO systems.</p>
+                <h3 className="font-bold text-lg text-brand-brown mb-3">
+                  Are there utility rebates available for TPO installation?
+                </h3>
+                <p className="text-gray-700">
+                  Many utility companies offer rebates for cool roof installations. We help identify
+                  and apply for available rebates, which can range from $0.25-0.75 per square foot
+                  for qualifying TPO systems.
+                </p>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-3">How does TPO perform in hailstorms?</h3>
-                <p className="text-gray-700">TPO membranes offer good hail resistance, though not as high as metal systems. Thicker membranes (60-80 mil) provide better impact resistance. We typically recommend 60+ mil TPO for Big Spring's hail exposure.</p>
+                <h3 className="font-bold text-lg text-brand-brown mb-3">
+                  How does TPO perform in hailstorms?
+                </h3>
+                <p className="text-gray-700">
+                  TPO membranes offer good hail resistance, though not as high as metal systems.
+                  Thicker membranes (60-80 mil) provide better impact resistance. We typically
+                  recommend 60+ mil TPO for Big Spring's hail exposure.
+                </p>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-bold text-lg text-brand-brown mb-3">What maintenance does TPO roofing require?</h3>
-                <p className="text-gray-700">TPO requires minimal maintenance: annual inspections, debris removal, and cleaning. The smooth surface doesn't trap dirt and the welded seams eliminate many leak points common with other systems. We offer preventive maintenance programs.</p>
+                <h3 className="font-bold text-lg text-brand-brown mb-3">
+                  What maintenance does TPO roofing require?
+                </h3>
+                <p className="text-gray-700">
+                  TPO requires minimal maintenance: annual inspections, debris removal, and
+                  cleaning. The smooth surface doesn't trap dirt and the welded seams eliminate many
+                  leak points common with other systems. We offer preventive maintenance programs.
+                </p>
               </div>
             </div>
           </section>
@@ -594,7 +1060,11 @@ export default function TPORoofingBigSpringPage() {
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
               {faqItems.map((faq, index) => (
-                <AccordionItem key={`faq-${index + 1}`} value={`faq-${index + 1}`} className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+                <AccordionItem
+                  key={`faq-${index + 1}`}
+                  value={`faq-${index + 1}`}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+                >
                   <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                     {faq.question}
                   </AccordionTrigger>
@@ -607,24 +1077,28 @@ export default function TPORoofingBigSpringPage() {
           </section>
         </FadeIn>
 
-
-
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Big Spring Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Big Spring property owners. Expert tpo roofing with comprehensive warranties and insurance claim assistance.
+            Free inspections for Big Spring property owners. Expert tpo roofing with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="tpo-roofing-big-spring" />
+        <RelatedArticles pageSlug="tpo-roofing-big-spring" />
       </div>
     </>
   );

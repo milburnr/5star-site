@@ -1,4 +1,4 @@
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 export interface CityVariant {
   /** Display name. */
@@ -49,15 +49,15 @@ export function CityVariantGrid({
 }: CityVariantGridProps) {
   const gridCols =
     columns === 3
-      ? 'md:grid-cols-3'
+      ? "md:grid-cols-3"
       : columns === 5
-        ? 'md:grid-cols-3 lg:grid-cols-5'
+        ? "md:grid-cols-3 lg:grid-cols-5"
         : columns === 7
-          ? 'md:grid-cols-4 lg:grid-cols-7'
-          : 'md:grid-cols-3 lg:grid-cols-4';
+          ? "md:grid-cols-4 lg:grid-cols-7"
+          : "md:grid-cols-3 lg:grid-cols-4";
 
   return (
-    <div className={cn('w-full', className)}>
+    <div className={cn("w-full", className)}>
       {heading && (
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-3 text-brand-brown">
           {heading}
@@ -68,7 +68,7 @@ export function CityVariantGrid({
           {intro}
         </p>
       )}
-      <div className={cn('grid grid-cols-2 gap-2 sm:gap-3 md:gap-4', gridCols)}>
+      <div className={cn("grid grid-cols-2 gap-2 sm:gap-3 md:gap-4", gridCols)}>
         {cities.map((city) => (
           <a
             key={city.href}
@@ -76,9 +76,7 @@ export function CityVariantGrid({
             className="block bg-white border border-brand-gold/20 rounded-lg shadow-sm p-3 sm:p-4 text-center hover:shadow-md hover:scale-105 hover:border-brand-gold transition-all duration-200"
           >
             <p className="font-bold text-brand-brown hover:underline">{city.name}</p>
-            {city.region && (
-              <p className="text-xs sm:text-sm text-gray-600 mt-1">{city.region}</p>
-            )}
+            {city.region && <p className="text-xs sm:text-sm text-gray-600 mt-1">{city.region}</p>}
           </a>
         ))}
       </div>

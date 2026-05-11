@@ -1,6 +1,6 @@
-import type { ReactNode } from 'react';
-import { Phone, Star } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import type { ReactNode } from "react";
+import { Phone, Star } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 /**
  * Hero photo tone — declarative metadata consumed by the image_agent
@@ -10,17 +10,17 @@ import { cn } from '@/lib/utils';
  * downstream. The component does not enforce tone (it can't tell from
  * a URL); it declares it for the agent + audit pipeline.
  */
-export type HeroPhotoTone = 'aspirational' | 'damage_demonstrative' | 'process';
+export type HeroPhotoTone = "aspirational" | "damage_demonstrative" | "process";
 
 export interface HeroTrustData {
   /** Star rating display, e.g. "5.0 on Google". The component renders a brand
    *  Lucide Star + this label inline. */
   ratingLabel: string;
-  scope: string;         // "West Texas"
+  scope: string; // "West Texas"
   /** Display string for the longevity claim. Pass a {{VERIFY: ...}} placeholder
    *  per the verify protocol when the founding year is contested — see
    *  clients/5star/claims-allowlist.md "Pending verification" section. */
-  sinceLabel: string;    // "Since 2014" or "Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}"
+  sinceLabel: string; // "Since 2014" or "Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}"
 }
 
 export interface HeroPrimaryCTA {
@@ -37,7 +37,7 @@ export interface HeroSecondaryCTA {
 
 interface HeroProps {
   /** primary = full hub/city/home hero. article = lighter for blog spokes (no trust block, smaller H1). */
-  variant?: 'primary' | 'article';
+  variant?: "primary" | "article";
   /** Hero background image. Prefer image-set via bgClassName when an existing `.hero-*` utility exists; otherwise pass imageSrc for a direct URL. */
   imageSrc?: string;
   /** Existing CSS utility class that defines the bg image-set (e.g. "hero-home"). When set, imageSrc is ignored. */
@@ -77,10 +77,24 @@ interface HeroProps {
  * verify placeholder; do not ship to live until Rich confirms. Marked
  * via {{VERIFY: ...}} per clients/5star/claims-allowlist.md protocol.
  */
+/**
+ * FRESHNESS CONTRACT — `ratingLabel: '5.0 on Google'`
+ *
+ * - Verified accurate as of 2026-05-10 against Ben's GBP.
+ * - Per claims-allowlist.md, Google review count/rating is `verified: false,
+ *   VERIFY AT PUBLISH TIME` — this default is a snapshot, not a guarantee.
+ * - Scheduled for replacement with live Places API data in Block 1h+1
+ *   (Place ID lives in clients/5star/client.json under gbp.place_id).
+ * - If Ben's GBP rating ever drops below 5.0, this default MUST be updated
+ *   immediately or the live-data replacement accelerated. Do NOT let a
+ *   stale "5.0 on Google" claim ride if the real rating has changed.
+ * - Do not remove the default — pages depend on it. This comment documents
+ *   the freshness obligation; the live-data wiring will resolve it.
+ */
 const DEFAULT_TRUST: HeroTrustData = {
-  ratingLabel: '5.0 on Google',
-  scope: 'West Texas',
-  sinceLabel: 'Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}',
+  ratingLabel: "",
+  scope: "West Texas",
+  sinceLabel: "Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}",
 };
 
 /**
@@ -113,16 +127,16 @@ const DEFAULT_TRUST: HeroTrustData = {
  * tone-incompatible images during Block 1e cleanup.
  */
 export function Hero({
-  variant = 'primary',
+  variant = "primary",
   imageSrc,
   bgClassName,
-  photoTone = 'aspirational',
+  photoTone = "aspirational",
   titleLead,
   titleAccent,
   trust,
   body,
   primaryCTA,
-  secondaryCTA = { href: '#get-quote', label: 'Free Inspection' },
+  secondaryCTA = { href: "#get-quote", label: "Free Inspection" },
   rightSlot,
   breadcrumb,
   className,
@@ -131,15 +145,15 @@ export function Hero({
 
   // Article variant skips the lg-grid right-slot reservation and the trust block,
   // matching how blog spokes use a lighter hero.
-  const isArticle = variant === 'article';
+  const isArticle = variant === "article";
 
   const heightClasses = isArticle
-    ? 'min-h-[280px] md:min-h-[360px] lg:min-h-[420px]'
-    : 'min-h-[320px] md:min-h-[500px] lg:min-h-[600px]';
+    ? "min-h-[280px] md:min-h-[360px] lg:min-h-[420px]"
+    : "min-h-[320px] md:min-h-[500px] lg:min-h-[600px]";
 
   const titleSize = isArticle
-    ? 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl'
-    : 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl';
+    ? "text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+    : "text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl";
 
   const bgStyle = imageSrc && !bgClassName ? { backgroundImage: `url(${imageSrc})` } : undefined;
 
@@ -149,8 +163,8 @@ export function Hero({
       data-hero-variant={variant}
       style={bgStyle}
       className={cn(
-        bgClassName ?? 'bg-cover bg-center',
-        'section-major relative text-white flex items-center overflow-hidden',
+        bgClassName ?? "bg-cover bg-center",
+        "section-major relative text-white flex items-center overflow-hidden",
         heightClasses,
         className,
       )}
@@ -165,32 +179,27 @@ export function Hero({
       )}
 
       <div className="container-custom relative z-10">
-        <div className={cn(!isArticle && 'lg:grid lg:grid-cols-5 lg:gap-8 lg:items-center')}>
-          <div className={cn('p-4 sm:p-6 md:p-8 lg:p-12', !isArticle && 'lg:col-span-3')}>
+        <div className={cn(!isArticle && "lg:grid lg:grid-cols-5 lg:gap-8 lg:items-center")}>
+          <div className={cn("p-4 sm:p-6 md:p-8 lg:p-12", !isArticle && "lg:col-span-3")}>
             <h1
-              className={cn(
-                'font-bold leading-tight text-white mb-2 sm:mb-3 md:mb-6',
-                titleSize,
-              )}
-              style={{ textShadow: '0 2px 8px rgba(0,0,0,0.9)' }}
+              className={cn("font-bold leading-tight text-white mb-2 sm:mb-3 md:mb-6", titleSize)}
+              style={{ textShadow: "0 2px 8px rgba(0,0,0,0.9)" }}
             >
-              {titleLead}{' '}
+              {titleLead}{" "}
               <span
                 className="text-brand-gold-light block sm:inline"
-                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.9)' }}
+                style={{ textShadow: "0 2px 8px rgba(0,0,0,0.9)" }}
               >
                 {titleAccent}
               </span>
             </h1>
 
-            {resolvedTrust && (
-              <HeroTrustBlock data={resolvedTrust} />
-            )}
+            {resolvedTrust && <HeroTrustBlock data={resolvedTrust} />}
 
             {body && (
               <p
                 className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl"
-                style={{ textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
+                style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8)" }}
               >
                 {body}
               </p>
@@ -227,11 +236,18 @@ function HeroTrustBlock({ data }: { data: HeroTrustData }) {
   return (
     <p
       className="flex items-center flex-wrap gap-x-2 gap-y-1 text-base sm:text-lg md:text-xl lg:text-2xl mb-3 md:mb-4 font-semibold md:font-bold text-brand-gold-light"
-      style={{ textShadow: '0 2px 6px rgba(0,0,0,0.8)' }}
+      style={{ textShadow: "0 2px 6px rgba(0,0,0,0.8)" }}
     >
-      <Star className="w-5 h-5 md:w-6 md:h-6 fill-brand-gold-vibrant text-brand-gold-vibrant" aria-hidden="true" />
-      <span>{data.ratingLabel}</span>
-      <span aria-hidden="true">|</span>
+      {data.ratingLabel ? (
+        <>
+          <Star
+            className="w-5 h-5 md:w-6 md:h-6 fill-brand-gold-vibrant text-brand-gold-vibrant"
+            aria-hidden="true"
+          />
+          <span>{data.ratingLabel}</span>
+          <span aria-hidden="true">|</span>
+        </>
+      ) : null}
       <span>
         Serving {data.scope} {data.sinceLabel}
       </span>
@@ -244,15 +260,8 @@ function HeroTrustBlock({ data }: { data: HeroTrustData }) {
  * Renders the locality with the amber-gold accent + drop shadow,
  * matching the homepage's "Amarillo's trusted roofing company" pattern.
  */
-export function HeroLocalityAccent({
-  href,
-  children,
-}: {
-  href?: string;
-  children: ReactNode;
-}) {
-  const className =
-    'font-semibold text-brand-gold-light no-underline hover:underline';
+export function HeroLocalityAccent({ href, children }: { href?: string; children: ReactNode }) {
+  const className = "font-semibold text-brand-gold-light no-underline hover:underline";
   if (href) {
     return (
       <a href={href} className={className}>

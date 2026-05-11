@@ -1,6 +1,6 @@
-import type { LucideIcon } from 'lucide-react';
-import type { ReactNode } from 'react';
-import { cn } from '@/lib/utils';
+import type { LucideIcon } from "lucide-react";
+import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 interface DefinitionCardProps {
   /** H3 title. Use clean phrasing — "What Is X?" / "How X Works" patterns work well for AI-overview snippets. */
@@ -10,7 +10,7 @@ interface DefinitionCardProps {
   /** Optional Lucide icon rendered top-left of the card body. */
   icon?: LucideIcon;
   /** Heading level override; default h3. Use h2 when this card IS the section heading. */
-  as?: 'h2' | 'h3' | 'h4';
+  as?: "h2" | "h3" | "h4";
   className?: string;
 }
 
@@ -32,14 +32,14 @@ export function DefinitionCard({
   title,
   children,
   icon: Icon,
-  as = 'h3',
+  as = "h3",
   className,
 }: DefinitionCardProps) {
   const Tag = as as React.ElementType;
   return (
     <div
       className={cn(
-        'bg-gradient-to-br from-amber-50 to-white p-6 md:p-8 rounded-2xl border border-brand-gold/20 shadow-md',
+        "bg-gradient-to-br from-amber-50 to-white p-6 md:p-8 rounded-2xl border border-brand-gold/20 shadow-md",
         className,
       )}
     >

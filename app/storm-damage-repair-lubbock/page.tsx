@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-lubbock/' },
+  alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-lubbock/" },
   title: "Storm Damage Repair Lubbock | 5 Star Roofing",
-  description: "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+  description:
+    "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
   openGraph: {
     title: "Storm Damage Repair Lubbock | 5 Star Roofing",
-    description: "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
+    description:
+      "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance. Call (806) 622-6041",
     url: "https://5starroofingpros.com/storm-damage-repair-lubbock/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,70 +40,79 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Storm Damage Repair",
-                      "url": "/storm-damage-repair/"
-              },
-              {
-                      "name": "Lubbock",
-                      "url": "/storm-damage-repair-lubbock/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Lubbock",
+            url: "/storm-damage-repair-lubbock/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Storm Damage Roof Repair",
-            "provider": {
+            serviceType: "Storm Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Lubbock",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Lubbock",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": { "@id": "https://5starroofingpros.com/#organization" }
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas",
-              "name": "Lubbock",
-              "containedInPlace": {
+              name: "Lubbock",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance.",
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-          })
+            description:
+              "Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance.",
+          }),
         }}
       />
       <script
@@ -110,58 +121,58 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "What types of storm damage affect roofs in Lubbock?",
-                "acceptedAnswer": {
+                name: "What types of storm damage affect roofs in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Lubbock roofs face multiple storm threats including hail (7-10 events annually), wind gusts exceeding 70+ mph, heavy rain causing water infiltration, and debris impact from South Plains storms. Spring and early summer bring severe thunderstorms with large hail and straight-line winds. Dust storms reduce visibility and deposit abrasive particles. Winter ice accumulation stresses roof structures. Our comprehensive storm damage assessment identifies all issues including hidden damage to underlayment, decking, and structural components that worsen without prompt repair."
-                }
+                  text: "Lubbock roofs face multiple storm threats including hail (7-10 events annually), wind gusts exceeding 70+ mph, heavy rain causing water infiltration, and debris impact from South Plains storms. Spring and early summer bring severe thunderstorms with large hail and straight-line winds. Dust storms reduce visibility and deposit abrasive particles. Winter ice accumulation stresses roof structures. Our comprehensive storm damage assessment identifies all issues including hidden damage to underlayment, decking, and structural components that worsen without prompt repair.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly can you respond to storm damage emergencies in Lubbock?",
-                "acceptedAnswer": {
+                name: "How do you handle storm damage work in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims."
-                }
+                  text: "We schedule storm-damage documentation and inspections throughout Lubbock and the South Plains region once conditions are safe for crews to be on a roof. We are not an emergency-dispatch service — our value is thorough photo documentation, adjuster-ready reports, and Class 4 or TPO restoration for properties across Mackenzie Park, Prairie Dog Town, the Depot District, and throughout Lubbock County.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Does insurance cover all types of storm damage in Lubbock?",
-                "acceptedAnswer": {
+                name: "Does insurance cover all types of storm damage in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Most Lubbock homeowner policies cover sudden storm damage including hail, wind, and debris impact. Coverage typically includes roof replacement, interior water damage repairs, and temporary housing if needed. Gradual deterioration or maintenance issues aren't covered. We document all storm-related damage with photos, measurements, and detailed reports. Our experience with South Plains insurance adjusters helps differentiate covered storm damage from pre-existing conditions. We handle the entire claims process, ensuring you receive fair compensation for complete restoration."
-                }
+                  text: "Most Lubbock homeowner policies cover sudden storm damage including hail, wind, and debris impact. Coverage typically includes roof replacement, interior water damage repairs, and temporary housing if needed. Gradual deterioration or maintenance issues aren't covered. We document all storm-related damage with photos, measurements, and detailed reports. Our experience with South Plains insurance adjusters helps differentiate covered storm damage from pre-existing conditions. We handle the entire claims process, ensuring you receive fair compensation for complete restoration.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What areas of Lubbock do you serve for storm damage repair?",
-                "acceptedAnswer": {
+                name: "What areas of Lubbock do you serve for storm damage repair?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence since 2014 ensures prompt response and expert service across greater Lubbock."
-                }
+                  text: "We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence since 2014 ensures prompt response and expert service across greater Lubbock.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can storm damage be prevented in Lubbock's severe weather?",
-                "acceptedAnswer": {
+                name: "Can storm damage be prevented in Lubbock's severe weather?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "While storms can't be prevented, proper preparation minimizes damage. Class 4 impact-resistant shingles reduce hail damage significantly. Proper attic ventilation prevents ice dam formation. Regular inspections identify weak spots before storms hit. Trim trees near the roof to prevent debris impact. Ensure proper flashing around chimneys and vents. Install high-wind rated shingles for South Plains conditions. Our preventive maintenance program includes pre-storm inspections, minor repairs, and recommendations to strengthen your roof against Lubbock's severe weather threats."
-                }
-              }
-            ]
-          })
+                  text: "While storms can't be prevented, proper preparation minimizes damage. Class 4 impact-resistant shingles reduce hail damage significantly. Proper attic ventilation prevents ice dam formation. Regular inspections identify weak spots before storms hit. Trim trees near the roof to prevent debris impact. Ensure proper flashing around chimneys and vents. Install high-wind rated shingles for South Plains conditions. Our preventive maintenance program includes pre-storm inspections, minor repairs, and recommendations to strengthen your roof against Lubbock's severe weather threats.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-brand-brown/75 to-slate-900/70"></div>
@@ -175,12 +186,17 @@ export default function Page() {
                 Protecting South Plains Properties Since 2014
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage repair in Lubbock.  for hail, wind, and weather damage. Complete insurance assistance.
+                Expert storm damage repair in Lubbock. for hail, wind, and weather damage. Complete
+                insurance assistance.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Estimate
                 </a>
               </div>
@@ -188,7 +204,6 @@ export default function Page() {
           </FadeIn>
         </div>
       </section>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -196,10 +211,19 @@ export default function Page() {
               What Does Expert Storm Damage Repair for Lubbock, South Plains Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Lubbock's location in the South Plains creates unique roofing challenges. The area experiences 7-10 hailstorms annually, sustained winds with gusts exceeding 70+ mph, extreme temperature fluctuations, and high elevation and constant South Plains winds. Your roofing system must withstand these demanding conditions year after year.
+              Lubbock's location in the South Plains creates unique roofing challenges. The area
+              experiences 7-10 hailstorms annually, sustained winds with gusts exceeding 70+ mph,
+              extreme temperature fluctuations, and high elevation and constant South Plains winds.
+              Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has provided storm damage repair throughout Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot District, we respond quickly with . Our experienced crews understand South Plains storm patterns and provide comprehensive damage assessment, weatherproofing, and complete restoration services that protect your property and maximize insurance coverage.
+              Since 2014, 5 Star Commercial Roofing has provided storm damage repair throughout
+              Lubbock and the South Plains. From properties near Lubbock Lake Landmark to homes
+              surrounding Prairie Dog Town in Mackenzie Park and buildings throughout the Depot
+              District, we respond quickly with . Our experienced crews understand South Plains
+              storm patterns and provide comprehensive damage assessment, weatherproofing, and
+              complete restoration services that protect your property and maximize insurance
+              coverage.
             </p>
           </section>
 
@@ -208,13 +232,35 @@ export default function Page() {
               Lubbock&apos;s Storm Damage Timeline
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Lubbock County sits in what meteorologists and insurance adjusters alike call &ldquo;Hail Alley&rdquo; &mdash; a stretch of the South Plains that consistently ranks among the most hail-damaged regions in the country. The area recorded 273 hail reports in the past year alone, concentrated between April and August when warm Gulf moisture collides with dry Panhandle air to produce violent supercell thunderstorms. These are not minor weather events. In May 2024, hailstones measuring over 4 inches in diameter fell near Whiteface, just west of Lubbock County. In June 2023, softball-sized hail pounded the Woodrow community south of Lubbock, shredding roofs and siding across entire neighborhoods.
+              Lubbock County sits in what meteorologists and insurance adjusters alike call
+              &ldquo;Hail Alley&rdquo; &mdash; a stretch of the South Plains that consistently ranks
+              among the most hail-damaged regions in the country. The area recorded 273 hail reports
+              in the past year alone, concentrated between April and August when warm Gulf moisture
+              collides with dry Panhandle air to produce violent supercell thunderstorms. These are
+              not minor weather events. In May 2024, hailstones measuring over 4 inches in diameter
+              fell near Whiteface, just west of Lubbock County. In June 2023, softball-sized hail
+              pounded the Woodrow community south of Lubbock, shredding roofs and siding across
+              entire neighborhoods.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Wind damage compounds the hail threat throughout storm season. South Plains thunderstorms frequently produce straight-line winds exceeding 70 mph &mdash; strong enough to peel back shingle tabs, tear off ridge caps, and drive rain under flashing around chimneys, vents, and skylights. Even storms that don&apos;t produce visible shingle loss can cause hidden damage to underlayment and decking that leads to leaks weeks or months later. Properties near Texas Tech University, along the Marsha Sharp Freeway corridor, and in South Lubbock&apos;s open subdivisions face particularly high wind exposure due to limited tree cover and flat terrain.
+              Wind damage compounds the hail threat throughout storm season. South Plains
+              thunderstorms frequently produce straight-line winds exceeding 70 mph &mdash; strong
+              enough to peel back shingle tabs, tear off ridge caps, and drive rain under flashing
+              around chimneys, vents, and skylights. Even storms that don&apos;t produce visible
+              shingle loss can cause hidden damage to underlayment and decking that leads to leaks
+              weeks or months later. Properties near Texas Tech University, along the Marsha Sharp
+              Freeway corridor, and in South Lubbock&apos;s open subdivisions face particularly high
+              wind exposure due to limited tree cover and flat terrain.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              The frequency and severity of Lubbock&apos;s storms make timely damage assessment critical. Unrepaired storm damage deteriorates quickly under subsequent weather events, turning a manageable shingle replacement into a full deck repair. Insurance policies impose filing deadlines &mdash; typically one year from the date of loss &mdash; that homeowners sometimes miss when initial damage appears minor. Our post-storm inspections document all damage, including conditions not visible from the ground, giving property owners the information they need to make informed decisions about repair timing and insurance claims.
+              The frequency and severity of Lubbock&apos;s storms make timely damage assessment
+              critical. Unrepaired storm damage deteriorates quickly under subsequent weather
+              events, turning a manageable shingle replacement into a full deck repair. Insurance
+              policies impose filing deadlines &mdash; typically one year from the date of loss
+              &mdash; that homeowners sometimes miss when initial damage appears minor. Our
+              post-storm inspections document all damage, including conditions not visible from the
+              ground, giving property owners the information they need to make informed decisions
+              about repair timing and insurance claims.
             </p>
           </section>
         </FadeIn>
@@ -225,13 +271,34 @@ export default function Page() {
               Storm Damage Repair Process for Lubbock Properties
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              When a storm hits Lubbock, every hour counts. Our repair process follows a proven sequence designed to prevent secondary damage, maximize insurance coverage, and restore your property to pre-storm condition as efficiently as possible. It starts with emergency tarping &mdash; our crews deploy throughout Lubbock within hours of major storm events, applying weatherproof tarps to exposed areas where shingles are missing, flashing is compromised, or structural damage has created openings in the roof envelope. This temporary protection prevents water intrusion while permanent repairs are scheduled.
+              Our repair process for Lubbock storm damage follows a proven sequence designed to
+              prevent secondary damage, maximize insurance coverage, and restore your property to
+              pre-storm condition. It starts with a free inspection scheduled once conditions are
+              safe &mdash; our crews document damage throughout Lubbock with photos and
+              adjuster-ready reports, identify exposed areas where shingles are missing, flashing is
+              compromised, or structural damage has created openings, and coordinate
+              weather-protective measures as part of the overall repair plan. We are not an
+              emergency-dispatch service.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              The next step is a thorough free inspection that documents every point of damage with photographs, measurements, and written descriptions keyed to your roof&apos;s layout. We check the entire system &mdash; not just the obvious damage visible from the street, but also soft spots in decking, bruised shingles that will fail prematurely, compromised pipe boots, and lifted flashing at walls and penetrations. This documentation becomes the foundation of your insurance claim. We then coordinate directly with your insurance adjuster, meeting them on-site to walk the roof together and ensure nothing is missed during their assessment.
+              The next step is a thorough free inspection that documents every point of damage with
+              photographs, measurements, and written descriptions keyed to your roof&apos;s layout.
+              We check the entire system &mdash; not just the obvious damage visible from the
+              street, but also soft spots in decking, bruised shingles that will fail prematurely,
+              compromised pipe boots, and lifted flashing at walls and penetrations. This
+              documentation becomes the foundation of your insurance claim. We then coordinate
+              directly with your insurance adjuster, meeting them on-site to walk the roof together
+              and ensure nothing is missed during their assessment.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Once the claim is approved, we schedule the repair or full replacement based on damage scope and material availability. Most Lubbock storm damage projects complete in 1&ndash;3 days for residential properties. We handle everything from tear-off through final cleanup, including replacing damaged decking, installing ice and water shield in valleys and at eaves, and applying the shingle or membrane system specified in your approved claim. A final walkthrough with the homeowner confirms every item on the scope of work is completed before we consider the job finished. Most Lubbock homeowners pay only their deductible when insurance covers the claim.
+              Once the claim is approved, we schedule the repair or full replacement based on damage
+              scope and material availability. Most Lubbock storm damage projects complete in
+              1&ndash;3 days for residential properties. We handle everything from tear-off through
+              final cleanup, including replacing damaged decking, installing ice and water shield in
+              valleys and at eaves, and applying the shingle or membrane system specified in your
+              approved claim. A final walkthrough with the homeowner confirms every item on the
+              scope of work is completed before we consider the job finished. Most Lubbock
+              homeowners pay only their deductible when insurance covers the claim.
             </p>
           </section>
         </FadeIn>
@@ -247,15 +314,27 @@ export default function Page() {
                   What types of storm damage affect roofs in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  Lubbock roofs face multiple storm threats including hail (7-10 events annually), wind gusts exceeding 70+ mph, heavy rain causing water infiltration, and debris impact from South Plains storms. Spring and early summer bring severe thunderstorms with large hail and straight-line winds. Dust storms reduce visibility and deposit abrasive particles. Winter ice accumulation stresses roof structures. Our comprehensive storm damage assessment identifies all issues including hidden damage to underlayment, decking, and structural components that worsen without prompt repair.
+                  Lubbock roofs face multiple storm threats including hail (7-10 events annually),
+                  wind gusts exceeding 70+ mph, heavy rain causing water infiltration, and debris
+                  impact from South Plains storms. Spring and early summer bring severe
+                  thunderstorms with large hail and straight-line winds. Dust storms reduce
+                  visibility and deposit abrasive particles. Winter ice accumulation stresses roof
+                  structures. Our comprehensive storm damage assessment identifies all issues
+                  including hidden damage to underlayment, decking, and structural components that
+                  worsen without prompt repair.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
                 <AccordionTrigger className="text-left text-xl font-semibold">
-                  How quickly can you respond to storm damage emergencies in Lubbock?
+                  How do you handle storm damage work in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  We provide prompt response throughout Lubbock and the South Plains region. Our crews typically arrive within 2-4 hours for urgent tarping and temporary weatherproofing. We prioritize properties with active leaks, missing shingles exposing underlayment, or structural damage. After severe storms affecting neighborhoods near Mackenzie Park, Prairie Dog Town, or the Depot District, we deploy multiple crews to serve affected areas quickly. tarping prevents secondary water damage while you schedule permanent repairs and process insurance claims.
+                  We schedule storm-damage documentation and inspections throughout Lubbock and the
+                  South Plains region once conditions are safe for crews to be on a roof. We are not
+                  an emergency-dispatch service — our value is thorough photo documentation,
+                  adjuster-ready reports, and Class 4 or TPO restoration for properties across
+                  Mackenzie Park, Prairie Dog Town, the Depot District, and throughout Lubbock
+                  County.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
@@ -263,7 +342,14 @@ export default function Page() {
                   Does insurance cover all types of storm damage in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  Most Lubbock homeowner policies cover sudden storm damage including hail, wind, and debris impact. Coverage typically includes roof replacement, interior water damage repairs, and temporary housing if needed. Gradual deterioration or maintenance issues aren't covered. We document all storm-related damage with photos, measurements, and detailed reports. Our experience with South Plains insurance adjusters helps differentiate covered storm damage from pre-existing conditions. We handle the entire claims process, ensuring you receive fair compensation for complete restoration.
+                  Most Lubbock homeowner policies cover sudden storm damage including hail, wind,
+                  and debris impact. Coverage typically includes roof replacement, interior water
+                  damage repairs, and temporary housing if needed. Gradual deterioration or
+                  maintenance issues aren't covered. We document all storm-related damage with
+                  photos, measurements, and detailed reports. Our experience with South Plains
+                  insurance adjusters helps differentiate covered storm damage from pre-existing
+                  conditions. We handle the entire claims process, ensuring you receive fair
+                  compensation for complete restoration.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
@@ -271,7 +357,13 @@ export default function Page() {
                   What areas of Lubbock do you serve for storm damage repair?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence since 2014 ensures prompt response and expert service across greater Lubbock.
+                  We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park,
+                  and areas surrounding Texas Tech University and the National Ranching Heritage
+                  Center. Our service extends throughout the South Plains agricultural region to
+                  rural properties and farm buildings. We're familiar with specific challenges in
+                  each area, from historic homes near the Buddy Holly Center requiring specialized
+                  repairs to modern developments with HOA requirements. Our local presence since
+                  2014 ensures prompt response and expert service across greater Lubbock.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
@@ -279,7 +371,14 @@ export default function Page() {
                   Can storm damage be prevented in Lubbock's severe weather?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg text-gray-700">
-                  While storms can't be prevented, proper preparation minimizes damage. Class 4 impact-resistant shingles reduce hail damage significantly. Proper attic ventilation prevents ice dam formation. Regular inspections identify weak spots before storms hit. Trim trees near the roof to prevent debris impact. Ensure proper flashing around chimneys and vents. Install high-wind rated shingles for South Plains conditions. Our preventive maintenance program includes pre-storm inspections, minor repairs, and recommendations to strengthen your roof against Lubbock's severe weather threats.
+                  While storms can't be prevented, proper preparation minimizes damage. Class 4
+                  impact-resistant shingles reduce hail damage significantly. Proper attic
+                  ventilation prevents ice dam formation. Regular inspections identify weak spots
+                  before storms hit. Trim trees near the roof to prevent debris impact. Ensure
+                  proper flashing around chimneys and vents. Install high-wind rated shingles for
+                  South Plains conditions. Our preventive maintenance program includes pre-storm
+                  inspections, minor repairs, and recommendations to strengthen your roof against
+                  Lubbock's severe weather threats.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -305,22 +404,28 @@ export default function Page() {
         </FadeIn>
         <InternalLinks currentCity="lubbock" currentService="storm-damage-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections and estimates for Lubbock property owners. Expert storm damage repair with honest assessments and fair pricing.
+            Free inspections and estimates for Lubbock property owners. Expert storm damage repair
+            with honest assessments and fair pricing.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Consultation
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="storm-damage-repair-lubbock" />
+        <RelatedArticles pageSlug="storm-damage-repair-lubbock" />
       </div>
     </>
   );

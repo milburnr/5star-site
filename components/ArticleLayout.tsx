@@ -12,8 +12,18 @@ interface Props {
 
 // Deterministic date formatter — no locale/TZ variance between server and client.
 const MONTHS = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December",
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 function formatDate(iso: string): string {
   const [y, m, d] = iso.split("-").map((s) => Number.parseInt(s, 10));
@@ -137,24 +147,14 @@ export function ArticleLayout({ article, children }: Props) {
           {frontmatter.faq && frontmatter.faq.length > 0 && (
             <FadeIn>
               <section className="mt-16" aria-labelledby="faq-heading">
-                <h2
-                  id="faq-heading"
-                  className="text-3xl font-bold text-gray-primary mb-6"
-                >
+                <h2 id="faq-heading" className="text-3xl font-bold text-gray-primary mb-6">
                   Frequently Asked Questions
                 </h2>
                 <div className="space-y-6">
                   {frontmatter.faq.map((item, i) => (
-                    <div
-                      key={i}
-                      className="border-l-4 border-brand-gold pl-5"
-                    >
-                      <h3 className="text-xl font-semibold text-gray-primary mb-2">
-                        {item.q}
-                      </h3>
-                      <p className="text-gray-text leading-relaxed">
-                        {item.a}
-                      </p>
+                    <div key={i} className="border-l-4 border-brand-gold pl-5">
+                      <h3 className="text-xl font-semibold text-gray-primary mb-2">{item.q}</h3>
+                      <p className="text-gray-text leading-relaxed">{item.a}</p>
                     </div>
                   ))}
                 </div>
@@ -168,8 +168,8 @@ export function ArticleLayout({ article, children }: Props) {
                 Need a roof inspection{frontmatter.city ? ` in ${frontmatter.city}` : ""}?
               </h2>
               <p className="text-gray-200 mb-6 leading-relaxed">
-                Free, no-pressure roof inspections from a locally owned Amarillo
-                company. We&apos;ll walk you through exactly what we find — with photos.
+                Free, no-pressure roof inspections from a locally owned Amarillo company. We&apos;ll
+                walk you through exactly what we find — with photos.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a

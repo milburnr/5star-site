@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     "TPO roofing installation, repair, and maintenance for commercial and flat roof buildings across West Texas. Energy-efficient membranes. Call (806) 622-6041.",
   openGraph: {
     title: "TPO Roofing West Texas | 5 Star Roofing",
-    description: "TPO roofing installation, repair, and maintenance for commercial and flat roof buildings across West Texas. Energy-efficient membranes. Call (806) 622-6041.",
+    description:
+      "TPO roofing installation, repair, and maintenance for commercial and flat roof buildings across West Texas. Energy-efficient membranes. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/tpo-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -47,23 +48,78 @@ export default function Page() {
       parentOrganization: {
         "@id": "https://5starroofingpros.com/#organization",
       },
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
     },
     areaServed: [
-      { "@type": "City", name: "Amarillo", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Andrews", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Big Spring", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Borger", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Canyon", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Dumas", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Levelland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Lubbock", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Midland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Monahans", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Odessa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Pampa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Perryton", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Snyder", address: { "@type": "PostalAddress", addressRegion: "TX" } },
+      {
+        "@type": "City",
+        name: "Amarillo",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Andrews",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Big Spring",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Borger",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Canyon",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Dumas",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Levelland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Lubbock",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Midland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Monahans",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Odessa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Pampa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Perryton",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Snyder",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
     ],
     description:
       "Professional TPO roofing installation, repair, and maintenance services for commercial buildings across West Texas. Energy-efficient single-ply membrane systems.",
@@ -205,7 +261,10 @@ export default function Page() {
             seams resist the Panhandle&apos;s relentless winds, and its price point works for
             businesses of every size. 5 Star Roofing installs, repairs, and maintains TPO systems
             across our{" "}
-            <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+            <a
+              href="/service-areas/"
+              className="text-brand-brown hover:text-brand-gold underline font-semibold"
+            >
               14-city service area
             </a>
             .
@@ -306,7 +365,10 @@ export default function Page() {
               With proper installation and annual maintenance, TPO roofs consistently deliver 15-30
               years of service. The 80-mil membranes we recommend for West Texas buildings trend
               toward the upper end of that range with regular{" "}
-              <a href="/roof-inspections/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/roof-inspections/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 inspections
               </a>
               .
@@ -324,7 +386,9 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">How Does TPO Compare to Other Flat Roof Systems?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          How Does TPO Compare to Other Flat Roof Systems?
+        </h2>
         <p className="mb-4">
           Choosing the right flat roof system depends on your building, budget, and priorities. Here
           is how TPO compares to the other major options:
@@ -389,9 +453,12 @@ export default function Page() {
         <p className="text-gray-700 mb-4">
           For most commercial buildings in the Panhandle and Permian Basin, TPO provides the best
           combination of energy savings, wind resistance, and installed cost. PVC is the better
-          choice when chemical exposure from grease vents or industrial exhaust is a primary concern.
-          Learn more about all our{" "}
-          <a href="/commercial-roofing/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+          choice when chemical exposure from grease vents or industrial exhaust is a primary
+          concern. Learn more about all our{" "}
+          <a
+            href="/commercial-roofing/"
+            className="text-brand-brown hover:text-brand-gold underline font-semibold"
+          >
             commercial roofing options
           </a>
           .
@@ -500,9 +567,9 @@ export default function Page() {
             Is TPO roofing good for the West Texas climate?
           </h3>
           <p className="text-gray-700">
-            TPO is one of the best flat roof options for West Texas. Its white reflective surface can
-            reduce cooling costs by 20-30% during summer months when temperatures regularly exceed
-            100 degrees. TPO also resists UV degradation, handles temperature cycling between
+            TPO is one of the best flat roof options for West Texas. Its white reflective surface
+            can reduce cooling costs by 20-30% during summer months when temperatures regularly
+            exceed 100 degrees. TPO also resists UV degradation, handles temperature cycling between
             extreme heat and occasional freezing, and its heat-welded seams stand up to the high
             winds common in the Panhandle and Permian Basin.
           </p>
@@ -524,11 +591,11 @@ export default function Page() {
             Can a TPO roof be repaired or does it need full replacement?
           </h3>
           <p className="text-gray-700">
-            TPO roofs can absolutely be repaired. Small punctures, tears, and seam failures are fixed
-            by heat-welding patches of matching TPO membrane over the damaged area. If damage covers
-            less than 25% of the roof surface and the membrane is not at the end of its lifespan,
-            repair is almost always more cost-effective than replacement. We inspect the full roof
-            before recommending either option.
+            TPO roofs can absolutely be repaired. Small punctures, tears, and seam failures are
+            fixed by heat-welding patches of matching TPO membrane over the damaged area. If damage
+            covers less than 25% of the roof surface and the membrane is not at the end of its
+            lifespan, repair is almost always more cost-effective than replacement. We inspect the
+            full roof before recommending either option.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -579,7 +646,7 @@ export default function Page() {
           </a>
         </div>
       </section>
-    <RelatedArticles pageSlug="tpo-roofing" />
+      <RelatedArticles pageSlug="tpo-roofing" />
     </div>
   );
 }

@@ -12,15 +12,29 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { Droplets, Factory, Hospital, Landmark, Phone, Plane, School, Star, Store, Thermometer, Wheat } from "lucide-react";
+import {
+  Droplets,
+  Factory,
+  Hospital,
+  Landmark,
+  Phone,
+  Plane,
+  School,
+  Star,
+  Store,
+  Thermometer,
+  Wheat,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-inspections-snyder/' },
+  alternates: { canonical: "https://5starroofingpros.com/roof-inspections-snyder/" },
   title: "Roof Inspections Snyder TX | 5 Star Roofing",
-  description: "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+  description:
+    "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Roof Inspections Snyder TX | 5 Star Roofing",
-    description: "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
+    description:
+      "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/roof-inspections-snyder/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,99 +52,137 @@ export const metadata: Metadata = {
 
 export default function RoofInspectionsSnyderPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Roof Inspections",
-                      "url": "/roof-inspections/"
-              },
-              {
-                      "name": "Snyder",
-                      "url": "/roof-inspections-snyder/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Inspections",
+            url: "/roof-inspections/",
+          },
+          {
+            name: "Snyder",
+            url: "/roof-inspections-snyder/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/roof-inspections-snyder/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 32.7179, "longitude": -100.9176 },
-        "url": "https://5starroofingpros.com/roof-inspections-snyder/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas", "name": "Snyder", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roof inspections services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/roof-inspections-snyder/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 32.7179, longitude: -100.9176 },
+            url: "https://5starroofingpros.com/roof-inspections-snyder/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
+              name: "Snyder",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roof inspections services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Roof Inspections",
-            "provider": {
+            serviceType: "Roof Inspections",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Snyder",
+              name: "Snyder",
               "@id": "https://en.wikipedia.org/wiki/Snyder,_Texas",
-              "containedInPlace": {
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually."
-          })
+            description:
+              "Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually.",
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-brand-brown/85 via-brand-brown/75 to-brand-brown/70"></div>
@@ -144,12 +196,17 @@ export default function RoofInspectionsSnyderPage() {
                 West Texas Roof Inspections Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms annually. Free inspections. Call (806) 622-6041
+                Professional roof inspections in Snyder TX. West Texas experiences 7-9 hailstorms
+                annually. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -157,16 +214,13 @@ export default function RoofInspectionsSnyderPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  10+
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">7-9</div>
@@ -177,14 +231,19 @@ export default function RoofInspectionsSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -192,10 +251,17 @@ export default function RoofInspectionsSnyderPage() {
               What Makes Our Snyder Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Snyder's location in Scurry County creates unique roofing challenges. The West Texas experiences 7-9 hailstorms annually, sustained high winds, extreme temperature fluctuations, and severe weather conditions. Your roofing system must withstand these demanding conditions year after year.
+              Snyder's location in Scurry County creates unique roofing challenges. The West Texas
+              experiences 7-9 hailstorms annually, sustained high winds, extreme temperature
+              fluctuations, and severe weather conditions. Your roofing system must withstand these
+              demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and Scurry County with premium materials and expert installation. From properties near Scurry County Museum to buildings throughout Snyder, we understand West Texas weather patterns, local building codes, and the specific needs of Scurry County property owners.
+              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and
+              Scurry County with premium materials and expert installation. From properties near
+              Scurry County Museum to buildings throughout Snyder, we understand West Texas weather
+              patterns, local building codes, and the specific needs of Scurry County property
+              owners.
             </p>
           </section>
         </FadeIn>
@@ -223,31 +289,50 @@ export default function RoofInspectionsSnyderPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Our Comprehensive Roof Inspection Services for West Texas Properties Include?
+              What Does Our Comprehensive Roof Inspection Services for West Texas Properties
+              Include?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Damage Detection</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  West Texas supercells and hailstorms can cause subtle damage that worsens over time. Our certified inspectors use advanced technology including thermal imaging, moisture meters, and electronic leak detection to identify hidden damage that could lead to expensive failures.
+                  West Texas supercells and hailstorms can cause subtle damage that worsens over
+                  time. Our certified inspectors use advanced technology including thermal imaging,
+                  moisture meters, and electronic leak detection to identify hidden damage that
+                  could lead to expensive failures.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Preventive Maintenance Planning</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Preventive Maintenance Planning
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Regular inspections prevent small issues from becoming major repairs. Our comprehensive assessment identifies maintenance needs, recommends improvement priorities, and develops customized maintenance schedules for Scurry County's challenging climate conditions.
+                  Regular inspections prevent small issues from becoming major repairs. Our
+                  comprehensive assessment identifies maintenance needs, recommends improvement
+                  priorities, and develops customized maintenance schedules for Scurry County's
+                  challenging climate conditions.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Insurance Documentation</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Insurance Documentation
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Proper documentation supports insurance claims and warranty compliance. Our detailed inspection reports include high-resolution photography, precise measurements, and professional assessments that insurance adjusters and warranty administrators accept without question.
+                  Proper documentation supports insurance claims and warranty compliance. Our
+                  detailed inspection reports include high-resolution photography, precise
+                  measurements, and professional assessments that insurance adjusters and warranty
+                  administrators accept without question.
                 </p>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Energy Efficiency Analysis</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                  Energy Efficiency Analysis
+                </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Rising energy costs make roof performance critical. Our inspections evaluate insulation effectiveness, air leakage, thermal bridging, and reflective surface condition to identify opportunities for energy savings and improved building comfort.
+                  Rising energy costs make roof performance critical. Our inspections evaluate
+                  insulation effectiveness, air leakage, thermal bridging, and reflective surface
+                  condition to identify opportunities for energy savings and improved building
+                  comfort.
                 </p>
               </div>
             </div>
@@ -261,29 +346,45 @@ export default function RoofInspectionsSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl mb-4"><Plane className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Plane className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Drone Surveys</h3>
                 <p className="text-gray-700">
-                  Our professional drone pilots conduct comprehensive aerial surveys that provide detailed imagery of roof conditions, damage assessment, and safety documentation without putting inspectors at risk on dangerous roof areas.
+                  Our professional drone pilots conduct comprehensive aerial surveys that provide
+                  detailed imagery of roof conditions, damage assessment, and safety documentation
+                  without putting inspectors at risk on dangerous roof areas.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Thermometer className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Thermometer className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Thermal Imaging</h3>
                 <p className="text-gray-700">
-                  Advanced thermal cameras detect moisture intrusion, insulation defects, and energy loss patterns invisible to standard visual inspection. This technology identifies problems before they cause visible damage to your building.
+                  Advanced thermal cameras detect moisture intrusion, insulation defects, and energy
+                  loss patterns invisible to standard visual inspection. This technology identifies
+                  problems before they cause visible damage to your building.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Droplets className="w-6 h-6 inline-block" /></div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">Electronic Leak Detection</h3>
+                <div className="text-5xl mb-4">
+                  <Droplets className="w-6 h-6 inline-block" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">
+                  Electronic Leak Detection
+                </h3>
                 <p className="text-gray-700">
-                  Specialized electronic equipment pinpoints the exact location of membrane breaches and water intrusion points. This precise detection eliminates guesswork and ensures repairs target actual problems rather than symptoms.
+                  Specialized electronic equipment pinpoints the exact location of membrane breaches
+                  and water intrusion points. This precise detection eliminates guesswork and
+                  ensures repairs target actual problems rather than symptoms.
                 </p>
               </div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-brand-brown mb-4">Inspection Technology Benefits</h3>
+              <h3 className="text-2xl font-bold text-brand-brown mb-4">
+                Inspection Technology Benefits
+              </h3>
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2">100%</div>
@@ -317,9 +418,14 @@ export default function RoofInspectionsSnyderPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Pre-Inspection Planning</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Pre-Inspection Planning
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our team reviews property records, previous inspection reports, and local weather history to understand your roof's background. We coordinate access requirements, safety protocols, and any special considerations for agricultural or industrial properties common in Scurry County.
+                    Our team reviews property records, previous inspection reports, and local
+                    weather history to understand your roof's background. We coordinate access
+                    requirements, safety protocols, and any special considerations for agricultural
+                    or industrial properties common in Scurry County.
                   </p>
                 </div>
               </div>
@@ -330,7 +436,10 @@ export default function RoofInspectionsSnyderPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Exterior Assessment</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    We conduct thorough exterior inspection using drones and direct access where safe. This includes membrane condition, fastener integrity, flashing systems, drainage components, and equipment mounting areas. Every detail is photographed and documented with GPS coordinates.
+                    We conduct thorough exterior inspection using drones and direct access where
+                    safe. This includes membrane condition, fastener integrity, flashing systems,
+                    drainage components, and equipment mounting areas. Every detail is photographed
+                    and documented with GPS coordinates.
                   </p>
                 </div>
               </div>
@@ -339,9 +448,14 @@ export default function RoofInspectionsSnyderPage() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Interior Investigation</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Interior Investigation
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Interior inspection reveals moisture intrusion, insulation performance, and structural conditions. We use moisture meters, thermal imaging, and visual assessment to identify problems not visible from the exterior. This step is crucial for agricultural buildings with hay storage or livestock areas.
+                    Interior inspection reveals moisture intrusion, insulation performance, and
+                    structural conditions. We use moisture meters, thermal imaging, and visual
+                    assessment to identify problems not visible from the exterior. This step is
+                    crucial for agricultural buildings with hay storage or livestock areas.
                   </p>
                 </div>
               </div>
@@ -352,7 +466,10 @@ export default function RoofInspectionsSnyderPage() {
                 <div>
                   <h3 className="text-xl font-bold text-brand-brown mb-3">Technical Analysis</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Our certified inspectors analyze findings against manufacturer specifications, local building codes, and industry standards. We evaluate storm damage potential, energy efficiency opportunities, and prioritize recommendations based on risk assessment and budget considerations.
+                    Our certified inspectors analyze findings against manufacturer specifications,
+                    local building codes, and industry standards. We evaluate storm damage
+                    potential, energy efficiency opportunities, and prioritize recommendations based
+                    on risk assessment and budget considerations.
                   </p>
                 </div>
               </div>
@@ -361,9 +478,14 @@ export default function RoofInspectionsSnyderPage() {
                   5
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-brand-brown mb-3">Comprehensive Reporting</h3>
+                  <h3 className="text-xl font-bold text-brand-brown mb-3">
+                    Comprehensive Reporting
+                  </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Within 24 hours, you receive a detailed inspection report with high-resolution photos, thermal images, priority rankings, and cost estimates. Our reports meet insurance and warranty requirements while providing clear guidance for property management decisions.
+                    Within 24 hours, you receive a detailed inspection report with high-resolution
+                    photos, thermal images, priority rankings, and cost estimates. Our reports meet
+                    insurance and warranty requirements while providing clear guidance for property
+                    management decisions.
                   </p>
                 </div>
               </div>
@@ -382,23 +504,41 @@ export default function RoofInspectionsSnyderPage() {
                   How often should commercial roofs be inspected in West Texas?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We recommend bi-annual inspections (spring and fall) for all commercial properties in West Texas, with additional post-storm inspections after severe weather events. The intense UV exposure, temperature extremes, and frequent severe weather in Scurry County accelerate roof aging and require more frequent monitoring than milder climates.
+                  We recommend bi-annual inspections (spring and fall) for all commercial properties
+                  in West Texas, with additional post-storm inspections after severe weather events.
+                  The intense UV exposure, temperature extremes, and frequent severe weather in
+                  Scurry County accelerate roof aging and require more frequent monitoring than
+                  milder climates.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="storm-damage-detection" className="bg-white rounded-lg shadow-md">
+              <AccordionItem
+                value="storm-damage-detection"
+                className="bg-white rounded-lg shadow-md"
+              >
                 <AccordionTrigger className="px-6 py-4 text-left text-lg font-semibold text-brand-brown">
                   Can inspections detect storm damage that's not visible from the ground?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Absolutely. Our drone surveys and thermal imaging detect membrane punctures, fastener loosening, and impact damage invisible from ground level. Hail damage, in particular, can cause micro-fractures and membrane bruising that only show up under thermal analysis or close inspection. Early detection prevents these minor issues from becoming major leaks.
+                  Absolutely. Our drone surveys and thermal imaging detect membrane punctures,
+                  fastener loosening, and impact damage invisible from ground level. Hail damage, in
+                  particular, can cause micro-fractures and membrane bruising that only show up
+                  under thermal analysis or close inspection. Early detection prevents these minor
+                  issues from becoming major leaks.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="agricultural-considerations" className="bg-white rounded-lg shadow-md">
+              <AccordionItem
+                value="agricultural-considerations"
+                className="bg-white rounded-lg shadow-md"
+              >
                 <AccordionTrigger className="px-6 py-4 text-left text-lg font-semibold text-brand-brown">
                   Do agricultural buildings require different inspection approaches?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Yes, agricultural buildings present unique challenges including chemical exposure from fertilizers, moisture from livestock areas, and heavy equipment loads. Our agricultural inspections evaluate ventilation adequacy, chemical resistance, and structural capacity while working around operational requirements like harvest schedules and livestock care.
+                  Yes, agricultural buildings present unique challenges including chemical exposure
+                  from fertilizers, moisture from livestock areas, and heavy equipment loads. Our
+                  agricultural inspections evaluate ventilation adequacy, chemical resistance, and
+                  structural capacity while working around operational requirements like harvest
+                  schedules and livestock care.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="energy-assessment" className="bg-white rounded-lg shadow-md">
@@ -406,7 +546,10 @@ export default function RoofInspectionsSnyderPage() {
                   Do roof inspections include energy efficiency evaluation?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Our comprehensive inspections include thermal imaging analysis that reveals energy loss patterns, insulation defects, and air leakage points. This information helps property owners reduce energy costs and improve building comfort. We often identify energy savings opportunities that pay for roof improvements over time.
+                  Our comprehensive inspections include thermal imaging analysis that reveals energy
+                  loss patterns, insulation defects, and air leakage points. This information helps
+                  property owners reduce energy costs and improve building comfort. We often
+                  identify energy savings opportunities that pay for roof improvements over time.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="insurance-benefits" className="bg-white rounded-lg shadow-md">
@@ -414,7 +557,11 @@ export default function RoofInspectionsSnyderPage() {
                   How do regular inspections help with insurance claims?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Regular inspection reports establish baseline roof conditions and document proper maintenance, which insurance companies value when processing claims. Our detailed documentation helps distinguish new storm damage from pre-existing conditions, often resulting in better claim settlements. Some insurers offer premium discounts for properties with regular professional inspections.
+                  Regular inspection reports establish baseline roof conditions and document proper
+                  maintenance, which insurance companies value when processing claims. Our detailed
+                  documentation helps distinguish new storm damage from pre-existing conditions,
+                  often resulting in better claim settlements. Some insurers offer premium discounts
+                  for properties with regular professional inspections.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="cost-savings" className="bg-white rounded-lg shadow-md">
@@ -422,7 +569,11 @@ export default function RoofInspectionsSnyderPage() {
                   How do inspections save money in the long run?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Regular inspections identify small problems before they become expensive failures. A $200 inspection can prevent a $20,000 roof replacement by catching issues early. Our maintenance recommendations extend roof life, reduce energy costs, and prevent water damage that can cost tens of thousands in interior repairs and business interruption.
+                  Regular inspections identify small problems before they become expensive failures.
+                  A $200 inspection can prevent a $20,000 roof replacement by catching issues early.
+                  Our maintenance recommendations extend roof life, reduce energy costs, and prevent
+                  water damage that can cost tens of thousands in interior repairs and business
+                  interruption.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -436,39 +587,65 @@ export default function RoofInspectionsSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Wheat className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Wheat className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Agricultural Facilities</h3>
-                <p className="text-gray-600 text-sm">Grain storage, livestock barns, equipment buildings, processing facilities</p>
+                <p className="text-gray-600 text-sm">
+                  Grain storage, livestock barns, equipment buildings, processing facilities
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><School className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <School className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Educational Buildings</h3>
-                <p className="text-gray-600 text-sm">Schools, colleges, libraries, training centers</p>
+                <p className="text-gray-600 text-sm">
+                  Schools, colleges, libraries, training centers
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Hospital className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Hospital className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Healthcare Facilities</h3>
-                <p className="text-gray-600 text-sm">Hospitals, clinics, medical offices, assisted living</p>
+                <p className="text-gray-600 text-sm">
+                  Hospitals, clinics, medical offices, assisted living
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Store className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Store className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Commercial Properties</h3>
-                <p className="text-gray-600 text-sm">Retail centers, office buildings, restaurants, banks</p>
+                <p className="text-gray-600 text-sm">
+                  Retail centers, office buildings, restaurants, banks
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Factory className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Factory className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Industrial Buildings</h3>
-                <p className="text-gray-600 text-sm">Manufacturing, processing plants, warehouses, distribution</p>
+                <p className="text-gray-600 text-sm">
+                  Manufacturing, processing plants, warehouses, distribution
+                </p>
               </div>
               <div className="text-center p-6">
-                <div className="text-4xl mb-3"><Landmark className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-3">
+                  <Landmark className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="font-bold text-brand-brown mb-2">Government Buildings</h3>
-                <p className="text-gray-600 text-sm">Municipal offices, courthouse, prompt services, utilities</p>
+                <p className="text-gray-600 text-sm">
+                  Municipal offices, courthouse, prompt services, utilities
+                </p>
               </div>
             </div>
             <div className="mt-8 text-center">
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                From historic downtown Snyder buildings to modern agricultural operations throughout the Rolling Plains, we provide comprehensive roof inspections that protect property investments and ensure optimal building performance.
+                From historic downtown Snyder buildings to modern agricultural operations throughout
+                the Rolling Plains, we provide comprehensive roof inspections that protect property
+                investments and ensure optimal building performance.
               </p>
             </div>
           </section>
@@ -481,9 +658,12 @@ export default function RoofInspectionsSnyderPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">Spring Inspection (March-April)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">
+                  Spring Inspection (March-April)
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Pre-storm season inspection to identify and repair winter damage before severe weather arrives.
+                  Pre-storm season inspection to identify and repair winter damage before severe
+                  weather arrives.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Winter freeze damage assessment</li>
@@ -494,9 +674,12 @@ export default function RoofInspectionsSnyderPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-brand-brown mb-4">Fall Inspection (October-November)</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-4">
+                  Fall Inspection (October-November)
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Post-storm season inspection to assess summer weather damage and prepare for winter.
+                  Post-storm season inspection to assess summer weather damage and prepare for
+                  winter.
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Storm season damage evaluation</li>
@@ -508,7 +691,10 @@ export default function RoofInspectionsSnyderPage() {
               </div>
             </div>
             <div className="text-center mt-8">
-              <a href="tel:8066226041" className="bg-brand-gold-vibrant hover:bg-brand-gold text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 inline-block">
+              <a
+                href="tel:8066226041"
+                className="bg-brand-gold-vibrant hover:bg-brand-gold text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 inline-block"
+              >
                 Schedule Your Seasonal Inspection
               </a>
             </div>
@@ -516,22 +702,29 @@ export default function RoofInspectionsSnyderPage() {
         </FadeIn>
         <InternalLinks currentCity="snyder" currentService="roof-inspections" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Protect Your Snyder Investment</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Professional roof inspections for West Texas properties. Our advanced technology and local expertise help you maintain, protect, and maximize the performance of your roofing investment. Trust Scurry County's inspection specialists.
+            Professional roof inspections for West Texas properties. Our advanced technology and
+            local expertise help you maintain, protect, and maximize the performance of your roofing
+            investment. Trust Scurry County's inspection specialists.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="roof-inspections-snyder" />
+        <RelatedArticles pageSlug="roof-inspections-snyder" />
       </div>
     </>
   );

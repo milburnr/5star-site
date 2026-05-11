@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Beef, Landmark, Phone, Star, Wheat } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/roof-repair-dumas/' },
+  alternates: { canonical: "https://5starroofingpros.com/roof-repair-dumas/" },
   title: "Roof Repair Dumas TX | 5 Star Roofing",
-  description: "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  description:
+    "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Roof Repair Dumas TX | 5 Star Roofing",
-    description: "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/roof-repair-dumas/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,149 +40,188 @@ export const metadata: Metadata = {
 
 export default function RoofRepairDumasPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Roof Repair",
-                      "url": "/roof-repair/"
-              },
-              {
-                      "name": "Dumas",
-                      "url": "/roof-repair-dumas/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Dumas",
+            url: "/roof-repair-dumas/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/roof-repair-dumas/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.8656, "longitude": -101.973 },
-        "url": "https://5starroofingpros.com/roof-repair-dumas/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas", "name": "Dumas", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roof repair services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/roof-repair-dumas/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.8656, longitude: -101.973 },
+            url: "https://5starroofingpros.com/roof-repair-dumas/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
+              name: "Dumas",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roof repair services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Roof Repair",
-            "provider": {
+            serviceType: "Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"}
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Dumas,_Texas",
-              "name": "Dumas",
-              "containedInPlace": {
+              name: "Dumas",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "How much does roof repair cost in Dumas?",
-                "acceptedAnswer": {
+                name: "How much does roof repair cost in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage."
-                }
+                  text: "Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly can you repair my leaking roof in Dumas?",
-                "acceptedAnswer": {
+                name: "How quickly can you repair my leaking roof in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality."
-                }
+                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Should I repair or replace my roof?",
-                "acceptedAnswer": {
+                name: "Should I repair or replace my roof?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation."
-                }
+                  text: "Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Do you warranty your roof repairs?",
-                "acceptedAnswer": {
+                name: "Do you warranty your roof repairs?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last."
-                }
+                  text: "Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What are the most common roof repairs in Dumas?",
-                "acceptedAnswer": {
+                name: "What are the most common roof repairs in Dumas?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "In Dumas, the most common repairs include hail-damaged shingles from the area's 7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed flashing around chimneys and vents, and leak repairs. The agricultural and feedlot industry environment combined with severe Panhandle weather creates specific damage patterns we repair regularly."
-                }
-              }
-            ]
-          })
+                  text: "In Dumas, the most common repairs include hail-damaged shingles from the area's 7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed flashing around chimneys and vents, and leak repairs. The agricultural and feedlot industry environment combined with severe Panhandle weather creates specific damage patterns we repair regularly.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-orange-900/85 via-red-900/75 to-orange-900/70"></div>
@@ -194,12 +235,17 @@ export default function RoofRepairDumasPage() {
                 Fast, Professional Repairs | Same-Day Service Available
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert roof repair in Dumas TX. Texas Panhandle experiences 6-8 hailstorms annually.
+                High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -207,7 +253,6 @@ export default function RoofRepairDumasPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
@@ -227,14 +272,19 @@ export default function RoofRepairDumasPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -242,10 +292,17 @@ export default function RoofRepairDumasPage() {
               What Makes Our Dumas Roof Repair Specialists Different?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Dumas's location in the Texas Panhandle creates unique roofing challenges. Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands with extreme Panhandle weather—demand superior roofing materials and expert installation.
+              Dumas's location in the Texas Panhandle creates unique roofing challenges.
+              Agricultural and feedlot industry center. Texas Panhandle weather extremes—6-8 annual
+              hailstorms, High Plains winds 60+ mph, and agricultural and feedlot industry demands
+              with extreme Panhandle weather—demand superior roofing materials and expert
+              installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered for Panhandle weather. We understand local building codes, work seamlessly with Dumas property owners, and handle complete insurance claims. Most homeowners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              for Panhandle weather. We understand local building codes, work seamlessly with Dumas
+              property owners, and handle complete insurance claims. Most homeowners pay only their
+              deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -256,48 +313,81 @@ export default function RoofRepairDumasPage() {
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How much does roof repair cost in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Repair costs vary widely based on damage extent and accessibility. Simple shingle replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex structural repairs range from $1,500-$5,000. We provide free inspections with detailed written estimates before any work begins. Many repairs are insurance-covered, especially storm damage.
+                  Repair costs vary widely based on damage extent and accessibility. Simple shingle
+                  replacements range from $300-$800. Flashing repairs run $400-$1,200. Complex
+                  structural repairs range from $1,500-$5,000. We provide free inspections with
+                  detailed written estimates before any work begins. Many repairs are
+                  insurance-covered, especially storm damage.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How quickly can you repair my leaking roof in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.
+                  For active leaks, we provide prompt service when called before noon on most days.
+                  Standard repairs are typically scheduled within 3-5 business days. Most repairs
+                  complete in 2-4 hours depending on complexity. We understand roof leaks cause
+                  stress and damage—we prioritize prompt response without sacrificing quality.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Should I repair or replace my roof?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Repair makes sense for roofs under 15 years old with localized damage affecting less than 30% of surface area. Replacement is recommended when roofs exceed 20 years, show widespread damage, or require multiple repair areas. Our free inspections provide honest assessments—we recommend the most cost-effective solution for your situation.
+                  Repair makes sense for roofs under 15 years old with localized damage affecting
+                  less than 30% of surface area. Replacement is recommended when roofs exceed 20
+                  years, show widespread damage, or require multiple repair areas. Our free
+                  inspections provide honest assessments—we recommend the most cost-effective
+                  solution for your situation.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you warranty your roof repairs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, all our repairs include workmanship warranties ranging from 1-5 years depending on repair type. Materials carry manufacturer warranties. We stand behind our work—if a repair fails due to installation error, we fix it at no charge. This warranty protection gives you peace of mind that repairs will last.
+                  Yes, all our repairs include workmanship warranties ranging from 1-5 years
+                  depending on repair type. Materials carry manufacturer warranties. We stand behind
+                  our work—if a repair fails due to installation error, we fix it at no charge. This
+                  warranty protection gives you peace of mind that repairs will last.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What are the most common roof repairs in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  In Dumas, the most common repairs include hail-damaged shingles from the area's 7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed flashing around chimneys and vents, and leak repairs. The agricultural and feedlot industry environment combined with severe Panhandle weather creates specific damage patterns we repair regularly.
+                  In Dumas, the most common repairs include hail-damaged shingles from the area's
+                  7-9 annual hailstorms, wind-lifted shingles from High Plains winds, failed
+                  flashing around chimneys and vents, and leak repairs. The agricultural and feedlot
+                  industry environment combined with severe Panhandle weather creates specific
+                  damage patterns we repair regularly.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -306,9 +396,20 @@ export default function RoofRepairDumasPage() {
 
         <FadeIn>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">Visit Our Amarillo Location</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
+              Visit Our Amarillo Location
+            </h2>
             <div className="flex justify-center">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="rounded-xl shadow-lg"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78185.92551807764!2d-101.86983241996795!3d35.17090106883206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87015bd4a4880b03%3A0x9e1766fda6243b2b!2s5%20FIVE%20STAR%20Residential%20and%20Commercial%20Roofing!5e0!3m2!1sen!2sus!4v1768070164878!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl shadow-lg"
+              ></iframe>
             </div>
           </section>
         </FadeIn>
@@ -320,9 +421,13 @@ export default function RoofRepairDumasPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Agricultural Industry Specialist</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Agricultural Industry Specialist
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Dumas is Moore County's agricultural hub, home to massive cattle feedlots and grain storage facilities. We specialize in agricultural building roofing, understanding the unique demands of livestock operations and commodity storage.
+                  Dumas is Moore County's agricultural hub, home to massive cattle feedlots and
+                  grain storage facilities. We specialize in agricultural building roofing,
+                  understanding the unique demands of livestock operations and commodity storage.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Feedlot building repairs</li>
@@ -335,7 +440,9 @@ export default function RoofRepairDumasPage() {
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">County Seat Services</h3>
                 <p className="text-gray-700 mb-4">
-                  As Moore County's county seat, Dumas hosts government buildings, courthouse facilities, and municipal structures requiring specialized roofing expertise for public buildings and institutional requirements.
+                  As Moore County's county seat, Dumas hosts government buildings, courthouse
+                  facilities, and municipal structures requiring specialized roofing expertise for
+                  public buildings and institutional requirements.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Government building maintenance</li>
@@ -346,9 +453,13 @@ export default function RoofRepairDumasPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Industrial Ammonia Environment</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Industrial Ammonia Environment
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Dumas's agricultural operations include significant ammonia production and storage facilities. We provide specialized roofing services for buildings exposed to industrial chemicals and agricultural processing environments.
+                  Dumas's agricultural operations include significant ammonia production and storage
+                  facilities. We provide specialized roofing services for buildings exposed to
+                  industrial chemicals and agricultural processing environments.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Chemical-resistant roofing systems</li>
@@ -359,9 +470,13 @@ export default function RoofRepairDumasPage() {
               </div>
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Residential Community Support</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                  Residential Community Support
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Dumas's residential neighborhoods house agricultural workers, county employees, and industrial personnel. We provide comprehensive residential roofing services tailored to this working community's needs and schedules.
+                  Dumas's residential neighborhoods house agricultural workers, county employees,
+                  and industrial personnel. We provide comprehensive residential roofing services
+                  tailored to this working community's needs and schedules.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Residential roof repairs</li>
@@ -381,40 +496,58 @@ export default function RoofRepairDumasPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Beef className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Beef className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Feedlot Operations</h3>
                 <p className="text-gray-700">
-                  Dumas hosts some of Texas's largest cattle feedlots, creating unique environmental challenges including ammonia exposure, dust, and moisture that accelerate roofing material degradation.
+                  Dumas hosts some of Texas's largest cattle feedlots, creating unique environmental
+                  challenges including ammonia exposure, dust, and moisture that accelerate roofing
+                  material degradation.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Wheat className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Grain Storage</h3>
                 <p className="text-gray-700">
-                  Massive grain storage and processing facilities require specialized roofing systems capable of handling structural loads, moisture control, and agricultural chemical exposure common in this industry.
+                  Massive grain storage and processing facilities require specialized roofing
+                  systems capable of handling structural loads, moisture control, and agricultural
+                  chemical exposure common in this industry.
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl text-brand-gold mb-4"><Landmark className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl text-brand-gold mb-4">
+                  <Landmark className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">County Government</h3>
                 <p className="text-gray-700">
-                  As Moore County's seat, Dumas maintains government buildings, courthouse facilities, and municipal structures requiring compliance with public building codes and accessibility standards.
+                  As Moore County's seat, Dumas maintains government buildings, courthouse
+                  facilities, and municipal structures requiring compliance with public building
+                  codes and accessibility standards.
                 </p>
               </div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold mb-4 text-brand-brown">Environmental Impact on Roofing</h3>
+              <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                Environmental Impact on Roofing
+              </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Ammonia Exposure</h4>
                   <p className="text-gray-700 mb-4">
-                    Agricultural operations in Dumas create airborne ammonia that can accelerate corrosion of metal roofing components and degrade certain membrane materials. Our material selection accounts for this chemical exposure.
+                    Agricultural operations in Dumas create airborne ammonia that can accelerate
+                    corrosion of metal roofing components and degrade certain membrane materials.
+                    Our material selection accounts for this chemical exposure.
                   </p>
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-2 text-brand-gold">Dust and Particulates</h4>
                   <p className="text-gray-700 mb-4">
-                    Feedlot operations and grain processing create high levels of airborne dust and organic particulates that can clog drainage systems and create additional moisture retention on roof surfaces.
+                    Feedlot operations and grain processing create high levels of airborne dust and
+                    organic particulates that can clog drainage systems and create additional
+                    moisture retention on roof surfaces.
                   </p>
                 </div>
               </div>
@@ -430,11 +563,17 @@ export default function RoofRepairDumasPage() {
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">1</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    1
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Schedule Coordination</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Agricultural Schedule Coordination
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      We understand that agricultural operations in Dumas run on demanding schedules tied to livestock care and commodity processing. Our storm response considers the critical nature of agricultural building integrity.
+                      We understand that agricultural operations in Dumas run on demanding schedules
+                      tied to livestock care and commodity processing. Our storm response considers
+                      the critical nature of agricultural building integrity.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Agricultural operation priority scheduling</li>
@@ -448,11 +587,17 @@ export default function RoofRepairDumasPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">2</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    2
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Environmental Impact Assessment</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Environmental Impact Assessment
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our inspectors evaluate not just weather damage but also environmental factors unique to Dumas's agricultural and industrial environment, including chemical exposure and organic material accumulation.
+                      Our inspectors evaluate not just weather damage but also environmental factors
+                      unique to Dumas's agricultural and industrial environment, including chemical
+                      exposure and organic material accumulation.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Chemical exposure evaluation</li>
@@ -466,11 +611,17 @@ export default function RoofRepairDumasPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">3</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    3
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural-Grade Materials</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Agricultural-Grade Materials
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      We specify materials designed for agricultural environments, including chemical-resistant coatings, enhanced drainage systems, and structural components rated for the unique loads of agricultural buildings.
+                      We specify materials designed for agricultural environments, including
+                      chemical-resistant coatings, enhanced drainage systems, and structural
+                      components rated for the unique loads of agricultural buildings.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Chemical-resistant materials</li>
@@ -484,11 +635,17 @@ export default function RoofRepairDumasPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">4</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    4
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Industry-Sensitive Installation</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Industry-Sensitive Installation
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Our installation teams work around agricultural operations, understanding the importance of maintaining livestock comfort and protecting stored commodities during the repair process.
+                      Our installation teams work around agricultural operations, understanding the
+                      importance of maintaining livestock comfort and protecting stored commodities
+                      during the repair process.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Livestock operation consideration</li>
@@ -502,11 +659,17 @@ export default function RoofRepairDumasPage() {
 
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-brand-gold">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">5</div>
+                  <div className="bg-brand-gold text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-lg">
+                    5
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-brand-brown">Agricultural Environment Monitoring</h3>
+                    <h3 className="text-xl font-bold mb-3 text-brand-brown">
+                      Agricultural Environment Monitoring
+                    </h3>
                     <p className="text-gray-700 mb-3">
-                      Given the harsh environmental conditions in Dumas's agricultural sector, we provide enhanced monitoring of repairs to ensure they perform as expected under chemical exposure and operational stress.
+                      Given the harsh environmental conditions in Dumas's agricultural sector, we
+                      provide enhanced monitoring of repairs to ensure they perform as expected
+                      under chemical exposure and operational stress.
                     </p>
                     <ul className="text-gray-600 space-y-1">
                       <li>• Chemical exposure monitoring</li>
@@ -528,9 +691,13 @@ export default function RoofRepairDumasPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Agricultural Industry Experience</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Agricultural Industry Experience
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  We understand the unique challenges of agricultural roofing in Moore County, from feedlot environments to grain storage facilities. Our team has specialized experience with agricultural building requirements.
+                  We understand the unique challenges of agricultural roofing in Moore County, from
+                  feedlot environments to grain storage facilities. Our team has specialized
+                  experience with agricultural building requirements.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• 190+ Dumas area projects completed</li>
@@ -541,9 +708,13 @@ export default function RoofRepairDumasPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Chemical-Resistant Solutions</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Chemical-Resistant Solutions
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Our material selection accounts for Dumas's agricultural environment, including exposure to ammonia, organic acids, and other chemicals common in livestock and grain processing operations.
+                  Our material selection accounts for Dumas's agricultural environment, including
+                  exposure to ammonia, organic acids, and other chemicals common in livestock and
+                  grain processing operations.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Chemical-resistant material specifications</li>
@@ -554,9 +725,13 @@ export default function RoofRepairDumasPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Operational Coordination</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Operational Coordination
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  We schedule our work around agricultural operations, understanding that livestock care and commodity processing cannot be interrupted for roofing work without careful planning and coordination.
+                  We schedule our work around agricultural operations, understanding that livestock
+                  care and commodity processing cannot be interrupted for roofing work without
+                  careful planning and coordination.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• Agricultural schedule accommodation</li>
@@ -568,7 +743,9 @@ export default function RoofRepairDumasPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">Moore County Compliance</h3>
                 <p className="text-gray-700 mb-4">
-                  As the county seat, Dumas requires compliance with various municipal and county building codes. We ensure all work meets local requirements for both private and public buildings.
+                  As the county seat, Dumas requires compliance with various municipal and county
+                  building codes. We ensure all work meets local requirements for both private and
+                  public buildings.
                 </p>
                 <ul className="text-gray-600 space-y-2">
                   <li>• County building code expertise</li>
@@ -588,7 +765,9 @@ export default function RoofRepairDumasPage() {
             </h2>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <p className="text-lg text-gray-700 mb-6">
-                From our Amarillo headquarters, we serve Dumas and the broader Moore County agricultural community, including residential, commercial, and agricultural properties throughout the area:
+                From our Amarillo headquarters, we serve Dumas and the broader Moore County
+                agricultural community, including residential, commercial, and agricultural
+                properties throughout the area:
               </p>
               <div className="grid md:grid-cols-4 gap-4 text-center">
                 <div className="p-4 bg-gray-50 rounded-lg">
@@ -609,9 +788,13 @@ export default function RoofRepairDumasPage() {
                 </div>
               </div>
               <div className="mt-6 p-6 bg-gradient-to-r from-brand-gold/10 to-brand-brown/10 rounded-xl">
-                <h4 className="text-lg font-bold text-brand-brown mb-2">Moore County Agricultural District</h4>
+                <h4 className="text-lg font-bold text-brand-brown mb-2">
+                  Moore County Agricultural District
+                </h4>
                 <p className="text-gray-700">
-                  We serve the extensive agricultural operations throughout Moore County, including major feedlots, grain storage facilities, and processing plants that form the backbone of the region's economy.
+                  We serve the extensive agricultural operations throughout Moore County, including
+                  major feedlots, grain storage facilities, and processing plants that form the
+                  backbone of the region's economy.
                 </p>
               </div>
             </div>
@@ -619,22 +802,28 @@ export default function RoofRepairDumasPage() {
         </FadeIn>
         <InternalLinks currentCity="dumas" currentService="roof-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Dumas Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Dumas property owners. Expert roof repair with comprehensive warranties and insurance claim assistance.
+            Free inspections for Dumas property owners. Expert roof repair with comprehensive
+            warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="roof-repair-dumas" />
+        <RelatedArticles pageSlug="roof-repair-dumas" />
       </div>
     </>
   );

@@ -60,8 +60,6 @@ export function getAllArticles(): Article[] {
     .map((slug) => getArticle(slug))
     .filter((a): a is Article => a !== null)
     .sort(
-      (a, b) =>
-        new Date(b.frontmatter.date).getTime() -
-        new Date(a.frontmatter.date).getTime(),
+      (a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime(),
     );
 }

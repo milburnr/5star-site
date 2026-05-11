@@ -30,11 +30,7 @@
     "secondary": [],
     "positioning": "local"
   },
-  "values": [
-    "quality",
-    "local expertise",
-    "reliability"
-  ],
+  "values": ["quality", "local expertise", "reliability"],
   "audience": "commercial businesses",
   "brandTerms": [
     "Star Roofing",

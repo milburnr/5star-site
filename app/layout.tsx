@@ -15,15 +15,17 @@ import Script from "next/script";
 // CSS vars kept as no-op identifiers so tailwind classes using
 // var(--font-poppins) / var(--font-open-sans) still resolve via the fallback
 // `system-ui, sans-serif` chain defined in tailwind.config.ts.
-const poppins = { variable: '--font-poppins' };
-const openSans = { variable: '--font-open-sans' };
+const poppins = { variable: "--font-poppins" };
+const openSans = { variable: "--font-open-sans" };
 
 export const metadata: Metadata = {
   title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
-  description: "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
+  description:
+    "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
   openGraph: {
     title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
-    description: "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
+    description:
+      "Expert hail damage repair and roofing services in Amarillo, Texas. Free inspections and insurance claim assistance.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
     images: [
@@ -50,7 +52,11 @@ export default function RootLayout({
         {/* Preconnect to R2 so the hero image can be fetched in parallel
             with the HTML without an extra DNS/TLS round-trip.
             Per-page hero preload lives in each page.tsx. */}
-        <link rel="preconnect" href="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev"
+          crossOrigin="anonymous"
+        />
       </head>
       <body>
         <PhoneClickTracker />
@@ -76,47 +82,162 @@ export default function RootLayout({
                   Bug pre-2026-05-09: fixed gap-6 caused Contact to clip at
                   ~1024px wide (within container-custom max-w-7xl + lg:px-8). */}
               <div className="hidden md:flex gap-3 lg:gap-4 xl:gap-6 items-center">
-                <a href="/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Home</a>
-                
+                <a
+                  href="/"
+                  className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110"
+                >
+                  Home
+                </a>
+
                 {/* Services Dropdown */}
                 <div className="relative group">
-                  <a href="/services/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110 flex items-center gap-1">
+                  <a
+                    href="/services/"
+                    className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110 flex items-center gap-1"
+                  >
                     Services
-                    <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                    <svg
+                      className="w-4 h-4 transition-transform group-hover:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
                   </a>
                   <div className="absolute top-full left-0 mt-2 w-56 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
                     <div className="py-2">
-                      <a href="/residential-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Residential Roofing</a>
-                      <a href="/commercial-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Commercial Roofing</a>
-                      <a href="/hail-damage-repair-amarillo/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Hail Damage Repair</a>
-                      <a href="/amarillo-texas-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Roof Replacement</a>
-                      <a href="/services/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2">All Services →</a>
+                      <a
+                        href="/residential-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Residential Roofing
+                      </a>
+                      <a
+                        href="/commercial-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Commercial Roofing
+                      </a>
+                      <a
+                        href="/hail-damage-repair-amarillo/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Hail Damage Repair
+                      </a>
+                      <a
+                        href="/amarillo-texas-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Roof Replacement
+                      </a>
+                      <a
+                        href="/services/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2"
+                      >
+                        All Services →
+                      </a>
                     </div>
                   </div>
                 </div>
-                
+
                 {/* Areas Dropdown */}
                 <div className="relative group">
-                  <a href="/service-areas/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110 flex items-center gap-1">
+                  <a
+                    href="/service-areas/"
+                    className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110 flex items-center gap-1"
+                  >
                     Areas
-                    <svg className="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                    <svg
+                      className="w-4 h-4 transition-transform group-hover:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
                   </a>
                   <div className="absolute top-full left-0 mt-2 w-48 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
                     <div className="py-2">
-                      <a href="/amarillo-texas-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Amarillo</a>
-                      <a href="/lubbock-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Lubbock</a>
-                      <a href="/midland-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Midland</a>
-                      <a href="/odessa-tx-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Odessa</a>
-                      <a href="/canyon-texas-roofing/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright">Canyon</a>
-                      <a href="/service-areas/" className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2">All Areas →</a>
+                      <a
+                        href="/amarillo-texas-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Amarillo
+                      </a>
+                      <a
+                        href="/lubbock-tx-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Lubbock
+                      </a>
+                      <a
+                        href="/midland-tx-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Midland
+                      </a>
+                      <a
+                        href="/odessa-tx-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Odessa
+                      </a>
+                      <a
+                        href="/canyon-texas-roofing/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
+                      >
+                        Canyon
+                      </a>
+                      <a
+                        href="/service-areas/"
+                        className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright font-semibold border-t border-brand-gold/20 mt-1 pt-2"
+                      >
+                        All Areas →
+                      </a>
                     </div>
                   </div>
                 </div>
-                <a href="/gallery/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Gallery</a>
-                <a href="/blog/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Blog</a>
-                <a href="/reviews/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">Reviews</a>
-                <a href="/about/" className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110">About</a>
-                <a href="/contact/" className="bg-brand-brown text-white px-6 py-2 rounded-full font-semibold hover:bg-brand-brown-dark transition-all duration-200 text-sm hover:scale-105 shadow-lg">Contact</a>
+                <a
+                  href="/gallery/"
+                  className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110"
+                >
+                  Gallery
+                </a>
+                <a
+                  href="/blog/"
+                  className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110"
+                >
+                  Blog
+                </a>
+                <a
+                  href="/reviews/"
+                  className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110"
+                >
+                  Reviews
+                </a>
+                <a
+                  href="/about/"
+                  className="text-brand-gold-light hover:text-brand-gold-bright transition-all duration-200 font-medium hover:scale-110"
+                >
+                  About
+                </a>
+                <a
+                  href="/contact/"
+                  className="bg-brand-brown text-white px-6 py-2 rounded-full font-semibold hover:bg-brand-brown-dark transition-all duration-200 text-sm hover:scale-105 shadow-lg"
+                >
+                  Contact
+                </a>
               </div>
 
               <MobileMenu />
@@ -136,12 +257,18 @@ export default function RootLayout({
                   <p>Amarillo, TX 79109</p>
                 </address>
                 <p className="mt-2">
-                  <a href="tel:8066226041" className="text-white hover:text-brand-gold-bright font-bold text-lg">
+                  <a
+                    href="tel:8066226041"
+                    className="text-white hover:text-brand-gold-bright font-bold text-lg"
+                  >
                     (806) 622-6041
                   </a>
                 </p>
                 <p>
-                  <a href="mailto:admin@5starroofingpros.com" className="text-white hover:text-brand-gold-bright text-sm">
+                  <a
+                    href="mailto:admin@5starroofingpros.com"
+                    className="text-white hover:text-brand-gold-bright text-sm"
+                  >
                     admin@5starroofingpros.com
                   </a>
                 </p>
@@ -161,7 +288,12 @@ export default function RootLayout({
                     aria-label="View 5 Star Roofing on Google"
                     className="text-brand-gold-light hover:text-brand-gold-bright transition-colors text-sm font-semibold inline-flex items-center gap-1"
                   >
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <svg
+                      className="w-4 h-4"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
                       <path d="M12 2C7.589 2 4 5.589 4 9.995 3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12 0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
                     </svg>
                     View on Google
@@ -173,7 +305,12 @@ export default function RootLayout({
                     aria-label="5 Star Roofing on Facebook"
                     className="text-brand-gold-light hover:text-brand-gold-bright transition-colors text-sm font-semibold inline-flex items-center gap-1"
                   >
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <svg
+                      className="w-4 h-4"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
                       <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                     </svg>
                     Facebook
@@ -197,9 +334,9 @@ export default function RootLayout({
                     When confirmed, uncomment the accreditation block below and drop the
                     relevant badge SVGs into public/images/trust/accreditation/. */}
                 <p className="mt-4 text-xs text-gray-300/80 leading-relaxed">
-                  Carrier and manufacturer logos are trademarks of their respective owners.
-                  5 Star Commercial Roofing is independent and is not affiliated with or
-                  endorsed by any listed carrier or manufacturer.
+                  Carrier and manufacturer logos are trademarks of their respective owners. 5 Star
+                  Commercial Roofing is independent and is not affiliated with or endorsed by any
+                  listed carrier or manufacturer.
                 </p>
                 {/*
                 <div className="mt-4">
@@ -219,52 +356,245 @@ export default function RootLayout({
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-gold-bright">Services</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/residential-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Residential Roofing</a></li>
-                  <li><a href="/commercial-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Commercial Roofing</a></li>
-                  <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Hail Damage Repair</a></li>
-                  <li><a href="/roof-inspections-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Roof Inspections</a></li>
-                  <li><a href="/roof-replacement-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Roof Replacement</a></li>
-                  <li><a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Asphalt Shingles</a></li>
-                  <li><a href="/metal-roof-installation-odessa-texas/" className="text-brand-gold-light hover:text-brand-gold-bright">Metal Roofing</a></li>
+                  <li>
+                    <a
+                      href="/residential-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Residential Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/commercial-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Commercial Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/hail-damage-repair-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Hail Damage Repair
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/roof-inspections-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Roof Inspections
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/roof-replacement-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Roof Replacement
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/asphalt-shingle-roofing-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Asphalt Shingles
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/metal-roof-installation-odessa-texas/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Metal Roofing
+                    </a>
+                  </li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-gold-bright">Major Cities</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/amarillo-texas-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Amarillo Roofing</a></li>
-                  <li><a href="/midland-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Midland Roofing</a></li>
-                  <li><a href="/odessa-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Odessa Roofing</a></li>
-                  <li><a href="/lubbock-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Lubbock Roofing</a></li>
-                  <li><a href="/canyon-texas-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Canyon Roofing</a></li>
-                  <li><a href="/bushland-tx-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Bushland</a></li>
-                  <li><a href="/service-areas/" className="text-brand-gold-light hover:text-brand-gold-bright">All Service Areas →</a></li>
+                  <li>
+                    <a
+                      href="/amarillo-texas-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Amarillo Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/midland-tx-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Midland Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/odessa-tx-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Odessa Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/lubbock-tx-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Lubbock Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/canyon-texas-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Canyon Roofing
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/bushland-tx-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Bushland
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/service-areas/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      All Service Areas →
+                    </a>
+                  </li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-gold-bright">Resources</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/gallery/" className="text-brand-gold-light hover:text-brand-gold-bright">Project Gallery</a></li>
-                  <li><a href="/blog/" className="text-brand-gold-light hover:text-brand-gold-bright">Roofing Blog</a></li>
-                  <li><a href="/reviews/" className="text-brand-gold-light hover:text-brand-gold-bright">Customer Reviews</a></li>
-                  <li><a href="/about/" className="text-brand-gold-light hover:text-brand-gold-bright">About Us</a></li>
-                  <li><a href="/contact/" className="text-brand-gold-light hover:text-brand-gold-bright">Contact</a></li>
-                  <li><a href="/amarillo-weather-impact-on-roofing/" className="text-brand-gold-light hover:text-brand-gold-bright">Weather Impact</a></li>
-                  <li><a href="/roofing-methods/" className="text-brand-gold-light hover:text-brand-gold-bright">Installation Methods</a></li>
-                  <li><a href="/privacy/" className="text-brand-gold-light hover:text-brand-gold-bright">Privacy Policy</a></li>
+                  <li>
+                    <a
+                      href="/gallery/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Project Gallery
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blog/" className="text-brand-gold-light hover:text-brand-gold-bright">
+                      Roofing Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/reviews/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Customer Reviews
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/about/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/contact/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/amarillo-weather-impact-on-roofing/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Weather Impact
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/roofing-methods/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Installation Methods
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/privacy/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Privacy Policy
+                    </a>
+                  </li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold mb-4 text-brand-gold-bright">Specialties</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/hail-damage-repair-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Hail Damage</a></li>
-                  <li><a href="/storm-damage-repair-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Storm Damage</a></li>
-                  <li><a href="/wind-damage-repair-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Wind Damage</a></li>
-                  <li><a href="/commercial-roofing-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Commercial TPO</a></li>
-                  <li><a href="/residential-roofing-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">Residential Repair</a></li>
-                  <li><a href="/pvc-roofing-contractors-in-amarillo/" className="text-brand-gold-light hover:text-brand-gold-bright">PVC Roofing</a></li>
+                  <li>
+                    <a
+                      href="/hail-damage-repair-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Hail Damage
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/storm-damage-repair-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Storm Damage
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/wind-damage-repair-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Wind Damage
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/commercial-roofing-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Commercial TPO
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/residential-roofing-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      Residential Repair
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/pvc-roofing-contractors-in-amarillo/"
+                      className="text-brand-gold-light hover:text-brand-gold-bright"
+                    >
+                      PVC Roofing
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -272,7 +602,8 @@ export default function RootLayout({
             <div className="border-t border-gray-600 mt-8 pt-8 text-center text-sm">
               <p>&copy; 2026 5 Star Commercial Roofing. All rights reserved.</p>
               <p className="mt-2 text-gray-300">
-                Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert roofing services.
+                Serving Amarillo, Midland, Odessa, Lubbock, and all of West Texas with expert
+                roofing services.
               </p>
             </div>
           </div>

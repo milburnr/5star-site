@@ -6,12 +6,14 @@ import { Phone } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/' },
-  title: 'PVC Roofing Amarillo TX | Commercial | 5 Star Roofing',
-  description: "PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/" },
+  title: "PVC Roofing Amarillo TX | Commercial | 5 Star Roofing",
+  description:
+    "PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Call (806) 622-6041",
   openGraph: {
     title: "PVC Roofing Amarillo TX | Commercial | 5 Star Roofing",
-    description: "PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Call (806) 622-6041",
+    description:
+      "PVC roofing installation in Amarillo, Midland, Odessa. Heat-welded seams, Class A fire rating, 20+ year warranties. Call (806) 622-6041",
     url: "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/",
     siteName: "5 Star Roofing",
     images: [
@@ -31,120 +33,220 @@ export default function Page() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "serviceType": "PVC Roofing Installation",
-    "provider": {
+    serviceType: "PVC Roofing Installation",
+    provider: {
       "@type": ["LocalBusiness", "RoofingContractor"],
-              "@id": "https://5starroofingpros.com/#organization",
-      "name": "5 Star Roofing",
-      "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-      "telephone": "(806) 622-6041",
-      "email": "admin@5starroofingpros.com",
-      "address": {
+      "@id": "https://5starroofingpros.com/#organization",
+      name: "5 Star Roofing",
+      parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+      telephone: "(806) 622-6041",
+      email: "admin@5starroofingpros.com",
+      address: {
         "@type": "PostalAddress",
-        "streetAddress": "2909 S Western St",
-        "addressLocality": "Amarillo",
-        "addressRegion": "TX",
-        "postalCode": "79109"
-      }
+        streetAddress: "2909 S Western St",
+        addressLocality: "Amarillo",
+        addressRegion: "TX",
+        postalCode: "79109",
+      },
     },
-    "areaServed": [
-      {"@type": "City", "name": "Amarillo"},
-      {"@type": "City", "name": "Midland"},
-      {"@type": "City", "name": "Odessa"}
+    areaServed: [
+      { "@type": "City", name: "Amarillo" },
+      { "@type": "City", name: "Midland" },
+      { "@type": "City", name: "Odessa" },
     ],
-    "description": "Professional PVC roofing installation for commercial buildings in Amarillo and West Texas. Heat-welded seams, Class A fire rating, 20-30 year warranties."
+    description:
+      "Professional PVC roofing installation for commercial buildings in Amarillo and West Texas. Heat-welded seams, Class A fire rating, 20-30 year warranties.",
   };
 
   return (
-    <div className="container-custom py-12">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Pvc Roofing Contractors",
-                      "url": "/services/"
-              },
-              {
-                      "name": "Amarillo",
-                      "url": "/pvc-roofing-contractors-in-amarillo/"
-              }
-      ]} />
-
+    <div className="container-custom py-12">
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Pvc Roofing Contractors",
+            url: "/services/",
+          },
+          {
+            name: "Amarillo",
+            url: "/pvc-roofing-contractors-in-amarillo/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.222, "longitude": -101.8313 },
-        "url": "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas", "name": "Amarillo", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id":
+              "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.222, longitude: -101.8313 },
+            url: "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Amarillo,_Texas",
+              name: "Amarillo",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <FadeIn>
-        <h1 className="text-4xl font-bold mb-6">PVC Roofing Contractors in Amarillo, Midland & Odessa</h1>
+        <h1 className="text-4xl font-bold mb-6">
+          PVC Roofing Contractors in Amarillo, Midland & Odessa
+        </h1>
       </FadeIn>
-
       <div className="content-block">
-        <h2 className="content-block-title">PVC Roofing: Premium Commercial Roof Solution for West Texas</h2>
+        <h2 className="content-block-title">
+          PVC Roofing: Premium Commercial Roof Solution for West Texas
+        </h2>
         <p className="text-lg">
-          PVC (Polyvinyl Chloride) roofing is the premium choice for <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">commercial and industrial buildings</a> in <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">Amarillo</a>, <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">Midland</a>, <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">Odessa</a>, and throughout West Texas. With superior <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">hail resistance</a>, fire protection, and chemical resistance, PVC roofing systems offer unmatched durability in the harsh West Texas climate where hailstorms occur 6-12 times annually.
+          PVC (Polyvinyl Chloride) roofing is the premium choice for{" "}
+          <a href="/commercial-roofing-amarillo/" className="text-brand-gold hover:underline">
+            commercial and industrial buildings
+          </a>{" "}
+          in{" "}
+          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+            Amarillo
+          </a>
+          ,{" "}
+          <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">
+            Midland
+          </a>
+          ,{" "}
+          <a href="/odessa-tx-roofing/" className="text-brand-gold hover:underline">
+            Odessa
+          </a>
+          , and throughout West Texas. With superior{" "}
+          <a href="/hail-damage-repair-amarillo/" className="text-brand-gold hover:underline">
+            hail resistance
+          </a>
+          , fire protection, and chemical resistance, PVC roofing systems offer unmatched durability
+          in the harsh West Texas climate where hailstorms occur 6-12 times annually.
         </p>
         <p className="text-lg mt-4">
-          At 5 Star Commercial Roofing, we specialize in PVC membrane installation for flat and low-slope commercial roofs. Our heat-welded seam technology creates a monolithic (single-piece) roof surface that's virtually indestructible, with manufacturer warranties extending up to 30 years.
+          At 5 Star Commercial Roofing, we specialize in PVC membrane installation for flat and
+          low-slope commercial roofs. Our heat-welded seam technology creates a monolithic
+          (single-piece) roof surface that's virtually indestructible, with manufacturer warranties
+          extending up to 30 years.
         </p>
       </div>
-
       <FadeIn>
         <section className="mb-8 max-w-5xl">
           <h2 className="text-2xl font-bold mt-8 mb-4">Where PVC Roofing Excels in Amarillo</h2>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            Not every commercial roof in Amarillo needs PVC &mdash; but the buildings that do need it really need it. PVC&apos;s defining advantage is chemical resistance that no other single-ply membrane can match. Restaurants with rooftop grease exhaust vents, industrial facilities handling solvents, and any building where animal fats, oils, or petrochemicals contact the roof surface will see dramatically longer service life from PVC compared to TPO or EPDM alternatives.
+            Not every commercial roof in Amarillo needs PVC &mdash; but the buildings that do need
+            it really need it. PVC&apos;s defining advantage is chemical resistance that no other
+            single-ply membrane can match. Restaurants with rooftop grease exhaust vents, industrial
+            facilities handling solvents, and any building where animal fats, oils, or
+            petrochemicals contact the roof surface will see dramatically longer service life from
+            PVC compared to TPO or EPDM alternatives.
           </p>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            Amarillo&apos;s climate adds another factor that favors PVC for certain applications: cold-weather flexibility. While the Panhandle&apos;s brutal summers get most of the attention, winter temperatures regularly drop below 20&deg;F, and sub-zero wind chills are not uncommon. PVC membranes maintain their flexibility in cold conditions where some TPO formulations can become stiff and more vulnerable to foot traffic damage during winter maintenance visits. For buildings with rooftop HVAC equipment requiring year-round service access, PVC&apos;s cold-weather performance provides meaningful protection.
+            Amarillo&apos;s climate adds another factor that favors PVC for certain applications:
+            cold-weather flexibility. While the Panhandle&apos;s brutal summers get most of the
+            attention, winter temperatures regularly drop below 20&deg;F, and sub-zero wind chills
+            are not uncommon. PVC membranes maintain their flexibility in cold conditions where some
+            TPO formulations can become stiff and more vulnerable to foot traffic damage during
+            winter maintenance visits. For buildings with rooftop HVAC equipment requiring
+            year-round service access, PVC&apos;s cold-weather performance provides meaningful
+            protection.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Fire rating is another area where PVC stands apart. PVC is inherently self-extinguishing and achieves Class A fire ratings without additional fire-retardant treatments. For Amarillo&apos;s restaurant rows along I-40 and Western Street, warehouse districts, and any facility where fire codes demand the highest protection level, PVC satisfies insurance requirements that can reduce commercial property premiums. The membrane&apos;s heat-welded seams also allow field repairs using the same welding equipment used during installation &mdash; a practical advantage when storm damage or mechanical punctures need fast, permanent fixes.
+            Fire rating is another area where PVC stands apart. PVC is inherently self-extinguishing
+            and achieves Class A fire ratings without additional fire-retardant treatments. For
+            Amarillo&apos;s restaurant rows along I-40 and Western Street, warehouse districts, and
+            any facility where fire codes demand the highest protection level, PVC satisfies
+            insurance requirements that can reduce commercial property premiums. The membrane&apos;s
+            heat-welded seams also allow field repairs using the same welding equipment used during
+            installation &mdash; a practical advantage when storm damage or mechanical punctures
+            need fast, permanent fixes.
           </p>
         </section>
       </FadeIn>
-
       <FadeIn>
         <section className="mb-8 max-w-5xl">
-          <h2 className="text-2xl font-bold mt-8 mb-4">PVC vs TPO for Amarillo Commercial Properties</h2>
+          <h2 className="text-2xl font-bold mt-8 mb-4">
+            PVC vs TPO for Amarillo Commercial Properties
+          </h2>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            The PVC-versus-TPO decision comes down to what your building is exposed to and how long you plan to own it. Both use heat-welded seams, both reflect solar energy, and both handle Panhandle hailstorms well. The differences show up in specific conditions that affect a meaningful number of Amarillo commercial properties.
+            The PVC-versus-TPO decision comes down to what your building is exposed to and how long
+            you plan to own it. Both use heat-welded seams, both reflect solar energy, and both
+            handle Panhandle hailstorms well. The differences show up in specific conditions that
+            affect a meaningful number of Amarillo commercial properties.
           </p>
           <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-            Choose PVC when your roof is exposed to chemicals, grease, or petroleum products. Restaurant owners along Amarillo&apos;s commercial corridors should default to PVC &mdash; cooking grease exhaust degrades TPO membranes over time, causing premature failure around vent penetrations. Industrial facilities near the railroad corridor, auto repair shops, and any building adjacent to fuel storage benefit from PVC&apos;s chemical inertness. Buildings with heavy rooftop equipment traffic also favor PVC, since maintenance crews walking on the roof in cold weather are less likely to cause damage.
+            Choose PVC when your roof is exposed to chemicals, grease, or petroleum products.
+            Restaurant owners along Amarillo&apos;s commercial corridors should default to PVC
+            &mdash; cooking grease exhaust degrades TPO membranes over time, causing premature
+            failure around vent penetrations. Industrial facilities near the railroad corridor, auto
+            repair shops, and any building adjacent to fuel storage benefit from PVC&apos;s chemical
+            inertness. Buildings with heavy rooftop equipment traffic also favor PVC, since
+            maintenance crews walking on the roof in cold weather are less likely to cause damage.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            TPO makes more sense when chemical exposure is minimal and budget matters. For standard office buildings, retail spaces, and warehouses in Amarillo where the roof sees nothing harsher than rain and hail, TPO delivers comparable waterproofing and energy performance at 15&ndash;20% lower installed cost. We assess each Amarillo property individually &mdash; roof condition, building use, chemical exposure, equipment access needs, and ownership timeline &mdash; before recommending one membrane over the other. The goal is matching the right system to your building&apos;s actual demands, not upselling every property to the premium option.
+            TPO makes more sense when chemical exposure is minimal and budget matters. For standard
+            office buildings, retail spaces, and warehouses in Amarillo where the roof sees nothing
+            harsher than rain and hail, TPO delivers comparable waterproofing and energy performance
+            at 15&ndash;20% lower installed cost. We assess each Amarillo property individually
+            &mdash; roof condition, building use, chemical exposure, equipment access needs, and
+            ownership timeline &mdash; before recommending one membrane over the other. The goal is
+            matching the right system to your building&apos;s actual demands, not upselling every
+            property to the premium option.
           </p>
         </section>
       </FadeIn>
-
-      <h2 className="text-2xl font-bold mt-8 mb-4">Why PVC Roofing Excels in Amarillo, Midland & Odessa</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">
+        Why PVC Roofing Excels in Amarillo, Midland & Odessa
+      </h2>
       <div className="grid md:grid-cols-2 gap-6 mb-8">
         <div className="card">
           <div className="card-body">
-            <h3 className="text-xl font-semibold text-brand-brown mb-3">Superior Hail Resistance</h3>
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Superior Hail Resistance
+            </h3>
             <p className="mb-4">
-              PVC membranes are more impact-resistant than TPO or EPDM. The flexible material absorbs hail impacts without puncturing—critical in West Texas where baseball-sized hail is common during spring and summer storms.
+              PVC membranes are more impact-resistant than TPO or EPDM. The flexible material
+              absorbs hail impacts without puncturing—critical in West Texas where baseball-sized
+              hail is common during spring and summer storms.
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-600">
               <li>UL 2218 Class 4 impact rating available</li>
@@ -159,7 +261,9 @@ export default function Page() {
           <div className="card-body">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Class A Fire Rating</h3>
             <p className="mb-4">
-              PVC is inherently fire-resistant and self-extinguishing. This is critical for oil and gas facilities in Midland-Odessa, warehouses, and any commercial building where fire safety is paramount.
+              PVC is inherently fire-resistant and self-extinguishing. This is critical for oil and
+              gas facilities in Midland-Odessa, warehouses, and any commercial building where fire
+              safety is paramount.
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-600">
               <li>Class A fire rating (highest available)</li>
@@ -172,9 +276,13 @@ export default function Page() {
 
         <div className="card">
           <div className="card-body">
-            <h3 className="text-xl font-semibold text-brand-brown mb-3">Chemical & Grease Resistance</h3>
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Chemical & Grease Resistance
+            </h3>
             <p className="mb-4">
-              Unlike TPO, PVC membranes resist damage from oils, greases, and chemicals. This makes PVC ideal for restaurants, oil/gas facilities in Midland-Odessa, and industrial buildings where chemical exposure occurs.
+              Unlike TPO, PVC membranes resist damage from oils, greases, and chemicals. This makes
+              PVC ideal for restaurants, oil/gas facilities in Midland-Odessa, and industrial
+              buildings where chemical exposure occurs.
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-600">
               <li>Resists oils and animal fats</li>
@@ -187,9 +295,13 @@ export default function Page() {
 
         <div className="card">
           <div className="card-body">
-            <h3 className="text-xl font-semibold text-brand-brown mb-3">Extreme Temperature Performance</h3>
+            <h3 className="text-xl font-semibold text-brand-brown mb-3">
+              Extreme Temperature Performance
+            </h3>
             <p className="mb-4">
-              West Texas experiences temperature swings from below 0°F in winter to over 100°F in summer. PVC membranes remain flexible in cold and don't degrade in heat—maintaining watertight seals year-round.
+              West Texas experiences temperature swings from below 0°F in winter to over 100°F in
+              summer. PVC membranes remain flexible in cold and don't degrade in heat—maintaining
+              watertight seals year-round.
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-600">
               <li>Flexible in extreme cold (below 0°F)</li>
@@ -200,53 +312,72 @@ export default function Page() {
           </div>
         </div>
       </div>
-
       <h2 className="text-2xl font-bold mt-8 mb-4">Our PVC Roofing Installation Process</h2>
       <div className="space-y-3 mb-8">
         <div className="process-step">
           <div className="step-number">1</div>
           <div className="step-content">
             <h5 className="step-title">Roof Deck Inspection & Repair</h5>
-            <p className="step-text">Complete evaluation of existing roof deck, insulation, and drainage. We identify and repair any structural issues before installing new PVC membrane.</p>
+            <p className="step-text">
+              Complete evaluation of existing roof deck, insulation, and drainage. We identify and
+              repair any structural issues before installing new PVC membrane.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">2</div>
           <div className="step-content">
             <h5 className="step-title">Insulation Installation</h5>
-            <p className="step-text">Install ISO board or polyiso insulation to meet or exceed R-30 requirements for Texas commercial buildings. Proper insulation reduces energy costs and extends membrane life.</p>
+            <p className="step-text">
+              Install ISO board or polyiso insulation to meet or exceed R-30 requirements for Texas
+              commercial buildings. Proper insulation reduces energy costs and extends membrane
+              life.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">3</div>
           <div className="step-content">
             <h5 className="step-title">Membrane Installation</h5>
-            <p className="step-text">Roll out PVC membrane in large sections, minimizing seams. We use fully-adhered or mechanically-attached methods depending on your building's wind exposure and structural capacity.</p>
+            <p className="step-text">
+              Roll out PVC membrane in large sections, minimizing seams. We use fully-adhered or
+              mechanically-attached methods depending on your building's wind exposure and
+              structural capacity.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">4</div>
           <div className="step-content">
             <h5 className="step-title">Heat-Welded Seam Technology</h5>
-            <p className="step-text">Use hot-air welding equipment to fuse membrane seams together at molecular level. This creates seams stronger than the membrane itself—impossible to pull apart and virtually leak-proof.</p>
+            <p className="step-text">
+              Use hot-air welding equipment to fuse membrane seams together at molecular level. This
+              creates seams stronger than the membrane itself—impossible to pull apart and virtually
+              leak-proof.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">5</div>
           <div className="step-content">
             <h5 className="step-title">Flashing & Penetration Details</h5>
-            <p className="step-text">Custom fabricate PVC flashing for all roof penetrations, HVAC units, and parapet walls. Every detail is heat-welded for complete waterproofing.</p>
+            <p className="step-text">
+              Custom fabricate PVC flashing for all roof penetrations, HVAC units, and parapet
+              walls. Every detail is heat-welded for complete waterproofing.
+            </p>
           </div>
         </div>
         <div className="process-step">
           <div className="step-number">6</div>
           <div className="step-content">
             <h5 className="step-title">Quality Assurance Testing</h5>
-            <p className="step-text">Test every seam with electronic or probe testing to ensure 100% watertight installation. Any defects are identified and corrected before final inspection.</p>
+            <p className="step-text">
+              Test every seam with electronic or probe testing to ensure 100% watertight
+              installation. Any defects are identified and corrected before final inspection.
+            </p>
           </div>
         </div>
       </div>
-
       <h2 className="text-2xl font-bold mt-8 mb-4">PVC vs. TPO: Which is Better for West Texas?</h2>
       <div className="card mb-8">
         <div className="card-body">
@@ -274,11 +405,11 @@ export default function Page() {
             </div>
           </div>
           <p className="mt-6 font-semibold">
-            For most commercial buildings in Amarillo, Midland, and Odessa, PVC is worth the 15-20% premium over TPO due to superior longevity and lower lifetime maintenance costs.
+            For most commercial buildings in Amarillo, Midland, and Odessa, PVC is worth the 15-20%
+            premium over TPO due to superior longevity and lower lifetime maintenance costs.
           </p>
         </div>
       </div>
-
       <h2 className="text-2xl font-bold mt-8 mb-4">Commercial Buildings We Serve</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <div className="feature-box">
@@ -306,48 +437,74 @@ export default function Page() {
           <p className="font-semibold">Oil & Gas Facilities</p>
         </div>
       </div>
-
       <div className="bg-brand-gold-light p-6 rounded-lg mb-8">
         <h3 className="text-xl font-bold mb-3">PVC Roofing Warranties</h3>
         <p className="mb-4">
           We install PVC membranes from leading manufacturers with comprehensive warranties:
         </p>
         <ul className="space-y-2">
-          <li><strong>Material Warranty:</strong> 20-30 years from manufacturer</li>
-          <li><strong>Workmanship Warranty:</strong> 10 years from 5 Star Commercial Roofing</li>
-          <li><strong>System Warranty:</strong> Full roof system coverage available</li>
-          <li><strong>Hail Coverage:</strong> Optional hail warranty up to 2.5 inches</li>
+          <li>
+            <strong>Material Warranty:</strong> 20-30 years from manufacturer
+          </li>
+          <li>
+            <strong>Workmanship Warranty:</strong> 10 years from 5 Star Commercial Roofing
+          </li>
+          <li>
+            <strong>System Warranty:</strong> Full roof system coverage available
+          </li>
+          <li>
+            <strong>Hail Coverage:</strong> Optional hail warranty up to 2.5 inches
+          </li>
         </ul>
       </div>
-
       <section className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="text-2xl font-bold mb-4">Related Commercial Roofing Services</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <a href="/pvc-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">• PVC Roof Replacement</a>
-          <a href="/pvc-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">• PVC Roof Repair</a>
-          <a href="/commercial-roofing/" className="text-brand-gold hover:underline">• Commercial Roofing Services</a>
-          <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">• Lubbock Roofing</a>
-          <a href="/service-areas/" className="text-brand-gold hover:underline">• All Service Areas</a>
+          <a href="/pvc-roof-replacement-in-amarillo/" className="text-brand-gold hover:underline">
+            • PVC Roof Replacement
+          </a>
+          <a href="/pvc-roof-repair-in-amarillo/" className="text-brand-gold hover:underline">
+            • PVC Roof Repair
+          </a>
+          <a href="/commercial-roofing/" className="text-brand-gold hover:underline">
+            • Commercial Roofing Services
+          </a>
+          <a href="/lubbock-tx-roofing/" className="text-brand-gold hover:underline">
+            • Lubbock Roofing
+          </a>
+          <a href="/service-areas/" className="text-brand-gold hover:underline">
+            • All Service Areas
+          </a>
         </div>
       </section>
-
       <section className="cta-section mt-12">
         <h2 className="cta-title">Get Your Free Roof Assessment Today</h2>
         <p className="cta-text">
-          Serving Amarillo and the entire Texas Panhandle, plus Midland, Odessa, and surrounding West Texas communities. Most commercial insurance policies in Texas cover storm damage, and we work directly with all major insurance companies to ensure you receive the full coverage you deserve.
+          Serving Amarillo and the entire Texas Panhandle, plus Midland, Odessa, and surrounding
+          West Texas communities. Most commercial insurance policies in Texas cover storm damage,
+          and we work directly with all major insurance companies to ensure you receive the full
+          coverage you deserve.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <a href="tel:8066226041" className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg">
+          <a
+            href="tel:8066226041"
+            className="btn-primary-hero bg-white text-brand-brown hover:bg-gray-100 text-lg"
+          >
             <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
           </a>
-          <a href="/contact/" className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg">
+          <a
+            href="/contact/"
+            className="btn-secondary-hero border-2 border-white hover:bg-white hover:text-brand-brown text-lg"
+          >
             Request Free Inspection
           </a>
         </div>
       </section>
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}}/>
-    <RelatedArticles pageSlug="pvc-roofing-contractors-in-amarillo" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <RelatedArticles pageSlug="pvc-roofing-contractors-in-amarillo" />
     </div>
   );
 }

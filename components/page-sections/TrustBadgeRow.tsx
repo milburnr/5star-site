@@ -1,6 +1,6 @@
-import type { LucideIcon } from 'lucide-react';
-import type { ReactNode } from 'react';
-import { cn } from '@/lib/utils';
+import type { LucideIcon } from "lucide-react";
+import type { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 export interface TrustBadge {
   /** Lucide icon for the badge. */
@@ -36,22 +36,17 @@ interface TrustBadgeRowProps {
  * Visual: white card per badge, rounded-lg shadow-md hover-elevation,
  * Lucide icon centered above label. Hover: shadow-xl, hover-lift.
  */
-export function TrustBadgeRow({
-  badges,
-  columns = 4,
-  heading,
-  className,
-}: TrustBadgeRowProps) {
-  const gridCols = columns === 3 ? 'md:grid-cols-3' : 'md:grid-cols-4';
+export function TrustBadgeRow({ badges, columns = 4, heading, className }: TrustBadgeRowProps) {
+  const gridCols = columns === 3 ? "md:grid-cols-3" : "md:grid-cols-4";
 
   return (
-    <div className={cn('w-full', className)}>
+    <div className={cn("w-full", className)}>
       {heading && (
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-8 text-brand-brown">
           {heading}
         </h2>
       )}
-      <div className={cn('grid grid-cols-2 gap-3 sm:gap-4 md:gap-6', gridCols)}>
+      <div className={cn("grid grid-cols-2 gap-3 sm:gap-4 md:gap-6", gridCols)}>
         {badges.map((badge, i) => (
           <BadgeTile key={i} badge={badge} />
         ))}
@@ -70,14 +65,12 @@ function BadgeTile({ badge }: { badge: TrustBadge }) {
         aria-hidden="true"
       />
       <p className="font-bold text-brand-brown text-sm md:text-base">{badge.label}</p>
-      {badge.sublabel && (
-        <p className="text-xs md:text-sm text-gray-600 mt-1">{badge.sublabel}</p>
-      )}
+      {badge.sublabel && <p className="text-xs md:text-sm text-gray-600 mt-1">{badge.sublabel}</p>}
     </>
   );
 
   const tileClass =
-    'bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-1';
+    "bg-white p-4 sm:p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-1";
 
   if (badge.href) {
     return (

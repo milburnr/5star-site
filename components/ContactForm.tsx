@@ -105,7 +105,17 @@ export function ContactForm({
       const res = await fetch("/.netlify/functions/contact-submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, phone, street, city, state: "TX", zip, service, message }),
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          street,
+          city,
+          state: "TX",
+          zip,
+          service,
+          message,
+        }),
       });
 
       if (!res.ok) {
@@ -146,10 +156,7 @@ export function ContactForm({
           </p>
           <p className="text-gray-600 mt-4 text-sm">
             Need immediate help? Call{" "}
-            <a
-              href="tel:8066226041"
-              className="text-brand-gold font-semibold hover:underline"
-            >
+            <a href="tel:8066226041" className="text-brand-gold font-semibold hover:underline">
               (806) 622-6041
             </a>
           </p>
@@ -355,10 +362,7 @@ export function ContactForm({
 
         <p className="text-xs text-gray-500 text-center">
           Or call us directly at{" "}
-          <a
-            href="tel:8066226041"
-            className="text-brand-gold font-semibold hover:underline"
-          >
+          <a href="tel:8066226041" className="text-brand-gold font-semibold hover:underline">
             (806) 622-6041
           </a>
         </p>

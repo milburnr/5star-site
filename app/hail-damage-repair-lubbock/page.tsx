@@ -11,15 +11,26 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
-import { CheckCircle, ClipboardList, FileText, Phone, Search, Shield, Star, Wrench } from "lucide-react";
+import {
+  CheckCircle,
+  ClipboardList,
+  FileText,
+  Phone,
+  Search,
+  Shield,
+  Star,
+  Wrench,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/hail-damage-repair-lubbock/' },
-  title: 'Hail Damage Repair Lubbock TX | 5 Star Roofing',
-  description: "Professional hail damage roof repair in Lubbock TX. Fast storm response, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-lubbock/" },
+  title: "Hail Damage Repair Lubbock TX | 5 Star Roofing",
+  description:
+    "Professional hail damage roof repair in Lubbock TX. Fast storm response, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Lubbock TX | 5 Star Roofing",
-    description: "Professional hail damage roof repair in Lubbock TX. Fast storm response, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
+    description:
+      "Professional hail damage roof repair in Lubbock TX. Fast storm response, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-lubbock/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,32 +49,65 @@ export const metadata: Metadata = {
 export default function HailDamageRepairLubbockPage() {
   return (
     <>
-      <Breadcrumb items={[
-        { name: "Home", url: "/" },
-        { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-        { name: "Lubbock", url: "/hail-damage-repair-lubbock/" }
-      ]} />
+      <Breadcrumb
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Lubbock", url: "/hail-damage-repair-lubbock/" },
+        ]}
+      />
 
       <StickyContactBar />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 33.5779, "longitude": -101.8552 },
-        "url": "https://5starroofingpros.com/hail-damage-repair-lubbock/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas", "name": "Lubbock", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/hail-damage-repair-lubbock/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-hail-damage.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 33.5779, longitude: -101.8552 },
+            url: "https://5starroofingpros.com/hail-damage-repair-lubbock/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Lubbock,_Texas",
+              name: "Lubbock",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
 
       {/* Schema: Service */}
       <script
@@ -72,29 +116,30 @@ export default function HailDamageRepairLubbockPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Hail Damage Roof Repair",
-            "provider": {
+            serviceType: "Hail Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "url": "https://5starroofingpros.com",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              url: "https://5starroofingpros.com",
+              address: {
                 "@type": "PostalAddress",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "addressCountry": "US"
-              }
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                addressCountry: "US",
+              },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
-              "name": "Lubbock",
-              "containedInPlace": {
+              name: "Lubbock",
+              containedInPlace: {
                 "@type": "AdministrativeArea",
-                "name": "Lubbock County, Texas"
-              }
+                name: "Lubbock County, Texas",
+              },
             },
-            "description": "Expert hail damage roof repair services in Lubbock, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for the Hub City."
-          })
+            description:
+              "Expert hail damage roof repair services in Lubbock, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for the Hub City.",
+          }),
         }}
       />
 
@@ -105,49 +150,49 @@ export default function HailDamageRepairLubbockPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "How do I know if my Lubbock roof has hail damage?",
-                "acceptedAnswer": {
+                name: "How do I know if my Lubbock roof has hail damage?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Signs of hail damage on Lubbock roofs include granule loss (shiny spots on shingles), dents on metal vents, flashing, and gutters, cracked or missing shingles, and bruised areas that feel soft. Lubbock's position on the Llano Estacado makes it prone to severe spring storms—schedule a free inspection after any hail event."
-                }
+                  text: "Signs of hail damage on Lubbock roofs include granule loss (shiny spots on shingles), dents on metal vents, flashing, and gutters, cracked or missing shingles, and bruised areas that feel soft. Lubbock's position on the Llano Estacado makes it prone to severe spring storms—schedule a free inspection after any hail event.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Will insurance cover hail damage repair in Lubbock?",
-                "acceptedAnswer": {
+                name: "Will insurance cover hail damage repair in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes, most Texas homeowners insurance policies cover hail damage if it occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact with photos and measurements, meet adjusters on-site, and advocate for maximum coverage."
-                }
+                  text: "Yes, most Texas homeowners insurance policies cover hail damage if it occurred during your policy period and you file within your carrier's timeframe (typically 1-2 years). We document every impact with photos and measurements, meet adjusters on-site, and advocate for maximum coverage.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How much does hail damage repair cost in Lubbock?",
-                "acceptedAnswer": {
+                name: "How much does hail damage repair cost in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Hail damage repair costs in Lubbock vary based on roof size, material, and damage extent. Most storm-related repairs are covered by insurance with homeowners paying only their deductible. Full roof replacements in Lubbock County typically range from $8,000-$15,000 for residential properties."
-                }
+                  text: "Hail damage repair costs in Lubbock vary based on roof size, material, and damage extent. Most storm-related repairs are covered by insurance with homeowners paying only their deductible. Full roof replacements in Lubbock County typically range from $8,000-$15,000 for residential properties.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What are Class 4 impact-resistant shingles?",
-                "acceptedAnswer": {
+                name: "What are Class 4 impact-resistant shingles?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Lubbock homes facing frequent Tornado Alley storms, Class 4 shingles reduce future damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs."
-                }
+                  text: "Class 4 shingles are rated to withstand 2-inch diameter hail strikes under UL 2218 testing. For Lubbock homes facing frequent Tornado Alley storms, Class 4 shingles reduce future damage by up to 90%. Many Texas insurers offer 10-30% premium discounts for Class 4 roofs.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly can you respond to hail damage in Lubbock?",
-                "acceptedAnswer": {
+                name: "How do you handle hail damage work in Lubbock?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We offer prompt response for Lubbock properties. Located just 124 miles from our Amarillo headquarters, our crews can typically reach Lubbock within 2 hours for urgent situations. After major storms, we prioritize tarping to prevent water damage."
-                }
-              }
-            ]
-          })
+                  text: "We schedule storm-damage documentation and inspections for Lubbock properties once conditions are safe for crews to be on a roof. Our headquarters is 124 miles away in Amarillo. We are not an emergency-dispatch service — our value is thorough photo documentation, adjuster-ready reports, and Class 4 impact-resistant restoration for South Plains properties.",
+                },
+              },
+            ],
+          }),
         }}
       />
 
@@ -155,9 +200,10 @@ export default function HailDamageRepairLubbockPage() {
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
@@ -171,11 +217,20 @@ export default function HailDamageRepairLubbockPage() {
                 The Hub City's Trusted Storm Restoration Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Lubbock sits on the southwestern edge of Tornado Alley, making hail damage an annual reality for Hub City property owners. Since 2014, 5 Star Roofing has helped Lubbock homeowners and businesses recover from storm damage with expert repairs, insurance claim assistance, and Class 4 impact-resistant replacements designed for the Llano Estacado's severe weather.
+                Lubbock sits on the southwestern edge of Tornado Alley, making hail damage an annual
+                reality for Hub City property owners. Since 2014, 5 Star Roofing has helped Lubbock
+                homeowners and businesses recover from storm damage with expert repairs, insurance
+                claim assistance, and Class 4 impact-resistant replacements designed for the Llano
+                Estacado's severe weather.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero"><Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041</a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a href="tel:8066226041" className="btn-primary-hero">
+                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
+                </a>
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -200,13 +255,17 @@ export default function HailDamageRepairLubbockPage() {
                 <div className="text-brand-brown font-semibold text-lg">From Amarillo HQ</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                  <AnimatedCounter to={10} suffix="+" />
-                </div>
-                <div className="text-brand-brown font-semibold text-lg">Years Experience</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
+                <div className="text-brand-brown font-semibold text-lg">Hail-Rated</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
@@ -222,13 +281,25 @@ export default function HailDamageRepairLubbockPage() {
               Why Does Lubbock Properties Need Expert Hail Damage Repair?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Lubbock, known as the "Hub City," sits at 3,202 feet elevation on the Llano Estacado—the southern end of the Great Plains. This geography places Lubbock directly in the path of severe thunderstorms that develop during spring and early summer. With a population of over 318,000, Lubbock County sees significant storm damage claims every year, particularly during the March-June hail season.
+              Lubbock, known as the "Hub City," sits at 3,202 feet elevation on the Llano
+              Estacado—the southern end of the Great Plains. This geography places Lubbock directly
+              in the path of severe thunderstorms that develop during spring and early summer. With
+              a population of over 318,000, Lubbock County sees significant storm damage claims
+              every year, particularly during the March-June hail season.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              The city's position on the southwestern edge of Tornado Alley means severe weather is a regular occurrence. Supercell thunderstorms that form over the Caprock often produce large hail—sometimes exceeding golf ball size—along with damaging straight-line winds. These storms can cause widespread roof damage in minutes, affecting neighborhoods from the Texas Tech campus to the newer developments in South Lubbock.
+              The city's position on the southwestern edge of Tornado Alley means severe weather is
+              a regular occurrence. Supercell thunderstorms that form over the Caprock often produce
+              large hail—sometimes exceeding golf ball size—along with damaging straight-line winds.
+              These storms can cause widespread roof damage in minutes, affecting neighborhoods from
+              the Texas Tech campus to the newer developments in South Lubbock.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Lubbock and the South Plains since 2014. We understand the specific roofing challenges that come with the region's semi-arid climate and severe weather patterns. Our team has helped hundreds of Lubbock property owners—including many Texas Tech rental properties—recover from storm damage with expert repairs and comprehensive warranty protection.
+              5 Star Roofing has been serving Lubbock and the South Plains since 2014. We understand
+              the specific roofing challenges that come with the region's semi-arid climate and
+              severe weather patterns. Our team has helped hundreds of Lubbock property
+              owners—including many Texas Tech rental properties—recover from storm damage with
+              expert repairs and comprehensive warranty protection.
             </p>
           </section>
         </FadeIn>
@@ -262,7 +333,12 @@ export default function HailDamageRepairLubbockPage() {
               </div>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              The National Weather Service Lubbock office monitors severe weather across the South Plains region. Lubbock's climate is classified as semi-arid, with hot summers and mild winters. The city averages about 18 inches of precipitation annually, but when storms do hit, they're often severe. Spring supercells can produce hail ranging from pea-size to larger than softballs, causing significant damage to roofs, vehicles, and outdoor equipment.
+              The National Weather Service Lubbock office monitors severe weather across the South
+              Plains region. Lubbock's climate is classified as semi-arid, with hot summers and mild
+              winters. The city averages about 18 inches of precipitation annually, but when storms
+              do hit, they're often severe. Spring supercells can produce hail ranging from pea-size
+              to larger than softballs, causing significant damage to roofs, vehicles, and outdoor
+              equipment.
             </p>
           </section>
         </FadeIn>
@@ -275,34 +351,66 @@ export default function HailDamageRepairLubbockPage() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Search className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Search className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">1. Free Inspection</h3>
-                <p className="text-gray-600">We thoroughly inspect your Lubbock property for hail damage, documenting every impact with photos and measurements. Our inspections are always free with no obligation.</p>
+                <p className="text-gray-600">
+                  We thoroughly inspect your Lubbock property for hail damage, documenting every
+                  impact with photos and measurements. Our inspections are always free with no
+                  obligation.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><ClipboardList className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <ClipboardList className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">2. Insurance Claim</h3>
-                <p className="text-gray-600">We prepare comprehensive documentation for your claim and meet with your adjuster on-site. We know what Lubbock-area insurance adjusters look for and how to maximize your coverage.</p>
+                <p className="text-gray-600">
+                  We prepare comprehensive documentation for your claim and meet with your adjuster
+                  on-site. We know what Lubbock-area insurance adjusters look for and how to
+                  maximize your coverage.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><FileText className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <FileText className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">3. Detailed Estimate</h3>
-                <p className="text-gray-600">We provide a detailed, line-item estimate using Xactimate—the same software insurance companies use. No surprises, no hidden costs.</p>
+                <p className="text-gray-600">
+                  We provide a detailed, line-item estimate using Xactimate—the same software
+                  insurance companies use. No surprises, no hidden costs.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Wrench className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Wrench className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">4. Expert Repair</h3>
-                <p className="text-gray-600">Our experienced crews install your new roof using premium materials suited to Lubbock's climate. Most residential repairs complete in 1-3 days.</p>
+                <p className="text-gray-600">
+                  Our experienced crews install your new roof using premium materials suited to
+                  Lubbock's climate. Most residential repairs complete in 1-3 days.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><CheckCircle className="w-5 h-5 inline-block text-green-600" /></div>
+                <div className="text-4xl mb-4">
+                  <CheckCircle className="w-5 h-5 inline-block text-green-600" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">5. Final Inspection</h3>
-                <p className="text-gray-600">We conduct a thorough final inspection to ensure every detail meets our high standards. You'll receive complete documentation for your records.</p>
+                <p className="text-gray-600">
+                  We conduct a thorough final inspection to ensure every detail meets our high
+                  standards. You'll receive complete documentation for your records.
+                </p>
               </div>
               <div className="bg-gradient-to-br from-white to-amber-50 p-8 rounded-2xl shadow-lg border border-brand-gold/20">
-                <div className="text-4xl mb-4"><Shield className="w-6 h-6 inline-block" /></div>
+                <div className="text-4xl mb-4">
+                  <Shield className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold text-brand-brown mb-3">6. Warranty Protection</h3>
-                <p className="text-gray-600">Your Lubbock roof is protected by comprehensive workmanship warranties plus manufacturer warranties up to 50 years on qualifying materials.</p>
+                <p className="text-gray-600">
+                  Your Lubbock roof is protected by comprehensive workmanship warranties plus
+                  manufacturer warranties up to 50 years on qualifying materials.
+                </p>
               </div>
             </div>
           </section>
@@ -315,7 +423,11 @@ export default function HailDamageRepairLubbockPage() {
               What Is the Class 4 Impact-Resistant Shingles?
             </h2>
             <p className="text-lg mb-6 leading-relaxed">
-              Given Lubbock's position in Tornado Alley and its history of severe hailstorms, Class 4 impact-resistant shingles are an excellent investment for Hub City homeowners. These premium shingles are tested to withstand 2-inch diameter steel ball impacts under UL 2218 standards—providing superior protection against the large hail common in South Plains storms.
+              Given Lubbock's position in Tornado Alley and its history of severe hailstorms, Class
+              4 impact-resistant shingles are an excellent investment for Hub City homeowners. These
+              premium shingles are tested to withstand 2-inch diameter steel ball impacts under UL
+              2218 standards—providing superior protection against the large hail common in South
+              Plains storms.
             </p>
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white/10 p-6 rounded-xl">
@@ -335,7 +447,9 @@ export default function HailDamageRepairLubbockPage() {
               </div>
             </div>
             <p className="text-lg leading-relaxed">
-              The insurance premium savings from Class 4 shingles often pay for the upgrade within a few years. For Lubbock properties—especially those near Texas Tech where rental property damage is common—it's one of the smartest investments you can make.
+              The insurance premium savings from Class 4 shingles often pay for the upgrade within a
+              few years. For Lubbock properties—especially those near Texas Tech where rental
+              property damage is common—it's one of the smartest investments you can make.
             </p>
           </section>
         </FadeIn>
@@ -347,22 +461,40 @@ export default function HailDamageRepairLubbockPage() {
               Serving All Lubbock Neighborhoods
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              From historic neighborhoods near downtown to the growing communities in South and Southwest Lubbock, we provide hail damage repair services throughout Lubbock County and beyond:
+              From historic neighborhoods near downtown to the growing communities in South and
+              Southwest Lubbock, we provide hail damage repair services throughout Lubbock County
+              and beyond:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
               {[
-                "Tech Terrace", "Overton", "Maxey Park", "Preston Smith",
-                "South Lubbock", "Southwest Lubbock", "Uplands", "Wheelock",
-                "Rush", "Melonie Park", "Bean", "Mackenzie Park",
-                "North Overton", "Arnett Benson", "Caprock", "Wolfforth"
+                "Tech Terrace",
+                "Overton",
+                "Maxey Park",
+                "Preston Smith",
+                "South Lubbock",
+                "Southwest Lubbock",
+                "Uplands",
+                "Wheelock",
+                "Rush",
+                "Melonie Park",
+                "Bean",
+                "Mackenzie Park",
+                "North Overton",
+                "Arnett Benson",
+                "Caprock",
+                "Wolfforth",
               ].map((neighborhood) => (
-                <div key={neighborhood} className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium">
+                <div
+                  key={neighborhood}
+                  className="bg-gray-50 p-3 rounded-lg text-center text-gray-700 font-medium"
+                >
                   {neighborhood}
                 </div>
               ))}
             </div>
             <p className="text-gray-600">
-              We also serve surrounding Lubbock County communities including Wolfforth, Shallowater, Idalou, and Slaton. Call (806) 622-6041 to confirm service availability for your area.
+              We also serve surrounding Lubbock County communities including Wolfforth, Shallowater,
+              Idalou, and Slaton. Call (806) 622-6041 to confirm service availability for your area.
             </p>
           </section>
         </FadeIn>
@@ -374,48 +506,84 @@ export default function HailDamageRepairLubbockPage() {
               Lubbock Hail Damage Repair: Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How do I know if my Lubbock roof has hail damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Signs of hail damage include: granule loss (look for dark, shiny spots on shingles), dents on metal vents and flashing, cracked or fractured shingles, dented gutters and downspouts, and damage to outdoor AC units or vehicles. Lubbock's severe spring storms can cause damage that isn't visible from the ground—we recommend a professional inspection after any significant hail event.
+                  Signs of hail damage include: granule loss (look for dark, shiny spots on
+                  shingles), dents on metal vents and flashing, cracked or fractured shingles,
+                  dented gutters and downspouts, and damage to outdoor AC units or vehicles.
+                  Lubbock's severe spring storms can cause damage that isn't visible from the
+                  ground—we recommend a professional inspection after any significant hail event.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Will my insurance cover hail damage repair in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Most Texas homeowners policies cover hail damage. Key requirements: the damage must have occurred during your policy period, and you typically need to file within 1-2 years of the event. We document every impact with high-resolution photos, meet with your adjuster on-site, and advocate for full coverage. Most Lubbock homeowners pay only their deductible for storm-related repairs.
+                  Most Texas homeowners policies cover hail damage. Key requirements: the damage
+                  must have occurred during your policy period, and you typically need to file
+                  within 1-2 years of the event. We document every impact with high-resolution
+                  photos, meet with your adjuster on-site, and advocate for full coverage. Most
+                  Lubbock homeowners pay only their deductible for storm-related repairs.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How much does hail damage repair cost in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Costs vary based on roof size, pitch, materials, and damage extent. For insurance claims, most homeowners pay only their deductible. Full roof replacements in Lubbock typically range from $8,000-$15,000 for average-sized homes, though costs can be higher for larger or more complex roofs. We provide detailed estimates using Xactimate—the same software insurance companies use.
+                  Costs vary based on roof size, pitch, materials, and damage extent. For insurance
+                  claims, most homeowners pay only their deductible. Full roof replacements in
+                  Lubbock typically range from $8,000-$15,000 for average-sized homes, though costs
+                  can be higher for larger or more complex roofs. We provide detailed estimates
+                  using Xactimate—the same software insurance companies use.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do Texas Tech rental properties need special roofing?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Rental properties near Texas Tech face the same hail risks as other Lubbock homes, but may experience more frequent claims due to tenant turnover and delayed damage reporting. We work with many Lubbock landlords and property managers to provide efficient, quality repairs that protect their investment. Class 4 shingles are particularly valuable for rental properties due to their durability and insurance savings.
+                  Rental properties near Texas Tech face the same hail risks as other Lubbock homes,
+                  but may experience more frequent claims due to tenant turnover and delayed damage
+                  reporting. We work with many Lubbock landlords and property managers to provide
+                  efficient, quality repairs that protect their investment. Class 4 shingles are
+                  particularly valuable for rental properties due to their durability and insurance
+                  savings.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How quickly can you respond to hail damage in Lubbock?
+                  How do you handle hail damage work in Lubbock?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We offer prompt response for Lubbock properties. Our Amarillo headquarters is just 124 miles away, and we can typically reach Lubbock within 2 hours for emergencies. After major storms, we prioritize tarping to prevent water damage before permanent repairs begin. For non-emergencies, we typically schedule inspections within 24-48 hours.
+                  We schedule storm-damage documentation and inspections for Lubbock properties once
+                  conditions are safe for crews to be on a roof. Our headquarters is 124 miles away
+                  in Amarillo and we maintain crew relationships throughout the South Plains. We are
+                  not an emergency-dispatch service — our value is thorough photo documentation,
+                  adjuster-ready reports, and Class 4 impact-resistant restoration.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -429,15 +597,24 @@ export default function HailDamageRepairLubbockPage() {
               Related Services in Lubbock
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <a href="/storm-damage-repair-lubbock/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/storm-damage-repair-lubbock/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Storm Damage Repair</h3>
                 <p className="text-gray-600">Wind, rain, and debris damage restoration</p>
               </a>
-              <a href="/roof-replacement-lubbock/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/roof-replacement-lubbock/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Roof Replacement</h3>
                 <p className="text-gray-600">Complete roof replacement services</p>
               </a>
-              <a href="/roof-inspections-lubbock/" className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105">
+              <a
+                href="/roof-inspections-lubbock/"
+                className="bg-gradient-to-br from-white to-amber-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-brand-gold/20 hover:scale-105"
+              >
                 <h3 className="text-xl font-bold text-brand-brown mb-2">Free Inspections</h3>
                 <p className="text-gray-600">No-obligation damage assessments</p>
               </a>
@@ -446,15 +623,28 @@ export default function HailDamageRepairLubbockPage() {
         </FadeIn>
 
         {/* CTA Section */}
-        
-        
+
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-8 md:p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
               Why Is Lubbock&apos;s South Plains Position a Hail Hotspot?
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Lubbock sits at the southern edge of the Texas hail belt where the Caprock Escarpment drops from the High Plains into the Rolling Plains below. This geographic transition zone creates atmospheric lifting that intensifies storm updrafts, producing some of the largest hailstones recorded in West Texas. Lubbock County averages 6 to 9 significant hail events per year, with the May 2023 supercell producing grapefruit-sized stones that caused over $400 million in insured losses across the metro area&mdash;one of the costliest single-city hail events in Texas history. Texas Tech University&apos;s National Wind Institute, located in Lubbock, has conducted extensive research on hail impact resistance that directly informed the development of Class 4 impact-resistant shingle standards. Their wind engineering research confirms that Lubbock&apos;s combination of hail frequency and wind intensity makes impact-resistant roofing materials not just recommended but essential for long-term property protection. 5 Star Roofing uses these research-backed material recommendations when advising Lubbock homeowners on replacement options after hail damage.
+              Lubbock sits at the southern edge of the Texas hail belt where the Caprock Escarpment
+              drops from the High Plains into the Rolling Plains below. This geographic transition
+              zone creates atmospheric lifting that intensifies storm updrafts, producing some of
+              the largest hailstones recorded in West Texas. Lubbock County averages 6 to 9
+              significant hail events per year, with the May 2023 supercell producing
+              grapefruit-sized stones that caused over $400 million in insured losses across the
+              metro area&mdash;one of the costliest single-city hail events in Texas history. Texas
+              Tech University&apos;s National Wind Institute, located in Lubbock, has conducted
+              extensive research on hail impact resistance that directly informed the development of
+              Class 4 impact-resistant shingle standards. Their wind engineering research confirms
+              that Lubbock&apos;s combination of hail frequency and wind intensity makes
+              impact-resistant roofing materials not just recommended but essential for long-term
+              property protection. 5 Star Roofing uses these research-backed material
+              recommendations when advising Lubbock homeowners on replacement options after hail
+              damage.
             </p>
           </section>
         </FadeIn>
@@ -464,18 +654,25 @@ export default function HailDamageRepairLubbockPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 md:p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Hail Damage in Lubbock? We're Here to Help.</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Lubbock property owners. Expert hail damage repair with comprehensive warranties. Insurance claim assistance from start to finish.
+            Free inspections for Lubbock property owners. Expert hail damage repair with
+            comprehensive warranties. Insurance claim assistance from start to finish.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="hail-damage-repair-lubbock" />
+        <RelatedArticles pageSlug="hail-damage-repair-lubbock" />
       </div>
     </>
   );

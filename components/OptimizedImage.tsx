@@ -14,11 +14,11 @@
  */
 
 interface OptimizedImageProps {
-  src: string;  // Original image path like "/images/hero.jpg"
+  src: string; // Original image path like "/images/hero.jpg"
   alt: string;
   className?: string;
   sizes?: string;
-  priority?: boolean;  // Load eagerly for LCP images
+  priority?: boolean; // Load eagerly for LCP images
   width?: number;
   height?: number;
 }
@@ -32,43 +32,33 @@ export function OptimizedImage({
   sizes = "100vw",
   priority = false,
   width,
-  height
+  height,
 }: OptimizedImageProps) {
   // Extract path and create base path for optimized versions
-  const basePath = src.replace(/\.(jpg|jpeg|png)$/i, '');
+  const basePath = src.replace(/\.(jpg|jpeg|png)$/i, "");
 
   // Generate srcset for each format
-  const generateSrcSet = (format: 'avif' | 'webp' | 'jpg') => {
-    return RESPONSIVE_WIDTHS
-      .map(w => `${basePath}-${w}w.${format} ${w}w`)
-      .join(', ');
+  const generateSrcSet = (format: "avif" | "webp" | "jpg") => {
+    return RESPONSIVE_WIDTHS.map((w) => `${basePath}-${w}w.${format} ${w}w`).join(", ");
   };
 
   return (
     <picture>
       {/* AVIF - smallest, best quality (modern browsers) */}
-      <source
-        type="image/avif"
-        srcSet={generateSrcSet('avif')}
-        sizes={sizes}
-      />
+      <source type="image/avif" srcSet={generateSrcSet("avif")} sizes={sizes} />
 
       {/* WebP - universal fallback */}
-      <source
-        type="image/webp"
-        srcSet={generateSrcSet('webp')}
-        sizes={sizes}
-      />
+      <source type="image/webp" srcSet={generateSrcSet("webp")} sizes={sizes} />
 
       {/* JPEG - legacy browsers */}
       <img
         src={`${basePath}-1280w.jpg`}
-        srcSet={generateSrcSet('jpg')}
+        srcSet={generateSrcSet("jpg")}
         sizes={sizes}
         alt={alt}
         className={className}
-        loading={priority ? 'eager' : 'lazy'}
-        decoding={priority ? 'sync' : 'async'}
+        loading={priority ? "eager" : "lazy"}
+        decoding={priority ? "sync" : "async"}
         width={width}
         height={height}
       />

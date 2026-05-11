@@ -5,12 +5,12 @@
 // InsuranceLogos: grayscale + 70% opacity at rest, color on hover.
 // Footer-level trademark disclaimer covers legal language.
 
-type Variant = 'residential' | 'metal' | 'commercial';
+type Variant = "residential" | "metal" | "commercial";
 
 type Brand = {
   slug: string;
   name: string;
-  ext: 'svg' | 'png' | 'webp';
+  ext: "svg" | "png" | "webp";
   width: number;
   height: number;
 };
@@ -22,41 +22,47 @@ type Brand = {
 // as premium in the West Texas storm-restoration market.
 const brandsByVariant: Record<Variant, Brand[]> = {
   residential: [
-    { slug: 'gaf', name: 'GAF', ext: 'svg', width: 2500, height: 2052 },
-    { slug: 'owens-corning', name: 'Owens Corning', ext: 'svg', width: 2500, height: 2500 },
-    { slug: 'certainteed', name: 'CertainTeed', ext: 'svg', width: 286, height: 66 },
-    { slug: 'tamko', name: 'TAMKO', ext: 'svg', width: 2500, height: 2500 },
+    { slug: "gaf", name: "GAF", ext: "svg", width: 2500, height: 2052 },
+    { slug: "owens-corning", name: "Owens Corning", ext: "svg", width: 2500, height: 2500 },
+    { slug: "certainteed", name: "CertainTeed", ext: "svg", width: 286, height: 66 },
+    { slug: "tamko", name: "TAMKO", ext: "svg", width: 2500, height: 2500 },
   ],
   metal: [
-    { slug: 'decra', name: 'DECRA Metal Roofing', ext: 'webp', width: 600, height: 600 },
-    { slug: 'mcelroy-metal', name: 'McElroy Metal', ext: 'png', width: 217, height: 145 },
-    { slug: 'metal-sales', name: 'Metal Sales Manufacturing', ext: 'png', width: 247, height: 27 },
-    { slug: 'englert', name: 'Englert', ext: 'svg', width: 1584, height: 280 },
-    { slug: 'drexel-metals', name: 'Drexel Metals', ext: 'png', width: 1801, height: 418 },
-    { slug: 'mbci', name: 'MBCI', ext: 'png', width: 160, height: 50 },
+    { slug: "decra", name: "DECRA Metal Roofing", ext: "webp", width: 600, height: 600 },
+    { slug: "mcelroy-metal", name: "McElroy Metal", ext: "png", width: 217, height: 145 },
+    { slug: "metal-sales", name: "Metal Sales Manufacturing", ext: "png", width: 247, height: 27 },
+    { slug: "englert", name: "Englert", ext: "svg", width: 1584, height: 280 },
+    { slug: "drexel-metals", name: "Drexel Metals", ext: "png", width: 1801, height: 418 },
+    { slug: "mbci", name: "MBCI", ext: "png", width: 160, height: 50 },
   ],
   commercial: [
-    { slug: 'carlisle-syntec', name: 'Carlisle SynTec Systems', ext: 'svg', width: 792, height: 188 },
-    { slug: 'johns-manville', name: 'Johns Manville', ext: 'svg', width: 712, height: 158 },
-    { slug: 'sika-sarnafil', name: 'Sika Sarnafil', ext: 'svg', width: 209, height: 229 },
-    { slug: 'duro-last', name: 'Duro-Last', ext: 'svg', width: 504, height: 72 },
-    { slug: 'duro-tech', name: 'Duro-Tech TPO', ext: 'png', width: 600, height: 200 },
-    { slug: 'versico', name: 'Versico', ext: 'png', width: 2382, height: 1077 },
-    { slug: 'mule-hide', name: 'Mule-Hide', ext: 'png', width: 124, height: 121 },
-    { slug: 'elevate', name: 'Elevate', ext: 'png', width: 189, height: 45 },
+    {
+      slug: "carlisle-syntec",
+      name: "Carlisle SynTec Systems",
+      ext: "svg",
+      width: 792,
+      height: 188,
+    },
+    { slug: "johns-manville", name: "Johns Manville", ext: "svg", width: 712, height: 158 },
+    { slug: "sika-sarnafil", name: "Sika Sarnafil", ext: "svg", width: 209, height: 229 },
+    { slug: "duro-last", name: "Duro-Last", ext: "svg", width: 504, height: 72 },
+    { slug: "duro-tech", name: "Duro-Tech TPO", ext: "png", width: 600, height: 200 },
+    { slug: "versico", name: "Versico", ext: "png", width: 2382, height: 1077 },
+    { slug: "mule-hide", name: "Mule-Hide", ext: "png", width: 124, height: 121 },
+    { slug: "elevate", name: "Elevate", ext: "png", width: 189, height: 45 },
   ],
 };
 
 const headings: Record<Variant, string> = {
-  residential: 'Premium residential materials we install',
-  metal: 'Premium metal roofing systems we install',
-  commercial: 'Commercial roof systems we install',
+  residential: "Premium residential materials we install",
+  metal: "Premium metal roofing systems we install",
+  commercial: "Commercial roof systems we install",
 };
 
 const gridCols: Record<Variant, string> = {
-  residential: 'grid-cols-2 sm:grid-cols-4',
-  metal: 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-6',
-  commercial: 'grid-cols-2 sm:grid-cols-4 lg:grid-cols-8',
+  residential: "grid-cols-2 sm:grid-cols-4",
+  metal: "grid-cols-2 sm:grid-cols-3 lg:grid-cols-6",
+  commercial: "grid-cols-2 sm:grid-cols-4 lg:grid-cols-8",
 };
 
 interface Props {
@@ -89,8 +95,8 @@ export function MaterialBrands({ variant }: Props) {
           ))}
         </div>
         <p className="mt-6 text-xs text-center text-gray-primary/70 max-w-3xl mx-auto">
-          Manufacturer logos are trademarks of their respective owners. 5 Star Commercial Roofing
-          is independent and is not affiliated with or endorsed by any listed manufacturer.
+          Manufacturer logos are trademarks of their respective owners. 5 Star Commercial Roofing is
+          independent and is not affiliated with or endorsed by any listed manufacturer.
         </p>
       </div>
     </section>

@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     "Free roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roofs. Call (806) 622-6041.",
   openGraph: {
     title: "Roof Inspections West Texas | 5 Star Roofing",
-    description: "Free roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roofs. Call (806) 622-6041.",
+    description:
+      "Free roof inspections across West Texas. Storm damage assessments, pre-purchase evaluations, and maintenance inspections for all roofs. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/roof-inspections/",
     siteName: "5 Star Roofing",
     images: [
@@ -46,23 +47,78 @@ export default function Page() {
       parentOrganization: {
         "@id": "https://5starroofingpros.com/#organization",
       },
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
     },
     areaServed: [
-      { "@type": "City", name: "Amarillo", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Andrews", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Big Spring", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Borger", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Canyon", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Dumas", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Levelland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Lubbock", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Midland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Monahans", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Odessa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Pampa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Perryton", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Snyder", address: { "@type": "PostalAddress", addressRegion: "TX" } },
+      {
+        "@type": "City",
+        name: "Amarillo",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Andrews",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Big Spring",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Borger",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Canyon",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Dumas",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Levelland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Lubbock",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Midland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Monahans",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Odessa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Pampa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Perryton",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Snyder",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
     ],
     description:
       "Professional roof inspection services across West Texas. Storm damage assessments, pre-purchase evaluations, maintenance inspections, and insurance documentation for residential and commercial properties.",
@@ -181,7 +237,10 @@ export default function Page() {
             professional inspection from 5 Star Roofing catches issues early, documents storm damage
             for insurance, and gives you a clear picture of your roof&apos;s remaining lifespan. We
             provide free inspections across our{" "}
-            <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+            <a
+              href="/service-areas/"
+              className="text-brand-brown hover:text-brand-gold underline font-semibold"
+            >
               14-city service area
             </a>{" "}
             with no obligation to hire us for repairs.
@@ -251,7 +310,9 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.15}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">What Does a Professional Roof Inspection Cover?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          What Does a Professional Roof Inspection Cover?
+        </h2>
         <p className="mb-4">
           We inspect every component of your roofing system, not just the visible surface. Here is
           what our inspection process examines:
@@ -287,9 +348,9 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Flashing and Penetrations</h3>
             <p className="text-gray-700">
               Flashing around chimneys, vents, skylights, and roof edges is the most common source
-              of leaks. We examine every penetration point for proper sealing, corrosion, separation,
-              and signs of past water entry. Pipe boots get particular attention as they degrade
-              faster than other components.
+              of leaks. We examine every penetration point for proper sealing, corrosion,
+              separation, and signs of past water entry. Pipe boots get particular attention as they
+              degrade faster than other components.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -297,7 +358,8 @@ export default function Page() {
             <p className="text-gray-700">
               Clogged, damaged, or improperly sloped gutters cause water to back up under shingles
               and along fascia boards. We check gutter condition, downspout flow, and overall
-              drainage patterns. On flat roofs, we verify drain function and check for ponding water.
+              drainage patterns. On flat roofs, we verify drain function and check for ponding
+              water.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -322,7 +384,9 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">What Types of Roof Inspections Are Available?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          What Types of Roof Inspections Are Available?
+        </h2>
         <p className="mb-4">
           Different situations call for different inspection approaches. We tailor the scope and
           documentation to match your specific needs:
@@ -332,11 +396,17 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Storm Damage Inspection</h3>
             <p className="text-gray-700">
               After{" "}
-              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/hail-damage-repair-amarillo/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 hail
               </a>
               ,{" "}
-              <a href="/wind-damage-repair/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/wind-damage-repair/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 wind
               </a>
               , or severe weather, we document all damage with insurance-grade detail. This includes
@@ -445,8 +515,8 @@ export default function Page() {
             We recommend a professional roof inspection at least once per year, ideally in early
             spring before storm season begins. In West Texas, where hail and high winds are common
             from March through June, an additional inspection after any significant storm is also
-            wise. Roofs over 10 years old benefit from twice-yearly inspections to catch aging-related
-            issues early.
+            wise. Roofs over 10 years old benefit from twice-yearly inspections to catch
+            aging-related issues early.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -466,10 +536,10 @@ export default function Page() {
             Do you offer free roof inspections?
           </h3>
           <p className="text-gray-700">
-            Yes. We provide free roof inspections across our entire 14-city service area. There is no
-            obligation to hire us for repairs. You receive a written report with photos regardless. If
-            we find damage that needs attention, we provide a detailed estimate. If your roof is in
-            good shape, we tell you that too.
+            Yes. We provide free roof inspections across our entire 14-city service area. There is
+            no obligation to hire us for repairs. You receive a written report with photos
+            regardless. If we find damage that needs attention, we provide a detailed estimate. If
+            your roof is in good shape, we tell you that too.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -503,8 +573,8 @@ export default function Page() {
             We walk you through every issue found, explain its severity, and provide repair options
             with pricing. Minor issues like a few loose shingles or worn caulking are quick,
             affordable fixes. Major issues like widespread storm damage or structural concerns get a
-            comprehensive repair or replacement estimate. We prioritize repairs by urgency so you can
-            address the most critical items first.
+            comprehensive repair or replacement estimate. We prioritize repairs by urgency so you
+            can address the most critical items first.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -543,7 +613,7 @@ export default function Page() {
           </a>
         </div>
       </section>
-    <RelatedArticles pageSlug="roof-inspections" />
+      <RelatedArticles pageSlug="roof-inspections" />
     </div>
   );
 }

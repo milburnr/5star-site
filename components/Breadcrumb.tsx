@@ -14,7 +14,7 @@ interface BreadcrumbProps {
    *  - 'on-photo': white text + drop-shadow for floating over the hero photo.
    *    Hero overlay scrim provides legibility. Uses warm-white + stronger
    *    drop shadow on mobile per Block 4 Phase 3 design review. */
-  tone?: 'on-light' | 'on-photo';
+  tone?: "on-light" | "on-photo";
 }
 
 /**
@@ -30,28 +30,26 @@ interface BreadcrumbProps {
  * For routes without a hero photo (utility pages), the on-light variant
  * paired with the surrounding warm page bg works without an explicit strip.
  */
-export function Breadcrumb({ items, bare = false, tone = 'on-light' }: BreadcrumbProps) {
-  const isOnPhoto = tone === 'on-photo';
+export function Breadcrumb({ items, bare = false, tone = "on-light" }: BreadcrumbProps) {
+  const isOnPhoto = tone === "on-photo";
 
   // Color tokens chosen to satisfy WCAG AA in each context.
   const linkClass = isOnPhoto
-    ? 'text-white hover:text-brand-gold-light hover:underline transition-colors font-medium'
-    : 'text-brand-brown hover:text-brand-gold-vibrant hover:underline transition-colors font-medium';
+    ? "text-white hover:text-brand-gold-light hover:underline transition-colors font-medium"
+    : "text-brand-brown hover:text-brand-gold-vibrant hover:underline transition-colors font-medium";
 
-  const activeClass = isOnPhoto
-    ? 'text-white font-semibold'
-    : 'text-brand-brown font-semibold';
+  const activeClass = isOnPhoto ? "text-white font-semibold" : "text-brand-brown font-semibold";
 
-  const separatorClass = isOnPhoto ? 'text-white/70' : 'text-brand-brown/50';
+  const separatorClass = isOnPhoto ? "text-white/70" : "text-brand-brown/50";
 
   // Drop-shadow on photo variant for legibility over the hero scrim. Stronger
   // on mobile (smaller text needs more contrast support).
   const photoTextStyle: React.CSSProperties | undefined = isOnPhoto
-    ? { textShadow: '0 1px 4px rgba(0,0,0,0.85), 0 2px 8px rgba(0,0,0,0.6)' }
+    ? { textShadow: "0 1px 4px rgba(0,0,0,0.85), 0 2px 8px rgba(0,0,0,0.6)" }
     : undefined;
 
   // On-photo variant uses slightly larger mobile text per design review.
-  const sizeClass = isOnPhoto ? 'text-xs sm:text-sm' : 'text-sm';
+  const sizeClass = isOnPhoto ? "text-xs sm:text-sm" : "text-sm";
 
   return (
     <>
@@ -62,13 +60,13 @@ export function Breadcrumb({ items, bare = false, tone = 'on-light' }: Breadcrum
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
-            "itemListElement": items.map((item, index) => ({
+            itemListElement: items.map((item, index) => ({
               "@type": "ListItem",
-              "position": index + 1,
-              "name": item.name,
-              "item": `https://5starroofingpros.com${item.url}`
-            }))
-          })
+              position: index + 1,
+              name: item.name,
+              item: `https://5starroofingpros.com${item.url}`,
+            })),
+          }),
         }}
       />
 
@@ -96,7 +94,9 @@ export function Breadcrumb({ items, bare = false, tone = 'on-light' }: Breadcrum
                 </svg>
               )}
               {index === items.length - 1 ? (
-                <span className={activeClass} aria-current="page">{item.name}</span>
+                <span className={activeClass} aria-current="page">
+                  {item.name}
+                </span>
               ) : (
                 <a href={item.url} className={linkClass}>
                   {item.name}

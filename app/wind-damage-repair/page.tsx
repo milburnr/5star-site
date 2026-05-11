@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
   openGraph: {
     title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
-    description: "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+    description:
+      "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/wind-damage-repair/",
     siteName: "5 Star Roofing",
     images: [
@@ -46,23 +47,78 @@ export default function Page() {
       parentOrganization: {
         "@id": "https://5starroofingpros.com/#organization",
       },
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
     },
     areaServed: [
-      { "@type": "City", name: "Amarillo", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Andrews", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Big Spring", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Borger", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Canyon", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Dumas", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Levelland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Lubbock", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Midland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Monahans", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Odessa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Pampa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Perryton", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Snyder", address: { "@type": "PostalAddress", addressRegion: "TX" } },
+      {
+        "@type": "City",
+        name: "Amarillo",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Andrews",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Big Spring",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Borger",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Canyon",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Dumas",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Levelland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Lubbock",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Midland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Monahans",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Odessa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Pampa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Perryton",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Snyder",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
     ],
     description:
       "Professional wind damage roof repair services across Texas. Emergency tarping, damage assessment, insurance documentation, and complete roof restoration after wind storms.",
@@ -177,11 +233,15 @@ export default function Page() {
             What Happens When Wind Hits Your Roof?
           </h2>
           <p className="text-lg">
-            Texas wind does not wait, and neither do we. From the Panhandle to the Permian Basin,
+            Texas wind does not wait for business hours. From the Panhandle to the Permian Basin,
             high winds tear through communities every spring and summer, ripping shingles loose,
             peeling back flashing, and exposing your home to water damage. 5 Star Roofing provides
-            emergency tarping and permanent wind damage repairs for homeowners across our{" "}
-            <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+            storm-damage documentation, insurance-claim assistance, and permanent wind damage
+            repairs for homeowners across our{" "}
+            <a
+              href="/service-areas/"
+              className="text-brand-brown hover:text-brand-gold underline font-semibold"
+            >
               14-city service area
             </a>
             .
@@ -236,14 +296,17 @@ export default function Page() {
             <p className="text-gray-700">
               Ridge caps sit at the highest point of your roof and take the full force of wind. Once
               damaged, they allow wind-driven rain into the attic. Soffits and fascia boards along
-              the eaves can crack, warp, or blow off, compromising your roof&apos;s ventilation system.
+              the eaves can crack, warp, or blow off, compromising your roof&apos;s ventilation
+              system.
             </p>
           </div>
         </div>
       </FadeIn>
 
       <FadeIn delay={0.15}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">How Does the Wind Damage Repair Process Work?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          How Does the Wind Damage Repair Process Work?
+        </h2>
         <p className="mb-4">
           When you call after a windstorm, here is how we handle the repair from start to finish:
         </p>
@@ -255,9 +318,9 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-1">Emergency Tarping</h3>
               <p className="text-gray-700">
-                If your roof has exposed areas, we tarp the damaged sections to prevent further water
-                intrusion. This is especially critical during active storm seasons when follow-up
-                rain is likely within days.
+                If your roof has exposed areas, we tarp the damaged sections to prevent further
+                water intrusion. This is especially critical during active storm seasons when
+                follow-up rain is likely within days.
               </p>
             </div>
           </div>
@@ -292,7 +355,9 @@ export default function Page() {
               4
             </div>
             <div>
-              <h3 className="font-bold text-brand-brown mb-1">Targeted Repair or Full Replacement</h3>
+              <h3 className="font-bold text-brand-brown mb-1">
+                Targeted Repair or Full Replacement
+              </h3>
               <p className="text-gray-700">
                 Depending on the extent of damage, we either repair the affected areas or recommend
                 full replacement. Localized damage typically requires replacing individual shingles,
@@ -305,7 +370,9 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.2}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">What Makes West Texas Wind Patterns Unique for Roofing?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          What Makes West Texas Wind Patterns Unique for Roofing?
+        </h2>
         <p className="mb-4">
           Understanding local wind conditions explains why roof maintenance matters so much in this
           region. The Texas Panhandle is one of the windiest areas in the continental United States,
@@ -317,7 +384,10 @@ export default function Page() {
               <h3 className="font-bold text-brand-brown mb-2">Panhandle Wind Facts</h3>
               <ul className="list-disc list-inside space-y-2 text-gray-700">
                 <li>Average annual wind speed: 12-14 mph, among the highest in the U.S.</li>
-                <li>Spring gusts regularly exceed 60-70 mph during thunderstorm season (March through June)</li>
+                <li>
+                  Spring gusts regularly exceed 60-70 mph during thunderstorm season (March through
+                  June)
+                </li>
                 <li>Chinook-style winds can sustain 40-50 mph for 12+ hours at a time</li>
                 <li>Amarillo records measurable wind events on over 200 days per year</li>
               </ul>
@@ -325,10 +395,22 @@ export default function Page() {
             <div>
               <h3 className="font-bold text-brand-brown mb-2">Why Installation Matters</h3>
               <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Six-nail shingle patterns outperform four-nail patterns by 30-50% in wind uplift resistance</li>
-                <li>Starter strips with factory-applied adhesive create a stronger wind seal along eaves</li>
-                <li>Synthetic underlayment withstands wind exposure longer than traditional felt if shingles are lost</li>
-                <li>Proper roof deck attachment (ring-shank nails, sealed sheathing) prevents deck uplift in extreme events</li>
+                <li>
+                  Six-nail shingle patterns outperform four-nail patterns by 30-50% in wind uplift
+                  resistance
+                </li>
+                <li>
+                  Starter strips with factory-applied adhesive create a stronger wind seal along
+                  eaves
+                </li>
+                <li>
+                  Synthetic underlayment withstands wind exposure longer than traditional felt if
+                  shingles are lost
+                </li>
+                <li>
+                  Proper roof deck attachment (ring-shank nails, sealed sheathing) prevents deck
+                  uplift in extreme events
+                </li>
               </ul>
             </div>
           </div>
@@ -354,9 +436,9 @@ export default function Page() {
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="font-bold text-brand-brown mb-2">Proper Nailing Patterns</h3>
             <p className="text-gray-700">
-              Using six nails per shingle instead of four, placed in the manufacturer&apos;s recommended
-              nailing zone, dramatically improves hold strength. This single upgrade can mean the
-              difference between a roof that survives a 70 mph gust and one that does not.
+              Using six nails per shingle instead of four, placed in the manufacturer&apos;s
+              recommended nailing zone, dramatically improves hold strength. This single upgrade can
+              mean the difference between a roof that survives a 70 mph gust and one that does not.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
@@ -379,7 +461,10 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Regular Maintenance</h3>
             <p className="text-gray-700">
               Annual{" "}
-              <a href="/roof-inspections/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/roof-inspections/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 roof inspections
               </a>{" "}
               catch loose shingles, degraded caulking, and worn flashing before they become failure
@@ -441,11 +526,11 @@ export default function Page() {
           </h3>
           <p className="text-gray-700">
             Most homeowner insurance policies in Texas cover wind damage as a named peril. Your
-            policy will typically pay for repairs or replacement minus your deductible. Some policies
-            have a separate wind/hail deductible, often 1-2% of the insured value. We provide
-            detailed damage documentation with photos and measurements that insurance adjusters need
-            for claim approval. Our team has extensive experience working with Texas insurance
-            carriers.
+            policy will typically pay for repairs or replacement minus your deductible. Some
+            policies have a separate wind/hail deductible, often 1-2% of the insured value. We
+            provide detailed damage documentation with photos and measurements that insurance
+            adjusters need for claim approval. Our team has extensive experience working with Texas
+            insurance carriers.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -455,9 +540,9 @@ export default function Page() {
           <p className="text-gray-700">
             Yes. The Texas Panhandle and Permian Basin experience sustained high winds year-round,
             not just during thunderstorms. Spring chinook winds can blow at 40-60 mph for hours or
-            even days. These persistent winds gradually loosen nails, lift shingle edges, and fatigue
-            roofing materials over time. Cumulative wind wear is one of the most common causes of
-            premature roof failure in this region.
+            even days. These persistent winds gradually loosen nails, lift shingle edges, and
+            fatigue roofing materials over time. Cumulative wind wear is one of the most common
+            causes of premature roof failure in this region.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -521,7 +606,7 @@ export default function Page() {
           </a>
         </div>
       </section>
-    <RelatedArticles pageSlug="wind-damage-repair" />
+      <RelatedArticles pageSlug="wind-damage-repair" />
     </div>
   );
 }

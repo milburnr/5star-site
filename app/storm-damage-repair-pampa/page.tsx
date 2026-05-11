@@ -15,12 +15,14 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/storm-damage-repair-pampa/' },
-  title: 'Storm Damage Repair Pampa TX | 5 Star Roofing',
-  description: "Storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair-pampa/" },
+  title: "Storm Damage Repair Pampa TX | 5 Star Roofing",
+  description:
+    "Storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Storm Damage Repair Pampa TX | 5 Star Roofing",
-    description: "Storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+    description:
+      "Storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/storm-damage-repair-pampa/",
     siteName: "5 Star Roofing",
     images: [
@@ -38,149 +40,188 @@ export const metadata: Metadata = {
 
 export default function StormDamageRepairPampaPage() {
   return (
-    <>      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Storm Damage Repair",
-                      "url": "/storm-damage-repair/"
-              },
-              {
-                      "name": "Pampa",
-                      "url": "/storm-damage-repair-pampa/"
-              }
-      ]} />
-
+    <>
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Pampa",
+            url: "/storm-damage-repair-pampa/",
+          },
+        ]}
+      />
       {/* Sticky Contact Bar */}
       <StickyContactBar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["LocalBusiness", "RoofingContractor"],
-        "@id": "https://5starroofingpros.com/storm-damage-repair-pampa/#localbusiness",
-        "name": "5 Star Roofing",
-        "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
-        "telephone": "(806) 622-6041",
-        "email": "admin@5starroofingpros.com",
-        "priceRange": "$",
-        "address": { "@type": "PostalAddress", "streetAddress": "2909 S Western St", "addressLocality": "Amarillo", "addressRegion": "TX", "postalCode": "79109", "addressCountry": "US" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 35.5364, "longitude": -100.9599 },
-        "url": "https://5starroofingpros.com/storm-damage-repair-pampa/",
-        "areaServed": { "@type": "City", "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas", "name": "Pampa", "containedInPlace": { "@type": "State", "name": "Texas" } },
-        "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "09:00", "closes": "17:00" },
-        "description": "Expert storm damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
-        "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-        "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
-      }) }} />
-
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@id": "https://5starroofingpros.com/storm-damage-repair-pampa/#localbusiness",
+            name: "5 Star Roofing",
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            priceRange: "$",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
+            },
+            geo: { "@type": "GeoCoordinates", latitude: 35.5364, longitude: -100.9599 },
+            url: "https://5starroofingpros.com/storm-damage-repair-pampa/",
+            areaServed: {
+              "@type": "City",
+              "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas",
+              name: "Pampa",
+              containedInPlace: { "@type": "State", name: "Texas" },
+            },
+            openingHoursSpecification: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday",
+              ],
+              opens: "09:00",
+              closes: "17:00",
+            },
+            description:
+              "Expert storm damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Storm Damage Roof Repair",
-            "provider": {
+            serviceType: "Storm Damage Roof Repair",
+            provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               "@id": "https://5starroofingpros.com/#organization",
-              "name": "5 Star Roofing",
-              "telephone": "(806) 622-6041",
-              "address": {
+              name: "5 Star Roofing",
+              telephone: "(806) 622-6041",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "2909 S Western St",
-                "addressLocality": "Amarillo",
-                "addressRegion": "TX",
-                "postalCode": "79109",
-                "addressCountry": "US"
+                streetAddress: "2909 S Western St",
+                addressLocality: "Amarillo",
+                addressRegion: "TX",
+                postalCode: "79109",
+                addressCountry: "US",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 35.1768,
-                "longitude": -101.8590
+                latitude: 35.1768,
+                longitude: -101.859,
               },
-              "openingHoursSpecification": {
+              openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "09:00",
-                "closes": "17:00"
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "09:00",
+                closes: "17:00",
               },
-              "parentOrganization": { "@id": "https://5starroofingpros.com/#organization" }
+              parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             },
-            "areaServed": {
+            areaServed: {
               "@type": "City",
               "@id": "https://en.wikipedia.org/wiki/Pampa,_Texas",
-              "name": "Pampa",
-              "containedInPlace": {
+              name: "Pampa",
+              containedInPlace: {
                 "@type": "State",
-                "name": "Texas"
-              }
+                name: "Texas",
+              },
             },
-            "description": "Expert storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041"
-          })
+            description:
+              "Expert storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041",
+          }),
         }}
       />
-
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "What types of storm damage affect Pampa roofs?",
-                "acceptedAnswer": {
+                name: "What types of storm damage affect Pampa roofs?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Pampa's location in Gray County creates exposure to multiple storm threats: 6-8 annual hailstorms with baseball-sized hail, High Plains winds exceeding 60 mph, heavy rainstorms causing water intrusion, and flying debris from agricultural areas. Properties near Recreation Park, downtown Pampa, and Pampa Regional Medical Center experience all these weather extremes, requiring comprehensive storm damage assessment after each severe weather event."
-                }
+                  text: "Pampa's location in Gray County creates exposure to multiple storm threats: 6-8 annual hailstorms with baseball-sized hail, High Plains winds exceeding 60 mph, heavy rainstorms causing water intrusion, and flying debris from agricultural areas. Properties near Recreation Park, downtown Pampa, and Pampa Regional Medical Center experience all these weather extremes, requiring comprehensive storm damage assessment after each severe weather event.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How quickly do you respond to storm damage emergencies in Pampa?",
-                "acceptedAnswer": {
+                name: "How quickly do you respond to storm damage emergencies in Pampa?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We provide prompt storm damage response throughout Pampa and Gray County. For active leaks and urgent damage near Harvester Stadium, Coronado Healthcare Center, or anywhere in Pampa's ranching community, we typically arrive within 2-4 hours with tarping and temporary repairs. For comprehensive post-storm inspections, we schedule within 24-48 hours."
-                }
+                  text: "We schedule storm-damage documentation and inspections across Pampa and Gray County once conditions are safe for crews to be on a roof. We are not an emergency-dispatch service — our value is thorough photo documentation, adjuster-ready reports, and Class 4 impact-resistant restoration for Pampa's ranching and agricultural community.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Will insurance cover storm damage repairs in Pampa's agricultural area?",
-                "acceptedAnswer": {
+                name: "Will insurance cover storm damage repairs in Pampa's agricultural area?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Yes! Property insurance policies typically cover sudden storm damage including hail, wind, debris impacts, and water intrusion from storm-damaged roofs. Given Pampa's extreme High Plains weather, insurance companies regularly process claims from Gray County. We document all storm damage with detailed photos, wind speed data, and hail measurements, then work directly with adjusters to maximize coverage for property owners."
-                }
+                  text: "Yes! Property insurance policies typically cover sudden storm damage including hail, wind, debris impacts, and water intrusion from storm-damaged roofs. Given Pampa's extreme High Plains weather, insurance companies regularly process claims from Gray County. We document all storm damage with detailed photos, wind speed data, and hail measurements, then work directly with adjusters to maximize coverage for property owners.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "Can you repair storm damage on agricultural buildings in Pampa?",
-                "acceptedAnswer": {
+                name: "Can you repair storm damage on agricultural buildings in Pampa?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Absolutely. We repair storm damage on all building types in Pampa's ranching community—from barns and agricultural facilities to commercial buildings near downtown Pampa and homes near Woody Guthrie Folk Music Center. Our team understands the unique needs of Gray County's agricultural buildings and works efficiently to minimize disruption to farming and ranching operations."
-                }
+                  text: "Absolutely. We repair storm damage on all building types in Pampa's ranching community—from barns and agricultural facilities to commercial buildings near downtown Pampa and homes near Woody Guthrie Folk Music Center. Our team understands the unique needs of Gray County's agricultural buildings and works efficiently to minimize disruption to farming and ranching operations.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What storm damage repairs do you handle in Pampa?",
-                "acceptedAnswer": {
+                name: "What storm damage repairs do you handle in Pampa?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties."
-                }
-              }
-            ]
-          })
+                  text: "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.",
+                },
+              },
+            ],
+          }),
         }}
       />
-
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-pampa-47-1280w.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-pampa-47-1280w.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
@@ -194,13 +235,18 @@ export default function StormDamageRepairPampaPage() {
                 Storm Damage Experts | Panhandle Weather Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8 hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806) 622-6041
+                Expert storm damage roof repair in Pampa TX. Texas Panhandle experiences 6-8
+                hailstorms annually. High Plains winds 60+ mph. Free inspections. Call (806)
+                622-6041
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
                   urgent: (806) 622-6041
                 </a>
-                <a href="/contact/" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl">
+                <a
+                  href="/contact/"
+                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
+                >
                   Get Free Inspection
                 </a>
               </div>
@@ -208,15 +254,12 @@ export default function StormDamageRepairPampaPage() {
           </FadeIn>
         </div>
       </section>
-
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">
-                 
-                </div>
+                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
                 <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -228,14 +271,19 @@ export default function StormDamageRepairPampaPage() {
                 <div className="text-brand-brown font-semibold text-lg">Days to Complete</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-3xl mb-3"><span className="flex gap-0.5">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />))}</span></div>
+                <div className="text-3xl mb-3">
+                  <span className="flex gap-0.5">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-brand-gold text-brand-gold" />
+                    ))}
+                  </span>
+                </div>
                 <div className="text-brand-brown font-semibold text-lg">5-Star Rated</div>
               </div>
             </div>
           </div>
         </section>
       </FadeIn>
-
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
@@ -243,10 +291,21 @@ export default function StormDamageRepairPampaPage() {
               What Does Pampa's Storm Damage Repair Specialists Look Like?
             </h2>
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              Pampa's position as Gray County's seat exposes properties to severe Panhandle storm systems. From Pampa Regional Medical Center and Recreation Park to agricultural properties throughout the county, storm damage from hail, wind, and debris threatens every building. Properties near downtown Pampa, Harvester Stadium, and Coronado Healthcare Center face 6-8 annual hailstorms, High Plains winds 60+ mph, and agricultural debris impacts—creating comprehensive storm damage needing immediate professional response.
+              Pampa's position as Gray County's seat exposes properties to severe Panhandle storm
+              systems. From Pampa Regional Medical Center and Recreation Park to agricultural
+              properties throughout the county, storm damage from hail, wind, and debris threatens
+              every building. Properties near downtown Pampa, Harvester Stadium, and Coronado
+              Healthcare Center face 6-8 annual hailstorms, High Plains winds 60+ mph, and
+              agricultural debris impacts—creating comprehensive storm damage needing immediate
+              professional response.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've responded to 220+ storm damage emergencies across Pampa's ranching community with service. From historic areas near Woody Guthrie Folk Music Center to properties near Hobart Street Park and White Deer Land Museum, we provide tarping, complete damage documentation, insurance claim management, and permanent repairs. We understand Gray County building codes and work efficiently to restore your property. Most owners pay only their deductible when insurance covers storm damage.
+              Since 2014, we've responded to 220+ storm damage emergencies across Pampa's ranching
+              community with service. From historic areas near Woody Guthrie Folk Music Center to
+              properties near Hobart Street Park and White Deer Land Museum, we provide tarping,
+              complete damage documentation, insurance claim management, and permanent repairs. We
+              understand Gray County building codes and work efficiently to restore your property.
+              Most owners pay only their deductible when insurance covers storm damage.
             </p>
           </section>
         </FadeIn>
@@ -258,21 +317,36 @@ export default function StormDamageRepairPampaPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">Supercell Storm Formation</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  Supercell Storm Formation
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Pampa sits in the heart of "Tornado Alley" where dry air masses from the Rocky Mountains collide with warm, moist air from the Gulf of Mexico. This creates perfect conditions for supercell thunderstorms - massive rotating storms capable of producing baseball-sized hail, 80+ mph winds, and devastating tornadoes.
+                  Pampa sits in the heart of "Tornado Alley" where dry air masses from the Rocky
+                  Mountains collide with warm, moist air from the Gulf of Mexico. This creates
+                  perfect conditions for supercell thunderstorms - massive rotating storms capable
+                  of producing baseball-sized hail, 80+ mph winds, and devastating tornadoes.
                 </p>
                 <p className="text-gray-700">
-                  These supercells typically form April through September, with peak activity May-June. The flat Texas Panhandle terrain offers no barriers to slow storm development, allowing supercells to gain strength as they move across Gray County toward Pampa.
+                  These supercells typically form April through September, with peak activity
+                  May-June. The flat Texas Panhandle terrain offers no barriers to slow storm
+                  development, allowing supercells to gain strength as they move across Gray County
+                  toward Pampa.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-4 text-brand-gold">High Plains Wind Dynamics</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-gold">
+                  High Plains Wind Dynamics
+                </h3>
                 <p className="text-gray-700 mb-4">
-                  Pampa experiences unique wind patterns due to its High Plains location at 3,200 feet elevation. Prevailing southwest winds accelerate across the flat landscape, creating sustained speeds of 25-35 mph on normal days. During storm systems, these winds can exceed 80 mph.
+                  Pampa experiences unique wind patterns due to its High Plains location at 3,200
+                  feet elevation. Prevailing southwest winds accelerate across the flat landscape,
+                  creating sustained speeds of 25-35 mph on normal days. During storm systems, these
+                  winds can exceed 80 mph.
                 </p>
                 <p className="text-gray-700">
-                  The lack of natural windbreaks means Pampa properties face constant wind stress year-round. Agricultural debris, tumbleweeds, and loose materials become dangerous projectiles during severe weather events.
+                  The lack of natural windbreaks means Pampa properties face constant wind stress
+                  year-round. Agricultural debris, tumbleweeds, and loose materials become dangerous
+                  projectiles during severe weather events.
                 </p>
               </div>
             </div>
@@ -336,24 +410,36 @@ export default function StormDamageRepairPampaPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                <div className="bg-red-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  1
+                </div>
                 <h3 className="text-xl font-bold mb-3">Immediate Safety Assessment</h3>
                 <p className="text-gray-700">
-                  Within 2-4 hours of your call, our our team arrives at your Pampa property to assess structural safety, document all visible damage, and implement immediate protective measures like tarping.
+                  Once conditions are safe, our team arrives at your Pampa property to assess
+                  structural safety, document all visible damage, and coordinate weather-protective
+                  measures.
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-orange-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                <div className="bg-orange-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  2
+                </div>
                 <h3 className="text-xl font-bold mb-3">Damage Documentation</h3>
                 <p className="text-gray-700">
-                  We photograph all storm damage, measure hail impact sizes, record wind speed estimates, and create detailed reports for insurance claims. This documentation is crucial for maximizing your coverage.
+                  We photograph all storm damage, measure hail impact sizes, record wind speed
+                  estimates, and create detailed reports for insurance claims. This documentation is
+                  crucial for maximizing your coverage.
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                <div className="bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  3
+                </div>
                 <h3 className="text-xl font-bold mb-3">Permanent Restoration</h3>
                 <p className="text-gray-700">
-                  After insurance approval, we execute complete repairs using materials designed for Panhandle weather. All work meets Gray County building codes and includes comprehensive warranties.
+                  After insurance approval, we execute complete repairs using materials designed for
+                  Panhandle weather. All work meets Gray County building codes and includes
+                  comprehensive warranties.
                 </p>
               </div>
             </div>
@@ -368,32 +454,59 @@ export default function StormDamageRepairPampaPage() {
             <div className="bg-gradient-to-r from-amber-50 to-amber-50 p-8 rounded-3xl">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">What's Typically Covered</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    What's Typically Covered
+                  </h3>
                   <ul className="text-gray-700 space-y-3">
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
-                      <span><strong>Hail damage:</strong> Granule loss, exposed mat, cracked shingles</span>
+                      <span className="text-green-500 mr-2 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </span>
+                      <span>
+                        <strong>Hail damage:</strong> Granule loss, exposed mat, cracked shingles
+                      </span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
-                      <span><strong>Wind damage:</strong> Lifted shingles, torn sections, blown-off materials</span>
+                      <span className="text-green-500 mr-2 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </span>
+                      <span>
+                        <strong>Wind damage:</strong> Lifted shingles, torn sections, blown-off
+                        materials
+                      </span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
-                      <span><strong>Debris impact:</strong> Tree branches, flying objects, agricultural debris</span>
+                      <span className="text-green-500 mr-2 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </span>
+                      <span>
+                        <strong>Debris impact:</strong> Tree branches, flying objects, agricultural
+                        debris
+                      </span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
-                      <span><strong>Water intrusion:</strong> Secondary damage from storm-compromised roofs</span>
+                      <span className="text-green-500 mr-2 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </span>
+                      <span>
+                        <strong>Water intrusion:</strong> Secondary damage from storm-compromised
+                        roofs
+                      </span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-green-500 mr-2 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></span>
-                      <span><strong>storm repairs:</strong> Tarping and temporary protection measures</span>
+                      <span className="text-green-500 mr-2 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </span>
+                      <span>
+                        <strong>storm repairs:</strong> Tarping and temporary protection measures
+                      </span>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">Maximizing Your Claim</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-brand-brown">
+                    Maximizing Your Claim
+                  </h3>
                   <ul className="text-gray-700 space-y-3">
                     <li className="flex items-start">
                       <span className="text-brand-gold-vibrant mr-2 mt-1">•</span>
@@ -428,93 +541,170 @@ export default function StormDamageRepairPampaPage() {
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="item-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What types of storm damage affect Pampa roofs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Pampa's location in Gray County creates exposure to multiple storm threats: 6-8 annual hailstorms with baseball-sized hail, High Plains winds exceeding 60 mph, heavy rainstorms causing water intrusion, and flying debris from agricultural areas. Properties near Recreation Park, downtown Pampa, and Pampa Regional Medical Center experience all these weather extremes, requiring comprehensive storm damage assessment after each severe weather event.
+                  Pampa's location in Gray County creates exposure to multiple storm threats: 6-8
+                  annual hailstorms with baseball-sized hail, High Plains winds exceeding 60 mph,
+                  heavy rainstorms causing water intrusion, and flying debris from agricultural
+                  areas. Properties near Recreation Park, downtown Pampa, and Pampa Regional Medical
+                  Center experience all these weather extremes, requiring comprehensive storm damage
+                  assessment after each severe weather event.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How quickly do you respond to storm damage emergencies in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide prompt storm damage response throughout Pampa and Gray County. For active leaks and urgent damage near Harvester Stadium, Coronado Healthcare Center, or anywhere in Pampa's ranching community, we typically arrive within 2-4 hours with tarping and temporary repairs. For comprehensive post-storm inspections, we schedule within 24-48 hours.
+                  We schedule storm-damage documentation and inspections across Pampa and Gray
+                  County once conditions are safe for crews to be on a roof. We are not an
+                  emergency-dispatch service — our value is thorough photo documentation,
+                  adjuster-ready reports, and Class 4 impact-resistant restoration for Pampa's
+                  ranching and agricultural community.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Will insurance cover storm damage repairs in Pampa's agricultural area?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes! Property insurance policies typically cover sudden storm damage including hail, wind, debris impacts, and water intrusion from storm-damaged roofs. Given Pampa's extreme High Plains weather, insurance companies regularly process claims from Gray County. We document all storm damage with detailed photos, wind speed data, and hail measurements, then work directly with adjusters to maximize coverage for property owners.
+                  Yes! Property insurance policies typically cover sudden storm damage including
+                  hail, wind, debris impacts, and water intrusion from storm-damaged roofs. Given
+                  Pampa's extreme High Plains weather, insurance companies regularly process claims
+                  from Gray County. We document all storm damage with detailed photos, wind speed
+                  data, and hail measurements, then work directly with adjusters to maximize
+                  coverage for property owners.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Can you repair storm damage on agricultural buildings in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Absolutely. We repair storm damage on all building types in Pampa's ranching community—from barns and agricultural facilities to commercial buildings near downtown Pampa and homes near Woody Guthrie Folk Music Center. Our team understands the unique needs of Gray County's agricultural buildings and works efficiently to minimize disruption to farming and ranching operations.
+                  Absolutely. We repair storm damage on all building types in Pampa's ranching
+                  community—from barns and agricultural facilities to commercial buildings near
+                  downtown Pampa and homes near Woody Guthrie Folk Music Center. Our team
+                  understands the unique needs of Gray County's agricultural buildings and works
+                  efficiently to minimize disruption to farming and ranching operations.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What storm damage repairs do you handle in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.
+                  We handle all storm-related repairs for properties near Hobart Street Park, White
+                  Deer Land Museum, and throughout Pampa: hail damage shingle replacement,
+                  wind-damaged section rebuilding, prompt leak repairs, debris impact damage,
+                  blown-off metal panels, damaged flashing, and complete roof replacements when
+                  storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for
+                  commercial properties.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How do Texas Panhandle supercells damage roofs differently?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Panhandle supercells create unique damage patterns due to their rotating nature and massive size. Unlike ordinary storms, supercells produce hail that falls at angles due to powerful updrafts, hitting both vertical and horizontal surfaces. The rotation creates varying wind directions that can lift shingles from multiple angles. Pampa's flat terrain allows these storms to maintain strength longer, creating sustained damage over larger areas than typical thunderstorms.
+                  Panhandle supercells create unique damage patterns due to their rotating nature
+                  and massive size. Unlike ordinary storms, supercells produce hail that falls at
+                  angles due to powerful updrafts, hitting both vertical and horizontal surfaces.
+                  The rotation creates varying wind directions that can lift shingles from multiple
+                  angles. Pampa's flat terrain allows these storms to maintain strength longer,
+                  creating sustained damage over larger areas than typical thunderstorms.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-7" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-7"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Why is immediate storm response crucial in Pampa's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Pampa's extreme weather doesn't pause between storms. A roof damaged by hail in May faces continued exposure to severe thunderstorms through September, plus winter freeze-thaw cycles and spring winds. Even small storm damage allows water intrusion that rapidly deteriorates structural materials in our climate. Quick response prevents secondary damage that can cost 3-5 times more than immediate repairs.
+                  Pampa's extreme weather doesn't pause between storms. A roof damaged by hail in
+                  May faces continued exposure to severe thunderstorms through September, plus
+                  winter freeze-thaw cycles and spring winds. Even small storm damage allows water
+                  intrusion that rapidly deteriorates structural materials in our climate. Quick
+                  response prevents secondary damage that can cost 3-5 times more than immediate
+                  repairs.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-8" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-8"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What materials work best for storm-prone Pampa properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We recommend impact-resistant materials rated for high-wind zones. For shingle roofs: Class 4 impact-resistant asphalt shingles with 130+ mph wind ratings. For metal roofs: 26-gauge or thicker steel with enhanced coating systems. All installations include upgraded fastening patterns, impact-resistant underlayment, and reinforced flashing systems designed for Gray County's extreme weather patterns.
+                  We recommend impact-resistant materials rated for high-wind zones. For shingle
+                  roofs: Class 4 impact-resistant asphalt shingles with 130+ mph wind ratings. For
+                  metal roofs: 26-gauge or thicker steel with enhanced coating systems. All
+                  installations include upgraded fastening patterns, impact-resistant underlayment,
+                  and reinforced flashing systems designed for Gray County's extreme weather
+                  patterns.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-9" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-9"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How do you handle agricultural building storm damage in Gray County?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Agricultural buildings face unique challenges from flying debris and large roof areas that catch maximum wind loads. We understand farming schedules and work efficiently during harvest breaks. Our agricultural specialists handle everything from livestock barns to grain storage facilities, using materials and methods appropriate for each building's function while meeting insurance requirements for commercial agricultural properties.
+                  Agricultural buildings face unique challenges from flying debris and large roof
+                  areas that catch maximum wind loads. We understand farming schedules and work
+                  efficiently during harvest breaks. Our agricultural specialists handle everything
+                  from livestock barns to grain storage facilities, using materials and methods
+                  appropriate for each building's function while meeting insurance requirements for
+                  commercial agricultural properties.
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value="item-10" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="item-10"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What preventive measures reduce future storm damage in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Beyond quality materials, we recommend: regular inspections before storm seasons, proper attic ventilation to reduce wind uplift, secure outdoor items that become projectiles, strategic landscaping to reduce wind exposure, and upgrading to current building codes even if not required. Properties near Pampa's agricultural areas especially benefit from debris barriers and reinforced attachment points.
+                  Beyond quality materials, we recommend: regular inspections before storm seasons,
+                  proper attic ventilation to reduce wind uplift, secure outdoor items that become
+                  projectiles, strategic landscaping to reduce wind exposure, and upgrading to
+                  current building codes even if not required. Properties near Pampa's agricultural
+                  areas especially benefit from debris barriers and reinforced attachment points.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -529,56 +719,88 @@ export default function StormDamageRepairPampaPage() {
             <div className="bg-white p-8 rounded-3xl shadow-lg border">
               <div className="grid md:grid-cols-2 gap-12">
                 <div>
-                  <h3 className="text-2xl font-bold mb-6 text-brand-gold">Visual Inspection Checklist</h3>
+                  <h3 className="text-2xl font-bold mb-6 text-brand-gold">
+                    Visual Inspection Checklist
+                  </h3>
                   <div className="space-y-4">
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </div>
                       <div>
                         <h4 className="font-semibold">Hail Impact Assessment</h4>
-                        <p className="text-gray-600 text-sm">Granule loss patterns, exposed mat, circular impacts, soft metal denting</p>
+                        <p className="text-gray-600 text-sm">
+                          Granule loss patterns, exposed mat, circular impacts, soft metal denting
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </div>
                       <div>
                         <h4 className="font-semibold">Wind Damage Analysis</h4>
-                        <p className="text-gray-600 text-sm">Lifted shingles, torn materials, fastener failures, edge lifting</p>
+                        <p className="text-gray-600 text-sm">
+                          Lifted shingles, torn materials, fastener failures, edge lifting
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </div>
                       <div>
                         <h4 className="font-semibold">Structural Evaluation</h4>
-                        <p className="text-gray-600 text-sm">Decking damage, rafter stress, support beam condition, foundation issues</p>
+                        <p className="text-gray-600 text-sm">
+                          Decking damage, rafter stress, support beam condition, foundation issues
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start">
-                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1"><Check className="w-5 h-5 text-brand-gold inline-block" /></div>
+                      <div className="bg-brand-gold text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-4 mt-1">
+                        <Check className="w-5 h-5 text-brand-gold inline-block" />
+                      </div>
                       <div>
                         <h4 className="font-semibold">Water Intrusion Check</h4>
-                        <p className="text-gray-600 text-sm">Interior damage, insulation condition, electrical safety, mold potential</p>
+                        <p className="text-gray-600 text-sm">
+                          Interior damage, insulation condition, electrical safety, mold potential
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold mb-6 text-brand-gold">Professional Documentation</h3>
+                  <h3 className="text-2xl font-bold mb-6 text-brand-gold">
+                    Professional Documentation
+                  </h3>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Photographic Evidence</h4>
-                      <p className="text-gray-600 text-sm">High-resolution images from multiple angles, close-up damage details, overview shots showing scope</p>
+                      <p className="text-gray-600 text-sm">
+                        High-resolution images from multiple angles, close-up damage details,
+                        overview shots showing scope
+                      </p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Measurement Reports</h4>
-                      <p className="text-gray-600 text-sm">Hail size documentation, wind speed estimates, damage area calculations, material lists</p>
+                      <p className="text-gray-600 text-sm">
+                        Hail size documentation, wind speed estimates, damage area calculations,
+                        material lists
+                      </p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Weather Correlation</h4>
-                      <p className="text-gray-600 text-sm">Storm timing verification, wind direction analysis, precipitation records, radar data</p>
+                      <p className="text-gray-600 text-sm">
+                        Storm timing verification, wind direction analysis, precipitation records,
+                        radar data
+                      </p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold mb-2">Code Compliance</h4>
-                      <p className="text-gray-600 text-sm">Gray County building codes, manufacturer specifications, warranty requirements, permit needs</p>
+                      <p className="text-gray-600 text-sm">
+                        Gray County building codes, manufacturer specifications, warranty
+                        requirements, permit needs
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -607,22 +829,28 @@ export default function StormDamageRepairPampaPage() {
         </FadeIn>
         <InternalLinks currentCity="pampa" currentService="storm-damage-repair" />
 
-
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Pampa Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free inspections for Pampa property owners. Expert storm damage repair with comprehensive warranties and insurance claim assistance.
+            Free inspections for Pampa property owners. Expert storm damage repair with
+            comprehensive warranties and insurance claim assistance.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="tel:8066226041" className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="tel:8066226041"
+              className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-100 hover:scale-110 transition-all duration-300 text-lg"
+            >
               Call (806) 622-6041
             </a>
-            <a href="/contact/" className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg">
+            <a
+              href="/contact/"
+              className="border-2 border-white text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-brand-brown hover:scale-110 transition-all duration-300 text-lg"
+            >
               Schedule Free Inspection
             </a>
           </div>
         </section>
-      <RelatedArticles pageSlug="storm-damage-repair-pampa" />
+        <RelatedArticles pageSlug="storm-damage-repair-pampa" />
       </div>
     </>
   );

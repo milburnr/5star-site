@@ -11,12 +11,14 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { Check, MapPin, Mountain, Thermometer, Tornado, Wheat, Wind, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://5starroofingpros.com/bushland-tx-roofing/' },
-  title: 'Roofing Bushland TX | Hail Damage | 5 Star Roofing',
-  description: "Roofing services in Bushland, Texas Panhandle. Just 10 miles west of Amarillo. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
+  alternates: { canonical: "https://5starroofingpros.com/bushland-tx-roofing/" },
+  title: "Roofing Bushland TX | Hail Damage | 5 Star Roofing",
+  description:
+    "Roofing services in Bushland, Texas Panhandle. Just 10 miles west of Amarillo. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
   openGraph: {
     title: "Roofing Bushland TX | Hail Damage | 5 Star Roofing",
-    description: "Roofing services in Bushland, Texas Panhandle. Just 10 miles west of Amarillo. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
+    description:
+      "Roofing services in Bushland, Texas Panhandle. Just 10 miles west of Amarillo. Hail damage repair, residential & commercial roofing, metal roofs. (806) 622-6041",
     url: "https://5starroofingpros.com/bushland-tx-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -34,36 +36,37 @@ export const metadata: Metadata = {
 
 export default function BushlandRoofingPage() {
   return (
-    <div className="min-h-screen">      <Breadcrumb items={[
-              {
-                      "name": "Home",
-                      "url": "/"
-              },
-              {
-                      "name": "Service Areas",
-                      "url": "/service-areas/"
-              },
-              {
-                      "name": "Bushland",
-                      "url": "/bushland-tx-roofing/"
-              }
-      ]} />
-
-
+    <div className="min-h-screen">
+      {" "}
+      <Breadcrumb
+        items={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Service Areas",
+            url: "/service-areas/",
+          },
+          {
+            name: "Bushland",
+            url: "/bushland-tx-roofing/",
+          },
+        ]}
+      />
       {/* Hero Section */}
       <section
         className="hero"
         style={{
-          backgroundImage: 'url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)',
-          backgroundPosition: 'center',
+          backgroundImage:
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+          backgroundPosition: "center",
         }}
       >
         <div className="hero-overlay"></div>
         <FadeIn>
           <div className="hero-content">
-            <h1 className="hero-title">
-              Professional Roofing Services in Bushland, Texas
-            </h1>
+            <h1 className="hero-title">Professional Roofing Services in Bushland, Texas</h1>
             <p className="hero-subtitle">
               Proudly Serving Bushland from Our Amarillo Location - Just 10 Miles Away
             </p>
@@ -78,7 +81,6 @@ export default function BushlandRoofingPage() {
           </div>
         </FadeIn>
       </section>
-
       <div className="container-custom">
         {/* Introduction */}
         <FadeIn>
@@ -88,15 +90,17 @@ export default function BushlandRoofingPage() {
                 Your Trusted Roofing Partner in Bushland, TX
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
-                Located just 10 miles west of Bushland on Interstate 40, 5 Star Commercial Roofing provides
-                fast, professional roofing services to this growing community in Potter County. Whether you're
-                a homeowner along FM 2381 or a business owner serving the agricultural community, we understand
-                the unique roofing challenges faced by Bushland residents.
+                Located just 10 miles west of Bushland on Interstate 40, 5 Star Commercial Roofing
+                provides fast, professional roofing services to this growing community in Potter
+                County. Whether you're a homeowner along FM 2381 or a business owner serving the
+                agricultural community, we understand the unique roofing challenges faced by
+                Bushland residents.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Bushland's rural location means your roof faces intense exposure to West Texas weather: severe
-                hail storms, high winds sweeping across open plains, extreme temperature swings, and relentless
-                UV radiation. We specialize in roofing systems built to withstand these harsh conditions.
+                Bushland's rural location means your roof faces intense exposure to West Texas
+                weather: severe hail storms, high winds sweeping across open plains, extreme
+                temperature swings, and relentless UV radiation. We specialize in roofing systems
+                built to withstand these harsh conditions.
               </p>
             </div>
           </section>
@@ -108,7 +112,9 @@ export default function BushlandRoofingPage() {
             <h2 className="section-title">Why Bushland Residents Choose 5 Star Roofing</h2>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="text-5xl mb-4"><MapPin className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <MapPin className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Local & Close</h3>
                 <p className="text-gray-600">
                   Only 10 miles from Bushland on I-40. We can typically reach you within 20 minutes
@@ -116,7 +122,9 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Wheat className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Wheat className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Rural Expertise</h3>
                 <p className="text-gray-600">
                   We understand the unique needs of rural properties including metal buildings,
@@ -124,7 +132,9 @@ export default function BushlandRoofingPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-5xl mb-4"><Zap className="w-6 h-6 inline-block" /></div>
+                <div className="text-5xl mb-4">
+                  <Zap className="w-6 h-6 inline-block" />
+                </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
                 <p className="text-gray-600">
                   Bushland's exposed location means severe weather hits hard. We provide prompt
@@ -147,21 +157,24 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg" alt="Completed hail damage roof repair with new shingles on Amarillo area home" className="w-full h-48 object-cover rounded-lg mb-4" />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Hail Damage Repair
-                    </h3>
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-7-1280w.jpg"
+                      alt="Completed hail damage roof repair with new shingles on Amarillo area home"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h3 className="text-2xl font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
                       Bushland sits in the heart of "Hail Alley" with minimal protection from severe
-                      thunderstorms rolling across the plains. Baseball-sized hail is common from March
-                      through September, and even small hail can devastate asphalt shingles.
+                      thunderstorms rolling across the plains. Baseball-sized hail is common from
+                      March through September, and even small hail can devastate asphalt shingles.
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Our hail damage services:</strong> Free roof inspections after storms,
-                      comprehensive photo documentation for insurance claims, granule loss assessment,
-                      and complete roof replacement when needed. We work with all major insurance carriers.
+                      comprehensive photo documentation for insurance claims, granule loss
+                      assessment, and complete roof replacement when needed. We work with all major
+                      insurance carriers.
                     </p>
                     <a
                       href="/hail-damage-repair-amarillo/"
@@ -179,7 +192,11 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg" alt="Residential roof replacement project completed in Odessa TX - Quality shingle work" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-8-1280w.jpg"
+                      alt="Residential roof replacement project completed in Odessa TX - Quality shingle work"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Residential Roofing
                     </h3>
@@ -188,12 +205,13 @@ export default function BushlandRoofingPage() {
                     <p className="text-gray-600 mb-4 leading-relaxed">
                       From ranch homes along County Road 34 to newer developments near Bushland ISD,
                       we provide complete residential roofing services. We understand the importance
-                      of durable roofing systems for rural properties where response times can be critical.
+                      of durable roofing systems for rural properties where response times can be
+                      critical.
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Services include:</strong> Complete roof replacement, asphalt shingle
-                      installation, impact-resistant roofing systems, roof repair, ventilation upgrades,
-                      and premium warranties. All materials rated for high-wind zones.
+                      installation, impact-resistant roofing systems, roof repair, ventilation
+                      upgrades, and premium warranties. All materials rated for high-wind zones.
                     </p>
                     <a
                       href="/residential-roofing-amarillo/"
@@ -211,21 +229,24 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp" alt="Standing seam metal roofing panels installed on Bushland area property - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
-                    <h3 className="text-2xl font-bold text-brand-brown mb-2">
-                      Metal Roof Systems
-                    </h3>
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-amarillo-40-1280w.webp"
+                      alt="Standing seam metal roofing panels installed on Bushland area property - 5 Star Roofing"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h3 className="text-2xl font-bold text-brand-brown mb-2">Metal Roof Systems</h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      Metal roofing is an excellent choice for Bushland properties. It withstands high
-                      winds better than shingles, handles hail impact superbly, and can last 50+ years
-                      with minimal maintenance - perfect for rural properties where longevity matters.
+                      Metal roofing is an excellent choice for Bushland properties. It withstands
+                      high winds better than shingles, handles hail impact superbly, and can last
+                      50+ years with minimal maintenance - perfect for rural properties where
+                      longevity matters.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Metal options:</strong> Standing seam metal roofs, corrugated panels for
-                      barns and shops, stone-coated steel shingles, and commercial metal roofing systems.
-                      Energy-efficient with Class 4 hail ratings available.
+                      <strong>Metal options:</strong> Standing seam metal roofs, corrugated panels
+                      for barns and shops, stone-coated steel shingles, and commercial metal roofing
+                      systems. Energy-efficient with Class 4 hail ratings available.
                     </p>
                     <a
                       href="/metal-roofing-amarillo/"
@@ -243,21 +264,25 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg" alt="Commercial flat roof with TPO membrane on agricultural building near Pampa TX" className="w-full h-48 object-cover rounded-lg mb-4" />
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-4-1280w.jpg"
+                      alt="Commercial flat roof with TPO membrane on agricultural building near Pampa TX"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
                     <h3 className="text-2xl font-bold text-brand-brown mb-2">
                       Commercial & Agricultural
                     </h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      Bushland's economy is built on agriculture and related businesses. We specialize
-                      in commercial roofing for grain elevators, feed stores, equipment dealerships,
-                      metal buildings, barns, shops, and other agricultural structures.
+                      Bushland's economy is built on agriculture and related businesses. We
+                      specialize in commercial roofing for grain elevators, feed stores, equipment
+                      dealerships, metal buildings, barns, shops, and other agricultural structures.
                     </p>
                     <p className="text-gray-600 mb-4">
-                      <strong>Commercial services:</strong> TPO and EPDM flat roofing, metal building
-                      re-roofing, roof coating systems, preventive maintenance programs, and storm
-                      repairs. We minimize disruption to your operations.
+                      <strong>Commercial services:</strong> TPO and EPDM flat roofing, metal
+                      building re-roofing, roof coating systems, preventive maintenance programs,
+                      and storm repairs. We minimize disruption to your operations.
                     </p>
                     <a
                       href="/commercial-roofing-amarillo/"
@@ -275,20 +300,29 @@ export default function BushlandRoofingPage() {
               <div className="card-hover p-8 bg-red-50 border-2 border-red-200">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/3">
-                    <img src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg" alt="Emergency roof repair completed after storm damage near Bushland TX - 5 Star Roofing" className="w-full h-48 object-cover rounded-lg mb-4" />
-                    <h3 className="text-2xl font-bold text-red-700 mb-2">
-                      
-                    </h3>
+                    <img
+                      src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-11-1280w.jpg"
+                      alt="Emergency roof repair completed after storm damage near Bushland TX - 5 Star Roofing"
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h3 className="text-2xl font-bold text-red-700 mb-2"></h3>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Storm damage can't wait, especially in rural areas.</strong> We provide
-                      professional roofing services for Bushland residents. From tarping
-                      after hail storms to urgent leak repairs, we're just 10 miles away and ready to respond.
+                      <strong>Storm damage can't wait, especially in rural areas.</strong> We
+                      provide professional roofing services for Bushland residents. From tarping
+                      after hail storms to urgent leak repairs, we're just 10 miles away and ready
+                      to respond.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      Call <a href="tel:8066226041" className="text-brand-gold font-bold hover:underline">(806) 622-6041</a>
-                      {" "}anytime, day or night, for immediate professional assistance.
+                      Call{" "}
+                      <a
+                        href="tel:8066226041"
+                        className="text-brand-gold font-bold hover:underline"
+                      >
+                        (806) 622-6041
+                      </a>{" "}
+                      anytime, day or night, for immediate professional assistance.
                     </p>
                     <a
                       href="/roof-repair-amarillo/"
@@ -311,37 +345,46 @@ export default function BushlandRoofingPage() {
             </h2>
             <div className="max-w-4xl mx-auto space-y-6">
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Tornado className="w-6 h-6 inline-block" /> Severe Storm Exposure</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Tornado className="w-6 h-6 inline-block" /> Severe Storm Exposure
+                </h3>
                 <p className="text-gray-700">
-                  Bushland's location west of Amarillo along I-40 means minimal protection from severe
-                  weather systems. With no urban heat island effect and surrounded by open plains, storms
-                  hit with full force. Hail, high winds, and tornadoes are annual threats requiring
-                  impact-resistant roofing materials.
+                  Bushland's location west of Amarillo along I-40 means minimal protection from
+                  severe weather systems. With no urban heat island effect and surrounded by open
+                  plains, storms hit with full force. Hail, high winds, and tornadoes are annual
+                  threats requiring impact-resistant roofing materials.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Wind className="w-6 h-6 inline-block" /> Constant High Winds</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Wind className="w-6 h-6 inline-block" /> Constant High Winds
+                </h3>
                 <p className="text-gray-700">
-                  The Texas Panhandle is one of America's windiest regions, and Bushland gets the full
-                  brunt. Sustained 30-40 mph winds and 60+ mph gusts are common. Proper roof edge securement,
-                  high-wind shingles, and reinforced flashing are critical for long-term performance.
+                  The Texas Panhandle is one of America's windiest regions, and Bushland gets the
+                  full brunt. Sustained 30-40 mph winds and 60+ mph gusts are common. Proper roof
+                  edge securement, high-wind shingles, and reinforced flashing are critical for
+                  long-term performance.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Thermometer className="w-6 h-6 inline-block" /> Temperature Extremes</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Thermometer className="w-6 h-6 inline-block" /> Temperature Extremes
+                </h3>
                 <p className="text-gray-700">
-                  Summer temperatures regularly exceed 100°F while winter can bring sub-zero cold. This
-                  100+ degree temperature range causes expansion and contraction that stresses roofing
-                  materials. We use materials engineered for these extremes with proper ventilation to
-                  extend roof life.
+                  Summer temperatures regularly exceed 100°F while winter can bring sub-zero cold.
+                  This 100+ degree temperature range causes expansion and contraction that stresses
+                  roofing materials. We use materials engineered for these extremes with proper
+                  ventilation to extend roof life.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-brand-brown mb-2"><Mountain className="w-6 h-6 inline-block" /> Rural Response Times</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-2">
+                  <Mountain className="w-6 h-6 inline-block" /> Close to Amarillo HQ
+                </h3>
                 <p className="text-gray-700">
-                  As a rural community, Bushland residents need roofing contractors who can respond quickly
-                  when problems arise. Our Amarillo location - just 10 miles east via I-40 - means we can
-                  typically arrive within 20-30 minutes for emergencies, faster than metro-only contractors.
+                  Bushland is just 10 miles from our Amarillo headquarters on I-40 — one of the
+                  closest communities we serve. That proximity means short scheduling windows once
+                  conditions are safe for crews on a roof.
                 </p>
               </div>
             </div>
@@ -358,16 +401,40 @@ export default function BushlandRoofingPage() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-gray-700 mb-8">
                 <ul className="space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Bushland ISD area</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Properties along FM 2381</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />County Road 34 corridor</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />I-40 frontage properties</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Bushland ISD area
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Properties along FM 2381
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    County Road 34 corridor
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    I-40 frontage properties
+                  </li>
                 </ul>
                 <ul className="space-y-2">
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Ranch and farm properties</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Residential developments</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Commercial buildings</li>
-                  <li className="flex items-start gap-1"><Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />Agricultural structures</li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Ranch and farm properties
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Residential developments
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Commercial buildings
+                  </li>
+                  <li className="flex items-start gap-1">
+                    <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
+                    Agricultural structures
+                  </li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -375,13 +442,18 @@ export default function BushlandRoofingPage() {
                   Fast Service from Our Amarillo Office
                 </h3>
                 <p className="text-gray-700 text-center mb-4">
-                  <strong>5 Star Commercial Roofing</strong><br />
-                  2909 S Western St, Amarillo, TX 79109<br />
+                  <strong>5 Star Commercial Roofing</strong>
+                  <br />
+                  2909 S Western St, Amarillo, TX 79109
+                  <br />
                   Only 10 miles east of Bushland via I-40 (15-minute drive)
                 </p>
                 <p className="text-gray-700 text-center">
                   <strong>Call anytime:</strong>{" "}
-                  <a href="tel:8066226041" className="text-brand-gold font-bold hover:text-brand-gold-vibrant">
+                  <a
+                    href="tel:8066226041"
+                    className="text-brand-gold font-bold hover:text-brand-gold-vibrant"
+                  >
                     (806) 622-6041
                   </a>
                 </p>
@@ -399,15 +471,21 @@ export default function BushlandRoofingPage() {
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
               <a href="/amarillo-texas-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
-                <p className="text-gray-600 text-sm">Complete roofing services in Amarillo (10 miles east)</p>
+                <p className="text-gray-600 text-sm">
+                  Complete roofing services in Amarillo (10 miles east)
+                </p>
               </a>
               <a href="/wildorado-tx-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Wildorado Roofing</h3>
-                <p className="text-gray-600 text-sm">Roofing services in Wildorado (5 miles west)</p>
+                <p className="text-gray-600 text-sm">
+                  Roofing services in Wildorado (5 miles west)
+                </p>
               </a>
               <a href="/hail-damage-repair-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Hail Damage Repair</h3>
-                <p className="text-gray-600 text-sm">Expert hail damage assessment and insurance claims</p>
+                <p className="text-gray-600 text-sm">
+                  Expert hail damage assessment and insurance claims
+                </p>
               </a>
               <a href="/metal-roofing-amarillo/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Metal Roofing Systems</h3>
@@ -424,52 +502,97 @@ export default function BushlandRoofingPage() {
               Bushland Roofing FAQs
             </h2>
             <Accordion type="single" collapsible className="max-w-4xl mx-auto">
-              <AccordionItem value="faq-1" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-1"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How does Bushland&apos;s proximity to Amarillo affect roofing service response times?
+                  How does Bushland&apos;s proximity to Amarillo benefit roofing scheduling?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Bushland is just 10 miles west of our Amarillo headquarters on I-40, making it one of the fastest communities we can reach. We typically arrive within 15-20 minutes for scheduled appointments and can respond even faster for storm emergencies. This proximity means Bushland residents get big-city expertise with small-town convenience.
+                  Bushland is just 10 miles west of our Amarillo headquarters on I-40 — one of the
+                  closest communities we serve. This proximity means short scheduling windows and
+                  efficient coordination for inspections, repairs, and post-storm documentation.
+                  Bushland residents get big-city expertise with small-town convenience.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-2" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-2"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What roofing materials work best for rural Bushland properties along FM 2381?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Rural properties along FM 2381 and County Road 34 face maximum wind and hail exposure with no surrounding structures for protection. We recommend Class 4 impact-resistant shingles rated for 130+ mph winds for homes, and standing seam metal roofing for barns, shops, and agricultural buildings. Metal roofing is particularly popular in Bushland because it handles wind, hail, and UV exposure better than any other material.
+                  Rural properties along FM 2381 and County Road 34 face maximum wind and hail
+                  exposure with no surrounding structures for protection. We recommend Class 4
+                  impact-resistant shingles rated for 130+ mph winds for homes, and standing seam
+                  metal roofing for barns, shops, and agricultural buildings. Metal roofing is
+                  particularly popular in Bushland because it handles wind, hail, and UV exposure
+                  better than any other material.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-3" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-3"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Do you provide roofing services for agricultural buildings in the Bushland area?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, agricultural roofing is a major part of our Bushland work. We roof grain elevators, feed storage buildings, equipment shops, barns, and other agricultural structures common in the area. We use corrugated metal panels, R-panel systems, and standing seam metal specifically rated for agricultural environments, including corrosion-resistant coatings that withstand dust and chemical exposure from farming operations.
+                  Yes, agricultural roofing is a major part of our Bushland work. We roof grain
+                  elevators, feed storage buildings, equipment shops, barns, and other agricultural
+                  structures common in the area. We use corrugated metal panels, R-panel systems,
+                  and standing seam metal specifically rated for agricultural environments,
+                  including corrosion-resistant coatings that withstand dust and chemical exposure
+                  from farming operations.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-4" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-4"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   How often should Bushland homeowners inspect their roofs given the local weather?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Given Bushland&apos;s extreme exposure to hail, wind, and UV radiation, we recommend professional inspections twice annually -- once before storm season in early spring and once after in late fall. You should also request an inspection after any significant hail event. Many Bushland homeowners have hail damage they are unaware of because it is not always visible from ground level.
+                  Given Bushland&apos;s extreme exposure to hail, wind, and UV radiation, we
+                  recommend professional inspections twice annually -- once before storm season in
+                  early spring and once after in late fall. You should also request an inspection
+                  after any significant hail event. Many Bushland homeowners have hail damage they
+                  are unaware of because it is not always visible from ground level.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-5" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-5"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   Does Bushland ISD have specific requirements for roofing near school properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  While Bushland ISD does not impose specific roofing requirements on nearby residential properties, Potter County building codes apply. We ensure all Bushland installations meet or exceed local codes, including wind uplift ratings appropriate for the area&apos;s high-wind zone classification. For properties near the school campus, we also schedule work to minimize noise and disruption during school hours.
+                  While Bushland ISD does not impose specific roofing requirements on nearby
+                  residential properties, Potter County building codes apply. We ensure all Bushland
+                  installations meet or exceed local codes, including wind uplift ratings
+                  appropriate for the area&apos;s high-wind zone classification. For properties near
+                  the school campus, we also schedule work to minimize noise and disruption during
+                  school hours.
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="faq-6" className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4">
+              <AccordionItem
+                value="faq-6"
+                className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
+              >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
                   What insurance considerations are unique to Bushland roofing claims?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Bushland properties often carry rural or agricultural insurance policies that differ from standard Amarillo homeowner coverage. We work with all major carriers serving Potter County, including agricultural-specific insurers. Many Bushland homeowners qualify for insurance premium discounts of up to 35% by upgrading to Class 4 impact-resistant shingles, which is especially valuable given the area&apos;s frequent hail exposure.
+                  Bushland properties often carry rural or agricultural insurance policies that
+                  differ from standard Amarillo homeowner coverage. We work with all major carriers
+                  serving Potter County, including agricultural-specific insurers. Many Bushland
+                  homeowners qualify for insurance premium discounts of up to 35% by upgrading to
+                  Class 4 impact-resistant shingles, which is especially valuable given the
+                  area&apos;s frequent hail exposure.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -489,7 +612,10 @@ export default function BushlandRoofingPage() {
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">
                 Call (806) 622-6041 Now
               </a>
-              <a href="/contact/" className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg">
+              <a
+                href="/contact/"
+                className="bg-white text-brand-brown px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-all text-lg"
+              >
                 Schedule Free Inspection
               </a>
             </div>
@@ -503,34 +629,51 @@ export default function BushlandRoofingPage() {
               Serving the Entire Texas Panhandle
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/amarillo-texas-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Amarillo
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/canyon-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/canyon-texas-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Canyon
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/wildorado-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/wildorado-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Wildorado
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/vega-tx-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/vega-tx-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Vega
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/hereford-texas-roofing/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/hereford-texas-roofing/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 Hereford
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/service-areas/" className="text-brand-gold hover:text-brand-gold-vibrant font-medium">
+              <a
+                href="/service-areas/"
+                className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
+              >
                 View All Areas
               </a>
             </div>
           </section>
         </FadeIn>
       </div>
-
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"
@@ -539,90 +682,90 @@ export default function BushlandRoofingPage() {
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
             "@id": "https://5starroofingpros.com/bushland-tx-roofing/",
-            "name": "5 Star Roofing",
-            "parentOrganization": {"@id": "https://5starroofingpros.com/#organization"},
-            "image": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
-            "description": "Professional roofing contractor serving Bushland, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
-            "address": {
+            name: "5 Star Roofing",
+            parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
+            image:
+              "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
+            description:
+              "Professional roofing contractor serving Bushland, Texas from our Amarillo location. Expert hail damage repair, residential and commercial roofing services.",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "2909 S Western St",
-              "addressLocality": "Amarillo",
-              "addressRegion": "TX",
-              "postalCode": "79109",
-              "addressCountry": "US"
+              streetAddress: "2909 S Western St",
+              addressLocality: "Amarillo",
+              addressRegion: "TX",
+              postalCode: "79109",
+              addressCountry: "US",
             },
-            "geo": {
+            geo: {
               "@type": "GeoCoordinates",
-              "latitude": "35.1859",
-              "longitude": "-101.8313"
+              latitude: "35.1859",
+              longitude: "-101.8313",
             },
-            "telephone": "(806) 622-6041",
-            "email": "admin@5starroofingpros.com",
-            "url": "https://5starroofingpros.com",
-            "priceRange": "$$",
-            "areaServed": [
+            telephone: "(806) 622-6041",
+            email: "admin@5starroofingpros.com",
+            url: "https://5starroofingpros.com",
+            priceRange: "$$",
+            areaServed: [
               {
                 "@type": "City",
-                "name": "Bushland",
-                "containedInPlace": {
+                name: "Bushland",
+                containedInPlace: {
                   "@type": "State",
-                  "name": "Texas"
-                }
+                  name: "Texas",
+                },
               },
               {
                 "@type": "City",
-                "name": "Amarillo",
-                "containedInPlace": {
+                name: "Amarillo",
+                containedInPlace: {
                   "@type": "State",
-                  "name": "Texas"
-                }
-              }
+                  name: "Texas",
+                },
+              },
             ],
-            "hasOfferCatalog": {
+            hasOfferCatalog: {
               "@type": "OfferCatalog",
-              "name": "Roofing Services",
-              "itemListElement": [
+              name: "Roofing Services",
+              itemListElement: [
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Hail Damage Roof Repair",
-                    "description": "Expert hail damage repair for Bushland properties"
-                  }
+                    name: "Hail Damage Roof Repair",
+                    description: "Expert hail damage repair for Bushland properties",
+                  },
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Residential Roofing",
-                    "description": "Complete residential roofing services in Bushland"
-                  }
+                    name: "Residential Roofing",
+                    description: "Complete residential roofing services in Bushland",
+                  },
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Metal Roof Installation",
-                    "description": "Durable metal roofing systems for rural properties"
-                  }
+                    name: "Metal Roof Installation",
+                    description: "Durable metal roofing systems for rural properties",
+                  },
                 },
                 {
                   "@type": "Offer",
-                  "itemOffered": {
+                  itemOffered: {
                     "@type": "Service",
-                    "name": "Commercial Roofing",
-                    "description": "Agricultural and commercial roofing services"
-                  }
-                }
-              ]
+                    name: "Commercial Roofing",
+                    description: "Agricultural and commercial roofing services",
+                  },
+                },
+              ],
             },
-
-          })
+          }),
         }}
       />
-
       {/* schema-cleanup:faqpage:removed */}
-    <RelatedArticles pageSlug="bushland-tx-roofing" />
+      <RelatedArticles pageSlug="bushland-tx-roofing" />
     </div>
   );
 }

@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     "Asphalt shingle roofing installation, repair, and replacement across Texas. 3-tab, architectural, and impact-resistant options. Call (806) 622-6041.",
   openGraph: {
     title: "Asphalt Shingle Roofing Texas | 5 Star Roofing",
-    description: "Asphalt shingle roofing installation, repair, and replacement across Texas. 3-tab, architectural, and impact-resistant options. Call (806) 622-6041.",
+    description:
+      "Asphalt shingle roofing installation, repair, and replacement across Texas. 3-tab, architectural, and impact-resistant options. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/asphalt-shingle-roofing/",
     siteName: "5 Star Roofing",
     images: [
@@ -46,23 +47,78 @@ export default function Page() {
       parentOrganization: {
         "@id": "https://5starroofingpros.com/#organization",
       },
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25", "bestRating": "5", "worstRating": "1"}
     },
     areaServed: [
-      { "@type": "City", name: "Amarillo", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Andrews", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Big Spring", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Borger", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Canyon", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Dumas", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Levelland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Lubbock", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Midland", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Monahans", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Odessa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Pampa", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Perryton", address: { "@type": "PostalAddress", addressRegion: "TX" } },
-      { "@type": "City", name: "Snyder", address: { "@type": "PostalAddress", addressRegion: "TX" } },
+      {
+        "@type": "City",
+        name: "Amarillo",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Andrews",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Big Spring",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Borger",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Canyon",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Dumas",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Levelland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Lubbock",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Midland",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Monahans",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Odessa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Pampa",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Perryton",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
+      {
+        "@type": "City",
+        name: "Snyder",
+        address: { "@type": "PostalAddress", addressRegion: "TX" },
+      },
     ],
     description:
       "Professional asphalt shingle roofing installation, repair, and replacement services across Texas. 3-tab, architectural, designer, and impact-resistant shingle systems for residential homes.",
@@ -203,7 +259,10 @@ export default function Page() {
             reason. They combine affordability, variety, proven performance, and straightforward
             repair when storm damage strikes. 5 Star Roofing installs and repairs asphalt shingle
             roofs across our{" "}
-            <a href="/service-areas/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+            <a
+              href="/service-areas/"
+              className="text-brand-brown hover:text-brand-gold underline font-semibold"
+            >
               14-city service area
             </a>
             , from budget-friendly 3-tab shingles to premium impact-resistant systems.
@@ -212,7 +271,9 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.1}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">What Types of Asphalt Shingles Are Available?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          What Types of Asphalt Shingles Are Available?
+        </h2>
         <p className="mb-4">
           Not all asphalt shingles are created equal. The right choice depends on your budget, the
           look you want, and how much protection your home needs from West Texas weather:
@@ -285,8 +346,9 @@ export default function Page() {
           </div>
         </div>
 
-
-        <h3 className="text-xl font-bold mt-8 mb-4 text-brand-brown">Asphalt Shingle Grade Comparison</h3>
+        <h3 className="text-xl font-bold mt-8 mb-4 text-brand-brown">
+          Asphalt Shingle Grade Comparison
+        </h3>
         <div className="overflow-x-auto mb-8">
           <table className="w-full bg-white rounded-lg shadow">
             <thead>
@@ -361,16 +423,29 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Easy Repair</h3>
             <p className="text-gray-700">
               When{" "}
-              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/hail-damage-repair-amarillo/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 hail
               </a>{" "}
               or{" "}
-              <a href="/wind-damage-repair/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/wind-damage-repair/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 wind
               </a>{" "}
               damages a section of shingle roof, individual shingles can be replaced without
               disturbing the surrounding roofing. This makes storm damage repairs faster and more
-              affordable than with most other materials. For flat or low-slope sections, see our <a href="/asphalt-flat-roof-repair-in-amarillo/" className="text-brand-brown hover:text-brand-gold underline">asphalt flat roof repair services in Amarillo</a>.
+              affordable than with most other materials. For flat or low-slope sections, see our{" "}
+              <a
+                href="/asphalt-flat-roof-repair-in-amarillo/"
+                className="text-brand-brown hover:text-brand-gold underline"
+              >
+                asphalt flat roof repair services in Amarillo
+              </a>
+              .
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
@@ -481,8 +556,8 @@ export default function Page() {
               <p className="text-gray-700">
                 Ridge cap shingles are installed along all peaks for a finished appearance and
                 weather seal. Metal flashing is installed around chimneys, vents, walls, and all
-                penetration points. Pipe boots and vent collars are sealed to prevent water entry
-                at every junction.
+                penetration points. Pipe boots and vent collars are sealed to prevent water entry at
+                every junction.
               </p>
             </div>
           </div>
@@ -503,7 +578,9 @@ export default function Page() {
       </FadeIn>
 
       <FadeIn delay={0.25}>
-        <h2 className="text-2xl font-bold mt-8 mb-4">How Do You Repair and Maintain Asphalt Shingles?</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">
+          How Do You Repair and Maintain Asphalt Shingles?
+        </h2>
         <p className="mb-4">
           Prompt repairs and regular maintenance keep your shingle roof performing for its full
           expected lifespan. Here are the most common maintenance tasks:
@@ -525,7 +602,10 @@ export default function Page() {
               bare or dark patches on shingles) accelerates aging. While some granule shedding is
               normal in new shingles, significant loss on established roofs indicates it may be time
               to plan for{" "}
-              <a href="/roof-replacement-amarillo/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/roof-replacement-amarillo/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 replacement
               </a>
               .
@@ -544,7 +624,10 @@ export default function Page() {
             <h3 className="font-bold text-brand-brown mb-2">Extending Lifespan</h3>
             <p className="text-gray-700">
               Annual{" "}
-              <a href="/roof-inspections/" className="text-brand-brown hover:text-brand-gold underline font-semibold">
+              <a
+                href="/roof-inspections/"
+                className="text-brand-brown hover:text-brand-gold underline font-semibold"
+              >
                 roof inspections
               </a>
               , prompt minor repairs, proper attic ventilation, and keeping gutters clear all
@@ -582,11 +665,11 @@ export default function Page() {
           </h3>
           <p className="text-gray-700">
             In West Texas, asphalt shingle lifespan depends heavily on the shingle type and local
-            weather exposure. 3-tab shingles typically last 15-20 years, architectural shingles 20-30
-            years, and premium designer shingles up to 40-50 years. However, the intense UV exposure,
-            temperature swings, frequent hail, and high winds in the Panhandle and Permian Basin can
-            shorten these estimates by 3-5 years compared to milder climates. Annual inspections and
-            prompt repairs extend lifespan significantly.
+            weather exposure. 3-tab shingles typically last 15-20 years, architectural shingles
+            20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV
+            exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian
+            Basin can shorten these estimates by 3-5 years compared to milder climates. Annual
+            inspections and prompt repairs extend lifespan significantly.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -594,13 +677,13 @@ export default function Page() {
             What is the difference between 3-tab and architectural shingles?
           </h3>
           <p className="text-gray-700">
-            3-tab shingles are flat, uniform strips that create a simple, repeating pattern. They are
-            the most affordable option but have a shorter lifespan (20-25 years) and lower wind
+            3-tab shingles are flat, uniform strips that create a simple, repeating pattern. They
+            are the most affordable option but have a shorter lifespan (20-25 years) and lower wind
             resistance (60-70 mph). Architectural shingles (also called dimensional or laminated)
-            have a layered, textured appearance that mimics wood shake or slate. They last 30+ years,
-            resist winds up to 110-130 mph, and carry better manufacturer warranties. For West Texas
-            homes, architectural shingles are the most popular choice due to their wind and hail
-            performance.
+            have a layered, textured appearance that mimics wood shake or slate. They last 30+
+            years, resist winds up to 110-130 mph, and carry better manufacturer warranties. For
+            West Texas homes, architectural shingles are the most popular choice due to their wind
+            and hail performance.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -611,9 +694,9 @@ export default function Page() {
             For a typical 2,000-2,500 square foot Texas home, asphalt shingle roofing costs range
             from $7,000-$15,000 installed. 3-tab shingles are at the lower end ($3.50-$5.00 per
             square foot), architectural shingles run $5.00-$7.50 per square foot, and premium
-            designer shingles can reach $8.00-$12.00 per square foot. These prices include materials,
-            labor, underlayment, and cleanup. Roof complexity (steep pitch, multiple valleys, dormers)
-            adds to the total.
+            designer shingles can reach $8.00-$12.00 per square foot. These prices include
+            materials, labor, underlayment, and cleanup. Roof complexity (steep pitch, multiple
+            valleys, dormers) adds to the total.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -624,8 +707,9 @@ export default function Page() {
             Lighter-colored shingles (light gray, tan, beige) reflect more solar heat than darker
             colors, which can reduce cooling costs by 10-15% during Texas summers. However, modern
             &quot;cool roof&quot; shingles with reflective granules are available in darker colors
-            that still provide improved energy performance. The color choice also affects curb appeal
-            and neighborhood standards, so we help homeowners balance efficiency with aesthetics.
+            that still provide improved energy performance. The color choice also affects curb
+            appeal and neighborhood standards, so we help homeowners balance efficiency with
+            aesthetics.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -649,9 +733,9 @@ export default function Page() {
             Impact-resistant shingles carry a Class 4 rating, meaning they have passed UL 2218
             testing for resistance to simulated hail impact. They use a rubberized asphalt or
             polymer-modified backing that absorbs impact energy rather than cracking. In hail-prone
-            West Texas, Class 4 shingles are a strong investment. Many Texas insurance carriers offer
-            10-35% premium discounts for Class 4 roofs, which can offset the 15-20% higher material
-            cost within a few years.
+            West Texas, Class 4 shingles are a strong investment. Many Texas insurance carriers
+            offer 10-35% premium discounts for Class 4 roofs, which can offset the 15-20% higher
+            material cost within a few years.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">
@@ -661,10 +745,10 @@ export default function Page() {
           <p className="text-gray-700">
             Key signs include widespread granule loss (check your gutters), shingles that are
             curling, cracking, or buckling across large sections, multiple active leaks, daylight
-            visible through the roof deck from the attic, and a roof that has reached or exceeded its
-            expected lifespan. If repairs would affect more than 30% of the roof surface, replacement
-            is usually the better financial decision. A free inspection from 5 Star Roofing gives you
-            a clear answer.
+            visible through the roof deck from the attic, and a roof that has reached or exceeded
+            its expected lifespan. If repairs would affect more than 30% of the roof surface,
+            replacement is usually the better financial decision. A free inspection from 5 Star
+            Roofing gives you a clear answer.
           </p>
         </div>
       </div>
@@ -692,7 +776,7 @@ export default function Page() {
           </a>
         </div>
       </section>
-    <RelatedArticles pageSlug="asphalt-shingle-roofing" />
+      <RelatedArticles pageSlug="asphalt-shingle-roofing" />
     </div>
   );
 }
