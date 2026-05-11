@@ -104,7 +104,7 @@ export default function StormDamageRepairSnyderPage() {
               closes: "17:00",
             },
             description:
-              "Expert storm damage repair services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert storm damage repair services in Snyder, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -584,7 +584,7 @@ export default function StormDamageRepairSnyderPage() {
                   comprehensive assessment and systematic restoration. We work closely with local
                   insurance adjusters who understand Snyder's unique storm patterns and maintain
                   relationships with Western Texas College and other major institutions to ensure
-                  rapid response capability. Our goal is to complete most residential repairs within
+                  storm coverage. Our goal is to complete most residential repairs within
                   2-3 weeks and commercial projects within 4-6 weeks, depending on damage severity.
                 </AccordionContent>
               </AccordionItem>

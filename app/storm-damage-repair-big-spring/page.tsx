@@ -104,7 +104,7 @@ export default function StormDamageRepairBigSpringPage() {
               closes: "17:00",
             },
             description:
-              "Expert storm damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert storm damage repair services in Big Spring, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -488,7 +488,7 @@ export default function StormDamageRepairBigSpringPage() {
                       1
                     </div>
                     <div>
-                      <h4 className="font-semibold text-lg mb-1">Rapid Response</h4>
+                      <h4 className="font-semibold text-lg mb-1">our roofing service</h4>
                       <p className="text-sm opacity-90">
                         Priority service for Big Spring's unique weather challenges
                       </p>

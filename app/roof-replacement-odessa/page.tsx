@@ -118,7 +118,7 @@ export default function RoofReplacementOdessaPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Odessa",
             description:
-              "Professional roof replacement services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Odessa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

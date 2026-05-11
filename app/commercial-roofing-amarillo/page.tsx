@@ -118,7 +118,7 @@ export default function CommercialRoofingAmarilloPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Amarillo",
             description:
-              "Professional commercial roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -242,7 +242,7 @@ export default function CommercialRoofingAmarilloPage() {
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert commercial roofing for Amarillo businesses. TPO, EPDM, and metal roofing
                 systems engineered for the Texas Panhandle's harsh weather. Minimize operational
-                disruption with our after-hours installation. prompt response available.
+                disruption with our after-hours installation.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
@@ -308,7 +308,7 @@ export default function CommercialRoofingAmarilloPage() {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               We specialize in minimizing disruption to your business. After-hours and weekend
-              installations keep your operations running. Our prompt response team handles storm
+              installations keep your operations running. Our roofing team handles storm
               damage and urgent leaks within hours. From small retail buildings along Historic Route
               66 to large industrial facilities near Bell Helicopter, from Downtown Amarillo offices
               to warehouses near the Amarillo Civic Center, we install TPO, EPDM, and metal roofing
@@ -772,7 +772,7 @@ export default function CommercialRoofingAmarilloPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Protect Your Amarillo Business?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Free commercial roofing estimates. . After-hours installation available.
+            Free commercial roofing estimates. After-hours installation available.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a

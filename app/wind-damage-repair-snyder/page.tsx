@@ -28,6 +28,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-snyder/" },
   title: "Wind Damage Repair Snyder TX | 5 Star Roofing",
   description:
@@ -117,7 +118,7 @@ export default function WindDamageRepairSnyderPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Snyder, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Snyder, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -506,8 +507,8 @@ export default function WindDamageRepairSnyderPage() {
                   How quickly can you respond to supercell wind damage in Snyder?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  We maintain rapid response capabilities specifically for West Texas supercell
-                  events. Our our team can typically respond within 2-3 hours of storm passage to
+                  We maintain coverage specifically for West Texas supercell
+                  events. Our our team respond after storm events to
                   provide immediate stabilization, tarping, and damage assessment. We monitor
                   weather radar during severe weather events to prepare for immediate deployment.
                 </AccordionContent>

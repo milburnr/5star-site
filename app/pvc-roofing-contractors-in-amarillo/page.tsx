@@ -6,6 +6,7 @@ import { Phone } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/pvc-roofing-contractors-in-amarillo/" },
   title: "PVC Roofing Amarillo TX | Commercial | 5 Star Roofing",
   description:
@@ -124,7 +125,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

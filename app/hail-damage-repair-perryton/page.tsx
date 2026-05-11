@@ -112,7 +112,7 @@ export default function HailDamageRepairPerrytonPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Repair in Perryton",
             description:
-              "Professional hail damage repair services in Perryton, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Perryton, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -440,7 +440,7 @@ export default function HailDamageRepairPerrytonPage() {
                     services
                   </li>
                   <li>
-                    • <strong>Contents Preservation:</strong> Rapid response to protect remaining
+                    • <strong>Contents Preservation:</strong> our roofing service to protect remaining
                     property and belongings
                   </li>
                   <li>
@@ -551,7 +551,7 @@ export default function HailDamageRepairPerrytonPage() {
                       1
                     </div>
                     <div>
-                      <h4 className="font-medium text-gray-800">Immediate Response (0-24 Hours)</h4>
+                      <h4 className="font-medium text-gray-800">First 24 Hours</h4>
                       <p className="text-gray-600 text-sm">
                         Life safety assessment, storm protection, and critical infrastructure
                         evaluation

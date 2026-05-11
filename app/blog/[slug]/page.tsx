@@ -21,12 +21,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getArticle(slug);
   if (!article) return {};
 
-  const { title, description, date, lastmod, ogImage, tags } = article.frontmatter;
+  const { title, description, date, lastmod, ogImage, tags, noindex } = article.frontmatter;
   const url = `${SITE_URL}/blog/${slug}/`;
 
   return {
     title: `${title} | 5 Star Roofing`,
     description,
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     alternates: { canonical: url },
     openGraph: {
       title,

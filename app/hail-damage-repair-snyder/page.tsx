@@ -125,7 +125,7 @@ export default function HailDamageRepairSnyderPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Repair in Snyder",
             description:
-              "Professional hail damage repair services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Snyder, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -660,7 +660,7 @@ export default function HailDamageRepairSnyderPage() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">
                   <h3 className="text-xl font-bold mb-4 text-brand-brown">
-                    Immediate Response (0-48 Hours)
+                    First 48 Hours
                   </h3>
                   <p className="text-gray-700 mb-4">
                     Immediately after a hail event, focus on safety and storm protection. Document
@@ -776,7 +776,7 @@ export default function HailDamageRepairSnyderPage() {
                         Local Availability
                       </h3>
                       <p className="text-gray-700">
-                        Immediate response capability for post-storm assessment and prompt services
+                        coverage for post-storm assessment and prompt services
                         throughout Snyder and surrounding areas with rapid deployment for
                         time-sensitive situations.
                       </p>

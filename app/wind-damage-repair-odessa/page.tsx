@@ -104,7 +104,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Odessa, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

@@ -184,7 +184,7 @@ export default function StormDamageRepairAmarilloPage() {
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Texas Panhandle severe storms bring hail, high winds, torrential rain, and tornado
-                activity. We provide prompt response, temporary repairs, complete damage assessment,
+                activity. We provide temporary repairs, complete damage assessment,
                 and insurance claim assistance for storm-damaged roofs throughout Amarillo.
               </p>
               <div className="flex gap-4 flex-wrap">
@@ -401,7 +401,7 @@ export default function StormDamageRepairAmarilloPage() {
                   during claim processing.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Our our team responds within 2-4 hours to prevent interior damage.
+                  Our team works to prevent interior damage.
                 </p>
               </div>
 

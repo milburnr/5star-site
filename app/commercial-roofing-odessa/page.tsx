@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-odessa/" },
   title: "Commercial Roofing Odessa TX | 5 Star Roofing",
   description:
-    "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. . Free inspections. Call (806) 622-6041",
+    "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Commercial Roofing Odessa TX | 5 Star Roofing",
     description:
-      "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. . Free inspections. Call (806) 622-6041",
+      "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/commercial-roofing-odessa/",
     siteName: "5 Star Roofing",
     images: [
@@ -103,7 +103,7 @@ export default function CommercialRoofingOdessaPage() {
               closes: "17:00",
             },
             description:
-              "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. . Free inspections. Call (806) 622-6041",
+              "Professional commercial roofing in Odessa TX. TPO, EPDM, and metal roofing systems for businesses. Free inspections. Call (806) 622-6041",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -118,7 +118,7 @@ export default function CommercialRoofingOdessaPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Odessa",
             description:
-              "Professional commercial roofing services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Odessa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -208,7 +208,7 @@ export default function CommercialRoofingOdessaPage() {
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert commercial roofing for Odessa businesses. TPO, EPDM, and metal roofing
                 systems engineered for harsh weather. Minimize operational disruption with our
-                after-hours installation. prompt response available.
+                after-hours installation.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
@@ -267,7 +267,7 @@ export default function CommercialRoofingOdessaPage() {
               Expert commercial roofing for Odessa businesses serving the Permian Basin's energy
               sector. TPO, EPDM, and metal roofing systems engineered for harsh weather and
               industrial environments. Minimize operational disruption with our after-hours
-              installation. prompt response available for critical petroleum industry operations.
+              installation.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
               Since 2014, we've served Odessa with expert commercial roofing installations for oil
@@ -551,9 +551,9 @@ export default function CommercialRoofingOdessaPage() {
               storm response and Maintenance Services for Critical Operations
             </h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              prompt response capabilities specifically designed for petroleum industry environments
+              dedicated service  petroleum industry environments
               include specialized safety equipment and coordination with industrial storm response
-              protocols. Rapid response times minimize business interruption for facilities that
+              protocols. our roofing service times minimize business interruption for facilities that
               cannot tolerate weather-related operational disruptions during critical petroleum
               industry activities including drilling, completion, and production operations.
             </p>

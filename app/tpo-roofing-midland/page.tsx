@@ -129,7 +129,7 @@ export default function TPORoofingMidlandPage() {
             serviceType: "TPO Membrane Roofing Installation",
             name: "TPO Roofing in Midland",
             description:
-              "Professional tpo roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional tpo roofing services in Midland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

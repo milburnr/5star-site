@@ -111,7 +111,7 @@ export default function HailDamageRepairBigSpringPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Repair in Big Spring",
             description:
-              "Professional hail damage repair services in Big Spring, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Big Spring, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -429,7 +429,7 @@ export default function HailDamageRepairBigSpringPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                  Immediate Response (0-24 Hours)
+                  First 24 Hours
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">

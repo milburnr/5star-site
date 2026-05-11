@@ -15,6 +15,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Flame, Phone, Shield, Star, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/metal-roofing-pampa/" },
   title: "Metal Roofing Pampa TX | 5 Star Roofing",
   description:
@@ -104,7 +105,7 @@ export default function MetalRoofingPampaPage() {
               closes: "17:00",
             },
             description:
-              "Expert metal roofing services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert metal roofing services in Pampa, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

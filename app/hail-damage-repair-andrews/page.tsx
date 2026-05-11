@@ -111,7 +111,7 @@ export default function HailDamageRepairAndrewsPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Repair in Andrews",
             description:
-              "Professional hail damage repair services in Andrews, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Andrews, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -402,7 +402,7 @@ export default function HailDamageRepairAndrewsPage() {
                     openings
                   </li>
                   <li>
-                    • <strong>Water Extraction:</strong> Rapid response to prevent secondary damage
+                    • <strong>Water Extraction:</strong> our roofing service to prevent secondary damage
                   </li>
                   <li>
                     • <strong>Interior Protection:</strong> Contents coverage and moisture barriers

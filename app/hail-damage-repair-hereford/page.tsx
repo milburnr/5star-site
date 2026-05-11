@@ -108,7 +108,7 @@ export default function HailDamageRepairHerefordPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Hereford, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Hereford, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -136,7 +136,7 @@ export default function HailDamageRepairHerefordPage() {
               },
             },
             description:
-              "Expert hail damage roof repair in Hereford, TX - the Beef Capital of the World. Serving Deaf Smith County with prompt response and insurance claim assistance.",
+              "Expert hail damage roof repair in Hereford, TX - the Beef Capital of the World. Serving Deaf Smith County and insurance claim assistance.",
           }),
         }}
       />

@@ -118,7 +118,7 @@ export default function ResidentialRoofingMidlandPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Midland",
             description:
-              "Professional residential roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Midland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

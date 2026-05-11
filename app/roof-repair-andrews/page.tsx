@@ -104,7 +104,7 @@ export default function RoofRepairAndrewsPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Andrews, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -524,7 +524,7 @@ export default function RoofRepairAndrewsPage() {
                   How quickly can you respond to roof emergencies in Andrews?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  We provide prompt response for Andrews County. Our team typically arrives within
+                  We provide service for Andrews County. Our team typically arrives within
                   2-4 hours for service calls, with temporary repairs completed the same day when
                   weather permits. We understand that Permian Basin storms can cause sudden, severe
                   damage that requires immediate attention to prevent further property damage.

@@ -111,7 +111,7 @@ export default function ResidentialRoofingBorgerPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Borger",
             description:
-              "Professional residential roofing services in Borger, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Borger, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -274,7 +274,7 @@ export default function ResidentialRoofingBorgerPage() {
             <p className="text-lg text-gray-600 leading-relaxed">
               Since 2014, we've protected Borger families through every weather challenge the
               northern Panhandle can deliver. Our team understands shift work schedules, industrial
-              housing needs, and the rapid response requirements when severe weather threatens this
+              housing needs, and the service requirements when severe weather threatens this
               vital Texas community.
             </p>
           </section>

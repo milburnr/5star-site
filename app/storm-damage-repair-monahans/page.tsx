@@ -104,7 +104,7 @@ export default function StormDamageRepairMonahansPage() {
               closes: "17:00",
             },
             description:
-              "Expert storm damage repair services in Monahans, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert storm damage repair services in Monahans, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -568,7 +568,7 @@ export default function StormDamageRepairMonahansPage() {
                       4
                     </div>
                     <div>
-                      <h4 className="font-semibold text-lg mb-1">Rapid Response Network</h4>
+                      <h4 className="font-semibold text-lg mb-1">our roofing service Network</h4>
                       <p className="text-sm opacity-90"> for critical energy infrastructure</p>
                     </div>
                   </div>

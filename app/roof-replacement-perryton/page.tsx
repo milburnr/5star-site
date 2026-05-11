@@ -112,7 +112,7 @@ export default function RoofReplacementPerrytonPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Perryton",
             description:
-              "Professional roof replacement services in Perryton, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Perryton, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

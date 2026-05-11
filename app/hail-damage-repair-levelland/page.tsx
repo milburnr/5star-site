@@ -111,7 +111,7 @@ export default function HailDamageRepairLevellandPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Repair in Levelland",
             description:
-              "Professional hail damage repair services in Levelland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Levelland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

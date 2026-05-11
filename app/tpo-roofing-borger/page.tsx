@@ -104,7 +104,7 @@ export default function TpoRoofingBorgerPage() {
               closes: "17:00",
             },
             description:
-              "Expert tpo roofing services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert tpo roofing services in Borger, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

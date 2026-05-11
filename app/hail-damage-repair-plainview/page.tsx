@@ -104,7 +104,7 @@ export default function HailDamageRepairPlainviewPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Plainview, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Plainview, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -132,7 +132,7 @@ export default function HailDamageRepairPlainviewPage() {
               },
             },
             description:
-              "Expert hail damage roof repair in Plainview, TX - the cotton capital of the Llano Estacado. Serving Hale County with prompt response and insurance claim assistance.",
+              "Expert hail damage roof repair in Plainview, TX - the cotton capital of the Llano Estacado. Serving Hale County and insurance claim assistance.",
           }),
         }}
       />

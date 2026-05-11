@@ -104,7 +104,7 @@ export default function RoofRepairPampaPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Pampa, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -184,7 +184,7 @@ export default function RoofRepairPampaPage() {
                 name: "How quickly can you repair my leaking roof in Pampa?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.",
+                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize quality work.",
                 },
               },
               {
@@ -340,7 +340,7 @@ export default function RoofRepairPampaPage() {
                   For active leaks, we provide prompt service when called before noon on most days.
                   Standard repairs are typically scheduled within 3-5 business days. Most repairs
                   complete in 2-4 hours depending on complexity. We understand roof leaks cause
-                  stress and damage—we prioritize prompt response without sacrificing quality.
+                  stress and damage—we prioritize quality work.
                 </AccordionContent>
               </AccordionItem>
 
@@ -733,7 +733,6 @@ export default function RoofRepairPampaPage() {
                   Pampa.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• prompt response</li>
                   <li>• Shift schedule accommodation</li>
                   <li>• Energy facility prioritization</li>
                   <li>• Industrial safety protocols</li>

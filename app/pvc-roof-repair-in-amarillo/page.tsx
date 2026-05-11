@@ -129,7 +129,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Amarillo, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -251,7 +251,7 @@ export default function Page() {
         </p>
         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
           Critical facility operations including data centers, medical facilities, and manufacturing
-          operations require immediate response that minimizes operational disruption while
+          operations require quick action that minimizes operational disruption while
           providing effective weather protection. our teams coordinate with facility managers to
           identify critical areas and implement protection procedures that maintain business
           continuity during severe weather events.

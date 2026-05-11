@@ -5,6 +5,7 @@ import { Phone } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   alternates: { canonical: "https://5starroofingpros.com/amarillo-weather-impact-on-roofing/" },
   title: "How Amarillo Weather Impacts Your Roof | 5 Star Roofing",
   description:
@@ -86,7 +87,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance.",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -101,7 +102,7 @@ export default function Page() {
             serviceType: "Professional Roofing Services",
             name: "Roofing Services in Amarillo",
             description:
-              "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -828,7 +829,7 @@ export default function Page() {
         <p>
           Our roofing services extend throughout the Texas Panhandle and West Texas region, covering
           over 50,000 square miles of challenging climate conditions. We maintain local expertise
-          and emergency response capabilities across this vast territory, ensuring prompt service
+          and service coverage across this vast territory, ensuring expert service
           when severe weather strikes. Our team understands that each community faces unique
           microclimatic challenges while sharing the broader West Texas weather patterns.
         </p>
@@ -1077,7 +1078,7 @@ export default function Page() {
         <p className="mb-6">
           Contact our team at <strong>(806) 622-6041</strong> for immediate assistance or to
           schedule your
-          <strong>free roof inspection</strong>. We provide same-day{" "}
+          <strong>free roof inspection</strong>. We provide{" "}
           <strong>prompt services</strong>
           for storm damage and can typically schedule routine inspections within 24-48 hours. Our
           office hours are 9 AM to 5 PM, Monday through Friday, but service calls are answered.

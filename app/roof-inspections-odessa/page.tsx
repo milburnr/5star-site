@@ -125,7 +125,7 @@ export default function RoofInspectionsOdessaPage() {
             serviceType: "Professional Roof Inspection",
             name: "Roof Inspections in Odessa",
             description:
-              "Professional roof inspections services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof inspections services in Odessa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

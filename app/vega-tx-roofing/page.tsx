@@ -364,7 +364,7 @@ export default function VegaRoofingPage() {
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      <strong>Storm damage requires immediate response.</strong> When severe weather
+                      <strong>Storm damage requires quick attention.</strong> When severe weather
                       hits Vega, we provide professional roofing services. tarping to We document
                       damage to support your insurance claim, schedule repairs once conditions are
                       safe, and coordinate Class 4 impact-resistant restoration tailored to West

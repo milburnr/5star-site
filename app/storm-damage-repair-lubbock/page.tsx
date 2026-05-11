@@ -151,7 +151,7 @@ export default function Page() {
                 name: "What areas of Lubbock do you serve for storm damage repair?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence since 2014 ensures prompt response and expert service across greater Lubbock.",
+                  text: "We serve all Lubbock neighborhoods including Tech Terrace, Overton, Melonie Park, and areas surrounding Texas Tech University and the National Ranching Heritage Center. Our service extends throughout the South Plains agricultural region to rural properties and farm buildings. We're familiar with specific challenges in each area, from historic homes near the Buddy Holly Center requiring specialized repairs to modern developments with HOA requirements. Our local presence since 2014 ensures expert service across greater Lubbock.",
                 },
               },
               {
@@ -363,7 +363,7 @@ export default function Page() {
                   rural properties and farm buildings. We're familiar with specific challenges in
                   each area, from historic homes near the Buddy Holly Center requiring specialized
                   repairs to modern developments with HOA requirements. Our local presence since
-                  2014 ensures prompt response and expert service across greater Lubbock.
+                  2014 ensures expert service across greater Lubbock.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">

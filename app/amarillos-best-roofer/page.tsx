@@ -93,7 +93,7 @@ export default function Page() {
             serviceType: "Professional Roofing Services",
             name: "Roofing Services in Amarillo",
             description:
-              "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roofing services services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -658,7 +658,7 @@ export default function Page() {
         <p>
           When severe weather strikes Amarillo—and it strikes often—roof damage demands immediate
           attention. Water infiltration can cause thousands of dollars in additional damage within
-          hours, making rapid response absolutely critical. Our storm response team is staffed
+          hours, making our roofing service absolutely critical. Our storm response team is staffed
           around the clock to provide immediate protection and begin permanent repairs as quickly as
           possible.
         </p>
@@ -667,7 +667,7 @@ export default function Page() {
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-red-50 p-6 rounded-lg">
-            <h4 className="font-bold mb-3">Immediate Response Services</h4>
+            <h4 className="font-bold mb-3">Storm Assessment Services</h4>
             <ul className="space-y-2">
               <li>• Professional tarping</li>
               <li>• Water damage prevention measures</li>

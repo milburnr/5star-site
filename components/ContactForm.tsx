@@ -68,7 +68,7 @@ function validate(fields: {
 
 export function ContactForm({
   title = "Get Your Free Roof Inspection",
-  subtitle = "Tell us about your project and we'll respond within 2 business hours.",
+  subtitle = "Tell us about your project and we'll be in touch shortly.",
   className = "",
 }: ContactFormProps) {
   useMarkContactForm();

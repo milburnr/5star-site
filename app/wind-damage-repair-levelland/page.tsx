@@ -117,7 +117,7 @@ export default function WindDamageRepairLevellandPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Levelland, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -674,7 +674,6 @@ export default function WindDamageRepairLevellandPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-red-700 mb-4">Our prompt services</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• prompt response team</li>
                   <li>• Professional tarping and securing</li>
                   <li>• Active-leak weatherproofing</li>
                   <li>• Structural safety assessment</li>

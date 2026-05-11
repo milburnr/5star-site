@@ -690,8 +690,8 @@ export default function BorgerRoofingPage() {
                 How quickly can you respond to storm damage in Hutchinson County?
               </h3>
               <p className="text-gray-700">
-                We maintain prompt response for storm damage throughout Hutchinson County. During
-                severe weather events, we can typically provide tarping within 2-4 hours for Borger
+                We prioritize storm response service for storm damage throughout Hutchinson County. During
+                severe weather events, we schedule work based on storm timing for Borger
                 properties. Our proximity to the area (based in Amarillo) allows us to respond
                 faster than distant contractors, which is critical when protecting your property
                 from water damage after storms.
@@ -796,7 +796,7 @@ export default function BorgerRoofingPage() {
                 name: "How quickly can you respond to storm damage in Hutchinson County?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We maintain prompt response for storm damage throughout Hutchinson County. During severe weather events, we can typically provide tarping within 2-4 hours for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.",
+                  text: "We prioritize storm response service for storm damage throughout Hutchinson County. During severe weather events, we schedule work based on storm timing for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.",
                 },
               },
               {

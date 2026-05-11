@@ -138,7 +138,7 @@ export default function ResidentialRoofingAmarilloPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Amarillo",
             description:
-              "Professional residential roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

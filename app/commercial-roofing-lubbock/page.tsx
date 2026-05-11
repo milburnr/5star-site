@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/commercial-roofing-lubbock/" },
   title: "Commercial Roofing Lubbock TX | 5 Star Roofing",
   description:
-    "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
+    "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. Call (806) 622-6041",
   openGraph: {
     title: "Commercial Roofing Lubbock TX | 5 Star Roofing",
     description:
-      "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. . Call (806) 622-6041",
+      "Expert commercial roofing in Lubbock, TX. TPO, EPDM, metal roofing for Texas Tech, healthcare facilities, agriculture. Call (806) 622-6041",
     url: "https://5starroofingpros.com/commercial-roofing-lubbock/",
     siteName: "5 Star Roofing",
     images: [
@@ -118,7 +118,7 @@ export default function CommercialRoofingLubbockPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Lubbock",
             description:
-              "Professional commercial roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Lubbock, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -204,7 +204,7 @@ export default function CommercialRoofingLubbockPage() {
                 name: "Do you provide prompt roofing for Lubbock's severe weather events?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, rapid response is critical for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.",
+                  text: "Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail reports in 12 months and frequent severe weather, quick service is important for businesses. We offer tarping, temporary repairs, and leak mitigation to protect inventory and equipment while permanent repairs are scheduled.",
                 },
               },
             ],
@@ -307,7 +307,7 @@ export default function CommercialRoofingLubbockPage() {
               55,000+ college students, major healthcare systems, and agriculture operations require
               impact-resistant roofing systems engineered for the South Plains climate. Our
               specialized commercial roofing protects critical infrastructure while minimizing
-              operational disruption through careful scheduling and prompt response.
+              operational disruption through careful scheduling.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               We coordinate with facility managers at Texas Tech, healthcare administrators at UMC
@@ -766,7 +766,7 @@ export default function CommercialRoofingLubbockPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, we provide prompt commercial roofing throughout Lubbock County. With 273 hail
-                  reports in 12 months and frequent severe weather, rapid response is critical for
+                  reports in 12 months and frequent severe weather, quick service is important for
                   businesses. We offer tarping, temporary repairs, and leak mitigation to protect
                   inventory and equipment while permanent repairs are scheduled.
                 </AccordionContent>

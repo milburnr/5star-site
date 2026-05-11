@@ -111,7 +111,7 @@ export default function CommercialRoofingPampaPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Pampa",
             description:
-              "Professional commercial roofing services in Pampa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Pampa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -420,7 +420,7 @@ export default function CommercialRoofingPampaPage() {
                     Storm Damage Roof Repairs
                   </h3>
                   <p className="text-gray-700">
-                    prompt response for storm damage, equipment penetration failures, and
+                    storm damage, equipment penetration failures, and
                     weather-related roofing emergencies throughout Pampa and surrounding areas.
                   </p>
                 </div>

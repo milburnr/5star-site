@@ -110,7 +110,7 @@ export default function CommercialRoofingSnyderPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Snyder",
             description:
-              "Professional commercial roofing services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Snyder, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

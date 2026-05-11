@@ -111,7 +111,7 @@ export default function CommercialRoofingLevellandPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Levelland",
             description:
-              "Professional commercial roofing services in Levelland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Levelland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

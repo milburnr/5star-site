@@ -26,6 +26,7 @@ export interface ArticleFrontmatter {
   heroAlt?: string;
   heroCaption?: string;
   faq?: FaqItem[];
+  noindex?: boolean;
 }
 
 export interface Article {

@@ -123,7 +123,7 @@ export default function MetalRoofingLubbockPage() {
             serviceType: "Metal Roofing Installation",
             name: "Metal Roofing in Lubbock",
             description:
-              "Professional metal roofing services in Lubbock, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional metal roofing services in Lubbock, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

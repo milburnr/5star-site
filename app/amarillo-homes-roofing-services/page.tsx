@@ -93,7 +93,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -255,7 +255,7 @@ export default function Page() {
         </p>
 
         <p>
-          We believe in open communication and prompt response to all your questions and concerns.
+          We believe in open communication and responsiveness to all your questions and concerns.
           Our dedicated team will guide you through the entire process, ensuring that your
           <strong> roofing needs</strong> are met efficiently and effectively. Call us today at
           <strong> (806) 622-6041</strong> for a free inspection of your Amarillo home.

@@ -409,7 +409,7 @@ export default function MidlandRoofingPage() {
                       interiors, and halt business operations within hours.
                     </p>
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      Our prompt response team is available any time, day or night, throughout
+                      Our roofing team is available any time, day or night, throughout
                       Midland and surrounding communities. We provide tarping to prevent further
                       water damage, temporary leak repairs, storm damage assessment and
                       documentation, board-up services, and coordination with your insurance

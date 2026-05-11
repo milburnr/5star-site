@@ -111,7 +111,7 @@ export default function HailDamageRepairMonahansPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Repair in Monahans",
             description:
-              "Professional hail damage repair services in Monahans, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Monahans, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -341,7 +341,7 @@ export default function HailDamageRepairMonahansPage() {
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
                     • <strong>Thermal Expansion Assessment:</strong> Desert heat cycles accelerate
-                    hail damage deterioration requiring rapid response
+                    hail damage requiring timely repair
                   </li>
                   <li>
                     • <strong>UV Degradation Analysis:</strong> Intense Permian Basin sun exposure
@@ -369,7 +369,7 @@ export default function HailDamageRepairMonahansPage() {
                 <div className="text-4xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Rapid Response Systems</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Response Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
                     • <strong>Storm Tracking Technology:</strong> Advanced radar monitoring for

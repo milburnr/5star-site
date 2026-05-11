@@ -422,7 +422,7 @@ export default function OdessaRoofingPage() {
                     <h3 className="text-2xl font-bold text-red-700 mb-2">
                       Storm Damage Roof Repair
                     </h3>
-                    <p className="text-sm text-red-600 font-semibold">RAPID RESPONSE TEAM</p>
+                    <p className="text-sm text-red-600 font-semibold">LOCAL ROOFING TEAM</p>
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
@@ -434,7 +434,7 @@ export default function OdessaRoofingPage() {
                       communities.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      Our prompt services include immediate response typically within 1-2 hours,
+                      Our prompt services include fast turnaround,
                       prompt tarping to prevent water damage and secure your property, temporary
                       leak repairs to stop active water intrusion, storm damage assessment and
                       documentation, debris removal and site cleanup, and coordination with your

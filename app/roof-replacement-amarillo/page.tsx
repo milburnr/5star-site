@@ -156,7 +156,7 @@ export default function RoofReplacementAmarilloPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Amarillo",
             description:
-              "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

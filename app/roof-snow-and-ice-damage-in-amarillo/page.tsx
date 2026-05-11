@@ -140,7 +140,7 @@ export default function Page() {
               closes: "17:00",
             },
             description:
-              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roofing services in Amarillo, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -746,7 +746,7 @@ export default function Page() {
       <div className="content-block">
         <h2 className="content-block-title">storm response Protocols</h2>
         <p className="text-lg mb-4">
-          When winter storms strike the Texas Panhandle, rapid response can mean the difference
+          When winter storms strike the Texas Panhandle, our roofing service can mean the difference
           between minor repairs and major structural damage. our protocols ensure immediate
           stabilization and damage mitigation.
         </p>
@@ -754,7 +754,7 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-red-50 rounded-lg p-6">
             <ul className="space-y-2 text-sm">
-              <li>• Rapid response teams within 2-4 hours</li>
+              <li>• roofing our roofing teams</li>
               <li>• tarping and stabilization</li>
               <li>• Ice dam removal for active leaks</li>
               <li>• Water extraction and drying services</li>

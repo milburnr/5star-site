@@ -1534,7 +1534,7 @@ export default async function Page() {
                   Request a Free Inspection
                 </h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Send us a few details and we'll respond within 2 business hours. No obligation, no
+                  Send us a few details and we'll be in touch shortly. No obligation, no
                   high-pressure sales — just a thorough roof assessment from a licensed Texas
                   Panhandle roofing crew.
                 </p>

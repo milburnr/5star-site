@@ -124,7 +124,7 @@ export default function MetalRoofingMidlandPage() {
             serviceType: "Metal Roofing Installation",
             name: "Metal Roofing in Midland",
             description:
-              "Professional metal roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional metal roofing services in Midland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

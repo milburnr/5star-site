@@ -120,7 +120,7 @@ export default function ResidentialRoofingMonahansPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Monahans",
             description:
-              "Professional residential roofing services in Monahans, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Monahans, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -449,7 +449,7 @@ export default function ResidentialRoofingMonahansPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-brand-brown mb-1">
-                        Rapid Response Capability
+                        storm coverage
                       </h4>
                       <p className="text-gray-700">
                         Fast project completion to meet energy sector timelines while maintaining
