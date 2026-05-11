@@ -881,10 +881,10 @@ export default async function Page() {
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-26-1280w.jpg"
-                  width={768}
-                  height={576}
-                  alt="Strong hero: finished gray shingle roof with attic vent, branded dump trailer + work truck in driveway — implies job context — 5 Star Roofing"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-channing-34-1280w.webp"
+                  width={1280}
+                  height={853}
+                  alt="White church building with red standing seam metal roof against dramatic cloudy sky — 5 Star Roofing"
                   className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   fetchPriority="low"
