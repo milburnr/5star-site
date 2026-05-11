@@ -732,7 +732,7 @@ export default function PampaRoofingPage() {
                 Can you handle storm repairs during industrial incidents or severe weather?
               </h3>
               <p className="text-gray-700">
-                Absolutely. We maintain prompt response capability for both residential and
+                Absolutely. We maintain service standards capability for both residential and
                 industrial clients throughout Gray County. During severe weather events or
                 industrial incidents, we can provide rapid tarping and temporary repairs to prevent
                 water damage and secure facilities. Our response teams are equipped to work safely
@@ -833,7 +833,7 @@ export default function PampaRoofingPage() {
                 name: "Can you handle storm repairs during industrial incidents or severe weather?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Absolutely. We maintain prompt response capability for both residential and industrial clients throughout Gray County. During severe weather events or industrial incidents, we can provide rapid tarping and temporary repairs to prevent water damage and secure facilities. Our response teams are equipped to work safely in industrial environments and coordinate with facility safety personnel.",
+                  text: "Absolutely. We maintain service standards capability for both residential and industrial clients throughout Gray County. During severe weather events or industrial incidents, we can provide rapid tarping and temporary repairs to prevent water damage and secure facilities. Our response teams are equipped to work safely in industrial environments and coordinate with facility safety personnel.",
                 },
               },
               {

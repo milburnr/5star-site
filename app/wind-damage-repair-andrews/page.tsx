@@ -137,7 +137,7 @@ export default function WindDamageRepairAndrewsPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Andrews, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Andrews, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -483,7 +483,7 @@ export default function WindDamageRepairAndrewsPage() {
                     storm response & Damage Assessment
                   </h3>
                   <p className="text-gray-600">
-                    Our prompt response team provides immediate property protection after Andrews
+                    Our roofing team provides immediate property protection after Andrews
                     wind events. We secure damaged areas, document destruction for insurance
                     purposes, and conduct comprehensive assessments to identify all wind-related
                     damage including hidden structural issues common in Permian Basin storms.

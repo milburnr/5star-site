@@ -119,7 +119,7 @@ export default function HailDamageRepairAmarilloPage() {
             serviceType: "Hail Damage Roof Repair",
             name: "Hail Damage Roof Repair in Amarillo",
             description:
-              "Professional hail damage repair services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional hail damage repair services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -243,7 +243,7 @@ export default function HailDamageRepairAmarilloPage() {
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert hail damage repair in Potter County - one of America's most hail-prone
                 regions. Potter County has recorded 131 severe hail days since 2000. We provide
-                prompt response, complete insurance claim assistance, and Class 4 impact-resistant
+                Complete insurance claim assistance and Class 4 impact-resistant
                 replacements.
               </p>
               <div className="flex gap-4 flex-wrap">

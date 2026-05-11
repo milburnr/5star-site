@@ -111,7 +111,7 @@ export default function RoofReplacementDumasPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Dumas",
             description:
-              "Professional roof replacement services in Dumas, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Dumas, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

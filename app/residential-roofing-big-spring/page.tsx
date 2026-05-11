@@ -111,7 +111,7 @@ export default function ResidentialRoofingBigSpringPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Big Spring",
             description:
-              "Professional residential roofing services in Big Spring, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Big Spring, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -717,7 +717,7 @@ export default function ResidentialRoofingBigSpringPage() {
                   Do you offer prompt services for Big Spring storm damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide prompt response for Big Spring storm damage. Our our crews
+                  Yes, We provide service for Big Spring storm damage. Our our crews
                   typically arrive within 90 minutes for urgent situations. We immediately secure
                   damaged areas with tarps and temporary repairs while documenting everything for
                   insurance claims. prompt services include water damage mitigation, structural

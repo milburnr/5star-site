@@ -103,7 +103,7 @@ export default function FlatRoofMidlandPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Midland, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Midland, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -354,7 +354,7 @@ export default function FlatRoofMidlandPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Midland's location in Hail Alley creates frequent opportunities for catastrophic flat
               roof damage that requires immediate storm response to protect valuable petroleum
-              industry equipment and critical business operations. Our prompt response teams
+              industry equipment and critical business operations. Our roofing team
               maintain specialized equipment and materials for rapid deployment throughout the
               Permian Basin region during severe weather events.
             </p>
@@ -366,7 +366,7 @@ export default function FlatRoofMidlandPage() {
               optimal weather conditions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Rapid response capabilities specifically designed for petroleum industry environments
+              storm coverage specifically designed for petroleum industry environments
               include specialized safety equipment, chemical exposure protocols, and coordination
               with industrial storm response teams. These capabilities ensure business continuity
               during weather events while maintaining safety standards required for petroleum

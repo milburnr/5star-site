@@ -104,7 +104,7 @@ export default function RoofRepairMonahansPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Monahans, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Monahans, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -999,7 +999,7 @@ export default function RoofRepairMonahansPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <h3 className="text-lg font-bold mb-3 text-brand-brown">Desert Storm Repair</h3>
                 <p className="text-gray-600 mb-4 text-sm">
-                  prompt response for sandstorm and severe weather damage throughout Ward County
+                  sandstorm and severe weather damage throughout Ward County
                 </p>
                 <a
                   href="/roof-repair-monahans/"

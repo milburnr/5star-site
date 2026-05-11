@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/storm-damage-repair/" },
   title: "Storm Damage Roof Repair Texas | 5 Star Roofing",
   description:
-    "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with rapid response and insurance coordination. Call (806) 622-6041 today.",
+    "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with our roofing service and insurance coordination. Call (806) 622-6041 today.",
   openGraph: {
     title: "Storm Damage Roof Repair Texas | 5 Star Roofing",
     description:
-      "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with rapid response and insurance coordination. Call (806) 622-6041 today.",
+      "Emergency storm damage roof repair across Texas. Hail, wind, and tornado damage with our roofing service and insurance coordination. Call (806) 622-6041 today.",
     url: "https://5starroofingpros.com/storm-damage-repair/",
     siteName: "5 Star Roofing",
     images: [
@@ -124,7 +124,7 @@ export default function Page() {
       },
     ],
     description:
-      "Emergency storm damage roof repair services across Texas. Rapid response for hail, wind, tornado, and flooding damage with temporary weatherproofing and permanent restoration.",
+      "Emergency storm damage roof repair services across Texas. our roofing service for hail, wind, tornado, and flooding damage with temporary weatherproofing and permanent restoration.",
   };
 
   const faqSchema = {
@@ -302,7 +302,7 @@ export default function Page() {
         </h2>
         <p className="mb-6">
           When a storm hits, the priority is stopping water from entering your home or building. Our
-          emergency response process is designed to stabilize the situation quickly while setting up
+          assessment process is designed to stabilize the situation quickly while setting up
           a plan for permanent repairs.
         </p>
 

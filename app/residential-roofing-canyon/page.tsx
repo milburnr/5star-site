@@ -111,7 +111,7 @@ export default function ResidentialRoofingCanyonPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Canyon",
             description:
-              "Professional residential roofing services in Canyon, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Canyon, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

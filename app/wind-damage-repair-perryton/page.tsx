@@ -105,7 +105,7 @@ export default function WindDamageRepairPerrytonPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Perryton, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

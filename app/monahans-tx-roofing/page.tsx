@@ -128,7 +128,7 @@ const faqItems = [
   {
     question: "How fast can you respond to roof emergencies in Monahans?",
     answer:
-      "We provide same-day emergency response for roof leaks and storm damage in Monahans and throughout Ward County. Our crews carry tarps, sealants, and emergency repair materials to stop active leaks and prevent further interior damage while permanent repairs are planned. Monahans' location along I-20 provides direct access for our service crews.",
+      "We provide scheduling for storm damage and roof repair in Monahans and throughout Ward County. Our crews carry tarps, sealants, and emergency repair materials to stop active leaks and prevent further interior damage while permanent repairs are planned. Monahans' location along I-20 provides direct access for our service crews.",
   },
   {
     question: "Why does Monahans need different roofing than Midland or Odessa?",

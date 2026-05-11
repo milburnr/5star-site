@@ -115,7 +115,7 @@ export default function RoofInspectionsBorgerPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof inspections services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof inspections services in Borger, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

@@ -104,7 +104,7 @@ export default function WindDamageRepairBorgerPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Borger, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

@@ -129,7 +129,7 @@ export default function ResidentialRoofingOdessaPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Odessa",
             description:
-              "Professional residential roofing services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Odessa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

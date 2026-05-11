@@ -104,7 +104,7 @@ export default function MetalRoofOdessaPage() {
               closes: "17:00",
             },
             description:
-              "Expert roofing services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roofing services in Odessa, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

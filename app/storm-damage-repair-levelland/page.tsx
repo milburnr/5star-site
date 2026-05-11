@@ -104,7 +104,7 @@ export default function StormDamageRepairLevellandPage() {
               closes: "17:00",
             },
             description:
-              "Expert storm damage repair services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert storm damage repair services in Levelland, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -622,7 +622,7 @@ export default function StormDamageRepairLevellandPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
                   We maintain strategic relationships with material suppliers and additional crews
-                  throughout Texas to ensure rapid response capability during major storm events
+                  throughout Texas to ensure storm coverage during major storm events
                   that affect the entire South Plains region. Our process includes immediate prompt
                   services to prevent further damage, comprehensive documentation for insurance
                   purposes, and phased restoration that prioritizes critical repairs first. We

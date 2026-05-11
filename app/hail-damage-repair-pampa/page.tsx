@@ -111,7 +111,7 @@ export default function HailDamageRepairPampaPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Pampa, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -139,7 +139,7 @@ export default function HailDamageRepairPampaPage() {
               },
             },
             description:
-              "Expert hail damage roof repair in Pampa, TX. Serving Gray County with prompt response and insurance claim assistance.",
+              "Expert hail damage roof repair in Pampa, TX. Serving Gray County and insurance claim assistance.",
           }),
         }}
       />

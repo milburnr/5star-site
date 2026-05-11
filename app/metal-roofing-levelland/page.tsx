@@ -104,7 +104,7 @@ export default function MetalRoofingLevellandPage() {
               closes: "17:00",
             },
             description:
-              "Expert metal roofing services in Levelland, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert metal roofing services in Levelland, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

@@ -111,7 +111,7 @@ export default function ResidentialRoofingPampaPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Pampa",
             description:
-              "Professional residential roofing services in Pampa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Pampa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -359,7 +359,6 @@ export default function ResidentialRoofingPampaPage() {
                   straight-line winds common in Gray County.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• prompt response</li>
                   <li>• Tornado damage specialists</li>
                   <li>• Complete insurance coordination</li>
                   <li>• Structural assessment services</li>
@@ -548,7 +547,7 @@ export default function ResidentialRoofingPampaPage() {
                   How do you handle tornado damage in Pampa?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  As tornado specialists, we provide immediate response including structural
+                  As tornado specialists, we provide assessment including structural
                   assessment, temporary protection, and complete restoration services. Our team has
                   extensive experience with severe wind damage and coordinates closely with
                   insurance adjusters and emergency management officials during major storm events.

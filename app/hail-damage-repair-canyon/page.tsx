@@ -113,7 +113,7 @@ export default function HailDamageRepairCanyonPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Canyon, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -141,7 +141,7 @@ export default function HailDamageRepairCanyonPage() {
               },
             },
             description:
-              "Expert hail damage roof repair in Canyon, TX. Serving WTAMU area and Randall County with prompt response and insurance claim assistance.",
+              "Expert hail damage roof repair in Canyon, TX. Serving WTAMU area and Randall County and insurance claim assistance.",
           }),
         }}
       />

@@ -111,7 +111,7 @@ export default function CommercialRoofingMonahansPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Monahans",
             description:
-              "Professional commercial roofing services in Monahans, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Monahans, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

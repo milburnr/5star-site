@@ -684,10 +684,9 @@ export default function RoofRepairOdessaPage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">
-                  <Zap className="w-6 h-6 inline-block" /> Rapid Response and prompt services
+                  <Zap className="w-6 h-6 inline-block" /> our roofing service and prompt services
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• prompt response within 2 hours in Odessa</li>
                   <li>• Mobile repair units equipped for immediate stabilization</li>
                   <li>• Direct relationships with emergency management agencies</li>
                   <li>• Coordination with industrial safety and environmental agencies</li>

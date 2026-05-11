@@ -111,7 +111,7 @@ export default function ResidentialRoofingAndrewsPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Andrews",
             description:
-              "Professional residential roofing services in Andrews, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Andrews, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -358,7 +358,6 @@ export default function ResidentialRoofingAndrewsPage() {
                   everything needed for successful insurance claims.
                 </p>
                 <ul className="text-gray-600 space-y-2">
-                  <li>• prompt response</li>
                   <li>• Temporary protection services</li>
                   <li>• Insurance claim documentation</li>
                   <li>• Direct insurance billing</li>

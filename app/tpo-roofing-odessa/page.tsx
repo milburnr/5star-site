@@ -129,7 +129,7 @@ export default function TPORoofingOdessaPage() {
             serviceType: "TPO Membrane Roofing Installation",
             name: "TPO Roofing in Odessa",
             description:
-              "Professional tpo roofing services in Odessa, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional tpo roofing services in Odessa, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

@@ -104,7 +104,7 @@ export default function StormDamageRepairDumasPage() {
               closes: "17:00",
             },
             description:
-              "Expert storm damage repair services in Dumas, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert storm damage repair services in Dumas, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -464,7 +464,7 @@ export default function StormDamageRepairDumasPage() {
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold mb-2">storm response Planning</h4>
                     <p className="text-gray-600 text-sm">
-                      Agricultural operations need rapid response protocols for livestock
+                      Agricultural operations need our roofing service protocols for livestock
                       protection, grain preservation, and equipment security during and after severe
                       weather events.
                     </p>

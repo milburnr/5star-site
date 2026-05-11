@@ -121,7 +121,7 @@ export default function ResidentialRoofingLevellandPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Levelland",
             description:
-              "Professional residential roofing services in Levelland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Levelland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -356,7 +356,6 @@ export default function ResidentialRoofingLevellandPage() {
                   and flash flood impacts.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• prompt response</li>
                   <li>• Multi-property coordination</li>
                   <li>• Insurance claim expertise</li>
                   <li>• Temporary protection services</li>
@@ -602,7 +601,7 @@ export default function ResidentialRoofingLevellandPage() {
                   How do you handle storm repairs during the school year?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide prompt response throughout the school year with special consideration
+                  We provide service throughout the school year with special consideration
                   for student housing. Our team coordinates with property managers to minimize
                   disruption and provides temporary protection services. We maintain contact
                   protocols for multi-property owners and college housing providers.

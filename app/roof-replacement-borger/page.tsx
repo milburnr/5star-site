@@ -111,7 +111,7 @@ export default function RoofReplacementBorgerPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Borger",
             description:
-              "Professional roof replacement services in Borger, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Borger, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

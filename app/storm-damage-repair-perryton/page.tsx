@@ -192,7 +192,7 @@ export default function StormDamageRepairPerrytonPage() {
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Perryton's northernmost Panhandle location brings severe storms with hail, high
-                winds, torrential rain, and extreme weather. We provide prompt response, temporary
+                winds, torrential rain, and extreme weather. We provide temporary
                 repairs, complete damage assessment, and insurance claim assistance for
                 storm-damaged roofs throughout Ochiltree County.
               </p>
@@ -315,7 +315,7 @@ export default function StormDamageRepairPerrytonPage() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
                 <h3 className="text-xl font-bold mb-3 text-red-700">
-                  Immediate Response (0-4 hours)
+                  First 4 Hours
                 </h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>

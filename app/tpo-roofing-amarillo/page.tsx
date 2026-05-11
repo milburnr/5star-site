@@ -124,7 +124,7 @@ export default function TPORoofingAmarilloPage() {
             serviceType: "TPO Membrane Roofing Installation",
             name: "TPO Roofing in Amarillo",
             description:
-              "Professional tpo roofing services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional tpo roofing services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

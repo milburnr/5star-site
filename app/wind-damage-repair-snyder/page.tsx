@@ -508,7 +508,7 @@ export default function WindDamageRepairSnyderPage() {
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
                   We maintain coverage specifically for West Texas supercell
-                  events. Our our team can typically respond within 2-3 hours of storm passage to
+                  events. Our our team respond after storm events to
                   provide immediate stabilization, tarping, and damage assessment. We monitor
                   weather radar during severe weather events to prepare for immediate deployment.
                 </AccordionContent>

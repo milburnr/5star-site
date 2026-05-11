@@ -104,7 +104,7 @@ export default function WindDamageRepairPampaPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Pampa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Pampa, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -208,7 +208,7 @@ export default function WindDamageRepairPampaPage() {
                 name: "How quickly should wind damage be repaired in Pampa?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Schedule wind damage repairs immediately. Even small areas of wind damage allow water intrusion during Pampa's frequent rainstorms. Properties throughout Gray County's ranching community face repeated high-wind events, so unrepaired damage worsens quickly. We provide prompt response with temporary repairs, then schedule permanent restoration within days to prevent secondary damage.",
+                  text: "Schedule wind damage repairs immediately. Even small areas of wind damage allow water intrusion during Pampa's frequent rainstorms. Properties throughout Gray County's ranching community face repeated high-wind events, so unrepaired damage worsens quickly. We provide service with temporary repairs, then schedule permanent restoration within days to prevent secondary damage.",
                 },
               },
             ],
@@ -640,7 +640,7 @@ export default function WindDamageRepairPampaPage() {
                   Schedule wind damage repairs immediately. Even small areas of wind damage allow
                   water intrusion during Pampa's frequent rainstorms. Properties throughout Gray
                   County's ranching community face repeated high-wind events, so unrepaired damage
-                  worsens quickly. We provide prompt response with temporary repairs, then schedule
+                  worsens quickly. We provide service with temporary repairs, then schedule
                   permanent restoration within days to prevent secondary damage.
                 </AccordionContent>
               </AccordionItem>

@@ -103,7 +103,7 @@ export default function HailDamageRepairLubbockPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Lubbock, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -138,7 +138,7 @@ export default function HailDamageRepairLubbockPage() {
               },
             },
             description:
-              "Expert hail damage roof repair services in Lubbock, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for the Hub City.",
+              "Expert hail damage roof repair services in Lubbock, TX. insurance claim assistance, and Class 4 impact-resistant roof replacements for the Hub City.",
           }),
         }}
       />

@@ -104,7 +104,7 @@ export default function RoofRepairCanyonPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Canyon, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Canyon, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -184,7 +184,7 @@ export default function RoofRepairCanyonPage() {
                 name: "How quickly can you repair my leaking roof in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.",
+                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize quality work.",
                 },
               },
               {
@@ -340,7 +340,7 @@ export default function RoofRepairCanyonPage() {
                   For active leaks, we provide prompt service when called before noon on most days.
                   Standard repairs are typically scheduled within 3-5 business days. Most repairs
                   complete in 2-4 hours depending on complexity. We understand roof leaks cause
-                  stress and damage—we prioritize prompt response without sacrificing quality.
+                  stress and damage—we prioritize quality work.
                 </AccordionContent>
               </AccordionItem>
 
@@ -568,10 +568,10 @@ export default function RoofRepairCanyonPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                      Rapid Response Assessment
+                      our roofing service Assessment
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Our Canyon service team provides rapid response to service calls,
+                      Our Canyon service team provides our roofing service to service calls,
                       understanding that university district timing is critical for students and
                       faculty. We prioritize same-day storm response and work around academic
                       schedules when possible.

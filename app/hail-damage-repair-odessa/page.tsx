@@ -103,7 +103,7 @@ export default function HailDamageRepairOdessaPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Odessa, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -138,7 +138,7 @@ export default function HailDamageRepairOdessaPage() {
               },
             },
             description:
-              "Expert hail damage roof repair services in Odessa, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Ector County properties.",
+              "Expert hail damage roof repair services in Odessa, TX. insurance claim assistance, and Class 4 impact-resistant roof replacements for Ector County properties.",
           }),
         }}
       />

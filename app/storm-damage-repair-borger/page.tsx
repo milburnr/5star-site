@@ -104,7 +104,7 @@ export default function StormDamageRepairBorgerPage() {
               closes: "17:00",
             },
             description:
-              "Expert storm damage repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert storm damage repair services in Borger, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -650,7 +650,7 @@ export default function StormDamageRepairBorgerPage() {
                   Our includes immediate safety assessment, professional damage documentation with
                   photos and measurements, tarping to prevent further damage, temporary repairs for
                   active leaks, coordination with insurance adjusters, and detailed estimates for
-                  permanent repairs. We arrive within 2-4 hours for critical situations and work
+                  permanent repairs. We arrive for Borger situations and work
                   around Borger's industrial schedules. All work is properly documented for
                   insurance claims and credited toward final repair costs.
                 </AccordionContent>

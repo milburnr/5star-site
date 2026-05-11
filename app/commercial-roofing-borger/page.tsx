@@ -111,7 +111,7 @@ export default function CommercialRoofingBorgerPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Borger",
             description:
-              "Professional commercial roofing services in Borger, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Borger, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -583,7 +583,7 @@ export default function CommercialRoofingBorgerPage() {
               Severe weather events including hailstorms, tornadoes, and high winds can cause
               catastrophic damage to commercial roofing systems. tarping and temporary weather
               protection services prevent secondary damage while permanent repairs are planned and
-              executed. Rapid response times minimize business interruption and protect valuable
+              executed. our roofing service times minimize business interruption and protect valuable
               interior assets.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed"></p>

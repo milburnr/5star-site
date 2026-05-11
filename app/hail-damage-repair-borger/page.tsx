@@ -103,7 +103,7 @@ export default function HailDamageRepairBorgerPage() {
               closes: "17:00",
             },
             description:
-              "Expert hail damage repair services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert hail damage repair services in Borger, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -138,7 +138,7 @@ export default function HailDamageRepairBorgerPage() {
               },
             },
             description:
-              "Expert hail damage roof repair services in Borger, TX. prompt response, insurance claim assistance, and Class 4 impact-resistant roof replacements for Hutchinson County properties.",
+              "Expert hail damage roof repair services in Borger, TX. insurance claim assistance, and Class 4 impact-resistant roof replacements for Hutchinson County properties.",
           }),
         }}
       />

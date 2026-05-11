@@ -111,7 +111,7 @@ export default function ResidentialRoofingDumasPage() {
             serviceType: "Residential Roofing Services",
             name: "Residential Roofing in Dumas",
             description:
-              "Professional residential roofing services in Dumas, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional residential roofing services in Dumas, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -354,7 +354,6 @@ export default function ResidentialRoofingDumasPage() {
                   Moore County.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• prompt response</li>
                   <li>• Insurance claim assistance</li>
                   <li>• Temporary protection services</li>
                   <li>• Complete documentation</li>
@@ -496,7 +495,7 @@ export default function ResidentialRoofingDumasPage() {
 
                 <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">
-                    Free estimates and inspections available throughout our service area. .
+                    Free estimates and inspections available throughout our service area.
                   </p>
                 </div>
               </div>

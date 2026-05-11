@@ -127,7 +127,7 @@ export default function RoofInspectionsAmarilloPage() {
             serviceType: "Professional Roof Inspection",
             name: "Roof Inspections in Amarillo",
             description:
-              "Professional roof inspections services in Amarillo, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof inspections services in Amarillo, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

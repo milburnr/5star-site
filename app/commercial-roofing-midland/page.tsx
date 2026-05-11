@@ -118,7 +118,7 @@ export default function CommercialRoofingMidlandPage() {
             serviceType: "Commercial Roofing Services",
             name: "Commercial Roofing in Midland",
             description:
-              "Professional commercial roofing services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional commercial roofing services in Midland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -667,7 +667,7 @@ export default function CommercialRoofingMidlandPage() {
                 </h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Storm damage threatening your oil company operations or energy facilities? We
-                  provide prompt response for Midland's energy industry. Critical petroleum
+                  provide Midland's energy industry. Critical petroleum
                   operations, corporate headquarters, and industrial facilities cannot afford
                   downtime. tarping, temporary repairs, and rapid leak mitigation protect operations
                   and equipment.

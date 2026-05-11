@@ -111,7 +111,7 @@ export default function RoofReplacementSnyderPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Snyder",
             description:
-              "Professional roof replacement services in Snyder, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Snyder, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -276,7 +276,7 @@ export default function RoofReplacementSnyderPage() {
                     • <strong>Enhanced Durability:</strong> Superior materials for extended lifespan
                   </li>
                   <li>
-                    • <strong>Rapid Response:</strong> for critical facilities
+                    • <strong></strong> for critical facilities
                   </li>
                   <li>
                     • <strong>Scurry County Knowledge:</strong> Local codes and permit expertise
@@ -553,7 +553,6 @@ export default function RoofReplacementSnyderPage() {
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>prompt response</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">

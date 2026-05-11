@@ -111,7 +111,7 @@ export default function RoofReplacementBigSpringPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Big Spring",
             description:
-              "Professional roof replacement services in Big Spring, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Big Spring, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

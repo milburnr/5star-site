@@ -105,7 +105,7 @@ export default function RoofRepairPerrytonPage() {
               closes: "17:00",
             },
             description:
-              "Expert roof repair services in Perryton, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert roof repair services in Perryton, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -185,7 +185,7 @@ export default function RoofRepairPerrytonPage() {
                 name: "How quickly can you repair my leaking roof in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize prompt response without sacrificing quality.",
+                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize quality work.",
                 },
               },
               {
@@ -340,7 +340,7 @@ export default function RoofRepairPerrytonPage() {
                   For active leaks, we provide prompt service when called before noon on most days.
                   Standard repairs are typically scheduled within 3-5 business days. Most repairs
                   complete in 2-4 hours depending on complexity. We understand roof leaks cause
-                  stress and damage—we prioritize prompt response without sacrificing quality.
+                  stress and damage—we prioritize quality work.
                 </AccordionContent>
               </AccordionItem>
 

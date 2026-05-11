@@ -543,7 +543,7 @@ export default function PlainviewRoofingPage() {
             <h2 className="text-2xl font-bold mb-6">storm response and Storm Damage Restoration</h2>
             <p className="text-lg mb-4">
               Severe weather events in the Texas Panhandle can cause immediate roofing issues
-              requiring rapid response to protect property and prevent secondary damage. Our storm
+              requiring our roofing service to protect property and prevent secondary damage. Our storm
               response capabilities ensure Plainview property owners receive immediate assistance
               when storms strike.
             </p>
@@ -558,7 +558,7 @@ export default function PlainviewRoofingPage() {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold text-red-700 mb-2">Immediate Response Services</h4>
+                  <h4 className="font-semibold text-red-700 mb-2">Storm Assessment Services</h4>
                   <ul className="text-sm text-gray-700 space-y-1">
                     <li>• tarping and temporary weather protection</li>
                     <li>• Water intrusion mitigation and drainage</li>

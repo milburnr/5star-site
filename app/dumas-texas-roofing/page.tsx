@@ -453,7 +453,7 @@ export default function DumasRoofingPage() {
                 How quickly can you respond to storm damage for agricultural buildings?
               </h3>
               <p className="text-gray-700">
-                We provide prompt response for agricultural facilities throughout Moore County.
+                We provide service for agricultural facilities throughout Moore County.
                 Storm damage to barns or feed storage can be critical for livestock welfare and crop
                 protection. We carry tarping materials sized for large agricultural buildings and
                 can provide temporary repairs quickly to protect livestock, equipment, and stored
@@ -951,7 +951,7 @@ export default function DumasRoofingPage() {
                 name: "How quickly can you respond to storm damage for agricultural buildings?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide prompt response for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.",
+                  text: "We provide service for agricultural facilities throughout Moore County. Storm damage to barns or feed storage can be critical for livestock welfare and crop protection. We carry tarping materials sized for large agricultural buildings and can provide temporary repairs quickly to protect livestock, equipment, and stored feed or grain from further weather damage.",
                 },
               },
               {

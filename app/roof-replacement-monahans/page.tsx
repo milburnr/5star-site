@@ -111,7 +111,7 @@ export default function RoofReplacementMonahansPage() {
             serviceType: "Roof Replacement Services",
             name: "Roof Replacement in Monahans",
             description:
-              "Professional roof replacement services in Monahans, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof replacement services in Monahans, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",
@@ -491,7 +491,6 @@ export default function RoofReplacementMonahansPage() {
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>prompt response</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
@@ -701,7 +700,7 @@ export default function RoofReplacementMonahansPage() {
                   <li>• Multiple active leaks in severe weather</li>
                 </ul>
                 <div className="mt-6 p-4 bg-red-100 rounded-lg">
-                  <p className="text-red-800 font-bold">Call (806) 622-6041 for prompt response</p>
+                  <p className="text-red-800 font-bold">Call (806) 622-6041 for scheduling</p>
                 </div>
               </div>
               <div className="bg-amber-50 p-8 rounded-xl border border-brand-gold/30">

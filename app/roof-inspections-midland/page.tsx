@@ -126,7 +126,7 @@ export default function RoofInspectionsMidlandPage() {
             serviceType: "Professional Roof Inspection",
             name: "Roof Inspections in Midland",
             description:
-              "Professional roof inspections services in Midland, Texas. Expert installation, repair, and maintenance with prompt response.",
+              "Professional roof inspections services in Midland, Texas. Expert installation, repair, and maintenance.",
             provider: {
               "@type": ["LocalBusiness", "RoofingContractor"],
               name: "5 Star Roofing",

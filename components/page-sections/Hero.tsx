@@ -94,7 +94,7 @@ interface HeroProps {
 const DEFAULT_TRUST: HeroTrustData = {
   ratingLabel: "",
   scope: "West Texas",
-  sinceLabel: "Since {{VERIFY: founding year — 2008 vs 2014 contradiction}}",
+  sinceLabel: "Since 2014", // PENDING VERIFICATION: Rich to confirm founding year (2008 vs 2014)
 };
 
 /**

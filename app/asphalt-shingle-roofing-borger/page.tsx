@@ -104,7 +104,7 @@ export default function AsphaltShingleRoofingBorgerPage() {
               closes: "17:00",
             },
             description:
-              "Expert asphalt shingle roofing services in Borger, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert asphalt shingle roofing services in Borger, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}

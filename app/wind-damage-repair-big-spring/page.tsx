@@ -137,7 +137,7 @@ export default function WindDamageRepairBigSpringPage() {
               closes: "17:00",
             },
             description:
-              "Expert wind damage repair services in Big Spring, TX. Free inspections, insurance claim assistance, prompt response.",
+              "Expert wind damage repair services in Big Spring, TX. Free inspections, insurance claim assistance",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
           }),
         }}
@@ -365,7 +365,7 @@ export default function WindDamageRepairBigSpringPage() {
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
                 <h4 className="text-xl font-semibold text-brand-brown mb-3">storm response</h4>
                 <p className="text-gray-600 mb-3">
-                  s for Big Spring wind damage events. Our rapid response team provides immediate
+                  s for Big Spring wind damage events. Our roofing team provides immediate
                   tarping, board-up, and stabilization to prevent secondary damage while
                   coordinating with local emergency services and insurance providers.
                 </p>
@@ -509,10 +509,10 @@ export default function WindDamageRepairBigSpringPage() {
                 </div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">
-                    Rapid Response & Storm Protection
+                    Storm Protection Services
                   </h3>
                   <p className="text-gray-600">
-                    Our prompt response team secures Big Spring properties immediately after wind
+                    Our roofing team secures Big Spring properties immediately after wind
                     events. We provide tarping, board-up services, and structural stabilization to
                     prevent secondary damage while beginning comprehensive damage assessment
                     processes.
