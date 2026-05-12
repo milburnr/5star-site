@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -41,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function CommercialRoofingDumasPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Commercial Roofing", url: "/commercial-roofing/" },
-          { name: "Dumas", url: "/commercial-roofing-dumas/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -149,11 +139,18 @@ export default function CommercialRoofingDumasPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="dumas"
         city="Dumas"
         service="Commercial Roofing"
         h1="Commercial Roofing in Dumas, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-9-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Commercial Roofing", url: "/commercial-roofing/" },
+          { name: "Dumas", url: "/commercial-roofing-dumas/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

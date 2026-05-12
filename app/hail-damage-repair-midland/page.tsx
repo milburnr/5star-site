@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -49,16 +48,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairMidlandPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Midland", url: "/hail-damage-repair-midland/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -200,11 +190,18 @@ export default function HailDamageRepairMidlandPage() {
       {/* Hero Section */}
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Midland"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in Midland, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-30-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Midland", url: "/hail-damage-repair-midland/" },
+        ]}
+    />
 
       {/* Stats Bar */}
       <FadeIn>

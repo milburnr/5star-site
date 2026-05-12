@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -57,16 +56,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairDumasPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Dumas", url: "/hail-damage-repair-dumas/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -199,11 +189,18 @@ export default function HailDamageRepairDumasPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="dumas"
         city="Dumas"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in Dumas, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Dumas", url: "/hail-damage-repair-dumas/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

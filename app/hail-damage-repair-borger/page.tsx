@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -49,16 +48,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairBorgerPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Borger", url: "/hail-damage-repair-borger/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -148,11 +138,18 @@ export default function HailDamageRepairBorgerPage() {
       {/* Hero Section */}
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="borger"
         city="Borger"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in Borger, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-dalhart-33-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Borger", url: "/hail-damage-repair-borger/" },
+        ]}
+    />
 
       {/* Stats Bar */}
       <FadeIn>

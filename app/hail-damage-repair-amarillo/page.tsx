@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -42,16 +41,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairAmarilloPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
-          { name: "Amarillo", url: "/hail-damage-repair-amarillo/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -224,11 +214,18 @@ export default function HailDamageRepairAmarilloPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="amarillo"
         city="Amarillo"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in Amarillo, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
+          { name: "Amarillo", url: "/hail-damage-repair-amarillo/" },
+        ]}
+    />
 
       {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
       <InsuranceLogos />

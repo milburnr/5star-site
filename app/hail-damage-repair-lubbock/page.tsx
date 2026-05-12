@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -49,16 +48,7 @@ export const metadata: Metadata = {
 
 export default function HailDamageRepairLubbockPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
-          { name: "Lubbock", url: "/hail-damage-repair-lubbock/" },
-        ]}
-      />
-
-      <StickyContactBar />
+    <>      <StickyContactBar />
 
       <script
         type="application/ld+json"
@@ -200,11 +190,18 @@ export default function HailDamageRepairLubbockPage() {
       {/* Hero Section */}
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="lubbock"
         city="Lubbock"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in Lubbock, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Hail Damage Repair", url: "/hail-damage-repair-amarillo/" },
+          { name: "Lubbock", url: "/hail-damage-repair-lubbock/" },
+        ]}
+    />
 
       {/* Stats Bar */}
       <FadeIn>
