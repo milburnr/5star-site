@@ -34,7 +34,7 @@
       "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "damaged",
-      "damageType": "wind-damage",
+      "damageType": "hail-damage",
       "accessories": [],
       "visualQuality": "detail",
       "description": "Close-up view of an asphalt shingle roof showing multiple sections with missing or lifted shingles and visible wind damage across the surface.",
@@ -59,8 +59,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "wind-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -89,8 +89,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "wind-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -104,8 +104,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-2-640w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "wind-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -157,7 +157,7 @@
       "file": "images/hail-damage/hail-damage-levelland-3-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-levelland-3-1280w.webp",
       "primarySubject": "asphalt-shingles",
-      "building": "unknown",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [],
@@ -2701,8 +2701,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "hail-damage",
       "accessories": [
         "pipe-jack"
       ],
@@ -2716,8 +2716,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "completed",
-      "damageType": null,
+      "condition": "damaged",
+      "damageType": "hail-damage",
       "accessories": [
         "pipe-jack",
         "ridge-vent"
@@ -2733,7 +2733,7 @@
       "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "damaged",
-      "damageType": "wind-damage",
+      "damageType": "hail-damage",
       "accessories": [
         "pipe-jack",
         "ridge-vent"
@@ -2921,8 +2921,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent"
       ],
@@ -2951,8 +2951,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-640w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent"
       ],
@@ -2966,8 +2966,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-640w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent",
         "valley-metal"
@@ -2982,8 +2982,8 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-4-1280w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "damaged",
-      "damageType": "wind-damage",
+      "condition": "completed",
+      "damageType": null,
       "accessories": [
         "ridge-vent"
       ],
@@ -3758,7 +3758,7 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.jpg",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "in-progress",
+      "condition": "completed",
       "damageType": null,
       "accessories": [],
       "visualQuality": "card",
@@ -3797,7 +3797,7 @@
     "images/completed/completed-amarillo-19-640w.jpg": {
       "file": "images/completed/completed-amarillo-19-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-640w.jpg",
-      "primarySubject": "epdm",
+      "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "completed",
       "damageType": null,
@@ -3812,7 +3812,7 @@
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-640w.webp",
       "primarySubject": "asphalt-shingles",
       "building": "residential",
-      "condition": "in-progress",
+      "condition": "completed",
       "damageType": null,
       "accessories": [
         "flashing",
@@ -3826,7 +3826,7 @@
     "images/completed/completed-amarillo-19-1280w.webp": {
       "file": "images/completed/completed-amarillo-19-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.webp",
-      "primarySubject": "epdm",
+      "primarySubject": "asphalt-shingles",
       "building": "residential",
       "condition": "completed",
       "damageType": null,
@@ -4039,7 +4039,7 @@
       "accessories": [
         "pipe-jack"
       ],
-      "visualQuality": "card",
+      "visualQuality": "hero",
       "description": "Overhead view of a completed residential asphalt shingle roof installation with gray dimensional shingles showing even coverage and proper ventilation pipes.",
       "confidence": "high",
       "error": false
@@ -4055,7 +4055,7 @@
         "pipe-jack",
         "ridge-vent"
       ],
-      "visualQuality": "card",
+      "visualQuality": "hero",
       "description": "A completed residential asphalt shingle roof installation with gray dimensional shingles in a checkered pattern, featuring visible pipe jacks and ridge ventilation.",
       "confidence": "high",
       "error": false
@@ -5564,7 +5564,7 @@
       "file": "images/completed/completed-stinnett-49-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-1280w.webp",
       "primarySubject": "asphalt-shingles",
-      "building": "commercial",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [
@@ -5611,7 +5611,7 @@
       "file": "images/completed/completed-stinnett-49-640w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-640w.webp",
       "primarySubject": "asphalt-shingles",
-      "building": "commercial",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [
@@ -5642,7 +5642,7 @@
       "file": "images/completed/completed-stinnett-49-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-stinnett-49-640w.jpg",
       "primarySubject": "asphalt-shingles",
-      "building": "commercial",
+      "building": "residential",
       "condition": "completed",
       "damageType": null,
       "accessories": [
@@ -9250,7 +9250,7 @@
       "condition": "damaged",
       "damageType": "hail-damage",
       "accessories": [],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Asphalt shingle roof with white chalk markings circling multiple hail impact damage points across the surface.",
       "confidence": "high",
       "error": false
@@ -9263,7 +9263,7 @@
       "condition": "in-progress",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Asphalt shingle roof with white chalk markings indicating measurements and work areas for repair or replacement sections.",
       "confidence": "high",
       "error": false
@@ -10332,7 +10332,7 @@
     "images/metal/metal-plainview-35-1280w.webp": {
       "file": "images/metal/metal-plainview-35-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -10345,7 +10345,7 @@
     "images/metal/metal-plainview-35-1280w.jpg": {
       "file": "images/metal/metal-plainview-35-1280w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -10358,7 +10358,7 @@
     "images/metal/metal-plainview-35-640w.jpg": {
       "file": "images/metal/metal-plainview-35-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-640w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -10954,7 +10954,7 @@
       "accessories": [
         "ridge-vent"
       ],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Close-up view of a gray asphalt shingle hip roof showing the shingle pattern and texture across the sloped surface.",
       "confidence": "high",
       "error": false
@@ -10969,7 +10969,7 @@
       "accessories": [
         "drip-edge"
       ],
-      "visualQuality": "detail",
+      "visualQuality": "card",
       "description": "Close-up aerial view of a gray asphalt shingle roof showing the hip and ridge detail where two roof planes meet.",
       "confidence": "high",
       "error": false
@@ -12418,7 +12418,7 @@
     "images/commercial/commercial-plainview-23-1280w.jpg": {
       "file": "images/commercial/commercial-plainview-23-1280w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -12431,7 +12431,7 @@
     "images/commercial/commercial-plainview-23-1280w.webp": {
       "file": "images/commercial/commercial-plainview-23-1280w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.webp",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -12444,7 +12444,7 @@
     "images/commercial/commercial-plainview-23-640w.jpg": {
       "file": "images/commercial/commercial-plainview-23-640w.jpg",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-640w.jpg",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
@@ -12457,7 +12457,7 @@
     "images/commercial/commercial-plainview-23-640w.webp": {
       "file": "images/commercial/commercial-plainview-23-640w.webp",
       "url": "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-640w.webp",
-      "primarySubject": "standing-seam-metal",
+      "primarySubject": "r-panel-metal",
       "building": "industrial",
       "condition": "completed",
       "damageType": null,
