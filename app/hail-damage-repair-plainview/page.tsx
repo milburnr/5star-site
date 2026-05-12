@@ -10,6 +10,7 @@ import {
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   Check,
   ClipboardList,
@@ -139,52 +140,13 @@ export default function HailDamageRepairPlainviewPage() {
 
       {/* schema-cleanup:faqpage:removed */}
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-9-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Plainview, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Cotton Capital of the Llano Estacado's Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Plainview—the county seat of Hale County and cotton capital of the Llano Estacado
-                region—sits at the heart of Texas's agricultural powerhouse. Home to Wayland Baptist
-                University (established 1908) and a thriving agricultural economy, this city of
-                20,194 residents has faced unique challenges including major industrial transitions
-                while maintaining its position as a key player in Texas cotton production. Located
-                45 miles south of Amarillo at 3,368 feet elevation, Plainview sits directly in the
-                path of severe High Plains storms that regularly produce damaging hail. 5 Star
-                Roofing has been protecting Plainview's homes, businesses, and agricultural
-                facilities serving the region, understanding both the community's agricultural heritage and
-                its evolving economic landscape.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Plainview"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Plainview, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-9-1280w.webp"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

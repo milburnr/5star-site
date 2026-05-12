@@ -11,6 +11,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { StickyContactBar } from "@/components/StickyContactBar";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import {
   AlertTriangle,
   BarChart3,
@@ -196,48 +197,13 @@ export default function HailDamageRepairDumasPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Repair in <span className="text-brand-gold-light">Dumas, TX</span>
-              </h1>
-              <p className="text-2xl md:text-3xl mb-6 font-bold text-brand-gold-light">
-                Moore County's Trusted Storm Restoration Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
-                Dumas—the county seat of Moore County and a major cattle feeding hub—sits 49 miles
-                north of Amarillo at 3,688 feet elevation. With approximately 180,000 cattle in
-                Moore County ranches and feedlots, ranking 7th in Texas and top 15 nationally for
-                beef production, Dumas faces unique challenges protecting both residential and
-                agricultural infrastructure. 5 Star Roofing has specialized in serving
-                this critical agricultural community's storm damage needs.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Dumas"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Dumas, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-lubbock-45-1280w.webp"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

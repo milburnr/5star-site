@@ -13,6 +13,7 @@ import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { GraduationCap, Phone } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-lubbock/" },
@@ -220,45 +221,13 @@ export default function ResidentialRoofingLubbockPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-red-900/85 via-red-800/75 to-black-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Residential Roofing in <span className="text-brand-gold-light">Lubbock</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Serving Texas Tech University Area For many years
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert residential roofing serving Tech Terrace, Raider Ranch, and all Lubbock
-                neighborhoods. Recent hail events produced baseball-size (2.75+ inch) hail—our Class
-                4 impact-resistant shingles protect your investment and reduce future damage by 90%.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Lubbock"
+        service="Residential Roofing"
+        h1="Residential Roofing in Lubbock, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-2-1920w.webp"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-red-50 to-white">

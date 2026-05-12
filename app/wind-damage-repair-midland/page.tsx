@@ -13,6 +13,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-midland/" },
@@ -239,49 +240,13 @@ export default function Page() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-15-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Wind Damage Repair in <span className="text-brand-gold-light">Midland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Permian Basin Properties For many years
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Midland's position at 2,779 feet elevation in the heart of the Permian Basin creates
-                extreme wind challenges for roofing systems. The city averages 13.5 mph sustained
-                winds with frequent 50-75 mph gusts from thunderstorm downbursts and frontal
-                passages. Open oilfield terrain extends for hundreds of miles with minimal wind
-                protection, while industrial infrastructure creates complex wind patterns that can
-                accelerate local wind speeds beyond regional averages, making proper wind-resistant
-                roofing critical for protecting Tall City properties.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Estimate
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Midland"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in Midland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-15-1280w.webp"
+      />
       <div className="container-custom py-12">
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">

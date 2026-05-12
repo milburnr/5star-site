@@ -25,6 +25,7 @@ import {
   Zap,
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair-lubbock/" },
@@ -151,45 +152,13 @@ export default function RoofRepairLubbockPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Lubbock</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                South Plains Storm Damage Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof repair for Lubbock's unique South Plains challenges. Serving Texas Tech
-                area, historic neighborhoods, and modern developments with specialized solutions for
-                dust damage, wind stress, and university district properties.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Lubbock"
+        service="Roof Repair"
+        h1="Roof Repair in Lubbock, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

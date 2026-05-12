@@ -13,6 +13,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Wrench, Zap } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-amarillo/" },
@@ -164,46 +165,13 @@ export default function WindDamageRepairAmarilloPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-wichita-falls-17-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-gray-900/75 to-slate-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Wind Damage Repair in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                High Wind Roofing Experts |
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Amarillo's location in the Texas Panhandle creates perfect conditions for extreme
-                winds. Sustained winds of 30-50 mph with gusts exceeding 70 mph damage shingles,
-                flashing, and underlayment. We specialize in wind damage assessment and high-wind
-                roofing systems designed for Panhandle conditions.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Amarillo"
+        service="Wind Damage Repair"
+        h1="Wind Damage Repair in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-wichita-falls-17-1280w.webp"
+      />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
           <div className="container-custom">

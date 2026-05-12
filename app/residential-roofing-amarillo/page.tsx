@@ -13,6 +13,7 @@ import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-amarillo/" },
@@ -240,45 +241,13 @@ export default function ResidentialRoofingAmarilloPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/85 via-orange-900/75 to-yellow-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Residential Roofing in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Texas Panhandle Homes For many years
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert residential roofing in Hail Alley. Potter County has recorded 131 severe hail
-                days since 2000—our Class 4 impact-resistant shingles reduce future damage by 90%.
-                Free inspections and insurance claim assistance included.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Amarillo"
+        service="Residential Roofing"
+        h1="Residential Roofing in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

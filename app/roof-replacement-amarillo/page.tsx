@@ -13,6 +13,7 @@ import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-replacement-amarillo/" },
@@ -258,46 +259,13 @@ export default function RoofReplacementAmarilloPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Replacement in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Lifetime Protection in the Texas Panhandle
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Complete roof replacement for Amarillo homes and businesses. Potter County's extreme
-                weather (131 hail days since 2000, 14.3 mph average winds, 86°F temperature swings)
-                demands premium materials. We install Class 4 impact-resistant roofing with 50-year
-                warranties.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Amarillo"
+        service="Roof Replacement"
+        h1="Roof Replacement in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

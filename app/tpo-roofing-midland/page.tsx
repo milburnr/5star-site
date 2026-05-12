@@ -31,6 +31,7 @@ import {
   Zap,
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/tpo-roofing-midland/" },
@@ -199,45 +200,13 @@ export default function TPORoofingMidlandPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                TPO Roofing in <span className="text-brand-gold-light">Midland</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Permian Basin's Energy Capital Roofing Experts
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Professional TPO roofing throughout Midland and the Permian Basin. Expert
-                installation designed for industrial demands and West Texas extremes, comprehensive
-                warranties, and . Free inspections and insurance assistance available.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Midland"
+        service="TPO Roofing"
+        h1="TPO Roofing in Midland, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp"
+      />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -205,43 +206,13 @@ export default function RoofRepairAmarilloPage() {
         }}
       />
 
-      <section
-        className="hero-location relative text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          ["--hero-bg" as any]:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)",
-        }}
-      >
-        {/* Warm gradient overlay is baked into .hero-location (task 12.6) — no inner overlay needed until Phase 13 ships real hero imagery. */}
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Roof Repair in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Texas Panhandle Weather Specialists
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert roof repair for Amarillo's unique climate challenges. Serving Potter County's
-                historic homes and modern developments with specialized solutions for extreme
-                weather, aging housing stock, and insurance claims.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+      <InteriorHeroSection
+        heroVariant="service-location"
+        city="Amarillo"
+        service="Roof Repair"
+        h1="Roof Repair in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg"
+      />
 
       <FadeIn>
         <section className="section-major bg-gradient-to-b from-amber-50 to-white">

@@ -14,6 +14,7 @@ import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-amarillo/" },
@@ -221,46 +222,13 @@ export default function HailDamageRepairAmarilloPage() {
         }}
       />
 
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Hail Damage Roof Repair in <span className="text-brand-gold-light">Amarillo</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                post-storm documentation in Hail Alley
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Expert hail damage repair in Potter County - one of America's most hail-prone
-                regions. Potter County has recorded 131 severe hail days since 2000. We provide
-                Complete insurance claim assistance and Class 4 impact-resistant
-                replacements.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a href="tel:8066226041" className="btn-primary-hero">
-                  <Phone className="w-5 h-5 inline-block" /> Call (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Get Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Amarillo"
+        service="Hail Damage Repair"
+        h1="Hail Damage Repair in Amarillo, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-odessa-11-1280w.jpg"
+      />
 
       {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
       <InsuranceLogos />

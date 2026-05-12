@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { Check } from "lucide-react";
+import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -171,49 +172,13 @@ export default function StormDamageRepairPerrytonPage() {
           }),
         }}
       />
-      <section
-        className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
-        style={{
-          backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-19-1280w.webp)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/85 via-slate-900/75 to-gray-900/70"></div>
-        <div className="container-custom relative z-10">
-          <FadeIn>
-            <div className="max-w-4xl">
-              <h1 className="text-6xl font-bold mb-6 text-white leading-tight">
-                Storm Damage Repair in <span className="text-brand-gold-light">Perryton</span>
-              </h1>
-              <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                | Severe Weather Specialists
-              </p>
-              <p className="text-xl mb-8 text-white leading-relaxed">
-                Perryton's northernmost Panhandle location brings severe storms with hail, high
-                winds, torrential rain, and extreme weather. We provide temporary
-                repairs, complete damage assessment, and insurance claim assistance for
-                storm-damaged roofs throughout Ochiltree County.
-              </p>
-              <div className="flex gap-4 flex-wrap">
-                <a
-                  href="tel:8066226041"
-                  className="bg-gradient-to-r from-red-600 to-red-700 text-white text-lg px-10 py-5 rounded-full font-bold shadow-2xl hover:scale-110 transition-all duration-300 animate-pulse-subtle"
-                >
-                  urgent: (806) 622-6041
-                </a>
-                <a
-                  href="/contact/"
-                  className="bg-white text-brand-brown px-10 py-5 rounded-full font-bold hover:bg-gray-50 hover:scale-110 transition-all duration-300 text-lg shadow-2xl"
-                >
-                  Free Inspection
-                </a>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+            <InteriorHeroSection
+        heroVariant="service-location"
+        city="Perryton"
+        service="Storm Damage Repair"
+        h1="Storm Damage Repair in Perryton, TX"
+        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-perryton-19-1280w.webp"
+      />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-red-50 to-white">
           <div className="container-custom">
