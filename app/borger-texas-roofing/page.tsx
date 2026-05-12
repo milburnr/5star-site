@@ -161,7 +161,7 @@ export default function BorgerRoofingPage() {
         className="hero"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-channing-31-1280w.webp)",
           backgroundPosition: "center",
         }}
       >
@@ -197,6 +197,27 @@ export default function BorgerRoofingPage() {
         </FadeIn>
       </div>
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed mb-3">
+            5 Star Roofing serves Borger and Hutchinson County with residential and commercial roofing. Class 4 hail-rated systems recommended for the Texas Panhandle hail corridor. Industrial expertise for Phillips 66 and Chevron Phillips area facilities.
+          </p>
+          <div className="flex flex-wrap gap-4 text-sm">
+            <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← Amarillo Hub</a>
+            <a href="/hail-damage-repair-borger/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Borger Hail Repair</a>
+            <a href="/roof-replacement-borger/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
+            <a href="/service-areas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Service Areas</a>
+          </div>
+        </div>
+
+        {/* Author byline */}
+        <div className="mb-8 flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX &nbsp;·&nbsp; Updated May 2026</span>
+        </div>
+
         <FadeIn>
           <section className="content-block">
             <h2 className="content-block-title">Trusted Roofing Services in Borger, Texas</h2>
@@ -767,65 +788,6 @@ export default function BorgerRoofingPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How does working near Borger's petrochemical complex affect roofing installations?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Our crews are trained in industrial safety protocols and use chemical-resistant materials when working near Phillips 66, Chevron Phillips Chemical, and other facilities. We coordinate with plant safety personnel and follow all environmental regulations during installations. Our roofing systems are specifically chosen to resist chemical exposure that can occur from industrial emissions.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What type of roof is best for Borger's extreme hail storms?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "For Borger properties, we recommend Class 4 impact-resistant shingles or metal roofing systems. The Texas Panhandle experiences some of the most severe hailstorms in the country, often with baseball-sized hail. Our impact-resistant materials have been tested to withstand 2-inch hail impacts at high velocities, providing superior protection compared to standard shingles.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How quickly can you respond to storm damage in Hutchinson County?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "We prioritize storm response service for storm damage throughout Hutchinson County. During severe weather events, we schedule work based on storm timing for Borger properties. Our proximity to the area (based in Amarillo) allows us to respond faster than distant contractors, which is critical when protecting your property from water damage after storms.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do you work with insurance companies on hail damage claims in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Absolutely. We have extensive experience working with insurance adjusters on storm damage claims throughout the Texas Panhandle. We document all damage with detailed photos, provide written assessments, and meet with adjusters on-site to ensure you receive full coverage. Many Borger residents have saved thousands on their roofing projects through proper insurance claim management.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What makes 5 Star the best choice for Borger commercial roofing projects?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Our expertise with industrial and petrochemical facilities sets us apart. We understand the unique requirements of Borger's major employers—from chemical resistance for Phillips 66 facilities to specialized vapor barriers for chemical plants. We're licensed, bonded, and carry the high liability insurance required for industrial work, plus we have established relationships with facility managers throughout Hutchinson County.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How long does a typical residential roof replacement take in Borger?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Most residential roof replacements in Borger are completed in 1-2 days, weather permitting. We work efficiently to minimize disruption to your daily routine and protect your home from exposure. For larger or more complex roofs, or during busy storm seasons, projects may take 2-3 days. We always provide realistic timelines upfront and keep you informed throughout the process.",
-                },
-              },
-            ],
-          }),
-        }}
       />
       <RelatedArticles pageSlug="borger-texas-roofing" />
     </div>

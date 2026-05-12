@@ -240,14 +240,30 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Asphalt Shingle Roofing Installation and Repair Across Texas
       </h1>
+
+      <img
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp"
+        alt="Aerial view of a completed gray asphalt shingle roof with clean installation — 5 Star Roofing Texas"
+        className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
+      />
+
+      {/* TL;DR */}
+      <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">
+        <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+        <p className="text-gray-800 font-medium leading-relaxed mb-3">
+          5 Star Roofing installs and repairs asphalt shingles across West Texas. Architectural shingles with Class 4 impact resistance are the standard for the Texas Panhandle hail corridor. 30-year warranties, free inspections, and insurance claim assistance available.
+        </p>
+        <div className="flex flex-wrap gap-4 text-sm">
+          <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Asphalt Shingles</a>
+          <a href="/asphalt-shingle-roofing-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock</a>
+          <a href="/asphalt-shingle-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland</a>
+          <a href="/residential-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Residential →</a>
+        </div>
+      </div>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">
