@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -54,24 +53,7 @@ export const metadata: Metadata = {
 export default function TPORoofingSnyderPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "TPO Roofing",
-            url: "/tpo-roofing/",
-          },
-          {
-            name: "Snyder",
-            url: "/tpo-roofing-snyder/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -180,11 +162,27 @@ export default function TPORoofingSnyderPage() {
       {/* schema-cleanup:faqpage:removed */}
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Snyder"
         service="TPO Roofing"
         h1="TPO Roofing in Snyder, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-11-1920w.webp"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Snyder",
+            url: "/tpo-roofing-snyder/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">

@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -59,16 +58,7 @@ export const metadata: Metadata = {
 
 export default function TPORoofingOdessaPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "TPO Roofing", url: "/tpo-roofing/" },
-          { name: "Odessa", url: "/tpo-roofing-odessa/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -167,11 +157,18 @@ export default function TPORoofingOdessaPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="odessa"
         city="Odessa"
         service="TPO Roofing"
         h1="TPO Roofing in Odessa, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "TPO Roofing", url: "/tpo-roofing/" },
+          { name: "Odessa", url: "/tpo-roofing-odessa/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

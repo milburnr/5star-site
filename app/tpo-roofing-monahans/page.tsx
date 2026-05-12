@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Phone, Star } from "lucide-react";
@@ -75,24 +74,7 @@ export default function TPORoofingMonahansPage() {
 
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "TPO Roofing",
-            url: "/tpo-roofing/",
-          },
-          {
-            name: "Monahans",
-            url: "/tpo-roofing-monahans/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -165,11 +147,27 @@ export default function TPORoofingMonahansPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Monahans"
         service="TPO Roofing"
         h1="TPO Roofing in Monahans, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-10-1920w.webp"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "TPO Roofing",
+            url: "/tpo-roofing/",
+          },
+          {
+            name: "Monahans",
+            url: "/tpo-roofing-monahans/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
