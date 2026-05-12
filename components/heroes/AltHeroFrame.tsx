@@ -1,5 +1,28 @@
 import { ArrowRight } from "lucide-react";
 import { MobileMenu } from "@/components/MobileMenu";
+import cityHeroMapJson from "@/public/images/heroes/city-hero-map.json";
+
+/**
+ * Map of city slug → basename for pre-optimized hero variants in
+ * /public/images/heroes/cities/. Consumers pass `city="lubbock"` and we
+ * resolve to the AVIF + WebP set at 600/900/1200/1920.
+ */
+const CITY_HERO_MAP: Record<string, string> = cityHeroMapJson as Record<string, string>;
+
+/** Builds the HeroImageSet for a given city slug. Returns null if unknown. */
+function cityHeroSet(citySlug: string): HeroImageSet | null {
+  const base = CITY_HERO_MAP[citySlug];
+  if (!base) return null;
+  const dir = "/images/heroes/cities";
+  return {
+    sources: [600, 900, 1200, 1920].map((w) => ({
+      width: w,
+      avif: `${dir}/${base}-${w}.avif`,
+      webp: `${dir}/${base}-${w}.webp`,
+    })),
+    fallback: `${dir}/${base}-1200.webp`,
+  };
+}
 
 /**
  * AltHeroFrame — shared full-bleed editorial hero used by the four variants:
@@ -29,6 +52,14 @@ export type HeroImageSet = {
 };
 
 export type AltHeroFrameProps = {
+  /**
+   * Optional city slug (e.g. "lubbock", "san-angelo"). When provided and the
+   * slug exists in /public/images/heroes/city-hero-map.json, the hero uses
+   * the city-specific AVIF + WebP set at widths 600/900/1200/1920 — overriding
+   * `heroImageSrc` and `heroImageSrcSet`. Unknown slugs fall through to the
+   * defaults below; homepage callers can simply omit this.
+   */
+  city?: string;
   /** Background image — same-origin, pre-optimized AVIF/WebP+JPG ideal. */
   heroImageSrc: string;
   /**
@@ -76,6 +107,7 @@ export type AltHeroFrameProps = {
 // block in app/layout.tsx for context.
 
 export function AltHeroFrame({
+  city,
   heroImageSrc,
   heroImageSrcSet,
   displayText,
@@ -93,13 +125,20 @@ export function AltHeroFrame({
     ? displayText
     : [displayText];
 
+  // City lookup wins when the slug matches the map. Otherwise the caller's
+  // explicit heroImageSrc / heroImageSrcSet stand — and homepage / unknown
+  // cities keep the existing default behavior.
+  const citySet = city ? cityHeroSet(city) : null;
+  const resolvedSrcSet = citySet ?? heroImageSrcSet;
+  const resolvedSrc = citySet ? citySet.fallback : heroImageSrc;
+
   return (
     <>
-      <link rel="preload" as="image" href={heroImageSrc} />
+      <link rel="preload" as="image" href={resolvedSrc} />
       <link rel="preload" as="image" href="/logo.png" />
 
       <style
-        dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(heroImageSrc, heroImageSrcSet) }}
+        dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(resolvedSrc, resolvedSrcSet) }}
       />
 
       <section
