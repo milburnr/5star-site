@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-15-1280w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg",
         width: 1280,
         height: 720,
         alt: "Completed residential roof installation in Midland TX — 5 Star Roofing",

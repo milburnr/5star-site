@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/lubbock-hero.jpg",
         width: 1280,
         height: 720,
         alt: "Hail-damaged asphalt shingle roof with chalk markings in Lubbock TX — 5 Star Roofing",

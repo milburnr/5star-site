@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-20-1280w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-storm.jpg",
         width: 1280,
         height: 720,
         alt: "Newly installed asphalt shingle roof in Texas — 5 Star Roofing roof replacement guide",

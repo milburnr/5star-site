@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg",
         width: 1280,
         height: 720,
         alt: "Completed flat EPDM roof installation on Odessa TX commercial building — 5 Star Roofing",
