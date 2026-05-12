@@ -11930,7 +11930,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a commercial R-panel metal roof with parallel ribbed panels extending toward the horizon under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -11958,7 +11958,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large commercial metal panel roof with parallel ribbed panels extending toward the horizon under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -11971,7 +11971,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large commercial metal roof with vertical ribbed panels extending toward the horizon under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -11984,7 +11984,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a completed commercial metal panel roof with parallel ribbed panels stretching toward industrial buildings and grain silos under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12198,7 +12198,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A completed R-panel metal roof installation on an industrial facility with large storage silos visible in the background.",
       "confidence": "high",
       "error": false
@@ -12226,7 +12226,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial metal panel roof with parallel ribbed panels extending across the frame, with industrial storage silos and facility buildings visible in the background under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -12239,7 +12239,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large commercial metal panel roof with prominent vertical ribbing extending across the entire surface under clear blue skies.",
       "confidence": "high",
       "error": false
@@ -12252,7 +12252,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a large industrial R-panel metal roof with parallel ribbed panels extending across the surface, with industrial storage silos and clear blue sky in the background.",
       "confidence": "high",
       "error": false
@@ -12265,7 +12265,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial metal panel roof with prominent ribbed corrugation extending across the frame, with large industrial storage silos visible in the background under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12278,7 +12278,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a commercial metal panel roof with clean parallel ribbing extending across the frame, featuring large industrial silos in the background under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12291,7 +12291,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of an expansive industrial metal panel roof with vertical ribbed profiles extending toward large storage silos under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12304,7 +12304,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a commercial metal panel roof with vertical ribbed seams extending across the frame, with industrial storage silos visible in the background against a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12317,7 +12317,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial metal panel roof with clean ribbed panels extending across the frame, with industrial storage tanks visible in the background under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12330,7 +12330,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A large industrial metal panel roof with vertical ribbed panels extending across the frame, with industrial storage tanks visible in the background.",
       "confidence": "high",
       "error": false
@@ -12343,7 +12343,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A large industrial metal panel roof with visible vertical ribbing extends across the frame, with industrial storage silos visible in the background.",
       "confidence": "high",
       "error": false
@@ -12369,7 +12369,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "card",
+      "visualQuality": "duplicate",
       "description": "A large commercial or industrial R-panel metal roof installation with vertical ribbed panels in light gray color, showing large storage silos in the background.",
       "confidence": "high",
       "error": false
@@ -12423,7 +12423,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a commercial standing-seam metal roof installation at an industrial grain facility with dramatic blue sky and excellent composition.",
       "confidence": "high",
       "error": false
@@ -12436,7 +12436,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "A wide-angle view of a commercial standing-seam metal roof installation on an industrial grain facility with storage silos under a clear blue sky.",
       "confidence": "high",
       "error": false
@@ -12449,7 +12449,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a commercial standing seam metal roof installation with vertical ribs extending across a large industrial facility marked with MASECA signage.",
       "confidence": "high",
       "error": false
@@ -12462,7 +12462,7 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
+      "visualQuality": "duplicate",
       "description": "Wide-angle view of a large industrial standing seam metal roof with vertical ribs extending across the surface, featuring a large grain elevator building with \"MASECA\" signage and storage silos under clear blue skies.",
       "confidence": "high",
       "error": false
