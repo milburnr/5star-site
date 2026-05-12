@@ -161,16 +161,19 @@
                                   browser uses this as a height estimate
                                   before the section is fully rendered.
 
-     Effect on mobile PSI (throttled 4x CPU): cuts the "element render delay"
-     LCP phase dramatically because the browser only has to lay out the hero
-     + first trust strip, not the entire 22,000-pixel-tall homepage.
+     SCOPE: mobile only (≤768px). On desktop, the previous global rule
+     reserved 1200px placeholders for ~13 `.below-fold` sections, producing
+     a 10+ viewport "void" of empty space in fullPage screenshots, print
+     views, and to crawlers that don't simulate user scrolling. Desktop CPUs
+     render the full page fast enough that the perf win isn't needed there.
 
-     Desktop keeps the full design — on a fast machine the browser renders
-     everything immediately anyway; content-visibility just lets slow devices
-     opt into lazy rendering. */
-  .below-fold {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 1200px;
+     On mobile, smaller intrinsic size (600px) is closer to actual section
+     heights so any pre-render void is half what it was. */
+  @media (max-width: 768px) {
+    .below-fold {
+      content-visibility: auto;
+      contain-intrinsic-size: auto 600px;
+    }
   }
 
   /* Homepage hero — same-origin WebP via CSS background. The actual fetch is
