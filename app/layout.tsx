@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { MobileMenu } from "@/components/MobileMenu";
@@ -17,6 +18,18 @@ import Script from "next/script";
 // `system-ui, sans-serif` chain defined in tailwind.config.ts.
 const poppins = { variable: "--font-poppins" };
 const openSans = { variable: "--font-open-sans" };
+
+// Cormorant Garamond — editorial display serif used by AltHeroFrame and
+// section heading utilities. Previously loaded render-blocking from
+// fonts.googleapis.com via a stylesheet inside AltHeroFrame.
+// `display: 'optional'` means: use the fallback if the font isn't ready
+// within ~100ms; never block render. No layout shift, no LCP regression.
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "optional",
+  variable: "--font-cormorant",
+});
 
 export const metadata: Metadata = {
   title: "Amarillo Hail Damage Roof Repair | 5 Star Roofing",
@@ -47,7 +60,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${openSans.variable} scroll-smooth`}>
+    <html lang="en" className={`${poppins.variable} ${openSans.variable} ${cormorant.variable} scroll-smooth`}>
       <head>
         {/* Preconnect to R2 so the hero image can be fetched in parallel
             with the HTML without an extra DNS/TLS round-trip.

@@ -105,15 +105,15 @@
     --color-cta-text-dark: #2b1810;
     --color-text-ivory: #f2eadb;
 
-    /* Typography stacks. Cormorant + Cormorant Garamond are loaded
-       per-page by components that consume the display/heading classes
-       (see AltHeroFrame). Fallback chain renders gracefully if the
-       webfont is not yet loaded — never blank text. */
+    /* Typography stacks. Cormorant Garamond is loaded via next/font in
+       app/layout.tsx with `display: 'optional'`, exposed as
+       --font-cormorant. Fallback chain renders gracefully if the webfont
+       is not yet loaded — never blank text. */
     --font-display:
-      "Cormorant", "Cormorant Garamond", "Bodoni 72 Display", Didot,
+      var(--font-cormorant), "Cormorant Garamond", "Bodoni 72 Display", Didot,
       "Times New Roman", serif;
     --font-heading-serif:
-      "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      var(--font-cormorant), "Cormorant Garamond", Georgia, "Times New Roman", serif;
     --font-system-ui:
       "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
 

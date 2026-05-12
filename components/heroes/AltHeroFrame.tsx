@@ -69,8 +69,11 @@ export type AltHeroFrameProps = {
   children?: React.ReactNode;
 };
 
-const SHARED_FONTS_HREF =
-  "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Cormorant:wght@300;400;500&family=Cormorant+Infant:wght@300;400&display=swap";
+// Cormorant Garamond is now loaded via next/font in app/layout.tsx with
+// `display: 'optional'`, exposed via the --font-cormorant CSS variable.
+// The previous render-blocking <link rel="stylesheet"> from
+// fonts.googleapis.com was a documented PSI regression — see the comment
+// block in app/layout.tsx for context.
 
 export function AltHeroFrame({
   heroImageSrc,
@@ -94,9 +97,6 @@ export function AltHeroFrame({
     <>
       <link rel="preload" as="image" href={heroImageSrc} />
       <link rel="preload" as="image" href="/logo.png" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link rel="stylesheet" href={SHARED_FONTS_HREF} />
 
       <style
         dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(heroImageSrc, heroImageSrcSet) }}
@@ -510,7 +510,7 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
     z-index: 2;
     margin: 0;
     color: #D6B274;
-    font-family: "Cormorant", "Cormorant Garamond", "Bodoni 72 Display", Didot, "Times New Roman", serif;
+    font-family: var(--font-cormorant), "Cormorant Garamond", "Bodoni 72 Display", Didot, "Times New Roman", serif;
     /* --hero-display-scale defaults to 1 on the homepage. Interior pages
        (location, service, service+location) pass 0.55-0.6 via inline style. */
     font-size: calc(clamp(6rem, min(18vw, 32vh), 22vw) * var(--hero-display-scale, 1));
@@ -682,7 +682,7 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
   .alt-intro-h1 {
     margin: 0 0 18px;
     color: var(--ivory);
-    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    font-family: var(--font-cormorant), "Cormorant Garamond", Georgia, "Times New Roman", serif;
     font-size: clamp(1.95rem, min(3.3vw, 7.2vh), 4.4vw);
     font-weight: 400;
     line-height: 1.04;
