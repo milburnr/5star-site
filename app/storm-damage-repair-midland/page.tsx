@@ -425,7 +425,7 @@ export default function Page() {
                   models predicted.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Response: 89 service calls, 67 roof replacements, enhanced industrial facility
+                  Response: 89 service calls, hundreds of roofs across the Panhandle replacements, enhanced industrial facility
                   protocols implemented
                 </p>
               </div>

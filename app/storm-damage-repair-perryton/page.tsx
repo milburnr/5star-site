@@ -116,7 +116,7 @@ export default function StormDamageRepairPerrytonPage() {
                 name: "Will insurance cover my storm damage repairs in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most property policies cover storm damage including wind, hail, and rain infiltration from covered perils. Given Perryton's 7-9 annual hailstorms and High Plains winds exceeding 70+ mph, many roofing projects qualify for insurance coverage. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage. Our 95%+ approval rate demonstrates our insurance expertise serving Ochiltree County properties.",
+                  text: "Most property policies cover storm damage including wind, hail, and rain infiltration from covered perils. Given Perryton's 7-9 annual hailstorms and High Plains winds exceeding 70+ mph, many roofing projects qualify for insurance coverage. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage. Our + approval rate demonstrates our insurance expertise serving Ochiltree County properties.",
                 },
               },
               {
@@ -198,7 +198,7 @@ export default function StormDamageRepairPerrytonPage() {
                 <div className="text-brand-brown font-semibold text-lg">Storm Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">100%</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
                 <div className="text-brand-brown font-semibold text-lg">Insurance Help</div>
               </div>
             </div>

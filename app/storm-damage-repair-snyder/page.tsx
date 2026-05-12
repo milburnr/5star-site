@@ -252,7 +252,7 @@ export default function StormDamageRepairSnyderPage() {
                       • <strong>Storm Intensification:</strong> Terrain-driven convergence
                     </li>
                     <li>
-                      • <strong>UV Intensity:</strong> 16% higher than sea level locations
+                      • <strong>UV Intensity:</strong>  higher than sea level locations
                     </li>
                   </ul>
                 </div>
@@ -392,7 +392,7 @@ export default function StormDamageRepairSnyderPage() {
                       Storm Uri, with readings dropping to -11°F and remaining below freezing for
                       135+ hours. The extreme cold combined with snow and ice accumulation caused
                       widespread roof damage throughout the city. Western Texas College experienced
-                      over 150 roof leaks when temperatures finally rose, while many commercial
+                      over hundreds of roofs across the Panhandle leaks when temperatures finally rose, while many commercial
                       buildings suffered membrane cracking and structural damage. The storm
                       highlighted the vulnerability of West Texas roofing systems to extreme winter
                       weather events.

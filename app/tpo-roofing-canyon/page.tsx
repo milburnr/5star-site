@@ -414,7 +414,7 @@ export default function TpoRoofingCanyonPage() {
                 <div>
                   <h4 className="text-xl font-bold mb-3">Reflective Performance</h4>
                   <p className="text-gray-700 mb-4">
-                    White TPO membranes reflect 80%+ of solar radiation, significantly reducing
+                    White TPO membranes reflect + of solar radiation, significantly reducing
                     cooling loads for Canyon's educational and commercial facilities.
                   </p>
                   <ul className="text-gray-600 space-y-1">
@@ -445,7 +445,7 @@ export default function TpoRoofingCanyonPage() {
               </h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-brand-gold mb-2">25%</div>
+                  <div className="text-3xl font-bold text-brand-gold mb-2"></div>
                   <div className="font-semibold mb-1">WTAMU Facility</div>
                   <div className="text-gray-600 text-sm">Annual cooling cost reduction</div>
                 </div>

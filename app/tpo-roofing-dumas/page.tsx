@@ -459,7 +459,7 @@ export default function TpoRoofingDumasPage() {
               </h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center p-4">
-                  <div className="text-3xl font-bold text-brand-gold mb-2">35%</div>
+                  <div className="text-3xl font-bold text-brand-gold mb-2"></div>
                   <div className="font-semibold mb-1">Cooling Reduction</div>
                   <div className="text-gray-600 text-sm">
                     Summer energy savings for grain storage

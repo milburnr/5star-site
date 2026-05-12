@@ -167,7 +167,7 @@ export default function StormDamageRepairCanyonPage() {
                 name: "Will insurance cover my storm damage repairs in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our + approval rate demonstrates our insurance expertise.",
                 },
               },
               {

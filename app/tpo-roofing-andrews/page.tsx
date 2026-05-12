@@ -350,7 +350,7 @@ export default function TPORoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown">
-              What Does Commercial TPO Roofing Solutions for Andrews Involve?
+              What Does Commercial TPO roof system for Andrews Involve?
             </h2>
 
             <div className="space-y-8">

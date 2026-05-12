@@ -208,7 +208,7 @@ export default function TPORoofingOdessaPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing installs and repairs TPO roofing systems in Odessa TX for commercial and industrial buildings throughout the Permian Basin — energy-efficient, heat-reflective membranes with 10-year warranties.
+              5 Star Roofing installs and repairs TPO roofing systems in Odessa TX for commercial and industrial buildings throughout the Permian Basin, energy-efficient, heat-reflective membranes with 10-year warranties.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/tpo-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All TPO Roofing</a>

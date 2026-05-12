@@ -442,7 +442,7 @@ export default function TpoRoofingBorgerPage() {
                 <div className="bg-white p-6 rounded-xl shadow">
                   <h4 className="font-bold mb-2">Summer Cooling</h4>
                   <p className="text-gray-700">
-                    White TPO membrane reflects 80%+ of UV rays, reducing cooling costs by 20-30%
+                    White TPO membrane reflects + of UV rays, reducing cooling costs by 20-30%
                     during Borger's hot summers.
                   </p>
                 </div>

@@ -410,12 +410,12 @@ export default function TpoRoofingPampaPage() {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Cooling Cost Reduction</h3>
                   <p className="text-gray-700 mb-4">
-                    White TPO membranes reflect 85%+ of solar energy, significantly reducing cooling
+                    White TPO membranes reflect + of solar energy, significantly reducing cooling
                     loads for industrial facilities and improving working conditions.
                   </p>
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
-                      <div className="text-2xl font-bold text-brand-gold">40%</div>
+                      <div className="text-2xl font-bold text-brand-gold"></div>
                       <div className="text-sm">Cooling Reduction</div>
                     </div>
                     <div>
@@ -487,7 +487,7 @@ export default function TpoRoofingPampaPage() {
               carries topsoil, crop dust, and particulate matter that settles on flat roof surfaces.
               This accumulation does more than look unsightly &mdash; it reduces the membrane&apos;s
               solar reflectivity, diminishing the energy efficiency that makes TPO valuable in the
-              first place. A roof that reflected 85% of solar energy when new might only reflect 60%
+              first place. A roof that reflected 85% of solar energy when new might only reflect 
               under a layer of agricultural dust.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">

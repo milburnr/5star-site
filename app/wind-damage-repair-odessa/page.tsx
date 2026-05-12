@@ -364,7 +364,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Wind-Resistant Roofing Solutions for Permian Basin Conditions Include?
+              What Does Wind-Resistant roof system for Permian Basin Conditions Include?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Selecting appropriate roofing materials for Odessa requires understanding both wind
