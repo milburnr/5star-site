@@ -279,7 +279,7 @@ export default function RoofInspectionsMonahansPage() {
               specialized roofing expertise and comprehensive inspection protocols.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2008, 5 Star Commercial Roofing has provided expert roof inspection services
+              For many years, 5 Star Commercial Roofing has provided expert roof inspection services
               throughout Monahans and Ward County. Our certified inspectors understand the unique
               demands of Permian Basin weather, industrial environmental factors, insurance
               requirements specific to the region, and the particular needs of both residential and

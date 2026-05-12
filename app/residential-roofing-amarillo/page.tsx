@@ -257,7 +257,7 @@ export default function ResidentialRoofingAmarilloPage() {
                 Residential Roofing in <span className="text-brand-gold-light">Amarillo</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Texas Panhandle Homes Since 2014
+                Protecting Texas Panhandle Homes For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert residential roofing in Hail Alley. Potter County has recorded 131 severe hail
@@ -329,7 +329,7 @@ export default function ResidentialRoofingAmarilloPage() {
               need roofing materials engineered for Potter County's extreme conditions.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected over 1,100 Amarillo homes with Class 4 impact-resistant
+              We've protected over 1,100 Amarillo homes with Class 4 impact-resistant
               shingles designed to withstand 2-inch hail strikes. From historic properties in
               Wolflin Historic District to upscale homes in Westcliff and Spanish Revival
               architecture in Vineyards-Hastings, we serve every corner of Amarillo. We handle 100%

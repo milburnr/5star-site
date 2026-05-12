@@ -240,8 +240,9 @@ export default function HailDamageRepairHerefordPage() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -462,7 +463,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div className="bg-white p-4 rounded-lg shadow">
                   <h4 className="font-bold text-brand-gold-vibrant mb-2">Increased Intensity</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• 20% larger average hail size since 2010</li>
+                    <li>• 20% larger average hail size serving the area</li>
                     <li>• More frequent supercell development</li>
                     <li>• Longer-duration storm events</li>
                     <li>• Higher wind speeds in storms</li>
@@ -490,7 +491,7 @@ export default function HailDamageRepairHerefordPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Hereford since 2014, developing deep expertise in both
+              5 Star Roofing has been serving Hereford serving the region, developing deep expertise in both
               residential storm damage and commercial agricultural roofing systems. Our team
               understands that protecting Hereford means protecting the infrastructure that feeds 65
               million people annually through the community's beef production. We've worked on
@@ -620,7 +621,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div className="text-4xl mb-4">
                   <Wrench className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-brown mb-3">5. storm response</h3>
+                <h3 className="text-xl font-bold text-brand-brown mb-3">5. post-storm documentation</h3>
                 <p className="text-gray-600">
                   service for critical agricultural facilities and residential emergencies.
                 </p>
@@ -661,7 +662,7 @@ export default function HailDamageRepairHerefordPage() {
                 <p className="text-sm mt-2">By Hereford's beef industry</p>
               </div>
               <div className="bg-white/10 p-6 rounded-xl">
-                <div className="text-4xl font-bold mb-2">24/7</div>
+                <div className="text-4xl font-bold mb-2">Free</div>
                 <div className="font-semibold">Agricultural Response</div>
                 <p className="text-sm mt-2">Critical facility protection</p>
               </div>

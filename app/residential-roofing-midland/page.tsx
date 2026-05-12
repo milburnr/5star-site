@@ -237,7 +237,7 @@ export default function ResidentialRoofingMidlandPage() {
                 Residential Roofing in <span className="text-brand-gold-light">Midland</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Serving Oil Country's Premium Homes Since 2014
+                Serving Oil Country's Premium Homes For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert residential roofing for Grassland Estates, Saddle Club, and all Midland's
@@ -305,7 +305,7 @@ export default function ResidentialRoofingMidlandPage() {
               protect Midland's premium homes worth $350,000+.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected over 600 Midland homes with premium Class 4
+              We've protected over 600 Midland homes with premium Class 4
               impact-resistant shingles engineered for Permian Basin weather extremes. From
               executive estates in Grassland Estates to gated communities like Saddle Club, we serve
               every prestigious neighborhood in Midland County. We handle 100% of insurance claims
@@ -400,7 +400,7 @@ export default function ResidentialRoofingMidlandPage() {
                   Midland County's 144 documented hail reports and 125 radar-detected hail occasions
                   create extreme roofing challenges. The Permian Basin's geography intensifies storm
                   systems, producing devastating hail that can destroy premium homes in minutes.
-                  We've weathered every major storm since 2014, protecting energy executives'
+                  We've weathered every major storm serving the region, protecting energy executives'
                   investments while others suffered costly damage.
                 </p>
               </div>

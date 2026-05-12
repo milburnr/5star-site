@@ -231,7 +231,7 @@ export default function CommercialRoofingLevellandPage() {
               operations, and the petroleum support industries that drive the South Plains economy.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Levelland's unique agricultural and educational sectors with
+              We've served Levelland's unique agricultural and educational sectors with
               expert installations and comprehensive warranties. We handle all permits, insurance claims, and
               warranty documentation for agricultural and educational institutions.
             </p>
@@ -550,7 +550,7 @@ export default function CommercialRoofingLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Levelland?
+              How Does Our Post-Storm Process Work in Levelland?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -559,7 +559,7 @@ export default function CommercialRoofingLevellandPage() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Cotton harvest season is crucial for Levelland's economy, with millions of dollars
-                  in crops requiring immediate protection from weather damage. Our storm response
+                  in crops requiring prompt protection from weather damage. Our post-storm documentation
                   prioritizes cotton storage and processing facilities during harvest season
                   (September-December) when weather protection is critical.
                 </p>

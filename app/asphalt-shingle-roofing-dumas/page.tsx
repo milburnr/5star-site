@@ -184,7 +184,7 @@ export default function AsphaltShingleRoofingDumasPage() {
                 name: "How long do asphalt shingles last in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and prompt repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate.",
+                  text: "Quality architectural shingles typically last 20-30 years in Dumas when properly installed and maintained. Texas Panhandle's intense UV exposure, temperature extremes, and hailstorms stress roofing materials. Class 4 impact-resistant shingles last longer than standard shingles. Regular inspections after storms and efficient repairs extend lifespan. Premium shingles with enhanced UV protection perform better in Dumas's climate.",
                 },
               },
               {
@@ -300,7 +300,7 @@ export default function AsphaltShingleRoofingDumasPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              We've protected 190+ Dumas properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Dumas
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -586,7 +586,7 @@ export default function AsphaltShingleRoofingDumasPage() {
                   installed and maintained. Texas Panhandle's intense UV exposure, temperature
                   extremes, and hailstorms stress roofing materials. Class 4 impact-resistant
                   shingles last longer than standard shingles. Regular inspections after storms and
-                  prompt repairs extend lifespan. Premium shingles with enhanced UV protection
+                  efficient repairs extend lifespan. Premium shingles with enhanced UV protection
                   perform better in Dumas's climate.
                 </AccordionContent>
               </AccordionItem>

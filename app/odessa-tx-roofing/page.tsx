@@ -91,7 +91,7 @@ export default function OdessaRoofingPage() {
           <div className="hero-content">
             <h1 className="hero-title">Odessa&apos;s Premier Roofing Contractor</h1>
             <p className="hero-subtitle">
-              Protecting Permian Basin Homes & Industrial Facilities Since 2010
+              Protecting Permian Basin Homes & Industrial Facilities Our team
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
@@ -130,7 +130,7 @@ export default function OdessaRoofingPage() {
                 that demand specialized expertise. With a population of 123,000 and a thriving oil
                 and gas industry, Odessa properties must withstand brutal summer heat exceeding
                 105°F, destructive hail storms, powerful winds, and the demanding requirements of
-                industrial facilities. Since 2010, we&apos;ve been protecting Odessa&apos;s
+                industrial facilities. Our team, we&apos;ve been protecting Odessa&apos;s
                 residential neighborhoods, commercial buildings, and oil industry infrastructure
                 with premium roofing systems engineered for West Texas extremes.
               </p>
@@ -174,7 +174,7 @@ export default function OdessaRoofingPage() {
                   <h3 className="text-xl font-bold mb-3 text-brand-brown">Hail Damage Experts</h3>
                   <p className="text-gray-600">
                     Odessa averages 6-8 hail events annually with stones exceeding 2 inches. We
-                    specialize in rapid storm response, damage assessment, and complete insurance
+                    specialize in efficient post-storm documentation, damage assessment, and complete insurance
                     claim management.
                   </p>
                 </div>
@@ -434,11 +434,11 @@ export default function OdessaRoofingPage() {
                       communities.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      Our prompt services include fast turnaround,
-                      prompt tarping to prevent water damage and secure your property, temporary
+                      Our scheduling include fast turnaround,
+                      prompt weatherproof sheeting to help prevent water damage and secure your property, temporary
                       leak repairs to stop active water intrusion, storm damage assessment and
                       documentation, debris removal and site cleanup, and coordination with your
-                      insurance company for prompt services coverage.
+                      insurance company for scheduling coverage.
                     </p>
                     <p className="text-gray-700 mb-4">
                       <strong>Don&apos;t wait:</strong> Every minute of water infiltration causes
@@ -1013,7 +1013,7 @@ export default function OdessaRoofingPage() {
               From hail damage repair to complete roof replacement, from residential homes to
               industrial facilities, we&apos;re Odessa&apos;s trusted roofing partner. Free
               inspections, comprehensive warranties, and financing available. Serving the Permian
-              Basin since 2010.
+              Basin serving the area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">
@@ -1116,7 +1116,7 @@ export default function OdessaRoofingPage() {
             image:
               "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg",
             description:
-              "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and prompt services for residential and industrial properties.",
+              "Premier roofing contractor serving Odessa, Texas and the Permian Basin. Specialists in hail damage repair, commercial roofing, metal roofing, and scheduling for residential and industrial properties.",
             telephone: "(806) 622-6041",
             email: "admin@5starroofingpros.com",
             url: "https://5starroofingpros.com/odessa-texas-roofing/",

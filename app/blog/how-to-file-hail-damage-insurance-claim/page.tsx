@@ -419,7 +419,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
 
               <h3>2. Making Temporary Repairs Without Photos</h3>
               <p>
-                If you make storm repairs (tarping, etc.) before filing, insurance may argue the
+                If you make storm repairs (weatherproof sheeting, etc.) before filing, insurance may argue the
                 damage wasn't severe. <strong>Always photograph BEFORE making any repairs.</strong>
               </p>
 
@@ -567,7 +567,7 @@ export default function HailDamageInsuranceClaimBlogPage() {
                   Company
                 </p>
                 <p>
-                  5 Star Commercial Roofing has been serving West Texas since 2010. We're based in
+                  5 Star Commercial Roofing has been serving West Texas serving the area. We're based in
                   Amarillo with deep roots in the community—we'll be here for your warranty needs
                   decades from now.
                 </p>

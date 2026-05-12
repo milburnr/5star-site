@@ -118,7 +118,7 @@ const faqItems = [
   {
     question: "How quickly can you get to Andrews for emergency roof repairs?",
     answer:
-      "We provide scheduling for storm damage and roof repair in Andrews and throughout Andrews County. Our crews arrive with tarps, sealants, and emergency materials to stop water intrusion while permanent repairs are planned and scheduled.",
+      "We provide scheduling for storm damage and roof repair in Andrews and throughout Andrews County. Our crews arrive with weatherproof sheeting, sealants, and repair materials to minimize water intrusion while permanent repairs are planned and scheduled.",
   },
   {
     question: "Will insurance cover storm damage to my Andrews roof?",

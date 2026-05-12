@@ -216,8 +216,9 @@ export default function StormDamageRepairAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -246,7 +247,7 @@ export default function StormDamageRepairAndrewsPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Andrews and
+              5 Star Commercial Roofing has protected properties throughout Andrews and
               Andrews County with premium materials and expert installation. From properties near
               Andrews County Courthouse to buildings throughout Andrews, we understand Permian Basin
               weather patterns, local building codes, and the specific needs of Andrews County
@@ -456,14 +457,14 @@ export default function StormDamageRepairAndrewsPage() {
               </div>
 
               <div className="bg-brand-gold-light p-8 rounded-2xl text-white">
-                <h3 className="text-2xl font-bold mb-6">Our Storm Response Process</h3>
+                <h3 className="text-2xl font-bold mb-6">Our Post-Storm Process Process</h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
                     <div className="bg-white text-brand-gold w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">
                       1
                     </div>
                     <div>
-                      <h4 className="font-semibold text-lg mb-1">Storm Response</h4>
+                      <h4 className="font-semibold text-lg mb-1">post-storm documentation</h4>
                       <p className="text-sm opacity-90">
                         service calls, immediate temporary repairs to prevent further damage
                       </p>

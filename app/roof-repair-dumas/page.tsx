@@ -299,7 +299,7 @@ export default function RoofRepairDumasPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              We've protected 190+ Dumas properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Dumas
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -572,7 +572,7 @@ export default function RoofRepairDumasPage() {
                     </h3>
                     <p className="text-gray-700 mb-3">
                       We understand that agricultural operations in Dumas run on demanding schedules
-                      tied to livestock care and commodity processing. Our storm response considers
+                      tied to livestock care and commodity processing. Our repair planning considers
                       the critical nature of agricultural building integrity.
                     </p>
                     <ul className="text-gray-600 space-y-1">

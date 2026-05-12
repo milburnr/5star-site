@@ -205,15 +205,15 @@ export default function HailDamageRepairAmarilloPage() {
                 name: "How long does hail damage repair take in Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most Amarillo homes are completed in 1-3 days once insurance approves. The claim process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting (1-2 weeks), approval (3-5 days), then installation (1-3 days). We provide tarping within hours if you have active leaks while waiting for insurance approval.",
+                  text: "Most Amarillo homes are completed in 1-3 days once insurance approves. The claim process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting (1-2 weeks), approval (3-5 days), then installation (1-3 days). We place weatherproof sheeting within hours if you have active leaks while waiting for insurance approval.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Do you provide tarping for hail-damaged roofs?",
+                name: "Do you place weatherproof sheeting for hail-damaged roofs?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, we provide tarping services throughout Amarillo. If hailstorms cause active leaks, we responds promptly to install temporary waterproof tarps protecting your home until permanent repairs are completed. tarping costs are typically covered by insurance as part of your claim.",
+                  text: "Yes, we provide weatherproof sheeting services throughout Amarillo. If hailstorms cause active leaks, we responds promptly to install temporary waterproof tarps protecting your home until permanent repairs are completed. weatherproof sheeting costs are typically covered by insurance as part of your claim.",
                 },
               },
             ],
@@ -238,7 +238,7 @@ export default function HailDamageRepairAmarilloPage() {
                 Hail Damage Roof Repair in <span className="text-brand-gold-light">Amarillo</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                storm response in Hail Alley
+                post-storm documentation in Hail Alley
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert hail damage repair in Potter County - one of America's most hail-prone
@@ -274,8 +274,9 @@ export default function HailDamageRepairAmarilloPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hail Days Since 2000</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">95%+</div>
@@ -509,7 +510,7 @@ export default function HailDamageRepairAmarilloPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-lg mb-2">
-                    We've handled over 1,000 Amarillo hail claims since 2014. Our systematic
+                    We've handled over 1,000 Amarillo hail claims serving the Texas Panhandle. Our systematic
                     approach ensures maximum coverage.
                   </p>
                 </div>
@@ -618,7 +619,7 @@ export default function HailDamageRepairAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most Amarillo homes are completed in 1-3 days once insurance approves. The claim
                   process typically takes 2-4 weeks: initial inspection (same day), adjuster meeting
-                  (1-2 weeks), approval (3-5 days), then installation (1-3 days). We provide tarping
+                  (1-2 weeks), approval (3-5 days), then installation (1-3 days). We place weatherproof sheeting
                   within hours if you have active leaks while waiting for insurance approval.
                 </AccordionContent>
               </AccordionItem>
@@ -628,12 +629,12 @@ export default function HailDamageRepairAmarilloPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you provide tarping for hail-damaged roofs?
+                  Do you place weatherproof sheeting for hail-damaged roofs?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide tarping services throughout Amarillo. If hailstorms cause active
+                  Yes, we provide weatherproof sheeting services throughout Amarillo. If hailstorms cause active
                   leaks, we responds promptly to install temporary waterproof tarps protecting your
-                  home until permanent repairs are completed. tarping costs are typically covered by
+                  home until permanent repairs are completed. weatherproof sheeting costs are typically covered by
                   insurance as part of your claim.
                 </AccordionContent>
               </AccordionItem>

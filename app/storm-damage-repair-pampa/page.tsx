@@ -208,7 +208,7 @@ export default function StormDamageRepairPampaPage() {
                 name: "What storm damage repairs do you handle in Pampa?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, prompt leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.",
+                  text: "We handle all storm-related repairs for properties near Hobart Street Park, White Deer Land Museum, and throughout Pampa: hail damage shingle replacement, wind-damaged section rebuilding, efficient leak repairs, debris impact damage, blown-off metal panels, damaged flashing, and complete roof replacements when storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for commercial properties.",
                 },
               },
             ],
@@ -300,9 +300,9 @@ export default function StormDamageRepairPampaPage() {
               professional response.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've responded to 220+ storm damage emergencies across Pampa's ranching
+              We've responded to 220+ storm damage emergencies across Pampa's ranching
               community with service. From historic areas near Woody Guthrie Folk Music Center to
-              properties near Hobart Street Park and White Deer Land Museum, we provide tarping,
+              properties near Hobart Street Park and White Deer Land Museum, we place weatherproof sheeting,
               complete damage documentation, insurance claim management, and permanent repairs. We
               understand Gray County building codes and work efficiently to restore your property.
               Most owners pay only their deductible when insurance covers storm damage.
@@ -406,7 +406,7 @@ export default function StormDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Pampa?
+              How Does Our Post-Storm Process Work in Pampa?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
@@ -498,7 +498,7 @@ export default function StormDamageRepairPampaPage() {
                         <Check className="w-5 h-5 text-brand-gold inline-block" />
                       </span>
                       <span>
-                        <strong>storm repairs:</strong> Tarping and temporary protection measures
+                        <strong>storm repairs:</strong> Weatherproof sheeting and temporary protection measures
                       </span>
                     </li>
                   </ul>
@@ -617,7 +617,7 @@ export default function StormDamageRepairPampaPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   We handle all storm-related repairs for properties near Hobart Street Park, White
                   Deer Land Museum, and throughout Pampa: hail damage shingle replacement,
-                  wind-damaged section rebuilding, prompt leak repairs, debris impact damage,
+                  wind-damaged section rebuilding, efficient leak repairs, debris impact damage,
                   blown-off metal panels, damaged flashing, and complete roof replacements when
                   storm damage is severe. Most projects complete in 1-3 days for homes, 3-7 days for
                   commercial properties.
@@ -646,7 +646,7 @@ export default function StormDamageRepairPampaPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Why is immediate storm response crucial in Pampa's climate?
+                  Why is professional damage documentation crucial in Pampa's climate?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Pampa's extreme weather doesn't pause between storms. A roof damaged by hail in

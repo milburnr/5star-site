@@ -532,7 +532,7 @@ export default function Page() {
           </div>
           <div>
             <h3 className="font-bold text-xl mb-3">
-              <Tornado className="w-6 h-6 inline-block" /> Storm Response
+              <Tornado className="w-6 h-6 inline-block" /> Storm Damage
             </h3>
             <p className="text-gray-600 mb-4">
               Hailstorms don't respect city limits. When severe weather hits multiple areas
@@ -577,8 +577,8 @@ export default function Page() {
             <div className="text-gray-600">Service Radius</div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-4xl font-bold text-brand-gold mb-2">24/7</div>
-            <div className="text-gray-600">Storm Response</div>
+            <div className="text-4xl font-bold text-brand-gold mb-2">Free</div>
+            <div className="text-gray-600">Storm Damage</div>
           </div>
         </div>
       </section>

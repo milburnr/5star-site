@@ -173,7 +173,7 @@ export default function Page() {
         <p>
           First and foremost, <strong>experience</strong> matters. A roofer with years of experience
           will have the knowledge and expertise to handle any roofing job efficiently and
-          effectively. Our team has been serving Amarillo, Midland, Odessa, and Lubbock since 2013,
+          effectively. Our team has been serving Amarillo, Midland, Odessa, and Lubbock for many years,
           completing thousands of successful roofing projects.
         </p>
 
@@ -259,7 +259,7 @@ export default function Page() {
               <li>• Bonded for Projects Up to $500,000</li>
               <li>• Equipment & Vehicle Insurance</li>
               <li>• Professional Liability Coverage</li>
-              <li>• Continuous Coverage Since 2008</li>
+              <li>• Continuous Coverage For years</li>
             </ul>
           </div>
         </div>
@@ -277,7 +277,7 @@ export default function Page() {
               <div className="text-sm">Hail-Rated Shingles</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-brand-gold">24/7</div>
+              <div className="text-3xl font-bold text-brand-gold">Free</div>
               <div className="text-sm">Insurance-claim help / Storm Damage Repair</div>
             </div>
           </div>
@@ -497,7 +497,7 @@ export default function Page() {
 
           <h4 className="font-bold mb-3">Building Code Mastery</h4>
           <p className="mb-3">
-            City of Amarillo building codes have evolved significantly since 2008, with enhanced
+            City of Amarillo building codes have evolved significantly for many years, with enhanced
             wind load requirements and energy efficiency standards. We maintain current
             relationships with local building inspectors and stay ahead of code changes that affect
             roofing installations.
@@ -658,28 +658,28 @@ export default function Page() {
         <p>
           When severe weather strikes Amarillo—and it strikes often—roof damage demands immediate
           attention. Water infiltration can cause thousands of dollars in additional damage within
-          hours, making our roofing service absolutely critical. Our storm response team is staffed
-          around the clock to provide immediate protection and begin permanent repairs as quickly as
+          hours, making our roofing service absolutely critical. Our repair crew is staffed
+          continuously to provide immediate protection and begin permanent repairs as quickly as
           possible.
         </p>
 
-        <h3 className="text-xl font-bold mt-6 mb-3">storm response Capabilities</h3>
+        <h3 className="text-xl font-bold mt-6 mb-3">post-storm documentation Capabilities</h3>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-red-50 p-6 rounded-lg">
             <h4 className="font-bold mb-3">Storm Assessment Services</h4>
             <ul className="space-y-2">
-              <li>• Professional tarping</li>
+              <li>• Professional weatherproof sheeting</li>
               <li>• Water damage prevention measures</li>
               <li>• Temporary weatherproofing</li>
-              <li>• Prompt leak repairs</li>
+              <li>• Efficient leak repairs</li>
               <li>• Structural stabilization</li>
               <li>• hotline: (806) 622-6041</li>
             </ul>
           </div>
 
           <div className="bg-amber-50 p-6 rounded-lg">
-            <h4 className="font-bold mb-3">Storm Response Protocol</h4>
+            <h4 className="font-bold mb-3">Post-Storm Documentation Protocol</h4>
             <ul className="space-y-2">
               <li>• Pre-positioned materials</li>
               <li>• Rapid damage assessment teams</li>

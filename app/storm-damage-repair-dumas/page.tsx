@@ -184,7 +184,7 @@ export default function StormDamageRepairDumasPage() {
                 name: "Will insurance cover my storm damage repairs in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
                 },
               },
               {
@@ -199,7 +199,7 @@ export default function StormDamageRepairDumasPage() {
                 name: "How long does storm damage roof replacement take in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Dumas, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -207,7 +207,7 @@ export default function StormDamageRepairDumasPage() {
                 name: "What should I do immediately after storm damage in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
                 },
               },
             ],
@@ -298,7 +298,7 @@ export default function StormDamageRepairDumasPage() {
               ball-sized hail and sustained winds exceeding 70 mph.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 240+ Dumas properties with premium materials engineered
+              We've protected 240+ Dumas properties with premium materials engineered
               for Panhandle weather extremes. From residential areas near Window on the Plains
               Museum to industrial facilities and agricultural operations, we understand Moore
               County's diverse building needs. We work seamlessly with farmers, business owners, and
@@ -327,7 +327,7 @@ export default function StormDamageRepairDumasPage() {
                   the unobstructed terrain from Colorado and New Mexico.
                 </p>
                 <p className="text-gray-700">
-                  Agricultural buildings require rapid storm response to protect livestock, stored
+                  Agricultural buildings require efficient post-storm documentation to protect livestock, stored
                   grain, and expensive equipment. We prioritize storm repairs on agricultural
                   structures and understand the critical timing around planting and harvest seasons
                   when delays cost thousands daily.
@@ -358,7 +358,7 @@ export default function StormDamageRepairDumasPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Agricultural Building Storm Response?
+              What Agricultural Building post-storm documentation?
             </h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
@@ -462,7 +462,7 @@ export default function StormDamageRepairDumasPage() {
                     </p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold mb-2">storm response Planning</h4>
+                    <h4 className="font-semibold mb-2">post-storm documentation Planning</h4>
                     <p className="text-gray-600 text-sm">
                       Agricultural operations need our roofing service protocols for livestock
                       protection, grain preservation, and equipment security during and after severe
@@ -523,7 +523,7 @@ export default function StormDamageRepairDumasPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most homeowner and commercial policies cover storm damage including wind, hail,
                   and rain infiltration from covered perils. Coverage typically includes mitigation
-                  costs (tarping, temporary repairs) plus complete restoration. We document all
+                  costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
                   requests for hidden damage discovered during repairs. Our 95%+ approval rate
                   demonstrates our insurance expertise.
@@ -548,7 +548,7 @@ export default function StormDamageRepairDumasPage() {
                   How long does storm damage roof replacement take in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most homes. During major storm events affecting Dumas, timelines may
@@ -566,7 +566,7 @@ export default function StormDamageRepairDumasPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final
                   restoration.

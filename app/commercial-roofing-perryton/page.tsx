@@ -264,7 +264,7 @@ export default function CommercialRoofingPerrytonPage() {
               conditions including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, we've served Perryton with expert installations, comprehensive warranties,
+              We've served Perryton with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -717,7 +717,7 @@ export default function CommercialRoofingPerrytonPage() {
                     <div>
                       <h3 className="text-lg font-bold mb-2 text-brand-brown"></h3>
                       <p className="text-gray-700">
-                        Round-the-clock storm response for critical repairs and storm damage,
+                        Round-the-clock post-storm documentation for critical repairs and storm damage,
                         ensuring minimal disruption to Perryton business operations.
                       </p>
                     </div>

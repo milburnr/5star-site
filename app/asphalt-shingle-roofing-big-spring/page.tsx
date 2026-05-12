@@ -216,8 +216,9 @@ export default function AsphaltShingleRoofingBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -249,7 +250,7 @@ export default function AsphaltShingleRoofingBigSpringPage() {
               intense, sporadic storms that dump massive amounts of water in short periods.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has specialized in protecting Big Spring's
+              5 Star Commercial Roofing has specialized in protecting Big Spring's
               diverse residential neighborhoods with premium asphalt shingle systems engineered for
               West Texas extremes. From historic homes near Downtown Big Spring to modern
               subdivisions around Big Spring State Park, we understand the unique challenges facing

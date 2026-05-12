@@ -228,7 +228,7 @@ export default function RoofRepairLubbockPage() {
                 Roof Repair in <span className="text-brand-gold-light">Lubbock</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                South Plains Dust Storm Specialists
+                South Plains Storm Damage Experts
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert roof repair for Lubbock's unique South Plains challenges. Serving Texas Tech
@@ -414,7 +414,7 @@ export default function RoofRepairLubbockPage() {
                 <div className="text-4xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response Team</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Post-Storm Repair Team</h3>
                 <p className="text-gray-700">
                   Rapid deployment after supercell events, with expertise in documenting wind and
                   hail damage for insurance claims throughout Lubbock County.

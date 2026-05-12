@@ -45,10 +45,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed flat EPDM roof installation on Odessa TX commercial building — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -163,47 +163,12 @@ export default function TPORoofingOdessaPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What is TPO roofing?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO (Thermoplastic Polyolefin) is a single-ply white membrane for flat/low-slope roofs. Energy Star rated, heat-welded seams, 15-25 year warranties.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much does TPO roofing cost in Odessa?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO installation in Odessa costs $4-$8 per square foot including materials and labor. Excellent value for energy efficiency and durability.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Why choose TPO over other commercial roofing?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "TPO reflects heat (lower cooling costs), resists hail/wind damage, heat-welded seams are watertight, and offers excellent cost-to-performance ratio.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-4-1920w.webp)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-18-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -271,6 +236,34 @@ export default function TPORoofingOdessaPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing installs and repairs TPO roofing systems in Odessa TX for commercial and industrial buildings throughout the Permian Basin — energy-efficient, heat-reflective membranes with 10-year warranties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/tpo-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All TPO Roofing</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Commercial Roofing</a>
+              <a href="/tpo-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland TPO</a>
+              <a href="/odessa-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Odessa Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -284,7 +277,7 @@ export default function TPORoofingOdessaPage() {
               your commercial property receives roofing solutions built for oil country.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Odessa's diverse industrial landscape with expert TPO
+              5 Star Roofing has served Odessa's diverse industrial landscape for over a decade with expert TPO
               installations engineered for extreme conditions. From oilfield service companies and
               manufacturing facilities to the University of Texas Permian Basin and growing
               healthcare networks, our team understands the unique demands of operating in the

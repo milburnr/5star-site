@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-9-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-14-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Commercial metal roof installation on West Texas facility — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -151,7 +151,7 @@ export default function CommercialRoofingAndrewsPage() {
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-8-1920w.webp)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-14-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -218,6 +218,34 @@ export default function CommercialRoofingAndrewsPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing delivers commercial roofing in Andrews TX including flat roof repair, TPO systems, and metal roofing for Permian Basin oil field businesses and facilities.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Commercial Roofing</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Commercial</a>
+              <a href="/commercial-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Commercial</a>
+              <a href="/andrews-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Andrews Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -231,7 +259,7 @@ export default function CommercialRoofingAndrewsPage() {
               hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Andrews with expert installations, comprehensive warranties,
+              5 Star Roofing has served Andrews for over a decade with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation. Free inspections and estimates
               available.
@@ -410,7 +438,7 @@ export default function CommercialRoofingAndrewsPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Storm Response in Andrews
+              Storm Damage Documentation in Andrews
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -458,7 +486,7 @@ export default function CommercialRoofingAndrewsPage() {
                 </h4>
                 <ul className="text-gray-700 space-y-3">
                   <li>
-                    <strong>Hail Damage</strong> — Immediate tarping and permanent repair solutions
+                    <strong>Hail Damage</strong> — Documentation, inspection, and permanent repair solutions
                   </li>
                   <li>
                     <strong>Wind Damage</strong> — Securing lifted materials and HVAC units
@@ -488,7 +516,7 @@ export default function CommercialRoofingAndrewsPage() {
                     <AnimatedCounter to={150} suffix="+" />
                   </div>
                   <div className="text-brand-brown font-semibold">Andrews Projects Completed</div>
-                  <div className="text-sm text-gray-600 mt-1">Since 2014</div>
+                  <div className="text-sm text-gray-600 mt-1">Permian Basin Specialists</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2">

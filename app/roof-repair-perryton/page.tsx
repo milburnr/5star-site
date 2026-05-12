@@ -299,7 +299,7 @@ export default function RoofRepairPerrytonPage() {
               severe Panhandle hailstorms—demand superior roofing materials and expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 160+ Perryton properties with premium materials engineered
+              We've protected 160+ Perryton properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with
               Perryton property owners, and handle complete insurance claims. Most homeowners pay
               only their deductible when insurance covers storm damage.
@@ -731,7 +731,7 @@ export default function RoofRepairPerrytonPage() {
                 </h3>
                 <p className="text-gray-700 mb-4">
                   We understand that agricultural operations in wheat country follow critical
-                  seasonal schedules. Our storm response and scheduling accommodate the demands of
+                  seasonal schedules. Our repair scheduling accommodate the demands of
                   farming cycles.
                 </p>
                 <ul className="text-gray-600 space-y-2">

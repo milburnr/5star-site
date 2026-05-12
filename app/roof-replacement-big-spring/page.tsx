@@ -230,7 +230,7 @@ export default function RoofReplacementBigSpringPage() {
               living.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, we've served Big Spring's 22,541 residents with expert installations,
+              We've served Big Spring's 22,541 residents with expert installations,
               comprehensive warranties, and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation for this historic West Texas community.
             </p>

@@ -216,8 +216,9 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -249,7 +250,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
               making impact-resistant asphalt shingles essential for Andrews homeowners.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected residential properties throughout
+              5 Star Commercial Roofing has protected residential properties throughout
               Andrews County with premium GAF, CertainTeed, and Owens Corning asphalt shingles. From
               historic homes near the Andrews County Courthouse to modern subdivisions on North Main
               Street, we understand the unique challenges facing Andrews homeowners: oil field dust
@@ -493,7 +494,7 @@ export default function AsphaltShingleRoofingAndrewsPage() {
                     documentation, and maintenance guidance specific to Andrews's climate
                     challenges. We coordinate final inspections with Andrews building officials,
                     activate manufacturer warranties, and provide prompt contact information for
-                    storm response coverage throughout Andrews County.
+                    post-storm repair coverage throughout Andrews County.
                   </p>
                 </div>
               </div>

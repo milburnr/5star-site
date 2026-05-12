@@ -274,7 +274,7 @@ export default function ResidentialRoofingPerrytonPage() {
               wheat fields, active wind farms, and the convergence of three state weather systems.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Perryton's 8,800 residents with expert installations designed
+              We've served Perryton's 8,800 residents with expert installations designed
               for High Plains agricultural conditions. Our team understands the specific needs of
               farming families, energy workers, and the established community that has thrived here
               for generations.
@@ -602,7 +602,7 @@ export default function ResidentialRoofingPerrytonPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Absolutely. We understand wheat harvest (June-July) and planting seasons
                   (September-October) are critical periods. We offer priority scheduling before
-                  these busy times and prompt services during harvest. Many farming families prefer
+                  these busy times and scheduling during harvest. Many farming families prefer
                   spring installations after winter equipment maintenance is complete.
                 </AccordionContent>
               </AccordionItem>

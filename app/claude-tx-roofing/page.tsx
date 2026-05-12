@@ -135,10 +135,10 @@ export default function ClaudeRoofingPage() {
                 <div className="text-5xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Specialists</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Damage Assessment</h3>
                 <p className="text-gray-600">
                   Armstrong County sees frequent severe weather. We specialize in hail damage
-                  detection, insurance claim documentation, and rapid storm response.
+                  detection, insurance claim documentation, and efficient post-storm documentation.
                 </p>
               </div>
             </div>
@@ -315,7 +315,7 @@ export default function ClaudeRoofingPage() {
                   </div>
                   <div className="md:w-2/3">
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                      Don't wait for a leak to discover roof damage. Our free, no-obligation roof
+                      Schedule an inspection to catch issues early. Our free, no-obligation roof
                       inspections can catch problems early - especially after Armstrong County's
                       frequent hail storms. We'll assess your roof's condition and provide an honest
                       evaluation.
@@ -353,7 +353,7 @@ export default function ClaudeRoofingPage() {
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>roofing issues don't keep business hours.</strong> Whether it's 2am
                       after a hailstorm or Sunday afternoon with water pouring in, we provide
-                      professional roofing services to Claude. tarping, leak repairs, and storm
+                      professional roofing services to Claude. weatherproof sheeting, leak repairs, and storm
                       damage mitigation available anytime.
                     </p>
                     <p className="text-gray-700 mb-4">
@@ -556,7 +556,7 @@ export default function ClaudeRoofingPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   With only about 1,200 residents, Claude does not have local roofing contractors.
                   Many residents rely on companies from Amarillo, which is 25 miles west on US-287.
-                  We make the drive regularly and can typically reach Claude within 30 minutes. Our
+                  We make the drive regularly and can typically reach Claude quickly. Our
                   familiarity with Armstrong County means we understand the specific building styles
                   and weather patterns that affect roofing decisions here.
                 </AccordionContent>
@@ -652,7 +652,7 @@ export default function ClaudeRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve the Claude community with honest,
               professional roofing services. Whether you need a free inspection, hail damage
-              assessment, or prompt repairs, we're just a quick drive east on US-287.
+              assessment, or efficient repairs, we're just a quick drive east on US-287.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">

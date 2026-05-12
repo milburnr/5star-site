@@ -184,7 +184,7 @@ export default function StormDamageRepairCanyonPage() {
                 name: "Will insurance cover my storm damage repairs in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
                 },
               },
               {
@@ -199,7 +199,7 @@ export default function StormDamageRepairCanyonPage() {
                 name: "How long does storm damage roof replacement take in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Canyon, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Canyon, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -207,7 +207,7 @@ export default function StormDamageRepairCanyonPage() {
                 name: "What should I do immediately after storm damage in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
                 },
               },
             ],
@@ -298,7 +298,7 @@ export default function StormDamageRepairCanyonPage() {
               amplified weather conditions requiring specialized storm damage expertise.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 350+ Canyon properties with premium materials engineered
+              We've protected 350+ Canyon properties with premium materials engineered
               for Panhandle weather. From student housing near West Texas A&M to historic buildings
               downtown and modern subdivisions, we understand Canyon's diverse building stock and
               unique weather challenges. We work seamlessly with property owners, handle complete
@@ -345,7 +345,7 @@ export default function StormDamageRepairCanyonPage() {
                 </p>
                 <p className="text-gray-700">
                   These localized storm cells often produce more intense hail and damaging winds
-                  than regional weather forecasts predict. Our storm response teams monitor local
+                  than regional weather forecasts predict. Our repair crews monitor local
                   conditions and respond quickly when canyon-enhanced storms develop.
                 </p>
               </div>
@@ -408,7 +408,7 @@ export default function StormDamageRepairCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-white p-12 rounded-3xl shadow-lg border border-gray-100">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Canyon?
+              How Does Our Post-Storm Process Work in Canyon?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -538,7 +538,7 @@ export default function StormDamageRepairCanyonPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most homeowner and commercial policies cover storm damage including wind, hail,
                   and rain infiltration from covered perils. Coverage typically includes mitigation
-                  costs (tarping, temporary repairs) plus complete restoration. We document all
+                  costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
                   requests for hidden damage discovered during repairs. Our 95%+ approval rate
                   demonstrates our insurance expertise.
@@ -563,7 +563,7 @@ export default function StormDamageRepairCanyonPage() {
                   How long does storm damage roof replacement take in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most homes. During major storm events affecting Canyon, timelines may
@@ -581,7 +581,7 @@ export default function StormDamageRepairCanyonPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final
                   restoration.

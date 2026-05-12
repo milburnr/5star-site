@@ -268,7 +268,7 @@ export default function RoofRepairOdessaPage() {
               repair requirements not found elsewhere.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              Since 2014, we've completed thousands of repairs across Odessa, from historic downtown
+              We've completed thousands of repairs across Odessa, from historic downtown
               buildings affected by decades of refinery emissions to modern subdivisions dealing
               with escarpment wind damage. Our repair techniques address both immediate damage and
               long-term protection against Odessa's harsh environmental conditions.
@@ -310,7 +310,7 @@ export default function RoofRepairOdessaPage() {
                     structural restoration
                   </li>
                   <li>
-                    <strong>tarping:</strong> temporary protection during severe weather
+                    <strong>weatherproof sheeting:</strong> temporary protection during severe weather
                   </li>
                 </ul>
               </div>
@@ -370,7 +370,7 @@ export default function RoofRepairOdessaPage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">
-                  <Zap className="w-6 h-6 inline-block" /> storm response Services
+                  <Zap className="w-6 h-6 inline-block" /> post-storm documentation Services
                 </h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>
@@ -684,10 +684,10 @@ export default function RoofRepairOdessaPage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-brand-brown">
-                  <Zap className="w-6 h-6 inline-block" /> our roofing service and prompt services
+                  <Zap className="w-6 h-6 inline-block" /> our roofing service and scheduling
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Mobile repair units equipped for immediate stabilization</li>
+                  <li>• Mobile repair units equipped for post-storm assessment</li>
                   <li>• Direct relationships with emergency management agencies</li>
                   <li>• Coordination with industrial safety and environmental agencies</li>
                 </ul>

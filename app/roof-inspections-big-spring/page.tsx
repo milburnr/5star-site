@@ -278,7 +278,7 @@ export default function RoofInspectionsBigSpringPage() {
               essential for property protection and insurance coverage maintenance.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2008, 5 Star Commercial Roofing has provided comprehensive roof inspection
+              For many years, 5 Star Commercial Roofing has provided comprehensive roof inspection
               services throughout Big Spring and Howard County. Our certified inspectors understand
               local weather patterns, building codes, insurance requirements, and the specific
               challenges facing properties from downtown Big Spring near the historic Spring to
@@ -699,7 +699,7 @@ export default function RoofInspectionsBigSpringPage() {
                   Schedule immediate inspection if you notice: water stains on ceilings, missing or
                   damaged shingles, granules in gutters, dents on metal surfaces after storms,
                   cracked or curling shingles, damaged flashing around chimneys or vents, or any
-                  interior leaks during rain. Don't wait—early detection prevents costly damage.
+                  interior leaks during rain. Early detection prevents costly damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -769,7 +769,7 @@ export default function RoofInspectionsBigSpringPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Protect Your Big Spring Property Today</h2>
           <p className="text-xl mb-8 max-w-4xl mx-auto">
-            Don't wait for visible damage to appear. With West Texas experiencing 7-9 severe
+            Schedule an inspection before visible damage appears. With West Texas experiencing 7-9 severe
             hailstorms annually, professional roof inspections are your first line of defense. Our
             comprehensive inspections provide complete documentation for insurance claims and peace
             of mind for your property investment.

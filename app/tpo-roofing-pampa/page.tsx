@@ -298,7 +298,7 @@ export default function TpoRoofingPampaPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Pampa properties with premium materials engineered
+              We've protected 180+ Pampa properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Pampa
               ranching/oil property owners, and handle complete insurance claims. Most homeowners
               pay only their deductible when insurance covers storm damage.

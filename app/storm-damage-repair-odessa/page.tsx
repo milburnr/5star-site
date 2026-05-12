@@ -184,7 +184,7 @@ export default function Page() {
                 name: "Should I tarp my Odessa roof after storm damage?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, tarping prevents further water damage after storms. We provide tarping services available in Odessa to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage.",
+                  text: "Yes, weatherproof sheeting prevents further water damage after storms. We provide weatherproof sheeting services available in Odessa to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage.",
                 },
               },
               {
@@ -232,7 +232,7 @@ export default function Page() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Odessa</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Permian Basin Properties Since 2014
+                Protecting Permian Basin Properties For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage repair in Odessa. for hail, wind, and weather damage. Complete
@@ -287,7 +287,7 @@ export default function Page() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected Odessa properties through every major weather event,
+              We've protected Odessa properties through every major weather event,
               serving from UTPB campus facilities to downtown Odessa's historic districts, from
               Music City Mall commercial areas to the residential communities around Ratliff
               Stadium, and throughout Ector County's extensive oil field operations. Our specialized
@@ -495,7 +495,7 @@ export default function Page() {
                   petroleum-enhanced weather systems.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Response: 145 tarping jobs, 89 complete replacements
+                  Response: 145 weatherproof sheeting jobs, 89 complete replacements
                 </p>
               </div>
             </div>
@@ -536,7 +536,7 @@ export default function Page() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   University of Texas Permian Basin facilities require coordination with university
                   administration, adherence to state building codes, and consideration of academic
-                  calendar timing. storm response must accommodate student safety protocols and
+                  calendar timing. post-storm documentation must accommodate student safety protocols and
                   research facility requirements. We maintain current university vendor credentials
                   and understand the unique needs of academic buildings, dormitories, and research
                   facilities. Response times are prioritized during severe weather events that
@@ -567,10 +567,10 @@ export default function Page() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What safety protocols apply to refinery area storm response?
+                  What safety protocols apply to refinery area post-storm documentation?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  storm response near refinery facilities requires specialized safety protocols
+                  post-storm documentation near refinery facilities requires specialized safety protocols
                   including gas monitoring, fire safety procedures, and hazardous area entry
                   permits. Our crews maintain current refinery safety certifications and coordinate
                   with facility security before entering restricted areas. Response includes air
@@ -622,7 +622,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              How Does the Ector County Storm Response Process Work?
+              How Does the Ector County post-storm documentation Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-amber-50 p-6 rounded-xl border-t-4 border-brand-gold-vibrant text-center">

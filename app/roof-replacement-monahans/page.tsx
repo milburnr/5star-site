@@ -290,7 +290,7 @@ export default function RoofReplacementMonahansPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Monahans homeowners and business owners with expert
+              We've served Monahans homeowners and business owners with expert
               installations, comprehensive warranties, and outstanding customer service. We handle
               all permits, insurance claims, and warranty documentation. Free inspections and
               estimates available throughout Ward County.
@@ -704,10 +704,10 @@ export default function RoofReplacementMonahansPage() {
                 </div>
               </div>
               <div className="bg-amber-50 p-8 rounded-xl border border-brand-gold/30">
-                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our storm response</h3>
+                <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our post-storm documentation</h3>
                 <ul className="text-brand-brown space-y-3">
                   <li>• Immediate damage assessment</li>
-                  <li>• tarping and weatherization</li>
+                  <li>• weatherproof sheeting and weatherization</li>
                   <li>• Rapid material procurement</li>
                   <li>• Expedited permitting when possible</li>
                   <li>• Insurance claim documentation</li>

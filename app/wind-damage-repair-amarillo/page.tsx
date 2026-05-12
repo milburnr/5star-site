@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-27-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-wichita-falls-17-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Aerial view of Amarillo TX roof with wind damage — missing shingles exposing decking — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -166,84 +166,11 @@ export default function WindDamageRepairAmarilloPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What wind speeds typically cause roof damage in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Sustained winds above 45 mph begin lifting shingle tabs on older roofs. Gusts exceeding 60 mph can remove entire shingles even from relatively new roofs if installation quality was poor. Amarillo regularly experiences wind events in this range, especially during spring and fall frontal passages. High-wind rated installation methods dramatically improve performance.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Will insurance cover wind damage to my Amarillo roof?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Most homeowner policies cover wind damage when sustained winds or gusts exceed thresholds specified in your policy—typically 50-60 mph. We help document wind speeds from National Weather Service reports and link damage patterns to specific wind events. Our professional documentation improves claim approval rates significantly.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do you prevent future wind damage?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "High-wind installation methods are critical in Amarillo. We use 6-nail patterns instead of standard 4-nail, install premium starter strips with enhanced adhesion, seal all flashing with high-grade sealants, and use Class 4 shingles rated for 130 mph winds. These methods reduce wind damage risk by 80-90% compared to standard installations.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How quickly can you repair wind damage after a storm?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Should I get a wind damage inspection after every windstorm?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Inspect after wind events with sustained winds above 45 mph or gusts exceeding 60 mph. Even if you see no obvious damage from the ground, lifted shingles and flashing issues may exist. We offer free inspections that identify problems early before they cause leaks. Early detection prevents minor wind damage from becoming major water damage.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Why is wind damage different from hail damage in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Wind damage occurs through uplift forces and sustained stress rather than impact like hail. While hail damage is immediately visible, wind damage often appears subtle initially but progresses rapidly. Amarillo's frequent high winds mean roofs experience cumulative stress over time, affecting different components than hail's uniform surface impact patterns.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do dust storms cause additional roofing problems in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, Amarillo's frequent dust storms create unique challenges. Wind-driven sand gradually erodes protective granules from shingles, reducing UV resistance. Dust infiltration can compromise flashing seals. Some insurance policies exclude dust-related damage, so documenting wind speeds during damage events is crucial.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What's the best time of year for wind damage repairs in Amarillo?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Late fall through early spring offers the most stable weather for roofing work, with reduced wind speeds and fewer severe weather events. However, storm repairs can't wait—we're equipped for year-round installation with specialized techniques for high-wind conditions.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-midland-27-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-wichita-falls-17-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -284,8 +211,8 @@ export default function WindDamageRepairAmarilloPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-slate-600">
                 <div className="text-4xl font-bold text-brand-gold mb-3">70+</div>
@@ -306,6 +233,34 @@ export default function WindDamageRepairAmarilloPage() {
         </section>
       </FadeIn>
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing repairs wind damage to roofs throughout Amarillo TX — from lifted shingles to full roof replacement after severe Texas Panhandle storms.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/wind-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Wind Damage Repair</a>
+              <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Hail Damage</a>
+              <a href="/storm-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Storm Repair</a>
+              <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -853,10 +808,10 @@ export default function WindDamageRepairAmarilloPage() {
                       Temporary Storm Repairs
                     </h3>
                     <p className="text-gray-700">
-                      If your roof is actively leaking or exposed to elements, we provide tarping
-                      and temporary leak repairs within hours. This prevents water damage to
-                      interior while insurance claim processes. throughout Amarillo and surrounding
-                      Potter County communities.
+                      If your roof is actively leaking or exposed to elements, we schedule
+                      storm documentation and weatherproof sheeting as quickly as possible.
+                      This helps prevent further water damage while the insurance claim processes
+                      for Amarillo and surrounding Potter County properties.
                     </p>
                   </div>
                 </div>

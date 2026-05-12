@@ -148,7 +148,7 @@ export default function StormDamageRepairPerrytonPage() {
                 name: "How long does storm damage roof replacement take in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most properties. During major storm events affecting Perryton and wheat country areas, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -156,7 +156,7 @@ export default function StormDamageRepairPerrytonPage() {
                 name: "What should I do immediately after storm damage in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration for properties near downtown Perryton, the Perryton Museum, and throughout Ochiltree County.",
                 },
               },
               {
@@ -219,8 +219,9 @@ export default function StormDamageRepairPerrytonPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -256,7 +257,7 @@ export default function StormDamageRepairPerrytonPage() {
               issues, and exponentially higher costs.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              We've documented storm damage across Perryton since 2014, serving properties from
+              We've documented storm damage across Perryton serving the region, serving properties from
               downtown Perryton to agricultural facilities, from the Perryton Museum area to homes
               throughout Ochiltree County. We schedule documentation and inspections once conditions
               are safe, handle the entire insurance-claim process, and restore with upgraded Class 4
@@ -310,7 +311,7 @@ export default function StormDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Perryton?
+              How Does Our Post-Storm Process Work in Perryton?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-red-500">
@@ -319,7 +320,7 @@ export default function StormDamageRepairPerrytonPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>
-                  <li>• tarping for active leaks</li>
+                  <li>• weatherproof sheeting for active leaks</li>
                   <li>• Structural stability evaluation</li>
                   <li>• Initial damage documentation</li>
                   <li>• Insurance company notification</li>
@@ -509,7 +510,7 @@ export default function StormDamageRepairPerrytonPage() {
                   How long does storm damage roof replacement take in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most properties. During major storm events affecting Perryton and wheat
@@ -528,7 +529,7 @@ export default function StormDamageRepairPerrytonPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final restoration
                   for properties near downtown Perryton, the Perryton Museum, and throughout
@@ -584,8 +585,8 @@ export default function StormDamageRepairPerrytonPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Storm Damage? We're Here</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            storm response. Free storm inspections. Complete insurance assistance. Serving Perryton
-            and Ochiltree County around the clock.
+            post-storm documentation. Free storm inspections. Complete insurance assistance. Serving Perryton
+            and Ochiltree County continuously.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a

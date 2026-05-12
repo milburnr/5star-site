@@ -229,8 +229,9 @@ export default function WindDamageRepairLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -259,7 +260,7 @@ export default function WindDamageRepairLevellandPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Levelland
+              5 Star Commercial Roofing has protected properties throughout Levelland
               and Hockley County with premium materials and expert installation. From properties
               near South Plains College to buildings throughout Levelland, we understand South
               Plains weather patterns, local building codes, and the specific needs of Hockley
@@ -542,8 +543,8 @@ export default function WindDamageRepairLevellandPage() {
                   What temporary repairs can protect my building until permanent repairs?
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
-                  Temporary repairs include professional tarping, securing loose materials,
-                  temporary flashing installation, and prompt leak repairs. These measures protect
+                  Temporary repairs include professional weatherproof sheeting, securing loose materials,
+                  temporary flashing installation, and efficient leak repairs. These measures protect
                   your property from further damage while insurance claims are processed and
                   permanent repair materials are ordered. All temporary work is credited toward
                   final repair costs.
@@ -654,7 +655,7 @@ export default function WindDamageRepairLevellandPage() {
                 <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
               </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                South Plains wind storms can strike without warning. Don't wait for minor damage to
+                South Plains wind storms can strike without warning. Address minor damage to
                 become major problems.
               </p>
             </div>
@@ -672,13 +673,13 @@ export default function WindDamageRepairLevellandPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h3 className="text-xl font-bold text-red-700 mb-4">Our prompt services</h3>
+                <h3 className="text-xl font-bold text-red-700 mb-4">Our scheduling</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Professional tarping and securing</li>
+                  <li>• Professional weatherproof sheeting and securing</li>
                   <li>• Active-leak weatherproofing</li>
                   <li>• Structural safety assessment</li>
                   <li>• Insurance documentation assistance</li>
-                  <li>• Board-up services if needed</li>
+                  <li>• Securing services if needed</li>
                 </ul>
               </div>
             </div>

@@ -365,7 +365,7 @@ export default function VegaRoofingPage() {
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage requires quick attention.</strong> When severe weather
-                      hits Vega, we provide professional roofing services. tarping to We document
+                      hits Vega, we provide professional roofing services. weatherproof sheeting to We document
                       damage to support your insurance claim, schedule repairs once conditions are
                       safe, and coordinate Class 4 impact-resistant restoration tailored to West
                       Texas storm exposure.
@@ -671,7 +671,7 @@ export default function VegaRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve the historic Vega community with
               honest, professional roofing services built for high plains weather. Whether you need
-              a free inspection, hail damage assessment, or prompt repairs, we're just 35 minutes
+              a free inspection, hail damage assessment, or efficient repairs, we're just 35 minutes
               away on I-40.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -216,8 +216,9 @@ export default function StormDamageRepairMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -246,7 +247,7 @@ export default function StormDamageRepairMonahansPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Monahans and
+              5 Star Commercial Roofing has protected properties throughout Monahans and
               Ward County with premium materials and expert installation. From properties near
               Monahans Sandhills State Park to buildings throughout Monahans, we understand Permian
               Basin weather patterns, local building codes, and the specific needs of Ward County
@@ -645,10 +646,10 @@ export default function StormDamageRepairMonahansPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 pt-4">
                   We maintain strategic material stockpiles and mobile repair equipment specifically
-                  for Permian Basin operations. Our storm response protocol includes immediate
+                  for Permian Basin operations. Our post-storm protocol includes immediate
                   temporary weatherization to protect critical operations, followed by comprehensive
                   permanent repairs. We understand that many facilities in the Monahans area operate
-                  around the clock and cannot afford extended downtime. Our crews are experienced in
+                  continuously and cannot afford extended downtime. Our crews are experienced in
                   working around active industrial operations while maintaining safety standards. We
                   also coordinate with facility management to schedule repairs during planned
                   maintenance windows when possible, minimizing operational disruption while

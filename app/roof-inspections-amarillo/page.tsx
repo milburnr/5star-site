@@ -280,7 +280,7 @@ export default function RoofInspectionsAmarilloPage() {
               can destroy roofs in just a few years.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              Since 2014, we've conducted thousands of roof inspections across Amarillo, from
+              We've conducted thousands of roof inspections across Amarillo, from
               historic downtown properties to new subdivisions in Southwest Amarillo. Our certified
               inspectors use advanced technology including thermal imaging, moisture meters, and
               high-resolution drone photography to identify problems that ground-level visual

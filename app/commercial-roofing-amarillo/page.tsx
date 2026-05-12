@@ -265,8 +265,9 @@ export default function CommercialRoofingAmarilloPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -464,7 +465,7 @@ export default function CommercialRoofingAmarilloPage() {
                 <p className="text-gray-700 leading-relaxed">
                   <strong>Retail & Business Centers</strong> - Shopping centers, office parks, and
                   commercial developments throughout Amarillo. We specialize in minimizing business
-                  disruption with after-hours installations and rapid storm response.
+                  disruption with after-hours installations and efficient post-storm documentation.
                 </p>
               </div>
             </div>
@@ -613,7 +614,7 @@ export default function CommercialRoofingAmarilloPage() {
                 </h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Storm damage or active leak threatening your Amarillo business? We provide prompt
-                  response with temporary repairs, tarping, and leak mitigation. Minimize inventory
+                  response with temporary repairs, weatherproof sheeting, and leak mitigation. Minimize inventory
                   damage, protect equipment, and keep operations running.
                 </p>
                 <a

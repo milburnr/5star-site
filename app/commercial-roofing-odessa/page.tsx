@@ -265,7 +265,7 @@ export default function CommercialRoofingOdessaPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              Since 2014, we've served Odessa with expert commercial roofing installations for oil
+              We've served Odessa with expert commercial roofing installations for oil
               and gas facilities, manufacturing operations, educational institutions, and healthcare
               facilities. We handle all permits, insurance claims, and warranty documentation. Free
               inspections and estimates available.
@@ -312,7 +312,7 @@ export default function CommercialRoofingOdessaPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Odessa's manufacturing sector supporting petroleum operations requires commercial
               roofing systems for steel fabrication, equipment manufacturing, and specialized
-              service providers that operate around the clock during peak drilling seasons. These
+              service providers that operate continuously during peak drilling seasons. These
               facilities need roofing systems that accommodate overhead crane systems, welding
               operations, and heavy equipment assembly while protecting valuable industrial
               equipment and work-in-progress materials.
@@ -329,7 +329,7 @@ export default function CommercialRoofingOdessaPage() {
               roofing systems that accommodate precision manufacturing equipment while providing
               adequate natural lighting and climate control for quality manufacturing processes.
               Specialized insulation and acoustical control become important for facilities
-              operating sensitive manufacturing equipment around the clock.
+              operating sensitive manufacturing equipment continuously.
             </p>
           </section>
         </FadeIn>
@@ -435,7 +435,7 @@ export default function CommercialRoofingOdessaPage() {
               roofing systems that accommodate loading dock operations, truck maintenance bays, and
               cargo storage areas while providing protection for petroleum industry equipment and
               supplies transported throughout the Permian Basin. These facilities often operate
-              around the clock during peak drilling and completion activities.
+              continuously during peak drilling and completion activities.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Railroad facilities serving petroleum industry transportation need roofing systems for

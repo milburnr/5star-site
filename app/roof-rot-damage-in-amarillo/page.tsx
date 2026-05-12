@@ -903,7 +903,7 @@ export default function Page() {
         <div className="feature-box">
           <h3 className="font-bold mb-2">Address Leaks Immediately</h3>
           <p className="text-sm">
-            Any interior water stain is evidence of active leaks—don't wait for it to get worse
+            Any interior water stain is evidence of active leaks—contact us instead for it to get worse
           </p>
         </div>
       </div>

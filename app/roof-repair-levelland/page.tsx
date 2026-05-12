@@ -216,8 +216,9 @@ export default function RoofRepairLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +249,7 @@ export default function RoofRepairLevellandPage() {
               Levelland properties demand specialized roofing expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 350 properties throughout
+              5 Star Commercial Roofing has protected over 350 properties throughout
               Levelland and Hockley County with premium materials engineered for South Plains
               conditions. From historic buildings downtown near the Hockley County Courthouse to
               modern facilities along Highway 114, we understand the unique intersection of
@@ -508,7 +509,7 @@ export default function RoofRepairLevellandPage() {
                   damage with photos for insurance purposes. Contact us for a professional
                   inspection within 48-72 hours - early detection prevents secondary damage. Don't
                   climb on your roof, but check gutters for granule accumulation and look for
-                  damaged outdoor equipment. We provide tarping if needed while insurance processes
+                  damaged outdoor equipment. We place weatherproof sheeting if needed while insurance processes
                   your claim.
                 </AccordionContent>
               </AccordionItem>

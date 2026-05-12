@@ -394,8 +394,8 @@ export default function BorgerRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Borger, we respond with tarping and rapid roof
-                  repairs. Don't wait—call us immediately for storm damage assessment and temporary
+                  When severe weather strikes Borger, we respond with weatherproof sheeting and rapid roof
+                  repairs. Contact us for storm damage assessment and temporary
                   protection.
                 </p>
                 <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">
@@ -711,7 +711,7 @@ export default function BorgerRoofingPage() {
                 How quickly can you respond to storm damage in Hutchinson County?
               </h3>
               <p className="text-gray-700">
-                We prioritize storm response service for storm damage throughout Hutchinson County. During
+                We prioritize post-storm documentation service for storm damage throughout Hutchinson County. During
                 severe weather events, we schedule work based on storm timing for Borger
                 properties. Our proximity to the area (based in Amarillo) allows us to respond
                 faster than distant contractors, which is critical when protecting your property

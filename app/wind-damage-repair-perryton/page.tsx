@@ -201,7 +201,7 @@ export default function WindDamageRepairPerrytonPage() {
                 name: "How quickly can you repair wind damage in Perryton?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
+                  text: "We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
                 },
               },
               {
@@ -479,7 +479,7 @@ export default function WindDamageRepairPerrytonPage() {
                   How quickly can you repair wind damage in Perryton?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide tarping and temporary repairs for actively leaking roofs. Full repair
+                  We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair
                   or replacement typically occurs 2-4 weeks after claim approval, depending on
                   material availability and scheduling. During widespread wind events affecting the
                   entire Texas Panhandle, we work extended hours to accommodate scheduling needs.

@@ -262,8 +262,9 @@ export default function WindDamageRepairAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -296,7 +297,7 @@ export default function WindDamageRepairAndrewsPage() {
               systems year after year.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has specialized in wind damage repair throughout
+              5 Star Commercial Roofing has specialized in wind damage repair throughout
               Andrews and Andrews County, understanding the unique patterns that affect this Permian
               Basin community. From historic properties near the Andrews County Courthouse to modern
               developments along Highway 385, we've documented and repaired damage from dozens of
@@ -371,7 +372,7 @@ export default function WindDamageRepairAndrewsPage() {
                   severe wind events.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• tarping and board-up</li>
+                  <li>• weatherproof sheeting</li>
                   <li>• Structural damage assessment</li>
                   <li>• Active-leak weatherproofing</li>
                   <li>• Insurance documentation</li>
@@ -480,7 +481,7 @@ export default function WindDamageRepairAndrewsPage() {
                 </div>
                 <div className="flex-grow">
                   <h3 className="text-2xl font-bold text-brand-brown mb-3">
-                    storm response & Damage Assessment
+                    post-storm documentation & Damage Assessment
                   </h3>
                   <p className="text-gray-600">
                     Our roofing team provides immediate property protection after Andrews

@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/roof-repair/" },
   title: "Roof Repair Services West Texas | 5 Star Roofing",
   description:
-    "Expert roof leak repair and emergency roofing services across West Texas. Same-day storm response, all materials. Call (806) 622-6041 for a free inspection.",
+    "Expert roof leak repair and emergency roofing services across West Texas. Same-day post-storm documentation, all materials. Call (806) 622-6041 for a free inspection.",
   openGraph: {
     title: "Roof Repair Services West Texas | 5 Star Roofing",
     description:
-      "Expert roof leak repair and emergency roofing services across West Texas. Same-day storm response, all materials. Call (806) 622-6041 for a free inspection.",
+      "Expert roof leak repair and emergency roofing services across West Texas. Same-day post-storm documentation, all materials. Call (806) 622-6041 for a free inspection.",
     url: "https://5starroofingpros.com/roof-repair/",
     siteName: "5 Star Roofing",
     images: [
@@ -374,7 +374,7 @@ export default function Page() {
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <div className="text-3xl font-bold text-brand-gold mb-2">2</div>
-            <h3 className="font-bold mb-2 text-brand-brown">Emergency Tarping</h3>
+            <h3 className="font-bold mb-2 text-brand-brown">Weatherproof Sheeting</h3>
             <p className="text-sm text-gray-600">
               For active leaks or exposed decking, we install heavy-duty tarps to stop water
               intrusion immediately and protect your interior from further damage.
@@ -488,7 +488,7 @@ export default function Page() {
           <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-red-500">
             <h3 className="text-xl font-semibold text-brand-brown mb-3">Critical Damage</h3>
             <p className="text-gray-700 mb-3">
-              Active water entry or structural compromise requiring immediate attention to prevent
+              Active water entry or structural compromise requiring professional attention to prevent
               interior damage.
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-600 text-sm">

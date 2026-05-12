@@ -215,8 +215,9 @@ export default function StormDamageRepairSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -245,7 +246,7 @@ export default function StormDamageRepairSnyderPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Snyder and
+              5 Star Commercial Roofing has protected properties throughout Snyder and
               Scurry County with premium materials and expert installation. From properties near
               Scurry County Museum to buildings throughout Snyder, we understand West Texas weather
               patterns, local building codes, and the specific needs of Scurry County property
@@ -500,7 +501,7 @@ export default function StormDamageRepairSnyderPage() {
                       1
                     </div>
                     <div>
-                      <h4 className="font-semibold text-lg mb-1">Storm Response</h4>
+                      <h4 className="font-semibold text-lg mb-1">post-storm documentation</h4>
                       <p className="text-sm opacity-90">
                         Priority service for Snyder's frequent severe weather events
                       </p>

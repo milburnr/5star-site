@@ -308,7 +308,7 @@ export default function Page() {
 
       <FadeIn>
         <h2 className="text-2xl font-bold mt-12 mb-4">
-          How Does Our Emergency Storm Response Work?
+          How Does Our Emergency Post-Storm Process?
         </h2>
         <p className="mb-6">
           When a storm hits, the priority is stopping water from entering your home or building. Our

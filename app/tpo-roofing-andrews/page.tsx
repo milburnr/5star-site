@@ -262,8 +262,9 @@ export default function TPORoofingAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -292,7 +293,7 @@ export default function TPORoofingAndrewsPage() {
               conditions that demand superior flat roof performance.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected commercial properties throughout
+              5 Star Commercial Roofing has protected commercial properties throughout
               Andrews and Andrews County with premium TPO roofing systems and expert installation.
               From oil field service buildings to retail complexes throughout Andrews, we understand
               Permian Basin weather patterns, commercial building requirements, and the specific

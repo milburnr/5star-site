@@ -132,7 +132,7 @@ export default function Page() {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Emergency Tarping After Hail",
+            name: "Weatherproof Sheeting After Hail",
           },
         },
         {
@@ -533,7 +533,7 @@ export default function Page() {
               necessary.
             </p>
             <p className="text-sm text-gray-500">
-              <strong>Action:</strong> Emergency tarping followed by full replacement. File a claim
+              <strong>Action:</strong> Emergency weatherproof sheeting followed by full replacement. File a claim
               immediately and request expedited processing.
             </p>
           </div>

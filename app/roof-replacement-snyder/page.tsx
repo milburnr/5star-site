@@ -286,7 +286,7 @@ export default function RoofReplacementSnyderPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Snyder's energy workers, families, and businesses with expert
+              We've served Snyder's energy workers, families, and businesses with expert
               installations, comprehensive warranties, and outstanding customer service. We
               understand the critical nature of protecting infrastructure in this essential energy
               producing region and work efficiently to minimize disruption to operations while

@@ -262,7 +262,7 @@ export default function Page() {
       </div>
       <h2 className="text-2xl font-bold mt-8 mb-4">Hail Damage? We Can Help</h2>
       <p className="mb-4">
-        If your roof was damaged in a recent storm, don't wait. Water intrusion can lead to
+        If your roof was damaged in a recent storm, contact us instead. Water intrusion can lead to
         expensive interior damage. Our hail damage services include:
       </p>
       <div className="grid md:grid-cols-2 gap-6 mb-8">

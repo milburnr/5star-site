@@ -155,7 +155,7 @@ export default function Page() {
         name: "How long do asphalt shingles last in West Texas?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "In West Texas, asphalt shingle lifespan depends heavily on the shingle type and local weather exposure. 3-tab shingles typically last 15-20 years, architectural shingles 20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian Basin can shorten these estimates by 3-5 years compared to milder climates. Annual inspections and prompt repairs extend lifespan significantly.",
+          text: "In West Texas, asphalt shingle lifespan depends heavily on the shingle type and local weather exposure. 3-tab shingles typically last 15-20 years, architectural shingles 20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian Basin can shorten these estimates by 3-5 years compared to milder climates. Annual inspections and efficient repairs extend lifespan significantly.",
         },
       },
       {
@@ -598,7 +598,7 @@ export default function Page() {
           How Do You Repair and Maintain Asphalt Shingles?
         </h2>
         <p className="mb-4">
-          Prompt repairs and regular maintenance keep your shingle roof performing for its full
+          Efficient repairs and regular maintenance keep your shingle roof performing for its full
           expected lifespan. Here are the most common maintenance tasks:
         </p>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -685,7 +685,7 @@ export default function Page() {
             20-30 years, and premium designer shingles up to 40-50 years. However, the intense UV
             exposure, temperature swings, frequent hail, and high winds in the Panhandle and Permian
             Basin can shorten these estimates by 3-5 years compared to milder climates. Annual
-            inspections and prompt repairs extend lifespan significantly.
+            inspections and efficient repairs extend lifespan significantly.
           </p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow">

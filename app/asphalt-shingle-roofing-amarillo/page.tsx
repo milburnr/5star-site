@@ -247,7 +247,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert asphalt shingle installation designed for Amarillo's extreme weather.
                 Specializing in Class 4 impact-resistant shingles that withstand hail, high winds,
-                and temperature swings. Local expertise since 2014.
+                and temperature swings. Local expertise serving the Texas Panhandle.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
@@ -336,7 +336,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-brown">Our Local Expertise</h3>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                  Since 2014, we've installed over 2,000 asphalt shingle roofs in Amarillo, learning
+                  We've installed over 2,000 asphalt shingle roofs in Amarillo, learning
                   exactly what works in our extreme climate:
                 </p>
                 <ul className="space-y-2 text-gray-700">
@@ -730,10 +730,10 @@ export default function AsphaltShingleRoofingAmarilloPage() {
 
                   <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
                     <h4 className="text-lg font-bold text-yellow-800 mb-2">
-                      Storm Response Guarantee
+                      Post-Storm Documentation
                     </h4>
                     <p className="text-yellow-700 text-sm">
-                      emergency tarping after storm damage. Priority scheduling for repairs after
+                      weatherproof sheeting after storm damage after storm damage. Priority scheduling for repairs after
                       severe weather events.
                     </p>
                   </div>

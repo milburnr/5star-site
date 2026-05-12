@@ -278,7 +278,7 @@ export default function TPORoofingAmarilloPage() {
               extreme temperature fluctuations and intense summer heat.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Amarillo's diverse commercial landscape with expert TPO
+              We've served Amarillo's diverse commercial landscape with expert TPO
               installations, comprehensive warranties, and outstanding customer service. Our local
               team understands Amarillo's building codes, permitting requirements, and insurance
               protocols. We handle all permits, insurance claims, and warranty documentation while

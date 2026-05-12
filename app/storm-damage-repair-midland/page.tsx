@@ -184,7 +184,7 @@ export default function Page() {
                 name: "Should I tarp my Midland roof after storm damage?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes, tarping prevents further water damage after storms. We provide tarping services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage.",
+                  text: "Yes, weatherproof sheeting prevents further water damage after storms. We provide weatherproof sheeting services available in Midland to protect your property until permanent repairs are completed. Most insurance policies cover mitigation costs, and prompt action prevents mold and interior damage.",
                 },
               },
               {
@@ -232,7 +232,7 @@ export default function Page() {
                 Storm Damage Repair in <span className="text-brand-gold-light">Midland</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Permian Basin Properties Since 2014
+                Protecting Permian Basin Properties For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert storm damage repair in Midland. for hail, wind, and weather damage. Complete
@@ -288,7 +288,7 @@ export default function Page() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've responded to every major Permian Basin storm event, serving
+              We've responded to every major Permian Basin storm event, serving
               properties from downtown Midland's financial district to residential areas in
               Grassland Estates, from oil company headquarters to worker housing developments, and
               throughout Midland International Air & Space Port's commercial corridor. Our expertise
@@ -420,7 +420,7 @@ export default function Page() {
                   beyond typical residential storm debris.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  storm response requires specialized safety protocols for petroleum facility areas
+                  post-storm documentation requires specialized safety protocols for petroleum facility areas
                 </p>
               </div>
 
@@ -525,10 +525,10 @@ export default function Page() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Oil field housing faces unique challenges including rapid construction schedules,
                   high occupancy turnover, and exposure to industrial environments. These properties
-                  require fast storm response due to worker safety and housing shortage
+                  require fast post-storm documentation due to worker safety and housing shortage
                   considerations. We're experienced with temporary housing repairs, insurance
                   coordination for rental properties, and meeting petroleum industry safety
-                  protocols during storm response in hazardous areas.
+                  protocols during post-storm documentation in hazardous areas.
                 </AccordionContent>
               </AccordionItem>
 
@@ -590,10 +590,10 @@ export default function Page() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  How do you handle storm response in petroleum facility areas?
+                  How do you handle post-storm documentation in petroleum facility areas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  storm response near petroleum facilities requires specialized safety protocols
+                  post-storm documentation near petroleum facilities requires specialized safety protocols
                   including gas monitoring, fire safety procedures, and hazardous area
                   classifications. Our crews maintain current certifications for petroleum facility
                   work and carry appropriate safety equipment. We coordinate with facility safety
@@ -609,7 +609,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              How Does the Permian Basin Storm Response Process Work?
+              How Does the Permian Basin post-storm documentation Process Work?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-orange-50 p-6 rounded-xl border-t-4 border-orange-500 text-center">
@@ -659,7 +659,7 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-brand-brown text-center">
-              How Does Our Storm Response Work in Midland?
+              How Does Our Post-Storm Process Work in Midland?
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe

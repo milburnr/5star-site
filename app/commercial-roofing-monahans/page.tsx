@@ -232,7 +232,7 @@ export default function CommercialRoofingMonahansPage() {
               one of Texas's most unique natural attractions.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Monahans' evolving economy with expert installations and
+              We've served Monahans' evolving economy with expert installations and
               comprehensive warranties for oil and gas facilities, emerging industries, and
               tourism-related businesses. We handle all
               permits, insurance claims, and warranty documentation.
@@ -555,7 +555,7 @@ export default function CommercialRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-yellow-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Monahans?
+              How Does Our Post-Storm Process Work in Monahans?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -570,7 +570,7 @@ export default function CommercialRoofingMonahansPage() {
                 </p>
 
                 <h4 className="text-xl font-bold text-brand-brown mb-3 mt-6">
-                  Desert storm response:
+                  Desert post-storm documentation:
                 </h4>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">

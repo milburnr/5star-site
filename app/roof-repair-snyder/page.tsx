@@ -226,8 +226,9 @@ export default function RoofRepairSnyderPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -258,7 +259,7 @@ export default function RoofRepairSnyderPage() {
               specialized roofing expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 275 properties throughout
+              5 Star Commercial Roofing has protected over 275 properties throughout
               Snyder and Scurry County with premium materials designed for West Texas extremes. From
               historic buildings near the Scurry County Museum to modern facilities along Highway
               84, we understand the unique combination of agricultural heritage and severe weather
@@ -317,7 +318,7 @@ export default function RoofRepairSnyderPage() {
                 <ul className="text-sm text-gray-600">
                   <li>• Hail damage assessment</li>
                   <li>• Wind uplift reinforcement</li>
-                  <li>• Prompt leak repairs</li>
+                  <li>• Efficient leak repairs</li>
                   <li>• Insurance documentation</li>
                 </ul>
               </div>
@@ -1067,7 +1068,7 @@ export default function RoofRepairSnyderPage() {
                 </a>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <h3 className="text-lg font-bold mb-3 text-brand-brown">storm response</h3>
+                <h3 className="text-lg font-bold mb-3 text-brand-brown">post-storm documentation</h3>
                 <p className="text-gray-600 mb-4 text-sm">
                   storm repair for West Texas storm damage
                 </p>

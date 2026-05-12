@@ -231,7 +231,7 @@ export default function CommercialRoofingBigSpringPage() {
               mission-critical facilities that operate.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Big Spring's unique institutional and commercial needs with
+              We've served Big Spring's unique institutional and commercial needs with
               expert installations and comprehensive warranties. We handle all
               permits, insurance claims, and warranty documentation.
             </p>
@@ -546,7 +546,7 @@ export default function CommercialRoofingBigSpringPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Big Spring?
+              How Does Our Post-Storm Process in Big Spring?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>

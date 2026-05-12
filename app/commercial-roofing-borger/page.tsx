@@ -264,7 +264,7 @@ export default function CommercialRoofingBorgerPage() {
               industrial-grade applications serving Borger's petrochemical sector.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              Since 2014, we've served Borger with expert installations, comprehensive warranties,
+              We've served Borger with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -352,7 +352,7 @@ export default function CommercialRoofingBorgerPage() {
               Hot work permits and fire watch procedures are mandatory for any heat-based
               installation techniques within refinery influence zones. We coordinate extensively
               with refinery safety personnel and maintain constant communication during installation
-              activities. storm response equipment and chemical exposure protocols are standard
+              activities. safety equipment and chemical exposure protocols are standard
               requirements for all crew members working in these environments.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -435,9 +435,9 @@ export default function CommercialRoofingBorgerPage() {
               system failures that could impact business operations.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              storm response capabilities are essential for commercial properties in Borger's
+              post-storm repair capabilities are essential for commercial properties in Borger's
               industrial area. Chemical spills, thermal events, and severe weather can compromise
-              roofing systems within hours. Our storm response teams maintain equipment specifically
+              roofing systems within hours. Our repair crews maintain equipment specifically
               designed for chemical-contaminated environments and coordinate with industrial storm
               response protocols.
             </p>
@@ -573,15 +573,15 @@ export default function CommercialRoofingBorgerPage() {
               professional roofing services and Response Capabilities
             </h3>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Borger's industrial environment requires immediate storm response capabilities for
-              roofing failures that could impact critical operations. Our storm response teams
+              Borger's industrial environment requires immediate post-storm repair capabilities for
+              roofing failures that could impact critical operations. Our repair crews
               maintain specialized equipment for chemical-contaminated environments and coordinate
-              with industrial storm response protocols established by major facilities including
+              with industrial post-storm protocols established by major facilities including
               Phillips 66.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Severe weather events including hailstorms, tornadoes, and high winds can cause
-              catastrophic damage to commercial roofing systems. tarping and temporary weather
+              catastrophic damage to commercial roofing systems. weatherproof sheeting and temporary weather
               protection services prevent secondary damage while permanent repairs are planned and
               executed. our roofing service times minimize business interruption and protect valuable
               interior assets.

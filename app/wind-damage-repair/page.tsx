@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair/" },
   title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
   description:
-    "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+    "Expert wind damage roof repair across Texas. Emergency weatherproof sheeting, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
   openGraph: {
     title: "Wind Damage Roof Repair Texas | 5 Star Roofing",
     description:
-      "Expert wind damage roof repair across Texas. Emergency tarping, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
+      "Expert wind damage roof repair across Texas. Emergency weatherproof sheeting, insurance documentation, and full restoration for wind-lifted shingles. Call (806) 622-6041.",
     url: "https://5starroofingpros.com/wind-damage-repair/",
     siteName: "5 Star Roofing",
     images: [
@@ -121,7 +121,7 @@ export default function Page() {
       },
     ],
     description:
-      "Professional wind damage roof repair services across Texas. Emergency tarping, damage assessment, insurance documentation, and complete roof restoration after wind storms.",
+      "Professional wind damage roof repair services across Texas. Emergency weatherproof sheeting, damage assessment, insurance documentation, and complete roof restoration after wind storms.",
   };
 
   const faqSchema = {
@@ -316,7 +316,7 @@ export default function Page() {
               1
             </div>
             <div>
-              <h3 className="font-bold text-brand-brown mb-1">Emergency Tarping</h3>
+              <h3 className="font-bold text-brand-brown mb-1">Weatherproof Sheeting</h3>
               <p className="text-gray-700">
                 If your roof has exposed areas, we tarp the damaged sections to prevent further
                 water intrusion. This is especially critical during active storm seasons when

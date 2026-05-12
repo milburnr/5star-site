@@ -230,7 +230,7 @@ export default function RoofReplacementLevellandPage() {
               Plains community.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, we've served Levelland's 12,565 residents with expert installations,
+              We've served Levelland's 12,565 residents with expert installations,
               comprehensive warranties, and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation for this college town and agricultural
               center.

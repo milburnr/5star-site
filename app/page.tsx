@@ -28,13 +28,13 @@ import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 export const metadata: Metadata = {
   title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
   description:
-    "Amarillo's trusted residential & commercial roofer since 2014. Hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
+    "Amarillo's trusted residential & commercial roofer serving the Texas Panhandle. Hail damage repair, roof replacement & free storm inspections. Serving the Texas Panhandle. Call (806) 622-6041",
   keywords:
     "amarillo roofing, roofing company amarillo tx, residential roofing amarillo, commercial roofing amarillo, hail damage repair amarillo, roof repair amarillo, texas panhandle roofer, storm damage roof repair, insurance claims roofing, midland roofing, odessa roofing",
   openGraph: {
     title: "Amarillo Roofing Company | Residential & Commercial | 5 Star Roofing",
     description:
-      "Amarillo's trusted residential & commercial roofer since 2014. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
+      "Amarillo's trusted residential & commercial roofer serving the Texas Panhandle. 10+ years specializing in hail damage repair and insurance claims across the Texas Panhandle.",
     url: "https://5starroofingpros.com",
     siteName: "5 Star Roofing",
     images: [
@@ -134,8 +134,8 @@ export default async function Page() {
                 style={{ textShadow: "0 2px 6px rgba(0,0,0,0.8)" }}
               >
                 {places
-                  ? `⭐ ${places.rating.toFixed(1)} on Google — ${places.user_ratings_total} Reviews | Serving West Texas Since 2014`
-                  : "Serving West Texas Since 2014"}
+                  ? `⭐ ${places.rating.toFixed(1)} on Google — ${places.user_ratings_total} Reviews | Serving West Texas For many years`
+                  : "Serving West Texas For many years"}
               </p>
               <p
                 className="hidden sm:block text-sm md:text-base lg:text-lg mb-4 md:mb-6 text-white/90 leading-relaxed max-w-2xl"
@@ -550,7 +550,7 @@ export default async function Page() {
                 <Check className="w-8 h-8 text-brand-gold" />
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Fast storm response</h3>
+                <h3 className="font-bold text-lg mb-2">Fast post-storm documentation</h3>
                 <p>
                   Insurance-grade storm-damage documentation: After a storm, we document damage with
                   photos and adjuster-ready reports, then handle{" "}
@@ -1546,7 +1546,7 @@ export default async function Page() {
                   >
                     (806) 622-6041
                   </a>{" "}
-                  for same-day storm response.
+                  for same-day post-storm documentation.
                 </p>
               </div>
               <div className="md:col-span-3">
@@ -1558,7 +1558,7 @@ export default async function Page() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-lg text-center below-fold">
-          <h2 className="text-3xl font-bold mb-4">Storm Damage? Don't Wait.</h2>
+          <h2 className="text-3xl font-bold mb-4">Storm Damage? Act Early.</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             The sooner you address roof damage, the less costly repairs will be. Get your free
             inspection today and let us handle your insurance claim.

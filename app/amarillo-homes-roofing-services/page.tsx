@@ -275,7 +275,7 @@ export default function Page() {
         <p>
           If you're looking for reliable <strong>roofing services</strong> in Amarillo, contact 5
           Star Commercial Roofing today for a free consultation and estimate. We offer same-day
-          prompt services for storm damage and provide comprehensive insurance claim assistance.
+          scheduling for storm damage and provide comprehensive insurance claim assistance.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">
@@ -478,7 +478,7 @@ export default function Page() {
         <p>
           Ready to get started? Call us today at <strong>(806) 622-6041</strong> to schedule your
           free roof inspection. We offer flexible scheduling, including evening and weekend
-          appointments, and provide same-day prompt services for storm damage. Don't wait until
+          appointments, and provide same-day scheduling for storm damage. Address issues before
           minor issues become major problems— contact us today for a free estimate.
         </p>
       </div>
@@ -490,7 +490,7 @@ export default function Page() {
         </h2>
         <p className="mb-6 text-gray-700">
           Contact 5 Star Commercial Roofing for expert residential roofing service in Amarillo and
-          surrounding areas. Free inspections and same-day storm response available.
+          surrounding areas. Free inspections and same-day post-storm documentation available.
         </p>
         <div className="flex gap-4 flex-wrap">
           <a href="tel:8066226041" className="btn-primary-hero">

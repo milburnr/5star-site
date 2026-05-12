@@ -239,7 +239,7 @@ export default function ResidentialRoofingMonahansPage() {
               and the demanding energy sector environment.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Monahans's 6,950 residents with expert installations designed
+              We've served Monahans's 6,950 residents with expert installations designed
               for desert extremes. Our team understands the specific needs of oil field housing,
               permanent family residences, and the growing number of modern developments supporting
               the energy boom.
@@ -476,7 +476,7 @@ export default function ResidentialRoofingMonahansPage() {
 
                 <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">
-                    Specialized services for energy sector housing projects. storm response
+                    Specialized services for energy sector housing projects. post-storm documentation
                     available for critical infrastructure.
                   </p>
                 </div>
@@ -673,11 +673,11 @@ export default function ResidentialRoofingMonahansPage() {
 
             <div className="bg-gradient-to-r from-orange-50 to-red-50 p-8 rounded-xl">
               <h3 className="text-2xl font-bold text-brand-brown mb-4">
-                prompt services for Energy Sector
+                scheduling for Energy Sector
               </h3>
               <p className="text-gray-700 mb-6">
                 The oil industry operates, and housing infrastructure must maintain continuous
-                operation. Our storm response team understands the critical nature of energy sector
+                operation. Our repair crew understands the critical nature of energy sector
                 housing and provides priority service for workforce developments.
               </p>
 
@@ -710,7 +710,7 @@ export default function ResidentialRoofingMonahansPage() {
                   </div>
                   <h4 className="font-bold text-brand-brown mb-2">Availability</h4>
                   <p className="text-gray-700 text-sm">
-                    Round-the-clock prompt services to match energy sector operational demands.
+                    Round-the-clock scheduling to match energy sector operational demands.
                   </p>
                 </div>
               </div>

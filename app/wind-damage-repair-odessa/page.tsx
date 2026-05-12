@@ -232,7 +232,7 @@ export default function Page() {
                 Wind Damage Repair in <span className="text-brand-gold-light">Odessa</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Permian Basin Properties Since 2014
+                Protecting Permian Basin Properties For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Wind damage repair in Odessa. Permian Basin sustained winds with gusts over 65+ mph.
@@ -266,7 +266,7 @@ export default function Page() {
               Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected Odessa properties with premium
+              5 Star Commercial Roofing has protected Odessa properties with premium
               materials and expert installation. Serving property owners from Music City Mall to
               Downtown Odessa, from the UTPB campus area to Ratliff Stadium neighborhoods, from the
               Odessa Meteor Crater vicinity to Ector County Coliseum communities, we provide expert
@@ -339,12 +339,12 @@ export default function Page() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              How Does storm response for Odessa Wind Damage Events Work?
+              How Does post-storm documentation for Odessa Wind Damage Events Work?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Odessa's location puts it in the path of severe spring storms moving northeast from
               Mexico and powerful cold fronts sweeping south across the High Plains. These weather
-              systems regularly produce damaging winds, requiring immediate storm response to
+              systems regularly produce damaging winds, requiring professional damage documentation to
               prevent secondary water damage to commercial and residential properties.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
@@ -356,8 +356,8 @@ export default function Page() {
               essential services.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              tarping procedures for Odessa properties require specialized techniques due to ongoing
-              high winds. Standard tarping methods often fail in sustained 40+ mph winds common
+              weatherproof sheeting procedures for Odessa properties require specialized techniques due to ongoing
+              high winds. Standard weatherproof sheeting methods often fail in sustained 40+ mph winds common
               after storm passage. We use reinforced tarp systems with additional anchor points,
               tension cables, and wind-load distribution techniques specifically developed for West
               Texas conditions. These emergency measures protect properties while insurance

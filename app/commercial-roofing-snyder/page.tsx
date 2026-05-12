@@ -228,7 +228,7 @@ export default function CommercialRoofingSnyderPage() {
               including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, we've served Snyder with expert installations, comprehensive warranties,
+              We've served Snyder with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -715,7 +715,7 @@ export default function CommercialRoofingSnyderPage() {
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Response</h3>
+                      <h3 className="text-lg font-bold mb-2 text-brand-brown">Storm Damage Documentation</h3>
                       <p className="text-gray-700">
                         {" "}
                         for storm damage, leak repairs, and urgent roofing issues affecting Snyder

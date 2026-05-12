@@ -265,7 +265,7 @@ export default function CommercialRoofingCanyonPage() {
               businesses that support both academic life and the growing tourism industry.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Canyon's unique blend of educational, tourism, and
+              We've served Canyon's unique blend of educational, tourism, and
               agricultural sectors with expert installations and comprehensive warranties. We handle all permits,
               insurance claims, and warranty documentation for educational institutions and
               commercial properties.
@@ -581,7 +581,7 @@ export default function CommercialRoofingCanyonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-red-50 to-orange-50 p-10 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Canyon?
+              How Does Our Post-Storm Process Work in Canyon?
             </h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -590,7 +590,7 @@ export default function CommercialRoofingCanyonPage() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Canyon's tourism industry peaks during spring and fall when visitors flock to Palo
-                  Duro Canyon. Our storm response prioritizes hospitality and tourism facilities
+                  Duro Canyon. Our post-storm documentation prioritizes hospitality and tourism facilities
                   during these critical revenue periods, ensuring minimal impact to visitor
                   experiences and business operations.
                 </p>
@@ -697,7 +697,7 @@ export default function CommercialRoofingCanyonPage() {
                     <AnimatedCounter to={15} suffix="%" />
                   </div>
                   <div className="text-brand-brown font-semibold">Tourism Revenue Protected</div>
-                  <div className="text-sm text-gray-600 mt-1">During storm responses</div>
+                  <div className="text-sm text-gray-600 mt-1">During post-storm documentations</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-brand-gold mb-2">

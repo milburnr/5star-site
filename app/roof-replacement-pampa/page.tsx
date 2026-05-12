@@ -331,7 +331,7 @@ export default function RoofReplacementPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Pampa's energy workers, families, and businesses with expert
+              We've served Pampa's energy workers, families, and businesses with expert
               installations, comprehensive warranties, and outstanding customer service. We
               understand the critical nature of protecting your investment in this vital energy
               community. We handle all permits, insurance claims, and warranty documentation
@@ -606,7 +606,7 @@ export default function RoofReplacementPampaPage() {
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>storm response</div>
+                    <div>post-storm documentation</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">
@@ -650,7 +650,7 @@ export default function RoofReplacementPampaPage() {
                   <li>• High-temperature performance materials</li>
                   <li>• Explosion-resistant construction</li>
                   <li>• Environmental compliance standards</li>
-                  <li>• Rapid repair capabilities for minimal downtime</li>
+                  <li>• Efficient repair capabilities for minimal downtime</li>
                 </ul>
               </div>
               <div className="bg-amber-50 p-8 rounded-xl">

@@ -229,7 +229,7 @@ export default function HailDamageRepairMonahansPage() {
               conditions including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Monahans with expert installations, comprehensive warranties,
+              We've served Monahans with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -369,7 +369,7 @@ export default function HailDamageRepairMonahansPage() {
                 <div className="text-4xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Response Protocol</h3>
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Post-Storm Documentation Protocol</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
                     • <strong>Storm Tracking Technology:</strong> Advanced radar monitoring for
@@ -438,12 +438,12 @@ export default function HailDamageRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-orange-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              How Does Our Storm Response Work in Monahans?
+              How Does Our Post-Storm Process Work in Monahans?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                  Immediate Storm Response (0-2 Hours)
+                  Post-Storm Assessment (0-2 Hours)
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
@@ -477,7 +477,7 @@ export default function HailDamageRepairMonahansPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Industrial Coordination</h4>
                       <p className="text-gray-600 text-sm">
-                        Safety coordination with nearby oil and gas operations during storm response
+                        Safety coordination with nearby oil and gas operations during post-storm documentation
                         activities
                       </p>
                     </div>
@@ -488,7 +488,7 @@ export default function HailDamageRepairMonahansPage() {
                   <p className="text-gray-700 text-sm">
                     Established partnerships with Ward County Emergency Management, Monahans Fire
                     Department, and Permian Basin industrial safety coordinators ensure
-                    comprehensive storm response.
+                    comprehensive post-storm documentation.
                   </p>
                 </div>
               </div>
@@ -698,7 +698,7 @@ export default function HailDamageRepairMonahansPage() {
                       </h4>
                       <p className="text-gray-600 text-sm">
                         Documentation of how extreme temperatures compound hail damage requiring
-                        immediate attention
+                        professional attention
                       </p>
                     </div>
                   </div>

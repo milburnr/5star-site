@@ -284,7 +284,7 @@ export default function TPORoofingMidlandPage() {
               loads.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Midland's energy sector with expert TPO installations
+              We've served Midland's energy sector with expert TPO installations
               engineered for industrial demands. Our team understands the specific requirements of
               petroleum facilities, corporate headquarters, processing plants, and the high-rise
               office towers that house the world's leading energy companies. We handle complex

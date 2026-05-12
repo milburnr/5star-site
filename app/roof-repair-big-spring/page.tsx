@@ -216,8 +216,9 @@ export default function RoofRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +249,7 @@ export default function RoofRepairBigSpringPage() {
               roofing expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 400 properties throughout Big
+              5 Star Commercial Roofing has protected over 400 properties throughout Big
               Spring and Howard County with premium materials and expert craftsmanship. From
               historic downtown buildings near the Howard County Courthouse to modern facilities
               along Interstate 20, we understand the unique intersection of weather patterns that
@@ -315,7 +316,7 @@ export default function RoofRepairBigSpringPage() {
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
-                <h4 className="text-xl font-bold mb-3 text-brand-brown">storm response Services</h4>
+                <h4 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation Services</h4>
                 <p className="text-gray-600 mb-3">
                   availability for urgent repairs protecting Big Spring properties.
                 </p>
@@ -662,9 +663,9 @@ export default function RoofRepairBigSpringPage() {
                   <div className="text-4xl mb-2">
                     <Zap className="w-6 h-6 inline-block" />
                   </div>
-                  <h4 className="font-bold mb-2 text-brand-brown">Rapid Storm Response</h4>
+                  <h4 className="font-bold mb-2 text-brand-brown">Rapid post-storm documentation</h4>
                   <p className="text-sm text-gray-600">
-                    prompt services when Big Spring weather strikes
+                    scheduling when Big Spring weather strikes
                   </p>
                 </div>
                 <div className="text-center">

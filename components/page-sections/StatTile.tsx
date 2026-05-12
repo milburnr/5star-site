@@ -9,7 +9,7 @@ interface StatTileProps {
   suffix?: string;
   /** Prefix prepended to the animated number (e.g. "$"). */
   prefix?: string;
-  /** Static text alternative — for stats that aren't numeric counters ("24/7", "5.0/5.0"). */
+  /** Static text alternative — for stats that aren't numeric counters (e.g. "Free", "5.0/5.0"). */
   displayValue?: ReactNode;
   /** Sub-label under the number. */
   label: string;
@@ -30,7 +30,7 @@ interface StatTileProps {
  *
  * Accepts either:
  *   - to + optional prefix/suffix → animated count-up via <AnimatedCounter>
- *   - displayValue → static text or icon (use for non-numeric like "24/7"
+ *   - displayValue → static text or icon (use for non-numeric like "Free" or other static values
  *     or "5-star row" — pass icons as ReactNode)
  *
  * Wraps in <a> when href is set so the entire tile is clickable; otherwise

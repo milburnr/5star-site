@@ -229,7 +229,7 @@ export default function HailDamageRepairLevellandPage() {
               conditions including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Levelland with expert installations, comprehensive
+              We've served Levelland with expert installations, comprehensive
               warranties, and outstanding customer service. We handle all permits, insurance claims,
               and warranty documentation. Free inspections and estimates available.
             </p>
@@ -435,12 +435,12 @@ export default function HailDamageRepairLevellandPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-amber-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              How Does Our Storm Response Work in Levelland?
+              How Does Our Post-Storm Process in Levelland?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                  Immediate Storm Response (0-4 Hours)
+                  Post-Storm Assessment (0-4 Hours)
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
@@ -474,7 +474,7 @@ export default function HailDamageRepairLevellandPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Storm Protection</h4>
                       <p className="text-gray-600 text-sm">
-                        Professional tarping and board-up services to prevent additional water
+                        Professional weatherproof sheeting services to prevent additional water
                         damage and secure property
                       </p>
                     </div>

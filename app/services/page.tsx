@@ -280,7 +280,7 @@ export default function Page() {
                     Storm Damage Restoration
                   </h3>
                   <p className="mb-4">
-                    Wind, rain, snow, ice, and severe weather damage require immediate attention to
+                    Wind, rain, snow, ice, and severe weather damage require professional attention to
                     prevent further interior damage and costly repairs.
                   </p>
                   <ul className="list-disc list-inside text-gray-600 space-y-2 mb-4">
@@ -708,7 +708,7 @@ export default function Page() {
               </div>
               <h3 className="font-bold text-xl mb-3">Fast Response Times</h3>
               <p className="text-gray-600">
-                Same-day storm response, 24-48 hour inspection scheduling, and rapid project
+                Same-day post-storm documentation, 24-48 hour inspection scheduling, and rapid project
                 completion to minimize business interruption.
               </p>
             </div>

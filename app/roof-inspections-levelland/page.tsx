@@ -279,7 +279,7 @@ export default function RoofInspectionsLevellandPage() {
               supercell thunderstorms moving northeast from Mexico and the Southwest.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2008, 5 Star Commercial Roofing has provided comprehensive roof inspection
+              For many years, 5 Star Commercial Roofing has provided comprehensive roof inspection
               services throughout Levelland and Hockley County. Our experienced inspectors
               understand the unique challenges of South Plains weather, local building requirements,
               insurance regulations, and the specific needs of property owners from downtown
@@ -619,7 +619,7 @@ export default function RoofInspectionsLevellandPage() {
               </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-bold mb-3 text-amber-700">Immediate Storm Response</h4>
+                  <h4 className="font-bold mb-3 text-amber-700">Post-Storm Assessment</h4>
                   <ul className="space-y-2 text-amber-700 text-sm">
                     <li>• Document the storm date, time, and severity with weather reports</li>
                     <li>• Take initial photographs before any temporary protective measures</li>
@@ -925,7 +925,7 @@ export default function RoofInspectionsLevellandPage() {
           <p className="text-xl mb-8 max-w-4xl mx-auto">
             The South Plains region's severe weather demands proactive roof protection. With 7-10
             major hailstorms annually, professional inspections are essential for early damage
-            detection and insurance compliance. Don't wait for leaks—schedule your comprehensive
+            detection and insurance compliance. Schedule before leaks appear—schedule your comprehensive
             inspection today.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">

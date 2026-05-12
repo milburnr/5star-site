@@ -264,7 +264,7 @@ export default function ResidentialRoofingPampaPage() {
               and proximity to severe weather corridors.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Pampa's 17,300 residents with expert installations designed
+              We've served Pampa's 17,300 residents with expert installations designed
               for Panhandle extremes. Our team understands the diverse housing needs of this
               historic railroad town, from established neighborhoods near downtown to modern
               developments supporting the area's oil and gas operations.
@@ -509,7 +509,7 @@ export default function ResidentialRoofingPampaPage() {
 
                 <div className="mt-6 p-4 bg-amber-50 rounded-lg">
                   <p className="text-sm text-brand-brown font-semibold">
-                    Priority storm response for severe weather events. prompt services available
+                    Priority post-storm documentation for severe weather events. scheduling available
                     during severe weather season.
                   </p>
                 </div>
@@ -622,7 +622,7 @@ export default function ResidentialRoofingPampaPage() {
                   How do you prepare for severe weather season?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We maintain storm response protocols from March through October, Pampa's peak
+                  We maintain post-storm protocols from March through October, Pampa's peak
                   severe weather season. This includes pre-positioned materials, response teams, and
                   coordination with local emergency management. We offer preventive inspections and
                   minor repairs before storm season to minimize damage risk.
@@ -658,13 +658,13 @@ export default function ResidentialRoofingPampaPage() {
                 <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Season Readiness</h3>
                 <p className="text-gray-700 mb-6">
                   Pampa's location at the "Top of Texas" places it directly in the path of severe
-                  Panhandle weather systems. Our comprehensive storm response program ensures rapid
+                  Panhandle weather systems. Our comprehensive post-storm documentation program ensures rapid
                   recovery when severe weather strikes Gray County.
                 </p>
 
                 <div className="bg-red-50 p-6 rounded-xl">
                   <h4 className="font-bold text-brand-brown mb-2">
-                    <Zap className="w-6 h-6 inline-block" /> Storm Response Protocol:
+                    <Zap className="w-6 h-6 inline-block" /> Post-Storm Documentation Protocol:
                   </h4>
                   <ul className="text-gray-700 space-y-1">
                     <li>• Rapid damage assessment teams</li>

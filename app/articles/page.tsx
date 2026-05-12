@@ -178,11 +178,11 @@ export default function Page() {
             {" "}
             Odessa
           </a>
-          , and Lubbock. We offer free inspections, prompt services, and work directly with your
+          , and Lubbock. We offer free inspections, scheduling, and work directly with your
           insurance company for hail and storm damage claims. Call <strong>
             (806) 622-6041
           </strong>{" "}
-          today for immediate assistance.
+          today to schedule an inspection.
         </p>
       </section>
       {/* Additional Content Section */}

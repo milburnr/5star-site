@@ -256,7 +256,7 @@ export default function Page() {
                 Wind Damage Repair in <span className="text-brand-gold-light">Midland</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Permian Basin Properties Since 2014
+                Protecting Permian Basin Properties For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Midland's position at 2,779 feet elevation in the heart of the Permian Basin creates

@@ -216,8 +216,9 @@ export default function RoofRepairAndrewsPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -247,7 +248,7 @@ export default function RoofRepairAndrewsPage() {
               can deteriorate roofing materials in just a few seasons.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 500 properties throughout
+              5 Star Commercial Roofing has protected over 500 properties throughout
               Andrews and Andrews County with premium materials and expert installation. From
               historic buildings near the Andrews County Courthouse on Main Street to modern
               facilities along Highway 385, we understand the specific demands of West Texas weather
@@ -527,7 +528,7 @@ export default function RoofRepairAndrewsPage() {
                   We provide service for Andrews County. Our team typically arrives within
                   2-4 hours for service calls, with temporary repairs completed the same day when
                   weather permits. We understand that Permian Basin storms can cause sudden, severe
-                  damage that requires immediate attention to prevent further property damage.
+                  damage that requires professional attention to prevent further property damage.
                 </AccordionContent>
               </AccordionItem>
 
@@ -653,7 +654,7 @@ export default function RoofRepairAndrewsPage() {
                   <div className="text-4xl mb-2">
                     <Clock className="w-6 h-6 inline-block" />
                   </div>
-                  <h4 className="font-bold mb-2 text-brand-brown">Storm Response</h4>
+                  <h4 className="font-bold mb-2 text-brand-brown">post-storm documentation</h4>
                   <p className="text-sm text-gray-600">
                     Always available when Andrews weather strikes
                   </p>

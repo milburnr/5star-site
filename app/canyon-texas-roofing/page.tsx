@@ -396,7 +396,7 @@ export default function CanyonRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Storm Damage Repair</h3>
                 <p className="text-gray-700 mb-4">
-                  When severe weather strikes Canyon, we respond with tarping and rapid roof
+                  When severe weather strikes Canyon, we respond with weatherproof sheeting and rapid roof
                   repairs. Call us immediately for storm damage assessment.
                 </p>
                 <a href="/storm-damage-repair-amarillo/" className="text-red-700 font-semibold">

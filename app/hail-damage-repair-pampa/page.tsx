@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-pampa/" },
   title: "Hail Damage Repair Pampa TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
+    "Professional hail damage roof repair in Pampa TX. Insurance assistance, free inspections. Serving Gray County. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Pampa TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Pampa TX. Storm response, insurance assistance. Serving Gray County. Call (806) 622-6041",
+      "Professional hail damage roof repair in Pampa TX. Insurance assistance, free inspections. Serving Gray County. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-pampa/",
     siteName: "5 Star Roofing",
     images: [
@@ -217,7 +217,7 @@ export default function HailDamageRepairPampaPage() {
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
                 Pampa—the county seat of Gray County and heart of the northern Texas Panhandle—faces
-                some of the region's most severe weather. Since 2014, 5 Star Roofing has helped
+                some of the region's most severe weather. 5 Star Roofing has helped
                 Pampa homeowners and businesses recover from hail damage with expert repairs,
                 insurance claim assistance, and Class 4 impact-resistant replacements.
               </p>
@@ -242,8 +242,9 @@ export default function HailDamageRepairPampaPage() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -494,7 +495,7 @@ export default function HailDamageRepairPampaPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55
+              5 Star Roofing has been serving Pampa and Gray County serving the Texas Panhandle. Located about 55
               miles from our Amarillo headquarters. We understand Pampa's unique combination of industrial,
               residential, and agricultural properties, having helped hundreds of property owners
               protect their investments with expert repairs and storm-resistant materials. Our
@@ -693,7 +694,7 @@ export default function HailDamageRepairPampaPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <p className="text-lg mb-2">
-                    Serving Pampa since 2014 with both residential and commercial expertise. We
+                    Serving Pampa serving the area with both residential and commercial expertise. We
                     understand the unique challenges of Gray County's industrial and residential
                     mix.
                   </p>

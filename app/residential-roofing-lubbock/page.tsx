@@ -237,7 +237,7 @@ export default function ResidentialRoofingLubbockPage() {
                 Residential Roofing in <span className="text-brand-gold-light">Lubbock</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Serving Texas Tech University Area Since 2014
+                Serving Texas Tech University Area For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert residential roofing serving Tech Terrace, Raider Ranch, and all Lubbock
@@ -303,7 +303,7 @@ export default function ResidentialRoofingLubbockPage() {
               need Class 4 impact-resistant materials engineered for South Plains weather.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected over 800 Lubbock homes with premium Class 4 shingles
+              We've protected over 800 Lubbock homes with premium Class 4 shingles
               designed to withstand 2-inch hail impacts. From historic Tech Terrace bungalows to
               modern Raider Ranch estates, we serve every neighborhood in Lubbock County. We handle
               100% of insurance claims paperwork, secure all City of Lubbock building permits, and
@@ -394,7 +394,7 @@ export default function ResidentialRoofingLubbockPage() {
                   We understand Lubbock County's unique weather patterns—from baseball-size hail to
                   intense UV exposure and temperature extremes. Recent storms produced 4.00-inch
                   hail that destroyed standard shingles but barely scratched our Class 4
-                  installations. We've weathered every major hail event since 2014, protecting
+                  installations. We've weathered every major hail event serving the region, protecting
                   hundreds of homes while others required repeated repairs.
                 </p>
               </div>

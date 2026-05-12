@@ -300,7 +300,7 @@ export default function WindDamageRepairPampaPage() {
               damage repair.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've repaired wind damage on 220+ Pampa properties using materials
+              We've repaired wind damage on 220+ Pampa properties using materials
               engineered for extreme High Plains conditions. From homes near Woody Guthrie Folk
               Music Center to buildings near Hobart Street Park and White Deer Land Museum, we
               install wind-rated roofing systems (130+ mph), enhanced fastening patterns, and
@@ -379,8 +379,8 @@ export default function WindDamageRepairPampaPage() {
               integrity around high-pressure operations.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Our storm response teams maintain OSHA safety certifications and specialized equipment
-              for working around active oil and gas operations. tarping and temporary repairs use
+              Our repair crews maintain OSHA safety certifications and specialized equipment
+              for working around active oil and gas operations. weatherproof sheeting and temporary repairs use
               fire-resistant materials and spark-free installation techniques required in
               potentially hazardous environments. All repairs coordinate with facility safety
               personnel and follow established industry protocols.
@@ -407,12 +407,12 @@ export default function WindDamageRepairPampaPage() {
               Wind damage repairs to agricultural facilities require coordination with livestock
               management and seasonal operations. Cattle barns need immediate weather protection to
               maintain animal welfare, while feed storage facilities require rapid repair to prevent
-              feed contamination and spoilage. Our agricultural storm response prioritizes livestock
+              feed contamination and spoilage. Our agricultural post-storm documentation prioritizes livestock
               protection and feed preservation.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Hay storage and grain facilities present unique wind damage challenges as compromised
-              roofing can destroy entire harvests worth hundreds of thousands of dollars. tarping
+              roofing can destroy entire harvests worth hundreds of thousands of dollars. weatherproof sheeting
               for agricultural storage requires specialized anchoring techniques that prevent tarp
               failure in continued high winds while maintaining access for loading and unloading
               operations.
@@ -530,18 +530,18 @@ export default function WindDamageRepairPampaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              How Does Our Storm Response Work in Pampa?
+              How Does Our Post-Storm Process Work in Pampa?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Wind damage emergencies in Gray County require coordination with multiple agencies
               including county emergency management, volunteer fire departments, and mutual aid
               partners from surrounding counties. The area's rural nature and dispersed population
-              create challenges for rapid storm response that require advance planning and resource
+              create challenges for efficient post-storm documentation that require advance planning and resource
               positioning.
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Pampa's position as Gray County seat provides emergency management resources and
-              equipment that support countywide storm response. However, the vast distances involved
+              equipment that support countywide post-storm documentation. However, the vast distances involved
               in serving ranch properties and oil facilities throughout the county demand strategic
               equipment positioning and coordination with local first responders familiar with rural
               access challenges.

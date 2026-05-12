@@ -444,7 +444,7 @@ export default function RoofMaintenanceChecklistPage() {
                   <Tornado className="w-6 h-6 inline-block" /> Large Missing Sections
                 </h3>
                 <p className="text-gray-700">
-                  Wind has blown off large sections of roofing. Exposed decking needs tarping to
+                  Wind has blown off large sections of roofing. Exposed decking needs weatherproof sheeting to
                   prevent interior damage.
                 </p>
               </div>

@@ -231,7 +231,7 @@ export default function ResidentialRoofingAndrewsPage() {
               thunderstorms, hail, and the sandstorms that sweep across Andrews County's plains.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've been the trusted roofing partner for Andrews families, oil industry
+              We've been the trusted roofing partner for Andrews families, oil industry
               workers, and retirees who call this West Texas community home. We understand the
               unique challenges facing Andrews homeowners – from the extreme temperature swings that
               cause thermal expansion stress to the sudden severe weather that can roll in from the
@@ -401,7 +401,7 @@ export default function ResidentialRoofingAndrewsPage() {
                     when workers are away on rotation.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    Our flexible scheduling and storm response services ensure Andrews oil families
+                    Our flexible scheduling and post-storm documentation services ensure Andrews oil families
                     never lose protection, regardless of work schedules. We coordinate with both
                     homeowners and property management companies serving temporary housing needs.
                   </p>

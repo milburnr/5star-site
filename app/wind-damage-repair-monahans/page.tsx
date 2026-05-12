@@ -228,8 +228,9 @@ export default function WindDamageRepairMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -258,7 +259,7 @@ export default function WindDamageRepairMonahansPage() {
               demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Monahans and
+              5 Star Commercial Roofing has protected properties throughout Monahans and
               Ward County with premium materials and expert installation. From properties near
               Monahans Sandhills State Park to buildings throughout Monahans, we understand Permian
               Basin weather patterns, local building codes, and the specific needs of Ward County
@@ -449,7 +450,7 @@ export default function WindDamageRepairMonahansPage() {
                   <p className="text-gray-700 leading-relaxed">
                     Industrial facilities cannot shut down for repairs. We develop phased repair
                     plans that maintain operational continuity while addressing wind damage. Our
-                    scheduling accommodates production requirements and storm response needs.
+                    scheduling accommodates production requirements and repair scheduling needs.
                   </p>
                 </div>
               </div>
@@ -621,7 +622,7 @@ export default function WindDamageRepairMonahansPage() {
                 </div>
                 <h3 className="font-bold text-brand-brown mb-2">Municipal Facilities</h3>
                 <p className="text-gray-600 text-sm">
-                  Government buildings, prompt services, public works
+                  Government buildings, scheduling, public works
                 </p>
               </div>
             </div>
@@ -646,7 +647,7 @@ export default function WindDamageRepairMonahansPage() {
               </div>
               <p className="text-xl text-gray-700 max-w-3xl mx-auto">
                 Desert microbursts and dust storms can cause catastrophic damage to industrial
-                facilities. storm response is critical.
+                facilities. quick documentation and repair is critical.
               </p>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
@@ -664,7 +665,7 @@ export default function WindDamageRepairMonahansPage() {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg">
                 <h3 className="text-xl font-bold text-red-700 mb-4">
-                  Our Industrial Storm Response Services
+                  Our Post-Storm Repair Services
                 </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• certified industrial response team</li>

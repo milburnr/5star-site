@@ -299,7 +299,7 @@ export default function RoofRepairCanyonPage() {
               expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 350+ Canyon properties with premium materials engineered
+              We've protected 350+ Canyon properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Canyon
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -573,7 +573,7 @@ export default function RoofRepairCanyonPage() {
                     <p className="text-gray-700 mb-3">
                       Our Canyon service team provides our roofing service to service calls,
                       understanding that university district timing is critical for students and
-                      faculty. We prioritize same-day storm response and work around academic
+                      faculty. We prioritize same-day post-storm documentation and work around academic
                       schedules when possible.
                     </p>
                     <ul className="text-gray-600 space-y-1">

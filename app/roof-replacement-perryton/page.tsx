@@ -329,7 +329,7 @@ export default function RoofReplacementPerrytonPage() {
             </div>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Perryton's farming families, agribusiness operations, and
+              We've served Perryton's farming families, agribusiness operations, and
               community members with expert installations, comprehensive warranties, and outstanding
               customer service. We understand the critical timing of agricultural seasons and work
               efficiently to protect your investment without disrupting operations.
@@ -587,7 +587,7 @@ export default function RoofReplacementPerrytonPage() {
                     <div className="text-brand-gold-light">
                       <Check className="w-5 h-5 text-brand-gold inline-block" />
                     </div>
-                    <div>storm response</div>
+                    <div>post-storm documentation</div>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="text-brand-gold-light">

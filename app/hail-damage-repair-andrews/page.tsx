@@ -229,7 +229,7 @@ export default function HailDamageRepairAndrewsPage() {
               conditions including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Andrews with expert installations, comprehensive warranties,
+              We've served Andrews with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>
@@ -394,11 +394,11 @@ export default function HailDamageRepairAndrewsPage() {
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Storm Mitigation</h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
-                    • <strong>Immediate Tarping:</strong> Professional-grade tarps with secure
+                    • <strong>Immediate weatherproof sheeting:</strong> Professional-grade tarps with secure
                     fastening systems
                   </li>
                   <li>
-                    • <strong>Board-Up Services:</strong> Temporary protection for compromised
+                    • <strong>Securing Services:</strong> Temporary protection for compromised
                     openings
                   </li>
                   <li>

@@ -298,7 +298,7 @@ export default function RoofRepairBorgerPage() {
               Panhandle weather extremes—demand superior roofing materials and expert installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Borger properties with premium materials engineered
+              We've protected 180+ Borger properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Borger
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -558,7 +558,7 @@ export default function RoofRepairBorgerPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">
-                      storm response Assessment
+                      post-storm documentation Assessment
                     </h3>
                     <p className="text-gray-700 mb-3"></p>
                     <ul className="text-gray-600 space-y-1">
@@ -681,7 +681,7 @@ export default function RoofRepairBorgerPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-brand-gold">
-                  Local Expertise Since 2014
+                  Local Expertise For many years
                 </h3>
                 <p className="text-gray-700 mb-4">
                   We've been serving Borger and Hutchinson County for over a decade, completing 180+

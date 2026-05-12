@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-midland/" },
   title: "Hail Damage Repair Midland TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Midland TX. storm response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
+    "Professional hail damage roof repair in Midland TX. post-storm documentation, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
   openGraph: {
     title: "Hail Damage Repair Midland TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Midland TX. storm response, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
+      "Professional hail damage roof repair in Midland TX. post-storm documentation, insurance assistance, Class 4 impact-resistant shingles. Call 5 Star Roofing (806) 622-6041.",
     url: "https://5starroofingpros.com/hail-damage-repair-midland/",
     siteName: "5 Star Roofing",
     images: [
@@ -218,7 +218,7 @@ export default function HailDamageRepairMidlandPage() {
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
                 When Permian Basin storms strike your Midland property, you need a roofing
-                contractor who understands West Texas weather. Since 2014, 5 Star Roofing has helped
+                contractor who understands West Texas weather. 5 Star Roofing has helped
                 Midland homeowners and businesses recover from hail damage with expert repairs,
                 insurance claim assistance, and Class 4 impact-resistant replacements.
               </p>
@@ -244,8 +244,9 @@ export default function HailDamageRepairMidlandPage() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -294,7 +295,7 @@ export default function HailDamageRepairMidlandPage() {
               compromised seals can lead to leaks, mold, and structural damage if left unaddressed.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Midland and the Permian Basin since 2014. We
+              5 Star Roofing has been serving Midland and the Permian Basin serving the Texas Panhandle. We
               understand the specific roofing challenges that come with West Texas weather, and we
               know how to document damage for insurance claims effectively. Our team has helped
               hundreds of Midland property owners recover from storm damage with expert repairs and

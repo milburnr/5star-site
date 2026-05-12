@@ -280,7 +280,7 @@ export default function TPORoofingLubbockPage() {
               storms to severe hailstorms and extreme temperature variations.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Lubbock's thriving business community with expert TPO
+              We've served Lubbock's thriving business community with expert TPO
               installations, comprehensive warranties, and outstanding customer service. Our team
               understands Lubbock's specific building codes, the unique demands of university
               facilities, agricultural operations, wind energy infrastructure, and the growing

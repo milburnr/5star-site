@@ -215,8 +215,9 @@ export default function AsphaltShingleRoofingMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +249,7 @@ export default function AsphaltShingleRoofingMonahansPage() {
               amounts of water quickly, testing drainage and waterproofing systems.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has specialized in protecting Monahans's
+              5 Star Commercial Roofing has specialized in protecting Monahans's
               residential neighborhoods with premium asphalt shingle systems designed for Permian
               Basin extremes. From historic homes near downtown Monahans to newer subdivisions
               around Monahans Sandhills State Park, we understand the unique challenges facing

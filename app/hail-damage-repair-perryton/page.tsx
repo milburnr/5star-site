@@ -206,7 +206,7 @@ export default function HailDamageRepairPerrytonPage() {
                 near the Oklahoma border in the heart of Texas's agricultural powerhouse. With $250
                 million in annual farming revenue and critical grain storage infrastructure, this
                 community of 8,400+ needs specialized roofing protection. 5 Star Roofing has served
-                Perryton's agricultural and residential needs since 2014.
+                Perryton's agricultural and residential needs serving the Texas Panhandle.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
@@ -284,7 +284,7 @@ export default function HailDamageRepairPerrytonPage() {
               intense storms, high winds, and frequent hail events.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Roofing has served Perryton and Ochiltree County with expert storm
+              5 Star Roofing has served Perryton and Ochiltree County with expert storm
               damage repairs and specialized agricultural roofing solutions. Our team understands
               the unique requirements of wheat storage facilities, livestock operations, and the
               residential needs of this close-knit agricultural community that feeds the world.
@@ -366,7 +366,7 @@ export default function HailDamageRepairPerrytonPage() {
                     <h4 className="font-semibold text-brand-brown">Infrastructure Restoration</h4>
                     <p className="text-gray-700 text-sm">
                       Power restoration efforts focused on the 91% of customers without electricity,
-                      while prompt services coordinated debris removal and structural assessments.
+                      while scheduling coordinated debris removal and structural assessments.
                     </p>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ export default function HailDamageRepairPerrytonPage() {
                   <p className="text-sm text-amber-800">
                     <strong>Storm Chaser Documentation:</strong> Professional storm chasers
                     documented the tornado's path through mobile home parks and industrial areas,
-                    providing critical damage assessment data for storm response and insurance
+                    providing critical damage assessment data for post-storm documentation and insurance
                     claims.
                   </p>
                 </div>
@@ -536,7 +536,7 @@ export default function HailDamageRepairPerrytonPage() {
                     </li>
                     <li>
                       • <strong>Rapid Repair Protocols:</strong> Pre-staged materials for immediate
-                      storm response
+                      post-storm documentation
                     </li>
                   </ul>
                 </div>

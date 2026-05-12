@@ -216,8 +216,9 @@ export default function RoofRepairMonahansPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -248,7 +249,7 @@ export default function RoofRepairMonahansPage() {
               radiation, Monahans properties require specialized expertise.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected over 300 properties throughout
+              5 Star Commercial Roofing has protected over 300 properties throughout
               Monahans and Ward County with advanced materials engineered for desert conditions.
               From facilities near the Monahans Sandhills State Park to commercial buildings along
               Interstate 20, we understand the unique intersection of oil industry demands and
@@ -361,7 +362,7 @@ export default function RoofRepairMonahansPage() {
                 <ul className="text-xs text-gray-600">
                   <li>• Chemical-resistant systems</li>
                   <li>• High-temperature materials</li>
-                  <li>• Rapid repair capabilities</li>
+                  <li>• Efficient repair capabilities</li>
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-xl">
@@ -465,7 +466,7 @@ export default function RoofRepairMonahansPage() {
                 <div className="text-4xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation</h3>
                 <p className="text-gray-700">
                   Rapid mobilization for hail and wind damage with extensive experience in Ward
                   County storm patterns and insurance requirements.

@@ -245,7 +245,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold mb-2">Dripping Water During/After Storms</h3>
               <p className="text-gray-600">
-                Active leaks during rain events require immediate storm response
+                Active leaks during rain events require professional damage documentation
               </p>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function Page() {
             <div>
               <h3 className="font-bold mb-2">Sagging or Bulging Ceiling</h3>
               <p className="text-gray-600">
-                Water-saturated insulation and drywall—requires immediate attention
+                Water-saturated insulation and drywall—requires professional attention
               </p>
             </div>
           </div>
@@ -345,7 +345,7 @@ export default function Page() {
             <div className="step-number">1</div>
             <div className="step-content">
               <p className="step-text">
-                Call (806) 622-6041 any time, day or night. We answer immediately during storm
+                Call (806) 622-6041 throughout Midland. We answer immediately during storm
                 events and dispatch crews to your location in Amarillo, Midland, Odessa, or
                 surrounding areas.
               </p>
@@ -354,7 +354,7 @@ export default function Page() {
           <div className="process-step">
             <div className="step-number">2</div>
             <div className="step-content">
-              <h5 className="step-title">tarping</h5>
+              <h5 className="step-title">Weatherproof Sheeting</h5>
               <p className="step-text">
                 Our team arrives with heavy-duty tarps to stop active water intrusion and protect
                 your property from further damage until permanent repairs can be made.
@@ -452,7 +452,7 @@ export default function Page() {
           <h3 className="font-bold mb-3">Act Fast After Heavy Rain</h3>
           <p>
             Water damage worsens rapidly. Within 24-48 hours, mold can begin growing in saturated
-            insulation and drywall. Don't wait—call for service immediately if you suspect roof
+            insulation and drywall. Contact us if you suspect roof
             leaks after heavy rain.
           </p>
         </div>
@@ -574,7 +574,7 @@ export default function Page() {
             <ul className="list-disc pl-6 space-y-2 mb-4">
               <li>Sudden and accidental water intrusion from storm events</li>
               <li>Wind-driven rain damage through roof openings created by storms</li>
-              <li>tarping to prevent further damage</li>
+              <li>weatherproof sheeting to help prevent further damage</li>
               <li>Roof repairs or replacement if damage is extensive</li>
               <li>Interior water damage resulting from roof failure during storms</li>
             </ul>
@@ -616,10 +616,10 @@ export default function Page() {
           </div>
           <div className="card">
             <div className="card-body">
-              <h3 className="font-bold mb-2">Will tarping damage my roof further?</h3>
+              <h3 className="font-bold mb-2">Will weatherproof sheeting damage my roof further?</h3>
               <p>
                 No. Our crews use professional-grade tarps and installation methods that secure the
-                tarp without creating additional penetrations or damage. Tarping prevents
+                tarp without creating additional penetrations or damage. Weatherproof sheeting prevents
                 exponentially more damage than it could possibly cause.
               </p>
             </div>

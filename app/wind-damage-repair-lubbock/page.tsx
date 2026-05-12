@@ -200,7 +200,7 @@ export default function Page() {
                 name: "How quickly can you repair wind damage in Lubbock?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
+                  text: "We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
                 },
               },
               {
@@ -256,7 +256,7 @@ export default function Page() {
                 Wind Damage Repair in <span className="text-brand-gold-light">Lubbock</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting South Plains Properties Since 2014
+                Protecting South Plains Properties For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Lubbock's South Plains location at 3,256 feet elevation creates perfect conditions

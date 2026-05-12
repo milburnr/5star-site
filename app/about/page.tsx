@@ -49,7 +49,7 @@ export default function Page() {
       addressCountry: "US",
     },
     description:
-      "Licensed and insured roofing contractor serving Amarillo, Midland, Odessa, and West Texas since 2014. Specializing in hail damage repair, storm restoration, and insurance claim assistance.",
+      "Licensed and insured roofing contractor serving Amarillo, Midland, Odessa, and West Texas serving the Texas Panhandle. Specializing in hail damage repair, storm restoration, and insurance claim assistance.",
     foundingDate: "2014",
     areaServed: [
       "Amarillo, TX",
@@ -399,7 +399,7 @@ export default function Page() {
             service.
           </p>
           <p className="text-brand-brown font-semibold">
-            Don't wait until a small problem becomes a big one. Call us today for your free roof
+            Address issues before a small problem becomes a big one. Call us today for your free roof
             inspection.
           </p>
         </div>

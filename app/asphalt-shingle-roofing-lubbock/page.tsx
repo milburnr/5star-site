@@ -276,7 +276,7 @@ export default function AsphaltShingleRoofingLubbockPage() {
                 <div className="text-3xl mb-3">
                   <Tornado className="w-6 h-6 inline-block" />
                 </div>
-                <div className="text-brand-brown font-semibold text-lg">Storm Specialists</div>
+                <div className="text-brand-brown font-semibold text-lg">Storm Damage Specialists</div>
               </div>
             </div>
           </div>

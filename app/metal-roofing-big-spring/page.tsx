@@ -215,8 +215,9 @@ export default function MetalRoofingBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -245,7 +246,7 @@ export default function MetalRoofingBigSpringPage() {
               Your roofing system must withstand these demanding conditions year after year.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has protected properties throughout Big Spring
+              5 Star Commercial Roofing has protected properties throughout Big Spring
               and Howard County with premium materials and expert installation. From properties near
               Big Spring State Park to buildings throughout the city, we understand West Texas
               weather patterns, local building codes, and the specific needs of Howard County

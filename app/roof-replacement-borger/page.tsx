@@ -264,7 +264,7 @@ export default function RoofReplacementBorgerPage() {
               climate.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, we've served Borger's 11,892 residents with expert installations,
+              We've served Borger's 11,892 residents with expert installations,
               comprehensive warranties, and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation for this historic petrochemical center.
             </p>

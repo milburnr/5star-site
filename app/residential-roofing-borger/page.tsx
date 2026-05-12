@@ -272,7 +272,7 @@ export default function ResidentialRoofingBorgerPage() {
               demand local expertise.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected Borger families through every weather challenge the
+              We've protected Borger families through every weather challenge the
               northern Panhandle can deliver. Our team understands shift work schedules, industrial
               housing needs, and the service requirements when severe weather threatens this
               vital Texas community.
@@ -385,7 +385,7 @@ export default function ResidentialRoofingBorgerPage() {
                   Shift Worker Accommodation
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Borger's petrochemical workforce operates around the clock, and we understand the
+                  Borger's petrochemical workforce operates continuously, and we understand the
                   challenges of coordinating roofing work with shift schedules. Our flexible
                   scheduling accommodates plant workers, contractors, and their families.
                 </p>
@@ -414,9 +414,9 @@ export default function ResidentialRoofingBorgerPage() {
                 </ul>
               </div>
               <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl shadow-lg border border-brand-gold/20">
-                <h3 className="text-xl font-bold mb-4 text-brand-brown">storm response Network</h3>
+                <h3 className="text-xl font-bold mb-4 text-brand-brown">post-storm documentation network</h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Borger's location in severe weather territory requires robust storm response
+                  Borger's location in severe weather territory requires robust post-storm documentation
                   capabilities. our network includes dedicated crews, material stockpiles, and rapid
                   deployment protocols.
                 </p>
@@ -613,7 +613,7 @@ export default function ResidentialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              Insurance & prompt services for Borger?
+              Insurance & scheduling for Borger?
             </h2>
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -633,7 +633,7 @@ export default function ResidentialRoofingBorgerPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2 mt-1">•</span>
-                      <span>tarping and temporary protection services</span>
+                      <span>weatherproof sheeting and temporary protection services</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2 mt-1">•</span>
@@ -683,14 +683,14 @@ export default function ResidentialRoofingBorgerPage() {
                 </div>
               </div>
               <div className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-8 rounded-xl text-center">
-                <h3 className="text-2xl font-bold mb-4">Borger storm response Statistics</h3>
+                <h3 className="text-2xl font-bold mb-4">Borger post-storm documentation Statistics</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
                     <div className="text-3xl font-bold mb-2">90min</div>
-                    <div className="text-sm opacity-90">average storm response time</div>
+                    <div className="text-sm opacity-90">average post-storm documentation time</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold mb-2">24/7</div>
+                    <div className="text-3xl font-bold mb-2">Free</div>
                     <div className="text-sm opacity-90">storm season availability</div>
                   </div>
                   <div>
@@ -839,7 +839,7 @@ export default function ResidentialRoofingBorgerPage() {
           <h2 className="text-4xl font-bold mb-6">Ready to Protect Your Borger Property?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Free inspections for Borger homeowners. Expert residential roofing with comprehensive
-            warranties, storm response, and deep understanding of northern Panhandle weather
+            warranties, post-storm documentation, and deep understanding of northern Panhandle weather
             extremes.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">

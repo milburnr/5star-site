@@ -200,7 +200,7 @@ export default function WindDamageRepairBorgerPage() {
                 name: "How quickly can you repair wind damage in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
+                  text: "We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
                 },
               },
               {
@@ -299,7 +299,7 @@ export default function WindDamageRepairBorgerPage() {
               them vulnerable to catastrophic failure during severe weather events.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've repaired 220+ wind damage incidents across Borger's industrial and
+              We've repaired 220+ wind damage incidents across Borger's industrial and
               residential areas. From homes near Huber Park to facilities throughout the
               petrochemical district, we understand how Borger's unique environment creates specific
               wind damage patterns. Our installations use enhanced fastening systems, wind-resistant
@@ -537,7 +537,7 @@ export default function WindDamageRepairBorgerPage() {
                   How quickly can you repair wind damage in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide tarping and temporary repairs for actively leaking roofs. Full repair
+                  We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair
                   or replacement typically occurs 2-4 weeks after claim approval, depending on
                   material availability and scheduling. During widespread wind events affecting the
                   entire Texas Panhandle, we work extended hours to accommodate scheduling needs.

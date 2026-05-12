@@ -230,8 +230,9 @@ export default function RoofReplacementOdessaPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
@@ -270,7 +271,7 @@ export default function RoofReplacementOdessaPage() {
               conditions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Since 2014, we've served the Odessa community with expert roof replacement services
+              We've served the Odessa community with expert roof replacement services
               that combine advanced materials, proven installation techniques, and comprehensive
               project management. Our experienced teams handle all aspects of roof replacement
               including permits, insurance claims coordination, material selection, and long-term

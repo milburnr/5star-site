@@ -262,8 +262,9 @@ export default function WindDamageRepairBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-3xl mb-3">
@@ -296,7 +297,7 @@ export default function WindDamageRepairBigSpringPage() {
               generate severe convective systems throughout spring and fall seasons.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, 5 Star Commercial Roofing has specialized in wind damage repair throughout
+              5 Star Commercial Roofing has specialized in wind damage repair throughout
               Big Spring and Howard County, building expertise through dozens of major wind events
               that have impacted this resilient West Texas community. From historic properties near
               Downtown Big Spring to modern developments around Big Spring State Park, we understand
@@ -363,14 +364,14 @@ export default function WindDamageRepairBigSpringPage() {
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-brand-gold-vibrant">
-                <h4 className="text-xl font-semibold text-brand-brown mb-3">storm response</h4>
+                <h4 className="text-xl font-semibold text-brand-brown mb-3">post-storm documentation</h4>
                 <p className="text-gray-600 mb-3">
                   s for Big Spring wind damage events. Our roofing team provides immediate
-                  tarping, board-up, and stabilization to prevent secondary damage while
+                  weatherproof sheeting, securing damaged areas, and stabilization to prevent secondary damage while
                   coordinating with local emergency services and insurance providers.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Immediate tarping</li>
+                  <li>• Immediate weatherproof sheeting</li>
                   <li>• Structural damage stabilization</li>
                   <li>• Water intrusion prevention</li>
                   <li>• Contact coordination</li>
@@ -513,7 +514,7 @@ export default function WindDamageRepairBigSpringPage() {
                   </h3>
                   <p className="text-gray-600">
                     Our roofing team secures Big Spring properties immediately after wind
-                    events. We provide tarping, board-up services, and structural stabilization to
+                    events. We place weatherproof sheeting, securing services, and structural stabilization to
                     prevent secondary damage while beginning comprehensive damage assessment
                     processes.
                   </p>

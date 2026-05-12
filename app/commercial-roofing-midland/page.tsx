@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial-2-1920w.webp",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-20-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Industrial metal roof installation on West Texas commercial facility — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -154,69 +154,12 @@ export default function CommercialRoofingMidlandPage() {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How much does commercial roof replacement cost in Midland?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Commercial roofing costs in Midland vary by building size, roof type, and complexity. Energy company headquarters and Class A office buildings typically require TPO installations ($4-$8 per square foot). Industrial facilities and oil field operations benefit from metal roofing ($7-$12 per square foot). We provide free detailed estimates with transparent pricing and financing options for energy sector businesses.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What roofing challenges do Permian Basin oil facilities face?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Oil field facilities in Midland face extreme challenges including 144 hail reports in 12 months, intensive UV radiation, and chemical exposure from petroleum operations. Industrial buildings require chemical-resistant roofing systems, superior fire resistance ratings, and specialized ventilation considerations. Metal and TPO roofing systems provide optimal performance for energy sector operations.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What permits are required for commercial roofing in Midland?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "All commercial roofing projects in Midland require permits from the City of Midland Building Department. Energy company headquarters, office buildings, and industrial facilities must meet specific codes including wind resistance standards, fire ratings for petroleum facilities, and environmental compliance. We handle all permit applications and ensure projects meet energy sector requirements.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can you work around oil company operations and business schedules?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. We specialize in energy sector facility roofing, scheduling work during planned shutdowns, after-hours, or weekends to minimize operational disruption. Oil company headquarters, industrial facilities, and energy operations require careful coordination. We work closely with facility managers to meet critical operational requirements.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What commercial roofing is best for downtown Midland office buildings?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Downtown Midland's high-rise office buildings housing energy companies benefit from TPO roofing systems with superior energy efficiency and reflective properties. With over 3.3 million square feet of commercial space and 98.8% occupied Class A office space, buildings require reliable roofing with minimal maintenance and maximum cooling efficiency.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do you provide prompt roofing for oil industry facilities?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, we provide prompt commercial roofing throughout Midland County. With 144 hail reports in 12 months and critical oil operations that cannot shut down, rapid storm response is essential. We offer tarping, temporary repairs, and leak mitigation for energy facilities, headquarters buildings, and industrial operations.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-3-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-20-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -258,8 +201,8 @@ export default function CommercialRoofingMidlandPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -289,6 +232,34 @@ export default function CommercialRoofingMidlandPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides commercial roofing for Midland TX businesses — TPO, metal panels, flat roof systems, and maintenance contracts for Permian Basin oil field facilities and commercial buildings.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Commercial Roofing</a>
+              <a href="/commercial-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Commercial</a>
+              <a href="/commercial-roofing-andrews/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Andrews Commercial</a>
+              <a href="/midland-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Midland Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -667,9 +638,9 @@ export default function CommercialRoofingMidlandPage() {
                 </h2>
                 <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                   Storm damage threatening your oil company operations or energy facilities? We
-                  provide Midland's energy industry. Critical petroleum
-                  operations, corporate headquarters, and industrial facilities cannot afford
-                  downtime. tarping, temporary repairs, and rapid leak mitigation protect operations
+                  specialize in Midland's energy industry roofing. Critical petroleum
+                  operations, corporate headquarters, and industrial facilities require
+                  thorough documentation and professional repair to protect operations
                   and equipment.
                 </p>
                 <a
@@ -777,14 +748,14 @@ export default function CommercialRoofingMidlandPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you provide prompt roofing for oil industry facilities?
+                  Do you prioritize roofing work for oil industry facilities?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, we provide prompt commercial roofing throughout Midland County. With 144 hail
-                  reports in 12 months and critical oil operations that cannot shut down, rapid
-                  storm response is essential. We offer tarping, temporary repairs, and leak
-                  mitigation for energy facilities, headquarters buildings, and industrial
-                  operations.
+                  Yes, we provide commercial roofing throughout Midland County. With frequent hail
+                  events and critical oil operations in the area, we prioritize scheduling inspections
+                  and coordinating repairs efficiently. We work with insurance adjusters and
+                  facility managers to document damage and restore full protection for energy
+                  facilities, headquarters buildings, and industrial operations.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

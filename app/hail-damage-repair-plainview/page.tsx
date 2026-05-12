@@ -167,7 +167,7 @@ export default function HailDamageRepairPlainviewPage() {
                 45 miles south of Amarillo at 3,368 feet elevation, Plainview sits directly in the
                 path of severe High Plains storms that regularly produce damaging hail. 5 Star
                 Roofing has been protecting Plainview's homes, businesses, and agricultural
-                facilities since 2014, understanding both the community's agricultural heritage and
+                facilities serving the region, understanding both the community's agricultural heritage and
                 its evolving economic landscape.
               </p>
               <div className="flex gap-4 flex-wrap">
@@ -191,8 +191,9 @@ export default function HailDamageRepairPlainviewPage() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Storm Response</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">post-storm documentation</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -250,7 +251,7 @@ export default function HailDamageRepairPlainviewPage() {
             <p className="text-lg text-gray-600 leading-relaxed">
               5 Star Roofing understands Plainview's unique combination of severe weather exposure,
               agricultural infrastructure needs, and community resilience. Located about 75 miles
-              from our Amarillo headquarters, we've been serving this proud community since 2014,
+              from our Amarillo headquarters, we've been serving this proud community serving the region,
               helping property owners protect their investments against the harsh realities of High
               Plains weather.
             </p>

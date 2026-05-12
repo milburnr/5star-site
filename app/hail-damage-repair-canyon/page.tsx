@@ -244,8 +244,9 @@ export default function HailDamageRepairCanyonPage() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -678,7 +679,7 @@ export default function HailDamageRepairCanyonPage() {
                     <li>• Roof replacement/repair materials</li>
                     <li>• Labor costs for certified contractors</li>
                     <li>• Gutters, downspouts, and flashing</li>
-                    <li>• Temporary protection (tarping)</li>
+                    <li>• Temporary protection (weatherproof sheeting)</li>
                     <li>• Permit fees and disposal costs</li>
                   </ul>
                 </div>

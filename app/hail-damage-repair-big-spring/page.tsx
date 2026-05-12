@@ -229,7 +229,7 @@ export default function HailDamageRepairBigSpringPage() {
               conditions including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Big Spring with expert installations, comprehensive
+              We've served Big Spring with expert installations, comprehensive
               warranties, and outstanding customer service. We handle all permits, insurance claims,
               and warranty documentation. Free inspections and estimates available.
             </p>
@@ -313,7 +313,7 @@ export default function HailDamageRepairBigSpringPage() {
                 </div>
                 <div className="mt-6 bg-amber-50 p-4 rounded-lg border border-amber-200">
                   <p className="text-sm text-amber-800">
-                    <strong>storm response:</strong> The City of Big Spring established special
+                    <strong>post-storm documentation:</strong> The City of Big Spring established special
                     debris collection sites for vegetation, fencing, roofing, and building materials
                     damaged by severe hailstorms.
                   </p>
@@ -365,14 +365,14 @@ export default function HailDamageRepairBigSpringPage() {
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">
-                  Storm Response Protocol
+                  Post-Storm Documentation Protocol
                 </h3>
                 <ul className="text-gray-700 space-y-2 text-sm">
                   <li>
                     • <strong>Priority Triage:</strong> Active leaks and structural concerns first
                   </li>
                   <li>
-                    • <strong>Temporary Protection:</strong> Professional tarping and board-up
+                    • <strong>Temporary Protection:</strong> Professional weatherproof sheeting
                     services
                   </li>
                   <li>
@@ -461,7 +461,7 @@ export default function HailDamageRepairBigSpringPage() {
                     <div>
                       <h4 className="font-medium text-gray-800">Storm Mitigation</h4>
                       <p className="text-gray-600 text-sm">
-                        Professional tarping, board-up, and water extraction services
+                        Professional weatherproof sheeting, securing damaged areas, and water extraction services
                       </p>
                     </div>
                   </div>

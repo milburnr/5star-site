@@ -200,7 +200,7 @@ export default function WindDamageRepairDumasPage() {
                 name: "How quickly can you repair wind damage in Dumas?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
+                  text: "We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
                 },
               },
               {
@@ -298,7 +298,7 @@ export default function WindDamageRepairDumasPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 190+ Dumas properties with premium materials engineered
+              We've protected 190+ Dumas properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Dumas
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -628,7 +628,7 @@ export default function WindDamageRepairDumasPage() {
                   How quickly can you repair wind damage in Dumas?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide tarping and temporary repairs for actively leaking roofs. Full repair
+                  We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair
                   or replacement typically occurs 2-4 weeks after claim approval, depending on
                   material availability and scheduling. During widespread wind events affecting the
                   entire Texas Panhandle, we work extended hours to accommodate scheduling needs.

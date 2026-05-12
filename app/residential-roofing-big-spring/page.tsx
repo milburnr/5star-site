@@ -169,7 +169,7 @@ export default function ResidentialRoofingBigSpringPage() {
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Professional residential roofing serving Big Spring and Howard County. Expert
                 protection for West Texas families with comprehensive warranties, , and deep
-                community roots since 2014.
+                community roots serving the Texas Panhandle.
               </p>
               <div className="flex gap-4 flex-wrap">
                 <a href="tel:8066226041" className="btn-primary-hero">
@@ -237,7 +237,7 @@ export default function ResidentialRoofingBigSpringPage() {
               diverse housing styles across this proud West Texas community.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've earned the trust of Big Spring families by understanding local
+              We've earned the trust of Big Spring families by understanding local
               challenges – from spring tornado season to punishing summer heat, from sudden winter
               storms to the persistent winds that sweep across the South Plains. Every installation
               meets or exceeds Texas building standards while addressing Big Spring's unique
@@ -718,7 +718,7 @@ export default function ResidentialRoofingBigSpringPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, we serve Big Spring storm damage. Our crews immediately secure
-                  damaged areas with tarps and temporary repairs while documenting everything for
+                  damaged areas with weatherproof sheeting while documenting everything for
                   insurance claims. Services include water damage mitigation, structural
                   stabilization, and priority scheduling for permanent repairs.
                 </AccordionContent>

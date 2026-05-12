@@ -216,7 +216,7 @@ export default function ResidentialRoofingOdessaPage() {
                 Residential Roofing in <span className="text-brand-gold-light">Odessa</span>
               </h1>
               <p className="text-3xl mb-6 font-bold text-brand-gold-light">
-                Protecting Texas Panhandle Homes Since 2014
+                Protecting Texas Panhandle Homes For many years
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed">
                 Expert residential roofing in Odessa. Class 4 impact-resistant shingles reduce
@@ -243,8 +243,9 @@ export default function ResidentialRoofingOdessaPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">Class 4</div>
@@ -280,7 +281,7 @@ export default function ResidentialRoofingOdessaPage() {
               damage by 90%. Free inspections and insurance claim assistance included.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Odessa with expert residential roofing. We handle all
+              We've served Odessa with expert residential roofing. We handle all
               permits, insurance claims, and warranty documentation. Free inspections and estimates
               available.
             </p>
@@ -356,7 +357,7 @@ export default function ResidentialRoofingOdessaPage() {
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    Tarping services
+                    Post-storm protection services
                   </li>
                   <li className="flex items-start gap-1">
                     <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />

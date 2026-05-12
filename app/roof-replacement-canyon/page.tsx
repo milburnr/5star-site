@@ -264,7 +264,7 @@ export default function RoofReplacementCanyonPage() {
               university community.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, we've served Canyon's 16,457 residents with expert installations,
+              We've served Canyon's 16,457 residents with expert installations,
               comprehensive warranties, and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation for this growing university town that's
               home to West Texas A&M University.

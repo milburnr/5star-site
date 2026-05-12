@@ -117,7 +117,7 @@ export default function BushlandRoofingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-brand-brown">Local & Close</h3>
                 <p className="text-gray-600">
-                  Only 10 miles from Bushland on I-40. We can typically reach you within 20 minutes
+                  Only 10 miles from Bushland on I-40. We can typically reach you quickly
                   for emergencies or scheduled appointments.
                 </p>
               </div>
@@ -135,10 +135,10 @@ export default function BushlandRoofingPage() {
                 <div className="text-5xl mb-4">
                   <Zap className="w-6 h-6 inline-block" />
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-brand-brown">Storm Response</h3>
+                <h3 className="text-xl font-bold mb-3 text-brand-brown">post-storm documentation</h3>
                 <p className="text-gray-600">
                   Bushland's exposed location means severe weather hits hard. We provide prompt
-                  tarping and rapid hail damage assessment.
+                  weatherproof sheeting and rapid hail damage assessment.
                 </p>
               </div>
             </div>
@@ -310,7 +310,7 @@ export default function BushlandRoofingPage() {
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Storm damage can't wait, especially in rural areas.</strong> We
-                      provide professional roofing services for Bushland residents. From tarping
+                      provide professional roofing services for Bushland residents. From weatherproof sheeting
                       after hail storms to urgent leak repairs, we're just 10 miles away and ready
                       to respond.
                     </p>
@@ -322,13 +322,13 @@ export default function BushlandRoofingPage() {
                       >
                         (806) 622-6041
                       </a>{" "}
-                      anytime, day or night, for immediate professional assistance.
+                      anytime, throughout the region, for immediate professional assistance.
                     </p>
                     <a
                       href="/roof-repair-amarillo/"
                       className="text-red-700 font-semibold hover:text-red-800 inline-flex items-center gap-2"
                     >
-                      prompt services Information →
+                      scheduling Information →
                     </a>
                   </div>
                 </div>
@@ -606,7 +606,7 @@ export default function BushlandRoofingPage() {
             <p className="cta-text">
               From our Amarillo location, we're proud to serve Bushland with fast, professional
               roofing services. Whether you need a free inspection, hail damage assessment, or
-              prompt repairs, we're just 10 miles away.
+              efficient repairs, we're just 10 miles away.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary text-lg px-8 py-4">

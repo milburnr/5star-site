@@ -133,7 +133,7 @@ export default function StormDamageRepairAmarilloPage() {
                 name: "Will insurance cover my storm damage repairs?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
                 },
               },
               {
@@ -148,7 +148,7 @@ export default function StormDamageRepairAmarilloPage() {
                 name: "How long does storm damage roof replacement take?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting all of Amarillo, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting all of Amarillo, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -156,7 +156,7 @@ export default function StormDamageRepairAmarilloPage() {
                 name: "What should I do immediately after storm damage?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
                 },
               },
             ],
@@ -212,8 +212,9 @@ export default function StormDamageRepairAmarilloPage() {
           <div className="container-custom">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-red-500">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -269,7 +270,7 @@ export default function StormDamageRepairAmarilloPage() {
             </p>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              We've documented storm damage across Amarillo since 2014, serving properties from Palo
+              We've documented storm damage across Amarillo serving the region, serving properties from Palo
               Duro Canyon estates to Downtown Amarillo commercial districts, from West Texas A&M
               University neighborhoods to Historic Route 66 properties, and throughout the rapidly
               growing Southwest Amarillo corridor. We handle the complete process — detailed damage
@@ -397,7 +398,7 @@ export default function StormDamageRepairAmarilloPage() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Amarillo's occasional torrential rain events (2-4 inches in hours) overwhelm
                   damaged roofing systems. Water infiltration leads to saturated insulation, ceiling
-                  stains, mold growth, and structural damage. tarping prevents secondary damage
+                  stains, mold growth, and structural damage. weatherproof sheeting prevents secondary damage
                   during claim processing.
                 </p>
                 <p className="text-sm text-gray-600 italic">
@@ -489,7 +490,7 @@ export default function StormDamageRepairAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most homeowner and commercial policies cover storm damage including wind, hail,
                   and rain infiltration from covered perils. Coverage typically includes mitigation
-                  costs (tarping, temporary repairs) plus complete restoration. We document all
+                  costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
                   requests for hidden damage discovered during repairs. Our 95%+ approval rate
                   demonstrates our insurance expertise.
@@ -514,7 +515,7 @@ export default function StormDamageRepairAmarilloPage() {
                   How long does storm damage roof replacement take?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most homes. During major storm events affecting all of Amarillo,
@@ -532,7 +533,7 @@ export default function StormDamageRepairAmarilloPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final
                   restoration.
@@ -606,9 +607,9 @@ export default function StormDamageRepairAmarilloPage() {
                 <div className="text-3xl mb-3">
                   <AlertTriangle className="w-6 h-6 inline-block text-red-600" />
                 </div>
-                <h3 className="text-lg font-bold text-brand-brown mb-2">Storm Response</h3>
+                <h3 className="text-lg font-bold text-brand-brown mb-2">post-storm documentation</h3>
                 <p className="text-sm text-gray-700">
-                  dispatch, 2-4 hour arrival, immediate tarping and temporary repairs to prevent
+                  dispatch, 2-4 hour arrival, immediate weatherproof sheeting and temporary repairs to prevent
                   interior damage.
                 </p>
               </div>
@@ -683,7 +684,7 @@ export default function StormDamageRepairAmarilloPage() {
                   shingle blow-off and structural damage to commercial properties.
                 </p>
                 <p className="text-sm text-gray-600 italic">
-                  Response: 156 tarping jobs, 45 complete roof replacements
+                  Response: 156 weatherproof sheeting jobs, 45 complete roof replacements
                 </p>
               </div>
             </div>
@@ -714,8 +715,8 @@ export default function StormDamageRepairAmarilloPage() {
         <section className="bg-gradient-to-r from-brand-brown to-brand-gold text-white p-12 rounded-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">Storm Damage? We're Here</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            storm response. Free storm inspections. Complete insurance assistance. Serving Amarillo
-            and the Texas Panhandle around the clock.
+            post-storm documentation. Free storm inspections. Complete insurance assistance. Serving Amarillo
+            and the Texas Panhandle continuously.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a

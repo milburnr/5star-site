@@ -230,7 +230,7 @@ export default function RoofReplacementAndrewsPage() {
               climate.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Since 2014, we've served Andrews with expert installations, comprehensive warranties,
+              We've served Andrews with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available for all 13,677
               residents of this thriving oil community.

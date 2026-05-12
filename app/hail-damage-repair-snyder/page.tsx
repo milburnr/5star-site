@@ -243,7 +243,7 @@ export default function HailDamageRepairSnyderPage() {
               insurance claims, and expert repair solutions designed for West Texas conditions.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Since 2014, we've served Snyder with expert hail damage repairs, comprehensive
+              We've served Snyder with expert hail damage repairs, comprehensive
               insurance claim support, and outstanding customer service. We handle all permits,
               insurance documentation, and warranty services. Free hail damage inspections
               available.
@@ -407,7 +407,7 @@ export default function HailDamageRepairSnyderPage() {
                       <Droplets className="w-6 h-6 inline-block" /> Immediate vs. Progressive Damage
                     </h3>
                     <p className="text-gray-700">
-                      Some hail damage causes immediate leaks requiring storm response, while other
+                      Some hail damage causes immediate leaks requiring post-storm documentation, while other
                       damage compromises long-term integrity without immediate symptoms.
                       Professional assessment identifies both types for comprehensive repair
                       planning.
@@ -650,7 +650,7 @@ export default function HailDamageRepairSnyderPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              How Does Our Storm Response Work in Snyder?
+              How Does Our Post-Storm Process Work in Snyder?
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-700 mb-8 text-center">
@@ -776,7 +776,7 @@ export default function HailDamageRepairSnyderPage() {
                         Local Availability
                       </h3>
                       <p className="text-gray-700">
-                        coverage for post-storm assessment and prompt services
+                        coverage for post-storm assessment and scheduling
                         throughout Snyder and surrounding areas with rapid deployment for
                         time-sensitive situations.
                       </p>

@@ -301,7 +301,7 @@ export default function LubbockRoofingPage() {
                       providing multi-layer protection for industrial buildings, modified bitumen
                       installations with enhanced UV resistance, metal roofing for warehouses and
                       agricultural facilities common in the South Plains, preventive maintenance
-                      programs that extend roof life and prevent costly prompt repairs, and roof
+                      programs that extend roof life and prevent costly efficient repairs, and roof
                       coating systems that restore aging commercial roofs at a fraction of
                       replacement cost.
                     </p>
@@ -426,7 +426,7 @@ export default function LubbockRoofingPage() {
                       <strong>Available for roofing issues throughout Lubbock.</strong> Storm
                       damage, roof leaks, wind damage, or structural issues can&apos;t wait. Water
                       damage compounds rapidly - what starts as a small leak can cause thousands in
-                      interior damage within hours. We provide tarping, temporary leak repairs,
+                      interior damage within hours. We place weatherproof sheeting, temporary weatherproofing,
                       storm damage assessment, and same-day solutions to protect your property until
                       permanent repairs can be completed.
                     </p>
@@ -438,7 +438,7 @@ export default function LubbockRoofingPage() {
                       >
                         (806) 622-6041
                       </a>{" "}
-                      now for immediate assistance anywhere in Lubbock - from Tech Terrace to Shadow
+                      now to schedule an inspection anywhere in Lubbock - from Tech Terrace to Shadow
                       Hills, from Arnett Benson to Whisperwood. Our our crews are standing by.
                     </p>
                     <a
@@ -978,7 +978,7 @@ export default function LubbockRoofingPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready to Protect Your Lubbock Property?</h2>
             <p className="cta-text">
-              Whether you need a free roof inspection, hail damage assessment, prompt repairs, or a
+              Whether you need a free roof inspection, hail damage assessment, efficient repairs, or a
               complete roof replacement, we&apos;re here to help. Serving Lubbock with honesty,
               integrity, and expert craftsmanship for over a decade. Most hail damage repairs are
               covered 100% by insurance.

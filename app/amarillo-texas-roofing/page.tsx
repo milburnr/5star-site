@@ -56,7 +56,7 @@ export default function AmarilloRoofingPage() {
     {
       question: "Why is Amarillo considered 5 Star Roofing's primary service area?",
       answer:
-        "Amarillo is the largest city in the Texas Panhandle with a metro population exceeding 200,000, and our office is located at 2909 S Western St in Amarillo. This central location allows us to reach any Amarillo neighborhood within 30 minutes. We have more completed projects in Amarillo than any other city in our service area, giving us deep expertise with local building codes, HOA requirements, and the specific weather patterns that affect Potter and Randall County properties.",
+        "Amarillo is the largest city in the Texas Panhandle with a metro population exceeding 200,000, and our office is located at 2909 S Western St in Amarillo. This central location allows us to reach any Amarillo neighborhood quickly. We have more completed projects in Amarillo than any other city in our service area, giving us deep expertise with local building codes, HOA requirements, and the specific weather patterns that affect Potter and Randall County properties.",
     },
     {
       question: "When is hail season in Amarillo and how often does it hit?",
@@ -310,7 +310,7 @@ export default function AmarilloRoofingPage() {
                     </p>
                     <p className="text-gray-600 mb-4">
                       <strong>Commercial expertise:</strong> Flat roof repair and replacement,
-                      preventive maintenance programs, prompt repairs, and roof coating systems.
+                      preventive maintenance programs, efficient repairs, and roof coating systems.
                       Minimal disruption to your business.
                     </p>
                     <a
@@ -408,7 +408,7 @@ export default function AmarilloRoofingPage() {
                   <div className="md:w-2/3">
                     <p className="text-gray-700 mb-4 leading-relaxed">
                       <strong>Available for roofing issues in Amarillo.</strong> Roof leaks, storm
-                      damage, or structural issues can&apos;t wait. We provide tarping, leak
+                      damage, or structural issues can&apos;t wait. We place weatherproof sheeting, leak
                       repairs, and temporary solutions to protect your property until permanent
                       repairs can be made.
                     </p>
@@ -420,7 +420,7 @@ export default function AmarilloRoofingPage() {
                       >
                         (806) 622-6041
                       </a>{" "}
-                      now for immediate assistance anywhere in Amarillo.
+                      now to schedule an inspection anywhere in Amarillo.
                     </p>
                     <a
                       href="/roof-repair-amarillo/"
@@ -780,9 +780,9 @@ export default function AmarilloRoofingPage() {
           <section className="cta-section my-16">
             <h2 className="cta-title">Ready to Protect Your Amarillo Property?</h2>
             <p className="cta-text">
-              Whether you need a free roof inspection, hail damage assessment, or prompt repairs,
+              Whether you need a free roof inspection, hail damage assessment, or efficient repairs,
               we&apos;re here to help. Serving Amarillo with honesty, integrity, and expert
-              craftsmanship since 2010.
+              craftsmanship serving the area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">

@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/hail-damage-repair-lubbock/" },
   title: "Hail Damage Repair Lubbock TX | 5 Star Roofing",
   description:
-    "Professional hail damage roof repair in Lubbock TX. Fast storm response, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
+    "Professional hail damage roof repair in Lubbock TX. Insurance documentation, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
   openGraph: {
     title: "Hail Damage Repair Lubbock TX | 5 Star Roofing",
     description:
-      "Professional hail damage roof repair in Lubbock TX. Fast storm response, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
+      "Professional hail damage roof repair in Lubbock TX. Insurance documentation, insurance assistance, Class 4 shingles. Free inspections. Call (806) 622-6041",
     url: "https://5starroofingpros.com/hail-damage-repair-lubbock/",
     siteName: "5 Star Roofing",
     images: [
@@ -218,7 +218,7 @@ export default function HailDamageRepairLubbockPage() {
               </p>
               <p className="text-xl mb-8 text-white leading-relaxed max-w-3xl">
                 Lubbock sits on the southwestern edge of Tornado Alley, making hail damage an annual
-                reality for Hub City property owners. Since 2014, 5 Star Roofing has helped Lubbock
+                reality for Hub City property owners. 5 Star Roofing has helped Lubbock
                 homeowners and businesses recover from storm damage with expert repairs, insurance
                 claim assistance, and Class 4 impact-resistant replacements designed for the Llano
                 Estacado's severe weather.
@@ -245,8 +245,9 @@ export default function HailDamageRepairLubbockPage() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">24/7</div>
-                <div className="text-brand-brown font-semibold text-lg">Quick Scheduling</div>
+                
+                <div className="text-4xl font-bold text-brand-gold mb-3">Free</div>
+                <div className="text-brand-brown font-semibold text-lg">Inspections</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
                 <div className="text-4xl font-bold text-brand-gold mb-3">
@@ -295,7 +296,7 @@ export default function HailDamageRepairLubbockPage() {
               the Texas Tech campus to the newer developments in South Lubbock.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              5 Star Roofing has been serving Lubbock and the South Plains since 2014. We understand
+              5 Star Roofing has been serving Lubbock and the South Plains serving the Texas Panhandle. We understand
               the specific roofing challenges that come with the region's semi-arid climate and
               severe weather patterns. Our team has helped hundreds of Lubbock property
               owners—including many Texas Tech rental properties—recover from storm damage with

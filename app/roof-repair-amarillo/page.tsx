@@ -922,7 +922,7 @@ export default function RoofRepairAmarilloPage() {
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />
-                    Priority storm response
+                    Priority post-storm documentation
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-brand-gold-vibrant mr-2 flex-shrink-0 mt-0.5" />

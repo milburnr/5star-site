@@ -200,7 +200,7 @@ export default function WindDamageRepairCanyonPage() {
                 name: "How quickly can you repair wind damage in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We provide tarping and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
+                  text: "We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair or replacement typically occurs 2-4 weeks after claim approval, depending on material availability and scheduling. During widespread wind events affecting the entire Texas Panhandle, we work extended hours to accommodate scheduling needs.",
                 },
               },
               {
@@ -299,7 +299,7 @@ export default function WindDamageRepairCanyonPage() {
               between canyon airflow and High Plains weather systems.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've repaired 280+ wind damage incidents throughout Randall County, from
+              We've repaired 280+ wind damage incidents throughout Randall County, from
               canyon rim properties to university buildings. We understand how Palo Duro Canyon's
               geography creates unique wind damage patterns that require specialized repair
               approaches. Our installations use aerodynamic design principles, enhanced fastening
@@ -532,7 +532,7 @@ export default function WindDamageRepairCanyonPage() {
                   How quickly can you repair wind damage in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  We provide tarping and temporary repairs for actively leaking roofs. Full repair
+                  We provide weatherproof sheeting and temporary repairs for actively leaking roofs. Full repair
                   or replacement typically occurs 2-4 weeks after claim approval, depending on
                   material availability and scheduling. During widespread wind events affecting the
                   entire Texas Panhandle, we work extended hours to accommodate scheduling needs.

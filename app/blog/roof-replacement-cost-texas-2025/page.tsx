@@ -553,7 +553,7 @@ export default function RoofReplacementCostBlogPage() {
                 <li>Not freezing (winter can complicate installation)</li>
               </ul>
               <p>
-                However, emergency replacements don't wait for perfect weather. Professional
+                However, emergency replacements contact us instead for perfect weather. Professional
                 contractors can work safely year-round.
               </p>
 

@@ -264,7 +264,7 @@ export default function ResidentialRoofingDumasPage() {
               characterize the High Plains climate.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Dumas homeowners with expert installations, comprehensive
+              We've served Dumas homeowners with expert installations, comprehensive
               warranties, and outstanding customer service. We handle all permits, insurance claims,
               and warranty documentation. Our team understands the unique roofing needs of Dumas's
               diverse housing stock, from historic homes in the original townsite to modern
@@ -564,7 +564,7 @@ export default function ResidentialRoofingDumasPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Late spring through early fall offers the best weather windows for roofing
-                  projects. However, we provide year-round service including prompt repairs. Winter
+                  projects. However, we provide year-round service including efficient repairs. Winter
                   installations are possible during mild periods, though scheduling flexibility is
                   important due to weather variability in the Texas Panhandle.
                 </AccordionContent>
@@ -644,9 +644,9 @@ export default function ResidentialRoofingDumasPage() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-4">Storm Response</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-4">Post-Storm Process</h3>
                 <p className="text-gray-700 mb-6">
-                  When severe weather strikes Dumas and Moore County, our storm response team is
+                  When severe weather strikes Dumas and Moore County, our repair crew is
                   ready to protect your home and family. We understand that storm damage requires
                   prompt attention, especially during the active storm season in the Texas
                   Panhandle.
@@ -671,7 +671,7 @@ export default function ResidentialRoofingDumasPage() {
                   Temporary Protection Services
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  Our storm response includes temporary protection measures to prevent further
+                  Our our post-storm process includes temporary protection measures to prevent further
                   damage while permanent repairs are arranged. This service is often covered by
                   insurance and can save thousands in additional damage.
                 </p>
@@ -681,8 +681,8 @@ export default function ResidentialRoofingDumasPage() {
                     <Shield className="w-6 h-6 inline-block" /> Temporary Protection Includes:
                   </h4>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Tarping and weatherproofing</li>
-                    <li>• Board-up services for severe damage</li>
+                    <li>• Weatherproof sheeting and weatherproofing</li>
+                    <li>• Securing exposed areas for severe damage</li>
                     <li>• Water extraction and drying</li>
                     <li>• Debris removal and cleanup</li>
                     <li>• Damage documentation for insurance</li>

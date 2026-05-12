@@ -275,7 +275,7 @@ export default function MetalRoofingOdessaPage() {
               including hail, high winds, and temperature swings.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've served Odessa with expert installations, comprehensive warranties,
+              We've served Odessa with expert installations, comprehensive warranties,
               and outstanding customer service. We handle all permits, insurance claims, and
               warranty documentation. Free inspections and estimates available.
             </p>

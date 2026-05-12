@@ -273,7 +273,7 @@ export default function ResidentialRoofingCanyonPage() {
               of the area's conditions.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've been the trusted roofing partner for Canyon's diverse community –
+              We've been the trusted roofing partner for Canyon's diverse community –
               from longtime residents in established neighborhoods to university faculty requiring
               reliable protection for their homes. Our team understands the seasonal patterns that
               affect Canyon, from spring severe weather to the extreme heat that radiates from the

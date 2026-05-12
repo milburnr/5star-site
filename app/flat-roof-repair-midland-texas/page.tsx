@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Completed flat roof installation on Midland TX property — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -113,7 +113,7 @@ export default function FlatRoofMidlandPage() {
         className="hero"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-19-1280w.webp)",
           backgroundPosition: "center",
         }}
       >
@@ -149,6 +149,34 @@ export default function FlatRoofMidlandPage() {
       </div>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing repairs and replaces flat roofs in Midland TX — BUR, modified bitumen, EPDM, and TPO systems for commercial and residential Permian Basin properties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/tpo-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland TPO Roofing</a>
+              <a href="/commercial-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Commercial</a>
+              <a href="/roof-repair-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Roof Repair</a>
+              <a href="/midland-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Midland Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
@@ -172,7 +200,7 @@ export default function FlatRoofMidlandPage() {
               Midland's role as the petroleum capital of West Texas creates unique flat roof repair
               challenges for oil company headquarters, industrial facilities, and commercial
               buildings serving the energy sector. Our specialized expertise addresses
-              chemical-resistant repairs, storm response protocols, and compliance requirements
+              chemical-resistant repairs, post-storm documentation protocols, and compliance requirements
               specific to petroleum industry environments.
             </p>
           </section>
@@ -253,7 +281,7 @@ export default function FlatRoofMidlandPage() {
               Chemical processing and storage facilities require flat roof repairs that meet EPA and
               OSHA requirements for hazardous material handling while providing containment
               capabilities that prevent environmental contamination. Specialized drainage systems
-              and storm response access affect repair procedures and material selection for
+              and post-storm access requirements affect repair procedures and material selection for
               facilities handling petroleum industry chemicals and byproducts.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -270,7 +298,7 @@ export default function FlatRoofMidlandPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Midland Memorial Hospital and associated healthcare facilities require specialized
               flat roof repair approaches that coordinate with critical medical operations,
-              infection control protocols, and life-safety systems that operate around the clock.
+              infection control protocols, and life-safety systems that operate continuously.
               Hospital flat roof repairs must accommodate medical gas systems, backup power
               equipment, and storm access routes while maintaining sterile environments essential
               for patient safety.
@@ -285,7 +313,7 @@ export default function FlatRoofMidlandPage() {
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Emergency medical facilities and trauma centers require immediate flat roof repair
               responses that ensure continuous operation of critical life-saving equipment and
-              services. Rapid repair capabilities and redundant weather protection systems help
+              services. Efficient repair capabilities and redundant weather protection systems help
               maintain medical operations during severe weather events that commonly affect the
               Permian Basin region.
             </p>
@@ -349,11 +377,11 @@ export default function FlatRoofMidlandPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              storm response and Weather Protection for Critical Flat Roof Systems
+              Weather Protection for Critical Flat Roof Systems
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Midland's location in Hail Alley creates frequent opportunities for catastrophic flat
-              roof damage that requires immediate storm response to protect valuable petroleum
+              roof damage that can threaten valuable petroleum
               industry equipment and critical business operations. Our roofing team
               maintain specialized equipment and materials for rapid deployment throughout the
               Permian Basin region during severe weather events.
@@ -361,14 +389,14 @@ export default function FlatRoofMidlandPage() {
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Severe weather events including hailstorms, high winds, and flash flooding can cause
               immediate threats to flat roofing systems that protect critical petroleum industry
-              operations and commercial facilities. tarping systems and temporary weather barriers
+              operations and commercial facilities. Weatherproof sheeting and protective barriers
               provide interim protection while permanent repairs are planned and executed during
               optimal weather conditions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              storm coverage specifically designed for petroleum industry environments
+              Post-storm repair capabilities specifically designed for petroleum industry environments
               include specialized safety equipment, chemical exposure protocols, and coordination
-              with industrial storm response teams. These capabilities ensure business continuity
+              with industrial facility teams. These capabilities ensure business continuity
               during weather events while maintaining safety standards required for petroleum
               industry operations.
             </p>
@@ -720,7 +748,7 @@ export default function FlatRoofMidlandPage() {
                 </h3>
                 <p className="text-gray-700">
                   Brown stains on ceilings or walls indicate active or past leaks requiring
-                  immediate attention.
+                  professional attention.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">

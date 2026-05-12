@@ -184,7 +184,7 @@ export default function StormDamageRepairBorgerPage() {
                 name: "Will insurance cover my storm damage repairs in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (tarping, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
+                  text: "Most homeowner and commercial policies cover storm damage including wind, hail, and rain infiltration from covered perils. Coverage typically includes mitigation costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all damage professionally, work directly with adjusters, and handle supplement requests for hidden damage discovered during repairs. Our 95%+ approval rate demonstrates our insurance expertise.",
                 },
               },
               {
@@ -199,7 +199,7 @@ export default function StormDamageRepairBorgerPage() {
                 name: "How long does storm damage roof replacement take in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Tarping and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling.",
+                  text: "Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days. Complete roof replacement typically occurs 2-4 weeks after insurance approval, depending on material availability and scheduling. Actual installation takes 1-3 days for most homes. During major storm events affecting Borger, timelines may extend due to high demand—early claims get priority scheduling.",
                 },
               },
               {
@@ -207,7 +207,7 @@ export default function StormDamageRepairBorgerPage() {
                 name: "What should I do immediately after storm damage in Borger?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
+                  text: "(1) Ensure family safety—never go on damaged roofs. (2) Document visible damage with photos/video from the ground. (3) Call us for professional inspection—we handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5) DO NOT make permanent repairs before insurance inspection—this can void coverage. We coordinate the entire process from initial assessment through final restoration.",
                 },
               },
             ],
@@ -299,7 +299,7 @@ export default function StormDamageRepairBorgerPage() {
               exposure.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 180+ Borger properties with premium materials engineered
+              We've protected 180+ Borger properties with premium materials engineered
               for Panhandle weather. From homes near Huber Park to industrial buildings throughout
               Hutchinson County, we understand local building codes, work seamlessly with Borger
               property owners, and handle complete insurance claims. Most homeowners pay only their
@@ -363,7 +363,7 @@ export default function StormDamageRepairBorgerPage() {
                 </h3>
                 <ul className="text-gray-700 space-y-2">
                   <li>• Safety assessment and area securing</li>
-                  <li>• tarping for active leaks</li>
+                  <li>• weatherproof sheeting for active leaks</li>
                   <li>• Damage documentation begins</li>
                   <li>• Insurance notification</li>
                   <li>• Temporary weather protection</li>
@@ -518,7 +518,7 @@ export default function StormDamageRepairBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Most homeowner and commercial policies cover storm damage including wind, hail,
                   and rain infiltration from covered perils. Coverage typically includes mitigation
-                  costs (tarping, temporary repairs) plus complete restoration. We document all
+                  costs (weatherproof sheeting, temporary repairs) plus complete restoration. We document all
                   damage professionally, work directly with adjusters, and handle supplement
                   requests for hidden damage discovered during repairs. Our 95%+ approval rate
                   demonstrates our insurance expertise.
@@ -543,7 +543,7 @@ export default function StormDamageRepairBorgerPage() {
                   How long does storm damage roof replacement take in Borger?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Tarping and temporary repairs are typically scheduled within 1-2 business days.
+                  Weatherproof sheeting and temporary repairs are typically scheduled within 1-2 business days.
                   Complete roof replacement typically occurs 2-4 weeks after insurance approval,
                   depending on material availability and scheduling. Actual installation takes 1-3
                   days for most homes. During major storm events affecting Borger, timelines may
@@ -561,7 +561,7 @@ export default function StormDamageRepairBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   (1) Ensure family safety—never go on damaged roofs. (2) Document visible damage
                   with photos/video from the ground. (3) Call us for professional inspection—we
-                  handle tarping and temporary repairs. (4) Move valuables away from leak areas. (5)
+                  handle weatherproof sheeting and temporary repairs. (4) Move valuables away from leak areas. (5)
                   DO NOT make permanent repairs before insurance inspection—this can void coverage.
                   We coordinate the entire process from initial assessment through final
                   restoration.
@@ -644,11 +644,11 @@ export default function StormDamageRepairBorgerPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  What's included in your storm response for Borger properties?
+                  What's included in your post-storm documentation for Borger properties?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Our includes immediate safety assessment, professional damage documentation with
-                  photos and measurements, tarping to prevent further damage, temporary repairs for
+                  photos and measurements, weatherproof sheeting to help prevent further damage, temporary repairs for
                   active leaks, coordination with insurance adjusters, and detailed estimates for
                   permanent repairs. We arrive for Borger situations and work
                   around Borger's industrial schedules. All work is properly documented for

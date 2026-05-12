@@ -299,7 +299,7 @@ export default function RoofRepairPampaPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 220+ Pampa properties with premium materials engineered
+              We've protected 220+ Pampa properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Pampa
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -573,8 +573,8 @@ export default function RoofRepairPampaPage() {
                       Energy Sector Response Coordination
                     </h3>
                     <p className="text-gray-700 mb-3">
-                      Understanding that Pampa's energy sector operates around the clock, we
-                      coordinate our storm response with oil and gas facility operations and worker
+                      Understanding that Pampa's energy sector operates continuously, we
+                      coordinate our post-storm documentation with oil and gas facility operations and worker
                       shift schedules to minimize disruption.
                     </p>
                     <ul className="text-gray-600 space-y-1">

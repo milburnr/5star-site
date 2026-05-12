@@ -240,7 +240,7 @@ export default function ResidentialRoofingLevellandPage() {
               modern college housing developments and expanding suburban neighborhoods.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Levelland's 13,500 residents with expert installations,
+              We've served Levelland's 13,500 residents with expert installations,
               comprehensive warranties, and outstanding customer service. We understand the specific
               needs of college town housing, rental properties, and family homes throughout this
               growing community.
@@ -717,7 +717,7 @@ export default function ResidentialRoofingLevellandPage() {
                   </div>
                   <h4 className="font-bold text-brand-brown mb-2">Winter (Dec-Feb)</h4>
                   <p className="text-gray-700 text-sm">
-                    prompt services only. Planning and preparation for spring projects.
+                    scheduling only. Planning and preparation for spring projects.
                   </p>
                 </div>
               </div>

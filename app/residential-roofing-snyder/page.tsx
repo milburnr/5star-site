@@ -231,7 +231,7 @@ export default function ResidentialRoofingSnyderPage() {
               regions.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Since 2014, we've served Snyder's 10,800 residents with expert installations designed
+              We've served Snyder's 10,800 residents with expert installations designed
               for the Rolling Plains environment. Our team understands the specific needs of this
               historic oil and agricultural community, from established neighborhoods to modern
               developments supporting the energy sector.

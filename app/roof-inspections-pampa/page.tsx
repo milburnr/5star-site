@@ -299,7 +299,7 @@ export default function RoofInspectionsPampaPage() {
               installation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Since 2014, we've protected 220+ Pampa properties with premium materials engineered
+              We've protected 220+ Pampa properties with premium materials engineered
               for Panhandle weather. We understand local building codes, work seamlessly with Pampa
               property owners, and handle complete insurance claims. Most homeowners pay only their
               deductible when insurance covers storm damage.
@@ -514,7 +514,7 @@ export default function RoofInspectionsPampaPage() {
         <FadeIn>
           <section className="mb-16 bg-gray-50 p-12 rounded-3xl">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Inspection Scheduling & storm response Involve?
+              What Does Inspection Scheduling & post-storm documentation Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
@@ -542,7 +542,7 @@ export default function RoofInspectionsPampaPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-brand-brown mb-6">Storm Response</h3>
+                <h3 className="text-2xl font-bold text-brand-brown mb-6">post-storm documentation</h3>
                 <div className="space-y-4">
                   <div className="bg-brand-gold/10 border-l-4 border-brand-gold p-6 rounded-xl">
                     <h4 className="text-lg font-semibold text-brand-brown mb-2">

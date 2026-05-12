@@ -314,14 +314,14 @@ export default function Page() {
       </p>
       <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700">
         <li>
-          <strong>storm response:</strong> Available for{" "}
+          <strong>post-storm documentation:</strong> Available for{" "}
           <a
             href="/storm-damage-repair-amarillo/"
             className="text-brand-brown hover:text-brand-gold underline"
           >
-            prompt leak repairs
+            efficient leak repairs
           </a>{" "}
-          and tarping
+          and weatherproof sheeting
         </li>
         <li>
           <strong>Comprehensive Damage Assessment:</strong> Detailed documentation for insurance
