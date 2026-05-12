@@ -3,7 +3,7 @@ import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { MaterialBrands } from "@/components/MaterialBrands";
-import { ContactForm } from "@/components/ContactForm";
+import { ContactSection } from "@/components/ContactSection";
 import {
   Accordion,
   AccordionContent,
@@ -1523,37 +1523,13 @@ export default async function Page() {
           </section>
         </FadeIn>
 
-        {/* Inline Contact Form — converts visitors who won't dial.
-            Posts JSON to /.netlify/functions/contact-submit which forwards
-            to the GHL webhook. Replaces the heavy iframe form embed. */}
+        {/* Inline Contact Section — editorial split layout (dark trust
+            column + cream form). Posts JSON to /.netlify/functions/contact-submit
+            which forwards to the GHL webhook. */}
         <FadeIn>
-          <section id="get-quote" className="mb-16 below-fold scroll-mt-24">
-            <div className="grid md:grid-cols-5 gap-8 items-start bg-gradient-to-br from-amber-50 to-white p-6 md:p-10 rounded-2xl border border-brand-gold/20 shadow-md">
-              <div className="md:col-span-2">
-                <h2 className="text-3xl font-bold mb-4 text-brand-brown">
-                  Request a Free Inspection
-                </h2>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Send us a few details and we'll be in touch shortly. No obligation, no
-                  high-pressure sales — just a thorough roof assessment from a licensed Texas
-                  Panhandle roofing crew.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  Prefer to talk? Call{" "}
-                  <a
-                    href="tel:8066226041"
-                    className="text-brand-gold font-semibold hover:underline"
-                  >
-                    (806) 622-6041
-                  </a>{" "}
-                  for same-day post-storm documentation.
-                </p>
-              </div>
-              <div className="md:col-span-3">
-                <ContactForm title="" subtitle="" />
-              </div>
-            </div>
-          </section>
+          <div id="get-quote" className="below-fold scroll-mt-24">
+            <ContactSection />
+          </div>
         </FadeIn>
 
         {/* CTA Section */}
