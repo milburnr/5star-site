@@ -445,10 +445,10 @@ export default async function Page() {
                   className="block bg-white rounded-lg shadow-md card-blur-bounce overflow-hidden group border-2 border-transparent hover:border-brand-gold"
                 >
                   <img
-                    src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.webp"
-                    srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-plainview-23-1280w.webp 1280w"
+                    src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-9-1280w.webp"
+                    srcSet="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-9-640w.webp 640w, https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-9-1280w.webp 1280w"
                     sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                    alt="Wide-angle view of a commercial standing-seam metal roof installation on an industrial facility — 5 Star Roofing"
+                    alt="Commercial flat gravel roof with concrete parapet — 5 Star Roofing TPO and built-up systems"
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                     loading="lazy"
                     fetchPriority="low"
@@ -881,10 +881,10 @@ export default async function Page() {
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-channing-38-1280w.jpg"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp"
                   width={1280}
                   height={853}
-                  alt="Close-up of gray standing seam metal roof panels on a residential home showing raised seams and edge trim — 5 Star Roofing"
+                  alt="Wide-angle view of a standing seam metal roof on an industrial facility — 5 Star Roofing West Texas"
                   className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   fetchPriority="low"
@@ -912,10 +912,10 @@ export default async function Page() {
 
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-2 hover:border-brand-gold transition-all duration-300 group">
                 <img
-                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg"
+                  src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-36-1280w.webp"
                   width={1280}
                   height={717}
-                  alt="Brick ranch home with dark hipped standing-seam metal roof in oilfield landscape; pumpjack and orange sunset sky in background. Likely AI... — 5 Star Roofing"
+                  alt="Flat commercial roof during TPO installation showing membrane surface — 5 Star Roofing"
                   className="w-full h-48 object-cover rounded mb-4 group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   fetchPriority="low"
