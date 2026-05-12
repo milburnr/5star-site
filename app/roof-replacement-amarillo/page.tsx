@@ -8,7 +8,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -41,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function RoofReplacementAmarilloPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Replacement", url: "/roof-replacement/" },
-          { name: "Amarillo", url: "/roof-replacement-amarillo/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       {/* auto-linker:start */}
@@ -261,11 +251,18 @@ export default function RoofReplacementAmarilloPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="amarillo"
         city="Amarillo"
         service="Roof Replacement"
         h1="Roof Replacement in Amarillo, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Replacement", url: "/roof-replacement/" },
+          { name: "Amarillo", url: "/roof-replacement-amarillo/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

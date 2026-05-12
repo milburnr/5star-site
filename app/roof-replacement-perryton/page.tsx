@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -42,16 +41,7 @@ export const metadata: Metadata = {
 
 export default function RoofReplacementPerrytonPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Replacement", url: "/roof-replacement/" },
-          { name: "Perryton", url: "/roof-replacement-perryton/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -193,11 +183,18 @@ export default function RoofReplacementPerrytonPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="perryton"
         city="Perryton"
         service="Roof Replacement"
         h1="Roof Replacement in Perryton, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Replacement", url: "/roof-replacement/" },
+          { name: "Perryton", url: "/roof-replacement-perryton/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -41,16 +40,7 @@ export const metadata: Metadata = {
 
 export default function RoofReplacementLevellandPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Replacement", url: "/roof-replacement/" },
-          { name: "Levelland", url: "/roof-replacement-levelland/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -150,11 +140,18 @@ export default function RoofReplacementLevellandPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="levelland"
         city="Levelland"
         service="Roof Replacement"
         h1="Roof Replacement in Levelland, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Replacement", url: "/roof-replacement/" },
+          { name: "Levelland", url: "/roof-replacement-levelland/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

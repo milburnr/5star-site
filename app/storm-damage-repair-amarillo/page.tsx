@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { InsuranceLogos } from "@/components/InsuranceLogos";
 import { AlertTriangle, Building2, ClipboardList, Hammer } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function StormDamageRepairAmarilloPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Storm Damage Repair",
-            url: "/storm-damage-repair/",
-          },
-          {
-            name: "Amarillo",
-            url: "/storm-damage-repair-amarillo/",
-          },
-        ]}
-      />
-      <script
+      {" "}      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
@@ -166,11 +148,27 @@ export default function StormDamageRepairAmarilloPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="amarillo"
         city="Amarillo"
         service="Storm Damage Repair"
         h1="Storm Damage Repair in Amarillo, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Storm Damage Repair",
+            url: "/storm-damage-repair/",
+          },
+          {
+            name: "Amarillo",
+            url: "/storm-damage-repair-amarillo/",
+          },
+        ]}
+    />
       {/* Phase 12 Stream C (12.14): insurance carrier strip below hero */}
       <InsuranceLogos />
       <FadeIn>
