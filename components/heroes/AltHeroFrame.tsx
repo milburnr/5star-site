@@ -1,4 +1,5 @@
-import { ArrowRight, Menu } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { MobileMenu } from "@/components/MobileMenu";
 
 /**
  * AltHeroFrame — shared full-bleed editorial hero used by the four variants:
@@ -161,7 +162,7 @@ export function AltHeroFrame({
             <a className="alt-nav-pill" href="/contact/">Contact</a>
           </div>
 
-          <Menu className="alt-mobile-menu" strokeWidth={2} aria-hidden="true" />
+          <MobileMenu />
         </nav>
 
         {/* Decorative display type — aria-hidden so screen readers skip it
