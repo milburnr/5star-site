@@ -329,18 +329,11 @@ export default function RootLayout({
                     Facebook
                   </a>
                 </div>
-                {/* Lazy Google Maps embed for NAP/local SEO — 5 Star Roofing HQ */}
-                <div className="mt-4 rounded-lg overflow-hidden border border-brand-gold/30 shadow-md">
-                  <iframe
-                    title="5 Star Commercial Roofing — 2909 S Western St, Amarillo, TX 79109"
-                    src="https://www.google.com/maps?q=2909+S+Western+St,+Amarillo,+TX+79109&output=embed"
-                    width="100%"
-                    height="180"
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    style={{ border: 0 }}
-                  ></iframe>
-                </div>
+                {/* Footer map removed (2026-05-12): duplicated the larger
+                    MapEmbed on /contact/ and added a second iframe to every
+                    page. The GBP "View on Google" anchor above still provides
+                    the NAP/local SEO entity association without the extra
+                    iframe weight. */}
                 {/* Phase 12 Stream C (12.18): trademark disclaimer + cert badge placeholder.
                     Cert badges are intentionally NOT rendered — per plan 12.18 the default
                     is "skip" until Rich confirms which certifications 5 Star currently holds.
