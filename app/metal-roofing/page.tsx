@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { METAL_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
@@ -227,8 +228,8 @@ export default function Page() {
         heroVariant="service"
         service="Metal Roofing"
         h1="Metal Roofing in West Texas"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp"
-      
+        image="/images/heroes/services/metal-hub-1200.webp"
+        imageSrcSet={METAL_HUB_HERO}
       breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Metal Roofing", url: "/metal-roofing/" },

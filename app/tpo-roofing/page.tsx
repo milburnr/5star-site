@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { TPO_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -233,7 +234,8 @@ export default function Page() {
         heroVariant="service"
         service="TPO Roofing"
         h1="TPO Roofing in West Texas"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-1-1280w.jpg"
+        image="/images/heroes/services/tpo-hub-1200.webp"
+        imageSrcSet={TPO_HUB_HERO}
       
       breadcrumbItems={[
           { name: "Home", url: "/" },

@@ -1,4 +1,4 @@
-import { AltHeroFrame, type BreadcrumbItem } from "./AltHeroFrame";
+import { AltHeroFrame, type BreadcrumbItem, type HeroImageSet } from "./AltHeroFrame";
 
 /**
  * VARIANT C — Service page hero (e.g. /metal-roofing/, /hail-damage-repair/).
@@ -25,6 +25,8 @@ export type ServiceHeroProps = {
   serviceDescriptor?: string;
   /** Override the hero photo per service if appropriate. */
   heroImageSrc?: string;
+  /** Optional responsive image-set (AVIF + WebP at multiple widths). */
+  heroImageSrcSet?: HeroImageSet;
   /** Override the auto-generated H1. Defaults to "[Service] in West Texas". */
   h1Override?: string;
   /** Override the eyebrow line. */
@@ -41,6 +43,7 @@ export function ServiceHero({
   service,
   serviceDescriptor,
   heroImageSrc = "/images/heroes/5star-new-hero-1200w.webp",
+  heroImageSrcSet,
   h1Override,
   eyebrowOverride = DEFAULT_EYEBROW,
   ctaText = "Get Your Free Roof Inspection",
@@ -50,6 +53,7 @@ export function ServiceHero({
   return (
     <AltHeroFrame
       heroImageSrc={heroImageSrc}
+      heroImageSrcSet={heroImageSrcSet}
       displayText={service.toUpperCase()}
       subDisplay={serviceDescriptor?.toUpperCase()}
       leftRuleLines={STANDARD_LEFT_RULE_LINES}

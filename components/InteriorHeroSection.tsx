@@ -1,7 +1,7 @@
 import { LocationHero } from "./heroes/LocationHero";
 import { ServiceHero } from "./heroes/ServiceHero";
 import { ServiceLocationHero } from "./heroes/ServiceLocationHero";
-import type { BreadcrumbItem } from "./heroes/AltHeroFrame";
+import type { BreadcrumbItem, HeroImageSet } from "./heroes/AltHeroFrame";
 
 /**
  * InteriorHeroSection — the single hero entry point for every non-homepage
@@ -56,6 +56,14 @@ export interface InteriorHeroSectionProps {
   eyebrow?: string;
   /** Hero photo source. Same-origin AVIF/WebP/JPEG preferred. */
   image: string;
+  /**
+   * Optional responsive image-set (AVIF + WebP at multiple widths). When
+   * provided, the hero background uses `image-set()` and ships the smallest
+   * acceptable variant per viewport — same pattern as the homepage hero and
+   * city hero sets. Cuts LCP transfer to ~50-80KB at the 900w mobile
+   * breakpoint. Pages without an optimized set fall back to plain `image`.
+   */
+  imageSrcSet?: HeroImageSet;
   /** CTA pill label. */
   ctaText?: string;
   /** CTA pill href. */
@@ -83,6 +91,7 @@ export function InteriorHeroSection({
   h1,
   eyebrow = DEFAULT_EYEBROW,
   image,
+  imageSrcSet,
   ctaText = DEFAULT_CTA_TEXT,
   ctaHref = DEFAULT_CTA_HREF,
   breadcrumbItems,
@@ -115,6 +124,7 @@ export function InteriorHeroSection({
         service={service}
         serviceDescriptor={serviceDescriptor}
         heroImageSrc={image}
+        heroImageSrcSet={imageSrcSet}
         h1Override={h1}
         eyebrowOverride={eyebrow}
         ctaText={ctaText}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { COMMERCIAL_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { Briefcase, Shield, Zap } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
@@ -122,7 +123,8 @@ export default function Page() {
         heroVariant="service"
         service="Commercial Roofing"
         h1="Commercial Roofing in West Texas"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-commercial.jpg"
+        image="/images/heroes/services/commercial-hub-1200.webp"
+        imageSrcSet={COMMERCIAL_HUB_HERO}
       
       breadcrumbItems={[
           {
