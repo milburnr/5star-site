@@ -131,7 +131,7 @@ export default function RootLayout({
                         Hail Damage Repair
                       </a>
                       <a
-                        href="/amarillo-texas-roofing/"
+                        href="/roof-replacement-amarillo/"
                         className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
                       >
                         Roof Replacement
