@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Factory, Phone, Star, Tornado, Wheat } from "lucide-react";
@@ -43,24 +42,7 @@ export const metadata: Metadata = {
 export default function RoofInspectionsPerrytonPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Inspections",
-            url: "/roof-inspections/",
-          },
-          {
-            name: "Perryton",
-            url: "/roof-inspections-perryton/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -219,11 +201,27 @@ export default function RoofInspectionsPerrytonPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="perryton"
         city="Perryton"
         service="Roof Inspections"
         h1="Roof Inspections in Perryton, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/perryton-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Inspections",
+            url: "/roof-inspections/",
+          },
+          {
+            name: "Perryton",
+            url: "/roof-inspections-perryton/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">

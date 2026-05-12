@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -54,16 +53,7 @@ export const metadata: Metadata = {
 
 export default function RoofRepairAmarilloPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Repair", url: "/roof-repair/" },
-          { name: "Amarillo", url: "/roof-repair-amarillo/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -208,11 +198,18 @@ export default function RoofRepairAmarilloPage() {
 
       <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="amarillo"
         city="Amarillo"
         service="Roof Repair"
         h1="Roof Repair in Amarillo, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Repair", url: "/roof-repair/" },
+          { name: "Amarillo", url: "/roof-repair-amarillo/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="section-major bg-gradient-to-b from-amber-50 to-white">

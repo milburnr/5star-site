@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Handshake, Phone, Shield, Star, Tornado } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairLevellandPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Levelland",
-            url: "/roof-repair-levelland/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -168,11 +150,27 @@ export default function RoofRepairLevellandPage() {
       {/* schema-cleanup:faqpage:removed */}
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="levelland"
         city="Levelland"
         service="Roof Repair"
         h1="Roof Repair in Levelland, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/levelland-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Levelland",
+            url: "/roof-repair-levelland/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">

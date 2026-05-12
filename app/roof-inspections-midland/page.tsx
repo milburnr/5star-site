@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -56,16 +55,7 @@ export const metadata: Metadata = {
 
 export default function RoofInspectionsMidlandPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Roof Inspections", url: "/roof-inspections/" },
-          { name: "Midland", url: "/roof-inspections-midland/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -199,11 +189,18 @@ export default function RoofInspectionsMidlandPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Midland"
         service="Roof Inspections"
         h1="Roof Inspections in Midland, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/midland-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Roof Inspections", url: "/roof-inspections/" },
+          { name: "Midland", url: "/roof-inspections-midland/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
@@ -57,25 +56,7 @@ export const metadata: Metadata = {
 
 export default function RoofInspectionsMonahansPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Inspections",
-            url: "/roof-inspections/",
-          },
-          {
-            name: "Monahans",
-            url: "/roof-inspections-monahans/",
-          },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -188,11 +169,27 @@ export default function RoofInspectionsMonahansPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Monahans"
         service="Roof Inspections"
         h1="Roof Inspections in Monahans, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Inspections",
+            url: "/roof-inspections/",
+          },
+          {
+            name: "Monahans",
+            url: "/roof-inspections-monahans/",
+          },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { Beef, Landmark, Phone, Star, Wheat } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairDumasPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Dumas",
-            url: "/roof-repair-dumas/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -218,11 +200,27 @@ export default function RoofRepairDumasPage() {
       />
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="dumas"
         city="Dumas"
         service="Roof Repair"
         h1="Roof Repair in Dumas, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/dumas-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Dumas",
+            url: "/roof-repair-dumas/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">

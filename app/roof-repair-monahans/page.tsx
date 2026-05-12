@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { CheckCircle, Fuel, Mountain, Phone, Star, XCircle, Zap } from "lucide-react";
@@ -42,24 +41,7 @@ export const metadata: Metadata = {
 export default function RoofRepairMonahansPage() {
   return (
     <>
-      {" "}
-      <Breadcrumb
-        items={[
-          {
-            name: "Home",
-            url: "/",
-          },
-          {
-            name: "Roof Repair",
-            url: "/roof-repair/",
-          },
-          {
-            name: "Monahans",
-            url: "/roof-repair-monahans/",
-          },
-        ]}
-      />
-      {/* Sticky Contact Bar */}
+      {" "}      {/* Sticky Contact Bar */}
       <StickyContactBar />
       <script
         type="application/ld+json"
@@ -168,11 +150,27 @@ export default function RoofRepairMonahansPage() {
       {/* schema-cleanup:faqpage:removed */}
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Monahans"
         service="Roof Repair"
         h1="Roof Repair in Monahans, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/odessa-hero.jpg"
-      />
+      
+      breadcrumbItems={[
+          {
+            name: "Home",
+            url: "/",
+          },
+          {
+            name: "Roof Repair",
+            url: "/roof-repair/",
+          },
+          {
+            name: "Monahans",
+            url: "/roof-repair-monahans/",
+          },
+        ]}
+    />
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
           <div className="container-custom">
