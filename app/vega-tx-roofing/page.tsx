@@ -529,7 +529,7 @@ export default function VegaRoofingPage() {
               More Roofing Services Near Vega
             </h2>
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-              <a href="/amarillo-texas-roofing/" className="card-hover p-4 block">
+              <a href="/amarillo-tx-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
                 <p className="text-gray-600 text-sm">
                   Complete roofing services in Amarillo (35 miles east)
@@ -696,7 +696,7 @@ export default function VegaRoofingPage() {
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

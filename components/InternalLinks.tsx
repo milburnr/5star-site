@@ -19,7 +19,7 @@ const cityData: Record<string, CityData> = {
     name: "Amarillo",
     slug: "amarillo",
     nearbyCities: ["canyon", "borger", "dumas", "pampa"],
-    hubUrl: "/amarillo-texas-roofing/",
+    hubUrl: "/amarillo-tx-roofing/",
   },
   canyon: {
     name: "Canyon",

@@ -29,34 +29,34 @@ export default function Page() {
   const blogPosts = [
     {
       title: "Cadillac Ranch: Amarillo's Iconic Public Art Installation",
-      url: "/amarillo-texas-roofing/",
+      url: "/amarillo-tx-roofing/",
       excerpt:
         "Explore one of Amarillo's most iconic roadside attractions and public art installations.",
     },
     {
       title: "Amarillo Botanical Gardens: An Oasis in the High Plains",
-      url: "/amarillo-texas-roofing/",
+      url: "/amarillo-tx-roofing/",
       excerpt: "Discover the beauty and tranquility of Amarillo's premier botanical gardens.",
     },
     {
       title: "Amarillo Zoo: Wildlife Adventures in the Texas Panhandle",
-      url: "/amarillo-texas-roofing/",
+      url: "/amarillo-tx-roofing/",
       excerpt: "A family-friendly guide to the Amarillo Zoo and its amazing animal exhibits.",
     },
     {
       title: "American Quarter Horse Hall of Fame & Museum in Amarillo",
-      url: "/amarillo-texas-roofing/",
+      url: "/amarillo-tx-roofing/",
       excerpt:
         "Learn about the rich history of the American Quarter Horse at this world-class museum.",
     },
     {
       title: "Whataburger in Amarillo: A Texas Culinary Icon",
-      url: "/amarillo-texas-roofing/",
+      url: "/amarillo-tx-roofing/",
       excerpt: "The story of Whataburger and its special place in Amarillo's culinary landscape.",
     },
     {
       title: "Martin Road Park: Tranquility in Nature in Amarillo",
-      url: "/amarillo-texas-roofing/",
+      url: "/amarillo-tx-roofing/",
       excerpt: "Find peace and recreation at one of Amarillo's beloved neighborhood parks.",
     },
   ];
@@ -108,7 +108,7 @@ export default function Page() {
           Welcome to our collection of articles featuring local Amarillo attractions and roofing
           insights. As a locally-owned business, we're proud to serve Amarillo and showcase the best
           our community has to offer. For professional{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             roofing services in Amarillo
           </a>
           , call us at <strong>(806) 622-6041</strong> for a free inspection.
@@ -214,7 +214,7 @@ export default function Page() {
             </p>
             <p className="text-gray-700">
               Explore our comprehensive{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 roofing services
               </a>{" "}
               to learn more about what we can do for you.

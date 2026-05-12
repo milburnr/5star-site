@@ -91,7 +91,7 @@ export default function WildoradoRoofingPage() {
               5 Star Roofing provides roofing services in Wildorado TX — residential repairs, hail damage documentation, and roof replacement for Oldham County properties along the I-40 corridor.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
-              <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roofing</a>
+              <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Roofing</a>
               <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Hail Damage Repair</a>
               <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
               <a href="/service-areas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Service Areas</a>
@@ -548,7 +548,7 @@ export default function WildoradoRoofingPage() {
               More Roofing Services Near Wildorado
             </h2>
             <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-              <a href="/amarillo-texas-roofing/" className="card-hover p-4 block">
+              <a href="/amarillo-tx-roofing/" className="card-hover p-4 block">
                 <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>
                 <p className="text-gray-600 text-sm">
                   Complete roofing services in Amarillo (15 miles east)
@@ -715,7 +715,7 @@ export default function WildoradoRoofingPage() {
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

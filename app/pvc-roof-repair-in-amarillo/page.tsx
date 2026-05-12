@@ -150,7 +150,7 @@ export default function Page() {
           </a>{" "}
           can suffer damage from hailstorms, wind, or aging. When your PVC roof develops leaks or
           damage in{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           ,{" "}

@@ -1049,7 +1049,7 @@ export default async function Page() {
               <div className="space-y-1 text-gray-700">
                 <div>
                   <a
-                    href="/amarillo-texas-roofing/"
+                    href="/amarillo-tx-roofing/"
                     className="hover:text-brand-gold hover:font-semibold transition-all"
                   >
                     Amarillo

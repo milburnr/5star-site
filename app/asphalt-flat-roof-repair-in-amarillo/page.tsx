@@ -155,7 +155,7 @@ export default function Page() {
             <a href="/roof-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Roof Repair</a>
             <a href="/tpo-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo TPO</a>
             <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Asphalt Shingles</a>
-            <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+            <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
           </div>
         </section>
       </FadeIn>
@@ -185,7 +185,7 @@ export default function Page() {
             commercial buildings
           </a>{" "}
           in{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           ,{" "}

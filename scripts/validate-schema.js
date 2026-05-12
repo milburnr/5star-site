@@ -81,7 +81,7 @@ function isTypeMatch(schema, typeName) {
  * Detect if a path looks like a service-city page (e.g. roof-repair-amarillo).
  *
  * Uses positive matching: known service prefixes + city names.
- * This avoids false positives on city hub pages (amarillo-texas-roofing),
+ * This avoids false positives on city hub pages (amarillo-tx-roofing),
  * blog/article pages, and other content pages.
  */
 function isServiceCityPath(rel, schemas) {

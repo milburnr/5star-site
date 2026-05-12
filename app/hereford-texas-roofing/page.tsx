@@ -796,7 +796,7 @@ export default function HerefordRoofingPage() {
                   <AccordionContent className="text-gray-700 leading-relaxed">
                     We serve the entire Texas Panhandle region, including{" "}
                     <a
-                      href="/amarillo-texas-roofing/"
+                      href="/amarillo-tx-roofing/"
                       className="text-brand-brown hover:text-brand-gold underline"
                     >
                       Amarillo

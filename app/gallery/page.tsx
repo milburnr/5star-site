@@ -139,7 +139,7 @@ export default function GalleryPage() {
             <p className="text-xl text-gray-600 mb-4">
               Browse our portfolio of completed roofing projects throughout{" "}
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-brown hover:text-brand-gold underline font-semibold"
               >
                 Amarillo

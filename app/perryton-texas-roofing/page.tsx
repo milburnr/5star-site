@@ -162,7 +162,7 @@ export default function PerrytonRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Perryton, Texas</h2>
             <p className="text-lg mb-4">
               As Perryton's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Ochiltree
@@ -673,7 +673,7 @@ export default function PerrytonRoofingPage() {
               extends across the entire region:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 • Amarillo Roofing
               </a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">

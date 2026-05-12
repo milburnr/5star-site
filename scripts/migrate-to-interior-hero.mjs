@@ -60,7 +60,7 @@ const CITIES = {
 };
 
 const LOCATION_SLUGS = {
-  "amarillo-texas-roofing": "Amarillo",
+  "amarillo-tx-roofing": "Amarillo",
   "lubbock-tx-roofing": "Lubbock",
   "midland-tx-roofing": "Midland",
 };

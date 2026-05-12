@@ -348,7 +348,7 @@ export default function Page() {
           <p className="text-sm text-gray-600 mb-2">
             I-40 corridor shopping centers in{" "}
             <a
-              href="/amarillo-texas-roofing/"
+              href="/amarillo-tx-roofing/"
               className="text-brand-brown hover:text-brand-gold underline"
             >
               Amarillo

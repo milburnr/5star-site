@@ -980,7 +980,7 @@ export default function LubbockRoofingPage() {
             </h2>
             <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

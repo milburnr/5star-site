@@ -145,7 +145,7 @@ export default function Page() {
             commercial and industrial buildings
           </a>{" "}
           in{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Amarillo
           </a>
           ,{" "}

@@ -205,7 +205,7 @@ export default function BorgerRoofingPage() {
             5 Star Roofing serves Borger and Hutchinson County with residential and commercial roofing. Class 4 hail-rated systems recommended for the Texas Panhandle hail corridor. Industrial expertise for Phillips 66 and Chevron Phillips area facilities.
           </p>
           <div className="flex flex-wrap gap-4 text-sm">
-            <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← Amarillo Hub</a>
+            <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← Amarillo Hub</a>
             <a href="/hail-damage-repair-borger/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Borger Hail Repair</a>
             <a href="/roof-replacement-borger/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement</a>
             <a href="/service-areas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Service Areas</a>
@@ -223,7 +223,7 @@ export default function BorgerRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Borger, Texas</h2>
             <p className="text-lg mb-4">
               As Borger's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Hutchinson
@@ -514,7 +514,7 @@ export default function BorgerRoofingPage() {
               across the entire region. We also provide comprehensive roofing services in:
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 • Amarillo Roofing
               </a>
               <a href="/midland-tx-roofing/" className="text-brand-gold hover:underline">

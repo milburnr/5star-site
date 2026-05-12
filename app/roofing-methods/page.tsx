@@ -82,7 +82,7 @@ export default function Page() {
         </h2>
         <p className="text-lg">
           Not all roofing methods are created equal—especially in the{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Texas Panhandle
           </a>
           . The region sits squarely in America's "Hail Alley," experiencing an average of{" "}
@@ -96,7 +96,7 @@ export default function Page() {
         </p>
         <p className="text-lg mt-4">
           At{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             5 Star Commercial Roofing
           </a>
           , we specialize in advanced roofing methods specifically engineered for the Texas

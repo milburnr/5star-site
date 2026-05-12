@@ -154,7 +154,7 @@ export default function Page() {
         <h2 className="content-block-title">Winter Storm Damage in the Texas Panhandle</h2>
         <p className="text-lg">
           While the{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             Texas Panhandle
           </a>{" "}
           is better known for{" "}

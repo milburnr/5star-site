@@ -1044,7 +1044,7 @@ export default function MidlandRoofingPage() {
               </a>
               <span className="text-gray-400">•</span>
               <a
-                href="/amarillo-texas-roofing/"
+                href="/amarillo-tx-roofing/"
                 className="text-brand-gold hover:text-brand-gold-vibrant font-medium"
               >
                 Amarillo

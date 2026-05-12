@@ -214,7 +214,7 @@ export function AltHeroFrame({
                 </svg>
               </a>
               <div className="alt-nav-dropdown-panel" role="menu">
-                <a href="/amarillo-texas-roofing/" role="menuitem">Amarillo</a>
+                <a href="/amarillo-tx-roofing/" role="menuitem">Amarillo</a>
                 <a href="/lubbock-tx-roofing/" role="menuitem">Lubbock</a>
                 <a href="/midland-tx-roofing/" role="menuitem">Midland</a>
                 <a href="/odessa-tx-roofing/" role="menuitem">Odessa</a>

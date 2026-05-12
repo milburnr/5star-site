@@ -34,7 +34,7 @@ export default function Page() {
       <Breadcrumb
         items={[
           { name: "Home", url: "/" },
-          { name: "Amarillo", url: "/amarillo-texas-roofing/" },
+          { name: "Amarillo", url: "/amarillo-tx-roofing/" },
           { name: "Best Roofer", url: "/amarillos-best-roofer/" },
         ]}
       />
@@ -163,7 +163,7 @@ export default function Page() {
         <p>
           When looking for Amarillo's best roofer, it's important to consider several factors. You
           need a contractor who understands the unique challenges of{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             roofing in Amarillo
           </a>{" "}
           and the broader West Texas region, from severe hailstorms to extreme temperature

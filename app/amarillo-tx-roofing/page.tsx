@@ -30,7 +30,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
-  alternates: { canonical: "https://5starroofingpros.com/amarillo-texas-roofing/" },
+  alternates: { canonical: "https://5starroofingpros.com/amarillo-tx-roofing/" },
   title: "Amarillo Texas Roofing | 5 Star Roofing",
   description:
     "Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Amarillo Texas Roofing | 5 Star Roofing",
     description:
       "Trusted roofing contractor serving Amarillo, Texas. hail damage repair, residential & commercial roofing, metal roofs, and free inspections.",
-    url: "https://5starroofingpros.com/amarillo-texas-roofing/",
+    url: "https://5starroofingpros.com/amarillo-tx-roofing/",
     siteName: "5 Star Roofing",
     images: [
       {
@@ -833,7 +833,7 @@ export default function AmarilloRoofingPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "RoofingContractor"],
-            "@id": "https://5starroofingpros.com/amarillo-texas-roofing/",
+            "@id": "https://5starroofingpros.com/amarillo-tx-roofing/",
             name: "5 Star Roofing",
             parentOrganization: { "@id": "https://5starroofingpros.com/#organization" },
             image:
@@ -954,7 +954,7 @@ export default function AmarilloRoofingPage() {
           }),
         }}
       />
-      <RelatedArticles pageSlug="amarillo-texas-roofing" />
+      <RelatedArticles pageSlug="amarillo-tx-roofing" />
     </div>
   );
 }

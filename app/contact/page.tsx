@@ -320,7 +320,7 @@ export default function ContactPage() {
                 {
                   city: "Amarillo",
                   Icon: Building2,
-                  link: "/amarillo-texas-roofing/",
+                  link: "/amarillo-tx-roofing/",
                 },
                 {
                   city: "Midland",

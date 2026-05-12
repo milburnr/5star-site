@@ -392,7 +392,7 @@ export default function Page() {
                 <ul className="space-y-1">
                   <li>
                     <a
-                      href="/amarillo-texas-roofing/"
+                      href="/amarillo-tx-roofing/"
                       className="text-brand-brown hover:text-brand-gold underline"
                     >
                       Amarillo

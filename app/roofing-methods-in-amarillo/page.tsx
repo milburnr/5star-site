@@ -146,7 +146,7 @@ export default function Page() {
             <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Asphalt Shingles</a>
             <a href="/metal-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Metal Roofing</a>
             <a href="/tpo-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">TPO Roofing</a>
-            <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+            <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
           </div>
         </section>
       </FadeIn>
@@ -171,7 +171,7 @@ export default function Page() {
         </h2>
         <p className="text-lg">
           When it comes to{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             roofing in Amarillo
           </a>
           , installation method matters just as much as material selection. The{" "}
@@ -183,7 +183,7 @@ export default function Page() {
         </p>
         <p className="text-lg mt-4">
           At{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             5 Star Commercial Roofing
           </a>
           , we've spent over a decade perfecting installation techniques specifically for Amarillo's

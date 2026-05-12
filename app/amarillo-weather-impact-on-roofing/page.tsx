@@ -355,7 +355,7 @@ export default function Page() {
           will directly impact how well your roof performs over its lifetime. We work with top-tier
           manufacturers to provide options that offer the best combination of durability,
           aesthetics, and value for Amarillo homeowners. Our{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             comprehensive roofing services
           </a>{" "}
           include expert consultation to help you make the right choice for your specific needs and
@@ -1166,7 +1166,7 @@ export default function Page() {
             </p>
           </a>
           <a
-            href="/amarillo-texas-roofing/"
+            href="/amarillo-tx-roofing/"
             className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200"
           >
             <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing Services</h3>

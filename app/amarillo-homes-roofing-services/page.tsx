@@ -467,7 +467,7 @@ export default function Page() {
 
         <p>
           For comprehensive{" "}
-          <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+          <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
             roofing services in Amarillo
           </a>{" "}
           and the surrounding areas, trust the experts at 5 Star Commercial Roofing. We combine
@@ -629,7 +629,7 @@ export default function Page() {
             </p>
           </a>
           <a
-            href="/amarillo-texas-roofing/"
+            href="/amarillo-tx-roofing/"
             className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200"
           >
             <h3 className="font-bold text-brand-brown mb-2">Amarillo Roofing</h3>

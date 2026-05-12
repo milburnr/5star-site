@@ -111,7 +111,7 @@ export default function DumasRoofingPage() {
             <h2 className="content-block-title">Trusted Roofing Services in Dumas, Texas</h2>
             <p className="text-lg mb-4">
               As Dumas's premier{" "}
-              <a href="/amarillo-texas-roofing/" className="text-brand-gold hover:underline">
+              <a href="/amarillo-tx-roofing/" className="text-brand-gold hover:underline">
                 professional roofing contractor
               </a>
               , 5 Star Commercial Roofing brings over a decade of experience serving Moore County
@@ -704,7 +704,7 @@ export default function DumasRoofingPage() {
                 expert roofing services throughout the Texas Panhandle and West Texas. Our service
                 area includes{" "}
                 <a
-                  href="/amarillo-texas-roofing/"
+                  href="/amarillo-tx-roofing/"
                   className="text-brand-gold hover:text-brand-gold-vibrant"
                 >
                   Amarillo

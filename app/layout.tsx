@@ -183,7 +183,7 @@ export default function RootLayout({
                   <div className="absolute top-full left-0 mt-2 w-48 bg-[#2C1810] rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-brand-gold/20">
                     <div className="py-2">
                       <a
-                        href="/amarillo-texas-roofing/"
+                        href="/amarillo-tx-roofing/"
                         className="block px-4 py-2 text-brand-gold-light hover:bg-brand-gold/10 hover:text-brand-gold-bright"
                       >
                         Amarillo
@@ -426,7 +426,7 @@ export default function RootLayout({
                 <ul className="space-y-2 text-sm">
                   <li>
                     <a
-                      href="/amarillo-texas-roofing/"
+                      href="/amarillo-tx-roofing/"
                       className="text-brand-gold-light hover:text-brand-gold-bright"
                     >
                       Amarillo Roofing

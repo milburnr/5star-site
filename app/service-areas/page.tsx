@@ -154,7 +154,7 @@ export default function Page() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Amarillo */}
           <a
-            href="/amarillo-texas-roofing/"
+            href="/amarillo-tx-roofing/"
             className="card border-2 border-brand-gold group hover:border-brand-gold-vibrant hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             <div className="card-body">
@@ -597,7 +597,7 @@ export default function Page() {
             <h3 className="text-lg font-bold mb-3 text-brand-gold">Major Cities</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/amarillo-texas-roofing/" className="hover:text-brand-gold">
+                <a href="/amarillo-tx-roofing/" className="hover:text-brand-gold">
                   Amarillo
                 </a>
               </li>

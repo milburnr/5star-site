@@ -210,7 +210,7 @@ export default function WindDamageRepairAmarilloPage() {
               <a href="/wind-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Wind Damage Repair</a>
               <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Hail Damage</a>
               <a href="/storm-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Storm Repair</a>
-              <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+              <a href="/amarillo-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
             </div>
           </section>
         </FadeIn>
