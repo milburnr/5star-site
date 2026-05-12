@@ -177,7 +177,7 @@ export default function HailDamageRepairHerefordPage() {
                 name: "How quickly can you reach Hereford from Amarillo?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Hereford is 48 miles southwest of our Amarillo headquarters. We typically reach Hereford properties within 45-60 minutes for prompt situations.",
+                  text: "Hereford is 48 miles southwest of our Amarillo headquarters. We schedule free inspections throughout Deaf Smith County.",
                 },
               },
               {
@@ -804,7 +804,7 @@ export default function HailDamageRepairHerefordPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Hereford is 48 miles southwest of our Amarillo headquarters. We typically reach
-                  Hereford properties within 45-60 minutes for prompt situations, with priority
+                  Hereford properties with priority
                   response for critical agricultural facilities.
                 </AccordionContent>
               </AccordionItem>

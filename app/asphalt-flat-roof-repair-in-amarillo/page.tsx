@@ -587,7 +587,7 @@ export default function Page() {
                 name: "What is the lifespan of an asphalt flat roof in Amarillo's climate?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "In Amarillo's extreme climate with intense UV radiation, temperature swings exceeding 100 degrees annually, and frequent hail, asphalt flat roofs typically last 15-20 years with proper maintenance. Premium modified bitumen systems can last 20-25 years. Regular maintenance including annual inspections, drain cleaning, and prompt repair of damage significantly extends roof life.",
+                  text: "In Amarillo's extreme climate with intense UV radiation, temperature swings exceeding 100 degrees annually, and frequent hail, asphalt flat roofs typically last 15-20 years with proper maintenance. Premium modified bitumen systems can last 20-25 years. Regular maintenance including annual inspections, drain cleaning, and repair of damage significantly extends roof life.",
                 },
               },
               {

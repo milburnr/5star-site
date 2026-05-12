@@ -769,7 +769,7 @@ export default function TPORoofingOdessaPage() {
                   recommend quarterly inspections for industrial facilities, focusing on chemical
                   exposure areas, equipment penetrations, and drainage systems after dust storms.
                   Key maintenance includes drain cleaning after major dust events, seam inspection
-                  around equipment, and prompt repair of any physical damage. The smooth TPO surface
+                  around equipment, and repair of any physical damage. The smooth TPO surface
                   makes cleaning easy when needed. Most routine maintenance can be performed by
                   facility personnel with our training, though professional inspections ensure
                   optimal performance and warranty compliance.

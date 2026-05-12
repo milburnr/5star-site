@@ -234,8 +234,7 @@ export default function CommercialRoofingMonahansPage() {
             <p className="text-lg text-gray-600 leading-relaxed">
               Since 2014, we've served Monahans' evolving economy with expert installations and
               comprehensive warranties for oil and gas facilities, emerging industries, and
-              tourism-related businesses. Our 65-minute response time from Amarillo headquarters
-              ensures rapid service for storm repairs across diverse facility types. We handle all
+              tourism-related businesses. We handle all
               permits, insurance claims, and warranty documentation.
             </p>
 

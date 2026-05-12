@@ -714,13 +714,12 @@ export default function ResidentialRoofingBigSpringPage() {
                 className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 mb-4"
               >
                 <AccordionTrigger className="text-lg font-semibold text-brand-brown hover:text-brand-gold">
-                  Do you offer prompt services for Big Spring storm damage?
+                  Do you offer service for Big Spring storm damage?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Yes, We provide service for Big Spring storm damage. Our our crews
-                  typically arrive within 90 minutes for urgent situations. We immediately secure
+                  Yes, we serve Big Spring storm damage. Our crews immediately secure
                   damaged areas with tarps and temporary repairs while documenting everything for
-                  insurance claims. prompt services include water damage mitigation, structural
+                  insurance claims. Services include water damage mitigation, structural
                   stabilization, and priority scheduling for permanent repairs.
                 </AccordionContent>
               </AccordionItem>

@@ -738,9 +738,8 @@ export default function OdessaRoofingPage() {
                     throughout the Permian Basin.
                   </p>
                   <p className="text-gray-700 mb-4">
-                    <strong>Response Times:</strong> prompt service typically within 1-2 hours
-                    anywhere in Odessa. Scheduled inspections and installations available throughout
-                    the week.
+                    <strong>Scheduling:</strong> Inspections and installations available throughout
+                    the week across Odessa and Ector County.
                   </p>
                   <p className="text-gray-700">
                     <strong>Nearby Communities:</strong> We also serve Midland (20 miles east),

@@ -232,9 +232,7 @@ export default function CommercialRoofingLevellandPage() {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Since 2014, we've served Levelland's unique agricultural and educational sectors with
-              expert installations and comprehensive warranties. Our 55-minute response time from
-              Amarillo headquarters ensures rapid service for storm repairs at cotton processing
-              facilities and college buildings. We handle all permits, insurance claims, and
+              expert installations and comprehensive warranties. We handle all permits, insurance claims, and
               warranty documentation for agricultural and educational institutions.
             </p>
 

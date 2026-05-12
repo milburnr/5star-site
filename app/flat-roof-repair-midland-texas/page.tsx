@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/flat-roof-repair-midland-texas/" },
   title: "Flat Roof Repair in Midland, TX | 5 Star Roofing",
   description:
-    "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. prompt service available. Free inspections. Call today (806) 622-6041",
+    "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. Free inspections. Call today (806) 622-6041",
   openGraph: {
     title: "Flat Roof Repair in Midland, TX | 5 Star Roofing",
     description:
-      "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. prompt service available. Free inspections. Call today (806) 622-6041",
+      "Expert flat roof repair in Midland, Texas. TPO, EPDM, membrane repairs, leak detection. Free inspections. Call today (806) 622-6041",
     url: "https://5starroofingpros.com/flat-roof-repair-midland-texas/",
     siteName: "5 Star Roofing",
     images: [
@@ -758,7 +758,7 @@ export default function FlatRoofMidlandPage() {
             <h2 className="cta-title">Fix Your Midland Flat Roof</h2>
             <p className="cta-text">
               Expert flat roof repairs for commercial and residential properties. Free inspections
-              and prompt service available.
+              and
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:8066226041" className="btn-primary-hero text-lg px-8 py-4">

@@ -127,7 +127,7 @@ export default function Page() {
                 name: "What types of storm damage affect roofs in Lubbock?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Lubbock roofs face multiple storm threats including hail (7-10 events annually), wind gusts exceeding 70+ mph, heavy rain causing water infiltration, and debris impact from South Plains storms. Spring and early summer bring severe thunderstorms with large hail and straight-line winds. Dust storms reduce visibility and deposit abrasive particles. Winter ice accumulation stresses roof structures. Our comprehensive storm damage assessment identifies all issues including hidden damage to underlayment, decking, and structural components that worsen without prompt repair.",
+                  text: "Lubbock roofs face multiple storm threats including hail (7-10 events annually), wind gusts exceeding 70+ mph, heavy rain causing water infiltration, and debris impact from South Plains storms. Spring and early summer bring severe thunderstorms with large hail and straight-line winds. Dust storms reduce visibility and deposit abrasive particles. Winter ice accumulation stresses roof structures. Our comprehensive storm damage assessment identifies all issues including hidden damage to underlayment, decking, and structural components that worsen without repair.",
                 },
               },
               {
@@ -321,7 +321,7 @@ export default function Page() {
                   visibility and deposit abrasive particles. Winter ice accumulation stresses roof
                   structures. Our comprehensive storm damage assessment identifies all issues
                   including hidden damage to underlayment, decking, and structural components that
-                  worsen without prompt repair.
+                  worsen without repair.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">

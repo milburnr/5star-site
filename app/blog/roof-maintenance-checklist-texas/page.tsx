@@ -497,7 +497,7 @@ export default function RoofMaintenanceChecklistPage() {
                 </h3>
                 <p className="text-gray-700">
                   Annual or bi-annual maintenance contracts include inspections, minor repairs,
-                  gutter cleaning, and priority prompt service. Typical cost: $300-$600/year.
+                  gutter cleaning, and priority expert service. Typical cost: $300-$600/year.
                 </p>
               </div>
             </div>

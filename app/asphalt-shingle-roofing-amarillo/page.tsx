@@ -733,7 +733,7 @@ export default function AsphaltShingleRoofingAmarilloPage() {
                       Storm Response Guarantee
                     </h4>
                     <p className="text-yellow-700 text-sm">
-                      tarping within 4 hours of storm damage. Priority scheduling for repairs after
+                      emergency tarping after storm damage. Priority scheduling for repairs after
                       severe weather events.
                     </p>
                   </div>

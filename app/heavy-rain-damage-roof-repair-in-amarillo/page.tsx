@@ -610,7 +610,7 @@ export default function Page() {
               <p>
                 Call immediately if you notice active leaks, water stains, or any signs of water
                 intrusion. The faster we can tarp and assess damage, the less secondary damage
-                (mold, structural deterioration) will occur. Call (806) 622-6041 for prompt service.
+                (mold, structural deterioration) will occur. Call (806) 622-6041 to schedule.
               </p>
             </div>
           </div>

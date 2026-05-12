@@ -232,9 +232,7 @@ export default function CommercialRoofingBigSpringPage() {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Since 2014, we've served Big Spring's unique institutional and commercial needs with
-              expert installations and comprehensive warranties. Our 75-minute response time from
-              Amarillo headquarters ensures rapid service for storm repairs at healthcare
-              facilities, correctional institutions, and critical infrastructure. We handle all
+              expert installations and comprehensive warranties. We handle all
               permits, insurance claims, and warranty documentation.
             </p>
 
@@ -304,7 +302,6 @@ export default function CommercialRoofingBigSpringPage() {
                   <li>• Restricted access installation procedures</li>
                   <li>• Impact-resistant materials for perimeter areas</li>
                   <li>• Integration with security monitoring systems</li>
-                  <li>• Rapid repair capabilities for prompt situations</li>
                   <li>• Compliance with federal detention facility standards</li>
                 </ul>
                 <p className="text-gray-700 mt-4 leading-relaxed">

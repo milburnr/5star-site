@@ -291,7 +291,7 @@ export default function HailDamageRepairOdessaPage() {
               but when storms do hit, they're often severe. Spring and early summer bring the
               highest risk of hail damage, with supercells capable of producing hail larger than
               golf balls. The oil field workforce and associated housing in Odessa means a lot of
-              roofs that need protection and prompt repair when damage occurs.
+              roofs that need protection and repair when damage occurs.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               5 Star Roofing has been serving Odessa and the Permian Basin since 2014. We understand

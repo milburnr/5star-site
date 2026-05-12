@@ -232,8 +232,7 @@ export default function CommercialRoofingAndrewsPage() {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Since 2014, we've served Andrews with expert installations, comprehensive warranties,
-              and outstanding customer service. Our 90-minute response time from Amarillo
-              headquarters ensures rapid service for prompt repairs. We handle all permits,
+              and outstanding customer service. We handle all permits,
               insurance claims, and warranty documentation. Free inspections and estimates
               available.
             </p>

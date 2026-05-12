@@ -451,7 +451,7 @@ export default function ContactPage() {
                     </div>
                     <h3 className="text-xl font-bold mb-3 text-brand-brown">Fast Response</h3>
                     <p className="text-gray-700">
-                      Quick scheduling and prompt service when you need roof repairs or inspections.
+                      Quick scheduling when you need roof repairs or inspections.
                     </p>
                   </div>
                 </InteractiveCard>

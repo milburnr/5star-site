@@ -495,8 +495,7 @@ export default function HailDamageRepairPampaPage() {
 
             <p className="text-lg text-gray-600 leading-relaxed">
               5 Star Roofing has been serving Pampa and Gray County since 2014. Located about 55
-              miles from our Amarillo headquarters, we can reach Pampa within approximately one hour
-              for prompt situations. We understand Pampa's unique combination of industrial,
+              miles from our Amarillo headquarters. We understand Pampa's unique combination of industrial,
               residential, and agricultural properties, having helped hundreds of property owners
               protect their investments with expert repairs and storm-resistant materials. Our
               experience includes work on everything from historic downtown buildings to modern

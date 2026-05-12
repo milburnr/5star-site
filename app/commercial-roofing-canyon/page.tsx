@@ -266,9 +266,7 @@ export default function CommercialRoofingCanyonPage() {
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Since 2014, we've served Canyon's unique blend of educational, tourism, and
-              agricultural sectors with expert installations and comprehensive warranties. Our
-              45-minute response time from Amarillo headquarters provides rapid service for storm
-              repairs to campus facilities and tourist accommodations. We handle all permits,
+              agricultural sectors with expert installations and comprehensive warranties. We handle all permits,
               insurance claims, and warranty documentation for educational institutions and
               commercial properties.
             </p>

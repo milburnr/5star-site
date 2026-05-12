@@ -834,7 +834,7 @@ export default function LubbockRoofingPage() {
                       </li>
                       <li className="flex items-start gap-1">
                         <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                        <strong>Shallowater</strong> - 15-minute response
+                        <strong>Shallowater</strong>
                       </li>
                       <li className="flex items-start gap-1">
                         <Check className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />

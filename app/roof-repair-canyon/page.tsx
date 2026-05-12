@@ -184,7 +184,7 @@ export default function RoofRepairCanyonPage() {
                 name: "How quickly can you repair my leaking roof in Canyon?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "For active leaks, we provide prompt service when called before noon on most days. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity. We understand roof leaks cause stress and damage—we prioritize quality work.",
+                  text: "We schedule repairs as quickly as possible. Standard repairs are typically scheduled within 3-5 business days. Most repairs complete in 2-4 hours depending on complexity.",
                 },
               },
               {
@@ -337,7 +337,7 @@ export default function RoofRepairCanyonPage() {
                   How quickly can you repair my leaking roof in Canyon?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  For active leaks, we provide prompt service when called before noon on most days.
+                  We schedule leak repairs as quickly as possible.
                   Standard repairs are typically scheduled within 3-5 business days. Most repairs
                   complete in 2-4 hours depending on complexity. We understand roof leaks cause
                   stress and damage—we prioritize quality work.

@@ -220,7 +220,7 @@ export default function RoofInspectionsCanyonPage() {
                 name: "How quickly can you inspect my roof after a storm?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Canyon. for prompt situations with active leaks, we schedule inspections after major weather events. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.",
+                  text: "We prioritize storm damage inspections and typically schedule within 24-48 hours after major weather events in Canyon. for active leaks, we schedule inspections after major weather events. Our team monitors Texas Panhandle weather patterns and proactively increases staffing when severe storms are forecast.",
                 },
               },
             ],
@@ -1054,7 +1054,7 @@ export default function RoofInspectionsCanyonPage() {
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   We prioritize storm damage inspections and typically schedule within 24-48 hours
-                  after major weather events in Canyon. for prompt situations with active leaks, we
+                  after major weather events in Canyon. with active leaks, we
                   can often respond in a timely manner. Our team monitors Texas Panhandle weather
                   patterns and proactively increases staffing when severe storms are forecast.
                 </AccordionContent>

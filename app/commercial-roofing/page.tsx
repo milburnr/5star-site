@@ -478,7 +478,7 @@ export default function Page() {
             <Zap className="w-6 h-6 inline-block" />
           </div>
           <h3 className="font-bold mb-2">Fast Response</h3>
-          <p className="text-sm text-gray-600">prompt service available when you need it most</p>
+          <p className="text-sm text-gray-600">Flexible scheduling when you need it most</p>
         </div>
         <div className="text-center p-4 bg-gray-50 rounded-lg">
           <div className="text-3xl mb-2">
