@@ -16,6 +16,8 @@ const STANDARD_LEFT_RULE_LINES = [
   "& all of West & Central Texas",
 ] as const;
 
+const DEFAULT_EYEBROW = "5 Star Residential and Commercial Roofing";
+
 export type ServiceHeroProps = {
   /** Primary service line, will be uppercased. */
   service: string;
@@ -23,12 +25,24 @@ export type ServiceHeroProps = {
   serviceDescriptor?: string;
   /** Override the hero photo per service if appropriate. */
   heroImageSrc?: string;
+  /** Override the auto-generated H1. Defaults to "[Service] in West Texas". */
+  h1Override?: string;
+  /** Override the eyebrow line. */
+  eyebrowOverride?: string;
+  /** CTA copy. Defaults to "Get Your Free Roof Inspection". */
+  ctaText?: string;
+  /** CTA href. Defaults to /contact/. */
+  ctaHref?: string;
 };
 
 export function ServiceHero({
   service,
   serviceDescriptor,
   heroImageSrc = "/images/heroes/5star-new-hero.png",
+  h1Override,
+  eyebrowOverride = DEFAULT_EYEBROW,
+  ctaText = "Get Your Free Roof Inspection",
+  ctaHref = "/contact/",
 }: ServiceHeroProps) {
   return (
     <AltHeroFrame
@@ -37,9 +51,10 @@ export function ServiceHero({
       subDisplay={serviceDescriptor?.toUpperCase()}
       leftRuleLines={STANDARD_LEFT_RULE_LINES}
       rightRule="WEST TEXAS"
-      eyebrow="5 Star Residential and Commercial Roofing"
-      h1={`${service} in West Texas`}
-      ctaText="Get Your Free Roof Inspection"
+      eyebrow={eyebrowOverride}
+      h1={h1Override ?? `${service} in West Texas`}
+      ctaText={ctaText}
+      ctaHref={ctaHref}
       displayScale={0.55}
     />
   );
