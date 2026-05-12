@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Standing seam metal roof installation on industrial facility in West Texas — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -234,19 +234,43 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+{/* FAQPage schema removed — faqSchema variable kept as dead code */}
+
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed">
+            5 Star Roofing specializes in metal roofing throughout the Texas Panhandle and Permian Basin — R-panel, standing seam, and corrugated metal systems for residential and commercial buildings.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm">
+            <a href="/metal-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Metal Roofing</a>
+            <a href="/metal-roofing-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock Metal Roofing</a>
+            <a href="/metal-roofing-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Metal Roofing</a>
+            <a href="/metal-roofing-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa Metal Roofing</a>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* Author byline */}
+      <FadeIn>
+        <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>
+            Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+            &nbsp;·&nbsp; Updated May 2026
+          </span>
+        </div>
+      </FadeIn>
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Metal Roofing Installation and Repair Across West Texas
       </h1>
 
-      {/* Hero Image — AI-generated metal roofing hero */}
+      {/* Hero Image */}
       <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-metal-roof.jpg"
-        alt="Standing seam metal roof on a West Texas building gleaming at golden hour"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/metal/metal-plainview-35-1280w.webp"
+        alt="Wide-angle standing seam metal roof installation on industrial facility in West Texas — 5 Star Roofing"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
         width={2560}
         height={1440}

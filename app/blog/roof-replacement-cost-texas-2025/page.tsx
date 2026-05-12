@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-20-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Newly installed asphalt shingle roof in Texas — 5 Star Roofing roof replacement guide",
       },
     ],
     locale: "en_US",
@@ -61,6 +61,34 @@ export default function RoofReplacementCostBlogPage() {
       />
 
       <article className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              A complete 2025 pricing guide for roof replacement in Texas — average costs by home size, material type, and region with tips for saving money on your next roofing project.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Roof Replacement Service</a>
+              <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Replacement</a>
+              <a href="/blog/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">More Articles</a>
+              <a href="/contact/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Get a Free Estimate</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <header className="max-w-4xl mx-auto mb-12">
             <div className="text-sm text-gray-500 mb-4">

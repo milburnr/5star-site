@@ -39,10 +39,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Hail-damaged asphalt shingle roof with chalk markings in Lubbock TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -153,69 +153,12 @@ export default function RoofRepairLubbockPage() {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "How do dust storms damage roofs in Lubbock?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "South Plains haboobs create sandblasting effects that strip granules from shingles, clog gutters with fine particles, and accelerate UV degradation. The abrasive action of windborne particles can reduce shingle life by 20-30% compared to other regions.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What makes Tech Terrace neighborhood roofing unique?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Tech Terrace homes, built primarily in the 1950s-1970s near Texas Tech, often feature original composition shingles and inadequate attic ventilation. Student rental properties may have deferred maintenance, requiring comprehensive inspections for hidden damage.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Are roof repairs more expensive in Lubbock than other South Plains cities?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Lubbock repairs average 5-10% higher than smaller South Plains towns due to higher labor costs and material demand. Minor repairs: $350-850, moderate damage: $850-2,600, extensive repairs: $2,600-6,200. University area properties may cost more due to access challenges.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "When do spring supercells typically damage Lubbock roofs?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Peak storm season runs March through June, with wind gusts of 60-77 mph common. These supercells force rain beneath flashing and lift shingle tabs. Post-storm inspections are crucial as damage may not be immediately visible from ground level.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What permits are required for roof repairs in Lubbock city limits?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Minor repairs under $500 typically don't need permits. Structural work, section replacements, or repairs affecting load-bearing elements require city permits. We handle all paperwork and ensure compliance with Lubbock's building codes.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How does Lubbock's flat terrain affect roofing challenges?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "The flat South Plains landscape offers no wind protection, creating consistent stress on roofing materials. Homes face greater wind uplift forces and more UV exposure without natural shade. Metal roofing performs especially well in these conditions.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-50-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -281,6 +224,34 @@ export default function RoofRepairLubbockPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing repairs roofs throughout Lubbock TX — hail damage documentation, wind uplift repair, shingle replacement, and emergency repairs for homes and businesses on the South Plains.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Repair</a>
+              <a href="/hail-damage-repair-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock Hail Damage</a>
+              <a href="/roof-replacement-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock Roof Replacement</a>
+              <a href="/lubbock-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Lubbock Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">

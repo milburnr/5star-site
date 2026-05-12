@@ -33,10 +33,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/commercial/commercial-pampa-7-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-amarillo-40-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Asphalt shingle roof repair in Amarillo TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -144,6 +144,33 @@ export default function Page() {
           }),
         }}
       />
+      {/* TL;DR */}
+      <FadeIn>
+        <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed">
+            5 Star Roofing repairs asphalt and flat roofs throughout Amarillo TX — built-up roofing, modified bitumen, and EPDM membrane systems for residential and light commercial properties.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-4 text-sm">
+            <a href="/roof-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Roof Repair</a>
+            <a href="/tpo-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo TPO</a>
+            <a href="/asphalt-shingle-roofing-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Asphalt Shingles</a>
+            <a href="/amarillo-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Amarillo Services</a>
+          </div>
+        </section>
+      </FadeIn>
+
+      {/* Author byline */}
+      <FadeIn>
+        <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>
+            Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+            &nbsp;·&nbsp; Updated May 2026
+          </span>
+        </div>
+      </FadeIn>
+
       <FadeIn>
         <h1 className="text-4xl font-bold mb-6">
           Asphalt Flat Roof Repair in Amarillo & West Texas
@@ -550,65 +577,6 @@ export default function Page() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What causes ponding water on Amarillo flat roofs?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Ponding water on Amarillo flat roofs typically results from inadequate drainage design, clogged scuppers or drains, structural settling that changes roof slope, or debris accumulation from dust storms. Standing water exceeding 48 hours accelerates membrane deterioration. We redesign drainage pathways and install additional drains or scuppers to eliminate ponding.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How does Amarillo's hail damage asphalt flat roofing differently than shingle roofs?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Hail impacts on asphalt flat roofs create different damage patterns than on shingle roofs. On built-up roofing, hail fractures the flood coat and exposes underlying felts to UV degradation. On modified bitumen, impacts can crack the membrane and compromise waterproofing. Damage may not leak immediately but leads to accelerated deterioration and eventual failure.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Can asphalt flat roofs in Amarillo be coated instead of replaced?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "In many cases, yes. If the existing asphalt roof substrate is structurally sound with no moisture trapped in the insulation, a silicone or acrylic roof coating can extend its life by 10-15 years at a fraction of replacement cost. We perform moisture scans and core samples to determine if your Amarillo commercial roof is a candidate for coating restoration.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What is the lifespan of an asphalt flat roof in Amarillo's climate?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "In Amarillo's extreme climate with intense UV radiation, temperature swings exceeding 100 degrees annually, and frequent hail, asphalt flat roofs typically last 15-20 years with proper maintenance. Premium modified bitumen systems can last 20-25 years. Regular maintenance including annual inspections, drain cleaning, and repair of damage significantly extends roof life.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How do you repair blistering on Amarillo asphalt flat roofs?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Blistering occurs when moisture trapped between roof layers expands in Amarillo's extreme heat. We cut open blisters, dry the area, apply new asphalt or adhesive, patch with compatible membrane material, and seal all edges. For widespread blistering indicating systemic moisture issues, we may recommend partial or full re-roofing rather than spot repairs.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do you provide maintenance programs for Amarillo commercial flat roofs?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes, we offer preventive maintenance programs specifically designed for Amarillo commercial flat roofs. Programs include biannual inspections before and after storm season, drain and scupper cleaning, minor repair of any damage found, photo documentation of roof condition, and priority scheduling for storm damage response. Regular maintenance is the most cost-effective way to maximize flat roof lifespan.",
-                },
-              },
-            ],
-          }),
-        }}
       />
       <RelatedArticles pageSlug="asphalt-flat-roof-repair-in-amarillo" />
     </div>

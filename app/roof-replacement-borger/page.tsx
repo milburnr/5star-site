@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Freshly completed asphalt shingle roof installation in Borger TX — 5 Star Roofing",
       },
     ],
     locale: "en_US",
@@ -145,47 +145,12 @@ export default function RoofReplacementBorgerPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "When should I replace my Borger roof?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Replace for widespread hail damage (10+ impacts per 100 sq ft), age over 20 years, multiple leaks, extensive granule loss, or failed repairs.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What roofing materials work best in Texas?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Class 4 impact-resistant shingles (residential) and TPO or metal (commercial) handle Texas hail, wind, and temperature extremes best.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Will a new roof increase my home value?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. New roofs provide 60-70% ROI. Class 4 roofs add premium value with insurance discounts and reduced maintenance.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/borger-hero.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-dumas-32-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -252,6 +217,34 @@ export default function RoofReplacementBorgerPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing provides full roof replacement in Borger TX and Hutchinson County — asphalt shingles, metal systems, and flat roof installations with free estimates and insurance claim support.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Replacement</a>
+              <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Replacement</a>
+              <a href="/roof-replacement-dumas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Dumas Replacement</a>
+              <a href="/borger-texas-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Borger Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
