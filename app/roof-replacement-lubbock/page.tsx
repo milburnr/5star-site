@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     siteName: "5 Star Roofing",
     images: [
       {
-        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg",
+        url: "https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp",
         width: 1280,
         height: 720,
-        alt: "5 Star Roofing - Professional Roofing Services in Amarillo, TX",
+        alt: "Aerial view of a completed gray asphalt shingle roof with excellent installation quality — 5 Star Roofing Lubbock TX",
       },
     ],
     locale: "en_US",
@@ -152,71 +152,12 @@ export default function RoofReplacementLubbockPage() {
         }}
       />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "When should I replace my Lubbock roof?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Replace when you have widespread hail damage (10+ impacts per 100 sq ft), roof age over 20 years in South Plains climate, multiple leaks, extensive granule loss, or failed previous repairs. With median home construction year of 1983, many Lubbock homes are approaching their first replacement cycle.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How much does roof replacement cost in Lubbock?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Residential: $11,000-$32,000 depending on size and materials. Commercial: $15,000-$100,000+ depending on building size and system type. Most Lubbock replacements are insurance-covered South Plains hail damage where property owners pay only their deductible ($1,000-$2,500).",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "What are the best roofing materials for Lubbock's South Plains climate?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Class 4 impact-resistant asphalt shingles (residential), TPO membrane or cool metal roofing (commercial). South Plains hail corridor requires materials engineered for large hail impacts, high winds, and extreme temperature cycling (20°F to 100°F+).",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Do I need permits for roof replacement in Lubbock?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. City of Lubbock requires building permits for all roof replacements per Chapter 7 Building Code. We handle all permit applications including required wind resistance specifications (110+ mph) and proper ventilation ratios. University area may have additional HOA requirements.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "How long does roof replacement take in Lubbock?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Residential: 1-3 days for most homes. Single-story ranch homes (common in Southwest Lubbock) typically complete in 1-2 days. Two-story homes or complex rooflines require 2-3 days. Commercial projects: 3-14 days depending on building size and system complexity.",
-                },
-              },
-              {
-                "@type": "Question",
-                name: "Will new roof reduce my energy costs in Lubbock?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: "Yes. Cool roof materials can reduce cooling costs by 20-30% in Lubbock's intense summer heat. Class 4 impact-resistant shingles with reflective granules, TPO membranes, and metal roofs with cool coatings all provide significant energy savings. Many qualify for utility rebates through LP&L.",
-                },
-              },
-            ],
-          }),
-        }}
-      />
 
       <section
         className="relative bg-cover bg-center text-white py-32 min-h-[700px] flex items-center"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-wichita-falls-27-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-13-1280w.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -281,6 +222,34 @@ export default function RoofReplacementLubbockPage() {
       </FadeIn>
 
       <div className="container-custom py-12">
+
+        {/* TL;DR */}
+        <FadeIn>
+          <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+            <p className="text-gray-800 font-medium leading-relaxed">
+              5 Star Roofing installs Class 4 impact-resistant roofing throughout Lubbock County with 50-year warranties. Most South Plains replacements are insurance-covered hail damage — you typically pay only your deductible. Free inspections for all Lubbock properties.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Replacement</a>
+              <a href="/roof-replacement-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Replacement</a>
+              <a href="/roof-replacement-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland Replacement</a>
+              <a href="/lubbock-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Lubbock Services</a>
+            </div>
+          </section>
+        </FadeIn>
+
+        {/* Author byline */}
+        <FadeIn>
+          <div className="mb-8 max-w-5xl mx-auto flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+            <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+            <span>
+              Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX
+              &nbsp;·&nbsp; Updated May 2026
+            </span>
+          </div>
+        </FadeIn>
+
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-6 text-brand-brown">
