@@ -28,6 +28,7 @@ import {
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/amarillo-texas-roofing/" },
   title: "Amarillo Texas Roofing | 5 Star Roofing",
@@ -718,16 +719,7 @@ export default function AmarilloRoofingPage() {
 
               {/* Google Map Embed */}
               <div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "400px" }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.0!2d-101.8313!3d35.1859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148d5b7d3e54f%3A0x0!2s2909%20S%20Western%20St%2C%20Amarillo%2C%20TX%2079109!5e0!3m2!1sen!2sus!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="5 Star Commercial Roofing Location in Amarillo, TX"
-                ></iframe>
+                <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
               </div>
             </div>
           </section>

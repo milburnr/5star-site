@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Phone, Shield, Star, Zap } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/asphalt-shingle-roofing-pampa/" },
   title: "Asphalt Shingle Roofing Pampa TX | 5 Star Roofing",
@@ -613,16 +614,7 @@ export default function AsphaltShingleRoofingPampaPage() {
               Visit Our Pampa Location
             </h2>
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104797.36251486284!2d-100.96555!3d35.53647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870157e7e7e7e7e7%3A0x7e7e7e7e7e7e7e7e!2sPampa%2C%20TX!5e0!3m2!1sen!2sus!4v1736496000000!5m2!1sen!2sus"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Pampa, TX Location Map"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Pampa, TX" />
             </div>
           </section>
         </FadeIn>
