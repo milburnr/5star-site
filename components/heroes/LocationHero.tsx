@@ -1,4 +1,4 @@
-import { AltHeroFrame } from "./AltHeroFrame";
+import { AltHeroFrame, type BreadcrumbItem } from "./AltHeroFrame";
 
 /**
  * VARIANT B — Location page hero (e.g. /lubbock-tx-roofing/).
@@ -19,6 +19,8 @@ const DEFAULT_EYEBROW = "5 Star Residential and Commercial Roofing";
 
 export type LocationHeroProps = {
   city: string;
+  /** Optional city slug for AltHeroFrame's city-specific hero map. */
+  citySlug?: string;
   /** Defaults to "TEXAS". Use the full state name uppercase. */
   state?: string;
   /** Override the hero photo per city; falls back to the default. */
@@ -31,20 +33,25 @@ export type LocationHeroProps = {
   ctaText?: string;
   /** CTA href. Defaults to /contact/. */
   ctaHref?: string;
+  /** Optional breadcrumb trail overlayed at top of hero. */
+  breadcrumbItems?: BreadcrumbItem[];
 };
 
 export function LocationHero({
   city,
+  citySlug,
   state = "TEXAS",
   heroImageSrc = "/images/heroes/5star-new-hero-1200w.webp",
   h1Override,
   eyebrowOverride = DEFAULT_EYEBROW,
   ctaText = "Get Your Free Roof Inspection",
   ctaHref = "/contact/",
+  breadcrumbItems,
 }: LocationHeroProps) {
   const cityUpper = city.toUpperCase();
   return (
     <AltHeroFrame
+      city={citySlug}
       heroImageSrc={heroImageSrc}
       displayText={cityUpper}
       subDisplay={state}
@@ -55,6 +62,7 @@ export function LocationHero({
       ctaText={ctaText}
       ctaHref={ctaHref}
       displayScale={0.55}
+      breadcrumbItems={breadcrumbItems}
     />
   );
 }

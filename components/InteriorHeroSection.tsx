@@ -1,6 +1,7 @@
 import { LocationHero } from "./heroes/LocationHero";
 import { ServiceHero } from "./heroes/ServiceHero";
 import { ServiceLocationHero } from "./heroes/ServiceLocationHero";
+import type { BreadcrumbItem } from "./heroes/AltHeroFrame";
 
 /**
  * InteriorHeroSection — the single hero entry point for every non-homepage
@@ -32,6 +33,15 @@ export interface InteriorHeroSectionProps {
   /** City name in title case (e.g. "Lubbock"). Required for location +
    *  service-location variants. Ignored for service variant. */
   city?: string;
+  /**
+   * Optional city slug for the pre-optimized city hero map
+   * (e.g. "lubbock", "san-angelo", "wichita-falls"). When provided and the
+   * slug matches `public/images/heroes/city-hero-map.json`, AltHeroFrame
+   * swaps to the AVIF+WebP city hero set (overriding `image`). Pages in
+   * regions without a city-specific hero should pass the closest match
+   * (e.g. Snyder/Big Spring → "midland"; Tahoka/Wolfforth → "lubbock").
+   */
+  citySlug?: string;
   /** State name uppercase. Defaults to "TEXAS". Only used by location variant. */
   state?: string;
   /** Service name in title case (e.g. "Hail Damage Repair"). Required for
@@ -50,6 +60,13 @@ export interface InteriorHeroSectionProps {
   ctaText?: string;
   /** CTA pill href. */
   ctaHref?: string;
+  /**
+   * Optional breadcrumb trail. When provided, renders an absolutely
+   * positioned breadcrumb at the top of the hero (overlay style). Pages
+   * with a hero should pass this in instead of rendering a standalone
+   * <Breadcrumb> above the hero.
+   */
+  breadcrumbItems?: BreadcrumbItem[];
 }
 
 const DEFAULT_EYEBROW = "5 Star Residential and Commercial Roofing";
@@ -59,6 +76,7 @@ const DEFAULT_CTA_HREF = "/contact/";
 export function InteriorHeroSection({
   heroVariant,
   city,
+  citySlug,
   state = "TEXAS",
   service,
   serviceDescriptor,
@@ -67,6 +85,7 @@ export function InteriorHeroSection({
   image,
   ctaText = DEFAULT_CTA_TEXT,
   ctaHref = DEFAULT_CTA_HREF,
+  breadcrumbItems,
 }: InteriorHeroSectionProps) {
   if (heroVariant === "location") {
     if (!city) {
@@ -75,12 +94,14 @@ export function InteriorHeroSection({
     return (
       <LocationHero
         city={city}
+        citySlug={citySlug}
         state={state}
         heroImageSrc={image}
         h1Override={h1}
         eyebrowOverride={eyebrow}
         ctaText={ctaText}
         ctaHref={ctaHref}
+        breadcrumbItems={breadcrumbItems}
       />
     );
   }
@@ -98,6 +119,7 @@ export function InteriorHeroSection({
         eyebrowOverride={eyebrow}
         ctaText={ctaText}
         ctaHref={ctaHref}
+        breadcrumbItems={breadcrumbItems}
       />
     );
   }
@@ -111,12 +133,14 @@ export function InteriorHeroSection({
     return (
       <ServiceLocationHero
         city={city}
+        citySlug={citySlug}
         service={service}
         heroImageSrc={image}
         h1Override={h1}
         eyebrowOverride={eyebrow}
         ctaText={ctaText}
         ctaHref={ctaHref}
+        breadcrumbItems={breadcrumbItems}
       />
     );
   }

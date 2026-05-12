@@ -1,4 +1,4 @@
-import { AltHeroFrame } from "./AltHeroFrame";
+import { AltHeroFrame, type BreadcrumbItem } from "./AltHeroFrame";
 
 /**
  * VARIANT D — Service + Location hero (most important for rankings).
@@ -21,6 +21,10 @@ const DEFAULT_EYEBROW = "5 Star Residential and Commercial Roofing";
 
 export type ServiceLocationHeroProps = {
   city: string;
+  /** Optional slug into the city hero map (see AltHeroFrame). When set, the
+   *  page renders the city-specific AVIF+WebP background overriding
+   *  `heroImageSrc`. Examples: "lubbock", "san-angelo", "wichita-falls". */
+  citySlug?: string;
   service: string;
   /** Override hero photo per page if a more specific image exists. */
   heroImageSrc?: string;
@@ -32,20 +36,25 @@ export type ServiceLocationHeroProps = {
   ctaText?: string;
   /** CTA href. Defaults to /contact/. */
   ctaHref?: string;
+  /** Optional breadcrumb trail overlayed at top of hero. */
+  breadcrumbItems?: BreadcrumbItem[];
 };
 
 export function ServiceLocationHero({
   city,
+  citySlug,
   service,
   heroImageSrc = "/images/heroes/5star-new-hero-1200w.webp",
   h1Override,
   eyebrowOverride = DEFAULT_EYEBROW,
   ctaText = "Get Your Free Roof Inspection",
   ctaHref = "/contact/",
+  breadcrumbItems,
 }: ServiceLocationHeroProps) {
   const cityUpper = city.toUpperCase();
   return (
     <AltHeroFrame
+      city={citySlug}
       heroImageSrc={heroImageSrc}
       displayText={cityUpper}
       subDisplay={service.toUpperCase()}
@@ -56,6 +65,7 @@ export function ServiceLocationHero({
       ctaText={ctaText}
       ctaHref={ctaHref}
       displayScale={0.55}
+      breadcrumbItems={breadcrumbItems}
     />
   );
 }
