@@ -319,52 +319,52 @@ export default function ContactPage() {
               {[
                 {
                   city: "Amarillo",
-                  icon: '<Building2 className="w-6 h-6 inline-block" />',
+                  Icon: Building2,
                   link: "/amarillo-texas-roofing/",
                 },
                 {
                   city: "Midland",
-                  icon: '<Sunset className="w-6 h-6 inline-block" />',
+                  Icon: Sunset,
                   link: "/midland-tx-roofing/",
                 },
                 {
                   city: "Odessa",
-                  icon: '<Home className="w-6 h-6 inline-block" />',
+                  Icon: Home,
                   link: "/odessa-tx-roofing/",
                 },
                 {
                   city: "Lubbock",
-                  icon: '<Moon className="w-6 h-6 inline-block" />',
+                  Icon: Moon,
                   link: "/lubbock-tx-roofing/",
                 },
                 {
                   city: "Canyon",
-                  icon: '<Mountain className="w-6 h-6 inline-block" />',
+                  Icon: Mountain,
                   link: "/canyon-texas-roofing/",
                 },
                 {
                   city: "Pampa",
-                  icon: '<Home className="w-6 h-6 inline-block" />',
+                  Icon: Home,
                   link: "/service-areas/",
                 },
                 {
                   city: "Borger",
-                  icon: '<Home className="w-6 h-6 inline-block" />',
+                  Icon: Home,
                   link: "/service-areas/",
                 },
                 {
                   city: "Hereford",
-                  icon: '<Wheat className="w-6 h-6 inline-block" />',
+                  Icon: Wheat,
                   link: "/service-areas/",
                 },
                 {
                   city: "Plainview",
-                  icon: '<Flower2 className="w-6 h-6 inline-block" />',
+                  Icon: Flower2,
                   link: "/service-areas/",
                 },
                 {
                   city: "Dumas",
-                  icon: '<Star className="w-5 h-5 fill-brand-gold text-brand-gold inline-block" />',
+                  Icon: Star,
                   link: "/service-areas/",
                 },
               ].map((area, index) => (
@@ -373,8 +373,8 @@ export default function ContactPage() {
                     href={area.link}
                     className="block bg-white p-6 rounded-xl text-center hover:shadow-2xl hover:scale-110 hover:border-2 hover:border-brand-gold transition-all duration-300 group"
                   >
-                    <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">
-                      {area.icon}
+                    <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300 flex justify-center text-brand-gold">
+                      <area.Icon className="w-8 h-8" />
                     </div>
                     <div className="font-bold text-brand-brown group-hover:text-brand-gold transition-colors text-lg">
                       {area.city}
