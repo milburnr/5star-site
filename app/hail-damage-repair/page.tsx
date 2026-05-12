@@ -179,20 +179,30 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
 
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">
         Hail Damage Roof Repair Across West Texas
       </h1>
 
       <img
-        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-amarillo-16-1280w.webp"
-        alt="Hail damage roof repair in West Texas - damaged shingles and professional inspection by 5 Star Roofing"
+        src="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp"
+        alt="Hail damage impact marks on West Texas asphalt shingles — 5 Star Roofing inspection and repair"
         className="w-full h-48 sm:h-64 md:h-96 object-cover rounded-lg mb-6 md:mb-8"
       />
+
+      {/* TL;DR */}
+      <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 mb-8">
+        <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+        <p className="text-gray-800 font-medium leading-relaxed mb-3">
+          5 Star Roofing handles hail damage repair across 16 West Texas cities. Free inspections, insurance claim documentation, and Class 4 impact-resistant replacements. Most repairs covered by homeowner insurance — you pay only your deductible.
+        </p>
+        <div className="flex flex-wrap gap-4 text-sm">
+          <a href="/hail-damage-repair-amarillo/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Amarillo Hail Repair</a>
+          <a href="/hail-damage-repair-lubbock/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Lubbock</a>
+          <a href="/hail-damage-repair-midland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Midland</a>
+          <a href="/hail-damage-repair-odessa/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Odessa</a>
+        </div>
+      </div>
 
       <FadeIn>
         <div className="bg-brand-gold-light p-8 rounded-lg mb-8">

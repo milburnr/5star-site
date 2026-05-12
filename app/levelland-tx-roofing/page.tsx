@@ -155,7 +155,7 @@ export default function LevellandRoofingPage() {
         className="hero"
         style={{
           backgroundImage:
-            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-canyon-1-1280w.jpg)",
+            "url(https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/shingle/shingle-levelland-44-1280w.webp)",
           backgroundPosition: "center",
         }}
       >
@@ -179,6 +179,27 @@ export default function LevellandRoofingPage() {
       </section>
 
       <div className="container-custom">
+
+        {/* TL;DR */}
+        <div className="bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6 my-8">
+          <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
+          <p className="text-gray-800 font-medium leading-relaxed mb-3">
+            5 Star Roofing serves Levelland and Hockley County with full roofing services. South Plains storm corridor means hail damage is common — we handle inspections, insurance claims, and Class 4 replacements. South Plains College and agricultural facilities welcome.
+          </p>
+          <div className="flex flex-wrap gap-4 text-sm">
+            <a href="/lubbock-tx-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← Lubbock Hub</a>
+            <a href="/hail-damage-repair-levelland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Levelland Hail Repair</a>
+            <a href="/commercial-roofing-levelland/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">Commercial Roofing</a>
+            <a href="/service-areas/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">All Service Areas</a>
+          </div>
+        </div>
+
+        {/* Author byline */}
+        <div className="mb-8 flex items-center gap-3 text-sm text-gray-500 border-b border-gray-100 pb-4">
+          <div className="w-8 h-8 rounded-full bg-brand-brown flex items-center justify-center text-white text-xs font-bold flex-shrink-0">BT</div>
+          <span>Written by <span className="font-semibold text-gray-700">Ben Terhune</span>, Owner — 5 Star Roofing, Amarillo TX &nbsp;·&nbsp; Updated May 2026</span>
+        </div>
+
         {/* Introduction */}
         <FadeIn>
           <section className="section">
@@ -594,20 +615,6 @@ export default function LevellandRoofingPage() {
                 containedInPlace: { "@type": "State", name: "Texas" },
               },
             ],
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: faqItems.map((faq) => ({
-              "@type": "Question",
-              name: faq.question,
-              acceptedAnswer: { "@type": "Answer", text: faq.answer },
-            })),
           }),
         }}
       />
