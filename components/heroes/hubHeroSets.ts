@@ -26,3 +26,4 @@ function buildHubSet(basename: string): HeroImageSet {
 export const METAL_HUB_HERO = buildHubSet("metal-hub");
 export const TPO_HUB_HERO = buildHubSet("tpo-hub");
 export const COMMERCIAL_HUB_HERO = buildHubSet("commercial-hub");
+export const HAIL_HUB_HERO = buildHubSet("hail-hub");

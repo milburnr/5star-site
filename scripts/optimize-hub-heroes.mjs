@@ -33,6 +33,7 @@ const HUB_HEROES = [
   { basename: "metal-hub", source: "metal-plainview-35-1280w.webp" },
   { basename: "tpo-hub", source: "commercial-pampa-1-1280w.jpg" },
   { basename: "commercial-hub", source: "hero-commercial.jpg" },
+  { basename: "hail-hub", source: "hero-hail-damage.jpg" },
 ];
 
 const WIDTHS = [600, 900, 1200, 1920];

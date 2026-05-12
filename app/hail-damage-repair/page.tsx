@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
+import { HAIL_HUB_HERO } from "@/components/heroes/hubHeroSets";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
   Accordion,
@@ -172,13 +173,13 @@ export default function Page() {
         heroVariant="service"
         service="Hail Damage Repair"
         h1="Hail Damage Repair in West Texas"
-        image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/hail-damage/hail-damage-borger-12-1280w.webp"
-      
-      breadcrumbItems={[
+        image="/images/heroes/services/hail-hub-1200.webp"
+        imageSrcSet={HAIL_HUB_HERO}
+        breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Hail Damage Repair", url: "/hail-damage-repair/" },
         ]}
-    />
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
