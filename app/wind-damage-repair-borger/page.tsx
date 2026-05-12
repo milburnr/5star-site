@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Star } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-borger/" },
   title: "Wind Damage Repair Borger TX | 5 Star Roofing",
@@ -536,16 +537,7 @@ export default function WindDamageRepairBorgerPage() {
               Serving Borger, TX
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104618.76254676384!2d-101.45892194335938!3d35.66790969999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870158e13d1c44ef%3A0x5f8b3ed64c7a8b92!2sBorger%2C%20TX!5e0!3m2!1sen!2sus!4v1736541234567!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Borger, TX" />
             </div>
           </section>
         </FadeIn>

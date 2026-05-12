@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Star } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-canyon/" },
   title: "Wind Damage Repair Canyon TX | 5 Star Roofing",
@@ -531,16 +532,7 @@ export default function WindDamageRepairCanyonPage() {
               Serving Canyon, TX
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52475.96394183475!2d-101.9574!3d34.9803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148c5448c58c7%3A0x61f1e483f088b833!2sCanyon%2C%20TX!5e0!3m2!1sen!2sus!4v1736541345678!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Canyon, TX" />
             </div>
           </section>
         </FadeIn>

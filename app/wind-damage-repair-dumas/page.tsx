@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Construction, Factory, Home, Leaf, Star, Tornado, Wind, Zap } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-dumas/" },
   title: "Wind Damage Repair Dumas TX | 5 Star Roofing",
@@ -627,16 +628,7 @@ export default function WindDamageRepairDumasPage() {
               Serving Dumas, TX
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52373.48394183475!2d-101.9734!3d35.8657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870196c5448c58c7%3A0x61f1e483f088b833!2sDumas%2C%20TX!5e0!3m2!1sen!2sus!4v1736541456789!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Dumas, TX" />
             </div>
           </section>
         </FadeIn>

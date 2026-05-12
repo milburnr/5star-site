@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Star } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/wind-damage-repair-pampa/" },
   title: "Wind Damage Repair Pampa TX | 5 Star Roofing",
@@ -621,15 +622,7 @@ export default function WindDamageRepairPampaPage() {
               Serving Pampa, Texas
             </h2>
             <div className="w-full h-96 rounded-2xl overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104282.72655892584!2d-101.02071843828125!3d35.53617399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148b3c6f516d3%3A0x4f1e89dc3c2b7e7d!2sPampa%2C%20TX!5e0!3m2!1sen!2sus!4v1644444444444!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Pampa, TX" />
             </div>
           </section>
         </FadeIn>
