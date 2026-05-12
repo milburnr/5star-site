@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { Check, Fuel, Phone } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-midland/" },
   title: "Residential Roofing Midland TX | 5 Star Roofing",
@@ -658,16 +659,7 @@ export default function ResidentialRoofingMidlandPage() {
               Serving All of Midland County
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124932.62304775766!2d-102.12872399999999!3d31.997350000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe0decf8780e23%3A0xf2d5ad4f62e3d82b!2sMidland%2C%20TX!5e0!3m2!1sen!2sus!4v1698765432100!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
             </div>
             <p className="text-center text-gray-600 mt-4">
               Based in Amarillo, proudly serving Midland's energy industry communities

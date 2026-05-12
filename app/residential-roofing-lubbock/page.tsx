@@ -14,6 +14,7 @@ import { StickyContactBar } from "@/components/StickyContactBar";
 import { GraduationCap, Phone } from "lucide-react";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/residential-roofing-lubbock/" },
   title: "Residential Roofing Lubbock TX | 5 Star Roofing",
@@ -650,16 +651,7 @@ export default function ResidentialRoofingLubbockPage() {
               Serving All of Lubbock County
             </h2>
             <div className="flex justify-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206598.0951796434!2d-101.94746439453125!3d33.57735899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe75b9ae4c4bcd%3A0x73d9c88eeb693d8c!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1698765432100!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-xl shadow-lg"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Lubbock, TX" />
             </div>
             <p className="text-center text-gray-600 mt-4">
               Based in Amarillo, proudly serving Lubbock and all South Plains communities
