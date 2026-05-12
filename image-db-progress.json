@@ -10702,8 +10702,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a large commercial building with a bright red R-panel metal roof showing clean vertical ribbing and professional installation.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10715,8 +10715,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a vibrant red corrugated metal panel roof on a large commercial building, showcasing the clean lines and uniform ribbed profile of the metal roofing system.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10741,8 +10741,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a bright red standing seam metal roof showing clean vertical panel lines and ridge detail.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
@@ -10767,8 +10767,8 @@
       "condition": "completed",
       "damageType": null,
       "accessories": [],
-      "visualQuality": "hero",
-      "description": "Aerial view of a large commercial building with a bright red R-panel metal roof featuring vertical ribbed panels in excellent condition.",
+      "visualQuality": "unusable",
+      "description": "Sideways/rotated photo (rotated 90 degrees counterclockwise) of a red R-panel metal roof on a commercial building. Unusable until the R2 asset is rotated and re-uploaded.",
       "confidence": "high",
       "error": false
     },
