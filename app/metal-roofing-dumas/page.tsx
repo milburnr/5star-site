@@ -209,7 +209,7 @@ export default function MetalRoofingDumasPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing installs metal roofing in Dumas TX — R-panel, standing seam, and corrugated systems for homes and commercial buildings in Moore County.
+              5 Star Roofing installs metal roofing in Dumas TX R-panel, standing seam, and corrugated systems for homes and commercial buildings in Moore County.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/metal-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Metal Roofing</a>

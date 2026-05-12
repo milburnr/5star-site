@@ -561,7 +561,7 @@ export default function HailDamageRepairPerrytonPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Agricultural & Residential Roofing Solutions?
+              What Agricultural & Residential roof system?
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>

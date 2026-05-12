@@ -500,7 +500,7 @@ export default function HailDamageRepairBigSpringPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown text-center">
-              What Does Impact-Resistant Roofing Solutions Include?
+              What Does Impact-Resistant roof system Include?
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div>

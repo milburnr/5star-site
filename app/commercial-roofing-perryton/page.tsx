@@ -280,7 +280,7 @@ export default function CommercialRoofingPerrytonPage() {
         <FadeIn>
           <section className="mb-16 bg-gradient-to-br from-gray-50 to-white p-12 rounded-3xl shadow-lg">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Commercial Roofing Solutions for Perryton Industries Involve?
+              What Does Commercial roof system for Perryton Industries Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100">

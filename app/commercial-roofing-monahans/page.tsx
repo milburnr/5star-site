@@ -230,7 +230,7 @@ export default function CommercialRoofingMonahansPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-center text-brand-brown">
-              What Does Roofing Solutions for Monahans' Diverse Economy Involve?
+              What Does roof system for Monahans' Diverse Economy Involve?
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-black">

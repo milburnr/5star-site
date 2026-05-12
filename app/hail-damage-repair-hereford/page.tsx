@@ -427,7 +427,7 @@ export default function HailDamageRepairHerefordPage() {
                 <div className="bg-white p-4 rounded-lg shadow">
                   <h4 className="font-bold text-brand-gold-vibrant mb-2">Increased Intensity</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• 20% larger average hail size serving the area</li>
+                    <li>•  larger average hail size serving the area</li>
                     <li>• More frequent supercell development</li>
                     <li>• Longer-duration storm events</li>
                     <li>• Higher wind speeds in storms</li>

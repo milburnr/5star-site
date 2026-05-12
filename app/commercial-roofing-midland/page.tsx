@@ -200,7 +200,7 @@ export default function CommercialRoofingMidlandPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing provides commercial roofing for Midland TX businesses — TPO, metal panels, flat roof systems, and maintenance contracts for Permian Basin oil field facilities and commercial buildings.
+              5 Star Roofing provides commercial roofing for Midland TX businesses TPO, metal panels, flat roof systems, and maintenance contracts for Permian Basin oil field facilities and commercial buildings.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/commercial-roofing/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Commercial Roofing</a>
@@ -380,7 +380,7 @@ export default function CommercialRoofingMidlandPage() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   <strong>Over 3.3 million square feet of commercial office space</strong> with
-                  98.8% occupancy in Class A buildings. Corporate headquarters for major energy
+                  98. occupancy in Class A buildings. Corporate headquarters for major energy
                   companies including Diamondback Energy, Endeavor Energy Resources, and Permian
                   Resources require prestigious roofing systems with superior energy efficiency and
                   professional appearance.

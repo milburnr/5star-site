@@ -414,7 +414,7 @@ export default function CommercialRoofingBorgerPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Commercial Roofing Solutions for Borger's Diverse Business Sectors Involve?
+              What Does Commercial roof system for Borger's Diverse Business Sectors Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               While the Phillips 66 refinery dominates Borger's economy, the community supports

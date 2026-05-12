@@ -497,7 +497,7 @@ export default function HailDamageRepairSnyderPage() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-brand-brown">Enhanced Protection</h3>
                   <p className="text-gray-600">
-                    Impact-resistant materials reduce future hail damage by up to 90%, protecting
+                    Impact-resistant materials reduce future hail damage by up to , protecting
                     property value and minimizing future repair costs and insurance claims.
                   </p>
                 </div>
@@ -536,7 +536,7 @@ export default function HailDamageRepairSnyderPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Yes, if damage occurred during your policy period and meets your deductible. We
                   document all impacts, coordinate directly with adjusters, and advocate for maximum
-                  coverage. Our professional documentation and claim support result in 95%+ approval
+                  coverage. Our professional documentation and claim support result in + approval
                   rates for legitimate hail damage claims.
                 </AccordionContent>
               </AccordionItem>

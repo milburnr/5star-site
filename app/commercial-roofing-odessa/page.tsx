@@ -363,7 +363,7 @@ export default function CommercialRoofingOdessaPage() {
         <FadeIn>
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-brand-brown">
-              What Does Retail and Commercial Center Roofing Solutions Involve?
+              What Does Retail and Commercial Center roof system Involve?
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
               Music City Mall and major retail corridors throughout Odessa serve petroleum industry

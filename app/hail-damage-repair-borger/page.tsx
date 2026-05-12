@@ -192,7 +192,7 @@ export default function HailDamageRepairBorgerPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing repairs hail damage in Borger TX and Hutchinson County — free inspections, insurance claim documentation, and full roof replacement after Texas Panhandle storms.
+              5 Star Roofing repairs hail damage in Borger TX and Hutchinson County, free inspections, insurance claim documentation, and full roof replacement after Texas Panhandle storms.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/hail-damage-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Hail Damage Repair</a>
@@ -372,7 +372,7 @@ export default function HailDamageRepairBorgerPage() {
             </p>
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white/10 p-6 rounded-xl">
-                <div className="text-4xl font-bold mb-2">90%</div>
+                <div className="text-4xl font-bold mb-2"></div>
                 <div className="font-semibold">Damage Reduction</div>
                 <p className="text-sm opacity-80 mt-2">vs. standard shingles</p>
               </div>
@@ -486,7 +486,7 @@ export default function HailDamageRepairBorgerPage() {
                 <AccordionContent className="text-gray-700 leading-relaxed">
                   Costs vary based on roof size, pitch, materials, and damage extent. For insurance
                   claims, most homeowners pay only their deductible. Full roof replacements in
-                  Borger typically range from $7,000-$14,000 for average-sized homes, though costs
+                  Borger typically range from - for average-sized homes, though costs
                   can be higher for larger or more complex roofs. We provide detailed estimates
                   using Xactimate—the same software insurance companies use.
                 </AccordionContent>
