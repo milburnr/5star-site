@@ -37,7 +37,7 @@ export type ServiceLocationHeroProps = {
 export function ServiceLocationHero({
   city,
   service,
-  heroImageSrc = "/images/heroes/5star-new-hero.png",
+  heroImageSrc = "/images/heroes/5star-new-hero-1200w.webp",
   h1Override,
   eyebrowOverride = DEFAULT_EYEBROW,
   ctaText = "Get Your Free Roof Inspection",

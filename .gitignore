@@ -51,6 +51,11 @@ public/images/jobs/
 # Homepage hero — same-origin WebP (preloaded, ~55-395K per variant)
 # Kept in repo so CI deploys them (CSS in globals.css points at /images/home-hero-*.webp)
 !public/images/home-hero-*.webp
+# Editorial hero (AltHeroFrame / HomeHero) — same-origin AVIF + WebP at 4 widths.
+# Optimized from the source 2.5MB PNG via scripts/optimize-hero.mjs.
+# Mobile ships ~46KB WebP / ~39KB AVIF. Desktop 1920w ~271KB WebP / ~199KB AVIF.
+!public/images/heroes/5star-new-hero-*.webp
+!public/images/heroes/5star-new-hero-*.avif
 # Curated card photography (material/process/service hero shots) — same-origin
 !public/images/materials/**/*.webp
 !public/images/materials/**/*.png

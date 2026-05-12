@@ -36,7 +36,7 @@ export type LocationHeroProps = {
 export function LocationHero({
   city,
   state = "TEXAS",
-  heroImageSrc = "/images/heroes/5star-new-hero.png",
+  heroImageSrc = "/images/heroes/5star-new-hero-1200w.webp",
   h1Override,
   eyebrowOverride = DEFAULT_EYEBROW,
   ctaText = "Get Your Free Roof Inspection",

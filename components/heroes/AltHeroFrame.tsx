@@ -14,9 +14,30 @@ import { ArrowRight, Menu } from "lucide-react";
  * content props.
  */
 
+/**
+ * Responsive image-set descriptor — when provided, the hero uses
+ * CSS `image-set()` with AVIF preferred, WebP fallback, sized by
+ * viewport width via a 1024px media query. Keeps mobile LCP small
+ * (~46KB WebP / ~39KB AVIF at 600w) without hurting desktop quality.
+ */
+export type HeroImageSet = {
+  /** Per-size files. Both `avif` and `webp` paths recommended for each width. */
+  sources: Array<{ width: number; avif?: string; webp?: string }>;
+  /** Plain-URL fallback for browsers without image-set() (very old). */
+  fallback: string;
+};
+
 export type AltHeroFrameProps = {
   /** Background image — same-origin, pre-optimized AVIF/WebP+JPG ideal. */
   heroImageSrc: string;
+  /**
+   * Optional responsive image-set. When provided, overrides
+   * `heroImageSrc` for the actual background-image rule and uses the
+   * sized AVIF/WebP set instead. `heroImageSrc` is still used for the
+   * `<link rel="preload">` hint, so pass the typical-viewport size
+   * (usually the 1200w WebP).
+   */
+  heroImageSrcSet?: HeroImageSet;
   /** Primary display text (decorative). Pass a string or an array of lines. */
   displayText: string | string[];
   /** Optional secondary display line below the primary; ~55-60% size. */
@@ -52,6 +73,7 @@ const SHARED_FONTS_HREF =
 
 export function AltHeroFrame({
   heroImageSrc,
+  heroImageSrcSet,
   displayText,
   subDisplay,
   leftRuleLines,
@@ -75,7 +97,9 @@ export function AltHeroFrame({
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link rel="stylesheet" href={SHARED_FONTS_HREF} />
 
-      <style dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(heroImageSrc) }} />
+      <style
+        dangerouslySetInnerHTML={{ __html: ALT_HERO_CSS(heroImageSrc, heroImageSrcSet) }}
+      />
 
       <section
         className="alt-home-hero"
@@ -202,7 +226,40 @@ export function AltHeroFrame({
   );
 }
 
-const ALT_HERO_CSS = (heroImageSrc: string) => `
+/**
+ * Build a `background-image` CSS expression that prefers AVIF, falls back
+ * to WebP, and finally a plain URL. Mobile (<=1024px) gets a smaller
+ * image-set; desktop uses larger sizes.
+ */
+function buildBackgroundImageExpr(srcSet: HeroImageSet | undefined, fallback: string): {
+  desktop: string;
+  mobile: string;
+} {
+  if (!srcSet || srcSet.sources.length === 0) {
+    const url = `url("${fallback}")`;
+    return { desktop: url, mobile: url };
+  }
+  const sorted = [...srcSet.sources].sort((a, b) => a.width - b.width);
+  const mobilePick = sorted.find((s) => s.width >= 900) ?? sorted[sorted.length - 1];
+  const desktopPick = sorted.find((s) => s.width >= 1200) ?? sorted[sorted.length - 1];
+
+  const pickExpr = (pick: { avif?: string; webp?: string }) => {
+    const items: string[] = [];
+    if (pick.avif) items.push(`url("${pick.avif}") type("image/avif")`);
+    if (pick.webp) items.push(`url("${pick.webp}") type("image/webp")`);
+    if (items.length === 0) return `url("${srcSet.fallback}")`;
+    return `image-set(${items.join(", ")})`;
+  };
+
+  return {
+    desktop: pickExpr(desktopPick),
+    mobile: pickExpr(mobilePick),
+  };
+}
+
+const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
+  const bg = buildBackgroundImageExpr(heroImageSrcSet, heroImageSrc);
+  return `
   html:has(.alt-home-hero),
   body:has(.alt-home-hero) {
     overflow-x: hidden;
@@ -245,7 +302,7 @@ const ALT_HERO_CSS = (heroImageSrc: string) => `
     isolation: isolate;
     color: var(--ivory);
     background-color: #120b06;
-    background-image: url("${heroImageSrc}");
+    background-image: ${bg.desktop};
     background-size: cover;
     background-position: 52% 50%;
     font-family: Georgia, "Times New Roman", serif;
@@ -795,6 +852,7 @@ const ALT_HERO_CSS = (heroImageSrc: string) => `
   @media (max-width: 1024px) {
     .alt-home-hero {
       min-height: 100svh;
+      background-image: ${bg.mobile};
       background-position: 64% 50%;
     }
 
@@ -949,3 +1007,4 @@ const ALT_HERO_CSS = (heroImageSrc: string) => `
     }
   }
 `;
+};
