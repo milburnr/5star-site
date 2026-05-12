@@ -1,0 +1,195 @@
+{
+  "brand": {
+    "name": "5 Star Residential and Commercial Roofing",
+    "location": "Amarillo, TX",
+    "service_area": "Texas Panhandle & all of West & Central Texas",
+    "tone_words": ["warm", "confident", "local", "editorial", "unhurried"]
+  },
+  "colors": {
+    "display_gold": "#D6B274",
+    "accent_gold": "#F5C77A",
+    "gold_bright": "#F1B84F",
+    "gold_warm_bright": "#EEC835",
+    "nav_gold": "#F7E291",
+    "cta_cream": "#F5F0E8",
+    "cta_amber": "#F1C77A",
+    "cta_orange": "#E08A36",
+    "cta_burnt_orange": "#B84A11",
+    "surface_ink": "#050403",
+    "surface_brown_deep": "#120B06",
+    "cta_text_dark": "#2B1810",
+    "text_ivory": "#F2EADB",
+    "primary_gold": "#D6B274",
+    "burnt_orange": "#B84A11",
+    "dark_bg": "#050403",
+    "cream": "#F5F0E8",
+    "text_on_photo": "#F2EADB",
+    "text_primary": "#2B1810",
+    "cta_gradient_from": "#F5F0E8",
+    "cta_gradient_to": "#B84A11",
+    "vertical_rule_text": "rgba(255, 246, 226, 0.92)",
+    "vertical_rule_hairline": "rgba(255, 238, 209, 0.55)"
+  },
+  "typography": {
+    "display_font": "Cormorant, Cormorant Garamond, Bodoni 72 Display, Didot, Times New Roman, serif",
+    "display_weight": 300,
+    "display_opacity_on_photo": 0.56,
+    "display_line_height": 0.82,
+    "display_letter_spacing": "-0.018em",
+    "sub_display_size_ratio": 0.58,
+    "sub_display_opacity": 0.72,
+    "heading_font": "Cormorant Garamond, Georgia, Times New Roman, serif",
+    "heading_weight": 400,
+    "heading_letter_spacing": "-0.018em",
+    "body_font": "Poppins, system-ui, -apple-system, Segoe UI, sans-serif",
+    "body_loading": "system-ui-fallback-only (Poppins NOT loaded globally per PSI rule)",
+    "nav_weight": 500,
+    "nav_letter_spacing": "default (no tracking)",
+    "eyebrow_letter_spacing": "0.18em",
+    "vertical_rule_letter_spacing": "0.22em",
+    "cta_letter_spacing": "0.14em",
+    "cta_weight": 700,
+    "scale_strategy": "viewport-relative clamp() — proportional from 1280→4K, never max-capped in rem so 4K stays readable"
+  },
+  "components": {
+    "cta_border_radius": "999px",
+    "cta_text_color": "#2B1810",
+    "cta_gradient": "linear-gradient(90deg, #F5F0E8 0%, #F1C77A 40%, #E08A36 72%, #B84A11 100%)",
+    "cta_box_shadow": "0 0 44px rgba(184, 74, 17, 0.22), 0 16px 30px rgba(0, 0, 0, 0.36)",
+    "cta_sheen_angle_deg": 115,
+    "cta_sheen_loop_ms": 4200,
+    "cta_icon_size_clamp": "clamp(38px, 2.9vw, 46px)",
+    "cta_arrow_color": "#F5C77A",
+    "cta_arrow_bg": "#2B1810",
+    "hero_overlay_layers_left_heavy": [
+      "radial-gradient(circle at 86% 34%, rgba(255, 174, 45, 0.10), transparent 22%)",
+      "radial-gradient(ellipse 60% 50% at 92% 6%, rgba(0, 0, 0, 0.36), transparent 70%)",
+      "linear-gradient(90deg, rgba(0,0,0,0.66) 0%, rgba(0,0,0,0.40) 30%, rgba(0,0,0,0.10) 60%, rgba(0,0,0,0.04) 80%, rgba(0,0,0,0.02) 100%)",
+      "linear-gradient(180deg, rgba(0,0,0,0.20) 0%, transparent 35%, rgba(0,0,0,0.34) 100%)"
+    ],
+    "hero_overlay_color": "rgba(0, 0, 0, asymmetric)",
+    "hero_overlay_opacity": "asymmetric — heavy left (0.66), light right (0.02)",
+    "vertical_rule_opacity": 0.92,
+    "hairline_rule_opacity": 0.55,
+    "nav_dropdown_bg": "rgba(28, 16, 8, 0.96)",
+    "nav_dropdown_border": "1px solid rgba(238, 200, 53, 0.22)"
+  },
+  "spacing": {
+    "section_major_padding": "clamp(60px, 8vw, 120px)",
+    "section_sub_padding": "clamp(32px, 4vw, 64px)",
+    "content_max_width": "1280px",
+    "gutter_mobile": "24px",
+    "hero_nav_top": "clamp(20px, 2.4vw, 3vw)",
+    "hero_nav_side": "clamp(22px, 2.8vw, 3.5vw)",
+    "hero_display_top": "clamp(74px, 7vw, 9vw)",
+    "hero_display_left": "clamp(30px, 6.7vw, 9vw)",
+    "hero_intro_left": "clamp(42px, 7.3vw, 9vw)",
+    "hero_intro_bottom": "clamp(116px, 14vh, 16vh)",
+    "hero_cta_right": "clamp(40px, 3.2vw, 4vw)",
+    "hero_cta_bottom": "clamp(40px, 4.2vw, 5vw)",
+    "side_rule_left_inset": "clamp(24px, 2.8vw, 48px)",
+    "side_rule_right_inset": "clamp(36px, 4vw, 66px)",
+    "side_rule_column_gap": "6px"
+  },
+  "motion": {
+    "archetype": "magazine cover — confident reveal then stillness",
+    "load_sequence_ms": {
+      "side_rails_slide": { "delay": 220, "duration": 1100, "easing": "cubic-bezier(0.16, 1, 0.3, 1)" },
+      "display_wipe": { "delay": 240, "duration": 1400, "easing": "cubic-bezier(0.7, 0, 0.18, 1)" },
+      "eyebrow_fade_up": { "delay": 350, "duration": 700, "easing": "cubic-bezier(0.16, 1, 0.3, 1)" },
+      "h1_fade_up": { "delay": 550, "duration": 760, "easing": "cubic-bezier(0.16, 1, 0.3, 1)" },
+      "rule_draw_left_to_right": { "delay": 750, "duration": 820, "easing": "cubic-bezier(0.7, 0, 0.2, 1)" },
+      "sub_display_rise": { "delay": 1600, "duration": 800, "easing": "cubic-bezier(0.16, 1, 0.3, 1)" },
+      "cta_sheen_loop": { "loop_period": 4200, "easing": "ease-in-out" }
+    },
+    "reduced_motion": "all keyframe animations are disabled; final visual state preserved",
+    "deferred_for_phase_4_followup": [
+      "Hero photo subtle parallax drift on scroll (5-10px)",
+      "Side rail scroll-parallax: reverse entry slide as user scrolls down (CSS animation-timeline: scroll())"
+    ]
+  },
+  "hero_variants": {
+    "homepage": {
+      "component": "components/heroes/HomeHero.tsx",
+      "display_text": "WEST TEXAS",
+      "display_lines": ["WEST", "TEXAS"],
+      "display_scale": 1.0,
+      "sub_display": null,
+      "right_rule": "AMARILLO, TX",
+      "left_rule_lines": ["Serving the Texas Panhandle", "& all of West & Central Texas"],
+      "eyebrow": "5 Star Residential and Commercial Roofing",
+      "h1_pattern": "Your West Texas Roofing Company",
+      "title_pattern": "5 Star Roofing | Amarillo's Residential & Commercial Roofing Company",
+      "use_on": ["/"]
+    },
+    "location": {
+      "component": "components/heroes/LocationHero.tsx",
+      "display_text": "[CITY]",
+      "sub_display": "[STATE]",
+      "display_scale": 0.55,
+      "right_rule": "[CITY], TX",
+      "left_rule_lines": ["Serving the Texas Panhandle", "& all of West & Central Texas"],
+      "eyebrow": "5 Star Residential and Commercial Roofing",
+      "h1_pattern": "Roofing Company in [City], TX",
+      "title_pattern": "[City] TX Roofing Company | 5 Star Roofing",
+      "props": ["city", "state? (default TEXAS)", "heroImageSrc?"],
+      "use_on": ["/lubbock-tx-roofing/", "/midland-tx-roofing/", "/odessa-tx-roofing/", "..."]
+    },
+    "service": {
+      "component": "components/heroes/ServiceHero.tsx",
+      "display_text": "[SERVICE CATEGORY]",
+      "sub_display": "[SERVICE DESCRIPTOR — optional, only when it adds clarity]",
+      "display_scale": 0.55,
+      "right_rule": "WEST TEXAS",
+      "left_rule_lines": ["Serving the Texas Panhandle", "& all of West & Central Texas"],
+      "eyebrow": "5 Star Residential and Commercial Roofing",
+      "h1_pattern": "[Service] in West Texas",
+      "title_pattern": "[Service] West Texas | 5 Star Roofing",
+      "props": ["service", "serviceDescriptor?", "heroImageSrc?"],
+      "use_on": ["/metal-roofing/", "/hail-damage-repair/", "/tpo-roofing/", "..."]
+    },
+    "service_location": {
+      "component": "components/heroes/ServiceLocationHero.tsx",
+      "display_text": "[CITY]",
+      "sub_display": "[Service]",
+      "display_scale": 0.55,
+      "right_rule": "[CITY], TX",
+      "left_rule_lines": ["Serving the Texas Panhandle", "& all of West & Central Texas"],
+      "eyebrow": "5 Star Residential and Commercial Roofing",
+      "h1_pattern": "[Service] in [City], TX",
+      "title_pattern": "[Service] [City] TX | 5 Star Roofing",
+      "props": ["city", "service", "heroImageSrc?"],
+      "seo_priority": "highest — exact-match SEO target pages",
+      "use_on": ["/hail-damage-repair-lubbock/", "/metal-roofing-midland/", "..."]
+    }
+  },
+  "content_rules": {
+    "stat_bars": "omit — never fabricated, remove if no verified data in client.json",
+    "hero_text": "complete sentences only, no em-dashes, no three-item triplets",
+    "images": "real job photos only on hero and hub pages",
+    "map": "city must match page location — never hardcode",
+    "display_type_on_photo": "semi-transparent, never solid fill — opacity 0.56 default",
+    "display_type_semantic_role": "decorative ONLY (aria-hidden). Real H1 lives in content section below.",
+    "cta_per_page": "one primary CTA only",
+    "cost_claims": "no specific costs unless in pricing_reference_guide",
+    "stat_claims": "no project counts, satisfaction rates, or response times unless in client.json",
+    "fake_brand_seals": "never. The 5 Star logo is the only brand mark. No medallions claiming 'Texas Built Texas Proud' or similar fabricated taglines.",
+    "fake_taglines": "tagline must exist in client.json before it appears on screen"
+  },
+  "scaling_strategy": {
+    "viewport_targets": [
+      { "width": 1280, "note": "smaller laptop — clamp lower bounds engaged" },
+      { "width": 1440, "note": "primary desktop reference" },
+      { "width": 1920, "note": "HD desktop" },
+      { "width": 2560, "note": "wide HD / QHD" },
+      { "width": 3840, "note": "4K — uncapped vw-driven scaling" }
+    ],
+    "approach": "All hero typography uses clamp(min, preferred-vw-driven, max-vw) rather than rem-capped maxes. Result: WEST TEXAS scales from ~96px at 1280 to ~720px at 4K, proportional across the full range.",
+    "overflow_x": "html, body have overflow-x: hidden when alt-home-hero is present, preventing any horizontal scrollbar from rounding errors at extreme widths."
+  },
+  "chat_widget_behavior": {
+    "load_trigger": "defers until user scroll, click, or touchstart (no auto-load timeout)",
+    "implementation": "ChatWidget.tsx — 5s setTimeout fallback was removed in this session",
+    "reason": "previous 5s auto-load was loading the widget on hero-only preview pages where users never scrolled; defer-until-interaction is the cleaner UX and matches Rich's directive"
+  }
+}
