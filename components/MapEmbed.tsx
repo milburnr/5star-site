@@ -44,6 +44,19 @@ export type MapEmbedProps = {
   height?: number;
   /** Suppress the address line below the map. */
   hideAddress?: boolean;
+  /**
+   * When true, render only the <iframe> with no wrapper divs or address line.
+   * Useful for migrating inline embeds where the caller already provides its
+   * own wrapping div for sizing (e.g. <div className="w-full h-[450px] ...">).
+   */
+  unwrapped?: boolean;
+  /**
+   * iframe width attribute as a string (e.g. "100%"). Overrides numeric width.
+   * Useful when callers want responsive iframes inside their own sized wrapper.
+   */
+  widthAttr?: string;
+  /** iframe height attribute as a string (e.g. "100%"). Overrides numeric height. */
+  heightAttr?: string;
 };
 
 function buildEmbedSrc(query?: string, address?: string, city?: string): string {
@@ -64,26 +77,36 @@ export function MapEmbed({
   width = 600,
   height = 450,
   hideAddress = false,
+  unwrapped = false,
+  widthAttr,
+  heightAttr,
 }: MapEmbedProps) {
   const src = buildEmbedSrc(query, address, city);
   const isHQ = !city && !address && !query;
   const shownAddress = displayAddress ?? (isHQ ? AMARILLO_HQ_ADDRESS : address ?? city ?? "");
+  const title = isHQ ? "Map of 5 Star Roofing — Amarillo office" : `Map of ${shownAddress}`;
+
+  const iframe = (
+    <iframe
+      src={src}
+      width={widthAttr ?? width}
+      height={heightAttr ?? height}
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      className={unwrapped ? undefined : iframeClassName}
+      title={title}
+    />
+  );
+
+  if (unwrapped) {
+    return iframe;
+  }
 
   return (
     <div className={className}>
-      <div className="flex justify-center">
-        <iframe
-          src={src}
-          width={width}
-          height={height}
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          className={iframeClassName}
-          title={isHQ ? "Map of 5 Star Roofing — Amarillo office" : `Map of ${shownAddress}`}
-        />
-      </div>
+      <div className="flex justify-center">{iframe}</div>
       {!hideAddress && shownAddress && (
         <div className="text-center mt-6">
           <p className="text-lg text-gray-700 mb-2">
