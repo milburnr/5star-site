@@ -1,6 +1,9 @@
 import { ArrowRight } from "lucide-react";
 import { MobileMenu } from "@/components/MobileMenu";
+import { Breadcrumb } from "@/components/Breadcrumb";
 import cityHeroMapJson from "@/public/images/heroes/city-hero-map.json";
+
+export type BreadcrumbItem = { name: string; url: string };
 
 /**
  * Map of city slug → basename for pre-optimized hero variants in
@@ -94,6 +97,14 @@ export type AltHeroFrameProps = {
    */
   displayScale?: number;
   /**
+   * Optional breadcrumb trail. When provided, renders an absolutely
+   * positioned breadcrumb overlay at the top of the hero (above the nav
+   * baseline visually but stacked below it for click priority). Uses the
+   * Breadcrumb component's `on-photo` tone + `bare` mode. Pages without a
+   * hero photo should keep their body-rendered <Breadcrumb> instead.
+   */
+  breadcrumbItems?: BreadcrumbItem[];
+  /**
    * Where the page-level <main> content begins below the hero. Optional —
    * used by variant pages to inject a content section under the hero.
    */
@@ -119,6 +130,7 @@ export function AltHeroFrame({
   ctaText,
   ctaHref = "/contact/",
   displayScale = 1,
+  breadcrumbItems,
   children,
 }: AltHeroFrameProps) {
   const displayLines = Array.isArray(displayText)
@@ -203,6 +215,12 @@ export function AltHeroFrame({
 
           <MobileMenu />
         </nav>
+
+        {breadcrumbItems && breadcrumbItems.length > 0 && (
+          <div className="alt-hero-breadcrumb">
+            <Breadcrumb items={breadcrumbItems} bare tone="on-photo" />
+          </div>
+        )}
 
         {/* Decorative display type — aria-hidden so screen readers skip it
             and reach the real H1 below. */}
@@ -540,6 +558,20 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
 
   .alt-mobile-menu {
     display: none;
+  }
+
+  /* Breadcrumb overlay — sits just below the floating nav, anchored to the
+     hero edge. Uses on-photo tone (white text + drop-shadow). Subtle gradient
+     scrim improves legibility without dominating the hero. */
+  .alt-hero-breadcrumb {
+    position: absolute;
+    top: clamp(78px, 7.4vw, 100px);
+    left: clamp(22px, 2.8vw, 3.5vw);
+    right: clamp(22px, 2.8vw, 3.5vw);
+    z-index: 2;
+    pointer-events: auto;
+    padding: 8px 0 12px;
+    font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
   }
 
   .alt-headline {
@@ -913,6 +945,13 @@ const ALT_HERO_CSS = (heroImageSrc: string, heroImageSrcSet?: HeroImageSet) => {
       top: clamp(28px, 4.3vh, 40px);
       left: clamp(24px, 5.2vw, 34px);
       right: clamp(24px, 5.2vw, 34px);
+    }
+
+    .alt-hero-breadcrumb {
+      top: clamp(78px, 11vh, 96px);
+      left: clamp(24px, 5.2vw, 34px);
+      right: clamp(24px, 5.2vw, 34px);
+      padding: 6px 0 10px;
     }
 
     .alt-brand {

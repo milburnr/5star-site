@@ -1,4 +1,4 @@
-import { AltHeroFrame } from "./AltHeroFrame";
+import { AltHeroFrame, type BreadcrumbItem } from "./AltHeroFrame";
 
 /**
  * VARIANT C — Service page hero (e.g. /metal-roofing/, /hail-damage-repair/).
@@ -33,6 +33,8 @@ export type ServiceHeroProps = {
   ctaText?: string;
   /** CTA href. Defaults to /contact/. */
   ctaHref?: string;
+  /** Optional breadcrumb trail overlayed at top of hero. */
+  breadcrumbItems?: BreadcrumbItem[];
 };
 
 export function ServiceHero({
@@ -43,6 +45,7 @@ export function ServiceHero({
   eyebrowOverride = DEFAULT_EYEBROW,
   ctaText = "Get Your Free Roof Inspection",
   ctaHref = "/contact/",
+  breadcrumbItems,
 }: ServiceHeroProps) {
   return (
     <AltHeroFrame
@@ -56,6 +59,7 @@ export function ServiceHero({
       ctaText={ctaText}
       ctaHref={ctaHref}
       displayScale={0.55}
+      breadcrumbItems={breadcrumbItems}
     />
   );
 }

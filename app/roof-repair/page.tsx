@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 import {
@@ -172,15 +171,12 @@ export default function Page() {
         service="Roof Repair"
         h1="Roof Repair in West Texas"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
-      />
-
-      <Breadcrumb
-        items={[
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Roof Repair", url: "/roof-repair/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}

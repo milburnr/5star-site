@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import { MaterialBrands } from "@/components/MaterialBrands";
 import { Check, Trophy, Zap } from "lucide-react";
@@ -117,10 +116,8 @@ export default function Page() {
         service="Residential Roofing"
         h1="Residential Roofing in West Texas"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential.jpg"
-      />
-
-      <Breadcrumb
-        items={[
+      
+      breadcrumbItems={[
           {
             name: "Home",
             url: "/",
@@ -130,7 +127,7 @@ export default function Page() {
             url: "/residential-roofing/",
           },
         ]}
-      />
+    />
       {/* Schema.org Structured Data */}
       <script
         type="application/ld+json"

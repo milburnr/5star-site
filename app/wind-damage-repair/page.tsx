@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -212,16 +211,13 @@ export default function Page() {
         service="Wind Damage Repair"
         h1="Wind Damage Repair in West Texas"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-odessa-2-1280w.jpg"
-      />
-
-      <Breadcrumb
-        items={[
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services/" },
           { name: "Wind Damage Repair", url: "/wind-damage-repair/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}

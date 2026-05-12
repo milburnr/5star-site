@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/FadeIn";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import { InteriorHeroSection } from "@/components/InteriorHeroSection";
 import RelatedArticles from "@/components/RelatedArticles";
 
@@ -234,16 +233,13 @@ export default function Page() {
         service="Asphalt Shingle Roofing"
         h1="Asphalt Shingle Roofing in West Texas"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/completed/completed-amarillo-3-1280w.webp"
-      />
-
-      <Breadcrumb
-        items={[
+      
+      breadcrumbItems={[
           { name: "Home", url: "/" },
           { name: "Services", url: "/services/" },
           { name: "Asphalt Shingle Roofing", url: "/asphalt-shingle-roofing/" },
         ]}
-      />
-
+    />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
