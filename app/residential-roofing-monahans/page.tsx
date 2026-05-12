@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
-import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { StickyContactBar } from "@/components/StickyContactBar";
@@ -50,16 +49,7 @@ export const metadata: Metadata = {
 
 export default function ResidentialRoofingMonahansPage() {
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Residential Roofing", url: "/residential-roofing/" },
-          { name: "Monahans", url: "/residential-roofing-monahans/" },
-        ]}
-      />
-
-      {/* Sticky Contact Bar */}
+    <>      {/* Sticky Contact Bar */}
       <StickyContactBar />
 
       <script
@@ -159,11 +149,18 @@ export default function ResidentialRoofingMonahansPage() {
 
             <InteriorHeroSection
         heroVariant="service-location"
+        citySlug="midland"
         city="Monahans"
         service="Residential Roofing"
         h1="Residential Roofing in Monahans, TX"
         image="https://pub-797574ea9b1b4ccda73d4f6afb5d90d5.r2.dev/images/heroes/hero-residential-1920w.webp"
-      />
+      
+      breadcrumbItems={[
+          { name: "Home", url: "/" },
+          { name: "Residential Roofing", url: "/residential-roofing/" },
+          { name: "Monahans", url: "/residential-roofing-monahans/" },
+        ]}
+    />
 
       <FadeIn>
         <section className="py-16 bg-gradient-to-b from-amber-50 to-white">

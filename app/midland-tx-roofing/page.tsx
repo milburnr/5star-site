@@ -52,6 +52,7 @@ export default function MidlandRoofingPage() {
 
       <InteriorHeroSection
         heroVariant="location"
+        citySlug="midland"
         city="Midland"
         state="TEXAS"
         h1="Roofing Company in Midland, TX"
