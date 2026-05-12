@@ -27,6 +27,7 @@ import {
   Zap,
 } from "lucide-react";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/lubbock-tx-roofing/" },
   title: "Lubbock TX Roofing | Storm Damage & Hail Repair | 5 Star",
@@ -835,16 +836,7 @@ export default function LubbockRoofingPage() {
 
               {/* Google Map Embed */}
               <div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "400px" }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d419875.5470997!2d-101.9897!3d33.5779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12add1dad94b%3A0x2a20f4a640654f2!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="5 Star Commercial Roofing Service Area in Lubbock, TX"
-                ></iframe>
+                <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Lubbock, TX" />
               </div>
             </div>
           </section>

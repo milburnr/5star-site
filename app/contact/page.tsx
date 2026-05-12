@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { ReviewsSection } from "@/components/page-sections/ReviewsSection";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/contact/" },
   title: "Contact Us | 5 Star Roofing | Amarillo, TX",
@@ -298,17 +299,7 @@ export default function ContactPage() {
               Visit Our Location
             </h2>
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-gold/20">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5244!2d-101.8552!3d35.1849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x870148d5b5e5b5b5%3A0x5e5e5e5e5e5e5e5e!2s2909%20S%20Western%20St%2C%20Amarillo%2C%20TX%2079109!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
-                width="100%"
-                height="500"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="5 Star Commercial Roofing Location Map"
-                className="w-full"
-              ></iframe>
+              <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" />
             </div>
           </section>
         </div>

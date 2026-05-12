@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import RelatedArticles from "@/components/RelatedArticles";
 
+import MapEmbed from "@/components/MapEmbed";
 export const metadata: Metadata = {
   alternates: { canonical: "https://5starroofingpros.com/midland-tx-roofing/" },
   title: "Midland TX Roofing Contractor | 5 Star Roofing",
@@ -858,16 +859,7 @@ export default function MidlandRoofingPage() {
 
               {/* Google Map Embed */}
               <div className="rounded-lg overflow-hidden shadow-lg" style={{ height: "450px" }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.5!2d-102.0780!3d32.0100!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMidland%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Midland, TX Roofing Service Area"
-                ></iframe>
+                <MapEmbed unwrapped widthAttr="100%" heightAttr="100%" city="Midland, TX" />
               </div>
             </div>
           </section>
