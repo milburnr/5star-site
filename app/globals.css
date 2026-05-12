@@ -456,41 +456,102 @@
     @apply text-red-600 font-semibold text-center p-3 bg-red-50 rounded-md border border-red-200;
   }
 
-  /* Sticky Contact Bar — 2026-05-09 Block 4 Phase 3 design review pass 2:
-     pass 1 routed brown→orange-700→gold-vibrant to escape the muddy
-     yellow-olive midpoint of the original brown→gold gradient, but the
-     dark brand-brown anchor on the left edge still rendered as
-     desaturated muddy in the strip's compressed vertical context.
-     Dropping the dark anchor: amber-500 → orange-500 reads as warm
-     and saturated end-to-end across the full bar width without any
-     low-sat midpoint. Two-stop is sufficient here — the strip is too
-     thin to need a via-stop. */
+  /* Sticky Contact Bar — 2026-05-12 editorial dark-glass redesign:
+     replaces the previous amber-500 → orange-500 gradient (which clashed
+     with the editorial dark-theme + cream/burnt-orange brand palette).
+     Now uses a translucent dark-bg + backdrop-blur container with a
+     hairline top border, and a tighter version of the global cta-primary
+     gradient pill so the CTA matches every other primary CTA on the
+     site. Text uses brand cream at light weight. */
   .sticky-contact-bar {
-    @apply fixed bottom-0 left-0 right-0 bg-gradient-to-r from-amber-500 to-orange-500 text-white py-4 px-4 shadow-2xl transition-transform duration-300 z-50;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    background-color: rgba(5, 4, 3, 0.8); /* var(--color-dark-bg) at 80% */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.75rem 1rem;
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.35);
+    transition: transform 300ms ease;
+  }
+  @media (min-width: 768px) {
+    .sticky-contact-bar {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
   }
 
   .sticky-contact-bar.hidden {
-    @apply translate-y-full;
+    transform: translateY(100%);
   }
 
   .sticky-contact-bar.visible {
-    @apply translate-y-0;
+    transform: translateY(0);
   }
 
   .sticky-contact-content {
-    @apply container-custom flex flex-col sm:flex-row items-center justify-center gap-4;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  @media (min-width: 640px) {
+    .sticky-contact-content {
+      flex-direction: row;
+      gap: 1rem;
+    }
   }
 
   .sticky-contact-text {
-    @apply text-lg font-semibold;
+    color: var(--color-cream);
+    font-weight: 300;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
   }
 
+  /* Tighter variant of .cta-primary tuned for the sticky-bar context.
+     Inherits the same gradient pill as the global primary CTA. */
   .sticky-contact-button {
-    @apply bg-white text-brand-brown px-6 py-3 rounded-md font-bold hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 flex items-center gap-2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0.55rem 1.25rem;
+    border: 1px solid rgba(255, 207, 116, 0.55);
+    border-radius: 999px;
+    background: var(--cta-gradient);
+    box-shadow: var(--cta-shadow);
+    color: var(--color-cta-text-dark);
+    font-family: var(--font-system-ui);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:
+      filter 220ms ease,
+      transform 220ms ease,
+      box-shadow 220ms ease;
+  }
+  .sticky-contact-button:hover {
+    color: var(--color-cta-text-dark);
+    filter: brightness(1.06) saturate(1.05);
+    transform: translateY(-1px);
+  }
+  .sticky-contact-button:active {
+    transform: translateY(0);
   }
 
   .sticky-contact-icon {
-    @apply text-xl;
+    font-size: 1rem;
+    line-height: 1;
   }
 
   /* CTA Hierarchy - Primary CTAs stand out more */
