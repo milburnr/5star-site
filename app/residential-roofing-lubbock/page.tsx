@@ -155,7 +155,7 @@ export default function ResidentialRoofingLubbockPage() {
                 name: "How much does residential roof replacement cost in Lubbock?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Typical costs range from $7,000-$22,000 for most Lubbock homes, with the median home ($245,000 value) requiring $12,000-$16,000 for complete replacement. However, most Lubbock projects are insurance-covered hail damage claims where homeowners pay only their deductible ($1,000-$2,500). We maximize insurance coverage to minimize out-of-pocket costs.",
+                  text: "Typical costs range from - for most Lubbock homes, with the median home (,000 value) requiring - for complete replacement. However, most Lubbock projects are insurance-covered hail damage claims where homeowners pay only their deductible (-). We maximize insurance coverage to minimize out-of-pocket costs.",
                 },
               },
               {
@@ -171,7 +171,7 @@ export default function ResidentialRoofingLubbockPage() {
                 name: "Why do Lubbock homes need Class 4 impact-resistant shingles?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Lubbock County experiences frequent severe hail, with recent events producing 2.75-4.00 inch hail (baseball to softball size). Class 4 shingles withstand 2-inch impacts without cracking, reducing future damage by 90%. They qualify for 10-30% insurance premium discounts and typically pay for themselves within 5-7 years through avoided claims.",
+                  text: "Lubbock County experiences frequent severe hail, with recent events producing 2.75-4.00 inch hail (baseball to softball size). Class 4 shingles withstand 2-inch impacts without cracking, reducing future damage by . They qualify for 10-30% insurance premium discounts and typically pay for themselves within 5-7 years through avoided claims.",
                 },
               },
               {
@@ -203,7 +203,7 @@ export default function ResidentialRoofingLubbockPage() {
                 name: "What financing options are available for Lubbock homeowners?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "For out-of-pocket projects, we offer 0% financing options through our lending partners. Many Tech faculty and staff qualify for educator discounts. Additionally, Lubbock's median home value ($245,000) makes HELOC options attractive, with most homeowners having substantial equity. We help evaluate the best financing approach for your situation.",
+                  text: "For out-of-pocket projects, we offer 0% financing options through our lending partners. Many Tech faculty and staff qualify for educator discounts. Additionally, Lubbock's median home value () makes HELOC options attractive, with most homeowners having substantial equity. We help evaluate the best financing approach for your situation.",
                 },
               },
             ],
@@ -272,7 +272,7 @@ export default function ResidentialRoofingLubbockPage() {
               We've protected over 800 Lubbock homes with premium Class 4 shingles
               designed to withstand 2-inch hail impacts. From historic Tech Terrace bungalows to
               modern Raider Ranch estates, we serve every neighborhood in Lubbock County. We handle
-              100% of insurance claims paperwork, secure all City of Lubbock building permits, and
+               of insurance claims paperwork, secure all City of Lubbock building permits, and
               deliver expert installation in 1-3 days. Most homeowners pay only their insurance
               deductible when hail damage is covered—typically $1,000-$2,500 for a complete roof
               replacement worth $12,000-$16,000 on Lubbock's median $245,000 homes.
@@ -294,7 +294,7 @@ export default function ResidentialRoofingLubbockPage() {
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-md border-l-4 border-red-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Tech Terrace</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Median Home Price:</strong> $275,000
+                  <strong>Median Home Price:</strong> 
                   <br />
                   <strong>Established:</strong> 1920s-1950s
                   <br />
@@ -312,7 +312,7 @@ export default function ResidentialRoofingLubbockPage() {
               <div className="bg-gradient-to-br from-red-50 to-white p-6 rounded-xl shadow-md border-l-4 border-red-600">
                 <h3 className="text-xl font-bold text-brand-brown mb-3">Raider Ranch</h3>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Home Prices:</strong> $350K-$750K
+                  <strong>Home Prices:</strong> K-K
                   <br />
                   <strong>Location:</strong> Southwest Lubbock
                   <br />
@@ -333,7 +333,7 @@ export default function ResidentialRoofingLubbockPage() {
                   <br />
                   <strong>Rental Market:</strong> High Density
                   <br />
-                  <strong>Average Rent:</strong> $1,129/month
+                  <strong>Average Rent:</strong> /month
                 </p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   Surrounding Texas Tech campus with mix of student rentals and faculty housing.
@@ -382,8 +382,8 @@ export default function ResidentialRoofingLubbockPage() {
                   Insurance Claim Masters
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  80% of our Lubbock projects are hail damage insurance claims. We document every
-                  impact, meet with adjusters on-site, and advocate for maximum coverage. Our 95%+
+                   of our Lubbock projects are hail damage insurance claims. We document every
+                  impact, meet with adjusters on-site, and advocate for maximum coverage. Our +
                   approval rate means homeowners get new roofs for only their deductible. We've
                   processed over 600 Lubbock claims with all major carriers.
                 </p>

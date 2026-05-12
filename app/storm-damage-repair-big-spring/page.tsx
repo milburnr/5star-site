@@ -244,7 +244,7 @@ export default function StormDamageRepairBigSpringPage() {
                       • <strong>Elevation:</strong> 2,400+ feet above sea level
                     </li>
                     <li>
-                      • <strong>UV Intensity:</strong> 15% higher than coastal areas
+                      • <strong>UV Intensity:</strong>  higher than coastal areas
                     </li>
                     <li>
                       • <strong>Wind Exposure:</strong> Minimal natural windbreaks

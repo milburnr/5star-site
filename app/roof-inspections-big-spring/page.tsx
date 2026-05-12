@@ -203,7 +203,7 @@ export default function RoofInspectionsBigSpringPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">100%</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -713,7 +713,7 @@ export default function RoofInspectionsBigSpringPage() {
                   <li>• Highway 87 corridor</li>
                 </ul>
                 <ul className="space-y-2">
-                  <li>• Interstate 20 properties</li>
+                  <li>• Interstate </li>
                   <li>• Airport Road area</li>
                   <li>• Comanche Trail Park region</li>
                   <li>• McMahon-Wrinkle Airpark</li>

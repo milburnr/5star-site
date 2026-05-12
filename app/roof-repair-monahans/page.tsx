@@ -962,7 +962,7 @@ export default function RoofRepairMonahansPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center text-brand-brown">
-              What Specialized Roofing Services Are Available in Monahans?
+              What commercial roofing Are Available in Monahans?
             </h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">

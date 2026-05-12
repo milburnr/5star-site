@@ -263,7 +263,7 @@ export default function RoofReplacementSnyderPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Energy Industry Roofing Solutions Involve?
+              What Does Energy Industry roof system Involve?
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">

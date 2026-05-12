@@ -204,7 +204,7 @@ export default function RoofInspectionsLevellandPage() {
                 <div className="text-brand-brown font-semibold text-lg">Hailstorms/Year</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <div className="text-4xl font-bold text-brand-gold mb-3">100%</div>
+                <div className="text-4xl font-bold text-brand-gold mb-3"></div>
                 <div className="text-brand-brown font-semibold text-lg">Insurance Approved</div>
               </div>
               <div className="bg-white p-8 rounded-2xl shadow-lg">

@@ -243,7 +243,7 @@ export default function RoofInspectionsSnyderPage() {
             <div className="w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108000!2d-100.92!3d32.72!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f91a92e0d0e0e0%3A0x0!2sSnyder%2C%20TX!5e0!3m2!1sen!2sus!4v1736532000000!5m2!1sen!2sus"
-                width="100%"
+                width=""
                 height="450"
                 style={{ border: 0 }}
                 allowFullScreen
@@ -539,7 +539,7 @@ export default function RoofInspectionsSnyderPage() {
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4 text-gray-700">
                   Regular inspections identify small problems before they become expensive failures.
-                  A $200 inspection can prevent a $20,000 roof replacement by catching issues early.
+                  A  inspection can prevent a $20,hundreds of roofs across the Panhandle replacement by catching issues early.
                   Our maintenance recommendations extend roof life, reduce energy costs, and prevent
                   water damage that can cost tens of thousands in interior repairs and business
                   interruption.

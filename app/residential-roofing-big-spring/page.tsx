@@ -557,7 +557,7 @@ export default function ResidentialRoofingBigSpringPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2 mt-1">•</span>
-                      <span>Quick approval process (often same-day)</span>
+                      <span>Quick approval process (often Free estimates, scheduled at your convenience.)</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-brand-gold mr-2 mt-1">•</span>
@@ -574,17 +574,17 @@ export default function ResidentialRoofingBigSpringPage() {
                 <h3 className="text-2xl font-bold mb-4">Big Spring Insurance Claim Statistics</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div>
-                    <div className="text-3xl font-bold mb-2">78%</div>
+                    <div className="text-3xl font-bold mb-2"></div>
                     <div className="text-sm opacity-90">
                       of Big Spring projects are insurance claims
                     </div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold mb-2">$1,500</div>
+                    <div className="text-3xl font-bold mb-2"></div>
                     <div className="text-sm opacity-90">average homeowner out-of-pocket cost</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold mb-2">95%</div>
+                    <div className="text-3xl font-bold mb-2"></div>
                     <div className="text-sm opacity-90">successful claim approval rate</div>
                   </div>
                 </div>
@@ -607,9 +607,9 @@ export default function ResidentialRoofingBigSpringPage() {
                   How much does roof replacement cost in Big Spring?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Residential roof replacement in Big Spring typically costs $12,000-$28,000 for
+                  Residential roof replacement in Big Spring typically costs - for
                   average homes. However, most Big Spring projects are insurance claims due to storm
-                  damage, meaning homeowners pay only their deductible ($1,000-$2,500). The
+                  damage, meaning homeowners pay only their deductible (-). The
                   insurance company covers the remaining replacement cost for covered damage.
                 </AccordionContent>
               </AccordionItem>
@@ -625,7 +625,7 @@ export default function ResidentialRoofingBigSpringPage() {
                   rating available. They withstand 2-inch steel balls dropped from 20 feet without
                   cracking. Big Spring's location in West Texas hail country makes Class 4 shingles
                   essential protection. Texas insurance companies offer premium discounts of 10-30%
-                  for Class 4 installations, typically saving Big Spring homeowners $300-600
+                  for Class , typically saving Big Spring homeowners -600
                   annually.
                 </AccordionContent>
               </AccordionItem>

@@ -257,7 +257,7 @@ export default function ResidentialRoofingSnyderPage() {
         <FadeIn>
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-8 text-brand-brown">
-              What Does Rolling Plains Roofing Solutions Involve?
+              What Does Rolling Plains roof system Involve?
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">

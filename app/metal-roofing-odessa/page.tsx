@@ -506,7 +506,7 @@ export default function MetalRoofingOdessaPage() {
                       <div>
                         <h4 className="font-bold text-brand-brown">Ultra-High Reflectance</h4>
                         <p className="text-gray-600">
-                          Premium cool roof coatings reflect 80%+ of solar radiation, critical in
+                          Premium cool roof coatings reflect + of solar radiation, critical in
                           Odessa's intense heat environment.
                         </p>
                       </div>
@@ -543,7 +543,7 @@ export default function MetalRoofingOdessaPage() {
                   </h3>
                   <div className="space-y-6">
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-black mb-2">40%</div>
+                      <div className="text-3xl font-bold text-black mb-2"></div>
                       <p className="text-gray-700">Peak Cooling Load Reduction</p>
                     </div>
                     <div className="text-center">
@@ -551,7 +551,7 @@ export default function MetalRoofingOdessaPage() {
                       <p className="text-gray-700">Surface Temperature Difference</p>
                     </div>
                     <div className="text-center">
-                      <div className="text-3xl font-bold text-black mb-2">$1,000+</div>
+                      <div className="text-3xl font-bold text-black mb-2">+</div>
                       <p className="text-gray-700">Annual Savings Potential</p>
                     </div>
                   </div>

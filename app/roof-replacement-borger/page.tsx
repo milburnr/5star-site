@@ -190,7 +190,7 @@ export default function RoofReplacementBorgerPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing provides full roof replacement in Borger TX and Hutchinson County — asphalt shingles, metal systems, and flat roof installations with free estimates and insurance claim support.
+              5 Star Roofing provides full roof replacement in Borger TX and Hutchinson County, asphalt shingles, metal systems, and flat roof installations with free estimates and insurance claim support.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/roof-replacement/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Replacement</a>

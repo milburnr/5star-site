@@ -163,7 +163,7 @@ export default function RoofReplacementMidlandPage() {
                 name: "How much does roof replacement cost in Midland?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Residential: $12,000-$42,000 depending on size and materials. Commercial/Industrial: $20,000-$200,000+ for oil company facilities. Most Midland replacements are insurance-covered hail damage where property owners pay only deductible ($1,000-$3,500).",
+                  text: "Residential: - depending on size and materials. Commercial/Industrial: $20,000-$200,000+ for oil company facilities. Most Midland replacements are insurance-covered hail damage where property owners pay only deductible ($1,000-$3,500).",
                 },
               },
               {
@@ -326,15 +326,15 @@ export default function RoofReplacementMidlandPage() {
                   <ul className="space-y-2">
                     <li className="flex justify-between">
                       <span>2010-2020 (Shale Boom):</span>
-                      <strong className="text-brand-gold">38%</strong>
+                      <strong className="text-brand-gold"></strong>
                     </li>
                     <li className="flex justify-between">
                       <span>1980s-1990s (Oil Prosperity):</span>
-                      <strong className="text-brand-gold">35%</strong>
+                      <strong className="text-brand-gold"></strong>
                     </li>
                     <li className="flex justify-between">
                       <span>1960s-1970s (Development Era):</span>
-                      <strong className="text-brand-gold">27%</strong>
+                      <strong className="text-brand-gold"></strong>
                     </li>
                   </ul>
                 </div>
@@ -476,7 +476,7 @@ export default function RoofReplacementMidlandPage() {
                       Basin temperature extremes.
                     </p>
                     <p className="text-lg font-bold text-green-600 mt-2">
-                      $12,000 - $19,000 (typical home)
+                      $12,000 -  (typical home)
                     </p>
                   </div>
 
@@ -491,7 +491,7 @@ export default function RoofReplacementMidlandPage() {
                       housing.
                     </p>
                     <p className="text-lg font-bold text-green-600 mt-2">
-                      $17,000 - $34,000 (typical home)
+                       -  (typical home)
                     </p>
                   </div>
 
@@ -600,8 +600,8 @@ export default function RoofReplacementMidlandPage() {
                   How much does roof replacement cost in Midland?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-700 leading-relaxed">
-                  Residential: $8,000-$25,000 depending on size and materials. Commercial:
-                  $15,000-$100,000+ depending on building size. 85% of replacements are
+                  Residential: - depending on size and materials. Commercial:
+                  -+ depending on building size.  of replacements are
                   insurance-covered hail damage where property owners pay only their deductible.
                 </AccordionContent>
               </AccordionItem>

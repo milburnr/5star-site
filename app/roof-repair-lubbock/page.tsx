@@ -193,7 +193,7 @@ export default function RoofRepairLubbockPage() {
           <section className="mb-10 max-w-5xl mx-auto bg-amber-50 border-l-4 border-brand-gold rounded-r-2xl p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-brand-gold mb-2">Quick Summary</p>
             <p className="text-gray-800 font-medium leading-relaxed">
-              5 Star Roofing repairs roofs throughout Lubbock TX — hail damage documentation, wind uplift repair, shingle replacement, and emergency repairs for homes and businesses on the South Plains.
+              5 Star Roofing repairs roofs throughout Lubbock TX, hail damage documentation, wind uplift repair, shingle replacement, and emergency repairs for homes and businesses on the South Plains.
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a href="/roof-repair/" className="text-brand-brown font-semibold hover:text-brand-gold transition-colors">← All Roof Repair</a>
